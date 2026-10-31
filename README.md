@@ -29,7 +29,10 @@ The texts belong to Project Madurai and its contributors. They are not relicense
 | `data/text/` | Plain text for mining, one file per Unicode page |
 | `data/raw/` | Unmodified HTML, PDF and images, laid out as under `/pm_etexts/` |
 | `data/source/` | The list of works, sitemap, robots.txt and site info pages |
-| `scripts/` | `crawl.py` and `extract.py` |
+| `data/catalog/pdf_review.csv` | Review sheet for every PDF, with its grade and readable source |
+| `data/pdf_text/` | Text of the PDFs graded usable; pages split by form feed |
+| `kg/` | Knowledge graph nodes and edges, plus reading marks |
+| `scripts/` | `crawl.py`, `extract.py`, `pdf_review.py` and `build_graph.py` |
 
 ## Coverage
 
@@ -69,13 +72,55 @@ The texts belong to Project Madurai and its contributors. They are not relicense
   plain lines.
 - **Author and genre:** 45 rows have no author, and some authors are not people, such as
   `விவிலியம்` (the Bible). `genre_path` splits the genre on its dash.
-- **PDFs have no extracted text.** Use `data/text/` for mining. Every row with a file has
-  Unicode text, so the PDFs are for reference.
+- **Most PDF text is garbled.** Old Tamil fonts make PDFs look right on screen but decode to
+  the wrong characters. Of 1,308 PDFs (115,172 pages), 1,272 are graded `garbled` and 36
+  `usable`. Don't mine the PDFs' text layers directly. See "Reviewing the PDFs".
 - **`language_hint`** comes only from the share of Tamil characters: `ta` at 0.3 or above,
   `en` below 0.05, otherwise `mixed`. Translations often have the Tamil title in the list
   and English text in the file.
 - **Known exceptions:** `pmuni0143_03` has no licence header at source, and `pmuni0278_03`
   and `pmuni0278_04` contain a few invalid bytes at source.
+
+## Reviewing the PDFs
+
+The PDFs are in `data/raw/pdf/`. `data/catalog/pdf_review.csv` has one row per PDF, with its
+title, author, grade and blank `review_status` and `review_notes` columns.
+
+- `read_from` gives the machine-readable text for each PDF: `data/pdf_text/` for usable PDFs,
+  and otherwise the linked Unicode text in `data/text/`.
+- `word_match` is the share of the PDF's words found in the linked Unicode text. A PDF is
+  `usable` at 0.85 or above. Some garbled PDFs score 0.7 to 0.85 because English sections
+  match while Tamil sections do not.
+- The grade tests the text layer, not whether the PDF and Unicode versions are the same
+  edition. One page, from `pm0001.pdf`, was compared by eye and matched.
+
+## Knowledge graph
+
+`kg/nodes.jsonl` and `kg/edges.jsonl` hold two layers. Use the `layer` field to tell them
+apart.
+
+- **`catalog`** covers every row: works, listed authors, genres and files. It comes from the
+  list of works, not from reading the texts.
+- **`marks`** is a pilot of entities and relations marked by reading the opening of four
+  texts: `pmuni1090`, `pmuni0202`, `pmuni0143_01` and `pmuni0153`. Marks are not exhaustive,
+  and all have status `proposed` until reviewed.
+
+To review marks, use `kg/marks/marks_review.csv`. To add or change them, edit
+`kg/marks/pilot_source.json` and rebuild. The build stops if a quote is not found exactly in
+the cited text, so each mark can be traced to its source. A relation's `assertion` separates
+what a text states from a `traditional_claim` it reports.
+
+```bash
+python3 -I scripts/build_graph.py
+```
+
+Entity identity is not resolved between layers yet: `AuthorString` nodes hold raw names, and
+`Person` nodes exist only in the marks layer.
+
+## Security
+
+See [SECURITY.md](SECURITY.md) for the dependency review and the PDF structure check. Treat
+the PDFs as untrusted files.
 
 ## Reading a text
 
@@ -95,7 +140,8 @@ body, _, footer = rest.partition("=== FOOTER ===")
 
 ## Rebuilding
 
-The scripts use only the Python standard library. The crawler waits 0.5 seconds between
+`pdf_review.py` needs the hash-pinned package in `requirements.txt`. The other scripts use
+only the Python standard library. The crawler waits 0.5 seconds between
 requests and skips files it already has, so it can be stopped and restarted.
 
 ```bash
