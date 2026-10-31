@@ -1,0 +1,648 @@
+{
+  "rows": 1283,
+  "files_ok": 2719,
+  "files_by_kind": {
+    "image": 28,
+    "pdf": 1308,
+    "tscii_html": 1,
+    "unicode_html": 1382
+  },
+  "bytes_by_kind": {
+    "tscii_html": 14471,
+    "unicode_html": 475342812,
+    "pdf": 569406565,
+    "image": 1302079
+  },
+  "catalog_match": {
+    "none": 28,
+    "row_link": 2638,
+    "inferred": 53
+  },
+  "failures_by_source": {
+    "list_or_page": 72,
+    "sitemap": 36,
+    "guess": 4
+  },
+  "failures_list_or_page": [
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/",
+      "error": "HTTP 403"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni073.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0747.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0839.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0840.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0841.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0850.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0861.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0862.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0863.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0923.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0924.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0285.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0601_02.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0747.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0804_01.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0804_02.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0805_01.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0805_02.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0807_01.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0807_02.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0820_01.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0820_02.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0850.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0861.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0862.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0863.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0870_01.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0870_02.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0923.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0924.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm090.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm1011.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm1064_01.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm1065_02.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/abilogo.gif",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni003_02.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0044.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0044/part3.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/mp169end.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/psindex.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/sq.gif",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/blbll.gif",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/ponniyin3a_fig1.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/ponniyin3a_fig2.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/ponniyin31_map1.gif",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/ponniyin31_map2.gif",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/ponniyin31_map3.gif",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni01043.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/figure1_jainsign.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/komukayakshakan.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0003.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/796_kulothungan1.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig_1011a_chola_dynasty.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig_1011b_chola_dynasty.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig_1011_01.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig_1011_02.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig_1011_03.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig_cerkai3.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/scheme_6_1.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/scheme_7_1.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/scheme_7_2.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig1.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig2.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig3.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig4.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig5.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig6.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig7.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig8.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig9.jpg",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/fig10.jpg",
+      "error": "HTTP 404"
+    }
+  ],
+  "failures_sitemap": [
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm01666_02.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0166_03.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/tscii/pmtsc0206",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/tscii/pmtsc0221",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0223.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0291_01.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0291_02.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0308.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0443.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm00450_01.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm00450_02.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm00450_03.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm00450_04.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0451.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0453.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0457.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm00463_01.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm00463_02.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0474.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0490.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0523.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0531.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0616.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0890_01.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0890_02.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0890_01.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0890_02.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0946_01.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/pdf/pm0946_02.pdf",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0946_01.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0946_02.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8f/pmuni0957_02.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8f/pmuni0958_01.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8f/pmuni0977_02.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pm0996.html",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.projectmadurai.org/pm_etexts/utf8/pm1015_01.html",
+      "error": "HTTP 404"
+    }
+  ],
+  "texts_by_language_hint": {
+    "ta": 1348,
+    "en": 28,
+    "mixed": 6
+  },
+  "text_body_chars": 170963455,
+  "texts_missing_licence_header": [
+    "utf8__pmuni0143_03"
+  ],
+  "texts_lossy_encoding": [
+    "utf8__pmuni0278_03",
+    "utf8__pmuni0278_04"
+  ],
+  "texts_low_tamil_ratio": [
+    {
+      "id": "utf8__pmuni0094",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0153",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0222",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0278_01",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0278_02",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0278_03",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0278_04",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0386",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0415_01",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0415_02",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0415_03",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0440",
+      "ratio": 0.195
+    },
+    {
+      "id": "utf8__pmuni0550",
+      "ratio": 0.178
+    },
+    {
+      "id": "utf8__pmuni0621_eng",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0622_eng",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0623_eng",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0624_eng",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0659",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0665",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0673_01",
+      "ratio": 0.297
+    },
+    {
+      "id": "utf8__pmuni0689",
+      "ratio": 0.056
+    },
+    {
+      "id": "utf8__pmuni0699",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0711",
+      "ratio": 0.279
+    },
+    {
+      "id": "utf8__pmuni0755",
+      "ratio": 0.007
+    },
+    {
+      "id": "utf8__pmuni0817",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0883",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0947_02",
+      "ratio": 0.003
+    },
+    {
+      "id": "utf8__pmuni0980",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0981_01",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0981_02",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni0992",
+      "ratio": 0.298
+    },
+    {
+      "id": "utf8__pmuni0999",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni1001",
+      "ratio": 0.0
+    },
+    {
+      "id": "utf8__pmuni1013",
+      "ratio": 0.0
+    }
+  ],
+  "texts_short_body": [],
+  "rows_without_any_file": [
+    {
+      "row": 451,
+      "work_no": "330",
+      "title": "சகோதரர் அன்றோ - (அகிலனின் சிறுகதைகள் தொகுப்பு)"
+    },
+    {
+      "row": 1041,
+      "work_no": "890",
+      "title": "நற்றிணை - ஆங்கில மொழிபெயர்ப்பு, (பாடல்கள் 1-200) naRRiNai - English Translation, verses 1-200"
+    },
+    {
+      "row": 1105,
+      "work_no": "946_01, 946_02",
+      "title": "நற்றிணை - ஆங்கில மொழிபெயர்ப்பு, (பாடல்கள் 201-400) naRRiNai - English Translation, verses 201-400"
+    }
+  ],
+  "rows_without_text": [
+    {
+      "row": 451,
+      "work_no": "330",
+      "title": "சகோதரர் அன்றோ - (அகிலனின் சிறுகதைகள் தொகுப்பு)"
+    },
+    {
+      "row": 1041,
+      "work_no": "890",
+      "title": "நற்றிணை - ஆங்கில மொழிபெயர்ப்பு, (பாடல்கள் 1-200) naRRiNai - English Translation, verses 1-200"
+    },
+    {
+      "row": 1105,
+      "work_no": "946_01, 946_02",
+      "title": "நற்றிணை - ஆங்கில மொழிபெயர்ப்பு, (பாடல்கள் 201-400) naRRiNai - English Translation, verses 201-400"
+    }
+  ]
+}
