@@ -1,0 +1,700 @@
+{
+ "grader_note": "Each reading was compared with the source text for that verse, read in this session, not with memory. A grade is 'correct' when at least one recognized source supports the reading and no important element is wrong. Pope entries for all 45 graded Kural verses look like translations of their verses and were used. Parimelazhagar verses 971-980 and 1093-1100 are in pmuni0450_03 and pmuni0450_04, not the two parts named in the brief. Manakkudavar uses its own verse order, so verses were matched on Tamil text, not number. Verse 974's Manakkudavar text is footnoted as Parimelazhagar's. Judgment calls: kural:37 is partial because it hedges rather than because its stated traditional sense is wrong; kural:395 and naladiyar:134 are correct but close to the line. sources_disagree records differences in interpretation among sources, including small ones and Kalaignar's non-fatalist rendering of ūḻ. Kalaignar and Shanmuganar are paraphrased, not quoted. Agreement with sources does not show the readings came from the Tamil alone, because the model may remember these verses.",
+ "grades": {
+  "kural:31": {
+   "grade": "correct",
+   "reason": "Distinction and wealth from virtue, with nothing greater as gain for living beings, matches Pope's couplet and the structure in all commentaries.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Sirappu is liberation for Parimelazhagar and Manakkudavar, heaven in Pope's gloss, glory in Dikshitar and distinction in Pope's couplet."
+  },
+  "kural:32": {
+   "grade": "correct",
+   "reason": "Matches Parimelazhagar and Pope: no gain above virtue and no ruin above forgetting it.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "kural:33": {
+   "grade": "correct",
+   "reason": "Ability-limited, unceasing virtuous action wherever possible matches Parimelazhagar, Manakkudavar and Dikshitar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Kalaignar instead says that whatever deeds one does should everywhere follow the path of virtue."
+  },
+  "kural:34": {
+   "grade": "correct",
+   "reason": "Stainless mind as the whole of virtue, the rest being noisy show, matches Parimelazhagar, Manakkudavar and Pope.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "kural:35": {
+   "grade": "correct",
+   "reason": "Virtue as conduct avoiding envy, craving, anger and harsh speech matches Parimelazhagar and Pope's gloss.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "kural:36": {
+   "grade": "correct",
+   "reason": "No postponing and an undying companion at death match Pope, Dikshitar and Parimelazhagar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Parimelazhagar has virtue accompanying the departing soul, Manakkudavar a companion for the next birth, and Kalaignar lasting fame after death."
+  },
+  "kural:37": {
+   "grade": "partial",
+   "reason": "The verse and the traditional sense (fruit of virtue seen between rider and bearer) are named, but the reading only calls this likely and leaves open an opposite sense that no checked source supports, so it does not commit to what the comparison shows.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Parimelazhagar, Pope and Dikshitar take it as virtue's fruit shown by rider versus bearer; Manakkudavar says the path of virtue is seen there; Kalaignar treats rider and bearer as similes for how the virtuous and the wicked carry life."
+  },
+  "kural:38": {
+   "grade": "correct",
+   "reason": "A good deed every day as a stone blocking the way of further births matches Pope's gloss, Dikshitar, Parimelazhagar and Manakkudavar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Kalaignar reads the stone as paving the path of this life, not as blocking rebirth."
+  },
+  "kural:39": {
+   "grade": "correct",
+   "reason": "Joy only from virtue, with the rest outside and without praise, matches Pope's couplet ('All else extern') and the verse's structure.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Parimelazhagar limits virtue to domestic virtue and, with Manakkudavar and Dikshitar, reads the rest as sorrow rather than merely outside it; Kalaignar ties the joy to fame."
+  },
+  "kural:40": {
+   "grade": "correct",
+   "reason": "What ought to be done is virtue and what ought to be escaped is blame, matching Manakkudavar closely and Parimelazhagar structurally.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Pazhi is blame in Manakkudavar but evil deeds or vice in Parimelazhagar, Pope and Dikshitar."
+  },
+  "kural:371": {
+   "grade": "correct",
+   "reason": "Fate of gain brings unflagging effort and fate of loss brings sloth, matching Parimelazhagar, Manakkudavar and Pope.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Kalaignar renders ūḻ as a natural condition rather than fate."
+  },
+  "kural:372": {
+   "grade": "correct",
+   "reason": "Fate of loss brings folly and fate of gain widens understanding, matching Parimelazhagar, Manakkudavar and Pope's gloss.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Kalaignar renders ūḻ as a natural condition rather than fate."
+  },
+  "kural:373": {
+   "grade": "correct",
+   "reason": "One's own innate understanding prevailing over much study matches Manakkudavar and Kalaignar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Parimelazhagar and Pope's gloss specify the fate-given understanding (for Parimelazhagar, fated folly), which the bare 'innate' does not state; Kalaignar has no fate element."
+  },
+  "kural:374": {
+   "grade": "correct",
+   "reason": "Two natures in the world, wealth and wisdom being separate, matches Parimelazhagar, Manakkudavar and Kalaignar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Parimelazhagar, Manakkudavar and Dikshitar attribute the split to fate; Kalaignar describes it only as the world's nature."
+  },
+  "kural:375": {
+   "grade": "correct",
+   "reason": "For acquiring wealth, good turning bad and bad turning good under fate matches Parimelazhagar and Pope's gloss.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Manakkudavar splits it by direction (bad becomes good when wealth is to be made, good becomes bad when it is to be lost); Kalaignar speaks of attempted deeds with no mention of wealth."
+  },
+  "kural:376": {
+   "grade": "correct",
+   "reason": "What is not one's own will not stay and what is one's own will not leave, matching Parimelazhagar, Manakkudavar, Pope and Kalaignar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Parimelazhagar and Pope's gloss make 'one's own' a matter of fate; Kalaignar makes it a matter of rightful entitlement."
+  },
+  "kural:377": {
+   "grade": "correct",
+   "reason": "Enjoyment only as the apportioner apportioned, even for those amassing crores, matches Parimelazhagar, Manakkudavar, Pope and Dikshitar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Kalaignar takes the apportioning as the ordered way of life, not a divine disposer."
+  },
+  "kural:378": {
+   "grade": "correct",
+   "reason": "The destitute would renounce if destined sufferings passed without being inflicted, matching Parimelazhagar, Manakkudavar and Dikshitar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Kalaignar has the sufferings as afflicting feelings rather than fated ills."
+  },
+  "kural:379": {
+   "grade": "correct",
+   "reason": "Seeing good as good when it comes yet grieving when it does not matches Manakkudavar, Parimelazhagar, Pope and Kalaignar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "kural:380": {
+   "grade": "correct",
+   "reason": "Nothing stronger than fate, which gets ahead even of a counter-plan, matches Parimelazhagar, Pope's gloss and Manakkudavar (numbered 374 there).",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_01.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Kalaignar renders ūḻ as the natural state that reasserts itself over artificial arrangements."
+  },
+  "kural:392": {
+   "grade": "correct",
+   "reason": "Numbers and letters as the two eyes of the living matches Parimelazhagar, Manakkudavar, Pope and Dikshitar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_02.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Kalaignar inverts the emphasis: those having these eyes are the ones deemed truly alive."
+  },
+  "kural:393": {
+   "grade": "correct",
+   "reason": "Only the learned have eyes and the unlearned have two sores on the face, matching Parimelazhagar, Manakkudavar and Pope.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_02.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "kural:394": {
+   "grade": "correct",
+   "reason": "Meeting with delight and parting so as to be remembered as the scholar's work matches Parimelazhagar, Pope's gloss and Manakkudavar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_02.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Kalaignar has the parting as an occasion of distress rather than leaving people wishing to meet again."
+  },
+  "kural:395": {
+   "grade": "correct",
+   "reason": "Humble yearning like the poor before the rich, with non-learners as low, closely matches Dikshitar; the exaltation of learners that Parimelazhagar states is only implied.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_02.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Parimelazhagar: those who learn humbling themselves before teachers are foremost and those too ashamed to do so are low; Pope's gloss and Manakkudavar: the unlearned stand before the learned like paupers."
+  },
+  "kural:396": {
+   "grade": "correct",
+   "reason": "The sand well yields water as far as dug, and knowledge flows as far as learned, matching all sources.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_02.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "kural:397": {
+   "grade": "correct",
+   "reason": "Every land and town becomes one's own for the learned, so why stay unlearned until death, matching Parimelazhagar, Pope's gloss and Dikshitar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_02.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "kural:398": {
+   "grade": "correct",
+   "reason": "Learning from one birth protecting through seven births matches Parimelazhagar, Manakkudavar, Pope's gloss and Dikshitar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_02.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Kalaignar reads seven generations instead of seven births of the same person."
+  },
+  "kural:399": {
+   "grade": "correct",
+   "reason": "The learned long for more because the world delights in what delights them, matching Parimelazhagar, Pope's gloss, Dikshitar and Kalaignar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_02.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Manakkudavar instead says the learned rejoice on seeing others enjoy what they enjoy, as freedom from envy."
+  },
+  "kural:400": {
+   "grade": "correct",
+   "reason": "Learning as imperishable excellent wealth and nothing else as true wealth matches all sources.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_02.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "kural:971": {
+   "grade": "correct",
+   "reason": "Radiance as abundance of spirit and disgrace as resolving to live without it matches Parimelazhagar and Pope, and the first half Kalaignar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_03.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Manakkudavar reads vekkai as greatness of kin and the disgrace as others' saying one lives without it; Dikshitar is a loose paraphrase of glory versus its loss."
+  },
+  "kural:974": {
+   "grade": "correct",
+   "reason": "Greatness existing only by self-guarding, like the chastity of single-minded women, matches Parimelazhagar and Pope's gloss.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_03.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Kalaignar says such a man receives the fame of chaste women, rather than comparing the self-guarding; the Manakkudavar text here is footnoted in the edition as Parimelazhagar's, so it is not independent."
+  },
+  "kural:975": {
+   "grade": "correct",
+   "reason": "The great accomplish hard deeds by proper means, matching Parimelazhagar, Manakkudavar and Pope.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_03.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Kalaignar and Manakkudavar's closing note run the claim the other way (those who do rare deeds are the great); Parimelazhagar adds 'even when reduced to poverty'."
+  },
+  "kural:976": {
+   "grade": "correct",
+   "reason": "The small lack the aim of honouring and following the great, matching Parimelazhagar and Pope.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_03.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Parimelazhagar has them failing to serve the great and take on their nature, Manakkudavar to take them as support, and Dikshitar simply to feel reverence."
+  },
+  "kural:977": {
+   "grade": "correct",
+   "reason": "Distinction falling on the unworthy issuing in excess matches Parimelazhagar, Pope and Kalaignar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_03.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Manakkudavar reads sirappu as wealth and its printed text of the verse varies; Dikshitar is a loose paraphrase about pride."
+  },
+  "kural:978": {
+   "grade": "correct",
+   "reason": "Greatness bows always and smallness adorns itself in self-admiration, matching Manakkudavar, Parimelazhagar and Pope's gloss.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_03.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Parimelazhagar records another view taking the verse as a paradox about the world (the high lower themselves, the low raise themselves)."
+  },
+  "kural:979": {
+   "grade": "correct",
+   "reason": "Greatness as absence of arrogance and smallness as riding on it matches Parimelazhagar, Manakkudavar, Pope and Kalaignar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_03.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "kural:980": {
+   "grade": "correct",
+   "reason": "Greatness hides others' failings and smallness tells only faults, matching all sources.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_03.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "kural:1093": {
+   "grade": "correct",
+   "reason": "She looked, lowered her head, and that watered the love between them, matching Parimelazhagar, Manakkudavar and Pope.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_04.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "kural:1094": {
+   "grade": "correct",
+   "reason": "He looks and she looks at the ground; he does not and she looks and smiles softly, matching Pope and Dikshitar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_04.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Parimelazhagar prefers inward rejoicing for mella nakum and records 'smiles' as another view; Manakkudavar has a concealed smile."
+  },
+  "kural:1095": {
+   "grade": "correct",
+   "reason": "No direct look but a smile as if narrowing one eye matches Parimelazhagar, Kalaignar and Pope's gloss.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_04.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Manakkudavar takes sirakkanittal as consenting ('as if she had agreed') and Parimelazhagar makes the smile inward."
+  },
+  "kural:1096": {
+   "grade": "correct",
+   "reason": "Words of the non-hostile, though spoken as by strangers, being quickly understood matches Parimelazhagar, Manakkudavar and Pope's gloss.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_04.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Parimelazhagar makes the harsh speaker the confidante; Dikshitar and Kalaignar make her the beloved."
+  },
+  "kural:1097": {
+   "grade": "correct",
+   "reason": "Words without anger and enemy-like looks as signs of the intimate who pose as strangers matches Parimelazhagar, Manakkudavar and Pope's gloss.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_04.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "kural:1098": {
+   "grade": "correct",
+   "reason": "She softens and gently smiles when he looks, and has a certain beauty, matches Manakkudavar closely and Kalaignar and Pope's couplet.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_04.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Parimelazhagar and Pope's gloss read ēr as a favourable sign rather than beauty."
+  },
+  "kural:1099": {
+   "grade": "correct",
+   "reason": "A common glance as of strangers occurring among lovers themselves matches Parimelazhagar, Manakkudavar, Pope's gloss and Dikshitar.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_04.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Pope's couplet differs from his gloss, saying such a look is read aright only by lovers."
+  },
+  "kural:1100": {
+   "grade": "correct",
+   "reason": "When eyes agree, the mouth's words serve no purpose, matching all sources.",
+   "sources_checked": [
+    "pope:kg/core/kural.jsonl",
+    "dikshitar:data/text/pmuni0665.txt",
+    "manakkudavar:data/text/pmuni0650.txt",
+    "parimelazhagar:data/text/pmuni0450_04.txt",
+    "kalaignar:data/text/pmuni0612.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "naladiyar:131": {
+   "grade": "correct",
+   "reason": "Hair, garment-border and paste are not true beauty and learning's beauty, through inner balance, is, matching Pope-Ellis and Shanmuganar.",
+   "sources_checked": [
+    "pope_ellis:data/text/pmuni0711.txt",
+    "mahadeva_mudaliyar:data/text/pmuni0518.txt",
+    "shanmuganar:data/text/pmuni0778.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Mahadeva Mudaliyar has uprightness accompanying learning rather than arising from it, and records others who read the verse as about men's and women's education."
+  },
+  "naladiyar:132": {
+   "grade": "partial",
+   "reason": "Everything else is right, but 'does not perish even when its holders are gone' inverts the clause: Pope-Ellis and Mahadeva Mudaliyar say learning does not perish while its possessors live, and even Shanmuganar's fame reading does not say this.",
+   "sources_checked": [
+    "pope_ellis:data/text/pmuni0711.txt",
+    "mahadeva_mudaliyar:data/text/pmuni0518.txt",
+    "shanmuganar:data/text/pmuni0778.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "On tām uḷarā kēṭu inṟu, Pope-Ellis and Mahadeva: no perishing as long as the possessors live; Shanmuganar: it makes them lastingly present through fame and stands undestroyed."
+  },
+  "naladiyar:133": {
+   "grade": "correct",
+   "reason": "Salt from barren land prized and the learned of lowest origin placed first matches Pope-Ellis, Mahadeva Mudaliyar and Shanmuganar, though 'lowest place' leaves the sense of low birth implicit.",
+   "sources_checked": [
+    "pope_ellis:data/text/pmuni0711.txt",
+    "mahadeva_mudaliyar:data/text/pmuni0518.txt",
+    "shanmuganar:data/text/pmuni0778.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Pope-Ellis has salt choicer than paddy; Shanmuganar has it valued like paddy."
+  },
+  "naladiyar:134": {
+   "grade": "correct",
+   "reason": "Untakeable, unlost, safe from angry kings and the one legacy for children matches all sources, though 'is not lost' passes over the crux in vāyttīyil.",
+   "sources_checked": [
+    "pope_ellis:data/text/pmuni0711.txt",
+    "mahadeva_mudaliyar:data/text/pmuni0518.txt",
+    "shanmuganar:data/text/pmuni0778.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Pope-Ellis reads vāyt tīyil as not perishing by fire; Mahadeva Mudaliyar and Shanmuganar read vāyttu īyil as not lost when given to a fit recipient."
+  },
+  "naladiyar:135": {
+   "grade": "correct",
+   "reason": "Boundless learning, few days, many illnesses, and clear choice of what is fitting like the milk-drinking bird, matches all three sources.",
+   "sources_checked": [
+    "pope_ellis:data/text/pmuni0711.txt",
+    "mahadeva_mudaliyar:data/text/pmuni0518.txt",
+    "shanmuganar:data/text/pmuni0778.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "naladiyar:136": {
+   "grade": "correct",
+   "reason": "The low-caste boatman is not scorned and one crosses with his help, so take good things from the learned whatever their birth, matching all three sources.",
+   "sources_checked": [
+    "pope_ellis:data/text/pmuni0711.txt",
+    "mahadeva_mudaliyar:data/text/pmuni0518.txt",
+    "shanmuganar:data/text/pmuni0778.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "naladiyar:137": {
+   "grade": "correct",
+   "reason": "Heaven's city worth seeing only if sweeter than laughing with the deeply learned, unrivalrous and keen, matches Mahadeva Mudaliyar and Shanmuganar and is compatible with Pope-Ellis.",
+   "sources_checked": [
+    "pope_ellis:data/text/pmuni0711.txt",
+    "mahadeva_mudaliyar:data/text/pmuni0518.txt",
+    "shanmuganar:data/text/pmuni0778.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "naladiyar:138": {
+   "grade": "correct",
+   "reason": "Friendship with the learned is like cane from the tip, growing sweeter, and ties with the graceless are like it from the root, matching all three sources.",
+   "sources_checked": [
+    "pope_ellis:data/text/pmuni0711.txt",
+    "mahadeva_mudaliyar:data/text/pmuni0518.txt",
+    "shanmuganar:data/text/pmuni0778.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "naladiyar:139": {
+   "grade": "correct",
+   "reason": "The unlearned gain good knowledge daily through company with the learned, as a new pot gives water the pathiri's fragrance, matching all three sources.",
+   "sources_checked": [
+    "pope_ellis:data/text/pmuni0711.txt",
+    "mahadeva_mudaliyar:data/text/pmuni0518.txt",
+    "shanmuganar:data/text/pmuni0778.txt"
+   ],
+   "sources_disagree": false,
+   "disagreement": ""
+  },
+  "naladiyar:140": {
+   "grade": "correct",
+   "reason": "Worldly books recited without wisdom books yield only noise and no end of confusion, matching Pope-Ellis and Shanmuganar.",
+   "sources_checked": [
+    "pope_ellis:data/text/pmuni0711.txt",
+    "mahadeva_mudaliyar:data/text/pmuni0518.txt",
+    "shanmuganar:data/text/pmuni0778.txt"
+   ],
+   "sources_disagree": true,
+   "disagreement": "Mahadeva Mudaliyar specifies worldly books as logic and grammar and the wavering as being tossed through births; Pope-Ellis has mental confusion and worldly literature."
+  }
+ }
+}

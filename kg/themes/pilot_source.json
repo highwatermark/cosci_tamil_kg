@@ -1,0 +1,928 @@
+{
+  "bases": {
+    "text": "The verse says this directly, as supported by a translation or commentary.",
+    "commentator": "A named commentator says this.",
+    "interpretation": "Claude's own interpretation. Treat as a proposal for a human reader to judge."
+  },
+  "concepts": [
+    {
+      "id": "aram",
+      "tamil": "அறம்",
+      "gloss": "virtue; moral order"
+    },
+    {
+      "id": "oozh",
+      "tamil": "ஊழ்",
+      "gloss": "fate; what is apportioned"
+    },
+    {
+      "id": "vinai",
+      "tamil": "வினை",
+      "gloss": "deed and its consequence"
+    },
+    {
+      "id": "muyarchi",
+      "tamil": "முயற்சி",
+      "gloss": "effort"
+    },
+    {
+      "id": "kalvi",
+      "tamil": "கல்வி",
+      "gloss": "learning"
+    },
+    {
+      "id": "arivu",
+      "tamil": "அறிவு",
+      "gloss": "understanding, innate or acquired"
+    },
+    {
+      "id": "selvam",
+      "tamil": "செல்வம்",
+      "gloss": "wealth, material or figurative"
+    },
+    {
+      "id": "perumai",
+      "tamil": "பெருமை",
+      "gloss": "greatness of character"
+    },
+    {
+      "id": "sirumai",
+      "tamil": "சிறுமை",
+      "gloss": "smallness of character"
+    },
+    {
+      "id": "panivu",
+      "tamil": "பணிவு",
+      "gloss": "humility",
+      "label_source": "Used in the verse as பணியும்"
+    },
+    {
+      "id": "pirappu",
+      "tamil": "பிறப்பு",
+      "gloss": "birth, as social origin"
+    },
+    {
+      "id": "piravi",
+      "tamil": "பிறவி",
+      "gloss": "rebirth; the cycle of births"
+    },
+    {
+      "id": "kudi",
+      "tamil": "குடி",
+      "gloss": "lineage; high birth"
+    },
+    {
+      "id": "manam",
+      "tamil": "மனம்",
+      "gloss": "inner state of mind"
+    },
+    {
+      "id": "kurippu",
+      "tamil": "குறிப்பு",
+      "gloss": "unspoken sign or intention"
+    },
+    {
+      "id": "kaamam",
+      "tamil": "காமம்",
+      "gloss": "love and desire"
+    },
+    {
+      "id": "samanilai",
+      "tamil": "சமநிலை",
+      "gloss": "equanimity",
+      "label_source": "Claude's label; not the verses' word"
+    },
+    {
+      "id": "sutram",
+      "tamil": "சுற்றம்",
+      "gloss": "human kinship and fellowship",
+      "label_source": "Claude's label; Purananuru 192 uses கேளிர்"
+    }
+  ],
+  "passages": [
+    {
+      "id": "purananuru:192:kin",
+      "work": "புறநானூறு 192",
+      "author": "கணியன் பூங்குன்றன்",
+      "doc": "pmuni0057",
+      "quote": "யாதும் ஊரே ; யாவரும் கேளிர் ;"
+    },
+    {
+      "id": "purananuru:192:raft",
+      "work": "புறநானூறு 192",
+      "author": "கணியன் பூங்குன்றன்",
+      "doc": "pmuni0057",
+      "quote": "நீர்வழிப் படூஉம் புணைபோல, ஆருயிர்"
+    },
+    {
+      "id": "purananuru:192:order",
+      "work": "புறநானூறு 192",
+      "author": "கணியன் பூங்குன்றன்",
+      "doc": "pmuni0057",
+      "quote": "முறைவழிப் படூஉம்’ என்பது திறவோர்"
+    },
+    {
+      "id": "purananuru:192:great",
+      "work": "புறநானூறு 192",
+      "author": "கணியன் பூங்குன்றன்",
+      "doc": "pmuni0057",
+      "quote": "பெரியோரை வியத்தலும் இலமே;"
+    },
+    {
+      "id": "purananuru:192:small",
+      "work": "புறநானூறு 192",
+      "author": "கணியன் பூங்குன்றன்",
+      "doc": "pmuni0057",
+      "quote": "சிறியோரை இகழ்தல் அதனினும் இலமே."
+    },
+    {
+      "id": "naladiyar:101",
+      "work": "நாலடியார் 101",
+      "doc": "pmuni0016",
+      "quote": "பழவினையும் அன்ன தகைத்தேதற் செய்த"
+    },
+    {
+      "id": "naladiyar:104",
+      "work": "நாலடியார் 104",
+      "doc": "pmuni0016",
+      "quote": "உறற்பால நீக்கல் உறுவர்க்கும் ஆகா,"
+    },
+    {
+      "id": "naladiyar:132",
+      "work": "நாலடியார் 132",
+      "doc": "pmuni0016",
+      "quote": "மம்மர் அறுக்கும் மருந்து."
+    },
+    {
+      "id": "naladiyar:133",
+      "work": "நாலடியார் 133",
+      "doc": "pmuni0016",
+      "quote": "கடைநிலத்தோ ராயினும், கற்றறிந் தோரைத்"
+    },
+    {
+      "id": "naladiyar:135",
+      "work": "நாலடியார் 135",
+      "doc": "pmuni0016",
+      "quote": "கல்வி கரையில கற்பவர் நாள்சில"
+    },
+    {
+      "id": "naladiyar:136",
+      "work": "நாலடியார் 136",
+      "doc": "pmuni0016",
+      "quote": "காணிற் கடைப்பட்டான் என்றிகழார் - காணாய்"
+    },
+    {
+      "id": "naladiyar:137",
+      "work": "நாலடியார் 137",
+      "doc": "pmuni0016",
+      "quote": "நகலின் இனிதாயின் காண்பாம் அகல்வானத்(து)"
+    },
+    {
+      "id": "naladiyar:142",
+      "work": "நாலடியார் 142",
+      "doc": "pmuni0016",
+      "quote": "வான்றோய் குடிப்பிறந்தார்க் கல்லது - வான்றோயும்"
+    },
+    {
+      "id": "cilappatikaram:purpose",
+      "work": "சிலப்பதிகாரம், பதிகம்",
+      "author": "இளங்கோ அடிகள்",
+      "doc": "pmuni0046",
+      "quote": "ஊழ்வினை உருத்துவந்து ஊட்டும் என்பதூஉம்"
+    },
+    {
+      "id": "cilappatikaram:kovalan",
+      "work": "சிலப்பதிகாரம், மதுரைக் காண்டம்",
+      "author": "இளங்கோ அடிகள்",
+      "doc": "pmuni0111_01",
+      "quote": "கோவலன் பண்டை ஊழ்வினை உருத்தென்."
+    },
+    {
+      "id": "parimelazhagar:380",
+      "work": "திருக்குறள் 380, பரிமேலழகர் உரை",
+      "author": "பரிமேலழகர்",
+      "doc": "pmuni0450_01",
+      "quote": "எல்லாம் வழியாக வருதலுடைமையின், ஊழே வலியது என்பதாம்."
+    },
+    {
+      "id": "parimelazhagar:37",
+      "work": "திருக்குறள் 37, பரிமேலழகர் உரை",
+      "author": "பரிமேலழகர்",
+      "doc": "pmuni0450_01",
+      "quote": "சிவிகை பொறுத்தானோடு ஊர்ந்தான் இடை-சிவிகையைக் காவுவானோடு செலுத்துவானிடைக் காட்சியளவை தன்னானே உணரப்படும்."
+    },
+    {
+      "id": "manakkudavar:972",
+      "work": "திருக்குறள் 972, மணக்குடவர் உரை",
+      "author": "மணக்குடவர்",
+      "doc": "pmuni0650",
+      "quote": "எல்லா வுயிர்க்கும் பிறப்பால் ஒரு வேறுபாடில்லை"
+    },
+    {
+      "id": "kalaignar:972",
+      "work": "திருக்குறள், கலைஞர் உரை",
+      "author": "மு. கருணாநிதி",
+      "doc": "pmuni0612",
+      "quote": "பிறவிவழியாம் வருணத்துக் கொருநீதி"
+    },
+    {
+      "id": "kalaignar:37",
+      "work": "திருக்குறள் 37, கலைஞர் உரை",
+      "author": "மு. கருணாநிதி",
+      "doc": "pmuni0612",
+      "quote": "பல்லக்கில் உட்கார்ந்து செல்பவர்களைப் போல"
+    },
+    {
+      "id": "kalaignar:38",
+      "work": "திருக்குறள் 38, கலைஞர் உரை",
+      "author": "மு. கருணாநிதி",
+      "doc": "pmuni0612",
+      "quote": "வாழ்க்கைப் பாதையைச் சீராக்கி அமைத்துத் தரும் கல்லாக"
+    },
+    {
+      "id": "kalaignar:373",
+      "work": "திருக்குறள் 373, கலைஞர் உரை",
+      "author": "மு. கருணாநிதி",
+      "doc": "pmuni0612",
+      "quote": "அவரது இயற்கை அறிவே மேலோங்கி நிற்கும்."
+    },
+    {
+      "id": "kalaignar:380",
+      "work": "திருக்குறள் 380, கலைஞர் உரை",
+      "author": "மு. கருணாநிதி",
+      "doc": "pmuni0612",
+      "quote": "இயற்கை நிலையே முதன்மையாக வந்து நிற்பதால்"
+    },
+    {
+      "id": "kalaignar:398",
+      "work": "திருக்குறள் 398, கலைஞர் உரை",
+      "author": "மு. கருணாநிதி",
+      "doc": "pmuni0612",
+      "quote": "ஏழேழு தலைமுறைக்கும் பாதுகாப்பாக அமையும்."
+    },
+    {
+      "id": "parimelazhagar:38",
+      "work": "திருக்குறள் 38, பரிமேலழகர் உரை",
+      "author": "பரிமேலழகர்",
+      "doc": "pmuni0450_01",
+      "quote": "அச்செயல் அவன் யாக்கையோடு கூடும் நாள் வரும் வழியை வாராமல் அடைக்குங் கல்லாம்."
+    }
+  ],
+  "verse_marks": {
+    "kural:31": [
+      "aram",
+      "selvam"
+    ],
+    "kural:32": [
+      "aram"
+    ],
+    "kural:33": [
+      "aram"
+    ],
+    "kural:34": [
+      "aram",
+      "manam"
+    ],
+    "kural:35": [
+      "aram",
+      "manam"
+    ],
+    "kural:36": [
+      "aram",
+      "piravi"
+    ],
+    "kural:37": [
+      "aram",
+      "vinai",
+      "pirappu"
+    ],
+    "kural:38": [
+      "aram",
+      "piravi"
+    ],
+    "kural:39": [
+      "aram"
+    ],
+    "kural:40": [
+      "aram"
+    ],
+    "kural:371": [
+      "oozh",
+      "muyarchi"
+    ],
+    "kural:372": [
+      "oozh",
+      "arivu"
+    ],
+    "kural:373": [
+      "oozh",
+      "arivu",
+      "kalvi"
+    ],
+    "kural:374": [
+      "oozh",
+      "selvam",
+      "arivu"
+    ],
+    "kural:375": [
+      "oozh",
+      "selvam"
+    ],
+    "kural:376": [
+      "oozh",
+      "selvam"
+    ],
+    "kural:377": [
+      "oozh",
+      "selvam"
+    ],
+    "kural:378": [
+      "oozh"
+    ],
+    "kural:379": [
+      "oozh",
+      "samanilai"
+    ],
+    "kural:380": [
+      "oozh",
+      "muyarchi"
+    ],
+    "kural:391": [
+      "kalvi",
+      "aram"
+    ],
+    "kural:392": [
+      "kalvi"
+    ],
+    "kural:393": [
+      "kalvi"
+    ],
+    "kural:394": [
+      "kalvi",
+      "sutram"
+    ],
+    "kural:395": [
+      "kalvi",
+      "panivu"
+    ],
+    "kural:396": [
+      "kalvi",
+      "arivu",
+      "muyarchi"
+    ],
+    "kural:397": [
+      "kalvi",
+      "sutram"
+    ],
+    "kural:398": [
+      "kalvi",
+      "piravi"
+    ],
+    "kural:399": [
+      "kalvi",
+      "sutram"
+    ],
+    "kural:400": [
+      "kalvi",
+      "selvam"
+    ],
+    "kural:971": [
+      "perumai",
+      "muyarchi"
+    ],
+    "kural:972": [
+      "pirappu",
+      "perumai",
+      "vinai"
+    ],
+    "kural:973": [
+      "pirappu",
+      "perumai",
+      "sirumai"
+    ],
+    "kural:974": [
+      "perumai"
+    ],
+    "kural:975": [
+      "perumai",
+      "muyarchi"
+    ],
+    "kural:976": [
+      "sirumai",
+      "perumai"
+    ],
+    "kural:977": [
+      "sirumai"
+    ],
+    "kural:978": [
+      "perumai",
+      "panivu",
+      "sirumai"
+    ],
+    "kural:979": [
+      "perumai",
+      "panivu",
+      "sirumai"
+    ],
+    "kural:980": [
+      "perumai",
+      "sirumai"
+    ],
+    "kural:1091": [
+      "kurippu",
+      "kaamam"
+    ],
+    "kural:1092": [
+      "kurippu",
+      "kaamam"
+    ],
+    "kural:1093": [
+      "kurippu",
+      "kaamam"
+    ],
+    "kural:1094": [
+      "kurippu",
+      "kaamam"
+    ],
+    "kural:1095": [
+      "kurippu",
+      "kaamam"
+    ],
+    "kural:1096": [
+      "kurippu",
+      "kaamam"
+    ],
+    "kural:1097": [
+      "kurippu",
+      "kaamam"
+    ],
+    "kural:1098": [
+      "kurippu",
+      "kaamam"
+    ],
+    "kural:1099": [
+      "kurippu",
+      "kaamam"
+    ],
+    "kural:1100": [
+      "kurippu",
+      "kaamam"
+    ]
+  },
+  "threads": [
+    {
+      "id": "thread:fate_and_effort",
+      "title": "Can fate be overcome?",
+      "question": "How much of a life is fixed, and what remains for effort and attitude?",
+      "concepts": [
+        "oozh",
+        "vinai",
+        "muyarchi",
+        "samanilai"
+      ],
+      "stances": [
+        {
+          "passage": "kural:380",
+          "position": "Nothing is stronger than fate; it arrives ahead of any plan to avoid it.",
+          "basis": "text"
+        },
+        {
+          "passage": "parimelazhagar:380",
+          "position": "Parimelazhagar: everything can become fate's route, so fate is the stronger.",
+          "basis": "commentator"
+        },
+        {
+          "passage": "kural:619",
+          "position": "Even if fate denies the goal, effort pays the wage of bodily labour.",
+          "basis": "text"
+        },
+        {
+          "passage": "kural:620",
+          "position": "Those who persist without flagging will put even fate behind them.",
+          "basis": "text"
+        },
+        {
+          "passage": "kural:379",
+          "position": "If you welcome good fortune, why grieve at the reverse?",
+          "basis": "text"
+        },
+        {
+          "passage": "naladiyar:101",
+          "position": "Old deeds find their doer as a calf finds its mother among many cows.",
+          "basis": "text"
+        },
+        {
+          "passage": "naladiyar:104",
+          "position": "Not even saints can remove what is bound to come.",
+          "basis": "text"
+        },
+        {
+          "passage": "purananuru:192:raft",
+          "position": "Life moves as a raft moves on a great river.",
+          "basis": "text"
+        },
+        {
+          "passage": "purananuru:192:order",
+          "position": "Life follows its order, as the wise have seen.",
+          "basis": "text"
+        },
+        {
+          "passage": "cilappatikaram:purpose",
+          "position": "The epic names as one of its purposes that past deeds return to exact their fruit.",
+          "basis": "text"
+        },
+        {
+          "passage": "cilappatikaram:kovalan",
+          "position": "Kovalan's death is told as his former deed taking effect.",
+          "basis": "text"
+        }
+      ],
+      "relations": [
+        {
+          "a": "kural:380",
+          "b": "kural:620",
+          "type": "tension",
+          "note": "The same book says nothing beats fate and that persistence puts fate behind you. Possible readings: 380 describes fate's reach while 620 praises effort, or the two address different audiences. Which one the book favours is unresolved here.",
+          "basis": "interpretation"
+        },
+        {
+          "a": "kural:380",
+          "b": "naladiyar:101",
+          "type": "adds_to",
+          "note": "Chapter 38 presents ஊழ் as a force and doesn't explain its source in the verses marked here. Naladiyar 101 makes the moral cause explicit: fate is your own earlier deed returning.",
+          "basis": "interpretation"
+        },
+        {
+          "a": "kural:378",
+          "b": "naladiyar:104",
+          "type": "shared_language",
+          "note": "Both use உறற்பால, what is bound to be suffered, which may be a shared idiom. Influence is not established.",
+          "basis": "text"
+        },
+        {
+          "a": "kural:379",
+          "b": "purananuru:192:raft",
+          "type": "agrees",
+          "note": "Both move from fate to a response: don't be thrown by reversal. The Purananuru poem goes further, withholding delight in life and resentment of it alike.",
+          "basis": "interpretation"
+        },
+        {
+          "a": "naladiyar:101",
+          "b": "cilappatikaram:kovalan",
+          "type": "narrative_form",
+          "note": "The epic turns the Naladiyar's maxim into a plot, which also raises a question the maxim avoids: Kannagi suffers through Kovalan's deed.",
+          "basis": "interpretation"
+        }
+      ],
+      "open_questions": [
+        "Does ஊழ் in the Kural carry the same karmic sense as பழவினை in the Naladiyar, or is that a later commentators' reading?",
+        "Is the raft image in Purananuru 192 fatalism, or a reason for equanimity that needs no moral accounting?"
+      ]
+    },
+    {
+      "id": "thread:birth_and_worth",
+      "title": "Does birth decide a person's worth?",
+      "question": "What do the texts say makes a person great, and do they agree with themselves?",
+      "concepts": [
+        "pirappu",
+        "kudi",
+        "perumai",
+        "kalvi",
+        "vinai",
+        "sutram"
+      ],
+      "stances": [
+        {
+          "passage": "kural:972",
+          "position": "Birth is the same for all beings; distinction differs through the difference in what they do.",
+          "basis": "text"
+        },
+        {
+          "passage": "kural:973",
+          "position": "Those in high place who aren't high are not high; those in low place who aren't low are not low.",
+          "basis": "text"
+        },
+        {
+          "passage": "manakkudavar:972",
+          "position": "Manakkudavar: no difference among beings by birth.",
+          "basis": "commentator"
+        },
+        {
+          "passage": "kalaignar:972",
+          "position": "Kalaignar reads the Kural as refusing a separate justice for each birth-based varna.",
+          "basis": "commentator"
+        },
+        {
+          "passage": "purananuru:192:kin",
+          "position": "Every town is ours and everyone our kin.",
+          "basis": "text"
+        },
+        {
+          "passage": "purananuru:192:great",
+          "position": "We do not marvel at the great.",
+          "basis": "text"
+        },
+        {
+          "passage": "purananuru:192:small",
+          "position": "Still less do we scorn the small.",
+          "basis": "text"
+        },
+        {
+          "passage": "naladiyar:133",
+          "position": "The learned are placed at the head, even if from the lowest place.",
+          "basis": "text"
+        },
+        {
+          "passage": "naladiyar:136",
+          "position": "No one scorns the ferryman as lowest by old caste rule; take the learned as a guide likewise.",
+          "basis": "text"
+        },
+        {
+          "passage": "naladiyar:142",
+          "position": "Excellence, gentleness and good conduct belong only to the high-born, even if others gain great wealth.",
+          "basis": "text"
+        }
+      ],
+      "relations": [
+        {
+          "a": "naladiyar:136",
+          "b": "naladiyar:142",
+          "type": "tension",
+          "note": "The same book values the learned regardless of caste and reserves virtue for the high-born. An anthology by many hands may explain this, but the marks don't test that. Verse 136 also keeps the caste ranking while looking past it.",
+          "basis": "interpretation"
+        },
+        {
+          "a": "kural:972",
+          "b": "naladiyar:142",
+          "type": "tension",
+          "note": "The Kural places distinction in what a person does; Naladiyar 142 places these virtues in lineage.",
+          "basis": "interpretation"
+        },
+        {
+          "a": "kural:972",
+          "b": "purananuru:192:small",
+          "type": "differs_in_ground",
+          "note": "Both level social rank, on different grounds. Purananuru 192 refuses to rank at all, because all lives follow the same order. Kural 972 removes birth as a measure but keeps ranking by deeds. This is the subtle difference Agaram's test answer missed.",
+          "basis": "interpretation"
+        },
+        {
+          "a": "kural:972",
+          "b": "kalaignar:972",
+          "type": "reception",
+          "note": "The verse's 'செய்தொழில்' can mean deeds or occupation. On the occupation reading it fits less easily with a modern anti-caste reading, so the word choice carries the argument.",
+          "basis": "interpretation"
+        },
+        {
+          "a": "kural:37",
+          "b": "kural:972",
+          "type": "tension",
+          "note": "On the traditional reading, the bearer and rider of 37 show virtue's fruit in social position, which sits uneasily with 972's refusal to rank by birth. The two can be reconciled if position reflects past deeds, but that assumption is doing real work. Kalaignar's simile reading dissolves this tension.",
+          "basis": "interpretation"
+        }
+      ],
+      "open_questions": [
+        "Should the graph record who benefits from a reading? Modern anti-caste readings and older commentaries may stress different things in the same verse.",
+        "Does செய்தொழில் mean deeds or occupation in Kural 972? Pope's 'works' leaves this open."
+      ]
+    },
+    {
+      "id": "thread:learning",
+      "title": "What is learning for, and how far can it take you?",
+      "question": "Is knowledge earned or innate, and what should it do to a person?",
+      "concepts": [
+        "kalvi",
+        "arivu",
+        "aram",
+        "piravi",
+        "sutram"
+      ],
+      "stances": [
+        {
+          "passage": "kural:391",
+          "position": "Learn thoroughly, then stand by what was learned.",
+          "basis": "text"
+        },
+        {
+          "passage": "kural:396",
+          "position": "As a sand well yields with digging, knowledge flows with learning.",
+          "basis": "text"
+        },
+        {
+          "passage": "kural:373",
+          "position": "However many subtle books one reads, one's own understanding prevails.",
+          "basis": "text"
+        },
+        {
+          "passage": "kural:398",
+          "position": "Learning in one birth protects for seven.",
+          "basis": "text"
+        },
+        {
+          "passage": "kural:394",
+          "position": "The scholar's way is meeting with delight and leaving others wanting more.",
+          "basis": "text"
+        },
+        {
+          "passage": "naladiyar:132",
+          "position": "No medicine like learning cures confusion.",
+          "basis": "text"
+        },
+        {
+          "passage": "naladiyar:135",
+          "position": "Learning has no shore and the learner's days are few, so select as a bird takes milk from water.",
+          "basis": "text"
+        },
+        {
+          "passage": "naladiyar:137",
+          "position": "Laughter among the learned sets a standard even heaven would have to beat.",
+          "basis": "text"
+        }
+      ],
+      "relations": [
+        {
+          "a": "kural:373",
+          "b": "kural:396",
+          "type": "tension",
+          "note": "Chapter 38 (fate) says innate understanding prevails over study. Chapter 40 (learning) says knowledge grows with study. Where a verse sits may matter: the same book frames knowledge differently under fate and under learning.",
+          "basis": "interpretation"
+        },
+        {
+          "a": "kural:396",
+          "b": "naladiyar:135",
+          "type": "differs_in_emphasis",
+          "note": "The Kural's image is depth: keep digging. The Naladiyar's is selection: time is short, so choose.",
+          "basis": "interpretation"
+        },
+        {
+          "a": "kural:394",
+          "b": "naladiyar:137",
+          "type": "agrees",
+          "note": "Both treat scholarly company as a pleasure, not only a means.",
+          "basis": "interpretation"
+        },
+        {
+          "a": "kural:398",
+          "b": "kural:38",
+          "type": "develops",
+          "note": "Both tie present conduct to future births: learning protects through them, and daily good blocks the road to them. The aims differ, protection in births versus ending them. Both rest on a rebirth reading that Kalaignar's commentary rejects: see 'One verse, different worldviews'.",
+          "basis": "interpretation"
+        }
+      ],
+      "open_questions": [
+        "Is 373 about innate ability, or about what fate permits? Kalaignar reads natural intelligence, but the verse sits in the chapter on fate."
+      ]
+    },
+    {
+      "id": "thread:unspoken_signs",
+      "title": "Reading what is not said",
+      "question": "How do the same skills work in love and in statecraft?",
+      "concepts": [
+        "kurippu",
+        "kaamam"
+      ],
+      "stances": [
+        {
+          "passage": "kural:701",
+          "position": "A minister who knows the king's mind unspoken is an ornament to the world.",
+          "basis": "text"
+        },
+        {
+          "passage": "kural:706",
+          "position": "As crystal shows what is near, the face shows what is in the heart.",
+          "basis": "text"
+        },
+        {
+          "passage": "kural:709",
+          "position": "Eyes reveal enmity and friendship to those who can read them.",
+          "basis": "text"
+        },
+        {
+          "passage": "kural:1091",
+          "position": "Her eyes hold two looks: one causes pain and the other cures it.",
+          "basis": "text"
+        },
+        {
+          "passage": "kural:1094",
+          "position": "When I look she looks down; when I don't she looks and softly smiles.",
+          "basis": "text"
+        },
+        {
+          "passage": "kural:1099",
+          "position": "Lovers themselves can glance as strangers do.",
+          "basis": "text"
+        },
+        {
+          "passage": "kural:1100",
+          "position": "When eyes agree, words serve no purpose.",
+          "basis": "text"
+        }
+      ],
+      "relations": [
+        {
+          "a": "kural:709",
+          "b": "kural:1100",
+          "type": "same_skill_two_domains",
+          "note": "The Kural has two chapters titled குறிப்பறிதல்: 71 on statecraft and 110 on love. Both treat the eyes as a truer source than speech.",
+          "basis": "interpretation"
+        },
+        {
+          "a": "kural:706",
+          "b": "kural:1099",
+          "type": "tension",
+          "note": "Chapter 71 trusts the face as a mirror of the heart. Chapter 110 shows lovers deliberately faking indifference, and the sign is read through the pretence. Signs can be honest or staged, so reading them takes skill.",
+          "basis": "interpretation"
+        }
+      ],
+      "open_questions": [
+        "Is the parallel between the two chapters deliberate design? The matching titles suggest it but do not prove it."
+      ]
+    },
+    {
+      "id": "thread:rereading_fate",
+      "title": "One verse, different worldviews",
+      "question": "How do commentators from different eras change what these verses mean?",
+      "concepts": [
+        "oozh",
+        "piravi",
+        "vinai",
+        "aram"
+      ],
+      "stances": [
+        {
+          "passage": "parimelazhagar:380",
+          "position": "Parimelazhagar: everything can become fate's route, so fate is the stronger.",
+          "basis": "commentator"
+        },
+        {
+          "passage": "kalaignar:380",
+          "position": "Kalaignar: the natural state reasserts itself over artificial arrangements. Fate is not mentioned.",
+          "basis": "commentator"
+        },
+        {
+          "passage": "parimelazhagar:38",
+          "position": "Parimelazhagar: good deeds are a stone blocking the way by which the soul rejoins a body.",
+          "basis": "commentator"
+        },
+        {
+          "passage": "kalaignar:38",
+          "position": "Kalaignar: good deeds are a stone that paves the path of this life.",
+          "basis": "commentator"
+        },
+        {
+          "passage": "parimelazhagar:37",
+          "position": "Parimelazhagar: virtue's fruit can be seen directly between the palanquin's bearer and rider.",
+          "basis": "commentator"
+        },
+        {
+          "passage": "kalaignar:37",
+          "position": "Kalaignar: rider and bearer are similes for how the virtuous and the wicked carry life's joys and sorrows.",
+          "basis": "commentator"
+        },
+        {
+          "passage": "kalaignar:398",
+          "position": "Kalaignar: learning protects through seven generations, not seven births of one person.",
+          "basis": "commentator"
+        },
+        {
+          "passage": "kalaignar:373",
+          "position": "Kalaignar: natural intelligence prevails over study, in a verse from the chapter on fate.",
+          "basis": "commentator"
+        }
+      ],
+      "relations": [
+        {
+          "a": "parimelazhagar:380",
+          "b": "kalaignar:380",
+          "type": "rereading",
+          "note": "The same word, ஊழ், is read as fate by one and as a natural condition by the other. That removes the cosmic agent from the verse.",
+          "basis": "interpretation"
+        },
+        {
+          "a": "parimelazhagar:38",
+          "b": "kalaignar:38",
+          "type": "opposite_image",
+          "note": "The same stone blocks a road in one reading and paves it in the other, turning liberation from rebirth into a well-lived life.",
+          "basis": "interpretation"
+        },
+        {
+          "a": "parimelazhagar:37",
+          "b": "kalaignar:37",
+          "type": "rereading",
+          "note": "Reading rider and bearer as similes removes the implication that social position shows past merit. It also bears on the Kural 37 and 972 tension in the birth thread.",
+          "basis": "interpretation"
+        },
+        {
+          "a": "kural:398",
+          "b": "kalaignar:398",
+          "type": "rereading",
+          "note": "Reading எழுமை as generations makes a metaphysical claim into a social one: educated families.",
+          "basis": "interpretation"
+        }
+      ],
+      "open_questions": [
+        "How far does each reading fit the Tamil itself? A reader of classical Tamil should judge this; it isn't settled by counting commentators.",
+        "Does Kalaignar's pattern hold across all 133 chapters? Only a few verses were checked."
+      ]
+    }
+  ]
+}

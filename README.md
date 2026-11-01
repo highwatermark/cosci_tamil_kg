@@ -117,6 +117,38 @@ python3 -I scripts/build_graph.py
 Entity identity is not resolved between layers yet: `AuthorString` nodes hold raw names, and
 `Person` nodes exist only in the marks layer.
 
+### Theme pilot
+
+The graph's purpose is the contents of the books: their meanings, themes, philosophies and
+nuances, and the threads between them. `kg/themes/` is the first pilot of that layer, and
+[THREADS.md](kg/themes/THREADS.md) is the place to start reading.
+
+| File | Contents |
+|---|---|
+| `kg/core/kural.jsonl` | All 1,330 Kural verses with chapter, section and Pope's translation |
+| `kg/themes/pilot_source.json` | Hand-written concepts, verse marks and threads; edit this one |
+| `kg/themes/nodes.jsonl`, `edges.jsonl` | The built theme layer |
+| `kg/themes/blind_readings.json` | Readings written from the Tamil before seeing translations |
+| `kg/themes/blind_grades.json` | An independent agent's grades, with where sources disagree |
+
+- **Scope:** five Kural chapters (4, 38, 40, 98, 110), the Naladiyar's chapter on learning, and
+  selected passages from the Kural, Naladiyar, Purananuru, Cilappatikaram and three commentators.
+- **Basis:** each thread claim says whether it comes from the `text`, a `commentator`, or Claude's
+  `interpretation`. Interpretations are proposals for a human reader.
+- **Several readings per verse:** commentators can disagree without one being marked wrong.
+- **Limits:** a human reader of classical Tamil has not reviewed any of this. The threads
+  were chosen by Claude from known themes, not found by a systematic search of the corpus.
+
+Rebuild with:
+
+```bash
+python3 -I scripts/parse_kural.py
+```
+
+```bash
+python3 -I scripts/build_themes.py
+```
+
 ## Security
 
 See [SECURITY.md](SECURITY.md) for the dependency review and the PDF structure check. Treat
