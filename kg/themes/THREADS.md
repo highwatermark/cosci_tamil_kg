@@ -56,8 +56,8 @@ All entries are proposed. `text` means the verse says it directly, `commentator`
   - Those in high place who aren't high are not high; those in low place who aren't low are not low. (`text`)
 - **திருக்குறள் 972, மணக்குடவர் உரை** — எல்லா வுயிர்க்கும் பிறப்பால் ஒரு வேறுபாடில்லை
   - Manakkudavar: no difference among beings by birth. (`commentator`)
-- **திருக்குறள், கலைஞர் உரை** — பிறவிவழியாம் வருணத்துக் கொருநீதி
-  - Kalaignar reads the Kural as refusing a separate justice for each birth-based varna. (`commentator`)
+- **கலைஞர் உரை, பிற்சேர்க்கைப் பாடல்** — பிறவிவழியாம் வருணத்துக் கொருநீதி
+  - A poem in Kalaignar's book says Valluvar rejected Manu's separate justice for each birth-based varna. (`commentator`)
 - **புறநானூறு 192** — யாதும் ஊரே ; யாவரும் கேளிர் ;
   - Every town is ours and everyone our kin. (`text`)
 - **புறநானூறு 192** — பெரியோரை வியத்தலும் இலமே;
@@ -70,13 +70,15 @@ All entries are proposed. `text` means the verse says it directly, `commentator`
   - No one scorns the ferryman as lowest by old caste rule; take the learned as a guide likewise. (`text`)
 - **நாலடியார் 142** — வான்றோய் குடிப்பிறந்தார்க் கல்லது - வான்றோயும்
   - Excellence, gentleness and good conduct belong only to the high-born, even if others gain great wealth. (`text`)
+- **திருக்குறள் 972, கலைஞர் உரை** — செய்யும் தொழிலில் காட்டுகிற திறமையில் மட்டுமே வேறுபாடு காண முடியும்.
+  - In his comment on the verse, Kalaignar says difference lies only in the skill shown in one's work. (`commentator`)
 
 ### How they relate
 
 - **நாலடியார் 136 / நாலடியார் 142: tension.** The same book values the learned regardless of caste and reserves virtue for the high-born. An anthology by many hands may explain this, but the marks don't test that. Verse 136 also keeps the caste ranking while looking past it. (`interpretation`)
-- **திருக்குறள் 972 / நாலடியார் 142: tension.** The Kural places distinction in what a person does; Naladiyar 142 places these virtues in lineage. (`interpretation`)
+- **திருக்குறள் 972 / நாலடியார் 142: tension.** The Kural places distinction in what a person does; Naladiyar 142 places these virtues in lineage. Kural 951 says something close to Naladiyar 142, so the tension also runs inside the Kural: see the Kural-wide thread. (`interpretation`)
 - **திருக்குறள் 972 / புறநானூறு 192: differs in ground.** Both level social rank, on different grounds. Purananuru 192 refuses to rank at all, because all lives follow the same order. Kural 972 removes birth as a measure but keeps ranking by deeds. This is the subtle difference Agaram's test answer missed. (`interpretation`)
-- **திருக்குறள் 972 / திருக்குறள், கலைஞர் உரை: reception.** The verse's 'செய்தொழில்' can mean deeds or occupation. On the occupation reading it fits less easily with a modern anti-caste reading, so the word choice carries the argument. (`interpretation`)
+- **திருக்குறள் 972 / கலைஞர் உரை, பிற்சேர்க்கைப் பாடல்: reception.** The verse's செய்தொழில் can mean deeds or occupation. Kalaignar's comment reads it as skill at one's work, while the poem in his book draws the anti-caste conclusion. On a reading tied to hereditary occupation, that conclusion would fit less easily, so the word carries the argument. (`interpretation`)
 - **திருக்குறள் 37 / திருக்குறள் 972: tension.** On the traditional reading, the bearer and rider of 37 show virtue's fruit in social position, which sits uneasily with 972's refusal to rank by birth. The two can be reconciled if position reflects past deeds, but that assumption is doing real work. Kalaignar's simile reading dissolves this tension. (`interpretation`)
 
 ### Open questions

@@ -149,6 +149,54 @@ python3 -I scripts/parse_kural.py
 python3 -I scripts/build_themes.py
 ```
 
+### Full Thirukkural
+
+All 133 chapters and 1,330 verses are marked. Start with [THREADS.md](kg/kural/THREADS.md).
+
+| File | Contents |
+|---|---|
+| `kg/kural/nodes.jsonl`, `edges.jsonl` | Verses, chapters, concepts, commentators' readings, links and threads |
+| `kg/kural/threads.json`, `thread_audit.json` | 14 threads and the audit of every link they used |
+| `kg/themes/kural/chNNN.json` | Marks for each chapter; edit these, following `kg/themes/SCHEMA.md` |
+| `kg/themes/audit_kural.json` | Audit of a random sample, drawn from `audit_sample.json` |
+| `kg/core/commentaries.jsonl` | Three commentaries aligned to each verse |
+| `kg/core/verse_text_flags.jsonl` | Verses whose text should be checked |
+
+**How far to trust it.** Separate AI reviewers did these audits. No Tamil scholar has reviewed
+any of it, and the samples are small.
+
+| Marks | Audit result | How to treat them |
+|---|---|---|
+| Commentators' positions | 28 of 30 accurate, 2 partial | Fairly reliable |
+| Verse readings | 46 of 50 correct, 4 partial | Fairly reliable |
+| Nuances | Of 43: 34 useful, 6 filler, 3 overreach | Trust attributions and discount flourishes |
+| Links, random sample | 21 of 30 sound | Leads to check |
+| Links used in the first threads | 50 of 109 sound; all typed tension | Treat any `tension` as a lead |
+
+- Each link's `audit` field holds its grade, or `not_audited`. Most links are not audited.
+- The `contested` flag undercounts: 6 of 36 unflagged sample verses should have it.
+- Threads were drawn from the marks, so only themes the links captured could appear.
+
+**Verse text.** The base Thirukkural file has typos, some of which change the meaning. At 290 it
+promises heaven to thieves. The Parimelazhagar file shares these errors, so Kalaignar's edition is
+the independent comparison. The base text is unchanged, and `verse_text_flags.jsonl` lists 264
+verses to check. That list caught 21 of 22 known errors, but many flags will be harmless spelling
+differences, and a difference may be a real variant.
+
+Rebuild with:
+
+```bash
+python3 -I scripts/align_commentaries.py
+```
+
+```bash
+python3 -I scripts/chapter_marks.py check
+```
+
+```bash
+python3 -I scripts/build_kural_graph.py
+```
+
 ## Security
 
 See [SECURITY.md](SECURITY.md) for the dependency review and the PDF structure check. Treat

@@ -219,8 +219,8 @@
       "quote": "எல்லா வுயிர்க்கும் பிறப்பால் ஒரு வேறுபாடில்லை"
     },
     {
-      "id": "kalaignar:972",
-      "work": "திருக்குறள், கலைஞர் உரை",
+      "id": "kalaignar:972:poem",
+      "work": "கலைஞர் உரை, பிற்சேர்க்கைப் பாடல்",
       "author": "மு. கருணாநிதி",
       "doc": "pmuni0612",
       "quote": "பிறவிவழியாம் வருணத்துக் கொருநீதி"
@@ -266,6 +266,13 @@
       "author": "பரிமேலழகர்",
       "doc": "pmuni0450_01",
       "quote": "அச்செயல் அவன் யாக்கையோடு கூடும் நாள் வரும் வழியை வாராமல் அடைக்குங் கல்லாம்."
+    },
+    {
+      "id": "kalaignar:972",
+      "work": "திருக்குறள் 972, கலைஞர் உரை",
+      "author": "மு. கருணாநிதி",
+      "doc": "pmuni0612",
+      "quote": "செய்யும் தொழிலில் காட்டுகிற திறமையில் மட்டுமே வேறுபாடு காண முடியும்."
     }
   ],
   "verse_marks": {
@@ -608,8 +615,8 @@
           "basis": "commentator"
         },
         {
-          "passage": "kalaignar:972",
-          "position": "Kalaignar reads the Kural as refusing a separate justice for each birth-based varna.",
+          "passage": "kalaignar:972:poem",
+          "position": "A poem in Kalaignar's book says Valluvar rejected Manu's separate justice for each birth-based varna.",
           "basis": "commentator"
         },
         {
@@ -641,6 +648,11 @@
           "passage": "naladiyar:142",
           "position": "Excellence, gentleness and good conduct belong only to the high-born, even if others gain great wealth.",
           "basis": "text"
+        },
+        {
+          "passage": "kalaignar:972",
+          "position": "In his comment on the verse, Kalaignar says difference lies only in the skill shown in one's work.",
+          "basis": "commentator"
         }
       ],
       "relations": [
@@ -655,7 +667,7 @@
           "a": "kural:972",
           "b": "naladiyar:142",
           "type": "tension",
-          "note": "The Kural places distinction in what a person does; Naladiyar 142 places these virtues in lineage.",
+          "note": "The Kural places distinction in what a person does; Naladiyar 142 places these virtues in lineage. Kural 951 says something close to Naladiyar 142, so the tension also runs inside the Kural: see the Kural-wide thread.",
           "basis": "interpretation"
         },
         {
@@ -667,9 +679,9 @@
         },
         {
           "a": "kural:972",
-          "b": "kalaignar:972",
+          "b": "kalaignar:972:poem",
           "type": "reception",
-          "note": "The verse's 'செய்தொழில்' can mean deeds or occupation. On the occupation reading it fits less easily with a modern anti-caste reading, so the word choice carries the argument.",
+          "note": "The verse's செய்தொழில் can mean deeds or occupation. Kalaignar's comment reads it as skill at one's work, while the poem in his book draws the anti-caste conclusion. On a reading tied to hereditary occupation, that conclusion would fit less easily, so the word carries the argument.",
           "basis": "interpretation"
         },
         {

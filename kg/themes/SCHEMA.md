@@ -62,6 +62,11 @@ verses use the Tamil word or the label is yours. Ids are lowercase romanized Tam
 - **Keep links few and worthwhile.** Prefer ones between chapters. Don't link verses merely for
   sharing a topic. Each one must teach the reader something, and a real `tension` is the most
   valuable. Check the other verse's text before linking to it.
+- **Test every `tension`.** The two verses must make incompatible claims about the same thing.
+  Shared words, shared topics, or different advice for different situations aren't tensions.
+  State which reading the conflict depends on. Audits found this was the most overused type.
+- **Separate report from interpretation.** Attribute what a commentator says, and don't add your
+  own motive or superlative to it. If commentators dispute a reading, write a neutral `reading`.
 - **Reuse concepts.** Add one only when nothing existing fits, and name what the text names.
 - **Don't invent certainty.** Use `uncertain` when you are unsure. An honest gap is better than a
   smooth guess.

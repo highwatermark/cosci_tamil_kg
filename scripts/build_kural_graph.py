@@ -3,8 +3,8 @@
 
 Writes kg/kural/nodes.jsonl and kg/kural/edges.jsonl, plus
 kg/core/verse_text_flags.jsonl, which compares the verse text of the base edition
-with two others, so that likely corruptions can be reviewed. The base text is
-never changed.
+with Kalaignar's and with agents' reports, so that likely corruptions can be reviewed.
+The base text is never changed.
 """
 import difflib
 import json
@@ -16,7 +16,9 @@ CORE_DIR = ROOT / "kg" / "core"
 THEMES_DIR = ROOT / "kg" / "themes"
 OUT_DIR = ROOT / "kg" / "kural"
 MIN_EDITION_MATCH = 0.45
-EDITIONS_AGREE_MARGIN = 0.005
+WORD_END_TOLERANCE = 2
+MIN_MATCH_LETTERS = 3
+REPORTED_TEXT_ISSUE = re.compile(r"verse text|verse reads|kural\\.jsonl|kg/core|verse's|corrupt|misprint|typo", re.I)
 NON_TAMIL = re.compile(r"[^஀-௿]")
 
 
@@ -62,35 +64,84 @@ def edition_verses(doc_names, verses):
     return {number: pair for number, (_, pair) in best.items()}
 
 
-def ratio(first, second):
-    return difflib.SequenceMatcher(None, NON_TAMIL.sub("", "".join(first)),
-                                   NON_TAMIL.sub("", "".join(second))).ratio()
+def agent_reported_verses():
+    """Verses whose text the marking agents reported as faulty in a chapter's source issues."""
+    reported = {}
+    for path in sorted((THEMES_DIR / "kural").glob("ch*.json")):
+        chapter = json.loads(path.read_text(encoding="utf-8"))
+        numbers = {int(key) for key in chapter["verses"]}
+        for issue in chapter.get("source_issues", []):
+            if REPORTED_TEXT_ISSUE.search(issue):
+                for number in map(int, re.findall(r"\b\d{1,4}\b", issue)):
+                    if number in numbers:
+                        reported.setdefault(number, []).append(issue)
+    return reported
+
+
+def suspect_words(base, other):
+    """Base words missing from the other edition, allowing for sound changes where words join.
+
+    Those changes alter a word's start or end, so a word passes if its start, end or
+    middle occurs in the other edition."""
+    other_letters = NON_TAMIL.sub("", "".join(other))
+    suspects = []
+    for word in " ".join(base).split():
+        letters = NON_TAMIL.sub("", word)
+        tolerance = WORD_END_TOLERANCE
+        parts = [letters[:-tolerance], letters[tolerance:], letters[tolerance:-tolerance]]
+        parts = [part for part in parts if len(part) >= MIN_MATCH_LETTERS]
+        if parts and not any(part in other_letters for part in parts):
+            suspects.append(word)
+    return suspects
 
 
 def text_flags(verses):
-    """Flag a verse when two other editions agree with each other more than with the base."""
+    """List verses to review. Kalaignar's edition is the independent witness here, because
+    the Parimelazhagar file shares the base edition's errors. This is triage, not proof:
+    a difference may be a real textual variant."""
     kalaignar = edition_verses(["pmuni0612"], verses)
-    parimelazhagar = edition_verses(
-        ["pmuni0450_01", "pmuni0450_02", "pmuni0450_03", "pmuni0450_04"], verses)
+    reported = agent_reported_verses()
     flags = []
     for number, verse in sorted(verses.items()):
-        first, second = kalaignar.get(number), parimelazhagar.get(number)
-        record = {"verse": number, "base": verse["tamil"], "kalaignar_edition": first,
-                  "parimelazhagar_edition": second, "review": False}
-        if first and second:
-            agree = ratio(first, second)
-            record["base_vs_kalaignar"] = round(ratio(verse["tamil"], first), 3)
-            record["base_vs_parimelazhagar"] = round(ratio(verse["tamil"], second), 3)
-            record["kalaignar_vs_parimelazhagar"] = round(agree, 3)
-            record["review"] = (agree - max(record["base_vs_kalaignar"],
-                                            record["base_vs_parimelazhagar"])
-                                >= EDITIONS_AGREE_MARGIN)
-        else:
-            record["review"] = True
-            record["reason"] = "not found in both other editions"
-        flags.append(record)
+        other = kalaignar.get(number)
+        suspects = suspect_words(verse["tamil"], other) if other else []
+        issues = reported.get(number, [])
+        flags.append({"verse": number, "base": verse["tamil"], "kalaignar_edition": other,
+                      "suspect_words": suspects, "agent_reports": issues,
+                      "review": bool(suspects or issues or not other)})
     write_jsonl(CORE_DIR / "verse_text_flags.jsonl", flags)
     return {f["verse"]: f for f in flags}
+
+
+def apply_audits(edges):
+    """Record audit grades on the links they cover. Unaudited links have no grade."""
+    grades = {}
+    sample = json.loads((THEMES_DIR / "audit_kural.json").read_text(encoding="utf-8"))
+    for link in sample["links"]:
+        grades[(link["s"], link["o"])] = link["grade"]
+    focused = json.loads((OUT_DIR / "thread_audit.json").read_text(encoding="utf-8"))
+    for link in focused["links"]:
+        grades[(f"kural:{link['a']}", f"kural:{link['b']}")] = link["grade"]
+    for edge in edges:
+        if "note" in edge:
+            edge["audit"] = grades.get((edge["s"], edge["o"]), "not_audited")
+
+
+def write_thread_review(threads, edge_pairs, verses):
+    lines = ["# Kural threads for review", "",
+             "These threads were drawn from tensions marked across all 133 chapters, then audited "
+             "link by link. Only links graded sound appear here, and claims were rewritten to fit "
+             "them. A separate AI did the grading: no Tamil scholar has reviewed this.", ""]
+    for thread in threads:
+        grade = thread["audit_grade"].replace("_", " ")
+        lines += [f"## {thread['title']}", "", thread["claim"], "", f"*Audit: {grade}.*", ""]
+        for first, second in thread["links"]:
+            link = edge_pairs[(f"kural:{first}", f"kural:{second}")]
+            for number in (first, second):
+                lines.append(f"- **{number}** ({verses[number]['chapter']}): "
+                             + " / ".join(verses[number]["tamil"]))
+            lines += [f"  - {link['note']}", ""]
+    (OUT_DIR / "THREADS.md").write_text("\n".join(lines), encoding="utf-8")
 
 
 def main():
@@ -135,6 +186,24 @@ def main():
             edges.append({"s": f"kural:{link['a']}", "p": link["type"].upper(),
                           "o": f"kural:{link['b']}", "note": link["note"],
                           "basis": "interpretation", "status": "proposed"})
+    apply_audits(edges)
+    edge_pairs = {(e["s"], e["o"]): e for e in edges if "note" in e}
+    threads = json.loads((OUT_DIR / "threads.json").read_text(encoding="utf-8"))
+    missing = []
+    for thread in threads:
+        nodes.append({"id": thread["id"], "type": "Thread", "title": thread["title"],
+                      "claim": thread["claim"], "basis": "interpretation", "status": "proposed",
+                      "audit_grade": thread["audit_grade"]})
+        for first, second in thread["links"]:
+            link = edge_pairs.get((f"kural:{first}", f"kural:{second}"))
+            if link is None:
+                missing.append(f"{thread['id']}: no link {first}-{second}")
+                continue
+            edges.append({"s": thread["id"], "p": "INCLUDES_LINK", "o": f"kural:{first}",
+                          "other": f"kural:{second}", "type": link["p"]})
+    if missing:
+        raise SystemExit("\n".join(missing))
+    write_thread_review(threads, edge_pairs, verses)
     write_jsonl(OUT_DIR / "nodes.jsonl", nodes)
     write_jsonl(OUT_DIR / "edges.jsonl", edges)
     print(f"nodes={len(nodes)} edges={len(edges)} "

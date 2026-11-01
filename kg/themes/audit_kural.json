@@ -1,0 +1,826 @@
+{
+ "summary": {
+  "verses": {
+   "reading": {
+    "correct": 46,
+    "partial": 4
+   },
+   "nuance": {
+    "insight": 34,
+    "filler": 6,
+    "overreach": 3,
+    "absent": 7
+   },
+   "contested": {
+    "right": 44,
+    "false_negative": 6
+   },
+   "flagged_contested": 14,
+   "concepts": {
+    "fine": 38,
+    "flagged": 12
+   }
+  },
+  "links": {
+   "all": {
+    "sound": 21,
+    "weak": 3,
+    "forced": 4,
+    "wrong": 2
+   },
+   "tension": {
+    "sound": 6,
+    "forced": 4,
+    "weak": 1
+   },
+   "other_types": {
+    "sound": 15,
+    "weak": 2,
+    "wrong": 2
+   }
+  },
+  "positions": {
+   "accurate": 28,
+   "partial": 2
+  }
+ },
+ "verses": [
+  {
+   "verse": 67,
+   "reading": "correct",
+   "nuance": "insight",
+   "nuance_note": "Accurate on Parimelazhagar, though 'nepotism' is the marker's modern framing rather than his word.",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 84,
+   "reading": "correct",
+   "nuance": "insight",
+   "nuance_note": "Both attributions to Parimelazhagar check out, but 'chiasm' is the wrong term because the order is parallel (heart-goddess, face-host).",
+   "flagged_contested": false,
+   "contested": "false_negative",
+   "contested_reason": "Kalaignar gives the glad heart to the host while Parimelazhagar and Manakkudavar give it to the goddess, a small but real difference of who is meant.",
+   "concepts": "fine"
+  },
+  {
+   "verse": 86,
+   "reading": "partial",
+   "reading_reason": "'The guest who is leaving' follows Kalaignar only; Parimelazhagar and Manakkudavar gloss செல்விருந்து as the guest who has come.",
+   "nuance": "insight",
+   "nuance_note": "Accurate on all three, though it omits Parimelazhagar's explicit rebirth as a god.",
+   "flagged_contested": false,
+   "contested": "false_negative",
+   "contested_reason": "Arrived versus departing guest, and literal heaven versus a sky of renown, are substantive differences that the nuance itself half-records.",
+   "concepts": "iraivan is wrong because வானத்தவர் are the heaven-dwellers and not God; no concept captures the afterlife reward."
+  },
+  {
+   "verse": 90,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "inchol is off-centre because the verse concerns the host's face, and speech enters only through the commentators."
+  },
+  {
+   "verse": 150,
+   "reading": "correct",
+   "nuance": "filler",
+   "nuance_reason": "Mostly restates the verse's concession and two near-identical glosses; only the last sentence adds anything.",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 155,
+   "reading": "correct",
+   "nuance": "overreach",
+   "nuance_reason": "'The motive is reputational' is unsupported: the verse names no motive, and Parimelazhagar's esteeming agents are the wise, whose ground is moral worth.",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 162,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "selvam is a poor fit because விழுப்பேறு is an excellent attainment and not wealth."
+  },
+  {
+   "verse": 218,
+   "reading": "correct",
+   "nuance": "filler",
+   "nuance_reason": "Restates the verse's 'even when without means', and 'cuts free from wealth' is stronger than Parimelazhagar's wealth having shrunk.",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 221,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 240,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "pazhi is missing, since blame fills half of the verse."
+  },
+  {
+   "verse": 325,
+   "reading": "correct",
+   "nuance": "overreach",
+   "nuance_reason": "'The second outranks the first' silently takes Manakkudavar's side of the flagged dispute, and Parimelazhagar's fear is of the sin of killing and sits within renunciation.",
+   "flagged_contested": true,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 327,
+   "reading": "correct",
+   "nuance": "insight",
+   "nuance_note": "The inner-word observation holds; 'the Kural's hardest statement' is an unsupported superlative.",
+   "flagged_contested": true,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 375,
+   "reading": "correct",
+   "flagged_contested": true,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 381,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 428,
+   "reading": "correct",
+   "nuance": "insight",
+   "nuance_note": "'Skill' slightly overtranslates தொழில், but the cross-reference and both attributions check out.",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "acham, the verse's whole subject, is missing, and pedhaimai is named in the text but also absent."
+  },
+  {
+   "verse": 453,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 469,
+   "reading": "correct",
+   "flagged_contested": true,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 491,
+   "reading": "partial",
+   "reading_reason": "'In full' adopts Kalaignar's adverbial sense against both older commentators who take முற்றும் as a verb, despite the verse being flagged contested.",
+   "flagged_contested": true,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 496,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 507,
+   "reading": "correct",
+   "nuance": "insight",
+   "nuance_note": "'The verse refutes that' states as fact what is Manakkudavar's framing.",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 516,
+   "reading": "partial",
+   "reading_reason": "'Act' misses that Parimelazhagar and Manakkudavar make the final step assigning the man to the task, which is the chapter's subject.",
+   "nuance": "filler",
+   "nuance_reason": "'Not the expected order' has no support in the sources, and the rest paraphrases Parimelazhagar's final step.",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 555,
+   "reading": "correct",
+   "nuance": "overreach",
+   "nuance_reason": "'Slow wearing' runs against Parimelazhagar's stated point that wealth wears away quickly (கடிதின்), and the 'saw' is implied at most since his word is only கருவி.",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 627,
+   "reading": "correct",
+   "flagged_contested": true,
+   "contested": "right",
+   "concepts": "idumbai, the verse's own word, would be more exact than idukkan."
+  },
+  {
+   "verse": 680,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "false_negative",
+   "contested_reason": "குறை differs in substance: a truce for Parimelazhagar, relief of one's lack for Manakkudavar (who has the great taken as friends), and a hoped-for benefit for Kalaignar.",
+   "concepts": "fine"
+  },
+  {
+   "verse": 737,
+   "reading": "partial",
+   "reading_reason": "'The water that comes from it' writes Parimelazhagar's gloss into the reading of a verse flagged contested, where Kalaignar has rain.",
+   "nuance": "filler",
+   "nuance_reason": "The limb count is trivial and contestable, since Manakkudavar counts five, and only the hill's rain-storage point says anything.",
+   "flagged_contested": true,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 745,
+   "reading": "correct",
+   "flagged_contested": true,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 754,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "false_negative",
+   "contested_reason": "The nuance itself says the commentators differ on who is meant, a king or anyone, but the flag was not set.",
+   "concepts": "fine"
+  },
+  {
+   "verse": 765,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "saakkaadu is less exact than kootru, the verse's own கூற்று."
+  },
+  {
+   "verse": 770,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "vendhan is wrong because தலைமக்கள் are generals and not the king."
+  },
+  {
+   "verse": 775,
+   "reading": "correct",
+   "nuance": "filler",
+   "nuance_reason": "Paraphrases the verse and Parimelazhagar's one-line comment without adding to them.",
+   "flagged_contested": true,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 794,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 809,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "false_negative",
+   "contested_reason": "Manakkudavar construes it differently, with the world holding to friends of inherited lineage who stay firm under fault, and Parimelazhagar reports a variant; the nuance mentions this without flagging.",
+   "concepts": "fine"
+  },
+  {
+   "verse": 850,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": true,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 868,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "kutram is missing though குற்றம் is named in the verse, and thunai fits இனன் here better than sutram."
+  },
+  {
+   "verse": 889,
+   "reading": "correct",
+   "nuance": "insight",
+   "nuance_note": "Attributions hold; the உள்/உட் wordplay is the marker's own and is not in any commentary.",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 932,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 973,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 975,
+   "reading": "correct",
+   "nuance": "insight",
+   "nuance_note": "Accurate but incomplete, since Manakkudavar's closing line makes the same reversal attributed to Kalaignar alone.",
+   "flagged_contested": false,
+   "contested": "false_negative",
+   "contested_reason": "Whether greatness produces rare deeds or rare deeds define greatness, plus Parimelazhagar's 'even when poor', is a substantive difference recorded only in the nuance.",
+   "concepts": "fine"
+  },
+  {
+   "verse": 1003,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "ivaral is missing though இவறி is the verse's verb and the concept exists."
+  },
+  {
+   "verse": 1050,
+   "reading": "correct",
+   "nuance": "filler",
+   "nuance_reason": "Says little, and 'mere continuing' quietly assumes Parimelazhagar's reading of the flagged dispute while omitting that the salt and gruel are other people's.",
+   "flagged_contested": true,
+   "contested": "right",
+   "concepts": "piravi is wrong because nothing here concerns rebirth, and thuravu, the verse's own துறவாமை, is missing."
+  },
+  {
+   "verse": 1100,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": true,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 1126,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 1154,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "aram is vague, and thelivu fits தெளித்தசொல் தேறியார் better."
+  },
+  {
+   "verse": 1175,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 1202,
+   "reading": "correct",
+   "flagged_contested": true,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 1257,
+   "reading": "correct",
+   "flagged_contested": true,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 1293,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 1296,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 1314,
+   "reading": "correct",
+   "nuance": "insight",
+   "nuance_note": "The analysis is right, but 'one of the most natural bits of speech in the book' is an unsupported superlative.",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  },
+  {
+   "verse": 1329,
+   "reading": "correct",
+   "nuance": "insight",
+   "flagged_contested": false,
+   "contested": "right",
+   "concepts": "fine"
+  }
+ ],
+ "links": [
+  {
+   "s": "kural:666",
+   "p": "AGREES",
+   "o": "kural:540",
+   "grade": "sound"
+  },
+  {
+   "s": "kural:899",
+   "p": "DEVELOPS",
+   "o": "kural:25",
+   "grade": "weak",
+   "reason": "Honest about depending on a gloss but misstates it as Parimelazhagar's alone (Manakkudavar also has Indra), and the two Indra stories only share a figure."
+  },
+  {
+   "s": "kural:264",
+   "p": "TENSION",
+   "o": "kural:203",
+   "grade": "sound",
+   "note": "A real tension, and Parimelazhagar's two escapes are reported accurately."
+  },
+  {
+   "s": "kural:541",
+   "p": "TENSION",
+   "o": "kural:528",
+   "grade": "forced",
+   "reason": "Not a real tension: 528 concerns how a king treats his kin and 541 concerns impartial punishment of faults, and chapters 53 and 55 are not consecutive as the note says."
+  },
+  {
+   "s": "kural:421",
+   "p": "DEVELOPS",
+   "o": "kural:434",
+   "grade": "sound"
+  },
+  {
+   "s": "kural:300",
+   "p": "TENSION",
+   "o": "kural:323",
+   "grade": "sound",
+   "note": "A real tension that Parimelazhagar himself raises at 323, though the note doesn't say so."
+  },
+  {
+   "s": "kural:269",
+   "p": "AGREES",
+   "o": "kural:326",
+   "grade": "sound"
+  },
+  {
+   "s": "kural:1306",
+   "p": "TENSION",
+   "o": "kural:1191",
+   "grade": "forced",
+   "reason": "The stone in 1191 is the obstacle of unreturned love or parting while 1306's quarrels occur within mutual love, and Parimelazhagar reads 1306's கனி as very sweet, not 'gone bad'."
+  },
+  {
+   "s": "kural:448",
+   "p": "DEVELOPS",
+   "o": "kural:434",
+   "grade": "sound"
+  },
+  {
+   "s": "kural:201",
+   "p": "TENSION",
+   "o": "kural:1075",
+   "grade": "sound",
+   "note": "The conflict is only apparent and the note says so, so it would be better typed qualifies, but it teaches something."
+  },
+  {
+   "s": "kural:370",
+   "p": "TENSION",
+   "o": "kural:380",
+   "grade": "weak",
+   "reason": "This is juxtaposition more than conflict, since neither verse denies what the other claims: 380 concerns contrivances against fate and 370 an inner state."
+  },
+  {
+   "s": "kural:1198",
+   "p": "DEVELOPS",
+   "o": "kural:1156",
+   "grade": "sound"
+  },
+  {
+   "s": "kural:558",
+   "p": "TENSION",
+   "o": "kural:1041",
+   "grade": "sound",
+   "note": "A true clash of superlatives on a shared word."
+  },
+  {
+   "s": "kural:209",
+   "p": "AGREES",
+   "o": "kural:305",
+   "grade": "sound"
+  },
+  {
+   "s": "kural:51",
+   "p": "PARALLEL_DOMAIN",
+   "o": "kural:478",
+   "grade": "sound"
+  },
+  {
+   "s": "kural:549",
+   "p": "QUALIFIES",
+   "o": "kural:567",
+   "grade": "sound"
+  },
+  {
+   "s": "kural:877",
+   "p": "PARALLEL_DOMAIN",
+   "o": "kural:1200",
+   "grade": "sound"
+  },
+  {
+   "s": "kural:955",
+   "p": "AGREES",
+   "o": "kural:223",
+   "grade": "wrong",
+   "reason": "It presents 'giving before the poor man speaks' as what 223 says, though that is a reading Parimelazhagar reports from others without adopting, Manakkudavar doesn't hold it, and the mark's own reading differs."
+  },
+  {
+   "s": "kural:1249",
+   "p": "TENSION",
+   "o": "kural:1130",
+   "grade": "forced",
+   "reason": "Using one fact in two rhetorical settings is no tension, and 'traps her' is invented, as Parimelazhagar's point is that searching outside is laughable."
+  },
+  {
+   "s": "kural:1310",
+   "p": "PARALLEL_DOMAIN",
+   "o": "kural:366",
+   "grade": "weak",
+   "reason": "They share only the ordinary word அவா, and 'with no intention of following it' has no basis in the verse or commentary."
+  },
+  {
+   "s": "kural:505",
+   "p": "AGREES",
+   "o": "kural:972",
+   "grade": "sound",
+   "note": "The verses support it, but 'doesn't refer to birth' omits Parimelazhagar's varna-based gloss at 972 and his birth-derived greatness at 505."
+  },
+  {
+   "s": "kural:206",
+   "p": "QUALIFIES",
+   "o": "kural:316",
+   "grade": "sound",
+   "note": "The contrast holds on Manakkudavar and Kalaignar (Parimelazhagar's entry at 316 is misaligned), although the type should not be qualifies."
+  },
+  {
+   "s": "kural:773",
+   "p": "TENSION",
+   "o": "kural:148",
+   "grade": "sound",
+   "note": "The shared பேராண்மை is real, and Parimelazhagar's 148 gloss on outer versus inner enemies supports the contest, though 'partway to 148' is loose."
+  },
+  {
+   "s": "kural:1273",
+   "p": "SAME_IMAGE",
+   "o": "kural:706",
+   "grade": "sound",
+   "note": "The analogy works, though the word crystal is Parimelazhagar's gloss on 1273's மணி and Manakkudavar has a blue gem."
+  },
+  {
+   "s": "kural:415",
+   "p": "SAME_IMAGE",
+   "o": "kural:414",
+   "grade": "sound"
+  },
+  {
+   "s": "kural:497",
+   "p": "TENSION",
+   "o": "kural:444",
+   "grade": "forced",
+   "reason": "497 is conditional on a specific operation thought through and 444 ranks strengths generally, so nothing is taken back, and 497 is five chapters after 444, not one."
+  },
+  {
+   "s": "kural:1044",
+   "p": "TENSION",
+   "o": "kural:959",
+   "grade": "sound",
+   "note": "A real tension, though Parimelazhagar narrows 1044's degraded words to asking for gifts."
+  },
+  {
+   "s": "kural:1013",
+   "p": "SAME_IMAGE",
+   "o": "kural:73",
+   "grade": "wrong",
+   "reason": "73 contains no simile: Parimelazhagar and Manakkudavar make the body-soul bond the result or purpose of love, only Kalaignar has a comparison, and the mark's own reading doesn't have one either."
+  },
+  {
+   "s": "kural:1323",
+   "p": "DEVELOPS",
+   "o": "kural:1103",
+   "grade": "sound"
+  },
+  {
+   "s": "kural:298",
+   "p": "AGREES",
+   "o": "kural:278",
+   "grade": "sound",
+   "note": "Holds on Parimelazhagar's 278; Manakkudavar doesn't read நீராடி as bathing."
+  }
+ ],
+ "positions": [
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:688",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:manakkudavar",
+   "o": "kural:1270",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:846",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:manakkudavar",
+   "o": "kural:861",
+   "grade": "accurate",
+   "note": "'Narrows the rule' is the marker's inference from an accurate quote."
+  },
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:47",
+   "grade": "partial",
+   "reason": "Parimelazhagar's strivers are specifically those in the third stage, and he expressly excludes the fully renounced, so 'ascetics' overstates what the householder outranks."
+  },
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:568",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:kalaignar",
+   "o": "kural:1028",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:205",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:manakkudavar",
+   "o": "kural:54",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:kalaignar",
+   "o": "kural:326",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:30",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:49",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:kalaignar",
+   "o": "kural:1052",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:manakkudavar",
+   "o": "kural:1233",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:manakkudavar",
+   "o": "kural:111",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:kalaignar",
+   "o": "kural:2",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:1090",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:manakkudavar",
+   "o": "kural:961",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:57",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:kalaignar",
+   "o": "kural:357",
+   "grade": "partial",
+   "reason": "The quote supports the first clause, but 'reverses the claim into a denial of the doctrine' goes beyond a sentence close to Manakkudavar's own wording, importing the marker's expectation of Kalaignar."
+  },
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:262",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:472",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:manakkudavar",
+   "o": "kural:306",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:kalaignar",
+   "o": "kural:1071",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:1275",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:740",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:manakkudavar",
+   "o": "kural:442",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:kalaignar",
+   "o": "kural:972",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:1194",
+   "grade": "accurate"
+  },
+  {
+   "s": "commentator:parimelazhagar",
+   "o": "kural:1028",
+   "grade": "accurate"
+  }
+ ]
+}
