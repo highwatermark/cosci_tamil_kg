@@ -13,6 +13,8 @@ TEXT_DIR = ROOT / "data" / "text"
 OUT = ROOT / "kg" / "core" / "kural.jsonl"
 VERSES = 1330
 VERSE_END = re.compile(r"^(.*?)[\s.]*?(\d{1,4})\s*$")
+# The source prints the section heading where these chapters' titles belong.
+TITLE_FIXES = {116: "பிரிவாற்றாமை"}
 SECTIONS = ((380, "அறத்துப்பால்"), (1080, "பொருட்பால்"), (1330, "காமத்துப்பால்"))
 
 
@@ -37,7 +39,7 @@ def parse_tamil():
                           "section": next(name for end, name in SECTIONS if number <= end),
                           "tamil": [first.strip(), re.sub(r"[\s.]*\d+$", "", second.strip())]}
         if number % 10 == 1:
-            verses[number]["chapter"] = clean_title(lines[title_index])
+            verses[number]["chapter"] = TITLE_FIXES.get(chapter_no, clean_title(lines[title_index]))
 
     for index, line in enumerate(lines):
         match = VERSE_END.match(line)
