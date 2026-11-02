@@ -157,6 +157,7 @@ All 133 chapters and 1,330 verses are marked. Start with [THREADS.md](kg/kural/T
 |---|---|
 | `kg/kural/nodes.jsonl`, `edges.jsonl` | Verses, chapters, concepts, commentators' readings, links and threads |
 | `kg/kural/threads.json`, `thread_audit.json` | 14 threads and the audit of every link they used |
+| `kg/kural/link_audit.json` | Grades for the other 443 links, with reasons and a calibration check |
 | `kg/themes/kural/chNNN.json` | Marks for each chapter; edit these, following `kg/themes/SCHEMA.md` |
 | `kg/themes/audit_kural.json` | Audit of a random sample, drawn from `audit_sample.json` |
 | `kg/core/commentaries.jsonl` | Three commentaries aligned to each verse |
@@ -170,17 +171,23 @@ any of it, and the samples are small.
 | Commentators' positions | 28 of 30 accurate, 2 partial | Fairly reliable |
 | Verse readings | 46 of 50 correct, 4 partial | Fairly reliable |
 | Nuances | Of 43: 34 useful, 6 filler, 3 overreach | Trust attributions and discount flourishes |
-| Links, random sample | 21 of 30 sound | Leads to check |
-| Links used in the first threads | 50 of 109 sound; all typed tension | Treat any `tension` as a lead |
+| Links other than `tension`, all 398 | 298 sound, 78 weak, 18 forced, 4 wrong | Mostly usable; filter on `audit` |
+| `tension` links, all 178 | 72 sound, 65 weak, 39 forced, 2 wrong | Use only those graded sound |
 
-- Each link's `audit` field holds its grade, or `not_audited`. Most links are not audited.
+- Every link now has an `audit` grade. Its source is `audit_kural.json`, `thread_audit.json` or
+  `link_audit.json`, checked in that order. `audit_better_type` holds a grader's suggested type,
+  which has not been applied.
+- To check grader drift, a fresh grader re-graded 40 earlier-audited links blind. It matched 29
+  exactly and was stricter more often than more lenient, so the higher pass rate outside tensions
+  is not leniency.
 - The `contested` flag undercounts: 6 of 36 unflagged sample verses should have it.
 - Threads were drawn from the marks, so only themes the links captured could appear.
 
 **Verse text.** The base Thirukkural file has typos, some of which change the meaning. At 290 it
 promises heaven to thieves. The Parimelazhagar file shares these errors, so Kalaignar's edition is
-the independent comparison. The base text is unchanged, and `verse_text_flags.jsonl` lists 264
-verses to check. That list caught 21 of 22 known errors, but many flags will be harmless spelling
+the independent comparison. The base text is unchanged, and `verse_text_flags.jsonl` lists 265
+verses to check. That list caught 21 of 22 known errors, and later held 16 of 17 typos the link
+graders found independently (the missed one is a stray space). Many flags will be harmless spelling
 differences, and a difference may be a real variant.
 
 Rebuild with:

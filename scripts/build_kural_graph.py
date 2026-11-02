@@ -19,6 +19,7 @@ MIN_EDITION_MATCH = 0.45
 WORD_END_TOLERANCE = 2
 MIN_MATCH_LETTERS = 3
 REPORTED_TEXT_ISSUE = re.compile(r"verse text|verse reads|kural\\.jsonl|kg/core|verse's|corrupt|misprint|typo", re.I)
+COMMENTARY_ISSUE = re.compile(r"parimelazhagar|manakkudavar|kalaignar|gloss|commentary|pope", re.I)
 NON_TAMIL = re.compile(r"[^஀-௿]")
 
 
@@ -75,6 +76,14 @@ def agent_reported_verses():
                 for number in map(int, re.findall(r"\b\d{1,4}\b", issue)):
                     if number in numbers:
                         reported.setdefault(number, []).append(issue)
+    regrade = json.loads((OUT_DIR / "link_audit.json").read_text(encoding="utf-8"))
+    for link in regrade["links"]:
+        issue = link.get("text_issue")
+        if not issue or COMMENTARY_ISSUE.search(issue):
+            continue
+        for number in {int(n) for n in re.findall(r"\b\d{1,4}\b", issue)} & {link["a"], link["b"]}:
+            if issue not in reported.get(number, []):
+                reported.setdefault(number, []).append(issue)
     return reported
 
 
@@ -122,9 +131,18 @@ def apply_audits(edges):
     focused = json.loads((OUT_DIR / "thread_audit.json").read_text(encoding="utf-8"))
     for link in focused["links"]:
         grades[(f"kural:{link['a']}", f"kural:{link['b']}")] = link["grade"]
+    better = {}
+    regrade = json.loads((OUT_DIR / "link_audit.json").read_text(encoding="utf-8"))
+    for link in regrade["links"]:
+        pair = (f"kural:{link['a']}", f"kural:{link['b']}")
+        grades.setdefault(pair, link["grade"])
+        if link.get("better_type"):
+            better[pair] = link["better_type"]
     for edge in edges:
         if "note" in edge:
             edge["audit"] = grades.get((edge["s"], edge["o"]), "not_audited")
+            if (edge["s"], edge["o"]) in better:
+                edge["audit_better_type"] = better[(edge["s"], edge["o"])]
 
 
 def write_thread_review(threads, edge_pairs, verses):
