@@ -190,6 +190,17 @@ verses to check. That list caught 21 of 22 known errors, and later held 16 of 17
 graders found independently (the missed one is a stray space). Many flags will be harmless spelling
 differences, and a difference may be a real variant.
 
+**Translations kept off the repository.** `data/private/` is ignored by git. It holds translations
+that are in copyright, for agents to read as extra witnesses. The graph may record a translator's
+position in our own words, but never the translation's text.
+
+| Translator | Source | Coverage |
+|---|---|---|
+| Satguru Sivaya Subramuniyaswami (2000) | The publisher's free PDF, from himalayanacademy.com | Verses 1 to 1080; the Book of Love is not in the book |
+
+To rebuild it, compile `scripts/pdftext.swift` (macOS, no packages), dump the PDF's pages to text,
+and run `scripts/parse_private_translation.py subramuniyaswami DUMP.txt`.
+
 **Systematic link pass.** The links above came from what each chapter's reader happened to notice,
 so 583 verses had none. A pilot on 10 chapters had agents compare every verse with the whole book and
 added 166 graded links, marked `source: "systematic_pass"`. Of its proposals 90% were graded sound,
