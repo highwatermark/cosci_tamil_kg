@@ -93,6 +93,23 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
 .row.on { background: var(--halo); box-shadow: inset 3px 0 0 var(--accent); }
 .row small { display: block; color: var(--muted); font-size: 11.5px; }
 .legend-note { font-size: 12px; color: var(--muted); margin: 0; }
+.hl { display: flex; flex-direction: column; gap: 2px; }
+.hl button { font: inherit; font-size: 13px; text-align: left; padding: 4px 8px; border: 1px solid transparent; border-radius: 5px; background: transparent; color: var(--ink); cursor: pointer; display: flex; gap: 8px; }
+.hl button:hover { background: var(--halo); }
+.hl button[aria-pressed="true"] { border-color: var(--accent); background: var(--halo); }
+.hl .n { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; }
+/* All-verses grid: one row of ten cells per chapter, chapters grouped by book */
+#grid { position: absolute; inset: 0; overflow: auto; padding: 14px 14px 40px; display: flex; flex-wrap: wrap; gap: 18px 28px; align-content: flex-start; }
+.book { display: flex; flex-direction: column; gap: 6px; flex: 1 1 260px; min-width: 0; }
+.book h3 { margin: 0 0 2px; font: 600 13px/1.3 var(--f-ui); letter-spacing: .04em; text-transform: uppercase; display: flex; align-items: center; gap: 8px; }
+.book h3 small { font-weight: 400; color: var(--muted); text-transform: none; letter-spacing: 0; }
+.chaps { display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 4px 12px; }
+.chap { display: grid; grid-template-columns: 24px repeat(10, 1fr); gap: 2px; align-items: center; }
+.chap > span { font-size: 10px; color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; padding-right: 4px; }
+.cell { aspect-ratio: 1; min-width: 7px; border: 0; padding: 0; border-radius: 2px; cursor: pointer; background: var(--rule); opacity: .55; }
+.cell.on { background: var(--bk); opacity: 1; }
+.cell.sel { outline: 2px solid var(--ink); outline-offset: 1px; opacity: 1; }
+.cell:hover { outline: 1px solid var(--ink); }
 #hint { position: absolute; left: 12px; bottom: 10px; font-size: 12px; color: var(--muted); background: var(--panel); padding: 2px 8px; border-radius: 4px; pointer-events: none; }
 #tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--paper); font-size: 12.5px; padding: 6px 9px; border-radius: 5px; max-width: 300px; display: none; z-index: 2; }
 #tip .tam { font-family: var(--f-tamil); font-size: 13px; }
@@ -147,9 +164,20 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
   <aside aria-label="Controls">
     <div>
       <p class="label">View</p>
-      <div class="seg" role="group" aria-label="View">
-        <button id="v-verses" aria-pressed="true">Verse links</button>
+      <div class="seg three" role="group" aria-label="View">
+        <button id="v-grid" aria-pressed="false">All 1,330</button>
+        <button id="v-verses" aria-pressed="true">Links</button>
         <button id="v-concepts" aria-pressed="false">Concepts</button>
+      </div>
+    </div>
+    <div id="grid-controls">
+      <p class="label">Highlight verses that</p>
+      <div class="hl" role="group" aria-label="Highlight">
+        <button id="h-linked" aria-pressed="true">have a sound link</button>
+        <button id="h-contested" aria-pressed="false">commentators dispute</button>
+        <button id="h-textflag" aria-pressed="false">have text to check</button>
+        <button id="h-uncertain" aria-pressed="false">have an uncertain reading</button>
+        <button id="h-nuance" aria-pressed="false">have a nuance</button>
       </div>
     </div>
     <div>
@@ -177,6 +205,7 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
   </aside>
   <section id="stage" aria-label="Graph">
     <svg id="svg" role="img" aria-label="Graph of Kural verses and links"></svg>
+    <div id="grid" hidden></div>
     <div id="hint"></div>
     <div id="tip"></div>
   </section>
@@ -196,7 +225,7 @@ const fmt = n => n.toLocaleString("en");
 
 const verses = KG.verses;
 const bookOf = v => BOOKS[KG.chapters[verses[v].ch].section][0];
-const state = { view: "verses", grade: "sound", types: new Set(TYPES), thread: null, selected: null };
+const state = { view: "grid", grade: "sound", types: new Set(TYPES), thread: null, selected: null };
 
 // ---- Header stats ----
 (() => {
@@ -231,6 +260,18 @@ TYPES.forEach(t => document.getElementById("t-" + t).addEventListener("change", 
 }));
 for (const g of Object.keys(GRADE_SETS)) document.getElementById("g-" + g).addEventListener("click", () => { state.grade = g; state.thread = null; render(); });
 document.getElementById("v-verses").addEventListener("click", () => { state.view = "verses"; render(); });
+document.getElementById("v-grid").addEventListener("click", () => { state.view = "grid"; state.thread = null; render(); });
+const HIGHLIGHTS = {
+  linked: v => soundLinked.has(+v), contested: v => verses[v].x, textflag: v => verses[v].f,
+  uncertain: v => verses[v].u, nuance: v => verses[v].n
+};
+const soundLinked = new Set(KG.links.filter(l => l.grade === "sound").flatMap(l => [l.a, l.b]));
+for (const h of Object.keys(HIGHLIGHTS)) {
+  const b = document.getElementById("h-" + h);
+  b.insertAdjacentHTML("beforeend", `<span class="n">${Object.keys(verses).filter(HIGHLIGHTS[h]).length}</span>`);
+  b.addEventListener("click", () => { state.highlight = h; render(); });
+}
+state.highlight = "linked";
 document.getElementById("v-concepts").addEventListener("click", () => { state.view = "concepts"; state.thread = null; render(); });
 document.getElementById("threads").addEventListener("click", e => {
   const b = e.target.closest("[data-thread]"); if (!b) return;
@@ -291,10 +332,38 @@ function conceptGraph() {
   return { nodes, links };
 }
 
+function renderGrid() {
+  const grid = document.getElementById("grid"), on = HIGHLIGHTS[state.highlight];
+  const sel = state.selected?.kind === "verse" ? state.selected.id : null;
+  grid.innerHTML = Object.entries(BOOKS).map(([section, [key, name]]) => {
+    const chs = Object.entries(KG.chapters).filter(([, c]) => c.section === section);
+    const rows = chs.map(([no, c]) => {
+      const first = (no - 1) * 10 + 1;
+      const cells = Array.from({ length: 10 }, (_, i) => first + i).map(n =>
+        `<button class="cell${on(n) ? " on" : ""}${n === sel ? " sel" : ""}" data-cell="${n}" aria-label="Kural ${n}"></button>`).join("");
+      return `<div class="chap" title="${no}. ${esc(c.title)}"><span>${no}</span>${cells}</div>`;
+    }).join("");
+    const count = chs.length * 10, hits = chs.reduce((s, [no]) => s + Array.from({ length: 10 }, (_, i) => (no - 1) * 10 + 1 + i).filter(on).length, 0);
+    return `<section class="book" style="--bk:var(--${key})"><h3><span class="dot" style="background:var(--${key})"></span>${name}<small>${chs.length} chapters · ${hits} of ${count}</small></h3><div class="chaps">${rows}</div></section>`;
+  }).join("");
+}
+
 function render() {
-  for (const v of ["verses", "concepts"]) document.getElementById("v-" + v).setAttribute("aria-pressed", state.view === v);
+  for (const v of ["grid", "verses", "concepts"]) document.getElementById("v-" + v).setAttribute("aria-pressed", state.view === v);
   for (const g of Object.keys(GRADE_SETS)) document.getElementById("g-" + g).setAttribute("aria-pressed", state.grade === g);
+  for (const h of Object.keys(HIGHLIGHTS)) document.getElementById("h-" + h).setAttribute("aria-pressed", state.highlight === h);
   document.getElementById("link-controls").style.display = state.view === "verses" ? "" : "none";
+  document.getElementById("grid-controls").style.display = state.view === "grid" ? "" : "none";
+  document.querySelectorAll("[data-thread]").forEach(b => b.classList.toggle("on", +b.dataset.thread === state.thread));
+  const isGrid = state.view === "grid";
+  document.getElementById("grid").hidden = !isGrid;
+  document.getElementById("svg").style.display = isGrid ? "none" : "";
+  if (isGrid) {
+    if (sim) sim.stop();
+    const n = Object.keys(verses).filter(HIGHLIGHTS[state.highlight]).length;
+    document.getElementById("hint").textContent = `Every verse, one row of ten per chapter. ${n} of 1,330 highlighted. Click a cell to read the verse.`;
+    renderGrid(); return;
+  }
   document.querySelectorAll("[data-thread]").forEach(b => b.classList.toggle("on", +b.dataset.thread === state.thread));
   const grades = GRADE_SETS[state.grade];
   TYPES.forEach(t => document.getElementById("n-" + t).textContent = KG.links.filter(l => l.type === t && grades.includes(l.grade)).length);
@@ -407,8 +476,13 @@ function linkCard(l, from) {
 }
 
 function selectVerse(n, focus) {
-  if (state.view !== "verses") { state.view = "verses"; render(); }
-  state.selected = { kind: "verse", id: n }; highlight();
+  if (state.view === "concepts") { state.view = "verses"; render(); }
+  state.selected = { kind: "verse", id: n };
+  if (state.view === "grid") {
+    document.querySelectorAll(".cell.sel").forEach(c => c.classList.remove("sel"));
+    const cell = document.querySelector(`[data-cell="${n}"]`);
+    cell?.classList.add("sel"); if (focus) cell?.scrollIntoView({ block: "nearest" });
+  } else highlight();
   const v = verses[n], ch = KG.chapters[v.ch], links = KG.links.filter(l => l.a === n || l.b === n);
   const flags = [v.x && pill("contested", "commentators differ"), v.u && pill("uncertain", "reading uncertain"), v.f && pill("textflag", "source text to check")].filter(Boolean).join("");
   detail.innerHTML = `
@@ -424,7 +498,7 @@ function selectVerse(n, focus) {
     <div class="block"><div class="k">Links (${links.length})</div><div class="list">${links.length ? links.map(l => linkCard(l, n)).join("") : '<p class="empty">No links from this verse.</p>'}</div></div>
     <div class="block"><div class="k">Chapter theme</div><p style="color:var(--muted)">${esc(ch.theme)}</p></div>`;
   detail.scrollTop = 0;
-  if (focus) centreOn(n);
+  if (focus && state.view === "verses") centreOn(n);
 }
 
 function selectConcept(c, focus) {
@@ -461,12 +535,15 @@ function showEmpty() {
   const sound = KG.links.filter(l => l.grade === "sound").length;
   detail.innerHTML = `<div class="empty">
     <h2>How to read this</h2>
-    <p>Each dot is a Kural verse, coloured by book. Each line is a link an AI reader proposed between two verses, coloured by its type. By default only the ${sound} links an independent audit graded sound are shown.</p>
-    <p>Click a verse to see its Tamil, its reading, what Parimelazhagar, Manakkudavar and Kalaignar say, and its links. Pick a thread on the left to follow one theme across the book. Switch to Concepts to see which ideas travel together.</p>
+    <p><b>All 1,330</b> shows every verse: one row of ten per chapter, grouped by book. Choose on the left what to highlight, and click any cell to read that verse: its Tamil, its reading, what Parimelazhagar, Manakkudavar and Kalaignar say, and its links.</p>
+    <p><b>Links</b> draws the verses that connect to others, coloured by book, with lines coloured by link type. By default only the ${sound} links an independent audit graded sound are shown. Pick a thread to follow one theme across the book. <b>Concepts</b> shows which ideas travel together.</p>
     <p><b>Trust:</b> readings and commentator positions held up well in audits. Tension links are the weakest type: only 72 of 178 are sound. No Tamil scholar has reviewed this yet.</p>
   </div>`;
 }
 
+document.getElementById("grid").addEventListener("click", e => {
+  const c = e.target.closest("[data-cell]"); if (c) selectVerse(+c.dataset.cell);
+});
 detail.addEventListener("click", e => {
   const v = e.target.closest("[data-verse]"), c = e.target.closest("[data-concept]");
   if (c) selectConcept(c.dataset.concept, true); else if (v) selectVerse(+v.dataset.verse, true);
