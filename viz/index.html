@@ -99,6 +99,7 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
 .hl button[aria-pressed="true"] { border-color: var(--accent); background: var(--halo); }
 .hl .n { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; }
 /* All-verses grid: one row of ten cells per chapter, chapters grouped by book */
+#grid[hidden] { display: none; }
 #grid { position: absolute; inset: 0; overflow: auto; padding: 14px 14px 40px; display: flex; flex-wrap: wrap; gap: 18px 28px; align-content: flex-start; }
 .book { display: flex; flex-direction: column; gap: 6px; flex: 1 1 260px; min-width: 0; }
 .book h3 { margin: 0 0 2px; font: 600 13px/1.3 var(--f-ui); letter-spacing: .04em; text-transform: uppercase; display: flex; align-items: center; gap: 8px; }
@@ -171,14 +172,17 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
       </div>
     </div>
     <div id="grid-controls">
-      <p class="label">Highlight verses that</p>
+      <p class="legend-note" style="margin-bottom:10px">Every verse has a reading and concepts. A lit square is a verse that matches the choice below.</p>
+      <p class="label">Light up verses that</p>
       <div class="hl" role="group" aria-label="Highlight">
-        <button id="h-linked" aria-pressed="true">have a sound link</button>
+        <button id="h-concept" aria-pressed="false" hidden></button>
+        <button id="h-linked" aria-pressed="true">have a sound link to another verse</button>
         <button id="h-contested" aria-pressed="false">commentators dispute</button>
         <button id="h-textflag" aria-pressed="false">have text to check</button>
         <button id="h-uncertain" aria-pressed="false">have an uncertain reading</button>
         <button id="h-nuance" aria-pressed="false">have a nuance</button>
       </div>
+      <p class="legend-note" style="margin-top:8px">To light up a concept, search for it or click a concept on a verse.</p>
     </div>
     <div>
       <label class="label" for="search">Find a verse or concept</label>
@@ -272,7 +276,9 @@ for (const h of Object.keys(HIGHLIGHTS)) {
   b.addEventListener("click", () => { state.highlight = h; render(); });
 }
 state.highlight = "linked";
-document.getElementById("v-concepts").addEventListener("click", () => { state.view = "concepts"; state.thread = null; render(); });
+// A concept highlight is stored as "concept:<id>" and lights the verses that express it.
+const hlFn = () => state.highlight.startsWith("concept:")
+  ? (id => v => verses[v].c.includes(id))(state.highlight.slice(8)) : HIGHLIGHTS[state.highlight];document.getElementById("v-concepts").addEventListener("click", () => { state.view = "concepts"; state.thread = null; render(); });
 document.getElementById("threads").addEventListener("click", e => {
   const b = e.target.closest("[data-thread]"); if (!b) return;
   const i = +b.dataset.thread;
@@ -333,7 +339,7 @@ function conceptGraph() {
 }
 
 function renderGrid() {
-  const grid = document.getElementById("grid"), on = HIGHLIGHTS[state.highlight];
+  const grid = document.getElementById("grid"), on = hlFn();
   const sel = state.selected?.kind === "verse" ? state.selected.id : null;
   grid.innerHTML = Object.entries(BOOKS).map(([section, [key, name]]) => {
     const chs = Object.entries(KG.chapters).filter(([, c]) => c.section === section);
@@ -360,8 +366,11 @@ function render() {
   document.getElementById("svg").style.display = isGrid ? "none" : "";
   if (isGrid) {
     if (sim) sim.stop();
-    const n = Object.keys(verses).filter(HIGHLIGHTS[state.highlight]).length;
-    document.getElementById("hint").textContent = `Every verse, one row of ten per chapter. ${n} of 1,330 highlighted. Click a cell to read the verse.`;
+    const n = Object.keys(verses).filter(hlFn()).length;
+    const cb = document.getElementById("h-concept"), cid = state.highlight.startsWith("concept:") ? state.highlight.slice(8) : null;
+    cb.hidden = !cid; cb.setAttribute("aria-pressed", !!cid);
+    if (cid) cb.innerHTML = `express ${esc(cid)} <span style="font-family:var(--f-tamil)">${esc(KG.concepts[cid].tamil)}</span><span class="n">${n}</span>`;
+    document.getElementById("hint").textContent = `Every verse, one row of ten per chapter. ${n} of 1,330 lit${cid ? ` for ${cid}` : ""}. Click a square to read the verse.`;
     renderGrid(); return;
   }
   document.querySelectorAll("[data-thread]").forEach(b => b.classList.toggle("on", +b.dataset.thread === state.thread));
@@ -502,12 +511,16 @@ function selectVerse(n, focus) {
 }
 
 function selectConcept(c, focus) {
-  if (state.view !== "concepts") { state.view = "concepts"; render(); }
-  state.selected = { kind: "concept", id: c }; highlight();
+  if (state.view === "grid") { state.highlight = "concept:" + c; render(); }
+  else {
+    if (state.view !== "concepts") { state.view = "concepts"; render(); }
+    state.selected = { kind: "concept", id: c }; highlight();
+  }
   const info = KG.concepts[c], list = Object.entries(verses).filter(([, v]) => v.c.includes(c));
   const byBook = {}; list.forEach(([n]) => { const b = bookOf(n); byBook[b] = (byBook[b] || 0) + 1; });
-  const near = current.links.filter(l => l.source.id === c || l.target.id === c)
-    .map(l => [l.source.id === c ? l.target.id : l.source.id, l.w]).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  const shared = {};
+  list.forEach(([, v]) => v.c.forEach(o => { if (o !== c) shared[o] = (shared[o] || 0) + 1; }));
+  const near = Object.entries(shared).filter(([, w]) => w >= 3).sort((a, b) => b[1] - a[1]).slice(0, 10);
   detail.innerHTML = `
     <div><h2>${esc(c)} <span style="font-family:var(--f-tamil);font-weight:400">${esc(info.tamil)}</span></h2><div class="sub">${esc(info.gloss)}</div></div>
     <div class="pills">${Object.entries(BOOKS).map(([, [k, name]]) => byBook[k] ? `<span class="pill" style="color:var(--${k})">${name.split(" ")[0]} ${byBook[k]}</span>` : "").join("")}</div>
@@ -515,7 +528,7 @@ function selectConcept(c, focus) {
     <div class="block"><div class="k">Verses (${list.length})</div><div class="list">${list.map(([n, v]) =>
       `<button class="lk" data-verse="${n}"><span class="top">${n}<span style="font-weight:400;color:var(--muted)">${esc(KG.chapters[v.ch].title)}</span>${v.x ? pill("contested", "contested") : ""}</span><p>${esc(v.r)}</p></button>`).join("")}</div></div>`;
   detail.scrollTop = 0;
-  if (focus) centreOn(c);
+  if (focus && state.view === "concepts") centreOn(c);
 }
 
 function showThread(t) {
