@@ -171,8 +171,8 @@ any of it, and the samples are small.
 | Commentators' positions | 28 of 30 accurate, 2 partial | Fairly reliable |
 | Verse readings | 46 of 50 correct, 4 partial | Fairly reliable |
 | Nuances | Of 43: 34 useful, 6 filler, 3 overreach | Trust attributions and discount flourishes |
-| Links other than `tension`, all 398 | 298 sound, 78 weak, 18 forced, 4 wrong | Mostly usable; filter on `audit` |
-| `tension` links, all 178 | 72 sound, 65 weak, 39 forced, 2 wrong | Use only those graded sound |
+| Links from chapter marks other than `tension`, all 398 | 298 sound, 78 weak, 18 forced, 4 wrong | Mostly usable; filter on `audit` |
+| `tension` links from chapter marks, all 178 | 72 sound, 65 weak, 39 forced, 2 wrong | Use only those graded sound |
 
 - Every link now has an `audit` grade. Its source is `audit_kural.json`, `thread_audit.json` or
   `link_audit.json`, checked in that order. `audit_better_type` holds a grader's suggested type,
@@ -189,6 +189,12 @@ the independent comparison. The base text is unchanged, and `verse_text_flags.js
 verses to check. That list caught 21 of 22 known errors, and later held 16 of 17 typos the link
 graders found independently (the missed one is a stray space). Many flags will be harmless spelling
 differences, and a difference may be a real variant.
+
+**Systematic link pass.** The links above came from what each chapter's reader happened to notice,
+so 583 verses had none. A pilot on 10 chapters had agents compare every verse with the whole book and
+added 166 graded links, marked `source: "systematic_pass"`. Of its proposals 90% were graded sound,
+and it found 62% of the known sound links again. The other 123 chapters have not been done. See
+[docs/link-pass-plan.md](docs/link-pass-plan.md) and `kg/kural/link_pass.json`.
 
 **Graph explorer.** `viz/index.html` shows the verses, links, concepts and threads as an interactive
 graph. It loads `viz/data.js`, so serve the folder rather than opening the file directly:

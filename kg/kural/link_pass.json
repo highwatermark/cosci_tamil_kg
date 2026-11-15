@@ -1,0 +1,2731 @@
+{
+ "summary": {
+  "run": "Pilot of docs/link-pass-plan.md, 2026-11-15",
+  "chapters": [
+   1,
+   4,
+   25,
+   33,
+   39,
+   55,
+   64,
+   98,
+   110,
+   116
+  ],
+  "method": "Five Claude agents each took two chapters, read an index of all 1,330 readings, and proposed up to 3 links per verse after reading the Tamil and commentaries of both verses. Existing links were hidden from them. Five other agents graded the proposals blind, mixed with 40 unmarked links whose grades were known.",
+  "proposals": 224,
+  "distinct_pairs": 223,
+  "verses_with_no_proposal": [
+   1095
+  ],
+  "by_grade": {
+   "sound": 201,
+   "weak": 21,
+   "forced": 1
+  },
+  "new_pairs": {
+   "sound": 147,
+   "weak": 19,
+   "forced": 1
+  },
+  "recall": "45 of the 73 known sound links touching these chapters were proposed again",
+  "calibration": {
+   "exact_agreement": "29 of 40",
+   "graders_stricter": 7,
+   "graders_more_lenient": 3
+  },
+  "coverage": "Pilot verses with a sound link rose from 55 to 99 of 100",
+  "tokens": {
+   "proposing": 979000,
+   "grading": 598000
+  },
+  "limits": "All proposers and graders are Claude without a Tamil lexicon. The proposals have longer, more careful notes than the earlier links, and graders judge the link as written, so a persuasive note may raise a grade: 10 pairs earlier graded weak were graded sound with the new note. No Tamil scholar has reviewed any of this."
+ },
+ "links": [
+  {
+   "a": 1,
+   "b": 543,
+   "type": "same_image",
+   "note": "Verse 1 says the world has ஆதி பகவன் as its first (முதற்றே உலகு), as letters have அ. Verse 543 uses the same word for the king's sceptre: it stands as the ஆதி of the antaṇar's books and of aram (அறத்திற்கும் ஆதியாய் நின்றது மன்னவன் கோல்), which Parimelazhagar glosses as their cause (காரணம்). The pairing shows the book giving the world one 'first' in its opening and giving aram itself a second, political one in Book 2.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The word ஆதி occurs in 'ஆதி பகவன் முதற்றே உலகு' and in 'அறத்திற்கும் ஆதியாய் நின்றது மன்னவன் கோல்'; the sceptre as the 'first' of aram set beside the world's 'first' is a meaningful reuse and the note's gloss report is accurate.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1,
+   "b": 1062,
+   "type": "same_image",
+   "note": "Verse 1 names a first of the world (ஆதி பகவன் முதற்றே உலகு) and the chapter goes on to ask for reverence. Verse 1062 is the one place that speaks of a maker of the world (உலகியற்றியான்), and it wishes him to wander and perish (பரந்து கெடுக) if he requires that some live by begging. Read together, the figure at the head of the world is praised in one place and held answerable in the other; whether the two are the same figure is an inference, since verse 1 says 'first', not 'maker'.",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The two verses share no image or word ('ஆதி பகவன் முதற்றே' against 'உலகியற்றியான்'), and the note itself admits that the identity of the two figures is an inference. The contrast of reverence and conditional curse ('பரந்து கெடுக') is worth noting, but it does not fit same_image or cleanly fit any other type.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 2,
+   "b": 140,
+   "type": "parallel_domain",
+   "note": "Verse 2 denies any fruit to learning without worship. Verse 140 says those who have not learned to live in accord with the world are without understanding though they have learned much (பலகற்றும் கல்லார் அறிவிலாதார்). The same discounting of book-learning recurs with a social test in place of a devotional one.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'கற்றதனால் ஆய பயனென்கொல்' and 'பலகற்றும் கல்லார் அறிவிலாதார்' both discount learning that fails an external test (worship / 'உலகத்தோடு ஒட்ட ஒழுகல்').",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 2,
+   "b": 315,
+   "type": "parallel_domain",
+   "note": "Verse 2: what has learning yielded, if one does not bow at the good feet (நற்றாள் தொழாஅர் எனின்)? Verse 315: does understanding achieve anything (அறிவினான் ஆகுவதுண்டோ) if one does not guard against another's pain as one's own? Both are rhetorical questions that judge knowledge by a test outside knowledge, worship in one and compassion in the other.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both are rhetorical questions on the yield of knowing ('கற்றதனால் ஆய பயனென்கொல்' / 'அறிவினான் ஆகுவதுண்டோ') conditioned on a test outside knowledge (தொழாஅர் எனின் / போற்றாக் கடை).",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 2,
+   "b": 356,
+   "type": "develops",
+   "note": "Verse 2 asks what use learning is (கற்றதனால் ஆய பயன் என்கொல்) if the learned do not worship the feet of the one of pure knowledge. Verse 356 states the fruit positively: those who learn here and see the true thing (கற்றீண்டு மெய்ப்பொருள் கண்டார்) reach the path of not returning. Parimelazhagar reads verse 2's fruit as ending rebirth too, so 356 spells out what verse 2 leaves as a question.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "கற்றதனால் ஆய பயன் என்கொல் is answered by கற்றீண்டு மெய்ப்பொருள் கண்டார் தலைப்படுவர் மற்றீண்டு வாரா நெறி: learning's fruit is stated positively. The reading of Parimelazhagar on verse 2 fits his usual gloss.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 3,
+   "b": 6,
+   "type": "same_image",
+   "note": "Verses 3 and 6 end on the same words, நீடுவாழ்வார், 'will live long'. Verse 3 gives this to those who reach the feet (மாணடி சேர்ந்தார்); verse 6 gives it to those who stand in the path of conduct free of falsehood (பொய்தீர் ஒழுக்க நெறி நின்றார்) of the one who quenched the five. The repeated ending puts devotion and conduct side by side as routes to the same result.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both end நீடுவாழ்வார், given once to மாணடி சேர்ந்தார் and once to பொய்தீர் ஒழுக்க நெறி நின்றார். The repeated close is distinctive and the note reads both lines correctly, though it is a modest point within one chapter.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 4,
+   "b": 350,
+   "type": "develops",
+   "note": "Verse 4 describes the one without wanting or not-wanting (வேண்டுதல் வேண்டாமை இலான்) and says those who reach his feet have no affliction. Verse 350 turns the same description into an instruction: hold to the hold of the one without attachment (பற்றற்றான் பற்றினை), in order to let attachment go (பற்று விடற்கு). Parimelazhagar notes that பற்றற்றான் is chosen to match the invocation chapter; 350 supplies the mechanism verse 4 leaves unstated.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "வேண்டுதல் வேண்டாமை இலான் and பற்றற்றான் describe the same figure, and 350 makes holding to him the means (பற்று விடற்கு). Parimelazhagar does say கடவுள் வாழ்த்திற்கு ஏற்ப ... 'பற்றற்றான்' என்றார், as cited.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 4,
+   "b": 362,
+   "type": "same_image",
+   "note": "Both verses turn on the word வேண்டாமை but use it differently. In verse 4 it is paired with வேண்டுதல் as something the Lord lacks, which Parimelazhagar glosses as aversion (வெறுத்தல்). In 362 வேண்டாமை is desirelessness, the thing to want (வேண்டாமை வேண்ட வரும்) so that birthlessness comes. A reader should not carry one sense into the other.",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "வேண்டாமை does occur in both and the two senses are described correctly (aversion beside வேண்டுதல் in 4; desirelessness in 362), but the note's point is that the uses are unrelated, so the link is a lexical caution rather than a meaningful shared image.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 4,
+   "b": 628,
+   "type": "parallel_domain",
+   "note": "Verse 4 says there is no இடும்பை at any time for those who reach the feet of the one free of liking and aversion. Verse 628, in the chapter on not being undone by trouble, says one who does not desire pleasure and calls இடும்பை natural (இன்பம் விழையான் இடும்பை இயல்பென்பான்) does not come to pain. The Book 2 verse keeps the link between absent desire and absent suffering but drops the devotional route, and it concedes that the affliction itself still arrives.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both tie absence of wanting to absence of இடும்பை/துன்பம் ('வேண்டுதல் வேண்டாமை இலான் ... இடும்பை இல'; 'இன்பம் விழையான் ... துன்பம் உறுதல் இலன்'), and 628's 'இடும்பை இயல்பென்பான்' does concede that affliction arrives. In 4 the desirelessness belongs to the deity, not the devotee, which the note blurs slightly but does not misstate.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 5,
+   "b": 38,
+   "type": "tension",
+   "note": "Verse 5 says both kinds of deed, which belong to darkness (இருள்சேர் இருவினையும்), do not attach to those who dwell on the Lord's praise; Parimelazhagar explains that good deeds too are a cause of birth. Verse 38 says that doing good (நன்றாற்றின்) with no day lost is the stone that blocks the road of one's days, which Parimelazhagar and Manakkudavar both read as ending rebirth. On those readings one verse counts good deeds among what binds and the other makes them what frees.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "On Parimelazhagar's reading 'இருவினையும்' in 5 includes நல்வினை as a cause of birth, while 38's 'நன்றாற்றின் ... வாழ்நாள் வழியடைக்கும் கல்' makes doing good what stops rebirth (both commentators); the note names the readings the conflict depends on.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 5,
+   "b": 352,
+   "type": "develops",
+   "note": "Verse 5 ties the two kinds of deed to இருள், which Parimelazhagar and Manakkudavar gloss as delusion. Verse 352 says that for those of stainless sight who have left confusion (மருள்நீங்கி மாசறு காட்சியவர்க்கு), darkness goes and joy comes (இருள்நீங்கி இன்பம் பயக்கும்). The later verse gives knowledge as what removes the darkness that verse 5 only names.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'இருள்சேர் இருவினை' and 'இருள்நீங்கி ... மருள்நீங்கி மாசறு காட்சியவர்க்கு' share இருள், and 352 does give clear sight as what removes it. The note should have said this fits Manakkudavar ('அறியாமையாகிய இருள்'); Parimelazhagar takes இருள் in 352 as hell standing for birth.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 5,
+   "b": 388,
+   "type": "same_image",
+   "note": "Verse 5 speaks of the praise of இறைவன், the chapter's word for the Lord. Verse 388 says a king who does justice and protects is set down as இறை for the people (மக்கட்கு இறையென்று வைக்கப்படும்). The shared word shows that the title used for the deity in chapter 1 is one a human ruler earns by conduct in Book 2.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "இறைவன் in 5 and மக்கட்கு இறையென்று வைக்கப்படும் in 388 share the title, and 388 plainly makes it something a king earns by முறைசெய்து காப்பாற்றும். The shared word is meaningful, not incidental.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 6,
+   "b": 25,
+   "type": "same_image",
+   "note": "Verse 6 calls the deity பொறிவாயில் ஐந்தவித்தான், the one who quenched the five of the sense-gates. Verse 25 uses the same ஐந்தவித்தான் for the human renouncer, whose strength Indra is witness to. The epithet is not reserved for the divine: the book's ascetic ideal and its deity are described in the same word.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The identical epithet 'ஐந்தவித்தான்' is used of the deity in 6 ('பொறிவாயில் ஐந்தவித்தான்') and of the human renouncer in 25 ('ஐந்தவித்தான் ஆற்றல்'); a distinctive shared word with a real point.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 6,
+   "b": 126,
+   "type": "develops",
+   "note": "Verse 6 promises long life to those who stand in the path of the one who quenched the five. Verse 126 gives the human practice and its reward: if one can draw in the five like a tortoise in one birth (ஆமைபோல் ஐந்தடக்கல்), it is a protection for seven (எழுமையும் ஏமாப்புடைத்து). Verse 126 says அடக்கல், holding in, where verse 6 says அவித்தான், quenched, so the follower's task is stated more modestly than the exemplar's.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "ஐந்தவித்தான் and ஐந்தடக்கல் are the same five, with a reward attached in both (நீடுவாழ்வார்; எழுமையும் ஏமாப்புடைத்து). The அவித்தல்/அடக்கல் contrast is the note's inference but is fairly drawn from the words.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 7,
+   "b": 622,
+   "type": "tension",
+   "note": "Verse 7 says it is hard to remove the mind's anxiety (மனக்கவலை மாற்றல் அரிது) except for those who reach the feet of the one without equal. Verse 622 says a flood of affliction perishes when a person of understanding thinks in his own mind (அறிவுடையான் உள்ளத்தின் உள்ளக் கெடும்). The conflict holds if மனக்கவலை is ordinary mental distress, as Manakkudavar's gloss allows; Parimelazhagar narrows it to the sufferings of rebirth, which 622 does not address.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "7: மனக்கவலை மாற்றல் அரிது except for தாள்சேர்ந்தார்; 622: இடும்பை ... அறிவுடையான் உள்ளத்தின் உள்ளக் கெடும். A real conflict if கவலை is ordinary distress, and the note names the reading it depends on.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 7,
+   "b": 1072,
+   "type": "qualifies",
+   "note": "Verse 7 makes freedom from mental anxiety rare, reserved for those who reach the Lord's feet. Verse 1072 says, with irony, that the base are better off than those who know the good, because they have no distress in their hearts (நெஞ்சத்து அவலம் இலர்). Read beside verse 7 it marks that mere absence of worry is not the state the invocation is praising, since the base have it too.",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "மனக்கவலை and நெஞ்சத்து அவலம் do meet, but 1072 is an ironic jab at the கயவர், not a limit on verse 7; the 'counterfeit calm' lesson is the note's construction rather than something either verse states.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 8,
+   "b": 30,
+   "type": "develops",
+   "note": "Verse 8 calls the deity அறவாழி அந்தணன், joining அந்தணன் to aram. Verse 30 defines the word: those called அந்தணர் are the people of aram (அறவோர்), because they act with kindness toward every living being (செந்தண்மை பூண்டொழுகலான்). Verse 30 gives the reason for the pairing of title and virtue that verse 8 assumes.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "8 joins the two words in 'அறவாழி அந்தணன்' and 30 defines the title by the virtue: 'அந்தணர் என்போர் அறவோர் ... செந்தண்மை பூண்டொழுகலான்'. The note is accurate.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 8,
+   "b": 989,
+   "type": "same_image",
+   "note": "Verse 8 uses ஆழி for the deity (அறவாழி), read as 'sea of aram' by Parimelazhagar, who also records the reading 'wheel of aram'. Verse 989 calls the worthy சான்றாண்மைக்கு ஆழி and says they do not shift even if the age shifts; there Parimelazhagar reads ஆழி as the shore of the sea of worth. The same word is attached to a virtue in both verses, to a god in one and to people in the other, and its sense is disputed in both.",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The word ஆழி attaches to a virtue in both ('அறவாழி', 'சான்றாண்மைக்கு ஆழி'), and the commentary reports are accurate, but on the readings given it means sea in one and shore in the other; as written the link is a shared, disputed word more than a shared image.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 8,
+   "b": 1164,
+   "type": "same_image",
+   "note": "Verse 8 says the other seas are hard to swim (பிறவாழி நீந்தல் அரிது) except for those who reach the feet of the antaṇan who is a sea of aram; Parimelazhagar takes the other seas to be wealth and pleasure and the feet to be the raft. In 1164 the woman says the sea of kāmam is there and the safe raft to swim it is not (காமக் கடல் ... அதுநீந்தும் ஏமப் புணை ... இல்). Book 3 shows from inside one of the seas that Parimelazhagar finds in verse 8, with the raft named and missing.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'பிறவாழி நீந்தல்' and 'காமக் கடல் ... நீந்தும் ஏமப் புணை' share the swim-the-sea figure; Parimelazhagar does gloss the feet as 'தாள் ஆகிய புணை' and the other seas as பொருள் and இன்பம், so the note is accurate.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 9,
+   "b": 6,
+   "type": "qualifies",
+   "note": "Verse 9 treats a sense organ that does not grasp (கோளில் பொறி) as the type of uselessness, while verse 6 praises the one who quenched the five of the sense-gates (பொறிவாயில் ஐந்தவித்தான்). Parimelazhagar reads what is quenched in verse 6 as the five desires that travel by the senses, not the senses. Taken together the two verses of the chapter support that reading: a dead sense is a defect, and what is praised is something else.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'கோளில் பொறி' as the type of uselessness beside 'பொறிவாயில் ஐந்தவித்தான்' does support Parimelazhagar's gloss that what is quenched is the five desires, not the organs; the note is accurate and hedged.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 9,
+   "b": 418,
+   "type": "parallel_domain",
+   "note": "Verse 9 says a head that does not bow at the feet of the one of eight qualities is without worth, like a sense organ that does not grasp (கோளில் பொறியின் குணமிலவே). Verse 418 says ears not pierced by listening are of a deaf kind even though they hear (கேட்பினும் கேளாத் தகையவே). Both measure a part of the body by one proper use and call it dead without that use; the use is worship in one and learning by ear in the other.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "வணங்காத் தலை is like கோளில் பொறி; செவி not தோட்கப்பட்ட by கேள்வி is கேளாத் தகைய. Both judge an organ by its proper use; worship in one, learning in the other.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 9,
+   "b": 574,
+   "type": "parallel_domain",
+   "note": "Verse 9 compares the unbowing head to an organ that is present and does not sense. Verse 574 asks what eyes without kindly regard do, beyond seeming to be in the face (உளபோல் முகத்து எவன் செய்யும்). The figure of the organ that is there and useless is applied in Book 2 to a ruler's compassion.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'கோளில் பொறியின் குணமிலவே' and 'உளபோல் முகத்தெவன் செய்யும் ... கண்ணோட்டம் இல்லாத கண்' use the same figure of an organ that is present and does nothing, in devotion and in rule.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 10,
+   "b": 8,
+   "type": "same_image",
+   "note": "Verses 8 and 10 both speak of swimming a sea with the Lord's feet as the condition. Verse 10 names the sea as birth (பிறவிப் பெருங்கடல்); verse 8 says only 'the other seas' (பிறவாழி), which Parimelazhagar takes as wealth and pleasure. On his reading the chapter has two different seas; without it, verse 8 can look like a first statement of verse 10.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'பிறவிப் பெருங்கடல் நீந்துவர்' and 'பிறவாழி நீந்தல் அரிது', each conditioned on reaching the feet (அடி/தாள் சேர்); the note correctly flags that the sea of 8 is unnamed and reading-dependent.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 10,
+   "b": 349,
+   "type": "qualifies",
+   "note": "Verse 10 makes reaching the Lord's feet the condition for crossing birth: those who do not reach them do not swim it (நீந்தார் இறைவனடி சேராதார்). Verse 349 gives a condition with no deity in it: the moment attachment is cut, that cuts birth (பற்றற்ற கண்ணே பிறப்பறுக்கும்). The next verse, 350, joins the two by telling one to hold to the one without attachment in order to drop attachment, so 349 shows what reaching the feet has to accomplish.",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "The connection is real ('இறைவன் அடிசேராதார் நீந்தார்' against 'பற்றற்ற கண்ணே பிறப்பறுக்கும்', bridged by 350), but 349 neither limits 10 nor adds a condition to it; it supplies the mechanism, which is a development. The closing claim about 'what reaching the feet has to accomplish' is the note's inference, leaning on 350.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 10,
+   "b": 1167,
+   "type": "same_image",
+   "note": "Verse 10 says those who reach the Lord's feet swim the great sea of birth and others do not. In 1167 the woman says she swims the fierce flood of kāmam and sees no shore (நீந்திக் கரைகாணேன்), alone even at midnight. The swimmer who cannot cross, stated as doctrine in verse 10, is spoken in the first person in Book 3.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'பிறவிப் பெருங்கடல் நீந்துவர் நீந்தார்' and 'காமக் கடும்புனல் நீந்திக் கரைகாணேன்' share the figure of a swimmer in a water that cannot be crossed, as doctrine and as first-person lament.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 31,
+   "b": 169,
+   "type": "qualifies",
+   "note": "Verse 31 says aram yields wealth and asks what greater gain a living being has. Verse 169 admits the opposite case occurs: the prosperity of the crooked-hearted and the ruin of the upright are to be thought about (நினைக்கப்படும்). Parimelazhagar says such outcomes cannot come from crookedness or uprightness and sends the wise to look for a cause in past deeds; either way 169 limits how far verse 31 can be read as a promise visible in one life. His gloss on 31 itself takes செல்வம் as heavenly goods.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "சிறப்பு ஈனும் செல்வமும் ஈனும் is checked by 169's admission that அவ்விய நெஞ்சத்தான் ஆக்கமும் செவ்வியான் கேடும் occur and must be நினைக்கப்படும். The note's account of Parimelazhagar on both verses is accurate.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 31,
+   "b": 754,
+   "type": "same_image",
+   "note": "Verse 31 says aram yields distinction and yields wealth too (சிறப்பீனும் செல்வமும் ஈனும்). Verse 754 uses the same construction with the terms turned round: wealth that came by known means and without wrong yields aram and yields pleasure too (அறன்ஈனும் இன்பமும் ஈனும்). Book 1 has virtue producing wealth and Book 2 has rightly earned wealth producing virtue, in matching words.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "சிறப்பீனும் செல்வமும் ஈனும் (of அறம்) and அறன்ஈனும் இன்பமும் ஈனும் (of தீதின்றி வந்த பொருள்) mirror each other in construction with the terms reversed.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 32,
+   "b": 117,
+   "type": "develops",
+   "note": "Verse 32 says no ruin (கேடு) surpasses forgetting aram. Verse 117 gives the other side: the world will not count as ruin (கெடுவாக வையாது) the low state of one who stays fair and rests in the good. Together they define ruin by one's relation to virtue and not by one's circumstances.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'மறத்தலின் ஊங்கில்லை கேடு' and 'கெடுவாக வையாது … தாழ்வு' use the same கேடு/கெடு to define ruin by one's relation to virtue rather than by fortune.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 32,
+   "b": 122,
+   "type": "same_image",
+   "note": "Verse 32 says there is no gain beyond aram (அறத்தினூஉங்கு ஆக்கமும் இல்லை). Verse 122 says of restraint that a living being has no gain beyond it (ஆக்கம் அதனினூஉங்கு இல்லை உயிர்க்கு), in nearly the same words as verses 31 and 32. The repeated formula shows that 'nothing surpasses this' is a way the book commends a virtue, and that restraint is being placed inside aram, not set against it.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "அறத்தினூஉங்கு ஆக்கமும் இல்லை and ஆக்கம் அதனினூஉங்கு இல்லை உயிர்க்கு are the same formula, as is 31's ஆக்கம் எவனோ உயிர்க்கு. The formula point is right; 'restraint placed inside aram' is a mild extra inference.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 32,
+   "b": 532,
+   "type": "parallel_domain",
+   "note": "Verse 32 names forgetting (மறத்தல்) of aram as the greatest ruin. In the chapter on heedlessness, 532 says forgetfulness kills renown (பொச்சாப்புக் கொல்லும் புகழை) as unrelieved poverty kills understanding. The idea that the damage comes through lapse of attention, without any act of wrongdoing, is carried from ethics into statecraft.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'அதனை மறத்தலின் ஊங்கில்லை கேடு' and 'பொச்சாப்புக் கொல்லும் புகழை' both locate ruin in forgetting or heedlessness rather than in a positive wrong, in ethics and in statecraft.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 33,
+   "b": 297,
+   "type": "tension",
+   "note": "Verse 33 asks for aram everywhere and without a break (ஓவாதே ... எல்லாம் செயல்). Verse 297 says that if one keeps to not lying, then not doing the other virtues is good (அறம்பிற செய்யாமை செய்யாமை நன்று). On Parimelazhagar's reading of 297, that it is better to hold one virtue unfailingly than to take on many and fail in some, this is advice to narrow what verse 33 tells one to spread as widely as possible.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "33: அறவினை ஓவாதே செல்லும்வாய் எல்லாஞ் செயல்; 297: with பொய்யாமை, அறம்பிற செய்யாமை நன்று. On Parimelazhagar's stated reading (hold one virtue rather than many and fail) the advice does narrow what 33 widens; the note names that reading.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 33,
+   "b": 477,
+   "type": "develops",
+   "note": "Verse 33 limits its command with ஒல்லும் வகையான், 'in the way that is possible'. Parimelazhagar explains this for the householder as acting in proportion to one's means, and 477 says so directly: give knowing the measure (அளவறிந்து ஈக), for that is the way to guard wealth while giving. Verse 477 gives the practical content of the qualifier in verse 33. This edition prints அறவறிந்து in 477; the commentary reads அளவு அறிந்து.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Parimelazhagar glosses 'ஒல்லும் வகையான்' as proportion to one's means for the householder, which 477's 'அளவறிந்து ஈக ... பொருள் போற்றி வழங்கு நெறி' states directly.",
+   "text_issue": "477 is printed 'அறவறிந்து'; the commentaries read 'அளவு அறிந்து' (அளவறிந்து), as the note says.",
+   "already_linked": false
+  },
+  {
+   "a": 33,
+   "b": 673,
+   "type": "parallel_domain",
+   "note": "Verse 33 says to do the work of aram by whatever means one can (ஒல்லும் வகையான்), without ceasing, wherever it can go (செல்லும்வாய் எல்லாம் செயல்). Verse 673, on how to carry out a task, uses the same words: where it is possible the deed is good, and where it is not, act looking for a way that goes (ஒல்லும்வாய் ... செல்லும்வாய் நோக்கிச் செயல்). The rule for virtue and the rule for state action are built from the same vocabulary of the possible. This edition prints the first word of 673 as ஙல்லும், a typo for ஒல்லும், as its own commentary shows.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'ஒல்லும் வகையான் … செல்லும்வாய் எல்லாஞ் செயல்' and 'ஒல்லும்வாயெல்லாம் … செல்லும்வாய் நோக்கிச் செயல்' build the rule for virtue and for state action from the same words.",
+   "text_issue": "673 prints ஙல்லும் for ஒல்லும்.",
+   "already_linked": false
+  },
+  {
+   "a": 34,
+   "b": 278,
+   "type": "develops",
+   "note": "Verse 34 says being without stain in the mind (மனத்துக்கண் மாசிலன் ஆதல்) is the whole of aram and the rest is noise (ஆகுல நீர). Verse 278 shows the rest in practice: many, with the stain in their minds (மனத்தது மாசாக), bathe as though they were great and live concealed. The chapter on false conduct supplies the case that verse 34 dismisses in general terms.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "மனத்துக்கண் மாசிலன் ஆதல் versus மனத்தது மாசாக ... நீராடி: 278 is the concrete case of the ஆகுல நீர that 34 dismisses.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 34,
+   "b": 298,
+   "type": "develops",
+   "note": "Verse 34 sets inner cleanness against outward show. Verse 298 makes the same division and adds how the inner kind is known: outer purity is had by water, and inner purity is seen through truthfulness (அகந்தூய்மை வாய்மையால் காணப்படும்). It gives a test for the state that verse 34 only asserts. This edition prints புறள்தூய்மை for புறந்தூய்மை.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "மனத்துக்கண் மாசிலன் in 34 and அகந்தூய்மை வாய்மையால் காணப்படும் in 298 share the inner/outer split, and 298 adds how inner purity is known. Note is accurate.",
+   "text_issue": "298 prints புறள்தூய்மை for புறந்தூய்மை.",
+   "already_linked": false
+  },
+  {
+   "a": 34,
+   "b": 455,
+   "type": "qualifies",
+   "note": "Verse 34 places all of aram in a stainless mind. Verse 455 says purity of mind and purity of action both come leaning on purity of company (இனந்தூய்மை தூவா வரும்). If so, the inner state verse 34 treats as the whole matter depends on something outside the person.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "மனத்துக்கண் மாசிலன் ஆதல் அனைத்து அறன் is conditioned by மனந்தூய்மை ... இனந்தூய்மை தூவா வரும்: the inner state leans on company as its prop (தூ). Accurate and worth pairing.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 35,
+   "b": 161,
+   "type": "develops",
+   "note": "Verse 35 lists envy (அழுக்காறு) first among what aram must avoid. Verse 161 turns that item into a positive rule: take as your way of conduct (ஒழுக்காறாக் கொள்க) a nature that has no envy in the heart. The chapter on envy opens by treating as a discipline what verse 35 states as an exclusion.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "அழுக்காறு heads the four in 35; 161 makes அழுக்காறு இலாத இயல்பு one's ஒழுக்காறு. Exclusion in the general chapter becomes discipline in its own chapter.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 35,
+   "b": 360,
+   "type": "develops",
+   "note": "Verse 35 defines aram as what goes on without slipping into four things: envy, craving, anger and harsh speech (அழுக்காறு அவா வெகுளி இன்னாச்சொல்). Verse 360 gives a shorter list for the renouncer: when even the names of desire, anger and confusion (காமம் வெகுளி மயக்கம்) are gone, pain goes. Anger and desire appear in both; the householder's list adds faults that touch other people, and the renouncer's adds the confusion at their root. The edition's Tamil for 360 is misprinted (இநவ்முன்றன் for இவை மூன்றன்).",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'அழுக்காறு அவா வெகுளி இன்னாச்சொல்' and 'காமம் வெகுளி மயக்கம்' overlap in desire and anger (வெகுளி verbatim), and the note's contrast of the householder's and renouncer's lists is fair.",
+   "text_issue": "360 is misprinted 'இநவ்முன்றன்' for 'இவை மூன்றன்', as the note says.",
+   "already_linked": true
+  },
+  {
+   "a": 35,
+   "b": 431,
+   "type": "parallel_domain",
+   "note": "Verse 35 defines aram by the absence of four faults. Verse 431 defines a sound prosperity the same way for a ruler: the increase of those without arrogance, anger and smallness (செருக்கும் சினமும் சிறுமையும் இல்லார்) has dignity. Anger is on both lists; Parimelazhagar glosses சிறுமை in 431 as lust, which would bring the two lists closer still.",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both define by absent faults and share anger ('வெகுளி' / 'சினம்'), but lists of faults are common in the book and the other items do not match. Parimelazhagar's 'காமம்' for சிறுமை is not the same as 35's 'அவா'.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 36,
+   "b": 233,
+   "type": "tension",
+   "note": "Verse 36 calls aram a companion that does not perish (பொன்றாத் துணை). Verse 233 says that apart from high renown nothing in the world stands unperishing (புகழல்லால் பொன்றாது நிற்பதொன்று இல்), using the same word. Read literally the second excludes the first. Parimelazhagar's reading of 36, that the merit goes with the soul into another body, puts it outside 'the world' of 233; Kalaignar reads 36 itself as lasting fame, which removes the conflict another way.",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The shared பொன்றா/பொன்றாது is real, but 233 itself limits its claim with உலகத்து while 36 speaks of the moment of death (பொன்றுங்கால்), so even the literal reading does not exclude 36; the note's 'read literally the second excludes the first' overstates.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 36,
+   "b": 335,
+   "type": "develops",
+   "note": "Verse 36 says to do aram without saying 'we will see to it then' (அன்றறிவாம் என்னாது), because it is the companion that does not perish when one perishes. Verse 335 gives the same urgency a physical picture: before the hiccup comes up and stops the tongue (நாச்செற்று விக்குள் மேல்வாராமுன்), good deeds must be gone at and done. The later verse shows the moment that verse 36 calls பொன்றுங்கால்.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'அன்றறிவாம் என்னாது அறஞ்செய்க' and 'நாச்செற்று விக்குள்மேல் வாராமுன் நல்வினை மேற்சென்று செய்யப்படும்' carry the same urgency, and 335 pictures the dying moment that 36 names with 'பொன்றுங்கால்'.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 36,
+   "b": 398,
+   "type": "parallel_domain",
+   "note": "Verse 36 says aram done now stays as a companion at death. Verse 398 says the learning one has acquired in one birth is a protection through seven (எழுமையும் ஏமாப்புடைத்து). Both speak of something gained in this life that is not lost with the body; Book 2 says of learning what Book 1 says of virtue.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "பொன்றுங்கால் பொன்றாத் துணை of அறம் and எழுமையும் ஏமாப்புடைத்து of கல்வி: each survives the body, one in Book 1 and one in Book 2.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 37,
+   "b": 270,
+   "type": "agrees",
+   "note": "On the reading of Parimelazhagar and Pope, verse 37 explains the difference between palanquin rider and bearer by aram done before. Verse 270 reasons the same way about a whole society: the reason the have-nots are many is that those who do tavam are few and those who do not are many. Both read present inequality as the result of past practice; Parimelazhagar adds that wealth and want in 270 also mean understanding and its lack.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "சிவிகை பொறுத்தானோடு ஊர்ந்தான் இடை (on the reading named) and இலர்பலராகிய காரணம் நோற்பார் சிலர் both explain present inequality by past practice. Parimelazhagar's remark that wealth and want in 270 also mean அறிவு and its lack is correctly cited.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 37,
+   "b": 973,
+   "type": "tension",
+   "note": "Verse 37 says there is no need to state the way of aram: look between the one who carries the palanquin and the one who rides (பொறுத்தானொடு ஊர்ந்தான் இடை). Parimelazhagar and Pope take this to mean that the fruit of virtue can be seen in who rides and who carries. Verse 973 says those who are not high are not high even when seated high (மேலிருந்தும் மேலல்லார் மேலல்லர்), and Parimelazhagar reads the seating there as wealth and poverty. On those readings one verse lets position show merit and the other denies that position shows anything about the person. The Tamil of 37 is elliptical and does not itself say which of the two is the virtuous one.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "On Parimelazhagar's readings, as cited, 'சிவிகை பொறுத்தானொடு ஊர்ந்தான் இடை' lets station show virtue's fruit while 'மேலிருந்தும் மேலல்லார் மேலல்லர்' (seat = wealth) denies that station shows worth; the note states the dependence and the ellipsis of 37 honestly.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 38,
+   "b": 326,
+   "type": "tension",
+   "note": "Verse 38 says daily good is a stone that shuts the road of one's வாழ்நாள்; Parimelazhagar takes வாழ்நாள் as the days of living in a body, so that shutting the road means no more births. Verse 326 says Death does not advance on the வாழ்நாள் of one who keeps to not killing. On Parimelazhagar's reading the same word names something virtue ends in 38 and something virtue protects in 326. On Kalaignar's reading of 38, where the stone smooths life's road, there is no conflict.",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "The shared வாழ்நாள் is used in different senses (embodied days across births in 38 on Parimelazhagar's gloss; this life's span in 326), so the verses do not contradict each other; ending rebirth and being spared by கூற்று are compatible. A contrasting word use, not a tension.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 38,
+   "b": 334,
+   "type": "develops",
+   "note": "Verse 38 treats each day as something that can fall away unused or be filled with good. Verse 334 says what a day is: it shows itself as one thing called a day, and it is a blade sawing through life (உயிர் ஈரும் வாள்), for those who perceive it. Verse 334 gives the reason for the daily urgency of verse 38.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "38's வீழ்நாள் படாஅமை urges no wasted day; 334 says the நாள் is உயிர் ஈரும் வாள். The second supplies the reason for the first's urgency.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 38,
+   "b": 776,
+   "type": "parallel_domain",
+   "note": "Verse 38 speaks of doing good so that no day falls away unused (வீழ்நாள் படாஅமை). In 776 the warrior takes up his days and sets among the lapsed all those on which he took no honourable wound (விழுப்புண் படாதநாள் எல்லாம் வழுக்கினுள் வைக்கும்). Both keep an account of days and call a day lost by one standard, good done in one and wounds borne in the other.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'வீழ்நாள் படாஅமை' and 'விழுப்புண் படாதநாள் எல்லாம் வழுக்கினுள் வைக்கும்' both audit one's days and count a day lost by a single standard, in ethics and in war.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 39,
+   "b": 156,
+   "type": "qualifies",
+   "note": "Verse 39 says only what comes by aram is joy (அறத்தான் வருவதே இன்பம்) and the rest lies outside and has no renown either. Verse 156 allows that those who retaliate do get joy, for one day (ஒறுத்தார்க்கு ஒருநாளை இன்பம்), while those who forbear have renown for as long as things last (பொன்றுந் துணையும் புகழ்; until the world perishes, in Parimelazhagar's gloss). It keeps verse 39's pairing of joy and renown but concedes a short pleasure outside virtue, so the 'only' of 39 reads as a judgment of worth and not a denial that such pleasure is felt.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "39's exclusive 'அறத்தான் வருவதே இன்பம் ... புகழும் இல' meets 156's concession 'ஒறுத்தார்க்கு ஒருநாளை இன்பம்' with புகழ் reserved for the forbearing; the same joy/renown pair, and a real qualification of the 'only'.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 39,
+   "b": 173,
+   "type": "develops",
+   "note": "Verse 39 divides joy into what comes by aram and everything else. Verse 173 names the two sides: those who want the other joy (மற்றின்பம்) will not do what is not aram out of desire for a small joy (சிற்றின்பம்). Parimelazhagar glosses the small joy as the unstable pleasure got from goods taken from others, and the other joy as the stable joy that comes by aram (அறத்தான் வரும் நிலையுடைய இன்பம்), which is the wording of verse 39. Verse 173 thus applies 39's division to a single temptation.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Parimelazhagar glosses 173's 'மற்றின்பம்' as 'அறத்தான் வரும் நிலையுடைய இன்பம்', the wording of 39 ('அறத்தான் வருவதே இன்பம்'), and 'சிற்றின்பம்' as the unstable joy of taken goods; 173 applies 39's division to coveting.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 40,
+   "b": 280,
+   "type": "agrees",
+   "note": "Verse 40 names blame (பழி) as the thing to escape. Verse 280 says neither shaving nor growing the hair is needed if one gives up what the world has blamed (உலகம் பழித்தது ஒழித்துவிடின்). Both make avoidance of the blameworthy the working test, verse 280 applying it to the ascetic in place of outward marks.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'உயற்பாலது … பழி' and 'உலகம் பழித்தது ஒழித்துவிடின்' both make avoiding the blamed the operative test, 280 against outward marks (மழித்தலும் நீட்டலும்).",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 40,
+   "b": 466,
+   "type": "parallel_domain",
+   "note": "Verse 40 gives a two-sided rule: what one should do is aram, and what one should escape is blame (செயற்பாலது ... அறனே, உயற்பாலது ... பழி). Verse 466 gives the same two sides to a ruler as consequences: one is ruined by doing what is not fit to do, and ruined also by not doing what is fit (செய்தக்க செய்யாமையானும் கெடும்). Book 2 restates the pair as policy and makes the omission as costly as the wrong act.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'செயற்பாலது … உயற்பாலது' and 'செய்தக்க அல்ல செய / செய்தக்க செய்யாமை' share the gerundive two-sided frame; 466 recasts it prudentially (கெடும்) and adds omission. A little loose, since 40's second half is blame to avoid, not an omission.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 40,
+   "b": 656,
+   "type": "develops",
+   "note": "Verse 40 says blame is what a person should escape. Verse 656 tests that rule at its hardest: even if one must see the hunger of the mother who bore one, do not do the deed the worthy condemn (சான்றோர் பழிக்கும் வினை). It shows that the avoidance of blame in verse 40 is meant to hold against a competing duty, and it names whose blame counts.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "40's 'உயற்பால தோரும் பழி' is tested by 656's 'ஈன்றாள் பசிகாண்பான் ஆயினும்' and specified as 'சான்றோர் பழிக்கும் வினை'; a real application of the rule to a hard case.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 241,
+   "b": 411,
+   "type": "same_image",
+   "note": "241 says the wealth among wealths is the wealth of அருள் (அருட்செல்வம் செல்வத்துள் செல்வம்), since goods are found even among the base (பூரியார் கண்ணும் உள). 411 opens with the same formula, செல்வத்துட் செல்வம், and gives the title to what is heard, செவிச்செல்வம். The same superlative is awarded twice, once in the book of virtue and once in the book of statecraft, so a reader sees it is a ranking device applied within a topic, not one fixed doctrine.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The formula 'செல்வத்துள் செல்வம்' is awarded to அருட்செல்வம் and to செவிச்செல்வம்; the observation that it is a ranking device is fair.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 241,
+   "b": 757,
+   "type": "qualifies",
+   "note": "241 separates the two wealths and ranks material wealth low because the base have it too. 757 says அருள், the child borne by அன்பு, is reared by the foster-mother called wealth (பொருளென்னும் செல்வச் செவிலியால் உண்டு). So the book does not let 241 stand as contempt for goods: அருள் ranks higher, yet it needs wealth to grow.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "241 ranks 'பொருட்செல்வம்' low ('பூரியார் கண்ணும் உள'), while 757 makes அருள் a child fed by 'பொருளென்னும் செல்வச் செவிலி'; a real limit on reading 241 as contempt for goods.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 241,
+   "b": 914,
+   "type": "develops",
+   "note": "241 sets அருட்செல்வம் above பொருட்செல்வம். 914 reuses the pair as அருட்பொருள் and பொருட்பொருளார்: those whose understanding examines the wealth of அருள் (அருட்பொருள் ஆயும் அறிவினவர்) will not touch the cheap charm of women for whom goods are the only wealth. The ranking stated in the abstract in 241 becomes a test of conduct in 914.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "அருட்செல்வம் over பொருட்செல்வம் in 241 returns as அருட்பொருள் ஆயும் அறிவினவர் against பொருட்பொருளார் in 914. The pair is reused as a test of conduct, as the note says.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 242,
+   "b": 132,
+   "type": "same_image",
+   "note": "242 ends பல்லாற்றால் தேரினும் அஃதே துணை: however many ways you examine, அருள் alone is the companion. 132 ends with the same words, தேரினும் அஃதே துணை, said of ஒழுக்கம் (conduct). The identical closing with its exclusive ஏ is given to two different things; read strictly the two claims compete, read as emphasis each chapter is crowning its own subject.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both close with the identical 'தேரினும் அஃதே துணை', said of அருள் in one and ஒழுக்கம் in the other; the note states the competing and the emphatic readings fairly.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 242,
+   "b": 324,
+   "type": "develops",
+   "note": "242 tells one to search by a good path and hold to அருள் (நல்லாற்றான் நாடி அருளாள்க). 324 asks what the good path is (நல்லாறு எனப்படுவது யாதெனின்) and answers: the way that keeps in view not killing anything (யாதொன்றும் கொல்லாமை சூழும் நெறி). 324 gives content to the நல்லாறு that 242 leaves open, and ties அருள் to not killing.",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The word நல்லாறு is shared, but in 242 'நல்லாற்றான் நாடி' is the sound way of inquiring (Parimelazhagar: அளவைகளானும் …), not the path of conduct that 324 defines as 'கொல்லாமை சூழும் நெறி'; so 324 does not fill a gap that 242 leaves open.",
+   "text_issue": "242 prints நல்லாற்றாள் for நல்லாற்றான்.",
+   "already_linked": false
+  },
+  {
+   "a": 243,
+   "b": 5,
+   "type": "same_image",
+   "note": "243 says those whose hearts are joined with அருள் (அருள்சேர்ந்த நெஞ்சினார்) do not enter the painful world joined with darkness (இருள்சேர்ந்த இன்னா உலகம்). 5 says the two kinds of deed joined with darkness (இருள்சேர் இருவினையும்) do not join (சேரா) those devoted to the Lord's praise. Both build on சேர், what one is joined to: in 5 darkness is a quality of deeds (Parimelazhagar: மயக்கம்), in 243 it is a place one enters, and joining something else keeps it away.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "இருள்சேர்ந்த இன்னா உலகம் and இருள்சேர் இருவினையும் சேரா share the distinctive இருள்சேர் and the play on சேர் (அருள்சேர்ந்த / பொருள்சேர்). The note's contrast of darkness as place and as quality of deeds is correct.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 243,
+   "b": 121,
+   "type": "parallel_domain",
+   "note": "243: no entry into the dark painful world for hearts with அருள். 121: restraint leads among the immortals, lack of restraint drives into thick darkness (அடங்காமை ஆரிருள் உய்த்து விடும்). Both use darkness as the destination of a failed virtue, and Parimelazhagar glosses both as a hell; 243 states only the exemption, 121 states both directions.",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "'இருள்சேர்ந்த இன்னா உலகம்' and 'ஆரிருள்' are the same image of darkness as the destination, and the note is accurate, but two household virtues with the same afterlife sanction are not different domains; the link is the shared image.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 244,
+   "b": 268,
+   "type": "same_image",
+   "note": "244 pairs மன்னுயிர் and தன்னுயிர்: care for other lives frees one's own life from fear. 268 uses the same pair the other way round: one who has fully gained his own life (தன்னுயிர் தான்அறப் பெற்றானை) is worshipped by all other lives (ஏனைய மன்னுயிரெல்லாம் தொழும்). Together they show the relation running in both directions, from care of others to one's own safety and from self-mastery to others' reverence.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The pair மன்னுயிர்/தன்னுயிர் is used in both, in opposite directions: 'மன்னுயிர் ஓம்பி ... தன்னுயிர் அஞ்சும் வினை இல்' and 'தன்னுயிர் தான்அறப் பெற்றானை ... மன்னுயிரெல்லாந் தொழும்'. The pair recurs elsewhere in the book, so it is less distinctive than the note implies, but the reciprocal reading holds.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 244,
+   "b": 326,
+   "type": "agrees",
+   "note": "244: one who tends living beings and holds to அருள் (மன்னுயிர் ஓம்பி அருளாள்வாற்கு) has no deed his own life need fear (தன்னுயிர் அஞ்சும் வினை இல்). 326: on the days of one who lives by not killing, Death that eats life does not advance (வாழ்நாள்மேல் செல்லாது உயிருண்ணுங் கூற்று). Both say that sparing other lives secures one's own, once in terms of deeds and once in terms of Death.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'மன்னுயிர் ஓம்பி ... தன்னுயிர் அஞ்சும் வினை இல்' and 'கொல்லாமை ... வாழ்நாள்மேல் செல்லாது ... கூற்று' both return protection of other lives to one's own life, as deeds in one and as Death in the other.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 244,
+   "b": 327,
+   "type": "qualifies",
+   "note": "244 promises that the one who protects lives has nothing his own life need fear. 327 uses the same word, தன்னுயிர், to command not taking another's life even if one's own life goes (தன்னுயிர் நீப்பினும் செய்யற்க). 327 shows that the safety promised in 244 is not the condition for the rule: the rule holds even where one's own life is lost.",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "The shared 'தன்னுயிர் ... வினை' wording is real, but 244's 'தன்னுயிர் அஞ்சும் வினை' is evil deeds the soul dreads (Parimelazhagar: தீவினை, no hell), not a promise of bodily safety, so 327's 'தன்னுயிர் நீப்பினும்' does not limit it.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 245,
+   "b": 25,
+   "type": "same_image",
+   "note": "245 calls the wide earth where the wind moves a witness (ஞாலம் கரி) that those who hold to அருள் have no distress. 25 calls Indra witness enough (இந்திரனே சாலுங் கரி) to the power of one who quenched the five senses. Both close an unprovable claim about a virtue's power by naming a கரி, a witness; 245 appeals to the whole visible world, 25 to one figure from story.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both close on கரி, a witness: மல்லன்மா ஞாலம் கரி and இந்திரனே சாலுங் கரி. A distinctive rhetorical device shared meaningfully.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 245,
+   "b": 169,
+   "type": "tension",
+   "note": "245 says flatly that those who hold to அருள் have no distress (அல்லல் அருளாள்வார்க்கு இல்லை), and Parimelazhagar takes this to cover this life. 169 says the prosperity of the crooked-hearted and the ruin of the upright (செவ்வியான் கேடும்) are to be pondered, which concedes that the upright do meet ruin. The conflict holds if அல்லல் includes worldly ruin and if 169 is read as admitting such cases occur; Parimelazhagar softens 169 with 'if they occur' (உளவாயின்).",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "245's 'அல்லல் அருளாள்வார்க்கு இல்லை' (Parimelazhagar: இம்மையினும்) and 169's 'செவ்வியான் கேடும்' can rub, and the note states its conditions, but the subjects differ (the compassionate versus the unenvious upright), which the note passes over; the conflict needs them equated.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 246,
+   "b": 32,
+   "type": "agrees",
+   "note": "246 says those who leave அருள் and go on doing wrong have, they say, parted from பொருள் and forgotten (பொருள்நீங்கிப் பொச்சாந்தார்). 32 says there is no ruin greater than forgetting virtue (அதனை மறத்தலின் ஊங்கில்லை கேடு). Both treat wrongdoing as a kind of forgetting; Parimelazhagar reads the பொருள் of 246 as the lasting good, i.e. virtue, which brings the two closer, while Kalaignar reads it as being without wealth.",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "பொச்சாந்தார் and மறத்தல் are both forgetting, but in 246 what is forgotten is unstated (Parimelazhagar: their own suffering; பொருள் is what they 'left', நீங்கி), while 32 is forgetting அறம் itself. The link holds only loosely through Parimelazhagar's பொருள் = அறம், as the note half admits.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 246,
+   "b": 250,
+   "type": "develops",
+   "note": "246 describes the cruel as people who have forgotten (பொச்சாந்தார்); Parimelazhagar says what they forgot is their own suffering. 250 prescribes an act of memory: when going against the weaker, think of yourself before the stronger (வலியார்முன் தன்னை நினைக்க). Within the chapter, 250 supplies the remedy for the forgetting that 246 diagnoses.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "246's 'பொச்சாந்தார்' (Parimelazhagar: 'தாம் துன்புறுகின்றமையை மறந்தவர்') is answered within the chapter by 250's 'தன்னை நினைக்க'; forgetting and remembering are in the Tamil.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 247,
+   "b": 248,
+   "type": "qualifies",
+   "note": "247 puts wealth and அருள் in parallel (பொருளில்லார்க்கு இவ்வுலகம் இல்லாகி யாங்கு). 248 then breaks the parallel: those without wealth may flower one day (பூப்பர் ஒருகால்), but those without அருள் are finished and can hardly become anything again (அற்றார் மற்றாதல் அரிது). The simile of 247 holds for what each lack costs, not for whether the loss can be repaired.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "247 sets the two lacks side by side with 'இல்லாகி யாங்கு'; 248 then separates them: 'பொருளற்றார் பூப்பர் ஒருகால்' against 'அருளற்றார் அற்றார் மற்றாதல் அரிது'. The note describes both accurately.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 247,
+   "b": 1042,
+   "type": "qualifies",
+   "note": "247 divides the two worlds: this world is not for those without wealth, that world is not for those without அருள். 1042 says the sinner called poverty comes with neither the next life nor this one (மறுமையும் இம்மையும் இன்றி வரும்). 1042 does not keep the division: poverty costs the next world too, so in the book's later view wealth is not only a this-world matter.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "247 assigns only 'இவ்வுலகம்' to wealth, while 1042 says poverty comes with 'மறுமையும் இம்மையும் இன்றி', so the neat division does not hold in the poverty chapter.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 248,
+   "b": 134,
+   "type": "parallel_domain",
+   "note": "248: loss of wealth can be reversed, loss of அருள் cannot (அற்றார் மற்றாதல் அரிது). 134: even if forgotten, the recited text can be learned again (மறப்பினும் ஓத்துக் கொளலாகும்), but a Brahmin's birth is ruined when conduct declines (பிறப்பொழுக்கங் குன்றக் கெடும்). Both set a recoverable possession against an unrecoverable loss of character, in the domains of wealth and of learning.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'பொருளற்றார் பூப்பர் ஒருகால்' against 'அற்றார் மற்றாதல் அரிது', and 'மறப்பினும் ஓத்துக் கொளலாகும்' against 'பிறப்பொழுக்கங் குன்றக் கெடும்': the same recoverable-versus-unrecoverable contrast in wealth and in learning.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 249,
+   "b": 34,
+   "type": "agrees",
+   "note": "249 says a virtuous act by one without அருள் is no more reliable than the unclear person's sight of the truth. 34 says being spotless in mind is the whole of virtue and the rest is noisy show (மனத்துக்கண் மாசிலன் ஆதல் அனைத்து அறன் ஆகுல நீர பிற). Both place virtue in the inner condition of the doer and discount the outward act that lacks it; 249 names the condition as அருள்.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'அருளாதான் செய்யும் அறம்' discounted, and 'மனத்துக்கண் மாசிலன் ஆதல் அனைத்து அறன், ஆகுல நீர பிற': both locate virtue in the doer's inner state.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 249,
+   "b": 355,
+   "type": "same_image",
+   "note": "249 compares virtue done by one without அருள் to an unclear person seeing the true thing (தெருளாதான் மெய்ப்பொருள் கண்டற்று). 355 defines understanding by the same phrase: seeing the true thing in whatever thing (மெய்ப்பொருள் காண்பது அறிவு). 355 shows why the comparison in 249 bites: seeing the true thing is what clarity consists in, so without clarity it does not happen, or happens only once by chance as Parimelazhagar reads it (ஒருகால்).",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'மெய்ப்பொருள் கண்டற்று' and 'மெய்ப்பொருள் காண்பது அறிவு' share the phrase; Parimelazhagar's 'ஒருகால்' is as cited.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 250,
+   "b": 301,
+   "type": "parallel_domain",
+   "note": "250 addresses the moment when one has power over a weaker person. 301 says the one who guards anger where it can take effect truly guards it (செல்லிடத்துக் காப்பான் சினங்காப்பான்); where it cannot, guarding or not is all one. Both locate the real test of a virtue at the point where one is the stronger party, for அருள் and for anger.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "மெலியார்மேல் செல்லுமிடத்து and செல்லிடத்துக் காப்பான் both put the test where one has the upper hand; 301's அல்லிடத்துக் காக்கின் என் makes the point explicit. The same logic in அருள் and in anger.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 250,
+   "b": 316,
+   "type": "develops",
+   "note": "316 gives the general rule: what one has oneself felt to be painful one must not do to another (இன்னா எனத்தான் உணர்ந்தவை ... பிறன்கண் செயல்). 250 applies the same use of one's own experience to a difference in strength: recall your own position before the stronger when you stand over the weaker. 250 is the rule of 316 turned into a specific exercise of memory.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "இன்னா எனத்தான் உணர்ந்தவை ... பிறன்கண் செயல் is the general rule from one's own experience, and வலியார்முன் தன்னை நினைக்க applies it to the moment of going against மெலியார். A fair application.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 250,
+   "b": 861,
+   "type": "tension",
+   "note": "250 asks one who goes against those weaker (மெலியார்மேல் செல்லுமிடத்து) to think of himself before the stronger, which restrains attacking the weak. 861, with the same words, advises avoiding opposition to the strong and, without holding back, favouring enmity toward the weak (வலியார்க்கு மாறேற்றல் ஓம்புக ஓம்பா மெலியார்மேல் மேக பகை). The conflict holds on the plain reading of 861 that Pope and Parimelazhagar give; one verse speaks from அருள், the other from a king's choice of enemies. Kalaignar's gloss of 861 as printed here says the opposite (fight the strong, leave the weak), which would remove the conflict but does not match the Tamil.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Same vocabulary turned opposite ways: 250 restrains மெலியார்மேல் செல்லுமிடத்து, 861 says ஓம்பா மெலியார்மேல் மேக பகை. Note correctly names the reading and the அருள்/statecraft split, and Kalaignar's gloss is indeed inverted as printed.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 321,
+   "b": 254,
+   "type": "develops",
+   "note": "321 asks what virtuous action is and answers not killing (அறவினை யாதெனின் கொல்லாமை); killing brings all other deeds. 254 uses the same question form for அருள்: what is அருள் and what is not comes down to not killing and killing (யாதெனின் கொல்லாமை கோறல்). Read together, not killing is the content of both அருள் and virtuous action, which joins the chapter on அருள் to the chapter on not killing. (The first letter of 254 is missing in this edition: ருளல்லது for அருளல்லது.)",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use the frame 'யாதெனின் கொல்லாமை கோறல்', once for அறவினை and once for அருள்/அல்லது, so non-killing is made the content of both.",
+   "text_issue": "254 prints ருளல்லது; the initial அ of அருளல்லது is missing.",
+   "already_linked": false
+  },
+  {
+   "a": 321,
+   "b": 297,
+   "type": "tension",
+   "note": "321 makes not killing the answer to what virtuous action is. 297 says that if one keeps up not lying, it is good not to do other virtues (பொய்யாமை ஆற்றின் அறம்பிற செய்யாமை நன்று). Each verse lets one virtue stand for the whole, and they pick different ones; the conflict holds if both are read as claims of sufficiency and not as chapter emphasis. 323 settles the order inside this chapter by putting not lying second.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'அறவினை யாதெனின் கொல்லாமை' and 'பொய்யாமை ஆற்றின் அறம்பிற செய்யாமை நன்று' each make a different single virtue stand for the whole; the note states the sufficiency reading the conflict depends on and the chapter-emphasis alternative.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 322,
+   "b": 44,
+   "type": "same_image",
+   "note": "322 calls sharing one's food and tending many lives (பகுத்துண்டு பல்லுயிர் ஓம்புதல்) the head of all that the authors have gathered. 44 says a household life that fears blame and has shared food (பாத்தூண்) never sees its line fail. Shared eating is the householder's mark in 44; 322 raises the same act to the first place in the chapter on not killing, which Parimelazhagar assigns to renouncers, so the act links the two ways of life.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'பகுத்துண்டு' and 'பாத்தூண்' are the same act of shared eating, a householder's mark in 44 and 'தலை' of all teachings in the non-killing chapter; the note's point about it bridging the two ways of life is fair.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 322,
+   "b": 225,
+   "type": "develops",
+   "note": "322 puts feeding and sustaining lives at the head of the virtues. 225 says the strength of the strong is enduring hunger, and that comes behind the strength of those who remove hunger (அப்பசியை மாற்றுவார் ஆற்றலின் பின்); Parimelazhagar takes the first group to be ascetics. 225 supplies a ranking that fits 322: not harming is completed by actively keeping others alive.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "322 makes 'பகுத்துண்டு பல்லுயிர் ஓம்புதல்' the head of virtues; 225 ranks 'பசியை மாற்றுவார் ஆற்றல்' above 'பசி ஆற்றல்', a ranking that fits and extends it. Parimelazhagar's ascetic reading is reported correctly.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 323,
+   "b": 292,
+   "type": "develops",
+   "note": "323 ranks not lying behind not killing. 292 says even falsehood stands in the place of truth if it yields good free of fault (புரைதீர்ந்த நன்மை பயக்கும் எனின்), and Parimelazhagar's example is a false word that saves a life from death. 292 shows the ranking of 323 at work inside the chapter on truth: where truthful speech and a life pull apart, the life decides.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "323 puts பொய்யாமை behind கொல்லாமை (பின்சார); 292 lets பொய்மை count as வாய்மை when it yields புரைதீர்ந்த நன்மை, and Parimelazhagar's example is a life saved from சாக்காடு.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 323,
+   "b": 300,
+   "type": "tension",
+   "note": "323 says not killing is the one good without equal and not lying is good following behind it (ஒன்றாக நல்லது கொல்லாமை மற்றதன் பின்சாரப் பொய்யாமை நன்று). 300 says that among all we have seen as true there is nothing at all better than truthfulness (எனைத்தொன்றும் வாய்மையின் நல்ல பிற இல்லை). On the literal reading each verse puts a different virtue first; 323 is the only one of the two that states an order between them.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "ஒன்றாக நல்லது கொல்லாமை with பொய்யாமை பின்சார, against எனைத்தொன்றும் வாய்மையின் நல்ல பிற இல்லை. Each puts a different virtue first on the literal reading, as the note says.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 324,
+   "b": 291,
+   "type": "same_image",
+   "note": "324: if asked what is called the good path, it is the way that keeps in view not killing anything (யாதெனின் யாதொன்றும் கொல்லாமை சூழும் நெறி). 291: if asked what is called truth, it is speech with no harm at all in it (யாதெனின் யாதொன்றும் தீமை இலாத சொலல்). The two definitions share their wording, எனப்படுவது யாதெனின் யாதொன்றும், and both define a positive term by the complete absence of harm, in action and in speech.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The shared formula 'எனப்படுவது யாதெனின் யாதொன்றும்' followed by a total negation ('கொல்லாமை', 'தீமை இலாத') is distinctive and the parallel of action and speech is meaningful.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 325,
+   "b": 261,
+   "type": "develops",
+   "note": "325 says that among all who renounced fearing their condition (நிலைஅஞ்சி நீத்தாருள்), the one who fears killing and keeps not killing in view is chief. 261 defines the form of தவம் as bearing one's own pain and doing no harm to living beings (உயிர்க்குறுகண் செய்யாமை). 261 states the two parts of the ascetic's practice; 325 says which part decides rank among ascetics.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "261 gives two parts of தவம் (உற்றநோய் நோன்றல், உயிர்க்குறுகண் செய்யாமை); 325 makes கொல்லாமை சூழ்வான் the தலை among நீத்தார், so it ranks the second part. Accurate on both.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 325,
+   "b": 984,
+   "type": "agrees",
+   "note": "325 ranks the renouncer who keeps to not killing first. 984 says austerity lies in the goodness of not killing (கொல்லா நலத்தது நோன்மை), and sets it beside worth, which lies in not speaking others' faults. The same claim about renouncers appears in the third part of the book of wealth, used there as the measure for a layman's virtue.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "கொல்லாமை சூழ்வான் தலை among நீத்தார், and கொல்லா நலத்தது நோன்மை: the same claim about what austerity consists in, reused in சான்றாண்மை as the model for சால்பு.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 326,
+   "b": 269,
+   "type": "same_image",
+   "note": "326 says Death that eats life (உயிருண்ணுங் கூற்று) does not advance on the days of one who lives by not killing. 269 says even leaping past Death (கூற்றம் குதித்தலும்) comes within reach of those who have attained the power of austerity. Both give a renouncer's practice power over கூற்று; 269 credits austerity in general, 326 credits the single vow of not killing.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'செல்லாது உயிருண்ணுங் கூற்று' and 'கூற்றம் குதித்தலும் கைகூடும்' both give a renunciant practice power over personified Death.",
+   "text_issue": "269 prints டவர்க்குல் for டவர்க்கு.",
+   "already_linked": true
+  },
+  {
+   "a": 327,
+   "b": 550,
+   "type": "tension",
+   "note": "327 forbids the deed that removes another's life even if one's own life goes (தன்னுயிர் நீப்பினும் செய்யற்க). 550 says a king punishing the cruel with death (கொலையிற் கொடியாரை வேந்தொறுத்தல்) is like weeding the young crop. The two conflict if 327 is read as a rule for everyone; Parimelazhagar avoids this by assigning the chapter on not killing to renouncers and 550 to the king's duty.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "செய்யற்க ... இன்னுயிர் நீக்கும் வினை against கொலையிற் கொடியாரை வேந்தொறுத்தல் praised as களைகட்டல். The conflict is real if 327 is universal, and the note states that condition and how Parimelazhagar's ascetic/king division removes it.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 327,
+   "b": 656,
+   "type": "parallel_domain",
+   "note": "327: even at the cost of your own life, do not do the deed that takes a life. 656: even if you must see your mother hungry, do not do the deed the worthy condemn (ஈன்றாள் பசிகாண்பான் ஆயினும் செய்யற்க). Both have the form 'even at this extreme cost, செய்யற்க', and both name a வினை as what is forbidden; the first is addressed to the virtuous life, the second to a minister's conduct of affairs.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "தன்னுயிர் நீப்பினும் செய்யற்க ... வினை and ஈன்றாள் பசிகாண்பான் ஆயினும் செய்யற்க ... வினை have the same 'even at this cost, do not' form in the ascetic's and the minister's domains. Accurate.",
+   "text_issue": "656 prints 'செய்யற் க' with a stray space.",
+   "already_linked": false
+  },
+  {
+   "a": 327,
+   "b": 1017,
+   "type": "parallel_domain",
+   "note": "327 puts another's life above one's own. 1017 says those ruled by shame give up life for shame and do not give up shame for life (நாணால் உயிரைத் துறப்பர் உயிர்ப்பொருட்டால் நாண்துறவார்). In both, one's own life is not the highest value; what outranks it is another creature's life in 327 and one's own sense of shame in 1017.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'தன்னுயிர் நீப்பினும் செய்யற்க' and 'நாணால் உயிரைத் துறப்பர்' both place something above one's own life; the note names the two different things accurately.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 328,
+   "b": 259,
+   "type": "develops",
+   "note": "328 says that however great the gain said to bring good, gain that comes by killing is the lowest for the worthy (கொன்றாகும் ஆக்கங் கடை). Parimelazhagar reads this as the reward promised for killing in sacrifice. 259 says so in its own words: better than a thousand sacrifices with poured oblations is not taking one life and eating (அவிசொரிந் தாயிரம் வேட்டலின்), which supports that reading of 328 from the text itself.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Parimelazhagar reads 'கொன்றாகும் ஆக்கம்' as the reward of sacrificial killing, and 259's 'அவிசொரிந் தாயிரம் வேட்டலின் ... உயிர்செகுத் துண்ணாமை நன்று' ranks sacrifice below not killing in the text itself.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 328,
+   "b": 311,
+   "type": "agrees",
+   "note": "328 refuses gain that comes by killing, however great. 311 says that even if one could get wealth that brings distinction (சிறப்பீனும் செல்வம் பெறினும்), not doing hurt to others is the settled stand of the stainless. The two adjacent chapters make the same refusal for the lesser harm and the greatest one.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "கொன்றாகும் ஆக்கம் கடை even when பெரிது, and சிறப்பீனும் செல்வம் பெறினும் பிறர்க்கு இன்னா செய்யாமை: the same refusal of gain through harm, for killing and for lesser hurt in neighbouring chapters.",
+   "text_issue": "328 prints 'சான்றோர்க் குக்' with a stray space.",
+   "already_linked": false
+  },
+  {
+   "a": 328,
+   "b": 657,
+   "type": "parallel_domain",
+   "note": "328: for the worthy (சான்றோர்க்கு), gain got by killing is the lowest (கடை). 657: the utter poverty of the worthy is above gain got with blame (பழிமலைந்து எய்திய ஆக்கத்தின் சான்றோர் கழிநல்குரவே தலை). Both judge ஆக்கம் by its source from the standpoint of the சான்றோர், with கடை in one and தலை in the other; 328 belongs to the book of virtue and 657 to the conduct of state business.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both judge ஆக்கம் by its source from the standpoint of சான்றோர்: கொன்றாகும் ஆக்கம் கடை, and கழிநல்குரவே தலை over பழிமலைந்து எய்திய ஆக்கம்.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 329,
+   "b": 256,
+   "type": "qualifies",
+   "note": "329 puts the baseness on those whose work is killing. 256 says that if the world did not kill for the sake of eating, no one would offer flesh for the sake of a price (விலைப்பொருட்டால் ஊன்றருவார் இல்). 256 traces the killer's trade back to those who eat, so the judgment of 329 does not stop at the one who holds the knife.",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "256 does carry responsibility back to the eaters ('தினற்பொருட்டால் கொல்லாது உலகெனின் ... ஊன்றருவார் இல்'), but 329 never says the baseness stops at 'கொலைவினையர்', so nothing is being limited; this extends the judgment. The commentators also divide on 'கொல்லாது' (Manakkudavar reads it as buying, 'கொள்ளாராயின்'), which the note does not mention.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 329,
+   "b": 551,
+   "type": "develops",
+   "note": "329 treats killers as the settled example of baseness. 551 takes that example as a measure and says a king who takes up harassing his people and does wrong is crueller than those who have taken up killing (கொலைமேற்கொண்டாரிற் கொடிதே). The book of statecraft uses the low point fixed in 329 to rank a bad ruler below it.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "329 fixes கொலைவினையர் as புலைவினையர்; 551 uses that floor comparatively: கொலைமேற்கொண்டாரிற் கொடிதே ... வேந்து. Accurate on both.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 329,
+   "b": 972,
+   "type": "agrees",
+   "note": "329 says people whose work is killing (கொலைவினையர்) are of base work (புலைவினையர்) in the minds of those who discern baseness. 972 says birth is alike for all living beings and distinction differs by the difference in the work done (செய்தொழில் வேற்றுமையான்). Both place a person's standing in what they do; 329 names one occupation and marks it low by the deed, not by birth.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'கொலைவினையர் … புலைவினையர்' assigns lowness by வினை, which is the principle of 'சிறப்பொவ்வா செய்தொழில் வேற்றுமையான்' applied to one case.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 330,
+   "b": 37,
+   "type": "parallel_domain",
+   "note": "330 infers a past deed from a present condition: the wretched are those who took life. 37 says there is no need to say 'this is the way of virtue': look between the one who carries the palanquin and the one who rides (சிவிகை பொறுத்தானோடு ஊர்ந்தான் இடை). On Pope's and Parimelazhagar's reading both argue from visible fortune back to deeds, 37 for good fortune and 330 for bad; Kalaignar reads 37 differently, as about how the virtuous bear life.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "330 reads செயிர் உடம்பின் செல்லாத்தீ வாழ்க்கை back to உயிர் உடம்பின் நீக்கியார், and 37 on the reading named reads சிவிகை பொறுத்தான்/ஊர்ந்தான் back to அறம். The note states which reading it needs and that Kalaignar differs.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 330,
+   "b": 270,
+   "type": "parallel_domain",
+   "note": "330 explains diseased and failing lives by past killing. 270 explains why the have-nots are many: those who practise austerity are few and those who do not are many (நோற்பார் சிலர் பலர் நோலாதவர்). Both give a cause in conduct for an unequal condition seen in the world, 330 for individuals and 270 for the proportion in a population.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both explain a visible unequal condition by conduct: 'செயிர் உடம்பின் செல்லாத்தீ வாழ்க்கையவர்' by having taken life, 'இலர் பலராகிய காரணம்' by 'நோலாதவர்' being many. Somewhat general but the explanatory form is shared and the note is accurate.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 330,
+   "b": 326,
+   "type": "develops",
+   "note": "330 says those with afflicted bodies and a failing, evil life (செயிர் உடம்பின் செல்லாத்தீ வாழ்க்கையவர்) are, they say, people who separated life from body. 326 says Death does not advance on the days of one who lives by not killing. The two verses are the chapter's pair of consequences, both stated in terms of body and lifespan: the non-killer's days are spared and the killer's body and living are spoiled. Parimelazhagar places the killing of 330 in a former birth; the Tamil does not say which birth.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Within the chapter, 326's 'வாழ்நாள்மேல் செல்லாது ... கூற்று' and 330's 'செயிர் உடம்பின் செல்லாத்தீ வாழ்க்கையவர்' give the paired consequences for the non-killer and the killer; the note rightly says the Tamil does not specify a former birth.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 381,
+   "b": 59,
+   "type": "same_image",
+   "note": "381 calls the king who has all six limbs (படை, குடி, கூழ், அமைச்சு, நட்பு, அரண்) 'அரசருள் ஏறு', the male beast among kings; 59 says a man whose home lacks a wife who seeks good name has no 'ஏறுபோல் பீடு நடை' before those who scorn him. The same figure of the proud male animal is made to depend on what a man has behind him: a kingdom's six supports in one case, a household's good name in the other. (Parimelazhagar takes ஏறு in 59 as a lion; the word itself only says 'male'.)",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "ஏறு carries the pride in both ('அரசருள் ஏறு', 'ஏறுபோல் பீடு நடை'), and in both it depends on what stands behind the man; the note correctly reports Parimelazhagar's lion reading of 59.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 381,
+   "b": 740,
+   "type": "qualifies",
+   "note": "381 measures a king by possession (ஆறும் உடையான்), and குடி, which Parimelazhagar takes as the land, is one of the six. 740 says a land that has every excellence is still without use (பயமின்றே) if it lacks accord with its ruler (வேந்தமைவு இல்லாத நாடு). Read together, having the limb is not enough: the limb and the king must fit each other.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "381 counts குடி among the six the king must உடையான்; 740 says a land with every excellence is பயமின்று if வேந்தமைவு இல்லாத. A real added condition.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 381,
+   "b": 750,
+   "type": "qualifies",
+   "note": "381 counts the fort (அரண்) among the six things whose possession makes the leading king. 750 says a fort with every excellence (எனைமாட்சித்து ஆகியக் கண்ணும்) is as nothing with those who lack excellence in action (வினைமாட்சி இல்லார்கண் இல்லது). The later verse adds the condition that 381's bare 'உடையான்' leaves out.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "381 lists 'அரண்' among the six possessions of 'உடையான்'; 750 says 'வினைமாட்சி இல்லார்கண் இல்லது அரண்' however excellent it is, a real condition on bare possession.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 382,
+   "b": 428,
+   "type": "qualifies",
+   "note": "382 puts அஞ்சாமை first among the king's unfailing qualities. 428 says that not fearing what ought to be feared is folly (அஞ்சுவது அஞ்சாமை பேதைமை) and fearing it is the work of the knowing. The king's fearlessness therefore has to be read alongside the அறிவு listed next to it in 382, not as fearing nothing at all.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "அஞ்சாமை heads the list in 382, and அஞ்சுவது அஞ்சாமை பேதைமை in 428 limits it; அறிவு stands in the same list in 382, as the note says.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 382,
+   "b": 863,
+   "type": "agrees",
+   "note": "382 lists fearlessness, giving, understanding and drive (அஞ்சாமை ஈகை அறிவு ஊக்கம்) as a king's nature. 863 describes the man who is easy prey for an enemy: he fears, does not know, does not fit with others, does not give (அஞ்சும் அறியான் அமைவிலன் ஈகலான்). Three of the four kingly qualities reappear negated, so the weak enemy of chapter 87 is drawn as the reverse of the king of chapter 39.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'அஞ்சும் அறியான் ... ஈகலான்' negates அஞ்சாமை, அறிவு and ஈகை of 382, three of four as the note counts; the easy enemy is the inverse of the king.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 383,
+   "b": 605,
+   "type": "agrees",
+   "note": "383 gives three things that stay with a ruler, beginning with தூங்காமை. 605 gives four that are the pleasure-boat of those bound for ruin: delay, forgetting, sloth and sleep (நெடுநீர் மறவி மடி துயில்). The two lists are near-opposites, and 605 covers both senses the commentators give தூங்காமை in 383 (not delaying, not being slothful).",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "383's 'தூங்காமை' (Parimelazhagar: விரைவுடைமை; Manakkudavar: மடியின்மை) is negated by 605's 'நெடுநீர் … மடி துயில்'. 'Near-opposite lists' is a slight overstatement, since கல்வி and துணிவு have no counterpart.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 383,
+   "b": 668,
+   "type": "develops",
+   "note": "383 names promptness and resolve (தூங்காமை, துணிவுடைமை) as two separate standing qualities, with learning between them. 668 turns them into one instruction for a single task: once a deed has been seen clearly and decided (கலங்காது கண்ட வினை), do it without wavering and with delay driven off (தூக்கம் கடிந்து செயல்). The trait list of the king becomes a sequence: decide, then act at once.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "தூங்காமை answers தூக்கங் கடிந்து, and துணிவுடைமை (Manakkudavar: ஆராய்ந்து துணிதல்) answers கலங்காது கண்ட வினை. Parimelazhagar takes துணிவு as valour, which the note does not mention, but the sequence reading is defensible.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 383,
+   "b": 672,
+   "type": "qualifies",
+   "note": "383 says தூங்காமை never leaves those who rule the land; Parimelazhagar reads it as promptness, Manakkudavar as freedom from sloth. 672 uses the same verb in both directions: delay over what should be done with delay (தூங்குக தூங்கிச் செயற்பால), do not delay over what must be done without delay. On Parimelazhagar's reading, 672 limits 383: not-delaying is a rule for some tasks, not all.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "383 lists 'தூங்காமை' as a constant royal quality (Parimelazhagar: 'விரைவுடைமை'); 672 says 'தூங்குக தூங்கிச் செயற்பால'. The note correctly ties the limit to Parimelazhagar's reading and reports Manakkudavar's 'மடியின்மை'.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 384,
+   "b": 432,
+   "type": "qualifies",
+   "note": "384 makes மானம் part of kingship, on condition that it does not stray from valour (மறன் இழுக்கா மானம்). 432 lists 'மாண்பிறந்த மானம்', honour that has gone past what is fitting, among a ruler's faults. Both verses qualify the same word, so the book's view is that a king's sense of honour is a quality only within bounds.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "மானம் is a royal quality when 'மறனிழுக்கா' (384) and a royal fault when 'மாண்பிறந்த' (432); the same word bounded from both sides.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 384,
+   "b": 766,
+   "type": "parallel_domain",
+   "note": "384 pairs மறன் and மானம் in the king. 766 opens its list of the four safeguards of an army with the same pair (மறம் மானம்), followed by keeping to the proven path and trustworthiness. The same two qualities are required at the top and in the ranks.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The pair மறன்/மானம் in 'மறனிழுக்கா மானம்' recurs as 'மறமானம்' heading the army's four safeguards; the king-to-ranks transfer is real.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 384,
+   "b": 773,
+   "type": "develops",
+   "note": "384 asks for honour that does not fall short of valour. 773 says fierceness (தறுகண்) is called great manliness, but helping the foe when something befalls him (ஒன்று உற்றக்கால் ஊராண்மை) is its edge (எஃகு). Parimelazhagar explains 384's phrase with examples of not striking the unequal or the fleeing, which is the restraint 773 states directly.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "மறனிழுக்கா மானம் is explained by Parimelazhagar with the Chintamani lines on not striking unequal opponents; 773's ஒன்றுற்றக்கால் ஊராண்மை as the எஃகு of பேராண்மை states that restraint outright.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 385,
+   "b": 377,
+   "type": "same_image",
+   "note": "385 ends the king's four skills with வகுத்தல், apportioning what has been guarded. 377 uses the same verb for what lies outside human skill: even those who have piled up crores can enjoy them only in the way the apportioner has apportioned (வகுத்தான் வகுத்த வகை), which Parimelazhagar takes as fate. The pairing sets the king's apportioning inside a larger one he does not control.",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "வகுத்தல் / வகுத்தான் வகுத்த வகை share a verb, but the king's allocation of revenue and fate's allotment of enjoyment are different acts; 'sets the king's apportioning inside a larger one' is built on the shared word alone.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 385,
+   "b": 512,
+   "type": "parallel_domain",
+   "note": "385 defines the king as able to create sources of wealth, gather it, guard it and apportion it (இயற்றல், ஈட்டல், காத்தல், வகுத்தல்). 512 says the man to be given work is one who widens the sources, builds up the yield and looks into what befalls them (வாரி பெருக்கி வளம்படுத்து உற்றவை ஆராய்வான்). The officer is chosen for the first three of the king's own skills; apportioning is not handed down.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'இயற்றலும் ஈட்டலுங் காத்தலும்' line up with 'வாரி பெருக்கி வளம்படுத்து உற்றவை ஆராய்வான்'. The remark that வகுத்தல் is not delegated is an argument from silence but is offered as an observation.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 385,
+   "b": 756,
+   "type": "develops",
+   "note": "385 says the king must create ways for wealth to come (இயற்றல்) without naming them. 756 names three that count as the king's wealth: what falls in unowned, customs dues, and what is taken from defeated enemies (உறுபொருள், உல்கு பொருள், ஒன்னார்த் தெறுபொருள்). Parimelazhagar's note on 385 gives a similar list of sources.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "756's 'உறுபொருளும் உல்கு பொருளும் ... தெறுபொருளும்' fills in what 385's bare 'இயற்றல்' leaves open; Parimelazhagar on 385 does list sources (பகைவரை அழித்தல், திறை கோடல்).",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 386,
+   "b": 565,
+   "type": "agrees",
+   "note": "386 praises the king who is காட்சிக்கு எளியன், easy to get sight of. 565 says the great wealth of one who is hard to get an audience with and sour-faced (அருஞ்செவ்வி இன்னா முகத்தான்) is like wealth a ghost has found. Accessibility in 386 earns the land a good name; its absence in 565 makes the king's wealth useless to anyone.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'காட்சிக்கு எளியன் கடுஞ்சொல்லன் அல்லன்' is the exact positive of 'அருஞ்செவ்வி இன்னா முகத்தான்'; the praise and the ghost-wealth verdict state one claim from both sides.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 386,
+   "b": 566,
+   "type": "agrees",
+   "note": "386 says that if a king is easy to see and not harsh of speech (கடுஞ்சொல்லன் அல்லனேல்), his land is spoken of above others. 566 uses the same word for the reverse case: if he is கடுஞ்சொல்லன் and without kindly regard, his long-standing wealth perishes on the spot. One trait is given both its reward and its penalty.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The same word 'கடுஞ்சொல்லன்' is negated with a reward in 386 ('மீக்கூறும் மன்னன் நிலம்') and affirmed with a penalty in 566 ('நெடுஞ்செல்வம் ... ஆங்கே கெடும்'). 'காட்சிக்கெளியன்' and 'கண்ணிலன்' are also near opposites.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 386,
+   "b": 991,
+   "type": "parallel_domain",
+   "note": "386 treats ease of access as a quality of a king. 991 says that the practice called courtesy (பண்புடைமை) is easy to reach by being of easy access to everyone (யார்மாட்டும் எண்பதத்தால்). What chapter 39 asks of the ruler, chapter 100 makes the starting point of character for anyone.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'காட்சிக் கெளியன்' for the king and 'எண்பதத்தால் ... யார்மாட்டும்' as the easy road to பண்புடைமை are the same quality in ruler and in anyone.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 387,
+   "b": 92,
+   "type": "develops",
+   "note": "92 ranks the two: being pleasant-spoken with a glad face is better than giving with a glad heart (ஈதலின் நன்றே). 387 does not rank them but joins them, giving 'with' pleasant words (இன்சொலால் ஈத்து), and adds protection. The king's version needs both, where the householder's verse lets speech stand above the gift.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "92 ranks 'இன்சொலன் ஆகப் பெறின்' above 'அகன்அமர்ந்து ஈதல்'; 387 fuses them in 'இன்சொலால் ஈத்தளிக்க'. The note describes both accurately and the contrast between ranking and joining is real.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 387,
+   "b": 525,
+   "type": "parallel_domain",
+   "note": "387 says that for one able to give with pleasant words and protect (இன்சொலால் ஈத்து அளிக்க), the world answers to his word. 525 says one who can give and speak pleasantly (கொடுத்தலும் இன்சொலும் ஆற்றின்) will be surrounded by layers of kin. The same two means work at two scales: they hold a family around a man and the world around a king.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'இன்சொலால் ஈத்தளிக்க வல்லார்க்கு' and 'கொடுத்தலும் இன்சொலும் ஆற்றின்' name the same two means, gathering the world for a king and kin for a man.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 387,
+   "b": 648,
+   "type": "agrees",
+   "note": "387's result clause is that the world becomes as the king says and intends (தன் சொலால் தான் கண்டனைத்து); Manakkudavar reads this as the world lying under his command. 648 says the world quickly takes up the work it is told (விரைந்து தொழில் கேட்கும் ஞாலம்) when it finds those who can speak in order and sweetly. Both make pleasant speech the cause of the world's compliance; 387 adds giving and protection.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both make sweet speech the cause of the world's compliance: 'இன்சொலால் ... தன்சொலால் தான்கண்டனைத்து இவ்வுலகு' and 'விரைந்து தொழில்கேட்கும் ஞாலம் ... இனிது சொல்லுதல் வல்லார்ப் பெறின்'; Manakkudavar's 'தன்னேவலாலே ... தன் வசத்தே கிடக்கும்' is as the note reports.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 388,
+   "b": 50,
+   "type": "parallel_domain",
+   "note": "388 says the ruler who does justice and protects is set down as இறை for the people (இறையென்று வைக்கப்படும்). 50 says the one who lives on earth as one should will be placed among the gods who dwell in heaven (தெய்வத்துள் வைக்கப்படும்). The same passive verb raises a householder by right living and a king by right rule; in both the rank is conferred for conduct. Manakkudavar takes இறை in 388 as 'lord', which would weaken the parallel.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both end 'வைக்கப்படும்': 'இறையென்று' for the just king and 'தெய்வத்துள்' for the right-living householder; the caveat about Manakkudavar's 'நாயகன்' is accurate.",
+   "text_issue": "50 prints வான்உநற்யும் for வானுறையும்.",
+   "already_linked": true
+  },
+  {
+   "a": 388,
+   "b": 547,
+   "type": "develops",
+   "note": "388: the king who does முறை and protects is counted as இறை. 547 uses the same two words in a loop: the இறை guards the whole earth, and முறை guards him if he carries it out without fail (அவனை முறை காக்கும்). Justice is what earns the title in 388 and what keeps its holder safe in 547.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "முறைசெய்து ... இறையென்று வைக்கப்படும் and இறைகாக்கும் ... அவனை முறைகாக்கும் share both key words; justice earns the title in one and guards its holder in the other.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 388,
+   "b": 702,
+   "type": "parallel_domain",
+   "note": "388 has the just king set apart as இறை; 702 says one who knows without doubt what is in another's mind should be regarded as equal to a god (தெய்வத்தோடு ஒப்பக் கொளல்). Parimelazhagar glosses both with the same phrase, 'though a man by birth'. The book grants this standing for a function performed, justice in one case and insight in the other.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'இறையென்று வைக்கப்படும்' and 'தெய்வத்தோடு ஒப்பக் கொளல்' both grant divine standing for a function; Parimelazhagar does gloss both with 'மகனேயாயினும்' (388: 'பிறப்பான் மகனேயாயினும்').",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 389,
+   "b": 160,
+   "type": "parallel_domain",
+   "note": "389 praises a king who endures (பொறுக்கும்) bitter words. 160 says those who fast in penance are great, but rank after those who endure the harsh words others speak (இன்னாச்சொல் நோற்பார்). Bearing hard speech is rated as the higher discipline for the ascetic and as the quality that holds a kingdom for the king.",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "'சொற்பொறுக்கும்' and 'இன்னாச்சொல் நோற்பார்' do share endurance of hard speech, but 389's words are corrective counsel on Parimelazhagar's reading and 160's are insults; and 160 ranks fasters behind those who bear abuse, so the note's 'higher discipline for the ascetic' misassigns it.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 389,
+   "b": 447,
+   "type": "develops",
+   "note": "389 says the world rests under the parasol of a king who can bear words bitter to the ear (செவிகைப்பச் சொற்பொறுக்கும்). 447 asks who can ruin a ruler who keeps as his support people who rebuke him (இடிக்குந் துணையாரை ஆள்வாரை). Parimelazhagar reads 389's bitter words as those of exactly such rebuking companions, so 447 gives the institution and 389 the temperament it needs. Manakkudavar reads 389 differently, as hearing of others' offences and bearing it.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Parimelazhagar explicitly supplies 'இடிக்கும் துணையாயினார் சொற்கள்' for 389's 'செவிகைப்பச் சொல்', the phrase of 447 ('இடிக்குந் துணையாரை'); the note also reports Manakkudavar's different reading correctly.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 389,
+   "b": 638,
+   "type": "develops",
+   "note": "389 states the king's side: he should bear speech that is bitter to hear. 638 states the minister's side: even if the king destroys good counsel and knows nothing himself, the one at his side is bound to say what is sound (உறுதி உழையிருந்தான் கூறல் கடன்). The duty to speak does not wait on the king having 389's quality.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "செவிகைப்பச் சொற்பொறுக்கும் is the king's side of bitter counsel, and அறிகொன்று அறியான் எனினும் உறுதி ... கூறல் கடன் is the minister's duty even when the king lacks that quality. Accurate and instructive.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 390,
+   "b": 556,
+   "type": "same_image",
+   "note": "390 calls the one who has giving, kindness, a straight sceptre and care of the people 'வேந்தர்க்கு ஒளி', a light to kings. 556 uses the same word: kings endure through just rule, and without it 'மன்னர்க்கு ஒளி' does not endure. 390 makes செங்கோல் one of four sources of that light; 556 makes it the one without which the light goes out.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'வேந்தர்க் கொளி' and 'மன்னர்க் கொளி' are the same figure, and செங்கோல்/செங்கோன்மை is one of four sources in 390 and the sole condition in 556; the note reports both accurately.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 390,
+   "b": 557,
+   "type": "develops",
+   "note": "390 lists அளி, kindly care, among the four things a king must have. 557 says what its absence is like: as lack of rain is to the earth, so is the king's lack of அளி to the living (துளியின்மை ... வேந்தன் அளியின்மை). An item in a list becomes, in the chapter on the crooked sceptre, something people cannot live without.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "அளி is one of the four in கொடையளி செங்கோல் குடியோம்பல், and 557 measures its absence: வேந்தன் அளியின்மை is to living beings what துளியின்மை is to the earth. A fair development, accurately noted.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 541,
+   "b": 561,
+   "type": "develops",
+   "note": "541 gives the steps of justice: examine, favour no one, deliberate, act (ஓர்ந்து ... தேர்ந்து செய்வஃதே முறை). 561 defines the king by the same sequence and adds two things: the punishment must match the offence (ஒத்தாங்கு ஒறுப்பது) and aim at the wrong not recurring (தலைச்செல்லா வண்ணத்தால்). Chapter 57 thus supplies the measure and purpose that 541 leaves unstated.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "ஓர்ந்து ... தேர்ந்து செய்வஃதே முறை and தக்காங்கு நாடி share the inquiry, and 561 adds ஒத்தாங்கு ஒறுப்பது and தலைச்செல்லா வண்ணத்தால். Accurate account of what is added.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 541,
+   "b": 577,
+   "type": "tension",
+   "note": "541 makes the refusal of கண்ணோட்டம் part of the definition of முறை. 577 says those without கண்ணோட்டம் have no eyes, and those who have eyes are never without it. If 577 is read without exception, the judge of 541 is 'eyeless' in the moment of judging; the conflict disappears only if 577 is limited to dealings outside judgment, as 578 suggests.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'கண்ணோடாது' is part of முறை in 541, while 577 says 'கண்ணோட்டம் இல்லவர் கண்ணிலர்' without exception; the note states the reading that produces the conflict and the one that removes it.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 541,
+   "b": 578,
+   "type": "qualifies",
+   "note": "541 defines justice as examining and acting 'யார்மாட்டும் கண்ணோடாது', letting the eye soften toward no one. 578 says the world belongs to those able to show kindly regard without spoiling the task (கருமம் சிதையாமல் கண்ணோட வல்லார்க்கு), and Parimelazhagar takes the task to be the king's doing of justice. 578 marks the boundary between the two chapters: regard is welcome up to the point where it would bend the judgment 541 describes.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'கண்ணோடாது … தேர்ந்து செய்வஃதே முறை' is limited by 'கருமம் சிதையாமல் கண்ணோட'; Parimelazhagar glosses கருமம் as 'முறை செய்தல்' and himself cites 541 there.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 542,
+   "b": 557,
+   "type": "same_image",
+   "note": "542: the whole world lives looking to the sky, and the people live looking to the king's sceptre (வானோக்கி ... கோல் நோக்கி). 557 states the same comparison from the side of failure: what lack of rain is to the earth, the king's lack of kindly care is to living beings. The pair shows the rain comparison is about dependence, so that a failed king is a drought.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "வானோக்கி வாழும் / கோல் நோக்கி வாழும் and துளியின்மை ஞாலத்திற்கு ... வேந்தன் அளியின்மை: the same rain comparison from the positive and the failing side.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 542,
+   "b": 1192,
+   "type": "parallel_domain",
+   "note": "542 compares subjects' dependence on the sceptre to the world's dependence on rain. In 1192 the woman says the tenderness the loved one gives to the one who loves is like the sky yielding to those who live by it (வாழ்வார்க்கு வானம் பயந்தற்றால்). The same figure of living by the rain is used for a people before their king and a lover before the beloved, and the word அளி serves for both the king's care (557, 390) and the lover's.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "வானோக்கி வாழும் உலகு / வாழ்வார்க்கு வானம் பயந்தற்று: the same living-by-rain figure for subjects and for the lover, and அளி does serve for the king's care (557 அளியின்மை).",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 543,
+   "b": 19,
+   "type": "parallel_domain",
+   "note": "543 makes the sceptre the precondition of scripture and virtue. 19 says that giving and austerity will not last in the wide world if the sky does not give (தானம் தவம் இரண்டும் தங்கா ... வானம் வழங்காதெனின்). Rain in Book 1 and just rule in Book 2 hold the same position: neither is itself virtue, but virtue does not continue without it.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The sceptre stands as 'ஆதி' of 'நூற்கும் அறத்திற்கும்' and 'தானம் தவம்இரண்டும் தங்கா ... வானம் வழங்காதெனின்': each is a non-moral precondition without which virtue does not continue.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 543,
+   "b": 30,
+   "type": "same_image",
+   "note": "543 speaks of 'அந்தணர் நூல்', which Parimelazhagar and Manakkudavar take as the Veda belonging to Brahmins. 30 defines அந்தணர் as the virtuous (அறவோர்), so called because they live in kindness to every living being. Read with 30, the phrase in 543 can mean the books of the virtuous, which is how Kalaignar takes it; the choice changes what the sceptre is said to uphold.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The shared word அந்தணர் is defined in 30 as அறவோர் (செந்தண்மை பூண்டொழுகலான்), which bears directly on அந்தணர் நூல் in 543; the commentators split as the note says (Parimelazhagar/Manakkudavar வேதம், Kalaignar அறவோர் நூல்).",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 543,
+   "b": 560,
+   "type": "agrees",
+   "note": "543 says the king's sceptre stands as the first ground (ஆதியாய் நின்றது) of the books of the அந்தணர் and of virtue. 560 gives the failing case: if the guardian does not guard, the yield of cows shrinks and those of the six occupations forget their books (அறுதொழிலோர் நூல் மறப்பர்). The claim that learning depends on rule is made once as a principle and once as a consequence.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'அந்தணர் நூற்கும் … ஆதியாய் நின்றது மன்னவன் கோல்' and 'அறுதொழிலோர் நூல்மறப்பர் காவலன் காவான் எனின்' state the dependence of learning on rule as principle and as failure case.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 544,
+   "b": 387,
+   "type": "agrees",
+   "note": "544 says the world holds to the king who embraces his people. Parimelazhagar explains the embrace as speaking pleasantly and giving what is needed in hardship, which is what 387 names: to one able to give with pleasant words and protect (இன்சொலால் ஈத்தளிக்க), this world answers. 387 says how the embrace is done; 544 adds that it goes together with the sceptre.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Parimelazhagar does explain 'குடிதழீஇ' as 'இன்சொல் சொல்லுதலும், தளர்ந்துழி வேண்டுவன கொடுத்தலும்', which is 387's 'இன்சொலால் ஈத்தளிக்க', and both end with the world's adherence ('அடிதழீஇ நிற்கும் உலகு'). The identification rests on the commentator, as the note says.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 544,
+   "b": 1025,
+   "type": "parallel_domain",
+   "note": "544: the world stands embracing the feet (அடிதழீஇ நிற்கும்) of the king who embraces his people (குடிதழீஇ) while wielding the sceptre. 1025: the world gathers round as kin (சுற்றமாச் சுற்றும் உலகு) the man who raises his family and lives without fault. In both the world's attachment is the return for care of one's own குடி, the word meaning the king's subjects in 544 and a man's family in 1025.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'குடிதழீஇ ... அடிதழீஇ நிற்கும் உலகு' and 'குடிசெய்து வாழ்வானைச் சுற்றமாச் சுற்றும் உலகு' both make the world's attachment the return for care of one's குடி, subjects in one and family in the other.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 545,
+   "b": 55,
+   "type": "parallel_domain",
+   "note": "545 ties rain to the king's right rule. 55 ties it to a wife's fidelity: she who rises worshipping her husband says 'rain' and it rains (பெய்யெனப் பெய்யும் மழை). In the household and in the kingdom the book makes rain answer to a person keeping to their proper role.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'கோலோச்சும் மன்னவன் நாட்ட பெயலும்' and 'பெய்யெனப் பெய்யும் மழை' both make rain answer to a person keeping their role, in kingdom and in household.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 545,
+   "b": 239,
+   "type": "parallel_domain",
+   "note": "545 says harvest (விளையுள்) comes with just rule. 239 says land that bears a body without renown declines in its blameless rich yield (வண்பயன் குன்றும்). Both let the moral state of people show in the fertility of the land; 239 does it for any person, 545 for the king.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'பெயலும் விளையுளும் தொக்கு' under a just king and 'வண்பயன் குன்றும் இசையிலா யாக்கை பொறுத்த நிலம்' both let human moral standing show in the land's yield.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 545,
+   "b": 559,
+   "type": "agrees",
+   "note": "545: rain and harvest gather in the land of the king who wields the sceptre as it should be (இயல்புளிக் கோலோச்சும்). 559: if the king acts bending justice (முறைகோடி), the sky bends its showers and does not rain (உறைகோடி). The two verses state one causal claim in both directions, and 559 echoes the bent sceptre in the bent rain.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'இயல்புளிக் கோலோச்சும் ... பெயலும் விளையுளும் தொக்கு' and 'முறைகோடி ... உறைகோடி ஒல்லாது வானம் பெயல்' state the same rule-and-rain causality in both directions.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 546,
+   "b": 118,
+   "type": "same_image",
+   "note": "546's condition is that the கோல் does not bend (கோடாது). 118 praises not leaning to one side (ஒருபால் கோடாமை), like the கோல், here the balance beam, that first levels itself and then weighs. The same word and the same verb serve for the king's sceptre and the scales, so the straightness asked of the ruler is the impartiality asked of the worthy in Book 1.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "கோல் ... கோடாது of the sceptre and கோல்போல் ... ஒருபால் கோடாமை of the balance: same noun and verb for royal justice and personal impartiality.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 546,
+   "b": 552,
+   "type": "same_image",
+   "note": "546 sets spear against sceptre: it is not the வேல் that gives victory but the king's கோல், if it does not bend. 552 uses the same pair to opposite effect: the demand of one who stands with a கோல் is like one standing with a வேல் and saying 'hand it over'. The sceptre is better than the spear only while straight; bent toward extortion, 552 says it is the spear.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "வேல் and கோல் are paired in both: வேலன்று வென்றி தருவது ... கோல் when கோடாது, and கோலொடு நின்றான் இரவு likened to வேலொடு நின்றான் இடுவென்றது. A distinctive shared pair used to opposite effect.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 547,
+   "b": 57,
+   "type": "parallel_domain",
+   "note": "547: the king guards the earth, and justice guards the king (இறை காக்கும் ... முறை காக்கும்). 57: what can the guard of confinement do? The guard that women keep by their own steadfastness is the chief guard (சிறை காக்கும் காப்பு ... நிறை காக்கும் காப்பே தலை). Both verses, in the same rhyming pattern, say that real protection comes from the guarded person's own conduct and not from outside force.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "இறைகாக்கும் ... முறைகாக்கும் and சிறைகாக்கும் ... நிறைகாக்கும் match in rhyme and in logic: what truly guards is the person's own முறை or நிறை. 'Not from outside force' is explicit only in 57, a small overstatement for 547.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 547,
+   "b": 448,
+   "type": "develops",
+   "note": "547 says justice protects the king if he does it without fail. 448 calls the king who has no one to rebuke him 'ஏமரா மன்னன்', a king without a guard, and says he perishes even with no one to ruin him. Together they name what guards a ruler: his own just practice and the people who correct him.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'அவனை முறைகாக்கும்' and 'இடிப்பாரை இல்லாத ஏமரா மன்னன்' (ஏமம் = guard) both name what protects the protector; pairing just practice with rebuking counsellors is instructive.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 548,
+   "b": 386,
+   "type": "agrees",
+   "note": "548: a king who is not easy of access (எண்பதத்தான் in the negative, as Parimelazhagar construes it) and does not examine and do justice sinks and perishes. 386: a king easy to see (காட்சிக்கு எளியன்) and not harsh in speech has his land praised. Accessibility is stated as a virtue in chapter 39 and its lack as a cause of ruin in chapter 55.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'எண்பதத்தான்' (taken in the negative, as Parimelazhagar explains) and 'காட்சிக்கு எளியன்' state accessibility as a cause of ruin when absent and of praise when present.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 548,
+   "b": 448,
+   "type": "agrees",
+   "note": "548 says the unjust, unapproachable king perishes of himself (தானே கெடும்); Parimelazhagar adds 'even without enemies'. 448 says the king with no one to rebuke him perishes though no one sets out to ruin him (கெடுப்பார் இலானும் கெடும்). Both describe a ruler's fall with no outside agent, caused by shutting out complaint in one case and criticism in the other.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "தானே கெடும் and கெடுப்பாரிலானும் கெடும்: a ruler ruined with no outside agent, by refusing access/justice in one and rebuke (இடிப்பார்) in the other.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 548,
+   "b": 553,
+   "type": "agrees",
+   "note": "548 and 553 share most of a line: a king who does not examine and do justice (ஓரா / நாடி முறைசெய்யா மன்னவன்). In 548 the king himself perishes; in 553 he loses his land day by day (நாடொறும் நாடு கெடும்). The pairing shows the same neglect ruining the ruler and the country.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'ஓரா முறைசெய்யா மன்னவன்' and 'நாடி முறைசெய்யா மன்னவன்' are the same subject, with 'தானே கெடும்' in one and 'நாடு கெடும்' in the other; ruler and country ruined by the same neglect.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 549,
+   "b": 314,
+   "type": "qualifies",
+   "note": "314 tells a person how to punish those who hurt him: shame them by doing them good and let it go (அவர் நாண நன்னயம் செய்து விடல்). 549 says that for a king, guarding the people and removing offences (குற்றம் கடிதல்) is no stain but his work (வடுவன்று வேந்தன் தொழில்). The words 'no stain' answer the doubt that punishing goes against virtue, which Parimelazhagar spells out; 549 limits 314's rule to one's own injuries and exempts the office.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "314's ஒறுத்தல் by 'நன்னயஞ் செய்து விடல்' against 549's 'குற்றம் கடிதல் வடுவன்று வேந்தன் தொழில்'; Parimelazhagar does raise and answer the doubt that punishing is a stain, as the note says.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 549,
+   "b": 436,
+   "type": "qualifies",
+   "note": "549 makes removing offences the king's work. 436 sets an order for it: if he first removes his own fault and then looks at others' (தன்குற்றம் நீக்கிப் பிறர்குற்றம் காண்கிற்பின்), what fault can attach to a ruler? The right to punish in 549 is, by 436, clear of blame only for a king who has corrected himself first.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "549's 'குற்றம் கடிதல் வடுவன்று' is conditioned by 436's order 'தன்குற்றம் நீக்கிப் பிறர்குற்றங் காண்கிற்பின் என்குற்றமாகும் இறைக்கு'.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 549,
+   "b": 567,
+   "type": "qualifies",
+   "note": "549 clears the punishing king of blame. 567 says harsh words and punishment that goes beyond bounds (கையிகந்த தண்டம்) are a file that wears down a king's strength to defeat enemies. Punishment is the king's work only within measure; past it, the same act damages him.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "549: குற்றம் கடிதல் வடுவன்று வேந்தன் தொழில்; 567: கையிகந்த தண்டம் is the அரம் that wears down his அடுமுரண். A clean limit of measure on the first.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 550,
+   "b": 551,
+   "type": "same_image",
+   "note": "550 justifies the king's use of death against the cruel (கொடியார்). 551 turns the same words on the king: one who takes up harassing his people and does wrong is crueller than those who have taken up murder (கொலைமேற்கொண்டாரிற் கொடிதே). Placed on either side of the chapter break, the two verses make the king both the one who removes the cruel and the one who can be the worst of them.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "கொலையிற் கொடியாரை வேந்தொறுத்தல் and கொலைமேற்கொண்டாரிற் கொடிதே ... வேந்து reuse கொலை/கொடி/வேந்து across the chapter boundary, turning the measure onto the king himself.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 550,
+   "b": 1038,
+   "type": "same_image",
+   "note": "550 compares the king's execution of the cruel to weeding the green crop (பைங்கூழ் களைகட்டதனொடு நேர்). 1038, on farming itself, says that after weeding (கட்டபின்) guarding the crop is better than watering it. In the farmer's own chapter weeding is one step and guarding counts for more, which fits 549's order of guarding the people first and punishing second.",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The weeding figure is shared ('பைங்கூழ் களைகட்டதனொடு' / 'கட்டபின்'), but 1038 ranks காப்பு above நீர், not above weeding, so the note's claim that guarding outranks weeding and mirrors 549's order is not in the verse.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 631,
+   "b": 483,
+   "type": "develops",
+   "note": "483 asks whether anything called அருவினை exists for one who acts with கருவி and knowing காலம். 631 uses the same three words but keeps அருவினை as a separate item the minister must be good at. The pair shows where the minister's list comes from: tools and timing are what make a hard task doable.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "கருவி, காலம் and அருவினை appear in both; 483's rhetorical 'அருவினை யென்ப உளவோ' explains why the minister's list in 631 holds these items together.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 631,
+   "b": 675,
+   "type": "develops",
+   "note": "631 defines the minister as one excellent in கருவி, காலம், செய்கை and the அருவினை itself. 675 turns nearly the same list into a rule for anyone acting: பொருள், கருவி, காலம், வினை, இடன், 'ஐந்தும் இருள்தீர எண்ணிச் செயல்'. Read together, the minister's defining competence is the checklist of 675, with resources and place added there.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "கருவி, காலம், செய்கை/வினை appear in both lists; 675 adds பொருள் and இடன் and turns the list into a rule (இருள்தீர எண்ணிச் செயல்). The note describes both correctly.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 632,
+   "b": 382,
+   "type": "parallel_domain",
+   "note": "632 lists the minister's qualities: வன்கண், குடிகாத்தல், கற்றறிதல், ஆள்வினை. 382 lists the king's: அஞ்சாமை, ஈகை, அறிவு, ஊக்கம் (383 adds கல்வி and துணிவுடைமை). Firmness, knowledge and drive appear on both lists, so the minister is described on the king's pattern; Manakkudavar even glosses வன்கண் as அஞ்சாமை. Giving is on the king's list only.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'வன்கண் ... கற்றறிதல் ஆள்வினை' line up with 'அஞ்சாமை ... அறிவு ஊக்கம்', and Manakkudavar does gloss வன்கண் as அஞ்சாமை; the note also correctly marks ஈகை as the king's alone.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 633,
+   "b": 187,
+   "type": "parallel_domain",
+   "note": "187 says those who cannot make friends with pleasant talk 'கேளிர்ப் பிரிப்பர்', split even their own kin, by divisive speech. 633 uses the same verb, பிரித்தல், for a minister's skill, which Parimelazhagar restricts to detaching an enemy's allies. The same act is a fault at home and a craft in statecraft, and what differs is whose bond is being broken.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "கேளிர்ப் பிரிப்பர் in 187 and பிரித்தல் in 633 are the same act, a fault among one's own and a skill against an enemy's allies (Parimelazhagar's restriction is correctly reported). The contrast teaches something.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 633,
+   "b": 530,
+   "type": "develops",
+   "note": "633 names rejoining those who parted as a minister's skill. 530 says how the king should handle such a return: one who left (உழைப்பிரிந்து) and came back for a reason is to be taken in after thought, 'எண்ணிக் கொளல்'. The pair shows that பொருத்தல் is not unconditional welcome; 530 supplies the caution.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'பிரிந்தார்ப் பொருத்தல்' as a skill meets 'உழைப்பிரிந்து காரணத்தின் வந்தானை … எண்ணிக் கொளல்', which adds deliberation before taking the returner in.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 633,
+   "b": 679,
+   "type": "develops",
+   "note": "633 says a minister must be able to divide (பிரித்தல்), keep his own side (பேணிக் கொளல்) and rejoin those who broke away (பிரிந்தார்ப் பொருத்தல்). 679 ranks one such act: 'ஒட்டாரை ஒட்டிக் கொளல்', bringing the unattached over, is more urgent than doing good to friends. 679 gives a priority among the alliance skills that 633 only lists.",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "679 does rank alliance-making above 'நட்டார்க்கு நல்ல செயல்', but 'ஒட்டாரை ஒட்டிக் கொளல்' is about foes (or the foe's foes, per Parimelazhagar), not 633's 'பிரிந்தார்ப் பொருத்தல்'; the note's 'unattached' and 'one such act' blur that.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 634,
+   "b": 462,
+   "type": "develops",
+   "note": "462 tells the one acting that nothing is out of reach if he examines with a chosen circle and thinks it over himself: 'தெரிந்த இனத்தொடு தேர்ந்தெண்ணிச் செய்வார்க்கு'. 634 describes the minister with the same two verbs, தெரிதல் and தேர்ந்து செயல். The pairing shows the two sides of one arrangement: 462 is the ruler's need for such company, 634 is what that company must be able to do.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both verses use the roots தெரி and தேர் (தெரிந்த இனத்தொடு தேர்ந்தெண்ணி / தெரிதலும் தேர்ந்து செயலும்); 462's 'chosen company' is plausibly the ministerial circle whose abilities 634 lists. In 462 தெரிந்த means 'chosen', a small looseness in 'same two verbs'.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 634,
+   "b": 671,
+   "type": "develops",
+   "note": "634 asks of a minister தெரிதல், தேர்ந்து செயல் and 'ஒருதலையாச் சொல்லல்', speaking so that the matter is settled. 671 says 'சூழ்ச்சி முடிவு துணிவெய்தல்': deliberation ends in reaching a resolve, and letting that resolve linger is a fault. Parimelazhagar glosses ஒருதலையாச் சொல்லல் as speaking so that துணிவு arises, which makes the minister's decisive word the point where 671's deliberation closes.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Parimelazhagar does gloss 'ஒருதலையாச் சொல்லல்' as speaking so that 'துணிவு பிறக்கும் வகை', which matches 671's 'சூழ்ச்சி முடிவு துணிவெய்தல்'. His gloss is narrower (about dividing or uniting others) than the note suggests, but ஒருதலை itself supports the link.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 635,
+   "b": 441,
+   "type": "develops",
+   "note": "441 tells the king to choose the friendship of those who are 'அறனறிந்து மூத்த அறிவுடையார்', 'திறனறிந்து தேர்ந்து'. 635 describes the counsel-companion in the same words: 'அறனறிந்து ... திறனறிந்தான் தேர்ச்சித் துணை'. 441 is the instruction to seek such a person and 635 is the portrait of him, with settled speech (ஆன்றமைந்த சொல்) added.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The shared 'அறனறிந்து … திறனறிந்து … தேர்' vocabulary links the instruction to choose such men (441) with the portrait of the 'தேர்ச்சித் துணை' (635).",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 635,
+   "b": 644,
+   "type": "develops",
+   "note": "635 asks for one who knows அறன், has full and settled speech, and knows திறன். 644 joins the same three terms in one rule: 'திறனறிந்து சொல்லுக சொல்லை', since no அறன் or பொருள் is beyond that. The next chapter thus takes the speech item of 635 and makes fitted speech itself the place where knowing virtue and knowing method show.",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "அறன், சொல், திறனறிந்து do recur, but திறன் in 635 is the minister's knowledge of how to act and in 644 it is fitting speech to the hearer, and 644 says only that no அறன் or பொருள் exceeds such speech. The claim that fitted speech is 'where knowing virtue and method show' goes beyond the Tamil.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 636,
+   "b": 373,
+   "type": "qualifies",
+   "note": "636 asks what subtle scheme can stand before those who have மதிநுட்பம் together with நூல். 373 says that however many subtle books one studies (நுண்ணிய நூல்பல கற்பினும்), one's own உண்மை அறிவு still prevails. 373 explains why 636 puts native subtlety first and adds books 'ஓடு': study does not replace the native intelligence, so the combination is not open to everyone who reads. Parimelazhagar ties 373's native understanding to ஊழ்.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "மதிநுட்பம் நூலோடு in 636 and நுண்ணிய நூல்பல கற்பினும் ... உண்மையறிவே மிகும் in 373 both rank native understanding against book learning, and 373 does limit what நூல் alone can supply. Note's commentary citation is accurate.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 636,
+   "b": 503,
+   "type": "qualifies",
+   "note": "636 implies that nothing withstands the person who has native subtlety and learning. 503 says that even in those who have studied hard texts and are free of fault (அரியகற்று ஆசற்றார்), close examination rarely finds no blankness: 'இன்மை அரிதே வெளிறு'. The praise in 636 concerns outwitting opposing schemes; 503 limits it, since the learned still have gaps.",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "636's rhetorical 'யாவுள முன்நிற்பவை' praises wit plus learning against opposing schemes, while 503's 'இன்மை அரிதே வெளிறு' is about residual ignorance found when vetting; they touch the limits of learning but 503 does not really condition 636's claim.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 637,
+   "b": 140,
+   "type": "parallel_domain",
+   "note": "637 says that even when one knows the செயற்கை, which Parimelazhagar takes as the method taught in treatises, one should act knowing the உலகத்து இயற்கை. 140, in the chapter on conduct, says those who have not learned 'உலகத்தோடு ஒட்ட ஒழுகல்' are without understanding though they have learned much (பலகற்றும்). The same ranking of learning below fit with the world appears once for personal conduct and once for a minister's action.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "உலகத்து இயற்கை அறிந்து செயல் even after knowing செயற்கை; உலகத்தோடு ஒட்ட ஒழுகல் கல்லார் are அறிவிலாதார் though பலகற்றும். Same ranking in a minister's action and in personal conduct.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 637,
+   "b": 426,
+   "type": "agrees",
+   "note": "426 defines அறிவு as living with the world in the way the world lives: 'உலகத்தோடு அவ்வது உறைவது'. 637 gives the working form of this for one who already knows the method: 'உலகத்து இயற்கை அறிந்து செயல்'. Together they treat attention to how the world actually goes as part of knowledge and not a concession against it.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'உலகத்து இயற்கை அறிந்து செயல்' and 'உலகத்தோடு அவ்வது உறைவது அறிவு' both make conformity to how the world goes part of knowing, for the minister and as a definition of அறிவு.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 638,
+   "b": 448,
+   "type": "develops",
+   "note": "638 makes it the duty (கடன்) of the one at the king's side to say what is sound (உறுதி) even if the king rejects knowledge and knows nothing himself. 448 gives the stake: a king without those who rebuke, 'இடிப்பாரை இல்லாத ஏமரா மன்னன்', perishes even with no one to ruin him. 448 shows why 638 does not release the minister when the king will not listen.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'உறுதி உழையிருந்தான் கூறல் கடன்' even to an 'அறிகொன்று அறியான்' is explained by the stake in 'இடிப்பாரை இல்லாத … கெடும்'.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 638,
+   "b": 696,
+   "type": "qualifies",
+   "note": "638 obliges the minister to speak sound counsel regardless of the king's reception. 696 governs the manner: knowing the king's mood and considering the time, say what is needed without what is disliked, so that it is wanted ('வெறுப்பில வேண்டுப வேட்பச் சொலல்'). The duty of 638 stands, and 696 conditions how and when it is discharged.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "638 makes 'உறுதி கூறல்' a 'கடன்' whatever the king's reception; 696 conditions the delivery with 'குறிப்பறிந்து காலங் கருதி ... வேட்பச் சொலல்'. A genuine qualification of manner, not of the duty.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 638,
+   "b": 849,
+   "type": "tension",
+   "note": "849 says 'காணாதான் காட்டுவான் தான்காணான்': one who tries to show something to a person who does not see ends up not seeing himself, while the other keeps to what he saw. 638 requires exactly this of a minister when the king 'அறிகொன்று அறியான்'. The conflict holds if 849 is read as general advice not to instruct the conceited; Parimelazhagar reads it as a report that the instructor is reviled, which would leave 638 as a duty carried at that cost.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'அறிகொன்று அறியான் எனினும் … கூறல் கடன்' requires what 'காணாதான் காட்டுவான் தான்காணான்' says rebounds on the instructor; the note states which reading makes it a conflict and gives Parimelazhagar's 'பழிக்கப்பட்டு' reading correctly.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 639,
+   "b": 817,
+   "type": "same_image",
+   "note": "639 and 817 use the same construction and the same kind of figure: 'மந்திரியின் ... எழுபது கோடி உறும்' and 'நட்பின் பகைவரால் பத்தடுத்த கோடி உறும்'. In both an inflated count of open enemies is set against one false intimate, a plotting minister in 639 and a friend good only for laughter in 817. Parimelazhagar reads உறும் in 639 as 'that many enemies will come', and notes others read it as 'that many times better', which is how 817 is read.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both end '…இன் … கோடி உறும்', setting crores on the open-enemy side against one false intimate (பழுதெண்ணும் மந்திரி / நகைவகையர் நட்பு). Small imprecision: in 817 the crores count times-better, not enemies, and Parimelazhagar's 'உறுவர்' in 639 is closer to 'are equal to' than 'will come'.",
+   "text_issue": "639 prints பக்கததுள் for பக்கத்துள்.",
+   "already_linked": false
+  },
+  {
+   "a": 639,
+   "b": 882,
+   "type": "agrees",
+   "note": "639 says seventy crore enemies are better than a minister at one's side who plots harm ('பழுதெண்ணும் மந்திரி'). 882 gives the general rule: do not fear enemies like swords, fear the bond of enemies who are like kin ('கேள்போல் பகைவர் தொடர்பு'). Parimelazhagar explains 639 on the same ground, that open enemies can be guarded against and the one inside cannot.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'பழுதெண்ணும் மந்திரி' at one's side being worse than 'தெவ்வோர் எழுபது கோடி' is a case of 882's 'கேள்போல் பகைவர் தொடர்பு' being feared over 'வாள்போல பகைவர்'; Parimelazhagar explains 639 by உட்பகை as the note says.",
+   "text_issue": "639 is printed 'பக்கததுள்' for 'பக்கத்துள்'.",
+   "already_linked": false
+  },
+  {
+   "a": 640,
+   "b": 664,
+   "type": "agrees",
+   "note": "640 says those without திறப்பாடு leave things unfinished even after planning them in proper order ('முறைப்படச் சூழ்ந்தும் முடிவிலவே செய்வர்'). 664 says saying is easy for anyone and doing as said is hard ('சொல்லிய வண்ணம் செயல்'). Both locate failure in the gap between a correct plan and its execution; Parimelazhagar glosses the 'saying' of 664 as stating in order how the task will be done.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'முறைப்படச் சூழ்ந்தும் முடிவிலவே செய்வர்' and 'அரியவாம் சொல்லிய வண்ணம் செயல்' both put failure between plan and execution; Parimelazhagar's 'நிரல்படச் சொல்லுதல்' on 664 is as cited.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 640,
+   "b": 728,
+   "type": "parallel_domain",
+   "note": "640 says sound planning comes to nothing in those who lack the capacity to carry it through. 728 says those who have learned many things are of no use ('பயமிலரே') if they cannot speak well and tellingly in a good assembly. The same pattern appears in two domains: knowledge or planning is counted worthless without the ability that delivers it.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "முறைப்படச் சூழ்ந்தும் முடிவிலவே ... திறப்பாடு இலாதவர் and பல்லவை கற்றும் பயமிலரே ... செலச்சொல்லாதார் share the 'though X, useless without the delivering skill' pattern in action and in speech.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 971,
+   "b": 595,
+   "type": "agrees",
+   "note": "595 says a person's height matches their inner drive, as a water-flower's stem matches the water: 'உள்ளத்து அனையது உயர்வு'. 971 opens the chapter on greatness by calling that same inner abundance (உள்ள வெறுக்கை) one's light. Both make standing a function of spirit and not of circumstance.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "உள்ள வெறுக்கை is ஒளி in 971; உள்ளத்தனையது உயர்வு in 595. Both tie standing to ஊக்கம், across the chapters on energy and greatness.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 971,
+   "b": 600,
+   "type": "same_image",
+   "note": "971 says 'ஒளி ஒருவற்கு உள்ள வெறுக்கை' and 600 says 'உரம் ஒருவற்கு உள்ள வெறுக்கை': the same phrase, abundance of spirit, is called a person's light in one and a person's strength in the other. Each then states the lack: living without it is disgrace (இளி) in 971, and those without it are trees in 600. The repetition shows the chapter on greatness resting on the earlier chapter on ஊக்கம்.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The identical phrase 'ஒருவற்கு உள்ள வெறுக்கை' is predicated of ஒளி in 971 and உரம் in 600, each followed by the verdict on those lacking it (இளி / மரம்).",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 972,
+   "b": 133,
+   "type": "agrees",
+   "note": "133 says having conduct is what good family is ('ஒழுக்கம் உடைமை குடிமை') and a lapse becomes low birth. 972 says birth is equal and distinction follows from deeds. Both move rank from descent to what a person does, though 133 keeps the vocabulary of birth and Parimelazhagar reads it within varna.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "ஒழுக்கம் உடைமை குடிமை / இழுக்கம் இழிந்த பிறப்பு and சிறப்பொவ்வா செய்தொழில் வேற்றுமையான் both tie rank to conduct; the note rightly flags that 133 keeps birth vocabulary and Parimelazhagar reads it within வருணம்.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 972,
+   "b": 505,
+   "type": "develops",
+   "note": "972 says birth is alike for all and distinction differs 'செய்தொழில் வேற்றுமையான்', by the difference in what they do. 505 gives the test: for greatness and for smallness, one's own deeds are the touchstone ('தத்தம் கருமமே கட்டளைக் கல்'). 505 is the practical form of 972, used when choosing whom to trust; Parimelazhagar uses the word கட்டளைக் கல் in his note on 972.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "972's 'சிறப்பொவ்வா செய்தொழில் வேற்றுமையான்' and 505's 'தத்தம் கருமமே கட்டளைக் கல்' both measure greatness and smallness by deeds, and Parimelazhagar does call the differences of work 'பெருமை சிறுமைகட்குக் கட்டளைக் கல்' on 972.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 972,
+   "b": 951,
+   "type": "tension",
+   "note": "972 says 'பிறப்பொக்கும் எல்லா உயிர்க்கும்'. 951 says uprightness and shame are found together naturally only in those born in a good house: 'இற்பிறந்தார்கண் அல்லது இல்லை இயல்பாக'. The conflict holds when பிறப்பு in 972 is read as social birth, as Manakkudavar does (greatness is not known by குலம்); Parimelazhagar avoids it by reading 972 as the common fact of embodied birth, with differences of work still falling by varna.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "பிறப்பொக்கும் எல்லா உயிர்க்கும் against இற்பிறந்தார்கண் அல்லது இல்லை இயல்பாக. Conflict holds on Manakkudavar's reading (பெருமை குலத்தினால் அறியப்படாது); the note correctly reports how Parimelazhagar avoids it.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 973,
+   "b": 409,
+   "type": "parallel_domain",
+   "note": "973 says those who are not high are not high even when seated high, and those who are not low are not low when seated low ('மேலிருந்தும் ... கீழிருந்தும்'). 409 uses the same frame for learning: the unlearned, though 'மேற்பிறந்தார்', do not have the standing of the learned who are 'கீழ்ப்பிறந்தும்'. In both, an outward high or low position fails to settle worth; 409 names learning as what does.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "மேலிருந்தும் / கீழிருந்தும் and மேற்பிறந்தாராயினும் / கீழ்ப்பிறந்தும் use the same high-low frame to deny that position or birth settles worth; 409 names கல்வி as the measure. Accurate.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 973,
+   "b": 751,
+   "type": "qualifies",
+   "note": "751 says nothing but wealth makes people of no account into people of account ('பொருளல்லவரைப் பொருளாகச் செய்யும்'). 973 says the not-high do not become high by being placed high, which Parimelazhagar and Manakkudavar both read as a seat given by wealth. On that reading 973 limits 751: wealth gets a person regarded, and it does not make them great.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "பொருளல்லவரைப் பொருளாகச் செய்யும் is limited by மேலிருந்தும் மேலல்லார் மேலல்லர்; both commentators do take the high seat as one given by wealth (செல்வ நல்குரவுகளும்; செல்வத்தினால் இருக்குமிடம்), and the note says the link rests on that reading.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 974,
+   "b": 57,
+   "type": "develops",
+   "note": "57 says confinement does little and the guard a woman keeps by her own steadfastness is the chief guard ('நிறைகாக்கும் காப்பே தலை'). 974 takes this as its comparison: like single-minded women, greatness exists only 'தன்னைத்தான் கொண்டொழுகின்', if one keeps hold of oneself. 974 carries 57's claim about self-guarding into the Porul chapter on greatness, so that greatness, like கற்பு, cannot be kept for someone from outside.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "974's own simile 'ஒருமை மகளிரே போல … தன்னைத்தான் கொண்டொழுகின்' points straight at 57's 'நிறைகாக்கும் காப்பே தலை'; the self-guarding idea is carried over explicitly.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 974,
+   "b": 965,
+   "type": "develops",
+   "note": "974 says greatness exists only as long as one keeps oneself. 965 shows the loss: even those like a hill sink if they do a lowering thing the size of a குன்றி seed. Together they present greatness as a condition that continues only through conduct and can be forfeited by a small act.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "974: பெருமை exists only if தன்னைத்தான் கொண்டொழுகின்; 965: even குன்றின் அனையார் sink for a குன்றி-sized lowering act. Together: standing is kept by conduct and lost by small lapses.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 975,
+   "b": 26,
+   "type": "agrees",
+   "note": "26 says those who do what is hard to do are great and those who cannot are small ('செயற்கரிய செய்வார் பெரியர்'). 975 says those who have greatness accomplish 'அருமை உடைய செயல்' and do so 'ஆற்றின்', by the proper way. The claim made of renouncers in Book 1 returns in the Porul chapter on greatness with the added condition of right method; Parimelazhagar cites 26 in this chapter.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'செயற்கரிய செய்வார் பெரியர்' returns as 'பெருமை யுடையவர் ஆற்றுவார் ... அருமை உடைய செயல்' with 'ஆற்றின்' added; Parimelazhagar does cite Kural 26 in chapter 98 (under 971) and glosses ஆற்றின் as 'செய்யும் நெறியால்'.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 975,
+   "b": 468,
+   "type": "develops",
+   "note": "975 says the great carry out hard deeds 'ஆற்றின்', in the right way. 468 states the other side with the same word: effort not made in the right way ('ஆற்றின் வருந்தா வருத்தம்') collapses even if many stand guard over it. The pair shows that ஆற்றின் in 975 carries weight: hard deeds done by the wrong route fail.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "ஆற்றின் in both: the great accomplish hard deeds ஆற்றின்; ஆற்றின் வருந்தா வருத்தம் fails (பொத்துப்படும்) however many guard it. The pairing gives weight to the adverb in 975.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 976,
+   "b": 443,
+   "type": "develops",
+   "note": "443 calls it the rarest of rare things to cherish the great and make them one's own: 'பெரியாரைப் பேணித் தமராக் கொளல்'. 976 uses the same words and says the aim 'பெரியாரைப் பேணிக் கொள்வேம்' does not even occur in the minds of the small. 976 gives one reason the thing is rare: the difficulty starts with not wanting it.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Same phrase பெரியாரைப் பேணிக் கொள்: 443 calls it அரியவற்றுள் எல்லாம் அரிது, 976 says the very நோக்கு is absent from சிறியார் உணர்ச்சி. A fair account of why it is rare.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 976,
+   "b": 451,
+   "type": "agrees",
+   "note": "451 says greatness fears small company while smallness takes it as kin ('சுற்றமாச் சூழ்ந்து விடும்'). 976 says the small have no thought of attaching themselves to the great. Both describe the same sorting from two ends: the small seek their own kind and do not look upward.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "451's 'சிறுமைதான் சுற்றமாச் சூழ்ந்து விடும்' and 976's 'பெரியாரைப் பேணிக் கொள்வேம் என்னும் நோக்கு ... இல்லை' are the two halves of one sorting: the small take the small as kin and have no aim of attaching to the great.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 977,
+   "b": 838,
+   "type": "parallel_domain",
+   "note": "977 says even distinction (சிறப்பு), if it falls to the unworthy, results in acts of excess ('இறப்பே புரிந்த தொழிற்று'). 838 says a fool getting something in hand is like a man already deranged getting drunk. Both say a good thing makes its holder worse when the holder is unfit; 838 says it of possessions and a fool, 977 of distinction and the small. Manakkudavar reads the சிறப்பு of 977 as wealth, which brings the two closer.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "977's 'சிறப்புந்தான் சீரல்லவர்கண் படின்' and 838's 'பேதை தன் கையொன்று உடைமை பெறின்' share the pattern of a good thing worsening an unfit holder; Manakkudavar does gloss சிறப்பு as செல்வம்.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 977,
+   "b": 1000,
+   "type": "parallel_domain",
+   "note": "1000 says great wealth obtained by one without பண்பு is like good milk turned by the fault of its vessel. 977 says distinction landing on the unworthy produces excess. The logic is the same, that the recipient's quality decides what a gift becomes, but 1000 has the wealth spoiled and useless while 977 has the distinction turn into overbearing action.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both turn on a good thing landing with an unfit holder: சிறப்பு 'சீரல்லவர்கண் படின்' becomes இறப்பே புரிந்த தொழில், and பெருஞ்செல்வம் of the பண்பிலான் spoils like நன்பால் through கலந்தீமை. The note states the difference in outcome correctly.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 978,
+   "b": 125,
+   "type": "agrees",
+   "note": "125 says bowing is good for everyone and for the wealthy it is a further wealth. 978 says greatness bows and smallness decks itself out in self-admiration. Both attach humility to those who have most reason for pride; Parimelazhagar glosses the பணிதல் of 125 as being without பெருமிதம், the word 979 uses.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'பணியுமாம் என்றும் பெருமை' and 'பணிதல் ... செல்வர்க்கே செல்வம் தகைத்து' both put bowing where pride would be expected; Parimelazhagar does gloss பணிதல் in 125 as 'பெருமிதம் இன்றி அடங்குதல்'.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 978,
+   "b": 439,
+   "type": "develops",
+   "note": "439 commands 'வியவற்க எஞ்ஞான்றும் தன்னை', never admire yourself, among faults a ruler must avoid. 978 uses the same verb to define smallness: 'அணியுமாம் தன்னை வியந்து'. What 439 forbids as a fault, 978 treats as the mark by which the small are known.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'வியவற்க எஞ்ஞான்றும் தன்னை' and 'அணியுமாம் தன்னை வியந்து' use the same verb and object; the forbidden fault of 439 becomes the defining mark of சிறுமை in 978.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 978,
+   "b": 963,
+   "type": "qualifies",
+   "note": "978 says greatness bows always ('பணியுமாம் என்றும் பெருமை'). 963 says bowing is needed in abundance and standing tall is needed in reduced circumstances ('சுருக்கத்து வேண்டும் உயர்வு'). Taken plainly, 963 limits the என்றும் of 978; Parimelazhagar reads என்றும் in 978 as 'even when distinction has come', which makes the two verses say the same thing about prosperity.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "963 splits what 978 states with 'என்றும்': 'பெருக்கத்து வேண்டும் பணிதல் ... சுருக்கத்து வேண்டும் உயர்வு'. Parimelazhagar does read என்றும் as 'அச்சிறப்பு உண்டாய ஞான்றும்', and the note gives both the plain and the harmonised reading.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 979,
+   "b": 431,
+   "type": "same_image",
+   "note": "979 defines greatness as the absence of பெருமிதம் and smallness as riding it to the end. 431 uses the same word with approval: the prosperity of those free of செருக்கு, anger and சிறுமை is 'பெருமித நீர்த்து', which Parimelazhagar glosses as having the quality of eminence. The word means conceit in 979 and dignity in 431, and both verses agree that the person without pride is the one who has real stature.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "பெருமிதம் is conceit in 979 (பெருமிதம் இன்மை) and eminence in 431 (பெருமித நீர்த்து), yet 431 gives it only to those செருக்கு ... இல்லார், so the two converge as the note says.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 979,
+   "b": 844,
+   "type": "parallel_domain",
+   "note": "844 defines வெண்மை, poor understanding, as the pride that says 'we have brightness' ('ஒண்மை உடையம் யாம் என்னும் செருக்கு'). 979 defines smallness as being carried away by பெருமிதம். In both a defect is identified with the claim to its opposite: the foolish are those sure of their intelligence, and the small are those sure of their greatness.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "979 defines சிறுமை as 'பெருமிதம் ஊர்ந்து விடல்' and 844 defines வெண்மை as 'ஒண்மை உடையம்யாம் என்னும் செருக்கு': in both the defect is the proud claim to its opposite, across two domains.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 980,
+   "b": 846,
+   "type": "same_image",
+   "note": "846 and 980 share the words அற்றம், மறை and குற்றம். In 846 covering one's own nakedness is itself poor understanding while one's faults stay uncovered, which Parimelazhagar takes as faults not removed. In 980 greatness covers the அற்றம் of others. The image of covering what is exposed is used for self-deception in one verse and for consideration toward others in the other.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The shared அற்றம் / மறை / குற்றம் is used for covering others' exposure in 980 and for covering only one's own body in 846; Parimelazhagar's 'குற்றம் மறைத்தலாவது அவற்றை இலவாக்குதல்' is as cited.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 980,
+   "b": 984,
+   "type": "agrees",
+   "note": "984 says fullness of character lies in the goodness of not telling others' evil ('பிறர் தீமை சொல்லா நலத்தது சால்பு'). 980 says greatness covers another's weakness (அற்றம் மறைக்கும்) and smallness only tells faults. The next chapter repeats the claim for சால்பு, and 980 goes a step further than 984 by speaking of covering and not only of keeping silent.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'அற்றம் மறைக்கும் பெருமை' and 'பிறர்தீமை சொல்லா நலத்தது சால்பு' make the same claim in adjacent chapters, and the note rightly sees that மறைக்கும் goes beyond சொல்லா.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 980,
+   "b": 1079,
+   "type": "agrees",
+   "note": "1079 says the base, on merely seeing others clothed and fed, are able to find a blemish in them ('வடுக்காண வற்றாகும் கீழ்'). 980 says smallness tells only faults ('குற்றமே கூறி விடும்'). 1079 adds a cause the Tamil of 980 leaves out: Parimelazhagar reads the fault-finding of the base as coming from being unable to bear others' prosperity.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "சிறுமை குற்றமே கூறி விடும் and கீழ் ... வடுக்காண வற்றாகும் make the same claim about the low; 1079 adds the trigger (seeing others உடுப்பதூஉம் உண்பதூஉம்), which Parimelazhagar glosses with பொறாது.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1091,
+   "b": 15,
+   "type": "parallel_domain",
+   "note": "1091 says the same eyes hold the look that makes him ill and the look that cures it. 15 says rain is both what ruins ('கெடுப்பதூஉம்') and what, as support to the ruined, lifts them again ('எடுப்பதூஉம்'). In both, one source is credited with the harm and with its remedy, once in love and once in the world's subsistence.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'நோய்நோக்கு … அந்நோய் மருந்து' in one pair of eyes matches 'கெடுப்பதூஉம் … எடுப்பதூஉம் எல்லாம் மழை': one source of harm and remedy, in love and in subsistence.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1091,
+   "b": 1102,
+   "type": "develops",
+   "note": "1091 finds two looks in her kohl-lined eyes, one a 'நோய்நோக்கு' and the other 'அந்நோய் மருந்து'. 1102 states the general rule that a disease's medicine is something else ('பிணிக்கு மருந்து பிற') and then the exception: she is herself the medicine for the disease she causes ('தன்நோய்க்குத் தானே மருந்து'). 1102 turns the glance-level observation of 1091 into an explicit paradox about cause and cure being one.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'நோய்நோக்கொன் றந்நோய் மருந்து' in her two glances becomes the explicit paradox 'தன்நோய்க்குத் தானே மருந்து' set against 'பிணிக்கு மருந்து பிற'.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 1092,
+   "b": 1090,
+   "type": "develops",
+   "note": "1090 says brewed liquor gladdens only those who drink it and does not, like love, gladden those who merely see ('கண்டார் மகிழ்செய்தல்'). 1092 puts a measure on that: the small look her eyes steal ('கண்களவு கொள்ளும் சிறுநோக்கம்') is not an even half of love but more ('செம்பாகம் அன்று பெரிது'). Together they make sight alone a large share of love's pleasure; Parimelazhagar takes the 'half' in 1092 to be half of physical union.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "கண்டார் மகிழ்செய்தல் in 1090 makes sight a source of love's pleasure, and 1092 measures it: சிறுநோக்கம் is காமத்தில் செம்பாகம் அன்று பெரிது. Adjacent chapters, a real step from one to the other.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1092,
+   "b": 1326,
+   "type": "parallel_domain",
+   "note": "1092 ranks a brief stolen look as more than half of love. 1326 ranks sulking above union ('புணர்தலின் ஊடல் இனிது'), as digesting is sweeter than eating. Both verses place the greater part of love's pleasure in something beside the embrace, one before it and one around it.",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "சிறுநோக்கம் ... செம்பாகம் அன்று பெரிது and புணர்தலின் ஊடல் இனிது do both place love's larger share outside union, but both are in the same domain (காமம்), so this is two verses making a similar claim, not a pattern carried into another domain.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1093,
+   "b": 718,
+   "type": "same_image",
+   "note": "In 1093 her look followed by a lowered head is 'water she poured' ('அட்டிய நீர்') into the 'யாப்பு', which Parimelazhagar reads as the crop of love binding the two. 718 says speaking before those able to understand is like pouring water into the bed of something already growing ('வளர்வதன் பாத்தியுள் நீர்சொரிந்தற்று'). Both use watering for a sign or word given to someone already receptive: the gesture or speech does not start the growth, it feeds it.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'யாப்பினுள் அட்டிய நீர்' and 'வளர்வதன் பாத்தியுள் நீர்சொரிந்தற்று' both pour water on something already growing, for a sign and for speech to the receptive.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1093,
+   "b": 1147,
+   "type": "same_image",
+   "note": "1093 makes her shy look the water that feeds their bond. In 1147 the woman says her sickness grows long with the town's gossip as manure and her mother's words as water ('அன்னைசொல் நீராக நீளும் இந்நோய்'). The same cultivation figure serves first for what encourages love and later for what, meant to check it, only makes its pain grow.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'யாப்பினுள் அட்டிய நீர்' and 'அன்னைசொல் நீராக நீளும் இந்நோய்' both water a growing love as a crop; the contrast of encouragement and failed restraint is accurate.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 1094,
+   "b": 1114,
+   "type": "same_image",
+   "note": "In 1094 she looks at the ground when he looks at her ('நிலன்நோக்கும்') and looks at him and smiles when he does not. In 1114 the blue lilies, if they could see, would bend and look at the ground ('கவிழ்ந்து நிலன்நோக்கும்') because they cannot match her eyes. The identical phrase marks shyness in the first verse and conceded defeat in the second; Parimelazhagar glosses both as bowing from நாண்.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The identical 'நிலன்நோக்கும்' is the girl's shyness in 1094 and the lilies' bowed defeat in 1114; Parimelazhagar attributes both to நாண் (1094 heading, 'அந்நாணினால்' in 1114).",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 1096,
+   "b": 826,
+   "type": "same_image",
+   "note": "1096: though they speak like those unattached ('உறாஅதவர்போல் சொலினும்'), the words of those without anger are quickly understood ('செறாஅர்சொல் ஒல்லை உணரப்படும்'). 826 has the same frame reversed: though they say good things like friends ('நட்டார்போல் நல்லவை சொல்லினும்'), the words of the unreconciled are quickly understood ('ஒட்டார்சொல் ஒல்லை உணரப்படும்'). The shared wording shows one claim applied in love and in statecraft: a spoken mask, harsh or kind, does not long hide the disposition behind it.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The frames are nearly identical: '...போல் சொலினும் செறாஅர்சொல் ஒல்லை உணரப்படும்' and 'நட்டார்போல் ... சொல்லினும் ஒட்டார்சொல் ஒல்லை உணரப்படும்', reversed between love and false friendship.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1097,
+   "b": 709,
+   "type": "develops",
+   "note": "709 says the eye itself tells enmity and friendship, if one has people who understand the eye's kinds ('கண்ணின் வகைமை உணர்வார்ப் பெறின்'). 1097 is a case that needs that skill: here a look like an enemy's is a mark of closeness, not of enmity. The pairing shows why 709 adds its condition; a hostile look cannot be taken at face value.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "709 conditions the eye's testimony on கண்ணின் வகைமை உணர்வார்; 1097's செற்றார்போல் நோக்கும் as உற்றார் குறிப்பு is exactly a look that misleads without that skill. Both sit in chapters titled குறிப்பறிதல்.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 1097,
+   "b": 824,
+   "type": "parallel_domain",
+   "note": "1097 lists small harsh words spoken without anger and looks like an enemy's ('செற்றார்போல் நோக்கும்') as the signs of those who are close while seeming distant. 824 warns of the opposite pairing: a sweet smile on the face with bitterness inside ('முகத்தின் இனிய நகாஅ அகத்தின்னா'). In both the surface is the reverse of the heart; the lover reads the mismatch with relief, the Book of Wealth reads it with fear.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'செற்றார்போல் நோக்கும் ... உறாஅர்போன்று உற்றார்' and 'முகத்தின் இனிய நகாஅ அகத்தின்னா' are mirror cases of surface reversing heart, read with relief in one book and fear in the other.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1098,
+   "b": 1274,
+   "type": "agrees",
+   "note": "In 1098, when he looks she softens and smiles gently ('பசையினள் பைய நகும்'), and he says there is a certain grace in her then ('உண்டு ஆண்டு ஓர் ஏஎர்'). 1274 says there is something inside the bud of her smile, like scent inside a closed bud ('நகைமொக்குள் உள்ளதொன்று உண்டு'). Both treat her slight smile as holding an unspoken meaning, and both leave that meaning as an unnamed 'something'.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both find an unnamed 'something' in her slight smile, each with உண்டு: 'உண்டாண்டோர் ஏஎர் ... பைய நகும்' and 'நகைமொக்குள் உள்ளதொன் றுண்டு'.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1099,
+   "b": 528,
+   "type": "same_image",
+   "note": "1099 says looking at each other with the common look, like strangers ('ஏதிலார் போலப் பொதுநோக்கு நோக்குதல்'), is found in lovers. 528 uses the same word for a king: he should not look on all in common ('பொதுநோக்கான்') but by rank, and many will live looking to that. In 528 the undifferentiated look is a failure to distinguish; in 1099 it is put on deliberately by the two people who distinguish each other most.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "பொதுநோக்கு is a rare shared term: lovers put it on (ஏதிலார் போலப் பொதுநோக்கு நோக்குதல்) and a king should not look that way (பொதுநோக்கான் ... வரிசையா நோக்கின்). The note reads both correctly and the contrast is meaningful.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1100,
+   "b": 705,
+   "type": "parallel_domain",
+   "note": "1100: when eyes agree with eyes in their look, spoken words are of no use at all ('வாய்ச்சொற்கள் என்ன பயனும் இல'). 705, in the Book of Wealth's chapter of the same name, asks what use eyes are among the limbs if they cannot read a sign by a sign ('என்ன பயத்தவோ கண்'). Both hold that the eye is the organ for knowing another's mind; 705 says so for court service and 1100 for lovers, where it makes speech redundant.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both verses of same-named chapters turn on 'என்ன பயன்': eyes useless if they cannot read 'குறிப்பிற் குறிப்பு', words useless once 'நோக்கொக்கின்'. The eye as the organ of knowing another's mind appears in court and in love.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1100,
+   "b": 1280,
+   "type": "develops",
+   "note": "1100 says that once the eyes agree, words from the mouth serve no purpose. 1280 says that telling love's sickness with the eyes and pleading ('கண்ணினால் காமநோய் சொல்லி இரவு') adds womanhood to womanhood. 1280 moves from the fact that eyes can replace speech to praise of the woman who chooses to speak that way.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1100's eyes that make 'வாய்ச்சொற்கள்' useless become in 1280 a chosen mode of speech, 'கண்ணினால் காமநோய் சொல்லி இரவு', praised as 'பெண்ணினால் பெண்மை'.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1151,
+   "b": 1160,
+   "type": "develops",
+   "note": "1151 tells him to announce his quick return to those who will be alive then ('வாழ்வார்க்கு உரை'), implying she will not be. 1160 says many consent to the hard thing, endure the parting and live on afterwards ('பின்இருந்து வாழ்வார் பலர்'); Parimelazhagar reads this as her ironic reply to the friend, meaning she is not one of them. The chapter opens and closes on the same word, 'வாழ்வார்', for the survivors she sets herself apart from.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'வாழ்வார்க் குரை' and 'பின்இருந்து வாழ்வார் பலர்' frame the chapter with the same word for survivors; Parimelazhagar does give 1160 as her reply to the friend, and 1151 as implying she will not live.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1151,
+   "b": 1263,
+   "type": "qualifies",
+   "note": "In 1151 the speaker (the friend for Parimelazhagar, the woman for Manakkudavar) says a promise of quick return is only for those who will survive. In 1263 the woman, after he has gone, says she is still alive through wanting his return ('வரல்நசைஇ இன்னும் உளேன்'). The later speech shows the claim of 1151 as said in the moment: the hope of return that was dismissed there is what keeps her alive here.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1151 dismisses 'வல்வரவு' as news only for 'வாழ்வார்'; in 1263 she says 'வரல்நசைஇ இன்னும் உளேன்', alive by exactly that hope (Parimelazhagar: without it she would die). The later verse limits the earlier claim, as the note says.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1152,
+   "b": 1276,
+   "type": "develops",
+   "note": "1152 says union now carries the fear of separation. 1276 gives the reason in a concrete case: his very soothing and eager lovemaking ('பெரிதாற்றிப் பெட்பக் கலத்தல்') contains something that makes her think of his lack of love and of having to endure again; Parimelazhagar and Kalaignar take it as her reading his intention to leave. 1276 shows how the union itself becomes the sign she fears in 1152.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "பிரிவஞ்சும் புன்கண் உடைத்தால் புணர்வு in 1152 is made concrete in 1276, where பெரிதாற்றிப் பெட்பக் கலத்தல் itself அன்பின்மை சூழ்வது உடைத்து. The note reports the commentators correctly.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 1152,
+   "b": 1295,
+   "type": "agrees",
+   "note": "1152: once even his look was pleasant, but now union itself holds the pain of fearing separation ('பிரிவஞ்சும் புன்கண் உடைத்தால் புணர்வு'). 1295: her heart fears not having him and, having him, fears parting ('பெறின் பிரிவு அஞ்சும்'), so its misery never ends. Both say that the prospect of parting takes away the pleasure of being together; 1295 states it as the heart's standing condition.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'பிரிவஞ்சும் புன்கண் உடைத்தால் புணர்வு' and 'பெறின் பிரிவு அஞ்சும்' say the same thing: having him is spoiled by fear of parting.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1153,
+   "b": 514,
+   "type": "parallel_domain",
+   "note": "1153: trust is hard ('அரிதரோ தேற்றம்'), because parting occurs at some point even with those who understand ('அறிவுடையார் கண்ணும்'). 514: even when people have been trusted after every kind of test ('எனைவகையான் தேறியக் கண்ணும்'), many turn different through the nature of the work. Both say that knowing a person's qualities does not secure their future conduct, one about a lover and one about a king's appointee.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'அரிதரோ தேற்றம் அறிவுடையார் கண்ணும்' and 'எனைவகையான் தேறியக் கண்ணும் ... வேறாகும்' share the தேறு root and the 'even with ... கண்ணும்' concession: known quality does not guarantee later conduct, in love and in appointments.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1154,
+   "b": 1149,
+   "type": "agrees",
+   "note": "1154 asks whether any fault lies with those who believed the assuring words, if the one who was gracious and said 'fear not' ('அஞ்சல் என்றவர்') leaves. 1149 asks how she can be ashamed of gossip when the one who said 'fear not' ('அஞ்சலோம்பு என்றார்') has left in a way that shames many. Both quote the same promise back and place the blame or shame on the one who broke it, not on her.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "அஞ்சல் என்றவர் நீப்பின் and அஞ்சலோம்பு என்றார் ... நீத்தக்கடை quote the same promise against the man who left, and both clear her (உண்டோ தவறு / அலர்நாண ஒல்வதோ). Accurate note; pairing across two chapters is useful.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 1154,
+   "b": 1209,
+   "type": "develops",
+   "note": "1154 holds up his words 'fear not' and says the fault, if he leaves, is not the believer's. 1209 holds up another of his sayings, 'we are not separate' ('வேறல்லம் என்பார்'), and says her life is ending from thinking on his lack of grace. 1154 is the argument made before the parting; 1209 is the same contrast of word and conduct felt after it.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'அஞ்சல் என்றவர் நீப்பின்' and 'வேறல்லம் என்பார் அளியின்மை' both set his quoted assurance against his conduct, before and after the parting.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1155,
+   "b": 1151,
+   "type": "develops",
+   "note": "1151 asks him to say he is not going, and leaves talk of return to those who will survive. 1155 turns to the friend: if you would protect, prevent his parting ('பிரிவோம்பல்'), since once he goes union is hard ('நீங்கின் அரிதால் புணர்வு'). Both reject return as a remedy and allow only not-leaving; Parimelazhagar supplies that what is to be protected in 1155 is her life.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1151 accepts only 'செல்லாமை' and 1155 asks to 'பிரிவோம்பல்' because 'நீங்கின் அரிதால் புணர்வு'; both refuse return as a remedy, and Parimelazhagar does supply her life as the object of ஓம்பின்.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1156,
+   "b": 1198,
+   "type": "same_image",
+   "note": "1156 calls him hard-eyed if he can speak of parting ('பிரிவுரைக்கும் வன்கண்ணர்'), and says hope of his later grace is then hard to hold. 1198 uses the same word for the other side: none are harder ('வன்கணார் இல்') than those who live on without a kind word from the one they love. The hardness she charges him with before parting she later charges to herself, or to women like her, for surviving it.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'வன்கண்ணர்' is charged to him for 'பிரிவுரைக்கும்' and 'வன்கணார் இல்' to those who 'வாழ்வார்' without his 'இன்சொல்'; the same word turned from the leaver to the survivor is a meaningful reuse.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 1156,
+   "b": 1222,
+   "type": "same_image",
+   "note": "1156 names him 'வன்கண்ணர்' for announcing his departure. In 1222 she asks the evening, which looks as wretched as she is, whether its partner too is hard like hers ('எம்கேள்போல் வன்கண்ணதோ'). The epithet given conditionally in 1156 has become her settled description of him once he is gone.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'வன்கண்ணர் ஆயின்' is conditional in 1156 and has become her comparison term in 'எம்கேள்போல் வன்கண்ணதோ நின் துணை'; same epithet for the same man, meaningfully reused.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1157,
+   "b": 1235,
+   "type": "same_image",
+   "note": "In 1157 the slipping bangles broadcast ('தூற்றா') his leaving. In 1235 the shoulders that have lost bangles and their old beauty tell of the cruel one's cruelty ('கொடியார் கொடுமை உரைக்கும்'). Both make her thinning body a speaker that reports on him without her consent; 1235 adds a judgment of him to the bare news of 1157.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "இறை இறவா நின்ற வளை ... தூற்றா and தொடியொடு ... வாடிய தோள் ... கொடுமை உரைக்கும்: in both the bangles and wasting limbs speak about him.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1157,
+   "b": 1277,
+   "type": "same_image",
+   "note": "1157 asks whether the bangles slipping past her wrist do not proclaim that the man of the shore has left her ('துறைவன் துறந்தமை தூற்றாகொல்'). 1277 says the bangles understood before she did that the man of the cool shore had parted ('தணந்தமை நம்மினும் முன்னம் உணர்ந்த வளை'). Same man, same ornament: in 1157 the bangles tell others, in 1277 they know ahead of her, which Parimelazhagar takes as his parting in mind while still present.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The same 'துறைவன்' and the same 'வளை': in 1157 the bangles 'தூற்றாகொல்' his leaving to others, in 1277 they 'நம்மினும் முன்னம் உணர்ந்த' it. Distinctive shared image, accurately described.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 1158,
+   "b": 839,
+   "type": "parallel_domain",
+   "note": "1158: living in a town without one's own people is painful, and parting from one who is dear is more painful still ('அதனினும் இன்னாது இனியார்ப் பிரிவு'). 839 says, with irony, that the friendship of fools is very sweet because parting brings no pain at all ('பிரிவின்கண் பீழை தருவதொன்று இல்'). Read together, both verses use the pain of parting as the measure of what a bond was worth: none for a fool's friendship, more than exile among strangers for a lover.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "'அதனினும் இன்னாது இனியார்ப் பிரிவு' and the ironic 'பிரிவின்கண் பீழை தருவதொன்றில்' both measure a bond by what parting costs; the note marks the irony and that this is a joint reading.",
+   "text_issue": null,
+   "already_linked": false
+  },
+  {
+   "a": 1159,
+   "b": 1104,
+   "type": "same_image",
+   "note": "1159 asks whether fire, which burns when touched, can burn when one lets go as love's sickness does ('விடிற்சுடல் ஆற்றுமோ தீ'). 1104 has the man ask where she got a fire that burns when he moves away and is cool when he comes near ('நீங்கின் தெறூஉம் குறுகுங்கால் தண்ணென்னும்'). The same reversed fire is a marvel in the man's mouth at union and a complaint in the woman's (for Parimelazhagar) at parting.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The same reversed fire: 'விடிற்சுடல் ஆற்றுமோ தீ' and 'நீங்கின் தெறூஉம் குறுகுங்கால் தண்ணென்னும் தீ', a wonder at union and a complaint at parting.",
+   "text_issue": null,
+   "already_linked": true
+  },
+  {
+   "a": 1160,
+   "b": 1198,
+   "type": "agrees",
+   "note": "1160 says many agree to the hard thing, put away their pain, endure the parting and live on ('பின்இருந்து வாழ்வார் பலர்'); Parimelazhagar reads it as irony against the friend's advice. 1198 says outright that none in the world are harder than those who live on ('வாழ்வாரின் வன்கணார் இல்') without a kind word from the beloved. Both treat surviving separation as something that needs explaining, not as the expected course.",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Parimelazhagar does read 'பின்இருந்து வாழ்வார் பலர்' as implying that no one does so ('குறிப்பால் தோன்ற'), and 1198 says 'வாழ்வாரின் வன்கணார் இல்'; both treat living on after separation as the abnormal case. The agreement depends on the ironic reading of 1160, which the note flags.",
+   "text_issue": null,
+   "already_linked": false
+  }
+ ],
+ "calibration": [
+  {
+   "a": 9,
+   "b": 55,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 24,
+   "b": 126,
+   "known": "weak",
+   "regrade": "weak"
+  },
+  {
+   "a": 25,
+   "b": 144,
+   "known": "forced",
+   "regrade": "weak"
+  },
+  {
+   "a": 81,
+   "b": 212,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 196,
+   "b": 1071,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 206,
+   "b": 316,
+   "known": "sound",
+   "regrade": "weak"
+  },
+  {
+   "a": 207,
+   "b": 380,
+   "known": "sound",
+   "regrade": "weak"
+  },
+  {
+   "a": 221,
+   "b": 212,
+   "known": "sound",
+   "regrade": "weak"
+  },
+  {
+   "a": 233,
+   "b": 331,
+   "known": "sound",
+   "regrade": "forced"
+  },
+  {
+   "a": 239,
+   "b": 1040,
+   "known": "sound",
+   "regrade": "weak"
+  },
+  {
+   "a": 305,
+   "b": 264,
+   "known": "sound",
+   "regrade": "weak"
+  },
+  {
+   "a": 373,
+   "b": 396,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 430,
+   "b": 374,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 463,
+   "b": 449,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 610,
+   "b": 1103,
+   "known": "forced",
+   "regrade": "forced"
+  },
+  {
+   "a": 646,
+   "b": 424,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 680,
+   "b": 969,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 707,
+   "b": 380,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 709,
+   "b": 1100,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 750,
+   "b": 770,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 835,
+   "b": 398,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 867,
+   "b": 794,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 911,
+   "b": 91,
+   "known": "weak",
+   "regrade": "sound"
+  },
+  {
+   "a": 943,
+   "b": 345,
+   "known": "weak",
+   "regrade": "weak"
+  },
+  {
+   "a": 964,
+   "b": 969,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 969,
+   "b": 131,
+   "known": "weak",
+   "regrade": "weak"
+  },
+  {
+   "a": 985,
+   "b": 225,
+   "known": "weak",
+   "regrade": "weak"
+  },
+  {
+   "a": 988,
+   "b": 1044,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 1005,
+   "b": 954,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 1024,
+   "b": 467,
+   "known": "weak",
+   "regrade": "sound"
+  },
+  {
+   "a": 1040,
+   "b": 151,
+   "known": "weak",
+   "regrade": "weak"
+  },
+  {
+   "a": 1040,
+   "b": 924,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 1047,
+   "b": 923,
+   "known": "weak",
+   "regrade": "sound"
+  },
+  {
+   "a": 1071,
+   "b": 1073,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 1072,
+   "b": 368,
+   "known": "weak",
+   "regrade": "weak"
+  },
+  {
+   "a": 1175,
+   "b": 319,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 1188,
+   "b": 1149,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 1253,
+   "b": 1203,
+   "known": "sound",
+   "regrade": "sound"
+  },
+  {
+   "a": 1255,
+   "b": 966,
+   "known": "sound",
+   "regrade": "weak"
+  },
+  {
+   "a": 1296,
+   "b": 1244,
+   "known": "sound",
+   "regrade": "sound"
+  }
+ ]
+}

@@ -1,6 +1,29 @@
 # Plan: a systematic pass for Kural links
 
-Status: proposed on 2026-11-15. Nothing in this plan has been run.
+Status: the pilot (stages 1 to 4) ran on 2026-11-15 and passed. The full run has not started.
+
+## Pilot results
+
+| Measure | Pass mark | Result |
+|---|---|---|
+| Share of proposals graded sound | 60% | 201 of 223 (90%) |
+| Known sound links found again | 60% | 45 of 73 (62%) |
+| Calibration links matching their earlier grade | 28 of 40 | 29 of 40 |
+| Pilot verses with a sound link | None | 99 of 100, up from 55 |
+
+- 166 new links entered the graph: 147 sound and 19 weak. One forced proposal was rejected.
+- The graders were not lenient: on the 40 known links they lowered 7 grades and raised 3.
+- Recall only just passed. Proposers may add at most 3 links per verse, so some known links lose
+  their place to others.
+- The proposals' notes are longer and more careful than the earlier links' notes. Graders judge a
+  link as written, so a persuasive note may raise a grade: 10 pairs earlier graded weak were graded
+  sound with their new note.
+- Two changes from the plan below: five proposing agents took two chapters each, and they read
+  other verses through `link_pass.py verse`, because whole chapters overflowed an agent's context.
+- The pilot used about 1.6 million tokens: 1.0 million to propose and 0.6 million to grade. At that
+  rate the remaining 123 chapters need about 19 million, more than the estimate under "Cost".
+
+Results are in `kg/kural/link_pass.json` and `kg/kural/rejected_links.jsonl`.
 
 ## The problem
 

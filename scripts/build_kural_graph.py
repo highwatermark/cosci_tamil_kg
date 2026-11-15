@@ -145,6 +145,23 @@ def apply_audits(edges):
                 edge["audit_better_type"] = better[(edge["s"], edge["o"])]
 
 
+def add_systematic_links(edges):
+    """Add graded links from the systematic pass for pairs the chapter marks don't link."""
+    linked = {frozenset((e["s"], e["o"])) for e in edges if "note" in e}
+    passed = json.loads((OUT_DIR / "link_pass.json").read_text(encoding="utf-8"))
+    for link in passed["links"]:
+        pair = (f"kural:{link['a']}", f"kural:{link['b']}")
+        if frozenset(pair) in linked:
+            continue
+        linked.add(frozenset(pair))
+        edge = {"s": pair[0], "p": link["type"].upper(), "o": pair[1], "note": link["note"],
+                "basis": "interpretation", "status": "proposed", "audit": link["grade"],
+                "source": "systematic_pass"}
+        if link.get("better_type"):
+            edge["audit_better_type"] = link["better_type"]
+        edges.append(edge)
+
+
 def write_thread_review(threads, edge_pairs, verses):
     lines = ["# Kural threads for review", "",
              "These threads were drawn from tensions marked across all 133 chapters, then audited "
@@ -205,7 +222,8 @@ def main():
                           "o": f"kural:{link['b']}", "note": link["note"],
                           "basis": "interpretation", "status": "proposed"})
     apply_audits(edges)
-    edge_pairs = {(e["s"], e["o"]): e for e in edges if "note" in e}
+    add_systematic_links(edges)
+    edge_pairs ={(e["s"], e["o"]): e for e in edges if "note" in e}
     threads = json.loads((OUT_DIR / "threads.json").read_text(encoding="utf-8"))
     missing = []
     for thread in threads:

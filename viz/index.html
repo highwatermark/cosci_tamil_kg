@@ -550,7 +550,7 @@ function showEmpty() {
     <h2>How to read this</h2>
     <p><b>All 1,330</b> shows every verse: one row of ten per chapter, grouped by book. Choose on the left what to highlight, and click any cell to read that verse: its Tamil, its reading, what Parimelazhagar, Manakkudavar and Kalaignar say, and its links.</p>
     <p><b>Links</b> draws the verses that connect to others, coloured by book, with lines coloured by link type. By default only the ${sound} links an independent audit graded sound are shown. Pick a thread to follow one theme across the book. <b>Concepts</b> shows which ideas travel together.</p>
-    <p><b>Trust:</b> readings and commentator positions held up well in audits. Tension links are the weakest type: only 72 of 178 are sound. No Tamil scholar has reviewed this yet.</p>
+    <p><b>Trust:</b> readings and commentator positions held up well in audits. Tension links are the weakest type: only ${KG.links.filter(l => l.type === "tension" && l.grade === "sound").length} of ${KG.links.filter(l => l.type === "tension").length} are sound. No Tamil scholar has reviewed this yet.</p>
   </div>`;
 }
 
