@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Thirukkural Graph</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600&family=Noto+Serif+Tamil:wght@400;600&display=swap">
+<style>
+/* Layout: one-screen atlas. Controls left, graph centre, the selected verse or concept right.
+   Node colour = which of the three books (Aram, Porul, Inbam); line colour = link type. */
+:root {
+  color-scheme: light;
+  --paper: #f3f4f0;
+  --panel: #fbfcf9;
+  --ink: #1d2420;
+  --muted: #5d6862;
+  --rule: #d6dbd5;
+  --accent: #1f5f8b;
+  --aram: #2e7d6b;
+  --porul: #b7791f;
+  --inbam: #b54a6a;
+  --t-tension: #c0392b;
+  --t-agrees: #3d8b40;
+  --t-develops: #2f6fb3;
+  --t-qualifies: #7d55b3;
+  --t-same_image: #a0802a;
+  --t-parallel_domain: #2a8c8c;
+  --good: #2f7d4a;
+  --warn: #a86b12;
+  --bad: #b23b3b;
+  --halo: rgba(31, 95, 139, .16);
+  --f-tamil: "Noto Serif Tamil", "Tamil Sangam MN", serif;
+  --f-ui: "Hind Madurai", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #141917; --panel: #1b211e; --ink: #e4e9e5; --muted: #9aa69f; --rule: #2e3833;
+    --accent: #6fb0dc; --aram: #4fb39b; --porul: #e0a34a; --inbam: #e07a98;
+    --t-tension: #ec6a5c; --t-agrees: #74c178; --t-develops: #6aa6e6; --t-qualifies: #b08ae6;
+    --t-same_image: #d4b45a; --t-parallel_domain: #5cc2c2;
+    --good: #6cc48b; --warn: #e2a64a; --bad: #ec7272; --halo: rgba(111, 176, 220, .22);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #141917; --panel: #1b211e; --ink: #e4e9e5; --muted: #9aa69f; --rule: #2e3833;
+  --accent: #6fb0dc; --aram: #4fb39b; --porul: #e0a34a; --inbam: #e07a98;
+  --t-tension: #ec6a5c; --t-agrees: #74c178; --t-develops: #6aa6e6; --t-qualifies: #b08ae6;
+  --t-same_image: #d4b45a; --t-parallel_domain: #5cc2c2;
+  --good: #6cc48b; --warn: #e2a64a; --bad: #ec7272; --halo: rgba(111, 176, 220, .22);
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  background: var(--paper); color: var(--ink); font: 15px/1.5 var(--f-ui);
+  display: flex; flex-direction: column;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+header { padding-block: 14px 10px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; }
+h1 { font: 600 22px/1.2 var(--f-tamil); margin: 0; text-wrap: balance; }
+h1 span { font-family: var(--f-ui); font-weight: 400; color: var(--muted); font-size: 15px; margin-left: 8px; }
+.stats { display: flex; flex-wrap: wrap; gap: 6px; font-size: 13px; font-variant-numeric: tabular-nums; }
+.stat { border: 1px solid var(--rule); border-radius: 999px; padding: 1px 10px; color: var(--muted); background: var(--panel); }
+.stat b { color: var(--ink); font-weight: 600; }
+.stat.warn { border-color: var(--warn); color: var(--warn); }
+main { flex: 1; min-height: 0; display: grid; grid-template-columns: 250px 1fr 380px; gap: 12px; padding-bottom: 14px; }
+aside, #detail { background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; overflow-y: auto; padding: 14px; display: flex; flex-direction: column; gap: 16px; }
+#stage { position: relative; border: 1px solid var(--rule); border-radius: 8px; background: var(--panel); overflow: hidden; min-height: 320px; }
+#stage svg { width: 100%; height: 100%; display: block; cursor: grab; }
+.label { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin: 0 0 6px; }
+.seg { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.seg.three { grid-template-columns: repeat(3, 1fr); }
+.seg button { font: inherit; font-size: 13px; padding: 5px 4px; border: 0; background: transparent; color: var(--ink); cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--rule); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--panel); }
+button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.types { display: flex; flex-direction: column; gap: 3px; font-size: 13px; }
+.types label { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+.types .n { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; }
+.swatch { width: 18px; height: 3px; border-radius: 2px; flex: none; }
+.books { display: flex; flex-direction: column; gap: 3px; font-size: 13px; }
+.books div { display: flex; align-items: center; gap: 8px; }
+.dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+#search { width: 100%; font: inherit; font-size: 14px; padding: 6px 8px; border: 1px solid var(--rule); border-radius: 6px; background: var(--paper); color: var(--ink); }
+.threads { display: flex; flex-direction: column; gap: 2px; }
+.row { display: block; width: 100%; text-align: left; font: inherit; font-size: 13px; line-height: 1.35; padding: 6px 8px; border: 0; border-radius: 5px; background: transparent; color: var(--ink); cursor: pointer; }
+.row:hover { background: var(--halo); }
+.row.on { background: var(--halo); box-shadow: inset 3px 0 0 var(--accent); }
+.row small { display: block; color: var(--muted); font-size: 11.5px; }
+.legend-note { font-size: 12px; color: var(--muted); margin: 0; }
+#hint { position: absolute; left: 12px; bottom: 10px; font-size: 12px; color: var(--muted); background: var(--panel); padding: 2px 8px; border-radius: 4px; pointer-events: none; }
+#tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--paper); font-size: 12.5px; padding: 6px 9px; border-radius: 5px; max-width: 300px; display: none; z-index: 2; }
+#tip .tam { font-family: var(--f-tamil); font-size: 13px; }
+.node { cursor: pointer; }
+.node circle { stroke: var(--panel); stroke-width: 1.2; }
+.node.sel circle { stroke: var(--ink); stroke-width: 2.5; }
+.node text { font-size: 10px; fill: var(--muted); pointer-events: none; font-variant-numeric: tabular-nums;
+  stroke: var(--panel); stroke-width: 3px; paint-order: stroke; }
+.node.concept text { font-size: 15px; fill: var(--ink); font-weight: 500; }
+.dim { opacity: .1; }
+/* Detail panel */
+#detail h2 { font: 600 20px/1.25 var(--f-ui); margin: 0; }
+#detail .sub { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.tamil { font-family: var(--f-tamil); font-size: 17px; line-height: 1.7; margin: 0; }
+.pills { display: flex; flex-wrap: wrap; gap: 5px; }
+.pill { font-size: 11.5px; padding: 1px 8px; border-radius: 999px; border: 1px solid currentColor; font-weight: 500; }
+.pill.contested { color: var(--accent); }
+.pill.uncertain, .pill.weak { color: var(--warn); }
+.pill.textflag, .pill.forced, .pill.wrong { color: var(--bad); }
+.pill.sound, .pill.supported { color: var(--good); }
+.pill.partly_supported { color: var(--warn); }
+.chip { font: inherit; font-size: 12.5px; padding: 2px 9px; border-radius: 5px; border: 1px solid var(--rule); background: var(--paper); color: var(--ink); cursor: pointer; }
+.chip:hover { border-color: var(--accent); }
+.chip .tm { font-family: var(--f-tamil); color: var(--muted); margin-left: 4px; font-size: 12px; }
+.block p { margin: 0; }
+.block .k { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin-bottom: 3px; }
+.pos { border-left: 2px solid var(--rule); padding-left: 10px; display: flex; flex-direction: column; gap: 2px; }
+.pos q { font-family: var(--f-tamil); font-size: 13.5px; color: var(--muted); quotes: none; }
+.lk { display: flex; flex-direction: column; gap: 3px; padding: 8px 10px; border: 1px solid var(--rule); border-radius: 6px; cursor: pointer; background: var(--paper); text-align: left; font: inherit; color: var(--ink); width: 100%; }
+.lk:hover { border-color: var(--accent); }
+.lk .top { display: flex; gap: 8px; align-items: center; font-size: 13px; font-weight: 600; flex-wrap: wrap; }
+.lk p { font-size: 13px; color: var(--muted); margin: 0; }
+.list { display: flex; flex-direction: column; gap: 6px; }
+.empty { color: var(--muted); font-size: 14px; }
+.empty h2 { color: var(--ink); }
+@media (max-width: 1100px) { main { grid-template-columns: 220px 1fr; } #detail { grid-column: 1 / -1; max-height: none; } }
+@media (max-width: 720px) {
+  html, body { height: auto; }
+  main { display: flex; flex-direction: column; }
+  #stage { height: 70vh; }
+  aside, #detail { overflow: visible; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>திருக்குறள் <span>Thirukkural knowledge graph</span></h1>
+  <div class="stats" id="stats"></div>
+</header>
+<main>
+  <aside aria-label="Controls">
+    <div>
+      <p class="label">View</p>
+      <div class="seg" role="group" aria-label="View">
+        <button id="v-verses" aria-pressed="true">Verse links</button>
+        <button id="v-concepts" aria-pressed="false">Concepts</button>
+      </div>
+    </div>
+    <div>
+      <label class="label" for="search">Find a verse or concept</label>
+      <input id="search" placeholder="e.g. 327, aram, அறம்" autocomplete="off">
+    </div>
+    <div id="link-controls">
+      <p class="label">Links by audit grade</p>
+      <div class="seg three" role="group" aria-label="Audit grade">
+        <button id="g-sound" aria-pressed="true">Sound</button>
+        <button id="g-weak" aria-pressed="false">+ Weak</button>
+        <button id="g-all" aria-pressed="false">All</button>
+      </div>
+      <p class="label" style="margin-top:12px">Link types</p>
+      <div class="types" id="types"></div>
+    </div>
+    <div>
+      <p class="label">Node colour: book</p>
+      <div class="books" id="books"></div>
+    </div>
+    <div>
+      <p class="label">Threads</p>
+      <div class="threads" id="threads"></div>
+    </div>
+  </aside>
+  <section id="stage" aria-label="Graph">
+    <svg id="svg" role="img" aria-label="Graph of Kural verses and links"></svg>
+    <div id="hint"></div>
+    <div id="tip"></div>
+  </section>
+  <section id="detail" aria-live="polite"></section>
+</main>
+<script src="data.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const KG = window.KG;
+const BOOKS = { "அறத்துப்பால்": ["aram", "Aram (virtue)"], "பொருட்பால்": ["porul", "Porul (wealth, statecraft)"], "காமத்துப்பால்": ["inbam", "Inbam (love)"] };
+const TYPES = ["tension", "agrees", "develops", "qualifies", "same_image", "parallel_domain"];
+const TYPE_NAMES = { tension: "Tension", agrees: "Agrees", develops: "Develops", qualifies: "Qualifies", same_image: "Same image", parallel_domain: "Parallel domain" };
+const GRADE_SETS = { sound: ["sound"], weak: ["sound", "weak"], all: ["sound", "weak", "forced", "wrong"] };
+const css = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const fmt = n => n.toLocaleString("en");
+
+const verses = KG.verses;
+const bookOf = v => BOOKS[KG.chapters[verses[v].ch].section][0];
+const state = { view: "verses", grade: "sound", types: new Set(TYPES), thread: null, selected: null };
+
+// ---- Header stats ----
+(() => {
+  const L = KG.links, sound = L.filter(l => l.grade === "sound").length;
+  const flagged = Object.values(verses).filter(v => v.f).length;
+  const contested = Object.values(verses).filter(v => v.x).length;
+  const positions = Object.values(verses).reduce((s, v) => s + v.pos.length, 0);
+  document.getElementById("stats").innerHTML = [
+    `<span class="stat"><b>${fmt(Object.keys(verses).length)}</b> verses read</span>`,
+    `<span class="stat"><b>${Object.keys(KG.concepts).length}</b> concepts</span>`,
+    `<span class="stat"><b>${positions}</b> commentator positions</span>`,
+    `<span class="stat"><b>${contested}</b> contested</span>`,
+    `<span class="stat"><b>${L.length}</b> links, <b>${sound}</b> sound</span>`,
+    `<span class="stat"><b>${KG.threads.length}</b> threads</span>`,
+    `<span class="stat warn"><b>${flagged}</b> verses' text to check</span>`,
+    `<span class="stat warn">Not yet reviewed by a Tamil scholar</span>`
+  ].join("");
+})();
+
+// ---- Controls ----
+document.getElementById("types").innerHTML = TYPES.map(t => {
+  const n = KG.links.filter(l => l.type === t).length;
+  return `<label><input type="checkbox" id="t-${t}" checked><span class="swatch" style="background:var(--t-${t})"></span>${TYPE_NAMES[t]}<span class="n" id="n-${t}">${n}</span></label>`;
+}).join("");
+document.getElementById("books").innerHTML = Object.values(BOOKS).map(([k, name]) =>
+  `<div><span class="dot" style="background:var(--${k})"></span>${name}</div>`).join("");
+document.getElementById("threads").innerHTML = KG.threads.map((t, i) =>
+  `<button class="row" data-thread="${i}">${esc(t.title)}<small>${t.links.length} links · ${t.grade.replace("_", " ")}</small></button>`).join("");
+
+TYPES.forEach(t => document.getElementById("t-" + t).addEventListener("change", e => {
+  e.target.checked ? state.types.add(t) : state.types.delete(t); state.thread = null; render();
+}));
+for (const g of Object.keys(GRADE_SETS)) document.getElementById("g-" + g).addEventListener("click", () => { state.grade = g; state.thread = null; render(); });
+document.getElementById("v-verses").addEventListener("click", () => { state.view = "verses"; render(); });
+document.getElementById("v-concepts").addEventListener("click", () => { state.view = "concepts"; state.thread = null; render(); });
+document.getElementById("threads").addEventListener("click", e => {
+  const b = e.target.closest("[data-thread]"); if (!b) return;
+  const i = +b.dataset.thread;
+  state.thread = state.thread === i ? null : i; state.view = "verses";
+  render();
+  state.thread === null ? showEmpty() : showThread(KG.threads[i]);
+});
+document.getElementById("search").addEventListener("keydown", e => {
+  if (e.key !== "Enter") return;
+  const q = e.target.value.trim().toLowerCase(); if (!q) return;
+  if (/^\d+$/.test(q) && verses[q]) return selectVerse(+q, true);
+  const hit = Object.entries(KG.concepts).find(([id, c]) => id === q || c.tamil === q)
+    || Object.entries(KG.concepts).find(([id, c]) => id.includes(q) || c.gloss.toLowerCase().includes(q) || c.tamil.includes(q));
+  if (hit) selectConcept(hit[0], true);
+});
+
+// ---- Graph ----
+const svg = d3.select("#svg"), root = svg.append("g"), gLinks = root.append("g"), gNodes = root.append("g");
+const zoom = d3.zoom().scaleExtent([0.2, 6]).on("zoom", e => root.attr("transform", e.transform));
+svg.call(zoom);
+const tip = document.getElementById("tip");
+let sim, nodeSel, linkSel, current = { nodes: [], links: [] };
+
+function visibleLinks() {
+  if (state.thread !== null) {
+    const pairs = new Set(KG.threads[state.thread].links.map(([a, b]) => a + "-" + b));
+    return KG.links.filter(l => pairs.has(l.a + "-" + l.b));
+  }
+  const grades = GRADE_SETS[state.grade];
+  return KG.links.filter(l => grades.includes(l.grade) && state.types.has(l.type));
+}
+
+function verseGraph() {
+  const links = visibleLinks(), ids = new Set();
+  links.forEach(l => { ids.add(l.a); ids.add(l.b); });
+  const deg = {}; links.forEach(l => { deg[l.a] = (deg[l.a] || 0) + 1; deg[l.b] = (deg[l.b] || 0) + 1; });
+  const nodes = [...ids].map(v => ({ id: v, kind: "verse", book: bookOf(v), deg: deg[v], r: 4 + Math.sqrt(deg[v]) * 2.4 }));
+  return { nodes, links: links.map(l => ({ ...l, source: l.a, target: l.b })) };
+}
+
+function conceptGraph() {
+  const count = {}, book = {}, pair = {};
+  for (const [n, v] of Object.entries(verses)) {
+    const b = bookOf(n);
+    v.c.forEach(c => { count[c] = (count[c] || 0) + 1; (book[c] = book[c] || {})[b] = (book[c][b] || 0) + 1; });
+    for (let i = 0; i < v.c.length; i++) for (let j = i + 1; j < v.c.length; j++) {
+      const k = [v.c[i], v.c[j]].sort().join("|"); pair[k] = (pair[k] || 0) + 1;
+    }
+  }
+  const nodes = Object.keys(KG.concepts).filter(c => count[c]).map(c => ({
+    id: c, kind: "concept", deg: count[c], r: 4 + Math.sqrt(count[c]) * 2.2,
+    book: Object.entries(book[c]).sort((a, b) => b[1] - a[1])[0][0]
+  }));
+  const links = Object.entries(pair).filter(([, w]) => w >= 3).map(([k, w]) => {
+    const [a, b] = k.split("|"); return { source: a, target: b, w };
+  });
+  return { nodes, links };
+}
+
+function render() {
+  for (const v of ["verses", "concepts"]) document.getElementById("v-" + v).setAttribute("aria-pressed", state.view === v);
+  for (const g of Object.keys(GRADE_SETS)) document.getElementById("g-" + g).setAttribute("aria-pressed", state.grade === g);
+  document.getElementById("link-controls").style.display = state.view === "verses" ? "" : "none";
+  document.querySelectorAll("[data-thread]").forEach(b => b.classList.toggle("on", +b.dataset.thread === state.thread));
+  const grades = GRADE_SETS[state.grade];
+  TYPES.forEach(t => document.getElementById("n-" + t).textContent = KG.links.filter(l => l.type === t && grades.includes(l.grade)).length);
+
+  current = state.view === "verses" ? verseGraph() : conceptGraph();
+  const { width, height } = document.getElementById("stage").getBoundingClientRect();
+  const bookX = { aram: width * 0.22, porul: width * 0.5, inbam: width * 0.78 };
+  document.getElementById("hint").textContent = state.thread !== null
+    ? `Thread: ${current.nodes.length} verses, ${current.links.length} links. Click the thread again to leave it.`
+    : state.view === "verses" ? `${current.nodes.length} verses, ${current.links.length} links. Books drift left to right: Aram, Porul, Inbam. Scroll to zoom, drag to pan, click a verse.`
+    : `${current.nodes.length} concepts, sized by verses expressing them. Lines join concepts that share 3 or more verses. Click a concept.`;
+
+  if (sim) sim.stop();
+  linkSel = gLinks.selectAll("line").data(current.links, d => state.view === "verses" ? d.a + "-" + d.b : d.source + "|" + d.target)
+    .join("line")
+    .attr("stroke", d => state.view === "verses" ? css("--t-" + d.type) : css("--muted"))
+    .attr("stroke-width", d => state.view === "verses" ? (d.grade === "sound" ? 1.8 : 1.1) : Math.min(0.5 + d.w / 4, 5))
+    .attr("stroke-opacity", d => state.view === "verses" ? (d.grade === "sound" ? 0.85 : 0.55) : 0.28)
+    .attr("stroke-dasharray", d => state.view !== "verses" || d.grade === "sound" ? null : d.grade === "weak" ? "5 3" : "2 3");
+
+  nodeSel = gNodes.selectAll("g.node").data(current.nodes, d => d.kind + d.id).join(enter => {
+    const g = enter.append("g").attr("class", "node").attr("tabindex", 0);
+    g.append("circle"); g.append("text").attr("dy", "0.32em");
+    return g;
+  });
+  nodeSel.classed("concept", d => d.kind === "concept");
+  nodeSel.select("circle").attr("r", d => d.r).attr("fill", d => css("--" + d.book));
+  nodeSel.select("text").attr("x", d => d.r + 3)
+    .text(d => d.kind === "concept" ? (d.deg >= 30 ? d.id : "") : (d.deg >= 4 || state.thread !== null ? d.id : ""));
+  nodeSel.on("click", (e, d) => d.kind === "verse" ? selectVerse(d.id) : selectConcept(d.id))
+    .on("keydown", (e, d) => { if (e.key === "Enter") d.kind === "verse" ? selectVerse(d.id) : selectConcept(d.id); })
+    .on("mouseenter", (e, d) => showTip(e, d)).on("mousemove", moveTip).on("mouseleave", () => tip.style.display = "none")
+    .call(d3.drag().on("start", (e, d) => { if (!e.active) sim.alphaTarget(0.2).restart(); d.fx = d.x; d.fy = d.y; })
+      .on("drag", (e, d) => { d.fx = e.x; d.fy = e.y; })
+      .on("end", (e, d) => { if (!e.active) sim.alphaTarget(0); d.fx = d.fy = null; }));
+
+  sim = d3.forceSimulation(current.nodes)
+    .force("link", d3.forceLink(current.links).id(d => d.id).distance(state.view === "verses" ? 34 : 60).strength(state.view === "verses" ? 0.5 : 0.08))
+    .force("charge", d3.forceManyBody().strength(state.view === "verses" ? -40 : -110))
+    .force("x", d3.forceX(d => bookX[d.book]).strength(state.view === "verses" ? 0.06 : 0.03))
+    .force("y", d3.forceY(height / 2).strength(0.06))
+    .force("collide", d3.forceCollide(d => d.r + 1.5))
+    .on("tick", ticked)
+    .on("end", () => { if (autoFit) fitView(); });
+  autoFit = true;
+  svg.call(zoom.transform, d3.zoomIdentity);
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) { sim.stop(); for (let i = 0; i < 300; i++) sim.tick(); ticked(); fitView(); }
+  else setTimeout(() => { if (autoFit) fitView(); }, 1200);
+  highlight();
+}
+
+// Fit every node into the stage, until the user zooms or a verse is centred.
+let autoFit = true;
+svg.on("wheel.fit mousedown.fit touchstart.fit", () => { autoFit = false; });
+function fitView() {
+  if (!current.nodes.length) return;
+  const { width, height } = document.getElementById("stage").getBoundingClientRect();
+  const xs = current.nodes.map(d => d.x), ys = current.nodes.map(d => d.y);
+  const x0 = Math.min(...xs) - 20, x1 = Math.max(...xs) + 40, y0 = Math.min(...ys) - 20, y1 = Math.max(...ys) + 20;
+  const k = Math.min(2, 0.95 * Math.min(width / (x1 - x0), height / (y1 - y0)));
+  svg.transition().duration(400).call(zoom.transform,
+    d3.zoomIdentity.translate(width / 2, height / 2).scale(k).translate(-(x0 + x1) / 2, -(y0 + y1) / 2));
+}
+
+function ticked() {
+  linkSel.attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+  nodeSel.attr("transform", d => `translate(${d.x},${d.y})`);
+}
+
+function highlight() {
+  const s = state.selected;
+  if (!s || s.kind !== (state.view === "verses" ? "verse" : "concept")) {
+    nodeSel.classed("dim", false).classed("sel", false); linkSel.classed("dim", false); return;
+  }
+  const near = new Set([s.id]);
+  current.links.forEach(l => { if (l.source.id === s.id) near.add(l.target.id); if (l.target.id === s.id) near.add(l.source.id); });
+  if (!current.nodes.some(n => n.id === s.id)) { nodeSel.classed("dim", false).classed("sel", false); linkSel.classed("dim", false); return; }
+  nodeSel.classed("sel", d => d.id === s.id).classed("dim", d => !near.has(d.id));
+  nodeSel.filter(d => near.has(d.id)).select("text").text(d => d.id);
+  linkSel.classed("dim", l => l.source.id !== s.id && l.target.id !== s.id);
+}
+
+function showTip(e, d) {
+  if (d.kind === "verse") {
+    const v = verses[d.id];
+    tip.innerHTML = `<b>${d.id}</b> · ${esc(KG.chapters[v.ch].title)}<br><span class="tam">${esc(v.t.join(" "))}</span><br>${esc(v.r)}`;
+  } else {
+    const c = KG.concepts[d.id];
+    tip.innerHTML = `<b>${esc(d.id)}</b> <span class="tam">${esc(c.tamil)}</span><br>${esc(c.gloss)} · ${d.deg} verses`;
+  }
+  tip.style.display = "block"; moveTip(e);
+}
+function moveTip(e) {
+  const r = document.getElementById("stage").getBoundingClientRect();
+  const x = Math.min(e.clientX - r.left + 14, r.width - 310);
+  tip.style.left = Math.max(4, x) + "px"; tip.style.top = (e.clientY - r.top + 14) + "px";
+}
+
+// ---- Detail panel ----
+const detail = document.getElementById("detail");
+const pill = (cls, text) => `<span class="pill ${cls}">${esc(text)}</span>`;
+const conceptChip = c => `<button class="chip" data-concept="${esc(c)}">${esc(c)}<span class="tm">${esc(KG.concepts[c]?.tamil)}</span></button>`;
+
+function linkCard(l, from) {
+  const other = l.a === from ? l.b : l.a, v = verses[other];
+  return `<button class="lk" data-verse="${other}">
+    <span class="top"><span class="swatch" style="background:var(--t-${l.type})"></span>${TYPE_NAMES[l.type]} → ${other}
+      <span style="font-weight:400;color:var(--muted)">${esc(KG.chapters[v.ch].title)}</span>${pill(l.grade, l.grade)}${l.better ? pill("", "grader suggests " + l.better.replace("_", " ")) : ""}</span>
+    <p>${esc(l.note)}</p></button>`;
+}
+
+function selectVerse(n, focus) {
+  if (state.view !== "verses") { state.view = "verses"; render(); }
+  state.selected = { kind: "verse", id: n }; highlight();
+  const v = verses[n], ch = KG.chapters[v.ch], links = KG.links.filter(l => l.a === n || l.b === n);
+  const flags = [v.x && pill("contested", "commentators differ"), v.u && pill("uncertain", "reading uncertain"), v.f && pill("textflag", "source text to check")].filter(Boolean).join("");
+  detail.innerHTML = `
+    <div><h2>Kural ${n}</h2><div class="sub">Chapter ${v.ch}, <span style="font-family:var(--f-tamil)">${esc(ch.title)}</span> · ${BOOKS[ch.section][1]}</div></div>
+    <p class="tamil">${v.t.map(esc).join("<br>")}</p>
+    ${flags ? `<div class="pills">${flags}</div>` : ""}
+    <div class="block"><div class="k">Reading</div><p>${esc(v.r)}</p></div>
+    ${v.n ? `<div class="block"><div class="k">Nuance (interpretation)</div><p>${esc(v.n)}</p></div>` : ""}
+    <div class="block"><div class="k">Pope's translation</div><p style="color:var(--muted)">${esc(v.p)}</p></div>
+    <div class="block"><div class="k">Concepts</div><div class="pills">${v.c.map(conceptChip).join("")}</div></div>
+    ${v.pos.length ? `<div class="block"><div class="k">What the commentators say</div><div class="list">${v.pos.map(([by, p, q]) =>
+      `<div class="pos"><b style="text-transform:capitalize">${esc(by)}</b><span>${esc(p)}</span><q>${esc(q)}</q></div>`).join("")}</div></div>` : ""}
+    <div class="block"><div class="k">Links (${links.length})</div><div class="list">${links.length ? links.map(l => linkCard(l, n)).join("") : '<p class="empty">No links from this verse.</p>'}</div></div>
+    <div class="block"><div class="k">Chapter theme</div><p style="color:var(--muted)">${esc(ch.theme)}</p></div>`;
+  detail.scrollTop = 0;
+  if (focus) centreOn(n);
+}
+
+function selectConcept(c, focus) {
+  if (state.view !== "concepts") { state.view = "concepts"; render(); }
+  state.selected = { kind: "concept", id: c }; highlight();
+  const info = KG.concepts[c], list = Object.entries(verses).filter(([, v]) => v.c.includes(c));
+  const byBook = {}; list.forEach(([n]) => { const b = bookOf(n); byBook[b] = (byBook[b] || 0) + 1; });
+  const near = current.links.filter(l => l.source.id === c || l.target.id === c)
+    .map(l => [l.source.id === c ? l.target.id : l.source.id, l.w]).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  detail.innerHTML = `
+    <div><h2>${esc(c)} <span style="font-family:var(--f-tamil);font-weight:400">${esc(info.tamil)}</span></h2><div class="sub">${esc(info.gloss)}</div></div>
+    <div class="pills">${Object.entries(BOOKS).map(([, [k, name]]) => byBook[k] ? `<span class="pill" style="color:var(--${k})">${name.split(" ")[0]} ${byBook[k]}</span>` : "").join("")}</div>
+    ${near.length ? `<div class="block"><div class="k">Most often alongside</div><div class="pills">${near.map(([o, w]) => conceptChip(o).replace("</button>", ` <span class="tm">${w}</span></button>`)).join("")}</div></div>` : ""}
+    <div class="block"><div class="k">Verses (${list.length})</div><div class="list">${list.map(([n, v]) =>
+      `<button class="lk" data-verse="${n}"><span class="top">${n}<span style="font-weight:400;color:var(--muted)">${esc(KG.chapters[v.ch].title)}</span>${v.x ? pill("contested", "contested") : ""}</span><p>${esc(v.r)}</p></button>`).join("")}</div></div>`;
+  detail.scrollTop = 0;
+  if (focus) centreOn(c);
+}
+
+function showThread(t) {
+  state.selected = null; highlight();
+  detail.innerHTML = `
+    <div><h2>${esc(t.title)}</h2><div class="pills" style="margin-top:6px">${pill(t.grade, t.grade.replace("_", " "))}</div></div>
+    <div class="block"><div class="k">Claim (interpretation)</div><p>${esc(t.claim)}</p></div>
+    <div class="block"><div class="k">Links (${t.links.length})</div><div class="list">${t.links.map(([a, b]) => {
+      const l = KG.links.find(x => x.a === a && x.b === b);
+      return `<button class="lk" data-verse="${a}"><span class="top"><span class="swatch" style="background:var(--t-${l.type})"></span>${a} ↔ ${b}${pill(l.grade, l.grade)}</span>
+        <p class="tamil" style="font-size:13.5px;color:var(--ink)">${esc(verses[a].t.join(" "))}<br>${esc(verses[b].t.join(" "))}</p><p>${esc(l.note)}</p></button>`;
+    }).join("")}</div></div>`;
+  detail.scrollTop = 0;
+}
+
+function showEmpty() {
+  const sound = KG.links.filter(l => l.grade === "sound").length;
+  detail.innerHTML = `<div class="empty">
+    <h2>How to read this</h2>
+    <p>Each dot is a Kural verse, coloured by book. Each line is a link an AI reader proposed between two verses, coloured by its type. By default only the ${sound} links an independent audit graded sound are shown.</p>
+    <p>Click a verse to see its Tamil, its reading, what Parimelazhagar, Manakkudavar and Kalaignar say, and its links. Pick a thread on the left to follow one theme across the book. Switch to Concepts to see which ideas travel together.</p>
+    <p><b>Trust:</b> readings and commentator positions held up well in audits. Tension links are the weakest type: only 72 of 178 are sound. No Tamil scholar has reviewed this yet.</p>
+  </div>`;
+}
+
+detail.addEventListener("click", e => {
+  const v = e.target.closest("[data-verse]"), c = e.target.closest("[data-concept]");
+  if (c) selectConcept(c.dataset.concept, true); else if (v) selectVerse(+v.dataset.verse, true);
+});
+
+function centreOn(id) {
+  const n = current.nodes.find(d => d.id == id); if (!n) return;
+  autoFit = false;
+  const { width, height } = document.getElementById("stage").getBoundingClientRect();
+  const go = () => svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity.translate(width / 2, height / 2).scale(state.view === "verses" ? 1.6 : 1).translate(-n.x, -n.y));
+  n.x === undefined ? setTimeout(go, 600) : setTimeout(go, sim.alpha() > 0.3 ? 900 : 0);
+}
+
+let resizeTimer;
+addEventListener("resize", () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(render, 200); });
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
+new MutationObserver(render).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+render();
+showEmpty();
+</script>
+</body>
+</html>

@@ -190,6 +190,13 @@ verses to check. That list caught 21 of 22 known errors, and later held 16 of 17
 graders found independently (the missed one is a stray space). Many flags will be harmless spelling
 differences, and a difference may be a real variant.
 
+**Graph explorer.** `viz/index.html` shows the verses, links, concepts and threads as an interactive
+graph. It loads `viz/data.js`, so serve the folder rather than opening the file directly:
+
+```bash
+python3 -I -m http.server 8817 --bind 127.0.0.1 --directory viz
+```
+
 Rebuild with:
 
 ```bash
@@ -202,6 +209,10 @@ python3 -I scripts/chapter_marks.py check
 
 ```bash
 python3 -I scripts/build_kural_graph.py
+```
+
+```bash
+python3 -I scripts/export_viz.py
 ```
 
 ## Security
