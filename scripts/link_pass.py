@@ -94,10 +94,16 @@ def show_verses(numbers):
     """Print the Tamil, Pope's gloss and the start of two commentaries for each verse."""
     verses = {v["verse"]: v for v in read_jsonl(ROOT / "kg" / "core" / "kural.jsonl")}
     commentaries = {c["verse"]: c for c in read_jsonl(ROOT / "kg" / "core" / "commentaries.jsonl")}
+    private = {}
+    for path in sorted((ROOT / "data" / "private").glob("*.jsonl")):
+        private[path.stem] = {r["verse"]: " ".join(r["text"]) for r in read_jsonl(path)}
     for number in map(int, numbers):
         verse, entry = verses[number], commentaries.get(number, {})
         print(f"## {number} ({verse['chapter']})\n" + " / ".join(verse["tamil"]))
         print("Pope: " + verse["pope"]["gloss"])
+        for name, texts in private.items():
+            if number in texts:
+                print(f"{name} (in copyright: read, never quote): {texts[number]}")
         for name in ("parimelazhagar", "kalaignar"):
             text = (entry.get(name) or {}).get("text", "").replace("\n", " ")
             if text:
