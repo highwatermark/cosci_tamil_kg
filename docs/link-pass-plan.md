@@ -1,6 +1,28 @@
 # Plan: a systematic pass for Kural links
 
-Status: the pilot (stages 1 to 4) ran on 2026-11-15 and passed. The full run has not started.
+Status: complete. The pilot ran on 2026-11-15 and the full run finished on 2026-11-16.
+
+## Full run results
+
+| Measure | Pass mark | Result |
+|---|---|---|
+| Share of new pairs graded sound | 60% | 1,467 of 1,682 (87%) |
+| Known sound links found again | 60% | 244 of 350 (70%) |
+| Calibration links matching their earlier grade | 70% | 123 of 170 (72%) |
+
+- 62 agents proposed 2,575 links for the 1,230 verses outside the pilot. Only 13 verses got none.
+- 392 proposed pairs were already in the graph and were not graded again.
+- 1,674 new links entered the graph: 1,467 sound and 207 weak. Eight were rejected.
+- The graph now has 2,416 links, and 1,320 of 1,330 verses have at least one.
+- Proposers and graders were also shown Pope and, for verses 1 to 1080, Subramuniyaswami.
+- **The grades run generous.** On known-grade links the graders were mildly lenient: 28 graded
+  higher than before and 19 lower. They also passed 87% of new proposals as sound but only 84% of
+  links already known to be sound (66 of 79). A new link is unlikely to beat a confirmed one, so the
+  proposals' longer, more careful notes are probably raising grades.
+- Of 91 links earlier graded weak, forced or wrong, 9 were graded sound this time.
+- Raw proposals, grades and the grading key are in `kg/kural/link_pass_raw/`. The briefs the agents
+  followed are `docs/link-pass-proposer-brief.md` and `docs/link-pass-grader-brief.md`.
+- The threads have not yet been reviewed against the larger set of links.
 
 ## Pilot results
 

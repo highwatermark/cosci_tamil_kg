@@ -202,10 +202,22 @@ To rebuild it, compile `scripts/pdftext.swift` (macOS, no packages), dump the PD
 and run `scripts/parse_private_translation.py subramuniyaswami DUMP.txt`.
 
 **Systematic link pass.** The links above came from what each chapter's reader happened to notice,
-so 583 verses had none. A pilot on 10 chapters had agents compare every verse with the whole book and
-added 166 graded links, marked `source: "systematic_pass"`. Of its proposals 90% were graded sound,
-and it found 62% of the known sound links again. The other 123 chapters have not been done. See
-[docs/link-pass-plan.md](docs/link-pass-plan.md) and `kg/kural/link_pass.json`.
+so 583 verses had none. A second pass had agents compare every verse with the whole book, then had
+other agents grade each new pair blind. It added 1,840 links, marked `source: "systematic_pass"`.
+
+| | |
+|---|---|
+| Links in the graph | 2,416: 1,984 sound, 369 weak, 57 forced, 6 wrong |
+| Verses with a link | 1,320 of 1,330; 1,288 have a sound link |
+| New pairs graded | 1,849: 1,614 sound, 226 weak, 9 rejected and kept out of the graph |
+| Known sound links the pass found again | 289 of 423 (68%), so it still misses real links |
+| Known-grade links regraded the same | 152 of 210 (72%) |
+
+Treat a sound grade from this pass as weaker evidence than one from the earlier audits. In the full
+run the graders passed 87% of new proposals as sound but only 84% of links already known to be
+sound. The proposals' longer, more careful notes are probably raising grades. See
+[docs/link-pass-plan.md](docs/link-pass-plan.md), `kg/kural/link_pass.json` and
+`kg/kural/link_pass_raw/`.
 
 **Graph explorer.** `viz/index.html` shows the verses, links, concepts and threads as an interactive
 graph. It loads `viz/data.js`, so serve the folder rather than opening the file directly:

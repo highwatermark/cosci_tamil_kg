@@ -195,6 +195,12 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
         <button id="g-weak" aria-pressed="false">+ Weak</button>
         <button id="g-all" aria-pressed="false">All</button>
       </div>
+      <p class="label" style="margin-top:12px">Links that join</p>
+      <div class="seg three" role="group" aria-label="Link scope">
+        <button id="s-cross" aria-pressed="true">Two books</button>
+        <button id="s-within" aria-pressed="false">One book</button>
+        <button id="s-any" aria-pressed="false">Any</button>
+      </div>
       <p class="label" style="margin-top:12px">Link types</p>
       <div class="types" id="types"></div>
     </div>
@@ -229,7 +235,8 @@ const fmt = n => n.toLocaleString("en");
 
 const verses = KG.verses;
 const bookOf = v => BOOKS[KG.chapters[verses[v].ch].section][0];
-const state = { view: "grid", grade: "sound", types: new Set(TYPES), thread: null, selected: null };
+const state = { view: "grid", grade: "sound", scope: "cross", types: new Set(TYPES), thread: null, selected: null };
+const SCOPES = { cross: l => bookOf(l.a) !== bookOf(l.b), within: l => bookOf(l.a) === bookOf(l.b), any: () => true };
 
 // ---- Header stats ----
 (() => {
@@ -263,6 +270,7 @@ TYPES.forEach(t => document.getElementById("t-" + t).addEventListener("change", 
   e.target.checked ? state.types.add(t) : state.types.delete(t); state.thread = null; render();
 }));
 for (const g of Object.keys(GRADE_SETS)) document.getElementById("g-" + g).addEventListener("click", () => { state.grade = g; state.thread = null; render(); });
+for (const s of Object.keys(SCOPES)) document.getElementById("s-" + s).addEventListener("click", () => { state.scope = s; state.thread = null; render(); });
 document.getElementById("v-verses").addEventListener("click", () => { state.view = "verses"; render(); });
 document.getElementById("v-grid").addEventListener("click", () => { state.view = "grid"; state.thread = null; render(); });
 const HIGHLIGHTS = {
@@ -308,7 +316,7 @@ function visibleLinks() {
     return KG.links.filter(l => pairs.has(l.a + "-" + l.b));
   }
   const grades = GRADE_SETS[state.grade];
-  return KG.links.filter(l => grades.includes(l.grade) && state.types.has(l.type));
+  return KG.links.filter(l => grades.includes(l.grade) && state.types.has(l.type) && SCOPES[state.scope](l));
 }
 
 function verseGraph() {
@@ -357,6 +365,7 @@ function renderGrid() {
 function render() {
   for (const v of ["grid", "verses", "concepts"]) document.getElementById("v-" + v).setAttribute("aria-pressed", state.view === v);
   for (const g of Object.keys(GRADE_SETS)) document.getElementById("g-" + g).setAttribute("aria-pressed", state.grade === g);
+  for (const s of Object.keys(SCOPES)) document.getElementById("s-" + s).setAttribute("aria-pressed", state.scope === s);
   for (const h of Object.keys(HIGHLIGHTS)) document.getElementById("h-" + h).setAttribute("aria-pressed", state.highlight === h);
   document.getElementById("link-controls").style.display = state.view === "verses" ? "" : "none";
   document.getElementById("grid-controls").style.display = state.view === "grid" ? "" : "none";
@@ -382,15 +391,16 @@ function render() {
   const bookX = { aram: width * 0.22, porul: width * 0.5, inbam: width * 0.78 };
   document.getElementById("hint").textContent = state.thread !== null
     ? `Thread: ${current.nodes.length} verses, ${current.links.length} links. Click the thread again to leave it.`
-    : state.view === "verses" ? `${current.nodes.length} verses, ${current.links.length} links. Books drift left to right: Aram, Porul, Inbam. Scroll to zoom, drag to pan, click a verse.`
+    : state.view === "verses" ? `${current.nodes.length} verses, ${current.links.length} links${state.scope === "cross" ? " between books" : state.scope === "within" ? " inside one book" : ""}. Books sit left to right: Aram, Porul, Inbam. Scroll to zoom, drag to pan, click a verse.`
     : `${current.nodes.length} concepts, sized by verses expressing them. Lines join concepts that share 3 or more verses. Click a concept.`;
 
   if (sim) sim.stop();
+  const dense = current.links.length > 1200 ? 0.45 : current.links.length > 500 ? 0.7 : 1;
   linkSel = gLinks.selectAll("line").data(current.links, d => state.view === "verses" ? d.a + "-" + d.b : d.source + "|" + d.target)
     .join("line")
     .attr("stroke", d => state.view === "verses" ? css("--t-" + d.type) : css("--muted"))
-    .attr("stroke-width", d => state.view === "verses" ? (d.grade === "sound" ? 1.8 : 1.1) : Math.min(0.5 + d.w / 4, 5))
-    .attr("stroke-opacity", d => state.view === "verses" ? (d.grade === "sound" ? 0.85 : 0.55) : 0.28)
+    .attr("stroke-width", d => state.view === "verses" ? (d.grade === "sound" ? 1.8 : 1.1) * dense : Math.min(0.5 + d.w / 4, 5))
+    .attr("stroke-opacity", d => state.view === "verses" ? (d.grade === "sound" ? 0.85 : 0.55) * dense : 0.28)
     .attr("stroke-dasharray", d => state.view !== "verses" || d.grade === "sound" ? null : d.grade === "weak" ? "5 3" : "2 3");
 
   nodeSel = gNodes.selectAll("g.node").data(current.nodes, d => d.kind + d.id).join(enter => {
@@ -412,28 +422,29 @@ function render() {
   sim = d3.forceSimulation(current.nodes)
     .force("link", d3.forceLink(current.links).id(d => d.id).distance(state.view === "verses" ? 34 : 60).strength(state.view === "verses" ? 0.5 : 0.08))
     .force("charge", d3.forceManyBody().strength(state.view === "verses" ? -40 : -110))
-    .force("x", d3.forceX(d => bookX[d.book]).strength(state.view === "verses" ? 0.06 : 0.03))
+    .force("x", d3.forceX(d => bookX[d.book]).strength(state.view === "verses" ? 0.14 : 0.03))
     .force("y", d3.forceY(height / 2).strength(0.06))
     .force("collide", d3.forceCollide(d => d.r + 1.5))
     .on("tick", ticked)
     .on("end", () => { if (autoFit) fitView(); });
   autoFit = true;
   svg.call(zoom.transform, d3.zoomIdentity);
-  if (matchMedia("(prefers-reduced-motion: reduce)").matches) { sim.stop(); for (let i = 0; i < 300; i++) sim.tick(); ticked(); fitView(); }
-  else setTimeout(() => { if (autoFit) fitView(); }, 1200);
+  sim.stop();
+  for (let i = 0; i < (current.nodes.length > 600 ? 140 : 300); i++) sim.tick();
+  ticked(); fitView(true);
   highlight();
 }
 
 // Fit every node into the stage, until the user zooms or a verse is centred.
 let autoFit = true;
 svg.on("wheel.fit mousedown.fit touchstart.fit", () => { autoFit = false; });
-function fitView() {
+function fitView(instant) {
   if (!current.nodes.length) return;
   const { width, height } = document.getElementById("stage").getBoundingClientRect();
   const xs = current.nodes.map(d => d.x), ys = current.nodes.map(d => d.y);
   const x0 = Math.min(...xs) - 20, x1 = Math.max(...xs) + 40, y0 = Math.min(...ys) - 20, y1 = Math.max(...ys) + 20;
   const k = Math.min(2, 0.95 * Math.min(width / (x1 - x0), height / (y1 - y0)));
-  svg.transition().duration(400).call(zoom.transform,
+  (instant ? svg : svg.transition().duration(400)).call(zoom.transform,
     d3.zoomIdentity.translate(width / 2, height / 2).scale(k).translate(-(x0 + x1) / 2, -(y0 + y1) / 2));
 }
 
