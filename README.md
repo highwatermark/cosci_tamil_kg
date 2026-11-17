@@ -1,4 +1,4 @@
-# Project Madurai corpus
+# Tamil Literary Knowledge Graph
 
 A mirror of the [Project Madurai list of works](https://www.projectmadurai.org/pmworks.html),
 prepared for text mining and knowledge graph construction. Crawled 2026-10-31; the list
