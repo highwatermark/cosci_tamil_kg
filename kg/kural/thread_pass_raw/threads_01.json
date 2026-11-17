@@ -1,0 +1,38 @@
+[
+  {
+    "candidate": "01",
+    "id": "thread:justice_of_the_world",
+    "title": "Does virtue pay? The promise and its escape clauses",
+    "claim": "The Book of Virtue states the reward of virtue as a rule: aram yields wealth (31), the fair person's wealth does not decay (112), the envious have no gain (135, 170), the one who does no evil meets no ruin (210), and all pain returns on those who caused it (320). The same book then admits the counter-case: 169 calls the prosperity of the crooked and the ruin of the upright things to be pondered (நினைக்கப்படும்), and 332 says great wealth comes and goes like a theatre crowd, with no exception for the virtuous. The book keeps the promise alive by two moves. Verse 117 changes what counts as ruin: the world does not set down as கேடு the low state of one who stays in virtue, which Parimelazhagar narrows to the judgement of the high-minded (உயர்ந்தோர்) and Manakkudavar reads as the world counting such loss with his gains. The commentators supply the other move, past deeds: Parimelazhagar sends the wise to look for a cause in earlier births at 169, and Manakkudavar reads 320's returning pain as pain done in a former time.",
+    "limits": "This is a claim about chapters 4 to 34 of the Book of Virtue, and the escape clauses at 117 and in the commentaries are not stated by 169 itself, which leaves the puzzle open. The earlier version of this thread also drew in the apportioner verses (63, 377) and the curse at 1062; those are not in this cluster but belong to the same question.",
+    "links": [[31, 169], [112, 169], [112, 117], [135, 169], [169, 170], [210, 169], [210, 117], [320, 169], [169, 117], [332, 112]],
+    "replaces": "thread:justice_of_the_world"
+  },
+  {
+    "candidate": "01",
+    "id": "thread:poverty",
+    "title": "Does character survive poverty?",
+    "claim": "Two verses say the poor person of character is not lowered: 117 for the fair-minded (the world does not count his தாழ்வு as ruin) and 988 for the one with the firmness called சால்பு (இன்மை இளிவன்று). Verse 752 reports the opposite as fact: everyone scorns the have-nots and honours the rich, which Parimelazhagar sharpens to 'even if they have every good quality', while 841 says the world does not count lack of wealth as lack at all. The poverty chapter then shows character itself giving way: 1044 says poverty produces degrading speech even in the well-born, though 139 called evil speech impossible for those with conduct and 959 made speech the reliable sign of lineage; on Parimelazhagar's reading of 223, the well-born never utter the beggar's 'I have nothing', which 1044 denies. Verse 1047 draws the line the book seems to want: the poverty that estranges even one's mother is அறஞ்சாரா, poverty not joined to virtue, which matches 117's boundary and runs against 521's claim that kin honour old ties even when all is gone.",
+    "limits": "The reconciliation through அறஞ்சாரா at 1047 is the verse's own qualifier, but Pope drops it and reads the verse of poverty in general; and 752, 841 and 1044 are not qualified by virtue, so the disagreement over whether the world and the person hold up under want remains. The earlier version of this thread noted that இன்மை also names the ascetic's chosen possessionlessness (408, 532), a different condition not covered by this cluster.",
+    "links": [[117, 988], [117, 752], [752, 988], [988, 1044], [841, 752], [139, 1044], [1044, 959], [223, 1044], [1047, 117], [752, 1047], [521, 1047]],
+    "replaces": "thread:poverty"
+  },
+  {
+    "candidate": "02",
+    "id": "thread:fate_and_agency",
+    "title": "Fate and agency: who moves the mover?",
+    "claim": "Chapter 38 places fate one step behind every human cause: effort and sloth arise from a fate of gain and a fate of loss (371), and fate is stronger than any plan (380). Chapters 61 and 62 treat the same மடி as a thing a person chooses (605, காமக் கலன்) and can depose, after which the faults it brought are gone (609 against 604); they make effort the cause of wealth (616) and house the two goddesses in sloth and labour (617), and 618 blames idleness but not misfortune, a line 371 makes hard to draw if sloth is fate's product. Chapter 62 then both concedes fate and defies it: 619 grants that a thing may fail through fate and keeps the wage of the body's strain for effort, while 620 says the tireless see fate's back. Verse 262 extends the regress to austerity itself, which on Parimelazhagar's and Manakkudavar's reading needs prior-birth தவம் to be undertaken at all; Kalaignar reads it as present self-control and removes the conflict. Parimelazhagar narrows the gap at 620 by saying fate blocks only a few attempts, and 468 adds that effort counts only when made by the right method.",
+    "limits": "The verses do not acknowledge one another; the reconciliations are the commentators'. 371 is a general claim about the mind, whereas 616 to 620 are addressed to the king, so the Book of Wealth may be stating a working rule rather than a doctrine. The related question of whether foresight shields a person from fate (429, 372, 380) is treated in its own thread.",
+    "links": [[371, 620], [620, 380], [609, 371], [371, 617], [371, 618], [616, 371], [605, 371], [380, 619], [609, 604], [262, 620], [468, 616]],
+    "replaces": "thread:fate_and_agency"
+  },
+  {
+    "candidate": "02",
+    "id": "thread:foresight_and_fate",
+    "title": "Can foresight guard against what is coming?",
+    "claim": "Chapter 43 defines understanding as knowing what will be (427, ஆவது அறிவார்) and promises that those whose understanding guards ahead meet no affliction that shakes them (429). Chapter 38 undercuts both ends of that promise: 380 says fate arrives before any counter-plan one devises, and 372 says a fate of loss makes a person foolish, which Parimelazhagar reads as happening even to one with every kind of understanding, so the trait 427 treats as fixed is itself at fate's disposal. Chapter 67 quietly adjusts 429: 662 keeps avoiding harm beforehand as the first rule but adds not giving way once it has come, which Parimelazhagar reads as the case of a task spoiled by fate. Manakkudavar meets the conflict at 429 directly, allowing that early guarding softens even what comes from past deeds.",
+    "limits": "The verses are addressed to different readers (chapter 38 to all, chapters 43 and 67 to the king and his ministers), and 429 says 'no affliction that shakes', not 'no affliction', so a narrow reading leaves room for 662. None of the verses names the other.",
+    "links": [[427, 429], [372, 429], [427, 372], [429, 380], [662, 429]],
+    "replaces": null
+  }
+]

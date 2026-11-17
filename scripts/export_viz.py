@@ -43,7 +43,8 @@ def main():
                           "note": e["note"], "grade": e["audit"],
                           "better": e.get("audit_better_type")})
     threads = [{"id": t["id"], "title": t["title"], "claim": t["claim"],
-                "grade": t["audit_grade"], "links": t["links"]}
+                "grade": t["audit_grade"], "links": t["links"],
+                "limits": t.get("limits", ""), "issue": t.get("audit_issue", "")}
                for t in json.loads((KURAL_DIR / "threads.json").read_text(encoding="utf-8"))]
     data = {"chapters": chapters, "concepts": concepts, "verses": verses,
             "links": links, "threads": threads}

@@ -1,0 +1,29 @@
+[
+  {
+    "candidate": "09",
+    "id": "thread:birth_across_book",
+    "title": "Birth: cause of conduct, or its name?",
+    "claim": "The Kural's verses on lineage (குடி, பிறப்பு) pull in two directions. 951 and 952 make birth the source of conduct: integrity and shame are natural (இயல்பாக) only to the well-born, who do not slip in conduct, truth and shame; 502 and 793 treat family as a criterion to check before trusting a minister or making a friend, and 992 names birth as one of courtesy's two sources. 133 reverses the direction: having conduct is itself குடிமை, and a lapse becomes low birth, so that by 133 whoever slips has already left the class 952 describes; 958 sits between, where a lapse in affection makes people doubt a man's birth but leaves birth as the underlying fact; and 972 denies that birth settles distinction at all, leaving only deeds. The commentators divide along the same line: Parimelazhagar keeps 133 within varna (conduct raises or lowers one's standing within the rank one is born to) and reads 951 as saying the well-born need no teaching, while Kalaignar reads 951 and 952 backwards, as tests by which the well-born are recognised, which aligns them with 133 and 972.",
+    "limits": "This does not claim the book rejects birth: most verses here (502, 793, 951, 952, 958, 992) treat it as real and informative, and only 972 denies it outright. Nor does 133 abolish the vocabulary of birth; it redefines it, and on Parimelazhagar's reading does so only within a fixed scheme of varna.",
+    "links": [[133, 951], [502, 133], [502, 951], [793, 972], [951, 972], [952, 133], [958, 133], [972, 133], [992, 972]],
+    "replaces": "thread:birth_across_book"
+  },
+  {
+    "candidate": "10",
+    "id": "thread:strong_and_weak",
+    "title": "வலியார் and மெலியார்: one pair of words, three kinds of advice",
+    "claim": "The book gives opposite advice about the stronger and the weaker in the same words. In the Book of Virtue, 250 tells one who moves against the weaker (மெலியார்மேல் செல்லுமிடத்து) to remember standing before the stronger, and 302 says anger is bad where it cannot take effect and worst where it can, which Parimelazhagar glosses as anger against the stronger and the weaker. In the Book of Wealth, 861 tells a ruler to avoid opposing the stronger and to want enmity with the weaker without holding back (ஓம்பா மெலியார்மேல் மேக பகை), and the warrior's song in 771-772 prefers the spear that missed an elephant to the arrow that hit a hare, which Manakkudavar reads as sending the weak away to fight those who can resist. 493 adds that strength is not fixed: the weaker side wins if it knows the ground and guards itself. Parimelazhagar separates the audiences, taking chapter 31 as addressed to ascetics and 861 to a king; Kalaignar instead rewrites 861 as a wish to fight the strong, which removes the conflict by changing the verse.",
+    "limits": "The conflict depends on reading 250 and 302 as rules for everyone; if chapter 31 addresses ascetics, as Parimelazhagar holds, the Book of Virtue and 861 speak to different people. 772 is a warrior's boast, not a counsel of policy, and 772 and 861 both favour fighting only when read as rules for choosing an opponent. This thread is a sibling of ethics_vs_statecraft, with its own verses.",
+    "links": [[861, 250], [302, 861], [772, 861], [493, 861]],
+    "replaces": null
+  },
+  {
+    "candidate": "10",
+    "id": "thread:enmity_chosen_and_refused",
+    "title": "Enmity: chosen, bought, and refused",
+    "claim": "Chapter 87 (பகைமாட்சி) treats enmity as a thing to be chosen and kept: 861 tells the ruler to want enmity with the weaker, and 867 says the enmity of one who stays close and acts unfittingly must be acquired even at a price (கொடுத்தும் கொளல்வேண்டும் மன்ற). The next chapter opens, in 871, by calling enmity a thing without பண்பு that no one should want even in jest. 995 then says those who know how others feel keep பண்பு even inside enmity, so the quality enmity is said to lack can survive within it. The commentators settle 871 differently: Parimelazhagar narrows it to unworthy enmity (மாணாத பகை), which leaves room for 861 and 867, while Manakkudavar takes it as saying that taking up enmity is bad everywhere (எவ்விடத்தும் பகைகோடல் தீது).",
+    "limits": "The verses themselves do not distinguish worthy from unworthy enmity; that distinction is Parimelazhagar's. 995 is about conduct toward an enemy one already has and does not say whether enmity should be sought, so it qualifies 871's wording rather than contradicting 871's advice.",
+    "links": [[861, 871], [871, 867], [995, 871]],
+    "replaces": null
+  }
+]

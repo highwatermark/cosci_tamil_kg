@@ -547,6 +547,8 @@ function showThread(t) {
   detail.innerHTML = `
     <div><h2>${esc(t.title)}</h2><div class="pills" style="margin-top:6px">${pill(t.grade, t.grade.replace("_", " "))}</div></div>
     <div class="block"><div class="k">Claim (interpretation)</div><p>${esc(t.claim)}</p></div>
+    ${t.limits ? `<div class="block"><div class="k">What it doesn't claim</div><p style="color:var(--muted)">${esc(t.limits)}</p></div>` : ""}
+    ${t.issue ? `<div class="block"><div class="k">Auditor's note</div><p style="color:var(--muted)">${esc(t.issue)}</p></div>` : ""}
     <div class="block"><div class="k">Links (${t.links.length})</div><div class="list">${t.links.map(([a, b]) => {
       const l = KG.links.find(x => x.a === a && x.b === b);
       return `<button class="lk" data-verse="${a}"><span class="top"><span class="swatch" style="background:var(--t-${l.type})"></span>${a} ↔ ${b}${pill(l.grade, l.grade)}</span>

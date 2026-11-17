@@ -156,7 +156,8 @@ All 133 chapters and 1,330 verses are marked. Start with [THREADS.md](kg/kural/T
 | File | Contents |
 |---|---|
 | `kg/kural/nodes.jsonl`, `edges.jsonl` | Verses, chapters, concepts, commentators' readings, links and threads |
-| `kg/kural/threads.json`, `thread_audit.json` | 14 threads and the audit of every link they used |
+| `kg/kural/threads.json` | 83 threads: claims about how the book treats a theme across chapters |
+| `kg/kural/thread_audit.json`, `thread_audit_v2.json` | Audits of the first 14 threads and of the 77 rebuilt ones |
 | `kg/kural/link_audit.json` | Grades for the other 443 links, with reasons and a calibration check |
 | `kg/themes/kural/chNNN.json` | Marks for each chapter; edit these, following `kg/themes/SCHEMA.md` |
 | `kg/themes/audit_kural.json` | Audit of a random sample, drawn from `audit_sample.json` |
@@ -181,7 +182,9 @@ any of it, and the samples are small.
   exactly and was stricter more often than more lenient, so the higher pass rate outside tensions
   is not leniency.
 - The `contested` flag undercounts: 6 of 36 unflagged sample verses should have it.
-- Threads were drawn from the marks, so only themes the links captured could appear.
+- Threads were first drawn from tensions in the marks. They were rebuilt after the systematic link
+  pass, from clusters in the graph of sound links (see below), so they still depend on what the links
+  captured.
 
 **Verse text.** The base Thirukkural file has typos, some of which change the meaning. At 290 it
 promises heaven to thieves. The Parimelazhagar file shares these errors, so Kalaignar's edition is
@@ -218,6 +221,23 @@ run the graders passed 87% of new proposals as sound but only 84% of links alrea
 sound. The proposals' longer, more careful notes are probably raising grades. See
 [docs/link-pass-plan.md](docs/link-pass-plan.md), `kg/kural/link_pass.json` and
 `kg/kural/link_pass_raw/`.
+
+**Threads.** After the link pass, threads were rebuilt from the graph of sound links. Two kinds of
+cluster were searched: 14 groups of verses chained by tension and qualifies links, and 27 sets of links
+whose verses share one concept. One agent read each cluster in the Tamil and wrote at most two threads,
+each resting on three or more links; another audited every claim and link blind.
+
+| | |
+|---|---|
+| Threads | 83: 58 supported, 25 partly supported; 41 span two or three books |
+| From the rebuild | 77, of which 8 extend and replace earlier threads |
+| Kept from the first set | 6 that the rebuild did not cover |
+| Verses that appear in a thread | 464 |
+| Second opinion | A separate auditor regraded 14 random threads and matched 11 |
+
+No thread failed its audit, against one of 15 in the first round. The links were already graded sound,
+so a higher pass rate is expected, but both auditors were Claude, and each thread's `limits` and
+`audit_issue` should be read with its claim. Each thread also lists what it doesn't claim.
 
 **Graph explorer.** `viz/index.html` shows the verses, links, concepts and threads as an interactive
 graph. It loads `viz/data.js`, so serve the folder rather than opening the file directly:

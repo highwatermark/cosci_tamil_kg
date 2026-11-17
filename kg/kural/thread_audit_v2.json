@@ -1,0 +1,4225 @@
+{
+ "summary": {
+  "run": "Thread rebuild from the sound-link graph, 2026-11-16",
+  "method": "41 candidate clusters: 14 components joined by tension and qualifies links, and 27 sets of links whose verses share one concept. 21 writing agents (13 restarted after a usage limit) proposed threads; 6 other agents audited each claim and each link blind.",
+  "threads_proposed": 77,
+  "thread_grades": {
+   "supported": 57,
+   "partly_supported": 20
+  },
+  "link_verdicts": {
+   "supports": 433,
+   "weakly": 65,
+   "irrelevant": 3
+  },
+  "kept": 77,
+  "dropped": [],
+  "replaced_old": [
+   "thread:birth_across_book",
+   "thread:fate_and_agency",
+   "thread:giving_and_asking",
+   "thread:justice_of_the_world",
+   "thread:limits_of_friendship",
+   "thread:poverty",
+   "thread:signs_and_faces",
+   "thread:true_wealth"
+  ]
+ },
+ "audits": [
+  {
+   "id": "thread:justice_of_the_world",
+   "grade": "supported",
+   "issue": "The claim says the commentators supply the past-deeds move, which is true inside chapters 4 to 34, but the Book of Virtue itself makes that move in chapter 38 (ஊழ், e.g. 375, 377), right after this range; a reader should not take the text as silent on it. At 117 Parimelazhagar also adds the implied 'செல்வம் என்று கொள்ளுவர்', so he too reads the low state as counted among gains, not only Manakkudavar.",
+   "links": [
+    {
+     "a": 31,
+     "b": 169,
+     "verdict": "supports",
+     "reason": "31's செல்வமும் ஈனும் அறம் is the promise, and 169's செவ்வியான் கேடும் நினைக்கப் படும் concedes the upright can be ruined."
+    },
+    {
+     "a": 112,
+     "b": 169,
+     "verdict": "supports",
+     "reason": "112's செப்பம் உடையவன் ஆக்கம் சிதைவின்றி is directly faced by 169's செவ்வியான் கேடு, which is treated as something that happens and must be pondered."
+    },
+    {
+     "a": 112,
+     "b": 117,
+     "verdict": "supports",
+     "reason": "In the same chapter 117 grants the fair man's தாழ்வு and says the world will not count it கெடு, which qualifies 112's சிதைவின்றி."
+    },
+    {
+     "a": 135,
+     "b": 169,
+     "verdict": "supports",
+     "reason": "135 takes அழுக்காறுடையான்கண் ஆக்கம் ... இல்லை as given, while 169 names அவ்விய நெஞ்சத்தான் ஆக்கம் as a case to be pondered."
+    },
+    {
+     "a": 169,
+     "b": 170,
+     "verdict": "supports",
+     "reason": "Adjacent verses: 169 admits the crooked one's ஆக்கம் and the upright's கேடு, while 170 says none grew by envy (அழுக்கற்று அகன்றாரும் இல்லை) and none without it lost increase."
+    },
+    {
+     "a": 210,
+     "b": 169,
+     "verdict": "supports",
+     "reason": "210's அருங்கேடன் for one who does no தீவினை is the promise that 169's செவ்வியான் கேடு concedes can fail."
+    },
+    {
+     "a": 210,
+     "b": 117,
+     "verdict": "supports",
+     "reason": "117's கெடுவாக வையாது redefines the upright man's தாழ்வு as not கேடு, which is how 210's அருங்கேடன் survives an observed decline."
+    },
+    {
+     "a": 320,
+     "b": 169,
+     "verdict": "supports",
+     "reason": "320's நோயெல்லாம் நோய்செய்தார் மேலவாம் is a retribution rule that 169's counter-case strains, and Manakkudavar's முற்காலத்து gloss on 320 is the reconciling move the claim names."
+    },
+    {
+     "a": 169,
+     "b": 117,
+     "verdict": "supports",
+     "reason": "169's செவ்வியான் கேடு is exactly what 117 says the world will not set down as கெடு (கெடுவாக வையாது)."
+    },
+    {
+     "a": 332,
+     "b": 112,
+     "verdict": "supports",
+     "reason": "332's பெருஞ்செல்வம் comes and goes like a கூத்தாட்டு அவைக் குழாம் with no exception, against 112's ஆக்கம் சிதைவின்றி for the fair."
+    }
+   ]
+  },
+  {
+   "id": "thread:true_wealth",
+   "grade": "supported",
+   "issue": "The figure has further instances the claim does not count, notably 592 (உள்ளம் உடைமை உடைமை, with material wealth நில்லாது நீங்கி விடும, an impermanence argument) and the child as wealth in 63; these strengthen the 'rhetorical figure' reading. The reasons attributed to 400 and 411 are Parimelazhagar's, as the claim says; the verses themselves give no reason beyond கேடில் in 400.",
+   "links": [
+    {
+     "a": 363,
+     "b": 400,
+     "verdict": "supports",
+     "reason": "Both crown a different thing with the same word விழுச்செல்வம்: வேண்டாமை in 363, கல்வி in 400."
+    },
+    {
+     "a": 400,
+     "b": 241,
+     "verdict": "supports",
+     "reason": "400 crowns learning as கேடில் விழுச்செல்வம், 241 crowns அருட்செல்வம் with the reason பொருட்செல்வம் பூரியார் கண்ணும் உள, a different defect."
+    },
+    {
+     "a": 400,
+     "b": 411,
+     "verdict": "supports",
+     "reason": "Adjacent chapters give the same crown to கல்வி (மாடல்ல மற்றையவை) and to செவிச்செல்வம் (செல்வத்துளெல்லாம் தலை) without ranking them."
+    },
+    {
+     "a": 411,
+     "b": 241,
+     "verdict": "supports",
+     "reason": "The identical formula செல்வத்துள் செல்வம் is given to the ear's wealth in 411 and to grace in 241."
+    },
+    {
+     "a": 751,
+     "b": 241,
+     "verdict": "supports",
+     "reason": "241 counts பொருட்செல்வம் பூரியார் கண்ணும் உள against wealth, while 751 praises it for making பொருளல்லவர் into பொருள், whom Parimelazhagar glosses as the low-born and unwise."
+    },
+    {
+     "a": 751,
+     "b": 400,
+     "verdict": "supports",
+     "reason": "751's பொருளல்லது இல்லை பொருள் and 400's மாடல்ல மற்றையவை are opposite absolutes in the same exclusive form."
+    }
+   ]
+  },
+  {
+   "id": "thread:fort_and_fear",
+   "grade": "supported",
+   "issue": "The extension to 382 is the reader's inference: 569 says a king without சிறை comes to fear, but nothing in 382 or 569 makes fearlessness depend on defences.",
+   "links": [
+    {
+     "a": 534,
+     "b": 741,
+     "verdict": "supports",
+     "reason": "534's அச்ச முடையார்க்கு அரணில்லை and 741's அஞ்சித் தற்போற்றுபவர்க்கும் பொருள் are the two sides of the fort-fear relation the claim describes, with the readings named in the limits."
+    },
+    {
+     "a": 569,
+     "b": 534,
+     "verdict": "supports",
+     "reason": "569 has the king without சிறை seized by fear (வெருவந்து), and 534 (with Parimelazhagar's மனத்தின்கண் அச்சம்) has fear voiding the fort, the two halves of 'necessary but not sufficient'."
+    },
+    {
+     "a": 741,
+     "b": 569,
+     "verdict": "supports",
+     "reason": "741 makes the fort the refuge of the fearful and 569 shows the king who made no சிறை perishing in fear (வெய்து கெடும்)."
+    },
+    {
+     "a": 569,
+     "b": 382,
+     "verdict": "weakly",
+     "reason": "382 lists அஞ்சாமை among a king's qualities and 569 shows fear arising without defences, but neither verse ties the one to the other."
+    }
+   ]
+  },
+  {
+   "id": "thread:good_results_as_licence",
+   "grade": "supported",
+   "issue": "Chapter 12 itself argues gain from outcome as well (116: கெடுவல்யான் என்பது அறிக ... நடுவொரீஇ அல்ல செயின்), and Parimelazhagar sums up 112 and 113 as fair wealth yielding good and the other yielding evil, so the contrast between outcome-free 113 and outcome-based 177 holds only on 113's literal concession.",
+   "links": [
+    {
+     "a": 177,
+     "b": 113,
+     "verdict": "supports",
+     "reason": "177 refuses covetous gain because விளைவயின் மாண்டற் கரிதாம் பயன், while 113 drops unfair gain நன்றே தரினும், removing the outcome test."
+    },
+    {
+     "a": 292,
+     "b": 113,
+     "verdict": "supports",
+     "reason": "292 lets பொய்மை count as வாய்மை if it yields புரைதீர்ந்த நன்மை, whereas 113 drops gain even if நன்றே தரினும், the speech-versus-gain contrast with the hedge the limits name."
+    },
+    {
+     "a": 292,
+     "b": 297,
+     "verdict": "supports",
+     "reason": "297 prizes பொய்யாமை பொய்யாமை ஆற்றின் while 292 admits falsehood under புரைதீர்ந்த நன்மை, consistent only because 292 reclassifies such falsehood as வாய்மை."
+    }
+   ]
+  },
+  {
+   "id": "thread:wealth_and_holder",
+   "grade": "partly_supported",
+   "issue": "558 does not fit 'when the holder is wrong': its condition is the unjust king (முறைசெய்யா மன்னவன்), not any defect in the one who has the wealth. 53 likewise puts the deciding quality in the wife, not the holder. 216 and 1008 are a counter-image of two different trees (பயன்மரம், நச்சு மரம்), not 'the same fruiting tree'.",
+   "links": [
+    {
+     "a": 53,
+     "b": 430,
+     "verdict": "supports",
+     "reason": "53's உள்ளதென் ... மாணாக்கடை and 430's என்னுடையரேனும் இலர் use the same 'whatever is there counts for nothing' form."
+    },
+    {
+     "a": 430,
+     "b": 591,
+     "verdict": "supports",
+     "reason": "430's அறிவிலார் என்னுடையரேனும் இலர் and 591's ஊக்கம் அஃதில்லார் உடையது உடையரோ deny having to holders who lack an inner quality."
+    },
+    {
+     "a": 430,
+     "b": 841,
+     "verdict": "supports",
+     "reason": "841's அறிவின்மை இன்மையுள் இன்மை restates 430 from the side of lack."
+    },
+    {
+     "a": 1005,
+     "b": 430,
+     "verdict": "supports",
+     "reason": "1005's கோடியுண்டாயினும் இல் for those who neither give nor enjoy parallels 430's என்னுடையரேனும் இலர்."
+    },
+    {
+     "a": 591,
+     "b": 1005,
+     "verdict": "supports",
+     "reason": "Both separate holding from having: உடையது உடையரோ in 591 and கோடியுண்டாயினும் இல் in 1005."
+    },
+    {
+     "a": 408,
+     "b": 558,
+     "verdict": "weakly",
+     "reason": "Both invert wealth over poverty (வறுமையின் இன்னாதே, இன்மையின் இன்னாது உடைமை), but 558's condition is the முறைசெய்யா மன்னவன், not the holder's defect the claim names."
+    },
+    {
+     "a": 408,
+     "b": 1000,
+     "verdict": "supports",
+     "reason": "408's கல்லார்கண் பட்ட திரு and 1000's பண்பிலான் பெற்ற பெருஞ்செல்வம் both make wealth worse for its holder's defect."
+    },
+    {
+     "a": 408,
+     "b": 837,
+     "verdict": "supports",
+     "reason": "837's பேதை பெருஞ்செல்வம் உற்றக்கடை with ஏதிலார் ஆர, தமர் பசிப்பர் gives a concrete form of 408's harmful wealth with the unlearned."
+    },
+    {
+     "a": 837,
+     "b": 1000,
+     "verdict": "supports",
+     "reason": "Both speak of பெருஞ்செல்வம் come to a defective holder (பேதை, பண்பிலான்) whose defect ruins its use."
+    },
+    {
+     "a": 1000,
+     "b": 1008,
+     "verdict": "supports",
+     "reason": "1000's milk spoiled by கலந்தீமை and 1008's நச்சு மரம் பழுத்தற்று both make the holder's character turn good wealth useless or harmful."
+    },
+    {
+     "a": 1008,
+     "b": 216,
+     "verdict": "supports",
+     "reason": "216's பயன்மரம் உள்ளூர்ப் பழுத்தற்று and 1008's நச்சு மரம் நடுவூருள் பழுத்தற்று set the same village and fruiting against the holder's character, though the trees differ."
+    },
+    {
+     "a": 660,
+     "b": 1000,
+     "verdict": "supports",
+     "reason": "660's பசுமண் கலம் faults how wealth was made (சலத்தால்) and 1000's கலந்தீமை faults the holder, the contrast the claim draws."
+    },
+    {
+     "a": 565,
+     "b": 1000,
+     "verdict": "supports",
+     "reason": "565's இன்னா முகத்தான் பெருஞ்செல்வம் பேஎய்கண்டன்னது and 1000's பண்பிலான் பெருஞ்செல்வம் both have the holder's manner spoil wealth."
+    }
+   ]
+  },
+  {
+   "id": "thread:checklist_for_action",
+   "grade": "supported",
+   "issue": "The 461 and 676 pair shares none of the கருவி/காலம் vocabulary, so it is a second, parallel list rather than part of the same checklist, and its closing verbs differ (சூழ்ந்து, பார்த்து). Parimelazhagar reads 483's actor as the king (அரசரால்).",
+   "links": [
+    {
+     "a": 483,
+     "b": 675,
+     "verdict": "supports",
+     "reason": "483's கருவியான் காலம் அறிந்து reappears inside 675's பொருள் கருவி காலம் வினை இடன்."
+    },
+    {
+     "a": 631,
+     "b": 483,
+     "verdict": "supports",
+     "reason": "631 reuses கருவி, காலம் and அருவினை from 483 and adds செய்கை as the minister's defining competence."
+    },
+    {
+     "a": 631,
+     "b": 675,
+     "verdict": "supports",
+     "reason": "631's கருவி, காலம், செய்கை, அருவினை overlap 675's five with பொருள் and இடன் added."
+    },
+    {
+     "a": 516,
+     "b": 675,
+     "verdict": "supports",
+     "reason": "516 keeps வினை and காலம் and adds செய்வானை நாடி, the doer, which 675 lacks."
+    },
+    {
+     "a": 461,
+     "b": 676,
+     "verdict": "supports",
+     "reason": "461's அழிவது, ஆவது, ஊதியம் ... சூழ்ந்து செயல் and 676's முடிவு, இடையூறு, படுபயன் ... பார்த்துச் செயல் share the three-item-plus-command form with yield last and different items."
+    }
+   ]
+  },
+  {
+   "id": "thread:body_as_witness",
+   "grade": "supported",
+   "issue": "Parimelazhagar takes 1157's bangles as telling the friend (உனக்கு அறிவியாவோ), not broadcasting to the town, and he reads 1185 as recalling an earlier departure, so the public and immediate force the claim gives these two rests on the plain wording.",
+   "links": [
+    {
+     "a": 1157,
+     "b": 1235,
+     "verdict": "supports",
+     "reason": "1157's bangles தூற்றா his leaving and 1235's shoulders கொடியார் கொடுமை உரைக்கும், the body speaking and then judging."
+    },
+    {
+     "a": 1233,
+     "b": 1157,
+     "verdict": "supports",
+     "reason": "1233's shoulders தணந்தமை சால அறிவிப்ப and 1157's bangles தூற்றா both make the parting public through the body."
+    },
+    {
+     "a": 1277,
+     "b": 1157,
+     "verdict": "supports",
+     "reason": "Both have bangles (வளை) registering the துறைவன்'s parting, in 1277 நம்மினும் முன்னம் உணர்ந்த."
+    },
+    {
+     "a": 1278,
+     "b": 1277,
+     "verdict": "supports",
+     "reason": "1278's நெருநற்றுச் சென்றார் ... எழுநாளேம் மேனி பசந்து and 1277's முன்னம் உணர்ந்த வளை both have the body ahead of the event."
+    },
+    {
+     "a": 1185,
+     "b": 1277,
+     "verdict": "supports",
+     "reason": "1185's pallor spreading (பசப்பூர்வது) while he is still seen going matches the body's speed in 1277."
+    },
+    {
+     "a": 1235,
+     "b": 1188,
+     "verdict": "supports",
+     "reason": "1188's பசந்தாள் இவள் ... துறந்தார் அவர் என்பார் இல் and 1235's கொடியார் கொடுமை உரைக்கும் show town and friend drawing different verdicts from the same signs."
+    },
+    {
+     "a": 1235,
+     "b": 1236,
+     "verdict": "supports",
+     "reason": "1236's அவரைக் கொடியர் எனக்கூறல் நொந்து refuses the charge 1235 draws from the shoulders."
+    }
+   ]
+  },
+  {
+   "id": "thread:manner_of_giving",
+   "grade": "partly_supported",
+   "issue": "'The book rarely praises giving bare' is overstated: most of chapter 23 (ஈகை) and 231 to 232 praise giving with no word on manner, which is more than the limits' recipient verses 221 and 223. 224 is about the giver's discomfort ending when the asker is satisfied, not about the manner of giving.",
+   "links": [
+    {
+     "a": 387,
+     "b": 92,
+     "verdict": "supports",
+     "reason": "92 ranks முகனமர்ந்து இன்சொலன் above அகனமர்ந்து ஈதல், while 387 joins them in இன்சொலால் ஈத்து for the king."
+    },
+    {
+     "a": 953,
+     "b": 92,
+     "verdict": "supports",
+     "reason": "953 lists நகை ஈகை இன்சொல் இகழாமை flat, and 92 ranks three of them."
+    },
+    {
+     "a": 953,
+     "b": 1057,
+     "verdict": "supports",
+     "reason": "953 pairs ஈகை with இகழாமை and 1057 shows the asker rejoicing at இகழ்ந்தெள்ளாது ஈவார்."
+    },
+    {
+     "a": 224,
+     "b": 1057,
+     "verdict": "weakly",
+     "reason": "224's இன்னாது இரக்கப்படுதல் ... இன்முகம் காணும் அளவு is about the giver's unease and the asker's satisfaction, not the giver's manner, though it fits beside 1057."
+    },
+    {
+     "a": 387,
+     "b": 525,
+     "verdict": "supports",
+     "reason": "387's இன்சொலால் ஈத்து and 525's கொடுத்தலும் இன்சொலும் are the same pair used to win the world and kin."
+    },
+    {
+     "a": 526,
+     "b": 525,
+     "verdict": "supports",
+     "reason": "526 keeps giving (பெருங்கொடை) and swaps இன்சொல் for பேணான் வெகுளி."
+    }
+   ]
+  },
+  {
+   "id": "thread:blaming_own_organs",
+   "grade": "supported",
+   "issue": "1207 does not turn on the heart: in உள்ளினும் உள்ளம் சுடும் the heart is what is burned, the victim of memory and separation, so it fits the self-division theme less than 1243 and 1296, where the heart is blamed.",
+   "links": [
+    {
+     "a": 1171,
+     "b": 1091,
+     "verdict": "supports",
+     "reason": "1091 puts நோய்நோக்கு in her eyes and 1171 puts the தண்டாநோய் in her own eyes (தாம்காட்ட யாம்கண்டது)."
+    },
+    {
+     "a": 1176,
+     "b": 1173,
+     "verdict": "supports",
+     "reason": "1173's நகத்தக்கது mockery becomes 1176's ஓஒ இனிதே at the eyes falling into the sickness themselves."
+    },
+    {
+     "a": 1177,
+     "b": 1174,
+     "verdict": "supports",
+     "reason": "1177 curses the eyes உள்நீர் அறுக, and 1174 reports them நீருலந்த."
+    },
+    {
+     "a": 1243,
+     "b": 1296,
+     "verdict": "supports",
+     "reason": "1243 rebukes the நெஞ்சு for இருந்துள்ளி பரிதல், and 1296 says the நெஞ்சு sits there தினிய, to eat her."
+    },
+    {
+     "a": 1296,
+     "b": 1207,
+     "verdict": "weakly",
+     "reason": "Both make remembering painful, but in 1207 உள்ளம் சுடும் the heart suffers rather than being blamed as in 1296."
+    }
+   ]
+  },
+  {
+   "id": "thread:greatness_by_deed",
+   "grade": "supported",
+   "issue": "Parimelazhagar's gloss on 505 counts birth, quality and knowledge (பிறப்பு குணம் அறிவு) as sources of greatness and makes deeds only the test of them, so 505 does not by itself say birth is irrelevant.",
+   "links": [
+    {
+     "a": 975,
+     "b": 26,
+     "verdict": "supports",
+     "reason": "975's பெருமை யுடையவர் ஆற்றுவார் அருமை உடைய செயல் restates 26's செயற்கரிய செய்வார் பெரியர் outside the renouncers' chapter."
+    },
+    {
+     "a": 611,
+     "b": 26,
+     "verdict": "supports",
+     "reason": "611's பெருமை முயற்சி தரும் makes the greatness that 26 ties to hard deeds a product of effort."
+    },
+    {
+     "a": 1021,
+     "b": 611,
+     "verdict": "supports",
+     "reason": "1021's கைதூவேன் என்னும் பெருமை and 611's அசாவாமை both place பெருமை in persistence."
+    },
+    {
+     "a": 505,
+     "b": 972,
+     "verdict": "supports",
+     "reason": "505's கருமமே கட்டளைக் கல் and 972's செய்தொழில் வேற்றுமையான் both make deeds the measure of greatness."
+    }
+   ]
+  },
+  {
+   "id": "thread:seen_by_many",
+   "grade": "partly_supported",
+   "issue": "Only two links carry the 'seen by many' standard; 1320 is about whom he is thinking of as he looks (யாருள்ளி நோக்கினீர்), not about being seen by many, so its fit with 'looking as possession' is loose.",
+   "links": [
+    {
+     "a": 1119,
+     "b": 1112,
+     "verdict": "supports",
+     "reason": "Both disqualify a likeness for being பலர்காணும் / பலர்காணத் தோன்றல், and Parimelazhagar glosses both as his sole possession of her beauty."
+    },
+    {
+     "a": 1119,
+     "b": 1311,
+     "verdict": "supports",
+     "reason": "1311's கண்ணின் பொதுஉண்பர், which Parimelazhagar takes as making his chest others' leftovers (மிச்சில்), applies 1119's standard from her side."
+    },
+    {
+     "a": 1320,
+     "b": 1311,
+     "verdict": "weakly",
+     "reason": "1320's யாருள்ளி நோக்கினீர் locates infidelity in his look but does not invoke being seen by many."
+    }
+   ]
+  },
+  {
+   "id": "thread:enemy_within",
+   "grade": "supported",
+   "issue": "'Ranks the hidden enemy below the open one' means 'as worse than', which the wording leaves ambiguous. Chapter 89 (883, 884, 889) adds direct support the thread does not use.",
+   "links": [
+    {
+     "a": 639,
+     "b": 817,
+     "verdict": "supports",
+     "reason": "Both set a vast count of open enemies (எழுபது கோடி, பத்தடுத்த கோடி) against one false intimate with உறும்."
+    },
+    {
+     "a": 639,
+     "b": 882,
+     "verdict": "supports",
+     "reason": "882's கேள்போல் பகைவர் தொடர்பு அஞ்சுக is the rule behind 639's பழுதெண்ணும் மந்திரி, and Parimelazhagar explains 639 on the same ground."
+    },
+    {
+     "a": 882,
+     "b": 828,
+     "verdict": "supports",
+     "reason": "828's தொழுதகையுள்ளும் படையொடுங்கும் shows the hidden weapon of the kin-like enemy 882 fears."
+    },
+    {
+     "a": 734,
+     "b": 735,
+     "verdict": "weakly",
+     "reason": "735 adds உட்பகை to 734's outside threats (செறுபகை) but does not rank them."
+    }
+   ]
+  },
+  {
+   "id": "thread:sources_of_renown",
+   "grade": "supported",
+   "issue": "Parimelazhagar sends several of these roads back through giving: he grounds 233's unmatched renown in giving life, limbs and goods, and 853's renown in friends, wealth and then கொடை. On his reading the sources converge more than the claim suggests.",
+   "links": [
+    {
+     "a": 232,
+     "b": 296,
+     "verdict": "supports",
+     "reason": "232 rests all praise on ஈவார் and 296 says பொய்யாமை அன்ன புகழில்லை, two verses each naming a chief source."
+    },
+    {
+     "a": 777,
+     "b": 231,
+     "verdict": "supports",
+     "reason": "777's சுழலும் இசைவேண்டி வேண்டா உயிரார் seek the same இசை that 231 ties to ஈதல்."
+    },
+    {
+     "a": 233,
+     "b": 156,
+     "verdict": "weakly",
+     "reason": "156's பொன்றுந் துணையும் புகழ் shows forbearance as a source, but 233 only says புகழ் is undying and adds nothing about sources."
+    },
+    {
+     "a": 853,
+     "b": 156,
+     "verdict": "supports",
+     "reason": "853's தவலில்லாத் தாவில் விளக்கம் (lasting fame for Parimelazhagar) and 156's புகழ் both reward declining the quarrel."
+    },
+    {
+     "a": 962,
+     "b": 652,
+     "verdict": "supports",
+     "reason": "652 makes புகழ் a test of action, and 962's சீரினும் சீரல்ல செய்யார் refuses unworthy acts even for renown."
+    },
+    {
+     "a": 653,
+     "b": 962,
+     "verdict": "supports",
+     "reason": "653 forbids the deed that makes ஒளி மாழ்கும், and 962 extends it to such deeds done for சீர் itself."
+    }
+   ]
+  },
+  {
+   "id": "thread:poverty",
+   "grade": "partly_supported",
+   "issue": "841 does not say the world counts lack of wealth as no lack 'at all': its point is ranking lack of wisdom as the worst lack, and Parimelazhagar glosses that the world does not count other lack as lack of that kind. On Parimelazhagar's reading the degrading words of 1044 are begging ('give to us'), not the தீய speech (harmful lies etc.) that 139 rules out, so the 139 and 959 contrasts are weaker than stated. His note on 1047 also says all kin abandon the poor man because he must take and cannot give, which sharpens rather than softens the clash with 521.",
+   "links": [
+    {
+     "a": 117,
+     "b": 988,
+     "verdict": "supports",
+     "reason": "கெடுவாக வையாது ... தங்கியான் தாழ்வு and இன்மை ... இளிவன்று சால்பென்னும் திண்மை both deny that want lowers the person of character."
+    },
+    {
+     "a": 117,
+     "b": 752,
+     "verdict": "supports",
+     "reason": "உலகம் not counting the fair man's தாழ்வு as ruin conflicts with இல்லாரை எல்லாரும் எள்ளுவர் unless உலகம் is narrowed to the high-minded as Parimelazhagar does."
+    },
+    {
+     "a": 752,
+     "b": 988,
+     "verdict": "supports",
+     "reason": "எல்லாரும் எள்ளுவர் reports the scorn; இன்மை இளிவன்று denies it is a disgrace where சால்பு is present."
+    },
+    {
+     "a": 988,
+     "b": 1044,
+     "verdict": "supports",
+     "reason": "988's இளிவன்று and 1044's இன்மை இளிவந்த சொல் use the same root, one denying and one affirming that want brings disgrace, though 1044 speaks of the well-born (இற்பிறந்தார்) rather than those with சால்பு."
+    },
+    {
+     "a": 841,
+     "b": 752,
+     "verdict": "weakly",
+     "reason": "பிறிதின்மை இன்மையா வையாது உலகு is a ranking that elevates அறிவின்மை, glossed by Parimelazhagar as 'not that kind of lack', so it opposes எல்லாரும் எள்ளுவர் only loosely."
+    },
+    {
+     "a": 139,
+     "b": 1044,
+     "verdict": "weakly",
+     "reason": "139's தீய ... சொலல் is harmful speech while 1044's இளிவந்த சொல் is, on Parimelazhagar, the begging word, so the 'impossible' slip of 139 is not the one 1044 describes."
+    },
+    {
+     "a": 1044,
+     "b": 959,
+     "verdict": "weakly",
+     "reason": "குலத்தில் பிறந்தார்வாய்ச் சொல் as a sign is only partly troubled by 1044, whose இற்பிறந்தார் கண்ணேயும் marks the lapse as exceptional for the well-born."
+    },
+    {
+     "a": 223,
+     "b": 1044,
+     "verdict": "supports",
+     "reason": "On Parimelazhagar 223's இலனென்னும் எவ்வம் உரையாமை is the well-born not uttering the beggar's word, which 1044's இளிவந்த சொற்பிறக்கும் says poverty makes them utter."
+    },
+    {
+     "a": 1047,
+     "b": 117,
+     "verdict": "supports",
+     "reason": "அறஞ்சாரா நல்குரவு marks out the poverty that estranges, matching 117's protected case நன்றிக்கண் தங்கியான் தாழ்வு."
+    },
+    {
+     "a": 752,
+     "b": 1047,
+     "verdict": "weakly",
+     "reason": "ஈன்றதாயானும் பிறன்போல extends 752's எல்லாரும் to the mother, but அறஞ்சாரா adds a condition 752 lacks, so it limits as much as it develops."
+    },
+    {
+     "a": 521,
+     "b": 1047,
+     "verdict": "supports",
+     "reason": "பற்றற்ற கண்ணும் பழைமைபாராட்டுதல் சுற்றத்தார் கண்ணே உள clashes with the mother looking on the poor man as பிறன், and Parimelazhagar's note on 1047 that kin abandon him makes the clash explicit."
+    }
+   ]
+  },
+  {
+   "id": "thread:wealth_on_conditions",
+   "grade": "partly_supported",
+   "issue": "The title says the chapter does not state the conditions, but the claim itself draws them from 754 and 755 inside chapter 76, and on Parimelazhagar (and Pope's 'honestly acquired') 760's ஒண்பொருள் already means rightly earned wealth, so the 'promising verses' are not unconditioned. In 1002 Parimelazhagar takes பொருளானாம் எல்லாம் as correct knowledge (என்றறிந்து) and makes the delusion the later clinging, so 1002 grants 751's premise rather than limiting it.",
+   "links": [
+    {
+     "a": 760,
+     "b": 754,
+     "verdict": "supports",
+     "reason": "754's தீதின்றி வந்த பொருள் is the wealth that அறன்ஈனும் இன்பமும் ஈனும், supplying the condition on 760's ஏனை இரண்டும்."
+    },
+    {
+     "a": 760,
+     "b": 1002,
+     "verdict": "weakly",
+     "reason": "1002 condemns ஈயாது இவறும் மருள், the clinging, not the belief பொருளானாம் எல்லாம், so it limits use of wealth without touching 760's promise directly."
+    },
+    {
+     "a": 1009,
+     "b": 760,
+     "verdict": "supports",
+     "reason": "The same ஒண்பொருள், when gathered அன்பொரீஇ ... அறநோக்காது, ends with கொள்வார் பிறர், not with virtue and pleasure."
+    },
+    {
+     "a": 757,
+     "b": 755,
+     "verdict": "supports",
+     "reason": "755's அருளொடும் அன்பொடும் வாராப் பொருளாக்கம் ... புரள விடல் restricts which wealth may nurse 757's அருள் குழவி."
+    },
+    {
+     "a": 755,
+     "b": 1009,
+     "verdict": "supports",
+     "reason": "Wealth gathered without love and virtue (அன்பொரீஇ ... அறநோக்காது) is shown going to others, a consequence for the wealth 755 rejects."
+    },
+    {
+     "a": 1002,
+     "b": 751,
+     "verdict": "weakly",
+     "reason": "பொருளானாம் எல்லாம் echoes பொருளல்லது இல்லை பொருள், but 1002 faults ஈயாது இவறும், not the thought itself."
+    },
+    {
+     "a": 973,
+     "b": 751,
+     "verdict": "supports",
+     "reason": "மேலிருந்தும் மேலல்லார் மேலல்லர், with the high seat read as wealth by both Parimelazhagar and Manakkudavar, says wealth does not make the low great."
+    },
+    {
+     "a": 757,
+     "b": 241,
+     "verdict": "irrelevant",
+     "reason": "241's அருட்செல்வம் over பொருட்செல்வம் bears on grace versus wealth, not on the conditions under which chapter 76's promises hold."
+    }
+   ]
+  },
+  {
+   "id": "thread:when_to_bow",
+   "grade": "supported",
+   "issue": "Parimelazhagar restricts 960's யார்க்கும் to those who deserve reverence (பணியப்படுவார் யாவர் மாட்டும்), so 'without restriction' holds only on the plain text there as well as at 978. The 680 and 967 links bear on the claim only indirectly.",
+   "links": [
+    {
+     "a": 963,
+     "b": 125,
+     "verdict": "supports",
+     "reason": "சுருக்கத்து வேண்டும் உயர்வு asks the reduced not to bow, against எல்லார்க்கும் நன்றாம் பணிதல், while keeping பெருக்கத்து வேண்டும் பணிதல்."
+    },
+    {
+     "a": 978,
+     "b": 125,
+     "verdict": "supports",
+     "reason": "பணியுமாம் என்றும் பெருமை and செல்வர்க்கே செல்வம் both commend bowing in those with grounds for pride, glossed by பெருமிதம் இன்றி and தருக்கின்றி."
+    },
+    {
+     "a": 960,
+     "b": 963,
+     "verdict": "supports",
+     "reason": "963's சுருக்கத்து வேண்டும் உயர்வு limits the யார்க்கும் பணிவு of 960 to times of plenty."
+    },
+    {
+     "a": 978,
+     "b": 963,
+     "verdict": "supports",
+     "reason": "Plainly 963 limits 978's என்றும், and the thread names Parimelazhagar's reading that removes it."
+    },
+    {
+     "a": 903,
+     "b": 978,
+     "verdict": "supports",
+     "reason": "இல்லாள்கண் தாழ்ந்த இயல்பின்மை brings நாண், a lowering Parimelazhagar traces to அச்சம், unlike the prideless bowing of 978."
+    },
+    {
+     "a": 680,
+     "b": 967,
+     "verdict": "weakly",
+     "reason": "கொள்வர் பெரியார்ப் பணிந்து and ஒட்டார்பின் சென்று வாழ்தல் differ in agent and aim (statecraft versus living off scorners), though Parimelazhagar's remark on 680 links them."
+    },
+    {
+     "a": 963,
+     "b": 680,
+     "verdict": "weakly",
+     "reason": "963's சுருக்கம் is poverty for both commentators while 680's உறைசிறியார் are weak states, so they meet only if personal honour extends to statecraft."
+    }
+   ]
+  },
+  {
+   "id": "thread:trust_and_watching",
+   "grade": "supported",
+   "issue": "584 lists வினைசெய்வார் first but gives no priority among the three groups. Manakkudavar takes 517 as aimed mainly at the army commander.",
+   "links": [
+    {
+     "a": 514,
+     "b": 501,
+     "verdict": "supports",
+     "reason": "எனைவகையான் தேறியக் கண்ணும் ... வேறாகும் மாந்தர் பலர் undercuts Parimelazhagar's claim on 501 that one who passes the four tests won't change."
+    },
+    {
+     "a": 514,
+     "b": 510,
+     "verdict": "supports",
+     "reason": "If tested men still turn (வேறாகும்), 510's ban on தெளிந்தான்கண் ஐயுறவு cannot mean a ban on watching."
+    },
+    {
+     "a": 514,
+     "b": 520,
+     "verdict": "supports",
+     "reason": "நாடோறும் நாடுக answers the change in office that வினைவகையான் வேறாகும் describes."
+    },
+    {
+     "a": 517,
+     "b": 510,
+     "verdict": "supports",
+     "reason": "அதனை அவன்கண் விடல் after என்றாய்ந்து is the positive form of not doubting one examined and trusted."
+    },
+    {
+     "a": 517,
+     "b": 520,
+     "verdict": "supports",
+     "reason": "Handing over (அவன்கண் விடல்) is followed in the same chapter by daily inquiry (நாடோறும் நாடுக), and Parimelazhagar asks for it to be done privately (தன்னுள்ளே) to keep his உரிமை."
+    },
+    {
+     "a": 520,
+     "b": 510,
+     "verdict": "supports",
+     "reason": "Daily நாடுக sits against தெளிந்தான்கண் ஐயுறவு ... தீரா இடும்பை, and Parimelazhagar's private-inquiry gloss is the reconciliation the claim reports."
+    },
+    {
+     "a": 520,
+     "b": 584,
+     "verdict": "supports",
+     "reason": "584's spy examines வினைசெய்வார், a means for 520's daily examination of the வினைசெய்வான்."
+    },
+    {
+     "a": 584,
+     "b": 510,
+     "verdict": "supports",
+     "reason": "அனைவரையும் ஆராய்வது including officers stands against 510's ஐயுறவு only on the stricter reading, as the thread states."
+    },
+    {
+     "a": 584,
+     "b": 514,
+     "verdict": "supports",
+     "reason": "514's வினைவகையான் வேறாகும் supplies the reason for spying on one's own வினைசெய்வார்."
+    }
+   ]
+  },
+  {
+   "id": "thread:foresight_as_understanding",
+   "grade": "supported",
+   "issue": "Only 427 and 429 tie the foresight to அறிவு; 435 and 535 speak of guarding before (வருமுன்னர், முன்னுற) without the word, and Parimelazhagar reads them as guarding against faults and against enemies exploiting a lapse. Parimelazhagar also records an alternative reading of 427's ஆவதறிவார் as 'know what is good for them'.",
+   "links": [
+    {
+     "a": 427,
+     "b": 429,
+     "verdict": "supports",
+     "reason": "ஆவதறிவார் in 427 becomes எதிரதாக் காக்கும் அறிவினார் in 429, knowing turned to guarding."
+    },
+    {
+     "a": 429,
+     "b": 435,
+     "verdict": "supports",
+     "reason": "அதிர வருவதோர் நோய் இல்லை and வருமுன்னர்க் காவாதான் ... கெடும் are the positive and negative of one rule."
+    },
+    {
+     "a": 435,
+     "b": 535,
+     "verdict": "supports",
+     "reason": "வருமுன்னர்க் காவாதான் and முன்னுறக் காவாது இழுக்கியான் are the same failure, ending in கெடும் and பின்னூறு இரங்கி."
+    },
+    {
+     "a": 429,
+     "b": 442,
+     "verdict": "supports",
+     "reason": "உறாஅமை முற்காக்கும் பெற்றியார்ப் பேணிக் கொளல் makes 429's foresight something a ruler can obtain through others."
+    },
+    {
+     "a": 622,
+     "b": 429,
+     "verdict": "supports",
+     "reason": "வெள்ளத் தனைய இடும்பை அறிவுடையான் உள்ளத்தின் உள்ளக் கெடும் gives அறிவு work on trouble already present, which Parimelazhagar says comes from fate (ஊழினான் ஆய இடுக்கண்)."
+    },
+    {
+     "a": 372,
+     "b": 429,
+     "verdict": "supports",
+     "reason": "பேதைப் படுக்கும் இழவூழ், which Parimelazhagar applies even to one with all understanding, undercuts the protection 429 rests on அறிவு."
+    },
+    {
+     "a": 427,
+     "b": 372,
+     "verdict": "supports",
+     "reason": "372's இழவூழ் and ஆகலூழ் make அறிவு vary with fate, against 427's fixed division of அறிவுடையார் and அறிவிலார்."
+    }
+   ]
+  },
+  {
+   "id": "thread:one_virtue_alone",
+   "grade": "supported",
+   "issue": "Parimelazhagar narrows 142's அறன்கடை நின்றார் to those in sin through desire, so it ranks adulterers among lovers gone wrong rather than among all who stand outside virtue. Kalaignar reads 150 as a comparison (desiring another's wife is worse than straying from virtue), not as the 'even if' frame.",
+   "links": [
+    {
+     "a": 150,
+     "b": 181,
+     "verdict": "supports",
+     "reason": "அறன்வரையான் அல்ல செயினும் and அறங்கூறான் அல்ல செயினும் share the frame and name different abstentions."
+    },
+    {
+     "a": 142,
+     "b": 150,
+     "verdict": "weakly",
+     "reason": "142's பிறன்கடை நின்றாரின் பேதையார் இல் ranks the offence but lacks the 'even if he does wrong' frame of single-virtue value."
+    },
+    {
+     "a": 150,
+     "b": 297,
+     "verdict": "supports",
+     "reason": "நயவாமை நன்று despite அல்ல செயினும் and அறம்பிற செய்யாமை ... நன்று both isolate one restraint."
+    },
+    {
+     "a": 181,
+     "b": 297,
+     "verdict": "supports",
+     "reason": "புறங்கூறான் ... இனிது despite wrongdoing and பொய்யாமை ஆற்றின் அறம்பிற செய்யாமை நன்று weigh one restraint against the rest."
+    },
+    {
+     "a": 296,
+     "b": 297,
+     "verdict": "supports",
+     "reason": "எல்லா அறமுந் தரும் in 296 grounds 297's leaving the others undone."
+    },
+    {
+     "a": 321,
+     "b": 297,
+     "verdict": "supports",
+     "reason": "அறவினை யாதெனின் கொல்லாமை and பொய்யாமை ... அறம்பிற செய்யாமை நன்று each let a different virtue stand for all."
+    },
+    {
+     "a": 33,
+     "b": 297,
+     "verdict": "supports",
+     "reason": "ஓவாதே செல்லும்வாய் எல்லாஞ் செயல் asks for virtue everywhere, against 297's leaving the others undone."
+    }
+   ]
+  },
+  {
+   "id": "thread:limits_of_friendship",
+   "grade": "partly_supported",
+   "issue": "The claim says the growth question is 'settled by character, not time', but 783 against 785 is about whether contact is needed to make the bond (புணர்ச்சி பழகுதல் வேண்டா), which 811's பண்பிலார் does not address; character settles only whether growth is desirable. 783 itself speaks of growing delight (நயம்), not of a bond that needs practice.",
+   "links": [
+    {
+     "a": 791,
+     "b": 797,
+     "verdict": "supports",
+     "reason": "நட்டபின் வீடில்லை against ஊதியம் ... பேதையார் கேண்மை ஒரீஇ விடல் sets 'no leaving' against leaving as gain."
+    },
+    {
+     "a": 791,
+     "b": 800,
+     "verdict": "supports",
+     "reason": "ஒன்றீத்தும் ஒருவுக ஒப்பிலார் நட்பு allows the exit 791's வீடில்லை seems to bar, which Parimelazhagar limits to friendship formed அறியாது."
+    },
+    {
+     "a": 809,
+     "b": 791,
+     "verdict": "supports",
+     "reason": "விடாஅர் விழையும் உலகு praises the not-leaving that 791's வீடில்லை describes."
+    },
+    {
+     "a": 783,
+     "b": 785,
+     "verdict": "weakly",
+     "reason": "பயில்தொறும் ... நயம் says delight grows with practice and புணர்ச்சி பழகுதல் வேண்டா says contact is not needed to form the bond, so the two answer different questions."
+    },
+    {
+     "a": 785,
+     "b": 792,
+     "verdict": "supports",
+     "reason": "On Manakkudavar 785 lets one meeting give the claim (ஒருநாள் கண்டாராயினும்), against ஆய்ந்தாய்ந்து கொள்ளாதான் கேண்மை ... சாம் துயரம்."
+    },
+    {
+     "a": 783,
+     "b": 811,
+     "verdict": "supports",
+     "reason": "பண்புடையாளர் தொடர்பு grows sweet while பண்பிலார் கேண்மை is better குன்றல் than பெருகல்."
+    },
+    {
+     "a": 782,
+     "b": 811,
+     "verdict": "supports",
+     "reason": "பின்னீர பேதையார் நட்பு wanes as a fact; பெருகலிற் குன்றல் இனிது makes waning the wish."
+    }
+   ]
+  },
+  {
+   "id": "thread:two_shames",
+   "grade": "supported",
+   "issue": "1163 does not rank shame above life: on Parimelazhagar love and shame hang in equal balance (ஒன்றினொன்று மிகாது) on the life-pole, so it supports 1017's valuation only loosely.",
+   "links": [
+    {
+     "a": 1011,
+     "b": 1251,
+     "verdict": "supports",
+     "reason": "1251's நிறையென்னும் நாணுத்தாழ் is a restraint on conduct, the women's shame 1011 calls பிற and Parimelazhagar describes as restraint of mind, speech and body."
+    },
+    {
+     "a": 1089,
+     "b": 1014,
+     "verdict": "supports",
+     "reason": "நாணும் உடையாட்கு அணியெவனோ and அணிஅன்றோ நாணுடைமை share the image of shame as ornament."
+    },
+    {
+     "a": 1297,
+     "b": 1017,
+     "verdict": "supports",
+     "reason": "Parimelazhagar glosses 1297's நாண் as உயிரினும் சிறந்த, the valuation of 1017's நாணால் உயிரைத் துறப்பர், as the thread's limits admit."
+    },
+    {
+     "a": 1163,
+     "b": 1017,
+     "verdict": "weakly",
+     "reason": "காமமும் நாணும் உயிர்காவாத் தூங்கும் weighs love and shame equally on the life, not shame over life."
+    }
+   ]
+  },
+  {
+   "id": "thread:remembering_the_absent",
+   "grade": "supported",
+   "issue": "On Parimelazhagar, what the woman remembers in 1207 is the past union (அவ்வின்பத்தை), the same object as 1201, and it is the separation that burns, so 'what is remembered' does not separate every case. He also reads 1250's கவின் as the inner beauty left after the outer is lost, so it is not quite 'the very loss' of 1262's காரிகை and bangles.",
+   "links": [
+    {
+     "a": 1201,
+     "b": 1207,
+     "verdict": "supports",
+     "reason": "உள்ளினும் தீராப் பெருமகிழ் and உள்ளினும் உள்ளம் சுடும் turn on the same word with opposite results."
+    },
+    {
+     "a": 1202,
+     "b": 1207,
+     "verdict": "supports",
+     "reason": "நினைப்ப வருவதொன்று இல் against உள்ளினும் உள்ளம் சுடும் is a direct contrast within the chapter."
+    },
+    {
+     "a": 1202,
+     "b": 1209,
+     "verdict": "supports",
+     "reason": "அளியின்மை ஆற்ற நினைந்து makes thinking of his neglect waste her life, limiting 1202's painless thought."
+    },
+    {
+     "a": 1202,
+     "b": 1296,
+     "verdict": "supports",
+     "reason": "தனியே இருந்து நினைத்தக்கால் என்னைத் தினிய gives thinking the opposite effect to 1202."
+    },
+    {
+     "a": 1296,
+     "b": 1207,
+     "verdict": "supports",
+     "reason": "நினைத்தக்கால் ... தினிய and உள்ளினும் உள்ளம் சுடும் both make thought of him the source of pain."
+    },
+    {
+     "a": 1201,
+     "b": 1281,
+     "verdict": "supports",
+     "reason": "கள்ளினும் காமம் இனிது and கள்ளுக்கில் காமத்திற்குண்டு share the toddy comparison and the verb உள்ளு."
+    },
+    {
+     "a": 1207,
+     "b": 1262,
+     "verdict": "supports",
+     "reason": "மறப்பின் எவனாவன் and இன்று மறப்பின் ... கலங்கழியும் both refuse forgetting as worse."
+    },
+    {
+     "a": 1250,
+     "b": 1262,
+     "verdict": "weakly",
+     "reason": "நெஞ்சத்து உடையேமா இன்னும் இழத்தும் கவின் and மறப்பின் ... காரிகை நீத்து oppose on remembering versus forgetting, but Parimelazhagar makes 1250's loss inner beauty, not the outer loss of 1262."
+    }
+   ]
+  },
+  {
+   "id": "thread:effort_never_wasted",
+   "grade": "supported",
+   "issue": null,
+   "links": [
+    {
+     "a": 380,
+     "b": 619,
+     "verdict": "supports",
+     "reason": "தெய்வத்தான் ஆகாதெனினும் grants 380's ஊழிற் பெருவலி and still gives மெய்வருத்தக் கூலி."
+    },
+    {
+     "a": 596,
+     "b": 619,
+     "verdict": "supports",
+     "reason": "தள்ளினுந் தள்ளாமை நீர்த்து, with தள்ளல் read by Parimelazhagar as பால்வகை, parallels 619's wage despite fate."
+    },
+    {
+     "a": 1023,
+     "b": 619,
+     "verdict": "supports",
+     "reason": "தெய்வம் மடிதற்றுத் தான்முந்துறும் covers the case where the divine helps, complementing தெய்வத்தான் ஆகாதெனினும்."
+    },
+    {
+     "a": 620,
+     "b": 1024,
+     "verdict": "supports",
+     "reason": "Both end in தாழாது உஞற்றுபவர், with ஊழையும் உப்பக்கம் காண்பர் and சூழாமல் தானே முடிவெய்தும் as their returns."
+    },
+    {
+     "a": 624,
+     "b": 620,
+     "verdict": "supports",
+     "reason": "இடுக்கண் இடர்ப்பாடு உடைத்து for the ox-like worker is carried to ஊழையும் உப்பக்கம் காண்பர்."
+    }
+   ]
+  },
+  {
+   "id": "thread:one_birth_seven_births",
+   "grade": "supported",
+   "issue": "Only 126, 398 and 835 pair ஒருமை with எழுமை; 62 (எழுபிறப்பும்) and 538 (எழுமையும்) give the seven-birth consequence without the one-birth term. 107 (எழுமை எழுபிறப்பும் உள்ளுவர்) is another எழுமை verse the thread does not mention.",
+   "links": [
+    {
+     "a": 126,
+     "b": 398,
+     "verdict": "supports",
+     "reason": "ஒருமையுள் ... எழுமையும் ஏமாப் புடைத்து and ஒருமைக்கண் ... எழுமையும் ஏமாப் புடைத்து share the closing formula."
+    },
+    {
+     "a": 835,
+     "b": 398,
+     "verdict": "supports",
+     "reason": "ஒருமைச் செயலாற்றும் பேதை எழுமையும் ... அளறு inverts 398's ஒருமை/எழுமை protection."
+    },
+    {
+     "a": 126,
+     "b": 835,
+     "verdict": "supports",
+     "reason": "ஒருமையுள் ... எழுமையும் ஏமாப்பு against ஒருமைச் செயல் ... எழுமையும் அளறு runs the reckoning both ways."
+    },
+    {
+     "a": 62,
+     "b": 398,
+     "verdict": "supports",
+     "reason": "எழுபிறப்பும் தீயவை தீண்டா and எழுமையும் ஏமாப்புடைத்து both name a present good protecting seven births."
+    },
+    {
+     "a": 62,
+     "b": 835,
+     "verdict": "supports",
+     "reason": "எழுபிறப்பும் தீயவை தீண்டா and எழுமையும் தான்புக்கு அழுந்தும் அளறு apply the seven-birth reckoning to safeguard and ruin."
+    },
+    {
+     "a": 538,
+     "b": 835,
+     "verdict": "supports",
+     "reason": "இகழ்ந்தார்க்கு எழுமையும் இல் and எழுமையும் ... அளறு attach seven-birth loss to conduct in this life."
+    }
+   ]
+  },
+  {
+   "id": "thread:reading_signs_court_and_love",
+   "grade": "partly_supported",
+   "issue": "The love-side verses 1271 and 1273 are not mutual: the man reads a sign she hides, and in 1273 Parimelazhagar has him admit he cannot read it and ask the friend. In court the reading is not only of a ruler: in 709 Parimelazhagar's ministers read foreign kings' eyes, and in 708 the one read is a petitioner. Parimelazhagar takes 1100's வாய்ச்சொற்கள் as words not meant in the heart, so the eyes expose speech rather than simply replacing it.",
+   "links": [
+    {
+     "a": 701,
+     "b": 1100,
+     "verdict": "supports",
+     "reason": "கூறாமை நோக்கிக் குறிப்பறிவான் and வாய்ச்சொற்கள் என்ன பயனும் இல both make the look carry what speech would."
+    },
+    {
+     "a": 708,
+     "b": 1100,
+     "verdict": "supports",
+     "reason": "முகம்நோக்கி நிற்க அமையும் and நோக்கொக்கின் வாய்ச்சொற்கள் ... இல both make speech unnecessary between the right pair."
+    },
+    {
+     "a": 709,
+     "b": 1100,
+     "verdict": "supports",
+     "reason": "பகைமையும் கேண்மையும் கண்ணுரைக்கும் and கண்ணொடு கண்இணை நோக்கொக்கின் both give the eye the speaking role."
+    },
+    {
+     "a": 1100,
+     "b": 705,
+     "verdict": "supports",
+     "reason": "குறிப்பிற் குறிப்புணரா ... என்ன பயத்தவோ கண் and வாய்ச்சொற்கள் என்ன பயனும் இல share the 'what use' frame around the eye."
+    },
+    {
+     "a": 1271,
+     "b": 709,
+     "verdict": "supports",
+     "reason": "நின் உண்கண் உரைக்கல் உறுவது and கண்ணுரைக்கும் use the same verb for the eye's telling."
+    },
+    {
+     "a": 1273,
+     "b": 706,
+     "verdict": "supports",
+     "reason": "மணியில் திகழ்தரு நூல் (crystal bead for Parimelazhagar) and அடுத்தது காட்டும் பளிங்கு share the crystal-transparency image."
+    }
+   ]
+  },
+  {
+   "id": "thread:maanam_virtue_and_fault",
+   "grade": "supported",
+   "issue": "961 does not use the word மானம்; its place in the honour chapter and Parimelazhagar's gloss (lowering of one's birth) supply the link. 384's மானம் is also qualified (மறனிழுக்கா), so qualifiers mark the virtue as well as the fault.",
+   "links": [
+    {
+     "a": 384,
+     "b": 766,
+     "verdict": "supports",
+     "reason": "மறனிழுக்கா மானம் in the king and மறமானம் in the army pair the same two qualities."
+    },
+    {
+     "a": 432,
+     "b": 384,
+     "verdict": "supports",
+     "reason": "மாண்பிறந்த மானம் as ஏதம் இறைக்கு against மானம் உடையது அரசு shows one word as fault and virtue, separated by a qualifier."
+    },
+    {
+     "a": 432,
+     "b": 1028,
+     "verdict": "supports",
+     "reason": "மாண்பிறந்த மானம் and மடிசெய்து மானங் கருதக் கெடும் both make a sense of honour harmful."
+    },
+    {
+     "a": 961,
+     "b": 1028,
+     "verdict": "supports",
+     "reason": "குன்ற வருப விடல் even at the cost of the indispensable against மானங் கருதக் கெடும் sets honour as supreme and as ruinous."
+    }
+   ]
+  },
+  {
+   "id": "thread:fate_and_agency",
+   "grade": "supported",
+   "issue": "605 is a weak witness for choice: காமக் கலன் says the four are desired, but கெடுநீரார் ('those whose nature is to perish') points toward a predisposition, closer to 371 than against it. Parimelazhagar also glosses 609's மடியாண்மை as the தாமத குணம் behind sloth, a disposition rather than a single act. Kalaignar reads ஊழ் in 371 and 380 as இயற்கை நிலை (natural condition), which softens the regress.",
+   "links": [
+    {
+     "a": 371,
+     "b": 620,
+     "verdict": "supports",
+     "reason": "371 derives அசைவின்மை itself from ஆகூழ், while 620 has those who உலைவின்றித் தாழாது உஞற்று see ஊழ்'s உப்பக்கம்."
+    },
+    {
+     "a": 620,
+     "b": 380,
+     "verdict": "supports",
+     "reason": "ஊழிற் பெருவலி யாவுள ... தான்முந்துறும் against ஊழையும் உப்பக்கம் காண்பர் is a direct opposition, and Parimelazhagar's ஒருகாலாக இருகாலாக gloss on 620 is the narrowing the claim names."
+    },
+    {
+     "a": 609,
+     "b": 371,
+     "verdict": "supports",
+     "reason": "மடியாண்மை மாற்றக் கெடும் treats மடி as removable, while போகூழால் தோன்றும் மடி makes it fate's product."
+    },
+    {
+     "a": 371,
+     "b": 617,
+     "verdict": "supports",
+     "reason": "617 houses முகடி in மடி and the lotus goddess in the தாள் of மடியிலான், and 371 puts ஊழ் behind that same மடி."
+    },
+    {
+     "a": 371,
+     "b": 618,
+     "verdict": "supports",
+     "reason": "618 calls பொறியின்மை blameless but ஆள்வினை இன்மை பழி, a line that 371's போகூழால் தோன்றும் மடி blurs."
+    },
+    {
+     "a": 616,
+     "b": 371,
+     "verdict": "supports",
+     "reason": "முயற்சி திருவினை ஆக்கும் makes effort the cause of wealth, and 371 traces அசைவின்மை and கைப்பொருள் back to ஆகூழ்."
+    },
+    {
+     "a": 605,
+     "b": 371,
+     "verdict": "weakly",
+     "reason": "காமக் கலன் implies desire, but கெடுநீரார் already assigns the four to a ruin-bound nature, so 605 does not clearly present மடி as a free choice."
+    },
+    {
+     "a": 380,
+     "b": 619,
+     "verdict": "supports",
+     "reason": "தெய்வத்தான் ஆகாதெனினும் concedes 380's limit and keeps மெய்வருத்தக் கூலி for முயற்சி."
+    },
+    {
+     "a": 609,
+     "b": 604,
+     "verdict": "supports",
+     "reason": "குற்றம் பெருகும் in 604 is undone by குற்றம் ... கெடும் in 609, which makes sloth's damage reversible by the person."
+    },
+    {
+     "a": 262,
+     "b": 620,
+     "verdict": "weakly",
+     "reason": "தவமும் தவமுடையார்க்கு ஆகும் opposes 620 only on Parimelazhagar's முன்தவம் reading, which the claim names; the verse is about தவம், not ஊழ் or effort as such."
+    },
+    {
+     "a": 468,
+     "b": 616,
+     "verdict": "weakly",
+     "reason": "ஆற்றின் வருந்தா வருத்தம் ... பொத்துப்படும் bounds effort by method, which the claim mentions, but it does not bear on fate against agency."
+    }
+   ]
+  },
+  {
+   "id": "thread:giving_and_asking",
+   "grade": "supported",
+   "issue": "Chapter 106 already partly frames asking as a survival exception: Parimelazhagar on 1055 says those who ask by standing silently do so to preserve life and would otherwise die rather than lose honour, so the chapter's praise is less unconditional than the claim's opening suggests.",
+   "links": [
+    {
+     "a": 222,
+     "b": 1051,
+     "verdict": "supports",
+     "reason": "நல்லாறு எனினும் கொளல்தீது condemns receiving even at its best, while இரக்க இரத்தக்கார்க் காணின் permits asking and moves பழி to the refuser."
+    },
+    {
+     "a": 222,
+     "b": 1054,
+     "verdict": "supports",
+     "reason": "இரத்தலும் ஈதலே போலும் against கொளல்தீது is a clear opposition on Parimelazhagar's ஏற்றல் reading of கொளல், which the note names."
+    },
+    {
+     "a": 222,
+     "b": 1061,
+     "verdict": "supports",
+     "reason": "Both refuse the best case for receiving: நல்லாறு எனினும் in 222, and கரவாது உவந்தீயும் கண்ணன்னார் கண்ணும் இரவாமை in 1061."
+    },
+    {
+     "a": 1051,
+     "b": 1061,
+     "verdict": "supports",
+     "reason": "இரக்க (ask) in 1051 meets இரவாமை கோடி உறும் in 1061, even before givers of the kind 1051 approves."
+    },
+    {
+     "a": 1052,
+     "b": 1066,
+     "verdict": "supports",
+     "reason": "இன்பம் ஒருவற்கு இரத்தல் against நாவிற்கு இரவின் இளிவந்தது இல் opposes the two valuations, with the pleasure/disgrace caveat stated in the limits."
+    },
+    {
+     "a": 1054,
+     "b": 1061,
+     "verdict": "supports",
+     "reason": "கரத்தல் கனவிலும் தேற்றாதார் in 1054 and கரவாது உவந்தீயும் in 1061 describe the same givers, and 1061 still ranks இரவாமை higher."
+    },
+    {
+     "a": 1054,
+     "b": 1066,
+     "verdict": "supports",
+     "reason": "ஈதலே போலும் against இரவின் இளிவந்தது இல் gives opposite values to the same act."
+    },
+    {
+     "a": 1066,
+     "b": 222,
+     "verdict": "supports",
+     "reason": "ஆவிற்கு நீரென்று இரப்பினும் (Parimelazhagar: அறம் நோக்கி) and நல்லாறு எனினும் both deny that a good purpose redeems asking or receiving."
+    },
+    {
+     "a": 1066,
+     "b": 1053,
+     "verdict": "supports",
+     "reason": "இரப்புமோர் ஏஎர் உடைத்து in 1053 cannot stand beside 1066's unqualified இரவின் இளிவந்தது இல் unless 1066 is narrowed."
+    }
+   ]
+  },
+  {
+   "id": "thread:birth_across_book",
+   "grade": "supported",
+   "issue": "Parimelazhagar reads 972's எல்லா உயிர்க்கும் as all human lives (மக்களுயிர்) and its சிறப்பு as greatness or smallness from deeds, so 972 levels birth without naming lineage. Kalaignar also reads 502 backwards, as a test by which the well-born are recognised, which the claim does not mention.",
+   "links": [
+    {
+     "a": 133,
+     "b": 951,
+     "verdict": "supports",
+     "reason": "ஒழுக்கம் உடைமை குடிமை makes conduct constitute lineage, while இற்பிறந்தார் கண்அல்லது இல்லை இயல்பாக makes lineage the source of conduct."
+    },
+    {
+     "a": 502,
+     "b": 133,
+     "verdict": "supports",
+     "reason": "502's separate criterion குடிப்பிறந்து collapses into conduct if, by 133, இழுக்கம் இழிந்த பிறப்பாய் விடும்."
+    },
+    {
+     "a": 502,
+     "b": 951,
+     "verdict": "supports",
+     "reason": "502 pairs குடிப்பிறந்து with நாணுடையான், and 951 says செப்பமும் நாணும் come இயல்பாக only to the இற்பிறந்தார்."
+    },
+    {
+     "a": 793,
+     "b": 972,
+     "verdict": "supports",
+     "reason": "793 lists குடிமை among things to check, while 972's பிறப்பொக்கும் ... செய்தொழில் வேற்றுமையான் places distinction in deeds alone."
+    },
+    {
+     "a": 951,
+     "b": 972,
+     "verdict": "supports",
+     "reason": "இற்பிறந்தார் கண்அல்லது இல்லை directly opposes பிறப்பொக்கும் எல்லா உயிர்க்கும்."
+    },
+    {
+     "a": 952,
+     "b": 133,
+     "verdict": "supports",
+     "reason": "இழுக்கார் குடிப்பிறந்தார் and இழுக்கம் இழிந்த பிறப்பாய் விடும் use the same root, so 952 reads as near-definitional on 133's terms."
+    },
+    {
+     "a": 958,
+     "b": 133,
+     "verdict": "supports",
+     "reason": "குலத்தின்கண் ஐயப்படும் keeps birth as the fact being doubted, where 133 has a lapse become low birth outright."
+    },
+    {
+     "a": 972,
+     "b": 133,
+     "verdict": "supports",
+     "reason": "செய்தொழில் வேற்றுமையான் and ஒழுக்கம் உடைமை குடிமை both place rank in what one does."
+    },
+    {
+     "a": 992,
+     "b": 972,
+     "verdict": "supports",
+     "reason": "ஆன்ற குடிப்பிறத்தல் as a ground of பண்பு sits against பிறப்பொக்கும், and Parimelazhagar's 'குடிப்பிறத்தல் என்றது பிறந்தார் செயலை' is the gloss the note names."
+    }
+   ]
+  },
+  {
+   "id": "thread:memory_sweet_or_burning",
+   "grade": "partly_supported",
+   "issue": "1296 is in chapter 130, not 121. Parimelazhagar takes the object remembered in 1207 to be the same past pleasure as in 1201 (அவ்வின்பத்தை மறத்தலறியேன்) and says separation burns despite the memory, so 1207 does not fit the claim's resolution by 'what is remembered'. On 1215 the 'only for the moment' reading is Manakkudavar's (அப்பொழுதைக்கு இன்பமாம்); Parimelazhagar reads the verse as saying waking and dream are equal for her, and the contrast with the man's lasting joy is the writer's construction.",
+   "links": [
+    {
+     "a": 1201,
+     "b": 1207,
+     "verdict": "supports",
+     "reason": "உள்ளினும் தீராப் பெருமகிழ் against உள்ளினும் உள்ளம் சுடும் gives opposite outcomes for the same act of remembering, though Parimelazhagar makes the burning come from separation, not from memory."
+    },
+    {
+     "a": 1202,
+     "b": 1207,
+     "verdict": "supports",
+     "reason": "நினைப்ப வருவதொன்று இல் (no pain from thinking) is directly opposed by உள்ளினும் உள்ளம் சுடும்."
+    },
+    {
+     "a": 1202,
+     "b": 1209,
+     "verdict": "supports",
+     "reason": "In 1209, அளியின்மை ஆற்ற நினைந்து makes thinking of his neglect fatal, against 1202's painless thinking, and Manakkudavar's conditional reading (இல்லையாயின்) of 1202 fits."
+    },
+    {
+     "a": 1202,
+     "b": 1296,
+     "verdict": "supports",
+     "reason": "நினைத்தக்கால் என்னைத் தினிய directly answers 1202, and Parimelazhagar's அவர் கொடுமைகளை names the object."
+    },
+    {
+     "a": 1215,
+     "b": 1201,
+     "verdict": "weakly",
+     "reason": "கண்ட பொழுதே இனிது ties sweetness to the moment only on Manakkudavar's gloss; Parimelazhagar takes it as dream equalling waking, and nothing in 1215 contrasts with 1201's speaker."
+    },
+    {
+     "a": 1296,
+     "b": 1207,
+     "verdict": "supports",
+     "reason": "நினைத்தக்கால் ... தினிய and உள்ளினும் உள்ளம் சுடும் both make thinking of him in absence the source of pain."
+    }
+   ]
+  },
+  {
+   "id": "thread:world_as_measure",
+   "grade": "supported",
+   "issue": "The narrowing of 'world' to the high-minded is not Parimelazhagar's alone: Kalaignar also glosses 140 and 426 by உயர்ந்தோர். Parimelazhagar on 637 grounds the rule in avoiding blame (செய்யின் அது பழிக்கும்), which is prudential rather than epistemic.",
+   "links": [
+    {
+     "a": 140,
+     "b": 426,
+     "verdict": "supports",
+     "reason": "உலகத்தோடு ஒட்ட ஒழுகல் கல்லார் அறிவிலாதார் and உலகத்தோடு அவ்வது உறைவது அறிவு both make accord with the world part of அறிவு."
+    },
+    {
+     "a": 637,
+     "b": 140,
+     "verdict": "supports",
+     "reason": "உலகத்து இயற்கை அறிந்து செயல் after செயற்கை அறிந்தக் கடைத்தும் repeats 140's point that learning without accord with the world falls short."
+    },
+    {
+     "a": 637,
+     "b": 426,
+     "verdict": "supports",
+     "reason": "உலகத்து இயற்கை அறிந்து செயல் is the working form of உலகத்தோடு அவ்வது உறைவது அறிவு."
+    },
+    {
+     "a": 426,
+     "b": 850,
+     "verdict": "supports",
+     "reason": "உலகத்தார் உண்டென்பது இல்லென்பான் அலகையா வைக்கப்படும் extends accord with the world from conduct to assertion."
+    },
+    {
+     "a": 850,
+     "b": 140,
+     "verdict": "supports",
+     "reason": "Parimelazhagar glosses both உலகத்தார் (850) and உலகத்தோடு (140) as உயர்ந்தோர் பலரும், making their consensus the standard."
+    },
+    {
+     "a": 850,
+     "b": 423,
+     "verdict": "supports",
+     "reason": "எப்பொருள் யார்யார்வாய்க் கேட்பினும் ... மெய்ப்பொருள் காண்பது makes truth independent of the speaker, against 850's deference to what the world affirms."
+    },
+    {
+     "a": 214,
+     "b": 140,
+     "verdict": "weakly",
+     "reason": "ஒத்தது அறிவான் means the way of the world only on Parimelazhagar's உலகநடை, as the limits say."
+    }
+   ]
+  },
+  {
+   "id": "thread:virtue_and_wealth_reversed",
+   "grade": "partly_supported",
+   "issue": "Parimelazhagar reads 31's சிறப்பு as liberation and its செல்வம் as heaven and similar rewards (துறக்கம் முதலிய செல்வம்), so on his reading 31 is not about worldly wealth and the 'reversal' with 754 is only verbal. 1009's fault is not how the wealth was got but its hoarding: Parimelazhagar glosses அறநோக்காது as not giving to the poor and அன்பொரீஇ as dropping love so as not to give. 1009 therefore shows use, not manner of acquisition, deciding the outcome, and its own ஒண்பொருள் cuts against reading 760's ஒண்பொருள் as 'rightly got'.",
+   "links": [
+    {
+     "a": 31,
+     "b": 754,
+     "verdict": "weakly",
+     "reason": "சிறப்பு ஈனும் செல்வமும் ஈனும் and அறன்ஈனும் இன்பமும் ஈனும் mirror each other, but Parimelazhagar's செல்வம் in 31 is heavenly, so the causal reversal holds only on a plain reading."
+    },
+    {
+     "a": 754,
+     "b": 39,
+     "verdict": "supports",
+     "reason": "தீதின்றி வந்த பொருள் yields இன்பம், which fits அறத்தான் வருவதே இன்பம்."
+    },
+    {
+     "a": 760,
+     "b": 754,
+     "verdict": "supports",
+     "reason": "754's தீதின்றி supplies the condition that Parimelazhagar reads into 760's ஒண்பொருள் (நெறியான் வரும் பொருள்), as the claim and limits say."
+    },
+    {
+     "a": 1009,
+     "b": 760,
+     "verdict": "weakly",
+     "reason": "1009 reuses ஒண்பொருள் for wealth that fails, but its failure (அன்பொரீஇ, அறநோக்காது) lies in withholding and not giving rather than in how the wealth was acquired."
+    },
+    {
+     "a": 754,
+     "b": 659,
+     "verdict": "supports",
+     "reason": "அழக் கொண்ட எல்லாம் அழப்போம் against நற்பாலவை பிற்பயக்கும் makes the manner of getting wealth decide its fruit, as 754's தீதின்றி does."
+    }
+   ]
+  },
+  {
+   "id": "thread:friend_in_ruin",
+   "grade": "supported",
+   "issue": null,
+   "links": [
+    {
+     "a": 106,
+     "b": 806,
+     "verdict": "supports",
+     "reason": "துறவற்க துன்பத்துள் துப்பாயார் நட்பு and துறவார் தொலைவிடத்தும் use the same verb for loyalty in trouble."
+    },
+    {
+     "a": 107,
+     "b": 799,
+     "verdict": "supports",
+     "reason": "விழுமந் துடைத்தவர் நட்பு remembered எழுபிறப்பும், against கெடுங்காலைக் கைவிடுவார் கேண்மை that burns உள்ளினும் at death, judges both friends by the hour of ruin."
+    },
+    {
+     "a": 787,
+     "b": 799,
+     "verdict": "supports",
+     "reason": "அழிவின்கண் அல்லல் உழப்பதாம் நட்பு defines the duty whose failure, கெடுங்காலைக் கைவிடுவார், burns in 799."
+    },
+    {
+     "a": 814,
+     "b": 788,
+     "verdict": "supports",
+     "reason": "ஆங்கே இடுக்கண் களைவது and அமரகத்து ஆற்றறுக்கும் கல்லாமா both place the test at the instant of crisis."
+    },
+    {
+     "a": 798,
+     "b": 814,
+     "verdict": "supports",
+     "reason": "அல்லற்கண் ஆற்றறுப்பார் and அமரகத்து ஆற்றறுக்கும் share the verb for failing at the crisis."
+    },
+    {
+     "a": 815,
+     "b": 106,
+     "verdict": "supports",
+     "reason": "செய்தேமஞ் சாரா (Parimelazhagar: leaving in ruin, தொலைவின்கண் விட்டு நீங்குதல்) against துன்பத்துள் துப்பாயார் applies one measure to keeping and avoiding friends."
+    },
+    {
+     "a": 1293,
+     "b": 787,
+     "verdict": "weakly",
+     "reason": "கெட்டார்க்கு நட்டார்இல் is a quoted saying in a lover's reproach; it fits 787's standard but does not itself define friendship."
+    },
+    {
+     "a": 1293,
+     "b": 798,
+     "verdict": "supports",
+     "reason": "நீ பெட்டாங்கு அவர்பின் செலல் casts her heart as the friend who deserts in distress, the case 798 warns against."
+    }
+   ]
+  },
+  {
+   "id": "thread:shame_gives_way",
+   "grade": "partly_supported",
+   "issue": "The title 'never holds' overreaches the Book of Love: 1137 praises the woman who suffers a sea of desire and still does not mount the மடல் (கடலன்ன காமம் உழந்தும் மடலேறாப் பெண்), so her restraint holds there. The claim is accurate only for the verses it cites. The 1297-1247 note's 'the chapter between them' is wrong, since 1247 is in chapter 125 and 1297 in chapter 130.",
+   "links": [
+    {
+     "a": 1132,
+     "b": 1247,
+     "verdict": "supports",
+     "reason": "நாணினை நீக்கி in 1132 is one resolution of காமம் விடுஒன்றோ நாண்விடு."
+    },
+    {
+     "a": 1134,
+     "b": 1251,
+     "verdict": "supports",
+     "reason": "நாணொடு நல்லாண்மை என்னும் புணை carried by காமக் கடும்புனல், and நாணுத்தாழ் வீழ்த்த கதவு broken by காமக் கணிச்சி, both have shame destroyed by force."
+    },
+    {
+     "a": 1247,
+     "b": 1251,
+     "verdict": "supports",
+     "reason": "The dilemma of 1247 is settled in 1251 by உடைக்கும், breaking rather than choosing."
+    },
+    {
+     "a": 1257,
+     "b": 1247,
+     "verdict": "supports",
+     "reason": "நாணென ஒன்றோ அறியலம் when பேணியார் பெட்ப செயின் dissolves the dilemma in his presence."
+    },
+    {
+     "a": 1297,
+     "b": 1247,
+     "verdict": "supports",
+     "reason": "நாணும் மறந்தேன் settles 1247 by forgetting, as the claim says."
+    },
+    {
+     "a": 1257,
+     "b": 1297,
+     "verdict": "supports",
+     "reason": "நாணென ஒன்றோ அறியலம் and நாணும் மறந்தேன் give the loss of shame in reunion and in separation."
+    }
+   ]
+  },
+  {
+   "id": "thread:lover_in_her_heart",
+   "grade": "supported",
+   "issue": "1249 is in chapter 125, not 113 or 122. Parimelazhagar ties 1184 to her recalling his parting promises (தெளிவித்த சொற்கள்) and treats the pallor as the body betraying mind and speech; reading it as undercutting 'presence in her heart' is the writer's framing.",
+   "links": [
+    {
+     "a": 1129,
+     "b": 1130,
+     "verdict": "supports",
+     "reason": "Both end ஏதிலர் என்னும் இவ் வூர், and 1130's உவந்துறைவர் உள்ளத்துள் என்றும் is her direct answer."
+    },
+    {
+     "a": 1126,
+     "b": 1218,
+     "verdict": "supports",
+     "reason": "கண்ணுள்ளின் போகார் and விழிக்குங்கால் நெஞ்சத்தர் ஆவர் place him inside her, and Parimelazhagar frames both against blame of him."
+    },
+    {
+     "a": 1218,
+     "b": 1249,
+     "verdict": "supports",
+     "reason": "நெஞ்சத்தர் ஆவர் and உள்ளத்தார் காதலவர் both locate him in her heart to deny his absence."
+    },
+    {
+     "a": 1130,
+     "b": 1204,
+     "verdict": "supports",
+     "reason": "உவந்துறைவர் உள்ளத்துள் என்றும் is repeated as எந்நெஞ்சத்து ஓஒ உளரே, then questioned by யாமும் உளேங்கொல் அவர்நெஞ்சத்து."
+    },
+    {
+     "a": 1204,
+     "b": 1205,
+     "verdict": "supports",
+     "reason": "தம்நெஞ்சத்து எம்மைக் கடிகொண்டார் answers 1204's question in the negative."
+    },
+    {
+     "a": 1128,
+     "b": 1205,
+     "verdict": "supports",
+     "reason": "The protected நெஞ்சத்தார் of 1128 becomes the complaint எம்நெஞ்சத்து ஓவா வரல் in 1205."
+    },
+    {
+     "a": 1243,
+     "b": 1204,
+     "verdict": "supports",
+     "reason": "பரிந்துள்ளல் பைதல்நோய் செய்தார்கண் இல் states as fact what 1204 asked."
+    },
+    {
+     "a": 1184,
+     "b": 1130,
+     "verdict": "weakly",
+     "reason": "உள்ளுவன் ... கள்ளம் பிறவோ பசப்பு sets her body against her thinking, but it does not address whether he dwells in her heart."
+    }
+   ]
+  },
+  {
+   "id": "thread:conditions_on_effort",
+   "grade": "supported",
+   "issue": "Parimelazhagar reads 596 as addressed to kings and takes its தள்ளினும் as thwarting by fate (பால்வகை), so 596 itself concedes a limit. 739 concerns a country's natural endowment for its people, not the sufficiency of individual effort, so its pairing with 1040 is loose.",
+   "links": [
+    {
+     "a": 468,
+     "b": 616,
+     "verdict": "supports",
+     "reason": "ஆற்றின் வருந்தா வருத்தம் ... பொத்துப்படும் conditions முயற்சி திருவினை ஆக்கும் on method."
+    },
+    {
+     "a": 476,
+     "b": 596,
+     "verdict": "supports",
+     "reason": "நுனிக்கொம்பர் ... அஃதிறந்து ஊக்கின் உயிர்க்கிறுதி sets a ceiling on striving that உள்ளுவதெல்லாம் உயர்வுள்ளல் does not."
+    },
+    {
+     "a": 14,
+     "b": 1031,
+     "verdict": "supports",
+     "reason": "ஏரின் உழாஅர் ... புயல் ... வளங்குன்றிக் கால் makes the plough that 1031's world follows (ஏர்ப் பின்னது உலகம்) depend on rain."
+    },
+    {
+     "a": 739,
+     "b": 1040,
+     "verdict": "weakly",
+     "reason": "நாடா வளத்தன is about a land's spontaneous wealth, and 1040's இலமென்று அசைஇ இருப்பாரை mocks individual idleness, so they meet only loosely."
+    }
+   ]
+  },
+  {
+   "id": "thread:births_to_secure_or_end",
+   "grade": "partly_supported",
+   "issue": "The second attitude is thin: 398 values learning carried across births (எழுமையும் ஏமாப்பு), not births as a span to secure, and Kalaignar reads எழுமை as generations. 73 values the life-body bond as the fruit of love, which is the only real counterweight. The 'birth as evil' half is well supported; the contrast the title draws rests on two weak verses.",
+   "links": [
+    {
+     "a": 356,
+     "b": 398,
+     "verdict": "weakly",
+     "reason": "எழுமையும் ஏமாப்புடைத்து and மற்றீண்டு வாரா நெறி are compatible: learning that helps across births can end in ending them, so 398 does not treat births as something to secure."
+    },
+    {
+     "a": 339,
+     "b": 356,
+     "verdict": "supports",
+     "reason": "உறங்கி விழிப்பது போலும் பிறப்பு gives the round, and மற்றீண்டு வாரா நெறி exempts those who saw மெய்ப்பொருள்."
+    },
+    {
+     "a": 349,
+     "b": 361,
+     "verdict": "supports",
+     "reason": "தவாஅப் பிறப்பீனும் வித்து names the cause, and பற்றற்ற கண்ணே பிறப்பறுக்கும் gives its removal."
+    },
+    {
+     "a": 358,
+     "b": 351,
+     "verdict": "supports",
+     "reason": "மருளானாம் மாணாப் பிறப்பு becomes பிறப்பென்னும் பேதைமை, with Parimelazhagar's effect-for-cause gloss."
+    },
+    {
+     "a": 357,
+     "b": 356,
+     "verdict": "supports",
+     "reason": "ஓர்த்துள்ளம் உள்ளது உணரின் ... பேர்த்துள்ள வேண்டா பிறப்பு continues கற்றீண்டு மெய்ப்பொருள் கண்டார், with the reading உணரின் that both commentators assume."
+    },
+    {
+     "a": 345,
+     "b": 73,
+     "verdict": "supports",
+     "reason": "அன்போடு இயைந்த வழக்கு gives என்போடு இயைந்த தொடர்பு a purpose, and பிறப்பறுக்கல் உற்றார்க்கு உடம்பும் மிகை withdraws it for the renouncer."
+    }
+   ]
+  },
+  {
+   "id": "thread:signs_and_faces",
+   "grade": "supported",
+   "issue": "Parimelazhagar reads 1277's தணந்தமை as his mental separation while still physically with her, so the bangles detect an inner change, which strengthens the 'signs before mind' point.",
+   "links": [
+    {
+     "a": 824,
+     "b": 706,
+     "verdict": "supports",
+     "reason": "முகத்தின் இனிய நகாஅ அகத்தின்னா contradicts நெஞ்சம் கடுத்தது காட்டும் முகம்."
+    },
+    {
+     "a": 1097,
+     "b": 824,
+     "verdict": "supports",
+     "reason": "செற்றார்போல் நோக்கும் உறாஅர்போன்று உற்றார் and முகத்தின் இனிய ... அகத்தின்னா both have a surface that inverts the heart."
+    },
+    {
+     "a": 1097,
+     "b": 709,
+     "verdict": "supports",
+     "reason": "பகைமையும் கேண்மையும் கண்ணுரைக்கும் is complicated by a lover's செற்றார்போல் நோக்கு that hides friendship."
+    },
+    {
+     "a": 707,
+     "b": 1277,
+     "verdict": "supports",
+     "reason": "தான்முந்துறும் (face) and நம்மினும் முன்னம் உணர்ந்த வளை both give the body knowledge ahead of the mind."
+    },
+    {
+     "a": 1312,
+     "b": 1253,
+     "verdict": "supports",
+     "reason": "குறிப்பின்றித் தும்மல்போல் is the type of the involuntary, and தும்மினார் ... அறிந்து reads a sneeze as intended, as Parimelazhagar notes."
+    }
+   ]
+  },
+  {
+   "id": "thread:life_ranked_below",
+   "grade": "supported",
+   "issue": "Parimelazhagar ties 968's பெருந்தகைமை to the honour that comes with high birth (உயர்குடிப் பிறப்பு), so on his reading part of this ranking belongs to the well-born rather than to everyone.",
+   "links": [
+    {
+     "a": 969,
+     "b": 779,
+     "verdict": "supports",
+     "reason": "உயிர்நீப்பர் மானம் வரின் and இழைத்தது இகவாமைச் சாவார் both rank dying above going back on what one stands for."
+    },
+    {
+     "a": 968,
+     "b": 1017,
+     "verdict": "supports",
+     "reason": "ஊன்ஓம்பும் வாழ்க்கை ... மருந்தோ and நாணால் உயிரைத் துறப்பர் ... நாண்துறவார் make the same ordering."
+    },
+    {
+     "a": 1017,
+     "b": 969,
+     "verdict": "supports",
+     "reason": "நாணால் உயிரைத் துறப்பர் and உயிர்நீப்பர் மானம் வரின் have the same form for நாண் and மானம்."
+    },
+    {
+     "a": 970,
+     "b": 971,
+     "verdict": "supports",
+     "reason": "இளிவரின் வாழாத ... ஒளி and ஒளி ... இளி ... அஃதிறந்து வாழ்தும் எனல் share the ஒளி/இளி pair, and in both, disgrace is a way of going on living."
+    }
+   ]
+  },
+  {
+   "id": "thread:foresight_and_fate",
+   "grade": "supported",
+   "issue": "Parimelazhagar sets 372 in the chapter's wealth context: the loss-fate is the fate of losing what one holds (கைப்பொருள்). That narrows the claim that understanding is 'at fate's disposal'. Parimelazhagar reads 662's ஊறொரால் as not undertaking acts that will come to grief, not as foreseeing harm. And his gloss on 430 gives understanding the work of rebuilding once fate has destroyed, which is the book's own reconciliation of chapters 38 and 43.",
+   "links": [
+    {
+     "a": 427,
+     "b": 429,
+     "verdict": "supports",
+     "reason": "ஆவது அறிவார் defines foresight and எதிரதாக் காக்கும் அறிவினார் puts it to use as guarding, so 429 does develop 427."
+    },
+    {
+     "a": 372,
+     "b": 429,
+     "verdict": "supports",
+     "reason": "இழவூழ் பேதைப்படுக்கும் says fate can make one foolish, and Parimelazhagar's எல்லா அறிவும் உளவாயினும் extends this to the one with understanding that 429 relies on."
+    },
+    {
+     "a": 427,
+     "b": 372,
+     "verdict": "supports",
+     "reason": "372 has ஆகலூழ் widening understanding and இழவூழ் dulling it, so the அறிவுடையார்/அறிவிலார் split in 427 depends on fate."
+    },
+    {
+     "a": 429,
+     "b": 380,
+     "verdict": "supports",
+     "reason": "மற்றொன்று சூழினுந் தான்முந் துறும் sits against எதிரதாக் காக்கும், and Manakkudavar's gloss on 429 (முன்னை வினையால் வருந் துன்பமும் முற்பட்டுக் காக்கின் கடிதாக வாராது) meets the conflict as the claim says."
+    },
+    {
+     "a": 662,
+     "b": 429,
+     "verdict": "weakly",
+     "reason": "உற்றபின் ஒல்காமை fits with 429's அதிர வருவதோர் நோய் இல்லை and need not correct it; the fate reading comes only from Parimelazhagar's தெய்வத்தான் பழுதுபட்ட வழி."
+    }
+   ]
+  },
+  {
+   "id": "thread:standing_before",
+   "grade": "partly_supported",
+   "issue": "The 'one posture' is the writer's construct. 403 and 729 are about speaking or staying silent in an assembly, and 1066 is about asking; none of the three is standing in want before someone. The inference that the deference of 395 is right 'only for the one with nothing yet to say' misreads 395: its learners stand before a teacher in order to learn, not because they are silent. In 1255 Parimelazhagar takes பின் செல்லல் as thinking of him without pause, not physically following.",
+   "links": [
+    {
+     "a": 395,
+     "b": 1066,
+     "verdict": "supports",
+     "reason": "உடையார்முன் இல்லார்போல் ஏக்கற்றும் is honoured for learning, while இரவின் இளிவந்தது இல் degrades asking for goods."
+    },
+    {
+     "a": 403,
+     "b": 729,
+     "verdict": "weakly",
+     "reason": "கற்றார்முன் சொல்லாதிருக்கப் பெறின் and நல்லாரவை அஞ்சுவார் together show silence judged by who keeps it, but neither verse involves standing in want before someone."
+    },
+    {
+     "a": 729,
+     "b": 395,
+     "verdict": "supports",
+     "reason": "கல்லாதவரின் கடை puts someone below the கடையரே கல்லாதவர் of 395, using the same ranking word."
+    },
+    {
+     "a": 966,
+     "b": 1053,
+     "verdict": "supports",
+     "reason": "இகழ்வார்பின் சென்று நிலை is barren, while கரப்பிலா நெஞ்சின் கடனறிவார் முன்நின்று இரப்பும் has ஏஎர், so the object decides the posture's worth."
+    },
+    {
+     "a": 1255,
+     "b": 966,
+     "verdict": "supports",
+     "reason": "செற்றார்பின் செல்லாப் பெருந்தகைமை echoes இகழ்வார்பின் சென்று and declares it out of reach for காமநோய் உற்றார்."
+    },
+    {
+     "a": 1298,
+     "b": 1255,
+     "verdict": "supports",
+     "reason": "In 1298 the heart reasons எள்ளின் இளிவாம் and so keeps to அவர்திறம், an argument from disgrace for doing without the dignity of 1255."
+    }
+   ]
+  },
+  {
+   "id": "thread:strong_and_weak",
+   "grade": "supported",
+   "issue": "The title's 'same words' holds only for 250 and 861. 302's stronger and weaker are Parimelazhagar's gloss on செல்லா இடம் and செல்லிடம், and 772 uses neither word. Parimelazhagar's gloss on 861 counts allies and sound counsel within strength, which makes வலியார் and மெலியார் a reckoning of resources. 773, beside 772 in the same chapter, praises helping an enemy who has fallen, which counts against reading chapter 78 as a mere wish to fight.",
+   "links": [
+    {
+     "a": 861,
+     "b": 250,
+     "verdict": "supports",
+     "reason": "Both verses use வலியார் and மெலியார்: 250 says மெலியார்மேல் செல்லுமிடத்து வலியார்முன் தன்னை நினைக்க as a brake, and 861 says மெலியார்மேல் மேக பகை."
+    },
+    {
+     "a": 302,
+     "b": 861,
+     "verdict": "supports",
+     "reason": "On Parimelazhagar's gloss of செல்லிடத்தும் இல்அதனின் தீய பிற as anger against the weaker, 302 condemns what 861's மெலியார்மேல் மேக பகை recommends; the claim names the reading."
+    },
+    {
+     "a": 772,
+     "b": 861,
+     "verdict": "weakly",
+     "reason": "யானை பிழைத்தவேல் ஏந்தல் இனிது is a boast of valour, and it bears on 861 only through Manakkudavar's gloss on 771 (எளியாரைப் போகச் சொல்லி எதிர்ப்பாரோடு பொர)."
+    },
+    {
+     "a": 493,
+     "b": 861,
+     "verdict": "supports",
+     "reason": "ஆற்றாரும் ஆற்றி அடுப இடனறிந்து shows relative strength is not fixed, which qualifies the வலியார்/மெலியார் sorting of 861."
+    }
+   ]
+  },
+  {
+   "id": "thread:body_as_testimony",
+   "grade": "partly_supported",
+   "issue": "The claim that 'both commentators frame 1232, 1235 as the friend's blaming of the man (இயற்பழித்தல்)' is wrong for 1232. Manakkudavar has the friend warn that the tears are becoming gossip so that she will bear up, and Parimelazhagar has the friend console her (இனி நீ ஆற்றல் வேண்டும்). Only Manakkudavar on 1235 says இயற்பழித்து outright; Parimelazhagar's 1235 is 'how shall we hide it'. Manakkudavar takes தூற்றார் in 1190 as the townspeople, not the friend.",
+   "links": [
+    {
+     "a": 1188,
+     "b": 1190,
+     "verdict": "supports",
+     "reason": "துறந்தார் அவர்என்பார் இல் complains of the imbalance that நல்காமை தூற்றார் எனின் then accepts."
+    },
+    {
+     "a": 1190,
+     "b": 1232,
+     "verdict": "supports",
+     "reason": "The same word நல்காமை recurs: the pallor she would have spoken of without his நல்காமை is, in 1232, what tells of it (நல்காமை சொல்லுவ போலும்)."
+    },
+    {
+     "a": 1190,
+     "b": 1236,
+     "verdict": "supports",
+     "reason": "நல்காமை தூற்றார் எனின் and கொடியர் எனக்கூறல் நொந்து both make the talk against him what she cannot bear."
+    },
+    {
+     "a": 1235,
+     "b": 1188,
+     "verdict": "supports",
+     "reason": "In 1188 the town reads only பசந்தாள், while in 1235 the shoulders கொடியார் கொடுமை உரைக்கும் on the friend's reading."
+    },
+    {
+     "a": 1235,
+     "b": 1236,
+     "verdict": "supports",
+     "reason": "In 1236 Parimelazhagar frames the woman answering the friend who has blamed him (இயற்பழித்த தோழிக்கு), refusing the charge of கொடியார் கொடுமை உரைக்கும்."
+    },
+    {
+     "a": 1236,
+     "b": 1169,
+     "verdict": "supports",
+     "reason": "She says கொடியார் கொடுமையின் herself in 1169 but is pained by கொடியர் எனக்கூறல் from the friend in 1236."
+    },
+    {
+     "a": 1169,
+     "b": 1235,
+     "verdict": "weakly",
+     "reason": "The only tie is the shared phrase கொடியார் கொடுமை, which shows her vocabulary but carries no argument (the limits say this)."
+    }
+   ]
+  },
+  {
+   "id": "thread:measure_of_the_sulk",
+   "grade": "supported",
+   "issue": "'1330, the book's last verse' holds only in Parimelazhagar's order; Manakkudavar closes the Book of Love at 1323. The commentators assign கனி and கருக்காய் in 1306 to துனி and புலவி differently: Parimelazhagar takes கனி as rich ripeness, not spoilage.",
+   "links": [
+    {
+     "a": 1109,
+     "b": 1302,
+     "verdict": "supports",
+     "reason": "1109 lists ஊடல் as பயன், and in 1302 உப்பமைந் தற்றால் / சிறிது மிக்கற்றால் நீள விடல் makes it a gain only in measure."
+    },
+    {
+     "a": 1109,
+     "b": 1326,
+     "verdict": "supports",
+     "reason": "புணர்தலின் ஊடல் இனிது is the 'raising' half of the claim, ranking one item of 1109's list."
+    },
+    {
+     "a": 1326,
+     "b": 1330,
+     "verdict": "supports",
+     "reason": "அதற்கின்பம் கூடி முயங்கப் பெறின் makes the sulk's pleasure depend on the union that 1326 ranked below it."
+    },
+    {
+     "a": 1330,
+     "b": 1302,
+     "verdict": "supports",
+     "reason": "Parimelazhagar glosses 1330's condition as அளவறிந்து நீங்கி, the same measure as 1302's நீள விடல்."
+    },
+    {
+     "a": 1302,
+     "b": 1306,
+     "verdict": "supports",
+     "reason": "Together, துனியும் புலவியும் இல்லாயின் கனியும் கருக்காயும் and 1302's salt make the sulk a matter of degree."
+    },
+    {
+     "a": 1306,
+     "b": 1330,
+     "verdict": "supports",
+     "reason": "ஊடுதல் காமத்திற்கு இன்பம் states positively what 1306 argues by the fruit image."
+    },
+    {
+     "a": 1282,
+     "b": 1302,
+     "verdict": "weakly",
+     "reason": "தினைத்துணையும் ஊடாமை வேண்டும் abolishes the sulk rather than measuring it, and it is the woman's impatience (Parimelazhagar's own phrase is தன் விதுப்பு), so it bounds the praise only loosely."
+    }
+   ]
+  },
+  {
+   "id": "thread:sulk_on_conditions",
+   "grade": "supported",
+   "issue": "1322 does not say that 'only a small துனி is wanted'. It says the small துனி that a sulk brings leads to greatness even if his grace droops; 'only' comes from pairing it with Parimelazhagar's துனி/புலவி distinction on 1306. Manakkudavar reads 1322 as the sulk being pleasant even without union, which cuts against the claim that union is the condition.",
+   "links": [
+    {
+     "a": 1109,
+     "b": 1302,
+     "verdict": "supports",
+     "reason": "Praise as பயன் in 1109 is hedged by நீள விடல் being like too much salt in 1302."
+    },
+    {
+     "a": 1282,
+     "b": 1302,
+     "verdict": "weakly",
+     "reason": "தினைத்துணையும் ஊடாமை is a condition (காமம் நிறைய வரின்), but it is set aside in the thread's own limits as the woman's haste."
+    },
+    {
+     "a": 1302,
+     "b": 1306,
+     "verdict": "supports",
+     "reason": "In both verses the sulk is a matter of degree, given as food: salt in 1302 and fruit at the wrong stage (கனியும் கருக்காயும்) in 1306."
+    },
+    {
+     "a": 1322,
+     "b": 1306,
+     "verdict": "weakly",
+     "reason": "சிறுதுனி fits with 1306's need for quarrels, but 'only the small dose' depends on Parimelazhagar's gloss of துனி on 1306, not on 1322's words."
+    },
+    {
+     "a": 1326,
+     "b": 1330,
+     "verdict": "supports",
+     "reason": "In 1330, கூடி முயங்கப் பெறின் hedges the praise of 1326's புணர்தலின் ஊடல் இனிது."
+    },
+    {
+     "a": 1307,
+     "b": 1330,
+     "verdict": "supports",
+     "reason": "In 1307, ஊடலின் உண்டாங்கோர் துன்பம் புணர்வது நீடுவதன்றுகொல் is the doubt behind 1330's proviso."
+    },
+    {
+     "a": 1330,
+     "b": 1302,
+     "verdict": "supports",
+     "reason": "Parimelazhagar's gloss of 1330 (அளவறிந்து நீங்கி) ties its condition to 1302's measure."
+    },
+    {
+     "a": 1309,
+     "b": 1323,
+     "verdict": "supports",
+     "reason": "Both condition the sulk on closeness: வீழுநர் கண்ணே இனிது in 1309 and நிலத்தொடு நீரியைந் தன்னார் அகத்து in 1323."
+    }
+   ]
+  },
+  {
+   "id": "thread:learning_judged_by_conduct",
+   "grade": "supported",
+   "issue": "637 and 949 are about fitting treatise knowledge to circumstances, not about conduct cancelling learning, so 'the same rule becomes professional' stretches the thread's rule. Parimelazhagar reads மாணார் in 823 as enemies who do not turn friend through study, not as the unworthy in general, so the limits lean on a broader reading than the chapter gives.",
+   "links": [
+    {
+     "a": 391,
+     "b": 140,
+     "verdict": "supports",
+     "reason": "நிற்க அதற்குத் தக is enforced by பலகற்றும் கல்லார் அறிவிலாதார், which withdraws the status of the learned."
+    },
+    {
+     "a": 391,
+     "b": 834,
+     "verdict": "supports",
+     "reason": "ஓதி உணர்ந்தும் பிறர்க்குரைத்தும் தானடங்கா names the one who skips 391's second half and calls him பேதையின் பேதை."
+    },
+    {
+     "a": 175,
+     "b": 834,
+     "verdict": "supports",
+     "reason": "அஃகி அகன்ற அறிவென்னாம் ... வெஃகி வெறிய செயின் voids learning by conduct, as 834 does."
+    },
+    {
+     "a": 834,
+     "b": 130,
+     "verdict": "supports",
+     "reason": "கற்றடங்கல் ஆற்றுவான் in 130 is the positive of தானடங்கா in 834, pairing learning with restraint."
+    },
+    {
+     "a": 391,
+     "b": 823,
+     "verdict": "irrelevant",
+     "reason": "823's மாணார் are enemies in the chapter on false friendship (Parimelazhagar: பகைவர்), and the verse serves the limits, not the claim."
+    },
+    {
+     "a": 637,
+     "b": 140,
+     "verdict": "weakly",
+     "reason": "உலகத்து இயற்கை அறிந்து செயல் resembles 140's உலகத்தோடு ஒட்ட, but it asks for practical fit, not moral conduct that cancels learning."
+    },
+    {
+     "a": 949,
+     "b": 637,
+     "verdict": "supports",
+     "reason": "கற்றான் கருதிச் செயல் and செயற்கை அறிந்தக் கடைத்தும் both require book learning to be applied to the case, which is the professional half of the claim."
+    }
+   ]
+  },
+  {
+   "id": "thread:inside_decides",
+   "grade": "supported",
+   "issue": "661 is about firmness, not about outward acts being genuine; it shares only the shape of 34. 298 does not say water reaches 'only' the outside; it pairs outer purity from water with inner purity seen through truth.",
+   "links": [
+    {
+     "a": 93,
+     "b": 34,
+     "verdict": "supports",
+     "reason": "அகத்தானாம் இன்சொல் keeps speech inside 34's மனத்துக்கண் மாசிலன், and Parimelazhagar counts சொல்லும் வேடமும் among the ஆகுல நீர பிற."
+    },
+    {
+     "a": 661,
+     "b": 34,
+     "verdict": "weakly",
+     "reason": "மனத்திட்பம் / மற்றைய எல்லாம் பிற copies 34's form but concerns firmness, not whether an outward act is genuine."
+    },
+    {
+     "a": 93,
+     "b": 786,
+     "verdict": "supports",
+     "reason": "முகநக versus அகநக in 786 repeats 93's முகத்தான் / அகத்தான் test of genuineness."
+    },
+    {
+     "a": 294,
+     "b": 119,
+     "verdict": "supports",
+     "reason": "In 294 உள்ளத்தாற் பொய்யாது and in 119 உட்கோட்டம் இன்மை both make straight speech count only when the inside matches."
+    },
+    {
+     "a": 119,
+     "b": 295,
+     "verdict": "supports",
+     "reason": "மனத்தொடு வாய்மை மொழியின் puts on truth-speaking the same mind-and-word condition that 119 puts on rectitude."
+    },
+    {
+     "a": 278,
+     "b": 34,
+     "verdict": "supports",
+     "reason": "மனத்தது மாசாக நீராடி is the direct negation of மனத்துக்கண் மாசிலன், with bathing as the show."
+    },
+    {
+     "a": 298,
+     "b": 278,
+     "verdict": "supports",
+     "reason": "புறந்தூய்மை நீரான் அமையும் states the principle behind 278's bathers with impure minds."
+    },
+    {
+     "a": 825,
+     "b": 890,
+     "verdict": "weakly",
+     "reason": "மனத்தின் அமையாதவரை சொல்லினால் தேறற்பாற்று அன்று does subordinate words to mind, but the pair is about the danger of others, and the claim cites neither verse."
+    }
+   ]
+  },
+  {
+   "id": "thread:conduct_makes_family",
+   "grade": "supported",
+   "issue": "Kalaignar reads 951, 952 and 502 in 133's direction (those who keep these are to be counted well-born), so chapter 96's 'birth first' direction is Parimelazhagar's and Manakkudavar's construal more than the bare Tamil. 958's failing is specifically நாரின்மை, lack of kindness (Parimelazhagar: not giving, harsh speech), not any lapse in conduct.",
+   "links": [
+    {
+     "a": 133,
+     "b": 951,
+     "verdict": "supports",
+     "reason": "ஒழுக்கம் உடைமை குடிமை and இற்பிறந்தார் கண்அல்லது இல்லை இயல்பாக run in opposite causal directions, as the claim says."
+    },
+    {
+     "a": 952,
+     "b": 133,
+     "verdict": "supports",
+     "reason": "இழுக்கார் குடிப்பிறந்தார் against இழுக்கம் இழிந்த பிறப்பாய் விடும் turns 952 into near-definition, as the note argues."
+    },
+    {
+     "a": 958,
+     "b": 133,
+     "verdict": "supports",
+     "reason": "குலத்தின்கண் ஐயப்படும் keeps birth as the underlying fact, where 133 makes the lapse itself low birth."
+    },
+    {
+     "a": 502,
+     "b": 133,
+     "verdict": "supports",
+     "reason": "On 133's definition, குடிப்பிறந்து in 502 cannot be checked apart from குற்றத்தின் நீங்கி."
+    },
+    {
+     "a": 133,
+     "b": 1019,
+     "verdict": "supports",
+     "reason": "குலஞ்சுடும் கொள்கை பிழைப்பின், where Parimelazhagar glosses கொள்கை as ஒழுக்கம், agrees with 133's இழுக்கம் இழிந்த பிறப்பு."
+    },
+    {
+     "a": 502,
+     "b": 951,
+     "verdict": "supports",
+     "reason": "செப்பமும் நாணும் being natural only to இற்பிறந்தார் explains why 502 asks for குடிப்பிறந்து with நாண்."
+    },
+    {
+     "a": 794,
+     "b": 951,
+     "verdict": "supports",
+     "reason": "794's குடிப்பிறந்து ... பழிநாணுவான் is grounded by 951's pairing of birth with நாண்."
+    }
+   ]
+  },
+  {
+   "id": "thread:sulk_versus_union",
+   "grade": "supported",
+   "issue": "'The last verse' (1330) is Parimelazhagar's order; Manakkudavar ends the book at 1323. Manakkudavar takes the world in 1103 as Indra's heaven, while Parimelazhagar takes it as the world ascetics attain.",
+   "links": [
+    {
+     "a": 1323,
+     "b": 1103,
+     "verdict": "supports",
+     "reason": "The challenge to heaven passes from மென்றோள் துயில் (1103) to புலத்தல் (1323: புலத்தலின் புத்தேள்நாடு உண்டோ)."
+    },
+    {
+     "a": 1325,
+     "b": 1103,
+     "verdict": "supports",
+     "reason": "The same phrase தாம்வீழ்வார் மென்றோள் is slept on in 1103, while in 1325 being kept from it (அகறலின்) ஆங்கொன்றுடைத்து."
+    },
+    {
+     "a": 1109,
+     "b": 1326,
+     "verdict": "supports",
+     "reason": "புணர்தலின் ஊடல் இனிது ranks what 1109 lists without ranking."
+    },
+    {
+     "a": 1326,
+     "b": 1330,
+     "verdict": "supports",
+     "reason": "In 1330, கூடி முயங்கப் பெறின் makes the sulk's sweetness depend on the union that 1326 placed below it."
+    },
+    {
+     "a": 1307,
+     "b": 1330,
+     "verdict": "supports",
+     "reason": "புணர்வது நீடுவதன்றுகொல் shows the sulk valued as a way back to union, its doubt being its pain."
+    }
+   ]
+  },
+  {
+   "id": "thread:king_falls_by_himself",
+   "grade": "supported",
+   "issue": "553 has the land ruined day by day, not the king perishing by himself, so it widens the claim from the ruler's safety to the realm's.",
+   "links": [
+    {
+     "a": 388,
+     "b": 547,
+     "verdict": "supports",
+     "reason": "முறைசெய்து ... இறையென்று வைக்கப்படும் and இறைகாக்கும் ... அவனை முறைகாக்கும் make justice what earns the title and what guards its holder."
+    },
+    {
+     "a": 547,
+     "b": 448,
+     "verdict": "supports",
+     "reason": "In 547 முறைகாக்கும் and in 448 இடிப்பாரை இல்லாத ஏமரா மன்னன் name his own justice and his rebukers as the king's guard."
+    },
+    {
+     "a": 548,
+     "b": 448,
+     "verdict": "supports",
+     "reason": "தானே கெடும் and கெடுப்பார் இலானுங் கெடும் both describe a fall with no outside agent, and Parimelazhagar on 448 says பகையாய்க் கெடுப்பார் இல்லையாயினும்."
+    },
+    {
+     "a": 548,
+     "b": 553,
+     "verdict": "supports",
+     "reason": "ஓரா முறைசெய்யா and நாடி முறைசெய்யா name the same neglect, which ruins the king in 548 and his land (நாடு கெடும்) in 553."
+    },
+    {
+     "a": 389,
+     "b": 448,
+     "verdict": "supports",
+     "reason": "Parimelazhagar supplies இடிக்கும் துணையாயினார் as the speakers of 389's செவிகைப்பச் சொல், the absence of whom ruins the king in 448."
+    },
+    {
+     "a": 389,
+     "b": 447,
+     "verdict": "supports",
+     "reason": "On Parimelazhagar's reading, 389's செவிகைப்பச் சொற்பொறுக்கும் is the temperament that 447's இடிக்குந் துணையாரை ஆள்வார் needs; Manakkudavar's other-offences reading is named in the limits."
+    }
+   ]
+  },
+  {
+   "id": "thread:sulk_defeated_by_heart",
+   "grade": "supported",
+   "issue": "In 1246 it is the heart's own anger, refusing to go to him over his cruelty in Parimelazhagar's frame, that she calls false. So 1246 is not her plan to sulk but the heart's pretended sulk, which still fits the pattern.",
+   "links": [
+    {
+     "a": 1259,
+     "b": 1284,
+     "verdict": "supports",
+     "reason": "புலப்பல் எனச்சென்றேன் ... நெஞ்சம் கலத்தல் and ஊடற்கண் சென்றேன் ... கூடற்கண் சென்றது என்னெஞ்சு tell the same defeat."
+    },
+    {
+     "a": 1260,
+     "b": 1259,
+     "verdict": "supports",
+     "reason": "நிணந்தீயில் இட்டன்ன நெஞ்சினார்க்கு உண்டோ ... ஊடி நிற்பேம் எனல் gives the general reason for 1259's occasion."
+    },
+    {
+     "a": 1284,
+     "b": 1246,
+     "verdict": "supports",
+     "reason": "1246's காதலர்க் கண்டால் புலந்துணராய் is borne out in 1284's அதுமறந்து கூடற்கண் சென்றது."
+    },
+    {
+     "a": 1284,
+     "b": 1294,
+     "verdict": "supports",
+     "reason": "துனிசெய்து துவ்வாய் ... நின்னொடு சூழ்வார்யார் draws the consequence of the heart's desertion in 1284."
+    },
+    {
+     "a": 1246,
+     "b": 1294,
+     "verdict": "supports",
+     "reason": "பொய்க்காய்வு காய்தி and துனிசெய்து துவ்வாய் both charge the heart with being unable to hold the sulk."
+    },
+    {
+     "a": 1294,
+     "b": 1260,
+     "verdict": "supports",
+     "reason": "புணர்ந்தூடி நிற்பேம் எனல் being impossible for such hearts is what 1294 acts on by no longer consulting the heart."
+    }
+   ]
+  },
+  {
+   "id": "thread:body_betrays_secret",
+   "grade": "supported",
+   "issue": "Both commentators read 1157's bangles as telling the woman or her friend of his leaving (Parimelazhagar: உனக்கு அறிவியாவோ; Manakkudavar: எமக்கு அறிவியாவோ), not as broadcasting it to the town. 1139 has her love, not her body, reeling through the street.",
+   "links": [
+    {
+     "a": 1139,
+     "b": 1180,
+     "verdict": "supports",
+     "reason": "என் காமம் மறுகின் மறுகும் and அறைபறை கண்ணார் both locate the leak in the lover herself."
+    },
+    {
+     "a": 1254,
+     "b": 1180,
+     "verdict": "supports",
+     "reason": "அறைபறை கண் supplies a means for 1254's மறையிறந்து மன்று படும்."
+    },
+    {
+     "a": 1254,
+     "b": 1138,
+     "verdict": "supports",
+     "reason": "The identical line மறையிறந்து மன்று படும் moves from love in general (1138) to her own case after நிறையுடையேன் என்பேன்மன் (1254)."
+    },
+    {
+     "a": 1232,
+     "b": 1180,
+     "verdict": "supports",
+     "reason": "Both make the eyes announce what she would hide: பசந்து பனிவாரும் கண் நல்காமை சொல்லுவ போலும் and அறைபறை கண்ணார்."
+    },
+    {
+     "a": 1157,
+     "b": 1235,
+     "verdict": "weakly",
+     "reason": "வளை தூற்றாகொல் and தோள் கொடியார் கொடுமை உரைக்கும் share the image of the body speaking, but the commentators make 1157's telling private, to her or the friend."
+    },
+    {
+     "a": 1233,
+     "b": 1157,
+     "verdict": "supports",
+     "reason": "தணந்தமை சால அறிவிப்ப போலும், which Parimelazhagar glosses as onlookers coming to blame him, makes the shoulders publish the separation as the bangles do."
+    }
+   ]
+  },
+  {
+   "id": "thread:household_or_renunciation",
+   "grade": "partly_supported",
+   "issue": "The claim misreports Parimelazhagar on 46 and 47. He glosses புறத்தாறு as 'இல்லை விட்டு வனத்துச் செல்லும் நிலை', the forest-dweller stage, and takes 47's முயல்வார் as those in the third stage, explicitly leaving out the full renouncers (முற்றத் துறந்தவர் விட்டமையின்). That is how he avoids the collision with 348, so the conflict between 46 and 342/348 rests on Manakkudavar's தவம் and on Pope, not on both commentators. The 23-46 link note concedes this, and the claim contradicts it.",
+   "links": [
+    {
+     "a": 21,
+     "b": 48,
+     "verdict": "weakly",
+     "reason": "நோற்பாரின் நோன்மை உடைத்து credits the household with more endurance, not with first place, so it sits only loosely against 21's பனுவல் துணிவு about the renouncers' greatness."
+    },
+    {
+     "a": 21,
+     "b": 49,
+     "verdict": "supports",
+     "reason": "அறன் எனப் பட்டதே இல்வாழ்க்கை, where the ஏ singles out, sets the household against 21's placing of ஒழுக்கத்து நீத்தார் பெருமை above every excellence."
+    },
+    {
+     "a": 23,
+     "b": 49,
+     "verdict": "supports",
+     "reason": "On the commentators' reading of 23 (ஈண்டு அறம் பூண்டார் = renouncers, which the note names), 49's அறன் எனப்பட்டதே இல்வாழ்க்கை gives the word அறம் to the other life."
+    },
+    {
+     "a": 23,
+     "b": 46,
+     "verdict": "weakly",
+     "reason": "Parimelazhagar reads 46's புறத்தாறு as the forest stage, not the துறவறம் of 23, so the pair collides only on a reading neither old commentator gives."
+    },
+    {
+     "a": 46,
+     "b": 348,
+     "verdict": "weakly",
+     "reason": "The note says Parimelazhagar takes புறத்தாறு as renunciation, but he makes it the forest stage; only Manakkudavar's புறநெறியாகிய தவம் sets 46 against 348's தீரத் துறந்தார்."
+    },
+    {
+     "a": 47,
+     "b": 266,
+     "verdict": "weakly",
+     "reason": "Parimelazhagar's முயல்வார் excludes full renouncers, while 266's தவஞ் செய்வார் are for him those who have renounced (துறந்து தவத்தைச் செய்வார்), so on neither commentator is the householder ranked above 266's ascetic."
+    },
+    {
+     "a": 266,
+     "b": 46,
+     "verdict": "supports",
+     "reason": "266's மற்றல்லார் அவஞ்செய்வார் puts everyone outside தவம், householders included, among the futile, while 46 asks what the virtuous householder would gain by leaving (பெறுவது எவன்)."
+    },
+    {
+     "a": 342,
+     "b": 46,
+     "verdict": "supports",
+     "reason": "342's துறந்தபின் ஈண்டு இயற்பால பல answers 46's பெறுவது எவன் with 'much', if புறத்தாறு is taken as renunciation, as Manakkudavar's தவம் allows."
+    },
+    {
+     "a": 266,
+     "b": 348,
+     "verdict": "supports",
+     "reason": "Both split humanity into the ascetic and மற்றல்லார் / மற்றையவர், and both describe the rest as caught (ஆசையுட் பட்டு, வலைப்பட்டார்)."
+    },
+    {
+     "a": 348,
+     "b": 50,
+     "verdict": "supports",
+     "reason": "50's தெய்வத்துள் வைக்கப்படும் (heaven, which Parimelazhagar calls the householder's மறுமைப்பயன்) against 348's தலைப்பட்டார் (release) is the ladder the claim attributes to him."
+    }
+   ]
+  },
+  {
+   "id": "thread:sulk_in_measure",
+   "grade": "partly_supported",
+   "issue": "The claim reads 1307 as fear that union will be delayed, but Parimelazhagar glosses புணர்வது நீடுவது அன்றுகொல் as worry about whether the sweet union will last long (நீட்டிக்குமோ நீட்டியாதோ), and Kalaignar agrees. On that reading 1329's wish that the night be long (நீடுக) matches 1307's worry, so the 'feared then desired' contrast depends on a reading the claim does not name. The claim's sentence 'both the man's on his assignment' is also garbled.",
+   "links": [
+    {
+     "a": 1109,
+     "b": 1302,
+     "verdict": "supports",
+     "reason": "1109 lists ஊடல் among love's பயன், and 1302 limits it: புலவி is salt in measure, and சிறிது மிக்கற்றால் நீள விடல்."
+    },
+    {
+     "a": 1109,
+     "b": 1326,
+     "verdict": "supports",
+     "reason": "1326's புணர்தலின் ஊடல் இனிது ranks two items from 1109's unranked list ஊடல் உணர்தல் புணர்தல்."
+    },
+    {
+     "a": 1109,
+     "b": 1330,
+     "verdict": "supports",
+     "reason": "1330's ஊடுதல் காமத்திற்கு இன்பம் repeats 1109's valuation of ஊடல; the note's 'scornful reading' of 1109 is not borne out by Parimelazhagar's gloss, which praises the sequence."
+    },
+    {
+     "a": 1282,
+     "b": 1302,
+     "verdict": "supports",
+     "reason": "1282's தினைத்துணையும் ஊடாமை வேண்டும் under காமம் நிறைய வரின் pushes 1302's measured salt to zero, and the limits name Parimelazhagar's reading of it as her haste."
+    },
+    {
+     "a": 1301,
+     "b": 1302,
+     "verdict": "supports",
+     "reason": "1301's காண்கம் சிறிது becomes 1302's explicit measure (அதுசிறிது மிக்கற்றால் நீள விடல்), and Parimelazhagar says so (புலவியை நீள விடலாகாது)."
+    },
+    {
+     "a": 1307,
+     "b": 1330,
+     "verdict": "supports",
+     "reason": "1307's ஊடலின் உண்டு ஓர் துன்பம், which concerns புணர்வது, ties the sulk's pain to the union that 1330's கூடி முயங்கப் பெறின் makes its condition, though the kind of worry is read differently (see issue)."
+    },
+    {
+     "a": 1326,
+     "b": 1330,
+     "verdict": "supports",
+     "reason": "1330's அதற்கின்பம் கூடி முயங்கப் பெறின் makes the sulk's pleasure depend on the embrace that 1326's புணர்தலின் ஊடல் இனிது ranked below it."
+    },
+    {
+     "a": 1329,
+     "b": 1307,
+     "verdict": "weakly",
+     "reason": "On Parimelazhagar's and Kalaignar's reading, 1307's நீடுவது அன்றுகொல் worries that union will not last long, so 1329's நீடுக மன்னோ இரா wishes for the same length rather than for a delay once feared."
+    },
+    {
+     "a": 1330,
+     "b": 1302,
+     "verdict": "supports",
+     "reason": "Parimelazhagar glosses 1330's கூடி முயங்கப் பெறின் as ending the sulk அளவறிந்து, between துனி and an unripe புலவி, which is 1302's salt measure."
+    },
+    {
+     "a": 1330,
+     "b": 1304,
+     "verdict": "supports",
+     "reason": "On the plain reading the limits name, ஊடியவரை உணராமை = வாடிய வள்ளி முதலரிந்தற்று is the case where 1330's பெறின் fails."
+    }
+   ]
+  },
+  {
+   "id": "thread:enmity_chosen_and_refused",
+   "grade": "partly_supported",
+   "issue": "Only two links carry the claim. The 995 step trades on a shift in பண்பு: in 871 பண்பிலது means 'yielding no good' (Parimelazhagar: தீமை பயப்பது), while 995's பண்பு means courteous qualities. Saying the 'quality enmity is said to lack' survives inside it is wordplay, not the same quality. Also, neither commentator reads 867's அடுத்திருந்து as 'staying close': Parimelazhagar takes it as having begun a work, and Kalaignar reads 861 the opposite way (fight the strong).",
+   "links": [
+    {
+     "a": 861,
+     "b": 871,
+     "verdict": "supports",
+     "reason": "861's மெலியார்மேல் மேக பகை enjoins enmity, while 871 says பகை is not வேண்டற்பாற்று even in jest (நகையேயும்)."
+    },
+    {
+     "a": 871,
+     "b": 867,
+     "verdict": "supports",
+     "reason": "867's கொடுத்தும் கொளல்வேண்டும் மன்ற makes some enmity worth buying, against 871's general refusal, and Parimelazhagar's மாணாத பகை gloss is named as the way through."
+    },
+    {
+     "a": 995,
+     "b": 871,
+     "verdict": "weakly",
+     "reason": "The shared words நகை / பகை / பண்பு are real, but 871's பண்பிலது (no good comes of it) and 995's பகையுள்ளும் பண்புள (courtesy kept toward a foe) use பண்பு in different senses."
+    }
+   ]
+  },
+  {
+   "id": "thread:fortune_goddess",
+   "grade": "partly_supported",
+   "issue": "The recurring figure is well documented, but the conclusion that it is 'a portable image ... not a doctrine about what in fact draws wealth' goes beyond the verses. Having many triggers does not make them non-causal, and Parimelazhagar treats 617 as stating the cause (ஏது) of fortune and misfortune. In 482 he glosses திரு simply as செல்வம் with no goddess, so counting it among the goddess's names is a reading.",
+   "links": [
+    {
+     "a": 84,
+     "b": 167,
+     "verdict": "supports",
+     "reason": "செய்யாள் in 84 and செய்யவள் in 167 are the same goddess, settling with the host and leaving the envious man for her தவ்வை."
+    },
+    {
+     "a": 84,
+     "b": 617,
+     "verdict": "supports",
+     "reason": "செய்யாள் உறையும் ... இல் and தாமரையினாள் மடியிலான் தாளுளாள் give the goddess two dwellings: hospitality and effort."
+    },
+    {
+     "a": 167,
+     "b": 617,
+     "verdict": "supports",
+     "reason": "167's தவ்வை and 617's மாமுகடி are the elder sister, so the pair marks both envy and sloth."
+    },
+    {
+     "a": 179,
+     "b": 167,
+     "verdict": "supports",
+     "reason": "179's திரு ... சேரும் comes to the non-coveting, and 167's செய்யவள் leaves the envious: the same goddess moves in opposite directions."
+    },
+    {
+     "a": 179,
+     "b": 594,
+     "verdict": "supports",
+     "reason": "திறன் அறிந்து ஆங்கே திரு and ஆக்கம் அதர்வினாய்ச் செல்லும் both make fortune a traveller that finds its way to the person."
+    },
+    {
+     "a": 482,
+     "b": 617,
+     "verdict": "supports",
+     "reason": "திருவினைத் தீராமை ஆர்க்குங் கயிறு treats fortune as something that leaves unless tied, and 617 lodges her in effort; Parimelazhagar's gloss of 482 is செல்வம், not the goddess."
+    },
+    {
+     "a": 594,
+     "b": 617,
+     "verdict": "supports",
+     "reason": "அசைவிலா ஊக்கம் and மடியிலான் தாள் both name exertion as where fortune goes."
+    },
+    {
+     "a": 920,
+     "b": 617,
+     "verdict": "supports",
+     "reason": "திருநீக்கப் பட்டார் in 920 are the goddess's rejects, the counterpart of 617's residence rule."
+    },
+    {
+     "a": 920,
+     "b": 936,
+     "verdict": "supports",
+     "reason": "920's கவறு comes with abandonment by திரு, and 936's சூதென்னும் முகடி makes dice the sister herself."
+    },
+    {
+     "a": 936,
+     "b": 167,
+     "verdict": "supports",
+     "reason": "167's தவ்வை and 936's முகடி are the same elder sister."
+    },
+    {
+     "a": 936,
+     "b": 617,
+     "verdict": "supports",
+     "reason": "முகடி / மாமுகடி recur, and Parimelazhagar's 'தன் பெயர் சொல்லல் மங்கலம் அன்மையின்' on 936 is cited correctly."
+    },
+    {
+     "a": 371,
+     "b": 617,
+     "verdict": "supports",
+     "reason": "371's போகூழால் தோன்றும் மடி makes the 617 condition, மடி, itself a product of ஊழ்."
+    }
+   ]
+  },
+  {
+   "id": "thread:love_and_liquor",
+   "grade": "supported",
+   "issue": "In 1145 the thing that grows sweeter is love's becoming rumour (Parimelazhagar: காமம் அலராந்தோறும் இனிது), not love at each meeting, so 'wanted more with each exposure' means public exposure.",
+   "links": [
+    {
+     "a": 1090,
+     "b": 1281,
+     "verdict": "supports",
+     "reason": "உண்டார்கண் அல்லது அடுநறா ... கண்டார் மகிழ்செய்தல் இன்று and காண மகிழ்தலும் கள்ளுக்கு இல் make the same sight-versus-drink contrast."
+    },
+    {
+     "a": 1201,
+     "b": 1090,
+     "verdict": "supports",
+     "reason": "1201's உள்ளினும் ... கள்ளினும் காமம் இனிது moves 1090's sight to thought, and Parimelazhagar glosses கள் there as delighting only when drunk (உண்டுழியல்லது)."
+    },
+    {
+     "a": 1201,
+     "b": 1281,
+     "verdict": "supports",
+     "reason": "உள்ளினும் தீராப் பெருமகிழ் and உள்ளக் களித்தலும் ... கள்ளுக்கு இல் give the same judgment from the man and the woman."
+    },
+    {
+     "a": 1145,
+     "b": 1281,
+     "verdict": "supports",
+     "reason": "1145's களித்தொறும் கள்ளுண்டல் வேட்டற்றால் takes drink as the model, and 1281's கள்ளுக்கு இல் காமத்திற்கு உண்டு marks where the likeness stops."
+    },
+    {
+     "a": 1281,
+     "b": 1288,
+     "verdict": "supports",
+     "reason": "In one chapter, love is above கள் (1281) and then like கள் to the drinker despite இளித்தக்க இன்னா (1288)."
+    },
+    {
+     "a": 1288,
+     "b": 1145,
+     "verdict": "supports",
+     "reason": "களித்தார்க்குக் கள்ளற்றே and களித்தொறும் கள்ளுண்டல் வேட்டற்றால் share the drinker's returning appetite, and 1288 adds the harm."
+    }
+   ]
+  },
+  {
+   "id": "thread:sulk_without_fault",
+   "grade": "supported",
+   "issue": "'Only 1311 states a ground' undersells chapter 132: in 1313, 1319 and 1320 she also names a ground, always another woman (ஒருத்தியைக் காட்டிய, பிறர்க்கும், யாருள்ளி). The difference is that the man calls those grounds baseless, not that she gives none.",
+   "links": [
+    {
+     "a": 1305,
+     "b": 1321,
+     "verdict": "supports",
+     "reason": "Parimelazhagar's gloss on 1305, 'தவறில்லார்க்கும் புலவி இனிது', matches 1321's இல்லை தவறவர்க்கு ஆயினும் ஊடுதல் வல்லது."
+    },
+    {
+     "a": 1321,
+     "b": 1325,
+     "verdict": "supports",
+     "reason": "இல்லை தவறவர்க்கு and தவறிலர் ஆயினும் open the woman's and the man's verses in chapter 133 with the same concession."
+    },
+    {
+     "a": 1305,
+     "b": 1325,
+     "verdict": "supports",
+     "reason": "On Parimelazhagar's reading, which the note names, நலத்தகை நல்லவர்க்கு ஏஎர் புலத்தகை says what 1325's தவறிலர் ஆயினும் ... ஆங்கொன்று உடைத்து says plainly."
+    },
+    {
+     "a": 1313,
+     "b": 1321,
+     "verdict": "supports",
+     "reason": "1313's கோட்டுப் பூச் சூடினும் காயும (Parimelazhagar: 'இத்தன்மையாட்கு ஒரு காரணம் வேண்டுமோ?') shows the pretext that 1321's இல்லை தவறவர்க்கு concedes."
+    },
+    {
+     "a": 1325,
+     "b": 1319,
+     "verdict": "supports",
+     "reason": "1319's உணர்த்தினும் காயும், where the man accepts a fault laid on him, is what 1325's தவறிலர் ஆயினும் turns into pleasure."
+    },
+    {
+     "a": 1321,
+     "b": 1311,
+     "verdict": "weakly",
+     "reason": "On Parimelazhagar, 1321's sulk still comes from the thought that others may receive his அளி, so it continues 1311's jealousy (கண்ணின் பொதுஉண்பர்) rather than cutting the sulk loose from it."
+    }
+   ]
+  },
+  {
+   "id": "thread:learning_must_be_voiced",
+   "grade": "supported",
+   "issue": "683 concerns the envoy's mastery of statecraft treatises among ministers (நூலாருள் நூல்வல்லன்), not delivering speech, so it adds little to the claim about voicing. Parimelazhagar puts the failure in 728 and 729 down to fear (அச்சத்தான்), which separates the chapter on the assembly from 650's plain inability to expound.",
+   "links": [
+    {
+     "a": 728,
+     "b": 650,
+     "verdict": "supports",
+     "reason": "பல்லவை கற்றும் பயமிலரே ... செலச்சொல்லாதார் and நாறா மலரனையர் ... விரித்துரையாதார் make the same judgment on learning left unspoken."
+    },
+    {
+     "a": 722,
+     "b": 650,
+     "verdict": "supports",
+     "reason": "கற்றாருள் கற்றார் for those who கற்ற செலச்சொல்லுவார், against the scentless flower for those who cannot விரித்துரை, is the positive and negative of one measure."
+    },
+    {
+     "a": 729,
+     "b": 395,
+     "verdict": "supports",
+     "reason": "729's கல்லாதவரின் கடை reuses 395's கடையரே கல்லாதவர் to put the learned who fear the assembly lower still."
+    },
+    {
+     "a": 403,
+     "b": 729,
+     "verdict": "supports",
+     "reason": "403's கற்றார்முன் சொல்லாதிருக்கப் பெறின் praises the unlearned for silence, while 729 puts below the unlearned the learned who stay silent out of fear (அவையஞ்சுவார்)."
+    },
+    {
+     "a": 683,
+     "b": 722,
+     "verdict": "weakly",
+     "reason": "நூலாருள் நூல்வல்லன் and கற்றாருள் கற்றார் share a construction, but 683 is about competence among the learned, not delivering speech."
+    },
+    {
+     "a": 686,
+     "b": 724,
+     "verdict": "supports",
+     "reason": "கற்று ... செலச்சொல்லி in 686 and கற்ற செலச்சொல்லி in 724 apply one test to the envoy and to the speaker in the assembly."
+    }
+   ]
+  },
+  {
+   "id": "thread:what_one_thinks_one_gets",
+   "grade": "supported",
+   "issue": null,
+   "links": [
+    {
+     "a": 309,
+     "b": 540,
+     "verdict": "supports",
+     "reason": "உள்ளிய தெல்லாம் உடனெய்தும் and உள்ளியது எய்தல் எளிது are the same promise, conditioned on not thinking anger and on keeping one's aim in mind (உள்ளியது உள்ளப் பெறின்); Parimelazhagar assigns them to the ascetic and the king."
+    },
+    {
+     "a": 666,
+     "b": 309,
+     "verdict": "supports",
+     "reason": "எண்ணிய எண்ணியாங்கு எய்துப ... திண்ணியர் ஆகப் பெறின் repeats the promise with firmness as the condition."
+    },
+    {
+     "a": 666,
+     "b": 540,
+     "verdict": "supports",
+     "reason": "Both are 'what is thought is obtained, if ...' verses (பெறின் in each), with firmness and unforgetting attention as the conditions."
+    },
+    {
+     "a": 622,
+     "b": 309,
+     "verdict": "weakly",
+     "reason": "Both play on உள்ளத்தின் உள்ள / உள்ளத்தால் உள்ளான், but 622 is about trouble dissolving, not the obtain-what-you-think formula, so it bears only on the claim's last sentence."
+    },
+    {
+     "a": 7,
+     "b": 622,
+     "verdict": "supports",
+     "reason": "மனக்கவலை மாற்றல் அரிது except for those at the feet, against 622's இடும்பை ... உள்ளத்தின் உள்ளக் கெடும், is the tension the claim states, with Parimelazhagar's narrowing named in the limits."
+    }
+   ]
+  },
+  {
+   "id": "thread:family_built_by_effort",
+   "grade": "supported",
+   "issue": "The opening contrast with chapter 96, where குடி is inherited, has no link of its own and is asserted rather than shown. Kalaignar reads 1028's மானம் as being shaken by insults rather than standing on dignity, which would weaken the 961 tension.",
+   "links": [
+    {
+     "a": 602,
+     "b": 1022,
+     "verdict": "supports",
+     "reason": "மடியை மடியா ஒழுகல் for குடியைக் குடியாக வேண்டுபவர் and ஆள்வினையும் ஆன்ற அறிவும் ... நீளும் குடி make the family a product of effort."
+    },
+    {
+     "a": 1022,
+     "b": 604,
+     "verdict": "supports",
+     "reason": "நீளும் குடி through ஆள்வினை, and குடிமடிந்து without மாண்ட உஞற்று, are the two sides of one rule."
+    },
+    {
+     "a": 171,
+     "b": 604,
+     "verdict": "supports",
+     "reason": "குடிபொன்றிக் குற்றமும் and குடிமடிந்து குற்றம் பெருகும் attach the same double penalty to covetousness and to sloth."
+    },
+    {
+     "a": 609,
+     "b": 604,
+     "verdict": "supports",
+     "reason": "609's குற்றம் ... மடியாண்மை மாற்றக் கெடும் reverses 604's குற்றம் பெருகும்."
+    },
+    {
+     "a": 602,
+     "b": 1028,
+     "verdict": "supports",
+     "reason": "1028's மடிசெய்து மானங் கருதக் கெடும் applies 602's anti-sloth rule to the family-builder, whom 1028 says has no season (பருவம் இல்லை)."
+    },
+    {
+     "a": 961,
+     "b": 1028,
+     "verdict": "supports",
+     "reason": "On Parimelazhagar's gloss of 961 (தம் குடிப்பிறப்புத் தாழ வரும் செயல்களை ஒழிக), மானம் rules conduct there, while 1028 says மானங் கருத, the family is ruined."
+    }
+   ]
+  },
+  {
+   "id": "thread:smallest_gap",
+   "grade": "supported",
+   "issue": "Parimelazhagar reads 1238 and 1239 as one remembered incident (the breeze entered because he loosened his arms), so they are one threshold seen twice, not two. He reads 1186-1187 and 1238-1239 alike as a fortiori arguments: if this for a slight gap, what now in separation? That reading strengthens the claim.",
+   "links": [
+    {
+     "a": 1108,
+     "b": 1187,
+     "verdict": "supports",
+     "reason": "1108's வளியிடை போழப்படாஅ முயக்கு is the ideal, and 1187's புடைபெயர்ந்தேன் அவ்வளவில் ... பசப்பு shows the least break bringing pallor."
+    },
+    {
+     "a": 1187,
+     "b": 1239,
+     "verdict": "supports",
+     "reason": "The woman's புடைபெயர்ந்தேன் and the man's முயக்கிடைத் தண்வளி போழ each set the threshold at the smallest gap, from either side."
+    },
+    {
+     "a": 1239,
+     "b": 1108,
+     "verdict": "supports",
+     "reason": "The same verb போழ marks the ideal unbroken embrace (போழப் படாஅ) and its breaking (வளி போழப் பசப்புற்ற)."
+    },
+    {
+     "a": 1186,
+     "b": 1238,
+     "verdict": "supports",
+     "reason": "முயக்கற்றம் பார்க்கும் பசப்பு and முயங்கிய கைகளை ஊக்கப் பசந்தது describe the same lapse in the embrace bringing pallor."
+    }
+   ]
+  },
+  {
+   "id": "thread:sceptre_as_rain",
+   "grade": "supported",
+   "issue": "The links from 390 and 528 add little: 390 only lists அளி, and 528's 'live looking to' concerns kin and the king's recognition of rank, not rain.",
+   "links": [
+    {
+     "a": 559,
+     "b": 545,
+     "verdict": "supports",
+     "reason": "பெயலும் விளையுளும் தொக்கு under a just sceptre and உறைகோடி ஒல்லாது வானம் பெயல் under a bent one mirror each other, and Parimelazhagar reads both literally."
+    },
+    {
+     "a": 542,
+     "b": 557,
+     "verdict": "supports",
+     "reason": "Parimelazhagar says 557 states 542's வான் நோக்கி வாழும் in negative form: துளியின்மை is to the earth what the king's அளியின்மை is to his people."
+    },
+    {
+     "a": 560,
+     "b": 543,
+     "verdict": "supports",
+     "reason": "543's அந்தணர் நூற்கும் ... ஆதி and 560's அறுதொழிலோர் நூல்மறப்பர் make the sceptre the condition of the books."
+    },
+    {
+     "a": 390,
+     "b": 557,
+     "verdict": "weakly",
+     "reason": "390 only names அளி among four royal qualities and has no rain image; it supplies the term that 557 compares to rain."
+    },
+    {
+     "a": 528,
+     "b": 542,
+     "verdict": "weakly",
+     "reason": "அதுநோக்கி வாழ்வார் echoes கோல் நோக்கி வாழுங் குடி, but 528 is about kin depending on the king's recognition of rank (வரிசை), with no rain."
+    }
+   ]
+  },
+  {
+   "id": "thread:whose_heart_is_whose",
+   "grade": "supported",
+   "issue": null,
+   "links": [
+    {
+     "a": 1204,
+     "b": 1205,
+     "verdict": "supports",
+     "reason": "யாமும் உளேங்கொல் அவர்நெஞ்சத்து is answered by தம்நெஞ்சத்து எம்மைக் கடிகொண்டார் ... எம்நெஞ்சத்து ஓவா வரல், and Manakkudavar explicitly reads the doubt as resolved."
+    },
+    {
+     "a": 1243,
+     "b": 1204,
+     "verdict": "supports",
+     "reason": "பரிந்துள்ளல் பைதல்நோய் செய்தார்கண் இல் treats as settled the absence that 1204 asked about."
+    },
+    {
+     "a": 1205,
+     "b": 1291,
+     "verdict": "supports",
+     "reason": "1205 blames him for the imbalance, and 1291's அவர்நெஞ்சு அவர்க்காதல் கண்டும் ... நீ எமக்கு ஆகாதது turns the same imbalance on her own heart."
+    },
+    {
+     "a": 1300,
+     "b": 1291,
+     "verdict": "supports",
+     "reason": "1300's நெஞ்சம் தமரல் வழி generalises 1291's complaint, and the verses go to opposite speakers on Parimelazhagar's assignment, as the note says."
+    },
+    {
+     "a": 1299,
+     "b": 1300,
+     "verdict": "supports",
+     "reason": "தாமுடைய நெஞ்சந் துணையல் வழி and தாமுடைய நெஞ்சம் தமரல் வழி share the frame and move from no helper to no kin."
+    }
+   ]
+  },
+  {
+   "id": "thread:blame_for_the_absent_lover",
+   "grade": "supported",
+   "issue": "The 'wanting his fault named' side rests on 1188 alone, and this edition has no Parimelazhagar or Manakkudavar gloss for that verse, so its reading follows Pope and Kalaignar. In 1190 Parimelazhagar's தூற்றார் are நட்டோர, close friends, not the town.",
+   "links": [
+    {
+     "a": 1129,
+     "b": 1130,
+     "verdict": "supports",
+     "reason": "The shared refrain ஏதிலர் என்னும் இவ் வூர் meets her answer, உவந்துறைவர் உள்ளத்துள் என்றும்."
+    },
+    {
+     "a": 1129,
+     "b": 1220,
+     "verdict": "supports",
+     "reason": "ஏதிலர் என்னும் இவ் வூர் and நம்நீத்தார் என்பர் ... இவ்வூரவர் are both the town's verdict, rebutted by an inner presence (unblinking eye, dream)."
+    },
+    {
+     "a": 1220,
+     "b": 1130,
+     "verdict": "supports",
+     "reason": "Both set the town's charge (நம்நீத்தார், இகந்துறைவர்) against his presence in her heart or her dreams."
+    },
+    {
+     "a": 1140,
+     "b": 1219,
+     "verdict": "weakly",
+     "reason": "1140's அறிவில்லார் நகுப are laughing at her (on Parimelazhagar the friend's teasing), not blaming him, so only 1219's நல்காரை நோவர் carries the blame theme."
+    },
+    {
+     "a": 1188,
+     "b": 1190,
+     "verdict": "supports",
+     "reason": "1188's துறந்தார் அவர்என்பார் இல் and 1190's பசப்பெனப் பேர்பெறுதல் நன்றே ... நல்காமை தூற்றார் எனின் show her both wanting and refusing his blame."
+    },
+    {
+     "a": 1190,
+     "b": 1232,
+     "verdict": "supports",
+     "reason": "The same word நல்காமை: she hopes it goes unspoken (தூற்றார் எனின்), yet her eyes சொல்லுவ போலும் it."
+    },
+    {
+     "a": 1235,
+     "b": 1188,
+     "verdict": "supports",
+     "reason": "1235's தோள் ... கொடியார் கொடுமை உரைக்கும் has the body naming his cruelty, which 1188 says no one does."
+    }
+   ]
+  },
+  {
+   "id": "thread:renunciation_rests_on_providers",
+   "grade": "supported",
+   "issue": "Kalaignar reads 263 as a warning that the others should not forget their own austerity while helping renouncers, so the dependence and the ranking both rest on the Parimelazhagar and Manakkudavar construal of மற்றையவர்கள் as householders who give in place of doing தவம். 344 states the vow's possessionlessness but says nothing about who sustains it; the dependence is carried by 263 and 1036 alone.",
+   "links": [
+    {
+     "a": 263,
+     "b": 1036,
+     "verdict": "supports",
+     "reason": "துறந்தார்க்குத் துப்புரவு வேண்டி and உழவினார் கைம்மடங்கின் ... விட்டேம்என் பார்க்கும் நிலை both make the renouncer's state depend on others' supply."
+    },
+    {
+     "a": 344,
+     "b": 263,
+     "verdict": "weakly",
+     "reason": "344's இன்மை உடைமை defines the vow but has no word about providers; only 263's துப்புரவு supplies the dependence."
+    },
+    {
+     "a": 344,
+     "b": 1036,
+     "verdict": "weakly",
+     "reason": "344 gives the nature of the vow; the reliance on others comes entirely from 1036's உழவினார் கைம்மடங்கின்."
+    },
+    {
+     "a": 263,
+     "b": 48,
+     "verdict": "supports",
+     "reason": "48's நோற்பாரின் நோன்மை உடைத்து credits the provider with more of the ascetic's virtue, against the ranking commentators draw from 263's மறந்தார்கொல் ... தவம்."
+    },
+    {
+     "a": 48,
+     "b": 225,
+     "verdict": "supports",
+     "reason": "நோற்பாரின் நோன்மை உடைத்து and பசிஆற்றல் ... மாற்றுவார் ஆற்றலின் பின் both concede endurance to the ascetic and give more of it to the one who provides."
+    },
+    {
+     "a": 263,
+     "b": 225,
+     "verdict": "supports",
+     "reason": "225 puts பசிஆற்றல் behind மாற்றுவார் ஆற்றல், while Manakkudavar draws தானத்தினும் தவம் மிகுதியுடைத்து from 263, which is exactly the split the claim reports."
+    }
+   ]
+  },
+  {
+   "id": "thread:who_should_fear",
+   "grade": "partly_supported",
+   "issue": "1075 does not make fear the whole of the base person's conduct or the only check on 1073's freedom: its second half (எச்சம் அவாவுண்டேல் உண்டாம் சிறிது) names desire for gain as a second motive, and Parimelazhagar glosses it as mostly fear, sometimes gain. Manakkudavar on 428 notices the tension with fearlessness (மேல் அஞ்சாமை வேண்டு மென்றாராயினும்) but does not list sin, blame and ruin; that list is Parimelazhagar's alone.",
+   "links": [
+    {
+     "a": 201,
+     "b": 428,
+     "verdict": "supports",
+     "reason": "விழுமியார் அஞ்சுவர் applies 428's அஞ்சுவது அஞ்சல் அறிவார் தொழில் to evil deeds."
+    },
+    {
+     "a": 201,
+     "b": 1075,
+     "verdict": "supports",
+     "reason": "Fear marks the excellent in 201 (விழுமியார் அஞ்சுவர்) and the base in 1075 (அச்சமே கீழ்களது ஆசாரம்), which is the collision the claim names."
+    },
+    {
+     "a": 382,
+     "b": 428,
+     "verdict": "supports",
+     "reason": "அஞ்சாமை is a king's indispensable quality in 382, yet அஞ்சுவது அஞ்சாமை பேதைமை in 428, and both commentators register the clash."
+    },
+    {
+     "a": 428,
+     "b": 1075,
+     "verdict": "supports",
+     "reason": "அறிவார் தொழில் and கீழ்களது ஆசாரம் both rest on fear, so what separates them must be its object, which Parimelazhagar on 1075 makes the king's punishment."
+    },
+    {
+     "a": 1073,
+     "b": 1075,
+     "verdict": "weakly",
+     "reason": "1075 does limit 1073's மேவன செய்தொழுகல், but through fear and also through அவா, so it does not bear out 'the only check'."
+    }
+   ]
+  },
+  {
+   "id": "thread:one_virtue_for_all",
+   "grade": "supported",
+   "issue": "The commentary already raises this conflict itself: Parimelazhagar on 323 says the ranking was given because 297 and 300 had left in doubt which of the two virtues is higher. He also says of both 297 and 321 that the one virtue yields the fruit of all the others, which strengthens the sufficiency reading the claim treats as disputed.",
+   "links": [
+    {
+     "a": 33,
+     "b": 297,
+     "verdict": "supports",
+     "reason": "ஓவாதே ... செல்லும்வாய் எல்லாஞ் செயல் asks for breadth, and 297's அறம்பிற செய்யாமை செய்யாமை நன்று narrows it, on the Parimelazhagar reading the claim names."
+    },
+    {
+     "a": 321,
+     "b": 297,
+     "verdict": "supports",
+     "reason": "அறவினை யாதெனின் கொல்லாமை and பொய்யாமை ஆற்றின் அறம்பிற செய்யாமை ... நன்று each let a different single virtue stand for the whole."
+    },
+    {
+     "a": 292,
+     "b": 297,
+     "verdict": "supports",
+     "reason": "292's பொய்மையும் வாய்மை யிடத்த ... நன்மை பயக்கும் எனின் makes 297's unbroken பொய்யாமை depend on truth being defined by its effect."
+    }
+   ]
+  },
+  {
+   "id": "thread:ill_gotten_gain",
+   "grade": "partly_supported",
+   "issue": "931 is misfiled in the concessive set: it grants வென்றிடினும் but then argues from the outcome (வென்றதூஉம் தூண்டிற்பொன் மீன்விழுங்கி அற்று), so it does not show the prohibition holding apart from a prediction. 1009 sits in the chapter on wealth that does no good (நன்றியில்செல்வம்), and Parimelazhagar reads it as the miser's unspent hoard, not wrongly acquired wealth; only Manakkudavar and Kalaignar put its அன்பொரீஇ ... அறநோக்காது at the stage of acquisition. 954's குன்றுவ is any degrading act, not a way of getting wealth.",
+   "links": [
+    {
+     "a": 177,
+     "b": 113,
+     "verdict": "supports",
+     "reason": "177 argues from விளைவயின் மாண்டற் கரிதாம் பயன், while 113's நன்றே தரினும் ... அன்றே யொழிய விடல் grants a good outcome and still refuses."
+    },
+    {
+     "a": 205,
+     "b": 657,
+     "verdict": "supports",
+     "reason": "205's prediction இலனாகும் மற்றும் பெயர்த்து is set aside by 657, which grants the ஆக்கம் and still puts சான்றோர் கழிநல்குரவே above it."
+    },
+    {
+     "a": 113,
+     "b": 328,
+     "verdict": "supports",
+     "reason": "நன்றே தரினும் and நன்றாகும் ஆக்கம் பெரிதெனினும் make the same concession before the refusal."
+    },
+    {
+     "a": 311,
+     "b": 113,
+     "verdict": "supports",
+     "reason": "சிறப்பீனும் செல்வம் பெறினும் and நன்றே தரினும் both grant the gain and refuse the means."
+    },
+    {
+     "a": 328,
+     "b": 311,
+     "verdict": "supports",
+     "reason": "பெரிதெனினும் and பெறினும் both carry a concession before the refusal, set against கொன்றாகும் ஆக்கம் and இன்னா செய்யாமை."
+    },
+    {
+     "a": 931,
+     "b": 113,
+     "verdict": "weakly",
+     "reason": "வென்றிடினும் is concessive, but 931 grounds the refusal in the outcome (தூண்டிற்பொன் மீன்விழுங்கி அற்று), unlike 113's நன்றே தரினும்."
+    },
+    {
+     "a": 113,
+     "b": 657,
+     "verdict": "supports",
+     "reason": "113's விடல் of gain from leaving fairness and 657's கழிநல்குரவே தலை over பழிமலைந்து எய்திய ஆக்கம் both refuse a gain that is real."
+    },
+    {
+     "a": 328,
+     "b": 657,
+     "verdict": "supports",
+     "reason": "Both judge ஆக்கம் by its source from the சான்றோர் standpoint, கடை in 328 and தலை in 657."
+    },
+    {
+     "a": 954,
+     "b": 311,
+     "verdict": "supports",
+     "reason": "அடுக்கிய கோடி பெறினும் and செல்வம் பெறினும் share the concessive form, though 954's குன்றுவ is any lowering act rather than a means of gain."
+    },
+    {
+     "a": 755,
+     "b": 113,
+     "verdict": "supports",
+     "reason": "Both end on விடல் for gain wrongly come by: அருளொடும் அன்பொடும் வாரா in one and நடுவிகந்தாம் in the other."
+    },
+    {
+     "a": 283,
+     "b": 659,
+     "verdict": "supports",
+     "reason": "ஆவது போலக் கெடும் and அழக் கொண்ட எல்லாம் அழப்போம் both argue that the gain fails."
+    },
+    {
+     "a": 283,
+     "b": 660,
+     "verdict": "supports",
+     "reason": "ஆவது போலக் கெடும் and பசுமண் கலத்துள்நீர் both picture wrongly got wealth as held while it is being lost."
+    },
+    {
+     "a": 754,
+     "b": 659,
+     "verdict": "supports",
+     "reason": "தீதின்றி வந்த பொருள் and நற்பாலவை against அழக் கொண்ட both make the way wealth was got decide what it yields."
+    },
+    {
+     "a": 755,
+     "b": 660,
+     "verdict": "weakly",
+     "reason": "The tie is Parimelazhagar's borrowing of the பசுமட்கலம் image into his note on 755; the verses themselves share only their topic."
+    },
+    {
+     "a": 760,
+     "b": 754,
+     "verdict": "supports",
+     "reason": "754's திறனறிந்து தீதின்றி supplies the condition on 760's promise of ஏனை இரண்டும், as Parimelazhagar's நெறியான் வரும் பொருள் confirms."
+    },
+    {
+     "a": 1009,
+     "b": 760,
+     "verdict": "weakly",
+     "reason": "The shared ஒண்பொருள் is real, but on Parimelazhagar's reading 1009 is about hoarding without giving, not wealth got by wrong means."
+    },
+    {
+     "a": 755,
+     "b": 1009,
+     "verdict": "supports",
+     "reason": "அன்பொடும் வாரா in 755 and அன்பொரீஇ ... அறநோக்காது ஈட்டிய in 1009 describe the same loveless gathering on Manakkudavar's acquisition reading, and 1009 adds கொள்வார் பிறர்."
+    }
+   ]
+  },
+  {
+   "id": "thread:deeds_come_back",
+   "grade": "supported",
+   "issue": "658 does not use விளைவு; its timing comes only from முடிந்தாலும் பீழை தரும் (even when the deed succeeds), so it belongs to the ripening figure by sense rather than by wording. 284's harvest is of love of stealing (களவின்கண் கன்றிய காதல்), not of stolen gain as such.",
+   "links": [
+    {
+     "a": 207,
+     "b": 208,
+     "verdict": "supports",
+     "reason": "வீயாது பின்சென்று அடும் and வீயாது அடி உறைந்தற்று share both the verb and the following-shadow picture."
+    },
+    {
+     "a": 313,
+     "b": 207,
+     "verdict": "supports",
+     "reason": "உய்யா விழுமம் against எனைப்பகை யுற்றாரும் உய்வர் sets the inescapable deed against the survivable enemy."
+    },
+    {
+     "a": 319,
+     "b": 207,
+     "verdict": "supports",
+     "reason": "முற்பகல் ... பிற்பகல் gives the return in time, where 207 gives it as pursuit."
+    },
+    {
+     "a": 204,
+     "b": 319,
+     "verdict": "supports",
+     "reason": "அறஞ்சூழும் names an agent for the return, while 319's தாமே வரும் leaves it impersonal."
+    },
+    {
+     "a": 206,
+     "b": 320,
+     "verdict": "supports",
+     "reason": "நோய்ப்பால தன்னை அடல்வேண்டாதான் and நோய்செய்யார் நோயின்மை வேண்டுபவர் put the same desire-based rule in near-identical terms."
+    },
+    {
+     "a": 177,
+     "b": 284,
+     "verdict": "supports",
+     "reason": "விளைவயின் and விளைவின்கண் put the harm at the ripening in both."
+    },
+    {
+     "a": 658,
+     "b": 177,
+     "verdict": "supports",
+     "reason": "முடிந்தாலும் பீழை தரும் and விளைவயின் மாண்டற் கரிதாம் பயன் both put the harm after the gain is had."
+    },
+    {
+     "a": 659,
+     "b": 319,
+     "verdict": "supports",
+     "reason": "அழக் கொண்ட எல்லாம் அழப்போம் mirrors 319's return of இன்னா, and 659 adds பிற்பயக்கும் நற்பாலவை."
+    }
+   ]
+  },
+  {
+   "id": "thread:living_on_in_separation",
+   "grade": "supported",
+   "issue": "1124 is a simile (சாதல் அதற்கன்னள்) spoken by the man at a brief daytime parting on Parimelazhagar's reading, so it says separation feels like death more than that it cannot be survived. On Parimelazhagar, 1198 is the woman's self-reproach (யான் வன்கண்ணேனாகலின்), which is what lets it count as the charge against her.",
+   "links": [
+    {
+     "a": 1124,
+     "b": 1151,
+     "verdict": "weakly",
+     "reason": "1124's சாதல் அதற்கன்னள் is a comparison, while 1151's வாழ்வார்க் குரை actually implies she won't live, so only 1151 carries 'cannot be survived'."
+    },
+    {
+     "a": 1151,
+     "b": 1160,
+     "verdict": "supports",
+     "reason": "வாழ்வார்க் குரை and பின்இருந்து வாழ்வார் பலர் (read as irony, with Parimelazhagar's யானும் இறந்து படுவல்) both deny that she will survive."
+    },
+    {
+     "a": 1160,
+     "b": 1198,
+     "verdict": "supports",
+     "reason": "The ironic பின்இருந்து வாழ்வார் becomes the accusation வாழ்வாரின் வன்கணார் இல்."
+    },
+    {
+     "a": 1213,
+     "b": 1198,
+     "verdict": "supports",
+     "reason": "கனவினால் காண்டலின் உண்டென் உயிர் names what keeps alive someone who goes without the இன்சொல் of 1198."
+    },
+    {
+     "a": 1151,
+     "b": 1263,
+     "verdict": "supports",
+     "reason": "The வல்வரவு dismissed in 1151 is the வரல்நசைஇ by which she says இன்னும் உளேன்."
+    },
+    {
+     "a": 1198,
+     "b": 1156,
+     "verdict": "supports",
+     "reason": "வன்கணார் in 1198 takes up வன்கண்ணர் from 1156 and turns the charge from him to her."
+    }
+   ]
+  },
+  {
+   "id": "thread:hoard_and_store",
+   "grade": "supported",
+   "issue": "Only 226 and 228 turn the hoarder's logic of keeping (வை-) against him in their own words; 1001 and 1007 condemn wealth left unused rather than wealth lost by being kept. 82, cited only in the limits, concerns hospitality to a guest and does not bear on storing wealth.",
+   "links": [
+    {
+     "a": 226,
+     "b": 228,
+     "verdict": "supports",
+     "reason": "பொருள்வைப்புழி and வைத்திழக்கும் set a store that holds beside a store that is lost."
+    },
+    {
+     "a": 1007,
+     "b": 226,
+     "verdict": "supports",
+     "reason": "அற்றார் அழிபசி தீர்த்தல் is where to keep wealth, and அற்றார்க்கொன்று ஆற்றாதான் செல்வம் ... தமியள்மூத்தற்று shows wealth kept anywhere else going to waste."
+    },
+    {
+     "a": 228,
+     "b": 1001,
+     "verdict": "supports",
+     "reason": "வைத்திழக்கும் and வைத்தான் ... அஃதுண்ணான் செத்தான் both picture the keeper who loses the use of what he keeps."
+    },
+    {
+     "a": 1001,
+     "b": 229,
+     "verdict": "supports",
+     "reason": "தாமே தமியர் உணல் (unshared use) and அஃதுண்ணான் (no use at all) grade misuse of a store."
+    },
+    {
+     "a": 229,
+     "b": 527,
+     "verdict": "supports",
+     "reason": "தமியர் உணல் is condemned and கரவா கரைந்துண்ணும் is tied to ஆக்கம்."
+    },
+    {
+     "a": 527,
+     "b": 227,
+     "verdict": "supports",
+     "reason": "ஆக்கமும் அன்னநீரார்க்கே உள and பாத்தூண் மரீஇயவனை ... தீண்டல் அரிது both attach a protective result to sharing food."
+    },
+    {
+     "a": 44,
+     "b": 227,
+     "verdict": "supports",
+     "reason": "Both use பாத்தூண, with வழியெஞ்சல் ... இல் in 44 and பசி ... தீண்டல் அரிது in 227."
+    },
+    {
+     "a": 82,
+     "b": 229,
+     "verdict": "irrelevant",
+     "reason": "விருந்து புறத்ததாத் தானுண்டல் is about a guest left outside, not about where wealth is kept, and the claim does not use it."
+    }
+   ]
+  },
+  {
+   "id": "thread:lover_as_cure",
+   "grade": "partly_supported",
+   "issue": "1241 only asks the heart for a medicine (நினைத்தொன்று சொல்லாயோ); it does not say the heart can name none, and the claim's 'this explains why' reads 1102 into it. 1275 does not place the cure only in a sign of the beloved: on Parimelazhagar the medicine is the friend's assurance that the beloved will not part, and on Manakkudavar the friend is telling the man his suit will succeed.",
+   "links": [
+    {
+     "a": 1091,
+     "b": 1102,
+     "verdict": "supports",
+     "reason": "ஒருநோக்கு நோய்நோக்கொன் றந்நோய் மருந்து and தன்நோய்க்குத் தானே மருந்து both make the cause of the sickness its cure."
+    },
+    {
+     "a": 1266,
+     "b": 1102,
+     "verdict": "supports",
+     "reason": "The woman's பைதல்நோய் எல்லாம் கெட through his coming matches தன்நோய்க்குத் தானே மருந்து."
+    },
+    {
+     "a": 1241,
+     "b": 1102,
+     "verdict": "weakly",
+     "reason": "1241's எனைத்தொன்றும் ... மருந்து is a request, and the inference that only the absent lover could answer it is the writer's, not the verse's."
+    },
+    {
+     "a": 1275,
+     "b": 1091,
+     "verdict": "weakly",
+     "reason": "Both find a மருந்து in her covert signal, but in 1275 the cure lies in what the கள்ளம் reveals (her resolve, or the friend's help), not in the beloved herself."
+    },
+    {
+     "a": 1152,
+     "b": 1295,
+     "verdict": "supports",
+     "reason": "பிரிவஞ்சும் புன்கண் உடைத்தால் புணர்வு and பெறின்பிரிவு அஞ்சும் both deny that presence cures."
+    },
+    {
+     "a": 1179,
+     "b": 1295,
+     "verdict": "supports",
+     "reason": "வாராக்கால் துஞ்சா வரின்துஞ்சா and பெறாஅமை அஞ்சும் பெறின்பிரிவு அஞ்சும் put the same double bind on the eyes and on the heart."
+    },
+    {
+     "a": 1152,
+     "b": 1179,
+     "verdict": "supports",
+     "reason": "Parimelazhagar glosses 1179's வரின் துஞ்சா as பிரிவஞ்சி, the fear 1152 names."
+    }
+   ]
+  },
+  {
+   "id": "thread:greatness_forfeited",
+   "grade": "supported",
+   "issue": "On Manakkudavar, 898's குன்ற மதிப்பின் means others slighting the hill-like (அவமதித்தல்), so the hill-like are the ones diminished there too and the 'opposite direction' contrast holds only on Parimelazhagar's reading of them as ascetics who wish ruin.",
+   "links": [
+    {
+     "a": 124,
+     "b": 965,
+     "verdict": "supports",
+     "reason": "124's மலையினும் மாணப் பெரிது is conditional on நிலையின் திரியாது, and 965's குன்றி அனைய செயின் shows how little it takes to lose it."
+    },
+    {
+     "a": 974,
+     "b": 965,
+     "verdict": "supports",
+     "reason": "தன்னைத்தான் கொண்டொழுகின் உண்டு makes greatness conditional, and குன்றின் அனையாரும் குன்றுவர் gives its loss."
+    },
+    {
+     "a": 144,
+     "b": 965,
+     "verdict": "supports",
+     "reason": "எனைத்துணையர் ஆயினும் என்னாம் names one particular act; குன்றின் அனையாரும் குன்றுவர் states the general rule."
+    },
+    {
+     "a": 195,
+     "b": 965,
+     "verdict": "supports",
+     "reason": "சீர்மை சிறப்பொடு நீங்கும் for idle speech is a particular case of 965's rule."
+    },
+    {
+     "a": 898,
+     "b": 965,
+     "verdict": "supports",
+     "reason": "குன்றன்னார் குன்ற மதிப்பின் and குன்றின் அனையாரும் குன்றுவர் make the same pun with the hill-like as agent in one and as sufferer in the other, on Parimelazhagar's reading of 898."
+    }
+   ]
+  },
+  {
+   "id": "thread:eyes_tell_secrets",
+   "grade": "supported",
+   "issue": "1100 and 1280 are about eyes chosen as the channel, not eyes that betray; the claim's 'cannot be kept quiet' rests on 1180, 1271 and 1232 alone.",
+   "links": [
+    {
+     "a": 1100,
+     "b": 1280,
+     "verdict": "supports",
+     "reason": "வாய்ச்சொற்கள் என்ன பயனும் இல and கண்ணினால் காமநோய் சொல்லி both put eye-speech in place of the mouth (Parimelazhagar: தோழியர்க்கும் வாயாற் சொல்லாது)."
+    },
+    {
+     "a": 1180,
+     "b": 1271,
+     "verdict": "supports",
+     "reason": "அறைபறை கண்ணார் and கரப்பினும் கையிகந்து ... உண்கண் உரைக்கல் உறுவது both make the eyes disclose what she hides."
+    },
+    {
+     "a": 1232,
+     "b": 1180,
+     "verdict": "supports",
+     "reason": "பசந்து பனிவாரும் கண் ... சொல்லுவ போலும் and அறைபறை கண் both have the eyes telling others what she would keep hidden."
+    }
+   ]
+  },
+  {
+   "id": "thread:enmity_shunned_and_sought",
+   "grade": "supported",
+   "issue": "874 and 830 are less opposed than the claim suggests: Parimelazhagar reads 874's turning enmity to friendship as a king's policy used when needed (வேண்டியவழி), and Manakkudavar reads it as treating enemies like friends, which is close to 830's face-only friendship. Manakkudavar narrows 867 too, saying such a foe cannot do real harm, so the conflict with 871 is eased by both commentators, not by Parimelazhagar alone.",
+   "links": [
+    {
+     "a": 861,
+     "b": 871,
+     "verdict": "supports",
+     "reason": "மெலியார்மேல் மேக பகை against நகையேயும் வேண்டற்பாற்று அன்று is a direct conflict unless 871 is narrowed."
+    },
+    {
+     "a": 871,
+     "b": 867,
+     "verdict": "supports",
+     "reason": "கொடுத்தும் கொளல்வேண்டும் மன்ற ... பகை seeks the enmity that 871 says not to want even in jest."
+    },
+    {
+     "a": 879,
+     "b": 852,
+     "verdict": "supports",
+     "reason": "இளைதாக முள்மரம் கொல்க urges striking first, against இகல்கருதி இன்னாசெய்யாமை தலை."
+    },
+    {
+     "a": 880,
+     "b": 759,
+     "verdict": "supports",
+     "reason": "செம்மல் சிதைக்கலாதார் உயிர்ப்ப உளரல்லர் gives the necessity and செறுநர் செருக்கறுக்கும் எஃகு the means, on the side where enmity is sought."
+    },
+    {
+     "a": 855,
+     "b": 874,
+     "verdict": "supports",
+     "reason": "இகலெதிர் சாய்ந்தொழுக and பகைநட்பாக் கொண்டொழுகும் both belong to the side that shuns enmity."
+    },
+    {
+     "a": 874,
+     "b": 830,
+     "verdict": "weakly",
+     "reason": "பகைநட்பாக் கொண்டொழுகும் and முகநட்டு அகநட்பு ஒரீஇ can both describe one strategic policy, so the tension is not forced."
+    }
+   ]
+  },
+  {
+   "id": "thread:renown_as_remainder",
+   "grade": "supported",
+   "issue": "970 is in the chapter on honour (மானம்): what it describes is refusing to live under disgrace and being praised for it, so it says nothing directly about fame outliving the body. The war-death strand depends on Parimelazhagar's gloss of 235 and also on reading 970 through 235.",
+   "links": [
+    {
+     "a": 238,
+     "b": 114,
+     "verdict": "weakly",
+     "reason": "On Parimelazhagar, 114's எச்சம் is good offspring, not the இசை of 238, as the limits say."
+    },
+    {
+     "a": 238,
+     "b": 1004,
+     "verdict": "supports",
+     "reason": "இசையென்னும் எச்சம் is the standard, and 1004's எச்சமென்று என்எண்ணுங் applies it to the unwanted man (Manakkudavar: புகழில்லையாம்)."
+    },
+    {
+     "a": 1004,
+     "b": 114,
+     "verdict": "weakly",
+     "reason": "The shared எச்சம் carries two senses on Parimelazhagar's reading, so the pairing does not make renown the remainder."
+    },
+    {
+     "a": 1004,
+     "b": 233,
+     "verdict": "supports",
+     "reason": "பொன்றாது நிற்பது புகழ் and எச்சமென்று என்எண்ணும் meet in Parimelazhagar's note that surviving fame rests only on the giver."
+    },
+    {
+     "a": 777,
+     "b": 235,
+     "verdict": "supports",
+     "reason": "இசைவேண்டி வேண்டா உயிரார் is explained by உளதாகும் சாக்காடு, glossed by Parimelazhagar as புகழுடம்பு நிற்கப் பூத உடம்பு இறத்தல்."
+    },
+    {
+     "a": 970,
+     "b": 235,
+     "verdict": "supports",
+     "reason": "இளிவரின் வாழாத ... ஒளிதொழுது ஏத்தும் உலகு is an instance of a death that leaves the person present in praise, which is 235's உளதாகும் சாக்காடு."
+    },
+    {
+     "a": 240,
+     "b": 970,
+     "verdict": "supports",
+     "reason": "இசையொழிய வாழ்வாரே வாழாதவர் is acted out by those who இளிவரின் வாழாத and are praised for it."
+    }
+   ]
+  }
+ ],
+ "second_opinion": {
+  "threads": 14,
+  "note": "A separate auditor re-graded 14 random threads with the same brief. It matched the first audit's thread grade on 11 (9 supported, 2 partly supported); it raised 2 and lowered 1. On the 91 links, 79 verdicts matched.",
+  "grades": [
+   {
+    "id": "thread:good_results_as_licence",
+    "grade": "partly_supported",
+    "issue": "Only two links carry the comparison; 292-297 concerns the internal logic of chapter 30, which the limits hand to another thread, and the claim's wording that 292 is what keeps 297 consistent is the writer's construal (the link note itself rests it on 291). Parimelazhagar's own summary of 112-113 says unfair wealth in fact yields evil, so for him 113 and 177 make the same outcome argument; 'never advantage to oneself' extrapolates from his single word பிறர்க்கு on 292.",
+    "links": [
+     {
+      "a": 177,
+      "b": 113,
+      "verdict": "supports",
+      "reason": "177 grounds refusal in விளைவயின் மாண்டற்கு அரிதாம் பயன், while 113's நன்றே தரினும் makes the refusal stand even granting a good outcome."
+     },
+     {
+      "a": 292,
+      "b": 113,
+      "verdict": "supports",
+      "reason": "292's நன்மை பயக்கும் எனின் lets outcome license falsehood, while 113's நன்றே தரினும் ... அன்றே ஒழிய விடல் refuses outcome as a licence for unfair gain."
+     },
+     {
+      "a": 292,
+      "b": 297,
+      "verdict": "weakly",
+      "reason": "297's பொய்யாமை பொய்யாமை ஆற்றின் sits beside 292's பொய்மையும் வாய்மையிடத்த, but how they cohere is chapter 30's internal question and adds nothing to the speech-versus-gain comparison."
+     }
+    ]
+   },
+   {
+    "id": "thread:sources_of_renown",
+    "grade": "supported",
+    "issue": "Parimelazhagar on 231 himself notes that renown has other causes such as learning and valour, which supports the thread's 'many roads'. The 653-962 step depends on reading 653's ஒளி as standing or fame; Parimelazhagar on 962 (புகழ் செய்யுமிடத்தும்) makes the harder case explicit.",
+    "links": [
+     {
+      "a": 232,
+      "b": 296,
+      "verdict": "supports",
+      "reason": "232's உரைப்பார் உரைப்பவை எல்லாம் ... ஈவார்மேல் நிற்கும் புகழ் and 296's பொய்யாமை அன்ன புகழில்லை each speak as if naming the chief source."
+     },
+     {
+      "a": 777,
+      "b": 231,
+      "verdict": "supports",
+      "reason": "Both seek இசை: 231 through ஈதல், 777 by those who are வேண்டா உயிரார்."
+     },
+     {
+      "a": 233,
+      "b": 156,
+      "verdict": "supports",
+      "reason": "156 assigns புகழ் lasting பொன்றுந் துணையும் to forbearance, a source other than giving, matching 233's பொன்றாது நிற்பது."
+     },
+     {
+      "a": 853,
+      "b": 156,
+      "verdict": "supports",
+      "reason": "853's தவலில்லாத் தாவில் விளக்கம் is renown on Parimelazhagar's gloss (புகழைக் கொடுக்கும்), set beside 156's renown for not retaliating; the thread names the commentator."
+     },
+     {
+      "a": 962,
+      "b": 652,
+      "verdict": "supports",
+      "reason": "652's புகழொடு நன்றி பயவா வினை uses renown as a test; 962's சீரினும் சீரல்ல செய்யார் refuses unworthy acts even for renown."
+     },
+     {
+      "a": 653,
+      "b": 962,
+      "verdict": "supports",
+      "reason": "653 bars deeds where ஒளி மாழ்கும்; 962 extends the refusal to deeds done சீரினும், for renown itself."
+     }
+    ]
+   },
+   {
+    "id": "thread:poverty",
+    "grade": "partly_supported",
+    "issue": "139's தீய words are, for Parimelazhagar, harmful lies and the like, while 1044's இளிவந்த சொல் is, for him, begging ('give to us'), so 1044 does not show the 139 impossibility breached. The claim sets 117 against 752 without naming Parimelazhagar's reading of 117's உலகம் as உயர்ந்தோர், which dissolves that conflict. 841 is overstated: Parimelazhagar takes the world as not counting want of wealth as want of that extreme kind, not as no lack at all.",
+    "links": [
+     {
+      "a": 117,
+      "b": 988,
+      "verdict": "supports",
+      "reason": "117's கெடுவாக வையாது ... தங்கியான் தாழ்வு and 988's இன்மை ... இளிவன்று சால்பென்னும் திண்மை both deny that poverty lowers a person of character."
+     },
+     {
+      "a": 117,
+      "b": 752,
+      "verdict": "supports",
+      "reason": "752's இல்லாரை எல்லாரும் எள்ளுவர் reports the opposite of what 117's உலகம் does, though only if உலகம் is not read as the high-minded."
+     },
+     {
+      "a": 752,
+      "b": 988,
+      "verdict": "supports",
+      "reason": "752 says everyone scorns இல்லார்; 988 says இன்மை is no இளிவு where சால்பு is present."
+     },
+     {
+      "a": 988,
+      "b": 1044,
+      "verdict": "supports",
+      "reason": "988 has worth hold against இன்மை; 1044 has இன்மை bring சோர்வு and degrading speech even இற்பிறந்தார் கண்ணேயும்."
+     },
+     {
+      "a": 841,
+      "b": 752,
+      "verdict": "supports",
+      "reason": "841's பிறிதின்மை இன்மையா வையா துலகு and 752's universal எள்ளுவர் give opposed reports of how the world treats want of wealth."
+     },
+     {
+      "a": 139,
+      "b": 1044,
+      "verdict": "weakly",
+      "reason": "139 forbids தீய words even வழுக்கியும், but 1044's இளிவந்த சொல் is degrading (begging) speech, not harmful speech, so the pair touches slips of speech without showing the 139 limit broken."
+     },
+     {
+      "a": 1044,
+      "b": 959,
+      "verdict": "weakly",
+      "reason": "959's குலத்தில் பிறந்தார்வாய்ச் சொல் shows lineage, and 1044's கண்ணேயும் presupposes the well-born normally do not speak so; that the test becomes unreliable is the writer's inference."
+     },
+     {
+      "a": 223,
+      "b": 1044,
+      "verdict": "supports",
+      "reason": "On Parimelazhagar's first reading 223's இலன் என்னும் எவ்வம் is the begging word the well-born never say, and 1044 has poverty bring இளிவந்த சொல் out of இற்பிறந்தார்; the link names the reading."
+     },
+     {
+      "a": 1047,
+      "b": 117,
+      "verdict": "supports",
+      "reason": "1047's அறஞ்சாரா நல்குரவு and 117's நன்றிக்கண் தங்கியான் தாழ்வு draw the same line between poverty with and without virtue."
+     },
+     {
+      "a": 752,
+      "b": 1047,
+      "verdict": "weakly",
+      "reason": "1047's ஈன்றதாயானும் பிறன்போல extends scorn to the mother, but its அறஞ்சாரா condition means it does not simply extend 752's unqualified எல்லாரும்."
+     },
+     {
+      "a": 521,
+      "b": 1047,
+      "verdict": "supports",
+      "reason": "521 has kin keep பழைமை பற்றற்ற கண்ணும், while 1047 has even the mother treat the poor man பிறன்போல, a conflict narrowed but not removed by அறஞ்சாரா."
+     }
+    ]
+   },
+   {
+    "id": "thread:wealth_on_conditions",
+    "grade": "supported",
+    "issue": "In 1002 the delusion (மருள்) qualifies ஈயாது இவறும், the clinging; Parimelazhagar takes பொருளான் எல்லாம் ஆம் as something the miser rightly knows before hoarding, so 1002 does not call 751's thought itself a delusion. 757-241 bears on grace versus wealth, not on the conditions the thread claims.",
+    "links": [
+     {
+      "a": 760,
+      "b": 754,
+      "verdict": "supports",
+      "reason": "754's தீதின்றி வந்த பொருள் yields அறன் and இன்பம், the condition Parimelazhagar reads into 760's ஒண்பொருள் (நெறியான் வரும் பொருள்)."
+     },
+     {
+      "a": 760,
+      "b": 1002,
+      "verdict": "supports",
+      "reason": "1002's ஈயாது இவறும் மருள் shows wealth held back failing to deliver what 760 promises from ஒண்பொருள்."
+     },
+     {
+      "a": 1009,
+      "b": 760,
+      "verdict": "supports",
+      "reason": "1009 uses ஒண்பொருள் for wealth gathered அன்பொரீஇ ... அறநோக்காது and says கொள்வார் பிறர், so 760's promise fails for it."
+     },
+     {
+      "a": 757,
+      "b": 755,
+      "verdict": "supports",
+      "reason": "755's அருளொடும் அன்பொடும் வாராப் பொருளாக்கம் ... புரள விடல் limits which wealth may be 757's செவிலி, though Parimelazhagar reads the condition as the lawful tax."
+     },
+     {
+      "a": 755,
+      "b": 1009,
+      "verdict": "supports",
+      "reason": "1009's அன்பொரீஇ ... ஈட்டிய ஒண்பொருள் கொள்வார் பிறர் gives a fate for the loveless wealth 755 refuses."
+     },
+     {
+      "a": 1002,
+      "b": 751,
+      "verdict": "weakly",
+      "reason": "1002's பொருளானாம் எல்லாம் echoes 751, but the மருள் falls on ஈயாது இவறும், not on the thought, so it limits hoarding rather than 751's claim."
+     },
+     {
+      "a": 973,
+      "b": 751,
+      "verdict": "supports",
+      "reason": "Parimelazhagar and Manakkudavar read 973's மேலிருந்தும் மேலல்லார் மேலல்லர் as wealth's high seat, and Parimelazhagar says greatness does not come from செல்வமாத்திரம்."
+     },
+     {
+      "a": 757,
+      "b": 241,
+      "verdict": "irrelevant",
+      "reason": "241's அருட்செல்வம் செல்வத்துள் செல்வம் versus 757's பொருளென்னும் செவிலி concerns grace's dependence on wealth, not the conditions on wealth the thread claims."
+     }
+    ]
+   },
+   {
+    "id": "thread:foresight_as_understanding",
+    "grade": "supported",
+    "issue": "Parimelazhagar narrows 372's இழவூழ் to a fate that makes one lose wealth in hand, and on 622 he takes affliction as only a stance of mind that changes when the mind changes, which is a different kind of dissolving than practical remedy.",
+    "links": [
+     {
+      "a": 427,
+      "b": 429,
+      "verdict": "supports",
+      "reason": "427's ஆவது அறிவார் defines the wise by foreknowledge, and 429's எதிரதாக் காக்கும் gives its use."
+     },
+     {
+      "a": 429,
+      "b": 435,
+      "verdict": "supports",
+      "reason": "429's எதிரதாக் காக்கும் and 435's வருமுன்னர்க் காவாதான் ... கெடும் are the positive and negative of one rule."
+     },
+     {
+      "a": 435,
+      "b": 535,
+      "verdict": "supports",
+      "reason": "435's ruin like straw before fire and 535's முன்னுறக் காவாது ... பின்னூறு இரங்கி give the two outcomes of failing to guard."
+     },
+     {
+      "a": 429,
+      "b": 442,
+      "verdict": "supports",
+      "reason": "442's உறாஅமை முற்காக்கும் பெற்றியார்ப் பேணிக் கொளல் secures 429's foresight through others."
+     },
+     {
+      "a": 622,
+      "b": 429,
+      "verdict": "supports",
+      "reason": "622's வெள்ளத்தனைய இடும்பை ... உள்ளக் கெடும் gives understanding a role after trouble has come, beside 429's forestalling."
+     },
+     {
+      "a": 372,
+      "b": 429,
+      "verdict": "supports",
+      "reason": "372's பேதைப் படுக்கும் இழவூழ், which Parimelazhagar applies எல்லா அறிவும் உளவாயினும், undercuts the understanding 429 relies on."
+     },
+     {
+      "a": 427,
+      "b": 372,
+      "verdict": "supports",
+      "reason": "372's இழவூழ் and ஆகலூழ் make the அறிவுடையார்/அறிவிலார் division of 427 depend on fate."
+     }
+    ]
+   },
+   {
+    "id": "thread:limits_of_friendship",
+    "grade": "supported",
+    "issue": "782 divides friendships by understanding (நீரவர், for Parimelazhagar அறிவுடையார், against பேதையார்), not by பண்பு, so tying it to 811 slightly blurs the 'settled by character' point. On 809 Parimelazhagar specifies not leaving old friends despite their faults, which strengthens the pull against 797 and 800.",
+    "links": [
+     {
+      "a": 791,
+      "b": 797,
+      "verdict": "supports",
+      "reason": "791's நட்டபின் வீடில்லை sits against 797's ஊதியம் ... பேதையார் கேண்மை ஒரீஇ விடல்."
+     },
+     {
+      "a": 791,
+      "b": 800,
+      "verdict": "supports",
+      "reason": "800's ஒன்றீத்தும் ஒருவுக ஒப்பிலார் நட்பு, which Parimelazhagar limits to friendship taken up அறியாது, is the exception to 791's வீடில்லை."
+     },
+     {
+      "a": 809,
+      "b": 791,
+      "verdict": "supports",
+      "reason": "809's கேண்மை விடாஅர் விழையும் உலகு praises the not-leaving that 791 states."
+     },
+     {
+      "a": 783,
+      "b": 785,
+      "verdict": "supports",
+      "reason": "783's பயில்தொறும் delight stands beside 785's புணர்ச்சி பழகுதல் வேண்டா."
+     },
+     {
+      "a": 785,
+      "b": 792,
+      "verdict": "supports",
+      "reason": "On Manakkudavar's ஒருநாள் கண்டாராயினும் reading, 785's quick bond sits against 792's ஆய்ந்தாய்ந்து கொள்ளாதான் ... சாம் துயரம்; the claim names the reading."
+     },
+     {
+      "a": 783,
+      "b": 811,
+      "verdict": "supports",
+      "reason": "783's பண்புடையாளர் தொடர்பு grows sweeter, while 811's பண்பிலார் கேண்மை is better குன்றல் than பெருகல்."
+     },
+     {
+      "a": 782,
+      "b": 811,
+      "verdict": "supports",
+      "reason": "782's பேதையார் நட்பு waning like the மதிப் பின் is what 811's பெருகலிற் குன்றல் இனிது recommends."
+     }
+    ]
+   },
+   {
+    "id": "thread:two_shames",
+    "grade": "supported",
+    "issue": null,
+    "links": [
+     {
+      "a": 1011,
+      "b": 1251,
+      "verdict": "supports",
+      "reason": "1011's திருநுதல் நல்லவர் நாணு, which Parimelazhagar glosses as restraint of mind, speech and body, is pictured in 1251 as நாணுத்தாழ் on the door of நிறை."
+     },
+     {
+      "a": 1089,
+      "b": 1014,
+      "verdict": "supports",
+      "reason": "1089's நாணும் உடையாட்கு அணியெவனோ and 1014's அணிஅன்றோ நாணுடைமை use the same ornament figure for the two shames."
+     },
+     {
+      "a": 1297,
+      "b": 1017,
+      "verdict": "supports",
+      "reason": "Parimelazhagar's gloss on 1297's நாணும் மறந்தேன் (என் உயிரினும் சிறந்த நாண்) gives the love-book shame 1017's நாணால் உயிரைத் துறப்பர் valuation; the claim names the commentator."
+     },
+     {
+      "a": 1163,
+      "b": 1017,
+      "verdict": "supports",
+      "reason": "1163 hangs காமமும் நாணும் on the உயிர் as pole, keeping shame at life's cost as 1017's உயிர்ப்பொருட்டால் நாண்துறவார் requires."
+     }
+    ]
+   },
+   {
+    "id": "thread:friend_in_ruin",
+    "grade": "supported",
+    "issue": "806's தொலைவிடத்தும் is, for Parimelazhagar (அவரால் தொலைவு வந்தவிடத்தும்) and Kalaignar, ruin caused by the old friend, not the speaker's fall, so it shows loyalty surviving the friend's harm rather than the friend's conduct at one's ruin.",
+    "links": [
+     {
+      "a": 106,
+      "b": 806,
+      "verdict": "weakly",
+      "reason": "Both use துற-, but 806's தொலைவிடத்தும் is ruin brought by the old friend on the commentators' reading, not the hour of one's own fall."
+     },
+     {
+      "a": 107,
+      "b": 799,
+      "verdict": "supports",
+      "reason": "107's விழுமந் துடைத்தவர் நட்பு remembered எழுபிறப்பும் and 799's கெடுங்காலைக் கைவிடுவார் கேண்மை burning the heart அடுங்காலை both fix the measure at the other's distress."
+     },
+     {
+      "a": 787,
+      "b": 799,
+      "verdict": "supports",
+      "reason": "787's அழிவின்கண் அல்லல் உழப்பதாம் நட்பு is the duty whose failure 799's கெடுங்காலைக் கைவிடுவார் names."
+     },
+     {
+      "a": 814,
+      "b": 788,
+      "verdict": "supports",
+      "reason": "788's ஆங்கே இடுக்கண் களைவது and 814's அமரகத்து ஆற்றறுக்கும் கல்லாமா both place the test at the instant of crisis."
+     },
+     {
+      "a": 798,
+      "b": 814,
+      "verdict": "supports",
+      "reason": "798's அல்லற்கண் ஆற்றறுப்பார் and 814's அமரகத்து ஆற்றறுக்கும் share the verb and the moment of failure."
+     },
+     {
+      "a": 815,
+      "b": 106,
+      "verdict": "supports",
+      "reason": "815's செய்தேமஞ் சாரா friendship is better not had, as 106's துன்பத்துள் துப்பாயார் is to be kept, by the same measure of support in trouble."
+     },
+     {
+      "a": 1293,
+      "b": 787,
+      "verdict": "supports",
+      "reason": "1293 quotes கெட்டார்க்கு நட்டார்இல் with என்பதோ to reproach the heart for failing 787's அழிவின்கண் standard."
+     },
+     {
+      "a": 1293,
+      "b": 798,
+      "verdict": "supports",
+      "reason": "1293's heart that goes பெட்டாங்கு அவர்பின் is the அல்லற்கண் ஆற்றறுப்பார் of 798 in a form that cannot be declined."
+     }
+    ]
+   },
+   {
+    "id": "thread:shame_gives_way",
+    "grade": "partly_supported",
+    "issue": "Parimelazhagar introduces 1247 as spoken by a woman who, held back by shame, gives up going to him (நாண் தடுத்தலின், அச்செலவு ஒழிவாள்), so on his reading shame holds in 1247, against 'in none of them does shame survive'. 1132 is the man's resolve in another chapter and does not settle the woman's 1247 dilemma; Parimelazhagar takes it as intention (ஊரக் கருதாநின்றன), not the act.",
+    "links": [
+     {
+      "a": 1132,
+      "b": 1247,
+      "verdict": "weakly",
+      "reason": "1132's நாணினை நீக்கி is the man's resolve and 1247's காமம் விடு ஒன்றோ நாண்விடு the woman's unresolved choice, so 1132 is a parallel, not 1247's choice made."
+     },
+     {
+      "a": 1134,
+      "b": 1251,
+      "verdict": "supports",
+      "reason": "1134's காமக் கடும்புனல் carrying off நாணொடு நல்லாண்மை என்னும் புணை and 1251's காமக் கணிச்சி breaking the நாணுத்தாழ் both have shame destroyed by force."
+     },
+     {
+      "a": 1247,
+      "b": 1251,
+      "verdict": "supports",
+      "reason": "1251's காமக் கணிச்சி உடைக்கும் ... நாணுத்தாழ் shows shame losing by force, the outcome the claim sets against 1247's choice, though the sequence is chapter order only."
+     },
+     {
+      "a": 1257,
+      "b": 1247,
+      "verdict": "supports",
+      "reason": "1257's நாணென ஒன்றோ அறியலம் ... பெட்ப செயின் has the 1247 conflict vanish in his presence."
+     },
+     {
+      "a": 1297,
+      "b": 1247,
+      "verdict": "supports",
+      "reason": "1297's நாணும் மறந்தேன் has shame lost by forgetting, one of the outcomes the claim lists."
+     },
+     {
+      "a": 1257,
+      "b": 1297,
+      "verdict": "supports",
+      "reason": "1297's நாணும் மறந்தேன் in separation and 1257's நாணென ஒன்றோ அறியலம் at reunion both report shame gone."
+     }
+    ]
+   },
+   {
+    "id": "thread:foresight_and_fate",
+    "grade": "supported",
+    "issue": "Parimelazhagar narrows 372's இழவூழ் to fate that makes one lose wealth in hand, so its reach over understanding in general is his extension.",
+    "links": [
+     {
+      "a": 427,
+      "b": 429,
+      "verdict": "supports",
+      "reason": "427's ஆவது அறிவார் and 429's எதிரதாக் காக்கும் அறிவினார்க்கு இல்லை அதிர வருவதோர் நோய் state the definition and the promise."
+     },
+     {
+      "a": 372,
+      "b": 429,
+      "verdict": "supports",
+      "reason": "372's பேதைப் படுக்கும் இழவூழ், applied by Parimelazhagar even to one with every understanding, removes what 429's protection rests on."
+     },
+     {
+      "a": 427,
+      "b": 372,
+      "verdict": "supports",
+      "reason": "372's இழவூழ்/ஆகலூழ் make 427's division of wise and unwise depend on fate."
+     },
+     {
+      "a": 429,
+      "b": 380,
+      "verdict": "supports",
+      "reason": "380's மற்றொன்று சூழினுந் தான்முந் துறும் meets 429 head on, and Manakkudavar on 429 allows that early guarding blunts even முன்னை வினையால் வருந் துன்பம்."
+     },
+     {
+      "a": 662,
+      "b": 429,
+      "verdict": "supports",
+      "reason": "662's ஊறொரால் plus உற்றபின் ஒல்காமை concedes harm can come despite guarding, which Parimelazhagar ascribes to a task spoiled தெய்வத்தான்."
+     }
+    ]
+   },
+   {
+    "id": "thread:measure_of_the_sulk",
+    "grade": "supported",
+    "issue": "1326 ranks the sulk above union without condition, so the thread's conclusion that the sulk is valued only as a step toward union rests on 1330 and on Parimelazhagar's glosses of 1109 and 1330 (அளவறிந்து நீங்கி), which it names.",
+    "links": [
+     {
+      "a": 1109,
+      "b": 1302,
+      "verdict": "supports",
+      "reason": "1302's உப்பமைந்தற்றால் ... மிக்கற்றால் நீள விடல் sets a measure on the ஊடல் that 1109 lists as a பயன்."
+     },
+     {
+      "a": 1109,
+      "b": 1326,
+      "verdict": "supports",
+      "reason": "1326's புணர்தலின் ஊடல் இனிது ranks one item of 1109's list first."
+     },
+     {
+      "a": 1326,
+      "b": 1330,
+      "verdict": "supports",
+      "reason": "1330's அதற்கின்பம் கூடி முயங்கப் பெறின் makes the sulk's pleasure depend on the union 1326 placed below it."
+     },
+     {
+      "a": 1330,
+      "b": 1302,
+      "verdict": "supports",
+      "reason": "1302's நீள விடல் spoiling and 1330's கூடி முயங்கப் பெறின் together require ending the sulk in time."
+     },
+     {
+      "a": 1302,
+      "b": 1306,
+      "verdict": "supports",
+      "reason": "1302's salt and 1306's கனியும் கருக்காயும் both make sulking a matter of degree through food images."
+     },
+     {
+      "a": 1306,
+      "b": 1330,
+      "verdict": "supports",
+      "reason": "1306 says love without துனியும் புலவியும் is fruit at the wrong stage; 1330 states ஊடுதல் காமத்திற்கு இன்பம்."
+     },
+     {
+      "a": 1282,
+      "b": 1302,
+      "verdict": "supports",
+      "reason": "1282's தினைத்துணையும் ஊடாமை வேண்டும் under காமம் நிறைய வரின் bounds the measured sulk of 1302."
+     }
+    ]
+   },
+   {
+    "id": "thread:inside_decides",
+    "grade": "supported",
+    "issue": "661 locates where the strength of action lies rather than testing whether an outward act is genuine, so it shares 34's shape but not quite its test. 294 does not rank truth above austerity and giving; only 295 does. 825-890 is not cited in the claim and concerns whether others can be trusted.",
+    "links": [
+     {
+      "a": 93,
+      "b": 34,
+      "verdict": "supports",
+      "reason": "93's அகத்தானாம் இன்சொல் keeps sweet speech on the virtue side of 34's மனத்துக்கண் மாசிலன் ... ஆகுல நீர பிற."
+     },
+     {
+      "a": 661,
+      "b": 34,
+      "verdict": "weakly",
+      "reason": "661's மனத்திட்பம் ... மற்றைய எல்லாம் பிற shares 34's form, but concerns efficacy of action, not whether the outward act is genuine."
+     },
+     {
+      "a": 93,
+      "b": 786,
+      "verdict": "supports",
+      "reason": "93's முகத்தான் ... அகத்தானாம் and 786's முகநக ... அகநக apply the same face/heart test to speech and friendship."
+     },
+     {
+      "a": 294,
+      "b": 119,
+      "verdict": "supports",
+      "reason": "294's உள்ளத்தாற் பொய்யாது and 119's உட்கோட்டம் இன்மை both require the inside to match straight speech."
+     },
+     {
+      "a": 119,
+      "b": 295,
+      "verdict": "supports",
+      "reason": "119's உட்கோட்டம் இன்மை பெறின் and 295's மனத்தொடு வாய்மை மொழியின் attach the same word-mind condition."
+     },
+     {
+      "a": 278,
+      "b": 34,
+      "verdict": "supports",
+      "reason": "278's மனத்தது மாசாக ... நீராடி is the show 34's ஆகுல நீர பிற dismisses."
+     },
+     {
+      "a": 298,
+      "b": 278,
+      "verdict": "supports",
+      "reason": "298's புறள்தூய்மை நீரான் அமையும் states the principle behind 278's bathers whose மனத்தது மாசு."
+     },
+     {
+      "a": 825,
+      "b": 890,
+      "verdict": "weakly",
+      "reason": "825's மனத்தின் அமையாதவர் and 890's உடம்பாடு இலாதவர் make inner accord decide trust, related to but not an instance of an act counting only with a matching mind."
+     }
+    ]
+   },
+   {
+    "id": "thread:deeds_come_back",
+    "grade": "supported",
+    "issue": "658 does not use the ripening word விளைவு; it says forbidden deeds bring பீழை even when முடிந்தாலும், so grouping it with 177 and 284 under the harvest figure is the writer's gloss. Parimelazhagar reads 313 of the renunciant and 658 of ministers acting for gain.",
+    "links": [
+     {
+      "a": 207,
+      "b": 208,
+      "verdict": "supports",
+      "reason": "The shared வீயாது in 207's பின்சென்று அடும் and 208's அடி உறைந்தற்று gives the spatial inescapability."
+     },
+     {
+      "a": 313,
+      "b": 207,
+      "verdict": "supports",
+      "reason": "313's உய்யா விழுமம் against 207's எனைப்பகை யுற்றாரும் உய்வர் shows one's own hurtful act cannot be survived where an enemy can."
+     },
+     {
+      "a": 319,
+      "b": 207,
+      "verdict": "supports",
+      "reason": "319's முற்பகல் ... பிற்பகல் தாமே வரும் adds the temporal return to 207's spatial pursuit."
+     },
+     {
+      "a": 204,
+      "b": 319,
+      "verdict": "supports",
+      "reason": "204's அறஞ்சூழும் gives the return an agent, where 319's தாமே leaves it impersonal."
+     },
+     {
+      "a": 206,
+      "b": 320,
+      "verdict": "supports",
+      "reason": "206's நோய்ப்பால தன்னை அடல் வேண்டாதான் and 320's நோய்செய்யார் நோயின்மை வேண்டுபவர் state the same desire-based rule."
+     },
+     {
+      "a": 177,
+      "b": 284,
+      "verdict": "supports",
+      "reason": "177's விளைவயின் and 284's விளைவின்கண் both place the harm at the ripening."
+     },
+     {
+      "a": 658,
+      "b": 177,
+      "verdict": "supports",
+      "reason": "658's முடிந்தாலும் பீழை தரும் and 177's விளைவயின் மாண்டற் கரிதாம் பயன் both place harm after the getting, though 658 lacks the harvest word."
+     },
+     {
+      "a": 659,
+      "b": 319,
+      "verdict": "supports",
+      "reason": "659's அழக் கொண்ட எல்லாம் அழப்போம் is a return of harm like 319's, restricted to wealth and paired with the good that பிற்பயக்கும்."
+     }
+    ]
+   },
+   {
+    "id": "thread:eyes_tell_secrets",
+    "grade": "supported",
+    "issue": "1100 and 1280 show eyes replacing speech by agreement or by choice; only 1180, 1271 and 1232 show eyes betraying what is concealed, so 'cannot be kept quiet' rests on those three.",
+    "links": [
+     {
+      "a": 1100,
+      "b": 1280,
+      "verdict": "supports",
+      "reason": "1100's வாய்ச்சொற்கள் என்ன பயனும் இல and 1280's கண்ணினால் காமநோய் சொல்லி both have the eyes speak where the mouth does not."
+     },
+     {
+      "a": 1180,
+      "b": 1271,
+      "verdict": "supports",
+      "reason": "1180's அறைபறை கண்ணார் and 1271's கரப்பினும் கையிகந்து ... உண்கண் both have her eyes disclose what she would hide."
+     },
+     {
+      "a": 1232,
+      "b": 1180,
+      "verdict": "supports",
+      "reason": "1232's கண் that நல்காமை சொல்லுவ போலும் and 1180's drum-eyes both announce her hidden state to others."
+     }
+    ]
+   }
+  ]
+ }
+}

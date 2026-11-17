@@ -164,12 +164,16 @@ def add_systematic_links(edges):
 
 def write_thread_review(threads, edge_pairs, verses):
     lines = ["# Kural threads for review", "",
-             "These threads were drawn from tensions marked across all 133 chapters, then audited "
-             "link by link. Only links graded sound appear here, and claims were rewritten to fit "
-             "them. A separate AI did the grading: no Tamil scholar has reviewed this.", ""]
-    for thread in threads:
+             "Each thread is a claim about how the book treats one theme across chapters, resting on "
+             "links graded sound. Threads were drawn from clusters in the link graph, written by one "
+             "AI agent and audited by another. No Tamil scholar has reviewed this.", ""]
+    for thread in sorted(threads, key=lambda t: ("supported", "partly_supported").index(t["audit_grade"])
+                         if t["audit_grade"] in ("supported", "partly_supported") else 2):
         grade = thread["audit_grade"].replace("_", " ")
-        lines += [f"## {thread['title']}", "", thread["claim"], "", f"*Audit: {grade}.*", ""]
+        lines += [f"## {thread['title']}", "", thread["claim"], ""]
+        if thread.get("limits"):
+            lines += [f"*Limits:* {thread['limits']}", ""]
+        lines += [f"*Audit: {grade}.*" + (f" {thread['audit_issue']}" if thread.get("audit_issue") else ""), ""]
         for first, second in thread["links"]:
             link = edge_pairs[(f"kural:{first}", f"kural:{second}")]
             for number in (first, second):
@@ -229,7 +233,8 @@ def main():
     for thread in threads:
         nodes.append({"id": thread["id"], "type": "Thread", "title": thread["title"],
                       "claim": thread["claim"], "basis": "interpretation", "status": "proposed",
-                      "audit_grade": thread["audit_grade"]})
+                      "audit_grade": thread["audit_grade"], "limits": thread.get("limits", ""),
+                      "audit_issue": thread.get("audit_issue", "")})
         for first, second in thread["links"]:
             link = edge_pairs.get((f"kural:{first}", f"kural:{second}"))
             if link is None:
