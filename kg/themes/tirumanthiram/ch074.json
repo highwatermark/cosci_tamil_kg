@@ -16,8 +16,7 @@
       "reading": "If on Friday, Monday and Wednesday the breath moves steadily on the left, the bright body has no flaw: so the generous one gladly told us.",
       "concepts": [
         "praanan",
-        "yaakkai",
-        "guru"
+        "yaakkai"
       ],
       "nuance": "வள்ளல் (the generous one) is usually taken as Nandi, Tirumular's teacher. The promise is bodily health, not release."
     },
@@ -71,5 +70,41 @@
       "nuance": "Almost every phrase is technical: அணிமலர் may be a lotus of the body, பதினாறு may be sixteen measures of breath, and ஆதாரம் a support centre. The last line seems to say the breath itself is the clock, but the reading is a guess. A variant reads முகுத்தமு."
     }
   },
-  "links": []
+  "links": [
+    {
+      "a": 790,
+      "b": 792,
+      "type": "qualifies",
+      "note": "792 lists Thursday (வியாழம்) simply among the days when the breath runs on the right; 790 splits Thursday, the day of பொன், by the moon: left in the waxing fortnight (வளரும் பிறையிடம்), right in the waning. 790 adds the condition that 792 leaves out.",
+      "pass": "refine"
+    },
+    {
+      "a": 791,
+      "b": 724,
+      "type": "develops",
+      "note": "724 says Tirumular learned the means (உபாயம்) of nurturing the body and so nurtured life, without naming the means; 791 gives one: if the breath runs on the left on Friday, Monday and Wednesday, the bright body has no flaw (காயத்துக்கு ஊனமில்லை). The weekday rule is an instance of the body-keeping 724 argues for.",
+      "pass": "refine"
+    },
+    {
+      "a": 793,
+      "b": 857,
+      "type": "agrees",
+      "note": "793 has moon and sun rise and fall through இடை and பிங்கலை and life welling up in the middle, without naming the middle channel; 857 runs all the kalas through ida and pingala and through சொல்லா நடுநாடி, the middle channel 'not spoken'. Both leave the central channel unnamed between the two named ones.",
+      "pass": "refine"
+    },
+    {
+      "a": 793,
+      "b": "thiruppugazh:188",
+      "type": "agrees",
+      "note": "793 places life in the middle between ida and pingala; Thiruppugazh 188 asks that the breath run from the root by பிங்கலை நாடி and the middle way up the spine to the Lord's feet. Arunagirinathar's song uses the same three-channel map as Tirumular's verse, as a prayer rather than an instruction.",
+      "pass": "refine"
+    },
+    {
+      "a": 795,
+      "b": 1962,
+      "type": "develops",
+      "note": "795 describes the breath that will not stay in the middle (நடுவு நில்லாமல்) but runs left and right and does harm, until it is led as it should go; 1962 names the goal as நாற்றிசை ஓடா நடுநாடி, the middle channel that does not run in four directions, where the nectar is drunk. 1962 states where 795's straying breath is to be led.",
+      "pass": "refine"
+    }
+  ]
 }
