@@ -16,9 +16,9 @@
       "reading": "The poet describes women whose eyes are spears and whose music oozes blame, who strike young men without pause like Death himself with his net of karma's darkness, and asks not to capsize in the shoreless sea of fate through infatuation with them, but to have the lotus feet of the Kumara who melted for the hunter girl in mind even in dreams. The praise names Vishnu who sleeps on the serpent and measured the earth, Murugan the great one who told Siva on the bull 'this is the supreme knowledge', and the vel that turned the asuras' chests to mire.",
       "concepts": [
         "kaamam",
+        "kootru",
         "oozh",
-        "thiruvadi",
-        "guru"
+        "thiruvadi"
       ],
       "nuance": "இடைவிடாது எறு நடுவனும் என: the women are likened to நடுவன், Yama, the impartial killer, so desire and death are one figure. கரையிலா விதி எனும் ஒரு கடல்: fate is a sea without shore. The line about learning and knowledge that sages despise (கலைகளும் அறிவொடு கருதொணாதென முனிவுற) is hard to construe.",
       "uncertain": true
@@ -77,8 +77,7 @@
       "concepts": [
         "kootru",
         "saakkaadu",
-        "guru",
-        "mounam"
+        "adiyaar"
       ],
       "nuance": "கதிதரு முருகனும் என நினைபவர் கற்பிற் புக்கு அறிவு ஒக்கக் கற்பது: the remedy for death is to learn in the company and discipline of those who know Murugan as the goal; கற்பு here seems to mean their way or learning, not chastity, but the line is compressed. மவுனத்திற் பற்றுறு நித்தச் சுத்தர்கள்: silence as the refuge of the pure.",
       "uncertain": true
@@ -117,8 +116,7 @@
       "concepts": [
         "varaivinmagalir",
         "adiyaar",
-        "thiruvadi",
-        "guru"
+        "thiruvadi"
       ],
       "nuance": "தரகொடு கைக்காசைக் கேட்டு: a broker (தரகு) negotiates the price, an unusually concrete detail of the trade. தத்வார்த்தக் குருபரன் என ஓதும்: Siva himself names Murugan guru. The opening lines of the praise (மைச்சாவிக் காக்கைக் கடவுளை ...) are obscure.",
       "uncertain": true
@@ -126,10 +124,10 @@
     "1019": {
       "reading": "The poet tells of a life spent: sent on small errands by sly-eyed women and robbed by them in youth, then bound by the rope of kin and parents and stumbling in bodily toil, then coughing, spitting and losing breath, the body burned in fire, and asks whether there will be a day he escapes this forest of a body. The praise names Murugan the son of the peacock of Kamakottam who gives her breast milk, nephew of Krishna who danced for the cowherd women's curds and milk, the one who came alone on the road so the learned could hear, and the giver of the meaning to Siva who burned Kama.",
       "concepts": [
-        "varaivinmagalir",
         "yaakkai",
+        "varaivinmagalir",
         "sutram",
-        "guru"
+        "nilaiyaamai"
       ],
       "nuance": "The plea moves through three stages of life (சிறுகாலை, the rope of kin, the cough and the pyre), a compressed biography. மெய்க்காடு: the body as a wilderness. காமக் கோட்டக் குலமயில் points to the goddess of Kamakottam at Kanchi. கற்றாவிற் காட்டி ... நற்றாயிற் காட்டி is hard to construe.",
       "uncertain": true
@@ -155,7 +153,99 @@
       "uncertain": true
     }
   },
-  "links": [],
+  "links": [
+    {
+      "a": 1007,
+      "b": 1010,
+      "type": "tension",
+      "note": "1007 vows that whether he sinks, rises or tosses in the ocean of passion (அநுராக உததியதனிடை விழுகினும் எழுகினும் உழலுகினும்) he will not forget the feet as his life's help; 1010 asks whether a day will come when he forgets that ruinous karma of union (பாழ்படும் அருவினை அற மறந்து) and then lives thinking of the feet. On the reading that 1010 makes forgetting the passion the condition for remembering the feet, the two disagree on whether remembrance can live inside the passion or only after it.",
+      "pass": "refine"
+    },
+    {
+      "a": 1008,
+      "b": "kural:1083",
+      "type": "agrees",
+      "note": "1008 likens women with spear eyes to நடுவன், Yama, who strikes young men without pause (இடைவிடாது எறு நடுவனும் என); Kural 1083's man says he never knew Death (கூற்று) before and now knows it in a woman's grace and warring eyes. Both name the beloved's look as Death itself; the Kural says it in wonder, the song in fear of capsizing in the sea of fate.",
+      "pass": "refine"
+    },
+    {
+      "a": 1011,
+      "b": "tirumanthiram:1533",
+      "type": "agrees",
+      "note": "1011 lists what the rival sects say the ultimate is (உரைதரு பரசமயங்கள் ஓதுவது: form, formless, light, space, pillar of the worlds) and asks to see the thing itself and rest in silence (அது பொருள் கண்டு மோனமொடு உணர்வுற); Tirumanthiram 1533 says those who saw the six sects did not see him, he is not what they hold (ஆறு சமயப் பொருளும் அவனலன்), so become clear and settle. Both put the reality past the sects' definitions and reach it by a settled, silent clarity; the song's syntax is uncertain on how far it rejects the definitions.",
+      "pass": "refine"
+    },
+    {
+      "a": 1012,
+      "b": "kural:1084",
+      "type": "develops",
+      "note": "Kural 1084 says the girl's eyes have a look that eats the life of those who see (கண்டார் உயிருண்ணும் தோற்றம்); 1012 makes the same eyes the poison that rose when the gods churned the sea (இமையவர் பற்றிக் கடைந்த அன்றெழு நஞ்சுபோலே), stronger than Kama's five arrows. The song enlarges the Kural's life-eating look into the world-threatening halahala.",
+      "pass": "refine"
+    },
+    {
+      "a": 1013,
+      "b": "naladiyar:392",
+      "type": "same_image",
+      "note": "1013 shows women, once Kama stands before them, burned by the white crescent like the undersea fire (கொளுந்து வெண்பிறை வடவை எறிக்க), the bees' song and the Malaya breeze wounding the body; Naladiyar 392 hears the rain-clouds' thunder as a funeral drum for women without their companion. In both, the ordinary beauties of nature turn into instruments of pain for the lovesick woman.",
+      "pass": "refine"
+    },
+    {
+      "a": 1014,
+      "b": "naladiyar:29",
+      "type": "develops",
+      "note": "Naladiyar 29 says the body lasts like water on a grass tip, so do virtuous deeds now before people say he was gone with his kin wailing (கேள் அலற); 1014 pictures the kin wailing, the palm-wood pyre and Death tying the life, and asks before then (உடன்றுபோமுன்) to learn in the discipline of those who think of Murugan as the giver of the goal. Both use the wailing at death to say 'act before'; the Naladiyar asks for அறவினை, the song for learning in the devotees' company.",
+      "pass": "refine"
+    },
+    {
+      "a": 1015,
+      "b": "tirumanthiram:1598",
+      "type": "agrees",
+      "note": "1015 asks whether, when Yama's host drags him to hell, the fragrant holy feet, the eternal tattva within release (திருவடி முத்திக்குட்படு நித்யத் தத்துவம்), will not come; Tirumanthiram 1598 says knowledge of the holy feet frees from the prison of impurity and is itself release (திருவடி ஞானமே திண்சித்தி முத்தியே). Both identify the feet with release rather than treat them as a way to it.",
+      "pass": "refine"
+    },
+    {
+      "a": 1016,
+      "b": "tirumanthiram:2362",
+      "type": "agrees",
+      "note": "1016 says that siddhas, gods, codes of dharma, Puranas and Vedas cannot know the Lord, whose form is the knowledge beyond both knowing and not knowing (அறிவும் அறியாமையும் கடந்த அறிவு திருமேனி); Tirumanthiram 2362 says when one passes beyond knowledge and ignorance and becomes knowledge (அறிவு அறியாமை கடந்து அறிவானால்), that is the true way. The same phrase names the goal in both; the song makes it the Lord's very body.",
+      "pass": "refine"
+    },
+    {
+      "a": 1017,
+      "b": "kural:1131",
+      "type": "same_image",
+      "note": "Kural 1131's lover says that for one who suffers in love there is no safeguard but the palmyra horse (மடல்); 1017's praise has Murugan himself, bowing at the hunter girl's feet and wandering unseen in the millet field, resolve to mount the new madal (புதியமடல் ஏறவும் துணிந்த). The song gives the Kural's desperate lover's last resort to the god.",
+      "pass": "refine"
+    },
+    {
+      "a": 1018,
+      "b": "naladiyar:354",
+      "type": "same_image",
+      "note": "1018 describes women who show eyes, hair and arms, ask for coins through a broker and stand in the street like peacocks (தெருவினில் மயில்போலே நிற்பார்); Naladiyar 354 says the other kind, unlike household women, show off their charms themselves like a fresh flood (புதுப்பெருக்கம் போலத் தம் பெண்ணீர்மை காட்டி). Both mark the courtesan by self-display; the song adds the broker and the price.",
+      "pass": "refine"
+    },
+    {
+      "a": 1019,
+      "b": "naladiyar:55",
+      "type": "develops",
+      "note": "Naladiyar 55 tells the heart that youth has passed to no purpose and disease and old age are coming now (கொன்னே கழிந்தன்று இளமையும்), so set out on the good path; 1019 traces the same life in stages, youth robbed by sly-eyed women, middle age bound by kin's rope, then coughing and losing breath to the pyre, and asks for the day he escapes this forest of a body (மெய்க்காட்டைத் தவிர்வதும் ஒருநாளே). The song spells out the wasted span the Naladiyar sums up in a line.",
+      "pass": "refine"
+    },
+    {
+      "a": 1020,
+      "b": "kural:911",
+      "type": "agrees",
+      "note": "1020 describes women who praise a man lavishly for money (பொருட்கு மிகத் துதித்து இளகி) before their elaborate lovemaking; Kural 911 warns that the sweet words of women who desire wealth, not the man (அன்பின் விழையார் பொருள்விழையும்), bring harm. Both locate the danger in the flattery bought by money.",
+      "pass": "refine"
+    },
+    {
+      "a": 1021,
+      "b": "tirumanthiram:81",
+      "type": "develops",
+      "note": "Tirumanthiram 81 says the Lord made the poet well so that he would render him well in Tamil (தன்னை நன்றாகத் தமிழ் செய்யுமாறே), against the waste of being born again; 1021 asks to be set where he reaches the lotus feet with the taste of Tamil and ends death (தமிழ்ச்சுவையிட்டு இறப்பற எய்த்திட). Both make Tamil song the means by which the poet's birth is redeemed.",
+      "pass": "refine"
+    }
+  ],
   "source_issues": [
     "1010, 1013, 1019: the glyph ஡ stands for ஊ (இலங்கலூடுறு, முன்றிலூடே, தூர்த்த/றூர்த்த).",
     "1007, 1010, 1011, 1019, 1020: initial உ is split from its word by a space (உ ததி, உ ழலுகினும், உ ளதென, உ ரைதரு, உ ற்றார், உ க்காரித்து, உ ருத்திரரை, உ டுத்த).",
