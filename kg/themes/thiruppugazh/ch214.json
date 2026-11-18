@@ -15,9 +15,9 @@
     "950": {
       "reading": "The poet asks that, as the yogis who have been taught see no span of life, no ill-omened day and no wasted day, his desires too should truly end, together with town, name and all else, so that he can say to women with poisoned sword-eyes 'who am I, who are you'; he asks Murugan to be his mother and give grace to him, a dog. The praise names him the life of Indra and Brahma, beyond all, the lord of Vayalur, the vel that pierced the mountain, the bearer of the cock-banner riding the green peacock, and the lord at Perur, ruled by the Lord who danced there.",
       "concepts": [
+        "avaa",
         "pattru",
-        "yogam",
-        "thiruvarul"
+        "yogam"
       ],
       "nuance": "நானார் நீயார் எனுமாறு: the end of desire is pictured as no longer recognising the women at all. வாணாள் கோணாள் வீணாள் காணார், yogis who see neither lifetime nor bad days nor wasted days, sets them outside time. பட்டி ஆள்பவர் கொட்டியாடினர் is Siva of Perur, Patteeswarar, and his dance. Much of the plea's syntax is uncertain.",
       "uncertain": true
@@ -28,5 +28,20 @@
     "Song 949: corrupt glyph in §ப்ருர்ப் (line 4).",
     "Song 950: corrupt glyphs in §ப்ரு (line 16), and the unflagged garble பர்ரு ராசூழ் in the same line."
   ],
-  "links": []
+  "links": [
+    {
+      "a": 949,
+      "b": "tirumanthiram:302",
+      "type": "develops",
+      "note": "The song asks for one word (ஓர் வாக்கு) whose rule is the soul's knowledge, to cure the disease that does not end. Tirumanthiram 302 says those who hear Siva's word become gods and that hearing the word that bears fruit is the real hold (பயன்பணி கேட்பது பற்றது). The hymn asks for the fruitful word the Tirumanthiram describes.",
+      "pass": "refine"
+    },
+    {
+      "a": 950,
+      "b": "tirumanthiram:2613",
+      "type": "agrees",
+      "note": "The song holds up taught yogis but asks above all that the poet's desires truly end (இச்சையானவை நேரே தீர), with town and name. Tirumanthiram 2613 says talk of breath and needle is useless; cut desire and attachment (ஆசையும் அன்பும் அறுமின்) and the Lord's place is easy to reach. Both put the end of desire, not yogic technique, at the centre.",
+      "pass": "refine"
+    }
+  ]
 }
