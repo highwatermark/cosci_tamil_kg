@@ -15,9 +15,9 @@
     "1324": {
       "reading": "The poet describes courtesans with gold-laden breasts and pearl strings who twist men with their words, delude them on the couch, and with swaying waists, kissing lips and cuckoo cries bind them as with chains, and asks whether the kinship of such barren, useless women is fit. The praise shows Murugan mounting the peacock while even the one unafraid of the sea's poison trembled, cutting off Singamukha's head and leaving the great-faced Sura limbless with a vel sent like the Sarabha bird, the son of Sankari who bore the elephant-faced one, who dances daily so that yogis of mantra and tantra join their palms.",
       "concepts": [
+        "varaivinmagalir",
         "kaamam",
-        "punarchi",
-        "yogam"
+        "punarchi"
       ],
       "nuance": "The women are named வேசியர், courtesans, but the song speaks of their arts, not of money, and calls them வறட்டு வீணியர், barren and useless. சிம்புள் is the Sarabha, the bird-beast that subdued the man-lion, apt for a vel sent against the lion-faced Singamukha. The line on the poison (திங்கள் அரும்பு சலத்திலே விடம் வந்தது கண்டு பயப்படாதவர் சிந்தை நடுங்கி) is unclear.",
       "uncertain": true
@@ -29,6 +29,13 @@
       "b": 1092,
       "type": "agrees",
       "note": "Both confess the poet's craft spent for wealth: 1092 the praise-songs sung to patrons who gave nothing, 1323 the arts and poems learned and sung while running the streets after money."
+    },
+    {
+      "a": 1323,
+      "b": "kural:400",
+      "type": "qualifies",
+      "note": "The Kural says கேடில் விழுச்செல்வம் கல்வி, learning is the imperishable wealth and nothing else is wealth. The Thiruppugazh confesses that after learning கலைபல நூல்கள் and singing many poems he ran through the streets after பொருளெனும் ஆசை, the desire called wealth. The song limits the Kural's claim: learning is wealth only if it is not spent hunting the other kind.",
+      "pass": "refine"
     }
   ],
   "source_issues": [
