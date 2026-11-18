@@ -17,7 +17,7 @@
       "concepts": [
         "malam",
         "veedu",
-        "adiyaar"
+        "yaakkai"
       ],
       "nuance": "அடியார் மனம் சலிக்க ... அபராதம் வந்து கெட்ட பிணம்: the image seems to be the corpse of one who grieved the devotees, made the model for the death the poet wants for his own malas. சுத்த வெளியாகி, becoming pure space, names the goal. The first line has a corrupt glyph and the division of the opening clauses is uncertain.",
       "uncertain": true
@@ -53,8 +53,8 @@
       "reading": "The poet describes women who call young men, draw out a great deal of money, embrace them on beds and melt them, and says he is drained, his tongue dry, living in fear and shame; he asks Murugan to end this labour and give the feet that lead to release. The praise names Siva, whom even Vishnu could not reach, dancing the great dance, to whom Murugan gave the teaching that made his devotion overflow, and the vel that pierced Sura's chest and let the friendly survive.",
       "concepts": [
         "varaivinmagalir",
-        "veedu",
-        "guru"
+        "selvam",
+        "veedu"
       ],
       "nuance": "மிக்க காசு இழைத்து: money is named, the courtesan's trade. சுகத்தில் அத்தர் தாம் மிகுத்த பத்தி கூர் சுரக்க வித்தை தான் அருள்வோனே: Siva, the father, receives the teaching and overflows with devotion.",
       "uncertain": true
@@ -74,8 +74,7 @@
       "concepts": [
         "yaakkai",
         "pazhi",
-        "thamizh",
-        "guru"
+        "kaamam"
       ],
       "nuance": "கலைதலை கெட்ட பாய்ச் சமணரை நட்ட கூர்க் கழுநிரை ... ஏற்றிய தாளக் கவிதை: Murugan is identified with Sambandar, whose Tamil hymns sent the Jains to the stake. குயவனை ... குட்டினால்: Brahma struck as a potter, the punishment in the story of Om, though Om is not named here.",
       "uncertain": true
@@ -131,7 +130,6 @@
       "concepts": [
         "kootru",
         "thiruvadi",
-        "guru",
         "gnaanam"
       ],
       "nuance": "நாத போற்றி என முது தாதை கேட்க அநுபவ ஞான வார்த்தை அருளிய: Siva as the old father asks and Murugan teaches, Om not named. காலமாச்சு வருக என ஓலை காட்டி: the summons is quoted. வியாழ கோத்ர is obscure."
@@ -157,6 +155,90 @@
       "b": "kural:911",
       "type": "agrees",
       "note": "Both name the courtesan's want as money, not love: the Kural warns that the sweet words of women who desire wealth bring harm, and 1214 calls them women whose minds seek coins."
+    },
+    {
+      "a": 1203,
+      "b": "tirumanthiram:135",
+      "type": "same_image",
+      "note": "1203 asks that, as a corpse burns to nothing, his malas with the two diseases die so that he becomes pure space (சுத்த வெளியாகி) and gains release. Tirumanthiram 135 says that in pure space flame joins flame (சுத்த வெளியிற் சுடரிற் சுடர்சேரும்) once the senses settle back. Both name சுத்த வெளி as the state of the freed soul.",
+      "pass": "refine"
+    },
+    {
+      "a": 1204,
+      "b": "tirumanthiram:145",
+      "type": "agrees",
+      "note": "1204 gives the mourners' own words: don't leave the corpse at the threshold, raise the bier before it rots, call the drums, stop the weeping, lift the body (எடுமினி யாக்கையை) before it stinks. Tirumanthiram 145 has the town wail, take away his name and call him a corpse (பிணமென்று பேரிட்டு), burn him, bathe and stop thinking of him. Both show the living hurrying the body out once life has gone.",
+      "pass": "refine"
+    },
+    {
+      "a": 1205,
+      "b": "tirumanthiram:185",
+      "type": "agrees",
+      "note": "1205 says that by Brahma's decree he has taken every body again and again, born at the mouth of every womb (யோனி வாய்தொறும்) for aeons he cannot count, and asks not to be born again. Tirumanthiram 185 says the base, after harsh Death has put them in the pit of the womb (கருக்குழி), fall into it again, their bewilderment unending. Both describe rebirth as a repeated fall through the womb.",
+      "pass": "refine"
+    },
+    {
+      "a": 1205,
+      "b": "kural:362",
+      "type": "qualifies",
+      "note": "1205 asks Murugan to grant that he not be born again (இனிப் பிறவாது நீ அருள்புரிவாயே). Kural 362 says that if one must want, one should want non-birth, and it comes when one wants not to want (வேண்டாமை வேண்ட வரும்). The Kural adds the condition the song leaves to grace: freedom from desire is the way to non-birth.",
+      "pass": "refine"
+    },
+    {
+      "a": 1206,
+      "b": "tirumanthiram:1938",
+      "type": "agrees",
+      "note": "1206 admits that alone he cannot give up the embrace (தமியேனால் தவிரொணாது) and so asks for Murugan's young feet rich in compassion. Tirumanthiram 1938, on one reading of தானே, says Siva-yoga does not stay without grace and that one who harbours lust lives in fear. Both put grace before one's own effort against desire.",
+      "pass": "refine"
+    },
+    {
+      "a": 1207,
+      "b": "naladiyar:371",
+      "type": "develops",
+      "note": "1207 describes women who call young men and draw out a great deal of money (மிக்க காசு இழைத்து), until he is drained, tongue dry, living in fear and shame. Naladiyar 371 says a harlot's love ends when the hand is empty (கையற்ற கண்ணே அறும்), as a lamp's light ends with the oil. The Naladiyar gives the rule; the song is the man inside it, emptied and still asking.",
+      "pass": "refine"
+    },
+    {
+      "a": 1208,
+      "b": "kural:1083",
+      "type": "same_image",
+      "note": "1208 speaks of breasts that rise and plot killing like Death (கூற்றெனக் கொலைசூழும்). In Kural 1083 the man says he never knew what Death (கூற்று) was and now knows it: a woman's grace with war-making eyes. Both name the woman's body as கூற்று, the Kural as a lover's discovery, the song as the wanderer's danger.",
+      "pass": "refine"
+    },
+    {
+      "a": 1211,
+      "b": "tirumanthiram:1788",
+      "type": "develops",
+      "note": "1211 calls himself a sinner whose mind never gained the knowledge that says neither 'you' nor 'I' (நீ நான் எனாத அறிவு). Tirumanthiram 1788 describes that state: nearing him there is no difference of 'I' and 'you' (நானென நீயென வேறில்லை), as flesh and the life in it. What the song confesses it lacks, the Tirumanthiram states as attained.",
+      "pass": "refine"
+    },
+    {
+      "a": 1212,
+      "b": "tirumanthiram:1823",
+      "type": "same_image",
+      "note": "1212 asks to set his heart's lotus as the flower, thread love through it, tie it on his tongue and adorn Murugan's feet with a garland of letters (மாத்ருகா புஷ்ப மாலை), with a pure mind as the bee. Tirumanthiram 1823 makes the heart the great temple, the body the shrine, the mouth the gate and the senses the lamps. Both turn the parts of the person into the materials of worship, a garland in one and a temple in the other.",
+      "pass": "refine"
+    },
+    {
+      "a": 1213,
+      "b": "naladiyar:47",
+      "type": "same_image",
+      "note": "1213 says the women lead a man by their foul-smelling passage (பீறற் சலத்து வழி நாற) and torment him with infatuation. Naladiyar 47 calls the body a pot that seeps filth from nine openings (ஒன்பது வாய்ப்புலனும்) and the fool dazzled by its skin. Both answer desire with the body's foulness; the Naladiyar argues it, while the song complains of still being led by it.",
+      "pass": "refine"
+    },
+    {
+      "a": 1214,
+      "b": "tirumanthiram:1046",
+      "type": "same_image",
+      "note": "The praise of 1214 is a litany of the Goddess: yogi, jnani, Parabrahmi, Neeli, Narani (நாரணி), Abhirami and Manonmani. Tirumanthiram 1046 lists her as Tripura, Sundari, Narani (நாரணி), Isi and Manonmani (மனோன்மனி) and says by these names the great one stands as many. Both songs worship Sakti through a run of names, several of them shared.",
+      "pass": "refine"
+    },
+    {
+      "a": 1215,
+      "b": "tirumanthiram:176",
+      "type": "develops",
+      "note": "1215 asks that, before Yama's servants show the palm leaf and carry off the life (ஓலை காட்டி யமபடர்), he be given the awareness to think with love on the anklets. Tirumanthiram 176 says there is no fighting the life's leaving, but think of the Lord (அண்ணலை எண்ணும்) and Death's messengers will not touch you. The Tirumanthiram gives the promise that the song's request relies on.",
+      "pass": "refine"
     }
   ],
   "source_issues": [
