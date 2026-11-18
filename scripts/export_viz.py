@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Export the graphs of every built book as viz/data.js, the data file the explorer loads.
 
-Verse ids are "k:N" for the Kural, "n:N" for the Naladiyar and "t:N" for the Tirumanthiram; chapter ids
+Verse ids are "k:N" for the Kural, "n:N" for the Naladiyar, "t:N" for the Tirumanthiram and
+"p:N" for the Thiruppugazh; chapter ids
 follow the same pattern.
 """
 import json
@@ -10,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "viz" / "data.js"
 BOOKS = {"kural": ("k", ROOT / "kg" / "kural"), "naladiyar": ("n", ROOT / "kg" / "naladiyar"),
-         "tirumanthiram": ("t", ROOT / "kg" / "tirumanthiram")}
+         "tirumanthiram": ("t", ROOT / "kg" / "tirumanthiram"), "thiruppugazh": ("p", ROOT / "kg" / "thiruppugazh")}
 
 
 def read_jsonl(path):
@@ -21,7 +22,7 @@ def short(node_id):
     """kural:12 -> k:12, naladiyar:12 -> n:12, naladiyar-chapter:3 -> n:3, chapter:3 -> k:3, tirumanthiram:5 -> t:5."""
     kind, number = node_id.split(":")
     return {"kural": "k", "chapter": "k", "naladiyar": "n", "naladiyar-chapter": "n",
-            "tirumanthiram": "t", "tirumanthiram-chapter": "t"}[kind] + ":" + number
+            "tirumanthiram": "t", "tirumanthiram-chapter": "t", "thiruppugazh": "p", "thiruppugazh-chapter": "p"}[kind] + ":" + number
 
 
 def main():
@@ -56,8 +57,8 @@ def main():
         if (folder / "threads.json").exists():
             for t in json.loads((folder / "threads.json").read_text(encoding="utf-8")):
                 pairs = [[short(x) if isinstance(x, str) else f"{prefix}:{x}" for x in pair] for pair in t["links"]]
-                books = sorted({{"k": "Kural", "n": "Naladiyar", "t": "Tirumanthiram"}[x[0]] for pair in pairs for x in pair},
-                               key=["Kural", "Naladiyar", "Tirumanthiram"].index)
+                books = sorted({{"k": "Kural", "n": "Naladiyar", "t": "Tirumanthiram", "p": "Thiruppugazh"}[x[0]] for pair in pairs for x in pair},
+                               key=["Kural", "Naladiyar", "Tirumanthiram", "Thiruppugazh"].index)
                 threads.append({"id": t["id"], "title": t["title"], "claim": t["claim"],
                                 "grade": t["audit_grade"], "links": pairs, "books": books,
                                 "limits": t.get("limits", ""), "issue": t.get("audit_issue", "")})
