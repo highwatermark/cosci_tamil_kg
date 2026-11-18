@@ -19,6 +19,16 @@ Reviewed 2026-10-31. Review any new package the same way before installing it.
 
 `crawl.py`, `extract.py` and `build_graph.py` use only the Python standard library.
 
+### Tamil OCR (reviewed 2026-11-17)
+
+| Item | Version | Notes |
+|---|---|---|
+| Tesseract | 5.5.1, Homebrew | Already installed by the owner. 5.5.4 is current; upgrade with Homebrew when convenient. |
+| `tam.traineddata` | tessdata_best, commit 9ddc24e750 (2017) | Downloaded to quarantine first. Its git blob SHA-1 `8fbaab12…ca96e` matches GitHub's, SHA-256 `4b9ce859…dcb9e`. Unpacked, it holds only an LSTM network, word and punctuation lists, a character set, a recoder, a version string and a config whose one setting turns adaptation off. Installed to `/opt/homebrew/share/tessdata/`. Apache-2.0. |
+
+Pages are rendered with macOS PDFKit (`scripts/render.swift`), not a Python package. Tesseract's
+parser is memory-unsafe C++, so OCR only files the owner chose, never arbitrary downloads.
+
 **Limits of this review:**
 
 - OSV results for `pypdfium2` may not cover vulnerabilities in the PDFium binary it bundles.
