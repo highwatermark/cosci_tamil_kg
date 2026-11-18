@@ -52,11 +52,16 @@ def main():
                 links.append({"a": short(e["s"]), "b": short(e["o"]), "type": e["p"].lower(),
                               "note": e["note"], "grade": e["audit"],
                               "better": e.get("audit_better_type")})
-        if book == "kural":
+        # Kural threads cite bare verse numbers; other books' threads cite full ids such as naladiyar:6.
+        if (folder / "threads.json").exists():
             for t in json.loads((folder / "threads.json").read_text(encoding="utf-8")):
+                pairs = [[short(x) if isinstance(x, str) else f"{prefix}:{x}" for x in pair] for pair in t["links"]]
+                books = sorted({{"k": "Kural", "n": "Naladiyar", "t": "Tirumanthiram"}[x[0]] for pair in pairs for x in pair},
+                               key=["Kural", "Naladiyar", "Tirumanthiram"].index)
                 threads.append({"id": t["id"], "title": t["title"], "claim": t["claim"],
-                                "grade": t["audit_grade"], "links": [[f"k:{a}", f"k:{b}"] for a, b in t["links"]],
+                                "grade": t["audit_grade"], "links": pairs, "books": books,
                                 "limits": t.get("limits", ""), "issue": t.get("audit_issue", "")})
+    threads.sort(key=lambda t: len(t["books"]) == 1)  # threads across books first; sort is stable
     concepts.update({c["id"]: {"tamil": c["tamil"], "gloss": c["gloss"]}
                      for c in json.loads((ROOT / "kg" / "themes" / "concepts.json").read_text(encoding="utf-8"))})
     data = {"chapters": chapters, "concepts": concepts, "verses": verses, "links": links, "threads": threads}

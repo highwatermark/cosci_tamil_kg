@@ -300,7 +300,7 @@ document.getElementById("books").innerHTML =
   `<p class="label" style="margin-top:8px">Colour: part</p>` +
   [...Object.values(PARTS), TM_PART].map(([k, name]) => `<div><span class="dot" style="background:var(--${k})"></span>${name}</div>`).join("");
 document.getElementById("threads").innerHTML = KG.threads.map((t, i) =>
-  `<button class="row" data-thread="${i}">${esc(t.title)}<small>${t.links.length} links · ${t.grade.replace("_", " ")} · Kural</small></button>`).join("");
+  `<button class="row" data-thread="${i}">${esc(t.title)}<small>${t.links.length} links · ${t.grade.replace("_", " ")} · ${t.books.join(", ")}</small></button>`).join("");
 
 TYPES.forEach(t => document.getElementById("t-" + t).addEventListener("change", e => {
   e.target.checked ? state.types.add(t) : state.types.delete(t); state.thread = null; render();
