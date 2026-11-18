@@ -4,11 +4,31 @@
   "verses": {
     "6": {
       "reading": "The poet calls Murugan the Shakti of the pearl-smiling daughter of the elephant's lord, Saravana, the one seed of release, the supreme guru, who taught the three-eyed Lord what comes before the Veda and whose feet Brahma, Vishnu and the thirty-three gods worship. He asks whether there will be a day when Murugan protects him with the meaning that Vishnu praises, Vishnu who loosed the arrow at the ten heads, churned with the mountain, made night at midday with his discus, and drove his devotee's chariot. The second half is a battle: Bhairavi dances, vultures and ghouls, the eight Bhairavas chant, owls cry, and the demons are cut down and offered as sacrifice while the great hill is pierced.",
-      "concepts": ["guru", "piranavam", "veedu", "thiruvarul"],
+      "concepts": [
+        "guru",
+        "piranavam",
+        "veedu",
+        "thiruvarul"
+      ],
       "nuance": "முக்கட் பரமற்குச் சுருதியின் முற்பட்டது கற்பித்து: what precedes the Veda is taken as Om, which the son taught the father. அத்திக்கிறை is the lord of the elephant, Indra, and his daughter is Devayanai. Vishnu's deeds are named by their details: Ravana's ten heads, the churning, the discus that hid the sun at midday, and the charioteer of Arjuna (பத்தற்கு இரதத்தைக் கடவிய). What 'the meaning Vishnu praises' (மெச்சத் தகு பொருள்) is, the song leaves open.",
       "uncertain": true
     }
   },
-  "links": [],
+  "links": [
+    {
+      "a": 6,
+      "b": 176,
+      "type": "develops",
+      "note": "Thiruppugazh 6 says Murugan taught the three-eyed Lord what comes before the Veda (முக்கட் பரமற்குச் சுருதியின் முற்பட்டது கற்பித்து) without naming it. Thiruppugazh 176 names it: the child guru spoke the secret of the pranava into Siva's golden ear (பொற்செவியுட் பிரணவ ரகசியம் ... உரைசெய் குழந்தைக் குருநாதா) so that his mind was made clear. 176 confirms the reading of 6 as Om.",
+      "pass": "refine"
+    },
+    {
+      "a": 6,
+      "b": "tirumanthiram:2676",
+      "type": "develops",
+      "note": "Thiruppugazh 6 calls Murugan the one seed of release (முத்திக்கொரு வித்து) and the guru who taught Siva what precedes the Veda, taken as Om. Tirumanthiram 2676 says the omkara holds the one word, form and the formless, and is itself bright release and attainment (ஓம்எனும் ஓங்காரம் ஒண்முத்தி சித்தியே). If the teaching in 6 is Om, the Tirumanthiram gives the reason its teacher is called release's seed; that reading of 6 is the tradition's, not the song's words.",
+      "pass": "refine"
+    }
+  ],
   "source_issues": []
 }

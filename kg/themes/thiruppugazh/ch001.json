@@ -5,12 +5,19 @@
   "verses": {
     "1": {
       "reading": "The poet worships with honey-dripping flowers the elephant-faced, pot-bellied son of Hara and Uma, who holds fruit, appam, aval and puffed rice in his hand and dwells like the wish-granting tree in the minds of devotees, so that their deeds flee. He praises him as the first to write Tamil on the first mountain, the hero who broke the axle of the chariot Siva rode to burn the three cities, and the one who became an elephant in the millet field so that little Murugan wed the hunter girl at once.",
-      "concepts": ["vazhipaadu", "vinai", "thamizh"],
+      "concepts": [
+        "vazhipaadu",
+        "vinai"
+      ],
       "nuance": "கற்பகம் எனவினை கடிதேகும்: for those who keep him in mind he is the kalpaka tree and deeds (வினை) leave quickly. முத்தமிழ் ... கிரிதனில் முற்பட எழுதிய points to the tradition that Ganapati wrote the epic on Meru with his tusk; the text says only that he first wrote the threefold Tamil on the mountain. The last lines name the hunter girl (குறமகள்) and the millet field, so Valli's story, in which the elephant drives her to Murugan."
     },
     "2": {
       "reading": "The poet says he will not forget the grace by which Murugan told him to sing, with love, an exalted Thiruppugazh that sets in it the saddled peacock, the kadamba garland, the vel that pierced the hill, the cock, the small feet, the twelve shoulders and the town of Seyppathi. The second half lists the offerings Ganapati takes as his own, sugarcane, fruits, sugar, dal, ghee, sesame, tender coconut, raw rice, pittu, cucumber and more, and praises him as the remover of obstacles, the son of the Lord with matted hair, the master with the tusk.",
-      "concepts": ["pugazh", "thamizh", "vazhipaadu"],
+      "concepts": [
+        "pugazh",
+        "thamizh",
+        "vazhipaadu"
+      ],
       "nuance": "This is the book naming itself: திருப்புகழ் ... செப்பென எனக்கருள்கை, the grace of being told to sing it. The emblems listed (peacock, vel, cock, feet, shoulders, the shrine) are the furniture of almost every later song. செய்ப்பதி is usually taken as Vayalur. விக்கிந சமர்த்தன் is the one able against obstacles (vighna). One word in the offering list is corrupt.",
       "uncertain": true
     }
@@ -21,6 +28,13 @@
       "b": 4,
       "type": "same_image",
       "note": "Both songs are built on a long list of Ganapati's food offerings (fruits, appam, sugarcane, dal, sesame, puffed rice, tender coconut). In 2 the list is the god's own table; in 4 it is what the worshipper sets before him with sit-ups and ear-holding."
+    },
+    {
+      "a": 1,
+      "b": "tirumanthiram:1695",
+      "type": "agrees",
+      "note": "Thiruppugazh 1 says that Ganapati, dwelling in the minds of devotees like the kalpaka tree (அடியவர் புத்தியில் உறைபவ கற்பகம்), makes deeds leave quickly (வினை கடிதேகும்). Tirumanthiram 1695 says the same of Siva: when the Lord takes his place in a pure mind (இறைவன் இடங்கொண்ட போதே), deeds strong as weeds go (வினையது போக). Both make the god's dwelling in the mind, not the rite, the thing that drives deeds out.",
+      "pass": "refine"
     }
   ],
   "source_issues": [
