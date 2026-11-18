@@ -7,8 +7,8 @@
       "concepts": [
         "sariyai",
         "kiriyai",
-        "pugazh",
-        "kaamam"
+        "iravu",
+        "pugazh"
       ],
       "nuance": "புகழ்ச்சிப் பாடல் அடிமை அவரவர் ப்ரியப்பட்டு ஆள உரைசெய் இழிதொழில்: the confession is of the poet's craft, praise poetry made to please patrons, with its stock comparisons of women's breasts, which the song itself first rehearses. The remedy is ritual service (சரியை கிரியை). நவநீதத் திருட்டுப் பாணி இடபம் makes Krishna, the butter-thief, Siva's bull, a Saiva claim of precedence."
     },
@@ -17,8 +17,7 @@
       "concepts": [
         "varaivinmagalir",
         "vanjam",
-        "kaamanoy",
-        "guru"
+        "kaamanoy"
       ],
       "nuance": "காசு கேட்டது கைப்பற்றா இடை காதி ஓட்டி: the money is the point, so this is the trade, not desire alone. தாத்திரி பட்சித்தா என உமிழ் வாளி: the arrow that 'ate the earth' is Vishnu, who became the arrow when Siva burned the triple city. சேதனார்த்த ப்ரசித்திக்கே வரு முருகோனே: Murugan teaching Siva, without naming Om.",
       "uncertain": true
@@ -26,5 +25,21 @@
   },
   "source_issues": [
     "Song 980: corrupt character in லு¡ர (line 23, for ஊர)."
+  ],
+  "links": [
+    {
+      "a": 979,
+      "b": "tirumanthiram:1502",
+      "type": "develops",
+      "note": "979 asks when he will drop the base trade of praise-songs made to please patrons and live doing chariyai and kiriyai (சரியை கிரியைசெய்து உயிர்வாழ்வேன்). Tirumular lists what that service is: lighting lamps, gathering flowers, smearing and sweeping the floor, praising, holding the bell, bathing the image (தளிதொழில்). Set together, the poet's service of patrons is to be replaced by service of the temple, a work the Tirumanthiram spells out.",
+      "pass": "refine"
+    },
+    {
+      "a": 980,
+      "b": "naladiyar:373",
+      "type": "agrees",
+      "note": "980 says the courtesans demand the coins named and, when the money is not in hand, drive the man out midway (காசு கேட்டது கைப்பற்றா இடை காதி ஓட்டி). Naladiyar 373 says that even if he were Mal worshipped by the gods, they would send off a man with nothing in his hand to give (தங்கைக்கு கொடுப்பதொன்று இல்லாரை), bowing as they did it. Both make the empty hand the end of welcome; the Naladiyar adds the mock courtesy of the dismissal.",
+      "pass": "refine"
+    }
   ]
 }
