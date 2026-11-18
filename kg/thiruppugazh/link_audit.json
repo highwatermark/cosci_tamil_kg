@@ -1,0 +1,3712 @@
+{
+ "summary": {
+  "run": "Blind grading of the Thiruppugazh's links, 2026-11-17",
+  "method": "10 Claude agents graded the 405 links proposed while marking the Thiruppugazh, with 4 or 5 Kural or Naladiyar links of known grade hidden in each packet, and a brief warning that earlier graders had been too lenient.",
+  "by_grade": {
+   "sound": 250,
+   "weak": 149,
+   "forced": 6
+  },
+  "to_kural": {
+   "sound": 58,
+   "weak": 24
+  },
+  "to_naladiyar": {
+   "sound": 48,
+   "weak": 38,
+   "forced": 4
+  },
+  "to_tirumanthiram": {
+   "sound": 45,
+   "forced": 2,
+   "weak": 24
+  },
+  "within_thiruppugazh": {
+   "sound": 99,
+   "weak": 63
+  },
+  "by_type": {
+   "agrees": {
+    "sound": 125,
+    "weak": 56,
+    "forced": 2
+   },
+   "develops": {
+    "weak": 20,
+    "sound": 23,
+    "forced": 1
+   },
+   "parallel_domain": {
+    "weak": 3
+   },
+   "qualifies": {
+    "forced": 1,
+    "weak": 7,
+    "sound": 7
+   },
+   "same_image": {
+    "sound": 92,
+    "weak": 62,
+    "forced": 2
+   },
+   "tension": {
+    "sound": 3,
+    "weak": 1
+   }
+  },
+  "calibration": {
+   "links": 46,
+   "exact": 33,
+   "more_lenient": 11,
+   "stricter": 2
+  },
+  "limits": "All graders are Claude without a Tamil lexicon, and neither the Thiruppugazh nor the Tirumanthiram has commentary in the corpus: the graders checked the proposers' own readings against the Tamil. No Tamil scholar has reviewed this."
+ },
+ "links": [
+  {
+   "a": 355,
+   "b": "tirumanthiram:722",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "355 names the breath-holder who thinks the impermanent flesh will last (அனித்தமான ஊன் நாளும் இருப்பதாகவே ... அசட்டு யோகி) a fool, while 722 promises the body stays (பேராது காயம்) if the breath-horse is tied; the note states the reading the conflict depends on.",
+   "text_issue": null
+  },
+  {
+   "a": 534,
+   "b": 280,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both first halves are catalogues of the body as containers: 280 பொய்க் குடம், பசிக் குடற் கடம், கிருத்திமத் துருத்தி, பிணிப்பை; 534 a run of -பை words; and both ask to be rid of it (கொள்ளப்படாக்கை தவிர்வேனோ / பிறப்பற).",
+   "text_issue": "534's bag-words (ஞெள்ளற்பை, துராற்பை) and praise are obscure."
+  },
+  {
+   "a": 152,
+   "b": 149,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "152 திருப்புகழ் நித்தம் பாடும் அன்பது செய்ப்பதியில் தந்தவன் and 149 செய்ப்பதிக்குள் எனைத் தடுத்து அடிமைப் படுத்த both place the poet's calling at Seypathi; the note describes both fairly.",
+   "text_issue": null
+  },
+  {
+   "a": 1163,
+   "b": 9,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The womb-to-death life sequence is a stock Thiruppugazh formula; the contrast drawn is overstated, since 1163 also asks for grace (பைங்கழல் தாராய்) and 9 too ends in disease (பிணியுழன்று).",
+   "text_issue": "1163 has a corrupt glyph in சிறைவை஢ட."
+  },
+  {
+   "a": 1289,
+   "b": "kural:911",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1289's women laugh and talk (சிரித்துப் பேசி), soothe the mind (மனத்துக்கு ஆறுதல் வருமாறு பேணி) and then plunder wealth (தனத்தைச் சூறைகொள்), matching Kural 911's sweet speech of women who want wealth not love (பொருள்விழையும் ... இன்சொல்).",
+   "text_issue": null
+  },
+  {
+   "a": 702,
+   "b": 33,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Accurate (33 வருபொருள் அளவில் ... அடித்துப் போக்கவும்; 702 பொருள் பறித்து ... அகல அடித்தபின் ... புதிய பேருடனே), but the welcome-while-money-lasts-then-beaten cycle is the stock courtesan complaint and the pairing adds little.",
+   "text_issue": "33's praise has the garbled word மண்டுநநருர்."
+  },
+  {
+   "a": 1066,
+   "b": "naladiyar:120",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1066 பகரில் ஒருவர் வருக அரிய பயணம் (ornaments, wealth, servants, wife do not come) agrees with Naladiyar 120 தாஞ்செய் வினையல்லால் தம்மொடு செல்வது ... இல்லை; the note is accurate to both.",
+   "text_issue": null
+  },
+  {
+   "a": 553,
+   "b": "naladiyar:375",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "The eel (பாம்பிற்கு ஒருதலை காட்டி ... மீன்காட்டும்) is a simile for double conduct; 553's ஒருவரொடு கண்கள் ஒருவரொடு கொங்கை is a literal division among men, not the same image. The shared idea is the courtesan's divided dealing.",
+   "text_issue": "553 has a corrupt glyph in வயலு஡ரா."
+  },
+  {
+   "a": 141,
+   "b": "kural:915",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "141's women who set a price so that all may take (அனைவரும் கொளும் என்று மேவு இலையிடும் மடந்தையர்) are Kural 915's பொதுநலத்தார், and the contrast is real: the wise do not touch them (புன்னலம் தோயார்) while 141 confesses drowning in them (இன்ப சாகரம் முழுகும்).",
+   "text_issue": null
+  },
+  {
+   "a": 563,
+   "b": 108,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The shared verb is real (563 தத்துவத்துத் தவர் சோர, 108 துறவினர் சோர), but women's beauty unmanning ascetics is a stock hyperbole and the pairing teaches little.",
+   "text_issue": null
+  },
+  {
+   "a": 316,
+   "b": "naladiyar:27",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "316's knowledge that sees the world as a bubble (ப்ரபஞ்சத்தைப் புற்புதம் ஒக்கும்படி நாடும் அறிவு) leading to ripeness parallels Naladiyar 27's wise who see the body as a rain bubble (படுமழை மொக்குளின்) and resolve to end their wandering.",
+   "text_issue": null
+  },
+  {
+   "a": 1252,
+   "b": "naladiyar:27",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "1252 uses the bubble only as a one-word epithet (புற்புதப் பிராணன்) inside a plea for the true word; the Naladiyar's point, that seeing it so leads to resolve, is not developed in the song.",
+   "text_issue": null
+  },
+  {
+   "a": 133,
+   "b": 12,
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "133's plea (உருத்திரனும் ... மறை அடுத்து பொருள் உணர்த்து நாள் அடிமையும் உடையேனோ) does ask for the teaching given Siva, but in 12 that teaching is only a stock praise epithet (போதவளம் சிவசங்கரன் கொண்டிட மொழிவோனே) found in many songs; the link is to the legend rather than to 12.",
+   "text_issue": "12 has a corrupt glyph in கி஡ணவ (likely கிரீவ)."
+  },
+  {
+   "a": 212,
+   "b": "tirumanthiram:1459",
+   "type": "same_image",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "212's ஓவியத்தில் அந்தம் is obscure, and the link rests on guessing that it means painting-still absorption to match Tirumanthiram's ஓவியம் போல உணர்ந்து; the note itself only says it 'may'.",
+   "text_issue": "212's ஓவியத்தில் அந்தம் and தூமமேய்க் கணிந்த are obscure, possibly corrupt."
+  },
+  {
+   "a": 310,
+   "b": 15,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "15 (கொடைக்குக் கொண்டல் ... உலகோரைத் தவித்துச் சென்றிரந்து) and 310 (கைக்குக் கற்பகம் ஒப்பு ... குமணன் ... இரவான குருடு ... சத்தம் அனைத்தும் திருடி) both confess the begging poet's flattery of patrons, and 310 extends it into theft of the words learned for the Lord.",
+   "text_issue": null
+  },
+  {
+   "a": 178,
+   "b": "naladiyar:374",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "178 says deceitful women take the property men bring (உரியதோர் பொருள்கொடு வந்த பேர்களை ... கொண்டு போகிய), but Naladiyar 374's actual point, that money makes even a low oil-presser sugar and poverty poison, is not in 178; the shared ground is the stock 'courtesans love money'.",
+   "text_issue": null
+  },
+  {
+   "a": 631,
+   "b": 610,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "631 தாய் தமர் குலத்தர் யாவரும் நகைக்க and 610 மனையவள் நகைக்க ஊரின் அனைவரும் நகைக்க share the picture of the poet laughed at by his own, and both answer by asking to be drawn near (அருகு அழைத்து / அணுகி ... பாதம் அருள்வாயே).",
+   "text_issue": null
+  },
+  {
+   "a": 384,
+   "b": 21,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both quote the courtesan's invitation home: 21 இங்கு நின்றது என் வீடே வாரீர், 384 அருகு வீடு இது தான் அதில் வாரும், with 384's oaths (என் ஆணை உன் ஆணை) and men of wealth (பொருளுளாரை) correctly noted.",
+   "text_issue": "21 has garbled words (வா஡ண, நநடுர் கேர்டுர்)."
+  },
+  {
+   "a": 30,
+   "b": "naladiyar:48",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "30's living body that already stinks like a corpse (பிணநாறும் அழுகு பிணி) and Naladiyar 48's stinking cart (முடைச்சாகாடு) torn by vultures after the axle breaks share a stock image, but the Naladiyar's scene is the corpse after death, so 'both see the living body' overstates it.",
+   "text_issue": null
+  },
+  {
+   "a": 928,
+   "b": "naladiyar:21",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use kings on elephants under the white umbrella (928 களிறு ... தனி வெண்குடை நிழலில்; Naladiyar 21 யானைத் தலைமிசைக் கொண்ட குடையர்) as the figure of pomp that death overtakes; 928's அயன் எழுதும் யமகோட்டியை உணராரே is their ignorance of it.",
+   "text_issue": "928 has a corrupt glyph in வயலு¡ர்க்குக."
+  },
+  {
+   "a": 731,
+   "b": "kural:912",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "731's women whose love is measured by the coin (காசின் அளவு ... மனதினர்) and who speak lies (கபடிகள் படிறுசொல்) match Kural 912's women who weigh the gain and then speak virtue (பயன்தூக்கிப் பண்புரைக்கும்).",
+   "text_issue": null
+  },
+  {
+   "a": 1266,
+   "b": 1267,
+   "type": "develops",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "Neither song extends the other: both set kin against Death's coming (1266 நெட்டைக் கயிற்றிட்டு வளையாமுன், 1267 கடாவில் ... தெரியாமுன்), a stock frame; the note describes them fairly but the type should be agrees at most.",
+   "text_issue": null
+  },
+  {
+   "a": 488,
+   "b": 24,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both are akam laments in another's voice for a girl sick with love for Murugan: 24 (பெண்பெற்றவருக்கு, anril, தென்றல், அந்திப் பொழுதில் பிறை) and 488 (குயில், குளிர்வாடை, மாதர் வசை, ... மதுமாலை தரவேணும்).",
+   "text_issue": "488's வருகொவே looks corrupt (வருகோவே)."
+  },
+  {
+   "a": 841,
+   "b": 840,
+   "type": "parallel_domain",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "The shared closing lines (மேவு திருத்தணி செந்தில் நீள்பழநிக்குளு கந்து வேதவனத்தில் அமர்ந்த பெருமாளே) are real, but the Rama praises differ in content and this is the same domain, not a parallel one; both pleas also end in திரிவேனோ, so the contrast is overstated.",
+   "text_issue": "841 has a corrupt glyph in வ¨ல்முழ்கி; 840 in அள§முசத்."
+  },
+  {
+   "a": 1054,
+   "b": "naladiyar:27",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1054 calls the body a bubble on pit water (குழிநீர்மேல் குமிழி போல ... அழியும்) yet confesses cherishing it (காயமே பேணி அறிவிலாமலே), the exact reverse of Naladiyar 27's wise who see it as a bubble and resolve to end their wandering.",
+   "text_issue": null
+  },
+  {
+   "a": 299,
+   "b": "kural:920",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Kural 920 lists double-minded women among the company of those Fortune has left (திருநீக்கப் பட்டார் தொடர்பு); 299's infatuation-to-destitution (உளகாசும் அவர்க்குதவி மிடியாகி) fits only loosely, on the stock courtesan-ruin theme.",
+   "text_issue": null
+  },
+  {
+   "a": 915,
+   "b": 901,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both Vayalur songs are built on the refrain காட்டி for what courtesans show (901 ஆரமுலை காட்டி ... மாதர்வலை காட்டி; 915 மேகலை நெகிழ்த்துக் காட்டி ...), and 915 does turn it on Murugan (ஞானமும் எடுத்துக் காட்டி).",
+   "text_issue": "Both have corrupt glyphs in வயலு¡ரா; 901 in மயிலு¡ர்தி."
+  },
+  {
+   "a": 1155,
+   "b": "kural:978",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1155's cowards boasting valour and misers calling themselves Dharmaputra (கோழை ... வீரமே புகல்வர் அற்பர்; சோறிடார் தரும புத்ர கோ நான் என) illustrate Kural 978's smallness adorning itself (சிறுமை அணியுமாம் தன்னை வியந்து), and the poet applies it to himself (நானும் வேறல).",
+   "text_issue": null
+  },
+  {
+   "a": 812,
+   "b": "naladiyar:3",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Naladiyar 3's kings on elephants under the umbrella who fall (யானை எருத்தம் பொலியக் குடைநிழற்கீழ் ... வீழ்வர்) and 812's lords of elephant armies who become a handful of ash (ஒரு பிடி சாம்பல் பட்டது அறிகிலர்) make the same argument from impermanence.",
+   "text_issue": null
+  },
+  {
+   "a": 1166,
+   "b": "naladiyar:13",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1166's old man (நரை, பற் கழன்று, கோலுற்று) whose mind is still bound to women (மிடைபடு சித்தம்) is the Naladiyar 13 figure (பல்கழன்று ... கோல்ஊன்றி ... காம நெறிபடரும் கண்ணினார்), told as confession.",
+   "text_issue": null
+  },
+  {
+   "a": 52,
+   "b": "kural:9",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "52 does call Siva எண்குணன் and has Sankara bow to Murugan (சங்கரன் கும்பிடும் தம்பிரானே), so the reversal is accurate, but எண்குணன் is a widespread Saiva epithet and 52 does not engage the Kural; the link is mostly a shared word.",
+   "text_issue": "52 has unclear words in the first half (செஞ்செநீடும், அண்டுஞ்சகன்)."
+  },
+  {
+   "a": 945,
+   "b": 955,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Old-age decay followed by the household's contempt is a stock sequence; the 'same order' claim is overstated, since 945 begins with phlegm (மீளை) and has no teeth, while 955 runs hair, ears, eyes, teeth, cough.",
+   "text_issue": "945 has நீனைத்தினந் (likely நினைத்தினம்)."
+  },
+  {
+   "a": 306,
+   "b": 299,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both identify Murugan with Sambandar at Madurai: 299 வெடித்த அமணர் கழுவேற ஒருத்தி கணவனும் மீள ... தமிழ்பாடு புலவோனே, 306 பஞ்சவன் நீடு கூனும் ... தாபமோடு ... சமண் ... கழுவேற ... ஞான நீறு தருவோனே; the note gives each song's distinct detail correctly.",
+   "text_issue": "299 has மிக்முள, probably மிக்குள."
+  },
+  {
+   "a": 337,
+   "b": 101,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both are akam songs spoken for a girl sick with love for Murugan, wounded by Kama's flowers and the moon (337 மதன் மலராலும் ... நச்சுக் கடலிடை ... எழு மதனாலும்; 101 மாரன் ஐந்து மலர்வாளி ... இந்து வெயில் காய), each asking for his garland.",
+   "text_issue": null
+  },
+  {
+   "a": 983,
+   "b": "naladiyar:13",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "983 never says speech fails; its old man is deaf, blind and on a stick (செவி மாறி ... தடியோடு), and its desire for price-women belongs to youth, whereas Naladiyar 13's point is desire that outlives the body. The shared old-age-with-staff picture is stock.",
+   "text_issue": null
+  },
+  {
+   "a": 24,
+   "b": "kural:1229",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "24 sets the girl's love-sickness at dusk with the crescent (அந்திப் பொழுதில் பிறையாலே), the classical evening torment that Kural 1229 makes bewilder the whole town (மாலை படர்தரும் போழ்து); the pairing shows the Thiruppugazh using the Kural's akam convention.",
+   "text_issue": null
+  },
+  {
+   "a": 536,
+   "b": 534,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "536 and 534 share the exact phrase கள்வைத்த தோற்பை, and 536 does set the body against the formless form seen by the inner eye (உள்ளக்கண் நோக்கும் ... அருவுரு).",
+   "text_issue": "536 has மொழிக்தரு, probably corrupt."
+  },
+  {
+   "a": 743,
+   "b": 739,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The note itself calls the torments stock: moon fire (739 சீத மதியம் எறிக்கும் தழல், 743 நிலவாலே), Kama's bow and arrows and night or evening; the pairing shows the convention, not something the two songs teach together.",
+   "text_issue": "739's படியொதான் and the place name திருவர்முர் look corrupt (திருவாமூர்)."
+  },
+  {
+   "a": 258,
+   "b": "naladiyar:47",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Naladiyar 47's pot (கும்பம்) is the woman's body; 258's பொய்க் கடம் is one of three passing images of the poet's own body and is not used against women, so the 'develops' claim rests on a stock body-as-pot figure.",
+   "text_issue": null
+  },
+  {
+   "a": 1146,
+   "b": "tirumanthiram:264",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1146 says those who give nothing to beggars (இரவோருக்கு ஏதும் இத்தனை தானமிடாதவர்) will suffer in the seven hells (ஏழ் நரகு உழல்வாரே), agreeing with Tirumanthiram 264 (இரவலர்க்கு ... ஈயார் ... நரகத்தில் நிற்றிரோ); the added items are correctly named.",
+   "text_issue": null
+  },
+  {
+   "a": 2,
+   "b": 4,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both songs set out long lists of Ganapati's offerings (2 இக்கு அவரை நற்கனிகள் சர்க்கரை பருப்பு ... எட்பொரி ... இளநீர்; 4 முப்பழம் அப்பமும் ... இக்கொடு லட்டுகம் ... எட்பொரி ... இளநீரும்), with 4's gestures (குழைபிடி தொப்பண குட்டு) correctly noted.",
+   "text_issue": "2 has a corrupt glyph in தன஧முலம்; 4 in செற஧முளை."
+  },
+  {
+   "a": 493,
+   "b": "naladiyar:26",
+   "type": "qualifies",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "Naladiyar 26 lists ways of treating the corpse (நார்த்தொடுத்து ஈர்க்கில், அடக்கில், பார்த்துழிப் பெய்யில், பழிக்கில்), not vultures, jackals or fire; 493's கழுகொடு நரியும் எரி புவி மறலி கமலனும் அயர்வானார் is about countless births wearying their agents. The 'same receivers' claim is overstated, and 493 neither limits nor conditions the Naladiyar's indifference to the remains.",
+   "text_issue": null
+  },
+  {
+   "a": 736,
+   "b": "tirumanthiram:1737",
+   "type": "parallel_domain",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "Both give the Absolute form and formlessness (உருவோடு அருவது / உருவம் அருவம்), but bindu-nada and பேதாபேதம் are only in 736, not in 1737 as the note implies; this is the same theological claim applied to Murugan, i.e. agreement, not a different domain.",
+   "text_issue": null
+  },
+  {
+   "a": 834,
+   "b": 822,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The ஓ-question catalogue is shared and distinctive (834 சேலோ வேலோ, பாலோ பாகோ; 822 பாலோ தேனோ, வேலோ கோலோ), and 822 really turns it inward (நானோ நீயோ, நாடோ வீடோ) while 834 ends in லச்சையறப் புணர்வு and தற்பொறி வைத்தருள்.",
+   "text_issue": "834 lines 19-21 have garbled shrine names (ராலு¡ர், §வ்ளுர்)."
+  },
+  {
+   "a": 987,
+   "b": "kural:912",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Kural's பயன்தூக்கி is matched concretely by 987's கைப்பொருள் கழற்றிக் கற்புகர் மாற்று உரைப்பது (assaying the gold taken) and கணக்கிட்டுப் பொழுதேற்றி ... பிணக்கிட்டு; both make the courtesan's affection a calculation of gain.",
+   "text_issue": null
+  },
+  {
+   "a": 138,
+   "b": 124,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "124 opens ஒருவரை யொருவர் தேறி யறிகிலர் மதவிசாரர் and 138 lists the disputing schools (பவுத்தர், கபிலர், கணாதர், உலகாயர், தர்க்கர்); both ask not for a better doctrine but for ஞான தரிசனம் / பரம ஞான சிவகதி and the feet, with 124 adding நீறு. Note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 210,
+   "b": 220,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both complain of patrons (210 இசையொடு புகழ்ந்த போது நழுவிய ப்ரசண்டர் வாசல்; 220 ஒருபணம் உதாசினஞ்சொல் மடையர்), a real pairing, but the note's 'both turn to the Lord's feet' is false for 210, whose plea is only உழல்வேனோ with no mention of the feet.",
+   "text_issue": null
+  },
+  {
+   "a": 138,
+   "b": "tirumanthiram:1547",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Tirumanthiram's உள்நின்ற சோதி பெறுமாறு அறியிற் பிணக்கொன்றும் இல்லை matches 138's answer to the clamouring sects (கலகமிடு தர்க்கர் ... வாது செய): not winning the debate but ஞான தரிசனம் and உபதேசம்.",
+   "text_issue": null
+  },
+  {
+   "a": 398,
+   "b": "naladiyar:371",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "398's பொருளது அளவும் மருவுறு மாய வித்தை விலைமாதர் is exactly Naladiyar's அவரன்பும் கையற்ற கண்ணே அறும்: affection measured by the money.",
+   "text_issue": null
+  },
+  {
+   "a": 425,
+   "b": "tirumanthiram:923",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "425's opening runs சிவயநம, மசிவயந, நமசிவய, யநமசிவ, வயநமசி with அருணாத்திரி, the same rotations in the same order as Tirumanthiram 923 (சிவாயநம, மசிவாயந, நமசிவாய, யநமசிவா, வாயநமசி); a precise and instructive pairing.",
+   "text_issue": null
+  },
+  {
+   "a": 34,
+   "b": "naladiyar:14",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Naladiyar shows the desired woman aged on a staff (தண்டூன்றா ... அம்மனைக்கோல்); 34 extends this charm by charm (ஓதி நரை பஞ்சுபோல், விழி பீளை, கொங்கை தோல்) and adds வழியடிமை as remedy, a fair 'develops'.",
+   "text_issue": null
+  },
+  {
+   "a": 863,
+   "b": "kural:9",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "The link rests on the shared epithet எண்குணமுற்றோன் / எண்குணத்தான்; 863 does not extend the Kural's claim that a head not bowing to his feet is useless, it places the same Lord in a yogic vision.",
+   "text_issue": null
+  },
+  {
+   "a": 582,
+   "b": 27,
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The contrast is real in the text (27 ஒழியுமாறு தெளிந்து vs 582 துயில் கூரினும் அம்புயதாள் துணை மறவேனே), but 'devotion placed inside desire' needs the non-hyperbolic reading the note itself flags; மறவேனே is more naturally a vow of constant remembrance than a limit on 27's plea.",
+   "text_issue": null
+  },
+  {
+   "a": 341,
+   "b": "naladiyar:13",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Teeth and staff (கொத்தார் பற்கால் அற்றே, கூனிக் கோல் தொட்டே / கோல்ஊன்றி, பல்கழன்று) are real but the stock picture of old age; the note's contrast (desire in old age vs cremation, செற்றே சுட்டே விட்டேறிப் போம்) is accurate but thin.",
+   "text_issue": null
+  },
+  {
+   "a": 970,
+   "b": "naladiyar:371",
+   "type": "agrees",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "Naladiyar's claim is that the harlot's love ends when the money does (கையற்ற கண்ணே அறும்); 970 says only that the man's wealth was wasted (தேடிய தனங்கள் பாழ்பட) leaving him no goal. Shared topic of money, not the same claim.",
+   "text_issue": null
+  },
+  {
+   "a": 135,
+   "b": "naladiyar:44",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both set the stock eye-comparisons (வேலோ சேலோ / பொருகயல் வேல்) against the speaker's resolve: Naladiyar's கவற்ற விடுவேனோ with the scooped palm-fruit, 135's இருகண் மாயையில் மூழ்காதே and turn to Murugan's poems.",
+   "text_issue": "135 line 4 has corrupt characters (பா஡ண, இ஧ல்முழ்)."
+  },
+  {
+   "a": 731,
+   "b": "tirumanthiram:2957",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "731's சாதி குலமுறு படியினின் முழுகிய தாழ்வு அற and Tirumanthiram's குலமில்லை for those who hold Nandi in love both put caste/clan among what falls away; a real and unusual agreement.",
+   "text_issue": null
+  },
+  {
+   "a": 319,
+   "b": 68,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both picture the poet's own old age with stick, white hair, loose teeth and mockery (319 செச்செச், சிச்சி, துத்து; 68 மகளிர் நகையாடி தொண்டு கிழவன்), and the note correctly marks the difference: 319 asks for the feet before (பிறப்பிங் ... அடைதற்கு), 68 for the coming at death (உயிர் மங்கு பொழுது).",
+   "text_issue": null
+  },
+  {
+   "a": 626,
+   "b": "naladiyar:376",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "626's நீயே நானே என்றொரு சத்தியம் வாய்கூசாது ஓது and Naladiyar's நித்தலும் நம்மைப் பிரியலம் என்றுரைத்த ... போர்த்தகர்க்கோடு ஆயினாள both make the courtesan's oath of union false.",
+   "text_issue": null
+  },
+  {
+   "a": 1174,
+   "b": "kural:1131",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1174 has பனைமடல் ஊர்தற்கு இசைந்து; the Kural's மடலல்லது இல்லை வலி. Placing the akam lover's last resort on a learned renouncer and yogi is a meaningful use of the shared image.",
+   "text_issue": null
+  },
+  {
+   "a": 815,
+   "b": "naladiyar:47",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "815's ஒன்பது வாசலை உடைய குரம்பை with filth sloshing under skin (தோலிடை குளுகுளு எனும்படி மூடிய மலமாசு) matches Naladiyar's ஒன்பது வாய்ப்புலனும் கோதிக் குழம்பலைக்கும் கும்பம் under கருந்தோல்.",
+   "text_issue": null
+  },
+  {
+   "a": 1189,
+   "b": "kural:1228",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1189's ஆயர்குழல் ஊதிசைக்கும் among the tormentors of the lovesick girl is the Kural's ஆயன் குழல் ... கொல்லும் படை; same akam image, accurately described.",
+   "text_issue": "1189 has corrupt characters (லு஡தி)."
+  },
+  {
+   "a": 546,
+   "b": 103,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The eye-riddle (546 கோலோ வாளோ ... வேலோ சேலோ; 103 சரோருகமோ நஞ்சமோ கயலோ ... யமதூதுவர் நெஞ்சமோ) is a stock formula of the book; the Yama placement observation is accurate but slight.",
+   "text_issue": null
+  },
+  {
+   "a": 633,
+   "b": "naladiyar:377",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "633's பொருளைக் கைப் பறிப்பர் and மனவலியைத் தட்டழிப்பர் match Naladiyar's அவர் கைப்பொருள் கொண்டு ... பலரால் நகை; the note accurately divides the added consequences.",
+   "text_issue": null
+  },
+  {
+   "a": 625,
+   "b": 8,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "625's praise has Yama's servants trembling (எமபடரும் என்செய்வோம் என நடுநடுநடுங்க வேல்விடு), answering 8's plea about மறலிதன் உழையினர் with noose and club at the death hour; a real cross-song answer.",
+   "text_issue": null
+  },
+  {
+   "a": 248,
+   "b": "naladiyar:46",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "248's inventory (எலுப்பு நாடிகள் ... ரத்தம் ... மூளை மச்சு ... புழு இருக்கும் வீடு) matches Naladiyar's குடர் கொழு குருதி என்பு நரம்பு தோல், and the note rightly marks the turn to the poet's own body he longs to carry (நத்தி எடுத்து உழல்வேனோ).",
+   "text_issue": null
+  },
+  {
+   "a": 176,
+   "b": 153,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "153 alludes to the race (ஆனைமுகர் அரனை ஓடி வலம்வருமுன் ... உலகை வலமாக வரு மயில்); 176 tells it fully with the anger (அக்கனியைத் தரவிலை என வெகுண்டு) as the reason for dwelling at Palani.",
+   "text_issue": "176 line 2 has corrupt characters (தன஧முவ)."
+  },
+  {
+   "a": 1303,
+   "b": 1290,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The two short songs share frame and wording: திங்களாலே, Kama's arrows/அநங்கன், a -லாமோ question (மயங்கலாமோ / நலங்கலாமோ) and தம்பிரானே; 1303's பாரெலாம் ஏசிய adds reproach as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 757,
+   "b": "naladiyar:371",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "757's காசு ஆடை போதாமை தீமைகொண்டே போம் is the moment Naladiyar describes (கையற்ற கண்ணே அறும்).",
+   "text_issue": null
+  },
+  {
+   "a": 945,
+   "b": "tirumanthiram:176",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "945 asks for the feet before the messengers seize him (பிடிக்கு முன்), but Tirumanthiram 176's last lines are, by the marker's own note, hard to construe; the agreement depends on the uncertain reading that the messengers spare one who thinks of the Lord.",
+   "text_issue": null
+  },
+  {
+   "a": 1094,
+   "b": 1078,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1078's பொடிவன பரசமயத்துத் தப்பிப் போந்தேன் and 1094's பரசமயம் ஒருகோடி குருடர் தெரிவரியது ஒரு பொருள் fit: the second gives the reason for the first, and both aim at the பொருள.",
+   "text_issue": null
+  },
+  {
+   "a": 265,
+   "b": 256,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both lovesick-girl laments end asking for the god's garland (265 கருணைக்கு இனிமைத் தொடையைத் தரவேணும்; 256 குளிர்தொடை நீ தந்தருள்வாயே), and கருணை makes the token grace, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 68,
+   "b": "naladiyar:13",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "68 and Naladiyar 13 share the picture closely (உரையே குழற / சொல்தளர்ந்து, தடிமேல் / கோல்ஊன்றி, தந்தம் அசைய / பல்கழன்று), but 68 does not extend the Naladiyar's point about desire outliving the body; it is a shared image, not development.",
+   "text_issue": null
+  },
+  {
+   "a": 762,
+   "b": "tirumanthiram:612",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use the yogic ascent's technical images, the central staff and three mandalas (762 மூணு மண்டல, நடுதூணில் ... ஞான வண்கயிறு; 612 தண்டுடன் ஓடித் தலைப்பட்ட, மண்டல மூன்றினும்), with different promised fruits, as the note says.",
+   "text_issue": "762 has corrupt characters (நலு¡ர)."
+  },
+  {
+   "a": 175,
+   "b": 15,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "175 (பாரியான கொடைக் கொண்டலே ... சீறுவார் கடையில்) and 15 (கொடைக்குக் கொண்டல் தண்டமிழ்க்குத் தஞ்சம் ... உளத்திற் புண்படும்) confess the same patron-praising trade; 175's closing question (சிந்தியார் அருகு உறலாமோ) is slightly glossed as 'deserve to be sung' but fair.",
+   "text_issue": null
+  },
+  {
+   "a": 137,
+   "b": 132,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "132's பறிதலை குண்டர் கழுநிரை கண்டு and 137's milk from the mountain's daughter with செந்தமிழ் பகர் both give Murugan deeds of Sambandar, a meaningful shared figure in Arunagiri.",
+   "text_issue": null
+  },
+  {
+   "a": 881,
+   "b": "naladiyar:13",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "881 moves from the glance to the stooping body never without its staff (கூனி நடந்து மிகச்சாறி ... கோலும் அகலாதே), the Naladiyar's old age after desire, and its plea for the feet even through rebirth (பிறந்து பிறப்பேனும்) sets a pointed contrast with இல்லையே ஏம நெறி.",
+   "text_issue": null
+  },
+  {
+   "a": 1079,
+   "b": 1089,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The kin's words at death are verbally echoed (1079 கடுகென எடுமென; 1089 எடுமெடென வீட்டில் அனைவோரும்) with the burning ground in both; a real shared scene.",
+   "text_issue": null
+  },
+  {
+   "a": 405,
+   "b": "tirumanthiram:1949",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "405's உடலின் அனல் பற்றி உடுபதியை முட்டி அமுதூறல் is the yoga of Tirumanthiram 1949 (அனலைக் கொளுவி மறித்தேற்றி ... மதியத்து அமுதை ... உண்பவரே சிவயோகி), and 405 confesses neglecting it (நினையாமல் ... அலைவேனோ).",
+   "text_issue": null
+  },
+  {
+   "a": 707,
+   "b": "kural:110",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "707 has ஓதிய நன்றி மறந்த குண்டர்கள் as one item in a long list of sinners in Yama's pit; the Kural's point is that ingratitude alone, unlike every other sin (எந்நன்றி கொன்றார்க்கும் உய்வுண்டாம்), has no escape, which a flat catalogue loses.",
+   "text_issue": null
+  },
+  {
+   "a": 966,
+   "b": "naladiyar:375",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "966's குனகிகள் பக்ஷம் போல பேசிகள் (coaxing, talking as if on his side) is feigned partiality; Naladiyar's eel shows one end to the snake and one to the fish (two faces to two parties). Related deceit, but the note overstates the match.",
+   "text_issue": null
+  },
+  {
+   "a": 848,
+   "b": 292,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both confess praising unworthy men for money with the same comparisons: 848 கற்பக இராசன் and அர்ச்சுனன், 292 தெய்வதரு நிகர் and தனிய தநுவல விஜயவன்; 848 does set it beside the விலைமாதர்.",
+   "text_issue": null
+  },
+  {
+   "a": 43,
+   "b": "kural:913",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The corpse in the courtesan's bed is real in both (பிணமும் அணைபவர்; ஏதில் பிணந்தழீஇ), but the note sets the Kural's man as embracer against 43's woman, while Parimelazhagar's standard reading makes her the hired embracer, so the claimed contrast misstates the Kural.",
+   "text_issue": null
+  },
+  {
+   "a": 763,
+   "b": "naladiyar:373",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both dismiss the man with nothing to give: 763's கஞ்சுளியும் தடி ஈந்து போவென and the Naladiyar's கொடுப்பதொன் றில்லாரை ... விடுப்பர் தங்கையால் தொழுது; the note's 'bow to Mal' slightly bends 'even if he were Mal', but the agreement holds.",
+   "text_issue": null
+  },
+  {
+   "a": 677,
+   "b": 358,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both confess the poet's trade of singing to patrons (பாவிகள் பாலும் தொலையாப் பாடலை யானும் புகல்வேனோ; 358's quoted begging speech, உனைப் பாரில் ஒப்பார்கள் கண்டிலேன்), and both also cast Murugan as Sambandar against the Jains, which strengthens the pairing the note leaves out.",
+   "text_issue": null
+  },
+  {
+   "a": 858,
+   "b": 508,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "The shared element is the opening image of life from a dew drop (அறுகுநுனி பனியனைய சிறியதுளி; பனிபோலத் துளி); the life-to-death survey is stock, and the note itself contrasts the endings (ஒழியாதோ vs நீயும் நானுமாய்) rather than showing a shared claim.",
+   "text_issue": null
+  },
+  {
+   "a": 911,
+   "b": "kural:107",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "911's மனது ஆசை மாசினை அறுத்து ஞானமுது அளித்த வாரம் இனி நித்தம் மறவேனே is the Kural's grateful remembrance of those who wiped away sorrow (விழுமம் துடைத்தவர் நட்பு உள்ளுவர்), turned toward the Lord.",
+   "text_issue": null
+  },
+  {
+   "a": 1093,
+   "b": "naladiyar:46",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1093 opens with the Naladiyar's very list (குடரும் ... தடியும் ... கொழுவும் உதிரமும் vs குடரும் கொழுவும் குருதியும் ... தடியும்) and sets it against women perfuming that body (மணமலி புழுகு தடவி அணிகலம் இலக); accurate and instructive.",
+   "text_issue": null
+  },
+  {
+   "a": 1183,
+   "b": 1176,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both are built on the refrain of showing (காட்டுவர் / காட்டி); 1183 adds robbery and drug (உடைமை அடையவே பறித்து, மருத்திட்டு ஆட்டிகள்), and 1176 turns the verb to Siva's deeds and asks மேன்மையை எனக்குக் காட்டி அருள்வாயே, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 748,
+   "b": 15,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both confess praising patrons as divine for gold: மூர்க்கரையே கவி பாற்கடலான் என உழல்வேனோ and தடக்கைப் பங்கயம் கொடைக்குக் கொண்டல் ... உலகோரைத் தவித்துச் சென்று இரந்து; 'clouds' are not gods, a minor slip in the note.",
+   "text_issue": null
+  },
+  {
+   "a": 305,
+   "b": "tirumanthiram:619",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The shared terms are real (விந்துநாதம், சமாதி), but 305 itself names the yogic means (பவன பூரக), and its 'unreachable even by jnanis' (அணுகொணாவகை, பகரொணாதது சேரவொணாதது) is the stock ineffability of praise, so reading it as a limit on Tirumular's yoga needs a generous reading.",
+   "text_issue": null
+  },
+  {
+   "a": 357,
+   "b": "kural:911",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The Kural's அன்பின் விழையார் பொருள்விழையும் is sharpened in 357's ஆயிரக் கலம் ஒட்டி அளப்பினும் ஆசை அப்பொருள் ஒக்க நடிப்பவர், desire acted to the measure of the money, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 469,
+   "b": "naladiyar:27",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "469's காய மாய வீடு ... கூடு நந்து புற்புதம் and the Naladiyar's படுமழை மொக்குளின் ... கெடும் இது ஓர் யாக்கை share the body-as-bubble, both drawing from it a resolve to end wandering or gain release.",
+   "text_issue": null
+  },
+  {
+   "a": 247,
+   "b": "tirumanthiram:199",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "247 only lists கொல் ஊனை நித்தம் பசியாறல் as one item among its bonds; it does not extend Tirumular's punishment of flesh-eaters, so the link is a thin shared condemnation rather than development.",
+   "text_issue": "247 has garbled readings (த்ததகுரு, encoding glitch in கொலு஡னை)."
+  },
+  {
+   "a": 1155,
+   "b": "naladiyar:195",
+   "type": "tension",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "1155's கோதுசேர் இழிகுலத்தர் குலமேன்மை கூறி is one item in a satire of false boasts (cowards claiming valour, the poor claiming Kubera); it attacks pretension, not the reality or unreality of caste, so the clash with நல்ல குலமென்றும் தீய குலமென்றும் சொல்லளவு rests on a literal reading of a satirical list.",
+   "text_issue": null
+  },
+  {
+   "a": 387,
+   "b": 386,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Sister songs at Arunai: both liken the eyes to poison (386 கண்டகாளம்; 387 the churning poison that cracks the அண்ட கோளகை), both ask ஒழிந்திடாதோ, and both end with Murugan leaving his form for the hunter girl (அறுமுக வடிவை ஒழிந்து; வடிவு கரந்து போய்).",
+   "text_issue": null
+  },
+  {
+   "a": 1276,
+   "b": 1255,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both are vows of constancy instead of pleas: மதிமயங்கினும் ... நின் பதங்கள் மறவேனே and வாழினும் வறுமை கூரினும் நினது வார்கழல் ஒழிய மொழியேனே; the note describes both fairly.",
+   "text_issue": null
+  },
+  {
+   "a": 314,
+   "b": 257,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both set the Lord who pervades yet transcends (சகலமும் பற்றிப் பற்றற நிற்கும் பொது; சகலத்தும் ஒற்றைபட்டு அயல்பட்டு நிற்கும்) against the six sects, 257 mocking their installed images and jewel-wealth, 314 their angry argument (சினமுடன் தர்க்கித்து) and seeking to teach திசைதொறும்.",
+   "text_issue": null
+  },
+  {
+   "a": 217,
+   "b": "naladiyar:47",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both anatomize the body as filth, but Naladiyar 47's point is the dark skin deceiving the lover who calls a nine-holed pot பெருந்தோளி; 217 catalogues the poet's own body and diseases and rebirth with no lover or deceiving skin, so the link is a shared stock theme.",
+   "text_issue": "217 has garbled words (சங்முளை, வங்க்முடே)."
+  },
+  {
+   "a": 908,
+   "b": 368,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both are built on the refrain அலமல / அலமலம், and both keep only the tie to devotees (உனை நினைபவர் உறவு; உன் அடியரொடு ஒருவழிபட); the note's division of what each sweeps away is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 1270,
+   "b": "naladiyar:46",
+   "type": "agrees",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "1270's மலம் தோல் சலம் ... எலும்பால் கலந்து ஈட்டிடும் கூடு is a generic body-of-filth phrase in a plea for service before death; it has nothing of Naladiyar 46's search for the beloved among the parts, as the note itself concedes, so it is a shared topic called agreement.",
+   "text_issue": "1270's text is largely hard to construe; the marker flagged it."
+  },
+  {
+   "a": 828,
+   "b": 827,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "Both repent of patron praise and use the kalpaka/cloud flattery (முகில் தருக்கள் ஒன்றும் அவர் ஆர்; புலவரை ரக்ஷிக்கும் தாருவே), but that flattery is stock across many songs (15, 368, 1105, 1125); the real link is the shared confession, not a distinctive image.",
+   "text_issue": null
+  },
+  {
+   "a": 227,
+   "b": "kural:913",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "227's விலைமாதர் பொய்க்கலவி echoes the Kural's பொருட்பெண்டிர் பொய்ம்மை முயக்கம், and the additions the note names (விடமே கொடுத்து வெகு பொருளே பறித்து) are in the song.",
+   "text_issue": null
+  },
+  {
+   "a": 1125,
+   "b": 1105,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1105 confesses praising patrons as புயல், பாரிசாதத் தரு, த்யாக மேரு; 1125 condemns those patrons at length and names the same praise (உலகம் உண்டவர் மதனார் இமையவர் தரு எனும்படி) as wasting life (உயிர் அவமே விடுவது).",
+   "text_issue": null
+  },
+  {
+   "a": 1275,
+   "b": "tirumanthiram:857",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "மூலா நிலமதின் மேலே does echo the rousing of மூலம் in 857, but the middle-channel claim depends on emending the corrupt நநடு ழிதனிலை to நடு வழி, and the song's sense is uncertain throughout.",
+   "text_issue": "1275 line 'நநடு ழிதனிலை' is corrupt (doubled syllable, probably நடு வழி)."
+  },
+  {
+   "a": 822,
+   "b": 818,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both open with பாலோ தேனோ; 818 as lullaby (தாலோ தாலேலோ), 822 as a lover's questions on speech and eyes turned to the seeker's (நானோ நீயோ, நாடோ வீடோ); a meaningful reuse of one form.",
+   "text_issue": "818 line with பே¡£யாதே is damaged."
+  },
+  {
+   "a": 838,
+   "b": "naladiyar:380",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "838 shows the common woman going with another who brings more wealth while the first lover is still there (இளைஞனும் இருக்க ... துவட்சியே பெறில் அவருடன் மருவிடு); Naladiyar 380 is about men's blindness to a mind set elsewhere. The note's 'mind with another while she embraces this one' and 'leaves' both stretch the verses; only the generic fickleness is shared.",
+   "text_issue": "838's opening lines are hard to divide; the marker flagged them."
+  },
+  {
+   "a": 956,
+   "b": 1,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "956 tells in full (ஒரு கொம்பினாலே எழுதென மொழியப் பண்டு பாரதம் ... மேருவில் எழுதிய) what 1 compresses into முற்படு கிரிதனில் முற்பட எழுதிய; the note leaves out 1's முத்தமிழ், but the development is real.",
+   "text_issue": null
+  },
+  {
+   "a": 487,
+   "b": 196,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both open with near-identical disease catalogues (வாத பித்தமொடு சூலை ...; வாதம் பித்தம் ... சூலை) joined to the ninety-six tattvas as agents feeding on the body (தொணுறாறு தத்துவர்கள் உண்ட காயம்; தத்துவகாரர் தொணூற்றறுவர்); 487 does add வீடு கட்டி and பொருளாசை.",
+   "text_issue": null
+  },
+  {
+   "a": 218,
+   "b": "kural:65",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "218 asks for the Kural's bodily joy of a child (மக்கள் மெய் தீண்டல் உடற்கு இன்பம்) with the Lord as the child played with on the lap (மடிமீது அடுத்து விளையாடி), and மணிவாயின் முத்தி puns kiss and release.",
+   "text_issue": null
+  },
+  {
+   "a": 798,
+   "b": 488,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both are akam pleas for a lovesick girl naming the burning flower bed (மலரணை கொதியாதே; மலர் மேவு ... அணையாலும) and women's blame (வசை) and asking for his garland (கடப்ப மாலை; மது மாலை); the note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 380,
+   "b": "kural:1228",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "380's இனிய தனி வேயிசைக்கும் ... அழியாதே places the flute among four torments (moon, blame, flute, Kama) as the Kural's ஆயன் குழல் is a killing weapon of evening; the note counts them correctly.",
+   "text_issue": null
+  },
+  {
+   "a": 920,
+   "b": 306,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both identify Murugan with Sambandar curing the Pandya's hunch and impaling the Jains (கூன் நிமிர் இறையோன், சமண் ... கழு; பஞ்சவன் நீடு கூனும் ... வெங்கழு ஏற), 306 against court poetry and 920 against courtesans, with 920 adding the leaf against the current and the queen at Alavai.",
+   "text_issue": null
+  },
+  {
+   "a": 134,
+   "b": 15,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "134's begging is one late item in a life survey (அசனமிடுவார்கள் ... தலைவாசல் நின்று ... நாணமின்றி), with no praise poetry; 15's confession is the poet's trade of flattery (தண்டமிழ்க்குத் தஞ்சம்). Begging is shared but thin.",
+   "text_issue": null
+  },
+  {
+   "a": 55,
+   "b": 15,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both quote the same flattery of patrons, red/lotus hand and cloud of giving (செங்கை பொற் கொண்டல்; தடக்கைப் பங்கயம் கொடைக்குக் கொண்டல்), and 55 adds a pointed twist: the patron called துங்கவேள் is renamed, and the name கந்தவேள் kept for the Lord.",
+   "text_issue": null
+  },
+  {
+   "a": 1028,
+   "b": "tirumanthiram:2085",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both set disputation against love: 1028's காதி மோதி வாதாடு நூல் கற்றிடுவோரும் ... நெக்குருகாரும் go to Death's town, and Tirumular asks what வாது gains those who cannot know the First in அன்பு.",
+   "text_issue": null
+  },
+  {
+   "a": 121,
+   "b": "naladiyar:376",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both turn on the courtesan's broken vow never to part (உயிர்க்கூடு விடுமளவும் ... நெகிழ்வதிலை எனவே சூள்; நித்தலும் நம்மைப் பிரியலம் என்றுரைத்த), and 376 sits in the Naladiyar's chapter on common women; 'asks the heart to leave' slightly simplifies நிற்றியோ போதியோ.",
+   "text_issue": null
+  },
+  {
+   "a": 123,
+   "b": 8,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "Both confess omitted worship in a list of negatives (சேவித்தறியேனே, குறியேனே; தொழுதிலன், பணிந்திலன், வருகிலன்), but that is a stock confessional form, not a distinctive image; the link is the shared confession.",
+   "text_issue": null
+  },
+  {
+   "a": 1141,
+   "b": "kural:920",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1141's வறுமை தந்திடு பாழ் மூதேவிகள், drunk on பேய் நீர், names the courtesans as Misfortune itself, the inverse of the Kural's திரு நீக்கப்பட்டார் whose company is இருமனப் பெண்டிர், கள், கவறு.",
+   "text_issue": null
+  },
+  {
+   "a": 664,
+   "b": "kural:1131",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "664's மாலாய் மடலேறும் காமுக எம்பிரானே puts the god on the palmyra horse the Kural calls the lover's only safeguard (மடலல்லது இல்லை வலி); a pointed reuse of a distinctive figure.",
+   "text_issue": "Several phrases of 664 (வாராய்பதி காதங் காதரை ஒன்முரும்) are obscure or corrupt."
+  },
+  {
+   "a": 69,
+   "b": "kural:1066",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "69 confesses carrying prabandha poems to patrons' doors (தோமுறு காளையர் வாசல்தொறும் புக்கு) and calls himself மானமிலா, the begging tongue the Kural calls the most degraded (நாவிற்கு இரவின் இளிவந்தது இல்).",
+   "text_issue": null
+  },
+  {
+   "a": 1001,
+   "b": "naladiyar:25",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both set the funeral drum against the lover of pleasure: 1001's ஒரு பறை குணலையிட ... சுடலையில் நடவுதல் இனிதோ தான் and the Naladiyar's drum answering உண்டுண்டுண்டு with டொண்டொண்டொ; close and accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 679,
+   "b": "naladiyar:48",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Vultures feeding on the body are shared (பாற்றுக் கணங்கள் தின்று ... குரம்பை; பெடைச்சேவல் வன்கழுகு ... குத்தும்), but 679 answers no admirers of sandal and garlands; it is about wandering town to town in envy, so the note's 'answer its admirers' overstates 679.",
+   "text_issue": null
+  },
+  {
+   "a": 524,
+   "b": "naladiyar:11",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "524 pictures the whitened head (கறுத்ததலை வெளிறு) and stick-leg (தடிகாலாய்) and asks for service before the body ripens (உடம்பு பழுத்திடுமுன்); Naladiyar 11 foresees நரை and the staff (கோல் ஊன்றி) and praises early renunciation. Same act-before-age claim across books.",
+   "text_issue": null
+  },
+  {
+   "a": 306,
+   "b": "kural:1067",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The Kural forbids begging from those who conceal (கரப்பார் இரவன்மின்); 306 asks not to perish like bards (வந்தியர் போல வீணில் அழியாதே) who call misers Pari and Kari, and turns to Murugan instead. A real qualification, but 306 frames it as a plea not to be like them, not an outright confession as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 527,
+   "b": 528,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both end verbatim with வேங்கட மாமலையில் உறைவோனே / வேண்டிய போது அடியர் வேண்டிய போகமது வேண்டவெறாது உதவு பெருமாளே; the note fairly calls it a shrine formula.",
+   "text_issue": null
+  },
+  {
+   "a": 1227,
+   "b": "tirumanthiram:157",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both follow the corpse through the burning to the mourners' bath (சுட்டுக் குளித்து மனை புக்கிட்டு; எரிமூட்டி நீர்த்தலை மூழ்குவர்) and close on a harsh judgement (சுத்தப் பொய்; நீதியிலோர்). A close, specific parallel.",
+   "text_issue": null
+  },
+  {
+   "a": 103,
+   "b": "kural:1085",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "103's chain of doubting questions (ஓ ... ஓ) about the eye ends with யமதூதுவர் நெஞ்சமோ, matching the Kural's கூற்றமோ கண்ணோ பிணையோ; the poet's சங்கை is described accurately.",
+   "text_issue": null
+  },
+  {
+   "a": 126,
+   "b": "kural:1085",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "126 does have the deer driven to the forest (உழையைக் கவனத்து அடைசி) and Yama trampled (யமப் ப்ரபுவைத் துகைவித்து), but as a conceit of eyes defeating all comparisons, not the Kural's doubt; the note's 'cannot decide' misstates the Kural, which says the look has all three, and these are stock eye-comparisons.",
+   "text_issue": "Several lines of 126's first half are compressed and hard to split; the marker flags uncertainty."
+  },
+  {
+   "a": 207,
+   "b": "kural:1020",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "207's மரபாவை on strings (பாவை துன்றிடும் கயிறுவிதமென மருவி ஆடி) driven by former deeds (முன்செய் வஞ்சனையாலே, இருவினை) matches the Kural's மரப்பாவை moved by நாண்; both use the puppet for a life moved from outside.",
+   "text_issue": null
+  },
+  {
+   "a": 561,
+   "b": "tirumanthiram:2380",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both are apophatic (வாய்விட்டுப் பேசொணாதது; பேசா உரையுணர்வற்ற, வாசாமகோசரம்), but that is a stock Saiva formula and the pairing adds little; 'beyond conduct' stretches Tirumanthiram's ஆசார ... கலாந்தத்து and 561's பூசித்துக் கூடொணாதது.",
+   "text_issue": "561 reads போசொணாதது for பேசொணாதது, and வயலு஡ரத்தில் has a corrupt glyph."
+  },
+  {
+   "a": 723,
+   "b": "kural:911",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "723's women think only of seizing a man's money (கைப்பொருள் பற்றிட நினைவோர்கள்) and flatter on the bed (இச்சகம் மெத்த உரைத்து), matching the Kural's sweet words (இன்சொல்) of women who desire wealth not love (அன்பின் விழையார் பொருள்விழையும்).",
+   "text_issue": null
+  },
+  {
+   "a": 28,
+   "b": 8,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both are hour-of-death pleas (மறலி எனை அழையாதே; மறலிதன் உழையினர் ... பொருபோதே ... வருவாயே), described accurately, but this is the book's stock plea and the pairing teaches little.",
+   "text_issue": null
+  },
+  {
+   "a": 613,
+   "b": 15,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both attack the patron-poet's trade with the same cloud figure (கொடைக்குக் கொண்டல் in 15; கருடன் மிசைவரு கரிய புயல் in 613); 613 extends it to inserting names and stealing verses (திருடி ஒருபடி நெருடி). 'Disowns' is a reasonable reading of சிறிதும் உணர்வகை அறியேனே.",
+   "text_issue": null
+  },
+  {
+   "a": 772,
+   "b": 24,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both are akam laments in another's voice with the evening torments: 772 மாமதி, தென்றல், அந்திப்பொழுது; 24 அன்றில், தென்றல், அந்திப் பிறை, and 24's பெண்பெற்றவருக்கு question. Accurately described.",
+   "text_issue": null
+  },
+  {
+   "a": 280,
+   "b": 258,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Shared body images: 280 பொய்க்குடம், கிருத்திமத் துருத்தி, பிணிப்பை, பிறப்பற; 258 பொய்க்கடம், துருத்தி, இனப்பிணிக் கணத்தினுக்கு இருப்பு, இப்பிறப்பறுத்து. Close and accurately described.",
+   "text_issue": null
+  },
+  {
+   "a": 745,
+   "b": "naladiyar:47",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "நவதொளை உடைய குரம்பை (745) and ஒன்பது வாய்ப்புலனும் ... கும்பம் (Naladiyar 47) share the nine-holed vessel; the note correctly contrasts the Naladiyar's mockery of the lover with 745's self-confession and plea for teaching.",
+   "text_issue": null
+  },
+  {
+   "a": 1247,
+   "b": "tirumanthiram:1503",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both use அது இது, but differently: Tirumular for rival claims about the supreme, 1247 for the grammar of person and distance the Lord transcends (அவன் இவன் உவன் ... அது இது உது எனும் ஆறு அற்று). The shared rejection of sect dispute (சமயிகள் ... சருவா நின்று) is real but partial.",
+   "text_issue": null
+  },
+  {
+   "a": 1326,
+   "b": "tirumanthiram:1",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both are number poems: Tirumanthiram 1 counts the Lord from ஒன்று to எட்டு, 1326 (an ezhukutrirukkai) counts Murugan's acts through seven. The shared device is real and the note's theology vs. narrative contrast is accurate.",
+   "text_issue": "Some number phrases in 1326 are obscure, as the marker notes."
+  },
+  {
+   "a": 774,
+   "b": "naladiyar:21",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "774 lays out royal pomp (மதிள், மாளிகை, வயிரியர் பாட, கவரி, அரசாகி) and ends ஒருபிடி சாம்பல் ஆகிவிடலாமோ; Naladiyar 21's kings under moon-white umbrellas on elephants (யானைத் தலைமிசைக் கொண்ட குடையர்) all died. Same claim.",
+   "text_issue": null
+  },
+  {
+   "a": 742,
+   "b": "kural:380",
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "742 cites and grants the elders' word விதியாரும் விலக்கவொணாது (தகவாம் அது) yet asks to be freed by grace (உபாதிகள் தவிர்வேனோ ... அருட்பத மாமலர்), a fair qualification of the Kural's ஊழிற் பெருவலி யாவுள.",
+   "text_issue": "Several lines of 742 are hard to split, as the marker notes."
+  },
+  {
+   "a": 665,
+   "b": "naladiyar:46",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both list the body's stuff, but it is a stock ascetic inventory: Naladiyar 46 dissolves the beloved (எத்திறத்தாள் ஈர்ங்கோதையாள்), 665 builds a hut (குடில்) of skin, flesh, fluid and bone pegs. 665 names fluid (தசைதுறு நீர்), not blood as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 996,
+   "b": 995,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Twin songs with one refrain (வேலை கூப்பிட வீக்கிய பெருமாளே): both set riding elephants and horses as king (பரி தேர் கரி ஏறு ... அரசாகி; ஆனை மேல் பரி மேல்) against the பரமார்த்தம் not grasped, and both name Murugan as Siva's teacher (குருபரனாய; சாக்ர அதீத தீக்ஷை).",
+   "text_issue": "Several Sanskrit words in 995's praise are corrupt."
+  },
+  {
+   "a": 952,
+   "b": "kural:912",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "952's women name a price (விலைகூறி) and speak desire as if felt (ஆசை போல் மன இஷ்டம் உரைக்கவும்), learning arts of deceit (தோதக வித்தைகள்); this matches the Kural's women who weigh profit before speaking virtue (பயன்தூக்கிப் பண்புரைக்கும்).",
+   "text_issue": null
+  },
+  {
+   "a": 709,
+   "b": "tirumanthiram:567",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use the same word: the breath turned (மடைமாறி) to end birth and death; Tirumanthiram பிராணன் மடைமாறி ... பிறப்பிறப்பில்லை, 709 வாயு பிராணன் ஒன்றும் மடைமாறி ... மாய்வது என்று ஒழியாதோ.",
+   "text_issue": null
+  },
+  {
+   "a": 894,
+   "b": 898,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both list the scavengers (நரி நாய் பேய் பாறொடு கழுக்கள் கூகை; ஈ எறும்பு நரி நாய் கணம் கழுகு காகம்), accurately described, but the body as carrion is a stock formula and the contrast drawn is modest.",
+   "text_issue": "898 has corrupt characters in line 4 (§ர்¡லெ)."
+  },
+  {
+   "a": 319,
+   "b": "naladiyar:13",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Close match: 319 தடிகொடு ... தப்ப நடக்கும், பற்கொத்துக்கள் அனைத்தும் கழலா; Naladiyar 13 கோல்ஊன்றிச் சோர்ந்த நடை, பல்கழன்று. The note's contrast (desire vs. the kin's disgust, செச்செச்செ, சிச்சிச்சி, துத்துத்து) is fair, though Naladiyar's பண்டம் பழிகாறும் already has scorn.",
+   "text_issue": null
+  },
+  {
+   "a": 703,
+   "b": 704,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Twin songs in one metre with the same plea (பாழ்நரகு எய்தாமல் ... பாதமலர் சேர அன்பு தருவாயே) and the same life-from-the-womb sequence; the note's distinction (704's சாதகம், தவழ்ந்து) is accurate.",
+   "text_issue": "703 line 4 is garbled (பாழவெளநேரகெய் தாம)."
+  },
+  {
+   "a": 645,
+   "b": 337,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both akam pleas in another's voice: Kama's flower bow and the moon (மலர் ... வலிசெயா, மதி சுடா; மதன் மலராலும், கலைமதி), 645 with tears as pearls (இருகணால் முத்தம் உதிர) asking வாழ்விக்க வரவேணும, 337 asking the garland (செச்சைத் தொடையது தரவேணும்). Accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 111,
+   "b": "kural:913",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "111 shows the bargained embrace (விலைபேசி ... இறுகவே தழுவி) and calls it மதன நாடக பித்து, but never says the embrace is false, and the Kural's distinctive image (embracing a stranger's corpse in the dark) has no counterpart. A stock courtesan pairing.",
+   "text_issue": null
+  },
+  {
+   "a": 1041,
+   "b": "tirumanthiram:145",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both close the funeral with the burning and the bath (நீள்தீயூடே ... போதா நீருடே போய் மூழ்கா; சுட்டிட்டு நீரினில் மூழ்கி), and both say the kin turn away (மாறானார் போல்; நினைப்பொழிந்தார்கள்). Accurate.",
+   "text_issue": "A line of 1041's praise is corrupt (தீயு ஧ட்முள்)."
+  },
+  {
+   "a": 954,
+   "b": 2,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both record Murugan's command to sing: 2 திருப்புகழ் விருப்பமொடு செப்பென எனக்கருள்கை மறவேனே; 954 குறித்த நற் றிருப்புகழ் ப்ரபுத்துவ கவித்துவ குருத்துவத்து எனைப் பணித்து அருள்வோனே. Accurately described.",
+   "text_issue": null
+  },
+  {
+   "a": 707,
+   "b": "kural:166",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "707's ஈவது கண்டு தகைந்த குண்டர்கள், who obstruct giving when they see it, is the Kural's கொடுப்பது அழுக்கறுப்பான் on Manakkudavar's active reading; the different sanctions (kin destitute vs. Yama's pit) are stated correctly.",
+   "text_issue": null
+  },
+  {
+   "a": 1321,
+   "b": "naladiyar:13",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "1321's old age (தலைமயிர் கொக்குக் கொக்கு நரைத்து, பற்கட்டு விட்டு, தளர்நடை, தடிகொடு) matches Naladiyar 13's staff, gait and teeth, but 1321 says nothing about the desire that is the Naladiyar's point, so it shares the picture rather than developing the idea.",
+   "text_issue": null
+  },
+  {
+   "a": 749,
+   "b": 15,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "15 confesses praising patrons as Tamil's refuge (தண்டமிழ்க்குத் தஞ்சம்) and begging; 749 lists the unworthy patrons (லோபர், சூதினால் கவர்ந்து பொருள்செய் பூரியர்) to whom he gave சிறந்த தமிழ் and ends in வறுமையாகிய தீ. A real development.",
+   "text_issue": null
+  },
+  {
+   "a": 485,
+   "b": 146,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "146 makes the diseases the body's tenants (குடிகள் எனப் பல ... பிணி); 485 lists diseases at length but uses குடி only for the body as a dwelling taken as permanent (குடிப்புக்கு ஊனம் இதே சதமாம்), so the 'occupants' image is overstated for 485, and disease catalogues are stock.",
+   "text_issue": null
+  },
+  {
+   "a": 497,
+   "b": "kural:280",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "497 rejects ochre and matted hair (காவி உடுத்தும் தாழ்சடை வைத்தும்) as the Kural rejects shaving and long hair (மழித்தலும் நீட்டலும் வேண்டா); the note correctly distinguishes the Kural's conduct from 497's knowledge and grace.",
+   "text_issue": null
+  },
+  {
+   "a": 301,
+   "b": 299,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both close at Thanigai by naming the poet's own work: 299 அருணகிரிநாதன் உரைத்த தமிழெனும் மாலை, 301 திருப்புகழ் ஓதும் கருத்தினர் சேரும் திருத்தணி. A real and telling self-reference.",
+   "text_issue": "301's battle line has a garble (புநக்முள)."
+  },
+  {
+   "a": 632,
+   "b": 15,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "632 says he can no longer plead poverty before base men (பதகர் கொடியவாள் இடத்திலே மிக வறுமை புகல்வதே ... இனி முடியாதே) after women took his wealth; 15 confesses begging and flattering patrons (தவித்துச் சென்று இரந்து). Accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 749,
+   "b": "kural:1066",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The Kural's point is that begging is the tongue's worst disgrace even for a worthy cause (ஆவிற்கு நீர்); 749 confesses wasting fine Tamil on unworthy patrons (மூடர்பாற் சிறந்த தமிழ் கூறி) and the poverty that followed. Related, but 749 is about the unworthy recipients, not begging as such.",
+   "text_issue": null
+  },
+  {
+   "a": 188,
+   "b": "tirumanthiram:857",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both raise the breath from the base through ida/pingala to the head and reach the feet: 188 மூலம், பிங்கலை நாடி, வாயு, தூண்வழி, பாதம் பெற; Tirumanthiram 857 இடைபிங்கலை, நடுநாடி, மூலம், சிரத்துடன் சேர்தல், திருவடி நண்ணி.",
+   "text_issue": "188's நாலங்குலம் and சிகாரம் lines are obscure."
+  },
+  {
+   "a": 108,
+   "b": "naladiyar:378",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "108's துறவினர் சோரச் சோர நகைத்து is likely hyperbole, as the note concedes; set against Naladiyar 378's செந்நெறிச் சேர்துமென்பார் ... சேராரே it is a thin qualification resting on a literal reading.",
+   "text_issue": null
+  },
+  {
+   "a": 876,
+   "b": "kural:1085",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "876's doubting chain (ஓ ... ஓ) puts மறலி என்பவனோ and மானோ side by side as the Kural's கூற்றமோ ... பிணையோ, and ends by calling such women demons (பசாசே போல்பவர் உறவாமோ). Accurate.",
+   "text_issue": "Parts of 876's praise are obscure."
+  },
+  {
+   "a": 855,
+   "b": 153,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "An unusual shared plea: even while sunk in women's pleasure, not to forget the feet (வீழுகினும் ... மறவேனே in 153; விளையாடினும் ... பரிவுளங்கொள்வேனே in 855). Accurately described.",
+   "text_issue": null
+  },
+  {
+   "a": 873,
+   "b": "kural:1001",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "873 has one item in a list, ஈயாது தேடிப் புதைத்த (hoarding without giving), punished with dog-births; Kural 1001 faults the man who does not himself enjoy (அஃதுண்ணான்) his wealth. Not-giving and not-using are related but not the same claim, and the note's 'both condemn wealth withheld' blurs them.",
+   "text_issue": "Encoding glitch in வயலு¡ரா"
+  },
+  {
+   "a": 48,
+   "b": "naladiyar:46",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "The anatomy list is genuinely close (குடர் நிணம் என்பு ... குருதி நரம்பு ... தோல் vs குடரும் கொழுவும் குருதியும் என்பும் ... நரம்பொடு தோலும), but the verses use it for different ends: 48 laments his own body which he fondles (குனகி மகிழ்ந்து), the Naladiyar dissolves the beloved. A shared image, not a shared claim.",
+   "text_issue": null
+  },
+  {
+   "a": 981,
+   "b": "naladiyar:24",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both describe a funeral, but this is the stock funeral scene: 981 has wailing, bier and burning to ash (நீறாம்), Naladiyar 24 has the three drum beats and the bearers who will die too (செத்தாரைச் சாவார் சுமந்து). The note's 'wailing and drums' joins details found one in each; the distinctive points do not meet.",
+   "text_issue": null
+  },
+  {
+   "a": 837,
+   "b": 2,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "837's நீ குருவாய் இது பகருமாறு செய்தாய் and 2's திருப்புகழ் ... செப்பென எனக்கருள்கை both credit the poet's speech to Murugan's own instruction; the note also fairly reports முதல் நாளுறு பயனோ.",
+   "text_issue": "Song 2 has a corrupt word in the offering list (தன஧முலம்)"
+  },
+  {
+   "a": 1115,
+   "b": "tirumanthiram:144",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "1115 lists kin and goods (மக்கள், தெரிவை, பணம், ரத்நம்) beside the pyre, but the lines saying what they do there (புக்குதுக் தித்தெரிகள் தத்தவைக் கப்புகுது) are obscure, so 'do not follow the dead' is read in from the Tirumanthiram. The theme is also a stock one.",
+   "text_issue": "1115 lines 5-6 hard to construe, possibly corrupt"
+  },
+  {
+   "a": 858,
+   "b": "tirumanthiram:1934",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "அறுகுநுனி பனியனைய சிறியதுளி and ஒருபுல் பனிபோல் அரிய துளி are the same distinctive figure for the seed-drop at the body's origin. The note is accurate apart from a slight loosening: Tirumular describes the drop as forming from the elements, not travelling through them.",
+   "text_issue": null
+  },
+  {
+   "a": 574,
+   "b": "kural:919",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "அளறில் அழுந்தாமல் in 574 and ஆழும் அளறு in Kural 919 share the word அளறு (mire and hell) and the act of sinking, applied to the same object, the courtesan's body.",
+   "text_issue": "Last two lines of 574's praise nearly repeat each other (வழியருளின் பேறு காட்டி)"
+  },
+  {
+   "a": 941,
+   "b": 951,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both reject the clamour of the six sects (சட் சமயிகள்) and the arts of disputation (கலைஞானச் சண்டை; தர்க்கப் பலகலை), but this is a stock complaint in the book. The pairing teaches little beyond it, except that 941 refuses even the Saiva mantra lore (சிவநூலின் மந்த்ர ... அலமலம்).",
+   "text_issue": "Encoding glitches (சுக் ¡£பர், வயலு¡ரா)"
+  },
+  {
+   "a": 57,
+   "b": "naladiyar:44",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "57 piles up the conventional eye comparisons (சத்தி, காவி, வாளை, கணை), and the Naladiyar names the same set (குவளை, கயல், வேல்) as the talk of the blind. Read together, 57's catalogue is exactly the infatuation the Naladiyar refuses, and 57 asks to leave it (மயல் விட்டு). Minor slip: 57's fish is வாளை, not the carp.",
+   "text_issue": null
+  },
+  {
+   "a": 1287,
+   "b": 1282,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both give Murugan Sambandar's identity: 1282 by name (சம்பந்தன் எனத் தமிழ் தேக்கிய) and the child's dance, 1287 by உமைமுலைத் தரு பால் and சமணரைக் கழுவேற்றிய. 'Filling the land with Tamil' slightly stretches 1287's தமிழ்தனைக் கரை காட்டிய, but the shared figure is real and distinctive.",
+   "text_issue": null
+  },
+  {
+   "a": 245,
+   "b": 15,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both confess praising patrons in Tamil for gifts (ஆசுகவி பாடி ... நாளை நடவும்; கொடைக்குக் கொண்டல் தண்டமிழ்க்குத் தஞ்சம்) and ask for the feet. The note is accurate, but this is a stock complaint of the book and the pairing adds only 245's rebuff.",
+   "text_issue": null
+  },
+  {
+   "a": 821,
+   "b": "kural:541",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "821 does not state a claim about justice; its praise tells the Manu-needhi Chola story (மனுவின் நெறி மணி ..., the son split under the chariot). That story applies the Kural's யார்மாட்டும் கண்ணோடாது to one's own son, so the pairing is an illustration (develops/applies), not agreement.",
+   "text_issue": null
+  },
+  {
+   "a": 634,
+   "b": "kural:10",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "பிறவி அலையை நீந்தி அமல அடி வந்து அடைவேனோ directly echoes பிறவிப் பெருங்கடல் நீந்துவர் ... இறைவன் அடிசேர்ந்தார்: the same image of swimming the sea of births, with the same condition, the Lord's feet.",
+   "text_issue": null
+  },
+  {
+   "a": 1268,
+   "b": 1254,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both are akam laments asking the hero for flowers (குரவலர் தரவேணும்; அலங்கல் தரவேணும்) amid Kama's arrows and the sea. The note is accurate, but this is the classical heroine's formula shared by many songs, and the pairing teaches little.",
+   "text_issue": null
+  },
+  {
+   "a": 93,
+   "b": 68,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both are stock old-age portraits with deafness, cough or phlegm and confusion (செவி கேட்பற்று, மூக்குக்குள் சளி; இருமல் கிண்கிண், செவிடு). The note describes them fairly, but the shared catalogue is a formula of the genre.",
+   "text_issue": null
+  },
+  {
+   "a": 955,
+   "b": "naladiyar:13",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Shared details are generic marks of age: loosened teeth (வெண்பலு நழுவி / பல்கழன்று) and the scorned body (அசுத்தன் என்றிட / பண்டம் பழிகாறும்). The Naladiyar's real point, desire that outlives the body (காம நெறிபடரும் கண்ணினார்), has no counterpart in 955.",
+   "text_issue": "Encoding glitch at the start of 955 (உ ரைத்த)"
+  },
+  {
+   "a": 683,
+   "b": "kural:911",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "683 shows the courtesan's speech at work (சோலி பேசி, முன்னாளில் இணங்கிய மாதர் போல், then பொருள் சூறைகள் கொண்டு), which acts out Kural 911's sweet words of women who want wealth, not love. The note places the harm in speech, as the Kural does.",
+   "text_issue": null
+  },
+  {
+   "a": 262,
+   "b": "kural:1147",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "262 counts the women's gossip (பொருமங்கையர் உக்கு அலர்) among the girl's torments, beside cuckoo, moon and sea. That is the stock akam alar, not the Kural's distinctive image of gossip as manure that makes love grow (எருவாக ... நீளும்), so the note's 'feed' overstates 262.",
+   "text_issue": null
+  },
+  {
+   "a": 744,
+   "b": 762,
+   "type": "develops",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "Both songs set out a yogic ascent (பவனம் ஒழித்து, பருதி வழி; மூலம், மண்டலம் மூணு, நடு தூண்) and both identify Murugan with Sambandar impaling the Jains. They run in parallel, but neither extends the other, and the note shows no development.",
+   "text_issue": null
+  },
+  {
+   "a": 1317,
+   "b": "kural:911",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "பாசத்தால் விலை கட்டிய (love with a price on it), அதிமோக வாய்வித்தாரம் உரைக்கும் (lavish talk) and நேசித்தாரையும் எத்தி வடிப்பவர் match the Kural's women who want wealth, not love, and whose sweet words do harm. The brass polished to pass for gold is a fair added point.",
+   "text_issue": null
+  },
+  {
+   "a": 752,
+   "b": "naladiyar:13",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "The portraits share the tottering gait, the staff and the teeth (நடைநெட்டி, தடியோடே, பல் வெளியாகி; சோர்ந்த நடை, கோல் ஊன்றி, பல்கழன்று), but the claims differ: the Naladiyar faults lingering desire, while 752 asks release from birth. This is a shared image, not agreement, and 752's teeth are exposed rather than fallen.",
+   "text_issue": null
+  },
+  {
+   "a": 397,
+   "b": "kural:1147",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "397's இளவாடையும் ஊரும் ஒறுக்கும் has the town punish the girl alongside the north wind. That is the stock akam gossip; it does not have the Kural's image of gossip as manure that makes love grow, so 'feed' in the note overstates 397.",
+   "text_issue": null
+  },
+  {
+   "a": 603,
+   "b": "kural:331",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "603 confesses exactly the Kural's fault of taking the fleeting for the lasting: a bubble-like life (புற்புதம் ... அற்ப நிலையாத) imagined to stand for a crore of aeons (நிற்பதொரு கோடி கற்பம் என மாய நிட்டை), matching நில்லாதவற்றை நிலையின என்றுணரும்.",
+   "text_issue": null
+  },
+  {
+   "a": 117,
+   "b": 15,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both confess hyperbolic praise of patrons in Tamil (ஒரு காசே கொடாதவரை ஐந்து தருவை நிகரே புகழ்ந்து; கொடைக்குக் கொண்டல்). The note reads both fairly, including 117's fear of rebirth, but this is a recurring stock complaint of the book.",
+   "text_issue": null
+  },
+  {
+   "a": 60,
+   "b": "tirumanthiram:269",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "60's புநிதமிலி மாந்தர் தங்கள் புகழ்பகர்தல் நீங்கி நின் ... வந்தித்திடுவேனோ makes the same turn as Tirumular's புல்லறிவாளரைப் போற்றிப் புலராமல் ... இறைவனை ஏத்துமின: stop praising worthless men and praise the Lord. The match holds across two books.",
+   "text_issue": null
+  },
+  {
+   "a": 252,
+   "b": "kural:913",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "இருட்டறை வாவெனப் பொருள் பற்றி முயக்கிடு nearly quotes பொருட்பெண்டிர் ... முயக்கம் இருட்டறையில்: the dark room, the wealth and the embrace. The note correctly says the corpse is absent from 252.",
+   "text_issue": null
+  },
+  {
+   "a": 662,
+   "b": "kural:223",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The verbal echo is real (இல்லையென நாணி, எவ்வம்; இலனென்னும் எவ்வம்), but 662's line is ambiguous: it may describe misers who will not share (பகிராரை). In 662 எவ்வமென நாடி is the poet's own need, not the misery of saying 'none', so the note's 'same word for misery' and its 'define the giver' overstate an uncertain reading.",
+   "text_issue": null
+  },
+  {
+   "a": 628,
+   "b": 14,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both use the stock love-sickness trio of moon, Kama's arrows and cuckoo (மதிய மெறிக்குந் தணல், மதனன் ... கணை, குயில்; அம்புலி சுடு தழல், குயில்). The note is accurate, but the shared machinery is the genre's formula.",
+   "text_issue": null
+  },
+  {
+   "a": 1265,
+   "b": "naladiyar:29",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use the same distinctive device, a life told as a run of verbs ending in death: பிறந்தார் கிடந்தார் இருந்தார் தவழ்ந்தார் நடந்தார் தளர்ந்து பிணமானார் beside நின்றான் இருந்தான் கிடந்தான் ... சென்றான். The note describes both uses correctly.",
+   "text_issue": null
+  },
+  {
+   "a": 163,
+   "b": "kural:1",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "அகர முதலுள பொருளினை அருளிட takes up the Kural's opening words அகர முதல and asks for the meaning that stands first as A does, which applies the Kural's figure. The cross-reference to 173 is outside the packet and was not checked.",
+   "text_issue": null
+  },
+  {
+   "a": 815,
+   "b": "tirumanthiram:724",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "815 rejects the effort to preserve the body (அடலை உடம்பை அவாவியெ ... சாரமில் அவுடதமும் பல யோகமும் முயலா நின்று ... அலமலம்), while Tirumular approves it (உடம்பை வளர்க்கும் உபாயம் அறிந்தே உடம்பை வளர்த்தேன்). This is a genuine conflict, with the reading condition stated.",
+   "text_issue": null
+  },
+  {
+   "a": 1231,
+   "b": "kural:912",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "கைக்காசின் அளவறிந்து ... கலவி இன்பம் விற்பார் matches பயன்தூக்கிப் பண்புரைக்கும்: both have women who weigh the man's money before giving love or speech. The note is accurate about the poets who sing them.",
+   "text_issue": "Encoding glitches in the praise (சுக்஡ணவ, தசக்஡ணவ)"
+  },
+  {
+   "a": 423,
+   "b": 9,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both run the stock life-cycle from womb through birth, nursing and crawling to women (கெர்ப்பகுகை ... முலையைக் கொடுக்க ... தத்துநடை; கருவடைந்து பத்துற்ற திங்கள் ... முலையருந்து ... தவழ்ந்து). The note is accurate, including 423's கற்று வெற்றறிவு, but the sequence is a recurring formula.",
+   "text_issue": "423's praise has a garbled name (likely Vibhishana)"
+  },
+  {
+   "a": 1112,
+   "b": "tirumanthiram:1707",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both trace the same yogic programme: purifying or climbing the adharas (ஆதார சோதனை; சக்ர சடாதார முட்டவும் மீதேறி) to a state where the senses and instruments cease (புலன் கரணம் புத்தி சாதாரணங் கெட்டான்; சொற்கரணாதீதம்). The vocabulary matches term for term.",
+   "text_issue": "Corrupt glyph in 1112 line 5 (வா஡ணச, likely வாரிச)"
+  },
+  {
+   "a": 211,
+   "b": "tirumanthiram:570",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "211 asks to be rid of the anxious yoga that will not accept that the body must go (கறைபடும் உடம்பு இராதெனக் கருதுதல் ஒழிந்து), stops the breath and fans the fire. Tirumular prescribes breath on the left so that ஆக்கைக்கு அழிவில்லை. The conflict is real, and the note states its reading condition.",
+   "text_issue": "Two corrupt glyphs in 211 (அனலு஡தி, புண்ட஡ணகம்)"
+  },
+  {
+   "a": 761,
+   "b": "kural:920",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The note rests on one word, குடிகேடிகள், set against the Kural's company of those abandoned by Fortune. That is a loose fit, and it misses the closer match மாறிகள் for இருமனப் பெண்டிர். Liquor and dice, the heart of 920, are absent from 761.",
+   "text_issue": null
+  },
+  {
+   "a": 158,
+   "b": "naladiyar:46",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "158 lists the body's parts (சீ உதிரம் ... புழு நரம்பு ... தோல் தசை எலும்பு) and Naladiyar 46 does the same, a shared image used for different ends. The note's 'knowing this, he still desires' glosses 158, which says he cherishes the body as lasting (பேணி நிலையென்று).",
+   "text_issue": null
+  },
+  {
+   "a": 144,
+   "b": "kural:919",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "144's பொற்றோள் விரும்பி மிகத் தாழ்வடைந்து உலைய pairs desire for the women's shoulders with sinking low, matching the Kural's மென்தோள் ... ஆழும் அளறு. The note is fair, though 144's women are not marked as courtesans.",
+   "text_issue": null
+  },
+  {
+   "a": 200,
+   "b": 179,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "போதகம் is shared (போதகந்தனையே உகந்தருள்; போதகந்தரு கோவே) in two Avinankudi songs, and the note is accurate. But Murugan as the teacher of Siva is a stock formula of the book, and 179's invocation does not even carry the Siva scene.",
+   "text_issue": null
+  },
+  {
+   "a": 985,
+   "b": "tirumanthiram:2528",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The only firm shared term is the sushumna (ககன சுழிமுனை; சுழுனையினூடே). 985's first half is a list of uncertain syntax, and the Tirumanthiram's eight-petalled flower and maya's city have no counterpart. This is shared yogic vocabulary, not a shared claim.",
+   "text_issue": null
+  },
+  {
+   "a": 359,
+   "b": 347,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both describe the Absolute by what fails to reach it: 359 by சரியை க்ரியையும் புணர்ந்தவர் எவராலும் ஓத அரிய and துரியம் கடந்தது, 347 by கற்றெட்டத் தான் முடியாதது, மனதாலே தேட ஒணாதது and நான்மறை எட்டாதது. One difference the note omits: 359 says the Vedas proclaim it (மறைகள் அறைகின்ற).",
+   "text_issue": null
+  },
+  {
+   "a": 652,
+   "b": 520,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both trace the embryo through fruit sizes (652 பந்துப் பனைபழமோடு இளநீர் குட; 520 மிளகு துவர் பனை தெனங்கனி) and the head-down birth (தலை கீழுற / தலை கீழதாய் நழுவி), a concrete shared sequence; only 'seed' is loose for 652, which has grub and ball.",
+   "text_issue": null
+  },
+  {
+   "a": 1175,
+   "b": 1157,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The real link holds (வாதிகள் and scriptures fail in both, the answer is the feet), but 1175's மகோததி is most naturally 'துக்கமாம் மகோததி ஏற', crossing the great ocean of sorrow, not an ocean of bliss as in 1157's பரமசுகமாம் மகோததி; the note's central shared word is misread.",
+   "text_issue": null
+  },
+  {
+   "a": 404,
+   "b": 24,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Shared only the stock akam torments: 404 has moon (மதி நிலவு), flute and sea waves and Kama's arrows, 24 has anril, south wind and the evening crescent; overlap is the moon and Kama, the genre's common machinery, and 404 names no evening.",
+   "text_issue": null
+  },
+  {
+   "a": 1170,
+   "b": 14,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both allude to the same specific story of Vishnu following a poet: 1170 பாவலோர்கள் பாடல் கண்டு ஏகு மாலின் மருகோனே, 14 வண்டமிழ் பயில்வோர் பின் திரிகின்றவன்; a distinctive shared figure, fairly described.",
+   "text_issue": null
+  },
+  {
+   "a": 589,
+   "b": 579,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both confess the court poet's begging from patrons who give nothing: 579 கொடாதவனையே புகழ்ந்து குபேரனெனவே மொழிந்து, 589 இரங்கார்க்கு இயற்றண்டமிழ் நூலின் உடம்பாட்டுடன் பாட்டியம்பா; 579 links it to not seeking grace (அன்றுன் அருள் பேணேன்).",
+   "text_issue": null
+  },
+  {
+   "a": 1214,
+   "b": "kural:911",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1214's காசு தேடு மனத்திகள் names the courtesan's want as money, as Kural 911 does (அன்பின் விழையார் பொருள் விழையும்); the note fairly cites the Kural's harm from sweet words. A real cross-book agreement, though the theme is the genre's commonplace.",
+   "text_issue": null
+  },
+  {
+   "a": 467,
+   "b": "kural:1",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "467's அகரந் திரு உயிர் ... சிவகாமி takes the letter A as a name of the Goddess, but it does not extend Kural 1's claim of primacy (அகர முதல எழுத்தெல்லாம்); it shares the figure of A as the divine rather than developing the idea, and the line itself is hard to construe.",
+   "text_issue": null
+  },
+  {
+   "a": 1254,
+   "b": 24,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Near-identical cluster at dusk: 1254 தென்றல், கடல், திங்கள், அன்றில், சரங்கள் ஐந்து, அந்தியில்; 24 அன்றில், தென்றல், அந்திப் பொழுதில் பிறை, கமலக் கணை; the contrast of the girl's own voice (என் நெஞ்சம்) with the mother's (எம் பொற்கொடி) is accurately drawn.",
+   "text_issue": null
+  },
+  {
+   "a": 935,
+   "b": 306,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Same claim with the same device: 306 mocks calling misers Pari and Kari (பாரி காரி என்று இசை வாது கூறி), 935 calling sinners equal to the twenty-one ancient patrons (பண்டை மூவெழுவர்க்கு எதிர் கண்ட நீயும்), after its list of honours.",
+   "text_issue": null
+  },
+  {
+   "a": 195,
+   "b": 181,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The womb-to-women life story is a stock arc of the book (also 652, 520, 700); the note is accurate (181 மருமலரினன் துரந்துவிட வினை அருந்த, 195 வயது பதினாறு, கனபொருள் எலாம் இழந்து) but the pairing shares only the formula, not a distinctive image.",
+   "text_issue": null
+  },
+  {
+   "a": 575,
+   "b": "tirumanthiram:122",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both explicitly define Sivayoga (575 உறைவது சிவயோகம்; TM 122 சிவயோகமாவது), with different content, all things abiding as one form versus knowing சித்து அசித்து and becoming one's own light; 575 adds the malas' removal (ஆணவ மாயை கருமமலங்கள் போய்).",
+   "text_issue": null
+  },
+  {
+   "a": 116,
+   "b": 101,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Close shared torments beyond the stock: the moon burning like the sun (116 இரவியென ... மதியும் வர; 101 மிகவானில் இந்து வெயில்காய), Kama's arrows and the blaming women (வசைபேச / வசைகூற), with the plea for the god to come; 101's garland and 116's ஓகார பரி are correctly noted.",
+   "text_issue": null
+  },
+  {
+   "a": 666,
+   "b": 653,
+   "type": "develops",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "Both use the Sambandar-at-Madurai legend as Murugan's deed (653 அமணீசர்கள் கழுவேற வாதில் வென்ற; 666 வழுதி மேல் திருநீறே பூசி, மாற்றெதிர் ... ஏடு ஏறிட), but a fuller retelling of a stock praise legend is not the development of an idea.",
+   "text_issue": null
+  },
+  {
+   "a": 373,
+   "b": 371,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The two songs share the refrain அருணை நகர்மிசை கருணையொடு அருளிய ... இருசரணமும் மறவேனே (373 மவுன வசனமும், 371 பரம ஒருவசனமும), each inside a confession; the note describes them fairly.",
+   "text_issue": null
+  },
+  {
+   "a": 700,
+   "b": "naladiyar:25",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "700's round of plural verbs (முயங்கினர் ... க்ருகபாரம் சுமந்தனர் ... இறந்தனர் சுடும்) and Naladiyar 25's man who sees the corpse yet marries (மணம்கொண்டு ஈண்டு உண்டுண்டுண்டு) both set marriage and household inside the march to the burning ground.",
+   "text_issue": null
+  },
+  {
+   "a": 329,
+   "b": "kural:350",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "329's தவியாத பற்றைப் பெறுவேனோ, set against clinging to food and wealth (இரை தேடி அத்தத்திலும் ஆசை பற்றி), asks for the one clinging that frees from the others, which is Kural 350's பற்றுக பற்றற்றான் பற்றினை; either division of the line supports it.",
+   "text_issue": null
+  },
+  {
+   "a": 1235,
+   "b": "tirumanthiram:155",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both list wife, wealth and house left at the burning ground: TM மதுவூர் குழலியும் மாடும் மனையும் ... புறஞ்சுடுகாடு; 1235 மனையாட்டியும் அடிமையொடு ... பொருளீட்டி ... சுடுகாட்டிடை, with the old rag (பழைய துணி).",
+   "text_issue": "TM 155 line 4 'மதுவூர வாங்கியே' is obscure; 1235's 'அரிடசுடு' looks garbled."
+  },
+  {
+   "a": 602,
+   "b": 2,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both thank Murugan for being told to sing the Thiruppugazh (2 திருப்புகழ் விருப்பமொடு செப்பென எனக்கருள்கை மறவேனே; 602 திருப்புகழைச் ... செப்பென வைத்து ... மறவேனே), and 602 adds its recitation in the four directions.",
+   "text_issue": null
+  },
+  {
+   "a": 446,
+   "b": "naladiyar:48",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The shared image is only carrion vultures (446 கழு நாய் உண்பக் குழிக்கே; Naladiyar 48 வன்கழுகு ... குத்தும்), a commonplace of body-disgust; Naladiyar's distinctive figure, the cart whose axle breaks (முடைச்சாகாடு அச்சிற்றுழி), has no counterpart in 446.",
+   "text_issue": "446's opening (சரக்கேறித் தப்பதி, பரிக்காயம், குரக்கோணம்) is obscure."
+  },
+  {
+   "a": 403,
+   "b": 420,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both keep the feet in mind within the embrace rather than asking to flee it: 403 விடுபோதும் ... பாதபத்மம் என்றும் மறவேனே, 420 புணரினும் நிற்பொற்பதங்கள் நெஞ்சினுள் மறவேனோ; a real and distinctive stance.",
+   "text_issue": null
+  },
+  {
+   "a": 974,
+   "b": 24,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "974 (மாலையில், வாடை, அநங்கன் மலர்) and 24 (அந்தி, தென்றல், அன்றில், பிறை, கமலக் கணை) share only the genre's stock evening torments; the note is accurate but the pairing teaches little beyond the convention.",
+   "text_issue": null
+  },
+  {
+   "a": 1078,
+   "b": "tirumanthiram:1597",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Feet on the head is real in both (1078 அடி ... தலைமேலே பூண்டு; TM திருவடி வைத்தென் சிரத்து), but it is a stock plea in the book, and 1078 names neither guru nor the end of birth (கருவழி வாற்றிட) that gives Tirumular's verse its point; 'the same act of the guru's grace' overstates 1078.",
+   "text_issue": null
+  },
+  {
+   "a": 413,
+   "b": 101,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Kama's five flower arrows and the plea for the god's garland (413 கடம்பமலர் தந்தருளுவாயே; 101 அணிமாலை தந்து) are the stock akam request; the note is accurate, including 413's one night like an age (ஓரிரவு ... பேருகம்), but the shared material is conventional.",
+   "text_issue": null
+  },
+  {
+   "a": 171,
+   "b": 149,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both credit Murugan with Sambandar's victory (171 சிறிய கர பங்கயத்து நீறு ... கழுவேற; 149 கழுக்கள் புக திருநீறு பரப்பிய), accurately noted, but this is stock praise repeated across many songs.",
+   "text_issue": "171's confession lines are partly unclear."
+  },
+  {
+   "a": 160,
+   "b": "tirumanthiram:460",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "160 describes the body formed in the womb (கருவில் உரு ... சுக்கில நிதான வளி ... முக்குண விபாக) and sets turiya as the state of the liberated (துரியநிலையே கண்ட முத்தர்); it does not say, as TM 460 does, that turiya is broken at conception, so 'both place bondage at conception' stretches 160.",
+   "text_issue": null
+  },
+  {
+   "a": 324,
+   "b": 68,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "A specific deathbed scene shared: 324 quotes the kin's squabble over property (எனக்குச் சற்று உனக்குச் சற்று ... பொருள் பொற்றட்டு), 68 has the young sons ask about goods and debts (இளமைந்தர் உடைமை கடன் ஏது).",
+   "text_issue": null
+  },
+  {
+   "a": 797,
+   "b": "naladiyar:371",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Same claim: Naladiyar 371's love that ends when the hand is empty (கையற்ற கண்ணே அறும்) is enacted in 797's பொருள் தீரின் முறுக்கியே உதைகொடு வசையுரைதரு.",
+   "text_issue": null
+  },
+  {
+   "a": 279,
+   "b": "tirumanthiram:318",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "279 confesses reading Vedas and Puranas and mocking the silent knowers as அசடர் மூகர், ending அறிவிலேன் அழிந்திடலாமோ; TM 318 says those who learned without சிவஞானம் are fools (கற்றும் சிவஞானம் இல்லாக் கலதிகள் ... மூடர்கள்).",
+   "text_issue": null
+  },
+  {
+   "a": 422,
+   "b": "naladiyar:48",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The only shared image is carrion birds and beasts on the body (422 நரி கழுகுடன் பருந்து ... புழு உண்டு; Naladiyar 48 வன்கழுகு ... குத்தும்), a commonplace; the cart and axle that make Naladiyar 48 distinctive are absent from 422.",
+   "text_issue": null
+  },
+  {
+   "a": 846,
+   "b": "naladiyar:371",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Naladiyar 371 says the courtesan's love ends with the money; 846 deepens it, that no sum satisfies (தனம் ஆயிரமாயிரம் முலைக்கு அளப்பினும் ஆசை பொதாதென வெறுப்பர்).",
+   "text_issue": null
+  },
+  {
+   "a": 257,
+   "b": "tirumanthiram:1535",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both fault the six sects for failing to end birth: 257 சட்சமய ப்ரமத்தர் ... கருவிற் புகப் பகுத்து உழல்வானேன், TM 1535 ஆறு சமயமும் ... மண்ணின்று ஒழியும் வகையறியார்.",
+   "text_issue": "TM 1535 'முண்ணின் றழியு' looks corrupt (perhaps உண்ணின்று)."
+  },
+  {
+   "a": 94,
+   "b": "tirumanthiram:335",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Close shared yogic image: TM 335 யோகிகள் கால்கட்டி ஒண்மதி ஆனந்தப் போத அமுதை, 94 வாசி அனலூடு போய் ... மதிமீதில் ஊறும் கலா இன்ப அமுதூறல்; the contrasts (liquor; மோக போகம்) are correctly drawn.",
+   "text_issue": null
+  },
+  {
+   "a": 671,
+   "b": "tirumanthiram:252",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The same measure of dharma: TM 252 உண்ணும்போது ஒரு கைப்பிடி, possible for all, and 671's confession பசியில் வருமவர்க்கு அசனம் ஒருபிடி படையாதே within தரும நெறி.",
+   "text_issue": null
+  },
+  {
+   "a": 461,
+   "b": 456,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both carry the courtesan song to the diseases it leaves (461 புண் பிடித்து ... கண்டவர்க்குக் கண் புதைப்ப; 456 சீ புழு ... புண்குட ... மன்பதி புகுந்து), accurately described, but this is a stock complaint of the book and the pairing teaches little more.",
+   "text_issue": null
+  },
+  {
+   "a": 54,
+   "b": "kural:350",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "54's நின் பற்று அடைவேனோ, after confessing attachment to women, asks precisely for Kural 350's பற்றற்றான் பற்று as the cure for other clinging.",
+   "text_issue": null
+  },
+  {
+   "a": 1092,
+   "b": "kural:1061",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Kural 1061's point is not to ask even glad givers (கரவாது உவந்தீயும் ... கண்ணும் இரவாமை); 1092's patrons are misers who give nothing (தினையளவுளவும் ஈயா), so it does not develop the Kural's distinctive claim, only the general shame of begging.",
+   "text_issue": null
+  },
+  {
+   "a": 1323,
+   "b": 1092,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both confess poetic craft spent on wealth (1323 கலைபல நூல்கள் ... கவிபாடித் தெருவழி போகி பொருளெனும் ஆசை; 1092 patrons' names sung), but 1323 has no patrons and this is a recurring generic confession of the book.",
+   "text_issue": null
+  },
+  {
+   "a": 1025,
+   "b": 1027,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The two share the refrain மேலசுரரிட்ட தேவர்சிறை வெட்டி மீளவிடுவித்த பெருமாளே and the humoral disease list (வாதம், பித்தம்); 1027 extends 1025's plea at death into a catalogue and asks for முத்தி நீடிய பதம்.",
+   "text_issue": null
+  },
+  {
+   "a": 589,
+   "b": "kural:1066",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "589's begging songs (இரந்தேற்று ... ஒதுங்காப் பொதுங்காப் பதுங்காப் புகன்று) show the degradation that Kural 1066 locates in the begging tongue (நாவிற்கு இரவின் இளிவந்ததில்); 'such a tongue' slightly embellishes 589 but the agreement is real.",
+   "text_issue": null
+  },
+  {
+   "a": 868,
+   "b": "naladiyar:13",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "868 has teeth falling and a shaking stick (வெண்பல் அடைய விழுந்து, தடிகை நடுங்க) but no failing speech, and its theme is bodily decay and household scorn, not Naladiyar 13's desire that outlives the body (காம நெறிபடரும் கண்ணினார்); shared only the stock picture of old age.",
+   "text_issue": null
+  },
+  {
+   "a": 783,
+   "b": "tirumanthiram:1958",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "783's plea (மூலாதாரமொடு ஏற்றி அங்கியை ... சந்திர வாகு ஆர் தேனமுது ஊட்டி) is the same root-fire-to-moon-nectar ascent as Tirumular's மூலத்து ... அங்கியனாலே ... சந்திரன் சார்புறத் தண்ணமுதாமே, and 783 asks for it as Murugan's gift (ஊட்டி ... ஆள்வாய்).",
+   "text_issue": "783 has corrupt glyphs (§வ்ளுர்) and several hard-to-divide runs in the first half."
+  },
+  {
+   "a": 286,
+   "b": 24,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Kama's lotus arrow (புண்டரிகக் கணை / கமலக் கணை), the south wind and the moon are the stock tormentors of akam love-sickness; the shared use is genre machinery, though the note describes both songs fairly.",
+   "text_issue": null
+  },
+  {
+   "a": 76,
+   "b": 69,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "69 lists தூது, நான்மணிமாலை, கோவை, உலா, மடல் as wares sold at patrons' doors; 76 lists மடல், பரணி, கோவை, கலம்பகம் as honours and asks that the pride (மால் அகந்தை) go. A real development of the poet's-trade confession; small slip: உலா is not in 76's list.",
+   "text_issue": null
+  },
+  {
+   "a": 1291,
+   "b": 1285,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The two songs share the frame line for line (மதவேள் கைக் கணையாலே / நீலக் கடலாலே / சோலைக் குயிலாலே / மானைத் தழுவாயே) with only the epithets changed, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 510,
+   "b": "naladiyar:48",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both picture the body as carrion, but 510's eaters are ghoul, dog and fly (பேய்க்கும் நாய்க்கும் ஈக்கும் இரையாகும்) while the Naladiyar's vultures tear the cart to shame those who praise sandal and garlands, a point 510 lacks; a shared stock image.",
+   "text_issue": null
+  },
+  {
+   "a": 412,
+   "b": "naladiyar:13",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "Both have the staff and failing old body (தடி கொண்டு குரங்கென; கோல் ஊன்றி), but NL 13 faults desire that outlives the body, while 412's old man is past desire and scorned by kin (சீசீ ... நற்சனியன்); this is a shared old-age picture, not a development.",
+   "text_issue": null
+  },
+  {
+   "a": 73,
+   "b": "kural:918",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Kural 918's மாய மகளிர் முயக்கு as அணங்கு finds a literal form in 73's love-pellets ground with cane juice and the thing hidden in the betel (கருப்பஞ் சாறொடு அரைத்துள உண்டைகள், வெற்றிலையின் புறம் ஒளித்து), deceit that bewitches.",
+   "text_issue": "73's opening phrase is hard to divide."
+  },
+  {
+   "a": 913,
+   "b": 920,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both praises tell Sambandar's victory credited to Murugan: 913 பிரமாபுரம் வாழ் கவுணியர், அனல் ... ஏடு, தெற்கு நரபதி திருநீறிட; 920 ஏடு நீர்க்கு எதிர், இரு நாலாயிர சமண் கழு, கூன் நிமிர் இறையோன். The note is accurate.",
+   "text_issue": "913 has garbled glyphs in the last line (வயலு¡ ரியலு¡ர்); 920 has ஞான தீக்ஷ¢த, பூவா ளுருறை."
+  },
+  {
+   "a": 362,
+   "b": "naladiyar:46",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "362's inventory (குருதி புலால் என்பு தோல் நரம்புகள் ... குடர் நிணம்) closely matches NL 46's குடர் கொழு குருதி என்பு நரம்பு தோல், and the note correctly distinguishes the uses (the hut where the ஐம்புலன் run wild vs. dissolving the beloved).",
+   "text_issue": null
+  },
+  {
+   "a": 239,
+   "b": 23,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both set giving against the funeral: 23 asks whether the heart will not share even a split kunri seed (குன்றிப் பிளவளவு ... பகிராதோ) before சமனோலை; 239 confesses refusing food to the hungry (பகிர்தற்கு இசையாதே) before தமர் சுற்றி அழ. 'Resolves' slightly overstates 23's question.",
+   "text_issue": null
+  },
+  {
+   "a": 1112,
+   "b": "tirumanthiram:154",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The distinctive count முப்பதும் ஆறாறும் முப்பதும் in 1112 matches Tirumular's முப்பதும் முப்பதும் முப்பத்தறுவரும், and 1112 places the goal வேறான, beyond them; 'before death' is the note's gloss.",
+   "text_issue": "1112 line 5 has a corrupt word (வா஡ணச, probably வாரிச)."
+  },
+  {
+   "a": 870,
+   "b": 855,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "855 vows to hold the feet in mind even amid union (கலவி ... விளையாடினும் ... பரிவுளங்கொள்வேனே); 870 asks the same in union, sleep and speech (கலவிதனில் மூழ்கி ... துயிலுகினும் யாரோடு பேசுகினும்). Same claim, fairly described.",
+   "text_issue": "870 has a garbled glyph (§ல்முழ்கி); 855 has புண்டா£கம்."
+  },
+  {
+   "a": 157,
+   "b": "naladiyar:24",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Funeral drums and burning (சிறுபறை முரசு துடி ... கனலை இட்டுக் கொளுத்து) are shared, but 157 has no covering of the body and nothing of NL 24's three beats or 'the dying carry the dead'; a stock funeral scene.",
+   "text_issue": null
+  },
+  {
+   "a": 785,
+   "b": "naladiyar:48",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "785's corpse as packed meal hailed by vultures and crows (பொதி சோறு என கழுகு காகம் போற்றி நமக்கிரையாம்) after adorning the body as if Kama (மதனாம் என) matches NL 48's vultures and its rebuke of those who praise sandal and garlands.",
+   "text_issue": "785's sense is flagged uncertain; several phrases are hard to divide."
+  },
+  {
+   "a": 1110,
+   "b": "tirumanthiram:157",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both follow the funeral to the mourners' plunge into water (அலைநீரிற் புக்கு முழுகா நீடு துக்கமது போய்; நீர்த்தலை மூழ்குவர் நீதியிலோரே), a distinctive shared detail; 'who forget once bathed' is a slight gloss on Tirumular.",
+   "text_issue": null
+  },
+  {
+   "a": 738,
+   "b": 722,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "738 asks for the company of those who think of Murugan (உனை நினைபவர் துணைகொள) so as not to drown in the sea of seven births; 722 asks to be among the throng of servants (உனதடிமைத் திரள் அதனினும் உட்பட) and stop wandering through births.",
+   "text_issue": null
+  },
+  {
+   "a": 1004,
+   "b": 979,
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "979 longs to leave praise-poetry for சரியை கிரியை; 1004 counts those who call சரியை கிரியைகள் தவம் among the சவலை அறிவினர் whose path he would leave for அநுபூதி. The note's reading as stages is defensible and the pairing is instructive.",
+   "text_issue": null
+  },
+  {
+   "a": 1325,
+   "b": "tirumanthiram:151",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The physician's verdict in 1325 (பரிகாரி வரவொன்றும் பலியாது) matches Tirumular only if கைவிட்டு நாடி is read as the physician letting go the pulse; and the wife who stays behind (மையிட்ட கண்ணாளும் மாடும் இருக்க) differs from 1325's wailing wives. A shared deathbed rather than a shared image.",
+   "text_issue": "1325 has a broken line marker (....... ;) before யல்தோகை."
+  },
+  {
+   "a": 428,
+   "b": "kural:280",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "428's தலையை மழித்து ... சடையை வளர்த்து echoes Kural 280's மழித்தலும் நீட்டலும, and its கனகம் இயற்றித் திரிந்து is the condemned conduct kept beneath the marks, making 428 a confession of exactly what the Kural dismisses.",
+   "text_issue": null
+  },
+  {
+   "a": 388,
+   "b": 376,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Wife and sons weeping as Yama comes (மாதும் எழில்புதல்வரும் நின்றழுது; கணவ கெட்டேன் ... புதல்வர் அப்பா) is the stock death-bed of the book; the shared image is generic.",
+   "text_issue": "388's opening (இரவியு மதியுந் தெரிவுற எழுமம் புவி) is of uncertain sense."
+  },
+  {
+   "a": 58,
+   "b": 57,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both Senthil songs pair a catalogue of women with a praise built as a chain of -க்கார epithets (இந்த்ரபுரி காவல் முதன்மைக்கார ...; சித்ரவடி வேல் பனிருகைக்கார ...), a distinctive shared form.",
+   "text_issue": null
+  },
+  {
+   "a": 1167,
+   "b": "kural:335",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1167 asks to do fruitful dharma (பயன்கொள் தருமம் புரிந்து) before the day the wife spits and life slips away; Kural 335 says good deeds must be rushed before the hiccup stops the tongue. Same claim, both anchored in the body's failing.",
+   "text_issue": "1167 has a garbled glyph (ருத஧முழ்க)."
+  },
+  {
+   "a": 172,
+   "b": "kural:912",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "172's women take everything 'with great friendship' (மெத்தவும் நட்பொடு பறித்து) and Kural 912's women weigh the gain and speak of their virtue; a real but generic courtesan-greed agreement, and 172 does not show the pretence 'from inside'.",
+   "text_issue": null
+  },
+  {
+   "a": 481,
+   "b": "naladiyar:374",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "481's women with hearts dry as cane waste think only whose wealth it will be (ஆலைக் கோதினில் ஈரமிலா மனம் ... ஆருக்கே பொருளாம்), matching NL 374's loveless hearts (ஆணமில் நெஞ்சு) to whom any man with wealth is sugar.",
+   "text_issue": null
+  },
+  {
+   "a": 370,
+   "b": "kural:919",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "370's வரைவில் அரிவையர் who sell their love (விலைகூறும்) and the sea of pleasure the poet tosses in echo Kural 919's வரைவிலா மாணிழையார் and the mire in which the base sink (ஆழும் அளறு), and 370 sets a second sea, மவுன சிவசுக சலதி, against it.",
+   "text_issue": null
+  },
+  {
+   "a": 1154,
+   "b": "naladiyar:371",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "NL 371's love ending when the hand is empty (கையற்ற கண்ணே அறும்) is matched in 1154 by கையிலுள பொருள்கெட்டு ... அனைவரும் விடு சிச்சியென, the same hand and the same dismissal.",
+   "text_issue": null
+  },
+  {
+   "a": 978,
+   "b": "naladiyar:21",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both take the death of kings as the proof: 978's sword-armed kings' great life goes to the burning ground in a moment (மாத்திரைப் போதில் இடுகாட்டினில் போம்); NL 21's umbrella-shaded kings are carried off and none remain.",
+   "text_issue": "978's last plea lines are hard to divide."
+  },
+  {
+   "a": 512,
+   "b": "naladiyar:24",
+   "type": "same_image",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "Beyond the drums (பொற்பறை கொட்ட) and the burning ground, 512's long courtesan-to-funeral song shares nothing with NL 24's three beats and 'the dying carry the dead'; 'both make the funeral a lesson' is a shared topic only.",
+   "text_issue": null
+  },
+  {
+   "a": 64,
+   "b": 24,
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "64 scorns those who sing a girl burnt by Kama's arrow, the southern breeze and the crescent (மதனேவில் ... தென்றல் ... பிறை) and do not know to speak of Thiruchendur; 24 uses those very devices for a girl in love with the Senthil lord. The note's qualification is apt.",
+   "text_issue": null
+  },
+  {
+   "a": 409,
+   "b": 2,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The Ganapati food lists overlap (கடலை எள் பயறு கதலி; பருப்பு எள் ... பயறு ... கடலை), but this is a stock offering formula, and the note misplaces 2's order: the call to sing comes before the list, not after it.",
+   "text_issue": "2 has a corrupt word in the offering list (தன஧முலம்)."
+  },
+  {
+   "a": 426,
+   "b": 104,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both credit Murugan with Sambandar's victory: 426 the Goddess's milk (இளமுலையின் செழும்பால்) and the Jains of Koodal on the stakes; 104 Pugali, the Madurai king's fever cured (மதுரைமன் வெப்பாற) and the Jains impaled (கழுவேற).",
+   "text_issue": null
+  },
+  {
+   "a": 296,
+   "b": "naladiyar:11",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "296 asks for entry into the supreme light even when hair greys (முருகநரை பெருக) and the body ripens and falls, which implicitly softens NL 11's verdict on the late; but the note does not say what is qualified, and the link rests on the shared grey hair.",
+   "text_issue": null
+  },
+  {
+   "a": 1215,
+   "b": 23,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Yama's palm-leaf summons (சமனோலை; ஓலை காட்டி யமபடர்) with drums and wailing kin is the book's stock death scene; the note is accurate but the shared image is generic.",
+   "text_issue": null
+  },
+  {
+   "a": 298,
+   "b": "tirumanthiram:144",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Tirumular says the women and children who ate from the house do not follow (பெண்டிரும் மக்களும் பின்செலார்); 298 asks that wife, children, mother and goods become alien (அறிவயலாக) before the buffalo comes. Same claim, fairly put.",
+   "text_issue": null
+  },
+  {
+   "a": 331,
+   "b": 310,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "331's தருவோர் தாள் அர்ச்சித்து (worshipping the feet of patrons who give) is the confession 310 tells at length (கற்பகம் ஒப்பு, குமணன் என ஒப்பிட்டு), both at Kanchi.",
+   "text_issue": "331's doubled syllables make the first lines' division uncertain."
+  },
+  {
+   "a": 967,
+   "b": 6,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "967 rebuilds 6 phrase by phrase (முத்து ... முக்கண் இறை ... முப்பது மூவர்க்க சுரர் ... பத்து முடி தத்தும் கணை ... பச்சை நிற புயல் ... ரதம்) and names the treasure as பத்தர் மனதுற்ற சிவம், where 6 leaves மெச்சத் தகு பொருள் open.",
+   "text_issue": null
+  },
+  {
+   "a": 239,
+   "b": "kural:1005",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "239 refused to share food (பகிர்தற்கு இசையாதே) but kept wealth for his hands and youth (கைக்கு இளமைக்கு என வைத்து), so he is not the Kural's man who neither gives nor enjoys; the giving theme is real but 'such a man' overstates.",
+   "text_issue": null
+  },
+  {
+   "a": 38,
+   "b": "naladiyar:24",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "38's drums sounding in order (பெரும்பறைகள் முறையோடே) and the bier carried come near NL 24's beats and bearers, but 'leaving it on the road' is a doubtful reading of வழி விட்டு வரு மித்தை, and the funeral scene is stock.",
+   "text_issue": null
+  },
+  {
+   "a": 750,
+   "b": "naladiyar:374",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "750's women who snatch wealth from those they kiss (பலர் வாயிதழ் சேர் பொருள் பறிப்பார்) share only the generic money motive with NL 374, whose point, that wealth erases even an oil-presser's rank, is absent.",
+   "text_issue": null
+  },
+  {
+   "a": 180,
+   "b": "kural:911",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "180 shows the sequence Kural 911 warns of: sweet talk and trust, then the wealth snatched (எந்தளவும் இனிதாக நம்பு தந்து பொருள் தனையே பிடுங்கி), with the Lord's அன்புடைமை asked for in its place.",
+   "text_issue": null
+  },
+  {
+   "a": 609,
+   "b": "kural:920",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "609 asks whether relation (உறவாமோ) with a list opening சூதுகொலைகாரர் ஆசைபண மாதர் is fit, which overlaps the Kural's women and dice (கவறு) as ruinous company; but சூது may be 'deceitful' describing the women rather than gamblers, there is no liquor, and the shared point is a stock warning.",
+   "text_issue": null
+  },
+  {
+   "a": 394,
+   "b": 369,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "394's மோன முத்திரை that the கோலாகலச் சமய மாபாதகர் cannot know matches 369's reality கருத அரியது to the கலக விபரித வெகுபர சமயிகள், and both set a silent or melting knowledge against sectarian noise.",
+   "text_issue": "394 line 1 garbled (தொழுத்மு டூடு, கடலு஡டுற்)."
+  },
+  {
+   "a": 441,
+   "b": 243,
+   "type": "develops",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "The disease lists really overlap (களமாலை, பெருவயிறு, ஈளை, சூலை, நீரிழிவு/நீரிழிச்சல்), and 441 asks for சிவஞான சித்தி and to praise the Thiruppugazh while 243 asks to be spared in பிறவிகள் தோறும்; but a shared stock catalogue with different pleas is not one song developing the other.",
+   "text_issue": null
+  },
+  {
+   "a": 243,
+   "b": 232,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both open with disease catalogues (சூலை, களமாலை/கண்டமாலை, வாதம்), and 232 does tie them to women (மாதர்தரு பூஷணங்கள்) and sin (பாதகவியாதி); accurate but a stock complaint that teaches little.",
+   "text_issue": "232 has a corrupt word in line 12 (வெற஧முடி)."
+  },
+  {
+   "a": 428,
+   "b": "tirumanthiram:1660",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "428 confesses the full ascetic garb (தலையை மழித்து, சடையை வளர்த்து, திருநீறு) worn while கனகம் இயற்றித் திரிந்து and penance known only as a word, matching Tirumular's பொய்வேடம் worn for போசித்தல்; the note fairly marks the confession versus the doctrine.",
+   "text_issue": null
+  },
+  {
+   "a": 23,
+   "b": "kural:322",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "23's பங்கிட்டு உண்கை (sharing even a kunri-seed or millet grain) is the Kural's பகுத்துண்டு, and the motive is fear of the summons (நெஞ்சத்து அஞ்சிப் பகிராதோ), as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 110,
+   "b": 9,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both run the life-cycle formula (மதலை, தவழ்ந்து, to youth and women; 9 from கருவடைந்து to பிணியுழன்று, 110 to பதினாறாய்), and the note's details are accurate, but it is a stock Thiruppugazh sequence and the pairing teaches little.",
+   "text_issue": null
+  },
+  {
+   "a": 730,
+   "b": "kural:915",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "730's பொதுவிகள் and பொருளளவு ஆசைப்பாடிகள் answer the Kural's பொதுநலத்தார் புன்னலம்; the Kural's sage does not plunge in (தோயார) while 730 confesses perishing in their power (வசமழிவேன்).",
+   "text_issue": null
+  },
+  {
+   "a": 1194,
+   "b": "naladiyar:13",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "The decay images match (மொழி தளர்ந்தது / சொல்தளர்ந்து, வாய்ப்பல் உதிர்ந்தது / பல்கழன்று), but the Naladiyar's point is desire that outlives the body (காம நெறிபடரும் கண்ணினார்), which 1194 does not take up, so it shares the picture rather than developing the idea.",
+   "text_issue": null
+  },
+  {
+   "a": 643,
+   "b": "tirumanthiram:1513",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "643 seeks the துகளில் சாயுச்சியக் கதி above துரியம் and beyond chariyai, kiriyai and yoga, and Tirumular defines சாயுச்சியம் as reaching சாக்கிராதீதம்; the same technical goal is placed beyond the ordinary states in both.",
+   "text_issue": "643 has a garble, சுகசெர்ருபத்தை for சுகசொரூபத்தை."
+  },
+  {
+   "a": 1221,
+   "b": "tirumanthiram:1507",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "1221 only names சாலோக, சாமீப, சாரூப தொண்டர் in its closing epithet and makes no claim that could agree with Tirumular's scheme; 'stopping short of sayujyam' reads meaning into an absence, so it is a shared technical triad, not agreement.",
+   "text_issue": "1221 line 10 garbled (அ ளுறித்) and சர்ருப for சாரூப."
+  },
+  {
+   "a": 535,
+   "b": 124,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "535's one clear line (சமயமாறின் ... வல்லர்க்கர் மூர்க்கர் கல்விக் கலாத்து அலையலாமோ) does echo 124's மதவிசாரர் who cannot know one another, but rejecting sect-wranglers is a stock theme and 535's surrounding text is too dense to support more.",
+   "text_issue": "535 is dense rhythmic text whose word division is largely conjectural."
+  },
+  {
+   "a": 1307,
+   "b": "kural:1",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1307's அகரமுமாகி ... அவர்மேலாய் takes the Kural's opening figure (அகர முதல எழுத்தெல்லாம் ஆதி பகவன்) and makes Murugan the letter itself; a distinctive and meaningful shared image.",
+   "text_issue": null
+  },
+  {
+   "a": 666,
+   "b": "naladiyar:373",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "666's ஈவார் நேர்படில் ரசனை காட்டிகள், ஈயார் கூடினும் அகல ஓட்டிகள் is the Naladiyar's women who send away even Mal when கொடுப்பதொன்றில்லாரை; the same claim, stated plainly.",
+   "text_issue": "666 has two corrupt glyphs (ஊறல்கள், வேலூர்)."
+  },
+  {
+   "a": 221,
+   "b": 24,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both are akam laments for a lovesick girl with Kama's arrows (மதன் கணையாலே / கமலக் கணையாலே) and the evening moon (மதியாலே / பிறையாலே), and 221 does add the street's taunts (மடவார் ... வசையாலே); accurate but the shared machinery is stock.",
+   "text_issue": null
+  },
+  {
+   "a": 605,
+   "b": 8,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "8 asks Murugan to come on the peacock when Death's men (மறலிதன் உழையினர்) strike; 605 reverses the hour, the servant fighting so that கொடிய மறலியும் அவனது கடகமும் மடிய with grace and asking him to come and watch (அமர் காண), a real development.",
+   "text_issue": null
+  },
+  {
+   "a": 190,
+   "b": 27,
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "27 asks to see how the embrace may end (முயங்குதல் ஒழியுமாறு தெளிந்து) and be given the feet; 190 describes the same bed and says அமளி ... மலரணையின் மிசை துயிலுகினும் ... மலரடியை மறவேனே, so remembrance is allowed inside desire; the note marks its reading as a vow.",
+   "text_issue": null
+  },
+  {
+   "a": 786,
+   "b": "tirumanthiram:345",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both are Kadavur texts and both give the breath-and-fire ascent: 786's சர்ப்ப வாயுவை விடாது அடக்கி, burning darkness in fire (அழலூடு எரித்து) and மேலைவெளி, and Tirumular's root fire raised to the மேலைத் துவாரம் with கால் burning காலன்; 786's praise has காலனொடு மேதி மட்க.",
+   "text_issue": "786 has a corrupt glyph (அழ லு¡டெ)."
+  },
+  {
+   "a": 12,
+   "b": 6,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The note is accurate (6: முக்கட் பரமற்குச் சுருதியின் முற்பட்டது கற்பித்து; 12: Brahma struck and போதவளம் சிவசங்கரன் கொண்டிட மொழிவோனே), but Murugan teaching Siva is a recurring stock epithet of the book, and the pairing teaches little.",
+   "text_issue": "12 has one corrupt glyph in the praise."
+  },
+  {
+   "a": 647,
+   "b": "kural:1228",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "647's வெதிரில் ஆயர் வாயில் வைத்து மதுர ராகம் among the evening torments (கடல், நிலவு) of a lovesick girl is the Kural's ஆயன் குழல் as a killing weapon of the burning evening; a distinctive shared image.",
+   "text_issue": null
+  },
+  {
+   "a": 988,
+   "b": 974,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "Both are akam pleas for a girl burned by Kama's arrows and evening (988 கணையாலே, பிறையாலே; 974 மாலை, மலர், வாடை) asking Murugan to come, but this is shared genre machinery, not a claim, and 988's text is hard to divide.",
+   "text_issue": "988's tight syllables are hard to divide; reading is conjectural."
+  },
+  {
+   "a": 578,
+   "b": "kural:1085",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "578's eye-corners as வேலின் முனைகடை யமதூதர் match the Kural's கூற்றமோ கண்ணோ; and 578 is indeed thanks for a rescue (ஈடேற்றுதலால் உன் வலிமையை மறவேனே), as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 1054,
+   "b": 1049,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both end with பரம ஞான வீடேது புகல்வாயே; 1049 defines the abode by negations (பருதி காயில் வாடாது ...) and 1054 sets it against the rotting body and the நாடக ஆசார கிரியையாளர், as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 23,
+   "b": "naladiyar:25",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both hear the funeral drum over wailing kin (பறை திமிலை ... உறவினர் அலற; சுற்றத்தார் கல்லென்று அலற ... பறை), even with drum onomatopoeia (டுடுடுடு / டொண்டொண்டொ); the different lessons are accurately stated.",
+   "text_issue": null
+  },
+  {
+   "a": 1140,
+   "b": "tirumanthiram:157",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The wailing kin are shared (உறவின்முறை கதறியழ / ஆர்த்தெழு சுற்றமும்), but 1140 never says the dead man is left alone; 'so that he is not left alone' is the note's construction, and the funeral scene is stock.",
+   "text_issue": null
+  },
+  {
+   "a": 558,
+   "b": "tirumanthiram:198",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "Both show Yama's servants binding (கட்டி இறுக்கி / வலிக்கயிற்றால் கட்டி) and fire (அனலூடே / தீவாய் நரகு), but 558 makes no claim about whom they punish, so this is shared hell imagery, not agreement.",
+   "text_issue": "558 has the corrupt glyph ஡ in அனலு஡டே."
+  },
+  {
+   "a": 1094,
+   "b": "tirumanthiram:1530",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1094's பரசமயம் ஒருகோடி குருடர் தெரிவரியது ஒரு பொருள் and Tirumular's அறுசமயங்களும் ... கடவுளைக் காண்கிலர் make the same claim that the sects are blind to the one God.",
+   "text_issue": null
+  },
+  {
+   "a": 91,
+   "b": 69,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "91's தமிழ் மாலை கோடிக் கோடி ... முஞ்சர் மனை வாசல் தேடித் தேடி and 69's prabandhas at தோமுறு காளையர் வாசல்தொறும் confess the same sold poetry, and 91's praise does name Murugan செந்தமிழ்சொல் பாவின் மாலைக் கார.",
+   "text_issue": null
+  },
+  {
+   "a": 164,
+   "b": 24,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The note is accurate: same short metre, Kama's bow, sea or south wind, evening, and both name Murugan who spoke a word to Siva (பரமற்கு ஒருசொல் பகர்வோனே / ஒன்றைத் தெரியக் ... பகர்வோனே); but it is the stock akam lament and recurring epithet, so the pairing teaches little.",
+   "text_issue": null
+  },
+  {
+   "a": 373,
+   "b": "kural:912",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "373's மனது திரவியம் அளவளவு அளவியர் and முதலும் உயிர்களும் அளவிடு களவியர் share the Kural's figure of the courtesan who weighs (பயன்தூக்கி).",
+   "text_issue": null
+  },
+  {
+   "a": 487,
+   "b": "tirumanthiram:154",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "487's தொணுறாறு தத்துவர்கள் உண்ட காயம் and Tirumular's முப்பதும் முப்பதும் முப்பத்தறுவர் dwelling in the walled temple both personify the ninety-six as occupants of the body, and the note fairly marks consumption versus desertion.",
+   "text_issue": "487 has the corrupt glyph ஡ in லு஡சல்."
+  },
+  {
+   "a": 1125,
+   "b": "naladiyar:78",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The Naladiyar forbids telling one's need to பண்பிலார்; 1125 confesses going to அன்பிலர், வன்கணர் and praising them as gods to live on what they give (அவர்தர உளது கொண்டு), and asks that it stop.",
+   "text_issue": null
+  },
+  {
+   "a": 756,
+   "b": "tirumanthiram:176",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "756 does ask that காலன் அணுகா and confesses உனது அன்பிலாமல், but the agreement depends on the uncertain construal of Tirumular's last two lines (நமன் தூதர் சுடும்பரிசத்தையும் சூழகிலாரே), and the hour-of-death plea is stock.",
+   "text_issue": null
+  },
+  {
+   "a": 827,
+   "b": "kural:1067",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "827 confesses flattering வெறிகொள் உலுத்தர் to end his poverty (மிடிதீர) before turning to the feet, the very begging from கரப்பார் that the Kural forbids.",
+   "text_issue": "827 has a corrupt glyph in ரக்ஷ¢க்."
+  },
+  {
+   "a": 959,
+   "b": "kural:913",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "959's பணத்தை நோக்குவர் பிணமது தழுவுவர் shares the Kural's ஏதில் பிணம் தழீஇ; the note's 'opposite directions' holds on Pope's reading, though Parimelazhagar's reading makes the woman the embracer in both.",
+   "text_issue": null
+  },
+  {
+   "a": 33,
+   "b": "naladiyar:371",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "33's வருபொருள் அளவில் உருக்கி ... வனைமனை புகுதில் அடித்துப் போக்கவும் is the Naladiyar's love that ends கையற்ற கண்ணே like a lamp without oil.",
+   "text_issue": "33 has a garbled word in the praise (மண்டுநநருர்)."
+  },
+  {
+   "a": 874,
+   "b": "tirumanthiram:252",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "874's ஒருமலர் இலைகொடும் ... தாடொழ and Tirumular's இறைவற்கு ஒரு பச்சிலை both make the smallest offering enough.",
+   "text_issue": null
+  },
+  {
+   "a": 1246,
+   "b": "tirumanthiram:1556",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1246 sets the one cause known by அநுபூதி, reached by those who said அலமலம் to சமய வெகு ரூபம், against endless scripture; Tirumular's sectarians stuck in நீங்காச் சமயம் never gain ஆங்காரமற்ற அனுபவம். The note fairly states both.",
+   "text_issue": null
+  },
+  {
+   "a": 934,
+   "b": 24,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Accurate (934's moon, wind, குயில், குழல் தனி ஓசை and அணைவாயே; 24's அன்றில், தென்றல், பிறை), but this is the stock akam lament shared by many songs, and the pairing teaches little.",
+   "text_issue": null
+  },
+  {
+   "a": 1146,
+   "b": "tirumanthiram:537",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "Both send those who scorn devotees to hell (ஈசர் விஷ்ணுவை சேவைசெய்வோர்தமை இகழ்வோர்கள் ... ஏழ்நரகு; ஆண்டான் அடியரை வேண்டாது பேசினோர் ... தாழ்நரகு), but naming Vishnu's devotees too widens the claim rather than limiting it, and Tirumular's ஆண்டான் is not named as Siva.",
+   "text_issue": null
+  },
+  {
+   "a": 1181,
+   "b": 1180,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both close with the south wind and Kama's arrows tormenting Murugan until he goes to Valli's millet field (1181 வீசு தென்றலும் வேள்பூவாளியும் ... காமவிடாய் கெடும்படி காவாய் ஆவியை; 1180 வீசிய தென்றலொடு ... அநங்கனும் பொர வேடை எனும்படி சிந்தை நொந்திட); both even open on பூசல். The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 1292,
+   "b": "kural:346",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "யான் எனது அற்றிடு போதம் in 1292 names exactly the யான் எனது of Kural 346, and the contrast between the gift asked for and the cutting achieved holds.",
+   "text_issue": null
+  },
+  {
+   "a": 1117,
+   "b": "tirumanthiram:157",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "1117's kin stand round (சுற்றா நிற்பார்) and speak (ஒட்டோம் விட்டுக் கழியீர், uncertain); the text doesn't show them turning back as TM 157's mourners do at ஊர்த்துறை. The real overlap is the stock theme that kin fail at death, and 'who is kin then' (அக்காலத்துக்கு உறவார்) has no counterpart in the Tirumanthiram.",
+   "text_issue": null
+  },
+  {
+   "a": 564,
+   "b": 558,
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The ledger detail in 564 (கணக்குக் கட்டு விரித்துத் தொகைக்குட் பட்ட இலக்கப் படிக்குத் தக்கபடியே) is real, but both songs just draw on the stock hell-torture list of Yama's men. Calling 564 a development of 558 overstates a shared genre theme.",
+   "text_issue": "558 has corrupt glyph in அனலு஡டே; 564's opening splits are uncertain."
+  },
+  {
+   "a": 374,
+   "b": "kural:1083",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The Kural's lover finds Death (கூற்று) in a woman's eyes. 374 makes the same identification literal and systematic, with the breasts as கொலை யமன் and the pearls as யமன் விடு கயிறு, and turns it into renunciation. The note is fair, though in 374 the eyes are fire-dipped arrows rather than Yama.",
+   "text_issue": null
+  },
+  {
+   "a": 541,
+   "b": "naladiyar:13",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Naladiyar 13's toothless man on his staff still has காம நெறிபடரும் கண் and stays இல்செறிந்து. 541 clings to பாலர் பொன் until நரை முதிர்வு and asks for grace before எமக்கயிறு. The claim is the same, attachment outliving the body, and the note describes both fairly.",
+   "text_issue": null
+  },
+  {
+   "a": 718,
+   "b": "kural:10",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "உபய அம்புயப் புணை (the feet as a raft) does recall the Kural's crossing, but 718 never names the sea of births (பிறவிப் பெருங்கடல்). The note's contrast with the 'leaking body' as a rival raft is not in the text, where the body is a hut (குரம்பை). The connection is real but generic.",
+   "text_issue": "718: உதிதாம்பரத்தை line obscure."
+  },
+  {
+   "a": 520,
+   "b": 508,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both open the life with the same simile (பனியின் விந்துளி போலவே / பனிபோலத் துளி), then go head down (தலைகீழதாய் / தலைகீழாய்) to the crawling infant. The note is accurate about where each song goes next.",
+   "text_issue": null
+  },
+  {
+   "a": 104,
+   "b": 17,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both give Murugan Sambandar's impaling of the Jains (17 வன்சமணரைப் பெருந்திண்கழு மிசைக்கிடும் செந்தமிழ் அங்கவாயா). 104 adds the Madurai king's fever (மதுரைமன் வெப்பாற), the ash (பொடி) and புகலி, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 508,
+   "b": 9,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both use the stock womb-to-women life narrative (பதின்மாதத்திடை / பத்துற்ற திங்கள்), with no distinctive shared image. The note also overstates 9: it asks for க்ருபைச் சித்தம், not release from the cycle.",
+   "text_issue": null
+  },
+  {
+   "a": 843,
+   "b": "tirumanthiram:2125",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both list bodily substances, a generic device. 843's list is இரத்தம், சீ, மூளை, எலும்பு, தசை, குடல், நாடி, with no fat (மேதை) as the note claims. The note's 'must watch rot' is also loose.",
+   "text_issue": null
+  },
+  {
+   "a": 603,
+   "b": "naladiyar:27",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "புற்புதம் in 603 and படுமழை மொக்குள் in the Naladiyar are the same bubble image for the body and life. 603 knows the image yet lives as if it would last ஒரு கோடி கற்பம், against the Naladiyar's resolved wise men, which makes an instructive contrast.",
+   "text_issue": null
+  },
+  {
+   "a": 279,
+   "b": "tirumanthiram:95",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The specific phrase is shared: அகல நீளம் என்று அளவு கூறரும் பொருள் (279) and யாரறிவார் இந்த அகலமும் நீளமும் (TM 95), the immeasurable breadth and length of the Lord. The scorn in 279 is strictly aimed at the knowers of that reality, a small looseness in the note.",
+   "text_issue": null
+  },
+  {
+   "a": 344,
+   "b": 24,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both are akam laments for a lovesick girl in another voice, and the moon torments her in each (களங்க மதி / அந்திப் பொழுதில் பிறை). The rest is classical love-poetry machinery shared by many songs, so the pairing teaches little.",
+   "text_issue": null
+  },
+  {
+   "a": 83,
+   "b": 76,
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "76 asks that the poet's honours (வெண்குடை விருது ... மால் அகந்தை) be removed as pride. 83 asks for புலப்பட்டம் and புகழ்ச்சி, but so that தொண்டு and செந்தமிழ் பாடும் flourish. This is a genuine limiting condition on the same subject.",
+   "text_issue": null
+  },
+  {
+   "a": 693,
+   "b": 24,
+   "type": "parallel_domain",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "Both are akam songs with Kama's arrow and the tormenting moon (693 கனலென உலாவு வட்ட மதி; 24 கமலக் கணை, பிறை), but they are in the same domain, so parallel_domain does not fit. Shared genre machinery makes the link thin.",
+   "text_issue": null
+  },
+  {
+   "a": 1044,
+   "b": "tirumanthiram:567",
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1044's வாயு அடைய மீளில் வீடாகும் என நாடி அருள்பெறா ... கரும யோகி directly answers TM 567's பிராணன் ... அடங்கி இருக்கில் பிறப்பிறப்பில்லை, by adding grace as a condition. The note states the reading the qualification depends on.",
+   "text_issue": "1044 praise: வா஡ணச corrupt."
+  },
+  {
+   "a": 907,
+   "b": "tirumanthiram:1446",
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "907 names the same paths (சரியை க்ரியா யோக நியமத்தின் மாயாது) and asks for சலனப்படா ஞானம் beyond them. TM 1446 assigns the four paths to four kinds of people, with the siddhas reaching சிவஞானம். The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 1158,
+   "b": "naladiyar:24",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both have the funeral drum (இடுபறை / பறையினை) and the covering of the corpse (பிணமூட / மூடித்தீக் கொண்டு). The note correctly contrasts the Naladiyar's detached count with 1158's dying man's view and his plea at அப்பொழுது.",
+   "text_issue": "1158: பிண்முடச் likely corrupt for பிணமூட; mourners' lines hard to split."
+  },
+  {
+   "a": 263,
+   "b": 261,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The note is accurate: 263 has அமணர் உடற்கெட வசியில் அழுத்தி, and 261 has செழியன் வெப்பொழி and சமணர் பொடிபட. But this is one repeated legend formula between neighbouring Tanigai songs, which teaches little.",
+   "text_issue": "261: கடலு஡டே has corrupt glyph."
+  },
+  {
+   "a": 199,
+   "b": "tirumanthiram:2980",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both make tears the form of devotion: 199 அழுதழுது உன் அருள் விரும்பி, TM 2980 அன்புள் உருகி அழுவன் அரற்றுவன். 199's devotion replaces the night-and-day pursuit of women, which sets off Tirumular's இராப்பகல் ஏத்துவன.",
+   "text_issue": null
+  },
+  {
+   "a": 798,
+   "b": 797,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "798 borrows 797's phrases: மருக்குலாவிய மலரணை, திருக்குராவடி நிழல், திருக்கை வேல் வடிவழகிய. In 798 the bed burns the girl (கொதியாதே); in 797 it is Murugan's bed with Valli. The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 468,
+   "b": 467,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both make the unusual vow to hold the Lord even in the women's embrace: 468 பஞ்சணை மீது குலாவினும் ... கண்கள் இராறும் ... கொள்வேனே, 467 மயல்கொண்டு அணைகினும் சுகசந்திர முகமும் பத அழகும் ... அருள்வாயே. 'Ask not to leave the bed' slightly overstates both.",
+   "text_issue": null
+  },
+  {
+   "a": 1006,
+   "b": 23,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The millet-grain measure of sharing is distinctive and shared: 1006 பகிர நினைவு ஒரு தினையளவிலும் இலி, 23 குன்றிப் பிளவளவு தினையளவு பங்கிட்டு.",
+   "text_issue": null
+  },
+  {
+   "a": 846,
+   "b": 2,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "846's praise recalls Murugan calling him and saying திருப்புகழ் ஓதுக, as 2 recalls திருப்புகழ் ... செப்பென எனக்கருள்கை. The added அடைக்கலப் பொருளாமென and முத்தியதாம் அநுபூதி are in the text.",
+   "text_issue": null
+  },
+  {
+   "a": 249,
+   "b": 242,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both name the book within itself as a means of grace: 242 திருப்புகழ் விருப்பொடு படிப்பவர் இடுக்கினை அறுத்திடும், 249 திருப்புகழாலும் உரைத்திடுவார் தங்குழி மேவி. The note describes each fairly.",
+   "text_issue": null
+  },
+  {
+   "a": 345,
+   "b": "kural:911",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Kural 911 locates harm in the sweet words of wealth-seeking women. 345 tells the outcome from inside, with the quick-talking jesters (நொடிபேசும் பகடிகட்கு), wealth given (மெய்ப்பொருள் பலகொடுத்து) and poverty burning like வடவை.",
+   "text_issue": null
+  },
+  {
+   "a": 277,
+   "b": 269,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "269 gives the Thiruppugazh mantra-like power (நிசிக்கரு அறுக்கும் பிறவாமல்). 277 only asks that worshippers live reciting it (மறவாமல் திருப்புகழ் கூறி), and makes Murugan, the பவரோக வயித்தியநாதன், the saviour. The note overstates 277.",
+   "text_issue": null
+  },
+  {
+   "a": 402,
+   "b": "naladiyar:47",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use கும்பம் for the body as a vessel of foulness (402 கந்த மது தேங்கு கும்பம்; Naladiyar 47 ஒன்பது வாய்ப்புலனும் கோதிக் குழம்பலைக்கும் கும்பம்). The note correctly says the Naladiyar aims it at the beloved and 402 at the body the world takes as lasting.",
+   "text_issue": null
+  },
+  {
+   "a": 378,
+   "b": 376,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both have the same line, பரியகைப் பாசம்விட்டு எறியும் (அக்)காலன், in sister songs of the Arunai tower. The note's contrast between asking for life (ஆவியைத் தரவேணும்) and asking for forgiveness (பிழைபொறுத்தாய்) is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 1313,
+   "b": 1306,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1313's praise is a shrine catalogue (காசி ராமெசுரம் ... செந்தில் நாகை காழி ...) in the manner of the kshetra-kovai 1306. The 'outer answers inner' gloss is hedged with 'as if'.",
+   "text_issue": "Both have corrupt glyphs (஧வ்ளுர், நாவலு஡ர், வயலு஡ரா)."
+  },
+  {
+   "a": 490,
+   "b": "tirumanthiram:1671",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "490's மனதாலே இறந்திட்டுப் பெறவே கதி applies TM 1671's செத்துத் திரிவர் சிவஞானியோர் (dead while the body remains), and 490 leaves the Lord the alternative இருந்திட்டுப் பெறவே மதி. The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 534,
+   "b": "naladiyar:42",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The holed bag is shared: 534 தொள்ளைப் புலாற்பை in a chain of -பை words, the Naladiyar தொளைபலவாய் ... பைம்மறியாப் பார்க்கப்படும். The note rightly says one is turned on the beloved and the other on the poet's own body (கொள்ளப்படாக்கை தவிர்வேனோ).",
+   "text_issue": null
+  },
+  {
+   "a": 1131,
+   "b": 1140,
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both stage the stock deathbed. Only 1131 has the kin leave (அவர் ஏக), while in 1140 they wail. The contrast between 1131's plea to praise (புகழ் செப்பப் பெறுவேனோ) and 1140's battle against மறலிபடை is real, but 'develops' overstates two variations on a genre scene.",
+   "text_issue": null
+  },
+  {
+   "a": 8,
+   "b": "tirumanthiram:176",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "qualifies",
+   "reason": "As the note itself shows, the two do not make the same claim. TM 176 makes safety depend on அண்ணலை எண்ணும், while 8 confesses not having done that worship (தொழுதிலன், பணிந்திலன்) and asks rescue at the hour anyway, which is a qualification. TM 176's last lines are also uncertain.",
+   "text_issue": null
+  },
+  {
+   "a": 266,
+   "b": 33,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both share the stock charge that the courtesan's love lasts as long as the money (266 பொருள்தீரில் ... கடையில்; 33 வருபொருள் அளவில் ... அடித்துப் போக்கவும்). It is a genre formula and teaches little.",
+   "text_issue": "266: ஡ணங்கிசை corrupt; 33: மண்டுநநருர் garbled."
+  },
+  {
+   "a": 132,
+   "b": 17,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The note is accurate: 132 has பறிதலை குண்டர் கழுநிரை கண்டு பழநி அமர்ந்த, and 17 has the Jains set on stakes. But it is the same repeated Sambandar legend, with no further point.",
+   "text_issue": null
+  },
+  {
+   "a": 19,
+   "b": "kural:911",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "19's courtesans invite with smiles (நகைத்து நண்பொடு வருமிரும் என உரை) and take wealth (வண்பொருள் கவர்பொழுதினில்), matching the Kural's பொருள்விழையும் ஆய்தொடியார் இன்சொல். The confession of trust (பொய் மனத்தை நம்பிய) complements the warning.",
+   "text_issue": null
+  },
+  {
+   "a": 15,
+   "b": "kural:1069",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Kural 1069 says the heart melts at begging (இரவுள்ள உள்ளம் உருகும்). 15 confesses begging from patrons with a wounded heart (இரந்து உளத்திற் புண்படும்) and asks to exchange it for தொண்டு. The claim is the same, from the inside.",
+   "text_issue": null
+  },
+  {
+   "a": 550,
+   "b": "naladiyar:373",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both make the courtesan's welcome depend on the gift: 550 பொன்கொடா நாள் அவருடன் வாய்பேசிடாமை, Naladiyar 373 கொடுப்பதொன்றில்லாரை ... விடுப்பர். This is a fair cross-book agreement.",
+   "text_issue": null
+  },
+  {
+   "a": 369,
+   "b": "tirumanthiram:1503",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both fault the sects: 369's கலக விபரித வெகுபர சமயிகள் lose the path (நெறிகெட) and TM's people wander saying அதுவிது பரம். But 369 never has the sects cry 'this is supreme'; that is TM's phrase put into 369, and the remedies differ (devotion and dropping எனது vs. விதிவழி). The common ground is the generic 'sects miss the truth'.",
+   "text_issue": null
+  },
+  {
+   "a": 314,
+   "b": "tirumanthiram:1533",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both name the six sects specifically: 314's அறுவரும் who argue in anger (சினமுடன் தர்க்கித்து) cannot know the truth (தெரிவரும் சத்யம்); TM's ஆறு சமயப் பொருளும் அவனலன். 314's பொது that holds all yet clings to none adds a real complement.",
+   "text_issue": null
+  },
+  {
+   "a": 334,
+   "b": 24,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both are akam pleas for a lovesick girl tormented by the crescent (பிறையாலே in both), but the moon, sea, south wind and anril are the stock machinery of the genre; the pairing shows only that two songs use the convention.",
+   "text_issue": null
+  },
+  {
+   "a": 1297,
+   "b": "kural:1147",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "1297 lists பக்கத்து மாதர் வசை among the causes of sorrow, alongside Kama and the moon; it does not say the gossip feeds the sickness instead of ending it, which is the Kural's specific point (ஊரவர் கெளவை எருவாக). Shared topic of gossip, overstated as shared claim.",
+   "text_issue": null
+  },
+  {
+   "a": 940,
+   "b": "naladiyar:11",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "A specific shared claim: act before grey hair. 940 asks for குற்றேவல் while youth is strong, கொக்காக நரைகள் வரும் முன்; Naladiyar 11's wise renounce knowing நரைவரும். Different books, same deadline.",
+   "text_issue": null
+  },
+  {
+   "a": 824,
+   "b": "tirumanthiram:1611",
+   "type": "develops",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "The link rests on the word மோனம். 824's மோன உரையில் உபதேச வாள் is a weapon against Yama's servants; the note's bridge, that TM 1611 makes all speech end in 'a mute word', depends on an uncertain split of வந்தூமை யாமொழி. TM says nothing of a teaching or of Death.",
+   "text_issue": null
+  },
+  {
+   "a": 895,
+   "b": "naladiyar:25",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both set the funeral beside the quick return of desire: 895's mourners bathe, go home and their grief ends (புனல் முழுகி மனைபுக்குத் துக்கமறு) and Kama's flowers bring infatuation; Naladiyar's man sees the corpse carried yet marries. The exact division of the mourners' line is uncertain, but the turn is clear.",
+   "text_issue": null
+  },
+  {
+   "a": 1183,
+   "b": "naladiyar:377",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Real overlap (1183's உடைமை அடையவே பறித்து, Naladiyar's அவர்கைப் பொருள்கொண்டு), but it is the stock courtesan complaint; 1183 does not dwell on the man's belief in their love, and the pairing adds little beyond 'courtesans take money'.",
+   "text_issue": null
+  },
+  {
+   "a": 145,
+   "b": "naladiyar:46",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "The lists genuinely overlap (குடல், நிணம்/கொழு, குருதி, எலும்பு/என்பு, தசை/தடி). But Naladiyar's point is to dissolve the beloved, and the note's claim that 145 applies the list to the poet's own body is the marker's uncertain construal of the middle lines; the link is a shared catalogue more than a shared claim.",
+   "text_issue": null
+  },
+  {
+   "a": 46,
+   "b": 8,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both ask Murugan to come on the peacock when Death's men arrive with the noose, but this hour-of-death plea is a stock formula of the book (the marker says it recurs throughout); the note's description is accurate but the pairing teaches little.",
+   "text_issue": null
+  },
+  {
+   "a": 734,
+   "b": "tirumanthiram:1611",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "734 asks for மனங்கடந்த மோன வீடு, reached ஏது வேறு இயம்பல் இன்றி, and TM 1611 says release comes to those to whom மோனம் has come. A specific shared claim that silence is the gate of release, in different books.",
+   "text_issue": null
+  },
+  {
+   "a": 574,
+   "b": "naladiyar:47",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both counter desire with images of the body's foul seepage, but the images differ: Naladiyar's nine-holed pot (ஒன்பது வாய்... கும்பம்) is the whole body, while 574's cloth-stopped, rotting hole (சீலை தீற்று கருவாயில், அழுகிவிழும் பீறல்) is the woman's sex. Shared method, not a shared figure.",
+   "text_issue": "574's text has obscure lines (இறைவைகொளுங் கூவல், சீலை தீற்று) and the last two praise lines nearly repeat each other."
+  },
+  {
+   "a": 1189,
+   "b": 24,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both are a mother's lament (எனது பேதை / எம்பொற் கொடி) using the stock torments, but the note's 'evening' is in 24 (அந்திப் பொழுதில்) not in 1189, and the wind differs (24's தென்றல், 1189's வாடை). A genre convention shared, not a distinctive image.",
+   "text_issue": null
+  },
+  {
+   "a": 948,
+   "b": "kural:1227",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "948 does set Kama's onslaught in the evening (மாலையில் வந்து காதி) and turns it on the poet himself, but the Kural's point is the day-long growth from bud to bloom; the shared element is only the stock akam evening hour.",
+   "text_issue": null
+  },
+  {
+   "a": 63,
+   "b": 46,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Within the stock hour-of-death plea, 63 adds something real: Murugan is asked to speak to Death and claim the man (அந்த மறலியொடு கந்த மனிதன் நமது அன்பன் என மொழிய), beyond 46's plea to come and be seen (காண ஆர்வஞ்செயும்). Both also list the kin who follow.",
+   "text_issue": null
+  },
+  {
+   "a": 358,
+   "b": 352,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both confess the poet's trade of flattering patrons for wealth: 352 in summary (அவலர்மேல் சொற்கள் கொண்டு கவிகளாக்கிப் புகழ்ந்து... பொருள்தேடி), 358 by quoting the begging speech (காரிகைப்பால் எனக்கே முதற்பேர், கொண்டுவா பொன்). The note describes both accurately.",
+   "text_issue": null
+  },
+  {
+   "a": 907,
+   "b": 339,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both set aside quarrelling sectarians (907's வெகுதர்க்க கோலாலர், சமயத்தர்; 339's கலக காரண துற்குண சமயிகள்) and ask, in the same மாயாது/மாயாமல் frame, for one certainty: சலனப்படா ஞானம் and மவுன பூரித சத்திய வடிவு. 907's inclusion of சரியை க்ரியா யோகம் is accurately noted.",
+   "text_issue": null
+  },
+  {
+   "a": 306,
+   "b": 292,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both renounce praising patrons: 306 mocks the bards' claim that misers are Pari and Kari (பாரி காரி என்று இசை வாது கூறி) and asks for one word; 292 quotes the comparisons themselves. Accurate and a specific confession, not the lust formula.",
+   "text_issue": null
+  },
+  {
+   "a": 129,
+   "b": 8,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both set Murugan against Death's buffalo and noose (129's எருமை, கயிறு; 8's பகடு, கயிறு), the book's recurring hour-of-death plea. 129's jackals and fire are a small addition; the pairing is a stock formula.",
+   "text_issue": null
+  },
+  {
+   "a": 88,
+   "b": "kural:920",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Real agreement that association with courtesans is ruinous (88's உறவாமோ; Kural's இருமனப் பெண்டிர் as company of the fortune-forsaken). But the note's hook, that 88 'joins two of the three' because its women drink toddy (பாளை யூறுகள் உண்டிடு), is a word match dressed up.",
+   "text_issue": null
+  },
+  {
+   "a": 292,
+   "b": 15,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both confess begging praise of patrons through stock comparisons, sharing the cloud figure (292's முகில், 15's கொடைக்குக் கொண்டல்); 292 does liken the patron to the six-faced one (முகமும் அறுமுகம் உடையவன் இவன்). 'Gods' fits 292 more than 15, a minor slip.",
+   "text_issue": null
+  },
+  {
+   "a": 223,
+   "b": "tirumanthiram:57",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "Both count the twenty-eight Agamas (223's நாலாறு நாலு, TM's அஞ்சொடு இருபத்து மூன்று), but they make no common claim beyond citing the canon, and the count in 223 is itself a tentative reading.",
+   "text_issue": null
+  },
+  {
+   "a": 860,
+   "b": 23,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "A specific shared remedy: sharing even a millet grain (860's பகிரவொரு தினையளவு, 23's தினையளவு பங்கிட்டு உண்கை). The note correctly places it among 860's omissions and in 23's fear of death (நெஞ்சத்து அஞ்சி).",
+   "text_issue": null
+  },
+  {
+   "a": 386,
+   "b": "kural:1084",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both give women's eyes the power to consume the life of those who see: 386's விழி... உயிரை விழுங்கி, the Kural's கண்டார் உயிருண்ணும். The note accurately adds 386's comparison to கண்டகாளம் and the vel.",
+   "text_issue": null
+  },
+  {
+   "a": 652,
+   "b": "tirumanthiram:485",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both describe ten months of gestation (652's திங்கட் பதுசெல, TM's ஒண்டிங்கள் பத்தில்), and 652's வினை கோலும் வழியாலே loosely matches TM's மாயையினாலே. But the ten months is a commonplace, TM's question is about the formless (அருவம்), and 652's point is the slide into women; 'start of bondage' is a generous gloss.",
+   "text_issue": null
+  },
+  {
+   "a": 1028,
+   "b": "naladiyar:273",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both condemn wealth kept without giving: 1028's காசு தேடி ஈயாமல் வாழப் பெறுவோர் go to Death's town, Naladiyar's hoarder who gives nothing (ஒன்று ஈகலான்) is mocked by his wealth. Same claim in different books.",
+   "text_issue": null
+  },
+  {
+   "a": 573,
+   "b": "tirumanthiram:33",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "573 asks whether japa, a crore of homas and Agamic practice taught by gurus can be a refuge (தஞ்சமாமோ), saying only Siva's gift would be (தழலாடி... தருமாகில் ஆகும்); TM 33 says those of many rites and hymns lack understanding (மதியிலர்). The note's 'doubts' matches the hedged reading.",
+   "text_issue": null
+  },
+  {
+   "a": 896,
+   "b": "kural:360",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "896's முக்குற்றம் அகற்றி as a step to release matches Kural 360's காமம் வெகுளி மயக்கம் whose ending ends pain; the traditional three faults come from this very triad, and the note flags the dependence honestly.",
+   "text_issue": null
+  },
+  {
+   "a": 1004,
+   "b": "tirumanthiram:1547",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1004 leaves the சருவிய சமயிகள் for an அநுபூதி where எனதற நினதற; TM 1547 says that for one who gains the inner light பிணக்கொன்றும் இல்லை. A specific shared claim that the sects' quarrel ends in inner experience.",
+   "text_issue": null
+  },
+  {
+   "a": 477,
+   "b": "naladiyar:370",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "477's women 'show delusion and then show poverty' (மருள்காட்டி நல்குரவு காட்டும்), i.e. they leave the man poor; Naladiyar 370 says their love ends when the income ends (வாரி அறவே அறும்). Related, but the note's 'poverty the end of the courtesan's love' is the Naladiyar's claim read into 477.",
+   "text_issue": null
+  },
+  {
+   "a": 284,
+   "b": "kural:10",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Kural 10's பிறவிப் பெருங்கடல் crossed only by reaching the Lord's feet is extended in 284: the feet are a raft (கழற்புணை) across கருக்கடல் (birth), ப்ரியக்கடல் (desire) and கலைக்கடல் (learning). Accurate and illuminating.",
+   "text_issue": null
+  },
+  {
+   "a": 458,
+   "b": "naladiyar:377",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The sequence matches closely: 458's பசப்பிப் பொன் தரப் பற்றிப் பொருள் மாளப் பறித்துப் பின் துரத்து and Naladiyar's lick like a wild cow (ஆமாபோல் நக்கி), take the wealth, then balk (சேமாபோல் குப்புறூஉம்). Coax, strip, reject in both.",
+   "text_issue": null
+  },
+  {
+   "a": 75,
+   "b": 8,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The hour-of-death plea is stock, but the pairing teaches a contrast the note states accurately: 75 claims help by hereditary service (வழிவழி அருள்பெறும் அன்பினால்... அடிமை), 8 asks it despite a confession of no service (தொழுதிலன், பணிந்திலன்).",
+   "text_issue": null
+  },
+  {
+   "a": 444,
+   "b": "naladiyar:25",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both have kin wailing and the funeral drum (444's அவரவர் பங்குக்கு அழுது... அறைபறை, Naladiyar's அலற... பறை), but the drum in 444 is just part of the funeral, not a mocking voice; the shared image is the generic funeral scene.",
+   "text_issue": "444's embryo and battle passages are hard to divide."
+  },
+  {
+   "a": 1226,
+   "b": 1022,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both confess singing patrons for gain: 1226's பழங் கிளவி பல களவுகொண்டு ஒருவர்மிசை கவிபாடி, 1022's அறிவிலாரைத் தேறிப் பொற்கை புகழ் பெரியராகப் பாடி; both turn to the feet, 1022 asking to sing them in fresh verse (புதுமையாகப் பாட), which answers 1226's stolen phrases.",
+   "text_issue": null
+  },
+  {
+   "a": 115,
+   "b": "naladiyar:25",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "115 does have the drums (நவப்பறைகள் கொட்டா), weeping kin and the burning ground, but this is the generic funeral; Naladiyar's distinctive figure, the drum answering the man's உண்டு with டொண், has no counterpart in 115.",
+   "text_issue": null
+  },
+  {
+   "a": 444,
+   "b": "tirumanthiram:485",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "444 does trace gestation to birth in the tenth month (ஒருபதில்) and on to the pyre, overlapping TM's ten months; but TM's point (மாயை, and who knows the அருவம்) is not taken up, so the link is a shared commonplace of embryology.",
+   "text_issue": "444's embryo passage is hard to divide."
+  },
+  {
+   "a": 537,
+   "b": 101,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both are akam pleas for a girl tormented by Kama's arrows, the moon and the breeze, asking for Murugan's garland (537's கடம்பு தரவேணும், 101's அணிமாலை தந்து). Accurate, but it is the stock akam set within one book; 537's தொல்லைவினை என்று முனியாதே is the only distinctive addition.",
+   "text_issue": null
+  },
+  {
+   "a": 194,
+   "b": "tirumanthiram:2709",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "194 rejects mercury and the nine metals that turn to charcoal (இரதாதிகளால் நவலோகம் இடவே கரியாம்) for Murugan the gem; TM 2709 makes சிவாயநம the குளிகை that turns the body to gold, its எளிய வாதுசெய்வார் likely the petty alchemists. Both put the Lord above alchemy, though 194's clipped lines make its reading tentative.",
+   "text_issue": null
+  },
+  {
+   "a": 513,
+   "b": "naladiyar:55",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both address the mind and ask it to come along (513's மனமே... எனக்கருகில் வருவாய், Naladiyar's என்னொடு... எழுநெஞ்சே போதியோ), but speaking to one's heart is a common Tamil device; the reasons and goals differ, so the shared figure is thin.",
+   "text_issue": null
+  }
+ ]
+}
