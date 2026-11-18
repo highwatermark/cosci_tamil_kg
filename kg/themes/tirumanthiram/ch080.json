@@ -28,8 +28,8 @@
     "886": {
       "reading": "The place where the gods dwell is called Chirrambalam, Chidambaram, the holy Ambalam and the southern Podu.",
       "concepts": [
-        "thirukkoothu",
-        "sivam"
+        "thalam",
+        "thirukkoothu"
       ],
       "nuance": "Four names for the one dance-hall, with தேவர் உறைகின்ற repeated in each line. தேவர் may be the gods who attend, or an honorific plural for the Lord himself. Tradition reads the hall also as a place within the body, but the verse names only the hall."
     },
@@ -134,7 +134,7 @@
     "897": {
       "reading": "The pair of feet is the Lord: of the supreme dancer, of the worthy vessel, and of the knowledge that opens as a flower releases its pollen.",
       "concepts": [
-        "sivam",
+        "thiruvadi",
         "thirukkoothu",
         "gnaanam"
       ],
@@ -144,8 +144,8 @@
     "898": {
       "reading": "The paired holy feet are the eight letters; the paired anklets are twice five, are fifty-one, are seven thousand.",
       "concepts": [
-        "mandhiram",
-        "sivam"
+        "thiruvadi",
+        "mandhiram"
       ],
       "uncertain": true,
       "nuance": "The feet are identified with letters and mantras. Fifty-one is the traditional count of letters of the Sanskrit alphabet, and seven thousand the count of mantras (900). The eight letters and twice five (perhaps the five letters doubled, or the ten letters of a longer formula) are not specified."
@@ -180,8 +180,8 @@
       "reading": "The two dances are one: it becomes the lotus; the two dances are one: the dance of dissolution that Death performs; the two dances are one: the mantra that does not mock; the dance is the Sivalinga, the good copper turned gold.",
       "concepts": [
         "thirukkoothu",
-        "mandhiram",
-        "sivam"
+        "ilingam",
+        "mandhiram"
       ],
       "uncertain": true,
       "nuance": "Which two dances are one is not said (perhaps Siva's and Shakti's, or creation and destruction). நமன் may be Death, or a fragment of நம from the five letters. நகைசெயா is obscure. The copper turned gold, repeated through 903 to 907, is an alchemical image; tradition takes copper's tarnish as the soul's impurity removed by the mantra."
@@ -199,8 +199,8 @@
     "904": {
       "reading": "To make the holy hall, draw the auspicious chakra by scoring twice six lines into twenty-five squares, and chant it as the holy hall: this is the way.",
       "concepts": [
+        "chakkaram",
         "mandhiram",
-        "vazhipaadu",
         "thirukkoothu"
       ],
       "nuance": "Six lines each way make a five-by-five grid of twenty-five cells, so the arithmetic holds. Tradition fills the cells with the five letters in rotating order (the திருவம்பலச் சக்கரம்), which fits 912's changing orders; the verse itself gives only the grid."
@@ -228,8 +228,8 @@
     "907": {
       "reading": "One may see the golden feet and sons will be born; by the command of the golden feet copper becomes gold; seeing the golden feet the body becomes holy; the good dance of the golden feet speaks to thought.",
       "concepts": [
+        "thiruvadi",
         "siththi",
-        "sivam",
         "thirukkoothu"
       ],
       "uncertain": true,
@@ -324,6 +324,195 @@
       "b": 725,
       "type": "develops",
       "note": "725 turns from despising the body to cherishing it as the Lord's temple; 906 goes further and promises that the mantra makes the capable one's body gold."
+    },
+    {
+      "a": 884,
+      "b": 962,
+      "type": "develops",
+      "note": "884 ends by raising up the Lord as the one letter (நம்பிரான் ஓர் எழுத்தே). 962 says that those who utter it with no other letter win life by one letter (ஓரெழுத்தாலே உயிர்பெறலாமே). The pairing turns 884's praise of the one letter into its fruit: the letter that is the Lord is the letter by which the soul is won.",
+      "pass": "refine"
+    },
+    {
+      "a": 885,
+      "b": "kural:1",
+      "type": "develops",
+      "note": "The Kural says that as A is first of all letters, the Primal Lord is first of the world (அகர முதல எழுத்தெல்லாம் ... முதற்றே உலகு). 885 says that by one letter he became the whole world (ஓரெழுத்தாலே உலகெங்கும் தானாகி), and goes on to two, three and the great letter. Where the Kural uses the letter as a likeness for the Lord's priority, 885 makes the letter the means by which he becomes the world.",
+      "pass": "refine"
+    },
+    {
+      "a": 886,
+      "b": 2722,
+      "type": "qualifies",
+      "note": "886 gives four names to the one hall where the gods dwell: சிற்றம்பலம், சிதம்பரம், திருஅம்பலம், தென்பொது. 2722 says that Chidambaram and the holy dance are everywhere (எங்கும் சிதம்பரம் எங்கும் திருநட்டம்), because Siva is everywhere. Read together, the named southern hall of 886 is one place of a dance that 2722 refuses to confine to any place.",
+      "pass": "refine"
+    },
+    {
+      "a": 887,
+      "b": 2727,
+      "type": "develops",
+      "note": "887 calls the golden hall's unceasing dance (அனவரத் தாண்டவம்) also the dance of dissolution, and speaks of plural rare dances of destruction (சங்காரத்து அருந்தாண்டவங்கள்). 2727 says the dances are five (ஆன நடம் ஐந்து) and are danced as the five acts. The pairing places 887's dances of destruction as one act among the five that 2727 counts.",
+      "pass": "refine"
+    },
+    {
+      "a": 888,
+      "b": 2799,
+      "type": "develops",
+      "note": "888 says the dance is the work of grace (தாண்டவமானது அனுக்கிரகத் தொழில்). 2799 assigns each of the five acts to a part of the dancing Hara and gives grace to his foot for ever (அரனடி என்றும் அனுக்கிரகம்). 2799 locates in the dancer's body the grace that 888 names as the dance itself.",
+      "pass": "refine"
+    },
+    {
+      "a": 889,
+      "b": 901,
+      "type": "agrees",
+      "note": "A near-repeat: 889 and 901 share the line தானே அகார உகாரமதாய் நிற்கும் and the same frame of the tattva-dance (தத்துவக் கூத்துக்கு). 889 makes the dance one of the supreme light (பரஞ்சுடர்) with the Lord as his own ground (தனக்குத் தராதலம்); 901 makes it the dance of ரீங்காரம் and has him dance alone in the world (உலகில் தனிநடம்). The two versions show the same claim, that the dancer needs nothing outside himself, set once to light and once to the seed syllable.",
+      "pass": "refine"
+    },
+    {
+      "a": 889,
+      "b": 2180,
+      "type": "agrees",
+      "note": "889 says the Lord himself stands as the tattva and as A and U (தத்துவமாய் நிற்கும் ... அகார உகாரமதாய் நிற்கும்). 2180 ends that the tattva that is real is the letter A (தத்துவம் ஆவது அகார எழுத்தே). Both join the tattva to the letter A, 2180 as the result of sorting true tattvas from false, 889 as the Lord's own standing.",
+      "pass": "refine"
+    },
+    {
+      "a": 890,
+      "b": 946,
+      "type": "same_image",
+      "note": "890 plays on வாசி within the five letters: spoken, the ground becomes வாசிய, and its yoga is தயாவாசி. 946 gives orders of the five letters set around the supreme five and ends பரமாய வாசி மயநமாய். Both texts are obscure and perhaps corrupt, but both take வாசி, which is also the Siddha word for breath, out of the syllables of சிவாய; the pairing shows that the play is a device of these chakra chapters, not a one-off.",
+      "pass": "refine"
+    },
+    {
+      "a": 891,
+      "b": 2844,
+      "type": "develops",
+      "note": "891 says A and U are the Siva-forms, the place no one knows is the supreme, and Siva's way is bliss (சிவகதி ஆனந்தம்). 2844 says that in speechless bliss and silence A merges into U and M and in the speechless letter is the inner light (உரையற்ற காரத்தில் உள்ளொளி). 2844 carries 891's A and U one step further, into the letter beyond speech, and ties the same bliss to silence.",
+      "pass": "refine"
+    },
+    {
+      "a": 892,
+      "b": 270,
+      "type": "parallel_domain",
+      "note": "270 says the ignorant call love and Siva two, no one knows that love is Siva, and those who know it rest as love that is Siva (அன்பே சிவமாவது ஆரும் அறிகிலார்). 892 says the three blisses and two knowledges become one, few know that bliss is சிவாய (ஆனந்தம் சிவாய அறிவார் பலரில்லை), and to those who can know it the Lord is caught as the dance of bliss. The two verses run the same pattern, two made one, an identity few know, and knowing it is having it, once for love and once for bliss.",
+      "pass": "refine"
+    },
+    {
+      "a": 893,
+      "b": 922,
+      "type": "develops",
+      "note": "893 says what the masters of many arts attain is the two, Omkara and the five letters (ஓங்காரம் பஞ்சாக்கரங்கள்), and the angles by which it spreads (கோணம் பரந்திடும் வாறு). 922 sets the pranava in the middle and on both sides of a chakra, with நமசிவாய in the centre and சிவாயநம in the outer circle. 922 gives the drawn layout in which 893's pair of Om and the five letters is spread.",
+      "pass": "refine"
+    },
+    {
+      "a": 895,
+      "b": 2799,
+      "type": "develops",
+      "note": "895 names the concealing power next to the stainless one and calls it bliss (அமலம் திரோதாயி ஆகும் ஆனந்தம்), alongside the three impurities and the place of the dance. 2799 makes concealment one of the five acts of the dance, the pressing foot on which Hara rests (அணைப்பில் அமரும் திரோதாயி), next to the raised foot of grace. Both put திரோதாயி inside the Lord's dance rather than among the impurities it hides.",
+      "pass": "refine"
+    },
+    {
+      "a": 896,
+      "b": 2228,
+      "type": "same_image",
+      "note": "896 says of the Lord, line after line, தானே தனக்கு: he is his own lord, his own mountain, his own substance. 2228 uses the same frame of the person, who is his own enemy and friend, his own two worlds and the eater of his own deeds, and ends with the same line as 896, தானே தனக்குத் தலைவனும் ஆமே. The shared line describes self-sufficiency in the Lord and self-responsibility in the soul bound by deeds.",
+      "pass": "refine"
+    },
+    {
+      "a": 897,
+      "b": 2425,
+      "type": "develops",
+      "note": "897 builds four lines of தலைவனுமாய் நின்ற to land on the pair of feet (தாளிணை), which are lord of the supreme dancer and of the knowledge that opens like a flower (தாதவிழ் ஞானம்). 2425 says the foot is Shakti and grace, the head is knowledge, and release comes when the foot shows the soul that knowledge (கால் அந்த ஞானத்தைக் காட்ட வீடாகும்). 2425 spells out the relation of feet to knowledge that 897 only names.",
+      "pass": "refine"
+    },
+    {
+      "a": 898,
+      "b": 900,
+      "type": "develops",
+      "note": "898 counts the paired feet as eight letters, twice five, fifty-one and seven thousand (கழலிணை ஏழாயிரமே). 900 says the mantras that exist are seven thousand and that the mantra is Siva's holy body (மந்திரம் சிவன் திருமேனி). Together they make the feet one part of the mantra-body: the seven thousand of the feet in 898 are the seven thousand of the body in 900.",
+      "pass": "refine"
+    },
+    {
+      "a": 899,
+      "b": 2178,
+      "type": "parallel_domain",
+      "note": "899 multiplies the seven thousand mantras into seven crores and countless mantras (எண்ணிலா மந்திரம்) and then says they stand as seven and two. 2178 numbers the tattvas in crores and thousands and says they are contained in the ninety-six and then in the twenty-five (ஐ ஐந்துள் ஆகும்). The same move, a count beyond reckoning folded into a small number, is made once for mantras and once for tattvas.",
+      "pass": "refine"
+    },
+    {
+      "a": 900,
+      "b": 2379,
+      "type": "tension",
+      "note": "900 says the mantra is Siva's holy body (இருக்கின்ற மந்திரம் சிவன் திருமேனி). 2379 defines mantra as the beginningless one that is not body (அனாதி உடல் அல்லா மந்திரம்). If உடல் in 2379 means any body, the two make opposite claims about whether mantra is a body; if it means only the physical body, 2379 rules out a fleshly body and 900's திருமேனி is a form of another kind.",
+      "pass": "refine"
+    },
+    {
+      "a": 901,
+      "b": 1073,
+      "type": "develops",
+      "note": "901 makes the Lord's tattva-dance the dance of ரீங்காரம் (ரீங்காரத் தத்துவக் கூத்துக்கு), danced alone in the world. 1073 says the goddess, Omkari who became Ahankari and bore the five, sits sweetly within ரீங்காரம். Read together, the syllable in which 1073 seats Shakti is the syllable 901 names as the Lord's dance.",
+      "pass": "refine"
+    },
+    {
+      "a": 902,
+      "b": 1720,
+      "type": "same_image",
+      "note": "902 ends that the dance is the Sivalinga, good copper and gold (நடம் சிவலிங்கம் நலஞ்செம்பு பொன்னே). 1720 lists refined copper and gold among the substances any one of which, clearly known, can be the Sivalinga (கன்றிய செம்பு ... பொன் ... தெளி சிவலிங்கமே). The same copper and gold sit beside the linga in both; 1720 makes them its material, while 902 sets them in the alchemy by which copper becomes gold.",
+      "pass": "refine"
+    },
+    {
+      "a": 903,
+      "b": 2742,
+      "type": "same_image",
+      "note": "903 says saying சிவாயநம becomes red gold and ends that the holy hall is red gold (செம்பொன் ஆன திருஅம்பலமே). 2742 praises the valiant dancer in the holy hall of red gold (செம்பொன் திருமன்றுள் சேவகக் கூத்தன்). The red-gold hall of the dance is shared, and 903 adds that the five letters make the chanter's gold one with the hall's.",
+      "pass": "refine"
+    },
+    {
+      "a": 904,
+      "b": 920,
+      "type": "agrees",
+      "note": "A near-repeat across chapters: 904 has the chakra drawn by scoring twice six lines into twenty-five cells (ஈராறு கீறி ... இருபத்தைஞ்சாக்கி) as the holy hall. 920 describes the same figure, six lines and twenty-five cells (இருமூன்று இரேகை ... அறைகள் இருபத்தைஞ்சு), and places A in one cell. 920 shows that 904's chakra is the one the next chapter fills with letters.",
+      "pass": "refine"
+    },
+    {
+      "a": 906,
+      "b": 2709,
+      "type": "agrees",
+      "note": "906 says the golden mantra, for the capable who take it in, makes the body gold (பொன்னாகும் வல்லோர்க்கு உடம்பு). 2709 says that for those who recite சிவாயநம with melting minds the Lord uses it as an alchemist's pill and turns their bodily cage to gold (குளிகை யிட்டுப் பொன்னாக்குவன் கூட்டையே). Both promise the body turned gold by the mantra; 2709 names the mantra and the melting mind, 906 the capable and the golden feet.",
+      "pass": "refine"
+    },
+    {
+      "a": 907,
+      "b": 293,
+      "type": "develops",
+      "note": "907 says seeing the golden feet makes the body holy and their command turns copper to gold (செம்புபொன் ஆயிடும் ... திருமேனி ஆயிடும்). 293 says that those who praise the Lord night and morning have a body as if alchemised in the herb (வல்லியுள் வாதித்த காயமும் ஆமே), set against the learned who pass away. The alchemy of the body that 293 gives to daily praise, 907 gives to the vision of the feet.",
+      "pass": "refine"
+    },
+    {
+      "a": 908,
+      "b": 668,
+      "type": "develops",
+      "note": "908 says that by speaking the secret one may enter another body and take pleasure there (ஒருகூட்டில் புக்குச் சுகிக்கலாம்) and the serpent of bonds departs. 668 lists entering another body (பரகாய மேவல்) among the eight siddhis. 908 gives to the subtle secret of the dance a power that 668 names in the list of yogic attainments, and sets the loss of the bonds beside it.",
+      "pass": "refine"
+    },
+    {
+      "a": 912,
+      "b": 923,
+      "type": "agrees",
+      "note": "912 gives the dance as the five letters in changed orders, சிவாயநம, நமசிவாய, சிவயநம, one formula turning (கோளொன்று மாறே). 923 sets out the same rotations of the mantra, சிவாயநம, மசிவாயந, நமசிவாய and on, taken in order from சி. 923 states as a chakra rule what 912 states as the dance.",
+      "pass": "refine"
+    },
+    {
+      "a": 912,
+      "b": "thiruppugazh:425",
+      "type": "parallel_domain",
+      "note": "912 turns the five letters through their orders and calls each order the dance (கூத்தே சிவாயநம ... நமசிவாய). Thiruppugazh 425 chants செயசெய அருணாத்திரி with the five letters in each rotation, சிவயநம, மசிவயந, நமசிவய, யநமசிவ, வயநமசி, and later names the dance in the space of light. The same device of rotating the five letters, a rule of the chakra in the Tirumanthiram, becomes the metre of a Thiruppugazh song.",
+      "pass": "refine"
+    },
+    {
+      "a": 913,
+      "b": 2782,
+      "type": "agrees",
+      "note": "913 has one and two dance, then seven, then nine dance with him, and ends with the ruby dance in the hall (மன்றினில் ஆடனான் மாணிக்கக் கூத்தே). 2782 has the nine, the sixteen, the six paths, the seven and the fifty-six dance with him, and ends with the dance of bliss (ஆனந்தக் கூத்தே). Both make the dance a gathering of numbered things that dance with the one, and neither fixes what the numbers are.",
+      "pass": "refine"
     }
   ],
   "source_issues": [
