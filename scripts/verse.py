@@ -2,6 +2,7 @@
 """Print verses from any marked book: Tamil, reading, nuance and concepts.
 
     verse.py kural:1061 naladiyar:42 tirumanthiram:1823 thiruppugazh:355
+    verse.py -r ID ...   reading and concepts only, one line per verse (no Tamil)
 
 Readings come from each book's built graph (kg/<book>/nodes.jsonl), so a book must be built first.
 """
@@ -18,7 +19,8 @@ def read_jsonl(path):
 
 
 def main():
-    wanted = sys.argv[1:]
+    brief = "-r" in sys.argv[1:]
+    wanted = [w for w in sys.argv[1:] if w != "-r"]
     if not wanted:
         sys.exit(__doc__)
     books = {w.split(":")[0] for w in wanted}
@@ -40,6 +42,8 @@ def main():
         if not n:
             print(f"## {w}: not found\n"); continue
         ch = nodes.get(chapters.get(w), {})
+        if brief:
+            print(f"{w} | {', '.join(concepts.get(w, []))} | {n['reading']}"); continue
         print(f"## {w} (chapter {ch.get('number')}, {ch.get('title')})")
         print("\n".join(n["tamil"]))
         pope = n.get("pope")
