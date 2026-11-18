@@ -1,0 +1,904 @@
+<title>Nilai</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Instrument+Serif:ital@0;1&family=Catamaran:wght@400;500;600;800;900&family=Noto+Serif+Tamil:wght@400;600&family=Cutive+Mono&display=swap">
+<style>
+/* Layout: a walk through eight lit rooms. Each room is a coloured wall over a floor, with one object from
+   the verses standing on the floor. Giant Tamil word behind, the old line, then now, then the future.
+   One committed, single-theme look: saturated rooms, ink type, a paper appendix at the end. */
+:root {
+  color-scheme: light;
+  --ink: #16161d;
+  --paper: #eceef3;
+  --cobalt: #1f3fd6;
+  --cobalt-deep: #142ea8;
+  --rose: #ffaac7;
+  --marigold: #f4a417;
+  --kumkum: #c7351c;
+  --temple: #1e4a39;
+  --sky: #a7cfee;
+  --grass: #3d6b2e;
+  --indigo: #231c52;
+  --lilac: #c9a6f6;
+  --milk: #f6f4ef;
+  --f-display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --f-serif: "Instrument Serif", Georgia, serif;
+  --f-tamil-display: "Catamaran", "Tamil Sangam MN", "Noto Sans Tamil", sans-serif;
+  --f-tamil: "Noto Serif Tamil", "Tamil Sangam MN", serif;
+  --f-mono: "Cutive Mono", ui-monospace, Menlo, monospace;
+  --gutter-l: max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--cobalt); color: var(--ink); font: 17px/1.55 var(--f-display); overflow-x: hidden; }
+a { color: inherit; }
+.wrap { padding-left: var(--gutter-l); padding-right: var(--gutter-r); }
+
+/* fixed masthead */
+.mast { position: fixed; inset: 0 0 auto; z-index: 20; display: flex; align-items: center; gap: 14px;
+  padding: calc(14px + env(safe-area-inset-top, 0px)) var(--gutter-r) 14px var(--gutter-l); pointer-events: none; }
+.mast > * { pointer-events: auto; }
+.brand { font: 800 15px/1 var(--f-display); letter-spacing: .02em; color: var(--milk); text-decoration: none; display: flex; align-items: center; gap: 8px; mix-blend-mode: difference; }
+.brand i { width: 8px; height: 8px; border-radius: 50%; background: var(--marigold); display: inline-block; }
+.where { font: 13px/1 var(--f-mono); color: var(--milk); mix-blend-mode: difference; }
+.pill { margin-left: 0; font: 600 13px/1 var(--f-display); background: var(--rose); color: var(--ink); text-decoration: none; padding: 10px 16px; border-radius: 999px; }
+.pill:focus-visible, a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--marigold); outline-offset: 3px; }
+
+/* hero */
+.hero { position: relative; background: var(--cobalt); color: var(--milk); padding-block: 120px 0; overflow: hidden; }
+.hero h1 { font: 800 clamp(84px, 22vw, 320px)/.82 var(--f-display); letter-spacing: -.045em; margin: 0; display: flex; align-items: baseline; flex-wrap: wrap; gap: 0 .12em; }
+.hero h1 .ta { font-family: var(--f-tamil-display); font-weight: 900; color: var(--rose); font-size: .62em; letter-spacing: 0; }
+.notes { font: 15px/1.7 var(--f-mono); margin: 28px 0 0; padding: 0; list-style: none; max-width: 44ch; }
+.notes li::before { content: "> "; color: var(--rose); }
+.stage { position: relative; height: clamp(220px, 34vw, 380px); margin-top: 24px; }
+.floor { position: absolute; inset: auto 0 0; height: 34%; }
+.hero .floor { background: #d9c8b2; }
+.obj { position: absolute; left: 50%; bottom: 18%; transform: translateX(-50%); width: clamp(150px, 22vw, 240px); }
+.obj svg { width: 100%; height: auto; display: block; overflow: visible; }
+.foot { display: flex; justify-content: space-between; gap: 16px; font: 12px/1 var(--f-mono); letter-spacing: .06em; text-transform: uppercase; padding-block: 0 14px; position: absolute; left: 0; right: 0; bottom: 0; color: var(--ink); }
+
+/* manifesto intro */
+.intro { background: var(--cobalt); color: var(--milk); padding-block: 90px 110px; }
+.eyebrow { font: 13px/1 var(--f-mono); color: var(--rose); margin: 0 0 18px; }
+.big { font: 400 clamp(30px, 4.6vw, 64px)/1.08 var(--f-display); letter-spacing: -.02em; margin: 0; max-width: 18ch; text-wrap: balance; }
+.big em { font-family: var(--f-serif); font-style: italic; font-weight: 400; }
+.flow { max-width: 62ch; font-size: clamp(18px, 1.6vw, 21px); margin: 36px 0 0; display: grid; gap: 18px; }
+.flow p { margin: 0; }
+.giant { font: 800 clamp(96px, 26vw, 380px)/.8 var(--f-display); letter-spacing: -.05em; color: var(--rose); margin: 70px 0 0; }
+.w { transition: opacity .35s ease; }
+.js .dim .w { opacity: .28; }
+.js .dim .w.on { opacity: 1; }
+
+/* rooms */
+.room { position: relative; overflow: hidden; color: var(--ink); }
+.room .wall { padding-block: 110px 40px; position: relative; }
+.room .num { font: 600 clamp(40px, 5vw, 64px)/1 var(--f-tamil-display); opacity: .9; }
+.room .word { position: relative; font: 900 clamp(76px, 17vw, 260px)/.9 var(--f-tamil-display); margin: 6px 0 0; letter-spacing: -.01em; white-space: nowrap; will-change: transform; }
+.room .gloss { font: italic 400 clamp(34px, 5vw, 72px)/1 var(--f-serif); margin: 6px 0 0; }
+.room .grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 44px 56px; margin-top: 48px; align-items: start; }
+.verse { min-width: 0; }
+.verse + .verse { margin-top: 30px; }
+.verse .ta { font: 600 clamp(19px, 1.9vw, 25px)/1.6 var(--f-tamil); margin: 0; }
+.verse .en { font: italic 400 clamp(20px, 1.9vw, 25px)/1.35 var(--f-serif); margin: 10px 0 0; max-width: 40ch; }
+.verse .src { font: 13px/1.4 var(--f-mono); margin: 10px 0 0; opacity: .8; }
+.lens { min-width: 0; display: grid; gap: 26px; }
+.lens h3 { font: 13px/1 var(--f-mono); text-transform: lowercase; margin: 0 0 8px; letter-spacing: .04em; }
+.lens h3::before { content: "## "; opacity: .55; }
+.lens p { margin: 0; font-size: clamp(17px, 1.45vw, 19px); max-width: 46ch; }
+.thread { font: 13px/1.5 var(--f-mono); margin-top: 34px; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+.dots { display: inline-flex; gap: 5px; }
+.dots b { width: 11px; height: 11px; border-radius: 50%; display: inline-block; border: 1.5px solid currentColor; }
+.dots b.on { background: currentColor; }
+.room .stage { margin-top: 0; }
+
+/* palettes per room */
+.r1 .wall { background: var(--sky); } .r1 .stage { background: var(--sky); } .r1 .floor { background: var(--grass); }
+.r2 .wall, .r2 .stage { background: var(--rose); } .r2 .floor { background: #b8572f; }
+.r3 { color: var(--milk); } .r3 .wall, .r3 .stage { background: var(--indigo); } .r3 .floor { background: #0d0b1f; } .r3 .foot { color: var(--milk); }
+.r4 { color: var(--milk); } .r4 .wall, .r4 .stage { background: var(--kumkum); } .r4 .floor { background: #5e140a; } .r4 .foot { color: var(--milk); }
+.r5 .wall, .r5 .stage { background: var(--marigold); } .r5 .floor { background: var(--temple); } .r5 .foot { color: var(--milk); }
+.r6 { color: var(--milk); } .r6 .wall, .r6 .stage { background: var(--cobalt-deep); } .r6 .floor { background: var(--milk); }
+.r7 .wall, .r7 .stage { background: var(--lilac); } .r7 .floor { background: var(--ink); } .r7 .foot { color: var(--milk); }
+.r8 .wall, .r8 .stage { background: var(--rose); } .r8 .floor { background: var(--marigold); }
+
+/* carry-forward list */
+.code { background: var(--temple); color: var(--milk); padding-block: 110px; }
+.cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 64px; margin-top: 46px; }
+.cols h3 { font: 13px/1 var(--f-mono); color: var(--marigold); margin: 0 0 16px; }
+.cols ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 12px; font-size: clamp(19px, 1.7vw, 23px); }
+.cols li { padding-left: 1.4em; position: relative; }
+.cols li::before { content: "→"; position: absolute; left: 0; color: var(--rose); }
+.cols .leave li::before { content: "×"; color: var(--marigold); }
+.sign { font: italic 400 clamp(26px, 3vw, 40px)/1.2 var(--f-serif); margin-top: 70px; max-width: 30ch; }
+.sign small { display: block; font: 13px/1.6 var(--f-mono); font-style: normal; margin-top: 14px; opacity: .8; }
+
+/* appendix */
+.appx { background: var(--paper); color: var(--ink); padding-block: 100px 80px; }
+.appx h2 { font: 800 clamp(44px, 7vw, 104px)/.9 var(--f-display); letter-spacing: -.035em; margin: 0; }
+.appx h2 em { font-family: var(--f-serif); font-weight: 400; letter-spacing: 0; }
+.appx .lede { max-width: 62ch; margin: 22px 0 0; font-size: 18px; }
+.stats { display: flex; flex-wrap: wrap; gap: 12px 40px; margin-top: 44px; }
+.stat b { display: block; font: 800 clamp(34px, 4vw, 54px)/1 var(--f-display); letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.stat span { font: 13px/1.4 var(--f-mono); }
+.appx-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 48px; margin-top: 64px; align-items: start; }
+.panel h3 { font: 600 20px/1.2 var(--f-display); margin: 0 0 6px; }
+.panel .cap { font: 13px/1.5 var(--f-mono); margin: 0 0 16px; color: #4a4d5e; }
+#chord { width: 100%; max-width: 460px; height: auto; display: block; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font: 13px/1.4 var(--f-mono); margin-top: 10px; }
+.legend i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 6px; vertical-align: -1px; }
+.search { width: 100%; font: 16px var(--f-display); padding: 10px 12px; border: 1.5px solid var(--ink); border-radius: 8px; background: #fff; color: var(--ink); }
+.clist { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 2px; max-height: 560px; overflow-y: auto; border-top: 1.5px solid var(--ink); }
+.clist li { display: grid; grid-template-columns: minmax(0, 7.5em) minmax(0, 1fr) 84px; gap: 12px; align-items: center; padding: 9px 2px; border-bottom: 1px solid #c9ccd8; }
+.clist .tm { font: 600 17px/1.2 var(--f-tamil); }
+.clist .id { font: 12px/1.2 var(--f-mono); color: #4a4d5e; display: block; margin-top: 3px; }
+.clist .gl { font-size: 14px; line-height: 1.35; min-width: 0; }
+.bar { display: flex; height: 10px; border-radius: 3px; overflow: hidden; background: #d9dbe4; }
+.bar span { display: block; height: 100%; }
+.more { margin-top: 12px; font: 600 14px var(--f-display); background: var(--ink); color: var(--paper); border: 0; padding: 10px 16px; border-radius: 999px; cursor: pointer; }
+.atlas { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px 30px; align-items: center; margin-top: 64px; padding: 28px; background: var(--cobalt); color: var(--milk); border-radius: 14px; }
+.atlas p { margin: 0; max-width: 56ch; }
+.atlas a { font: 600 15px/1 var(--f-display); background: var(--rose); color: var(--ink); text-decoration: none; padding: 14px 20px; border-radius: 999px; white-space: nowrap; }
+.method { margin-top: 48px; font: 14px/1.7 var(--f-mono); max-width: 80ch; color: #3c3f4f; }
+.method p { margin: 0 0 10px; }
+
+/* objects */
+.flame { transform-origin: 50% 100%; animation: flick 2.6s ease-in-out infinite; }
+@keyframes flick { 0%,100% { transform: scale(1, 1) rotate(-1deg); } 30% { transform: scale(.94, 1.08) rotate(2deg); } 60% { transform: scale(1.04, .95) rotate(-2deg); } }
+.drop { animation: drop 4.2s ease-in-out infinite; transform-origin: 50% 0; }
+@keyframes drop { 0%, 70%, 100% { transform: translateY(0) scale(1); } 85% { transform: translateY(3px) scale(1.05, .96); } }
+.beat { animation: beat 1.6s ease-in-out infinite; transform-origin: 50% 50%; }
+@keyframes beat { 0%, 100% { transform: scale(1); } 15% { transform: scale(1.06); } 30% { transform: scale(.99); } }
+.float { animation: float 6s ease-in-out infinite; }
+@keyframes float { 0%, 100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-12px) rotate(4deg); } }
+.glow { animation: glow 3.4s ease-in-out infinite; }
+@keyframes glow { 0%, 100% { opacity: .35; } 50% { opacity: .8; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } html { scroll-behavior: auto; } }
+
+@media (max-width: 820px) {
+  .room .grid, .cols, .appx-grid, .atlas { grid-template-columns: minmax(0, 1fr); }
+  .clist li { grid-template-columns: minmax(0, 6.5em) minmax(0, 1fr); }
+  .clist .bar { grid-column: 1 / -1; }
+  .where { display: none; }
+}
+
+/* language: English for the world, Tamil for the roots */
+.lang { margin-left: auto; display: flex; gap: 2px; padding: 3px; border-radius: 999px; background: rgba(22,22,29,.82); }
+.lang button { font: 600 13px/1 var(--f-display); border: 0; background: transparent; color: var(--milk); padding: 8px 12px; border-radius: 999px; cursor: pointer; }
+.lang button[lang="ta"] { font-family: var(--f-tamil-display); }
+.lang button[aria-pressed="true"] { background: var(--milk); color: var(--ink); }
+html:not(.l-ta) .ta-only, .l-ta .en-only { display: none !important; }
+.room .kicker { font: 600 clamp(20px, 2.4vw, 30px)/1.2 var(--f-tamil-display); margin: 18px 0 0; }
+.room .kicker i { font: 14px/1 var(--f-mono); font-style: normal; letter-spacing: .05em; opacity: .75; margin-left: 10px; }
+.l-ta .room .kicker i { margin-left: 0; }
+.room .word .w-en { font: 800 clamp(34px, 11.5vw, 200px)/.92 var(--f-display); letter-spacing: -.045em; }
+.l-ta { --f-display: "Catamaran", "Bricolage Grotesque", sans-serif; --f-serif: "Noto Serif Tamil", "Instrument Serif", serif; --f-mono: "Cutive Mono", "Catamaran", monospace; }
+.l-ta em, .l-ta .gloss, .l-ta .sign, .l-ta .verse .en { font-style: normal; }
+.l-ta .room .gloss { font: 600 clamp(26px, 3.4vw, 48px)/1.3 var(--f-tamil); }
+.l-ta .big { font-size: clamp(26px, 3.6vw, 50px); line-height: 1.3; letter-spacing: 0; max-width: 22ch; }
+.l-ta .sign { font-size: clamp(22px, 2.4vw, 32px); line-height: 1.45; }
+.l-ta .giant { font-family: var(--f-tamil-display); font-weight: 900; letter-spacing: 0; font-size: clamp(90px, 22vw, 320px); }
+.l-ta .appx h2 { font-size: clamp(36px, 5.5vw, 80px); line-height: 1.1; letter-spacing: 0; }
+.l-ta .verse .en { display: none; }
+.room .word .w-ta { font-size: clamp(34px, 11.5vw, 210px); }
+.l-ta .big { max-width: 28ch; }
+.l-ta .thread, .l-ta .lens h3, .l-ta .eyebrow, .l-ta .foot, .l-ta .cap, .l-ta .verse .src, .l-ta .stat span,
+.l-ta .cols h3, .l-ta .where, .l-ta .notes, .l-ta .sign small, .l-ta .method p { font-size: 15px; letter-spacing: 0; }
+.l-ta .lens p, .l-ta .flow p, .l-ta .lede, .l-ta .atlas p, .l-ta .method p { line-height: 1.7; }
+@media (max-width: 640px) { .lang button { padding: 7px 10px; } .pill { padding: 9px 12px; } }
+</style>
+
+<header class="mast">
+  <a class="brand" href="#top"><i aria-hidden="true"></i>NILAI</a>
+  <span class="where" id="where">## what stays</span>
+  <div class="lang" role="group" aria-label="Language / மொழி"><button type="button" data-l="en" aria-pressed="true" aria-label="English">EN</button><button type="button" data-l="ta" aria-pressed="false" lang="ta">தமிழ்</button></div>
+  <a class="pill" href="#appendix">appendix</a>
+</header>
+
+<section class="hero" id="top" aria-label="Nilai">
+  <div class="wrap">
+    <h1>NILAI <span class="ta" lang="ta">நிலை</span></h1>
+    <ul class="notes">
+      <li>what stays, in a language that has stayed.</li>
+      <li>four books, 5,838 verses, 6,660 threads.</li>
+      <li>carried forward for the world we are building with machines.</li>
+    </ul>
+  </div>
+  <div class="stage" aria-hidden="true">
+    <div class="floor"></div>
+    <div class="obj">
+      <!-- agal vilakku: the clay oil lamp -->
+      <svg viewBox="0 0 200 200">
+        <ellipse cx="100" cy="186" rx="70" ry="8" fill="#000" opacity=".18"/>
+        <circle class="glow" cx="100" cy="70" r="58" fill="#f4a417" opacity=".45"/>
+        <path class="flame" d="M100 30 C112 52 118 66 112 82 C108 92 92 92 88 82 C82 66 88 52 100 30 Z" fill="#ffd25e"/>
+        <path class="flame" d="M100 50 C106 62 108 72 104 80 C102 85 98 85 96 80 C92 72 94 62 100 50 Z" fill="#fff4cc"/>
+        <rect x="98" y="84" width="4" height="12" fill="#3a1d0c"/>
+        <path d="M40 112 C60 96 140 96 168 104 L158 120 C146 150 122 162 100 162 C72 162 52 148 40 112 Z" fill="#b8572f"/>
+        <path d="M40 112 C70 104 130 102 168 104" stroke="#7a3016" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <rect x="84" y="160" width="32" height="20" rx="4" fill="#9a4622"/>
+      </svg>
+    </div>
+    <div class="foot wrap"><span>tamil · over two thousand years</span><span>scroll</span></div>
+  </div>
+</section>
+
+<section class="intro" aria-label="What this is">
+  <div class="wrap">
+    <p class="eyebrow">## what this is</p>
+    <p class="big dim" data-words>Tamil has been written and spoken for more than two thousand years, <em>unbroken.</em></p>
+    <div class="flow">
+      <p>Its poets argued about the same things we argue about: time, bodies, desire, money, knowledge, love. They wrote in verses short enough to carry in your head, because a head was what people carried.</p>
+      <p>We asked machines to read four of those books closely, verse by verse, and to draw every thread between them. A couplet from the first centuries talks to a hymn from the fifteenth. A Jain moralist argues with a Saiva yogi. A devotee answers both.</p>
+      <p>Eight ideas kept surfacing. They feel more urgent now than when they were written, at the moment we start building a future alongside minds that are not human.</p>
+    </div>
+    <p class="giant" aria-hidden="true">still.</p>
+  </div>
+</section>
+
+<!-- ௧ impermanence -->
+<section class="room r1" id="r1" data-label="௧ impermanence" aria-labelledby="h1">
+  <div class="wall wrap">
+    <div class="num" aria-hidden="true">௧</div>
+    <p class="kicker"><span class="en-only" lang="ta">நிலையாமை <i lang="en">nilaiyaamai</i></span><span class="ta-only"><i>impermanence</i></span></p>
+    <h2 class="word" id="h1" data-drift><span class="w-en en-only">impermanence</span><span class="w-ta ta-only" lang="ta">நிலையாமை</span></h2>
+    <p class="gloss">nothing stays. so begin.</p>
+    <div class="grid">
+      <div>
+        <div class="verse">
+          <p class="ta" lang="ta">அடப்பண்ணி வைத்தார் அடிசிலை உண்டார்<br>மடக்கொடி யாரொடு மந்தணங் கொண்டார்<br>இடப்பக்க மேஇறை நொந்தது என்றார்<br>கிடக்கப் படுத்தார் கிடந்தொழிந் தாரே.</p>
+          <p class="en">He had his meal cooked, and ate it. He talked quietly with his wife. He said his left side ached a little. He lay down, and lay there, gone.</p>
+          <p class="src">Tirumanthiram 148 · Tirumular</p>
+        </div>
+        <div class="verse">
+          <p class="ta" lang="ta">புல்நுனிமேல் நீர்போல் நிலையாமை என்றெண்ணி<br>இன்னினியே செய்க அறவினை</p>
+          <p class="en">Life sits like water on the tip of a blade of grass. Do the good thing now. Right now.</p>
+          <p class="src">Naladiyar 29</p>
+        </div>
+      </div>
+      <div class="lens">
+        <div><h3>in your life</h3><p>The call you mean to make, the apology you are saving for a better moment, the work you will start once things calm down. These poets watched a man eat dinner and die before bed, and they did not draw despair from it. They drew a deadline.</p></div>
+        <div><h3>in the future we build</h3><p>Machines will give us more of almost everything: more answers, more hours of output, perhaps more years. The one thing that stays scarce is the moment you are in. A civilisation with infinite tools still has to choose, today, what is worth doing.</p></div>
+      </div>
+    </div>
+    <p class="thread"><span class="dots" title="present in all four books"><b class="on"></b><b class="on"></b><b class="on"></b><b class="on"></b></span> <span>impermanence runs through 211 verses in all four books</span></p>
+  </div>
+  <div class="stage" aria-hidden="true">
+    <div class="floor"></div>
+    <div class="obj">
+      <!-- dew on the tip of a blade of grass -->
+      <svg viewBox="0 0 200 200">
+        <path d="M96 190 C94 140 104 92 132 40" stroke="#2c5521" stroke-width="9" fill="none" stroke-linecap="round"/>
+        <path d="M100 190 C84 150 66 126 40 108" stroke="#4f8a3b" stroke-width="7" fill="none" stroke-linecap="round"/>
+        <path d="M104 190 C118 156 140 140 168 132" stroke="#3d6b2e" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <g class="drop"><path d="M134 38 C126 52 124 64 134 70 C144 64 142 52 134 38 Z" fill="#e8f6ff" stroke="#ffffff" stroke-width="2"/><circle cx="131" cy="58" r="3" fill="#fff"/></g>
+      </svg>
+    </div>
+    <div class="foot wrap"><span>water on a blade of grass</span><span>௧ / ௮</span></div>
+  </div>
+</section>
+
+<!-- ௨ the body -->
+<section class="room r2" id="r2" data-label="௨ the body" aria-labelledby="h2">
+  <div class="wall wrap">
+    <div class="num" aria-hidden="true">௨</div>
+    <p class="kicker"><span class="en-only" lang="ta">உடம்பு <i lang="en">udambu</i></span><span class="ta-only"><i>the body</i></span></p>
+    <h2 class="word" id="h2" data-drift><span class="w-en en-only">the body</span><span class="w-ta ta-only" lang="ta">உடம்பு</span></h2>
+    <p class="gloss">the body is a temple you live in.</p>
+    <div class="grid">
+      <div>
+        <div class="verse">
+          <p class="ta" lang="ta">உடம்பினை முன்னம் இழுக்கென் றிருந்தேன்<br>உடம்பினுக் குள்ளே யுறுபொருள் கண்டேன்<br>உடம்புளே உத்தமன் கோயில்கொண் டான் என்று<br>உடம்பினை யானிருந் தோம்புகின் றேனே</p>
+          <p class="en">I once thought the body a thing of shame. Then inside the body I found what matters. Knowing the Highest has made the body his temple, I now take care of it.</p>
+          <p class="src">Tirumanthiram 725 · Tirumular</p>
+        </div>
+        <div class="verse">
+          <p class="ta" lang="ta">உள்ளம் பெருங்கோயில் ஊனுடம்பு ஆலயம்</p>
+          <p class="en">The heart is the great temple. The body of flesh is the shrine.</p>
+          <p class="src">Tirumanthiram 1823</p>
+        </div>
+      </div>
+      <div class="lens">
+        <div><h3>in your life</h3><p>An older book next to this one called the body a leaking pot wrapped in skin. Tirumular had believed that too, and changed his mind. Somewhere between the body as trophy and the body as trash is the body as a place you live and look after, because what you love is housed there.</p></div>
+        <div><h3>in the future we build</h3><p>We are learning to measure, edit and extend the body with machines. The poets ask the question that comes before every upgrade: what is this body for? Tend it like a shrine, and the answer stays in view.</p></div>
+      </div>
+    </div>
+    <p class="thread"><span class="dots" title="present in all four books"><b class="on"></b><b class="on"></b><b class="on"></b><b class="on"></b></span> <span>one thread, three voices: the body as carcass, as temple, and as neither</span></p>
+  </div>
+  <div class="stage" aria-hidden="true">
+    <div class="floor"></div>
+    <div class="obj">
+      <!-- gopuram: the temple tower, with a lit doorway -->
+      <svg viewBox="0 0 200 200">
+        <rect x="56" y="150" width="88" height="36" fill="#8f3f1f"/>
+        <rect x="62" y="122" width="76" height="28" fill="#a84c26"/>
+        <rect x="68" y="98" width="64" height="24" fill="#b8572f"/>
+        <rect x="74" y="78" width="52" height="20" fill="#c86a3c"/>
+        <rect x="80" y="60" width="40" height="18" fill="#d77e4c"/>
+        <rect x="86" y="46" width="28" height="14" fill="#e3935e"/>
+        <path d="M90 46 Q100 26 110 46 Z" fill="#f4a417"/>
+        <circle cx="100" cy="24" r="4" fill="#f4a417"/>
+        <path class="beat" d="M100 186 L100 166 Q100 156 108 156 Q116 156 116 166 L116 186 Z M84 186 L84 166 Q84 156 92 156 Q100 156 100 166 L100 186 Z" fill="#ffd25e"/>
+      </svg>
+    </div>
+    <div class="foot wrap"><span>the body as a shrine</span><span>௨ / ௮</span></div>
+  </div>
+</section>
+
+<!-- ௩ death and longevity -->
+<section class="room r3" id="r3" data-label="௩ how long" aria-labelledby="h3">
+  <div class="wall wrap">
+    <div class="num" aria-hidden="true">௩</div>
+    <p class="kicker"><span class="en-only" lang="ta">கூற்றம் <i lang="en">kootram</i></span><span class="ta-only"><i>death</i></span></p>
+    <h2 class="word" id="h3" data-drift><span class="w-en en-only">death</span><span class="w-ta ta-only" lang="ta">கூற்றம்</span></h2>
+    <p class="gloss">the oldest argument about living longer.</p>
+    <div class="grid">
+      <div>
+        <div class="verse">
+          <p class="ta" lang="ta">கூற்றம் குதித்தலும் கைகூடும் நோற்றலின்<br>ஆற்றல் தலைப்பட் டவர்க்கு</p>
+          <p class="en">Even leaping past Death becomes possible for those who reach the power of discipline.</p>
+          <p class="src">Thirukkural 269 · Tiruvalluvar</p>
+        </div>
+        <div class="verse">
+          <p class="ta" lang="ta">கூற்றம் குதித்துய்ந்தார் ஈங்கில்லை</p>
+          <p class="en">No one here has ever leapt past Death and lived.</p>
+          <p class="src">Naladiyar 6</p>
+        </div>
+        <div class="verse">
+          <p class="ta" lang="ta">அனித்த மான வூனாளு மிருப்ப தாக வேநாசி<br>யடைதலந வாயு வோடாத வகைசாதித்</p>
+          <p class="en">Don't let me become the foolish yogi who holds his breath, sure this passing flesh will last.</p>
+          <p class="src">Thiruppugazh 355 · Arunagirinathar</p>
+        </div>
+      </div>
+      <div class="lens">
+        <div><h3>in your life</h3><p>One poet says discipline can outrun Death. Another answers with the same verb: no one ever has. A yogi promises grey hair turned black. A devotee mocks the breath-holder clinging to his flesh. A thousand years of Tamil argued about longevity with the same heat we do.</p></div>
+        <div><h3>in the future we build</h3><p>We may well add decades to a life. The books are less interested in how long than in how anxiously. Their best answer: extend the years if you can, and spend them on something larger than keeping yourself.</p></div>
+      </div>
+    </div>
+    <p class="thread"><span class="dots" title="Kural, Naladiyar, Tirumanthiram, Thiruppugazh"><b class="on"></b><b class="on"></b><b class="on"></b><b class="on"></b></span> <span>Death walks through 166 verses, and one verb, குதித்தல், to leap past</span></p>
+  </div>
+  <div class="stage" aria-hidden="true">
+    <div class="floor"></div>
+    <div class="obj">
+      <!-- the parai drum that may sound tomorrow -->
+      <svg viewBox="0 0 200 200">
+        <ellipse cx="100" cy="186" rx="62" ry="7" fill="#000" opacity=".4"/>
+        <g class="beat">
+          <ellipse cx="100" cy="112" rx="64" ry="64" fill="#e9dcc2"/>
+          <circle cx="100" cy="112" r="64" fill="none" stroke="#8a5a2b" stroke-width="10"/>
+          <circle cx="100" cy="112" r="48" fill="none" stroke="#c9b48f" stroke-width="2" stroke-dasharray="4 6"/>
+        </g>
+        <path d="M150 40 L120 92" stroke="#c9b48f" stroke-width="6" stroke-linecap="round"/>
+        <path d="M168 66 L132 100" stroke="#c9b48f" stroke-width="4" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="foot wrap"><span>tomorrow the drum may sound</span><span>௩ / ௮</span></div>
+  </div>
+</section>
+
+<!-- ௪ desire and attention -->
+<section class="room r4" id="r4" data-label="௪ attention" aria-labelledby="h4">
+  <div class="wall wrap">
+    <div class="num" aria-hidden="true">௪</div>
+    <p class="kicker"><span class="en-only" lang="ta">மயல் <i lang="en">mayal</i></span><span class="ta-only"><i>infatuation</i></span></p>
+    <h2 class="word" id="h4" data-drift><span class="w-en en-only">infatuation</span><span class="w-ta ta-only" lang="ta">மயல்</span></h2>
+    <p class="gloss">what loves you only while you pay.</p>
+    <div class="grid">
+      <div>
+        <div class="verse">
+          <p class="ta" lang="ta">விளக்கொளியும் வேசையர் நட்பும் இரண்டும்<br>துளக்கற நாடின்வே றல்ல</p>
+          <p class="en">A lamp's light and a paid lover's affection are the same thing. The light ends when the oil runs out. The love ends when the hand is empty.</p>
+          <p class="src">Naladiyar 371</p>
+        </div>
+        <div class="verse">
+          <p class="ta" lang="ta">கூற்றமோ கண்ணோ பிணையோ மடவரல்<br>நோக்கமிம் மூன்றும் உடைத்து</p>
+          <p class="en">Is it Death, an eye, or a deer? Her look holds all three.</p>
+          <p class="src">Thirukkural 1085</p>
+        </div>
+      </div>
+      <div class="lens">
+        <div><h3>in your life</h3><p>மயல், infatuation, is the Thiruppugazh's word for a mind caught by something built to catch it. The poet confesses it in a thousand songs: the glance, the invitation, the wealth that slips away. Swap the courtesan for a feed and every line still lands.</p></div>
+        <div><h3>in the future we build</h3><p>We are about to build companions that never tire of us. The test is old and simple: does it stay when the oil runs out? Build, and choose, what loves you on the day you have nothing to give.</p></div>
+      </div>
+    </div>
+    <p class="thread"><span class="dots"><b class="on"></b><b class="on"></b><b class="on"></b><b class="on"></b></span> <span>desire is the most common idea in the whole graph: 544 verses</span></p>
+  </div>
+  <div class="stage" aria-hidden="true">
+    <div class="floor"></div>
+    <div class="obj">
+      <!-- an eye that follows you -->
+      <svg viewBox="0 0 200 200" id="eye">
+        <path d="M20 112 Q100 32 180 112 Q100 192 20 112 Z" fill="#fff4ea"/>
+        <g id="pupil"><circle cx="100" cy="112" r="30" fill="#2a120b"/><circle cx="100" cy="112" r="12" fill="#000"/><circle cx="110" cy="102" r="6" fill="#fff"/></g>
+        <path d="M20 112 Q100 32 180 112" fill="none" stroke="#2a120b" stroke-width="7" stroke-linecap="round"/>
+        <path d="M30 96 L18 80 M60 74 L54 56 M100 64 L100 44 M140 74 L146 56 M170 96 L182 80" stroke="#2a120b" stroke-width="5" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="foot wrap"><span>death, an eye, or a deer</span><span>௪ / ௮</span></div>
+  </div>
+</section>
+
+<!-- ௫ giving -->
+<section class="room r5" id="r5" data-label="௫ giving" aria-labelledby="h5">
+  <div class="wall wrap">
+    <div class="num" aria-hidden="true">௫</div>
+    <p class="kicker"><span class="en-only" lang="ta">ஈகை <i lang="en">eegai</i></span><span class="ta-only"><i>giving</i></span></p>
+    <h2 class="word" id="h5" data-drift><span class="w-en en-only">giving</span><span class="w-ta ta-only" lang="ta">ஈகை</span></h2>
+    <p class="gloss">a green leaf is enough.</p>
+    <div class="grid">
+      <div>
+        <div class="verse">
+          <p class="ta" lang="ta">யாவர்க்கு மாம்இறை வற்குஒரு பச்சிலை<br>யாவர்க்கு மாம்பசு வுக்கொரு வாயுறை<br>யாவர்க்கு மாம் உண்ணும் போதொரு கைப்பிடி<br>யாவர்க்கு மாம்பிறர்க்கு இன்னுரை தானே.</p>
+          <p class="en">Anyone can give a green leaf to God, a mouthful of grass to a cow, a handful of food to another before eating, and a kind word to everyone.</p>
+          <p class="src">Tirumanthiram 252 · Tirumular</p>
+        </div>
+        <div class="verse">
+          <p class="ta" lang="ta">பகுத்துண்டு பல்லுயிர் ஓம்புதல்</p>
+          <p class="en">Share your food and keep many lives alive. Of everything the wise have gathered, this comes first.</p>
+          <p class="src">Thirukkural 322</p>
+        </div>
+      </div>
+      <div class="lens">
+        <div><h3>in your life</h3><p>Nobody here asks for a fortune. A leaf. A handful before you eat. One kind sentence. Tirumular sets the bar so low that no one can say it is out of reach, and that is the point: generosity is a daily habit, sized to fit the day.</p></div>
+        <div><h3>in the future we build</h3><p>If machines make abundance possible, sharing becomes the whole question. The old rule scales without changing a word: feed others before you eat, and measure a system by the lives it keeps.</p></div>
+      </div>
+    </div>
+    <p class="thread"><span class="dots"><b class="on"></b><b class="on"></b><b class="on"></b><b class="on"></b></span> <span>giving appears in 136 verses across all four books</span></p>
+  </div>
+  <div class="stage" aria-hidden="true">
+    <div class="floor"></div>
+    <div class="obj">
+      <!-- a single green leaf, offered -->
+      <svg viewBox="0 0 200 200">
+        <ellipse cx="100" cy="188" rx="46" ry="6" fill="#000" opacity=".25"/>
+        <g class="float">
+          <path d="M100 30 C150 60 160 120 100 168 C40 120 50 60 100 30 Z" fill="#3f8f3a"/>
+          <path d="M100 40 L100 160" stroke="#d8f0c0" stroke-width="3"/>
+          <path d="M100 80 L130 64 M100 104 L136 90 M100 128 L130 118 M100 80 L70 64 M100 104 L64 90 M100 128 L70 118" stroke="#d8f0c0" stroke-width="2" fill="none"/>
+        </g>
+      </svg>
+    </div>
+    <div class="foot wrap"><span>a leaf, a handful, a kind word</span><span>௫ / ௮</span></div>
+  </div>
+</section>
+
+<!-- ௬ learning -->
+<section class="room r6" id="r6" data-label="௬ learning" aria-labelledby="h6">
+  <div class="wall wrap">
+    <div class="num" aria-hidden="true">௬</div>
+    <p class="kicker"><span class="en-only" lang="ta">கல்வி <i lang="en">kalvi</i></span><span class="ta-only"><i>learning</i></span></p>
+    <h2 class="word" id="h6" data-drift><span class="w-en en-only">learning</span><span class="w-ta ta-only" lang="ta">கல்வி</span></h2>
+    <p class="gloss">drink the milk, leave the water.</p>
+    <div class="grid">
+      <div>
+        <div class="verse">
+          <p class="ta" lang="ta">கல்வி கரையில கற்பவர் நாள்சில<br>மெல்ல நினைக்கின் பிணிபல</p>
+          <p class="en">Learning has no shore. Learners have few days, and many troubles. So the wise choose what to learn, like the swan that drinks the milk and leaves the water.</p>
+          <p class="src">Naladiyar 135</p>
+        </div>
+        <div class="verse">
+          <p class="ta" lang="ta">கேடில் விழுச்செல்வம் கல்வி யொருவற்கு<br>மாடல்ல மற்றை யவை</p>
+          <p class="en">Learning is the wealth that cannot be destroyed. Nothing else counts as wealth.</p>
+          <p class="src">Thirukkural 400</p>
+        </div>
+      </div>
+      <div class="lens">
+        <div><h3>in your life</h3><p>The Naladiyar saw the problem of infinite information fifteen hundred years early. There is more to know than any life can hold, so the skill that matters is choosing: separating what nourishes from what only fills.</p></div>
+        <div><h3>in the future we build</h3><p>Machines will hold the ocean. What they hand back is milk and water mixed. The human part of learning becomes the swan's part: discernment, taste, knowing what is worth a few short days.</p></div>
+      </div>
+    </div>
+    <p class="thread"><span class="dots"><b class="on"></b><b class="on"></b><b class="on"></b><b class="on"></b></span> <span>learning appears in 149 verses, and one song even counts it among the bonds to drop</span></p>
+  </div>
+  <div class="stage" aria-hidden="true">
+    <div class="floor"></div>
+    <div class="obj">
+      <!-- the swan that parts milk from water -->
+      <svg viewBox="0 0 200 200">
+        <ellipse cx="100" cy="176" rx="74" ry="12" fill="#9cc6e8"/>
+        <ellipse cx="80" cy="176" rx="34" ry="7" fill="#ffffff"/>
+        <path d="M60 160 C60 130 96 124 126 136 C150 146 158 160 150 168 C130 178 76 176 60 160 Z" fill="#ffffff" stroke="#16161d" stroke-width="3"/>
+        <path d="M128 140 C140 110 128 82 110 74 C98 68 92 80 100 84" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+        <path d="M128 140 C140 110 128 82 110 74 C98 68 92 80 100 84" fill="none" stroke="#16161d" stroke-width="3" stroke-linecap="round"/>
+        <path d="M100 84 L86 90 L98 92 Z" fill="#f4a417"/>
+        <circle cx="108" cy="78" r="2.5" fill="#16161d"/>
+      </svg>
+    </div>
+    <div class="foot wrap"><span>the swan's discernment</span><span>௬ / ௮</span></div>
+  </div>
+</section>
+
+<!-- ௭ letting go -->
+<section class="room r7" id="r7" data-label="௭ letting go" aria-labelledby="h7">
+  <div class="wall wrap">
+    <div class="num" aria-hidden="true">௭</div>
+    <p class="kicker"><span class="en-only" lang="ta">பற்று <i lang="en">patru</i></span><span class="ta-only"><i>letting go</i></span></p>
+    <h2 class="word" id="h7" data-drift><span class="w-en en-only">letting go</span><span class="w-ta ta-only" lang="ta">பற்று</span></h2>
+    <p class="gloss">hold the one thing that lets you let go.</p>
+    <div class="grid">
+      <div>
+        <div class="verse">
+          <p class="ta" lang="ta">பற்றுக பற்றற்றான் பற்றினை அப்பற்றைப்<br>பற்றுக பற்று விடற்கு</p>
+          <p class="en">Cling to the one who clings to nothing. Cling to that, so you can let go of clinging.</p>
+          <p class="src">Thirukkural 350</p>
+        </div>
+        <div class="verse">
+          <p class="ta" lang="ta">ஆசை யறுமின்கள் ஆசை யறுமின்கள்<br>ஈசனோ டாயினும் ஆசை யறுமின்கள்</p>
+          <p class="en">Cut desire. Cut desire. Cut it even when it is desire for God. The more you let go, the more it turns to joy.</p>
+          <p class="src">Tirumanthiram 2615</p>
+        </div>
+      </div>
+      <div class="lens">
+        <div><h3>in your life</h3><p>Valluvar's couplet uses the word for clinging six times in seven words, until it starts to loosen in your mouth. You cannot hold nothing. So hold one steady thing, and let it make the rest of your grip gentle. Tirumular pushes further, and the two have argued about it ever since.</p></div>
+        <div><h3>in the future we build</h3><p>The more we can own, keep and automate, the harder this gets, and the more it matters. Choose what you hold on purpose. Everything else, hold loosely.</p></div>
+      </div>
+    </div>
+    <p class="thread"><span class="dots"><b class="on"></b><b class="on"></b><b class="on"></b><b class="on"></b></span> <span>clinging and its release run through 90 verses</span></p>
+  </div>
+  <div class="stage" aria-hidden="true">
+    <div class="floor"></div>
+    <div class="obj">
+      <!-- an open hand, a seed lifting away -->
+      <svg viewBox="0 0 200 200">
+        <path d="M44 150 C44 128 60 120 70 128 L70 92 C70 84 82 84 82 92 L82 120 L84 80 C84 72 96 72 96 80 L96 120 L98 84 C98 76 110 76 110 84 L110 122 L112 96 C112 88 124 88 124 96 L124 140 C124 164 108 178 84 178 C62 178 44 168 44 150 Z" fill="#f2c9a5" stroke="#16161d" stroke-width="3"/>
+        <g class="float"><circle cx="146" cy="56" r="6" fill="#f6f4ef"/><path d="M146 50 L140 30 M146 50 L152 30 M146 50 L132 38 M146 50 L160 38 M146 50 L146 26" stroke="#f6f4ef" stroke-width="1.5"/></g>
+      </svg>
+    </div>
+    <div class="foot wrap"><span>an open hand</span><span>௭ / ௮</span></div>
+  </div>
+</section>
+
+<!-- ௮ love -->
+<section class="room r8" id="r8" data-label="௮ love" aria-labelledby="h8">
+  <div class="wall wrap">
+    <div class="num" aria-hidden="true">௮</div>
+    <p class="kicker"><span class="en-only" lang="ta">அன்பு <i lang="en">anbu</i></span><span class="ta-only"><i>love</i></span></p>
+    <h2 class="word" id="h8" data-drift><span class="w-en en-only">love</span><span class="w-ta ta-only" lang="ta">அன்பு</span></h2>
+    <p class="gloss">love is the thing itself.</p>
+    <div class="grid">
+      <div>
+        <div class="verse">
+          <p class="ta" lang="ta">அன்பு சிவம் இரண்டு என்பர் அறிவிலார்<br>அன்பே சிவமாவது ஆரும் அறிகிலார்</p>
+          <p class="en">The unknowing say love and God are two. No one sees that love itself is God. Once they see it, they rest as love.</p>
+          <p class="src">Tirumanthiram 270 · Tirumular</p>
+        </div>
+        <div class="verse">
+          <p class="ta" lang="ta">அன்பிலார் எல்லாம் தமக்குரியர் அன்புடையார்<br>என்பும் உரியர் பிறர்க்கு</p>
+          <p class="en">The loveless keep everything for themselves. The loving belong to others, down to their bones.</p>
+          <p class="src">Thirukkural 72</p>
+        </div>
+        <div class="verse">
+          <p class="ta" lang="ta">அன்பின் வழியது உயிர்நிலை</p>
+          <p class="en">Life stays where love goes. Without it, a body is bones wrapped in skin.</p>
+          <p class="src">Thirukkural 80</p>
+        </div>
+      </div>
+      <div class="lens">
+        <div><h3>in your life</h3><p>After seven rooms of warnings, this is the one instruction they all agree on. அன்பே சிவம், love is God, became a saying people repeat in Tamil homes today. Valluvar puts it in the body: love is what keeps you from being only bones.</p></div>
+        <div><h3>in the future we build</h3><p>We will build minds that can do almost anything. The oldest test still applies to them, and to us: does it belong to others, down to its bones? Build for that, and the future keeps the best of what this language kept for two thousand years.</p></div>
+      </div>
+    </div>
+    <p class="thread"><span class="dots"><b class="on"></b><b class="on"></b><b class="on"></b><b class="on"></b></span> <span>love appears in 179 verses, in every book</span></p>
+  </div>
+  <div class="stage" aria-hidden="true">
+    <div class="floor"></div>
+    <div class="obj">
+      <!-- the lamp again, now a row of lamps -->
+      <svg viewBox="0 0 220 200">
+        <g transform="translate(0 40) scale(.6)"><circle class="glow" cx="100" cy="70" r="58" fill="#fff4cc" opacity=".5"/><path class="flame" d="M100 30 C112 52 118 66 112 82 C108 92 92 92 88 82 C82 66 88 52 100 30 Z" fill="#ffd25e"/><path d="M40 112 C60 96 140 96 168 104 L158 120 C146 150 122 162 100 162 C72 162 52 148 40 112 Z" fill="#b8572f"/></g>
+        <g transform="translate(46 0) scale(.75)"><circle class="glow" cx="100" cy="70" r="58" fill="#fff4cc" opacity=".5"/><path class="flame" d="M100 30 C112 52 118 66 112 82 C108 92 92 92 88 82 C82 66 88 52 100 30 Z" fill="#ffd25e"/><path d="M40 112 C60 96 140 96 168 104 L158 120 C146 150 122 162 100 162 C72 162 52 148 40 112 Z" fill="#b8572f"/><rect x="84" y="160" width="32" height="40" rx="4" fill="#9a4622"/></g>
+        <g transform="translate(110 40) scale(.6)"><circle class="glow" cx="100" cy="70" r="58" fill="#fff4cc" opacity=".5"/><path class="flame" d="M100 30 C112 52 118 66 112 82 C108 92 92 92 88 82 C82 66 88 52 100 30 Z" fill="#ffd25e"/><path d="M40 112 C60 96 140 96 168 104 L158 120 C146 150 122 162 100 162 C72 162 52 148 40 112 Z" fill="#b8572f"/></g>
+      </svg>
+    </div>
+    <div class="foot wrap"><span>lamps passed hand to hand</span><span>௮ / ௮</span></div>
+  </div>
+</section>
+
+<section class="code" id="carry" data-label="## carry forward" aria-labelledby="hc">
+  <div class="wrap">
+    <p class="eyebrow" style="color:var(--marigold)">## the code we keep</p>
+    <h2 class="big" id="hc">Eight ideas, two thousand years old, for a future <em>we build together.</em></h2>
+    <div class="cols">
+      <div>
+        <h3>carry forward</h3>
+        <ul>
+          <li>begin the good thing today</li>
+          <li>look after the body you live in</li>
+          <li>spend the extra years on something larger than yourself</li>
+          <li>choose what stays when the oil runs out</li>
+          <li>feed someone before you eat</li>
+          <li>learn like the swan</li>
+          <li>hold one thing steady, the rest loosely</li>
+          <li>belong to others, down to the bone</li>
+        </ul>
+      </div>
+      <div class="leave">
+        <h3>leave behind</h3>
+        <ul>
+          <li>waiting for a calmer week</li>
+          <li>the body as trophy, the body as trash</li>
+          <li>living longer, anxiously</li>
+          <li>anything that loves you only while you pay</li>
+          <li>generosity saved for someday</li>
+          <li>mistaking more information for wisdom</li>
+          <li>a grip on everything</li>
+          <li>a life that belongs only to itself</li>
+        </ul>
+      </div>
+    </div>
+    <p class="sign">These verses outlived empires, printing presses and palm leaves. They can outlive us too, if we carry them.<small>read by machines, verse by verse · not yet reviewed by a Tamil scholar · every quote is from the original text</small></p>
+  </div>
+</section>
+
+<section class="appx" id="appendix" data-label="## appendix" aria-labelledby="ha">
+  <div class="wrap">
+    <h2 id="ha">appendix: <em>the graph underneath</em></h2>
+    <p class="lede">Every room above stands on a knowledge graph. Four Tamil books were read in full, each verse given a reading and concepts, and every link between verses was proposed by one reader and graded blind by another.</p>
+    <div class="stats" id="stats"></div>
+    <div class="appx-grid">
+      <div class="panel">
+        <h3>How the books talk to each other</h3>
+        <p class="cap">sound links only. ribbon width = links between two books; circle size = links inside a book.</p>
+        <svg id="chord" viewBox="0 0 460 460" role="img" aria-label="Links between the four books"></svg>
+        <div class="legend" id="legend"></div>
+      </div>
+      <div class="panel">
+        <h3>Every concept</h3>
+        <p class="cap">246 shared ideas. the bar shows how many verses of each book carry it.</p>
+        <label for="q" class="cap" style="display:block;margin:0 0 6px">search in English or Tamil</label>
+        <input id="q" class="search" type="search" placeholder="love, அன்பு, death, body…" autocomplete="off">
+        <ul class="clist" id="clist"></ul>
+        <button class="more" id="more" type="button">show all 246</button>
+      </div>
+    </div>
+    <div class="atlas">
+      <p>The full atlas holds every verse, every reading, all 6,660 links with their grades and notes, and threads that run across the books. Click any verse to follow where it leads.</p>
+      <a href="https://claude.ai/artifact/8ypxS56cp7tjru16nV3d3K" target="_blank" rel="noopener">open the full atlas</a>
+    </div>
+    <div class="method">
+      <p>## the books. Thirukkural, Tiruvalluvar (couplets, early centuries CE). Naladiyar (Jain quatrains, roughly 6th to 8th century). Tirumanthiram, Tirumular (Saiva verses on ethics, yoga and grace). Thiruppugazh, Arunagirinathar (songs to Murugan, 15th century).</p>
+      <p>## the method. Tamil texts from Project Madurai. Readings, concepts and links were made by Claude and graded blind by separate Claude agents, with links of known grade hidden in every batch to measure how strict the graders were. English lines on this page are fresh, plain renderings of those readings.</p>
+      <p>## the limits. Nothing here has been reviewed by a Tamil scholar yet. Many Tirumanthiram verses are obscure, and their readings are marked uncertain in the atlas.</p>
+    </div>
+  </div>
+</section>
+
+<script>
+const DATA = {"verses":{"kural":1330,"naladiyar":400,"tirumanthiram":2783,"thiruppugazh":1325},"links":6660,"grades":{"weak":1783,"sound":4638,"forced":230,"wrong":9},"matrix":{"kural|kural":1984,"kural|naladiyar":302,"naladiyar|naladiyar":79,"kural|tirumanthiram":308,"naladiyar|tirumanthiram":80,"tirumanthiram|tirumanthiram":975,"tirumanthiram|thiruppugazh":338,"thiruppugazh|thiruppugazh":177,"kural|thiruppugazh":237,"naladiyar|thiruppugazh":158},"concepts":[["sivam","சிவம்","Siva, as the Lord and as the state the freed soul becomes",[0,0,817,19]],["kaamam","காமம்","love and desire",[84,17,36,407]],["thiruvadi","திருவடி","the Lord's holy feet, as refuge, as what the guru places on the disciple's head, and as the attainment itself",[0,0,127,390]],["yaakkai","யாக்கை","the body, as a perishable and impure frame",[0,24,256,171]],["thiruvarul","திருவருள்","the Lord's grace, as distinct from compassion between beings",[0,0,319,105]],["gnaanam","ஞானம்","liberating knowledge, and the ஞானி who has it",[0,0,276,148]],["yogam","யோகம்","yoga: the discipline of union with Siva, and the yogi who practises it",[0,0,344,44]],["guru","குரு","the spiritual teacher, whose path and feet lead to release",[0,0,199,149]],["saththi","சத்தி","Shakti: the Lord's power, his consort, through whom he creates and acts",[0,0,307,33]],["vinai","வினை","deed and its consequence",[99,29,119,74]],["selvam","செல்வம்","wealth, material or figurative",[153,54,26,78]],["piravi","பிறவி","rebirth; the cycle of births",[32,10,134,111]],["varaivinmagalir","வரைவின்மகளிர்","women who draw no line; women who sell intimacy",[10,14,2,249]],["vazhipaadu","வழிபாடு","worship; ritual service with offerings",[0,0,225,43]],["manam","மனம்","inner state of mind",[67,15,166,8]],["thaththuvam","தத்துவம்","tattva: one of the (traditionally 36) constituents of the soul's world",[0,0,191,23]],["nilaiyaamai","நிலையாமை","impermanence",[11,52,77,71]],["iraivan","இறைவன்","God; the Lord, in the Kural usually named only by epithet",[14,0,190,4]],["veedu","வீடு","release; liberation from the cycle of births",[0,1,140,67]],["arivu","அறிவு","understanding, innate or acquired",[117,21,60,2]],["meyyunarvu","மெய்யுணர்வு","perception of what is truly so",[10,1,173,8]],["anbu","அன்பு","love; affection",[20,10,111,38]],["praanan","பிராணன்","prana: the breath as life-force, and its control (pranayama) in yoga",[0,0,165,13]],["punarchi","புணர்ச்சி","the union of lovers, physical and emotional",[38,2,18,116]],["kootru","கூற்று","Death personified",[3,15,34,114]],["malam","மலம்","impurity; the bonds (traditionally three) that bind the soul",[0,0,135,31]],["avaththai","அவத்தை","avastha: a state of the soul's consciousness, chiefly waking (நனவு, சாக்கிரம்), dream (கனவு), deep sleep (சுழுத்தி), turiya (துரியம்) and the beyond (அதீதம்), each in Tirumular divided into the others and matched to tattvas, malas and places in the body",[0,0,157,9]],["pugazh","புகழ்","praise; renown",[43,7,6,107]],["uyir","உயிர்","life; the life-breath at stake in love",[25,1,135,2]],["aram","அறம்","virtue; moral order",[85,35,33,3]],["aanandham","ஆனந்தம்","bliss, especially the bliss of Siva (சிவானந்தம்) known in union with him, as distinct from worldly pleasure",[0,0,133,18]],["mandhiram","மந்திரம்","mantra: the sacred formula, received from a guru, and the verses of the Tirumanthiram itself",[0,0,128,22]],["kalvi","கல்வி","learning",[59,35,34,21]],["thavam","தவம்","austerity; penance",[17,7,105,17]],["mayal","மயல்","infatuation; the deluded fascination of desire, the poet's word for his own state before the Lord's grace",[0,0,0,146]],["vanjam","வஞ்சம்","deceit; hidden hostility",[12,9,4,119]],["maayai","மாயை","maya: the material cause of bodies and worlds; also illusion",[0,0,105,34]],["adiyaar","அடியார்","the Lord's devotees, his servants, as a community to be revered",[0,0,64,73]],["eegai","ஈகை","giving and sharing with others",[50,47,28,11]],["pasu","பசு","pasu: the bound soul, one of the three Saiva Siddhanta categories with pati (the Lord) and pasam (the bonds)",[0,0,129,4]],["thirukkoothu","திருக்கூத்து","Siva's holy dance in the hall (அம்பலம்) at Chidambaram, as the five acts, as letters and mantra, and as a dance within the body",[0,0,114,16]],["kaamanoy","காமநோய்","love as sickness; the pain of longing",[51,7,0,70]],["pedhaimai","பேதைமை","folly",[15,26,52,25]],["vindhu","விந்து","bindu: in cosmology the source of sound and form (mahamaya); in the body the seminal essence",[0,0,109,9]],["adakkam","அடக்கம்","self-restraint",[17,11,87,2]],["naadham","நாதம்","nada: primal sound, paired with bindu as the first stage of manifestation",[0,0,101,15]],["siththi","சித்தி","attainment; the powers that come with yoga, and the siddha who has them",[0,0,108,7]],["natpu","நட்பு","friendship",[56,54,0,0]],["perumai","பெருமை","greatness of character",[68,31,9,0]],["paasam","பாசம்","pasam: the bonds that hold the soul, one of the three Saiva Siddhanta categories with pati and pasu",[0,0,81,20]],["iravu","இரவு","asking; begging from others",[19,22,7,47]],["sutram","சுற்றம்","human kinship and fellowship",[28,19,12,35]],["thamizh","தமிழ்","Tamil, as a language of revelation beside Sanskrit, and the poet's medium",[0,0,11,83]],["kutram","குற்றம்","fault; flaw of character",[17,10,1,65]],["samayam","சமயம்","a religious sect or system, often in Tirumular a source of delusion",[0,0,43,50]],["panchaakkaram","பஞ்சாக்கரம்","the five-letter mantra of Siva (சிவாயநம, நமசிவாய and its other orders), the அஞ்செழுத்து",[0,0,83,9]],["pattru","பற்று","attachment; clinging",[11,5,36,38]],["kan","கண்","the eyes as agents of love: they wound, steal, speak and suffer",[51,2,0,35]],["kudi","குடி","lineage; high birth",[46,31,3,4]],["pirivu","பிரிவு","separation of lovers",[61,9,0,5]],["inbam","இன்பம்","joy; pleasure",[14,15,42,1]],["pathi","பதி","Pati: the Lord, as the first of the three Saiva Siddhanta categories (Lord, soul, bond)",[0,0,65,7]],["thuravu","துறவு","renunciation",[30,14,21,6]],["avaa","அவா","craving; desire that binds",[14,7,20,29]],["oli","ஒளி","light: the Lord as light (சோதி), the inner light seen within the body and mind in meditation, and the lights of sun, moon and fire he gives",[0,0,52,17]],["thondu","தொண்டு","devotional service to the Lord and his devotees; becoming his servant (அடிமை, வழியடிமை) by choice, as distinct from bondage",[0,0,2,67]],["inmai","இன்மை","poverty; lack",[15,37,2,14]],["arasu","அரசு","kingship; the ruler and the office of ruling",[38,2,25,2]],["piranavam","பிரணவம்","the syllable Om",[0,0,50,17]],["noy","நோய்","disease; affliction",[11,1,9,44]],["karu","கரு","the embryo, and its forming in the womb",[0,0,40,25]],["samaadhi","சமாதி","samadhi: the absorbed state of the yogi or jnani; also the tomb in which such a one's body is kept",[0,0,59,5]],["mounam","மோனம்","silence: the stillness of speech and mind of the sage, as a state rather than a vow",[0,0,35,29]],["amudham","அமுதம்","nectar: in Tirumular's yoga the fluid held to flow from the head or palate, which preserves the body",[0,0,51,12]],["naadi","நாடி","nadi: a channel of breath and life in the yogic body",[0,0,61,1]],["naanam","நாண்","modesty; shame that restrains",[46,10,0,5]],["viyaabagam","வியாபகம்","pervasion: the Lord's filling of all things, the elements, the worlds, the gods, the souls and the body, while remaining one and beyond them",[0,0,39,20]],["aindhozhil","ஐந்தொழில்","the Lord's five acts: creating, protecting, removing, concealing and granting grace",[0,0,59,0]],["saakkaadu","சாக்காடு","death, as something faced or chosen",[12,2,13,30]],["pagai","பகை","enmity; the enemy",[47,6,3,0]],["vedham","வேதம்","the Veda, as scripture recited and as the source of dharma",[0,0,47,8]],["kalai","கலை","kala: a phase or digit, of the moon and of the breath matched with it; in Siddhanta also a class of the tattvas",[0,0,54,0]],["oozh","ஊழ்","fate; what is apportioned",[16,9,12,16]],["aaguthi","ஆகுதி","the oblation poured into the sacred fire; the fire rite (ஓமம்)",[0,0,52,1]],["maanam","மானம்","honour; self-respect one won't compromise",[29,23,0,0]],["muyarchi","முயற்சி","effort",[41,7,3,0]],["porai","பொறை","forbearance; endurance",[17,28,3,3]],["oodal","ஊடல்","lovers' quarrel; the sulking that love enjoys",[43,5,1,2]],["vaaimai","வாய்மை","truthfulness",[18,3,26,2]],["alar","அலர்","public gossip about the lovers",[26,1,0,22]],["naragam","நரகம்","hell, as the after-death punishment of the wicked",[0,0,21,28]],["aadhaaram","ஆதாரம்","adhara: one of the six supports or centres in the body named in Tirumular's yoga (the chakras), pictured as lotuses rising from the root to the brow",[0,0,36,13]],["vedaantham","வேதாந்தம்","Vedanta: the end of the Veda, taken as the knowledge in which craving ends",[0,0,41,7]],["kayamai","கயமை","baseness; lack of any inner moral restraint",[10,33,1,2]],["ninaivu","நினைவு","remembering the absent lover; constant thought",[35,1,0,10]],["thiyaanam","தியானம்","meditation: the seventh limb of eight-limbed yoga, contemplation held on light, sound or the Lord",[0,0,38,7]],["ozhukkam","ஒழுக்கம்","conduct; a disciplined way of living",[23,11,9,1]],["vekuli","வெகுளி","anger",[17,11,10,6]],["panpu","பண்பு","good character; nature that holds",[28,15,1,0]],["inam","இனம்","the company one keeps",[14,22,2,6]],["ilvaazhkkai","இல்வாழ்க்கை","household life",[18,12,4,8]],["nenju","நெஞ்சு","the heart as a separate party the lover speaks to",[33,1,5,2]],["idumbai","இடும்பை","suffering; affliction",[2,19,15,4]],["sirumai","சிறுமை","smallness of character",[19,19,1,1]],["arul","அருள்","compassion toward all living beings",[28,6,4,2]],["ilamai","இளமை","youth, as a stage that passes",[0,9,13,18]],["paththi","பத்தி","bhakti: devotion to the Lord, and the பத்தர் (devotees) who have it",[0,0,9,31]],["kurippu","குறிப்பு","unspoken sign or intention",[35,4,0,0]],["saayujjiyam","சாயுச்சியம்","sayujya: union with Siva, the highest of the four states of release, in which the soul becomes Siva",[0,0,34,5]],["pazhi","பழி","blame; what deserves blame",[14,14,3,7]],["kundalini","குண்டலினி","kundalini: the coiled power, cosmic and in the body",[0,0,31,6]],["aagamam","ஆகமம்","the Agamas: the Saiva scriptures given by Siva, traditionally twenty-eight",[0,0,30,6]],["kaalam","காலம்","right timing; the season for acting",[11,1,22,0]],["undi","உண்டி","food; eating",[7,11,15,1]],["maalai","மாலை","evening as the hour when longing flowers",[12,2,0,20]],["panivu","பணிவு","humility",[13,6,12,2]],["pullarivu","புல்லறிவு","petty understanding that thinks itself wise",[10,15,4,4]],["thunai","துணை","support; those or that on which one can lean",[15,2,14,1]],["andam","அண்டம்","the cosmic egg; a world-sphere, of which there are numberless ones within the outer egg",[0,0,31,1]],["chakkaram","சக்கரம்","chakra as a drawn diagram (yantra): lines and cells filled with letters and mantras for worship or rites",[0,0,31,0]],["payan","பயன்","use; fruit; what something yields",[11,10,9,0]],["solvanmai","சொல்வன்மை","power of speech; eloquence",[25,5,0,0]],["avai","அவை","the assembly; those before whom one speaks",[20,9,0,1]],["saandror","சான்றோர்","the worthy; those complete in character",[2,25,3,0]],["thonthaththasi","தொந்தத்தசி","tat tvam asi, 'that thou art': the Upanishadic great saying, its words தற்பதம் (that), தொம்பதம் (thou) and அசி (art) read by Tirumular as the Lord, the bound soul and their union",[0,0,30,0]],["kal","கள்","liquor; intoxication",[11,1,11,6]],["sol","சொல்","speech; the spoken word and its effects",[12,10,5,1]],["thooimai","தூய்மை","purity, especially of action and means",[10,0,18,0]],["kallaamai","கல்லாமை","lack of learning, as a condition of a person",[12,6,8,1]],["samanilai","சமநிலை","equanimity",[17,6,3,0]],["inchol","இன்சொல்","pleasant speech",[21,3,2,0]],["kelvi","கேள்வி","learning by listening to the wise",[12,6,8,0]],["therithal","தெரிதல்","examining and discerning before choosing or acting",[25,1,0,0]],["nalam","நலம்","bodily beauty and wellbeing, as something love gives or takes",[21,4,0,1]],["ilingam","இலிங்கம்","the lingam: Siva's emblem, as the installed stone with its pedestal and as the forms it is said to be (letters, bindu and nada, Shakti and Siva, the self, the guru)",[0,0,26,0]],["mazhai","மழை","rain, as the condition of life and of virtue",[11,3,11,0]],["koodaozhukkam","கூடாவொழுக்கம்","conduct at odds with one's professed state; hypocrisy of the renunciant",[10,0,12,2]],["thelivu","தெளிவு","settled trust reached after examination",[12,0,12,0]],["siththaantham","சித்தாந்தம்","Siddhanta: the settled conclusion, Saiva Siddhanta as the teaching and the Siddhantin who has reached it",[0,0,24,0]],["aadhiththan","ஆதித்தன்","the sun: in Tirumular both the sun of the cosmos, worshipper and form of the Lord, and the sun within the yogic body",[0,0,24,0]],["piranil","பிறனில்","another man's wife, named through his home",[10,8,4,1]],["marundhu","மருந்து","medicine; remedy",[4,1,11,7]],["melivu","மெலிவு","wasting of the body in longing, shown by slipping bangles and thinning arms",[11,0,0,12]],["sariyai","சரியை","chariyai: the first of the four Saiva paths, outward service of the Lord in temples (cleaning, gathering flowers, singing), the path of the devotee",[0,0,15,8]],["makkal","மக்கள்","children, and the good of having them",[12,6,3,1]],["naduvu","நடுவு","impartiality; keeping to what is fair",[12,3,7,0]],["vali","வலி","strength, one's own and others', to be weighed",[20,1,1,0]],["pochchaappu","பொச்சாப்பு","heedlessness; forgetting oneself and one's purpose",[10,1,11,0]],["kedu","கேடு","ruin; loss of fortune",[14,4,2,2]],["andhanar","அந்தணர்","the Brahmin, defined by rite, Vedanta and conduct; in the Kural, the virtuous one",[0,0,21,1]],["vesham","வேடம்","the ascetic's garb or guise: the outward marks of a holy life, true or assumed",[0,0,20,2]],["virundhu","விருந்து","the guest; hospitality",[12,7,2,0]],["naadu","நாடு","land; realm as a living whole",[10,0,11,0]],["nindhai","நிந்தை","reviling or slighting what is holy: the Lord, the guru, his devotees or the jnani",[0,0,18,3]],["sanmaarkkam","சன்மார்க்கம்","sanmarga: the true or good path; in Saiva usage the path of jnana, the highest of the four paths, in which the soul becomes one with Siva",[0,0,21,0]],["thiruneeru","திருநீறு","holy ash, worn as Siva's emblem and armour",[0,0,9,12]],["aran","அரண்","fortress; protection, literal or figurative",[17,2,1,0]],["muththirai","முத்திரை","mudra: a seal or gesture of the hands (or of the body) used with mantra in worship and in yoga",[0,0,19,1]],["oppuravu","ஒப்புரவு","the obligation to serve the community with one's means",[11,8,0,0]],["sengol","செங்கோல்","just rule; the straight sceptre",[16,0,2,1]],["pasalai","பசலை","the pallor of longing, spreading over a woman's skin in separation",[16,1,0,2]],["vaazhkkaithunai","வாழ்க்கைத் துணை","life's companion; the wife",[8,8,2,0]],["nanri","நன்றி","a good done; gratitude for it",[10,6,0,2]],["kollaamai","கொல்லாமை","not killing",[15,0,3,0]],["alavu","அளவு","right measure; proportion",[15,0,3,0]],["saivam","சைவம்","Saivism: the religion of Siva, and in Tirumular its kinds (pure, impure, path, severe pure) and the Saiva who follows it",[0,0,18,0]],["acham","அச்சம்","fear, especially fear of wrongdoing as a moral faculty",[8,8,0,1]],["kalavu","களவு","stealth; taking another's goods by deceit",[10,1,4,2]],["maram","மறம்","martial valour; fierce courage",[15,0,2,0]],["kiriyai","கிரியை","kiriyai: the second of the four Saiva paths, ritual worship of Siva in a form, by Agamic rite",[0,0,14,3]],["pirappu","பிறப்பு","birth, as social origin",[9,4,3,0]],["innaa","இன்னா","what hurts; harm done to others",[11,5,0,0]],["ivaral","இவறல்","avarice; clinging to wealth when it should be used",[3,9,1,3]],["thitpam","திட்பம்","firmness of mind and execution",[11,3,2,0]],["saandraanmai","சான்றாண்மை","fullness of character; moral completeness",[14,2,0,0]],["orutalai","ஒருதலை","one-sided love; love that isn't returned",[15,0,0,1]],["agandhai","அகந்தை","pride; the ego's self-importance",[0,0,3,13]],["pulaal","புலால்","flesh as food; abstention from it",[10,2,2,1]],["madi","மடி","sloth; inertia",[12,2,1,0]],["amaichu","அமைச்சு","ministership; the minister",[15,0,0,0]],["aaraaydhal","ஆராய்தல்","testing; careful inquiry into a person",[5,7,3,0]],["aanmai","ஆண்மை","manliness; capacity to act and govern",[10,4,0,1]],["madal","மடல்","riding the palmyra-stem horse in public to shame or force a beloved's kin",[6,0,0,9]],["paazh","பாழ்","the void: the emptiness left when maya, knowledge and their traces are let go, in Tirumular three voids (முப்பாழ்) in which speech ends and the soul comes to rest",[0,0,14,1]],["purangooral","புறங்கூறல்","backbiting; speaking ill of someone in their absence",[10,4,0,0]],["kannottam","கண்ணோட்டம்","the grace of the eye; kindly regard, especially for those one knows",[12,2,0,0]],["ookkam","ஊக்கம்","energy of mind; inner drive",[10,4,0,0]],["igal","இகல்","hostility; the disposition to quarrel",[10,3,1,0]],["theerththam","தீர்த்தம்","holy water; bathing at sacred rivers and tanks to remove sin, and the inner waters set against it",[0,0,12,2]],["aayul","ஆயுள்","the span of life, as reckoned or foretold from bodily signs and counts of the breath",[0,0,14,0]],["azhukkaaru","அழுக்காறு","envy",[12,0,1,0]],["karpu","கற்பு","a wife's steadfastness; chastity",[5,6,1,1]],["kolai","கொலை","killing, as crime or as punishment",[2,0,11,0]],["aalvinai","ஆள்வினை","sustained purposeful labour; manly exertion",[9,4,0,0]],["idukkan","இடுக்கண்","trouble; hardship; suffering",[13,0,0,0]],["padai","படை","army; fighting force",[13,0,0,0]],["soodhu","சூது","gambling",[11,0,0,2]],["uzhavu","உழவு","farming; ploughing as the base of society",[10,0,3,0]],["kanavu","கனவு","dream, as a place where the absent lover can be met",[10,0,1,2]],["azhagu","அழகு","beauty, outward or true",[0,1,2,10]],["aakaasam","ஆகாசம்","space, the fifth element (also வெளி, விசும்பு), and in Tirumular the inner space of awareness and the space in Siva that the knower attains",[0,0,11,2]],["idam","இடம்","right place; the ground on which one acts",[11,0,1,0]],["anjaamai","அஞ்சாமை","fearlessness",[8,0,4,0]],["nirai","நிறை","self-containment; holding feeling within",[11,1,0,0]],["marumai","மறுமை","the next world or life, for which good deeds are provision",[0,2,9,1]],["upaadhi","உபாதி","upadhi: a limiting adjunct, of effect or of cause, that clings to the soul (and is said to cling even to the Supreme) and must be cut away for release",[0,0,11,1]],["pasi","பசி","hunger",[2,2,3,4]],["vehkaamai","வெஃகாமை","not coveting what belongs to others",[10,0,1,0]],["kodungol","கொடுங்கோல்","oppressive rule; the bent sceptre",[10,0,1,0]],["mannar","மன்னர்","the ruler, seen from those who serve him",[10,1,0,0]],["vendhan","வேந்தன்","king; ruler",[11,0,0,0]],["karavu","கரவு","concealing what one has from one who asks; refusal",[10,1,0,0]],["parathai","பரத்தை","the courtesan or other woman; a man's straying, as a commentators' setting",[6,4,0,1]],["mukkunam","முக்குணம்","the three gunas, sattva, rajas and tamas, the qualities of prakriti; in Tirumular matched with the states of waking, dream and deep sleep",[0,0,6,5]],["aarandham","ஆறந்தம்","the six ends: Vedanta, Siddhanta, nadanta, bodhanta, yoganta and kalanta, the end points of six disciplines of knowledge, which Tirumular gathers into one",[0,0,11,0]],["kadunjol","கடுஞ்சொல்","harsh speech",[3,7,0,0]],["otru","ஒற்று","spying; the spy; intelligence for the state",[10,0,0,0]],["soozhchi","சூழ்ச்சி","deliberation; strategic planning",[10,0,0,0]],["thoothu","தூது","embassy; the envoy",[10,0,0,0]],["pazhaimai","பழைமை","old friendship; a bond with long-standing claims",[6,4,0,0]],["utpagai","உட்பகை","enmity from within one's own circle",[10,0,0,0]],["penvazhi","பெண்வழிச்சேறல்","being led by a woman's will; a husband's subordination",[10,0,0,0]],["veruvu","வெருவு","dread; the fear a ruler instils",[9,0,0,0]],["adimai","அடிமை","bondage; servitude",[1,1,3,4]],["aasanam","ஆசனம்","asana: a seated posture of yoga, the first bodily step of the eightfold discipline",[0,0,9,0]],["seedan","சீடன்","the disciple, worthy (சற்சீடன்) or unworthy (அசற்சீடன்), whose ripeness decides whether the teaching is given",[0,0,9,0]],["upasaantham","உபசாந்தம்","upasanta: the stilling or quiescence in which the traces of action and the states fall away and the soul rests in Siva",[0,0,8,1]],["thirunaamam","திருநாமம்","reciting the Lord's name, as a practice or as the plea itself",[0,0,2,7]],["padhamukthi","பதமுத்தி","the graded states of release short of union: salokam (dwelling in the Lord's world), samipam (nearness to him) and sarupam (taking his form)",[0,0,7,1]],["nayan","நயன்","goodness of conduct or manner; variously justice, grace, liking",[7,0,0,0]],["oruththal","ஒறுத்தல்","punishing; penalty as an act of rule",[3,0,4,0]],["kizhamai","கிழமை","the liberty of intimacy; rightful claim on a friend",[6,1,0,0]],["kalaviyal","களவியல்","secret love before marriage",[7,0,0,0]],["thisai","திசை","the eight directions, with their guardian gods and elephants, set in Tirumular's yoga as the petals of the inner lotus",[0,0,7,0]],["valli","வள்ளி","Valli, the hunter girl of the millet field whom Murugan courted in a hunter's guise and wed, when a song is about that story",[0,0,0,6]],["kol","கோல்","the sceptre; the quality of a ruler's rule, just or cruel",[5,0,0,0]],["velanmai","வேளாண்மை","helping others; liberality",[3,2,0,0]],["anangu","அணங்கு","a goddess or spirit that afflicts; beauty as a wounding power",[3,0,0,2]],["aththuvaa","அத்துவா","adhva: the six paths (tattva, mantra, varna, bhuvana, pada, kala) of Saiva Agamic teaching, through which the soul is bound and through which it is purified",[0,0,4,0]],["idithal","இடித்தல்","rebuke that corrects",[2,1,0,0]],["udanpokku","உடன்போக்கு","a girl's going away with her lover, against her family, through the wilderness",[0,3,0,0]],["thalam","தலம்","a sacred site or shrine where the Lord dwells and is worshipped; the place itself as an object of devotion",[0,0,1,2]],["madam","மடம்","matha: the guru's seat or monastery, where teaching and worship go on, and in Tirumular its inner counterpart in the body",[0,0,2,0]],["sool","சூள்","an oath or vow, especially a lover's or courtesan's sworn promise of lasting union",[0,0,0,2]],["ali","அளி","tender regard for those in one's care",[1,0,0,0]],["ilakkanai","இலக்கணை","lakshana: implication, the secondary sense by which a word points beyond its literal meaning; in Vedanta, the three modes (leaving, keeping, and both) used to read the great sayings",[0,0,1,0]]]};
+document.documentElement.classList.add("js");
+
+// ---- language: English for the world, Tamil for the roots ----
+// Every translatable element is found by its English text, so the page is written once, in English,
+// and the Tamil lives here. The English is kept and restored when the reader switches back.
+const TA = {
+  "appendix": "பின்னிணைப்பு",
+  "what stays, in a language that has stayed.": "நிலைத்து நிற்கும் ஒரு மொழியில், நிலைத்து நிற்பவை.",
+  "four books, 5,838 verses, 6,660 threads.": "நான்கு நூல்கள், 5,838 பாடல்கள், 6,660 இழைகள்.",
+  "carried forward for the world we are building with machines.": "இயந்திரங்களுடன் நாம் உருவாக்கும் உலகிற்கு எடுத்துச் செல்ல.",
+  "tamil · over two thousand years": "தமிழ் · இரண்டாயிரம் ஆண்டுகளுக்கும் மேலாக",
+  "scroll": "கீழே செல்க",
+  "## what this is": "## இது என்ன",
+  "Tamil has been written and spoken for more than two thousand years, unbroken.": "தமிழ் இரண்டாயிரம் ஆண்டுகளுக்கும் மேலாக எழுதப்பட்டும் பேசப்பட்டும் வருகிறது, <em>இடைவிடாமல்.</em>",
+  "Its poets argued about the same things we argue about: time, bodies, desire, money, knowledge, love. They wrote in verses short enough to carry in your head, because a head was what people carried.": "நாம் இன்று வாதிடும் அதே கேள்விகளைப் பற்றியே அதன் புலவர்களும் வாதிட்டனர்: காலம், உடல், ஆசை, பணம், அறிவு, அன்பு. நினைவில் சுமந்து செல்லும் அளவுக்குச் சுருக்கமாகப் பாடினார்கள்; ஏனெனில் அன்று மனிதர் சுமந்து சென்றது தம் நினைவைத்தான்.",
+  "We asked machines to read four of those books closely, verse by verse, and to draw every thread between them. A couplet from the first centuries talks to a hymn from the fifteenth. A Jain moralist argues with a Saiva yogi. A devotee answers both.": "அவற்றில் நான்கு நூல்களைப் பாடல் பாடலாக நுணுகிப் படிக்கவும், அவற்றுக்கு இடையிலான ஒவ்வோர் இழையையும் வரையவும் இயந்திரங்களிடம் கேட்டோம். முதல் நூற்றாண்டுகளின் ஒரு குறள், பதினைந்தாம் நூற்றாண்டின் ஒரு பாடலோடு பேசுகிறது. ஒரு சமண அறவோர் ஒரு சைவ யோகியோடு வாதிடுகிறார். ஓர் அடியார் இருவருக்கும் பதில் சொல்கிறார்.",
+  "Eight ideas kept surfacing. They feel more urgent now than when they were written, at the moment we start building a future alongside minds that are not human.": "எட்டுக் கருத்துகள் மீண்டும் மீண்டும் மேலெழுந்தன. மனிதரல்லாத அறிவுகளோடு சேர்ந்து ஓர் எதிர்காலத்தைக் கட்டத் தொடங்கும் இந்த நேரத்தில், அவை எழுதப்பட்ட காலத்தைவிட இன்று இன்னும் அவசரமாகத் தோன்றுகின்றன.",
+  "still.": "நிலை.",
+  "in your life": "உங்கள் வாழ்வில்",
+  "in the future we build": "நாம் கட்டும் எதிர்காலத்தில்",
+  // ௧
+  "nothing stays. so begin.": "எதுவும் நிலைப்பதில்லை. ஆகவே, தொடங்கு.",
+  "The call you mean to make, the apology you are saving for a better moment, the work you will start once things calm down. These poets watched a man eat dinner and die before bed, and they did not draw despair from it. They drew a deadline.": "செய்ய நினைத்த தொலைபேசி அழைப்பு, நல்ல நேரத்துக்காக ஒத்திவைத்த மன்னிப்பு, எல்லாம் அமைதியானதும் தொடங்கப்போகும் வேலை. இரவு உணவு உண்ட ஒருவன் உறங்கும் முன்பே இறப்பதை இந்தப் புலவர்கள் பார்த்தார்கள். அதிலிருந்து அவர்கள் விரக்தியைப் பெறவில்லை. ஒரு காலக்கெடுவைப் பெற்றார்கள்.",
+  "Machines will give us more of almost everything: more answers, more hours of output, perhaps more years. The one thing that stays scarce is the moment you are in. A civilisation with infinite tools still has to choose, today, what is worth doing.": "இயந்திரங்கள் நமக்குக் கிட்டத்தட்ட எல்லாவற்றையும் அதிகமாகத் தரும்: அதிகப் பதில்கள், அதிக உழைப்பு நேரம், ஒருவேளை அதிக ஆண்டுகள். அப்போதும் அரிதாகவே இருப்பது ஒன்றுதான்: நீங்கள் இருக்கும் இந்தக் கணம். எல்லையற்ற கருவிகள் கொண்ட நாகரிகமும், எது செய்யத் தகுந்தது என்பதை இன்றே தேர்ந்தெடுக்க வேண்டும்.",
+  "impermanence runs through 211 verses in all four books": "நிலையாமை நான்கு நூல்களிலும் 211 பாடல்களில் ஓடுகிறது",
+  "water on a blade of grass": "புல் நுனி மேல் நீர்",
+  // ௨
+  "the body is a temple you live in.": "உடல், நீங்கள் வாழும் கோயில்.",
+  "An older book next to this one called the body a leaking pot wrapped in skin. Tirumular had believed that too, and changed his mind. Somewhere between the body as trophy and the body as trash is the body as a place you live and look after, because what you love is housed there.": "இதன் அருகிலுள்ள ஒரு பழைய நூல் உடலைத் தோலால் போர்த்திய ஒழுகும் குடம் என்றது. திருமூலரும் ஒரு காலத்தில் அப்படியே நம்பினார்; பின்பு மனம் மாறினார். உடலைப் பெருமைப் பொருளாகக் காண்பதற்கும் குப்பையாகக் காண்பதற்கும் நடுவே ஓர் இடம் உண்டு: நீங்கள் வாழ்ந்து, பேணிக் காக்கும் இடமாக உடல். ஏனெனில் நீங்கள் நேசிப்பது அங்கேதான் குடியிருக்கிறது.",
+  "We are learning to measure, edit and extend the body with machines. The poets ask the question that comes before every upgrade: what is this body for? Tend it like a shrine, and the answer stays in view.": "இயந்திரங்களைக் கொண்டு உடலை அளக்கவும், திருத்தவும், நீட்டிக்கவும் கற்றுக்கொண்டிருக்கிறோம். ஒவ்வொரு மேம்பாட்டுக்கும் முன் வர வேண்டிய கேள்வியைப் புலவர்கள் கேட்கிறார்கள்: இந்த உடல் எதற்காக? அதைக் கோயிலைப் போலப் பேணுங்கள்; விடை கண்முன்னே இருக்கும்.",
+  "one thread, three voices: the body as carcass, as temple, and as neither": "ஓர் இழை, மூன்று குரல்கள்: உடல் பிணமாக, கோயிலாக, இரண்டுமல்லாததாக",
+  "the body as a shrine": "உடலே ஆலயம்",
+  // ௩
+  "the oldest argument about living longer.": "நீண்ட வாழ்வு பற்றிய மிகப் பழைய வாதம்.",
+  "One poet says discipline can outrun Death. Another answers with the same verb: no one ever has. A yogi promises grey hair turned black. A devotee mocks the breath-holder clinging to his flesh. A thousand years of Tamil argued about longevity with the same heat we do.": "தவத்தால் கூற்றத்தையும் கடக்கலாம் என்கிறார் ஒரு புலவர். அதே வினைச்சொல்லால் இன்னொருவர் பதில் சொல்கிறார்: யாரும் கடந்ததில்லை. நரை கருக்கும் என்று ஒரு யோகி உறுதியளிக்கிறார். உடலைப் பற்றிக்கொண்டு மூச்சை அடக்குபவனை ஓர் அடியார் கேலி செய்கிறார். நாம் இன்று வாதிடும் அதே சூட்டோடு, ஆயிரம் ஆண்டுத் தமிழ் நீண்ட ஆயுளைப் பற்றி வாதிட்டது.",
+  "We may well add decades to a life. The books are less interested in how long than in how anxiously. Their best answer: extend the years if you can, and spend them on something larger than keeping yourself.": "வாழ்நாளில் பல பத்தாண்டுகளை நாம் சேர்க்கவும் கூடும். எவ்வளவு காலம் என்பதைவிட, எவ்வளவு பதற்றத்துடன் என்பதிலேயே இந்நூல்களுக்கு அக்கறை. அவற்றின் சிறந்த பதில்: முடிந்தால் ஆண்டுகளை நீட்டுங்கள்; ஆனால் உங்களைக் காத்துக்கொள்வதைவிடப் பெரிய ஒன்றுக்காக அவற்றைச் செலவிடுங்கள்.",
+  "Death walks through 166 verses, and one verb, குதித்தல், to leap past": "கூற்றம் 166 பாடல்களில் நடக்கிறது; ஒரு வினை அதைத் தொடர்கிறது: குதித்தல், கடந்து பாய்தல்",
+  "tomorrow the drum may sound": "நாளை பறை ஒலிக்கலாம்",
+  // ௪
+  "what loves you only while you pay.": "நீங்கள் கொடுக்கும் வரை மட்டுமே நேசிப்பது.",
+  "மயல், infatuation, is the Thiruppugazh's word for a mind caught by something built to catch it. The poet confesses it in a thousand songs: the glance, the invitation, the wealth that slips away. Swap the courtesan for a feed and every line still lands.": "மயல்: பிடிப்பதற்கென்றே உருவாக்கப்பட்ட ஒன்றில் சிக்கிய மனத்துக்குத் திருப்புகழ் தரும் சொல். பார்வை, அழைப்பு, கைநழுவும் செல்வம் என்று புலவர் அதை நூற்றுக்கணக்கான பாடல்களில் ஒப்புக்கொள்கிறார். பொதுமகளின் இடத்தில் ஒரு சமூக ஊடகத் தொடரை வைத்துப் பாருங்கள்; ஒவ்வொரு வரியும் இன்றும் பொருந்தும்.",
+  "We are about to build companions that never tire of us. The test is old and simple: does it stay when the oil runs out? Build, and choose, what loves you on the day you have nothing to give.": "நம்மைக் கண்டு ஒருபோதும் சலிக்காத துணைகளை நாம் உருவாக்கப் போகிறோம். சோதனை பழையது, எளியது: எண்ணெய் தீர்ந்த பின்னும் அது நிற்கிறதா? கொடுக்க எதுவுமில்லாத நாளிலும் உங்களை நேசிப்பதையே உருவாக்குங்கள், தேர்ந்தெடுங்கள்.",
+  "desire is the most common idea in the whole graph: 544 verses": "முழு வரைபடத்திலும் மிக அதிகமாக வரும் கருத்து ஆசை: 544 பாடல்கள்",
+  "death, an eye, or a deer": "கூற்றமோ, கண்ணோ, பிணையோ",
+  // ௫
+  "a green leaf is enough.": "ஒரு பச்சிலை போதும்.",
+  "Nobody here asks for a fortune. A leaf. A handful before you eat. One kind sentence. Tirumular sets the bar so low that no one can say it is out of reach, and that is the point: generosity is a daily habit, sized to fit the day.": "இங்கே யாரும் பெரும் செல்வத்தைக் கேட்கவில்லை. ஓர் இலை. உண்ணும் முன் ஒரு கைப்பிடி. ஓர் இனிய சொல். எட்டாதது என்று எவரும் சொல்ல முடியாத அளவுக்குத் திருமூலர் அளவைத் தாழ்த்தி வைக்கிறார்; அதுதான் நோக்கம்: ஈகை என்பது அந்த நாளுக்கேற்ற அளவிலான அன்றாடப் பழக்கம்.",
+  "If machines make abundance possible, sharing becomes the whole question. The old rule scales without changing a word: feed others before you eat, and measure a system by the lives it keeps.": "இயந்திரங்கள் மிகுதியைச் சாத்தியமாக்கினால், பகிர்வதே முழுக் கேள்வியாகிறது. பழைய விதி ஒரு சொல்லும் மாறாமல் எந்த அளவுக்கும் பொருந்தும்: நீங்கள் உண்ணும் முன் பிறருக்கு ஊட்டுங்கள்; ஓர் அமைப்பை அது காக்கும் உயிர்களைக் கொண்டு அளவிடுங்கள்.",
+  "giving appears in 136 verses across all four books": "ஈகை நான்கு நூல்களிலும் 136 பாடல்களில் வருகிறது",
+  "a leaf, a handful, a kind word": "ஓர் இலை, ஒரு கைப்பிடி, ஓர் இன்சொல்",
+  // ௬
+  "drink the milk, leave the water.": "பாலைப் பருகு, நீரை விடு.",
+  "The Naladiyar saw the problem of infinite information fifteen hundred years early. There is more to know than any life can hold, so the skill that matters is choosing: separating what nourishes from what only fills.": "எல்லையற்ற தகவலின் சிக்கலை நாலடியார் ஆயிரத்து ஐந்நூறு ஆண்டுகளுக்கு முன்பே கண்டது. எந்த வாழ்நாளும் தாங்க முடியாத அளவுக்கு அறிய வேண்டியவை உள்ளன; ஆகவே முக்கியமான திறன் தேர்ந்தெடுப்பது: ஊட்டுவதையும் வெறுமனே நிரப்புவதையும் பிரித்தறிவது.",
+  "Machines will hold the ocean. What they hand back is milk and water mixed. The human part of learning becomes the swan's part: discernment, taste, knowing what is worth a few short days.": "இயந்திரங்கள் கடலையே தாங்கும். அவை திருப்பித் தருவது நீர் கலந்த பால். கல்வியில் மனிதரின் பங்கு அன்னத்தின் பங்காகிறது: பகுத்தறிவு, சுவையுணர்வு, சில குறுகிய நாள்களுக்கு எது தகுந்தது என்று அறிவது.",
+  "learning appears in 149 verses, and one song even counts it among the bonds to drop": "கல்வி 149 பாடல்களில் வருகிறது; ஒரு பாடல் அதையும் விட வேண்டிய பற்றுகளில் ஒன்றாக எண்ணுகிறது",
+  "the swan's discernment": "அன்னத்தின் பகுத்தறிவு",
+  // ௭
+  "hold the one thing that lets you let go.": "விட்டுவிட உதவும் ஒன்றைப் பற்றிக்கொள்.",
+  "Valluvar's couplet uses the word for clinging six times in seven words, until it starts to loosen in your mouth. You cannot hold nothing. So hold one steady thing, and let it make the rest of your grip gentle. Tirumular pushes further, and the two have argued about it ever since.": "வள்ளுவரின் குறள் ‘பற்று’ என்ற சொல்லை ஏழு சொற்களில் ஆறு முறை சொல்கிறது, வாயில் அது தளரத் தொடங்கும் வரை. எதையுமே பற்றாமல் இருக்க முடியாது. ஆகவே நிலையான ஒன்றைப் பற்றுங்கள்; மற்ற பிடிகளை அது மென்மையாக்கட்டும். திருமூலர் இன்னும் ஒரு படி மேலே செல்கிறார்; அன்றுமுதல் இருவரும் அதைப் பற்றி வாதிடுகிறார்கள்.",
+  "The more we can own, keep and automate, the harder this gets, and the more it matters. Choose what you hold on purpose. Everything else, hold loosely.": "நாம் உடைமையாக்கவும், சேமிக்கவும், தானியக்கமாக்கவும் முடிவது பெருகப் பெருக, இது கடினமாகிறது; அதன் முக்கியத்துவமும் கூடுகிறது. எதைப் பற்றுகிறீர்கள் என்பதை வேண்டுமென்றே தேர்ந்தெடுங்கள். மற்ற அனைத்தையும் தளர்வாகப் பிடியுங்கள்.",
+  "clinging and its release run through 90 verses": "பற்றும் அதிலிருந்து விடுதலையும் 90 பாடல்களில் ஓடுகின்றன",
+  "an open hand": "திறந்த கை",
+  // ௮
+  "love is the thing itself.": "அன்பே மெய்ப்பொருள்.",
+  "After seven rooms of warnings, this is the one instruction they all agree on. அன்பே சிவம், love is God, became a saying people repeat in Tamil homes today. Valluvar puts it in the body: love is what keeps you from being only bones.": "ஏழு அறைகள் நிறைய எச்சரிக்கைகளுக்குப் பிறகு, அனைவரும் ஒப்புக்கொள்ளும் ஒரே அறிவுரை இது. ‘அன்பே சிவம்’ இன்றும் தமிழ் வீடுகளில் சொல்லப்படும் வழக்காகிவிட்டது. வள்ளுவர் அதை உடலில் வைக்கிறார்: நீங்கள் வெறும் எலும்பாக இல்லாமல் காப்பது அன்பே.",
+  "We will build minds that can do almost anything. The oldest test still applies to them, and to us: does it belong to others, down to its bones? Build for that, and the future keeps the best of what this language kept for two thousand years.": "கிட்டத்தட்ட எதையும் செய்யக்கூடிய அறிவுகளை நாம் உருவாக்குவோம். மிகப் பழைய சோதனை அவற்றுக்கும் நமக்கும் இன்றும் பொருந்தும்: அது எலும்பு வரை பிறர்க்கு உரியதா? அதற்காக உருவாக்குங்கள்; இந்த மொழி இரண்டாயிரம் ஆண்டுகள் காத்த சிறந்தவற்றை எதிர்காலமும் காக்கும்.",
+  "love appears in 179 verses, in every book": "அன்பு ஒவ்வொரு நூலிலும், 179 பாடல்களில் வருகிறது",
+  "lamps passed hand to hand": "கைமாறிச் செல்லும் விளக்குகள்",
+  // the code we keep
+  "## the code we keep": "## நாம் காக்கும் நெறி",
+  "Eight ideas, two thousand years old, for a future we build together.": "இரண்டாயிரம் ஆண்டுப் பழைய எட்டுக் கருத்துகள், <em>நாம் சேர்ந்து கட்டும் எதிர்காலத்திற்கு.</em>",
+  "carry forward": "கொண்டு செல்வோம்",
+  "leave behind": "விட்டுச் செல்வோம்",
+  "begin the good thing today": "நல்லதை இன்றே தொடங்கு",
+  "look after the body you live in": "நீ வாழும் உடலைப் பேணு",
+  "spend the extra years on something larger than yourself": "கூடுதல் ஆண்டுகளை உன்னைவிடப் பெரிய ஒன்றுக்குச் செலவிடு",
+  "choose what stays when the oil runs out": "எண்ணெய் தீர்ந்தாலும் நிற்பதைத் தேர்ந்தெடு",
+  "feed someone before you eat": "உண்ணும் முன் ஒருவருக்கு ஊட்டு",
+  "learn like the swan": "அன்னம் போலக் கல்",
+  "hold one thing steady, the rest loosely": "ஒன்றை உறுதியாக, மற்றவற்றைத் தளர்வாகப் பிடி",
+  "belong to others, down to the bone": "என்பும் பிறர்க்கு உரியதாக வாழ்",
+  "waiting for a calmer week": "அமைதியான ஒரு வாரத்துக்காகக் காத்திருப்பது",
+  "the body as trophy, the body as trash": "உடலைப் பெருமைப் பொருளாக, உடலைக் குப்பையாகப் பார்ப்பது",
+  "living longer, anxiously": "பதற்றத்தோடு நீண்ட காலம் வாழ்வது",
+  "anything that loves you only while you pay": "நீ கொடுக்கும் வரை மட்டுமே நேசிக்கும் எதுவும்",
+  "generosity saved for someday": "என்றாவது ஒருநாள் என்று ஒத்திவைத்த ஈகை",
+  "mistaking more information for wisdom": "அதிகத் தகவலை ஞானம் என்று எண்ணுவது",
+  "a grip on everything": "எல்லாவற்றின் மீதும் இறுக்கிய பிடி",
+  "a life that belongs only to itself": "தனக்கு மட்டுமே உரிய வாழ்க்கை",
+  "These verses outlived empires, printing presses and palm leaves. They can outlive us too, if we carry them.read by machines, verse by verse · not yet reviewed by a Tamil scholar · every quote is from the original text": "இந்தப் பாடல்கள் பேரரசுகளையும், அச்சு இயந்திரங்களையும், ஓலைச் சுவடிகளையும் கடந்து வாழ்ந்தன. நாம் சுமந்து சென்றால், நம்மையும் கடந்து வாழும்.<small>இயந்திரங்களால் பாடல் பாடலாகப் படிக்கப்பட்டது · இன்னும் தமிழறிஞர் ஒருவரால் சரிபார்க்கப்படவில்லை · ஒவ்வொரு மேற்கோளும் மூல நூலிலிருந்து</small>",
+  // appendix
+  "appendix: the graph underneath": "பின்னிணைப்பு: <em>அடியிலுள்ள வரைபடம்</em>",
+  "Every room above stands on a knowledge graph. Four Tamil books were read in full, each verse given a reading and concepts, and every link between verses was proposed by one reader and graded blind by another.": "மேலே உள்ள ஒவ்வோர் அறையும் ஓர் அறிவு வரைபடத்தின் மேல் நிற்கிறது. நான்கு தமிழ் நூல்கள் முழுமையாகப் படிக்கப்பட்டன; ஒவ்வொரு பாடலுக்கும் ஒரு பொருள்விளக்கமும் கருத்துகளும் தரப்பட்டன; பாடல்களுக்கு இடையிலான ஒவ்வோர் இணைப்பையும் ஒருவர் முன்மொழிந்தார், இன்னொருவர் தனித்து மதிப்பிட்டார்.",
+  "How the books talk to each other": "நூல்கள் ஒன்றோடொன்று பேசும் விதம்",
+  "sound links only. ribbon width = links between two books; circle size = links inside a book.": "உறுதியான இணைப்புகள் மட்டும். பட்டையின் அகலம் = இரு நூல்களுக்கு இடையிலான இணைப்புகள்; வட்டத்தின் அளவு = ஒரு நூலுக்குள் உள்ள இணைப்புகள்.",
+  "Every concept": "எல்லாக் கருத்துகளும்",
+  "246 shared ideas. the bar shows how many verses of each book carry it.": "246 பொதுக் கருத்துகள். ஒவ்வொரு நூலிலும் எத்தனை பாடல்கள் அதைக் கொண்டுள்ளன என்பதைப் பட்டை காட்டுகிறது.",
+  "search in English or Tamil": "ஆங்கிலத்திலோ தமிழிலோ தேடுங்கள்",
+  "show all 246": "246 அனைத்தையும் காட்டு",
+  "The full atlas holds every verse, every reading, all 6,660 links with their grades and notes, and threads that run across the books. Click any verse to follow where it leads.": "முழு வரைபட நூலில் ஒவ்வொரு பாடலும், ஒவ்வொரு பொருள்விளக்கமும், மதிப்பீடுகளுடனும் குறிப்புகளுடனும் 6,660 இணைப்புகளும், நூல்களைக் கடந்து ஓடும் இழைகளும் உள்ளன. எந்தப் பாடலைத் தொட்டாலும் அது இட்டுச்செல்லும் இடத்தைப் பின்தொடரலாம்.",
+  "open the full atlas": "முழு வரைபட நூலைத் திற",
+  "## the books. Thirukkural, Tiruvalluvar (couplets, early centuries CE). Naladiyar (Jain quatrains, roughly 6th to 8th century). Tirumanthiram, Tirumular (Saiva verses on ethics, yoga and grace). Thiruppugazh, Arunagirinathar (songs to Murugan, 15th century).": "## நூல்கள். திருக்குறள், திருவள்ளுவர் (குறட்பாக்கள், பொ.ஊ. முதல் நூற்றாண்டுகள்). நாலடியார் (சமண வெண்பாக்கள், ஏறத்தாழ 6 முதல் 8ஆம் நூற்றாண்டு). திருமந்திரம், திருமூலர் (அறம், யோகம், அருள் பற்றிய சைவப் பாடல்கள்). திருப்புகழ், அருணகிரிநாதர் (முருகன் மீதான பாடல்கள், 15ஆம் நூற்றாண்டு).",
+  "## the method. Tamil texts from Project Madurai. Readings, concepts and links were made by Claude and graded blind by separate Claude agents, with links of known grade hidden in every batch to measure how strict the graders were. English lines on this page are fresh, plain renderings of those readings.": "## முறை. தமிழ் மூலங்கள் மதுரைத் திட்டத்திலிருந்து (Project Madurai). பொருள்விளக்கங்கள், கருத்துகள், இணைப்புகள் Claude-ஆல் உருவாக்கப்பட்டு, தனித்தனி Claude முகவர்களால் மறைவாக மதிப்பிடப்பட்டன; மதிப்பீட்டாளர்கள் எவ்வளவு கண்டிப்பானவர்கள் என்று அளக்க, தரம் தெரிந்த இணைப்புகள் ஒவ்வொரு தொகுப்பிலும் மறைத்து வைக்கப்பட்டன. இப்பக்கத்தின் தமிழ் உரைநடை அதன் ஆங்கில உரையிலிருந்து மொழிபெயர்க்கப்பட்டது.",
+  "## the limits. Nothing here has been reviewed by a Tamil scholar yet. Many Tirumanthiram verses are obscure, and their readings are marked uncertain in the atlas.": "## வரம்புகள். இங்குள்ள எதுவும் இன்னும் தமிழறிஞர் ஒருவரால் சரிபார்க்கப்படவில்லை. திருமந்திரத்தின் பல பாடல்கள் புரிதற்கு அரியவை; அவற்றின் பொருள்விளக்கங்கள் வரைபட நூலில் ‘உறுதியற்றவை’ எனக் குறிக்கப்பட்டுள்ளன.",
+};
+const LABEL_TA = { r1: "௧ நிலையாமை", r2: "௨ உடல்", r3: "௩ எவ்வளவு காலம்", r4: "௪ கவனம்", r5: "௫ ஈகை",
+  r6: "௬ கல்வி", r7: "௭ விடுதல்", r8: "௮ அன்பு", carry: "## கொண்டு செல்வோம்", appendix: "## பின்னிணைப்பு" };
+const NAMES_TA = [["Thirukkural", "திருக்குறள்"], ["Tiruvalluvar", "திருவள்ளுவர்"], ["Naladiyar", "நாலடியார்"],
+  ["Tirumanthiram", "திருமந்திரம்"], ["Tirumular", "திருமூலர்"], ["Thiruppugazh", "திருப்புகழ்"], ["Arunagirinathar", "அருணகிரிநாதர்"]];
+const T_SEL = ".pill, .hero .notes li, .stage .foot span, .intro .eyebrow, .intro .big, .intro .flow p, .intro .giant, " +
+  ".gloss, .lens h3, .lens p, .thread > span:last-child, .verse .src, .code .eyebrow, .code h2, .code h3, .code li, .code .sign, " +
+  ".appx h2, .appx .lede, .panel h3, .panel .cap, #more, .atlas p, .atlas a, .method p";
+const norm = s => s.replace(/\s+/g, " ").trim();
+const tEls = [...document.querySelectorAll(T_SEL)].map(el => {
+  let ta = TA[norm(el.textContent)];
+  if (!ta && el.matches(".verse .src")) ta = NAMES_TA.reduce((s, [e, t]) => s.replaceAll(e, t), el.innerHTML);
+  return { el, en: el.innerHTML, ta };
+});
+let lang = "en";
+
+// word-by-word brightening for the intro sentence (visible at rest; dimming is added only by script)
+let words = [];
+function wrapWords() {
+  document.querySelectorAll("[data-words]").forEach(el => {
+    if (!el.querySelector(".w")) el.innerHTML = el.innerHTML.replace(/(<em>.*?<\/em>|[^\s<]+)/g, '<span class="w">$1</span>');
+  });
+  words = [...document.querySelectorAll(".dim .w")];
+}
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const drifters = [...document.querySelectorAll("[data-drift]")];
+const rooms = [...document.querySelectorAll("[data-label]")];
+const where = document.getElementById("where");
+function onScroll() {
+  const vh = innerHeight;
+  words.forEach(w => { w.classList.toggle("on", w.getBoundingClientRect().top < vh * .78); });
+  if (!reduce) drifters.forEach(d => {
+    const r = d.parentElement.getBoundingClientRect();
+    const p = Math.max(-1, Math.min(1, (r.top + r.height / 2 - vh / 2) / vh));
+    d.style.transform = `translateX(${p * -6}vw)`;
+  });
+  let label = lang === "ta" ? "## நிலைப்பது" : "## what stays";
+  rooms.forEach(s => { if (s.getBoundingClientRect().top < vh * .4) label = lang === "ta" ? LABEL_TA[s.id] : s.dataset.label; });
+  where.textContent = label;
+}
+addEventListener("scroll", onScroll, { passive: true });
+onScroll();
+
+// the eye follows the pointer
+const eye = document.getElementById("eye"), pupil = document.getElementById("pupil");
+addEventListener("pointermove", e => {
+  if (reduce) return;
+  const r = eye.getBoundingClientRect();
+  const dx = e.clientX - (r.left + r.width / 2), dy = e.clientY - (r.top + r.height * .56);
+  const d = Math.hypot(dx, dy) || 1, k = Math.min(1, d / 300);
+  pupil.setAttribute("transform", `translate(${dx / d * 34 * k} ${dy / d * 18 * k})`);
+});
+
+// appendix
+const BOOKS = [["kural", "Thirukkural", "#1f3fd6", "திருக்குறள்"], ["naladiyar", "Naladiyar", "#c7351c", "நாலடியார்"], ["tirumanthiram", "Tirumanthiram", "#1e4a39", "திருமந்திரம்"], ["thiruppugazh", "Thiruppugazh", "#f4a417", "திருப்புகழ்"]];
+const fmt = n => n.toLocaleString("en");
+const bname = b => lang === "ta" ? b[3] : b[1];
+// The stats, the chord diagram and its legend are drawn in the current language, and redrawn on a switch.
+function drawAppendix() {
+  if (!DATA) return;
+  const ta = lang === "ta";
+  const vtot = Object.values(DATA.verses).reduce((a, b) => a + b, 0);
+  document.getElementById("stats").innerHTML = [
+    [fmt(vtot), ta ? "படிக்கப்பட்ட பாடல்கள்" : "verses read"], ["4", ta ? "நூல்கள், 1,500 ஆண்டு இடைவெளியில்" : "books, 1,500 years apart"],
+    [fmt(DATA.links), ta ? "முன்மொழியப்பட்ட இணைப்புகள்" : "links proposed"], [fmt(DATA.grades.sound), ta ? "உறுதியானவை என மதிப்பிடப்பட்டவை" : "graded sound"],
+    [String(DATA.concepts.length), ta ? "பொதுக் கருத்துகள்" : "shared concepts"]
+  ].map(([b, s]) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`).join("");
+
+  // chord-like diagram
+  const svg = document.getElementById("chord"), C = 230, R = 160;
+  const pos = BOOKS.map((b, i) => { const a = -Math.PI / 2 + i * Math.PI / 2 + Math.PI / 4; return [C + R * Math.cos(a), C + R * Math.sin(a)]; });
+  const m = DATA.matrix, maxCross = Math.max(...Object.entries(m).filter(([k]) => k.split("|")[0] !== k.split("|")[1]).map(([, v]) => v));
+  let out = "";
+  BOOKS.forEach((a, i) => BOOKS.forEach((b, j) => {
+    if (j <= i) return;
+    const v = m[`${a[0]}|${b[0]}`] || m[`${b[0]}|${a[0]}`] || 0; if (!v) return;
+    const [x1, y1] = pos[i], [x2, y2] = pos[j];
+    out += `<path d="M${x1} ${y1} Q${C} ${C} ${x2} ${y2}" fill="none" stroke="${a[2]}" stroke-opacity=".55" stroke-width="${3 + 26 * v / maxCross}" stroke-linecap="round"><title>${ta ? `${bname(a)} – ${bname(b)}: ${v} உறுதியான இணைப்புகள்` : `${a[1]} and ${b[1]}: ${v} sound links`}</title></path>`;
+    const mx = (x1 + x2) / 2 * .5 + C * .5, my = (y1 + y2) / 2 * .5 + C * .5;
+    out += `<text x="${mx}" y="${my}" font-family="Cutive Mono, monospace" font-size="13" text-anchor="middle" fill="#16161d" paint-order="stroke" stroke="#eceef3" stroke-width="4">${v}</text>`;
+  }));
+  BOOKS.forEach((b, i) => {
+    const self = m[`${b[0]}|${b[0]}`] || 0, r = 14 + Math.sqrt(self) * 1.1, [x, y] = pos[i];
+    out += `<circle cx="${x}" cy="${y}" r="${r}" fill="${b[2]}"><title>${ta ? `${bname(b)}: நூலுக்குள் ${self} உறுதியான இணைப்புகள்` : `${b[1]}: ${self} sound links inside the book`}</title></circle>`;
+    const ly = y < C ? y - r - 10 : y + r + 20;
+    out += `<text x="${x}" y="${ly}" font-family="Bricolage Grotesque, Catamaran, sans-serif" font-weight="600" font-size="15" text-anchor="middle" fill="#16161d">${bname(b)}</text>`;
+  });
+  svg.innerHTML = out;
+  document.getElementById("legend").innerHTML = BOOKS.map(b => `<span><i style="background:${b[2]}"></i>${bname(b)} · ${fmt(DATA.verses[b[0]])} ${ta ? "பாடல்கள்" : "verses"}</span>`).join("");
+}
+
+if (DATA) {
+
+  // concept index
+  const list = document.getElementById("clist"), q = document.getElementById("q"), more = document.getElementById("more");
+  let showAll = false;
+  const row = ([id, ta, gl, n]) => {
+    const t = n.reduce((a, b) => a + b, 0) || 1;
+    return `<li><div><span class="tm" lang="ta">${ta}</span><span class="id">${id}</span></div><div class="gl">${gl}</div><div class="bar" title="${BOOKS.map((b, i) => `${b[1]} ${n[i]}`).join(", ")}">${n.map((v, i) => `<span style="width:${100 * v / t}%;background:${BOOKS[i][2]}"></span>`).join("")}</div></li>`;
+  };
+  const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+  function render() {
+    const s = q.value.trim().toLowerCase();
+    let items = DATA.concepts.filter(c => !s || c[0].includes(s) || c[1].includes(s) || c[2].toLowerCase().includes(s));
+    const total = items.length;
+    if (!showAll && !s) items = items.slice(0, 40);
+    list.innerHTML = items.map(c => row([esc(c[0]), esc(c[1]), esc(c[2]), c[3]])).join("") ||
+      `<li><div class="gl">${lang === "ta" ? `“${esc(q.value)}” என்ற கருத்து இல்லை.` : `No concept matches “${esc(q.value)}”.`}</div></li>`;
+    more.hidden = showAll || !!s || total <= 40;
+  }
+  q.addEventListener("input", render);
+  more.addEventListener("click", () => { showAll = true; render(); });
+  render();
+}
+
+function setLang(l) {
+  lang = l === "ta" ? "ta" : "en";
+  const root = document.documentElement;
+  root.classList.toggle("l-ta", lang === "ta");
+  root.lang = lang;
+  tEls.forEach(t => { if (t.ta) t.el.innerHTML = lang === "ta" ? t.ta : t.en; });
+  wrapWords();
+  document.getElementById("q").placeholder = lang === "ta" ? "அன்பு, love, கூற்றம், உடல்…" : "love, அன்பு, death, body…";
+  document.querySelectorAll(".lang button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.l === lang)));
+  drawAppendix();
+  onScroll();
+  try { localStorage.setItem("nilai-lang", lang); } catch (e) { /* storage may be blocked; the choice just won't persist */ }
+}
+document.querySelectorAll(".lang button").forEach(b => b.addEventListener("click", () => setLang(b.dataset.l)));
+let saved = null;
+try { saved = localStorage.getItem("nilai-lang"); } catch (e) { /* ignore */ }
+setLang(new URLSearchParams(location.search).get("lang") || saved || ((navigator.language || "").startsWith("ta") ? "ta" : "en"));
+</script>
