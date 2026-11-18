@@ -16,7 +16,6 @@ guard args.count >= 5, let doc = PDFDocument(url: URL(fileURLWithPath: args[1]))
 let first = Int(args[2])!, last = min(Int(args[3])!, doc.pageCount), outDir = args[4]
 let dpi = args.count > 5 ? CGFloat(Double(args[5])!) : 300
 let blank: UInt8 = 248
-let margin = 20
 
 for index in first...last {
     guard let page = doc.page(at: index - 1) else { continue }
@@ -46,9 +45,26 @@ for index in first...last {
     }
     var image = rep.cgImage!
     if bottom > top && right > left {
-        let crop = CGRect(x: max(0, left - margin), y: max(0, top - margin),
-                          width: min(width, right + margin) - max(0, left - margin),
-                          height: min(height, bottom + margin) - max(0, top - margin))
+        // Scans often carry a dark border from the scanner bed, which stops Tesseract finding any
+        // lines. Trim edge rows and columns that are mostly dark, up to a tenth of the page.
+        func mean(_ x0: Int, _ x1: Int, _ y0: Int, _ y1: Int) -> Double {
+            var sum = 0, count = 0
+            for y in y0...y1 { let row = pixels + y * width; for x in x0...x1 { sum += Int(row[x]); count += 1 } }
+            return Double(sum) / Double(max(count, 1))
+        }
+        let darkEdge = 140.0
+        let maxTrimX = (right - left) / 10, maxTrimY = (bottom - top) / 10
+        var t = 0
+        while t < maxTrimX && mean(left, left, top, bottom) < darkEdge { left += 1; t += 1 }
+        t = 0
+        while t < maxTrimX && mean(right, right, top, bottom) < darkEdge { right -= 1; t += 1 }
+        t = 0
+        while t < maxTrimY && mean(left, right, top, top) < darkEdge { top += 1; t += 1 }
+        t = 0
+        while t < maxTrimY && mean(left, right, bottom, bottom) < darkEdge { bottom -= 1; t += 1 }
+        let inset = 6  // past the blurred edge of the border
+        let crop = CGRect(x: left + inset, y: top + inset, width: right - left - 2 * inset,
+                          height: bottom - top - 2 * inset)
         image = image.cropping(to: crop) ?? image
     }
     let out = NSBitmapImageRep(cgImage: image)
