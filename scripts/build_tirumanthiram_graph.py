@@ -32,6 +32,10 @@ def main():
     verses = {r["number"]: r for r in read_jsonl(ROOT / "kg" / "core" / "tirumanthiram.jsonl")}
     audit = json.loads((OUT_DIR / "link_audit.json").read_text(encoding="utf-8"))
     grades = {(ref(g["a"]), ref(g["b"])): g for g in audit["links"]}
+    # Links added by the refinement pass are graded separately (docs/refine-pass-brief.md).
+    if (OUT_DIR / "refine_audit.json").exists():
+        refine = json.loads((OUT_DIR / "refine_audit.json").read_text(encoding="utf-8"))
+        grades.update({(ref(g["a"]), ref(g["b"])): g for g in refine["links"]})
     nodes, edges = [], []
     for path in sorted(MARKS_DIR.glob("ch*.json")):
         chapter = json.loads(path.read_text(encoding="utf-8"))
@@ -59,7 +63,7 @@ def main():
             s, o = ref(link["a"]), ref(link["b"])
             grade = grades.get((s, o), {})
             edge = {"s": s, "p": link["type"].upper(), "o": o, "note": link["note"],
-                    "basis": "interpretation", "status": "proposed",
+                    "basis": "interpretation", "status": "proposed", "pass": link.get("pass", "marking"),
                     "audit": grade.get("grade", "not_audited"), "source": "tirumanthiram_marks",
                     "cross_book": not o.startswith("tirumanthiram:")}
             if grade.get("better_type"):
