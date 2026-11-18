@@ -29,7 +29,7 @@ BOOKS = {
 }
 SPLIT = {"thiruppugazh": 15}
 FINISHED = {"kural": ("kural.jsonl", "verse"), "naladiyar": ("naladiyar.jsonl", "verse"),
-            "tirumanthiram": ("tirumanthiram.jsonl", "number")}
+            "tirumanthiram": ("tirumanthiram.jsonl", "number"), "thiruppugazh": ("thiruppugazh.jsonl", "number")}
 
 
 def read_jsonl(path):
@@ -144,12 +144,12 @@ def check(book, numbers):
 def index(out):
     """One line per marked verse of the finished books, for agents linking a new book to them."""
     lines = []
-    for book, folder in (("kural", "kural"), ("naladiyar", "naladiyar"), ("tirumanthiram", "tirumanthiram")):
+    for book, folder in (("kural", "kural"), ("naladiyar", "naladiyar"), ("tirumanthiram", "tirumanthiram"), ("thiruppugazh", "thiruppugazh")):
         for n in read_jsonl(ROOT / "kg" / folder / "nodes.jsonl"):
             if n["type"] == "Verse":
                 lines.append((book, n["number"], n["reading"]))
     concepts = {}
-    for folder in ("kural", "naladiyar", "tirumanthiram"):
+    for folder in ("kural", "naladiyar", "tirumanthiram", "thiruppugazh"):
         for e in read_jsonl(ROOT / "kg" / folder / "edges.jsonl"):
             if e["p"] == "EXPRESSES":
                 concepts.setdefault(e["s"], []).append(e["o"].split(":")[1])
