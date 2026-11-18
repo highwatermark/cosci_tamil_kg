@@ -7,8 +7,9 @@
   book_marks.py index OUT                       one line per marked verse of every finished book
 
 Chapters are numbered 1..N in the book's order (BOOKS below says how a record maps to one).
-Links may point within the book (an integer) or to another book as "kural:N", "naladiyar:N"
-or "<book>:N". The schema is kg/themes/SCHEMA.md; commentators are listed per book.
+Links may point within the book (an integer) or to another book as "kural:N", "naladiyar:N",
+"tirumanthiram:N" or "<book>:N". Long runs of one heading are split into chapters of at most
+SPLIT[book] verses, so a marking file stays a manageable size. Verses with no text are not marked. The schema is kg/themes/SCHEMA.md; commentators are listed per book.
 """
 import json
 import re
@@ -24,8 +25,11 @@ MAX_CONCEPTS = 4
 # book: (core file, number field, chapter key fields, chapter title field, witnesses {field: max quote words})
 BOOKS = {
     "tirumanthiram": ("tirumanthiram.jsonl", "number", ("tantra", "chapter_no"), "chapter", {}),
+    "thiruppugazh": ("thiruppugazh.jsonl", "number", ("heading",), "heading", {}),
 }
-FINISHED = {"kural": ("kural.jsonl", "verse"), "naladiyar": ("naladiyar.jsonl", "verse")}
+SPLIT = {"thiruppugazh": 15}
+FINISHED = {"kural": ("kural.jsonl", "verse"), "naladiyar": ("naladiyar.jsonl", "verse"),
+            "tirumanthiram": ("tirumanthiram.jsonl", "number")}
 
 
 def read_jsonl(path):
@@ -38,16 +42,25 @@ def squeeze(text):
 
 def load(book):
     core, number_field, chapter_fields, title_field, witnesses = BOOKS[book]
-    records = read_jsonl(CORE / core)
-    verses, chapters, keys = {}, {}, {}
+    records = [r for r in read_jsonl(CORE / core) if r.get("tamil")]
+    runs = []  # consecutive records sharing a chapter key
     for r in records:
         key = tuple(str(r[f]) for f in chapter_fields)
-        if key not in keys:
-            keys[key] = len(keys) + 1
-            chapters[keys[key]] = {"title": r[title_field], "verses": [], "record": r}
-        n = int(r[number_field])
-        verses[n] = r | {"chapter_seq": keys[key]}
-        chapters[keys[key]]["verses"].append(n)
+        if not runs or runs[-1][0] != key:
+            runs.append((key, []))
+        runs[-1][1].append(r)
+    size = SPLIT.get(book)
+    verses, chapters = {}, {}
+    for key, rs in runs:
+        blocks = [rs[i:i + size] for i in range(0, len(rs), size)] if size else [rs]
+        for i, block in enumerate(blocks, 1):
+            c = len(chapters) + 1
+            title = block[0][title_field] + (f" ({i}/{len(blocks)})" if len(blocks) > 1 else "")
+            chapters[c] = {"title": title, "verses": [], "record": block[0]}
+            for r in block:
+                n = int(r[number_field])
+                verses[n] = r | {"chapter_seq": c}
+                chapters[c]["verses"].append(n)
     return verses, chapters, witnesses
 
 
@@ -56,12 +69,12 @@ def show(book, numbers):
     for c in numbers:
         ch = chapters[c]
         rec = ch["record"]
-        print(f"# Chapter {c}: {ch['title']} (tantra {rec.get('tantra')} {rec.get('tantra_name') or ''}, "
-              f"verses {ch['verses'][0]}-{ch['verses'][-1]})")
+        where = f"tantra {rec.get('tantra')} {rec.get('tantra_name') or ''}, " if "tantra" in rec else ""
+        print(f"# Chapter {c}: {ch['title']} ({where}verses {ch['verses'][0]}-{ch['verses'][-1]})")
         for n in ch["verses"]:
             v = verses[n]
             print(f"\n## {n}\n" + "\n".join(v["tamil"]))
-            for field in ("variants", "sengalvaraya_parallels", "corrupt_lines"):
+            for field in ("variants", "sengalvaraya_parallels", "corrupt_lines", "corrupt_chars", "heading_variants"):
                 if v.get(field):
                     print(f"{field.upper()}: {squeeze(json.dumps(v[field], ensure_ascii=False))}")
             for field in witnesses:
@@ -131,12 +144,12 @@ def check(book, numbers):
 def index(out):
     """One line per marked verse of the finished books, for agents linking a new book to them."""
     lines = []
-    for book, folder in (("kural", "kural"), ("naladiyar", "naladiyar")):
+    for book, folder in (("kural", "kural"), ("naladiyar", "naladiyar"), ("tirumanthiram", "tirumanthiram")):
         for n in read_jsonl(ROOT / "kg" / folder / "nodes.jsonl"):
             if n["type"] == "Verse":
                 lines.append((book, n["number"], n["reading"]))
     concepts = {}
-    for folder in ("kural", "naladiyar"):
+    for folder in ("kural", "naladiyar", "tirumanthiram"):
         for e in read_jsonl(ROOT / "kg" / folder / "edges.jsonl"):
             if e["p"] == "EXPRESSES":
                 concepts.setdefault(e["s"], []).append(e["o"].split(":")[1])
