@@ -264,6 +264,32 @@ python3 -I scripts/build_kural_graph.py
 python3 -I scripts/export_viz.py
 ```
 
+### Other books
+
+`docs/reading-order.md` sets the order and depth for the books after the Kural. Each book is first
+ingested into `kg/core/<book>.jsonl` by `scripts/parse_<book>.py`; `docs/ingest/` has a report on each.
+
+| Book | Units ingested | Marked | Linked and graded |
+|---|---|---|---|
+| Naladiyar | 400 quatrains | all 40 chapters | 457 links (370 to the Kural): 381 sound, 72 weak, 4 forced |
+| Tirumanthiram | 2,783 verses (1155-1418 absent in the corpus) | no | no |
+| Thiruppugazh | 1,326 songs | no | no |
+| Tiruvasagam | 661 stanzas, Thiruvempavai included | no | no |
+| Avvaiyar | 270 lines and verses in four works | no | no |
+| Thirumurai | 14,580 verses (Thirumurai 6 lacks 6.41.3-6.50) | no | no |
+| Purananuru | 398 poems | no | no |
+| Siddhar songs | 2,702 units in 43 works | no | no |
+| Divya Prabandham | 3,961 records for all 4,000 pasurams | no | no |
+
+**Naladiyar.** The marks are in `kg/themes/naladiyar/`, validated by `scripts/naladiyar_marks.py
+check`, and built into `kg/naladiyar/` by `scripts/build_naladiyar_graph.py`. Concepts are shared with
+the Kural, so `concept:` nodes join the two books. The graders matched 32 of 40 Kural links of known
+grade, stricter more often than lenient. The commentary alignment for Mudaliar and Shanmuganar has gaps
+and misplaced entries, recorded in each chapter's `source_issues`.
+
+**Siddha books the owner supplied** sit in `data/incoming/siddha/`, which git ignores. Most are scans,
+read with Tamil OCR (`scripts/ocr_incoming.sh`); OCR text is unchecked and not yet in the graph.
+
 ## Security
 
 See [SECURITY.md](SECURITY.md) for the dependency review and the PDF structure check. Treat

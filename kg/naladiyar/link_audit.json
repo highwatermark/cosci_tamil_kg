@@ -1,0 +1,4544 @@
+{
+ "summary": {
+  "run": "Blind grading of the Naladiyar's links, 2026-11-17",
+  "method": "8 Claude agents graded the 457 links proposed while marking the Naladiyar, with 5 unmarked Kural links of known grade in each packet.",
+  "by_grade": {
+   "sound": 381,
+   "weak": 72,
+   "forced": 4
+  },
+  "to_kural": {
+   "sound": 302,
+   "weak": 64,
+   "forced": 4
+  },
+  "within_naladiyar": {
+   "sound": 79,
+   "weak": 8
+  },
+  "calibration": {
+   "links": 40,
+   "exact": 32,
+   "more_lenient": 3,
+   "stricter": 5
+  },
+  "limits": "All graders are Claude without a Tamil lexicon; no Tamil scholar has reviewed this."
+ },
+ "links": [
+  {
+   "a": 195,
+   "b": "kural:972",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "972 says பிறப்பொக்கும் and that distinction comes from செய்தொழில் வேற்றுமை; 195 says நல்ல/தீய குலம் are சொல்லளவு and that lineage comes from தவம் கல்வி ஆள்வினை. Both deny that birth confers rank.",
+   "text_issue": null
+  },
+  {
+   "a": 176,
+   "b": 151,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use the moon's spot (முயல் in 176, மறு in 151) with opposite morals. The bright moon makes its flaw worshipped (தொழப்படுஉம்), while the noble cannot bear one stain (சான்றோர் அஃது ஆற்றார்). The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 89,
+   "b": "kural:129",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both rank one burning (சுடு) above fire: in 89 fire and arrows burn புறம் but desire burns மனத்தை, and in 129 the fire's wound heals (உள்ளாறும்) while the tongue's வடு does not. Parimelazhagar's reading (the fire wound heals in the mind) supports the outer/inner contrast.",
+   "text_issue": null
+  },
+  {
+   "a": 173,
+   "b": "kural:362",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "They share the premise that birth is bitter (பிறப்பு இன்னாது; பிறவாமை as the one thing worth wanting), but 173 tells the heart to cling to the wise and 362 says to want desirelessness. 173 never speaks of escaping birth, so the note overstates the agreement.",
+   "text_issue": null
+  },
+  {
+   "a": 164,
+   "b": "kural:900",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Same chapter title (பெரியாரைப் பிழையாமை) and the same verb: 164 says அரண்சேர்ந்தும் உய்யார் பெருமையுடையார் செறின், and 900 says சார்புடையர் ஆயினும் உய்யார் சிறந்தமைந்த சீரார் செறின். Parimelazhagar's சார்பு includes அரண், so the fortress appears in both.",
+   "text_issue": null
+  },
+  {
+   "a": 186,
+   "b": "kural:957",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "957: a fault in the well-born shows like the spot on the moon (மதிக்கண் மறு). 186: a fault in the great shows like a brand (சூடு) on a white bull, while the small kill that bull unnoticed. The claim is the same, 186 adds the contrast, and the note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 206,
+   "b": 217,
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The shared contrast is real: rich white rice from the unloving (அமரார் / மேவாதார் கைத்து) against poor greens or gruel given with love. But the note says 206 ends in neem; 206 ends எக்காலத்தானும் இனிது, and the neem (வேம்பு) verses are 207 and 210.",
+   "text_issue": null
+  },
+  {
+   "a": 96,
+   "b": "kural:1008",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both put a fruiting tree நடுவூருள் and play on நச்ச (desired): 96's பலர் நச்ச வாழ்வார் are the fruiting palm, and 1008's நச்சப்படாதவன் wealth is the poison tree (நச்சு மரம்). The note's contrast with 96's barren palm in the burning ground is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 254,
+   "b": "kural:403",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "It is the same scene with opposite verdicts: 403 says the unlearned who stay silent before the learned are நனிநல்லர, and 254 says that even if he sits quietly (மெல்ல இருப்பினும்) it is நாய் இருந்தற்று. The note names the reading it depends on.",
+   "text_issue": null
+  },
+  {
+   "a": 288,
+   "b": "kural:1050",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "For the destitute, 1050 (Parimelazhagar: முற்றத் துறத்தல், the body included) condemns living on others' உப்பு and காடி. 288 calls begging at row after row of houses (நிரைமனையில் கைந்நீட்டும்) the better life. The note says the conflict depends on Parimelazhagar.",
+   "text_issue": null
+  },
+  {
+   "a": 307,
+   "b": "kural:1057",
+   "type": "tension",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "307's பிறக்கலான் is hyperbole, and Mudaliar treats it figuratively. 1057 is conditional (ஈவாரைக் காணின்) and does not assert that such givers are common. The conflict exists only if hyperbole is read literally, as the note itself concedes.",
+   "text_issue": null
+  },
+  {
+   "a": 328,
+   "b": 332,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both mock deferring virtue in the deferrer's own words (பின்னறிவாம் in 328, மற்றறிவாம் in 332) through different images: gold that turns to sour fruit at death, and waiting for the sea to fall silent. The pairing is apt.",
+   "text_issue": null
+  },
+  {
+   "a": 197,
+   "b": "kural:70",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both concern a son's service to his father, but 70 is about repayment (உதவி) through the son's own worth, while 197's aerial roots propping the banyan (வீழ் ஊன்றி) is about covering the father's weakness (குதலைமை). 197 does not frame this as repayment, so the link is thematic.",
+   "text_issue": null
+  },
+  {
+   "a": 149,
+   "b": "kural:1077",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "They overlap in that the small/base don't do good even when able (செல்லிடத்தும் செய்யார்; ஈர்ங்கை விதிரார்). But 1077's point is that the base give only under coercion (கொடிறுடைக்கும் கூன்கையர்), and 149's is that nature, not means, decides (antelope versus warhorse).",
+   "text_issue": null
+  },
+  {
+   "a": 352,
+   "b": "kural:823",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both say study doesn't change a person, but 823 (கூடாநட்பு, மாணார் = enemies for Parimelazhagar) is about hostile hearts not softening (மனநல்லர் ஆகுதல்), while 352 is about the dull lacking discernment (நுணுக்கம், தேர்கிற்கும் பெற்றி). The note's 'unworthy' hides the context of enmity.",
+   "text_issue": null
+  },
+  {
+   "a": 194,
+   "b": 152,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both judge conduct apart from outcome, and they share இசையாதெனினும். 152 says the worthy aim at the blameless whether or not they succeed (the arrow that missed a lion beats the one that killed a jackal), and 194 says manliness is அசையாது நிற்பது when things fail.",
+   "text_issue": null
+  },
+  {
+   "a": 144,
+   "b": "kural:957",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "In 144 the well-born's evil becomes பல்லவர் தூற்றம் பழி, and in 957 குடிப்பிறந்தார் கண் குற்றம் stands out like the moon's spot. It is the same claim about the visibility of noble faults, and the note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 75,
+   "b": 76,
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "These are adjacent verses in the same chapter: 75 permits தூற்றாதே தூர விடல் once one cannot bear more, and 76 says to blame oneself and never கைவிடுதல் close friends. The note correctly flags that the conflict weakens if தேற்றா ஒழுக்கம் is general misconduct.",
+   "text_issue": null
+  },
+  {
+   "a": 190,
+   "b": "kural:227",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both say habitual sharing of food protects the sharer: 227's பாத்தூண் keeps off the disease of hunger, and 190's giving away the first-served food removes the three faults and keeps one from sorrow (துக்கத்துள் நீக்கிவிடும்). The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 387,
+   "b": "kural:1311",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "Both centre on the husband's chest (மார்பு) shared with other women. But 1311 is feigned sulking (புலவி நுணுக்கம்) over women's looks, while 387 is a bitter complaint about real visits to courtesans, and 387 never states a refusal. They share an image more than a claim.",
+   "text_issue": null
+  },
+  {
+   "a": 49,
+   "b": 50,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "In both, the skulls of the dead laugh (சாலச் சிரித்து; உட்கச் சிரித்து) and teach what the body is (இற்றிதன் பண்பு; இற்றிதன் வண்ணம்). In 50 the audience narrows to the infatuated (செம்மாப்பவர்), as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 284,
+   "b": "kural:527",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Crows with opposite morals: 527's crows கரவா கரைந்துண்ணும (call their kin to share) model the generous, and 284's crows flocking to a corpse (உடைந்துழிக் காகம்) are hangers-on of wealth. The pairing is meaningful.",
+   "text_issue": null
+  },
+  {
+   "a": 277,
+   "b": "kural:1041",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "277's list of what the poor escape (உய்ந்தார்) is a satirical foil aimed at வழங்காத செல்வர், not a claim about poverty. Read as a limit on 1041's இன்மையின் இன்னாதது இன்மையே, the link is thin.",
+   "text_issue": null
+  },
+  {
+   "a": 145,
+   "b": "kural:997",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both call those who lack a human moral faculty wood or trees: 997's மரம்போல்வர் மக்கட்பண்பு இல்லாதவர், and 145's மரத்தார் for those without the four fears. The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 114,
+   "b": 1,
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "114 makes wealth (நடுவணது) the key that brings the two ends, virtue and pleasure. 1 shows the six-flavour diner begging for கூழ் and concludes செல்வம் உண்டாக வைக்கற்பாற்றன்று. Impermanence is a fair limiting condition on 114's promise.",
+   "text_issue": null
+  },
+  {
+   "a": 121,
+   "b": "kural:251",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "251 asks how one who eats பிறிது ஊன் to swell his own can have அருள். In 121 the belly of the புல்லறிவாளர் is a burning ground (காடு) for beasts and birds, which Mudaliar reads as புலால் மறுக்கப்பட்டது. Both condemn eating flesh.",
+   "text_issue": null
+  },
+  {
+   "a": 321,
+   "b": 322,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both pair the unreceptive hearer of virtue with something that cannot know the taste of milk-rice: the ladle (பாற்கூழை மூழை சுவையுணராது) and the tanner's dog (பாற்சோற்றின் செவ்விய கொளல் தேற்றா). They are adjacent and deliberately echo each other.",
+   "text_issue": null
+  },
+  {
+   "a": 227,
+   "b": "kural:188",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "188 condemns those who தூற்றும் the faults of the துன்னியார், and 227 says those who, after joining (கலந்தபின்), bring out a friend's தீமை are themselves lower than he is. The judgement is the same.",
+   "text_issue": null
+  },
+  {
+   "a": 315,
+   "b": "kural:857",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "There is a real overlap: hostility for victory blinds to truth (வென்றிப் பொருட்டால் மெய்கொள்ளார்; மிகல்மேவல் மெய்ப்பொருள் காணார்). But in 315 that is only a description of the hostile assembly, and its claim is a warning to the eloquent who rise among them (their teeth in their hands).",
+   "text_issue": null
+  },
+  {
+   "a": 159,
+   "b": "kural:1057",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The two verses are complementary sides of one value: 1057's beggar rejoices at those who give இகழ்ந்தெள்ளாது, and in 159 the விழுமியோர் think a request நன்று and honour the visitor, where the பண்பிலார் இகழ்ப. The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 33,
+   "b": "kural:379",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both counsel equanimity when the fruit of past deeds arrives: 379 asks why one grieves (அல்லற்படுவது எவன்) at the bad after welcoming the good, and in 33 those who know it as தொல்லையது pass beyond தடுமாற்றத்து எல்லை. 'Rebirth's confusion' is a fair gloss.",
+   "text_issue": null
+  },
+  {
+   "a": 322,
+   "b": "kural:418",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "It is the same paradox: செவிகொடுத்தும் கேட்கலார் (322) and கேட்பினும் கேளாத் தகைய (418). 418 locates the cause in untrained ears and 322 in bad disposition, but the claim that hearing is not hearing is shared.",
+   "text_issue": null
+  },
+  {
+   "a": 271,
+   "b": "kural:229",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both condemn eating alone: 229's தாமே தமியர் உணல் is worse than begging, and 271's அடைத்திருந்து உண்டொழுகும் have the door of the other world shut on them. The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 274,
+   "b": "kural:1007",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both liken the miser's wealth to a beautiful maiden: 1007's மிகநலம் பெற்றாள் தமியள் மூத்தற்று, and 274's உருவுடைக் கன்னியர், who in due season is enjoyed by an ஏதிலான். The outcomes are opposite and the point is the same, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 35,
+   "b": "kural:36",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both say virtue done in time stands by one at death: 36's அன்றறிவாம் என்னாது … பொன்றுங்கால் பொன்றாத் துணை, and 35's jaggery taken சிறுகாலை, so that one has no grief when the cane refuse burns and கூற்றம் comes. The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 133,
+   "b": "kural:409",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both set the low-born learned above the unlearned: 409's கீழ்ப்பிறந்தும் கற்றார், and 133's கடைநிலத்தோராயினும் கற்றறிந்தோரைத் தலைநிலத்து வைக்கப்படும், with the salt-from-brackish-soil image.",
+   "text_issue": null
+  },
+  {
+   "a": 174,
+   "b": "kural:460",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "460 says நல்லினத்தின் ஊங்குந் துணையில்லை. 174 carries this to the extreme: though birth is இன்னாது, no one would resent it (முனியார்) with lifelong friendship of the good. The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 204,
+   "b": "kural:782",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both contrast short-lived friendship with the small or fools against enduring friendship with the worthy: சிலபகலாம் சிற்றினத்தார் கேண்மை against பிறை/மதிப் பின் நீர. The note names each verse's image correctly.",
+   "text_issue": null
+  },
+  {
+   "a": 220,
+   "b": 168,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "They share the premise that parting after intimacy hurts even with the unworthy (220's snake, 168's தெரிவிலார்). The note correctly says they draw different conclusions: test long first (220), or கலவாமை கோடி உறும் (168).",
+   "text_issue": "220's Tamil is garbled: மாணஇப், பெரிணஇப், பாணஇ, மாணஇஇப் should be மரீஇப், பொரீஇப், பரீஇ, மரீஇ (as Mudaliar's glosses show), and Pope's gloss is a stub."
+  },
+  {
+   "a": 181,
+   "b": "kural:1050",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "181 starts from ஈதல் இசையாது and concludes that giving up desire and leaving (போவதே பொருள்) is right. 1050 says those without means should துவரத் துறத்தல், or they are death to others' salt and gruel. Both prescribe renunciation for those who cannot give.",
+   "text_issue": null
+  },
+  {
+   "a": 97,
+   "b": "kural:19",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "tension",
+   "reason": "97 says that even when rain fails (பெய்யாக் கண்ணும்), the world survives only if people still do what they should. That expects giving to continue in drought, while 19 says தானம் தவம் தங்கா when rain fails. The note's 'parallel supports' misses this conflict.",
+   "text_issue": null
+  },
+  {
+   "a": 112,
+   "b": "kural:514",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "112 says the worthy and unworthy never fall from their natures (தந்நீர்மை எக்காலும் குன்றல் இலர்), while 514 says many who were trusted after every test வினைவகையான் வேறாகும். The note names the reading it depends on (Parimelazhagar's real change).",
+   "text_issue": null
+  },
+  {
+   "a": 347,
+   "b": "kural:505",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "505 makes கருமமே கட்டளைக் கல் for greatness and smallness. 347, and 350 with the same closing lines, say the base, though rich, are known செய்தொழிலால். The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 244,
+   "b": "kural:458",
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "458 says even those of full மனநலம் gain strength (ஏமாப்பு) from good company. 244's plantain, sweet among neem leaves, says the good-natured are not corrupted even when இனந்தீது. Each limits how much company matters to a good mind.",
+   "text_issue": null
+  },
+  {
+   "a": 109,
+   "b": "kural:376",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both say will does not govern what destiny brings: 109's வேண்டினும் வேண்டாவிடினும் உற்றபால தீண்டா விடுதல் அரிது, and 376's பரியினும் ஆகாவாம் பாலல்ல. The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 115,
+   "b": "kural:1046",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1046: the poor's words சோர்வுபடும் even when soundly understood. 115: நல்கூர்ந்தார் சொல் glances off like a plough in dry soil, while the unlearned rich are heard (கல்லாரேயாயினும் செல்வர்வாய்ச் சொற்செல்லும்), which is the other half the note mentions.",
+   "text_issue": null
+  },
+  {
+   "a": 396,
+   "b": 399,
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both are the mother's speech after the daughter's elopement (the feet on the பரல் கானம், the farewell embrace as குறி), and the note describes them accurately. But neither extends the other's idea; they are two laments in the same situation.",
+   "text_issue": null
+  },
+  {
+   "a": 135,
+   "b": "kural:391",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "391's கற்பவை (learn what is to be learned) is glossed by Parimelazhagar with the words சின்னாள் பல்பிணி, which echo 135's நாள்சில … பிணிபல. Both insist on selecting what to learn, and 135 supplies the reason.",
+   "text_issue": null
+  },
+  {
+   "a": 10,
+   "b": "kural:1009",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The wording is close: தற்செற்று அறநோக்காது ஈட்டிய wealth goes to பிறர் (1009), and தம்உடம்பு செற்றும் … நல்லறமும் செய்யார் … இழப்பர் (10), with the honey bee as witness (கரி).",
+   "text_issue": null
+  },
+  {
+   "a": 196,
+   "b": "kural:701",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both praise reading others' minds from outward signs without being told: 701's கூறாமை நோக்கிக் குறிப்பறிவான் is வையக்கு அணி, and 196's ஊக்கம் உறுப்பினால் ஆராயும் ஒண்மையுடையார் have the world குறிப்பின்கீழ்.",
+   "text_issue": null
+  },
+  {
+   "a": 88,
+   "b": "kural:1134",
+   "type": "tension",
+   "grade": "weak",
+   "better_type": "qualifies",
+   "reason": "88 is about the உரவோர, in whom fear of shame (நாணுப்படல் அஞ்சி) makes desire subside, while 1134 is a lover's plea in the Book of Love that the flood carries off நாண் and நல்லாண்மை. These are different persons and situations, so 88 limits 1134 rather than contradicting it, as the note half-concedes.",
+   "text_issue": null
+  },
+  {
+   "a": 101,
+   "b": 120,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "101's old deed seeks out its doer like the calf its mother (கிழவனை நாடிக் கொளற்கு), and 120 says only தாஞ்செய் வினை goes with one at death. Together they extend the idea of deed as inseparable from its doer, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 200,
+   "b": "kural:1065",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The claim is nearly identical: food got by one's own effort (தாள்தந்தது தெண்ணீர் அடுபுற்கை; தாளாண்மை நீரும் அமிழ்தாய் விடும்) is sweetest. 200 adds the base feasting on a patron's bounty.",
+   "text_issue": null
+  },
+  {
+   "a": 82,
+   "b": "kural:146",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "82 repeats 146's four (பகை பழி பாவம் அச்சம்) exactly and adds four goods lost (அறம் புகழ் கேண்மை பெருமை). The development is real and the note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 360,
+   "b": "kural:576",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "Both say having the conditions for compassion yet lacking it (கண்ணோடியைந்து கண்ணோடாதவர்; born in water yet no ஈரம், rich yet hard as அறைப்பெருங்கல்). But the images differ: a rooted tree against a dry reed and rock. The shared element is the claim, not an image.",
+   "text_issue": null
+  },
+  {
+   "a": 160,
+   "b": "kural:443",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both prize winning the worthy as one's own above all gain: 443's பெரியாரைத் தமராக் கொளல் is அரியவற்றுள் எல்லாம் அரிது, and 160's meeting நல்ல குலம் is like finding a treasure cave (பிலம்), against the base who trail the rich.",
+   "text_issue": null
+  },
+  {
+   "a": 300,
+   "b": "kural:969",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both மானம் chapters use an animal that dies rather than accept dishonour: the கவரிமா that won't live without its hair, and the tiger that starves (உண்ணாது இறக்கும்) rather than eat prey fallen on its left. The figure is meaningfully shared.",
+   "text_issue": null
+  },
+  {
+   "a": 123,
+   "b": "kural:330",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Parimelazhagar on 330 cites Naladiyar 123 (அக்கேபோல் அங்கை யொழிய விரல் அழுகி) to explain செயிர் உடம்பு. Both trace a diseased, wretched body to having taken life in a former birth.",
+   "text_issue": null
+  },
+  {
+   "a": 127,
+   "b": "kural:702",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "127's rhetorical யாஅர் ... தேருந் துணைமை யுடையவர் denies anyone can read another's mind, and 702 calls one who can (அகத்தது உணர்வானை) godlike, i.e. beyond the human. The note itself describes agreement, not a limit placed on 702.",
+   "text_issue": null
+  },
+  {
+   "a": 365,
+   "b": 366,
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Real pairing of two adjacent three-rank lists (தலை/இடை/கடை), with the top shifting from தவம் to கல்வி. But 365's middle is இனியார்கண் தங்கல் (dwelling with loved ones/wife), which the note smooths into 'enjoyment of what one has' to match 366's நல்லவை துவ்வா; and 366 varies 365 rather than develops it.",
+   "text_issue": null
+  },
+  {
+   "a": 111,
+   "b": "kural:110",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "111 explicitly ranks the broken promise above செய்ந்நன்றி கொன்றார், the very fault 110 says has no உய்வு; both commentators take கொன்றாரின் as a comparison. A clear extension.",
+   "text_issue": null
+  },
+  {
+   "a": 225,
+   "b": 224,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both concern friends one cannot leave (விடுதற்கரியார் / விடற்பாலரல்லார்) through fire: 224's நெஞ்சம் சுடுதற்கு மூட்டிய தீ and 225's house-burning fire still kindled daily. The fire is turned both ways, as the note says.",
+   "text_issue": "224 has a garbled character in கா஢யா (for அரியார்)."
+  },
+  {
+   "a": 58,
+   "b": "kural:157",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Parimelazhagar glosses 157's நோநொந்து by quoting 58's உம்மை எரிவாய் நிரயத்து வீழ்வர்கொல்; both pair forbearance with pity for the wrongdoer. The note credits the reading to the commentator.",
+   "text_issue": null
+  },
+  {
+   "a": 247,
+   "b": 168,
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Same phrase தெரியத் தெரியும் தெரிவிலா; 168 says parting from them causes பெரும்படர் நோய், while 247 says பிரியப் பிரியுமாம் நோய் (pain leaves when you leave them). These are opposite claims about the same act, and the note names the reading it depends on.",
+   "text_issue": "247 has a garbled character in புணா஢ன் (for புணரின்)."
+  },
+  {
+   "a": 291,
+   "b": 298,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both in மானம்: the honourable mind கனலும் like forest fire (291) and உள்கனலும் like the smith's forge fire (298), each provoked by the rich. The image is distinctive and shared.",
+   "text_issue": null
+  },
+  {
+   "a": 241,
+   "b": "kural:773",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "773's ஒன்றுற்றக்கால் ஊராண்மை (kindness when the foe meets misfortune) matches 241's பகைவர் பணிவிடம் நோக்கி ... தலைச்செல்லார். Parimelazhagar's example of Rama sparing Ravana is the same idea.",
+   "text_issue": null
+  },
+  {
+   "a": 178,
+   "b": "kural:446",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "178's நற்சார்வு சார்ந்தார்மேல் செல்லாவாம் செற்றார் சினம் and 446's தக்காரினத்தனாய் ... செற்றார் செயக்கிடந்த தில் make the same claim, both naming செற்றார். The stump-and-plough image adds to it.",
+   "text_issue": null
+  },
+  {
+   "a": 28,
+   "b": 34,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both say: take the பயன் of the body before it passes (யாக்கையால் ஆய பயன்கொள்க; பெரும்பயனும் ஆற்றவே கொள்க). 34 sits in அறன் வலியுறுத்தல், so its fruit is virtue, and the sugarcane-refuse image adds to the pairing.",
+   "text_issue": null
+  },
+  {
+   "a": 124,
+   "b": 139,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "124 has company corrupting the upright (கோடாரும் கோடி ... சார்ந்து) and 139 has it improving the unlearned (கற்றாரைச் சேர்ந்தொழுகின்). Each has its own transfer image (ghee in fire, flowers scenting a new pot), showing the mechanism works both ways.",
+   "text_issue": null
+  },
+  {
+   "a": 203,
+   "b": "kural:1027",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "203 (சுற்றந்தழால்): the great never refuse தற்சேர்ந்தவர், as a branch bears its fruit. 1027: the burden among தமர் falls on ஆற்றுவார். This is the same claim about kin, with distinct images.",
+   "text_issue": null
+  },
+  {
+   "a": 249,
+   "b": "kural:967",
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "967 condemns living (வாழ்தல்) by following ஒட்டார்; 249 approves the great following கல்லாதார் for கரும வரிசை. The note draws the boundary accurately (a task vs a livelihood), and Pope reads 249 as a sanctioned lowering of pride.",
+   "text_issue": null
+  },
+  {
+   "a": 151,
+   "b": "kural:957",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use the moon's spot (மறு) for a noble person's fault: 957 says it shows plainly, while 151 says the moon bears its மறு but the சான்றோர் cannot bear one மாசு. A distinctive image used to different ends.",
+   "text_issue": null
+  },
+  {
+   "a": 41,
+   "b": "kural:340",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The body as a temporary lodging is shared, and Mudaliar does gloss 41 with துச்சில். But the note says both call the body புக்கில், whereas in 340 புக்கில் is the permanent home the soul lacks and the body is the துச்சில். Pope even reads 41's புக்கில் as the heavenly home.",
+   "text_issue": null
+  },
+  {
+   "a": 300,
+   "b": "kural:966",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "966 says following scorners does not lead to புத்தேள்நாடு; 300 says the excellent would refuse வானகம் itself if it came by loss of மானம். Both are in மானம, and 300 pushes 966 further.",
+   "text_issue": null
+  },
+  {
+   "a": 226,
+   "b": 76,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both open இன்னா செயினும் and forbid casting off close friends who hurt you (துன்னாத் துறத்தல் தகுவதோ; கலந்தாரைக் கைவிடுதல்). The hand-and-eye and beast images add to it.",
+   "text_issue": "226 has a garbled character in கா஢யாரை (for அரியாரை)."
+  },
+  {
+   "a": 162,
+   "b": "kural:443",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "443 calls பெரியாரைப் பேணித் தமராக் கொளல் the rarest of things; 162 shows that access, unreachable even for gold, gained கொன்னே and wasted. It applies 443's point.",
+   "text_issue": null
+  },
+  {
+   "a": 375,
+   "b": "kural:920",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "920's இருமனப் பெண்டிர் and 375's மலங்கன்ன செய்கை மகளிர் (the eel showing one end to the snake, the other to the fish) are the same double-minded women, and both tie them to the witless or fortune-forsaken.",
+   "text_issue": null
+  },
+  {
+   "a": 334,
+   "b": "kural:997",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "The objects differ (மரம் in 997, கல் in 334), so no image is shared, only the pattern of comparing a person to an insensate thing. 334 goes further by ranking the stone above the கடையாய மாக்கள்.",
+   "text_issue": null
+  },
+  {
+   "a": 365,
+   "b": "kural:47",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "47 puts the householder (இல்வாழ்க்கை வாழ்பவன்) at the தலை of all who strive, while 365 puts தவம் at தலை and household life at இடை. Parimelazhagar does restrict முயல்வார் to the third stage, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 252,
+   "b": 266,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "252 jests that பூவின் கிழத்தி sulks away from the learned; 266 curses the same goddess (நன்மலர்மேற் பொற்பாவாய்) for leaving நன்மக்கள் for புன்மக்கள். The complaint escalates.",
+   "text_issue": null
+  },
+  {
+   "a": 198,
+   "b": "kural:969",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "969's உயிர்நீப்பர் மானம் வரின் and 198's dying in want (இன்றி விளியினும்) rather than doing what brings disgrace are the same claim, each with an animal image.",
+   "text_issue": null
+  },
+  {
+   "a": 168,
+   "b": "kural:816",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "The shared கோடி உறும் formula is the real link. But 168 does not limit 816's ranking of the wise over the fool. It reaches a different conclusion (கலவாமை with anyone) from the pain of parting, so qualifies is a poor fit.",
+   "text_issue": null
+  },
+  {
+   "a": 305,
+   "b": "kural:1061",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Near-verbatim: கரவாத ... கண்ணன்னார் கண்ணும் இரவாது (305) and கரவாது உவந்தீயும் கண்ணன்னார் கண்ணும் இரவாமை (1061). 305 adds the shame felt in taking.",
+   "text_issue": null
+  },
+  {
+   "a": 163,
+   "b": 165,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "163 makes esteem a matter for மிகைமக்கள் and dismisses the base's praise and scorn; 165 dismisses self-praise (தம்மைத்தாம் கொள்வது கோளன்று) and makes அறனறியும் சான்றோர்'s regard the real esteem. The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 65,
+   "b": "kural:301",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "65's ஒறுக்கும் மதுகை உரனுடையாளன் பொறுக்கும் பொறையே பொறை and 301's செல்லிடத்துக் காப்பான் சினங்காப்பான் make the same claim: restraint counts only where one has the power to act.",
+   "text_issue": null
+  },
+  {
+   "a": 150,
+   "b": "kural:955",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "955's வழங்குவது உள்வீழ்ந்தக் கண்ணும் ... பண்பில் தலைப்பிரிதல் இன்று and 150's குடிப்பிறந்தார் helping even when எற்றொன்றும் இல்லா make the same claim, with the dry-riverbed image added.",
+   "text_issue": null
+  },
+  {
+   "a": 104,
+   "b": "kural:620",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "104 says உறற்பால நீக்கல் உறுவர்க்கும் ஆகா; 620 says the tireless ஊழையும் உப்பக்கம் காண்பர். These are incompatible on the effort-beats-fate reading, which the note names.",
+   "text_issue": null
+  },
+  {
+   "a": 233,
+   "b": 137,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "233 says company with the நுண்ணுணர்வினார் விண்ணுலகே யொக்கும்; 137 doubts the உம்பர் பதி is sweeter than the laughter of the learned together. The same comparison, and the note is accurate.",
+   "text_issue": "233 has a garbled character in நுண்ணு஡ல் (for நுண்ணூல்)."
+  },
+  {
+   "a": 263,
+   "b": 275,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both set the great sea against a small well people prefer (வல்லூற் றுவரில் கிணறு; அறுநீர்ச் சிறுகிணறு), applied to givers in 263 and to the poverty of the worthy in 275. The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 302,
+   "b": "kural:339",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "302's விழித்திமைக்கு மாத்திரை and 339's உறங்கி விழிப்பது both make death and rebirth an act of the eyes, and Mudaliar's full commentary on 302 does quote 339. The differing uses are described correctly.",
+   "text_issue": null
+  },
+  {
+   "a": 169,
+   "b": "kural:38",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both say no day should pass without good: 38's வீழ்நாள் படாஅமை, 169's படாஅவாம் for days without learning, visiting the great, or giving. The shared படாஅ is real.",
+   "text_issue": null
+  },
+  {
+   "a": 94,
+   "b": "kural:270",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "parallel_domain",
+   "reason": "On Mudaliar's reading (உம்மை = முற்பிறப்பில்; அடா அடுப்பினவர் = the poor), both trace present poverty to a past omission: not giving in 94, not doing austerity (நோலாதவர்) in 270. The note says they don't limit each other, so qualifies doesn't fit.",
+   "text_issue": null
+  },
+  {
+   "a": 91,
+   "b": "kural:218",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "91's இல்லா விடத்தும் இயைந்த அளவினால் ... கொடை and 218's இடனில் பருவத்தும் ஒப்புரவிற்கு ஒல்கார் make the same claim: giving continues when means are gone.",
+   "text_issue": null
+  },
+  {
+   "a": 321,
+   "b": "kural:415",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both prize the வாய்ச்சொல் of the good (அன்புடையார் வாய்ச்சொல் / ஒழுக்கமுடையார் வாய்ச்சொல்). 415 gives its use as a staff on slippery ground, and 321 adds that only the wise receive it.",
+   "text_issue": null
+  },
+  {
+   "a": 3,
+   "b": 21,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both show the king on the elephant under the royal umbrella (யானை எருத்தம் ... குடைநிழற்கீழ்; யானைத் தலைமிசைக் கொண்ட குடையர்) brought down. In 3 he falls when வினை turns; in 21 he dies like all. Accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 331,
+   "b": "kural:337",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "337's ஒருபொழுதும் வாழ்வது அறியார் and 331's turtle playing நிலையறியாது in the heating pot while கூற்றம் waits make the same point: ignorance of imminent death while absorbed in the world.",
+   "text_issue": null
+  },
+  {
+   "a": 116,
+   "b": "kural:834",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "116's மெய்ஞ்ஞானம் கற்பினும் ... அடங்கார் and 834's ஓதி உணர்ந்தும் ... தானடங்கா describe the same failure. The gourd image presents it as innate, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 71,
+   "b": "kural:797",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "797 calls leaving the பேதையார் கேண்மை ஊதியம்; 71 tells one not to speak with a பேதை and says வழுக்கிக் கழிதலே நன்று. Getting clear of the fool is the shared good.",
+   "text_issue": null
+  },
+  {
+   "a": 98,
+   "b": "kural:221",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "221's வறியார்க்கொன்று ஈவதே ஈகை, with the rest குறியெதிர்ப்பை, and 98's giving to மாறீவார் as பொலிகடன் make the same claim, and the note cites both terms correctly.",
+   "text_issue": null
+  },
+  {
+   "a": 30,
+   "b": "kural:338",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use a bird leaving its home behind: 338's புள் leaving the குடம்பை, 30's புள் leaving its சேக்கை மரன். The Kural applies it to life and body, the Naladiyar to kin leaving their bodies to தமர். (Parimelazhagar reads குடம்பை as egg, but the departure image holds.)",
+   "text_issue": null
+  },
+  {
+   "a": 188,
+   "b": "kural:830",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "188's சலவருட் சாலச் சலவே (falseness to the false) loosely matches 830's face-only friendship with a foe posing as friend. But 188's line for ஒன்னார் is to be a terror Death fears, not a show of friendship, so 'likewise' overstates the match.",
+   "text_issue": null
+  },
+  {
+   "a": 170,
+   "b": "kural:978",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "170's பெரியார் பெருமை சிறுதகைமை and 978's பணியுமாம் என்றும் பெருமை define greatness as humility. They are the same claim.",
+   "text_issue": null
+  },
+  {
+   "a": 2,
+   "b": "kural:333",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both reason from wealth's instability (அற்கா இயல்பிற்று; சகடக்கால் போல வரும்) to acting at once: 333's ஆங்கே செயல், and 2's sharing தோன்றியக்கால் தொட்டு.",
+   "text_issue": null
+  },
+  {
+   "a": 168,
+   "b": "kural:839",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "168 says parting even from தெரிவிலார் brings பெரும்படர் நோய்; 839 says parting from பேதையார் brings no பீழை. These are opposite claims about the pain of leaving fools on Kalaignar's reading of 839. (Pope and Parimelazhagar read 839 as fools' friendship with each other, which weakens the clash.)",
+   "text_issue": null
+  },
+  {
+   "a": 297,
+   "b": "kural:433",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "297's தலையெல்லாம் சொற்பழி அஞ்சி and 433's பழிநாணுவார் who see a தினை fault as a பனை make the same claim: dread of blame marks the best.",
+   "text_issue": null
+  },
+  {
+   "a": 154,
+   "b": "kural:791",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "154 praises the worthy who, seeing someone ஒருநாள், bind them தொல்வழிக் கேண்மையின்; 791 says nothing ruins like நாடாது நட்டல். These are incompatible on the literal reading, and the note names Pope's softening parenthetical.",
+   "text_issue": null
+  },
+  {
+   "a": 78,
+   "b": "kural:1067",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "78 forbids telling one's அற்றம் to பண்பிலார் and allows it only to those who can cover it; 1067 pleads கரப்பார் இரவன்மின். Both say: ask, if at all, only the right people.",
+   "text_issue": null
+  },
+  {
+   "a": 292,
+   "b": "kural:1053",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "292's உரையாமை முன்னுணரும் ஒண்மையுடையார் matches 1053's முன்நின்று before the கடனறிவார், whom Parimelazhagar says need only to see the asker standing. A close agreement.",
+   "text_issue": null
+  },
+  {
+   "a": 161,
+   "b": "kural:896",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "896's பெரியார்ப் பிழைத்தொழுகுவார் உய்யார் and 161's வெறுத்தபின் ... பேர்க்குதல் யார்க்கும் அரிது make the same warning about offending the great.",
+   "text_issue": null
+  },
+  {
+   "a": 59,
+   "b": "kural:24",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "59's guarding the ஐவாய வேட்கை leads to வீடு; 24's guarding ஓரைந்தும் with உரன் makes one a seed for வரன், which Parimelazhagar glosses as வீட்டு நிலம். The same claim.",
+   "text_issue": null
+  },
+  {
+   "a": 63,
+   "b": "kural:129",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both make speech a burn (சுடுதல்; நாவினாற் சுட்ட வடு). 129 burns the hearer and 63 the speaker (தன்னைச் சுடுதலால்), as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 359,
+   "b": "kural:337",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "359's இன்றாதும் இந்நிலையே ஆதும் ... மாய்ந்தார் பலர் shows the planners 337 mocks (கருதுப கோடியும் அல்ல பல), who cannot know they will live a moment more.",
+   "text_issue": null
+  },
+  {
+   "a": 342,
+   "b": "kural:976",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "976 says the small have no thought of பெரியாரைப் பேணிக் கொள்வேம்; 342 shows the கீழ் dodging an invitation to the கசடற்றார் with 'let's sleep' or another excuse. The same claim, dramatized.",
+   "text_issue": null
+  },
+  {
+   "a": 267,
+   "b": "kural:169",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "267's வியவாய்காண் at poverty with the நயவார் and wealth with the பயவார், and 169's நினைக்கப்படும் about the crooked man's ஆக்கம் and the upright man's கேடு, mark the same anomaly. The note's attribution of the past-deeds explanation to Parimelazhagar is correct.",
+   "text_issue": null
+  },
+  {
+   "a": 277,
+   "b": 280,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Adjacent quatrains on wealth's troubles: 277 lists guarding, digging and clutching that the poor escape, and 280 runs ஈட்டல், காத்தல், குறைபடில், கெடில் as all துன்பம். The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 114,
+   "b": "kural:760",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "நடுவணது எய்த இருதலையும் எய்தும் (the middle aim, wealth, brings the other two) says what 760 says with ஏனை இரண்டும் ஒருங்கு; the boiling image (உலைப்பெய்து அடுவது) is 114's own addition, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 361,
+   "b": "kural:53",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "361's மாண்ட மனையாளை இல்லாதான் இல்லகம் ... காடு illustrates 53's உள்ளதென் இல்லவள் மாணாக் கடை: the grand house without a worthy wife has nothing in it.",
+   "text_issue": null
+  },
+  {
+   "a": 38,
+   "b": "kural:104",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "Both use a tiny seed against something huge, but the claims differ. In 104 a grateful receiver values a millet-sized help (தினைத்துணை) as a palm (பனைத்துணையாக் கொள்வர்). In 38 a small gift of virtue really grows (வான்சிறிதாப் போர்த்து) when it reaches the worthy (தக்கார்கைப் பட்டக்கால்). One is about how the receiver values it, the other about what the gift becomes, so the two do not make the same claim.",
+   "text_issue": null
+  },
+  {
+   "a": 233,
+   "b": "kural:460",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both set company at the extremes: விண்ணுலகே ஒக்கும் and நிரயத்துள் ஒன்று in 233; நல்லினத்தின் ஊங்குந் துணையில்லை and தீயினத்தின் அல்லற் படுப்பதூஉம் இல் in 460.",
+   "text_issue": null
+  },
+  {
+   "a": 324,
+   "b": "kural:999",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "324's கண்டாரோடு எல்லாம் நகாஅது ... தனிப்பகை கோள் condemns refusing to mix cheerfully with others; 999's நகல்வல்லர் அல்லார் (glossed by Parimelazhagar as unable to mix with others and be glad) find the world dark. The same failing is condemned in both.",
+   "text_issue": null
+  },
+  {
+   "a": 244,
+   "b": 179,
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "179 says சான்றாண்மை தீயினம் சேரக் கெடும்; 244 says இனந்தீது எனினும் இயல்புடையார் ... மனந்தீதாம் பக்கம் அரிது. With இனம் read as company (Mudaliar: சேர்ந்த கூட்டம்), the two give opposite answers to whether bad company corrupts the good.",
+   "text_issue": null
+  },
+  {
+   "a": 314,
+   "b": "kural:403",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "403 makes the unlearned good if they keep silent before the learned (கற்றார்முன் சொல்லாதிருக்கப் பெறின்); 314's fool does the opposite (நல்லார் இடைப்புக்கு நாணாது சொல்லி) and so shows his புல்லறிவு. 314 is the negative case of 403's rule.",
+   "text_issue": null
+  },
+  {
+   "a": 346,
+   "b": "kural:963",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "346's worthy never speak மிகுதிச்சொல் even with சக்கரச் செல்வம்; that is 963's பெருக்கத்து வேண்டும் பணிதல, shown in practice.",
+   "text_issue": null
+  },
+  {
+   "a": 146,
+   "b": "kural:953",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Each lists four marks of the well-born: இனநன்மை, இன்சொல், ஈதல், மனநன்மை in 146 and நகை, ஈகை, இன்சொல், இகழாமை in 953. Giving and sweet speech are in both lists, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 67,
+   "b": "kural:312",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "67's இன்னா செய்தக்கால் ... பேர்த்து இன்னா செய்யாமை நன்று matches 312's மறுத்து இன்னா செய்யாமை; ஆற்றாமை என்னார் அறிவுடையார் is 67's own addition, that refusing to retaliate is not weakness.",
+   "text_issue": null
+  },
+  {
+   "a": 378,
+   "b": "kural:914",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both say those set on the higher aim keep away from mercenary women: செந்நெறிச் சேர்தும் என்பார் ... தடமுலை சேராரே (378) and அருட்பொருள் ஆயும் அறிவினவர் ... புன்னலந் தோயார் (914). Mudaliar does gloss செந்நெறி as முத்திமார்க்கம்.",
+   "text_issue": null
+  },
+  {
+   "a": 92,
+   "b": "kural:333",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both argue from transience to giving now: 92's சாம்நாள், மூப்பு, நோய் lead to பாத்துண்மின் ... கைத்துண்டாம் போழ்து, and 333's அற்கா இயல்பிற்றுச் செல்வம் leads to அற்குப ஆங்கே செயல்.",
+   "text_issue": null
+  },
+  {
+   "a": 250,
+   "b": "kural:754",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The note describes both verses accurately, but they share only the triad of aims. 754 says rightly gained wealth produces அறன் and இன்பம; 250 says that completing work, pleasure and giving (கருமம், போகம், தருமம்) in one life is a ship reaching port. They do not make the same claim, and 250 says nothing about wealth yielding the others.",
+   "text_issue": null
+  },
+  {
+   "a": 137,
+   "b": "kural:394",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both find delight in the company of the learned: 137 ranks their gathering and laughter (தம்முள் குழீஇ நகலின்) above the gods' city, and 394 makes delightful meeting and missed parting (உவப்பத் தலைக்கூடி உள்ளப் பிரிதல்) the mark of புலவர்.",
+   "text_issue": null
+  },
+  {
+   "a": 276,
+   "b": "kural:1005",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "276's வழங்கான் பயன்துவ்வான் gives exactly 1005's two failures (கொடுப்பதூஉம் துய்ப்பதூஉம் இல்லார்), and its joke that the speaker owns the wealth just as much (யானும் அதனை அது) shows 1005's இல் (has nothing).",
+   "text_issue": null
+  },
+  {
+   "a": 96,
+   "b": "kural:216",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use a fruiting tree in the middle of the town (நடுவூருள் ... படுபனை in 96; பயன்மரம் உள்ளூர்ப் பழுத்தற்று in 216) for the giver whom everyone can reach. 96 adds the barren male palm in the burning ground as its opposite.",
+   "text_issue": null
+  },
+  {
+   "a": 380,
+   "b": "kural:917",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both say only deficient men give themselves to women whose hearts are elsewhere: பிறநெஞ்சிற் பேணிப் புணர்பவர் and நிறைநெஞ்சம் இல்லவர் in 917; உள்ளம் ஒருவன் உழையதா and பாவம் செறிந்த உடம்பினவர் in 380. The 'elsewhere' differs: material gain in 917 per Parimelazhagar, another man in 380.",
+   "text_issue": null
+  },
+  {
+   "a": 305,
+   "b": "kural:1069",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both have இரவு உள்ள(ுங்கால்) உள்ளம் உருகும, and Parimelazhagar quotes Naladiyar 305 under 1069. The note correctly separates what follows in each: 1069 turns to the refuser (கரவு), 305 to the moment of receiving.",
+   "text_issue": null
+  },
+  {
+   "a": 344,
+   "b": "kural:105",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "105 measures help by the worth of its receiver (செயப்பட்டார் சால்பின் வரைத்து). 344 shows the two ends: a millet-sized good becomes a palm to சான்றோர், while palm-sized goods are நன்றில (no good at all) with நன்றறியார். The note's reading is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 104,
+   "b": "kural:269",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "104's உறற்பால நீக்கல் உறுவர்க்கும் ஆகா (even ascetics cannot ward off what is fated) clashes with 269's கூற்றம் குதித்தலும் கைகூடும் for those with the power of நோற்றல். The note correctly makes the conflict depend on உறுவர் being ascetics, which is Mudaliar's முனிவர்.",
+   "text_issue": null
+  },
+  {
+   "a": 102,
+   "b": "kural:333",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "102's ஒண்பொருளும் ... ஒருவழி நில்லாமை கண்டும் ... ஒன்றேயும் இல்லாதான் condemns the man who sees transience and still does no good; that is the negative form of 333's அற்கா இயல்பிற்றுச் செல்வம் ... அற்குப ஆங்கே செயல்.",
+   "text_issue": null
+  },
+  {
+   "a": 395,
+   "b": "kural:1086",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "In 395 the brow is a bow (கோட்டிய வில்) that frightens the kingfisher off the carp-like eyes. 1086's கொடும்புருவம் is curved, but it is never called a bow, and it would screen the eyes to protect the lover, not the eyes. Both verses set brows over the eyes, but the note's 'bow that guards her eyes' fits only 395.",
+   "text_issue": null
+  },
+  {
+   "a": 197,
+   "b": "kural:1030",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use a tree whose base is damaged and needs props: the termite-eaten banyan held up by its aerial roots, as the son upholds his father (197), and the family cut at the foot (கால் கொன்றிட), which falls without a man to prop it (அடுத்தூன்றும் நல்லாள்) in 1030. Parimelazhagar explicitly reads குடி there as a tree.",
+   "text_issue": null
+  },
+  {
+   "a": 22,
+   "b": 7,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both make the sun the measure of one's days: வாழ்நாட்கு அலகா வயங்கொளி மண்டிலம் (22) and ஞாயிறு நாழியா ... கூற்றம் அளந்து நும் நாளுண்ணும் (7). Both conclude by urging virtue before the days run out.",
+   "text_issue": null
+  },
+  {
+   "a": 78,
+   "b": "kural:1064",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "qualifies",
+   "reason": "78 does not forbid telling one's need. It restricts it: tell it not to பண்பிலார் but only to அற்றம் மறைக்கும் துணையார். Only its last clause (துறக்கும் துணிவிலாதார்) implies that not asking at all is higher. That makes 78 a qualification of 1064's ban on begging (இரவொல்லாச் சால்பு) more than a restatement of it.",
+   "text_issue": null
+  },
+  {
+   "a": 182,
+   "b": "kural:46",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "182 calls those content in home life fools (இற்சார்வின் ஏமாந்தேம் ... பேதையார்), and on Mudaliar's reading the passing supports are household ties; 46 asks what the virtuous householder could gain from the outside way (புறத்தாறு). The note states that the conflict depends on that reading and that 182's பொச்சாந்து (heedlessness) is a way out.",
+   "text_issue": null
+  },
+  {
+   "a": 52,
+   "b": "kural:266",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both oppose doing தங்கருமம் (ascetic work, for Mudaliar தவம்) to futility, and Mudaliar quotes 266 at 52. 266's futility comes from desire (அவஞ்செய்வார் ஆசையுட்பட்டு); 52 names it as endless சத்தம் and astrology, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 394,
+   "b": "kural:1261",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both have the parted woman counting days on her fingers: மெல்விரலின் நாள்வைத்து (394) and நாளொற்றித் தேய்ந்த விரல் (1261). Mudaliar's full gloss on 394 does quote 1261.",
+   "text_issue": null
+  },
+  {
+   "a": 327,
+   "b": "kural:1006",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "327's தாமேயும் இன்புறார், தக்கார்க்கு நன்றாற்றார் gives exactly 1006's தான்துவ்வான் தக்கார்க்கொன்று ஈதல் இயல்பிலாதான். ஏமஞ்சார் நன்னெறியும் சேர்கலார் is 327's added third failing.",
+   "text_issue": null
+  },
+  {
+   "a": 337,
+   "b": 304,
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "337 says people at large (உலகத்தவர்) cling to the wealthy who give nothing, like ants round a pot of ghee; 304's மேல் never stands with bowed neck behind fools who hoard (அருத்தம் செறிக்கும் அறிவிலார் பின்சென்று எருத்திறைஞ்சி நில்லாது). 304 is the exception to 337's rule.",
+   "text_issue": null
+  },
+  {
+   "a": 206,
+   "b": "kural:64",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Each makes the plainest food, made dear by one's own people, sweeter than the finest food: உப்பிலிப் புற்கை among kin beats golden-dish rice from strangers (206), and கூழ் stirred by one's children beats அமிழ்து (64). Parimelazhagar glosses கூழ் as சோறு, which does not affect the shared image.",
+   "text_issue": null
+  },
+  {
+   "a": 99,
+   "b": "kural:475",
+   "type": "parallel_domain",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both rest on small things adding up: 99's begging bowl filled slowly door by door (பைய நிறைத்து விடும்) as a reason never to call a gift too small, and 475's peacock feathers that break the axle when piled high (சால மிகுத்துப் பெயின்). One encourages and the other warns, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 255,
+   "b": "kural:719",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both tell the worthy not to speak their learning in a mean assembly: புல்லவையுள் பொச்சாந்தும் சொல்லற்க (719), and சான்றவர் சொல்லார் even when asked, knowing it will not be taken in (பொருண்மேல் படாஅ விடுபாக்கறிந்து, 255).",
+   "text_issue": null
+  },
+  {
+   "a": 229,
+   "b": "kural:830",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "parallel_domain",
+   "reason": "The note describes both verses accurately: 830 says முகநட்டு அகநட்பு ஒரீஇ, then drop the friendship, and 229 says to honour the false friend (தமரினும் நன்கு மதித்து) and keep the knowledge inside (தம்முள் அடக்கி). But one concerns an enemy turned friend and the other a friend who has proved false, so neither limits the other. They share a pattern of outward regard kept apart from inner judgement.",
+   "text_issue": null
+  },
+  {
+   "a": 281,
+   "b": "kural:752",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "752's இல்லாரை எல்லாரும் எள்ளுவர் செல்வரை எல்லாரும் செய்வர் சிறப்பு is repeated in 281: a man in a dyed cloth with பத்தெட்டு coins பாடெய்தும், while those with nothing, even of good family (ஒத்த குடிப்பிறந்தக் கண்ணும்), are lower than a corpse.",
+   "text_issue": null
+  },
+  {
+   "a": 60,
+   "b": "kural:629",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both counsel not craving pleasure, and 60's இன்பம் இசைதொறும் ... இன்னாமை நோக்கிப் பசைதல் பரியாது is close to 629's இன்பத்துள் இன்பம் விழையாதான். But the note's 'both tie freedom from pain to not craving pleasure' fits only 629 (துன்பத்துள் துன்பம் உறுதல் இலன்). 60 promises no freedom from pain; it sees pain inside pleasure.",
+   "text_issue": null
+  },
+  {
+   "a": 8,
+   "b": "kural:331",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "8's புல்லறிவாளர், who say செல்வர்யாம் while their wealth flashes like lightning and vanishes, are 331's புல்லறிவாண்மை, which takes what does not last for lasting. Parimelazhagar names wealth as the chief such object.",
+   "text_issue": null
+  },
+  {
+   "a": 159,
+   "b": "kural:224",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "There is a real contrast: 159's விழுமியோர் welcome a visitor even if he asks (வேண்டினும் நன்று), while 224 says இன்னாது இரக்கப் படுதல் until the asker's face brightens. But Parimelazhagar places 224's pain in the giver's fear of not being able to give enough, not in dislike of being asked. So 159 does not really limit 224, and the qualifies relation is thin.",
+   "text_issue": null
+  },
+  {
+   "a": 232,
+   "b": "kural:811",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both deny value to the friendship of the worthless at its fullest: சிறந்தக்கால் சீரிலார் நட்பு is like failed rain (232), and பண்பிலார் கேண்மை பெருகலிற் குன்றல் இனிது (811). 811 calls the growth harmful, not only barren, but the shared claim holds.",
+   "text_issue": null
+  },
+  {
+   "a": 364,
+   "b": 56,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "364 opens கடியெனக் கேட்டுங் கடியான், punning on 56's explanation that the learned called marriage கடி; Mudaliar's gloss on 364 says '56 வது பாட்டினை நோக்குக'.",
+   "text_issue": null
+  },
+  {
+   "a": 368,
+   "b": "kural:169",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "169 calls the அவ்விய நெஞ்சத்தான் ஆக்கம் and the செவ்வியான் கேடு a thing to ponder, and 368 describes that inverted world: சான்றோர் கெட்டு, கீழும் பெருகி, கீழ்மேலாய் நிற்கும் உலகு.",
+   "text_issue": null
+  },
+  {
+   "a": 185,
+   "b": 153,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both end செய்வர் செயற்பாலவை. 153's poor worthy act within their means (உளவரையால்), and 185's ruined givers, like a dry river still yielding from springs dug in its bed, go on giving to a few (சிலர்க்காற்றி).",
+   "text_issue": null
+  },
+  {
+   "a": 252,
+   "b": "kural:374",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "374's திருவேறு தெள்ளியராதலும் வேறு, set down to fate, is retold in 252 as the Lady of the Flower (பூவின் கிழத்தி) shunning the learned because the Lady of the Tongue (நாவின் கிழத்தி) lives with them.",
+   "text_issue": null
+  },
+  {
+   "a": 124,
+   "b": 112,
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "112's தக்காரும் தக்கவரல்லாரும் தந்நீர்மை எக்காலும் குன்றல் இலராவர் conflicts with 124's கோடாரும் கோடிக் கடுவினையராகியார்ச் சார்ந்து (the upright turn crooked by joining the wicked). The note correctly makes the conflict depend on கோடார் being truly good.",
+   "text_issue": null
+  },
+  {
+   "a": 95,
+   "b": "kural:1061",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both put a multiplier on not begging: இரவாமை ஈதல் இரட்டி யுறும் (95) and இரவாமை கோடி உறும் even from glad givers (1061).",
+   "text_issue": null
+  },
+  {
+   "a": 134,
+   "b": "kural:67",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "134's எச்சம் ... மக்கட்குச் செய்வன விச்சை and 67's தந்தை மகற்காற்று நன்றி அவையத்து முந்தி இருப்பச் செயல் both make learning a father's best gift, on Parimelazhagar's standard reading of அவை as the assembly of the learned.",
+   "text_issue": null
+  },
+  {
+   "a": 349,
+   "b": "kural:810",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both prize old acquaintance (பழையர் in 349, பழையார் in 810), but the note overstates it. 349's worthy warm to those who have long stood by them (பன்னாட்பின் நிற்பின் உழையினியர்), while 810 praises those who do not change toward old friends even when they err (Parimelazhagar: பிழை செய்தாராயினும்), so that even foes love them. 349 does not show the constancy under wrong that 810 is about.",
+   "text_issue": null
+  },
+  {
+   "a": 346,
+   "b": "kural:978",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "978's பெருமை பணியும், சிறுமை அணியும் தன்னை வியந்து is shown exactly in 346: the worthy never boast even with சக்கரச் செல்வம், and the base man with a fraction of a coin (முந்திரிமேற் காணி) thinks himself Indra.",
+   "text_issue": null
+  },
+  {
+   "a": 219,
+   "b": "kural:816",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both rank enmity above friendship with fools (தெளிவிலார் நட்பின் பகைநன்று; பேதை பெருங்கெழீஇ நட்பின் ... ஏதின்மை கோடி உறும்), so the link is real. But the note's 'goes further' is wrong on Parimelazhagar's reading, which glosses 816's ஏதின்மை as பகைமை (enmity), and 816 makes the comparison with the enmity of the wise specifically.",
+   "text_issue": null
+  },
+  {
+   "a": 293,
+   "b": "kural:1057",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1057 has the asker rejoice at those who give இகழ்ந்தெள்ளாது. 293 shows the opposite, the rich who set rice at the back door (புறங்கடை வைத்தீவர் சோறும்), and concludes மறந்திடுக செல்வர் தொடர்பு. Both judge giving by the respect that comes with it.",
+   "text_issue": null
+  },
+  {
+   "a": 214,
+   "b": "kural:785",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "785's புணர்ச்சி பழகுதல் வேண்டா உணர்ச்சிதான் நட்பாங் கிழமை தரும் is restated in 214: nearness without a joined heart (நெஞ்சில் ஒட்டாரோடு ஒட்டார்) makes no bond, and long absence does not undo a heart-bond (தந்நெஞ்சத்து யாத்தாரோடு யாத்த தொடர்பு).",
+   "text_issue": null
+  },
+  {
+   "a": 393,
+   "b": 397,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Near-identical scenes: at evening, when work falls silent (கம்மஞ்செய் மாக்கள் கருவி ஒடுக்கிய; ஓலைக் கணக்கர் ஒலியடங்கு), the parted woman throws off her garland (கைம்மாலை இட்டு; மாலை பரிந்திட்டு) and weeps (கலுழ்ந்தாள்; அழுதாள்).",
+   "text_issue": null
+  },
+  {
+   "a": 280,
+   "b": "kural:754",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "280's ஈட்டலும் துன்பம் ... துன்பக்கு உறைபதி மற்றைப் பொருள் calls wealth itself, earning included, the home of suffering, while 754 says rightly earned wealth gives அறன் and இன்பம். The note correctly makes the conflict depend on 280 being general, not limited to misers as its chapter (ஈயாமை) might suggest.",
+   "text_issue": null
+  },
+  {
+   "a": 76,
+   "b": "kural:807",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "76's இன்னா செயினும் ... துன்னிக் கலந்தாரைக் கைவிடுதல் ... அரிது matches 807's அழிவந்த செய்யினும் அன்பறார். Blaming oneself (தன்னையே தான்நோவின்) is 76's own addition.",
+   "text_issue": null
+  },
+  {
+   "a": 396,
+   "b": 398,
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "396's mother doubts that feet which drew back from soft dye (பையெனப் பையென) can bear the stony desert (பரற்கானம்), and 398's girl replies that the strength comes with the man, as a rider learns on getting a horse (பெற்றான் ... அந்நிலையே கற்றான்). They are separate poems, but 398 does answer the doubt.",
+   "text_issue": null
+  },
+  {
+   "a": 211,
+   "b": 138,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "A near doublet. Friendship with the learned is sugarcane eaten from the tip (குருத்தின் / நுனியின் கரும்புதின்றற்றே), and the other kind is eaten from the root. The endings differ as the note says: மதுரமிலாளர் in 211, பண்பிலா ஈரமிலாளர் in 138.",
+   "text_issue": "211 reads 'தின் ற்றறே', apparently a garbling of 'தின்றற்றே'."
+  },
+  {
+   "a": 164,
+   "b": "kural:895",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both say there is no escape from the anger of the mighty: அரண்சேர்ந்தும் உய்யார் பெருமையுடையார் செறின் (164) and யாண்டுச்சென்று யாண்டும் உளராகார் வேந்து செறப்பட்டவர் (895). Mudaliar's full gloss on 164 does read பெருமையுடையார் as அரசர்.",
+   "text_issue": null
+  },
+  {
+   "a": 147,
+   "b": "kural:219",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "Both have the good keep doing their duty in want: 147's உழந்தக் கடைத்துங் ... செய்வர் செயற்பாலவை applies 219's செயும்நீர செய்யாது அமைகலா. But 147 sets no limit on 219, and the note's claim that poverty 'never fully arrives' for them is an inference neither verse makes.",
+   "text_issue": null
+  },
+  {
+   "a": 53,
+   "b": "kural:342",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both urge renunciation, but 'without delay' in 53 comes from Shanmuganar; the Tamil has மெல்ல ... நிலையாமை கண்டு (seeing impermanence after careful thought), and 342's உண்டாகத் துறக்க is about renouncing while one still has things, for the joys that follow. The shared 'while there is time' is overstated.",
+   "text_issue": null
+  },
+  {
+   "a": 381,
+   "b": "kural:57",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Mudaliar and Shanmuganar both read பின்னிற்பார் இன்மையே பேணும் as the woman herself guarding the quality that leaves no pursuers, which matches 57's நிறைகாக்கும் காப்பே தலை. The note rightly flags Pope's divergent reading.",
+   "text_issue": null
+  },
+  {
+   "a": 158,
+   "b": "kural:148",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "158's ஏதிலார் இற்கண் குருடனாய் is 148's பிறன்மனை நோக்காத, and both make it constitutive of virtue: 148's அறனொன்றோ ஆன்ற ஒழுக்கு, 158's அறங்கூற வேண்டா அவற்கு.",
+   "text_issue": null
+  },
+  {
+   "a": 19,
+   "b": "kural:36",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "மற்றறிவாம் ... என்னாது and அன்றறிவாம் என்னாது are the same rejected excuse, and Parimelazhagar's gloss of 36 even supplies 19's யாம் இளையம். Both command அறம் செய்.",
+   "text_issue": null
+  },
+  {
+   "a": 283,
+   "b": "kural:1047",
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "283's இலாஅர்க்கு இல்லை தமர் is unconditional, and 1047 restricts the estrangement to அறஞ்சாரா நல்குரவு (Parimelazhagar: poverty without virtue). Qualifies fits.",
+   "text_issue": null
+  },
+  {
+   "a": 355,
+   "b": "kural:1078",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "The images differ: a chisel (உளிநீரார்) and sugar-cane (கரும்புபோல் கொல்லப் பயன்படும்). The note itself says they are two images for the same claim, that the base yield only under force, which makes this agrees, not same_image.",
+   "text_issue": null
+  },
+  {
+   "a": 151,
+   "b": "kural:969",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "151's சான்றோர் ... தேய்வர் ஒருமாசுறின் (the moon bears its spot, the noble don't) and 969's yak that won't live once a hair is lost, உயிர்நீப்பர் மானம் வரின், make the same claim that the honourable cannot survive a single stain.",
+   "text_issue": null
+  },
+  {
+   "a": 287,
+   "b": "kural:1046",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1046 grants the poor man நன்குணர்ந்து but says his words go slack (சோர்வு படும்). 287 goes further: want takes away the கூர்மை itself along with நீர்மை. That is a real extension.",
+   "text_issue": null
+  },
+  {
+   "a": 266,
+   "b": "kural:179",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "179 has திரு go to அறனறிந்து வெஃகா அறிவுடையார், and 266 curses the golden lady for going to புன்மக்கள் and leaving நன்மக்கள். That is a direct conflict over whom fortune joins, on the descriptive reading the note names.",
+   "text_issue": null
+  },
+  {
+   "a": 312,
+   "b": 315,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "312's தீப்புலவன் rises to fight when worsted (தோட்புடைக் கொள்ளா எழும்), and 315 shows what happens to whoever speaks among such raging debaters: teeth in hand like gourd seeds (கையுள் சுரைவித்துப் போலுந்தம் பல்). These are consecutive steps in அவையறிதல்.",
+   "text_issue": null
+  },
+  {
+   "a": 370,
+   "b": 371,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The frame is verbally identical (இரண்டும் ... நாடின் வேறல்ல ... அறுமே, அவரன்பும் ... அறும்), with புனல்/மாரி and விளக்கொளி/நெய் slotted in. The shared figure, spanning a chapter boundary, is distinctive.",
+   "text_issue": null
+  },
+  {
+   "a": 224,
+   "b": "kural:799",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The burning heart is shared (நெஞ்சம் சுடுதற்கு மூட்டிய தீ, உள்ளம் சுடும்), and the note describes both verses accurately. But heart-burning is a common idiom, and the two causes differ, so the pairing is thin.",
+   "text_issue": null
+  },
+  {
+   "a": 240,
+   "b": 179,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both say good people perish by bad company: 179's சான்றாண்மை தீயினம் சேரக் கெடும் (a gale wrecking a ship) and 240's தெரிவுடையார் தீயினத்தாராகுதல், a cobra mating with a viper, which Mudaliar says is fatal (கெடுவர்).",
+   "text_issue": null
+  },
+  {
+   "a": 208,
+   "b": "kural:799",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both single out the friend who deserts in ruin, with the same verb: 208's குறடுபோல் கைவிடுவர் and 799's கெடுங்காலைக் கைவிடுவார். The note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 385,
+   "b": "kural:1257",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "tension",
+   "reason": "Both speak of நாண் in union. 385's wife is always shy (அஞ்ஞான்று கண்டேம்போல் நாணுதும்), while 1257's woman says நாணென ஒன்றோ அறியலம் when her lover does what she desires. Read literally, these conflict, and the note's claim that each 'sets limits' on the other is asserted, not shown.",
+   "text_issue": null
+  },
+  {
+   "a": 209,
+   "b": "kural:787",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "787's அழிவின்கண் அல்லல் உழப்பதாம் நட்பு is the positive form of 209's rebuke of those who share joys but not sorrows (துன்புறுவ துன்புறாக் கால்). It is the same claim in two settings.",
+   "text_issue": null
+  },
+  {
+   "a": 157,
+   "b": "kural:139",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The shared construction is distinctive: தள்ளியும் வாயில் பொய் கூறார் and வழுக்கியும் வாயாற் சொலல் (தீய). 157 specifies lying where 139 says evil speech in general, a slight looseness in the note.",
+   "text_issue": null
+  },
+  {
+   "a": 180,
+   "b": "kural:453",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The verbal frame is nearly the same: மனத்தான் மறுவிலரேனும் ... இனத்தால் இகழப் படுவர் against மனத்தானாம் உணர்ச்சி இனத்தானாம் இன்னான் எனப்படுஞ் சொல். Both say mind is one's own but reputation comes from company.",
+   "text_issue": null
+  },
+  {
+   "a": 289,
+   "b": 1,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both show fallen wealth through food: 1's மறுசிகை நீக்கியுண்டாரும் ... இரப்பர் கூழ் and 289's கடகம் செறிந்த கைகளால் ... உப்பிலி வெந்தை. They are the same reversal, in the chapters on wealth's impermanence and on poverty.",
+   "text_issue": null
+  },
+  {
+   "a": 146,
+   "b": "kural:972",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "146's இற்பிறந்தார் கண்ணே யுள makes the virtues exclusive to the well-born, and 972's பிறப்பொக்கும் ... செய்தொழில் வேற்றுமையான் locates distinction in deeds. The note states the reading the conflict needs.",
+   "text_issue": null
+  },
+  {
+   "a": 191,
+   "b": "kural:615",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The link rests on Shanmuganar's reading of கேளீவ துண்டு கிளைகளோ துஞ்சுப (kin rest easy on what the energetic give), which matches 615's தன்கேளிர் துன்பம் துடைத்தூன்றும் தூண். Pope reads it the opposite way (dependents die off), so the agreement is reading-dependent, though the note discloses this.",
+   "text_issue": null
+  },
+  {
+   "a": 185,
+   "b": 184,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The images are consecutive and parallel: 184's ஊற்றுநீர்க் கேணி serving the town in drought, and 185's dry river yielding from dug springs (கல்லூற்றுழியூறும் ஆறு). Both picture the great giving in decline (சாஅயக் கண்ணும், கெட்டுலந்தக் கண்ணும்).",
+   "text_issue": null
+  },
+  {
+   "a": 207,
+   "b": "kural:90",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "In 207 the timely feast in the house of நள்ளாதார் is bitter as neem, and greens from one's own people are sweet. In 90 the guest withers at முகந்திரிந்து நோக்க. Both say the host's warmth, not the food, decides the meal.",
+   "text_issue": null
+  },
+  {
+   "a": 156,
+   "b": "kural:1078",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Crushed sugar-cane is a distinctive shared image, put to opposite uses: the base yield only when crushed (கொல்லப் பயன்படும்), while the well-born stay sweet however crushed (இடித்துநீர் கொள்ளினும் இன்சுவைத்தே).",
+   "text_issue": null
+  },
+  {
+   "a": 174,
+   "b": 173,
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "174 grants 173's பிறப்பின்னாது (இறப்ப நினையுங்கால் இன்னா தெனினும்) and adds the condition under which no one resents birth: friendship with those of good heart.",
+   "text_issue": null
+  },
+  {
+   "a": 121,
+   "b": "kural:46",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Mudaliar glosses துக்கம் as துன்பமாகிய இல்வாழ்க்கை, so 121 condemns those who stay in household life and do not renounce (துறவின்கட் சேர்கலா). 46 asks what renouncing gains for one whose household life is virtuous. The note names the reading the tension needs.",
+   "text_issue": null
+  },
+  {
+   "a": 330,
+   "b": "kural:336",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "336 states transience as a fact (நெருநல் உளனொருவன் இன்றில்லை). 330's claim is different: people waste their days without thinking of virtue (அறம்நினையார்) even while they watch death take their dearest. It applies 336 rather than repeating it.",
+   "text_issue": null
+  },
+  {
+   "a": 313,
+   "b": "kural:649",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The verbal overlap is strong: 649's பலசொல்லக் காமுறுவர் and 313's காமுறுவர் ... பலவுரைக்கும் மாந்தர். Both describe the many-worded speaker who cannot judge the worth of speech.",
+   "text_issue": null
+  },
+  {
+   "a": 301,
+   "b": "kural:966",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both reject following those who belittle you: 966's இகழ்வார்பின் சென்று நிலை and 301's மருண்ட மனத்தார்பின் செல்பவோ ... தெருண்ட அறிவினவர்.",
+   "text_issue": null
+  },
+  {
+   "a": 202,
+   "b": "kural:216",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The fruit tree that many enjoy is a distinctive shared image: 216's பயன்மரம் உள்ளூர்ப் பழுத்தற்று and 202's பழுமரம்போல் பல்லார் பயன்துய்ப்ப. 202 adds the shade tree and தான்வருந்தி.",
+   "text_issue": null
+  },
+  {
+   "a": 110,
+   "b": "kural:379",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both ask why one grieves at the bad (இறுகாலத் தென்னை பரிவு, அல்லற் படுவ தெவன்), so the claim is the same. But the note says both end a chapter on fate: 110 closes பழவினை, while 379 is not the last verse of ஊழ்.",
+   "text_issue": null
+  },
+  {
+   "a": 152,
+   "b": "kural:596",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "596's உயர்வுள்ளல் keeps its worth even if thwarted (தள்ளினுந் தள்ளாமை நீர்த்து), and 152's இசையும் எனினும் இசையாதெனினும் with the arrow that missed a lion makes the same claim about aiming high.",
+   "text_issue": null
+  },
+  {
+   "a": 306,
+   "b": "kural:1063",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "Both reject begging as the cure for poverty (இரந்துதீர்வாம், ஏதிலவரை இரவு). Neither limits the other: the different remedy in 306 (தன்னையே தானிரப்ப) is an addition, and 'the Naladiyar's turn toward renunciation' overreads one verse.",
+   "text_issue": null
+  },
+  {
+   "a": 243,
+   "b": "kural:972",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "243's தன்னாற்றா னாகும் மறுமை, with the south reaching heaven and the north full of wasters, denies that origin decides worth, as 972's பிறப்பொக்கும் ... செய்தொழில் வேற்றுமையான் does.",
+   "text_issue": null
+  },
+  {
+   "a": 295,
+   "b": "kural:656",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both set an absolute limit against blameworthy deeds: சாயினும் சான்றவர் செய்கலார் and ஈன்றாள் பசிகாண்பான் ஆயினுஞ் செய்யற்க சான்றோர் பழிக்கும் வினை.",
+   "text_issue": null
+  },
+  {
+   "a": 326,
+   "b": 332,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "326 shows the cost of not taking up virtue மூப்புமேல் வாராமை முன்னே, and 332 names the excuse (இற்செய் குறைவினை நீக்கி அறவினை மற்றறிவாம்) with the sea-bathing image. Develops fits.",
+   "text_issue": null
+  },
+  {
+   "a": 304,
+   "b": "kural:963",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "963's சுருக்கத்து வேண்டும் உயர்வு is enacted in 304: when fortune leaves (திருத்தன்னை நீப்பினும்), the worthy keep உயர்வுள்ளி and never bow their necks (எருத்திறைஞ்சி நில்லாது).",
+   "text_issue": null
+  },
+  {
+   "a": 240,
+   "b": 244,
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Mudaliar reads 240's cobra-and-viper as கெடுவர் (they perish), while 244 says the good-natured, though their இனம் is bad, rarely turn bad in mind (மனந்தீதாம் பக்கம் அரிது). The note's resolution, that the mind stays intact while all else is ruined, is a fair qualification.",
+   "text_issue": null
+  },
+  {
+   "a": 392,
+   "b": "kural:1228",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both turn a seasonal sound into an instrument of death for the separated woman: thunder like நெய்தல் அறைந்தன்ன (the funeral drum) and the flute as கொல்லும் படை.",
+   "text_issue": null
+  },
+  {
+   "a": 118,
+   "b": "kural:34",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "118 says virtue is one in nature though its schools are many, like milk from many-coloured cows. 34 contrasts inner purity with ஆகுலம் (noisy show) and does not address sects. Making 34 'say what that one thing is' is the marker's synthesis, not a development either verse invites.",
+   "text_issue": null
+  },
+  {
+   "a": 32,
+   "b": "kural:32",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both pair ஆக்கம் with forgetting virtue. Kural 32 says அறத்தினூஉங்கு ஆக்கமும் இல்லை ... மறத்தலின் ஊங்கில்லை கேடு, and Naladiyar 32 rebukes the heart that says ஆக்கம் நசைஇ அறமறந்து. The quatrain dramatizes the Kural's verdict.",
+   "text_issue": null
+  },
+  {
+   "a": 250,
+   "b": 114,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "114 names the three ends and the primacy of wealth (நடுவணது எய்த இருதலையும் எய்தும்), and 250 pictures all three completed without hindrance (முட்டின்றி மூன்று முடியமேல்) as பட்டினம் பெற்ற கலம்.",
+   "text_issue": null
+  },
+  {
+   "a": 93,
+   "b": "kural:376",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both say guarding cannot keep wealth: மிடுக்குற்றுப் பற்றினும் நில்லாது செல்வம் ... வினையுலந்தக் கால் and பரியினும் ஆகாவாம் பாலல்ல. The note correctly distinguishes வினை from பால்.",
+   "text_issue": null
+  },
+  {
+   "a": 130,
+   "b": "kural:61",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "61 knows no gain beyond அறிவறிந்த மக்கட்பேறு. 130 rebukes pining for children (மக்கட்கென் றேங்கி) and says உறுபயனோ இல்லை apart from good done. The conflict is real, and the note gives the softening reading.",
+   "text_issue": null
+  },
+  {
+   "a": 323,
+   "b": "kural:420",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "They share the closing verdict: பொன்றிலென் பொன்றாக்கா லென் and அவியினும் வாழினும் என். The formula is applied to two different kinds of மாக்கள, which is a meaningful shared figure.",
+   "text_issue": null
+  },
+  {
+   "a": 200,
+   "b": 296,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "பெருமுத்தரையர் appears in both. In 200 they are givers whose food feeds the base. In 296 the poor who do not beg (செல்வரைச் சென்றிரவாதார்) are themselves called பெருமுத்தரையர, which extends 200's praise of self-won water as nectar.",
+   "text_issue": null
+  },
+  {
+   "a": 356,
+   "b": "kural:108",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "108's நன்றி மறப்பது நன்றன்று நன்றல்லது அன்றே மறப்பது நன்று is exactly 356's சான்றோர் செய்தநன்று உள்ளுவர், with the base doing the reverse (வைததை உள்ளி).",
+   "text_issue": null
+  },
+  {
+   "a": 393,
+   "b": "kural:1229",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both cast evening as the bewildering hour for the separated woman, with matching words: மம்மர்கொள் மாலை and மதிமருண்டு மாலை படர்தரும்.",
+   "text_issue": null
+  },
+  {
+   "a": 374,
+   "b": "kural:912",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both say the courtesan values a man by his wealth: 912's பயன்தூக்கிப் பண்புரைக்கும், and 374's காணமிலாதார் கடுவனையர் while the oil-presser with பொருள் is அக்காரம்.",
+   "text_issue": null
+  },
+  {
+   "a": 69,
+   "b": "kural:987",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "987's இன்னாசெய் தார்க்கும் இனியவே செய்யாக்கால் என்ன பயத்ததோ சால்பு is answered by 69's குடிப்பிறந்தார், who do உபகாரம் even to those who do அபகாரம்.",
+   "text_issue": null
+  },
+  {
+   "a": 127,
+   "b": "kural:706",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "127's யாஅர் ஒருவர் ஒருவர்தம் உள்ளத்தைத் தேருந் துணைமை யுடையவர் denies that minds can be read, while 706 says the face shows கடுத்தது, as crystal does. The note names the general reading the conflict needs.",
+   "text_issue": null
+  },
+  {
+   "a": 348,
+   "b": "kural:1079",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both describe the base man's hostility to others' fortunes: 348's இடுக்கண் பிறர்மாட் டுவக்கும் and 1079's seeing others clothed and fed and finding fault (வடுக்காண). They are the two sides of one envy.",
+   "text_issue": null
+  },
+  {
+   "a": 341,
+   "b": "kural:373",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The structure is the same: books do not override one's nature. Compare நூல்விரித்துக் காட்டினும் கீழ்தன் மனம்புரிந்த வாறே மிகும் with நுண்ணிய நூல்பல கற்பினும் ... உண்மை யறிவே மிகும், which share மிகும் at the close.",
+   "text_issue": null
+  },
+  {
+   "a": 400,
+   "b": "kural:1225",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": "qualifies",
+   "reason": "1225 blames the times of day (காலை, மாலை). 400 clears a different set of suspects (the three-eyed one, crow, snake, mother) and blames பாங்கனார் சென்ற நெறி. Calling these 'such suspects' as the hours stretches the link, and 400 corrects the blame rather than developing it.",
+   "text_issue": null
+  },
+  {
+   "a": 194,
+   "b": "kural:619",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both value effort apart from success: 619's தெய்வத்தான் ஆகா தெனினும் ... கூலி தரும் and 194's இசையா தெனினும் ... அசையாது நிற்பதாம் ஆண்மை.",
+   "text_issue": null
+  },
+  {
+   "a": 341,
+   "b": 345,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use a well-fed domestic animal that keeps its low habit: the hen scratching the குப்பை though fed grain, and the dog fed from a பொற்கலம் watching for எச்சில். Both images serve கீழ்மை.",
+   "text_issue": null
+  },
+  {
+   "a": 265,
+   "b": "kural:169",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "169's நினைக்கப் படும் leaves the crooked man's prosperity as a puzzle, and Parimelazhagar glosses it as asking which old deed caused it; 265's நினைப்ப வருவதொன் றில் answers with தொல்லை வினைப்பயன். That is a genuine development.",
+   "text_issue": null
+  },
+  {
+   "a": 339,
+   "b": "kural:816",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both reject friendship with the undiscerning (ஆய்நலம் இல்லாதார், பேதை). But 339's point is one-sided friendship, where the other answers விழைந்திலேம், and the note leaves that out. 816 compares that friendship with the wise man's ஏதின்மை, which 339 never does.",
+   "text_issue": null
+  },
+  {
+   "a": 124,
+   "b": "kural:452",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "452 says one's அறிவு takes on the nature of one's company (இனத்தியல்பது ஆகும்). 124 says even கோடாரும் turn கொடுவினையர் by joining the cruel, as ghee burns when it meets fire. The claim is the same, made with a different image.",
+   "text_issue": null
+  },
+  {
+   "a": 245,
+   "b": "kural:452",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "245 says people are not like their kind but like their minds (தத்தம் இனத்தனையர் அல்லர் ... மனத்தனையர்), using water against its surroundings. 452 uses water and soil to say the opposite (இனத்தியல்பது ஆகும் அறிவு). The note rightly makes the conflict depend on reading இனம் as surroundings and flags the softer reading.",
+   "text_issue": null
+  },
+  {
+   "a": 357,
+   "b": "kural:109",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "109's ஒன்றுநன்று உள்ளக் கெடும் and 357's ஒருநன்றி ... பிழைநூறும் சான்றோர் பொறுப்பர் make the same claim: one kindness outweighs great injury. 357 does add the reversed scale of the base.",
+   "text_issue": null
+  },
+  {
+   "a": 302,
+   "b": "kural:656",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both refuse blameworthy deeds even under hunger: 656 says சான்றோர் பழிக்கும் வினை even for one's mother, and 302 says பழித்தக்க செய்யான் பசித்தல் for oneself. 302 does ground it in how short life is (விழித்திமைக்கு மாத்திரை), as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 125,
+   "b": "kural:782",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both set friendship against the moon: good friendship grows like the crescent (பிறைபோல ... நந்தும் / பிறை நிறை நீர) and bad friendship wanes like the full moon (மதியம்போல் ... தேயுமே / மதிப் பின்னீர). The image is distinctive and is used the same way in both.",
+   "text_issue": null
+  },
+  {
+   "a": 107,
+   "b": "kural:1062",
+   "type": "tension",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "107 traces begging to முன்னை வினை, and 1062 curses உலகியற்றியான் if he decreed it, so there is a real difference of stance. But 107 never calls the order 'just', which the note adds. Parimelazhagar's own 1062 makes the maker's decree run through பழவினை, so the two fit easily.",
+   "text_issue": null
+  },
+  {
+   "a": 332,
+   "b": "kural:36",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "332's அறவினை மற்றறிவாம் directly echoes 36's அன்றறிவாம் என்னாது அறஞ்செய்க. 332 mocks exactly the postponement that 36 forbids, here set in the household.",
+   "text_issue": null
+  },
+  {
+   "a": 198,
+   "b": "kural:656",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both refuse disgraceful acts even in extreme want: 198 says இல்லிருந் தின்றி விளியினும் ... செய்பவோ, and 656 says ஈன்றாள் பசிகாண்பான் ஆயினும் செய்யற்க. The pairing is apt.",
+   "text_issue": "198 line 2 reads மானும் where the sense, and Mudaliar's gloss, need மானம்."
+  },
+  {
+   "a": 42,
+   "b": "kural:80",
+   "type": "qualifies",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "80 says a body without அன்பு is mere என்புதோல் போர்த்த உடம்பு, which is about love as the seat of life. 42 strips a body's skin-deep beauty to curb lust (காமம் புகலாது, பைம்மறியாப் பார்க்க). The two share only the skin-covering image. Neither limits the other, and 42 never says 'filth wrapped in skin'.",
+   "text_issue": null
+  },
+  {
+   "a": 56,
+   "b": "kural:52",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "56 starts from 52's case of a wife lacking மாண்ட குணம் and adds that she cannot be put away (கழித்தற் கருமை). From that it reaches a renunciant pun, கடி. The note accurately says that this conclusion goes beyond the Kural.",
+   "text_issue": null
+  },
+  {
+   "a": 211,
+   "b": "kural:783",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both say a good friendship grows sweeter with time. 783 says பயில்தொறும் ... நவில்தொறும் நூல்நயம் போலும, and 211 compares friendship with the learned to eating sugarcane from the tip (குருத்தின் கரும்புதின்றற்றே).",
+   "text_issue": "211 line 2 has a typo: தின் ற்றறே for தின்றற்றே."
+  },
+  {
+   "a": 248,
+   "b": "kural:505",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "parallel_domain",
+   "reason": "505 makes one's deeds the touchstone (கட்டளைக் கல்) for judging greatness, which is a test others apply. 248 says the self is what causes its own rise and fall (... செய்வானும் தான்). These are related but different claims, one about knowing and one about causing, and the note states them without showing they are one claim.",
+   "text_issue": null
+  },
+  {
+   "a": 40,
+   "b": "kural:968",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "968 asks whether nursing the flesh once honour is gone is a medicine against death (மருந்தோ). 40 says it would beg only if the body so fed would last (நீட்டித்து நிற்கும் எனின்). The argument is the same one.",
+   "text_issue": null
+  },
+  {
+   "a": 6,
+   "b": "kural:269",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "6 says கூற்றம் குதித்துய்ந்தார் ஈங்கில்லை, and 269 says கூற்றம் குதித்தலும் கைகூடும் for ascetics. The phrasing is identical and literally contradictory, Mudaliar cites 269 at this verse, and the note correctly names the literal reading the conflict depends on.",
+   "text_issue": "6 line 1 reads பிழைத்தெரிணஇ, a garbling of பிழைத்தொரீஇ (Mudaliar glosses ஒரீஇ)."
+  },
+  {
+   "a": 221,
+   "b": "kural:805",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both counsel bearing a friend's faults. 221 says to keep those once chosen even if அல்லார், for every good thing has its husk (நெல்லுக் குமியுண்டு). 805 says to put a friend's hurtful acts down to பேதைமை or பெருங்கிழமை.",
+   "text_issue": null
+  },
+  {
+   "a": 156,
+   "b": "kural:159",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both praise bearing abuse without retort: 159 has இறந்தார்வாய் இன்னாச்சொல் நோற்கிற்பவர், and 156 says the well-born, even when வடுப்பட வைது, do not answer in kind. 159 frames this as purity and 156 as the mark of birth, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 379,
+   "b": "kural:913",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both expose the courtesan's love as false, which is real: compare 913's பொய்ம்மை முயக்கம் with 379's தேறா மொழிந்த மொழி. But the note's 'both deny that anyone is present in the embrace' overreads 379's தம்உடம்பினார், which says they belong only to themselves, and 913's corpse image.",
+   "text_issue": null
+  },
+  {
+   "a": 39,
+   "b": "kural:334",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "334 says the day is a saw cutting life to those who see it (உணர்வார்ப் பெறின்). 39 portrays those who do not see it and rejoice as each day passes (வைகலை வைகுமென் றின்புறுவர்), the very people Parimelazhagar's gloss on 334 describes.",
+   "text_issue": null
+  },
+  {
+   "a": 196,
+   "b": "kural:663",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "196 keeps one's plan hidden until the work is done (ஆற்றும் துணையும் ... உள்ளடக்கி), and 663 lets a deed show only at its end (கடைக்கொட்க) because disclosing it midway brings trouble. The two make the same claim.",
+   "text_issue": null
+  },
+  {
+   "a": 311,
+   "b": "kural:719",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "719 says not to speak in a புல்லவை even by forgetting. 311 says to let one's wisdom go unspoken (சொன்ஞானஞ் சோர விடல்) before the கார் அறிவாளர who have left the true-knowledge assembly. The advice is the same.",
+   "text_issue": null
+  },
+  {
+   "a": 303,
+   "b": "kural:1053",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both permit asking only before the right givers. 1053 finds beauty in asking before கரப்பிலா நெஞ்சின் கடனறிவார், and 303 says the worthy go only to those who say அகம்புகுமின் உண்ணுமின். The note's 'hospitality' is a fair gloss.",
+   "text_issue": null
+  },
+  {
+   "a": 237,
+   "b": "kural:825",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The two chapters share a theme (கூடா நட்பு), and ஒற்றுமை கொள்ளாதார் matches மனத்தின் அமையாதவர். But 825's claim is that you should not trust their words, while 237's is that their friendship is இன்னாது. The note's 'condition of friendship' smooths over this difference.",
+   "text_issue": null
+  },
+  {
+   "a": 103,
+   "b": "kural:377",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "377 says even those with millions enjoy only as வகுத்தான் வகுத்த வகை. 103 says enjoyments are measured out (அளந்தன போகம்) according to each person's course, however much everyone wants prosperity. The claim is the same.",
+   "text_issue": null
+  },
+  {
+   "a": 333,
+   "b": "kural:140",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "On the reading Pope and Shanmuganar share, 333 holds that caste, austerity, learning and age are flat without knowing உலகம், like rice without ghee. 140 says much learning without உலகத்தோடு ஒட்ட ஒழுகல் is still ignorance. The note honestly flags Mudaliar's other-world reading, under which the link fails.",
+   "text_issue": null
+  },
+  {
+   "a": 354,
+   "b": "kural:978",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "In the chapter கயமை, Mudaliar (calling the verse பிறிது மொழிதல்) and Pope's heading both read 354 as a figure for the base who vaunt themselves. Its பெண்ணீர்மை காட்டி மதித்து then matches 978's சிறுமை அணியும் தன்னை வியந்து. The note states the reading it depends on.",
+   "text_issue": null
+  },
+  {
+   "a": 177,
+   "b": "kural:1000",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The note describes both accurately: water absorbed into milk (பாலோ டளாயநீர் பாலாகும்) and milk spoiled by its vessel (நன்பால் கலந்தீமையால்). But milk is a common figure, the two lessons are unrelated (company versus a graceless rich man), and the shared image teaches little.",
+   "text_issue": null
+  },
+  {
+   "a": 55,
+   "b": "kural:335",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both urge turning to the good path before the body fails. 335 says to do good before the விக்குள் stops the tongue. 55 says youth is gone (கொன்னே கழிந்தன்று) and disease and age are coming இன்னே, so the heart should set out now.",
+   "text_issue": null
+  },
+  {
+   "a": 371,
+   "b": "kural:911",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "911's அன்பின் விழையார் பொருள்விழையும் and 371's lamp, whose light goes out when the oil does (கையற்ற கண்ணே அறும்), make the same claim: the courtesan's love lasts only as long as the money.",
+   "text_issue": null
+  },
+  {
+   "a": 219,
+   "b": 187,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "219 says தெளிவிலார் நட்பின் பகைநன்று, and 187 says that even enmity with the wise brings dignity (பகையேயும் பாடு பெறும்) while intimacy with the mean brings grief. The claim is the same.",
+   "text_issue": null
+  },
+  {
+   "a": 261,
+   "b": "kural:1008",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both picture the ungiving man's wealth as a fruiting tree near at hand that no one uses: 1008 has நச்சு மரம் பழுத்தற்று in the middle of town, and 261 has a fruiting wood-apple near by that the bats avoid (அருகலது ... வாவல் குறுகா). Parimelazhagar's வறியார்க்கு அணியன் fits the nearness.",
+   "text_issue": null
+  },
+  {
+   "a": 279,
+   "b": "kural:1078",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "279's கொல்லச் சுரப்பதாம் கீழ் echoes 1078's கொல்லப் பயன்படும் கீழ். In both, the base yield only under crushing force, while the worthy give readily (சொல்லப் பயன்படுவர் / like a cow to its calf).",
+   "text_issue": null
+  },
+  {
+   "a": 242,
+   "b": "kural:963",
+   "type": "tension",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "On the surface they clash: 963 calls for உயர்வு in சுருக்கம், while 242 calls அடக்கம் the poor man's ornament and condemns பணிவில்சீர். But Mudaliar glosses 242 as being about unrestrained excess beyond measure (மாத்திரையின்றி, வரம்பு கடந்து), and Parimelazhagar glosses 963 as not falling into abasement. Both readings make them compatible, and the note's own escape clause is the likelier reading.",
+   "text_issue": "242 line 4 reads வாமுர் for வாழும்ஊர் (Mudaliar: வாழும் ஊர்)."
+  },
+  {
+   "a": 391,
+   "b": "kural:1306",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "391 says that without ஊடல் love has no salt (உப்பின்றாம் காமம்), and 1306 says that without துனி and புலவி love is like overripe or unripe fruit. Both claim that quarrels give love its savour.",
+   "text_issue": null
+  },
+  {
+   "a": 175,
+   "b": "kural:452",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use water changed by what it joins as a figure for people changed by company. In 452 water takes the soil's nature, and in 175 town drain-water joining a great river becomes தீர்த்தம். The image is shared and meaningful.",
+   "text_issue": null
+  },
+  {
+   "a": 193,
+   "b": 198,
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "These are neighbouring verses in தாளாண்மை that pair big cats. 198 forbids anything மானம் would suffer by, even unto death, and 193 says not to scorn காற்றொழில் since even the tiger eats a frog. Read together they separate humble work from disgrace, a fair limit on 198.",
+   "text_issue": null
+  },
+  {
+   "a": 172,
+   "b": "kural:415",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "172's last precept, பெறுமின் பெரியார்வாய்ச் சொல், agrees with 415's ஒழுக்கமுடையார்வாய்ச் சொல் as a staff. But it is one item in a six-item list, the agreement is generic, and the pairing adds little.",
+   "text_issue": null
+  },
+  {
+   "a": 182,
+   "b": "kural:331",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "331 condemns நில்லாதவற்றை நிலையின என்றுணரும் புல்லறிவு. 182 shows that very folly in fools who think the household is a settled refuge (ஈங்கமைந்தேம்), while the wise see it as நின்றன போன்று நிலையா.",
+   "text_issue": null
+  },
+  {
+   "a": 285,
+   "b": "kural:1043",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both say poverty destroys the standing of one's lineage: 285 has பிறந்த குலமாயும், and 1043 has தொல்வரவும் ... கெடுக்கும். 285 adds manliness and learning. 'At a stroke' (தொகையாக) is only in 1043.",
+   "text_issue": "285 line 3 reads க்ழுஉங் for கழூஉம்."
+  },
+  {
+   "a": 216,
+   "b": "kural:104",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "On Mudaliar's reading, the பெண்ணை of 216 is a tree that rewards a single watering forever, so the best friends return much for little. That loosely matches 104's தினைத்துணை ... பனைத்துணையாக் கொள்வர். But the palmyra is a measure of size in 104 and a type of tree in 216, and Pope reads 216 as constancy (இட்டஞான் றிட்டதே), not gratitude.",
+   "text_issue": null
+  },
+  {
+   "a": 52,
+   "b": 135,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Mudaliar does cite கல்வி கரையில at 52. 135 says to learn selectively because learning has no shore (கரையில) and days are few. 52 hardens this into calling those who prattle the endless (தொலைவில்லா) grammar and astrology the greatest fools.",
+   "text_issue": null
+  },
+  {
+   "a": 317,
+   "b": 318,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "317 separates a book that is easy (எளியநூல்) from a meaning that is hard (அறிதற்கரிய பொருள்). 318 applies this to people: those who only keep books (போற்றும் புலவர்) and those who grasp and teach the meaning (பொருடெரிந்து தேற்றும் புலவர்).",
+   "text_issue": "317 line 4 has an encoding glitch: கா஢ய for கரிய/அரிய."
+  },
+  {
+   "a": 363,
+   "b": "kural:52",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "52 says a household is nothing if the wife lacks மனைமாட்சி. 363 names three concrete failures of that excellence: defiance, not entering the kitchen at dawn, and not serving the food she has cooked. It calls each கொண்டானைக் கொல்லும் படை, applying and sharpening 52.",
+   "text_issue": null
+  },
+  {
+   "a": 113,
+   "b": "kural:796",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both concern கிளைஞர் tested by trouble. 113 observes that kin are as many as stars in prosperity and few in இடர். 796 turns the same fact into a gain, calling ruin a rod that measures one's kin (கிளைஞரை நீட்டி அளப்பதோர் கோல்).",
+   "text_issue": null
+  },
+  {
+   "a": 362,
+   "b": "kural:57",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both deny that outer guarding works: 362 has வாள்வாய்க் கிடந்தும், and 57 has சிறைகாக்கும் காப்பெவன் செய்யும். But 362 never mentions நிறை, and its claim that women lack self-guard rests on a disputed and textually unstable reading, so the qualification is thin.",
+   "text_issue": "362's base text (வழக்கெனைத்து, பெறுவராயின்) differs from Mudaliar's text (வழுக்கு எனைத்தும், பெறார் ஆயின்), and the sense turns on it."
+  },
+  {
+   "a": 105,
+   "b": 3,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both show the great brought low and blame deeds. In 3, elephant-riding kings fall when ஏனை வினை உலப்ப, and in 105 the palm-sized shrink to millet-size through மேலை வினைப்பயன்.",
+   "text_issue": null
+  },
+  {
+   "a": 106,
+   "b": "kural:406",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "406 says the unlearned are உளரென்னும் மாத்திரையர், barren like களர். 106 says they live on only because they lack the sap of sense (சேதனம்), so Death passes them by as husks (கோது). Both deny that the unlearned have any substance.",
+   "text_issue": null
+  },
+  {
+   "a": 231,
+   "b": "kural:812",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "812 describes friends who come when there is gain and leave when there is none (உறின்நட்டு அறின்ஒரூஉம்). 231 shows such people putting up with a leaking roof only until தங்கருமம் முற்றும் துணை. The claim is the same.",
+   "text_issue": null
+  },
+  {
+   "a": 167,
+   "b": "kural:691",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "167 says those who keep near (துன்னியார்) enjoy kings' wealth. 691 tells courtiers to be அகலாது அணுகாது, so nearness itself is half-endorsed. The note never says which verse limits which, or how, and the relation is closer to a mild contrast than a qualification.",
+   "text_issue": null
+  },
+  {
+   "a": 120,
+   "b": "kural:36",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "Both say what goes with one at death is one's deeds: 120 has தாஞ்செய் வினையல்லால் ... செல்வது ... இல்லை, and 36 calls அறம் பொன்றாத் துணை. 36 never claims only virtue goes, so 120 does not limit it, and 120 never mentions bad deeds as a burden.",
+   "text_issue": null
+  },
+  {
+   "a": 247,
+   "b": "kural:460",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "247 says joining the discerning brings இன்பம், while pain parts only when one parts from the undiscerning. That matches 460's நல்லினத்தி னூங்குந் துணையில்லை ... தீயினத்தின் அல்லற் படுப்பதூஉம் இல்.",
+   "text_issue": "247 line 2 has an encoding glitch: புணா஢ன் for புணரின்."
+  },
+  {
+   "a": 213,
+   "b": "kural:807",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "807 says those bound by love do not drop it even for அழிவந்த செய்யினும், and 213's dog wags its tail with the master's spear in its body (எறிந்தவேல் மெய்யதா). Both prize love that survives injury.",
+   "text_issue": "213 line 1 reads நண்பெரிணஇ, a garbling of நண்பொரீஇ (Mudaliar: நண்பு ஒரீஇ)."
+  },
+  {
+   "a": 100,
+   "b": "kural:232",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both make giving the source of all praise. 232 says உரைப்பார் உரைப்பவை எல்லாம் ... ஈவார்மேல் நிற்கும் புகழ், and 100 says 'they gave' (கொடுத்தார் எனப்படும் சொல்) is heard through the three worlds.",
+   "text_issue": null
+  },
+  {
+   "a": 54,
+   "b": "kural:46",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "46 asks what the virtuous householder could gain on the புறத்தாறு, while 54 praises the ஆன்றமைந்தார் who leave the household path (மனையாறு அடைவொழிந்தார்). Both answer whether the wise should stay in household life, in opposite ways, and the note names the reading that would dissolve it.",
+   "text_issue": null
+  },
+  {
+   "a": 350,
+   "b": 347,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The last two lines are identical (எய்திய செல்வத்த ராயினும் கீழ்களைச் செய்தொழிலாற் காணப் படும்), and the note correctly sets the gold sandal against the young bullocks that won't learn the yoke.",
+   "text_issue": null
+  },
+  {
+   "a": 185,
+   "b": "kural:955",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "955 says that even when வழங்குவது உள்வீழ்ந்தக் கண்ணும் an old family keeps its character. 185 says the generous who are ruined still give to a few (சிலர்க்காற்றி), like a dry river still yielding spring-water. The claim is the same.",
+   "text_issue": null
+  },
+  {
+   "a": 192,
+   "b": "kural:611",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "192's தாழ்வின்றித் தன்னைச் செயின் (making oneself without slackening) matches 611's அசாவாமை and முயற்சி தரும் பெருமை; the twig hardening into an elephant post illustrates effort conferring greatness.",
+   "text_issue": null
+  },
+  {
+   "a": 281,
+   "b": "kural:841",
+   "type": "tension",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Parimelazhagar glosses 841's பிறிதின்மை இன்மையா வையாது உலகு as the world not counting other lack as lack of that degree, a comparative ranking under wisdom, not a claim that the poor are respected; 281's செத்த பிணத்தின் கடை describes social contempt, so the conflict is mostly surface wording.",
+   "text_issue": null
+  },
+  {
+   "a": 73,
+   "b": "kural:784",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "784 makes rebuke (இடித்தல்) the purpose of friendship; 73 values காதலார் சொல்லும் கடுஞ்சொல் over ஏதிலார் இன்சொல், the receiving side of the same point.",
+   "text_issue": null
+  },
+  {
+   "a": 133,
+   "b": 142,
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "142 denies சான்றாண்மை சாயல் ஒழுக்கம் to the low-born even with பெருஞ்செல்வம, contrasting birth with wealth, not learning; reading it as a limit on 133's கற்றறிந்தோரைத் தலைநிலத்து வைக்க is the note's inference, though the two do pull against each other on birth.",
+   "text_issue": null
+  },
+  {
+   "a": 26,
+   "b": "kural:340",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "340's துச்சில் இருந்த உயிர் (life as lodger) and 26's தோற்பையுள் நின்று...கூத்தன் (dancer in a skin bag who leaves) both make the body a temporary dwelling not the self's home.",
+   "text_issue": null
+  },
+  {
+   "a": 236,
+   "b": "kural:823",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "823 says மாணார் do not become மனநல்லர் despite பலநல்ல கற்றல்; 236 says those who are நீர் அல்லார் keep different deeds despite பெருநீரார் கேண்மை: outer good does not change inner nature.",
+   "text_issue": null
+  },
+  {
+   "a": 36,
+   "b": "kural:337",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "337's ஒருபொழுதும் வாழ்வது அறியார் and 36's இன்றுகொல் அன்றுகொல் என்றுகொல் ... பின்றையே நின்றது கூற்றம் both rest on the uncertain hour of death.",
+   "text_issue": null
+  },
+  {
+   "a": 336,
+   "b": "kural:967",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both condemn following (பின்சென்று) the uncongenial: 967's ஒட்டார் பின் சென்று costs honour, 336's மரபில்லார் பின்சென்று is as futile as pinching rock.",
+   "text_issue": null
+  },
+  {
+   "a": 172,
+   "b": "kural:159",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "172's பொறுமின் பிறர்கடுஞ்சொல் and 159's இன்னாச்சொல் நோற்கிற்பவர் commend the same forbearance; 159 adds the comparison with renunciants.",
+   "text_issue": null
+  },
+  {
+   "a": 60,
+   "b": 54,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The two share the line இன்பமே காமுறுவர் ஏழையார் and the turn to seeing pain (இன்னாமை நோக்கி) in pleasure; 54 ends in மனையாறு அடைவொழிந்தார, 60 in பசைதல் பரியாது, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 153,
+   "b": "kural:656",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "153's நரம்பெழுந்து நல்கூர்ந்தாராயினும் ... குற்றங்கொண்டு ஏறார் and 656's ஈன்றாள் பசிகாண்பான் ஆயினும் செய்யற்க both deny that want licenses wrongdoing.",
+   "text_issue": null
+  },
+  {
+   "a": 86,
+   "b": "kural:148",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both turn on நோக்கு: 148's பிறன்மனை நோக்காத பேராண்மை and 86's ஏதில் மனையாளை நோக்கு questioned by one who has a wedded wife.",
+   "text_issue": null
+  },
+  {
+   "a": 64,
+   "b": "kural:153",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "153's மடவார்ப் பொறை as வன்மையுள் வன்மை matches 64's விழுமியோர் who do not வேர்த்து வெகுளார் when நிகரல்லார் speak unfitly, with the base as foil.",
+   "text_issue": null
+  },
+  {
+   "a": 309,
+   "b": "kural:1066",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "309 accepts சார்ந்தொழுகல்/வழிபடுதல் but finds the spoken 'செய்யீரோ' worse than poverty, which fits 1066's placing disgrace on the tongue (நாவிற்கு இரவின் இளிவந்தது இல்).",
+   "text_issue": null
+  },
+  {
+   "a": 358,
+   "b": "kural:955",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "955's வழங்குவது உள்வீழ்ந்தக் கண்ணும் பழங்குடி பண்பில் தலைப்பிரிதல் இன்று and 358's ஏட்டைப் பருவத்தும் இற்பிறந்தார் செய்வன make the same claim about the well-born in want.",
+   "text_issue": null
+  },
+  {
+   "a": 128,
+   "b": "kural:821",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "128's உள்ளத்தான் நள்ளாது ... கள்ளத்தான் நட்டார் and 821's நேரா நிரந்தவர் both describe friendship without inner consent; பட்டடை (anvil) and மனத்துக்கண் மாசு are accurately reported.",
+   "text_issue": null
+  },
+  {
+   "a": 129,
+   "b": "kural:727",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "ஒள்வாள் with enemies is shared, but the images do different work: 727's sword is useless in a பேடி's hand, while 129's sword falls into the ஒன்னார்கை and is turned against its owner; the note's 'wrong hands' blurs that.",
+   "text_issue": null
+  },
+  {
+   "a": 328,
+   "b": "kural:335",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "The tongue silenced is explicit only in 335 (நாச்செற்று விக்குள்); 328's கைகாட்டும் implies speechlessness only through commentary. The real link is the shared urging of good deeds before death (சிறுகாலையே ... வல்சி).",
+   "text_issue": null
+  },
+  {
+   "a": 1,
+   "b": "kural:332",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Both teach wealth's impermanence, but only 332 frames it as a spectacle (கூத்தாட்டு அவைக் குழாம்); 1 shows a feaster reduced to begging கூழ், so 'both books make it a spectacle' overstates 1.",
+   "text_issue": null
+  },
+  {
+   "a": 290,
+   "b": 283,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Near-duplicates: bees (வண்டினம்) do not go to a plant not in flower, and வாழாதார்க்கு/இலாஅர்க்கு இல்லை தமர்; Mudaliar's gloss on 290 does remark on the repeat.",
+   "text_issue": null
+  },
+  {
+   "a": 382,
+   "b": "kural:51",
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "51's வளத்தக்காள் lives within the husband's means; 382 adds that even at குடநீரட்டுண்ணும் இடுக்கண் she does not let கடனீர்மை lapse, a real condition on what living within means allows.",
+   "text_issue": null
+  },
+  {
+   "a": 4,
+   "b": "kural:335",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "4's ஒன்றின ... வல்லே செயின்செய்க ... வந்தது கூற்று and 335's விக்குள்மேல் வாராமுன் நல்வினை மேற்சென்று செய்யப்படும் both urge good deeds before death; செறுத்து supports 'in anger'.",
+   "text_issue": null
+  },
+  {
+   "a": 131,
+   "b": "kural:407",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "131's குஞ்சி அழகும் ... அழகல்ல ... கல்வி அழகே அழகு and 407's எழில்நலம் of one without நுண்மாண் நுழைபுலம் as a மண்மாண் புனைபாவை make the same claim.",
+   "text_issue": null
+  },
+  {
+   "a": 90,
+   "b": "kural:1049",
+   "type": "parallel_domain",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Each ranks fire as the lesser affliction: one can escape செந்தீ by water but காமம் சுடும் (90), and one can sleep in நெருப்பு but not in நிரப்பு (1049); desire and poverty are the two domains.",
+   "text_issue": null
+  },
+  {
+   "a": 319,
+   "b": 318,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "318 distinguishes scholars who பொருள்தெரிந்து தேற்றும் from mere keepers of books; 319 specifies what such explanation must show (பொழிப்பு அகலம் நுட்பம் எச்சம்).",
+   "text_issue": null
+  },
+  {
+   "a": 122,
+   "b": "kural:319",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "319's பிறர்க்கின்னா முற்பகல் செய்யின் ... பிற்பகல் தாமே வரும் is enacted in 122, where those who cage birds (கூட்டுளாய்க் கொண்டுவைப்பார்) end with இரும்பார்க்கும் காலர்.",
+   "text_issue": null
+  },
+  {
+   "a": 384,
+   "b": "kural:1302",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "384's இடனறிந்து ஊடி இனிதின் உணரும் is the measured sulking that 1302's salt figure (உப்பமைந்தற்றால் புலவி) recommends.",
+   "text_issue": null
+  },
+  {
+   "a": 223,
+   "b": "kural:803",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "803 asks the use of old friendship if கெழுதகைமை is not accepted as one's own act; 223 demands bearing even இறப்பவே தீய from friends: ஒருவர் பொறை இருவர் நட்பு. Same demand, 223 stronger.",
+   "text_issue": null
+  },
+  {
+   "a": 193,
+   "b": "kural:618",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "618 is about fate (பொறியின்மை) versus effort (ஆள்வினை இன்மை பழி); 193 is about not scorning lowly work (காற்றொழில்) when need presses. Both favour work over pride, but the claims are not the same.",
+   "text_issue": null
+  },
+  {
+   "a": 62,
+   "b": "kural:969",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "969 praises those who உயிர்நீப்பர் மானம் வரின்; 62 asks whether the resolute துறப்பவோ their இன்னுயிர் whenever இளிவந்த போழ்து comes. That conflicts on whether disgrace warrants death, and the note correctly limits it to 62's task-bound people.",
+   "text_issue": null
+  },
+  {
+   "a": 184,
+   "b": "kural:215",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both cast the generous as the town's water: 215's ஊருணி நீர்நிறைந்தற்றே and 184's ஊற்றுநீர்க் கேணி that ஊராற்றும் even in drought.",
+   "text_issue": null
+  },
+  {
+   "a": 308,
+   "b": "kural:1070",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "308's மாயானோ மாற்றி விடின் and 1070's இரப்பவர் ... போஒம் உயிர் both have the asker's life go at refusal; 1070 then turns on the refuser, as noted.",
+   "text_issue": null
+  },
+  {
+   "a": 263,
+   "b": "kural:215",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Drinking water as wealth that serves: 215's ஊருணி, and 263's sweet spring well (வல்லூற்று உவரில் கிணறு) preferred to the salt sea of the nearby rich.",
+   "text_issue": null
+  },
+  {
+   "a": 184,
+   "b": "kural:218",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "218's இடனில் பருவத்தும் ஒப்புரவிற்கு ஒல்கார் and 184's கொடைக்கடனும் சாஅயக் கண்ணும் make the same claim about giving in decline.",
+   "text_issue": null
+  },
+  {
+   "a": 228,
+   "b": "kural:805",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both reinterpret a friend's hurtful act (shared நோதக்க): 805 as பேதைமை or பெருங்கிழமை, 228 as becoming விழுமிது once held in the heart.",
+   "text_issue": null
+  },
+  {
+   "a": 325,
+   "b": "kural:158",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "158 says to defeat arrogant wrongdoers by தகுதி (Parimelazhagar: பொறை); 325's reviled man who stays வாளா leaves the reviler ruined, it is a wonder if he survives, which is that defeat in public.",
+   "text_issue": null
+  },
+  {
+   "a": 246,
+   "b": 215,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "246's ஒராஅலும் ஒட்டலும் செய்பவோ and 215's flowers that முன்மலர்ந்து பிற்கூம்பு both condemn on-off friendship.",
+   "text_issue": "246 line 3 'ம்ருஉச்செய்' looks corrupted (likely மருஉச்செய்)."
+  },
+  {
+   "a": 254,
+   "b": "kural:840",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "840's கழாஅக்கால் பள்ளியுள் வைத்தற்றால் and 254's நாயிருந்தற்றே both make the unlearned man's mere presence among the worthy a sullying; 254 adds his speech as barking.",
+   "text_issue": null
+  },
+  {
+   "a": 37,
+   "b": 22,
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "37's உடம்பிற்கே ஒப்புரவு (pampering the body) uses the word in another sense than 22's ஒப்புரவு ஆற்றுமின் (service to others). The pairing shows the word's range rather than one verse limiting the other.",
+   "text_issue": "37 'ஒப்புராவு' and 'பொரும்பயனும்' look like typos for ஒப்புரவு and பெரும்பயனும்."
+  },
+  {
+   "a": 220,
+   "b": "kural:791",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The shared claim (test before befriending because parting is hard) holds, but 791's நட்பாள்பவர்க்கு வீடில்லை is, per Parimelazhagar, the befriender's own inability to leave, not 'the friend's own loyalty' as the note says.",
+   "text_issue": "220's மாணஇ/பெரிணஇ/பாணஇ look corrupted; Mudaliar reads மரீஇ, பொரீஇ, பரீஇ."
+  },
+  {
+   "a": 227,
+   "b": "kural:980",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "980's அற்றம் மறைக்கும் பெருமை சிறுமைதான் குற்றமே கூறிவிடும் is applied to friends in 227, where those who தீமை எடுத்துரைக்கும் are அவரிற் கடை.",
+   "text_issue": null
+  },
+  {
+   "a": 9,
+   "b": "kural:1005",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1005's கொடுப்பதூஉம் துய்ப்பதூஉம் இல்லார்க்கு ... இல் and 9's உண்ணான் ... வழங்கான் ... இழந்தான் என்று எண்ணப்படும் make the same claim.",
+   "text_issue": null
+  },
+  {
+   "a": 171,
+   "b": "kural:455",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "455's இனந்தூய்மை brings purity of mind and deed; 171 extends good company (நற்சார்வு) to dissolving past faults like dew. The note itself describes an extension, not the same claim.",
+   "text_issue": null
+  },
+  {
+   "a": 376,
+   "b": 378,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use the fighting ram's horn (போர்த்தகர்க்கோடு / தகர்கோடு) for the courtesan's turn from sweetness to hostility.",
+   "text_issue": null
+  },
+  {
+   "a": 44,
+   "b": "kural:1114",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "குவளை as eye is used admiringly in 1114 and repudiated in 44, whose கண்ணில் புன்மாக்கள் make that comparison; the pointed reversal is meaningful.",
+   "text_issue": null
+  },
+  {
+   "a": 145,
+   "b": "kural:951",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "951's இற்பிறந்தார் கண்அல்லது இல்லை ... செப்பமும் நாணும் and 145's four அச்சம் absent in those of மாணாக் குடி (like மரம்) make the same claim.",
+   "text_issue": null
+  },
+  {
+   "a": 212,
+   "b": "kural:793",
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "793 lists குணம் குடிமை குற்றம் இனம் to be known; 212 holds that only இற்பிறப்பு is a dependable ground since மனம் அறியப்பட்டது ஒன்றன்று, which is a real limit on 793.",
+   "text_issue": null
+  },
+  {
+   "a": 248,
+   "b": 192,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "248's ... தன்னைத் தலையாகச் செய்வானும் தான் and 192's ஒருவன்றான் தாழ்வின்றித் தன்னைச் செயின் both make the self the maker of one's rise.",
+   "text_issue": null
+  },
+  {
+   "a": 22,
+   "b": "kural:38",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The phrase வீழ்நாள் படா- occurs in both: the sun rising without a lost day measures out life in 22, the day not lost to good deeds in 38. The note's point about opposite sides of the account is apt.",
+   "text_issue": null
+  },
+  {
+   "a": 75,
+   "b": "kural:188",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "75's தூற்றாதே தூர விடல் and 188's துன்னியார் குற்றமும் தூற்றும் மரபினார் share the verb and forbid publishing an intimate's faults.",
+   "text_issue": null
+  },
+  {
+   "a": 65,
+   "b": 91,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "65's இல்லான் கொடையே கொடைப்பயன் and 91's இல்லாவிடத்தும் இயைந்த அளவினால் ... கொடை both prize giving when one has little.",
+   "text_issue": null
+  },
+  {
+   "a": 249,
+   "b": 193,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "249's great going behind the unlearned for a task (கரும வரிசையால்) and 193's tiger eating a frog (சிறுதேரை) both justify stooping for a purpose.",
+   "text_issue": null
+  },
+  {
+   "a": 138,
+   "b": "kural:783",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "138's கற்றறிந்தார் கேண்மை like cane eaten from the tip and 783's பயில்தொறும் பண்புடையாளர் தொடர்பு like a book reread both make good friendship grow sweeter.",
+   "text_issue": null
+  },
+  {
+   "a": 187,
+   "b": "kural:816",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "816 ranks அறிவுடையார் ஏதின்மை above a fool's intimacy; 187 goes as far as நல்லறிவினார்கண் பகையேயும் பாடு பெறும் against the mean's பசைந்த துணையும் பரிவாம்.",
+   "text_issue": null
+  },
+  {
+   "a": 68,
+   "b": "kural:29",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "Both make the good man's anger brief (தானே தணியுமே / கணமேயும்); 29 adds that even that moment is காத்தல் அரிது. That adds force rather than a limit, so it is development, not qualification.",
+   "text_issue": null
+  },
+  {
+   "a": 57,
+   "b": "kural:267",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "267's துன்பம் சுடச்சுட நோற்கிற்பவர் shining like gold and 57's holding vows when தாக்கருந் துன்பங்கள் come both make hardship the test of austerity.",
+   "text_issue": null
+  },
+  {
+   "a": 129,
+   "b": "kural:816",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "129's நல்ல கருமமே கல்லார்கண் தீர்வு and 816's preference for distance (ஏதின்மை) from the wise over a fool's intimacy agree that closeness to fools harms.",
+   "text_issue": null
+  },
+  {
+   "a": 97,
+   "b": "kural:211",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both set the giver beside the rain (மாரி in 211; பெயற்பால் மழை beside உலகம் செயற்பால செய்யா in 97). 97 takes the Kural's rain-as-benefactor figure and makes both rain and due giving necessary for the world to survive (உலகுய்யுமாறு).",
+   "text_issue": null
+  },
+  {
+   "a": 286,
+   "b": 288,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both prefer leaving the village (தான்போய் விருந்தினன் ஆதலே நன்று / நெட்டாற்றுச் சென்று ... கெட்டாற்று வாழ்க்கையே நன்று) to staying there unable to give. Mudaliar's full gloss on 288 does say its meaning is that of the chapter's sixth verse (286). The note correctly flags Shanmuganar's miser reading of 286.",
+   "text_issue": null
+  },
+  {
+   "a": 188,
+   "b": "kural:987",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "188 tells one to be a terror to foes that Death itself would fear (ஒன்னாருள் கூற்றுட்கும் உட்குடைமை) and false to the false (சலவருட் சாலச் சலவே). 987 asks what worth is for if it does not do sweet things even to those who did harm (இன்னாசெய் தார்க்கும் இனியவே). The opposition is direct, and the note handles the சலவர் readings accurately.",
+   "text_issue": null
+  },
+  {
+   "a": 179,
+   "b": "kural:458",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "458's இனநலம் ஏமாப்புடைத்து, good company strengthening even the good-minded, matches 179's first half (குலநலத்தால் ஆகுவர் சான்றோர்), and 179's second half (தீயினம் சேரக் கெடும்) supplies the converse the note names. The note undersells the direct match in 179's first half but says nothing false.",
+   "text_issue": null
+  },
+  {
+   "a": 316,
+   "b": "kural:69",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both turn on the mother who bore the son (ஈன்ற / ஈன்றாட்கு) and on how the சான்றோர் judge him. 69's mother rejoices when he is called சான்றோன், while 316's சான்றோர் grieve for the fool's mother. It is a real, pointed mirror.",
+   "text_issue": null
+  },
+  {
+   "a": 377,
+   "b": "kural:918",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "918's மாய மகளிர் முயக்கு is an அணங்கு for those who lack discernment (ஆயும் அறிவினர் அல்லார்), and Parimelazhagar glosses it as sweet at first and then taking life. 377's ஆமாபோல் நக்கி, in Mudaliar's explicit gloss, pleases and then kills, and it is the deceived (ஏமாந்து) who suffer. The claim and the pattern are the same.",
+   "text_issue": null
+  },
+  {
+   "a": 101,
+   "b": "kural:208",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "208's ruin stays at the doer's feet like a shadow (வீயாது அடியுறைந்தற்று). 101's old deed seeks out its doer like a calf finding its mother (செய்த கிழவனை நாடிக் கொளற்கு). Both claim the consequence is inseparable from the doer.",
+   "text_issue": "Kural 208 reads அஇஉறைந் for அடியுறைந் (OCR/typo)."
+  },
+  {
+   "a": 31,
+   "b": "kural:37",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "37 shows the fruit of virtue in the gap between the palanquin bearer and its rider. 31 shows it in the gap between those inside (அகத்தாரே வாழ்வார்) and those clinging to the outer gate, who fell there through மேலைத் தவத்தால் தவம்செய்யாதார். The note's point about unrenewed merit is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 251,
+   "b": "kural:402",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both picture an intellectual lack through a body lacking the marks of a sex: 402's breastless woman longing for womanhood and 251's பேடி putting on eye-catching jewels. The image is distinctive and shared. The note's 'ornament' fits 251 better than 402, where the longing is for speech.",
+   "text_issue": null
+  },
+  {
+   "a": 258,
+   "b": "kural:373",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "373's தன் உண்மை அறிவே மிகும் over many books and 258's நோலா உடம்பிற்கு அறிவு புகலொல்லா both say teaching cannot override a native capacity. Parimelazhagar (ஊழ்) and Mudaliar (புண்ணியஞ் செய்யாத) both ground it in past deeds.",
+   "text_issue": null
+  },
+  {
+   "a": 190,
+   "b": "kural:360",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "360 says pain perishes when காமம் வெகுளி மயக்கம் perish. 190 says feeding others first removes the முக்குற்றம் and frees one from துக்கம், and முக்குற்றம் is standardly that triad, as Shanmuganar glosses it. 190 offers a practice for the Kural's goal.",
+   "text_issue": "Kural 360 reads இநவ்முன்றன் for இவைமூன்றன் (typo)."
+  },
+  {
+   "a": 340,
+   "b": "kural:978",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "978's சிறுமை அணியுமாம் தன்னை வியந்து matches 340's தானுரைப்பின் ... பித்தனென் றெள்ளப் படும். Self-praise marks smallness, and 340 shows its social cost.",
+   "text_issue": null
+  },
+  {
+   "a": 234,
+   "b": "kural:782",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "782's fools' friendship wanes like the moon after full (மதிப் பின்னீர). 234's bond with those who have no real tie seems to grow (பெருகுவது போலத் தோன்றி) and dies like fire in straw. Both claim the same false growth followed by collapse.",
+   "text_issue": null
+  },
+  {
+   "a": 335,
+   "b": 313,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "சுனை, the tongue's itch, appears in both: 313's சுனைத்தெழுதல் is the itch to rise and debate, and 335's நாத்தின்னும் நல்ல சுனைத்து is the itch to abuse. The fool's urge to speak is pictured the same distinctive way.",
+   "text_issue": null
+  },
+  {
+   "a": 126,
+   "b": "kural:792",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "792 warns that friendship formed without ஆய்ந்தாய்ந்து ends in தான்சாம் துயரம். 126 attaches to someone thinking him சான்றோர் and finds a snake where sandal paste was expected, and Mudaliar glosses சார்ந்தாய் as (ஆராயாது) நட்புகொண்டவனே. Both describe the same deadly unexamined bond.",
+   "text_issue": null
+  },
+  {
+   "a": 140,
+   "b": "kural:356",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "356 says learning that sees மெய்ப்பொருள் leads to the path of no return. 140 says worldly books, unlike அறிவுநூல், cannot make தடுமாற்றம் go, which Mudaliar glosses as birth-wandering. The two verses are complementary statements of one claim.",
+   "text_issue": null
+  },
+  {
+   "a": 17,
+   "b": 44,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both take the stock வேல் eye and undo it: 17 turns வேல்கண்ணள் into கோல்கண்ணள், and 44 sets குவளை/கயல்/வேல் against நுங்குசூன் றிட்டன்ன. The shared figure is precise and used to the same end.",
+   "text_issue": null
+  },
+  {
+   "a": 230,
+   "b": "kural:504",
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The wording matches closely: 504 has குணம்நாடிக் குற்றமும் நாடி and 230 has குற்றமும் ஏனைக் குணமும் ... நட்டபின் நாடி. 230's நட்டபின் limits the scrutiny to before the bond. 504 concerns choosing men for work rather than friends, but the division of labour holds.",
+   "text_issue": null
+  },
+  {
+   "a": 292,
+   "b": "kural:966",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "966's இகழ்வார்பின் சென்று நிலை and 292's இயல்பிலார் பின்சென்று தம்பாடுரைப்பரோ both refuse to trail after the unworthy for help, for honour's sake (both are in மானம் chapters). The note's 'scorn' is slightly loose for 292's இயல்பிலார், the graceless.",
+   "text_issue": null
+  },
+  {
+   "a": 383,
+   "b": 361,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "361's cloud-high mansion without a wife is a காடு. 383's tiny leaking hut with a virtuous wife is the true இல், and Mudaliar's gloss adds பிற இல் காடாம். The two halves of one claim fit exactly.",
+   "text_issue": null
+  },
+  {
+   "a": 84,
+   "b": "kural:148",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "148 calls not looking at another's wife பேராண்மை. 84 calls the adulterous act ஆணின்மை, and Mudaliar glosses ஆண்மை as self-restraint, the same notion as Parimelazhagar's on பேராண்மை. The same claim is made from opposite sides.",
+   "text_issue": null
+  },
+  {
+   "a": 318,
+   "b": "kural:650",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "650 is about those who learned but cannot உணர விரித்துரை. 318's lesser group are book-hoarders who do not understand the books themselves (பொருடெரியார்), set against those who பொருடெரிந்து தேற்றும். The overlap is the value of making others understand, but the note conflates two different defects.",
+   "text_issue": null
+  },
+  {
+   "a": 180,
+   "b": 177,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "In 177 the smallness of the small does not show beside the great (water in milk). In 180 the spotless are scorned for their company (sandal burning with the field). It is the same association mechanism run in both directions, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 50,
+   "b": "kural:345",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "345's பிறப்பறுக்கல் உற்றார்க்கு உடம்பும் மிகை and 50's தம்மையோர் பண்டத்துள் வைப்பதிலர் both conclude that the body is not to be valued. Mudaliar glosses 50's தம்மை as தமது உடம்பை.",
+   "text_issue": null
+  },
+  {
+   "a": 236,
+   "b": 177,
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "177 says சிறியார் சிறுமையும் தோன்றாதாம் beside the great, a claim about appearance. 236 says that even with பெருநீரார் கேண்மை, the கருமங்கள் வேறுபடும், a claim about deeds. The note's 'how they look, not what they do' is an accurate and useful limit.",
+   "text_issue": null
+  },
+  {
+   "a": 392,
+   "b": 364,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "392's thunder is likened to நெய்தல் அறைந்தன்ன, which Mudaliar glosses as the beaten funeral drum (சாப்பறை). 364's வெடிபட ஆர்ப்பது is the funeral drum in both commentators. The same sound is turned to renunciation in 364 and to a lonely woman's grief in 392.",
+   "text_issue": null
+  },
+  {
+   "a": 320,
+   "b": "kural:992",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "992 makes ஆன்ற குடிப்பிறத்தல் one of the two parts of பண்புடைமை. 320 credits இற்பிறந்த நல்லறிவாளர் with the forbearance to ignore others' புல்லறிவு and denies it to the low-born however learned. Both make birth a source of courteous conduct.",
+   "text_issue": null
+  },
+  {
+   "a": 11,
+   "b": "kural:342",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "342's உண்டாகத் துறக்க, which Parimelazhagar takes as renouncing early so as to enjoy its fruits long, is pushed back in 11 to குழவியிடத்தே துறந்தார், because நரைவரும். It is a clear development.",
+   "text_issue": null
+  },
+  {
+   "a": 384,
+   "b": 391,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "384's ideal wife இடனறிந்து ஊடி இனிதின் உணரும். 391 says ஊடி உயங்காக்கால் உப்பின்றாம் காமம். 391 supplies the reason for the timed sulk, as the note says (develops would fit as well).",
+   "text_issue": null
+  },
+  {
+   "a": 278,
+   "b": 274,
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "274 says the miser's wealth is enjoyed by an ஏதிலான், a stranger. 278 says the heirs (தாயத்தவர்) also do not give, and its main point is that nothing but avarice stopped him (அவர்கடியார் தான்கடியான்). The two share the miser theme, but 'following' 274's stranger to the heirs is not what either verse says.",
+   "text_issue": null
+  },
+  {
+   "a": 364,
+   "b": "kural:46",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "46 asks what is gained by leaving a virtuous இல்வாழ்க்கை for the புறத்தாறு. On Mudaliar's reading (கடி = give up household life), 364 calls staying in or re-entering it (பேர்த்துமோர் இற்கொண்டு) a self-stoning fault. The note correctly names the reading the conflict depends on and the narrower remarriage reading.",
+   "text_issue": "Naladiyar 364 has a corrupt character in இனித஧ருஉம் (for இனிதிரூஉம்)."
+  },
+  {
+   "a": 296,
+   "b": 270,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "296's செல்வரெனினும் கொடாதவர் நல்கூர்ந்தார் ... இரவாதார் [பெருமுத்தரையர்] restates 270's நல்கூர்ந்தும் செல்வர் இரவாதார், செல்வரும் நல்கூர்ந்தார் ஈயாரெனின். The same claim sits in the மானம் chapter and the wealth chapter.",
+   "text_issue": null
+  },
+  {
+   "a": 132,
+   "b": "kural:400",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "400's கேடில் விழுச்செல்வம் கல்வி and 132's தாமுளராக் கேடின்றால் ... ஈயக் குறைவின்றால் make the same claim. 132's traits match Parimelazhagar's gloss on why learning outranks other wealth. 132 does not name wealth explicitly, but the contrast is implicit.",
+   "text_issue": null
+  },
+  {
+   "a": 391,
+   "b": "kural:1302",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both make sulking the salt of love: 391 has ஊடி உயங்காக்கால் உப்பின்றாம் காமம், and 1302 has உப்பமைந்தற்றால் புலவி, with too much spoiling the dish. The image is distinctive and shared.",
+   "text_issue": null
+  },
+  {
+   "a": 34,
+   "b": "kural:1078",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Pressed cane appears in both: 1078's கரும்புபோல் கொல்லப் பயன்படும் கீழ் and 34's கரும்பூர்ந்த சாறு with the body as the discarded கோது. The contrast between yield only under pressure, a reproach, and pressing the body for lasting merit, a counsel, is real.",
+   "text_issue": null
+  },
+  {
+   "a": 230,
+   "b": 238,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The frame is identical: a conditional self-curse ending in நட்டான் ... செல்வுழிச் செல்க ... வையம் நக. 230 names the betrayer of a friend's secret and 238 the violator of a friend's wife, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 66,
+   "b": "kural:159",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both praise bearing இன்னாச்சொல்: 159 has இறந்தார்வாய் இன்னாச்சொல் நோற்கிற்பவர் are as pure as renunciants, and 66 has கயவர்வாய் இன்னாச்சொல் ... பொறுத்துய்ப்பர், held back by குடிமை. The note is accurate on both.",
+   "text_issue": null
+  },
+  {
+   "a": 132,
+   "b": "kural:398",
+   "type": "qualifies",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "132's தாமுளராக் கேடின்றால், 'does not perish while they live', is a floor, not a limit. It does not deny 398's எழுமையும் ஏமாப்பு, and 132 itself reaches to எம்மை யுலகத்தும். The supposed qualification depends on reading 'while they live' as 'only while they live', and the note never says which verse limits which.",
+   "text_issue": null
+  },
+  {
+   "a": 256,
+   "b": "kural:642",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both name சோர்வு in speech as the thing to guard against: 642 has காத்தோம்பல் சொல்லின்கட் சோர்வு, and 256 has சொல்லார்தம் சோர்வஞ்சி. 256 shows the learned guarding against it by restraint.",
+   "text_issue": null
+  },
+  {
+   "a": 72,
+   "b": 64,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both open with நீரல்ல சொல்லியக்கால் from those beneath one (நேரல்லார் / நிகரல்லார்). 64 has the excellent not growing angry, and 72 adds that the world counts the opposite as சமழ்மை.",
+   "text_issue": null
+  },
+  {
+   "a": 242,
+   "b": "kural:125",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "125 says பணிதல் is good for all (எல்லார்க்கும்) and an extra wealth for the rich. 242 makes அடக்கம் the அணிகலம் of the நல்கூர்ந்த மக்கள். That applies the Kural's general claim to the opposite case rather than limiting it.",
+   "text_issue": null
+  },
+  {
+   "a": 45,
+   "b": "kural:1113",
+   "type": "tension",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "The clash of images is real: 1113's முத்தம் முறுவல் is exactly what 45 mocks as the chatter of கல்லாப்புன் மாக்கள். But 1113 is dramatised lover's praise (Parimelazhagar calls it புனைந்துரை) and makes no claim that such praise is true or wise, so the incompatibility is thin.",
+   "text_issue": "Naladiyar 45 ends with a stray digit (வேன3)."
+  },
+  {
+   "a": 170,
+   "b": "kural:226",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "226 makes relieving அற்றார் அழிபசி the place to store wealth. 170 says செல்வமுடையாருஞ் செல்வரே தற்சேர்ந்தார் அல்லல் களைபவெனின். Both make wealth real only in relieving distress.",
+   "text_issue": null
+  },
+  {
+   "a": 155,
+   "b": "kural:153",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "153's வன்மையுள் வன்மை மடவார்ப் பொறை is enacted in 155: the good (நல்லார்) listen to a கல்லா ஒருவன், வருந்தியும், to spare him shame. 155 grounds it in kindly regard (கண்ணோடி), but the forbearance toward the ignorant is the same.",
+   "text_issue": "Kural 153 reads இன்நம்யுள் for இன்மையுள் (typo)."
+  },
+  {
+   "a": 195,
+   "b": "kural:951",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "951 says செப்பமும் நாணும் exist இயல்பாக only in இற்பிறந்தார். 195 says நல்ல குலம் / தீய குலம் are சொல்லளவு with no substance, and that குலம் is made by தவம் கல்வி ஆள்வினை. The two answer oppositely on whether birth carries moral qualities, and the note names the reconciling reading.",
+   "text_issue": null
+  },
+  {
+   "a": 338,
+   "b": 327,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both list what the fool's life lacks: 327 has இன்புறார், நன்றாற்றார், நன்னெறியும் சேர்கலார், and 338 has அறஞ்செய்யார், ஈகலார், தோள் சேரார், இசைபட வாழார். The note's account of what 338 adds is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 344,
+   "b": "kural:104",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "344's தினையனைத்தே ... பனையனைத்தா உள்ளுவர் சான்றோர் restates 104's தினைத்துணை நன்றி ... பனைத்துணையாக் கொள்வர். Mudaliar cites the Kural there, and 344 adds the ungrateful counter-case.",
+   "text_issue": null
+  },
+  {
+   "a": 29,
+   "b": "kural:336",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "336's நெருநல் உளனொருவன் இன்றில்லை is compressed in 29 to நின்றான் இருந்தான் கிடந்தான் ... சென்றான், which yields இன்னினியே செய்க அறவினை. It is the same claim about how sudden death is.",
+   "text_issue": null
+  },
+  {
+   "a": 80,
+   "b": "kural:205",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "205's இலன் என்று தீயவை செய்யற்க and 80's தான்கெடினும் தக்கார்கேடெண்ணற்க both forbid letting one's own ruin or poverty excuse doing harm.",
+   "text_issue": null
+  },
+  {
+   "a": 27,
+   "b": "kural:349",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "27's wise see the body as a rain bubble and resolve தடுமாற்றம் தீர்ப்பேம், which Mudaliar glosses as பிறவித் தடுமாற்றம். 349 says births are cut when attachment ends, and otherwise நிலையாமை is what is seen. Both join seeing impermanence to ending the round of births.",
+   "text_issue": null
+  },
+  {
+   "a": 72,
+   "b": "kural:155",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "155's ஒறுத்தாரை ஒன்றாக வையாரே ... பொறுத்தாரைப் பொன்போற் பொதிந்து and 72's ஞாலம் treating non-forbearance as சமழ்மை not புகழ்மை both make others' regard the measure of forbearance.",
+   "text_issue": null
+  },
+  {
+   "a": 270,
+   "b": "kural:140",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The structures match: 270's ஓதியும் ஓதார் உணர்விலார் and 140's பலகற்றும் கல்லார் அறிவிலாதார். Both say study without understanding or right conduct is not learning, and the note's gloss of the Kural's criterion as conduct in accord with the world is fair.",
+   "text_issue": null
+  },
+  {
+   "a": 310,
+   "b": "kural:803",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The vocabulary is shared: பழமை/பழகிய நட்பு and கிழமை/கெழுதகைமை. Both say old intimacy must honour the friend's claim. On Shanmuganar's reading, 310's பொத்தித்தம் நெஞ்சத் தறாஅச் சுடுவதோர் தீ is the cost of refusing it, as the note specifies.",
+   "text_issue": null
+  },
+  {
+   "a": 205,
+   "b": "kural:790",
+   "type": "agrees",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "The shared words இன்னர்/இனையர் carry different claims. 790 says friendship cheapens when friends advertise their mutual closeness (புனையினும் புல்லென்னும்). 205 says the great do not sort people into எமர்/பிறர் and help anyone in distress. They do not make the same claim, and 'both distrust speech that labels a relation' stretches the word overlap.",
+   "text_issue": null
+  },
+  {
+   "a": 222,
+   "b": "kural:151",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both teach forbearance through an image from cultivated land: 151's அகழ்வாரைத் தாங்கும் நிலம், and 222's farmers who மறுத்தும் சிறைசெய்வர் when the stream breaks the dam. 222 limits it to தாம்வேண்டிக் கொண்டார் தொடர்பு, chosen friends, but the claim agrees.",
+   "text_issue": null
+  },
+  {
+   "a": 243,
+   "b": 195,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "195 calls good and bad caste சொல்லளவு and makes worth come from தவம் கல்வி ஆள்வினை. 243 says the same about region: தென்னாட்டவரும் சுவர்க்கம் புகுதலால் தன்னாற்றா னாகும் மறுமை. It is the same claim in a new domain.",
+   "text_issue": null
+  },
+  {
+   "a": 257,
+   "b": "kural:720",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both picture good speech to the unfit as a sweet substance wasted in a filthy place: 720's அங்கணத்துள் உக்க அமிழ்து, and 257's பன்றிக்கூழ்ப் பத்தரில் தேமா வடித்தற்று. The image is distinctive and shared.",
+   "text_issue": null
+  },
+  {
+   "a": 23,
+   "b": 6,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use the funeral drum: 6's தண்ணம் may sound tomorrow, and 23's மணப்பறை turns into பிணப்பறை in the same hall that day; the shared drum carries the same lesson of sudden death.",
+   "text_issue": null
+  },
+  {
+   "a": 142,
+   "b": "kural:952",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both list three marks of the well-born (சான்றாண்மை சாயல் ஒழுக்கம் / ஒழுக்கமும் வாய்மையும் நாணும் இம்மூன்றும்), and 142 adds that great wealth (பெருஞ்செல்வம் எய்தியக் கண்ணும்) does not give them to others; the note is accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 343,
+   "b": "kural:973",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "343's worthy keep one course (பெற்றி பிழையாது ஒருநடையர்) even with பெருநடை, and on Pope/Shanmuganar the base keep their low course; 973 says மேலிருந்தும் மேலல்லார் மேலல்லர். Same claim about station not changing nature.",
+   "text_issue": null
+  },
+  {
+   "a": 215,
+   "b": "kural:425",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "425's மலர்தலும் கூம்பலும் இல்லது is glossed by Parimelazhagar with exactly 215's contrast of கயப்பூ and கோட்டுப்பூ; the opening/closing flower as inconstant friendship is a real shared figure.",
+   "text_issue": null
+  },
+  {
+   "a": 5,
+   "b": "kural:36",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "5's பின்னாவது என்று பிடித்திரா and 36's அன்றறிவாம் என்னாது both reject deferring virtue, and both tie it to death (கூற்றம் ... சுரம் / பொன்றுங்கால் பொன்றாத் துணை).",
+   "text_issue": null
+  },
+  {
+   "a": 329,
+   "b": "kural:333",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "333 says act at once on wealth because it does not stay (அற்குப ஆங்கே செயல்); 329 shows the small-minded thinking of மறுமை only in poverty or illness and not when able (ஆற்றிய காலத்து). The negative example confirms the precept.",
+   "text_issue": null
+  },
+  {
+   "a": 235,
+   "b": "kural:818",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both target failing to do what can be done (ஒல்லும் கருமம் உடற்று- / செய்வதனைச் செய்யாது தாழ்த்து) in the setting of false friendship; 818 says drop such friends, 235 that the conduct brings suffering. Close enough to count as agreement.",
+   "text_issue": null
+  },
+  {
+   "a": 272,
+   "b": "kural:36",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "272's பின்னறிதும் என்பார் are exactly the people 36's அன்றறிவாம் என்னாது warns against; both condemn putting off giving or virtue.",
+   "text_issue": null
+  },
+  {
+   "a": 154,
+   "b": "kural:785",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "785 says புணர்ச்சி பழகுதல் வேண்டா, feeling alone gives friendship; 154's worthy treat one meeting on the road (ஒருநாள் காணினும்) as தொல்வழிக் கேண்மை. Same claim.",
+   "text_issue": "The Parimelazhagar text shown under 785 (நட்டல் நகுதற்பொருட்டன்று) is the commentary on 784, not 785."
+  },
+  {
+   "a": 343,
+   "b": "kural:977",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Mudaliar does read வற்றாம் ஒருநடை as the base becoming able in a course different from before, which matches 977's இறப்பே புரிந்த; but Pope and Shanmuganar read the base as unchanged, so the link rests on one commentator's gloss of an obscure phrase.",
+   "text_issue": null
+  },
+  {
+   "a": 221,
+   "b": 75,
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "75 lets one bear a friend's conduct ஆற்றும் துணையும் and then withdraw (தூற்றாதே தூர விடல்); 221 says only அடக்கிக் கொளல்வேண்டும். 75 adds a limit to 221's counsel, as the note says.",
+   "text_issue": null
+  },
+  {
+   "a": 355,
+   "b": "kural:1077",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both say the base give only under force: 1077's ஈர்ங்கை விதிரார் except to கொடிறுடைக்கும் கூன்கையர், and 355's chisel (உளிநீரார்) that does not cut unless struck, doing all for இன்னாங்கு செய்வார்.",
+   "text_issue": null
+  },
+  {
+   "a": 241,
+   "b": "kural:879",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "879 says to cut the thorn tree இளைதாக; 241 says the worthy do not advance on a humbled foe, as the snake spares the moon when இளம்பிறை. If 879's tree is an enemy, as the chapter and Parimelazhagar have it, the advice about striking the young or weak foe conflicts; the note names this reading.",
+   "text_issue": null
+  },
+  {
+   "a": 372,
+   "b": 376,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both are the dupe recalling a vow of inseparability (செங்கோடு பாய்துமே / பிரியலம் என்றுரைத்த) that the woman broke; 372 ties it to having no காணம், and 376's money motive is implied by the chapter rather than stated.",
+   "text_issue": null
+  },
+  {
+   "a": 52,
+   "b": "kural:397",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "52 mocks those who endlessly prattle (பிதற்றும்) of சத்தம் and astrology instead of doing their real work, not lifelong study as such; the limit it puts on 397's praise of learning is real but thinner than the note's 'lifelong study ... madness' suggests.",
+   "text_issue": null
+  },
+  {
+   "a": 288,
+   "b": "kural:229",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "229 ranks begging above eating alone (இரத்தலின் இன்னாது ... தமியர் உணல்); 288 ranks begging far away (கைந்நீட்டும் கெட்டாற்று வாழ்க்கையே நன்று) above staying home unable to give. Both put a non-giving life below begging; the note marks the different cases.",
+   "text_issue": null
+  },
+  {
+   "a": 253,
+   "b": "kural:405",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "405's unlearned man's standing wilts when he speaks in company (சொல்லாடச் சோர்வு படும்); 253's man who scorned learning is exposed when a written leaf is held out before many (பல்லார்முன்). Same exposure of the unlearned in public.",
+   "text_issue": null
+  },
+  {
+   "a": 108,
+   "b": "kural:834",
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "108's people who are அறியாரும் அல்லர் yet do பழியோடு பட்டவை, traced to செய்த வினை, are 834's learned man who does not restrain himself; 108 adds a cause while still calling the acts blameworthy.",
+   "text_issue": null
+  },
+  {
+   "a": 148,
+   "b": "kural:218",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The verses share ஒப்புரவிற்கு ஒல்கார் almost verbatim, both in poverty (செல்லாமை ... நிற்பினும் / இடனில் பருவத்தும்); 148 adds the eclipsed moon.",
+   "text_issue": null
+  },
+  {
+   "a": 117,
+   "b": "kural:151",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "117's தம்மை இகழ்வாரைத் ... இகழ்க flatly opposes 151's தம்மை இகழ்வார்ப் பொறுத்தல் தலை on the same situation, the same word இகழ்; the note correctly says it depends on taking 117 as advice.",
+   "text_issue": null
+  },
+  {
+   "a": 238,
+   "b": "kural:787",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "238's offering one's own life (என் ஆருயிரை ... கைநீட்டேனேல்) under self-curse goes beyond 787's sharing the suffering (அல்லல் உழப்பது); the note itself says it 'raises the stake', which is development, not the same claim.",
+   "text_issue": null
+  },
+  {
+   "a": 51,
+   "b": 93,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "51's நல்வினை தீர்விடத்து evil returns and 93's wealth leaves when வினையுலந்தக்கால்: 93 applies 51's principle, that good fortune lasts only as long as the merit behind it, to wealth.",
+   "text_issue": null
+  },
+  {
+   "a": 11,
+   "b": "kural:46",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "11's wise renounce in childhood (குழவி யிடத்தே துறந்தார்) while 46 asks what one gains by going புறத்தாறு if household life is lived by virtue; on the ascetic reading of புறத்தாறு, which the note names, the claims conflict.",
+   "text_issue": null
+  },
+  {
+   "a": 201,
+   "b": "kural:521",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "521 says only kin keep பழைமை when a man has lost all; 201 shows what seeing உசாஅத்தன் கேளிர் does to the sufferer, like a mother forgetting birth pains. A real development.",
+   "text_issue": null
+  },
+  {
+   "a": 273,
+   "b": "kural:1001",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both describe the hoarder who neither enjoys nor uses his store and dies (வைத்துக் கழியும் / வைத்தான் ... அஃதுண்ணான் செத்தான்); 1001 says nothing was achieved, 273 that his wealth laughs at him.",
+   "text_issue": null
+  },
+  {
+   "a": 367,
+   "b": "kural:959",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "959's கால் (sprout) shows the soil as speech shows lineage, and 367's முளை of red paddy grows true as a son's mind follows his father's; the sprout as evidence of origin is a meaningful shared figure, and the note marks the different logic.",
+   "text_issue": null
+  },
+  {
+   "a": 74,
+   "b": "kural:428",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "74's அஞ்சுவ தஞ்சி repeats 428's அஞ்சுவது அஞ்சல் அறிவார் தொழில; 74 makes it one of the marks of those who live free of suffering.",
+   "text_issue": null
+  },
+  {
+   "a": 212,
+   "b": 245,
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "212 says a mind cannot be known (மனமறியப் பட்டதொன் றன்று), so trust family (இற்பிறப்பு); 245 says people are as their minds, not their இனம். The note fairly says the conflict depends on இனம் including family.",
+   "text_issue": null
+  },
+  {
+   "a": 320,
+   "b": "kural:409",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "320 asks whether those without இற்பிறப்பு, however much they learn (எனைத்துநூல் கற்பினும்), can guard others' speech; 409 says the learned born low have worth the unlearned born high lack. The note names the reading the conflict over birth and learning depends on.",
+   "text_issue": null
+  },
+  {
+   "a": 111,
+   "b": "kural:223",
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "On Pope's reading of 223, never saying இலன் and giving marks the well-born; 111 says saying இல் about what one cannot give is வசையன்று, and that the fault lies in false promising. A real limit, though Parimelazhagar reads 223's இலன் as the beggar's own plea.",
+   "text_issue": null
+  },
+  {
+   "a": 141,
+   "b": "kural:969",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "141's lion that will not eat grass even in இடுக்கண் and 969's கவரிமா that won't live without its hair both stand for the noble who will not drop their principles or honour in extremity.",
+   "text_issue": null
+  },
+  {
+   "a": 239,
+   "b": "kural:797",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "797 calls leaving fools' friendship ஊதியம்; 239 calls leaving the discerning (நயமுணர்வார் நண்பு) for the புல்லறிவினார் like swapping ghee for neem oil. The reverse exchange confirms the same claim.",
+   "text_issue": null
+  },
+  {
+   "a": 195,
+   "b": 179,
+   "type": "tension",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "179's chapter is நல்லினம் சேர்தல் and its second half speaks of தீயினம், so Mudaliar's reading of குலம் as one's company fits the verse best; the tension depends on Shanmuganar's birth-family reading, which the note names, so it holds only on the weaker reading.",
+   "text_issue": null
+  },
+  {
+   "a": 158,
+   "b": "kural:181",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "158's three restraints include புறங்கூற்றின் மூகை and end அறங்கூற வேண்டா, echoing 181's அறங்கூறான் ... புறங்கூறான் என்றல் இனிது; both give the abstention from backbiting near-sufficient weight.",
+   "text_issue": null
+  },
+  {
+   "a": 61,
+   "b": "kural:151",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The claim of bearing slights without anger is shared, but the note misplaces the figure: 151's earth is the one who bears, while 61's fly (ஈயும் தலைமேல்) is the trivial offender one does not get angry at, not a model of bearing.",
+   "text_issue": null
+  },
+  {
+   "a": 79,
+   "b": "kural:656",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "656 forbids சான்றோர் பழிக்கும் வினை even to feed one's starving mother; 79 puts பழியாகா ஆறே தலை even above pleasure that would never end. Both set blamelessness above the strongest pull.",
+   "text_issue": null
+  },
+  {
+   "a": 48,
+   "b": "kural:913",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "48 extends the corpse (முடைச்சாகாடு torn by vultures) to every adorned body, and 913 has the prostitute's embrace as a corpse in the dark; as the note says, this widens the image rather than limiting or conditioning it.",
+   "text_issue": null
+  },
+  {
+   "a": 155,
+   "b": "kural:403",
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "403 says the unlearned are good if they stay silent (சொல்லாதிருக்கப் பெறின்); 155 takes the case where one speaks, and the good listen கண்ணோடி to spare him shame. 155 adds a condition on the learned.",
+   "text_issue": null
+  },
+  {
+   "a": 183,
+   "b": "kural:335",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "335 says to do good before the hiccup stops the tongue; 183 says to sow seed for மறுமை now because the body changes colour without cause (காரணம் இன்றி). Both urge good deeds now because the body may fail without warning.",
+   "text_issue": null
+  },
+  {
+   "a": 353,
+   "b": "kural:184",
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "184 allows கண்ணின்று கண்ணறச் சொல்லினும் but forbids backbiting; 353 condemns those who proclaim a man's faults உழைநின்று, standing by him, so face-to-face fault-finding is not let off.",
+   "text_issue": "353 line 2 reads கா஢தால் for அரிதால் (an encoding corruption)."
+  },
+  {
+   "a": 165,
+   "b": "kural:978",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "978's சிறுமை அணியுமாம் தன்னை வியந்து is given voice in 165's எம்போல்வார் இல் which 165 denies the name கோள். Same claim.",
+   "text_issue": null
+  },
+  {
+   "a": 90,
+   "b": "kural:1159",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both set desire against fire: 1159 says fire burns only தொடின் while love burns விடின், 90 that fire is escaped in water but காமம் சுடும் even under water. A distinctive shared figure in two contexts, adultery and separation.",
+   "text_issue": null
+  },
+  {
+   "a": 389,
+   "b": 387,
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "Both wives see the courtesans' traces on his chest (நீராடாது ... வரைமார்பன் / முலைபொருத தண்சாந் தணியகலம்), but they are sister quatrains in one chapter making one complaint; what links them is the shared image, not a claim that pairing illuminates.",
+   "text_issue": null
+  },
+  {
+   "a": 388,
+   "b": 390,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use the same formula, அனையம் ... ஊரற்கு அதனால் ... அனையார்க்கு உரை, with a பாண addressee and a neglected side of an object (துடியின் இடக்கண் / கரும்பின் கடைக்கண்); the shared figure is distinctive.",
+   "text_issue": null
+  },
+  {
+   "a": 260,
+   "b": 255,
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use புன்கோட்டி: 255 has the low talking in such assemblies, 260 shows how one is formed when the base man kicks away the learned's teaching (நெஞ்சு உதைத்தலால்) and finds his like.",
+   "text_issue": null
+  },
+  {
+   "a": 161,
+   "b": "kural:700",
+   "type": "parallel_domain",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "161's பொறுப்பர் என்று எண்ணி with the faultless great and 700's பழையம் எனக்கருதி with the king share the same logic of presuming on indulgence and coming to ruin, in different domains.",
+   "text_issue": null
+  },
+  {
+   "a": 166,
+   "b": "kural:782",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The same claim with different measures: 782's waxing and waning moon (பிறைமதி) and 166's morning shadow shrinking (நாணிழல் ... விளியும்) and evening shadow lengthening.",
+   "text_issue": null
+  },
+  {
+   "a": 136,
+   "b": "kural:423",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "423 says see the truth whoever speaks (யார்யார்வாய்க் கேட்பினும்); 136 says take good teaching from the learned whatever their caste, as one uses a low-born ferryman. Same claim.",
+   "text_issue": null
+  },
+  {
+   "a": 231,
+   "b": 284,
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "284's crowds who gather like crows while wealth lasts and 231's friends who stay till தங்கரும் முற்றும் show the same self-interested attachment.",
+   "text_issue": null
+  },
+  {
+   "a": 168,
+   "b": 174,
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "168 concludes கலவாமை கோடி உறும் because of the pain of parting, while 174 says no one would resent birth if they could keep நண்பு with the good; the remedies are opposed.",
+   "text_issue": null
+  },
+  {
+   "a": 139,
+   "b": "kural:452",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "452's நிலத்தியல்பால் நீர்திரிந் தற்றாகும் and 139's new pot giving water the pathiri flower's scent both make understanding take on the nature of one's company.",
+   "text_issue": null
+  },
+  {
+   "a": 199,
+   "b": "kural:601",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "601 says the lamp of குடி dies when மடி covers it; 199 says birth in உயர்குடி is worth nothing without பேராண்மை. Both say lineage fails without personal energy.",
+   "text_issue": "199 line 1 reads உளையலா஢ for உளையலரி (an encoding corruption)."
+  },
+  {
+   "a": 241,
+   "b": 148,
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use the eclipse snake and the moon (ஒருபுடை பாம்பு கொளினும் / இளம்பிறை ... சேராது ... அரா), each for a different virtue of the noble; a distinctive shared figure.",
+   "text_issue": null
+  },
+  {
+   "a": 251,
+   "b": "kural:841",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "251's நுண்ணுணர்வின்மை வறுமை is 841's அறிவின்மை இன்மையுள் இன்மை; the note's additions for each verse are accurate.",
+   "text_issue": null
+  },
+  {
+   "a": 117,
+   "b": 72,
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "72 says bearing the improper words of நேரல்லார் is fitting and the world counts retaliation as சமழ்மை; 117 says இகழ்வாரை முன்னிகழ்க. Opposed counsel for the same situation; the note names the condition.",
+   "text_issue": null
+  },
+  {
+   "a": 369,
+   "b": "kural:788",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "788 says friendship clears distress at once (ஆங்கே இடுக்கண் களைவது); 369 says one whose heart doesn't ease a friend's நோய் would do better to leap from a cliff.",
+   "text_issue": null
+  },
+  {
+   "a": 264,
+   "b": "kural:374",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "374's திருவேறு தெள்ளியராதலும் வேறு and 264's புண்ணியமோ வேறே, with the senseless clad in silk while the wise are there, make the same split between wealth and wisdom.",
+   "text_issue": null
+  }
+ ],
+ "calibration": [
+  {
+   "a": "kural:485",
+   "b": "kural:471",
+   "type": "qualifies",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "471 ends in தூக்கிச் செயல் (weigh, then act); 485's காலம் கருதி இருப்பர் adds timing, and Parimelazhagar says explicitly தம் வலி மிகுமாயினும் அது கருதாது, so a favourable weighing is not enough on its own. The note credits the commentator correctly.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:534",
+   "b": "kural:421",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "Both make அரண் a matter of the mind: 421's உள்ளழிக்கலாகா அரண் and 534's அச்சமுடையார்க்கு அரணில்லை. But 534's fortress is only the simile for its real point, heedlessness (பொச்சாப்பு). The note's 'fortress is finally a state of mind' overstates it.",
+   "text_issue": null,
+   "known": "weak"
+  },
+  {
+   "a": "kural:455",
+   "b": "kural:34",
+   "type": "tension",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "34 defines virtue as மனத்துக்கண் மாசிலன் ஆதல, and 455 says how mental purity comes about (இனந்தூய்மை தூவா வரும்). A definition and a cause are compatible, and the note itself describes a deepening rather than an incompatible claim.",
+   "text_issue": null,
+   "known": "weak"
+  },
+  {
+   "a": "kural:333",
+   "b": "kural:753",
+   "type": "tension",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "753's பொய்யா விளக்கம் means a lamp that never fails to serve. Parimelazhagar says it is so because wealth is always indispensable (எஞ்ஞான்றும் இன்றியமையாததாய்), not because it stays. It does not contradict 333's அற்கா இயல்பிற்று. The tension stretches பொய்யா into 'permanent'.",
+   "text_issue": null,
+   "known": "forced"
+  },
+  {
+   "a": "kural:9",
+   "b": "kural:80",
+   "type": "parallel_domain",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Manakkudavar on 9 does say உயிருண்டாகில் வணங்கும், so the unbowed head belongs to a body without life, matching 80's என்புதோல் போர்த்த உடம்பு for those without love. The same 'body without the vital quality' logic applies to worship and to love. 'Compete' is a little strong, since both can hold.",
+   "text_issue": null,
+   "known": "weak"
+  },
+  {
+   "a": "kural:1059",
+   "b": "kural:232",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "232 places புகழ் on those who give to இரப்பார்; 1059 adds that without askers givers would have no தோற்றம். That is an extension, as the note itself describes it, not the same claim.",
+   "text_issue": null,
+   "known": "weak"
+  },
+  {
+   "a": "kural:805",
+   "b": "kural:797",
+   "type": "tension",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "The link rests on the shared word பேதைமை, but 805's பேதைமை is an occasional lapse in a proven friend (Parimelazhagar: fate-driven folly everyone has), while 797's பேதையார் are fools by nature whom one should not keep. These are different situations, not incompatible claims.",
+   "text_issue": null,
+   "known": "forced"
+  },
+  {
+   "a": "kural:698",
+   "b": "kural:388",
+   "type": "qualifies",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "Parimelazhagar glosses 698's ஒளி as the king's divinity of guarding the world while others sleep, which is 388's own ground (காப்பாற்றும்). 698 is about not slighting a king for youth or kinship and says nothing about divinity being unearned, so the conflict is read into the commentary.",
+   "text_issue": null,
+   "known": "forced"
+  },
+  {
+   "a": "kural:807",
+   "b": "kural:800",
+   "type": "tension",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "800 (நட்பாராய்தல்) is about dropping unsuitable friends taken on unknowingly (Parimelazhagar); 807 (பழைமை) is about long-standing loving friendship. This is different advice for different situations, and the note concedes it only raises an unsettled boundary rather than a contradiction.",
+   "text_issue": null,
+   "known": "weak"
+  },
+  {
+   "a": "kural:495",
+   "b": "kural:481",
+   "type": "parallel_domain",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Adjacent chapters காலமறிதல் and இடனறிதல் use the same logic: the crow beats the owl by பகல், and the crocodile wins in நெடும்புனல் but loses out of it. Strength depends on circumstance, along time and along place.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:679",
+   "b": "kural:874",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "874 praises the one who turns enmity into friendship (பகைநட்பாக் கொண்டொழுகும்), and 679 makes winning over the unallied (ஒட்டாரை ஒட்டிக் கொளல்) more urgent than favours to friends. 679 applies 874's quality to a question of timing. Parimelazhagar reads ஒட்டார் as those who are not with one's enemy, which slightly narrows the link.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:108",
+   "b": "kural:152",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Parimelazhagar does limit 108 to harm done by the same person who had done good (இரண்டும் ஒருவனாற் செய்யப்பட்ட வழி). 152 states it generally: forgetting an excess (இறப்பு) is better than bearing it (மறத்தல் அதனினும் நன்று). The note is accurate.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:835",
+   "b": "kural:398",
+   "type": "parallel_domain",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "An exact structural inversion. ஒருமைக்கண் தான் கற்ற கல்வி ... எழுமையும் ஏமாப்புடைத்து (398) set against ஒருமைச் செயலாற்றும் பேதை எழுமையும் ... அழுந்தும் அளறு (835): one life's doing reaches all seven births, for good in 398 and for ill in 835.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:34",
+   "b": "kural:280",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "280 applies 34 to ascetic dress: மழித்தலும் நீட்டலும் வேண்டா is an instance of 34's பிற ஆகுலநீர, so the develops link is real. But the note goes on to say that 280's உலகம் பழித்தது ஒழித்து makes the inward standard of 34 not all that matters. That is a stretch, since Parimelazhagar's உலகம் is the wise judging conduct, not a rival outward test.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:657",
+   "b": "kural:1041",
+   "type": "tension",
+   "grade": "weak",
+   "better_type": "qualifies",
+   "reason": "657 prefers கழிநல்குரவு to wealth gained under blame, and 1041 says nothing pains like இன்மை. These are compatible: one ranks poverty above something worse, and the other measures its pain. The note itself argues they fit together. The real relation is that 657 limits 1041's 'nothing is worse', which is not a tension.",
+   "text_issue": null,
+   "known": "weak"
+  },
+  {
+   "a": "kural:1064",
+   "b": "kural:971",
+   "type": "agrees",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "971's ஒளி is உள்ள வெறுக்கை, an abundance of spirit or aspiration (Parimelazhagar: ஊக்கமிகுதி). 1064 praises இரவொல்லாச் சால்பு, refusing to beg in destitution. Calling the refusal the extreme form of aspiration joins two different virtues by stretching உள்ளம்.",
+   "text_issue": null,
+   "known": "weak"
+  },
+  {
+   "a": "kural:1091",
+   "b": "kural:1102",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use the paradox of the beloved as both disease and its cure: one look is நோய் and the other மருந்து (1091), and தன்நோய்க்குத் தானே மருந்து (1102). The movement from glance to person is accurately described.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:951",
+   "b": "kural:972",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "951's இற்பிறந்தார் கண்அல்லது இல்லை இயல்பாக directly opposes 972's பிறப்பொக்கும் எல்லா உயிர்க்கும், and Kalaignar does invert 951 (those with integrity count as well-born). The note is accurate.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:1183",
+   "b": "kural:1133",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both trade நாண் plus another quality for a token of love-sickness: சாயலும் நாணும் for நோயும் பசலையும், and நாணொடு நல்லாண்மை for மடல். This before/after inventory is a meaningful shared figure, and the contrast between active and passive is fair.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:268",
+   "b": "kural:346",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Manakkudavar does gloss தான் அற as அகங்கார மறுதல் (the ego cut away), which matches 346's யான் எனது என்னும் செருக்கு அறுப்பான, and Kalaignar reads it the same way. The note correctly flags that Parimelazhagar's reading weakens the link.",
+   "text_issue": null,
+   "known": "weak"
+  },
+  {
+   "a": "kural:1277",
+   "b": "kural:1157",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Both use bangles to reveal the separation of the துறைவன், and the image is distinctive. In 1157 the slipping bangles proclaim it (தூற்றாகொல்), and in 1277 the bangles knew before she did (நம்மினும் முன்னம் உணர்ந்த). In Parimelazhagar's reading 1277 is a separation of mind while he is still present, not a departure.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:379",
+   "b": "kural:38",
+   "type": "develops",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "379 asks why those who welcome good fortune grieve at bad, when both come from fate. 38 says doing good daily blocks rebirth (வாழ்நாள் வழியடைக்கும் கல்). Their only common ground is Parimelazhagar's karma frame, and neither extends the other.",
+   "text_issue": null,
+   "known": "forced"
+  },
+  {
+   "a": "kural:300",
+   "b": "kural:323",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "300 says nothing at all is better than வாய்மை (இல்லை எனைத்தொன்றும்), while 323 ranks கொல்லாமை first, with பொய்யாமை பின்சார. Parimelazhagar raises exactly this doubt and harmonizes the two, which confirms that the literal tension is real.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:691",
+   "b": "kural:563",
+   "type": "parallel_domain",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The two connect, since the king who acts வெருவந்த and the இகல்வேந்தர் the courtier must keep a distance from are the same situation seen from both sides. But that is not one pattern carried into a different domain, so the type misfits. The note's point about addressing each party separately is interpretive.",
+   "text_issue": null,
+   "known": "weak"
+  },
+  {
+   "a": "kural:1279",
+   "b": "kural:1120",
+   "type": "tension",
+   "grade": "forced",
+   "better_type": null,
+   "reason": "The link rests wholly on Parimelazhagar's elopement settings. They are separate chapters and separate scenes: in 1120 the man praises tender feet (நெருஞ்சிப் பழம்), and in 1279 she glances at her feet (அடிநோக்கி). These are not incompatible claims, and 'the compliment had been an excuse' is the marker's invention.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:1323",
+   "b": "kural:1103",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1103 sets sleeping on the beloved's arms against தாமரைக் கண்ணான் உலகு; 1323 sets புலத்தல் against புத்தேள்நாடு, carrying the heaven comparison over to the lovers' quarrel.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:366",
+   "b": "kural:201",
+   "type": "agrees",
+   "grade": "weak",
+   "better_type": "develops",
+   "reason": "201's விழுமியார் அஞ்சுவர் தீவினை and 366's அஞ்சுவது ... அவா are not the same claim; as the note itself says, 366 moves the fear to craving, the source, which is development.",
+   "text_issue": null,
+   "known": "weak"
+  },
+  {
+   "a": "kural:430",
+   "b": "kural:374",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Parimelazhagar glosses 430's எல்லாம் உடையார் by saying wealth is created and kept by அறிவு, and in his gloss on 374 (திரு வேறு தெள்ளியராதலும் வேறு) he raises and answers exactly this objection, so the tension is real on his readings.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:537",
+   "b": "kural:483",
+   "type": "develops",
+   "grade": "weak",
+   "better_type": "same_image",
+   "reason": "537 and 483 share the 'nothing is hard' formula (அரிய ... இல்லை / அருவினை ... உளவோ) with different conditions, but neither extends the other. The note's claim that the repetition shows no single condition suffices is speculation.",
+   "text_issue": null,
+   "known": "weak"
+  },
+  {
+   "a": "kural:304",
+   "b": "kural:786",
+   "type": "same_image",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "Parimelazhagar does read 304's நகை/உவகை as face and heart, parallel to 786's முகநக/அகநக, so a shared distinction exists; but the note's conclusion ('so a smile alone isn't what is at stake') is muddled and the pairing teaches little.",
+   "text_issue": null,
+   "known": "weak"
+  },
+  {
+   "a": "kural:112",
+   "b": "kural:178",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "112's ஆக்கம் சிதைவின்றி for the fair man and 178's அஃகாமை செல்வத்திற்கு ... வெஃகாமை both make wealth last on a moral condition. Kural 171 does tie coveting to a lapse from fairness (நடுவின்றி ... வெஃகின்).",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:222",
+   "b": "kural:1051",
+   "type": "tension",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "222 says கொளல் தீது, taking is bad even if called a good path; 1051 says இரக்க, beg from those fit to be asked, and puts the blame on the refuser. On a plain reading the two judge the same act oppositely. The note admits the standpoints differ, and that is the reading the conflict depends on.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:182",
+   "b": "kural:824",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "182's புறனழீஇப் பொய்த்து நகை and 824's முகத்தின் இனிய நகாஅ அகத்தின்னா வஞ்சர் both pick out the false smile over hostility. The note accurately describes the shift from a moral verdict to a practical warning.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:283",
+   "b": "kural:479",
+   "type": "same_image",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "The construction is the same: prosperity that seems to be and then perishes (ஆவது போலக் கெடும் / உளபோல இல்லாகித் தோன்றாக் கெடும்), with அளவு in both lines (அளவிறந்து / அளவறிந்து). The அளவு wordplay is a light touch, but the structural echo is real.",
+   "text_issue": "Kural 479 has a corrupt character in அளவற஧ந்து (for அளவறிந்து).",
+   "known": "sound"
+  },
+  {
+   "a": "kural:1270",
+   "b": "kural:1151",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "1151's வல்வரவு வாழ்வார்க்குரை warns that she may not live to see his quick return. On Parimelazhagar's reading of 1270 (உள்ளம் உடைந்துக்கக்கால் ... பெறின் என்னாம்), the hero himself fears exactly that on the way back. The note attributes the speakers to the commentators accurately.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:206",
+   "b": "kural:316",
+   "type": "qualifies",
+   "grade": "weak",
+   "better_type": "agrees",
+   "reason": "The note itself says both give the same rule (தீப்பால ... பிறர்கண் செய்யற்க / இன்னா ... பிறன்கண் செயல்) on different grounds; neither limits or conditions the other, so this is agreement, not qualification.",
+   "text_issue": "The Parimelazhagar text shown under 316 is the commentary on 317 (மனத்தான் ஆம் மாணா), not 316.",
+   "known": "sound"
+  },
+  {
+   "a": "kural:1171",
+   "b": "kural:1170",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Parimelazhagar's gloss on 1170 ends இதனான் வருகின்ற அதிகாரமும் தோற்றுவாய் செய்யப்பட்டது, so the eyes swimming in tears (நீந்தல ... என் கண்) lead directly into 1171's கண்தாம் கலுழ்வ தெவன்.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:270",
+   "b": "kural:377",
+   "type": "tension",
+   "grade": "weak",
+   "better_type": null,
+   "reason": "The moral-versus-fatal contrast is real, but 377 is about enjoying (துய்த்தல்) what was amassed, not about why people are poor, so it is not 'the same fact'; and Parimelazhagar treats tavam as feeding the same fate, which the note doesn't acknowledge.",
+   "text_issue": null,
+   "known": "forced"
+  },
+  {
+   "a": "kural:383",
+   "b": "kural:467",
+   "type": "develops",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "Parimelazhagar reads 383's துணிவு as ஒன்றனையும் பாராது கடிதில் செய்வது and Manakkudavar as ஆராய்ந்து துணிதல்; 467's எண்ணித் துணிக specifies resolve after deliberation, so it develops 383 and bears on the reading as the note says.",
+   "text_issue": null,
+   "known": "sound"
+  },
+  {
+   "a": "kural:298",
+   "b": "kural:278",
+   "type": "agrees",
+   "grade": "sound",
+   "better_type": null,
+   "reason": "298 says outer purity comes by water, inner by truth (புறள்தூய்மை நீரான் ... அகந்தூய்மை வாய்மையால்); 278 shows the many who bathe with மனத்தது மாசு. The case and the principle agree.",
+   "text_issue": null,
+   "known": "sound"
+  }
+ ]
+}
