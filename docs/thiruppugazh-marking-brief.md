@@ -11,7 +11,7 @@ name, the rest general songs (பொதுப்பாடல்கள்).
 - `kg/themes/SCHEMA.md`: the marking rules. Follow them exactly, with the changes below.
 - `kg/themes/tirumanthiram/ch004.json` and `kg/themes/naladiyar/ch038.json`: worked examples. (The
   Naladiyar chapter on courtesans is the closest earlier treatment of a frequent Thiruppugazh theme.)
-- `kg/themes/concepts.json`: the shared concept list (238 concepts). Reuse these ids. Add a concept
+- `kg/themes/concepts.json`: the shared concept list (240 concepts). Reuse these ids. Add a concept
   only when none fits, and name what the text names.
 
 ## Commands (from the repository root)
@@ -41,6 +41,28 @@ name, the rest general songs (பொதுப்பாடல்கள்).
   a concept in every song; mark what is distinctive.
 - The descriptions of lovemaking are frank. Read them as the poet does, as the confession the song
   turns away from, and summarise them plainly and briefly.
+
+## What the pilot (songs 1-35, chapters 1-5, already marked) found
+
+- Concepts for recurring themes: `kootru` for Death and his servants coming with noose and club on
+  the buffalo, or Yama's palm-leaf summons (சமனோலை), where the plea is for Murugan to come at that
+  hour; `thiruvadi` for the feet; `thondu` (new) for devotional service (தொண்டு, அடிமை, வழியடிமை),
+  never `adimai`, which means bondage; `mayal` (new) for the poet's infatuation (மயல்).
+- Courtesans: use `varaivinmagalir` only when money or deceit is named (wealth taken, "come to our
+  house", the man thrown out when his money ends); otherwise `kaamam`, or `punarchi` for the explicit
+  scenes. The poet's self-abuse (சிறியன், புலையன், நிர்மூடன்) is `kutram` or `pedhaimai`.
+- One myth earns concepts: Murugan teaching Siva the meaning of Om and binding Brahma for not
+  knowing it (`guru`, `piranavam`; `gnaanam` if Om is not explicit). Valli and the millet field,
+  Vishnu or Rama as uncle, the vel against Sura and Krauncha, and battle scenes are stock praise:
+  leave them out of concepts unless a song is about them.
+- Battle scenes are sung in drum syllables (தெனன, டுடுடு, குகுகு). They are rhythm, not words.
+- Watch for Murugan identified with Tamil saints (the Tamil mouth that impaled the Jains, i.e.
+  Sambandar; the teacher of Tamil to Agastya).
+- Some songs are akam love poems in another voice (a mother's lament for her lovesick daughter, a
+  courtesan's own speech), not the poet's confession. Say whose voice it is.
+- Expect corrupt glyphs that `CORRUPT_CHARS` does not flag; the bad glyph ஡ often stands for ஊ, and
+  ஡ண for ரீ. Record them in `source_issues`.
+- Read the pilot's files (`kg/themes/thiruppugazh/ch004.json`, `ch005.json`) for depth and style.
 
 ## Changes from the Kural schema
 
