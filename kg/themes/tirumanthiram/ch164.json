@@ -35,9 +35,7 @@
     "2190": {
       "reading": "From the first, the Lord set the tattvas in place: supreme Siva, Shakti, Sadasiva, flawless Isa, pure vidya, then bodha, kala, time, niyati and mahamaya, down to the last.",
       "concepts": [
-        "thaththuvam",
-        "sivam",
-        "saththi"
+        "thaththuvam"
       ],
       "uncertain": true,
       "nuance": "The list runs from the five pure tattvas (Siva, Shakti, Sadasiva, Isvara, Suddhavidya) to the impure ones begun by maya. போதம் and நீதி are not standard names in this list; நீதி ஈறாக may mean 'down to the end, in order'. என்னே may be wonder or 'what is this'."
@@ -45,9 +43,7 @@
     "2191": {
       "reading": "Siva shining in radiance, Shakti, Sadasiva, Isa, the fiery vidya, raga, kala, time, stainless vidya, niyati, mahamaya, and the flawless purusha and the rest, with the soul at the end, make thirty-six.",
       "concepts": [
-        "thaththuvam",
-        "sivam",
-        "pasu"
+        "thaththuvam"
       ],
       "uncertain": true,
       "nuance": "ஆறாறு (six sixes) is the standard count of thirty-six tattvas. The order differs from 2190 and from the usual Siddhanta order, and அனல்வித்தை and மாசகல் வித்தை look like two vidyas, pure and impure; ஆன்மா ஈறு may be the soul at the end of the list or the atma tattvas."
@@ -154,8 +150,7 @@
     "2202": {
       "reading": "Waking in waking is the ordinary run of things, like flowing water; dream in waking is remembering and forgetting; deep sleep in waking is not searching within; turiya in waking is Nandi in the beyond.",
       "concepts": [
-        "avaththai",
-        "sivam"
+        "avaththai"
       ],
       "uncertain": true,
       "nuance": "From here to 2206 each state is divided into the states within it. புனலில் வழக்கம் may mean the habitual flow of life or of the waters of the body; the reading is uncertain."
@@ -173,6 +168,7 @@
       "reading": "Waking in deep sleep is the appearing that nothing appears; dream in deep sleep is its truth in deep sleep; deep sleep in deep sleep is knowledge destroyed by knowledge; turiya in deep sleep is a void beyond words.",
       "concepts": [
         "avaththai",
+        "paazh",
         "arivu"
       ],
       "uncertain": true,
@@ -436,6 +432,111 @@
       "b": 2209,
       "type": "develops",
       "note": "2209 says that after knowing the knowledge that knows, one becomes that knower; 2224 turns this into a riddle: who can know the knower who knows without knowing?"
+    },
+    {
+      "a": 2187,
+      "b": 1924,
+      "type": "agrees",
+      "note": "2187 says the twenty-five are the power of bindu (ஐஐந்தும் விந்துவின் சத்தி). 1924 counts the thirty-six the same way, the distinctions of bindu making twenty-five (விந்துபேதத்திறன் ஐ ஐந்தும்) and nada six. 1924 supplies the scheme behind 2187's compressed opening line.",
+      "pass": "refine"
+    },
+    {
+      "a": 2188,
+      "b": "thiruppugazh:110",
+      "type": "same_image",
+      "note": "2188 lays the states within waking on a child's growth: born and lying (பிறந்தார் கிடந்தார்), crawling (தவழ்ந்தார்), walking and growing (நடந்தார் வளர்ந்தார்). Thiruppugazh 110 runs the same stages (பிறந்து, தவழ்ந்து, நடந்து) as a life spent without praising the devotees' feet. The same sequence is a lament of wasted years in the song and, in 2188, a map in which the highest state is the newborn lying still.",
+      "pass": "refine"
+    },
+    {
+      "a": 2190,
+      "b": 2191,
+      "type": "agrees",
+      "note": "2190 and 2191 are near-repeats: both list the tattvas from Siva, Shakti, Sadasiva and Isa down through vidya, kala, time, niyati and mahamaya. 2191 adds raga and purusha and closes the count as six sixes (ஆறாறே), while 2190 ends 'down to the last' (நீதிஈறாக); the differences in order show the list was not fixed in one form.",
+      "pass": "refine"
+    },
+    {
+      "a": 2192,
+      "b": "naladiyar:221",
+      "type": "same_image",
+      "note": "2192 makes the husk and bran on the grain (முளைக்குத் தவிடுஉமி) the malas round the soul, to be separated (பாசம் பிரித்தே). Naladiyar 221 uses the same husk (நெல்லுக்கு உமியுண்டு) for the faults a chosen friend is born with, which one should bear rather than cast off. The same image argues for removal in the one and for forbearance in the other.",
+      "pass": "refine"
+    },
+    {
+      "a": 2197,
+      "b": 2208,
+      "type": "agrees",
+      "note": "2197 counts the tattvas that withdraw as waking passes into dream and sleep: twenty-five of the thirty-six, then six, then five more (ஆறாறில் ஐஐந்து ... ஆறாம் ... வேறான ஐந்தும்). 2208 gives the same twenty-five, six and five (ஐஐந்தும் ஆறும்ஓர் ஐந்தும்) as waking, dream and deep sleep within waking. 2208 is a near-repeat that names what lies beyond them, turiya.",
+      "pass": "refine"
+    },
+    {
+      "a": 2204,
+      "b": 2483,
+      "type": "same_image",
+      "note": "2204 calls turiya within deep sleep the void where words end (சொல்லறும் பாழே). 2483 places the experience at the end in the three voids where words end (சொல்லறும் முப்பாழில்). The shared phrase shows that Tirumular's பாழ் is a positive state beyond speech, not mere blankness.",
+      "pass": "refine"
+    },
+    {
+      "a": 2206,
+      "b": 2224,
+      "type": "develops",
+      "note": "2206 defines the four states as states of knowing: knowledge knowing knowledge is waking, knowledge reaching unknowing (அறிவுஅறியாமை) is dream and sleep, knowledge become knowledge is turiya. 2224 asks who can know the knower who knows by joining the unknowing state (அறியாது அறிவானை யார்அறிவாரே). 2224 turns 2206's scheme into the question of the knower himself.",
+      "pass": "refine"
+    },
+    {
+      "a": 2207,
+      "b": 2401,
+      "type": "agrees",
+      "note": "2207 has the soul leave the five malas (ஐம்மலம் தான்விட்டு), take knowledge as its form and rise beyond the subtle. 2401 has the beginningless soul free of the five malas (ஐம்மலமற்று) see itself and become Hara, beyond the tattvas. Both name five malas, not three, and both make their loss the soul's passing beyond.",
+      "pass": "refine"
+    },
+    {
+      "a": 2212,
+      "b": 2195,
+      "type": "qualifies",
+      "note": "2195 sets the beyond-state that does not know itself down as anava (தன்தெரியாத அதீதம்தற்கு ஆணவம்). 2212 agrees that in waking-atita anava is in its own truth, but adds that when that atita reaches turiya the truth of the Supreme abides there (பரன்உண்மை தங்குமே). So atita is anava's only for the bound; the same state can hold the Supreme.",
+      "pass": "refine"
+    },
+    {
+      "a": 2212,
+      "b": 2265,
+      "type": "develops",
+      "note": "2212 says that in waking-atita, once it reaches turiya, the truth of the Supreme abides (சாக்கிராதீதம் பரன்உண்மை தங்குமே). 2265 says that if the beyond-state is reached within waking (சாக்கிரத் தன்னில் அதீதம் தலைப்படில்) there is bliss, birth is cut off and release attained. 2265 states the fruit of the state 2212 defines.",
+      "pass": "refine"
+    },
+    {
+      "a": 2214,
+      "b": 977,
+      "type": "same_image",
+      "note": "2214 puts five elephant calves (ஆனைக்கன்று ஐந்து) in the divided heart among other beasts. 977 has five elephants in the forest tamed with the five letters as goad (அஞ்சுக்கும் அஞ்செழுத்து அங்குசம்). Tirumular's other use of five elephants for the senses supports reading 2214's animals as the faculties, and shows what 2214 leaves untamed.",
+      "pass": "refine"
+    },
+    {
+      "a": 2217,
+      "b": 2376,
+      "type": "agrees",
+      "note": "2217 has the teacher take on the rules beginning with niyama (நியமாதிகள் உற்று), pass to turiya-atita and become the Supreme, stainless (பரனாய் நின்மலனாமே). 2376 defines yoganta the same way: going past yama, niyama and the rest (இயம நியமாதி சென்றகன்று) into samadhi, the soul becoming the Supreme (சீவன் பரமாக). 2376 names as an end of yoga the passage 2217 narrates through the states.",
+      "pass": "refine"
+    },
+    {
+      "a": 2218,
+      "b": 2382,
+      "type": "agrees",
+      "note": "2218 ends with the soul leaving the pure tattvas, becoming Siva and reaching silence (சிவமாகி மோனம் அடைந்து). 2382 ends the six ends the same way: when the knower and knowledge subside, the clear silence becomes Siva's bliss (தேறிய மோனம் சிவானந்தமாமே). The ascent through the states and the ascent through the ends close in the same silence.",
+      "pass": "refine"
+    },
+    {
+      "a": 2222,
+      "b": 345,
+      "type": "develops",
+      "note": "2222 sets a lamp burning at the root (மூலத்தானத்தில் அவ்விளக்கு) that takes in the moon region above. 345 turns the one who blazes at the root opening upward to the upper opening (மூலத் துவாரத்து மூளும் ஒருவனை மேலைத் துவாரத்து) and burns Death. Both describe a fire lit at the base and joined to what is above; 345 names the fruit.",
+      "pass": "refine"
+    },
+    {
+      "a": 2223,
+      "b": 588,
+      "type": "agrees",
+      "note": "2223 answers where the inner space is: look up (அண்ணாந்து பார்த்து) to the junction where the five gather. 588 likewise has the yogi look up through the spine into the space above (வெளியுறத் தானோக்கி) with eyes that do not see. Both make the upward gaze into inner space the practice, with the senses drawn in.",
+      "pass": "refine"
     }
   ],
   "source_issues": [
