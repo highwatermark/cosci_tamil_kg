@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Kural and Naladiyar</title>
+<title>Kural, Naladiyar, Tirumanthiram</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600&family=Noto+Serif+Tamil:wght@400;600&display=swap">
 <style>
 /* Layout: one-screen atlas. Controls left, graph centre, the selected verse or concept right.
-   Node colour = which of the three books (Aram, Porul, Inbam); line colour = link type. */
+   Node colour = part (Aram, Porul, Inbam; the Tirumanthiram has its own); shape = book; line colour = link type. */
 :root {
   color-scheme: light;
   --paper: #f3f4f0;
@@ -22,6 +22,7 @@
   --aram: #2e7d6b;
   --porul: #b7791f;
   --inbam: #b54a6a;
+  --tm: #4f6d8a;
   --t-tension: #c0392b;
   --t-agrees: #3d8b40;
   --t-develops: #2f6fb3;
@@ -39,7 +40,7 @@
   :root:not([data-theme="light"]) {
     color-scheme: dark;
     --paper: #141917; --panel: #1b211e; --ink: #e4e9e5; --muted: #9aa69f; --rule: #2e3833;
-    --accent: #6fb0dc; --aram: #4fb39b; --porul: #e0a34a; --inbam: #e07a98;
+    --accent: #6fb0dc; --aram: #4fb39b; --porul: #e0a34a; --inbam: #e07a98; --tm: #93b3cf;
     --t-tension: #ec6a5c; --t-agrees: #74c178; --t-develops: #6aa6e6; --t-qualifies: #b08ae6;
     --t-same_image: #d4b45a; --t-parallel_domain: #5cc2c2;
     --good: #6cc48b; --warn: #e2a64a; --bad: #ec7272; --halo: rgba(111, 176, 220, .22);
@@ -48,7 +49,7 @@
 :root[data-theme="dark"] {
   color-scheme: dark;
   --paper: #141917; --panel: #1b211e; --ink: #e4e9e5; --muted: #9aa69f; --rule: #2e3833;
-  --accent: #6fb0dc; --aram: #4fb39b; --porul: #e0a34a; --inbam: #e07a98;
+  --accent: #6fb0dc; --aram: #4fb39b; --porul: #e0a34a; --inbam: #e07a98; --tm: #93b3cf;
   --t-tension: #ec6a5c; --t-agrees: #74c178; --t-develops: #6aa6e6; --t-qualifies: #b08ae6;
   --t-same_image: #d4b45a; --t-parallel_domain: #5cc2c2;
   --good: #6cc48b; --warn: #e2a64a; --bad: #ec7272; --halo: rgba(111, 176, 220, .22);
@@ -87,6 +88,8 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
 .books div, .books label { display: flex; align-items: center; gap: 8px; }
 .books label { cursor: pointer; }
 .cell.nal { transform: rotate(45deg) scale(0.78); border-radius: 1px; }
+.cell.tm { clip-path: polygon(50% 6%, 96% 94%, 4% 94%); border-radius: 0; }
+.chapblock { display: flex; flex-direction: column; gap: 2px; }
 .pill.across { color: var(--accent); }
 .dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
 #search { width: 100%; font: inherit; font-size: 14px; padding: 6px 8px; border: 1px solid var(--rule); border-radius: 6px; background: var(--paper); color: var(--ink); }
@@ -161,7 +164,7 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
 </head>
 <body>
 <header>
-  <h1>திருக்குறள் · நாலடியார் <span>Tamil literary knowledge graph</span></h1>
+  <h1>திருக்குறள் · நாலடியார் · திருமந்திரம் <span>Tamil literary knowledge graph</span></h1>
   <div class="stats" id="stats"></div>
 </header>
 <main>
@@ -179,7 +182,7 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
       <p class="label">Light up verses that</p>
       <div class="hl" role="group" aria-label="Highlight">
         <button id="h-concept" aria-pressed="false" hidden></button>
-        <button id="h-crosslinked" aria-pressed="true">have a sound link to the other book</button>
+        <button id="h-crosslinked" aria-pressed="true">have a sound link to another book</button>
         <button id="h-linked" aria-pressed="false">have any sound link</button>
         <button id="h-contested" aria-pressed="false">commentators dispute</button>
         <button id="h-textflag" aria-pressed="false">have text to check</button>
@@ -190,7 +193,7 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
     </div>
     <div>
       <label class="label" for="search">Find a verse or concept</label>
-      <input id="search" placeholder="e.g. 327, aram, அறம்" autocomplete="off">
+      <input id="search" placeholder="e.g. 327, n 42, t 2017, அறம்" autocomplete="off">
     </div>
     <div id="link-controls">
       <p class="label">Links by audit grade</p>
@@ -218,7 +221,7 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
     </div>
   </aside>
   <section id="stage" aria-label="Graph">
-    <svg id="svg" role="img" aria-label="Graph of Kural and Naladiyar verses and links"></svg>
+    <svg id="svg" role="img" aria-label="Graph of Kural, Naladiyar and Tirumanthiram verses and links"></svg>
     <div id="grid" hidden></div>
     <div id="hint"></div>
     <div id="tip"></div>
@@ -229,11 +232,17 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>
 const KG = window.KG;
-// The three parts both books share. Colour encodes the part; shape encodes the book.
+// The Kural and Naladiyar share three parts; the Tirumanthiram (nine tantras) gets one colour of its own.
+// Colour encodes the part; shape encodes the book.
 const PARTS = { "அறத்துப்பால்": ["aram", "Aram (virtue)"], "பொருட்பால்": ["porul", "Porul (wealth, statecraft)"], "காமத்துப்பால்": ["inbam", "Inbam (love)"] };
-const BOOK_NAMES = { kural: "Kural", naladiyar: "Naladiyar" };
-const BOOK_TAMIL = { kural: "திருக்குறள்", naladiyar: "நாலடியார்" };
+const TM_PART = ["tm", "Tirumanthiram (nine tantras)"];
+const BOOK_NAMES = { kural: "Kural", naladiyar: "Naladiyar", tirumanthiram: "Tirumanthiram" };
+const BOOK_TAMIL = { kural: "திருக்குறள்", naladiyar: "நாலடியார்", tirumanthiram: "திருமந்திரம்" };
 const COMMENTATOR_NAMES = { kural: "Parimelazhagar, Manakkudavar and Kalaignar", naladiyar: "Mudaliar and Shanmuganar" };
+const PREFIX = { kural: "k", naladiyar: "n", tirumanthiram: "t" };
+const SYMBOLS = { kural: d3 => d3.symbolCircle, naladiyar: d3 => d3.symbolDiamond, tirumanthiram: d3 => d3.symbolTriangle, both: d3 => d3.symbolSquare };
+// Graph bands, top to bottom: both other books link mostly to the Kural, so it sits in the middle.
+const BAND_ORDER = ["naladiyar", "kural", "tirumanthiram"];
 const TYPES = ["tension", "agrees", "develops", "qualifies", "same_image", "parallel_domain"];
 const TYPE_NAMES = { tension: "Tension", agrees: "Agrees", develops: "Develops", qualifies: "Qualifies", same_image: "Same image", parallel_domain: "Parallel domain" };
 const GRADE_SETS = { sound: ["sound"], weak: ["sound", "weak"], all: ["sound", "weak", "forced", "wrong"] };
@@ -242,9 +251,14 @@ const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "
 const fmt = n => n.toLocaleString("en");
 
 const verses = KG.verses;
-const partOf = id => PARTS[KG.chapters[verses[id].ch].section][0];
+const partOf = id => verses[id].book === "tirumanthiram" ? TM_PART[0] : PARTS[KG.chapters[verses[id].ch].section][0];
+const partName = ch => ch.book === "tirumanthiram" ? ch.section : PARTS[ch.section][1];
+// Verse ids per chapter, in order (Tirumanthiram chapters vary in length).
+const CHAPTER_VERSES = {};
+for (const [id, v] of Object.entries(verses)) (CHAPTER_VERSES[v.ch] = CHAPTER_VERSES[v.ch] || []).push(id);
+for (const ids of Object.values(CHAPTER_VERSES)) ids.sort((a, b) => verses[a].num - verses[b].num);
 const bookOf = id => verses[id].book;
-const label = id => (bookOf(id) === "kural" ? "" : "N") + verses[id].num;
+const label = id => ({ kural: "", naladiyar: "N", tirumanthiram: "T" })[bookOf(id)] + verses[id].num;
 const fullName = id => `${BOOK_NAMES[bookOf(id)]} ${verses[id].num}`;
 const state = { view: "grid", grade: "sound", scope: "texts", types: new Set(TYPES), books: new Set(Object.keys(BOOK_NAMES)), thread: null, selected: null };
 const SCOPES = {
@@ -266,12 +280,13 @@ const shownVerses = () => Object.keys(verses).filter(inBooks);
   document.getElementById("stats").innerHTML = [
     `<span class="stat"><b>${fmt(count("kural"))}</b> Kural verses</span>`,
     `<span class="stat"><b>${fmt(count("naladiyar"))}</b> Naladiyar quatrains</span>`,
+    `<span class="stat"><b>${fmt(count("tirumanthiram"))}</b> Tirumanthiram verses</span>`,
     `<span class="stat"><b>${Object.keys(KG.concepts).length}</b> shared concepts</span>`,
     `<span class="stat"><b>${positions}</b> commentator positions</span>`,
     `<span class="stat"><b>${contested}</b> contested</span>`,
     `<span class="stat"><b>${fmt(L.length)}</b> links, <b>${fmt(sound)}</b> sound, <b>${cross}</b> across books</span>`,
     `<span class="stat"><b>${KG.threads.length}</b> threads</span>`,
-    `<span class="stat warn"><b>${flagged}</b> Kural verses' text to check</span>`,
+    `<span class="stat warn"><b>${flagged}</b> verses' text to check</span>`,
     `<span class="stat warn">Not yet reviewed by a Tamil scholar</span>`
   ].join("");
 })();
@@ -281,9 +296,9 @@ document.getElementById("types").innerHTML = TYPES.map(t =>
   `<label><input type="checkbox" id="t-${t}" checked><span class="swatch" style="background:var(--t-${t})"></span>${TYPE_NAMES[t]}<span class="n" id="n-${t}"></span></label>`).join("");
 document.getElementById("books").innerHTML =
   Object.entries(BOOK_NAMES).map(([b, name]) =>
-    `<label><input type="checkbox" id="b-${b}" checked><svg width="12" height="12" viewBox="-6 -6 12 12" aria-hidden="true"><path d="${d3.symbol(b === "kural" ? d3.symbolCircle : d3.symbolDiamond, 70)()}" fill="var(--muted)"/></svg>${name} <span style="font-family:var(--f-tamil);color:var(--muted)">${BOOK_TAMIL[b]}</span></label>`).join("") +
+    `<label><input type="checkbox" id="b-${b}" checked><svg width="12" height="12" viewBox="-6 -6 12 12" aria-hidden="true"><path d="${d3.symbol(SYMBOLS[b](d3), 70)()}" fill="var(--muted)"/></svg>${name} <span style="font-family:var(--f-tamil);color:var(--muted)">${BOOK_TAMIL[b]}</span></label>`).join("") +
   `<p class="label" style="margin-top:8px">Colour: part</p>` +
-  Object.values(PARTS).map(([k, name]) => `<div><span class="dot" style="background:var(--${k})"></span>${name}</div>`).join("");
+  [...Object.values(PARTS), TM_PART].map(([k, name]) => `<div><span class="dot" style="background:var(--${k})"></span>${name}</div>`).join("");
 document.getElementById("threads").innerHTML = KG.threads.map((t, i) =>
   `<button class="row" data-thread="${i}">${esc(t.title)}<small>${t.links.length} links · ${t.grade.replace("_", " ")} · Kural</small></button>`).join("");
 
@@ -326,6 +341,8 @@ document.getElementById("search").addEventListener("keydown", e => {
   if (e.key !== "Enter") return;
   const q = e.target.value.trim().toLowerCase(); if (!q) return;
   const nal = q.match(/^(n|nal|naladiyar|நாலடியார்)\s*:?\s*(\d+)$/), kur = q.match(/^(k|kural|குறள்)?\s*:?\s*(\d+)$/);
+  const tmq = q.match(/^(t|tm|tirumanthiram|திருமந்திரம்)\s*:?\s*(\d+)$/);
+  if (tmq && verses["t:" + tmq[2]]) return selectVerse("t:" + tmq[2], true);
   if (nal && verses["n:" + nal[2]]) return selectVerse("n:" + nal[2], true);
   if (kur && verses["k:" + kur[2]]) return selectVerse("k:" + kur[2], true);
   const hit = Object.entries(KG.concepts).find(([id, c]) => id === q || c.tamil === q)
@@ -384,20 +401,28 @@ function conceptGraph() {
 function renderGrid() {
   const grid = document.getElementById("grid"), on = hlFn();
   const sel = state.selected?.kind === "verse" ? state.selected.id : null;
-  const prefix = { kural: "k", naladiyar: "n" };
-  grid.innerHTML = [...state.books].map(book => Object.entries(PARTS).map(([section, [key, name]]) => {
+  // Sections: the three shared parts for the Kural and Naladiyar, the tantras (in order) for the Tirumanthiram.
+  const sectionsOf = book => book === "tirumanthiram"
+    ? [...new Set(Object.values(KG.chapters).filter(c => c.book === book).sort((a, b) => a.num - b.num).map(c => c.section))].map(s => [s, [TM_PART[0], s]])
+    : Object.entries(PARTS);
+  const cell = (id, book) => `<button class="cell${on(id) ? " on" : ""}${id === sel ? " sel" : ""}${book === "naladiyar" ? " nal" : book === "tirumanthiram" ? " tm" : ""}" data-cell="${id}" aria-label="${fullName(id)}"></button>`;
+  grid.innerHTML = BAND_ORDER.filter(b => state.books.has(b)).sort((a, b) => Object.keys(BOOK_NAMES).indexOf(a) - Object.keys(BOOK_NAMES).indexOf(b)).map(book => sectionsOf(book).map(([section, [key, name]]) => {
     const chs = Object.entries(KG.chapters).filter(([, c]) => c.book === book && c.section === section)
       .sort((a, b) => a[1].num - b[1].num);
     if (!chs.length) return "";
-    const ids = c => Array.from({ length: 10 }, (_, i) => `${prefix[book]}:${(c.num - 1) * 10 + 1 + i}`).filter(id => verses[id]);
-    const rows = chs.map(([, c]) => `<div class="chap" title="${c.num}. ${esc(c.title)}"><span>${c.num}</span>${ids(c).map(id =>
-      `<button class="cell${on(id) ? " on" : ""}${id === sel ? " sel" : ""}${book === "naladiyar" ? " nal" : ""}" data-cell="${id}" aria-label="${fullName(id)}"></button>`).join("")}</div>`).join("");
-    const total = chs.reduce((s, [, c]) => s + ids(c).length, 0), hits = chs.reduce((s, [, c]) => s + ids(c).filter(on).length, 0);
-    return `<section class="book" style="--bk:var(--${key})"><h3><span class="dot" style="background:var(--${key})"></span>${BOOK_NAMES[book]} · ${name}<small>${chs.length} chapters · ${hits} of ${total}</small></h3><div class="chaps">${rows}</div></section>`;
+    const ids = cid => CHAPTER_VERSES[cid] || [];
+    const rows = chs.map(([cid, c]) => {
+      const all = ids(cid), chunks = [];
+      for (let i = 0; i < all.length; i += 10) chunks.push(all.slice(i, i + 10));
+      return `<div class="chapblock" title="${c.num}. ${esc(c.title)}">${chunks.map((chunk, i) =>
+        `<div class="chap"><span>${i ? "" : c.num}</span>${chunk.map(id => cell(id, book)).join("")}</div>`).join("")}</div>`;
+    }).join("");
+    const total = chs.reduce((s, [cid]) => s + ids(cid).length, 0), hits = chs.reduce((s, [cid]) => s + ids(cid).filter(on).length, 0);
+    return `<section class="book" style="--bk:var(--${key})"><h3><span class="dot" style="background:var(--${key})"></span>${BOOK_NAMES[book]} · <span${book === "tirumanthiram" ? ' style="font-family:var(--f-tamil);text-transform:none"' : ""}>${esc(name)}</span><small>${chs.length} chapters · ${hits} of ${total}</small></h3><div class="chaps">${rows}</div></section>`;
   }).join("")).join("");
 }
 
-const shape = d => d3.symbol(d.book === "naladiyar" ? d3.symbolDiamond : d.book === "both" ? d3.symbolSquare : d3.symbolCircle, Math.PI * d.r * d.r * (d.book === "naladiyar" ? 1.15 : 1))();
+const shape = d => d3.symbol(SYMBOLS[d.book](d3), Math.PI * d.r * d.r * (d.book === "naladiyar" ? 1.15 : d.book === "tirumanthiram" ? 1.3 : 1))();
 
 function render() {
   for (const v of ["grid", "verses", "concepts"]) document.getElementById("v-" + v).setAttribute("aria-pressed", state.view === v);
@@ -424,13 +449,15 @@ function render() {
 
   current = state.view === "verses" ? verseGraph() : conceptGraph();
   const { width, height } = document.getElementById("stage").getBoundingClientRect();
-  const partX = { aram: width * 0.22, porul: width * 0.5, inbam: width * 0.78 };
+  const partX = { aram: width * 0.22, porul: width * 0.5, inbam: width * 0.78, tm: width * 0.5 };
   const two = state.books.size > 1 && state.view === "verses";
-  const bookY = { kural: two ? height * 0.28 : height / 2, naladiyar: two ? height * 0.74 : height / 2, both: height / 2 };
-  const scopeWord = { texts: " between the two books", sections: " between parts", any: "" }[state.scope];
+  const bands = BAND_ORDER.filter(b => state.books.has(b)), bookY = { both: height / 2 };
+  bands.forEach((b, i) => bookY[b] = two ? height * (i + 0.5) / bands.length : height / 2);
+  const bandWords = { kural: "Kural (circles)", naladiyar: "Naladiyar (diamonds)", tirumanthiram: "Tirumanthiram (triangles)" };
+  const scopeWord = { texts: " between books", sections: " between parts", any: "" }[state.scope];
   document.getElementById("hint").textContent = state.thread !== null
     ? `Thread: ${current.nodes.length} verses, ${current.links.length} links. Click the thread again to leave it.`
-    : state.view === "verses" ? `${current.nodes.length} verses, ${current.links.length} links${scopeWord}. ${two ? "Kural above (circles), Naladiyar below (diamonds); parts" : "Parts"} run left to right. Scroll to zoom, click a verse.`
+    : state.view === "verses" ? `${current.nodes.length} verses, ${current.links.length} links${scopeWord}. ${two ? "Top to bottom: " + bands.map(b => bandWords[b]).join(", ") + ". Kural and Naladiyar parts" : "Parts"} run left to right. Scroll to zoom, click a verse.`
     : `${current.nodes.length} concepts, sized by verses expressing them; squares appear in both books. Lines join concepts that share 3 or more verses.`;
 
   if (sim) sim.stop();
@@ -548,7 +575,7 @@ function selectVerse(id, focus) {
     .sort((x, y) => (bookOf(y.a === id ? y.b : y.a) !== v.book) - (bookOf(x.a === id ? x.b : x.a) !== v.book));
   const flags = [v.x && pill("contested", "commentators differ"), v.u && pill("uncertain", "reading uncertain"), v.f && pill("textflag", "source text to check")].filter(Boolean).join("");
   detail.innerHTML = `
-    <div><h2>${fullName(id)}</h2><div class="sub"><span style="font-family:var(--f-tamil)">${BOOK_TAMIL[v.book]}</span> · chapter ${ch.num}, <span style="font-family:var(--f-tamil)">${esc(ch.title)}</span> · ${PARTS[ch.section][1]}</div></div>
+    <div><h2>${fullName(id)}</h2><div class="sub"><span style="font-family:var(--f-tamil)">${BOOK_TAMIL[v.book]}</span> · chapter ${ch.num}, <span style="font-family:var(--f-tamil)">${esc(ch.title)}</span> · <span${v.book === "tirumanthiram" ? ' style="font-family:var(--f-tamil)"' : ""}>${esc(partName(ch))}</span></div></div>
     <p class="tamil">${v.t.map(esc).join("<br>")}</p>
     ${flags ? `<div class="pills">${flags}</div>` : ""}
     <div class="block"><div class="k">Reading</div><p>${esc(v.r)}</p></div>
@@ -603,13 +630,14 @@ function showThread(t) {
 }
 
 function showEmpty() {
-  const L = KG.links, cross = L.filter(l => bookOf(l.a) !== bookOf(l.b));
+  const L = KG.links, cross = L.filter(l => bookOf(l.a) !== bookOf(l.b)), crossSound = cross.filter(l => l.grade === "sound").length;
+  const tm = L.filter(l => bookOf(l.a) === "tirumanthiram"), tmSound = tm.filter(l => l.grade === "sound").length;
   detail.innerHTML = `<div class="empty">
     <h2>How to read this</h2>
-    <p>Two books are here: the <b>Thirukkural</b> and the <b>Naladiyar</b>, a Jain collection of 400 quatrains long paired with it. Both are in three parts (virtue, wealth, love), so colour shows the part and shape shows the book: circles for the Kural, diamonds for the Naladiyar.</p>
-    <p><b>All verses</b> shows every verse, one row of ten per chapter. It opens lighting the verses with a sound link to the other book. Click any square to read the verse, what its commentators say (${COMMENTATOR_NAMES.kural} for the Kural; ${COMMENTATOR_NAMES.naladiyar} for the Naladiyar), and its links, the other book's first.</p>
-    <p><b>Links</b> opens on the ${cross.filter(l => l.grade === "sound").length} sound links between the two books, the Kural above and the Naladiyar below. <b>Concepts</b> are shared, so one concept gathers verses from both.</p>
-    <p><b>Trust:</b> every link was graded blind by a separate agent. ${cross.filter(l => l.grade === "sound").length} of ${cross.length} links between the books are sound. Tension links are the weakest type. No Tamil scholar has reviewed any of this.</p>
+    <p>Three books are here. The <b>Thirukkural</b> and the <b>Naladiyar</b>, a Jain collection of 400 quatrains long paired with it, are both in three parts (virtue, wealth, love), and colour shows the part. The <b>Tirumanthiram</b> of Tirumular, a Saiva work on ethics, yoga and grace in nine tantras, has a colour of its own. Shape shows the book: circles for the Kural, diamonds for the Naladiyar, triangles for the Tirumanthiram.</p>
+    <p><b>All verses</b> shows every verse, in rows of ten per chapter. It opens lighting the verses with a sound link to another book. Click any square to read the verse, what its commentators say (${COMMENTATOR_NAMES.kural} for the Kural; ${COMMENTATOR_NAMES.naladiyar} for the Naladiyar; none for the Tirumanthiram), and its links, other books first.</p>
+    <p><b>Links</b> opens on the ${crossSound} sound links between books, in bands from top to bottom: Naladiyar, Kural, Tirumanthiram. <b>Concepts</b> are shared, so one concept gathers verses from every book.</p>
+    <p><b>Trust:</b> every link was graded blind by a separate agent. ${crossSound} of ${cross.length} links between books are sound. The Tirumanthiram has no commentary here, so its readings are the marking agent's own, ${fmt(Object.values(verses).filter(v => v.book === "tirumanthiram" && v.u).length)} of its verses are flagged uncertain, and its graders ran lenient against calibration links: treat its ${tmSound} sound links of ${tm.length} as an upper bound. No Tamil scholar has reviewed any of this.</p>
   </div>`;
 }
 
