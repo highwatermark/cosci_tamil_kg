@@ -14,9 +14,9 @@
     "725": {
       "reading": "A litany of salutations (நமோ நம) to Murugan: to the cool lotus feet, to the one who delights in Narada's songs, to the lover of the cock and peacock, the crest the Vedas seek, the essence of the Agamas, the commander of the gods' army, the axe that cuts sins so that souls reach their goal, the terror of the asura king, the child of Parvati, ending in a plea for grace. The praise names the brother of the elephant-faced one, the one dear to Siva, the nephew of Lakshmi's lord, the six faces like full moons, praised by Vishnu and Brahma, and Siruvapuri, richer than the gods' city and Alaka.",
       "concepts": [
+        "vazhipaadu",
         "pugazh",
-        "thiruvarul",
-        "aagamam"
+        "thiruvarul"
       ],
       "nuance": "The whole first half is salutation, not plea, until the closing அருள்தாராய். பாதக நீவு குடாரா, the axe that cuts away sin so the soul reaches its goal (கதி தோய), is the one line about the poet's need."
     },
@@ -41,7 +41,22 @@
       "nuance": "வேசி என்பவர், காதலின் பொருள் மேவின பாதகர்: here the women are named outright as harlots who trade love for money. The praise is mostly a list of the goddess's names, so it centres on Shakti more than on Murugan. சிவபோக நல் நூல் நெறி, the good path to Siva's bliss, is set against the women's போகம்."
     }
   },
-  "links": [],
+  "links": [
+    {
+      "a": 726,
+      "b": "tirumanthiram:1892",
+      "type": "agrees",
+      "note": "726 asks that the lotus feet which opened the rare way of silence (அரிய மோன வழி திறந்த நளின பாதம்) never leave his mind. Tirumanthiram 1892 has the seeker fixed in the speech of silence (மோன மொழியில் பதிவித்து) and saved at Nandi's holy feet (நந்தி திருவடி மீதுய்ய). Both join silence and the feet: the feet open the way of silence, and silence ends at the feet.",
+      "pass": "refine"
+    },
+    {
+      "a": 727,
+      "b": "naladiyar:378",
+      "type": "agrees",
+      "note": "727 names the women as harlots trading love for money (வேசி என்பவர், காதலின் பொருள் மேவின) and asks instead to worship desiring the good path to Siva's bliss (சிவபோக நல் நூல் நெறி). Naladiyar 378 says those who mean to reach the right path (செந்நெறிச் சேர்துமென் பார்) do not embrace such women. Both set the courtesan's bed against the path, and the song names that path as Siva's bliss.",
+      "pass": "refine"
+    }
+  ],
   "source_issues": [
     "Song 724: corrupt character in செற§ருப (line 14), perhaps செறிரூப.",
     "Song 725: corrupt characters in ப்¡£தா (line 3), clearly ப்ரீதா ('beloved'), confirming ¡£ for ரீ."
