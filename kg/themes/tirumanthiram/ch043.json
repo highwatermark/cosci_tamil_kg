@@ -6,8 +6,8 @@
     "411": {
       "reading": "He has entered and stands as open space and as darkness, as praise and as blame, as body and as life; he has entered and stays fixed in the mind.",
       "concepts": [
+        "viyaabagam",
         "iraivan",
-        "uyir",
         "manam"
       ],
       "nuance": "The pairs are opposites (light and dark, praise and blame, body and life): the Lord keeps the world by being both sides of it. புகுந்துநின்றான், repeated, makes his presence an entering, not only an encompassing."
@@ -15,18 +15,18 @@
     "412": {
       "reading": "He himself stands as the directions and the gods, as body, life and the tattvas, as ocean, mountain and the rest, and he is also the leader of the world.",
       "concepts": [
+        "viyaabagam",
         "iraivan",
-        "thaththuvam",
-        "uyir"
+        "thaththuvam"
       ],
       "nuance": "The last line adds rule to presence: he is the world and also its head."
     },
     "413": {
       "reading": "As body, as life, as the world, as the ocean, as the dark cloud and the sky that pours rain, as what lies between, unfailing and everywhere himself, the Lord stands as the great way that those who do not come to him do not reach.",
       "concepts": [
+        "viyaabagam",
         "iraivan",
-        "mazhai",
-        "uyir"
+        "mazhai"
       ],
       "uncertain": true,
       "nuance": "அடையார் can mean 'those who do not reach' or 'enemies'. The variant பெருவெளி makes the last line 'the great open space' instead of 'the great way'."
@@ -107,6 +107,69 @@
       "b": 1930,
       "type": "qualifies",
       "note": "Both use the pot. In 1930 bindu is the clay that stays in the pot, the material cause; in 417 the Lord is the potter who shapes it. Read together they separate maker and material."
+    },
+    {
+      "a": 411,
+      "b": 1875,
+      "type": "develops",
+      "note": "411 says the Lord has entered and stands as praise and blame (புகழ்வாய் இகழ்வாகி) among other opposites. 1875 says that, since the Lord took the speaker's soul as his field, blame and praise (பழியும் புகழும்) fall away. If he is both praise and blame, the one he holds is no longer moved by either.",
+      "pass": "refine"
+    },
+    {
+      "a": 412,
+      "b": 3043,
+      "type": "develops",
+      "note": "412 repeats தானே: he himself stands as the directions, the gods, body, life, tattvas, ocean and mountain. 3043 says he goes through the whole world with many things and yet is skilled in standing as one that is not many (பலவிலதாய் நிற்கும்). 3043 adds what 412's list leaves out: being all these does not make him many.",
+      "pass": "refine"
+    },
+    {
+      "a": 413,
+      "b": "kural:11",
+      "type": "parallel_domain",
+      "note": "The Kural says the world keeps going (உலகம் வழங்கி வருதல்) through rain, so rain is amrita. 413, in the chapter on protection (காத்தல்), has the Lord stand as the ocean, the dark cloud and the sky that pours rain. The Kural's rain that keeps the world becomes one of the Lord's forms of keeping it.",
+      "pass": "refine"
+    },
+    {
+      "a": 415,
+      "b": "kural:15",
+      "type": "parallel_domain",
+      "note": "The Kural says it is rain that ruins and rain again that lifts the ruined (கெடுப்பதூஉம் ... எடுப்பதூஉம் எல்லாம் மழை). 415 has the Lord stand at one time as a fierce gale (சண்ட மாருதம்) and at another as cool rain (தண்மழை). Both make one power the source of both harm and care.",
+      "pass": "refine"
+    },
+    {
+      "a": 416,
+      "b": 270,
+      "type": "agrees",
+      "note": "416 opens: he stands as love, knowledge and restraint (அன்பும் அறிவும் அடக்கமுமாய் நிற்கும்). 270 says the ignorant hold love and Siva to be two, and that love itself is Siva (அன்பே சிவம்). 416 lists love first among his forms; 270 makes it his identity.",
+      "pass": "refine"
+    },
+    {
+      "a": 417,
+      "b": 158,
+      "type": "same_image",
+      "note": "In 417 the Lord is the potter (வனைவான்) who shapes births. In 158 a potter (குயவன்) shapes pots, and when a pot breaks people keep the shards, but when the body breaks they will not keep it a moment. The same potter's craft shows the Lord's making in one verse and the body's worthlessness at death in the other.",
+      "pass": "refine"
+    },
+    {
+      "a": 418,
+      "b": 724,
+      "type": "develops",
+      "note": "418 says Nandi spreads in the body as awareness and holds it so that life is not cast off (தள்ளுயிரா வண்ணம் தாங்கி). 724 says if the body perishes the life perishes, and so the speaker learned to nurture the body. Both value the body as what keeps life; 418 gives the keeping to the Lord, 724 to the yogi's practice.",
+      "pass": "refine"
+    },
+    {
+      "a": 419,
+      "b": 650,
+      "type": "agrees",
+      "note": "419's first two lines nearly repeat 650: தாங்கருந் தன்மையுந் தானவை பல்லுயிர் வாங்கிய காலத்து மற்றோர் பிறிதில்லை against தாங்கிய தன்மையுந் தானணுப் பல்லுயிர் வாங்கிய காலத்து மற்றோர் குறையில்லை. 650 uses them for the siddhi of drawing in all lives, 419 for the Lord who takes them back in protection, so the same words describe the yogi's power and the Lord's.",
+      "pass": "refine"
+    },
+    {
+      "a": 420,
+      "b": 8,
+      "type": "qualifies",
+      "note": "8 says the Lord is far off yet near (சேயினும் ... அணியன்) to those who love well. 420 says that even when approached he is far (அணுகினும் சேயவன்), though he gives a shoot of knowledge to those who draw close. 420 keeps a distance that 8's nearness to lovers might seem to remove.",
+      "pass": "refine"
     }
   ],
   "source_issues": [
