@@ -62,8 +62,8 @@
     "359": {
       "reading": "Gods who did penance and whisper mantras in the ear, who lay out the kitchen of the oblation with mantras and do ear-mantras looking to their own gain: such a gathered mantra is a cruel thing.",
       "concepts": [
+        "mandhiram",
         "aaguthi",
-        "vazhipaadu",
         "avaa"
       ],
       "uncertain": true,
@@ -93,5 +93,14 @@
     "356: variants அலந்திருந்தானே and அமர்ந்திருந்தானே change the closing sense (troubled, seated) from அலர்ந்திருந்தானே (blossomed); 357's opening supports the text's reading. 357 has the variant அலந்திருந்.",
     "358: variant சிந்தைகை for சிறந்தகை would add 'mind' to the list of maimed parts.",
     "361: variant line 3 reads விளிந்தானத் தக்கனவ் வேள்வியை."
+  ],
+  "links": [
+    {
+      "a": 359,
+      "b": "kural:276",
+      "type": "agrees",
+      "note": "359 says gods who did tapas and whisper mantras in the ear, laying out the oblation with mantras while looking to their own gain (தாமுற நோக்கும்), make a cruel thing (கொடியது). Kural 276 says none are harder of heart than those who live by deceit, renouncing in appearance and not in heart (வஞ்சித்து வாழ்வாரின் வன்கணார் இல்). Both judge religious form used for self-interest as cruel, not merely false.",
+      "pass": "refine"
+    }
   ]
 }
