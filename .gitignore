@@ -10,3 +10,7 @@ data/incoming/
 
 # Local preview of the site (built by site/build.py)
 site/preview.html
+# Source text mirrors (users run scripts/crawl.py and scripts/extract.py locally)
+data/raw/
+data/text/
+data/pdf_text/
