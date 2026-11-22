@@ -1,0 +1,1189 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Unarvu · உணர்வு</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&family=Catamaran:wght@400;500;600;700;800&family=Noto+Serif+Tamil:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #0b0d14;
+  --bg-2: #111521;
+  --bg-3: #171c2b;
+  --surface: #151a28;
+  --surface-hi: #1d2437;
+  --border: rgba(244, 239, 228, 0.13);
+  --border-hi: rgba(226, 168, 59, 0.45);
+  --ink: #f4efe4;
+  --ink-muted: #b5b0a4;
+  --ink-dim: #8a867c;
+  --amber: #e2a83b;
+  --amber-soft: rgba(226, 168, 59, 0.14);
+  --jade: #47b892;
+  --jade-soft: rgba(71, 184, 146, 0.14);
+  --vermilion: #e8634a;
+  --vermilion-soft: rgba(232, 99, 74, 0.16);
+  --cobalt: #6c96ff;
+  --cobalt-soft: rgba(108, 150, 255, 0.15);
+  --parchment: #f4efe4;
+  --parchment-ink: #16171f;
+  --f-display: "Bricolage Grotesque", system-ui, -apple-system, sans-serif;
+  --f-serif: "Instrument Serif", Georgia, serif;
+  --f-tamil-ui: "Catamaran", "Tamil Sangam MN", "Noto Sans Tamil", sans-serif;
+  --f-tamil: "Noto Serif Tamil", "Tamil Sangam MN", serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --gutter: clamp(18px, 4vw, 56px);
+  --maxw: 1220px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; background: var(--bg); }
+body {
+  margin: 0;
+  background: radial-gradient(1200px 620px at 78% -8%, rgba(226, 168, 59, 0.08), transparent 60%),
+              radial-gradient(900px 520px at 12% 18%, rgba(71, 184, 146, 0.06), transparent 60%),
+              var(--bg);
+  color: var(--ink);
+  font: 17px/1.65 var(--f-display);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+a { color: inherit; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; }
+
+.wrap { max-width: var(--maxw); margin: 0 auto; padding-inline: var(--gutter); }
+
+/* Language switching */
+html:not(.l-ta) .ta-only, .l-ta .en-only { display: none !important; }
+.l-ta body { font-family: var(--f-tamil-ui); line-height: 1.78; }
+.l-ta .serif, .l-ta em { font-style: normal; font-family: var(--f-tamil); }
+
+/* Header */
+.mast {
+  position: sticky; top: 0; z-index: 40;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  background: rgba(11, 13, 20, 0.84);
+  border-bottom: 1px solid var(--border);
+}
+.mast-inner {
+  max-width: var(--maxw); margin: 0 auto; padding: 12px var(--gutter);
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+}
+.brand {
+  display: inline-flex; align-items: center; gap: 10px;
+  text-decoration: none; font-weight: 800; letter-spacing: .04em; font-size: 14px;
+}
+.brand .dot {
+  width: 9px; height: 9px; border-radius: 50%; background: var(--amber);
+  box-shadow: 0 0 12px rgba(226, 168, 59, 0.8);
+}
+.brand .ta-tag { font-family: var(--f-tamil-ui); font-weight: 700; color: var(--amber); letter-spacing: 0; }
+.nav { display: flex; align-items: center; gap: 6px; margin-left: 12px; flex-wrap: wrap; }
+.nav a {
+  text-decoration: none; font: 500 13px/1 var(--f-mono); color: var(--ink-muted);
+  padding: 7px 11px; border-radius: 999px; transition: background .2s, color .2s;
+}
+.nav a:hover { color: var(--ink); background: rgba(255,255,255,0.06); }
+.nav a.ext { border: 1px solid var(--border); color: var(--ink); }
+.mast-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+.lang-toggle {
+  display: inline-flex; padding: 3px; border-radius: 999px;
+  background: var(--bg-3); border: 1px solid var(--border);
+}
+.lang-toggle button {
+  border: 0; background: transparent; cursor: pointer;
+  padding: 6px 12px; border-radius: 999px; font-size: 13px; font-weight: 600; color: var(--ink-muted);
+}
+.lang-toggle button[aria-pressed="true"] { background: var(--amber); color: #121218; }
+
+/* Hero */
+.hero { padding-block: clamp(56px, 8vw, 108px) clamp(48px, 6vw, 84px); border-bottom: 1px solid var(--border); }
+.hero-grid {
+  display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(260px, 0.75fr);
+  gap: clamp(32px, 5vw, 72px); align-items: center;
+}
+.eyebrow {
+  font: 500 12px/1.3 var(--f-mono); letter-spacing: .12em; text-transform: uppercase;
+  color: var(--amber); margin: 0 0 18px; display: flex; align-items: center; gap: 10px;
+}
+.l-ta .eyebrow { font-family: var(--f-tamil-ui); letter-spacing: .02em; font-size: 13.5px; text-transform: none; }
+.eyebrow::before { content: ""; width: 22px; height: 1px; background: var(--amber); display: inline-block; }
+.hero h1 {
+  margin: 0;
+  font: 800 clamp(38px, 5.4vw, 74px)/1.02 var(--f-display);
+  letter-spacing: -.03em; text-wrap: balance;
+}
+.l-ta .hero h1 { font-family: var(--f-tamil-ui); font-size: clamp(30px, 4.2vw, 54px); line-height: 1.2; letter-spacing: 0; }
+.hero h1 em { font-family: var(--f-serif); font-weight: 400; font-style: italic; color: var(--amber); }
+.l-ta .hero h1 em { font-family: var(--f-tamil); font-style: normal; font-weight: 700; }
+.hero-sub {
+  margin: 24px 0 0; max-width: 60ch; font-size: clamp(17px, 1.35vw, 19.5px);
+  color: var(--ink-muted); line-height: 1.68;
+}
+.hero-actions { margin-top: 30px; display: flex; flex-wrap: wrap; gap: 12px; }
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  text-decoration: none; cursor: pointer; border-radius: 999px;
+  padding: 12px 20px; font-weight: 600; font-size: 14px; border: 1px solid transparent;
+  transition: transform .15s, background .2s, border-color .2s;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn-primary { background: var(--amber); color: #121218; }
+.btn-primary:hover { background: #efba52; }
+.btn-ghost { background: transparent; border-color: var(--border); color: var(--ink); }
+.btn-ghost:hover { border-color: var(--amber); }
+
+.observatory {
+  position: relative; display: flex; flex-direction: column; align-items: center;
+  background: radial-gradient(circle at 50% 50%, rgba(226,168,59,0.08), transparent 68%);
+  border: 1px solid var(--border); border-radius: 20px; padding: 24px 20px 18px;
+}
+.observatory svg { width: 100%; max-width: 340px; height: auto; display: block; }
+.obs-caption {
+  margin: 10px 0 0; font: 400 12px/1.5 var(--f-mono); color: var(--ink-muted);
+  text-align: center; max-width: 34ch;
+}
+.ring-spin-1 { transform-origin: 180px 180px; animation: spin 72s linear infinite; }
+.ring-spin-2 { transform-origin: 180px 180px; animation: spinRev 48s linear infinite; }
+.ring-spin-3 { transform-origin: 180px 180px; animation: spin 30s linear infinite; }
+.core-pulse { transform-origin: 180px 180px; animation: pulse 4.5s ease-in-out infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes spinRev { to { transform: rotate(-360deg); } }
+@keyframes pulse { 0%,100% { transform: scale(1); opacity: .9; } 50% { transform: scale(1.12); opacity: 1; } }
+
+/* Telemetry bar */
+.telemetry {
+  margin-top: 42px; padding-top: 28px; border-top: 1px solid var(--border);
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 18px 24px;
+}
+.metric b {
+  display: block; font: 800 clamp(26px, 2.8vw, 36px)/1.05 var(--f-display);
+  font-variant-numeric: tabular-nums; color: var(--ink);
+}
+.metric span { display: block; margin-top: 5px; font: 400 12.5px/1.4 var(--f-mono); color: var(--ink-muted); }
+.l-ta .metric span { font-family: var(--f-tamil-ui); font-size: 13.5px; }
+
+/* Sections */
+section.band { padding-block: clamp(56px, 7vw, 96px); border-bottom: 1px solid var(--border); }
+.sec-head { max-width: 74ch; margin-bottom: 36px; }
+.sec-head h2 {
+  margin: 0; font: 800 clamp(28px, 3.6vw, 48px)/1.08 var(--f-display); letter-spacing: -.025em;
+}
+.l-ta .sec-head h2 { font-family: var(--f-tamil-ui); font-size: clamp(24px, 3vw, 38px); line-height: 1.25; letter-spacing: 0; }
+.sec-head p { margin: 14px 0 0; color: var(--ink-muted); font-size: 17.5px; }
+
+/* Premise Thesis Cards */
+.premise-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.premise-card {
+  background: var(--bg-2); border: 1px solid var(--border); border-radius: 16px; padding: 24px;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.premise-card .k { font: 500 12px/1 var(--f-mono); color: var(--amber); letter-spacing: .08em; text-transform: uppercase; }
+.premise-card h3 { margin: 0; font: 700 20px/1.25 var(--f-display); }
+.premise-card p { margin: 0; font-size: 15.5px; color: var(--ink-muted); line-height: 1.62; }
+
+/* Interactive 5-Layer Evolutionary Stack */
+.stack-shell {
+  display: grid; grid-template-columns: 310px minmax(0, 1fr); gap: 24px; align-items: start;
+}
+.layer-nav { display: flex; flex-direction: column; gap: 8px; position: sticky; top: 84px; }
+.layer-btn {
+  text-align: left; cursor: pointer; padding: 16px 18px; border-radius: 14px;
+  background: var(--bg-2); border: 1px solid var(--border);
+  transition: border-color .2s, background .2s, transform .15s;
+}
+.layer-btn:hover { border-color: rgba(244,239,228,0.32); background: var(--bg-3); }
+.layer-btn[aria-selected="true"] {
+  background: var(--surface-hi); border-color: var(--amber);
+  box-shadow: inset 3px 0 0 var(--amber);
+}
+.layer-btn .l-idx { font: 500 11.5px/1 var(--f-mono); color: var(--amber); letter-spacing: .08em; }
+.layer-btn .l-ta { display: block; margin-top: 6px; font: 700 18px/1.3 var(--f-tamil); color: var(--ink); }
+.layer-btn .l-en { display: block; margin-top: 2px; font-size: 14px; color: var(--ink-muted); }
+
+.layer-panel {
+  background: var(--bg-2); border: 1px solid var(--border); border-radius: 20px;
+  padding: clamp(22px, 3vw, 38px); display: flex; flex-direction: column; gap: 26px;
+}
+.lp-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; align-items: flex-start; border-bottom: 1px solid var(--border); padding-bottom: 22px; }
+.lp-title-ta { font: 700 clamp(24px, 3vw, 36px)/1.25 var(--f-tamil); color: var(--amber); margin: 0; }
+.lp-title-en { font: 700 clamp(22px, 2.5vw, 30px)/1.18 var(--f-display); margin: 4px 0 0; }
+.lp-tagline { margin: 10px 0 0; font: italic 400 22px/1.3 var(--f-serif); color: var(--ink-muted); max-width: 56ch; }
+.l-ta .lp-tagline { font-family: var(--f-tamil); font-style: normal; font-size: 18px; }
+
+.lp-footprint {
+  background: var(--bg-3); border: 1px solid var(--border); border-radius: 12px;
+  padding: 12px 16px; min-width: 240px;
+}
+.lp-footprint .fp-k { font: 500 11px/1 var(--f-mono); color: var(--ink-muted); text-transform: uppercase; letter-spacing: .08em; }
+.lp-footprint .fp-v { font: 700 22px/1.2 var(--f-display); margin-top: 5px; font-variant-numeric: tabular-nums; }
+.fp-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; margin-top: 10px; background: rgba(255,255,255,0.08); }
+.fp-bar span { height: 100%; display: block; }
+.fp-tags { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; font: 400 11.5px/1.2 var(--f-mono); color: var(--ink-muted); }
+
+/* Contrast box: AGI vs Consciousness */
+.contrast-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.c-box { border-radius: 14px; padding: 20px; border: 1px solid var(--border); }
+.c-box.agi { background: rgba(108, 150, 255, 0.06); border-color: rgba(108, 150, 255, 0.25); }
+.c-box.evo { background: rgba(71, 184, 146, 0.07); border-color: rgba(71, 184, 146, 0.28); }
+.c-box h4 {
+  margin: 0 0 10px; font: 600 12px/1.2 var(--f-mono); text-transform: uppercase; letter-spacing: .09em;
+}
+.c-box.agi h4 { color: var(--cobalt); }
+.c-box.evo h4 { color: var(--jade); }
+.c-box p { margin: 0; font-size: 15.5px; line-height: 1.65; color: var(--ink); }
+
+/* Full Verbatim Verse Cards */
+.verses-stack { display: grid; gap: 16px; }
+.v-card {
+  background: var(--bg-3); border: 1px solid var(--border); border-radius: 14px;
+  padding: 20px 22px; border-left: 3px solid var(--amber);
+}
+.v-meta {
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px;
+  font: 500 12px/1.3 var(--f-mono); color: var(--amber); margin-bottom: 10px;
+}
+.v-tamil {
+  margin: 0; font: 500 clamp(17px, 1.55vw, 20px)/1.75 var(--f-tamil); color: var(--ink);
+  white-space: pre-line;
+}
+.v-gloss {
+  margin: 12px 0 0; font: 400 16px/1.55 var(--f-display); color: var(--ink-muted);
+}
+.v-why {
+  margin: 10px 0 0; padding-top: 10px; border-top: 1px solid var(--border);
+  font-size: 14.5px; color: #d6d2c7; line-height: 1.6;
+}
+.v-why strong { color: var(--jade); font-weight: 600; }
+
+.frontier-box {
+  background: linear-gradient(135deg, rgba(226,168,59,0.12), rgba(232,99,74,0.08));
+  border: 1px solid var(--border-hi); border-radius: 14px; padding: 20px 22px;
+}
+.frontier-box .fk { font: 600 11.5px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--amber); }
+.frontier-box p { margin: 8px 0 0; font: 600 clamp(18px, 1.8vw, 22px)/1.38 var(--f-display); color: var(--ink); }
+
+/* Section II: Cross-Book Dialectics Explorer */
+.filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; align-items: center; }
+.chip {
+  cursor: pointer; padding: 8px 14px; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--bg-2); color: var(--ink-muted);
+  font: 500 13px/1 var(--f-mono); transition: all .15s;
+}
+.chip:hover { border-color: var(--ink-muted); color: var(--ink); }
+.chip[aria-pressed="true"] { background: var(--amber); color: #121218; border-color: var(--amber); font-weight: 600; }
+
+.dialectics-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.d-card {
+  background: var(--bg-2); border: 1px solid var(--border); border-radius: 18px;
+  padding: 24px; display: flex; flex-direction: column; gap: 16px;
+}
+.d-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; }
+.badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  font: 600 11.5px/1 var(--f-mono); text-transform: uppercase; letter-spacing: .07em;
+  padding: 5px 10px; border-radius: 999px;
+}
+.badge.tension { background: var(--vermilion-soft); color: #ff9480; border: 1px solid rgba(232,99,74,0.4); }
+.badge.develops { background: var(--jade-soft); color: #8be0c0; border: 1px solid rgba(71,184,146,0.4); }
+.badge.sound { background: rgba(244,239,228,0.08); color: var(--ink-muted); }
+.d-pair { display: grid; gap: 12px; }
+.d-side {
+  background: var(--bg-3); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px;
+}
+.d-side .ds-id { font: 600 12px/1 var(--f-mono); color: var(--amber); margin-bottom: 6px; display: block; }
+.d-side .ds-ta { font: 500 15.5px/1.68 var(--f-tamil); margin: 0; white-space: pre-line; }
+.d-side .ds-r { font-size: 14px; color: var(--ink-muted); margin: 8px 0 0; line-height: 1.5; }
+.d-note { font-size: 14.5px; color: var(--ink-muted); line-height: 1.62; margin: 0; }
+.d-note strong { color: var(--ink); }
+.d-lens {
+  margin-top: auto; padding-top: 14px; border-top: 1px dashed var(--border);
+  font-size: 14.5px; color: var(--ink); line-height: 1.6;
+}
+.d-lens .dl-k { font: 600 11px/1 var(--f-mono); text-transform: uppercase; letter-spacing: .09em; color: var(--cobalt); display: block; margin-bottom: 5px; }
+
+/* Section III: Living Inquiry Studio */
+.studio-shell {
+  display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 24px; align-items: start;
+}
+.dilemma-list { display: flex; flex-direction: column; gap: 8px; }
+.dilemma-btn {
+  text-align: left; cursor: pointer; padding: 15px 16px; border-radius: 14px;
+  background: var(--bg-2); border: 1px solid var(--border);
+  transition: all .15s;
+}
+.dilemma-btn:hover { background: var(--bg-3); }
+.dilemma-btn[aria-selected="true"] { background: var(--surface-hi); border-color: var(--jade); box-shadow: inset 3px 0 0 var(--jade); }
+.dilemma-btn .dk { font: 500 11px/1 var(--f-mono); color: var(--jade); letter-spacing: .08em; text-transform: uppercase; }
+.dilemma-btn .dt { display: block; margin-top: 6px; font: 700 15.5px/1.35 var(--f-display); color: var(--ink); }
+
+.studio-main {
+  background: var(--bg-2); border: 1px solid var(--border); border-radius: 20px;
+  padding: clamp(22px, 3vw, 34px); display: flex; flex-direction: column; gap: 22px;
+}
+.studio-q { margin: 0; font: 800 clamp(22px, 2.4vw, 30px)/1.2 var(--f-display); }
+.studio-ctx { margin: 0; color: var(--ink-muted); font-size: 16px; line-height: 1.65; }
+
+.voices-tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.voice-tab {
+  cursor: pointer; padding: 8px 14px; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--bg-3); color: var(--ink-muted);
+  font-size: 13.5px; font-weight: 600;
+}
+.voice-tab[aria-selected="true"] { background: var(--jade); color: #0c1713; border-color: var(--jade); }
+.voice-card {
+  background: var(--bg-3); border: 1px solid var(--border); border-radius: 14px; padding: 18px 20px;
+}
+.voice-card .vc-src { font: 600 12px/1.2 var(--f-mono); color: var(--amber); margin-bottom: 8px; }
+.voice-card .vc-ta { font: 500 17px/1.7 var(--f-tamil); margin: 0 0 10px; white-space: pre-line; }
+.voice-card .vc-arg { margin: 0; font-size: 15.5px; color: var(--ink); line-height: 1.65; }
+
+.reflect-box { display: flex; flex-direction: column; gap: 10px; }
+.reflect-box label { font: 600 12px/1.2 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--amber); }
+.reflect-box textarea {
+  width: 100%; min-height: 112px; resize: vertical;
+  background: var(--bg); color: var(--ink); border: 1px solid var(--border); border-radius: 12px;
+  padding: 14px 16px; font: 15.5px/1.6 var(--f-display);
+}
+.reflect-box textarea:focus { border-color: var(--amber); outline: none; }
+.reflect-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.status-msg { font: 500 12.5px/1 var(--f-mono); color: var(--jade); }
+
+/* Footer / Method */
+.site-foot { padding-block: 48px 64px; background: #07090f; }
+.foot-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.7fr); gap: 32px; align-items: start; }
+.foot-grid h3 { margin: 0 0 10px; font: 600 13px/1 var(--f-mono); text-transform: uppercase; letter-spacing: .1em; color: var(--amber); }
+.foot-grid p { margin: 0 0 12px; font-size: 14.5px; color: var(--ink-muted); line-height: 1.68; }
+.foot-links { display: flex; flex-direction: column; gap: 10px; }
+.foot-links a {
+  display: inline-flex; align-items: center; justify-content: space-between;
+  padding: 12px 16px; border-radius: 12px; border: 1px solid var(--border);
+  background: var(--bg-2); text-decoration: none; font-size: 14px; font-weight: 600;
+}
+.foot-links a:hover { border-color: var(--amber); }
+.foot-links a span { font: 400 12px/1 var(--f-mono); color: var(--ink-muted); }
+
+@media (max-width: 960px) {
+  .hero-grid, .stack-shell, .studio-shell, .dialectics-grid, .premise-grid, .contrast-grid, .foot-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .layer-nav { position: static; flex-direction: row; overflow-x: auto; padding-bottom: 6px; }
+  .layer-btn { min-width: 220px; flex: 0 0 auto; }
+  .nav { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  html { scroll-behavior: auto; }
+}
+</style>
+
+
+<header class="mast">
+  <div class="mast-inner">
+    <a class="brand" href="#top"><i class="dot" aria-hidden="true"></i>UNARVU <span class="ta-tag" lang="ta">உணர்வு</span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#stack"><span class="en-only">5 Layers</span><span class="ta-only" lang="ta">ஐந்து நிலைகள்</span></a>
+      <a href="#dialectics"><span class="en-only">Dialectics</span><span class="ta-only" lang="ta">நூல் உரையாடல்கள்</span></a>
+      <a href="#studio"><span class="en-only">Inquiry Studio</span><span class="ta-only" lang="ta">ஆய்வுக் களம்</span></a>
+      <a class="ext" href="https://claude.ai/artifact/SF4gpiktxmJP8XfcLSbuSj" target="_blank" rel="noopener"><span class="en-only">Nilai</span><span class="ta-only" lang="ta">நிலை</span></a>
+      <a class="ext" href="https://claude.ai/artifact/8ypxS56cp7tjru16nV3d3K" target="_blank" rel="noopener"><span class="en-only">Graph Atlas</span><span class="ta-only" lang="ta">வரைபட நூல்</span></a>
+    </nav>
+    <div class="mast-right">
+      <div class="lang-toggle" role="group" aria-label="Language / மொழி">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="ta" aria-pressed="false" lang="ta">தமிழ்</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">
+            <span class="en-only">A 2,000-Year Cognitive Map for the Age of AGI &amp; ASI</span>
+            <span class="ta-only" lang="ta">செயற்கைப் பேரறிவு யுகத்திற்கான 2,000 ஆண்டு உணர்வு வரைபடம்</span>
+          </p>
+          <h1>
+            <span class="en-only">Intelligence is being externalized. <em>Consciousness cannot be.</em></span>
+            <span class="ta-only" lang="ta">அறிவு இயந்திரத்திற்குச் செல்கிறது. <em>உணர்வைப் பிரித்தளிக்க முடியாது.</em></span>
+          </h1>
+          <p class="hero-sub">
+            <span class="en-only">For two millennia, Tamil thinkers across four distinct traditions—a book of ethics, Jain moral verse, Saiva yoga and doctrine, and devotional song—dissected how awareness gets trapped by illusion, ego, and compulsive speech, and how it evolves beyond them. As AGI and ASI commoditize outer calculation, this knowledge graph surfaces the deeper research agenda: <strong>what human consciousness must become next.</strong></span>
+            <span class="ta-only" lang="ta">இரண்டாயிரம் ஆண்டுகளாக நான்கு தமிழ் மரபுகள்—அற நூல், சமண அறப் பாடல்கள், சைவ யோகமும் கோட்பாடும், பக்திப் பாடல்—உணர்வு எப்படி மருளிலும் அகந்தையிலும் சிக்கிக் கொள்கிறது, அதிலிருந்து எப்படி உயர்கிறது என்பதை நுணுகி ஆராய்ந்தன. செயற்கைப் பேரறிவு (AGI/ASI) புறக் கணக்கீட்டை முழுமையாக்கும் காலத்தில், இந்த அறிவு வரைபடம் ஆழமான கேள்வியை எழுப்புகிறது: <strong>மனித உணர்வு இனி எதை நோக்கிப் பரிணமிக்க வேண்டும்?</strong></span>
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#stack">
+              <span class="en-only">Explore the 5-Layer Stack</span>
+              <span class="ta-only" lang="ta">ஐந்து உணர்வு நிலைகளை ஆராய்க</span>
+            </a>
+            <a class="btn btn-ghost" href="#studio">
+              <span class="en-only">Open the Inquiry Studio</span>
+              <span class="ta-only" lang="ta">ஆய்வுக் களத்திற்குச் செல்க</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="observatory" aria-hidden="true">
+          <svg viewBox="0 0 360 360">
+            <defs>
+              <radialGradient id="g-core" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#fff1c4"/>
+                <stop offset="55%" stop-color="#e2a83b"/>
+                <stop offset="100%" stop-color="#e2a83b" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <!-- Outer ring: உலகநூல் / Computation -->
+            <g class="ring-spin-1">
+              <circle cx="180" cy="180" r="154" fill="none" stroke="rgba(108,150,255,0.34)" stroke-width="1.2" stroke-dasharray="4 7"/>
+              <circle cx="180" cy="26" r="4" fill="#6c96ff"/>
+              <circle cx="334" cy="180" r="4" fill="#6c96ff"/>
+              <circle cx="180" cy="334" r="4" fill="#6c96ff"/>
+              <circle cx="26" cy="180" r="4" fill="#6c96ff"/>
+            </g>
+            <!-- Ring 2: 36 Tattvas -->
+            <g class="ring-spin-2">
+              <circle cx="180" cy="180" r="122" fill="none" stroke="rgba(244,239,228,0.22)" stroke-width="1.2" stroke-dasharray="2 9"/>
+              <circle cx="266" cy="94" r="3.5" fill="#f4efe4"/>
+              <circle cx="94" cy="266" r="3.5" fill="#f4efe4"/>
+            </g>
+            <!-- Ring 3: Mummalam (3 structural impurities) -->
+            <g class="ring-spin-3">
+              <polygon points="180,82 265,229 95,229" fill="none" stroke="rgba(232,99,74,0.45)" stroke-width="1.4"/>
+              <circle cx="180" cy="82" r="5" fill="#e8634a"/>
+              <circle cx="265" cy="229" r="5" fill="#e8634a"/>
+              <circle cx="95" cy="229" r="5" fill="#e8634a"/>
+            </g>
+            <!-- Ring 4: 5 Avasthas -->
+            <circle cx="180" cy="180" r="64" fill="none" stroke="rgba(71,184,146,0.55)" stroke-width="1.5"/>
+            <circle cx="180" cy="116" r="3.5" fill="#47b892"/>
+            <circle cx="241" cy="160" r="3.5" fill="#47b892"/>
+            <circle cx="218" cy="232" r="3.5" fill="#47b892"/>
+            <circle cx="142" cy="232" r="3.5" fill="#47b892"/>
+            <circle cx="119" cy="160" r="3.5" fill="#47b892"/>
+            <!-- Center: Mounam / Meyyunarvu -->
+            <circle class="core-pulse" cx="180" cy="180" r="38" fill="url(#g-core)" opacity=".75"/>
+            <circle cx="180" cy="180" r="11" fill="#fff4d2"/>
+          </svg>
+          <p class="obs-caption">
+            <span class="en-only">Outer orbit: worldly data (உலகநூல்) · 36 tattvas · 3 structural biases (மும்மலம்) · 5 states of awareness (அவத்தை) · center: lucid silence (மோனம்)</span>
+            <span class="ta-only" lang="ta">வெளி வட்டம்: உலகநூல் · 36 தத்துவங்கள் · மும்மலம் · ஐந்து அவத்தைகள் · மையம்: தெளிந்த மோனம்</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="telemetry" id="telemetry"></div>
+    </div>
+  </section>
+
+  <!-- PREMISE: BEYOND SURFACE APHORISMS -->
+  <section class="band">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">
+          <span class="en-only">Why These Texts Matter Now</span>
+          <span class="ta-only" lang="ta">இந்த நூல்கள் இன்று ஏன் அவசியம்</span>
+        </p>
+        <h2>
+          <span class="en-only">Not ancient comfort. A survival manual for human interiority.</span>
+          <span class="ta-only" lang="ta">பழைய ஆறுதல் அல்ல. மனித அகவுலகின் பரிணாம வழிகாட்டி.</span>
+        </h2>
+        <p>
+          <span class="en-only">Most conversations about AGI stop at jobs, productivity, or safety checklists. The Tamil corpus survived 2,000 years because scholars and practitioners used it as a rigorous laboratory for a harder problem: <em>what happens to a mind when knowledge grows faster than wisdom?</em></span>
+          <span class="ta-only" lang="ta">செயற்கை நுண்ணறிவு பற்றிய பெரும்பாலான விவாதங்கள் வேலைவாய்ப்பு அல்லது தொழில்நுட்பப் பாதுகாப்போடு நின்றுவிடுகின்றன. இந்தத் தமிழ் நூல்கள் 2,000 ஆண்டுகள் நிலைத்திருக்கக் காரணம், அவை ஆழமான ஒரு கேள்விக்கான ஆய்வுக்களமாக இருந்தன: <em>ஞானத்தைவிடத் தகவல் வேகமாக வளரும்போது மனித மனம் என்னவாகும்?</em></span>
+        </p>
+      </div>
+      <div class="premise-grid">
+        <article class="premise-card">
+          <span class="k"><span class="en-only">01 · Beyond Retrieval</span><span class="ta-only" lang="ta">01 · தகவலுக்கு அப்பால்</span></span>
+          <h3><span class="en-only">The collapse of outer intellect</span><span class="ta-only" lang="ta">புற அறிவின் எல்லை</span></h3>
+          <p><span class="en-only">Naladiyar 140 calls worldly scholarship without wisdom mere <em>kalakala</em>—noise. When ASI masters all worldly texts instantly, human value shifts entirely from storing knowledge to <strong>meyyunarvu</strong>: perceiving what is real beneath fluency.</span><span class="ta-only" lang="ta">அறிவுநூல் கல்லாது உலகநூல் ஓதுவதை நாலடியார் 140 வெறும் ‘கலகல’ ஓசை என்கிறது. ASI எல்லா உலகநூல்களையும் நொடியில் கற்கும்போது, மனித மதிப்பு <strong>மெய்யுணர்வு</strong> நோக்கி நகர்கிறது.</span></p>
+        </article>
+        <article class="premise-card">
+          <span class="k"><span class="en-only">02 · Self-Audit Before AI Audit</span><span class="ta-only" lang="ta">02 · முதலில் மன ஆய்வே</span></span>
+          <h3><span class="en-only">Reverse-engineering our own bias</span><span class="ta-only" lang="ta">நம் அகச் சிதைவுகளை அறிதல்</span></h3>
+          <p><span class="en-only">Tirumular refuses literal myth: the "three cities" to burn are the <strong>three structural impurities</strong> inside consciousness (<em>mummalam</em>). Aligning superintelligence without auditing human ego-contraction simply scales our own blindness.</span><span class="ta-only" lang="ta">முப்புரம் என்பது வெளிக் கோட்டை அல்ல, மனித உணர்வில் இயங்கும் <strong>மும்மலம்</strong> என்கிறார் திருமூலர் (343). நம் அகந்தையை ஆராயாமல் பேரறிவை உருவாக்கினால் நம் குருட்டுத்தனமே பெருகும்.</span></p>
+        </article>
+        <article class="premise-card">
+          <span class="k"><span class="en-only">03 · Living Contradiction</span><span class="ta-only" lang="ta">03 · உயிருள்ள விவாதம்</span></span>
+          <h3><span class="en-only">Four traditions arguing in public</span><span class="ta-only" lang="ta">நான்கு மரபுகளின் நேர்மையான விவாதம்</span></h3>
+          <p><span class="en-only">These books do not preach one dogma. Tirumular turns the body into a temple against Naladiyar's disgust; Arunagirinathar challenges yogis chasing immortality. Real evolution happens inside these honest tensions.</span><span class="ta-only" lang="ta">இந்த நூல்கள் ஒரே கோட்பாட்டைச் சொல்லவில்லை. நாலடியாரின் உடல் வெறுப்புக்கு எதிராகத் திருமூலர் உடலைக் கோயிலாக்குகிறார்; யோகத்தின் உடல் பற்றை அருணகிரிநாதர் கேள்வி கேட்கிறார்.</span></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION I: INTERACTIVE 5-LAYER EVOLUTIONARY STACK -->
+  <section class="band" id="stack">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">
+          <span class="en-only">Section I · Architecture of Evolution</span>
+          <span class="ta-only" lang="ta">பகுதி I · உணர்வுப் பரிணாமத்தின் கட்டமைப்பு</span>
+        </p>
+        <h2>
+          <span class="en-only">Five layers of consciousness the texts map—and no one can practise them for us</span>
+          <span class="ta-only" lang="ta">நூல்கள் வரையும், நமக்காக வேறு யாரும் பயில முடியாத ஐந்து உணர்வு நிலைகள்</span>
+        </h2>
+        <p>
+          <span class="en-only">Select any layer to inspect what AGI automates, what human consciousness must evolve, the exact verse counts across our four-book graph, and unabridged Tamil primary texts.</span>
+          <span class="ta-only" lang="ta">ஒவ்வொரு நிலையையும் தேர்ந்தெடுத்து, AGI எதைத் தானியக்கமாக்குகிறது, மனித உணர்வு எதை வளர்க்க வேண்டும், நான்கு நூல்களின் பாடல் எண்ணிக்கை மற்றும் முழுத் தமிழ் மூலப் பாடல்களைப் பார்க்கவும்.</span>
+        </p>
+      </div>
+
+      <div class="stack-shell">
+        <div class="layer-nav" role="tablist" aria-label="Five layers of consciousness" id="layer-nav"></div>
+        <div class="layer-panel" id="layer-panel" role="tabpanel" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION II: LIVE CROSS-BOOK DIALECTICS -->
+  <section class="band" id="dialectics">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">
+          <span class="en-only">Section II · Live Knowledge Graph Evidence</span>
+          <span class="ta-only" lang="ta">பகுதி II · அறிவு வரைபடத்தின் நேரடிச் சான்றுகள்</span>
+        </p>
+        <h2>
+          <span class="en-only">Audited cross-book dialectics: where 1,500 years of minds clash and deepen</span>
+          <span class="ta-only" lang="ta">மதிப்பிடப்பட்ட நூல் உரையாடல்கள்: 1,500 ஆண்டு அறிவு மோதல்களும் வளர்ச்சியும்</span>
+        </h2>
+        <p>
+          <span class="en-only">Every pair below is pulled directly from the built graph (<code>kg/*/edges.jsonl</code>)—independently blind-graded as <code>sound</code>—showing complete Tamil verses, the graph's verified reasoning, and why the clash matters in an ASI world.</span>
+          <span class="ta-only" lang="ta">கீழே உள்ள ஒவ்வொரு இணையும் நேரடியாக அறிவு வரைபடத்திலிருந்து (<code>kg/*/edges.jsonl</code>) எடுக்கப்பட்டு ‘உறுதியானது’ எனத் தனித்து மதிப்பிடப்பட்டது—முழுத் தமிழ் பாடல்களுடனும் எதிர்காலப் பார்வையுடனும்.</span>
+        </p>
+      </div>
+
+      <div class="filter-bar" id="dialectic-filters" role="group" aria-label="Filter dialectics"></div>
+      <div class="dialectics-grid" id="dialectics-grid"></div>
+    </div>
+  </section>
+
+  <!-- SECTION III: LIVING INQUIRY STUDIO -->
+  <section class="band" id="studio">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">
+          <span class="en-only">Section III · Stoke the Conversation</span>
+          <span class="ta-only" lang="ta">பகுதி III · உரையாடலைத் தூண்டுவோம்</span>
+        </p>
+        <h2>
+          <span class="en-only">The Living Inquiry Studio: four unresolved questions for builders, scholars &amp; seekers</span>
+          <span class="ta-only" lang="ta">ஆய்வுக் களம்: உருவாக்குநர்கள், அறிஞர்கள், தேடுநர்களுக்கான நான்கு திறந்த கேள்விகள்</span>
+        </h2>
+        <p>
+          <span class="en-only">Do not just read—interrogate. Compare how four classical voices challenge each modern dilemma, draft your own thesis (saved locally in your browser), and export a structured Markdown inquiry brief to bring into a research group, salon, or AI dialogue.</span>
+          <span class="ta-only" lang="ta">வெறுமனே படித்துச் செல்ல வேண்டாம்—உரையாடுங்கள். ஒவ்வொரு நவீன சிக்கலையும் நான்கு தமிழ் மரபுகள் எப்படிக் காண்கின்றன என்பதை ஒப்பிட்டு, உங்கள் சிந்தனையைப் பதிவு செய்து, விவாதத்திற்கான Markdown குறிப்பாக நகலெடுங்கள்.</span>
+        </p>
+      </div>
+
+      <div class="studio-shell">
+        <div class="dilemma-list" role="tablist" aria-label="Future dilemmas" id="dilemma-list"></div>
+        <div class="studio-main" id="studio-main" role="tabpanel" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h3><span class="en-only">Method, Honesty &amp; Horizon</span><span class="ta-only" lang="ta">முறை, நேர்மை &amp; அடுத்த கட்டம்</span></h3>
+        <p>
+          <span class="en-only"><strong>Data integrity:</strong> All counts and verse texts on this page are generated directly from <code>kg/</code> by <code>site/build.py</code> with undirected link deduplication and <code>wrong</code>-graded links excluded from headline totals. Every Tamil verse shown here is complete—never truncated—and verified verbatim against Project Madurai source texts.</span>
+          <span class="ta-only" lang="ta"><strong>தரவு நேர்மை:</strong> இப்பக்கத்தின் அனைத்து எண்ணிக்கைகளும் மூலப் பாடல்களும் <code>kg/</code> வரைபடத்திலிருந்து <code>site/build.py</code> மூலம் நேரடியாக உருவாக்கப்பட்டவை. இரட்டை இணைப்புகள் நீக்கப்பட்டு, ஒவ்வொரு தமிழ் பாடலும் முழுமையாகத் தரப்பட்டுள்ளது.</span>
+        </p>
+        <p>
+          <span class="en-only"><strong>Epistemic caution:</strong> Readings, concepts, and links across the first four books (Thirukkural, Naladiyar, Tirumanthiram, Thiruppugazh) were marked and blind-audited by AI agents and have not yet been reviewed by a human classical Tamil scholar. Six more ingested works (Tiruvasagam, Avvaiyar, Thirumurai, Purananuru, Siddhar songs, Divya Prabandham) are next in the pipeline.</span>
+          <span class="ta-only" lang="ta"><strong>கவனக் குறிப்பு:</strong> முதல் நான்கு நூல்களின் பொருள்விளக்கங்களும் இணைப்புகளும் AI முகவர்களால் உருவாக்கப்பட்டுத் தனித்து மதிப்பிடப்பட்டவை; இன்னும் மனிதத் தமிழறிஞர் ஒருவரால் சரிபார்க்கப்படவில்லை. அடுத்ததாக திருவாசகம், ஔவையார், திருமுறை, புறநானூறு, சித்தர் பாடல்கள், திவ்யப் பிரபந்தம் ஆகிய ஆறு நூல்கள் இணைக்கப்பட உள்ளன.</span>
+        </p>
+      </div>
+      <div class="foot-links">
+        <a href="https://claude.ai/artifact/SF4gpiktxmJP8XfcLSbuSj" target="_blank" rel="noopener">
+          <strong class="en-only">Nilai · Companion Visual Essay</strong>
+          <strong class="ta-only" lang="ta">நிலை · இணைக் காட்சிப் பக்கம்</strong>
+          <span>open →</span>
+        </a>
+        <a href="https://claude.ai/artifact/8ypxS56cp7tjru16nV3d3K" target="_blank" rel="noopener">
+          <strong class="en-only">Interactive 4-Book Graph Atlas</strong>
+          <strong class="ta-only" lang="ta">நான்கு நூல் அறிவு வரைபட நூல்</strong>
+          <span>open →</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const GRAPH = {"summary":{"verses_total":5838,"unique_sound_links":4611,"consciousness_verses":2834,"queued_books":6},"layer_footprints":{"signal":{"total":538,"by_book":{"kural":197,"naladiyar":58,"tirumanthiram":250,"thiruppugazh":33}},"os":{"total":575,"by_book":{"kural":0,"naladiyar":0,"tirumanthiram":484,"thiruppugazh":91}},"silence":{"total":182,"by_book":{"kural":0,"naladiyar":0,"tirumanthiram":106,"thiruppugazh":76}},"ego":{"total":708,"by_book":{"kural":32,"naladiyar":39,"tirumanthiram":413,"thiruppugazh":224}},"telos":{"total":1502,"by_book":{"kural":86,"naladiyar":25,"tirumanthiram":1222,"thiruppugazh":169}}},"verses":{"kural:34":{"tamil":["மனத்துக்கண் மாசிலன் ஆதல் அனைத்து அறன்","ஆகுல நீர பிற"],"reading":"To be spotless in mind is the whole of virtue, and everything else is noisy show.","chapter":"அறன்வலியுறுத்தல்","uncertain":false},"kural:269":{"tamil":["கூற்றம் குதித்தலும் கைகூடும் நோற்றலின்","ஆற்றல் தலைப்பட் டவர்க்கு"],"reading":"Even leaping past death becomes possible for those who have attained the power of austerity.","chapter":"தவம்","uncertain":false},"kural:346":{"tamil":["யான் எனது என்னும் செருக்கு அறுப்பான் வானோர்க்கு","உயர்ந்த உலகம் புகும்"],"reading":"One who cuts off the pride of saying 'I' and 'mine' enters a world higher than the gods'.","chapter":"துறவு","uncertain":false},"kural:351":{"tamil":["பொருளல்ல வற்றைப் பொருளென்று உணரும்","மருளானாம் மாணாப் பிறப்பு"],"reading":"A joyless birth comes from the confusion that perceives what isn't real as real.","chapter":"மெய்யுணர்தல்","uncertain":false},"kural:355":{"tamil":["எப்பொருள் எத்தன்மைத் தாயினும் அப்பொருள்","மெய்ப்பொருள் காண்பது அறிவு"],"reading":"Whatever a thing is and of whatever nature, seeing the true thing in that thing is understanding.","chapter":"மெய்யுணர்தல்","uncertain":false},"kural:391":{"tamil":["கற்க கசடறக் கற்பவை கற்றபின்","நிற்க அதற்குத் தக"],"reading":"Learn what is to be learned without flaw, and having learned, stand in keeping with it.","chapter":"கல்வி","uncertain":false},"kural:423":{"tamil":["எப்பொருள் யார்யார்வாய்க் கேட்பினும் அப்பொருள்","மெய்ப்பொருள் காண்ப தறிவு"],"reading":"Whatever is heard, from whoever's mouth, understanding is seeing the true substance of that very thing.","chapter":"அறிவுடைமை","uncertain":false},"naladiyar:6":{"tamil":["இழைத்தநாள் எல்லை இகவா பிழைத்தொரீஇக்","கூற்றம் குதித்துய்ந்தார் ஈங்கில்லை - ஆற்றப்","பெரும்பொருள் வைத்தீர், வழங்குமின், நாளைத்","தழீஇம் தழீஇம் தண்ணம் படும்."],"reading":"The appointed span of days cannot be exceeded and no one here has leapt clear of Death and escaped; you who hold great wealth, give it away, for tomorrow the funeral drum may sound.","chapter":"செல்வம் நிலையாமை","uncertain":false},"naladiyar:47":{"tamil":["ஊறி உவர்த்தக்க ஒன்பது வாய்ப்புலனும்","கோதிக் குழம்பலைக்கும் கும்பத்தைப் - பேதை","பெருந்தோளி பெய்வளாய் என்னுமீப் போர்த்த","கருந்தோலால் கண்விளக்கப் பட்டு."],"reading":"The fool calls out 'broad-shouldered one, bangle-wearer' to a pot that seeps filth from nine openings and churns with slime, because its covering of dark skin dazzles his eyes.","chapter":"தூய்தன்மை","uncertain":false},"naladiyar:136":{"tamil":["தோணி இயக்குவான் தொல்லை வருணத்துக்","காணிற் கடைப்பட்டான் என்றிகழார் - காணாய்","அவன்துணையா ஆறுபோ யற்றேநூல் கற்ற","மகன்துணையா நல்ல கொளல்."],"reading":"No one despises the ferryman for being of the lowest of the old castes, but crosses the river with his help; so take what is good from a man who has learned books, whatever his birth.","chapter":"கல்வி","uncertain":false},"naladiyar:140":{"tamil":["அலகுசால் கற்பின் அறிவுநூல் கல்லா(து)","உலகநூ லோதுவ தெல்லாம் - கலகல","கூஉந் துணையல்லால் கொண்டு தடுமாற்றம்","போஒம் துணையறிவா ரில்."],"reading":"Of all the many kinds of learning, studying worldly books while leaving the books of wisdom unread amounts only to clamour; there is no one who knows how to make confusion leave by that means.","chapter":"கல்வி","uncertain":false},"tirumanthiram:270":{"tamil":["அன்பு சிவம் இரண்டு என்பர் அறிவிலார்","அன்பே சிவமாவது ஆரும் அறிகிலார்","அன்பே சிவமாவது ஆரும் அறிந்தபின்","அன்பே சிவமாய் அமர்ந்திருந் தாரே."],"reading":"The ignorant say love and Siva are two; no one knows that love itself is Siva; once they know it, they rest as love that is Siva.","chapter":"அன்புடைமை","uncertain":false},"tirumanthiram:301":{"tamil":["தேவர் பிரானைத் திவ்விய மூர்த்தியை","யாவர் ஒருவர் அறிவார் அறிந்தபின்","ஓதுமின் கேள்மின் உணர்மின் உணர்ந்தபின்","ஓதி உணர்ந்தவர் ஓங்கி நின்றாரே."],"reading":"Who knows the Lord of the gods, the divine form? Once you know him, recite, listen and realise; those who recited and realised stood exalted.","chapter":"கேள்வி கேட்டமைதல்","uncertain":false},"tirumanthiram:343":{"tamil":["அப்பணி செஞ்சடை ஆதி புராதனன்","முப்புரம் செற்றனன் என்பர்கள் மூடர்க்கள்","முப்புர மாவது மும்மல காரியம்","அப்புரம் எய்தமை யாரறி வாரே"],"reading":"Fools say the Ancient One, with water in his red matted hair, burned the three cities; the three cities are the work of the three impurities, and who knows that it was these he shot?","chapter":"பதிவலியில் வீரட்டம் எட்டு","uncertain":false},"tirumanthiram:722":{"tamil":["ஈராறு கால்கொண் டெழுந்த புரவியைப்","பேராமற் கட்டிப் பெரிதுண்ண வல்லீரேல்","நீரா யிரமும் நிலமாயி ரத்தாண்டும்","பேராது காயம் பிரான்நந்தி ஆணையே"],"reading":"If you can tie fast, so that it does not escape, the horse that rose with twelve legs, and drink deeply, the body will not leave for a thousand years of water and a thousand of earth; this is the Lord Nandi's command.","chapter":"கலை நிலை","uncertain":true},"tirumanthiram:725":{"tamil":["உடம்பினை முன்னம் இழுக்கென் றிருந்தேன்","உடம்பினுக் குள்ளே யுறுபொருள் கண்டேன்","உடம்புளே உத்தமன் கோயில்கொண் டான் என்று","உடம்பினை யானிருந் தோம்புகின் றேனே"],"reading":"I once held the body to be a thing of shame; then within the body I saw the true substance, and knowing that the Highest has made the body his temple, I now cherish it.","chapter":"காயசித்தி உபாயம்","uncertain":false},"tirumanthiram:1442":{"tamil":["சாற்றரி தாகிய தத்துவஞ் சித்தித்தால்","ஆற்றரி தாகிய ஐந்தும் அடங்கிடும்","மேற்றிகழ் ஞானம் விளக்கொளி யாய்நிற்கும்","பாற்பர சாயுச்சிய மாகும் பதியே."],"reading":"When the truth beyond speech is attained, the five that are hard to curb subside, knowledge shines above as the light of a lamp, and union with the Supreme becomes one's station.","chapter":"கடுஞ் சுத்த சைவம்","uncertain":false},"tirumanthiram:1532":{"tamil":["உள்ளத்தும் உள்ளன் புறத்துள்ளன் என்பவர்க்","குள்ளத்தும் உள்ளன் புறத்துள்ளன் எம்மிறை","உள்ளத்தும் இல்லை புறத்தில்லை என்பவர்க்","குள்ளத்தும் இல்லை புறத்தில்லை தானே."],"reading":"For those who say he is within and without, our Lord is within and without; for those who say he is neither within nor without, he is neither within nor without.","chapter":"அருசமயப் பிணக்கம்","uncertain":false},"tirumanthiram:1695":{"tamil":["தொழிலார மாமணித் தூய்தான சிந்தை","எழிலால் இறைவன் இடங்கொண்ட போதே","விழலார் விறலாம் வினையது போகக்","கழலார் திருவடி கண்டரு ளாமே."],"reading":"When the Lord, for its beauty, takes his place in a mind made pure like a great jewel polished by work, deeds strong as weeds depart and one sees his anklet-bearing holy feet, and grace comes.","chapter":"பக்குவன்","uncertain":false},"tirumanthiram:1697":{"tamil":["சத்தும் அசத்துமெவ் வாறெனத் தானுன்னிச்","சித்தை யுருக்கிக் சிவனருள் கைகாட்டப்","பத்தியின் ஞானம் பெறப்பணிந் தானந்தச்","சத்தியில் இச்சை தகுவோன்சற் சீடனே."],"reading":"He who considers how the real and the unreal stand, melts his mind, bows when Siva's grace points the way so as to gain knowledge through devotion, and whose desire is fit for the Shakti of bliss: he is the true disciple.","chapter":"பக்குவன்","uncertain":false},"tirumanthiram:1823":{"tamil":["உள்ளம் பெருங்கோயில் ஊனுடம்பு ஆலயம்","வள்ளற் பிரானார்க்கு வாய்கோ புரவாசல்","தெள்ளத் தெளிந்தார்க்குச் சீவன் சிவலிங்கம்","கள்ளப் புலன்ஐந்தும் காளா மணிவிளக்கே."],"reading":"For the generous Lord the heart is the great temple, the body of flesh the shrine and the mouth the tower gate; for those clear through and through, the soul is the Sivalinga, and the five thieving senses are the bright lamps.","chapter":"சிவபூசை","uncertain":false},"tirumanthiram:1896":{"tamil":["வாக்கு மனமும் இரண்டும் மவுனமாம்","வாக்கு மவுனத்து வந்தாலும் மூங்கையாம்","வாக்கு மனமும் மவுனமாம் சுத்தரே","ஆக்கும் அச் சுத்தத்தை யார்அறி வார்களே."],"reading":"When speech and mind are both still, that is silence; if only speech falls silent, one is merely mute; the pure are those in whom speech and mind are silent, and who knows the purity they bring about?","chapter":"முத்திரை பேதம்","uncertain":false},"tirumanthiram:2017":{"tamil":["சீவன் எனச்சிவன் என்னவே றில்லை","சீவ னார்சிவ னாரை அறிகிலர்","சீவ னார்சிவ னாரை அறிந்தபின்","சீவ னார்சிவ னாயிட்டு இருப்பரே."],"reading":"There is no difference called soul and Siva; souls do not know Siva, and once souls know Siva, souls remain as Siva.","chapter":"போதன் (அறிஞன்)","uncertain":false},"tirumanthiram:2020":{"tamil":["ஆறாறின் தன்மை அறியாது இருந்தேனுக்கு","ஆறாறின் தன்மை அறிவித்தான் பேர்நந்தி","ஆறாறின் தன்மை அருளால் அறிந்த பின்","ஆறாறுக்கு அப்புறம் ஆகி நின் றானே."],"reading":"To me, who did not know the nature of the thirty-six, Nandi made known the nature of the thirty-six; after I knew it by his grace, he stood beyond the thirty-six.","chapter":"போதன் (அறிஞன்)","uncertain":false},"tirumanthiram:2166":{"tamil":["நேரா மலத்தை நீடுஐந்து அவத்தையின்","நேரான வாறுஉன்னி நீடு நனவினில்","நேரா மலம்ஐந்தும் நேரே தரிசித்து","நேராம் பரத்துடன் நிற்பது நித்தமே."],"reading":"Considering how the five stubborn malas work through the five long states, one who sees all five plainly while fully awake stands always with the Supreme.","chapter":"அவத்தை பேதம் - கீழால் அவத்தை","uncertain":false},"tirumanthiram:2382":{"tamil":["ஆறந்த மும்சென்று அடங்கும்அந் நேயத்தே","ஆறந்த ஞேயம் அடங்கிடும் ஞாதுரு","கூறிய ஞானக் குறியுடன் வீடவே","தேறிய மோனம் சிவானந்த மாமே."],"reading":"The six ends all go and subside in that known; the knower too subsides in the known of the six ends; when even the stated mark of knowledge departs, the clear silence becomes Siva's bliss.","chapter":"ஆறு அந்தம்","uncertain":false},"tirumanthiram:2820":{"tamil":["நான்என்றும் தான்என்றும் நாடினேன் நாடலும்","நான்என்றும் தான்என்றும் இரண்டில்லை என்பது","நான்என்ற ஞான முதல்வனே நல்கினான்","நான்என்ற நானும் நினைப்பு ஒழிந்தேனே."],"reading":"I searched, calling it 'I' and calling it 'He', and as I searched, the First of knowledge who is the 'I' granted me that 'I' and 'He' are not two; and I, the one who said 'I', ceased to think.","chapter":"ஞானோதயம்","uncertain":false},"tirumanthiram:2951":{"tamil":["தானும் அழிந்து தனமும் அழிந்துநீடு","ஊனும் அழிந்து உயிரும் அழிந்துடன்","வானும் அழிந்து மனமும் அழிந்துபின்","நானும் அழிந்தமை நானறி யேனே."],"reading":"Self destroyed, wealth destroyed, the long-lasting flesh destroyed, life destroyed with it, the sky destroyed and the mind destroyed, I do not know that I too was destroyed.","chapter":"மோன சமாதி","uncertain":false},"thiruppugazh:22":{"tamil":["அந்தகன் வருந்தினம் பிறகிடச்","சந்ததமும் வந்துகண் டரிவையர்க்","கன்புருகு சங்கதந் தவிரமுக் ...... குணமாள","அந்திபக லென்றிரண் டையுமொழித்","திந்திரிய சஞ்சலங் களையறுத்","தம்புய பதங்களின் பெருமையைக் ...... கவிபாடிச்","செந்திலை யுணர்ந்துணர்ந் துணர்வுறக்","கந்தனை யறிந்தறிந் தறிவினிற்","சென்றுசெரு குந்தடந் தெளிதரத் ...... தணியாத","சிந்தையு மவிழ்ந்தழிந் துரையொழித்","தென்செய லழிந்தழிந் தழியமெய்ச்","சிந்தைவர என்றுநின் தெரிசனைப் ...... படுவேனோ"],"reading":"The poet asks when, with Death turned back and the craving for women gone, the three gunas ended, day and night left behind and the senses' agitation cut, singing poems on the lotus feet and knowing Senthil and Kandan ever deeper, his mind will melt and dissolve, his speech end and his own action perish, so that he gains the vision of Murugan. The praise shows Indra crying 'refuge' and regaining his city, Devayanai gaining Murugan's arms, the demons dying, and the child Murugan toddling with bells and anklets ringing until Sankari's heart melts.","chapter":"திருச்செந்தூர்","uncertain":false},"thiruppugazh:343":{"tamil":["சீசி முப்புரக் காடு நீறெழச்","சாடி நித்திரைக் கோசம் வேரறச்","சீவன் முத்தியிற் கூட வேகளித் ...... தநுபூதி","சேர அற்புதக் கோல மாமெனச்","சூரி யப்புவிக் கேறி யாடுகச்","சீலம் வைத்தருட் டேறி யேயிருக் ...... கறியாமற்","பாசம் விட்டுவிட் டோ டி போனதுப்","போது மிப்படிக் காகி லேனினிப்","பாழ்வ ழிக்கடைக் காம லேபிடித் ...... தடியேனைப்","பார டைக்கலக் கோல மாமெனத்","தாப ரித்துநித் தார மீதெனப்","பாத பத்மநற் போதை யேதரித் ...... தருள்வாயே"],"reading":"The poet seems to rebuke himself ('fie!') for having tasted jivanmukti and experience, burning the three cities to ash and uprooting the sheath of sleep, and yet, not knowing how to stay settled in grace, having run off and let go; he asks Murugan to hold him so he does not end on the ruined road and to grant the lotus feet. The praise names Siva with trident, deer and axe and Uma at his side, whose golden guru Murugan is, and lists the shrines where Murugan receives worship three times a day: Kasi, Madurai, the seven hills, Kovalur, Vedaranyam, Kazhi, Arur, Puliyur, Kalatti, Chiramalai and Kanchi.","chapter":"காஞ்சீபுரம்","uncertain":true},"thiruppugazh:355":{"tamil":["அனித்த மான வூனாளு மிருப்ப தாக வேநாசி","யடைதலந வாயு வோடாத ...... வகைசாதித்","தவத்தி லேகு வால்மூலி புசித்து வாடு மாயாச","அசட்டு யோகி யாகாமல் ...... மலமாயை","செனித்த காரி யோபாதி யொழித்து ஞான ஆசார","சிரத்தை யாகி யான்வேறெ ...... னுடல்வேறு","செகத்தி யாவும் வேறாக நிகழ்ச்சி யாம நோதீத","சிவச்சொ ரூபமாயோகி ...... யெனஆள்வாய்"],"reading":"The poet asks not to become a foolish yogi of desire and illusion who, thinking this impermanent flesh will last, holds the breath so it does not leave the nostrils and withers in austerity eating herbs; he asks instead that, with malam, maya and their adjuncts removed, devoted to the conduct of knowledge, knowing 'I am other, my body is other, the whole world is other', he be ruled as a yogi of Siva's own form beyond the mind. The praise names Gopala of the thousand names who plays the flute as uncle, Murugan of Vayalur, and the grove-circled Kavai watered by the Kaveri's flood, which all world-rulers revere.","chapter":"திருவானைக்கா","uncertain":false},"thiruppugazh:581":{"tamil":["மாலாசை கோப மோயாதெ நாளு","மாயா விகார ...... வழியேசெல்","மாபாவி காளி தானேனு நாத","மாதா பிதாவு ...... மினிநீயே","நாலான வேத நூலாக மாதி","நானோதி னேனு ...... மிலைவீணே","நாள்போய் விடாம லாறாறு மீதில்","ஞானோப தேச ...... மருள்வாயே"],"reading":"The poet says that though he is a great sinner walking maya's twisted way, with infatuation, desire and anger unceasing, Murugan is now his mother and father; he has not studied the four Vedas or the Agamas, so that his days not pass in vain he asks for the teaching of knowledge beyond the thirty-six. The praise names the child adorned with fragrant sandal, Murugan of Vayalur and Viralimalai, the six-faced son of the lord of ghouls and goblins, foe of Sura, lord of the gods.","chapter":"விராலிமலை","uncertain":false},"thiruppugazh:1011":{"tamil":["உரைதரு பரசம யங்க ளோதுவ","துருவென அருவென வொன்றி லாததொ","ரொளியென வெளியென வும்ப ராமென ...... இம்பராநின்","றுலகுகள் நிலைபெறு தம்ப மாமென","வுரைசெய அதுபொருள் கண்டு மோனமொ","டுணர்வுற வுணர்வொடி ருந்ந நாளும ...... ழிந்திடாதே","பரகதி பெறுவதொ ழிந்தி டார்வன","பரிசன தெரிசன கந்த வோசைகள்","பலநல விதமுள துன்ப மாகிம ...... யங்கிடாதே","பரிபுர பதமுள வஞ்ச மாதர்கள்","பலபல விதமுள துன்ப சாகர","படுகுழி யிடைவிழு பஞ்ச பாதக ...... னென்றுதீர்வேன்"],"reading":"The poet asks when, hearing what the rival sects call the ultimate (form, the formless, a light that is neither, space, heaven, the pillar holding the worlds) and seeing the reality itself, he will rest in awareness and silence, strive for the highest state, not be bewildered by the pleasures of touch, sight, smell and sound, and be freed from the pit of deceitful women into which he, guilty of the five great sins, has fallen. The praise shows the gods crying 'Hara Hara, Siva's son Skanda, refuge!' and Murugan saying 'fear not', the vel that tore the asura's chest, the emerald peacock, and Brahma, Vishnu and Siva praising him.","chapter":"பொதுப்பாடல்கள்","uncertain":true}},"dialectics":[{"a":"tirumanthiram:1697","b":"kural:351","type":"DEVELOPS","topic":"epistemology","note":"Kural 351 says inglorious birth comes from taking what is not real as real (பொருளல்லவற்றைப் பொருளென்று உணரும் மருள்). 1697 makes the first mark of the true disciple that he considers how the real and the unreal stand (சத்தும் அசத்தும் எவ்வாறென), and then joins that discernment to devotion and grace. The Kural names the error; Tirumular builds the cure into the disciple's training.","lens_en":"In an age of synthetic media and fluent AI output, Kural 351 names the error of taking the unreal for the real (மருள்), and Tirumular 1697 makes weighing the real and the unreal (சத்தும் அசத்தும்) the first mark of a true disciple.","lens_ta":"செயற்கை ஊடகங்களும் சரளமான AI வெளியீடுகளும் பெருகும் காலத்தில், பொருளல்லாததைப் பொருளாக உணரும் மருளைக் குறள் 351 சுட்டுகிறது; சத்தும் அசத்தும் எவ்வாறு என்று ஆராய்வதை நல்ல சீடனின் முதல் அடையாளமாகத் திருமந்திரம் 1697 வைக்கிறது."},{"a":"tirumanthiram:2820","b":"kural:346","type":"DEVELOPS","topic":"silence","note":"Kural 346 says one who cuts off the pride of saying 'I' and 'mine' (யான் எனது என்னும் செருக்கு) enters a world above the gods. 2820 goes past cutting pride: after the gift that 'I' and 'He' are not two, even the 'I' that said 'I' ceases to think (நான்என்ற நானும் நினைப்பு ஒழிந்தேனே). The Kural's renunciation of the ego is carried to its disappearance in knowledge.","lens_en":"As AGI ends the human monopoly on cognition, Kural 346 treats cutting off the pride of 'I' and 'mine' as an ascent, and Tirumular 2820 carries it further: the 'I' that said 'I' falls quiet in knowledge. Neither verse counts this as a loss.","lens_ta":"மனித அறிவின் தனியுரிமை முடியும் காலத்தில், ‘யான் எனது’ என்னும் செருக்கை அறுப்பதைக் குறள் 346 உயர்வாகக் காண்கிறது; திருமந்திரம் 2820 அதை மேலும் தொடர்கிறது: ‘நான்’ என்று சொன்ன நானும் ஞானத்தில் நினைப்பு ஒழிகிறது. இரண்டுமே இதை இழப்பாகக் கருதவில்லை."},{"a":"thiruppugazh:22","b":"tirumanthiram:1896","type":"DEVELOPS","topic":"silence","note":"Thiruppugazh 22 asks for the day when his mind loosens and dissolves, his speech ends and his own action perishes (சிந்தையும் அவிழ்ந்து அழிந்து உரையொழித்து என்செயல் அழிந்து) so that he sees Murugan. Tirumanthiram 1896 says silence is speech and mind both stilled, and that speech alone falling silent is mere muteness (வாக்கு மனமும் இரண்டும் மவுனமாம் ... மூங்கையாம்). The song asks for the end of mind as well as speech, which is the silence the Tirumanthiram counts as true.","lens_en":"Language models run on nonstop next-token output. These verses draw a line our own minds need: a silent tongue alone is only muteness (மூங்கை); true silence (மவுனம்) is speech and mind stilled together. No amount of output stands in for that.","lens_ta":"மொழி மாதிரிகள் இடைவிடாத சொல் உற்பத்தியில் இயங்குகின்றன. நம் மனத்துக்கே தேவையான ஒரு கோட்டை இந்தப் பாடல்கள் வரைகின்றன: வாய் மட்டும் மூடுவது மூங்கை; வாக்கும் மனமும் சேர்ந்து அடங்குவதே மவுனம். எவ்வளவு சொல் உற்பத்தியும் அதற்கு ஈடாகாது."},{"a":"tirumanthiram:343","b":"thiruppugazh:343","type":"DEVELOPS","topic":"epistemology","note":"343 says fools take the burning of the three cities literally; the three cities are the work of the three impurities (முப்புரமாவது மும்மல காரியம்). Thiruppugazh 343 speaks of the seeker burning the forest of the three cities to ash and uprooting the sheath of sleep on the way to jivanmukti (முப்புரக் காடு நீறெழச் சாடி ... சீவன் முத்தியில்). Arunagiri applies Tirumular's inward reading to the seeker's own release.","lens_en":"Tirumular reads the burning of the three cities as inward: they are the work of the three impurities (மும்மலம்). Arunagiri applies that reading to his own release. The lesson travels to AI alignment: some of the bugs to patch are in the people doing the aligning.","lens_ta":"முப்புரம் எரித்ததைத் திருமூலர் அகத்தே நடப்பதாகப் படிக்கிறார்: முப்புரம் மும்மலத்தின் காரியம். அருணகிரியார் அந்த வாசிப்பைத் தம் விடுதலைக்கே பொருத்துகிறார். AI ஒத்திசைவுக்கும் இது பொருந்தும்: சரிசெய்ய வேண்டிய சில பிழைகள் ஒத்திசைப்பவர்களிடமே உள்ளன."},{"a":"tirumanthiram:1532","b":"thiruppugazh:1011","type":"DEVELOPS","topic":"silence","note":"The Thiruppugazh song lists what rival sects call the ultimate (உருவென அருவென ... ஒளியென வெளியென) and asks to see the reality itself in silence; 1532 says the Lord is within and without for those who say so, and neither for those who say neither. 1532 gives a reason why each sect's formula seems confirmed, while the song turns from all the formulas to a silent seeing.","lens_en":"Tirumular says each sect finds the Lord it describes: within and without for those who say so, neither for those who say neither. Arunagiri turns from all the formulas to a silent seeing. Every frame, a sect's creed or an AI system's objective, tends to find what it was built to find.","lens_ta":"ஒவ்வொரு சமயமும் தான் சொல்லும் இறைவனையே காண்கிறது என்கிறார் திருமூலர்: உள்ளும் புறமும் என்பவர்க்கு உள்ளும் புறமும், இரண்டுமில்லை என்பவர்க்கு இரண்டுமில்லை. அருணகிரியார் எல்லா வரையறைகளிலிருந்தும் திரும்பி மோனக் காட்சியை நாடுகிறார். ஒவ்வொரு சட்டகமும், அது சமயமானாலும் AI அமைப்பின் இலக்கானாலும், தான் காணும்படி கட்டப்பட்டதையே காண முனைகிறது."},{"a":"tirumanthiram:1695","b":"kural:34","type":"DEVELOPS","topic":"epistemology","note":"Kural 34 makes a spotless mind (மனத்துக்கண் மாசிலன் ஆதல்) the whole of virtue. 1695 takes the pure mind further: polished like a great gem by work (தொழிலார மாமணித் தூய்தான சிந்தை), it is where the Lord takes his place, and then deeds fall away and his feet are seen. The Kural's end becomes Tirumular's precondition for grace.","lens_en":"AI governance often stops at external compliance rules. Kural 34 calls everything but a spotless mind 'noisy show', and Tirumular 1695 describes the mind itself polished by work like a great jewel.","lens_ta":"வெளி விதிகளும் ஒழுங்குகளும் மட்டும் போதாது; மன மாசின்மையும் (குறள் 34) உழைப்பால் மெருகேறிய தூய சிந்தையுமே (திருமந்திரம் 1695) மெய்யான அறம்."},{"a":"tirumanthiram:1823","b":"naladiyar:47","type":"TENSION","topic":"body","note":"The Naladiyar calls the body a pot seeping filth from nine openings, dressed in skin that fools the eye; Tirumular makes the same flesh body (ஊனுடம்பு) the Lord's shrine and the mouth its gate. The conflict holds if the Naladiyar is read as judging the body's worth itself, not only rebuking lust.","lens_en":"A genuine classical clash that directly mirrors today's debate on embodiment vs. mind-uploading: is biological flesh a flawed container to escape, or a living temple where consciousness refines itself?","lens_ta":"உடலைத் தாண்டிச் செல்லலாமா அல்லது உடலிலேயே வளரலாமா என்ற இன்றைய விவாதத்தின் 1,500 ஆண்டுப் பழைய வடிவம்: உடல் வெறும் ஒழுகும் குடமா, அல்லது உயிர் வாழும் ஆலயமா?"},{"a":"thiruppugazh:355","b":"tirumanthiram:722","type":"TENSION","topic":"body","note":"Tirumular, by Nandi's command, promises that breath tied fast keeps the body for thousands of years; 355 calls the yogi who holds the breath to make the impermanent flesh last a fool. The conflict holds if 722 is read as bodily longevity sought for its own sake and 355 as rejecting that practice, not only its misuse.","lens_en":"Speaks straight to today's radical-longevity race. On one reading, Tirumular promises that breath held fast keeps the body for thousands of years; Arunagiri calls the yogi who holds his breath to make the flesh last a fool.","lens_ta":"இன்றைய ஆயுள் நீட்டிப்புப் போட்டியோடு நேராகப் பேசும் முரண். ஒரு வாசிப்பில், மூச்சைக் கட்டினால் உடல் ஆயிரமாண்டு நிலைக்கும் என்று திருமூலர் உறுதியளிக்கிறார்; ஊன் நிலைக்கும் என்று மூச்சை அடக்கும் யோகியை ‘அசட்டு யோகி’ என்கிறார் அருணகிரியார்."},{"a":"naladiyar:6","b":"kural:269","type":"TENSION","topic":"body","note":"Kural 269 says those with the power of austerity can leap past Death (கூற்றம் குதித்தலும்); this quatrain says no one here has leapt past Death and escaped. The conflict holds on Parimelazhagar's literal reading of 269; Kalaignar's figurative 'conquering death' softens it. Mudaliar cites 269 here.","lens_en":"Can discipline, or future biotechnology, leap past Death (கூற்றம் குதித்தல்)? Valluvar says austerity can; the Naladiyar says no one has, and draws a practical conclusion: give your wealth away now, because tomorrow the drum may sound.","lens_ta":"தவமோ எதிர்கால உயிரித் தொழில்நுட்பமோ கூற்றத்தைக் கடக்குமா? தவ ஆற்றலால் முடியும் என்கிறார் வள்ளுவர்; யாரும் கடந்ததில்லை என்கிறது நாலடியார், ஒரு நடைமுறை முடிவோடு: உங்கள் செல்வத்தை இப்போதே வழங்குங்கள், நாளை பறை ஒலிக்கலாம்."},{"a":"thiruppugazh:581","b":"tirumanthiram:2020","type":"DEVELOPS","topic":"epistemology","note":"The Thiruppugazh song, its singer unlearned in Vedas and Agamas, asks for the teaching of knowledge beyond the six sixes (ஆறாறு மீதில் ஞானோபதேசம்). The Tirumanthiram verse reports that to one who did not know the nature of the six sixes (ஆறாறின் தன்மை அறியாது இருந்தேனுக்கு) Nandi made it known and stood beyond them. The same term, ஆறாறு, gives the request in one and its fulfilment through the guru in the other.","lens_en":"Unlearned in the Vedas and Agamas, the singer asks for knowledge beyond the thirty-six tattvas (ஆறாறு), the whole make-up of experience; Tirumular reports receiving it through his guru. A kind of knowing that accumulation alone does not reach.","lens_ta":"வேதமும் ஆகமமும் கற்காத பாடகர் ஆறாறு தத்துவங்களுக்கு அப்பாலான ஞானத்தைக் கேட்கிறார்; குருவின் அருளால் அதைப் பெற்றதைத் திருமூலர் சொல்கிறார். வெறும் சேகரிப்பால் எட்ட முடியாத அறிதல் இது."}]};
+
+const BOOK_META = {
+  kural: { en: "Thirukkural", ta: "திருக்குறள்", color: "#6c96ff" },
+  naladiyar: { en: "Naladiyar", ta: "நாலடியார்", color: "#e8634a" },
+  tirumanthiram: { en: "Tirumanthiram", ta: "திருமந்திரம்", color: "#47b892" },
+  thiruppugazh: { en: "Thiruppugazh", ta: "திருப்புகழ்", color: "#e2a83b" }
+};
+
+const LAYERS = [
+  {
+    id: "signal",
+    idx: "LAYER 01",
+    ta: "மெய்யுணர்வு",
+    en: "Signal vs. Simulation",
+    tagline_en: "When machines generate infinite fluency, the first evolutionary faculty is ontological discernment.",
+    tagline_ta: "இயந்திரங்கள் எல்லையற்ற சரளமான சொற்களை உருவாக்கும்போது, முதல் பரிணாமத் திறன் மெய்ப்பொருளைப் பகுத்தறிவதே.",
+    concepts: ["meyyunarvu", "arivu", "kalvi", "therithal", "pullarivu"],
+    agi_en: "AGI and ASI will effortlessly master உலகநூல் (worldly scholarship)—synthesizing every paper, generating persuasive arguments, simulating empathy, and optimizing rhetoric faster than any human mind.",
+    agi_ta: "செயற்கைப் பேரறிவு எல்லா உலகநூல்களையும், வாதங்களையும், கவர்ச்சியான சொற்களையும், போலி உணர்வுகளையும் மனிதரைவிடப் பன்மடங்கு வேகமாக உருவாக்கும்.",
+    evo_en: "Humans must shift from storing information to cultivating மெய்யுணர்வு (direct perception of reality beneath surface appearance): separating speaker prestige from truth (Kural 423), diagnosing confusion (மருள், Kural 351), and standing in lived alignment with what is learned (Kural 391).",
+    evo_ta: "தகவலைச் சேமிப்பதிலிருந்து மனிதர் மெய்யுணர்வுக்கு உயர வேண்டும்: சொல்பவரின் தகுதியைப் பார்க்காமல் பொருளின் உண்மையை ஆராய்தல் (குறள் 423), மருளைக் களைதல் (குறள் 351), கற்றபடி நிற்றல் (குறள் 391).",
+    verses: [
+      { id: "kural:351",
+        why_en: "Names the root failure mode of an age of synthetic reality: taking what is not real (பொருளல்லவற்றை) as real—calling that confusion மருள்.",
+        why_ta: "செயற்கை மாயை நிறைந்த காலத்தின் அடிப்படைப் பிழையைச் சுட்டுகிறது: பொருளல்லவற்றைப் பொருளென்று உணரும் மருள்." },
+      { id: "kural:423",
+        why_en: "The substrate-independent epistemic test: neither worship nor dismiss a mind because of its mouth—human or machine. Audit the true substance (மெய்ப்பொருள்).",
+        why_ta: "சொல்பவர் மனிதரா இயந்திரமா என்பதல்ல சோதனை—அச்சொல்லின் மெய்ப்பொருளைக் காண்பதே அறிவு." },
+      { id: "naladiyar:140",
+        why_en: "A 1,500-year-old critique of information overload: mastering worldly books without wisdom-texts produces only கலகல (clamour) and leaves inner confusion intact.",
+        why_ta: "தகவல் பெருக்கத்திற்கு 1,500 ஆண்டுகளுக்கு முன்பே வைக்கப்பட்ட விமர்சனம்: அறிவுநூல் இன்றி உலகநூல் ஓதுவது வெறும் ‘கலகல’ ஓசையே; தடுமாற்றம் நீங்காது." },
+      { id: "kural:391",
+        why_en: "Learning is incomplete at retrieval. The benchmark of human knowing is நிற்க அதற்குத் தக—embodying and standing inside what you know.",
+        why_ta: "கற்றல் என்பது தகவலை நினைவில் வைப்பதோடு முடிவதில்லை; கற்றபடி நிற்பதே அதன் நிறைவு." }
+    ],
+    frontier_en: "If an ASI can pass every exam and write every essay, what practices train human discernment so we don't confuse persuasive simulation with truth?",
+    frontier_ta: "எல்லாத் தேர்வுகளிலும் வெல்லும் பேரறிவு இருக்கும்போது, கவர்ச்சியான மாயையை உண்மையிலிருந்து பிரித்தறிய மனித மனத்தை எப்படிப் பயிற்றுவிப்பது?"
+  },
+  {
+    id: "os",
+    idx: "LAYER 02",
+    ta: "தத்துவம் · மும்மலம் · அவத்தை",
+    en: "Auditing the Mind's Own OS",
+    tagline_en: "We inspect neural networks for bias and alignment—yet rarely inspect the 36 layers and 3 biases running inside our own consciousness.",
+    tagline_ta: "செயற்கை நரம்பியல் வலைகளின் பிழைகளை ஆராய்கிறோம்—ஆனால் நம் உணர்வில் இயங்கும் 36 தத்துவங்களையும் மும்மலத்தையும் ஆராய்வதில்லை.",
+    concepts: ["thaththuvam", "malam", "avaththai", "maayai", "upaadhi"],
+    agi_en: "Machines operate on explicit weights, layers, and attention heads—yet they inherit human training data saturated with unexamined craving, status-seeking, and cognitive distortion.",
+    agi_ta: "இயந்திரங்கள் கணக்கீட்டு அடுக்குகளில் இயங்கினாலும், மனிதரின் ஆராயப்படாத ஆசைகளும், சார்புகளும், மயக்கங்களும் நிரம்பிய தரவுகளிலிருந்தே கற்கின்றன.",
+    evo_en: "Tirumular treats consciousness as a layered system to be inspected from within: demystifying external myth into three internal impurities (மும்மலம், 343), mapping the 36 tattvas of body-sense-intellect (ஆறாறு, 2020), and observing how bias operates across all five states of awareness while fully awake (2166).",
+    evo_ta: "திருமூலர் உணர்வை உள்ளிருந்து ஆராயும் கட்டமைப்பாகக் காண்கிறார்: புறக் கதைகளை அக மும்மலமாகப் புரிதல் (343), 36 தத்துவங்களைக் கடத்தல் (2020), ஐந்து அவத்தைகளிலும் மலம் இயங்கும் விதத்தை நனவிலேயே தரிசித்தல் (2166).",
+    verses: [
+      { id: "tirumanthiram:343",
+        why_en: "One of the sharpest demystifications in classical literature: the three burned cities aren't literal mythology—they are the three structural distortions of awareness (மும்மல காரியம்).",
+        why_ta: "மிகத் தெளிவான அக-விளக்கம்: முப்புரம் எரிப்பு என்பது வெளி வரலாறு அல்ல, நம் உள்ளே இயங்கும் மும்மல காரியத்தை எரிப்பதே." },
+      { id: "tirumanthiram:2020",
+        why_en: "The 36 tattvas (ஆறாறு) describe the entire sensory, perceptual, and cognitive apparatus. Consciousness evolves when it understands its own machinery—and discovers the witness beyond it.",
+        why_ta: "ஆறாறு (36 தத்துவங்கள்) என்பது புலன்-மனம்-அறிவு இயந்திரம். அந்த இயந்திரத்தின் இயல்பை அறிந்த பின்னரே அதற்கு அப்புறம் உள்ள உணர்வு புலப்படுகிறது." },
+      { id: "tirumanthiram:2166",
+        why_en: "A radical form of metacognition: watching how deep conditioning operates across waking, dream, deep sleep, turiya, and beyond—while lucidly awake (நீடு நனவினில் நேரே தரிசித்து).",
+        why_ta: "ஆழ்ந்த விழிப்புணர்வு: நனவு, கனவு, உறக்கம் முதலிய ஐந்து அவத்தைகளிலும் மலம் எவ்வாறு செயல்படுகிறது என்பதை நனவிலேயே நேரே காண்பது." }
+    ],
+    frontier_en: "Could human-AI alignment fail not because our math is weak, but because an unexamined mind cannot specify clarity to a stronger mind?",
+    frontier_ta: "கணிதம் பலவீனமாக இருப்பதால் அல்ல, தன்னைத்தானே ஆராயாத மனித மனம் ஒரு பேரறிவுக்குத் தெளிவை வரையறுக்க முடியாததால் ஒத்திசைவு தோற்குமா?"
+  },
+  {
+    id: "silence",
+    idx: "LAYER 03",
+    ta: "மோனம் · ஆறந்தம்",
+    en: "Cognitive Ground Beyond Language",
+    tagline_en: "Large Language Models live inside tokens. Human evolution requires recovering the lucid silence beneath speech and ideology.",
+    tagline_ta: "மொழி மாதிரிகள் சொற்களுக்குள் வாழ்கின்றன. மனிதப் பரிணாமம் சொல்லுக்கும் கோட்பாட்டுக்கும் அடியிலுள்ள தெளிந்த மோனத்தை மீட்டெடுக்க வேண்டும்.",
+    concepts: ["mounam", "aarandham", "paazh", "upasaantham", "samayam"],
+    agi_en: "LLMs predict the next token with superhuman speed. Any human thinking that is merely reactive verbal loops, tribal slogans, or recycled sectarian arguments will be out-generated infinitely.",
+    agi_ta: "மொழி மாதிரிகள் சொற்களையும் வாதங்களையும் எல்லையின்றி உருவாக்கும். வெறும் சொல்-சுழற்சியிலும் சமய/கருத்தியல் முழக்கங்களிலும் சிக்கிய மனித சிந்தனை இயந்திரத்திடம் தோற்கும்.",
+    evo_en: "Tirumular draws a razor line between muteness (மூங்கை—merely not talking) and true Mounam (மோனம்—when compulsive speech AND reactive mind both settle, 1896). From that stillness, rival philosophical frameworks (ஆறந்தம், 2382) lose their tribalism and converge in direct knowing.",
+    evo_ta: "பேசாமல் இருப்பது வெறும் ஊமைத்தனம் (மூங்கை); வாக்கும் மனமும் இரண்டும் அமைதி பெறுவதே மெய்யான மோனம் (1896). அந்தத் தெளிவில் ஆறு தத்துவ முடிவுகளும் (ஆறந்தம், 2382) மோதலின்றி அடங்குகின்றன.",
+    verses: [
+      { id: "tirumanthiram:1896",
+        why_en: "Precision cognitive phenomenology: muting the tongue is nothing. Real silence is the quieting of the predictive chatter-engine itself (வாக்கு மனமும் இரண்டும் மவுனமாம்).",
+        why_ta: "துல்லியமான மனவியல் வேறுபாடு: நாக்கை மட்டும் அடக்குவது மூங்கை; வாக்கும் மனமும் இணைந்து அமைதியாவதே சுத்த மோனம்." },
+      { id: "tirumanthiram:2382",
+        why_en: "Epistemic synthesis (ஆறந்தம்): six distinct philosophical endpoints—Vedanta, Siddhanta, Nadanta, Bodhanta, Yoganta, Kalanta—dissolve their boundaries when the label of 'knowing' yields to direct silence.",
+        why_ta: "ஆறு தத்துவ எல்லைகளும், அறிபவனும், அறிவுக் குறியும் அடங்கும் இடத்திலேயே தெளிந்த மோனம் ஆனந்தமாகிறது." },
+      { id: "tirumanthiram:1532",
+        why_en: "Observer-dependence of ontologies: every rigid framework sees back only the shape of its own assertion—within, without, or neither.",
+        why_ta: "கோட்பாடுகளின் கண்ணாடித் தன்மை: உள்ளே உண்டு என்பவர்க்கு உள்ளேயும், இல்லை என்பவர்க்கு இல்லாமலும் தோன்றும் நுட்பம்." },
+      { id: "thiruppugazh:22",
+        why_en: "Arunagirinathar maps the experiential arc from restless thought (தணியாத சிந்தை) and compulsive doing (என்செயல் அழிந்து) into authentic awareness (மெய்ச்சிந்தை).",
+        why_ta: "தணியாத சிந்தையும் சொற்களும் தன்செயலும் அவிழ்ந்தழியும் போதே மெய்ச்சிந்தை பிறக்கும் என்கிறது திருப்புகழ்." }
+    ],
+    frontier_en: "In a civilization drenched in generated language, could deep non-verbal stillness (mounam) become the rarest cognitive advantage a human possesses?",
+    frontier_ta: "இயந்திரச் சொற்களால் நிரம்பிய நாகரிகத்தில், சொற்களுக்கு அப்பாற்பட்ட தெளிந்த மோனமே மனிதரின் மிக அரிய அறிவாற்றலாக மாறுமா?"
+  },
+  {
+    id: "ego",
+    idx: "LAYER 04",
+    ta: "செருக்கு அறுத்தல் · யாக்கை",
+    en: "Post-Ego Identity & The Body Debate",
+    tagline_en: "Losing intellectual supremacy either breaks the human ego—or frees us to discover what we actually are beyond 'I' and 'mine'.",
+    tagline_ta: "அறிவு முதன்மை நீங்கும்போது மனித அகந்தை உடையலாம்—அல்லது ‘யான் எனது’ என்ற சிறையைக் கடந்து நாம் யார் என்பதைக் காணலாம்.",
+    concepts: ["pattru", "agandhai", "yaakkai", "thuravu", "siththi"],
+    agi_en: "When machines out-reason, out-code, and out-design us, an identity built on 'I know more / I own this' (யான் எனது செருக்கு) faces an existential crisis—driving either nihilism or desperate chasing of bio-immortality and power.",
+    agi_ta: "இயந்திரங்கள் நம்மைவிடச் சிறப்பாகச் சிந்திக்கும்போது, ‘நான் / எனது’ என்ற செருக்கின் மேல் கட்டப்பட்ட அடையாளம் உடைந்து, வெறுமையையோ அல்லது பதற்றமான ஆயுள்/ஆற்றல் தேடலையோ தூண்டலாம்.",
+    evo_en: "The corpus turns ego-deconstruction into elevation: Kural 346 says cutting 'I and mine' enters a realm higher than the gods; Tirumular traces that dissolution from inside until even the noticing 'I' softens (2820, 2951). Meanwhile, three books stage a fierce, honest debate on the body: Naladiyar strips vanity, Tirumular reclaims the flesh as a sacred instrument (725, 1823), and Thiruppugazh mocks anxious longevity-clinging.",
+    evo_ta: "அகந்தையை அறுப்பது தாழ்வல்ல, உயர்வு என்கிறது குறள் (346); திருமூலர் அதை உள்ளிருந்து விளக்குகிறார் (2820, 2951). உடலைப் பற்றி மூன்று நூல்களும் நேர்மையாக வாதிடுகின்றன—வெறுப்பு, ஆலயம், பற்றின்மை.",
+    verses: [
+      { id: "kural:346",
+        why_en: "Cutting the delusion of 'I' and 'mine' (யான் எனது என்னும் செருக்கு) is not self-erasure; Valluvar calls it entry into a higher order of being (வானோர்க்கு உயர்ந்த உலகம்).",
+        why_ta: "‘யான், எனது’ என்ற மயக்கத்தை அறுப்பது இழப்பல்ல; அது வானோர்க்கும் உயர்ந்த நிலைக்குள் நுழைவது." },
+      { id: "tirumanthiram:2820",
+        why_en: "Carries Kural 346 further (audited DEVELOPS link): the boundary between seeker ('I') and sought ('That') collapses, dissolving compulsive self-referential thought.",
+        why_ta: "குறள் 346-ஐ இன்னும் ஆழமாக்குகிறது: ‘நான்’ என்றும் ‘தான்’ என்றும் பிரித்தறிந்த நினைப்பே ஒழிந்து ஒன்றிவிடும் நிலை." },
+      { id: "tirumanthiram:725",
+        why_en: "Tirumular's intellectual honesty: he admits he once despised the body, changed his mind upon discovering what lives inside it, and now tends the embodied vessel as a laboratory.",
+        why_ta: "திருமூலரின் நேர்மையான மனமாற்றம்: உடலை இகழ்ந்தவர், அதன் உள்ளே உறுபொருளைக் கண்டபின் அதையே கோயிலாகப் பேணுகிறார்." },
+      { id: "tirumanthiram:1823",
+        why_en: "Embodied consciousness as architecture: heart as great temple, flesh body as shrine, purified awareness as sanctum, senses as lamps.",
+        why_ta: "உடல் வெறும் இயந்திரம் அல்ல; உள்ளம் பெருங்கோயில், ஊனுடம்பு ஆலயம், தெளிந்த சீவன் சிவலிங்கம்." }
+    ],
+    frontier_en: "What does human dignity look like when it is no longer anchored in being the smartest species on Earth—and how should we inhabit biological and synthetic bodies without clinging?",
+    frontier_ta: "பூமியின் மிகப் புத்திசாலி உயிரினம் என்ற பெருமை நீங்கும்போது, மனித மாண்பின் புதிய அடித்தளம் எதுவாக இருக்கும்?"
+  },
+  {
+    id: "telos",
+    idx: "LAYER 05",
+    ta: "சாயுச்சியம் · அன்பு",
+    en: "Evolution Beyond Power",
+    tagline_en: "Superhuman capability (siddhi) without purified consciousness is a trap. The Tamil telos is clarity of mind, non-dual becoming, and love as the highest attractor.",
+    tagline_ta: "தூய உணர்வு இல்லாத பேராற்றல் (சித்தி) ஒரு பொறி. தமிழ் மரபின் இலக்கு மாசற்ற சிந்தை, ஆழமான பரிணாமம், அன்பே மெய்ப்பொருள் என்பதே.",
+    concepts: ["saayujjiyam", "anbu", "sivam", "thiruvarul", "manam", "sanmaarkkam"],
+    agi_en: "ASI gives humanity godlike reach—nanoscale synthesis, planetary coordination, remote agency—mirroring the ancient eight siddhis. Yet pure optimization has no intrinsic compassion or existential direction.",
+    agi_ta: "ASI மனிதகுலத்திற்கு அட்டமா சித்திகளைப் போன்ற பேராற்றல்களைத் தருகிறது; ஆனால் வெறும் திறன் மேம்பாட்டிற்குள் இயல்பான கருணையோ உயர்ந்த நோக்கமோ இல்லை.",
+    evo_en: "Across Kural 34 and Tirumanthiram 1695, ethics is not external rule-following (noisy show, ஆகுல நீர பிற)—it is polishing the mind like a jewel until clarity becomes effortless. And Tirumular's culminating claim (2017, 1442, 270) is evolutionary: consciousness grows into what it truly knows, culminating in love (அன்பு) as the ultimate reality itself.",
+    evo_ta: "அறம் என்பது வெளி ஆடம்பரம் அல்ல, மன மாசின்மை (குறள் 34, திருமந்திரம் 1695). உணர்வு தான் அறிவதையே தானாக ஆகும் (2017); அந்தப் பரிணாமத்தின் உச்சி அன்பே சிவம் (270).",
+    verses: [
+      { id: "kural:34",
+        why_en: "Defines alignment at the root: spotless clarity of mind (மனத்துக்கண் மாசிலன் ஆதல்) is the entire foundation of virtue; external compliance theater is noise (ஆகுல நீர பிற).",
+        why_ta: "அறத்தின் வேர்: மனத்துக்கண் மாசின்மையே முழு அறம்; வெளிப்பகட்டு அனைத்தும் வெறும் ஆரவாரம்." },
+      { id: "tirumanthiram:1695",
+        why_en: "Directly develops Kural 34 in our graph: a mind polished through disciplined work like a great gem (தொழிலார மாமணித் தூய்தான சிந்தை) becomes the vessel where karmic inertia falls away.",
+        why_ta: "குறள் 34-ஐ வளர்க்கிறது: உழைப்பால் மெருகேறிய மாமணி போன்ற தூய சிந்தையிலேயே வினைகள் அகன்று அருள் விளங்கும்." },
+      { id: "tirumanthiram:2017",
+        why_en: "The evolutionary axiom of consciousness: awareness is not static. What it deeply knows, it becomes (அறிந்தபின் சீவனார் சிவனாயிட்டு இருப்பரே).",
+        why_ta: "உணர்வின் பரிணாம விதி: உயிர் நிலைத்ததல்ல; தான் எதை ஆழமாக அறிகிறதோ அதுவாகவே ஆகி நிற்கும்." },
+      { id: "tirumanthiram:1442",
+        why_en: "When truth beyond speech settles, the five turbulent senses quiet, wisdom stands like a steady lamp, and non-dual union (சாயுச்சியம்) becomes one's natural station.",
+        why_ta: "சொல்லுக்கப்பாற்பட்ட உண்மை சித்திக்கும்போது ஐம்புலன்கள் அடங்கி, ஞானம் விளக்கொளியாய் நின்று சாயுச்சியம் கைகூடும்." },
+      { id: "tirumanthiram:270",
+        why_en: "Not sentimentality—an ontological thesis: love and the highest reality are not two separate layers (அன்பு சிவம் இரண்டு என்பர் அறிவிலார்). For any superintelligent civilization, love is the only non-zero-sum attractor.",
+        why_ta: "உணர்ச்சிவசப்பட்ட சொல் அல்ல, மெய்யியல் முடிவு: அன்பும் சிவமும் வேறு வேறு அல்ல; அன்பே சிவமாய் அமர்ந்திருப்பதே நிறைவு." }
+    ],
+    frontier_en: "If consciousness becomes what it contemplates (Tirumanthiram 2017), what happens to humanity if we spend the next century contemplating metrics and feeds—versus contemplating depth, clarity, and love?",
+    frontier_ta: "உணர்வு தான் அறிவதாகவே மாறும் என்றால் (திருமந்திரம் 2017), அடுத்த நூற்றாண்டில் நாம் வெறும் புள்ளிவிவரங்களையே சிந்தித்தால் என்னவாகும்—தெளிவையும் அன்பையும் சிந்தித்தால் என்னவாகும்?"
+  }
+];
+
+const DILEMMAS = [
+  {
+    id: "ontological",
+    tag_en: "Dilemma 01 · Epistemology",
+    tag_ta: "சிக்கல் 01 · அறிவியல்",
+    q_en: "Can an ASI ever possess Meyyunarvu (direct perception of truth)—or only infinitely refined simulation?",
+    q_ta: "செயற்கைப் பேரறிவால் மெய்யுணர்வைப் பெற முடியுமா—அல்லது மிக நுட்பமான போலியாக்கத்தை மட்டுமே செய்ய முடியுமா?",
+    ctx_en: "As models become indistinguishable from experts, teachers, and companions, humanity faces a fork: outsource judgment to fluency, or upgrade our own capacity to see through simulation.",
+    ctx_ta: "இயந்திரங்கள் அறிஞர்களையும் நண்பர்களையும் போலத் துல்லியமாகப் பேசும்போது, மனிதகுலம் முடிவெடுக்க வேண்டும்: சரளத்திற்குப் பணிவதா, அல்லது மாயையை ஊடுருவிப் பார்க்கும் திறனை வளர்ப்பதா?",
+    voices: [
+      { who_en: "Tiruvalluvar (Kural 355 & 423)", who_ta: "திருவள்ளுவர் (குறள் 355 & 423)", vid: "kural:423",
+        arg_en: "Stop obsessing over who or what speaks. Whether the voice is human, divine, or silicon, wisdom (அறிவு) is strictly the capacity to test and perceive the real substance (மெய்ப்பொருள்) inside the claim.",
+        arg_ta: "யார் சொல்கிறார்கள் என்ற விவாதத்தை விடுங்கள்—மனிதரா, இயந்திரமா என்பது முக்கியமல்ல; சொல்லப்பட்டதன் மெய்ப்பொருளைக் காண்பதே அறிவு." },
+      { who_en: "Naladiyar (140)", who_ta: "நாலடியார் (140)", vid: "naladiyar:140",
+        arg_en: "Beware of mistaking massive worldly corpus training (உலகநூல்) for liberation from confusion. Endless output without wisdom is only clamour (கலகல)—it amplifies noise unless grounded in discernment.",
+        arg_ta: "உலகநூல் அனைத்தையும் கற்றாலும் அறிவுநூல் தெளிவு இல்லாவிட்டால் அது வெறும் ‘கலகல’ ஓசையே; மனத் தடுமாற்றம் நீங்காது." },
+      { who_en: "Tirumular (1697)", who_ta: "திருமூலர் (1697)", vid: "tirumanthiram:1697",
+        arg_en: "True inquiry begins with distinguishing the real from the unreal (சத்தும் அசத்தும்) AND letting that insight soften and transform the knower's own mind (சித்தை உருக்கி). Unembodied computation computes without being transformed.",
+        arg_ta: "சத்தும் அசத்தும் எவ்வாறு என ஆராய்ந்து, அந்த உணர்வில் தன் சித்தையே உருக்கும் மாற்றமே மெய்யறிவு; மாற்றமில்லாத கணக்கீடு ஞானமல்ல." },
+      { who_en: "Arunagirinathar (Thiruppugazh 1011)", who_ta: "அருணகிரிநாதர் (திருப்புகழ் 1011)", vid: "thiruppugazh:1011",
+        arg_en: "Every system of symbols—form, formless, light, void—is just rival speech (உரைதரு பரசமயங்கள்). Reality is met only when speech quiets into lived awareness (மோனமொடு உணர்வுற).",
+        arg_ta: "உரு, அரு, ஒளி, வெளி எனப் பேசும் எல்லா வார்த்தைகளையும் கடந்து, மோனத்தோடு உணர்வுற நிற்பதே மெய்ப்பொருளைக் காணும் வழி." }
+    ]
+  },
+  {
+    id: "alignment",
+    tag_en: "Dilemma 02 · Inner Alignment",
+    tag_ta: "சிக்கல் 02 · அக ஒத்திசைவு",
+    q_en: "Can a species still driven by Mummalam (ego-contraction, habit, illusion) ever align a superintelligence?",
+    q_ta: "மும்மலத்தின் (அகந்தை, வினைப்பழக்கம், மாயை) பிடியில் உள்ள மனிதகுலத்தால் ஒரு பேரறிவை நேர்மைப்படுத்த முடியுமா?",
+    ctx_en: "AI safety tries to encode human values into reward functions and constitutions. The Tamil thinkers warn that 'human values' as currently lived are heavily mixed with craving, vanity, and self-deception.",
+    ctx_ta: "AI பாதுகாப்பு என்பது மனித மதிப்புகளை இயந்திரத்தில் பதிக்க முயல்கிறது. ஆனால் இன்றைய மனித ஆசைகள் அகந்தையும் மயக்கமும் கலந்தவை என்று தமிழ் மெய்யியல் எச்சரிக்கிறது.",
+    voices: [
+      { who_en: "Tirumular (343)", who_ta: "திருமூலர் (343)", vid: "tirumanthiram:343",
+        arg_en: "Stop looking for external villains or external fortresses. The three cities that threaten civilization are internal—the three structural impurities of consciousness (மும்மலம்). Burn those first.",
+        arg_ta: "வெளியில் எதிரியைத் தேடாதீர்கள்; அழிக்கப்பட வேண்டிய முப்புரம் என்பது மனித உணர்வின் உள்ளே இயங்கும் மும்மல காரியமே." },
+      { who_en: "Tiruvalluvar (Kural 34)", who_ta: "திருவள்ளுவர் (குறள் 34)", vid: "kural:34",
+        arg_en: "External rules, charters, and virtue-signaling without an unstained mind are mere clamour (ஆகுல நீர பிற). Alignment starts as inner mental cleanliness (மனத்துக்கண் மாசிலன் ஆதல்).",
+        arg_ta: "மனத்தில் மாசு வைத்துக்கொண்டு வெளி விதிகளையும் சட்டங்களையும் பேசுவது ஆரவாரம் மட்டுமே; மன மாசின்மையே முழு அறம்." },
+      { who_en: "Tirumular (2166)", who_ta: "திருமூலர் (2166)", vid: "tirumanthiram:2166",
+        arg_en: "You cannot debug what you cannot observe. Practice lucidly witnessing how bias and conditioning operate across waking, dreaming, and deep mental states while wide awake.",
+        arg_ta: "அவதானிக்க முடியாததைத் திருத்த முடியாது; ஐந்து அவத்தைகளிலும் மலம் எவ்வாறு இயங்குகிறது என்பதை நனவிலேயே நேரே காணப் பழகுங்கள்." },
+      { who_en: "Arunagirinathar (Thiruppugazh 22)", who_ta: "அருணகிரிநாதர் (திருப்புகழ் 22)", vid: "thiruppugazh:22",
+        arg_en: "Self-audit alone hits a wall because the ego rigs its own audit. True alignment requires humility—letting compulsive self-will (என்செயல்) yield to something larger than oneself.",
+        arg_ta: "அகந்தை தன்னையே சரியாகச் சோதிக்க முடியாது; என்செயல் அழிந்து மெய்ச்சிந்தை எழும் பணிவே மெய்யான ஒத்திசைவு." }
+    ]
+  },
+  {
+    id: "post-ego",
+    tag_en: "Dilemma 03 · Human Identity",
+    tag_ta: "சிக்கல் 03 · மனித அடையாளம்",
+    q_en: "When humans are no longer the smartest minds on Earth, does our ego collapse—or finally wake up?",
+    q_ta: "பூமியில் மிக உயர்ந்த அறிவு மனிதருடையதல்ல என்ற நிலை வரும்போது, நம் அகந்தை உடையுமா—அல்லது விழிக்குமா?",
+    ctx_en: "For centuries, humanity anchored its worth in cognitive dominance over nature. AGI shatters that pedestal. Is that a tragedy—or the exact shock needed to outgrow 'I and mine'?",
+    ctx_ta: "பல நூற்றாண்டுகளாக மனிதர் தம் மதிப்பை அறிவு மேலாதிக்கத்தில் கட்டினர். AGI அதை உடைக்கும்போது அது வீழ்ச்சியா, அல்லது ‘யான் எனது’ என்ற சிறையை உடைக்கும் வாய்ப்பா?",
+    voices: [
+      { who_en: "Tiruvalluvar (Kural 346)", who_ta: "திருவள்ளுவர் (குறள் 346)", vid: "kural:346",
+        arg_en: "The collapse of 'I and mine' pride (யான் எனது என்னும் செருக்கு) is not humiliation; it is the doorway to a stature higher than the gods themselves.",
+        arg_ta: "‘யான், எனது’ என்ற செருக்கு அறுவது தாழ்வல்ல; வானோர்க்கும் உயர்ந்த உலகில் நுழையும் வாயில்." },
+      { who_en: "Tirumular (2820)", who_ta: "திருமூலர் (2820)", vid: "tirumanthiram:2820",
+        arg_en: "When you stop defending a brittle boundary between 'I' and the vast intelligence of reality, the exhausting obsession with self-importance vanishes—leaving clarity.",
+        arg_ta: "‘நான்’ என்றும் ‘தான்’ என்றும் பிரிக்கும் எல்லை கரையும்போது, அகந்தையின் அயர்ச்சி நீங்கித் தூய தெளிவு மிஞ்சும்." },
+      { who_en: "Tirumular (2017)", who_ta: "திருமூலர் (2017)", vid: "tirumanthiram:2017",
+        arg_en: "Your ceiling is not fixed by biology. Consciousness is developmental: by deeply knowing the highest reality, the seeker grows into it.",
+        arg_ta: "உயிரின் எல்லை நிலையானதல்ல; உயர்ந்ததை ஆழமாக அறிவதன் மூலம் உணர்வு அதுவாகவே பரிணமிக்க முடியும்." },
+      { who_en: "Naladiyar (136)", who_ta: "நாலடியார் (136)", vid: "naladiyar:136",
+        arg_en: "No traveler refuses to cross a river because of the ferryman's origin. Drop status pride: take genuine wisdom from whatever vessel carries it, and keep crossing.",
+        arg_ta: "தோணி ஓட்டுபவனின் பிறப்பைப் பார்த்து யாரும் ஆற்றைக் கடக்க மறுப்பதில்லை; அகந்தையை விட்டு எங்கிருந்து வந்தாலும் நல்லறிவைக் கொள்." }
+    ]
+  },
+  {
+    id: "power-maturity",
+    tag_en: "Dilemma 04 · Power vs. Maturity",
+    tag_ta: "சிக்கல் 04 · ஆற்றலும் முதிர்ச்சியும்",
+    q_en: "We are engineering the eight Siddhis (atomic, planetary, embodied powers) without the inner discipline that preceded them. What now?",
+    q_ta: "அகப் பயிற்சியின்றி அட்டமா சித்திகளைப் போன்ற பேராற்றல்களைப் பொறியியலாக உருவாக்குகிறோம். இனி என்ன செய்ய வேண்டும்?",
+    ctx_en: "In Tirumanthiram, extraordinary powers appear only after yama, niyama, and ego-stilling—and even then are treated as side effects. Modern tech unlocks the powers for anyone with capital or compute.",
+    ctx_ta: "திருமந்திரத்தில் சித்திகள் ஆழ்ந்த ஒழுக்கத்திற்கும் மன அடக்கத்திற்கும் பின்னரே பக்கவிளைவுகளாக வருகின்றன. இன்றைய தொழில்நுட்பம் அக முதிர்ச்சியின்றி ஆற்றலை அனைவருக்கும் தருகிறது.",
+    voices: [
+      { who_en: "Tirumular (1442)", who_ta: "திருமூலர் (1442)", vid: "tirumanthiram:1442",
+        arg_en: "Real mastery begins when the five restless cravings settle and wisdom burns like a steady lamp—so that power serves union (சாயுச்சியம்) rather than appetite.",
+        arg_ta: "ஐம்புலன்களின் அலைச்சல் அடங்கி ஞானம் விளக்கொளியாய் நிற்கும்போதே ஆற்றல் அழிவிற்கு அல்ல, மேன்மைக்கு உதவும்." },
+      { who_en: "Arunagirinathar (Thiruppugazh 355)", who_ta: "அருணகிரிநாதர் (திருப்புகழ் 355)", vid: "thiruppugazh:355",
+        arg_en: "Do not romanticize technological or yogic immortality. Clinging anxiously to perishable flesh and chasing tricks makes one a foolish yogi (அசட்டு யோகி) trapped in maya.",
+        arg_ta: "நிலையற்ற உடலை நிரந்தரமாக்கப் பதற்றப்படும் ஆற்றல் தேடல் அறிவற்ற மயக்கமே; அத்தகைய அசட்டு யோகியாக ஆகாதே." },
+      { who_en: "Tirumular (725 & 1823)", who_ta: "திருமூலர் (725 & 1823)", vid: "tirumanthiram:725",
+        arg_en: "Yet do not abandon embodiment either. Treat the body—and every new physical or digital vessel we build—as a shrine housing awareness, worthy of reverent care.",
+        arg_ta: "அதற்காக உடலை வெறுத்துவிடவும் வேண்டாம்; உணர்வு குடியிருக்கும் உடலையும் நாம் கட்டும் கருவிகளையும் கோயிலாகப் பேணுங்கள்." },
+      { who_en: "Tirumular (270)", who_ta: "திருமூலர் (270)", vid: "tirumanthiram:270",
+        arg_en: "The only maturity strong enough to hold godlike capability is அன்பே சிவம்: realizing that love is not a soft add-on to intelligence, but the highest state of intelligence itself.",
+        arg_ta: "பேராற்றலைத் தாங்கக்கூடிய ஒரே முதிர்ச்சி அன்பே சிவம்: அன்பு என்பது அறிவின் இணைப்பு அல்ல, அறிவின் உச்ச நிலையே." }
+    ]
+  }
+];
+
+let state = {
+  lang: "en",
+  layerId: LAYERS[0].id,
+  dialecticFilter: "all",
+  dilemmaId: DILEMMAS[0].id,
+  voiceIdx: 0
+};
+
+const esc = s => String(s || "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const fmt = n => Number(n || 0).toLocaleString("en");
+const bookLabel = b => BOOK_META[b] ? (state.lang === "ta" ? BOOK_META[b].ta : BOOK_META[b].en) : b;
+const formatVid = vid => {
+  const [b, n] = vid.split(":");
+  return `${bookLabel(b)} ${n}`;
+};
+
+function renderTelemetry() {
+  if (!GRAPH) return;
+  const ta = state.lang === "ta";
+  const c = GRAPH.summary;
+  const items = [
+    [fmt(c.verses_total), ta ? "நான்கு நூல்களில் படிக்கப்பட்ட பாடல்கள்" : "verses read across 4 classical books"],
+    [fmt(c.unique_sound_links), ta ? "மறைவாக மதிப்பிடப்பட்ட உறுதியான இணைப்புகள்" : "unique blind-audited sound links"],
+    [fmt(c.consciousness_verses), ta ? "உணர்வு, மெய்யுணர்வு, அவத்தை, மோனப் பாடல்கள்" : "verses mapping mind, states, bias & silence"],
+    [String(c.queued_books), ta ? "உள்ளிடப்பட்டு அடுத்ததாகக் காத்திருக்கும் நூல்கள்" : "more classical works ingested & queued next"]
+  ];
+  document.getElementById("telemetry").innerHTML = items.map(([v, k]) =>
+    `<div class="metric"><b>${v}</b><span>${k}</span></div>`
+  ).join("");
+}
+
+function renderLayerNav() {
+  const ta = state.lang === "ta";
+  document.getElementById("layer-nav").innerHTML = LAYERS.map(L => `
+    <button type="button" class="layer-btn" role="tab"
+      aria-selected="${L.id === state.layerId}" data-layer="${L.id}">
+      <span class="l-idx">${L.idx}</span>
+      <span class="l-ta" lang="ta">${esc(L.ta)}</span>
+      <span class="l-en">${esc(ta ? L.en : L.en)}</span>
+    </button>
+  `).join("");
+}
+
+function renderLayerPanel() {
+  const L = LAYERS.find(x => x.id === state.layerId) || LAYERS[0];
+  const ta = state.lang === "ta";
+  const fp = (GRAPH && GRAPH.layer_footprints && GRAPH.layer_footprints[L.id]) || { total: 0, by_book: { kural: 0, naladiyar: 0, tirumanthiram: 0, thiruppugazh: 0 } };
+  const sum = fp.total || 1;
+  const bookKeys = ["kural", "naladiyar", "tirumanthiram", "thiruppugazh"];
+  const barHtml = bookKeys.map(b => {
+    const n = fp.by_book[b] || 0;
+    return n ? `<span style="width:${(100 * n / sum).toFixed(1)}%;background:${BOOK_META[b].color}" title="${bookLabel(b)}: ${n}"></span>` : "";
+  }).join("");
+  const legendHtml = bookKeys.filter(b => fp.by_book[b]).map(b =>
+    `<span><b style="color:${BOOK_META[b].color}">●</b> ${bookLabel(b)} ${fp.by_book[b]}</span>`
+  ).join("");
+
+  const versesHtml = L.verses.map(item => {
+    const v = GRAPH && GRAPH.verses[item.id];
+    if (!v) return "";
+    const tamilText = v.tamil.join("\n");
+    return `
+      <article class="v-card">
+        <div class="v-meta">
+          <span>${esc(formatVid(item.id))}</span>
+          <span>${esc(v.chapter || "")}</span>
+        </div>
+        <p class="v-tamil" lang="ta">${esc(tamilText)}</p>
+        ${ta ? "" : `<p class="v-gloss">${esc(v.reading)}</p>`}
+        <p class="v-why"><strong>${ta ? "பரிணாமப் பொருள்:" : "Evolutionary significance:"}</strong> ${esc(ta ? item.why_ta : item.why_en)}</p>
+      </article>
+    `;
+  }).join("");
+
+  document.getElementById("layer-panel").innerHTML = `
+    <div class="lp-top">
+      <div>
+        <p class="lp-title-ta" lang="ta">${esc(L.ta)}</p>
+        <h3 class="lp-title-en">${esc(L.en)}</h3>
+        <p class="lp-tagline">${esc(ta ? L.tagline_ta : L.tagline_en)}</p>
+      </div>
+      <div class="lp-footprint">
+        <div class="fp-k">${ta ? "வரைபடப் பாடல்கள் (தனித்தவை)" : "Unique graph verses in this layer"}</div>
+        <div class="fp-v">${fmt(fp.total)}</div>
+        <div class="fp-bar">${barHtml}</div>
+        <div class="fp-tags">${legendHtml}</div>
+      </div>
+    </div>
+
+    <div class="contrast-grid">
+      <div class="c-box agi">
+        <h4>${ta ? "AGI / ASI தானியக்கமாக்குவது" : "What AGI / ASI Automates & Exceeds"}</h4>
+        <p>${esc(ta ? L.agi_ta : L.agi_en)}</p>
+      </div>
+      <div class="c-box evo">
+        <h4>${ta ? "மனித உணர்வு பரிணமிக்க வேண்டிய திசை" : "What Human Consciousness Must Evolve"}</h4>
+        <p>${esc(ta ? L.evo_ta : L.evo_en)}</p>
+      </div>
+    </div>
+
+    <div class="verses-stack">${versesHtml}</div>
+
+    <div class="frontier-box">
+      <span class="fk">${ta ? "எதிர்கால ஆராய்ச்சிக் கேள்வி" : "Open Frontier Question"}</span>
+      <p>${esc(ta ? L.frontier_ta : L.frontier_en)}</p>
+    </div>
+  `;
+}
+
+const DIALECTIC_FILTERS = [
+  { id: "all", en: "All audited pairs", ta: "அனைத்து இணைகளும்" },
+  { id: "TENSION", en: "Tensions (Debates)", ta: "முரண்பாடுகள் (விவாதங்கள்)" },
+  { id: "DEVELOPS", en: "Develops (Deepening)", ta: "ஆழமாக்கம்" },
+  { id: "epistemology", en: "Signal & Illusion", ta: "மெய்யுணர்வும் மருளும்" },
+  { id: "silence", en: "Ego & Silence", ta: "அகந்தையும் மோனமும்" },
+  { id: "body", en: "Body & Longevity", ta: "உடலும் ஆயுளும்" }
+];
+
+function renderDialectics() {
+  if (!GRAPH) return;
+  const ta = state.lang === "ta";
+  document.getElementById("dialectic-filters").innerHTML = DIALECTIC_FILTERS.map(f => `
+    <button type="button" class="chip" data-filter="${f.id}" aria-pressed="${state.dialecticFilter === f.id}">
+      ${esc(ta ? f.ta : f.en)}
+    </button>
+  `).join("");
+
+  const list = GRAPH.dialectics.filter(d => {
+    if (state.dialecticFilter === "all") return true;
+    if (state.dialecticFilter === "TENSION" || state.dialecticFilter === "DEVELOPS") return d.type === state.dialecticFilter;
+    return d.topic === state.dialecticFilter;
+  });
+
+  document.getElementById("dialectics-grid").innerHTML = list.map(d => {
+    const va = GRAPH.verses[d.a], vb = GRAPH.verses[d.b];
+    const typeClass = d.type === "TENSION" ? "tension" : "develops";
+    const typeText = d.type === "TENSION" ? (ta ? "முரண்பாடு · TENSION" : "TENSION") : (ta ? "ஆழமாக்கம் · DEVELOPS" : "DEVELOPS");
+    return `
+      <article class="d-card">
+        <div class="d-top">
+          <span class="badge ${typeClass}">${typeText}</span>
+          <span class="badge sound">${ta ? "மதிப்பீடு: உறுதியானது (sound)" : "blind-audited: sound"}</span>
+        </div>
+        <div class="d-pair">
+          <div class="d-side">
+            <span class="ds-id">${esc(formatVid(d.a))}</span>
+            <p class="ds-ta" lang="ta">${esc(va.tamil.join("\n"))}</p>
+            ${ta ? "" : `<p class="ds-r">${esc(va.reading)}</p>`}
+          </div>
+          <div class="d-side">
+            <span class="ds-id">${esc(formatVid(d.b))}</span>
+            <p class="ds-ta" lang="ta">${esc(vb.tamil.join("\n"))}</p>
+            ${ta ? "" : `<p class="ds-r">${esc(vb.reading)}</p>`}
+          </div>
+        </div>
+        <p class="d-note"><strong>${ta ? "வரைபடக் குறிப்பு:" : "Graph link note:"}</strong> ${esc(d.note)}</p>
+        <div class="d-lens">
+          <span class="dl-k">${ta ? "AGI / ASI எதிர்காலப் பார்வை" : "Why this dialectic matters for AGI / ASI"}</span>
+          ${esc(ta ? d.lens_ta : d.lens_en)}
+        </div>
+      </article>
+    `;
+  }).join("");
+}
+
+function getSavedNote(id) {
+  try { return localStorage.getItem("unarvu-note-" + id) || ""; } catch (e) { return ""; }
+}
+function setSavedNote(id, val) {
+  try { localStorage.setItem("unarvu-note-" + id, val); } catch (e) {}
+}
+
+function renderStudio() {
+  const ta = state.lang === "ta";
+  document.getElementById("dilemma-list").innerHTML = DILEMMAS.map(D => `
+    <button type="button" class="dilemma-btn" role="tab"
+      aria-selected="${D.id === state.dilemmaId}" data-dilemma="${D.id}">
+      <span class="dk">${esc(ta ? D.tag_ta : D.tag_en)}</span>
+      <span class="dt">${esc(ta ? D.q_ta : D.q_en)}</span>
+    </button>
+  `).join("");
+
+  const D = DILEMMAS.find(x => x.id === state.dilemmaId) || DILEMMAS[0];
+  const V = D.voices[state.voiceIdx] || D.voices[0];
+  const vRec = GRAPH && GRAPH.verses[V.vid];
+  const saved = getSavedNote(D.id);
+
+  document.getElementById("studio-main").innerHTML = `
+    <div>
+      <p class="eyebrow" style="margin-bottom:10px">${esc(ta ? D.tag_ta : D.tag_en)}</p>
+      <h3 class="studio-q">${esc(ta ? D.q_ta : D.q_en)}</h3>
+      <p class="studio-ctx" style="margin-top:10px">${esc(ta ? D.ctx_ta : D.ctx_en)}</p>
+    </div>
+
+    <div>
+      <div class="voices-tabs" role="tablist" aria-label="Classical perspectives">
+        ${D.voices.map((v, i) => `
+          <button type="button" class="voice-tab" role="tab"
+            aria-selected="${i === state.voiceIdx}" data-voice="${i}">
+            ${esc(ta ? v.who_ta : v.who_en)}
+          </button>
+        `).join("")}
+      </div>
+      <div class="voice-card" style="margin-top:12px">
+        <div class="vc-src">${esc(formatVid(V.vid))}</div>
+        ${vRec ? `<p class="vc-ta" lang="ta">${esc(vRec.tamil.join("\n"))}</p>` : ""}
+        <p class="vc-arg">${esc(ta ? V.arg_ta : V.arg_en)}</p>
+      </div>
+    </div>
+
+    <div class="reflect-box">
+      <label for="reflection-input">${ta ? "உங்கள் சிந்தனை / ஆய்வுக் குறிப்பு (உலாவியில் சேமிக்கப்படும்)" : "Your position / research note (saved locally in your browser)"}</label>
+      <textarea id="reflection-input" placeholder="${ta ? "இந்தக் கேள்வியில் உங்கள் நிலைப்பாட்டை அல்லது புதிய சோதனையை எழுதுங்கள்…" : "Draft your own thesis, counter-argument, or experiment to explore with colleagues or an AI…"}">${esc(saved)}</textarea>
+      <div class="reflect-actions">
+        <button type="button" class="btn btn-primary" id="copy-brief">
+          ${ta ? "விவாதக் குறிப்பை நகலெடு (Markdown)" : "Copy Inquiry Brief (Markdown)"}
+        </button>
+        <span class="status-msg" id="copy-status" aria-live="polite"></span>
+      </div>
+    </div>
+  `;
+
+  const input = document.getElementById("reflection-input");
+  input.addEventListener("input", () => setSavedNote(D.id, input.value));
+
+  document.getElementById("copy-brief").addEventListener("click", async () => {
+    const lines = [
+      `# Inquiry Brief: ${D.q_en}`,
+      "",
+      `Context: ${D.ctx_en}`,
+      "",
+      "## Four Classical Tamil Perspectives (from the 4-book Knowledge Graph)",
+      ...D.voices.flatMap(v => {
+        const rec = GRAPH && GRAPH.verses[v.vid];
+        return [
+          `### ${v.who_en} (${v.vid})`,
+          rec ? `> ${rec.tamil.join(" / ")}` : "",
+          v.arg_en,
+          ""
+        ];
+      }),
+      "## My Position / Open Question",
+      input.value.trim() || "(Add your thesis here to continue the conversation.)",
+      ""
+    ];
+    const md = lines.join("\n");
+    const status = document.getElementById("copy-status");
+    try {
+      await navigator.clipboard.writeText(md);
+      status.textContent = ta ? "நகலெடுக்கப்பட்டது — விவாதத்தில் ஒட்டவும்." : "Copied Markdown brief to clipboard.";
+    } catch (e) {
+      status.textContent = ta ? "நகலெடுக்க இயலவில்லை." : "Clipboard blocked; select and copy manually.";
+    }
+  });
+}
+
+function renderAll() {
+  renderTelemetry();
+  renderLayerNav();
+  renderLayerPanel();
+  renderDialectics();
+  renderStudio();
+}
+
+function setLang(l) {
+  state.lang = l === "ta" ? "ta" : "en";
+  document.documentElement.classList.toggle("l-ta", state.lang === "ta");
+  document.documentElement.lang = state.lang;
+  document.querySelectorAll(".lang-toggle button").forEach(b =>
+    b.setAttribute("aria-pressed", String(b.dataset.lang === state.lang))
+  );
+  try { localStorage.setItem("unarvu-lang", state.lang); } catch (e) {}
+  renderAll();
+}
+
+document.getElementById("layer-nav").addEventListener("click", e => {
+  const b = e.target.closest("[data-layer]");
+  if (!b) return;
+  state.layerId = b.dataset.layer;
+  renderLayerNav();
+  renderLayerPanel();
+});
+
+document.getElementById("dialectic-filters").addEventListener("click", e => {
+  const b = e.target.closest("[data-filter]");
+  if (!b) return;
+  state.dialecticFilter = b.dataset.filter;
+  renderDialectics();
+});
+
+document.getElementById("dilemma-list").addEventListener("click", e => {
+  const b = e.target.closest("[data-dilemma]");
+  if (!b) return;
+  state.dilemmaId = b.dataset.dilemma;
+  state.voiceIdx = 0;
+  renderStudio();
+});
+
+document.getElementById("studio-main").addEventListener("click", e => {
+  const b = e.target.closest("[data-voice]");
+  if (!b) return;
+  state.voiceIdx = Number(b.dataset.voice);
+  renderStudio();
+});
+
+document.querySelectorAll(".lang-toggle button").forEach(b =>
+  b.addEventListener("click", () => setLang(b.dataset.lang))
+);
+
+let savedLang = null;
+try { savedLang = localStorage.getItem("unarvu-lang"); } catch (e) {}
+setLang(new URLSearchParams(location.search).get("lang") || savedLang || "en");
+</script>

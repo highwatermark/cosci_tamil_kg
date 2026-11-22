@@ -285,6 +285,10 @@ a { color: inherit; }
 @keyframes answer { 0%, 40%, 100% { transform: scale(1); opacity: .25; } 47% { transform: scale(1.8); opacity: .7; } }
 .in .spec li { animation: rise .6s cubic-bezier(.2, .8, .2, 1) both; animation-delay: calc(.2s + var(--i) * .28s); }
 
+.deeper { margin: 28px 0 0; font: 600 clamp(16px, 1.4vw, 19px)/1.4 var(--f-display); }
+.deeper a { color: var(--rose); text-underline-offset: 4px; }
+.atlas.unarvu { margin-top: 18px; background: #16161d; }
+.atlas.unarvu a { background: var(--marigold); }
 /* language: English for the world, Tamil for the roots */
 .lang { margin-left: auto; display: flex; gap: 2px; padding: 3px; border-radius: 999px; background: rgba(22,22,29,.82); }
 .lang button { font: 600 13px/1 var(--f-display); border: 0; background: transparent; color: var(--milk); padding: 8px 12px; border-radius: 999px; cursor: pointer; }
@@ -369,6 +373,7 @@ html:not(.l-ta) .ta-only, .l-ta .en-only { display: none !important; }
   <div class="tm-head wrap">
     <p class="eyebrow">## four questions for tomorrow</p>
     <h2 class="big" id="ht">Every culture is about to face the same four questions. <em>Tamil has been arguing about them for two thousand years.</em></h2>
+    <p class="deeper"><a href="https://claude.ai/artifact/KNtiyE7ewKsmAXA79uGSuA" target="_blank" rel="noopener">Go deeper in Unarvu: five layers of consciousness and ten debates between the books →</a></p>
   </div>
 
 <article class="room qroom q1" id="q1" data-label="Q1 · the spec" aria-labelledby="hq1">
@@ -1021,6 +1026,10 @@ html:not(.l-ta) .ta-only, .l-ta .en-only { display: none !important; }
       <p>The full atlas holds every verse, every reading, all 6,660 links with their grades and notes, and threads that run across the books. Click any verse to follow where it leads.</p>
       <a href="https://claude.ai/artifact/8ypxS56cp7tjru16nV3d3K" target="_blank" rel="noopener">open the full atlas</a>
     </div>
+    <div class="atlas unarvu">
+      <p>Unarvu, the companion page, maps five layers of consciousness the texts describe, sets ten blind-graded debates between the books against the questions of AGI, and gives you a studio to write your own position.</p>
+      <a href="https://claude.ai/artifact/KNtiyE7ewKsmAXA79uGSuA" target="_blank" rel="noopener">open Unarvu</a>
+    </div>
     <div class="method">
       <p>## the books. Thirukkural, Tiruvalluvar (couplets, early centuries CE). Naladiyar (Jain quatrains, roughly 6th to 8th century). Tirumanthiram, Tirumular (Saiva verses on ethics, yoga and grace). Thiruppugazh, Arunagirinathar (songs to Murugan, 15th century).</p>
       <p>## the method. Tamil texts from Project Madurai. Readings, concepts and links were made by Claude and graded blind by separate Claude agents, with links of known grade hidden in every batch to measure how strict the graders were. English lines on this page are fresh, plain renderings of those readings.</p>
@@ -1194,13 +1203,16 @@ const TA = {
   "a god you can only obey": "கீழ்ப்படிய மட்டுமே முடிந்த கடவுள்",
   "kinship that stops at our own kind": "நம் இனத்தோடு நின்றுவிடும் உறவு",
   "We will not be smarter than what we build. We can still be better.": "நாம் உருவாக்குவதைவிட அறிவில் மிஞ்ச மாட்டோம். <em>பண்பில் மிஞ்சலாம்.</em>",
+  "Go deeper in Unarvu: five layers of consciousness and ten debates between the books →": "உணர்வு பக்கத்தில் ஆழ்ந்து செல்லுங்கள்: ஐந்து உணர்வு நிலைகளும் நூல்களுக்கு இடையிலான பத்து வாதங்களும் →",
+  "Unarvu, the companion page, maps five layers of consciousness the texts describe, sets ten blind-graded debates between the books against the questions of AGI, and gives you a studio to write your own position.": "இணைப் பக்கமான ‘உணர்வு’, நூல்கள் விவரிக்கும் ஐந்து உணர்வு நிலைகளை வரைகிறது; தனித்து மதிப்பிடப்பட்ட, நூல்களுக்கு இடையிலான பத்து வாதங்களைச் செயற்கைப் பொது அறிவின் கேள்விகளோடு வைக்கிறது; உங்கள் சொந்த நிலைப்பாட்டை எழுத ஓர் இடத்தையும் தருகிறது.",
+  "open Unarvu": "உணர்வைத் திற",
 };
 const LABEL_TA = { r1: "௧ நிலையாமை", r2: "௨ உடல்", r3: "௩ எவ்வளவு காலம்", r4: "௪ கவனம்", r5: "௫ ஈகை",
   r6: "௬ கல்வி", r7: "௭ விடுதல்", r8: "௮ அன்பு", carry: "## கொண்டு செல்வோம்", appendix: "## பின்னிணைப்பு",
   tomorrow: "## நாளைக்கான கேள்விகள்", q1: "கேள்வி 1 · வரையறை", q2: "கேள்வி 2 · ஆற்றல்", q3: "கேள்வி 3 · வளர்ச்சி", q4: "கேள்வி 4 · விண்மீன்கள்" };
 const NAMES_TA = [["Thirukkural", "திருக்குறள்"], ["Tiruvalluvar", "திருவள்ளுவர்"], ["Naladiyar", "நாலடியார்"],
   ["Tirumanthiram", "திருமந்திரம்"], ["Tirumular", "திருமூலர்"], ["Thiruppugazh", "திருப்புகழ்"], ["Arunagirinathar", "அருணகிரிநாதர்"]];
-const T_SEL = ".pill, .hero .mark, .hero h1, .ask, .tm-head .eyebrow, .tm-head h2, .qn, .qh, .spec .g, .spec .tag, .answer p, .answer h4, .needs li, .code .final, .hero .notes li, .stage .foot span, .intro .eyebrow, .intro .big, .intro .flow p, .intro .giant, " +
+const T_SEL = ".deeper a, .pill, .hero .mark, .hero h1, .ask, .tm-head .eyebrow, .tm-head h2, .qn, .qh, .spec .g, .spec .tag, .answer p, .answer h4, .needs li, .code .final, .hero .notes li, .stage .foot span, .intro .eyebrow, .intro .big, .intro .flow p, .intro .giant, " +
   ".gloss, .lens h3, .lens p, .thread > span:last-child, .verse .src, .code .eyebrow, .code h2, .code h3, .code li, .code .sign, " +
   ".appx h2, .appx .lede, .panel h3, .panel .cap, #more, .atlas p, .atlas a, .method p";
 const norm = s => s.replace(/\s+/g, " ").trim();
