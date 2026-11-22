@@ -1,0 +1,83 @@
+{
+  "chapter_no": 123,
+  "chapter_theme": "The close of the Njanam: the oils and biles promised as collyrium in 2327, which claim to make the wearer unseen, to make courtesans swoon and to split open the netherworld, and a last verse that returns to the three lights made one in Brahman, from which crores of siddhis follow, with the command not to give the book to anyone.",
+  "structure_note": "Three formula verses (2401 to 2403) continue the oil begun in 2400; the final verse (2404) returns to the method of the whole work and seals the book.",
+  "verses": {
+    "2401": {
+      "reading": "Having done pooja, preserve it well; take the oil of the wild ridge-gourd, the oils of asaipul and manakkathuvu likewise, add the ghee of kesari, add the bile of the slender loris, add the oil of the thalaippindam, grind it without speaking, son, and add civet and musk.",
+      "concepts": [
+        "marundhu",
+        "vaadham"
+      ],
+      "uncertain": true,
+      "nuance": "A compounding of oils, biles and perfumes, read here for what it claims rather than as a method: the brow-collyrium of 2402. பேய்ப்பீர்க்கு is the wild ridge-gourd; ஆசைபுல், மணக்கதுவு and தலைப்பிண்டம் are not identified; கேசரி may be lion or saffron. பாசையடா பேசாமல், grinding without speaking, is a rite condition."
+    },
+    "2402": {
+      "reading": "Put an atom of it on the brow and go firmly: who then will see you, by the grace of the Brahman called the egg; and bring the bewildering herb, add the oil already named, grind it and put it on the brow: many courtesans will swoon.",
+      "concepts": [
+        "siththi",
+        "marundhu",
+        "kaamam"
+      ],
+      "uncertain": true,
+      "nuance": "Two claims: invisibility (the அஞ்சனம் promised in 2327), credited to Brahman's grace as much as to the paste, and the swooning of prostitutes, a love-charm. திகைப்பூண்டு, the plant of bewilderment, is a cipher-name or a folk name; the verse sits awkwardly beside 2349's condemnation of lusting after prostitutes."
+    },
+    "2403": {
+      "reading": "Add the milk of the thillai, black tulasi, the bile of the bat and the bile of the monkey, add the seed already named, grind firmly for one watch, take what is ground and put it on the brow and look: the netherworld splits open and runs, and you may see with desire the exploration of Vedanta.",
+      "concepts": [
+        "marundhu",
+        "siththi",
+        "vedaantham"
+      ],
+      "uncertain": true,
+      "nuance": "பாதாளம் பிளந்தோடும், the netherworld splitting, is the claim of a siddhi of sight or of passage through the earth; வேதாந்த சாரணை, the exploration (or the charana siddhi) of Vedanta, is an odd phrase that joins the magical claim to the doctrinal word. Read as history of a claim."
+    },
+    "2404": {
+      "reading": "Going within Parabrahman, with sun, moon and fire made one, and looking surely at the Primal and at the enemy, he will turn to ash; crores upon crores of siddhis can be fixed by Brahman; do not give this book to anyone; with victory the eighty are complete.",
+      "concepts": [
+        "piramam",
+        "siththi",
+        "oli"
+      ],
+      "nuance": "எதிரி, the enemy, may be an outer foe burned by a glance or the inner adversary; the verse allows both. The seal of secrecy, இந்நூலைக் கொடுத்திடாதே, follows 2393's complaint that other siddhas hid their teaching. எண்பது, eighty, counts the work; the corpus has seventy-nine units."
+    }
+  },
+  "links": [
+    {
+      "a": 2402,
+      "b": 2327,
+      "type": "develops",
+      "note": "2327 promised to make clear அஞ்சனம், the collyrium; 2402 delivers it as a brow-paste that makes the wearer unseen, so the opening's table of contents is honoured at the close."
+    },
+    {
+      "a": 2402,
+      "b": 2349,
+      "type": "tension",
+      "note": "2349 says one who lusts after prostitutes becomes vain and falls into hell; 2402 offers a paste that makes many courtesans swoon. The conflict stands if the charm is meant for use; it dissolves only if 2402 is read as a boast of power never to be exercised."
+    },
+    {
+      "a": 2404,
+      "b": 2393,
+      "type": "tension",
+      "note": "2393 blames the siddhas for hiding the sign of the egg and speaking in concealment, and sets this book up as plain; 2404 orders the disciple not to give the book to anyone. Openness and secrecy are both claimed for the same text; the conflict holds unless 2393's charge is only against cipher within a text, not against restricting its readers."
+    }
+  ],
+  "new_concepts": [
+    {
+      "id": "piramam",
+      "tamil": "பிரமம்",
+      "gloss": "Brahman: the Supreme (also பரப்பிரமம், பராபரம்) from which gods, lives and eggs issue and into which mind, breath and worlds are absorbed; Kakapusundar's name for the goal of the whole practice",
+      "label_source": "Used in nearly every verse, as பிரமம் (2329, 2340), பரப்பிரமம் (2334, 2336) and பராபரம் (2326, 2364)"
+    },
+    {
+      "id": "vaadham",
+      "tamil": "வாதம்",
+      "gloss": "alchemy: the art of transmuting metals (also வேதை), with its drugs, salts and calcined preparations",
+      "label_source": "Used in 2327 as வாதமென்ற வித்தை and in 2399 as வேதையென்ற வித்தை; 2330 names its materials"
+    }
+  ],
+  "source_issues": [
+    "2404 says the work has eighty verses (எண்பதுமே); the corpus has seventy-nine (2326 to 2404), so one verse is lost or the count includes something not transmitted.",
+    "2401: ஆசைபுல்லா மணக்கதுவு may be one plant name or two; the metrical break does not settle it."
+  ]
+}
