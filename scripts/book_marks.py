@@ -26,8 +26,11 @@ MAX_CONCEPTS = 4
 BOOKS = {
     "tirumanthiram": ("tirumanthiram.jsonl", "number", ("tantra", "chapter_no"), "chapter", {}),
     "thiruppugazh": ("thiruppugazh.jsonl", "number", ("heading",), "heading", {}),
+    # Siddhar units are keyed by seq (their global order), since the works' own numbers restart and
+    # some units are unnumbered; show prints each unit's own id beside it.
+    "siddhar": ("siddhar.jsonl", "seq", ("work", "run"), "work_title", {}),
 }
-SPLIT = {"thiruppugazh": 15}
+SPLIT = {"thiruppugazh": 15, "siddhar": 25}
 FINISHED = {"kural": ("kural.jsonl", "verse"), "naladiyar": ("naladiyar.jsonl", "verse"),
             "tirumanthiram": ("tirumanthiram.jsonl", "number"), "thiruppugazh": ("thiruppugazh.jsonl", "number")}
 
@@ -70,11 +73,17 @@ def show(book, numbers):
         ch = chapters[c]
         rec = ch["record"]
         where = f"tantra {rec.get('tantra')} {rec.get('tantra_name') or ''}, " if "tantra" in rec else ""
+        if "siddhar" in rec:
+            where = f"{rec['siddhar']}, {rec['work']}, "
         print(f"# Chapter {c}: {ch['title']} ({where}verses {ch['verses'][0]}-{ch['verses'][-1]})")
         for n in ch["verses"]:
             v = verses[n]
-            print(f"\n## {n}\n" + "\n".join(v["tamil"]))
-            for field in ("variants", "sengalvaraya_parallels", "corrupt_lines", "corrupt_chars", "heading_variants"):
+            own = f"  ({v['id']}" + (f", {' / '.join(v['section'])}" if v.get("section") else "") + ")" if "seq" in v else ""
+            print(f"\n## {n}{own}\n" + "\n".join(v["tamil"]))
+            for field in ("variants", "sengalvaraya_parallels", "corrupt_lines", "corrupt_chars", "heading_variants",
+                          "glosses", "variant_notes", "parallels", "attribution"):
+                if field == "attribution" and v.get(field) == "traditional":
+                    continue
                 if v.get(field):
                     print(f"{field.upper()}: {squeeze(json.dumps(v[field], ensure_ascii=False))}")
             for field in witnesses:
