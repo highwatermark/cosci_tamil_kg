@@ -12,8 +12,8 @@ larger work.
 | 4 | Siddhar songs, all Siddhars | | verse, keyed by `seq`; marked by poet in three passes | marking |
 | 5 | Tiruvasagam | Thiruvempavai (hymn 7) | stanza (661) | yes |
 | 6 | Aathichudi | read with Kondrai Vendhan, Nalvazhi, Moodurai | line or verse (270) | yes |
-| 8 | Thirumurai | Thevaram, Thirukkovaiyar, Thiruvisaippa, 11th book, Periya Puranam | pathigam (hymn) | in progress |
 | 7 | Purananuru | | poem (398) | yes |
+| 8 | Thirumurai | Thevaram, Thirukkovaiyar, Thiruvisaippa, 11th book, Periya Puranam | pathigam (hymn) | in progress |
 | 9 | Divya Prabandham | Thiruppavai, Thiruvaimozhi | decade (pathigam); Thiruppavai per verse | in progress |
 
 Tiruvasagam and Tirumanthiram are Thirumurai 8 and 10. Thiruppavai and Thiruvaimozhi are parts of the
