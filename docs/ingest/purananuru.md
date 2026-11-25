@@ -19,6 +19,7 @@ Outputs:
 | `filled_from_duraisamy_pillai` | the fields filled from the commentary where the base text had none |
 | `duraisamy_pillai` | `{source, heading, tamil, colophon, commentary}`: his file, his section heading (usually the patron, otherwise the poet), his version of the poem lines (older, sandhi-joined spelling; line numbers stripped), his colophon sentence, and the whole commentary (introduction, colophon, உரை, விளக்கம்) as paragraphs joined by newlines |
 | `rights` | per-part rights (see the sidecar map below) |
+| `repairs` | ids of this poem's entries in `kg/core/purananuru_repairs.jsonl` (changes made by `scripts/repair_purananuru.py`, and readings kept against another edition) |
 
 ## Files used
 
@@ -63,7 +64,44 @@ Also checked: the last section of every file (60, 130, 200, 270, 340, 400) ends 
 
 The same map is written into each record's `rights` field. Project Madurai's licence allows redistributing the e-texts, but that does not clear the underlying copyright in the commentary.
 
-## Text problems
+## Text repairs (2026-11-25)
+
+`python3 -I scripts/repair_purananuru.py` reruns `parse_purananuru.py` and then repairs the base
+text, so the build is always parse + repair. Every change is logged in
+`kg/core/purananuru_repairs.jsonl` (poem, line, old, new, authority, the other editions'
+readings); readings kept where the editions differ are logged there too (`"action": "kept"`) and
+flagged in `kg/core/sangam_text_flags.jsonl`. Authorities: tamilvu.org's verse text (library
+l1280, U. V. Swaminatha Aiyar's edition) and the poem lines of Duraisamy Pillai's edition in the
+Project Madurai files. `duraisamy_pillai.tamil` and `colophon_raw` are left as printed.
+
+187 changes:
+- 86 `-ஒடு` endings (யடு/ளடு → யொடு/ளொடு). pmuni0057 has no யொ or ளொ anywhere, so the sign was
+  lost in encoding. The rule only touches யடு/ளடு at a word end or before -ம், and the script
+  stops if it finds a place not checked against both editions (அடுக்கத்து in 200 is left alone).
+  In 159 and 320 tvu reads -ஓடு, and dp reads -ஓடு in 159, 250, 310, 328 and 395 (logged).
+  2 more lost ொ inside words (31 நீயொல், 109 விரையொலி).
+- 51 stray-character fixes in 37 poems: backticks made ‘ ’ / “ ”, underscores made the base
+  text's dash `-` (in 24 removed); 6 font-junk fixes (69, 100 ×2, 283, 352, 373). In 283, 352 and
+  373 the junk stood for lost letters, so it is removed and the lacuna kept; dp's fuller readings
+  are logged, not adopted.
+- 14 misprints: 84 (ஜ் → னை, போறெதிர்ந்து), 209 (stray space), 269 (குரூஉ), 361 (பஃறேர்), and
+  non-words found while collating: 56, 88 ×4, 109, 126, 152, 160, 215.
+- 19 line-gap repairs adding 22 lines in 16 poems (48, 58, 77 ×3, 86, 88, 116, 160 ×2, 209, 230,
+  235, 325, 371, 377, 378, 384, 386), and 126's first line split in two. Most are eye-skips where
+  the base joins the start of one line to the end of a later one. Both editions have every
+  restored line. Inserted lines are in tvu's spelling.
+- 8 colophon fixes: thurai of 5 (செவியறிவுறூஉ) and 336 (மகட்பாற் காஞ்சி); poet and patron of 15
+  (நெட்டிமையார், பாண்டியன் பல்யாகசாலை முதுகுடுமிப் பெருவழுதி; the base repeats 14); poet of 144
+  and 145 (பரணர்; the base repeats 143's கபிலர்), and 145's remark on the poet moved from thurai
+  to note.
+
+Kept and flagged (21): line differences where only one edition has more (355, 366, 382, 383,
+384 line 5 and 209 line 10, which dp has and tvu lacks; 283 line 3 where tvu reads differently;
+48 and 147, where dp lacks a line); 393 கூமை/கூர்மை; 7 probable misprints that are real words
+(69 முழுவதுடன், 77 இகழ்ந்தன்றும், 160 குனிப்ப, கோடின்றாக, நல்குவை, வருங்கலம், 361 கொன்றுதன்);
+poets of 298 (tvu ஆலியார்) and 381 (tvu நன்னாகனார்).
+
+## Text problems (as found at ingest)
 
 Repaired (each one is printed by the script):
 - **64**: the base text puts 9 lines of poem 326 (அருமிளை இருக்கை யதுவே…பெரும்பரி சிலனே) before the real poem. They are dropped because they are printed again in 326 and are not in Duraisamy Pillai's 64.

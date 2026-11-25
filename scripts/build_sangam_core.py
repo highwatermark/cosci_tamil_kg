@@ -705,6 +705,16 @@ def check_purananuru(text_dir, path):
               "lines": sum(len(r["tamil"]) for r in recs)}
     src = body(text_dir, "pmuni0057").replace("·", "ஃ")
     src_norm = NON_TAMIL.sub("", src)
+    # Lines changed by scripts/repair_purananuru.py are logged in purananuru_repairs.jsonl, so
+    # they are not reported as missing from pmuni0057; the readings it keeps are flagged.
+    repairs_path = path.with_name("purananuru_repairs.jsonl")
+    repairs = ([json.loads(l) for l in repairs_path.read_text(encoding="utf-8").splitlines()]
+               if repairs_path.exists() else [])
+    repaired = set()
+    for x in repairs:
+        if x["action"] == "changed" and x["field"] == "tamil":
+            for l in (x["new"] if isinstance(x["new"], list) else [x["new"]]):
+                repaired.add((x["poem"], l))
     not_in_source, unicode_bad, empty = [], [], []
     for r in recs:
         rid = r["id"]
@@ -719,7 +729,8 @@ def check_purananuru(text_dir, path):
                 flag("purananuru", rid, "spelling", "a word begins with a dead consonant (stray space "
                      "or lost letter)", i, l)
             k = NON_TAMIL.sub("", l)
-            if r.get("tamil_source") == "pmuni0057" and k and k not in src_norm:
+            if r.get("tamil_source") == "pmuni0057" and k and k not in src_norm \
+                    and (rid, l) not in repaired:
                 not_in_source.append((rid, i))
                 flag("purananuru", rid, "not_in_source", "line not found in pmuni0057", i, l)
         for i in range(1, len(r["tamil"])):
@@ -730,8 +741,15 @@ def check_purananuru(text_dir, path):
             flag("purananuru", rid, "line_count", f"{len(r['tamil'])} lines; Duraisamy Pillai's "
                  f"edition has {len(d['tamil'])}")
     cross_duplicates("purananuru", recs)
+    for x in repairs:
+        if x["action"] == "kept":
+            readings = "; ".join(f"{k}: {v}" for k, v in (x.get("readings") or {}).items())
+            flag("purananuru", x["poem"], x["kind"], f"our reading kept ({x['field']}); "
+                 + readings + (f" ({x['note']})" if x.get("note") else "") + f" [{x['id']}]",
+                 x.get("line"), x["old"] if x["field"] == "tamil" else None)
     report.update(not_in_source=len(not_in_source), unicode_problem_poems=len(set(unicode_bad)),
-                  empty=empty)
+                  empty=empty, repairs_changed=sum(1 for x in repairs if x["action"] == "changed"),
+                  repairs_kept=sum(1 for x in repairs if x["action"] == "kept"))
     return report
 
 

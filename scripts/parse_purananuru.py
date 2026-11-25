@@ -13,6 +13,8 @@ base text, which tolerates his older, sandhi-joined spelling. Everything else in
 (introduction, his colophon sentence, உரை, விளக்கம்) is kept as his commentary.
 
 Run: python3 -I scripts/parse_purananuru.py
+This writes the unrepaired text. The full build is python3 -I scripts/repair_purananuru.py, which
+runs this script first and then applies the logged repairs.
 """
 import json
 import re
