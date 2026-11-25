@@ -50,7 +50,7 @@ which school.
   `python3 -I scripts/book_marks.py manimekalai show 27`
 - Validate: `python3 -I scripts/book_marks.py manimekalai check 27`
 - Marked verses of the other books: `python3 -I scripts/verse.py kural:55 naladiyar:42 tirumanthiram:2104`
-- An index of every marked Kural, Naladiyar, Tirumanthiram and Thiruppugazh verse, one line each:
+- An index of every marked verse in every book (Kural, Naladiyar, Tirumanthiram, Thiruppugazh, the Siddhar songs and the Sangam books marked so far), one line each:
   `python3 -I scripts/book_marks.py index <your scratch dir>/index.txt`, then grep it. Marked Siddhar,
   Purananuru and Akananuru chapters are in `kg/themes/<book>/chNNN.json`.
 

@@ -46,7 +46,7 @@ who the counsel is for (`domain`), and, in Pazhamozhi, its proverb and the story
 - Your chapters' verses, with line numbers and text flags: `python3 -I scripts/book_marks.py thirikadugam show 2`
 - Validate: `python3 -I scripts/book_marks.py thirikadugam check 2`
 - Marked verses of the other books: `python3 -I scripts/verse.py kural:972 naladiyar:58`
-- An index of every marked Kural, Naladiyar, Tirumanthiram and Thiruppugazh verse, one line each
+- An index of every marked verse in every book (Kural, Naladiyar, Tirumanthiram, Thiruppugazh, the Siddhar songs and the Sangam books marked so far), one line each
   (`id | concepts | reading`): `python3 -I scripts/book_marks.py index <your scratch dir>/index.txt`,
   then grep it. Marked Purananuru poems are in `kg/themes/purananuru/chNNN.json`.
 
