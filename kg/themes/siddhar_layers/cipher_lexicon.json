@@ -1,5 +1,5 @@
 {
- "version": "0.1",
+ "version": "0.2",
  "date": "2026-11-25",
  "about": "Words and phrases in the six pilot chapters that carry two traditional senses. Each entry starts as proposed; graders accept or reject it, and the acceptance rate (accepted / reviewed) is the lexicon's quality metric.",
  "count_method": "corpus_verses = units of kg/core/siddhar.jsonl whose Tamil (lines joined, spaces removed) matches pattern; the grep-equivalent count over the Tamil only, so glosses and variant notes are not counted.",
@@ -48,7 +48,7 @@
    ],
    "pattern": "வாசி",
    "corpus_verses": 62,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -57,7 +57,11 @@
      "note": "pilot"
     }
    ],
-   "note": "The pattern also matches வாசிக்க (to read) and வாசித்த, so the corpus count is an upper bound."
+   "note": "The pattern also matches வாசிக்க (to read) and வாசித்த, so the corpus count is an upper bound.",
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "muulam",
@@ -101,7 +105,7 @@
    ],
    "pattern": "மூல(?![ிீ])",
    "corpus_verses": 125,
-   "status": "proposed",
+   "status": "disputed",
    "history": [
     {
      "version": "0.1",
@@ -110,7 +114,11 @@
      "note": "pilot"
     }
    ],
-   "note": "Counts include மூலநாடி and மூலாதாரம், where the breath sense is fixed by the compound."
+   "note": "Counts include மூலநாடி and மூலாதாரம், where the breath sense is fixed by the compound.",
+   "review": {
+    "g1": "accepted",
+    "g2": "rejected"
+   }
   },
   {
    "id": "muulanaadi",
@@ -159,7 +167,7 @@
    ],
    "pattern": "மூலநாடி",
    "corpus_verses": 11,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -168,7 +176,11 @@
      "note": "pilot"
     }
    ],
-   "note": "The identification with சுழுமுனை is traditional; the words name only a root channel."
+   "note": "The identification with சுழுமுனை is traditional; the words name only a root channel.",
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "nadu",
@@ -196,7 +208,7 @@
    ],
    "pattern": "நடு",
    "corpus_verses": 66,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -205,7 +217,11 @@
      "note": "pilot"
     }
    ],
-   "note": "A very common word; the count is mostly the plain sense."
+   "note": "A very common word; the count is mostly the plain sense.",
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "vin_naadi",
@@ -233,7 +249,7 @@
    ],
    "pattern": "விண்நாடி|விண்ணாடி",
    "corpus_verses": 2,
-   "status": "proposed",
+   "status": "rejected",
    "history": [
     {
      "version": "0.1",
@@ -241,7 +257,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "rejected",
+    "g2": "rejected"
+   }
   },
   {
    "id": "mandalam",
@@ -276,7 +296,7 @@
    ],
    "pattern": "மண்டல",
    "corpus_verses": 25,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -284,7 +304,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "thaal",
@@ -319,7 +343,7 @@
    ],
    "pattern": "தாள்",
    "corpus_verses": 31,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -328,7 +352,11 @@
      "note": "pilot"
     }
    ],
-   "note": "Most corpus uses are the feet; in 1393 and 1404 the door context fixes the bolt."
+   "note": "Most corpus uses are the feet; in 1393 and 1404 the door context fixes the bolt.",
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "vaasal",
@@ -370,7 +398,7 @@
    ],
    "pattern": "வாசல",
    "corpus_verses": 39,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -378,7 +406,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "kamalam",
@@ -406,7 +438,7 @@
    ],
    "pattern": "கமல",
    "corpus_verses": 33,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -414,7 +446,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "siram",
@@ -442,7 +478,7 @@
    ],
    "pattern": "சிரம",
    "corpus_verses": 5,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -450,7 +486,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "peruvazhi",
@@ -478,7 +518,7 @@
    ],
    "pattern": "பெருவழி",
    "corpus_verses": 2,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -486,7 +526,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "meru",
@@ -514,7 +558,7 @@
    ],
    "pattern": "மேரு",
    "corpus_verses": 13,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -522,7 +566,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "thandhi",
@@ -550,7 +598,7 @@
    ],
    "pattern": "தந்தி",
    "corpus_verses": 16,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -558,7 +606,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "aththi",
@@ -586,7 +638,7 @@
    ],
    "pattern": "அத்தி",
    "corpus_verses": 8,
-   "status": "proposed",
+   "status": "rejected",
    "history": [
     {
      "version": "0.1",
@@ -595,7 +647,11 @@
      "note": "pilot"
     }
    ],
-   "note": "The pattern also matches the fig tree (அத்தி) and அத்திமுகவன், so the count is an upper bound."
+   "note": "The pattern also matches the fig tree (அத்தி) and அத்திமுகவன், so the count is an upper bound.",
+   "review": {
+    "g1": "rejected",
+    "g2": "rejected"
+   }
   },
   {
    "id": "kunjaram",
@@ -623,7 +679,7 @@
    ],
    "pattern": "குஞ்சர",
    "corpus_verses": 3,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -632,7 +688,11 @@
      "note": "pilot"
     }
    ],
-   "note": "Of the same kind as துதிக்கை read as both the hand of worship and the trunk, which places Ganesha at the base centre."
+   "note": "Of the same kind as துதிக்கை read as both the hand of worship and the trunk, which places Ganesha at the base centre.",
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "vanni",
@@ -681,7 +741,7 @@
    ],
    "pattern": "வன்னி|அனல்",
    "corpus_verses": 19,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -689,7 +749,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "neer",
@@ -724,7 +788,7 @@
    ],
    "pattern": "நீர",
    "corpus_verses": 147,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -733,7 +797,11 @@
      "note": "pilot"
     }
    ],
-   "note": "Very common, and also the pronoun நீர்; the count says only how ordinary the word is."
+   "note": "Very common, and also the pronoun நீர்; the count says only how ordinary the word is.",
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "amudham",
@@ -761,7 +829,7 @@
    ],
    "pattern": "அமுத|அமிர்த",
    "corpus_verses": 18,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -769,7 +837,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "muchchudar",
@@ -797,7 +869,7 @@
    ],
    "pattern": "முச்சுட|சுடர்மூன்று|மூன்றுசுடர்",
    "corpus_verses": 12,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -805,7 +877,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "kalai",
@@ -833,7 +909,7 @@
    ],
    "pattern": "கலை",
    "corpus_verses": 64,
-   "status": "proposed",
+   "status": "disputed",
    "history": [
     {
      "version": "0.1",
@@ -842,7 +918,11 @@
      "note": "pilot"
     }
    ],
-   "note": "Also matches கலைந்து and similar forms; the count is an upper bound."
+   "note": "Also matches கலைந்து and similar forms; the count is an upper bound.",
+   "review": {
+    "g1": "accepted",
+    "g2": "rejected"
+   }
   },
   {
    "id": "poori",
@@ -870,7 +950,7 @@
    ],
    "pattern": "பூரி",
    "corpus_verses": 8,
-   "status": "proposed",
+   "status": "rejected",
    "history": [
     {
      "version": "0.1",
@@ -878,7 +958,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "rejected",
+    "g2": "rejected"
+   }
   },
   {
    "id": "ettu",
@@ -913,7 +997,7 @@
    ],
    "pattern": "எட்டு|எட்டெட்டு|எட்டும்",
    "corpus_verses": 24,
-   "status": "proposed",
+   "status": "rejected",
    "history": [
     {
      "version": "0.1",
@@ -921,7 +1005,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "rejected",
+    "g2": "rejected"
+   }
   },
   {
    "id": "onbadhu",
@@ -957,7 +1045,7 @@
    ],
    "pattern": "ஒன்பது|தொன்பது",
    "corpus_verses": 8,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -966,7 +1054,11 @@
      "note": "pilot"
     }
    ],
-   "note": "In 2317 the gates are named; in 301 only the number is given."
+   "note": "In 2317 the gates are named; in 301 only the number is given.",
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "kuligai",
@@ -995,7 +1087,7 @@
    ],
    "pattern": "குளிகை",
    "corpus_verses": 2,
-   "status": "proposed",
+   "status": "rejected",
    "history": [
     {
      "version": "0.1",
@@ -1003,7 +1095,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "rejected",
+    "g2": "rejected"
+   }
   },
   {
    "id": "kavanam",
@@ -1032,7 +1128,7 @@
    ],
    "pattern": "கவனக்|கமனக்|கமன",
    "corpus_verses": 8,
-   "status": "proposed",
+   "status": "disputed",
    "history": [
     {
      "version": "0.1",
@@ -1041,7 +1137,11 @@
      "note": "pilot"
     }
    ],
-   "note": "A double reading by emendation: the text has கவனக், tradition has கமனக் குளிகை."
+   "note": "A double reading by emendation: the text has கவனக், tradition has கமனக் குளிகை.",
+   "review": {
+    "g1": "rejected",
+    "g2": "accepted"
+   }
   },
   {
    "id": "rasam",
@@ -1070,7 +1170,7 @@
    ],
    "pattern": "ரசபான|இரசம்|ரசம்",
    "corpus_verses": 3,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -1078,7 +1178,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "vaadham",
@@ -1106,7 +1210,7 @@
    ],
    "pattern": "வாதம|வாதபி",
    "corpus_verses": 8,
-   "status": "proposed",
+   "status": "rejected",
    "history": [
     {
      "version": "0.1",
@@ -1115,7 +1219,11 @@
      "note": "pilot"
     }
    ],
-   "note": "In 301 the humour sense is fixed by பித்தம் and கோழை beside it; the word is listed because the flat marks' concept vaadham means alchemy, and the two senses meet in the medical-alchemical texts."
+   "note": "In 301 the humour sense is fixed by பித்தம் and கோழை beside it; the word is listed because the flat marks' concept vaadham means alchemy, and the two senses meet in the medical-alchemical texts.",
+   "review": {
+    "g1": "rejected",
+    "g2": "rejected"
+   }
   },
   {
    "id": "maaranam",
@@ -1143,7 +1251,7 @@
    ],
    "pattern": "மாரண",
    "corpus_verses": 2,
-   "status": "proposed",
+   "status": "rejected",
    "history": [
     {
      "version": "0.1",
@@ -1151,7 +1259,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "rejected",
+    "g2": "rejected"
+   }
   },
   {
    "id": "seppu",
@@ -1179,7 +1291,7 @@
    ],
    "pattern": "செப்பு",
    "corpus_verses": 13,
-   "status": "proposed",
+   "status": "rejected",
    "history": [
     {
      "version": "0.1",
@@ -1188,7 +1300,11 @@
      "note": "pilot"
     }
    ],
-   "note": "Most corpus uses are the verb."
+   "note": "Most corpus uses are the verb.",
+   "review": {
+    "g1": "rejected",
+    "g2": "rejected"
+   }
   },
   {
    "id": "soonyam",
@@ -1216,7 +1332,7 @@
    ],
    "pattern": "சூனிய|சூன்ய",
    "corpus_verses": 9,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -1224,7 +1340,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "veli",
@@ -1266,7 +1386,7 @@
    ],
    "pattern": "வெளி",
    "corpus_verses": 148,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -1275,7 +1395,11 @@
      "note": "pilot"
     }
    ],
-   "note": "Also matches வெளிப்படும் (appears); the count is an upper bound."
+   "note": "Also matches வெளிப்படும் (appears); the count is an upper bound.",
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "si",
@@ -1310,7 +1434,7 @@
    ],
    "pattern": "சிகார|சீயில்",
    "corpus_verses": 10,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -1318,7 +1442,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "ma",
@@ -1346,7 +1474,7 @@
    ],
    "pattern": "மகார",
    "corpus_verses": 11,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -1354,7 +1482,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "a_letter",
@@ -1389,7 +1521,7 @@
    ],
    "pattern": "அகார|அவ்வில்",
    "corpus_verses": 22,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -1397,7 +1529,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "ya",
@@ -1425,7 +1561,7 @@
    ],
    "pattern": "யவ்வி|யகார",
    "corpus_verses": 5,
-   "status": "proposed",
+   "status": "rejected",
    "history": [
     {
      "version": "0.1",
@@ -1433,7 +1569,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "rejected",
+    "g2": "rejected"
+   }
   },
   {
    "id": "mey",
@@ -1468,7 +1608,7 @@
    ],
    "pattern": "மெய்",
    "corpus_verses": 141,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -1477,7 +1617,11 @@
      "note": "pilot"
     }
    ],
-   "note": "Very common; the count says only how ordinary the word is."
+   "note": "Very common; the count says only how ordinary the word is.",
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "paadham",
@@ -1526,7 +1670,7 @@
    ],
    "pattern": "பாதம|பாதச்|பாதஞ்",
    "corpus_verses": 80,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -1535,7 +1679,11 @@
      "note": "pilot"
     }
    ],
-   "note": "Both senses are plain; listed because the flat marks and links move between them."
+   "note": "Both senses are plain; listed because the flat marks and links move between them.",
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   },
   {
    "id": "kadal",
@@ -1563,7 +1711,7 @@
    ],
    "pattern": "கடல",
    "corpus_verses": 42,
-   "status": "proposed",
+   "status": "rejected",
    "history": [
     {
      "version": "0.1",
@@ -1571,7 +1719,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "rejected",
+    "g2": "rejected"
+   }
   },
   {
    "id": "theertham",
@@ -1599,7 +1751,7 @@
    ],
    "pattern": "தீர்த்த",
    "corpus_verses": 20,
-   "status": "proposed",
+   "status": "accepted",
    "history": [
     {
      "version": "0.1",
@@ -1607,7 +1759,11 @@
      "by": "pilot marker (Claude)",
      "note": "pilot"
     }
-   ]
+   ],
+   "review": {
+    "g1": "accepted",
+    "g2": "accepted"
+   }
   }
  ]
 }

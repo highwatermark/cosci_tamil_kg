@@ -220,3 +220,36 @@ emendation (கவனக் as கமனக்) and the numbers (எட்டு
 - The packet generator lives outside the repository (the brief limits writes to the listed paths);
   `grading/key.json` records the seed, order, calibration links and the layer readings written for
   the calibration verses.
+
+## Blind grading results (2026-11-25, two graders)
+
+- **Calibration:** both graders matched the known grade on 5 of the 6 hidden old links.
+- **New links (41):**
+  - Grader 1 rated 46% sound and grader 2 37%. They agreed exactly on 73%. Both rated 13 links sound.
+  - That is no better than the flat marking's 53% for links between Siddhar verses. **On link quality,
+    the layers did not pay for themselves.**
+  - By layer, the share of sound grades averaged over both graders:
+
+    | Layer | Links | Sound |
+    |---|---|---|
+    | breath | 9 | 61% |
+    | literal | 17 | 44% |
+    | social | 5 | 40% |
+    | alchemy | 4 | 25% |
+    | consciousness | 6 | 17% |
+
+  - shared_key links were 25% sound, and so were tensions.
+- **Graders say most links hold without their layer:** 36 of 41, by both graders. So the layer
+  describes the link more often than it carries it, which confirms what the proposer itself found.
+- **The one link graded wrong:** 1017 to Tirumanthiram 866 claimed both verses put the moon on the
+  left. Tirumanthiram 866 puts the sun's breath on the left.
+- **Cipher lexicon v0.2:** 26 entries were accepted by both graders, 10 rejected by both, and 3 are
+  disputed. The graders agreed on 92% of entries. The acceptance rate is 67%, against ThinaiKG's 83%
+  from a single reviewer.
+
+**Verdict.** Do not re-mark all 2,701 verses in layers to improve links. Keep:
+- the accepted lexicon, as a shared key that marking and grading cite
+- the stance field, which explains weak links and the sound tensions
+- the body-place field, for the body atlas
+- the finding that consciousness and shared-key links are the least reliable. Hold them to a
+  stricter bar, or route them to a human Tamil reader.
