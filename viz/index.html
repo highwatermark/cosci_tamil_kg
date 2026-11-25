@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Five Tamil Classics</title>
+<title>Eight Tamil Classics</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,6 +25,9 @@
   --tm: #4f6d8a;
   --tp: #9c5b3c;
   --sd: #6b5a8e;
+  --ak: #3d8a5a;
+  --pn: #a8412f;
+  --pp: #2f86b0;
   --t-tension: #c0392b;
   --t-agrees: #3d8b40;
   --t-develops: #2f6fb3;
@@ -42,7 +45,7 @@
   :root:not([data-theme="light"]) {
     color-scheme: dark;
     --paper: #141917; --panel: #1b211e; --ink: #e4e9e5; --muted: #9aa69f; --rule: #2e3833;
-    --accent: #6fb0dc; --aram: #4fb39b; --porul: #e0a34a; --inbam: #e07a98; --tm: #93b3cf; --tp: #dc9873; --sd: #b6a2dc;
+    --accent: #6fb0dc; --aram: #4fb39b; --porul: #e0a34a; --inbam: #e07a98; --tm: #93b3cf; --tp: #dc9873; --sd: #b6a2dc; --ak: #6cc08a; --pn: #e07a66; --pp: #6bb8e0;
     --t-tension: #ec6a5c; --t-agrees: #74c178; --t-develops: #6aa6e6; --t-qualifies: #b08ae6;
     --t-same_image: #d4b45a; --t-parallel_domain: #5cc2c2;
     --good: #6cc48b; --warn: #e2a64a; --bad: #ec7272; --halo: rgba(111, 176, 220, .22);
@@ -51,7 +54,7 @@
 :root[data-theme="dark"] {
   color-scheme: dark;
   --paper: #141917; --panel: #1b211e; --ink: #e4e9e5; --muted: #9aa69f; --rule: #2e3833;
-  --accent: #6fb0dc; --aram: #4fb39b; --porul: #e0a34a; --inbam: #e07a98; --tm: #93b3cf; --tp: #dc9873; --sd: #b6a2dc;
+  --accent: #6fb0dc; --aram: #4fb39b; --porul: #e0a34a; --inbam: #e07a98; --tm: #93b3cf; --tp: #dc9873; --sd: #b6a2dc; --ak: #6cc08a; --pn: #e07a66; --pp: #6bb8e0;
   --t-tension: #ec6a5c; --t-agrees: #74c178; --t-develops: #6aa6e6; --t-qualifies: #b08ae6;
   --t-same_image: #d4b45a; --t-parallel_domain: #5cc2c2;
   --good: #6cc48b; --warn: #e2a64a; --bad: #ec7272; --halo: rgba(111, 176, 220, .22);
@@ -92,6 +95,18 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
 .cell.nal { transform: rotate(45deg) scale(0.78); border-radius: 1px; }
 .cell.tm { clip-path: polygon(50% 6%, 96% 94%, 4% 94%); border-radius: 0; }
 .cell.sd { clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%, 50% 0%, 50% 30%, 70% 50%, 50% 70%, 30% 50%, 50% 30%); border-radius: 0; }
+.cell.ak { clip-path: polygon(34% 0%, 66% 0%, 66% 34%, 100% 34%, 100% 66%, 66% 66%, 66% 100%, 34% 100%, 34% 66%, 0% 66%, 0% 34%, 34% 34%); border-radius: 0; }
+.cell.pn { clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%); border-radius: 0; }
+.cell.pp { clip-path: polygon(4% 6%, 96% 6%, 50% 94%); border-radius: 0; }
+.frame { display: grid; grid-template-columns: auto 1fr; gap: 3px 10px; font-size: 13.5px; margin: 0; }
+.frame dt { color: var(--muted); }
+.frame dd { margin: 0; }
+.ta { font-family: var(--f-tamil); }
+.karu { display: flex; flex-wrap: wrap; gap: 4px; }
+.karu span { font-size: 12.5px; padding: 1px 7px; border: 1px solid var(--rule); border-radius: 5px; background: var(--paper); }
+.karu span b { font-family: var(--f-tamil); font-weight: 400; }
+.karu span small { color: var(--muted); margin-left: 4px; }
+.karu span.dev { border-color: var(--accent); }
 .cell.tp { clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); border-radius: 0; }
 .chapblock { display: flex; flex-direction: column; gap: 2px; }
 .pill.across { color: var(--accent); }
@@ -140,7 +155,9 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
 .pill.contested { color: var(--accent); }
 .pill.uncertain, .pill.weak { color: var(--warn); }
 .pill.textflag, .pill.forced, .pill.wrong { color: var(--bad); }
-.pill.sound, .pill.supported { color: var(--good); }
+.pill.sound, .pill.supported, .pill.confirmed { color: var(--good); }
+.pill.not_confirmed { color: var(--bad); }
+.pill.not_retagged, .pill.grader_only { color: var(--warn); }
 .pill.partly_supported { color: var(--warn); }
 .chip { font: inherit; font-size: 12.5px; padding: 2px 9px; border-radius: 5px; border: 1px solid var(--rule); background: var(--paper); color: var(--ink); cursor: pointer; }
 .chip:hover { border-color: var(--accent); }
@@ -168,7 +185,7 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
 </head>
 <body>
 <header>
-  <h1>திருக்குறள் · நாலடியார் · திருமந்திரம் · திருப்புகழ் · சித்தர் <span>Tamil literary knowledge graph</span></h1>
+  <h1>திருக்குறள் · நாலடியார் · திருமந்திரம் · திருப்புகழ் · சித்தர் · அகநானூறு · புறநானூறு · பத்துப்பாட்டு <span>Tamil literary knowledge graph</span></h1>
   <div class="stats" id="stats"></div>
 </header>
 <main>
@@ -197,7 +214,7 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
     </div>
     <div>
       <label class="label" for="search">Find a verse or concept</label>
-      <input id="search" placeholder="e.g. 327, n 42, t 2017, p 6, அறம்" autocomplete="off">
+      <input id="search" placeholder="e.g. 327, n 42, t 2017, p 6, a 12, pn 192, pp 120, அறம்" autocomplete="off">
     </div>
     <div id="link-controls">
       <p class="label">Links by audit grade</p>
@@ -225,7 +242,7 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
     </div>
   </aside>
   <section id="stage" aria-label="Graph">
-    <svg id="svg" role="img" aria-label="Graph of Kural, Naladiyar, Tirumanthiram and Thiruppugazh verses and links"></svg>
+    <svg id="svg" role="img" aria-label="Graph of verses and links across the Kural, Naladiyar, Tirumanthiram, Thiruppugazh, Siddhar songs and the Sangam books"></svg>
     <div id="grid" hidden></div>
     <div id="hint"></div>
     <div id="tip"></div>
@@ -233,21 +250,45 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
   <section id="detail" aria-live="polite"></section>
 </main>
 <script src="data.js"></script>
+<script src="data_sangam.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>
 const KG = window.KG;
+// The Sangam books come in a separate file (data.js is near the page size limit); merge them in.
+if (window.KG_SANGAM) {
+  Object.assign(KG.chapters, window.KG_SANGAM.chapters);
+  Object.assign(KG.verses, window.KG_SANGAM.verses);
+  KG.links.push(...window.KG_SANGAM.links);
+}
 // The Kural and Naladiyar share three parts; the Tirumanthiram (nine tantras) gets one colour of its own.
 // Colour encodes the part; shape encodes the book.
 const PARTS = { "அறத்துப்பால்": ["aram", "Aram (virtue)"], "பொருட்பால்": ["porul", "Porul (wealth, statecraft)"], "காமத்துப்பால்": ["inbam", "Inbam (love)"] };
 // Books with their own structure get one colour each (key, legend name).
-const OWN_PART = { tirumanthiram: ["tm", "Tirumanthiram (nine tantras)"], thiruppugazh: ["tp", "Thiruppugazh (songs by shrine)"], siddhar: ["sd", "Siddhar songs (by poet)"] };
-const BOOK_NAMES = { kural: "Kural", naladiyar: "Naladiyar", tirumanthiram: "Tirumanthiram", thiruppugazh: "Thiruppugazh", siddhar: "Siddhar" };
-const BOOK_TAMIL = { kural: "திருக்குறள்", naladiyar: "நாலடியார்", tirumanthiram: "திருமந்திரம்", thiruppugazh: "திருப்புகழ்", siddhar: "சித்தர் பாடல்கள்" };
+const OWN_PART = { tirumanthiram: ["tm", "Tirumanthiram (nine tantras)"], thiruppugazh: ["tp", "Thiruppugazh (songs by shrine)"], siddhar: ["sd", "Siddhar songs (by poet)"],
+  akananuru: ["ak", "Akananuru (three sections)"], purananuru: ["pn", "Purananuru"], pattupattu: ["pp", "Pattupattu (reading units)"] };
+const BOOK_NAMES = { kural: "Kural", naladiyar: "Naladiyar", tirumanthiram: "Tirumanthiram", thiruppugazh: "Thiruppugazh", siddhar: "Siddhar",
+  akananuru: "Akananuru", purananuru: "Purananuru", pattupattu: "Pattupattu" };
+const BOOK_TAMIL = { kural: "திருக்குறள்", naladiyar: "நாலடியார்", tirumanthiram: "திருமந்திரம்", thiruppugazh: "திருப்புகழ்", siddhar: "சித்தர் பாடல்கள்",
+  akananuru: "அகநானூறு", purananuru: "புறநானூறு", pattupattu: "பத்துப்பாட்டு" };
+const SANGAM = new Set(["akananuru", "purananuru", "pattupattu"]);
+// Without data_sangam.js the explorer runs on the first five books.
+for (const b of SANGAM) if (!Object.values(KG.verses).some(v => v.book === b)) delete BOOK_NAMES[b];
 const COMMENTATOR_NAMES = { kural: "Parimelazhagar, Manakkudavar and Kalaignar", naladiyar: "Mudaliar and Shanmuganar" };
-const PREFIX = { kural: "k", naladiyar: "n", tirumanthiram: "t", thiruppugazh: "p", siddhar: "s" };
-const SYMBOLS = { kural: d3 => d3.symbolCircle, naladiyar: d3 => d3.symbolDiamond, tirumanthiram: d3 => d3.symbolTriangle, thiruppugazh: d3 => d3.symbolStar, siddhar: d3 => d3.symbolWye, both: d3 => d3.symbolSquare };
-// Graph bands, top to bottom: both other books link mostly to the Kural, so it sits in the middle.
-const BAND_ORDER = ["naladiyar", "kural", "tirumanthiram", "siddhar", "thiruppugazh"];
+const PREFIX = { kural: "k", naladiyar: "n", tirumanthiram: "t", thiruppugazh: "p", siddhar: "s", akananuru: "a", purananuru: "pn", pattupattu: "pp" };
+// Two shapes d3 lacks: a hexagon (Purananuru) and a triangle pointing down (Pattupattu).
+const polygon = (n, turn) => ({ draw(ctx, size) {
+  const r = Math.sqrt(size / (n * Math.sin(2 * Math.PI / n) / 2));
+  for (let i = 0; i < n; i++) { const a = turn + 2 * Math.PI * i / n; i ? ctx.lineTo(r * Math.cos(a), r * Math.sin(a)) : ctx.moveTo(r * Math.cos(a), r * Math.sin(a)); }
+  ctx.closePath();
+} });
+const SYMBOLS = { kural: d3 => d3.symbolCircle, naladiyar: d3 => d3.symbolDiamond, tirumanthiram: d3 => d3.symbolTriangle, thiruppugazh: d3 => d3.symbolStar, siddhar: d3 => d3.symbolWye,
+  akananuru: d3 => d3.symbolCross, purananuru: () => polygon(6, 0), pattupattu: () => polygon(3, Math.PI / 2), both: d3 => d3.symbolSquare };
+const SHAPE_SCALE = { naladiyar: 1.15, tirumanthiram: 1.3, thiruppugazh: 1.25, siddhar: 1.3, akananuru: 1.2, purananuru: 1.05, pattupattu: 1.4 };
+const CELL_CLASS = { naladiyar: " nal", tirumanthiram: " tm", thiruppugazh: " tp", siddhar: " sd", akananuru: " ak", purananuru: " pn", pattupattu: " pp" };
+// Graph bands, top to bottom: the other books link mostly to the Kural, so it sits in the middle;
+// the Akananuru links mostly to the Purananuru, the Purananuru to the ethics books, and the
+// Thirumurugatruppadai to the Thiruppugazh.
+const BAND_ORDER = ["akananuru", "purananuru", "naladiyar", "kural", "tirumanthiram", "siddhar", "thiruppugazh", "pattupattu"].filter(b => BOOK_NAMES[b]);
 const TYPES = ["tension", "agrees", "develops", "qualifies", "same_image", "parallel_domain"];
 const TYPE_NAMES = { tension: "Tension", agrees: "Agrees", develops: "Develops", qualifies: "Qualifies", same_image: "Same image", parallel_domain: "Parallel domain" };
 const GRADE_SETS = { sound: ["sound"], weak: ["sound", "weak"], all: ["sound", "weak", "forced", "wrong"] };
@@ -263,8 +304,8 @@ const CHAPTER_VERSES = {};
 for (const [id, v] of Object.entries(verses)) (CHAPTER_VERSES[v.ch] = CHAPTER_VERSES[v.ch] || []).push(id);
 for (const ids of Object.values(CHAPTER_VERSES)) ids.sort((a, b) => verses[a].num - verses[b].num);
 const bookOf = id => verses[id].book;
-const label = id => ({ kural: "", naladiyar: "N", tirumanthiram: "T", thiruppugazh: "P", siddhar: "S" })[bookOf(id)] + verses[id].num;
-const fullName = id => verses[id].who ? `${verses[id].who} (Siddhar ${verses[id].num})` : `${BOOK_NAMES[bookOf(id)]} ${verses[id].num}`;
+const label = id => verses[id].lb || ({ kural: "", naladiyar: "N", tirumanthiram: "T", thiruppugazh: "P", siddhar: "S", akananuru: "A", purananuru: "Pn" })[bookOf(id)] + verses[id].num;
+const fullName = id => verses[id].who ? `${verses[id].who} (Siddhar ${verses[id].num})` : verses[id].nm || `${BOOK_NAMES[bookOf(id)]} ${verses[id].num}`;
 const state = { view: "grid", grade: "sound", scope: "texts", types: new Set(TYPES), books: new Set(Object.keys(BOOK_NAMES)), thread: null, selected: null };
 const SCOPES = {
   texts: l => bookOf(l.a) !== bookOf(l.b),
@@ -288,6 +329,9 @@ const shownVerses = () => Object.keys(verses).filter(inBooks);
     `<span class="stat"><b>${fmt(count("tirumanthiram"))}</b> Tirumanthiram verses</span>`,
     `<span class="stat"><b>${fmt(count("thiruppugazh"))}</b> Thiruppugazh songs</span>`,
     `<span class="stat"><b>${fmt(count("siddhar"))}</b> Siddhar verses</span>`,
+    ...(BOOK_NAMES.akananuru ? [`<span class="stat"><b>${fmt(count("akananuru"))}</b> Akananuru poems</span>`] : []),
+    ...(BOOK_NAMES.purananuru ? [`<span class="stat"><b>${fmt(count("purananuru"))}</b> Purananuru poems</span>`] : []),
+    ...(BOOK_NAMES.pattupattu ? [`<span class="stat"><b>${fmt(count("pattupattu"))}</b> Pattupattu units</span>`] : []),
     `<span class="stat"><b>${Object.keys(KG.concepts).length}</b> shared concepts</span>`,
     `<span class="stat"><b>${positions}</b> commentator positions</span>`,
     `<span class="stat"><b>${contested}</b> contested</span>`,
@@ -305,7 +349,7 @@ document.getElementById("books").innerHTML =
   Object.entries(BOOK_NAMES).map(([b, name]) =>
     `<label><input type="checkbox" id="b-${b}" checked><svg width="12" height="12" viewBox="-6 -6 12 12" aria-hidden="true"><path d="${d3.symbol(SYMBOLS[b](d3), 70)()}" fill="var(--muted)"/></svg>${name} <span style="font-family:var(--f-tamil);color:var(--muted)">${BOOK_TAMIL[b]}</span></label>`).join("") +
   `<p class="label" style="margin-top:8px">Colour: part</p>` +
-  [...Object.values(PARTS), ...Object.values(OWN_PART)].map(([k, name]) => `<div><span class="dot" style="background:var(--${k})"></span>${name}</div>`).join("");
+  [...Object.values(PARTS), ...Object.entries(OWN_PART).filter(([b]) => BOOK_NAMES[b]).map(([, p]) => p)].map(([k, name]) => `<div><span class="dot" style="background:var(--${k})"></span>${name}</div>`).join("");
 document.getElementById("threads").innerHTML = KG.threads.map((t, i) =>
   `<button class="row" data-thread="${i}">${esc(t.title)}<small>${t.links.length} links · ${t.grade.replace("_", " ")} · ${t.books.join(", ")}</small></button>`).join("");
 
@@ -348,6 +392,18 @@ document.getElementById("search").addEventListener("keydown", e => {
   if (e.key !== "Enter") return;
   const q = e.target.value.trim().toLowerCase(); if (!q) return;
   const nal = q.match(/^(n|nal|naladiyar|நாலடியார்)\s*:?\s*(\d+)$/), kur = q.match(/^(k|kural|குறள்)?\s*:?\s*(\d+)$/);
+  // Sangam: "a 12" Akananuru, "pn 192" Purananuru ("p" stays the Thiruppugazh), "pp 120" the
+  // Pattupattu unit holding line 120 (of the first idyll; "pp 1:120" names the idyll).
+  const akq = q.match(/^(a|ak|akam|akananuru|அகம்|அகநானூறு)\s*:?\s*(\d+)$/);
+  if (akq && verses["a:" + akq[2]]) return selectVerse("a:" + akq[2], true);
+  const pnq = q.match(/^(pn|pu|puram|purananuru|புறம்|புறநானூறு)\s*:?\s*(\d+)$/);
+  if (pnq && verses["pn:" + pnq[2]]) return selectVerse("pn:" + pnq[2], true);
+  const ppq = q.match(/^(pp|pattupattu|பத்துப்பாட்டு)\s*:?\s*(?:(\d+)\s*:\s*)?(\d+)(?:\s*-\s*\d+)?$/);
+  if (ppq) {
+    const idyll = +(ppq[2] || 1), line = +ppq[3];
+    const unit = Object.keys(verses).find(id => { const m = id.match(/^pp:(\d+):(\d+)-(\d+)$/); return m && +m[1] === idyll && +m[2] <= line && line <= +m[3]; });
+    if (unit) return selectVerse(unit, true);
+  }
   const sdq = q.match(/^(s|sd|siddhar|சித்தர்)\s*:?\s*(\d+)$/);
   if (sdq && verses["s:" + sdq[2]]) return selectVerse("s:" + sdq[2], true);
   const tpq = q.match(/^(p|tp|thiruppugazh|திருப்புகழ்)\s*:?\s*(\d+)$/);
@@ -416,7 +472,7 @@ function renderGrid() {
   const sectionsOf = book => OWN_PART[book]
     ? [...new Set(Object.values(KG.chapters).filter(c => c.book === book).sort((a, b) => a.num - b.num).map(c => c.section))].map(s => [s, [OWN_PART[book][0], s]])
     : Object.entries(PARTS);
-  const cell = (id, book) => `<button class="cell${on(id) ? " on" : ""}${id === sel ? " sel" : ""}${book === "naladiyar" ? " nal" : book === "tirumanthiram" ? " tm" : book === "thiruppugazh" ? " tp" : book === "siddhar" ? " sd" : ""}" data-cell="${id}" aria-label="${fullName(id)}"></button>`;
+  const cell = (id, book) => `<button class="cell${on(id) ? " on" : ""}${id === sel ? " sel" : ""}${CELL_CLASS[book] || ""}" data-cell="${id}" aria-label="${esc(fullName(id))}"></button>`;
   grid.innerHTML = BAND_ORDER.filter(b => state.books.has(b)).sort((a, b) => Object.keys(BOOK_NAMES).indexOf(a) - Object.keys(BOOK_NAMES).indexOf(b)).map(book => sectionsOf(book).map(([section, [key, name]]) => {
     const chs = Object.entries(KG.chapters).filter(([, c]) => c.book === book && c.section === section)
       .sort((a, b) => a[1].num - b[1].num);
@@ -433,7 +489,7 @@ function renderGrid() {
   }).join("")).join("");
 }
 
-const shape = d => d3.symbol(SYMBOLS[d.book](d3), Math.PI * d.r * d.r * (d.book === "naladiyar" ? 1.15 : d.book === "tirumanthiram" ? 1.3 : d.book === "thiruppugazh" ? 1.25 : d.book === "siddhar" ? 1.3 : 1))();
+const shape = d => d3.symbol(SYMBOLS[d.book](d3), Math.PI * d.r * d.r * (SHAPE_SCALE[d.book] || 1))();
 
 function render() {
   for (const v of ["grid", "verses", "concepts"]) document.getElementById("v-" + v).setAttribute("aria-pressed", state.view === v);
@@ -460,11 +516,11 @@ function render() {
 
   current = state.view === "verses" ? verseGraph() : conceptGraph();
   const { width, height } = document.getElementById("stage").getBoundingClientRect();
-  const partX = { aram: width * 0.22, porul: width * 0.5, inbam: width * 0.78, tm: width * 0.5, tp: width * 0.5, sd: width * 0.5 };
+  const partX = { aram: width * 0.22, porul: width * 0.5, inbam: width * 0.78, tm: width * 0.5, tp: width * 0.5, sd: width * 0.5, ak: width * 0.5, pn: width * 0.5, pp: width * 0.5 };
   const two = state.books.size > 1 && state.view === "verses";
   const bands = BAND_ORDER.filter(b => state.books.has(b)), bookY = { both: height / 2 };
   bands.forEach((b, i) => bookY[b] = two ? height * (i + 0.5) / bands.length : height / 2);
-  const bandWords = { kural: "Kural (circles)", naladiyar: "Naladiyar (diamonds)", tirumanthiram: "Tirumanthiram (triangles)", thiruppugazh: "Thiruppugazh (stars)", siddhar: "Siddhars (three-pointed)" };
+  const bandWords = { kural: "Kural (circles)", naladiyar: "Naladiyar (diamonds)", tirumanthiram: "Tirumanthiram (triangles)", thiruppugazh: "Thiruppugazh (stars)", siddhar: "Siddhars (three-pointed)", akananuru: "Akananuru (crosses)", purananuru: "Purananuru (hexagons)", pattupattu: "Pattupattu (down triangles)" };
   const scopeWord = { texts: " between books", sections: " between parts", any: "" }[state.scope];
   document.getElementById("hint").textContent = state.thread !== null
     ? `Thread: ${current.nodes.length} verses, ${current.links.length} links. Click the thread again to leave it.`
@@ -569,7 +625,39 @@ function linkCard(l, from) {
   return `<button class="lk" data-verse="${other}">
     <span class="top"><span class="swatch" style="background:var(--t-${l.type})"></span>${TYPE_NAMES[l.type]} → ${fullName(other)}
       <span style="font-weight:400;color:var(--muted)">${esc(KG.chapters[v.ch].title)}</span>${pill(l.grade, l.grade)}${across ? pill("across", "other book") : ""}${l.better ? pill("", "grader suggests " + l.better.replace("_", " ")) : ""}</span>
-    <p>${esc(l.note)}</p></button>`;
+    <p>${esc(l.note)}</p>${l.te ? `<p><i>Teaches:</i> ${esc(l.te)}</p>` : ""}</button>`;
+}
+
+// The Tholkappiyam frame of a Sangam verse: thinai (ours beside the colophon's), speaker, karu.
+const PERSON = { thalaivan: "the hero", thalaivi: "the heroine", thozhi: "the friend", sevili: "the foster mother", nartaay: "the mother",
+  paarppaan: "the brahmin", paangan: "the hero's companion", paanan: "the bard", koothan: "the dancer", virali: "the danseuse",
+  parathai: "the courtesan", arivar: "the wise", kandor: "onlookers", ilaiyar: "the young men", virunthinar: "guests", ur: "the town",
+  nenju: "his or her own heart", pira: "another" };
+const ROLE_NAMES = { scene: "scene", ullurai: "ullurai vehicle", iraicchi: "iraicchi carrier", simile: "simile", ornament: "worn", gift_food: "gift or food", absent: "absent" };
+const STATUS_NAMES = { confirmed: "confirmed by a blind re-tag", not_confirmed: "not found by the blind re-tag", not_retagged: "not re-tagged", grader_only: "found only by a blind grader" };
+function sangamFrame(v) {
+  const person = p => PERSON[p] || p || "";
+  const row = (k, val) => val ? `<dt>${k}</dt><dd>${val}</dd>` : "";
+  const thinai = `${esc(v.th || "none")}${v.cth ? ` · colophon <span class="ta">${esc(v.cth)}</span>` : ""}${v.thd ? " " + pill("uncertain", "differs from the colophon") : ""}${v.mx ? " " + pill("", "mixed landscape") : ""}`;
+  const speaker = v.sp.map(([s, a, o, stage, words]) => `${esc(person(s))} to ${esc(person(a))}${o ? `, ${esc(person(o))} overhearing` : ""}${stage ? ` (${esc(stage)})` : ""}${words ? `: <span class="ta">${esc(words)}</span>` : ""}`).join("<br>");
+  const karu = v.k.map(([form, stem, line, kind, role, sense]) =>
+    `<span class="${role === "ullurai" || role === "iraicchi" ? "dev" : ""}" title="${esc(stem)}, line ${line}"><b>${esc(form)}</b><small>${esc(kind)} · ${esc(ROLE_NAMES[role] || role)}${sense ? " · " + esc(sense) : ""}</small></span>`).join("");
+  const ents = v.en.map(([type, name, line]) => `<span title="line ${line}"><b>${esc(name)}</b><small>${esc(type)}</small></span>`).join("");
+  const devices = v.dv.map(([field, forms, status, agree, gloss]) =>
+    `<div>${field === "ullurai" ? "Ullurai" : "Iraicchi"}${forms ? ` <span class="ta">${esc(forms)}</span>` : ""} ${pill(status, STATUS_NAMES[status] || status)}${agree ? ` <small style="color:var(--muted)">graders agree ${esc(agree)}</small>` : ""}${gloss ? `<br><span style="color:var(--muted)">${esc(gloss)}</span>` : ""}</div>`).join("");
+  return `<div class="block"><div class="k">Tholkappiyam frame (interpretation, beside the colophon)</div><dl class="frame">
+      ${row("Poet", v.poet ? `<span class="ta">${esc(v.poet)}</span>` : "")}
+      ${row("Patron", v.pat ? `<span class="ta">${esc(v.pat)}</span>` : "")}
+      ${row("Frame", esc(v.ap))}
+      ${row("Thinai", thinai)}
+      ${row("Uri", esc(v.uri))}
+      ${row("Speaker", speaker)}
+      ${row("Thurai", v.ctu ? `<span class="ta">${esc(v.ctu)}</span>` : "")}
+      ${row("Feeling", v.mp.map(([f, c]) => `${esc(f)} <span class="ta">(${esc(c)})</span>`).join(", "))}
+    </dl></div>
+    ${devices ? `<div class="block"><div class="k">Hidden comparison and implied sense (experimental)</div><div class="list">${devices}</div></div>` : ""}
+    ${karu ? `<div class="block"><div class="k">Karu: native things (${v.k.length})</div><div class="karu">${karu}</div></div>` : ""}
+    ${ents ? `<div class="block"><div class="k">Named people and places</div><div class="karu">${ents}</div></div>` : ""}`;
 }
 
 function selectVerse(id, focus) {
@@ -591,6 +679,7 @@ function selectVerse(id, focus) {
     ${flags ? `<div class="pills">${flags}</div>` : ""}
     <div class="block"><div class="k">Reading</div><p>${esc(v.r)}</p></div>
     ${v.n ? `<div class="block"><div class="k">Nuance (interpretation)</div><p>${esc(v.n)}</p></div>` : ""}
+    ${SANGAM.has(v.book) ? sangamFrame(v) : ""}
     ${v.p ? `<div class="block"><div class="k">Pope's translation</div><p style="color:var(--muted)">${esc(v.p)}</p></div>` : ""}
     <div class="block"><div class="k">Concepts</div><div class="pills">${v.c.map(conceptChip).join("")}</div></div>
     ${v.pos.length ? `<div class="block"><div class="k">What the commentators say</div><div class="list">${v.pos.map(([by, p, q]) =>
@@ -645,12 +734,17 @@ function showEmpty() {
   const tm = L.filter(l => bookOf(l.a) === "tirumanthiram"), tmSound = tm.filter(l => l.grade === "sound").length;
   const tp = L.filter(l => bookOf(l.a) === "thiruppugazh"), tpSound = tp.filter(l => l.grade === "sound").length;
   const sd = L.filter(l => bookOf(l.a) === "siddhar"), sdSound = sd.filter(l => l.grade === "sound").length;
+  const sg = L.filter(l => SANGAM.has(bookOf(l.a))), sgSound = sg.filter(l => l.grade === "sound").length;
+  const sgVerses = Object.values(verses).filter(v => SANGAM.has(v.book));
+  const sgThd = sgVerses.filter(v => v.thd).length, sgConf = sgVerses.filter(v => v.dv.some(d => d[2] === "confirmed")).length;
+  const bandList = BAND_ORDER.map(b => ({ akananuru: "Akananuru", purananuru: "Purananuru", siddhar: "Siddhars" })[b] || BOOK_NAMES[b]).join(", ");
   detail.innerHTML = `<div class="empty">
     <h2>How to read this</h2>
-    <p>Five books are here. The <b>Thirukkural</b> and the <b>Naladiyar</b>, a Jain collection of 400 quatrains long paired with it, are both in three parts (virtue, wealth, love), and colour shows the part. The <b>Tirumanthiram</b> of Tirumular, a Saiva work on ethics, yoga and grace in nine tantras, and the <b>Thiruppugazh</b> of Arunagirinathar, 1,325 songs to Murugan grouped by shrine, and the <b>Siddhar songs</b>, 2,700 verses by 26 poets of breath, body and the void, written in cipher, have a colour each. Shape shows the book: circles for the Kural, diamonds for the Naladiyar, triangles for the Tirumanthiram, stars for the Thiruppugazh, three-pointed marks for the Siddhars.</p>
-    <p><b>All verses</b> shows every verse, in rows of ten per chapter. It opens lighting the verses with a sound link to another book. Click any square to read the verse, what its commentators say (${COMMENTATOR_NAMES.kural} for the Kural; ${COMMENTATOR_NAMES.naladiyar} for the Naladiyar; none for the Tirumanthiram, the Thiruppugazh or the Siddhars), and its links, other books first.</p>
-    <p><b>Links</b> opens on the ${crossSound} sound links between books, in bands from top to bottom: Naladiyar, Kural, Tirumanthiram, Siddhars, Thiruppugazh. <b>Concepts</b> are shared, so one concept gathers verses from every book.</p>
-    <p><b>Trust:</b> every link was graded blind by a separate agent. ${crossSound} of ${cross.length} links between books are sound. The Tirumanthiram has no commentary here, so its readings are the marking agent's own, ${fmt(Object.values(verses).filter(v => v.book === "tirumanthiram" && v.u).length)} of its verses are flagged uncertain, and its graders ran lenient against calibration links: treat its ${tmSound} sound links of ${tm.length} as an upper bound. The Thiruppugazh also has no commentary here; its graders were warned of that leniency and came closer to the known grades (${tpSound} of ${tp.length} sound). The Siddhars write in cipher and also have no commentary; ${fmt(Object.values(verses).filter(v => v.book === "siddhar" && v.u).length)} of their verses are flagged uncertain, and ${sdSound} of their ${sd.length} links are sound. No Tamil scholar has reviewed any of this.</p>
+    <p>${sgVerses.length ? "Eight" : "Five"} books are here. The <b>Thirukkural</b> and the <b>Naladiyar</b>, a Jain collection of 400 quatrains long paired with it, are both in three parts (virtue, wealth, love), and colour shows the part. The <b>Tirumanthiram</b> of Tirumular, a Saiva work on ethics, yoga and grace in nine tantras, and the <b>Thiruppugazh</b> of Arunagirinathar, 1,325 songs to Murugan grouped by shrine, and the <b>Siddhar songs</b>, 2,700 verses by 26 poets of breath, body and the void, written in cipher, have a colour each. Shape shows the book: circles for the Kural, diamonds for the Naladiyar, triangles for the Tirumanthiram, stars for the Thiruppugazh, three-pointed marks for the Siddhars.</p>
+    ${sgVerses.length ? `<p>The oldest three are Sangam books: the <b>Akananuru</b> (400 love poems, crosses), the <b>Purananuru</b> (poems of kings, gifts, war and death, hexagons) and, of the <b>Pattupattu</b>, the Thirumurugatruppadai cut into reading units (triangles pointing down). Each Sangam verse also shows the frame of the Tholkappiyam: the landscape (thinai) we infer beside the one its colophon gives, who speaks to whom, its native things (karu), and the experimental hidden comparisons (ullurai) and implied senses (iraicchi). Search <b>a 12</b>, <b>pn 192</b> or <b>pp 120</b> (the unit holding line 120).</p>` : ""}
+    <p><b>All verses</b> shows every verse, in rows of ten per chapter. It opens lighting the verses with a sound link to another book. Click any square to read the verse, what its commentators say (${COMMENTATOR_NAMES.kural} for the Kural; ${COMMENTATOR_NAMES.naladiyar} for the Naladiyar; none for the Tirumanthiram, the Thiruppugazh, the Siddhars or the Sangam books), and its links, other books first.</p>
+    <p><b>Links</b> opens on the ${crossSound} sound links between books, in bands from top to bottom: ${bandList}. <b>Concepts</b> are shared, so one concept gathers verses from every book.</p>
+    <p><b>Trust:</b> every link was graded blind by a separate agent. ${crossSound} of ${cross.length} links between books are sound. The Tirumanthiram has no commentary here, so its readings are the marking agent's own, ${fmt(Object.values(verses).filter(v => v.book === "tirumanthiram" && v.u).length)} of its verses are flagged uncertain, and its graders ran lenient against calibration links: treat its ${tmSound} sound links of ${tm.length} as an upper bound. The Thiruppugazh also has no commentary here; its graders were warned of that leniency and came closer to the known grades (${tpSound} of ${tp.length} sound). The Siddhars write in cipher and also have no commentary; ${fmt(Object.values(verses).filter(v => v.book === "siddhar" && v.u).length)} of their verses are flagged uncertain, and ${sdSound} of their ${sd.length} links are sound.${sg.length ? ` The Sangam links were graded in two blind rounds, a third of them by two graders; where graders differed the stricter grade is kept, and ${sgSound} of ${sg.length} are sound. Our thinai differs from the colophon's in ${sgThd} poems and units, and ${sgConf} have a hidden comparison or implied sense that a blind re-tagger also found.` : ""} No Tamil scholar has reviewed any of this.</p>
   </div>`;
 }
 
