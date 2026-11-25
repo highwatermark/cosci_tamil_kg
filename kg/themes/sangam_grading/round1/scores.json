@@ -1,0 +1,469 @@
+{
+ "part_a": {
+  "g1": {
+   "total": {
+    "weak": 24,
+    "n": 56,
+    "teaches_false": 20,
+    "sound": 31,
+    "forced": 1
+   },
+   "by book": {
+    "purananuru": {
+     "weak": 8,
+     "n": 26,
+     "teaches_false": 6,
+     "sound": 18
+    },
+    "akananuru": {
+     "weak": 16,
+     "n": 30,
+     "teaches_false": 14,
+     "forced": 1,
+     "sound": 13
+    }
+   },
+   "by target book": {
+    "kural": {
+     "weak": 13,
+     "n": 29,
+     "teaches_false": 11,
+     "forced": 1,
+     "sound": 15
+    },
+    "naladiyar": {
+     "sound": 4,
+     "n": 5,
+     "teaches_false": 1,
+     "weak": 1
+    },
+    "purananuru": {
+     "weak": 4,
+     "n": 11,
+     "teaches_false": 3,
+     "sound": 7
+    },
+    "akananuru": {
+     "sound": 5,
+     "n": 11,
+     "teaches_false": 5,
+     "weak": 6
+    }
+   },
+   "within/cross group": {
+    "cross ettuthogai_puram->ethics": {
+     "weak": 5,
+     "n": 20,
+     "teaches_false": 4,
+     "sound": 15
+    },
+    "cross ettuthogai_akam->ethics": {
+     "weak": 9,
+     "n": 14,
+     "teaches_false": 8,
+     "forced": 1,
+     "sound": 4
+    },
+    "cross ettuthogai_akam->ettuthogai_puram": {
+     "weak": 1,
+     "n": 5,
+     "teaches_false": 1,
+     "sound": 4
+    },
+    "within ettuthogai_puram": {
+     "sound": 3,
+     "n": 6,
+     "teaches_false": 2,
+     "weak": 3
+    },
+    "within ettuthogai_akam": {
+     "sound": 5,
+     "n": 11,
+     "teaches_false": 5,
+     "weak": 6
+    }
+   },
+   "by type": {
+    "agrees": {
+     "weak": 11,
+     "n": 19,
+     "teaches_false": 8,
+     "sound": 8
+    },
+    "same_image": {
+     "sound": 11,
+     "n": 19,
+     "teaches_false": 6,
+     "weak": 8
+    },
+    "qualifies": {
+     "weak": 1,
+     "n": 7,
+     "teaches_false": 2,
+     "forced": 1,
+     "sound": 5
+    },
+    "develops": {
+     "sound": 4,
+     "n": 6,
+     "teaches_false": 2,
+     "weak": 2
+    },
+    "tension": {
+     "sound": 3,
+     "n": 5,
+     "teaches_false": 2,
+     "weak": 2
+    }
+   },
+   "within vs cross (all)": {
+    "cross": {
+     "weak": 15,
+     "n": 39,
+     "teaches_false": 13,
+     "sound": 23,
+     "forced": 1
+    },
+    "within": {
+     "sound": 8,
+     "n": 17,
+     "teaches_false": 7,
+     "weak": 9
+    }
+   }
+  },
+  "g2": {
+   "total": {
+    "sound": 28,
+    "n": 56,
+    "teaches_false": 21,
+    "weak": 27,
+    "forced": 1
+   },
+   "by book": {
+    "purananuru": {
+     "sound": 16,
+     "n": 26,
+     "teaches_false": 7,
+     "weak": 10
+    },
+    "akananuru": {
+     "weak": 17,
+     "n": 30,
+     "teaches_false": 14,
+     "forced": 1,
+     "sound": 12
+    }
+   },
+   "by target book": {
+    "kural": {
+     "sound": 13,
+     "n": 29,
+     "teaches_false": 13,
+     "weak": 15,
+     "forced": 1
+    },
+    "naladiyar": {
+     "sound": 2,
+     "n": 5,
+     "teaches_false": 2,
+     "weak": 3
+    },
+    "purananuru": {
+     "weak": 3,
+     "n": 11,
+     "teaches_false": 2,
+     "sound": 8
+    },
+    "akananuru": {
+     "sound": 5,
+     "n": 11,
+     "teaches_false": 4,
+     "weak": 6
+    }
+   },
+   "within/cross group": {
+    "cross ettuthogai_puram->ethics": {
+     "sound": 12,
+     "n": 20,
+     "teaches_false": 6,
+     "weak": 8
+    },
+    "cross ettuthogai_akam->ethics": {
+     "weak": 10,
+     "n": 14,
+     "teaches_false": 9,
+     "forced": 1,
+     "sound": 3
+    },
+    "cross ettuthogai_akam->ettuthogai_puram": {
+     "weak": 1,
+     "n": 5,
+     "teaches_false": 1,
+     "sound": 4
+    },
+    "within ettuthogai_puram": {
+     "sound": 4,
+     "n": 6,
+     "teaches_false": 1,
+     "weak": 2
+    },
+    "within ettuthogai_akam": {
+     "sound": 5,
+     "n": 11,
+     "teaches_false": 4,
+     "weak": 6
+    }
+   },
+   "by type": {
+    "agrees": {
+     "sound": 7,
+     "n": 19,
+     "teaches_false": 8,
+     "weak": 12
+    },
+    "same_image": {
+     "sound": 11,
+     "n": 19,
+     "teaches_false": 5,
+     "weak": 8
+    },
+    "qualifies": {
+     "weak": 2,
+     "n": 7,
+     "teaches_false": 3,
+     "forced": 1,
+     "sound": 4
+    },
+    "develops": {
+     "sound": 4,
+     "n": 6,
+     "teaches_false": 2,
+     "weak": 2
+    },
+    "tension": {
+     "weak": 3,
+     "n": 5,
+     "teaches_false": 3,
+     "sound": 2
+    }
+   },
+   "within vs cross (all)": {
+    "cross": {
+     "sound": 19,
+     "n": 39,
+     "teaches_false": 16,
+     "weak": 19,
+     "forced": 1
+    },
+    "within": {
+     "sound": 9,
+     "n": 17,
+     "teaches_false": 5,
+     "weak": 8
+    }
+   }
+  },
+  "pooled": {
+   "total": {
+    "weak": 51,
+    "n": 112,
+    "teaches_false": 41,
+    "sound": 59,
+    "forced": 2
+   },
+   "by book": {
+    "purananuru": {
+     "weak": 18,
+     "n": 52,
+     "teaches_false": 13,
+     "sound": 34
+    },
+    "akananuru": {
+     "weak": 33,
+     "n": 60,
+     "teaches_false": 28,
+     "forced": 2,
+     "sound": 25
+    }
+   },
+   "by target book": {
+    "kural": {
+     "weak": 28,
+     "n": 58,
+     "teaches_false": 24,
+     "forced": 2,
+     "sound": 28
+    },
+    "naladiyar": {
+     "sound": 6,
+     "n": 10,
+     "teaches_false": 3,
+     "weak": 4
+    },
+    "purananuru": {
+     "weak": 7,
+     "n": 22,
+     "teaches_false": 5,
+     "sound": 15
+    },
+    "akananuru": {
+     "sound": 10,
+     "n": 22,
+     "teaches_false": 9,
+     "weak": 12
+    }
+   },
+   "within/cross group": {
+    "cross ettuthogai_puram->ethics": {
+     "weak": 13,
+     "n": 40,
+     "teaches_false": 10,
+     "sound": 27
+    },
+    "cross ettuthogai_akam->ethics": {
+     "weak": 19,
+     "n": 28,
+     "teaches_false": 17,
+     "forced": 2,
+     "sound": 7
+    },
+    "cross ettuthogai_akam->ettuthogai_puram": {
+     "weak": 2,
+     "n": 10,
+     "teaches_false": 2,
+     "sound": 8
+    },
+    "within ettuthogai_puram": {
+     "sound": 7,
+     "n": 12,
+     "teaches_false": 3,
+     "weak": 5
+    },
+    "within ettuthogai_akam": {
+     "sound": 10,
+     "n": 22,
+     "teaches_false": 9,
+     "weak": 12
+    }
+   },
+   "by type": {
+    "agrees": {
+     "weak": 23,
+     "n": 38,
+     "teaches_false": 16,
+     "sound": 15
+    },
+    "same_image": {
+     "sound": 22,
+     "n": 38,
+     "teaches_false": 11,
+     "weak": 16
+    },
+    "qualifies": {
+     "weak": 3,
+     "n": 14,
+     "teaches_false": 5,
+     "forced": 2,
+     "sound": 9
+    },
+    "develops": {
+     "sound": 8,
+     "n": 12,
+     "teaches_false": 4,
+     "weak": 4
+    },
+    "tension": {
+     "sound": 5,
+     "n": 10,
+     "teaches_false": 5,
+     "weak": 5
+    }
+   },
+   "within vs cross (all)": {
+    "cross": {
+     "weak": 34,
+     "n": 78,
+     "teaches_false": 29,
+     "sound": 42,
+     "forced": 2
+    },
+    "within": {
+     "sound": 17,
+     "n": 34,
+     "teaches_false": 12,
+     "weak": 17
+    }
+   }
+  }
+ },
+ "calibration": {
+  "g1": {
+   "n": 6,
+   "exact": 3,
+   "sound_agree": 3
+  },
+  "g2": {
+   "n": 6,
+   "exact": 3,
+   "sound_agree": 3
+  }
+ },
+ "between_graders": {
+  "g1|g2": {
+   "n": 56,
+   "exact": 47,
+   "kappa_grade": 0.6886967263743051,
+   "kappa_sound": 0.6785714285714286,
+   "kappa_teaches": 0.6538461538461539
+  }
+ },
+ "part_b": {
+  "g1": {
+   "ullurai": {
+    "tagged": 3,
+    "kappa_vs_proposer": 0.7872340425531914,
+    "both": 2,
+    "rejected_by_condition": {
+     "2": 6,
+     "3": 11,
+     "1": 1
+    }
+   },
+   "iraicchi": {
+    "tagged": 10,
+    "kappa_vs_proposer": 0.9310344827586207,
+    "both": 9,
+    "rejected_by_condition": {
+     "2": 7,
+     "4": 3
+    }
+   }
+  },
+  "g2": {
+   "ullurai": {
+    "tagged": 3,
+    "kappa_vs_proposer": 0.7872340425531914,
+    "both": 2,
+    "rejected_by_condition": {
+     "3": 5,
+     "2": 3
+    }
+   },
+   "iraicchi": {
+    "tagged": 12,
+    "kappa_vs_proposer": 0.8076923076923078,
+    "both": 9,
+    "rejected_by_condition": {
+     "2": 4,
+     "4": 2
+    }
+   }
+  },
+  "g1|g2": {
+   "ullurai": 1.0,
+   "iraicchi": 0.8749999999999999
+  }
+ },
+ "problems": []
+}

@@ -441,3 +441,28 @@ the test, not as settled interpretations.
   (within the book, to each other Sangam book, and to each other book), how many verses you marked
   uncertain, how many ullurai and iraicchi you tagged, how many verses have your thinai different
   from the colophon, how many Pattupattu units you adjusted, and text problems.
+
+## Lessons from grading round 1 (two blind graders, 56 links, 40 akam poems; 2026-11-25)
+
+- **Ullurai and iraicchi now hold.** Under this brief's conditions, the graders' blind re-tags agreed
+  with the marker at kappa 0.79–0.93, and with each other at 1.00 and 0.87 (the Tholkappiyam pilot had
+  0.48). Keep the conditions as written. Tag iraicchi only when the deletion test plainly passes;
+  the graders added a few borderline ones (235, 240) the marker had left out.
+- **Akam to Kural "agrees" links are the weak spot: only 25% sound.** Sharing the love feeling with a
+  Kural couplet in the kamathuppal is not enough. Link an akam poem to the Kural only if both state
+  the same specific situation or claim (the same thurai: who speaks, to whom, about what), and say
+  in `teaches` what the couplet's general statement gains from the poem's scene. Otherwise don't
+  link.
+- **What works:**
+
+  | Kind of link | Sound |
+  |---|---|
+  | akam to puram (the same king, place or battle) | 80% |
+  | puram to the ethics books | 68% |
+  | develops | 67% |
+  | qualifies | 64% |
+  | agrees | 39% |
+
+  Prefer develops or qualifies over agrees when the two verses differ in scope.
+- **`teaches` failed 37% of the time.** It must name what you learn from the pair that neither verse
+  says alone. Restating the shared topic doesn't count.
