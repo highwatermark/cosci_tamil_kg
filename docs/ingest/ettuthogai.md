@@ -1,10 +1,14 @@
 # Ettuthogai ingest: six anthologies
 
 Builder: `scripts/build_ettuthogai_core.py` (standard library only; run `python3 -I scripts/build_ettuthogai_core.py`,
-optionally `--books natrinai,...`). It reads the Project Madurai mirror in `data/text/` and the cached
-sangamtamil.com crawl (`--stc-dir`, default the session scratchpad `sangamtamil_crawl/`; the build stops if
-the crawl is missing). Outputs `kg/core/<book>.jsonl` and this script's entries in
-`kg/core/sangam_text_flags.jsonl` (entries of other books are kept untouched).
+optionally `--books natrinai,...`). It reads the Project Madurai mirror in `data/text/` and
+`kg/core/ettuthogai_site_readings.jsonl`, the sangamtamil.com readings it compares with (one row per poem:
+`book`, `number`, `thinai` as the Tamil name, and the site's Tamil verse `lines`; nothing else of the site).
+That file was written from a crawl of the site with `--save-site-readings CRAWL_DIR`; the build no longer
+needs the crawl. For Natrinai, Kuruntokai and Ainkurunuru it then applies `scripts/repair_ettuthogai.py`
+(the readings checked against tamilvu.org). Outputs `kg/core/<book>.jsonl`, `kg/core/ettuthogai_repairs.jsonl`
+(one record per change or kept variant) and this script's entries in `kg/core/sangam_text_flags.jsonl`
+(entries of other books are kept untouched).
 
 ## Record shape
 
@@ -17,6 +21,8 @@ The Akananuru fields: `id` (`<book>:N`), `number`, `section`, `kind` (`poem`, `i
 | `line_sources` | `{line: "sangamtamil.com"}` for lines not from Project Madurai, else null |
 | `stc_compared` | whether the poem was compared with sangamtamil.com |
 | `variants` | one entry per line that differs from the site: `kind` (`spelling`, `reading`, `unlike`, `line_break`, `pm_only`, `stc_only`, `supplied`, `eye_skip`, `repaired`, `rule`), the site's reading (`stc`), and which source the kept line comes from (`kept`: `pm`, `stc`, `pm, repaired from stc`, `pm, repaired by rule`) |
+| `tvu` (in `variants`) | Natrinai, Kuruntokai, Ainkurunuru, on each `reading`/`unlike` row and each repaired row: what tamilvu.org (U. V. Swaminatha Aiyar's text) supports: `pm` (ours), `stc` (the site's; our line was repaired), `neither` (ours kept, flagged), `spelling` (once sandhi, word division and vowel signs are set aside the lines agree; not a reading) |
+| `repairs` | Natrinai, Kuruntokai, Ainkurunuru: ids of this poem's records in `ettuthogai_repairs.jsonl` |
 | `decade`, `decade_title` | Ainkurunuru and Patitruppattu decades |
 | `metre`, `vannam`, `poem_names`, `fragment` | Patitruppattu colophon facts; the patikam's list of poem names |
 | `music`, `pan`, `dropped_headings` | Paripadal colophon facts; the e-text's modern headings that were removed |
@@ -33,8 +39,11 @@ dead consonant (`கண்டோ ர்`); words with junk, grantha letters, thr
 letter are replaced by the site's word for the same letters; lines the site has and we lack inside a poem are
 supplied from the site, as are both lines of an eye-skip (our line = start of one line + end of the next).
 
-Not done: tamilvu.org (U. V. Swaminatha Aiyar) was not consulted, so `reading` differences are recorded, not
-arbitrated.
+Arbitration with tamilvu.org (Natrinai, Kuruntokai, Ainkurunuru; `scripts/repair_ettuthogai.py`): every
+`reading` row was set beside the tamilvu text (libraries l1210, l1220, l1230) and compared on a consonant
+skeleton that sets the two spelling conventions aside. Where tamilvu agrees with the site, our reading is
+replaced (Kuruntokai keeps its joined spelling in the new words); where it agrees with ours, ours stays; where it
+agrees with neither, ours stays and is flagged (`variant`). The other three books were not arbitrated.
 
 ## Natrinai (`natrinai.jsonl`, pmuni0296)
 
@@ -48,6 +57,10 @@ arbitrated.
 - vs sangamtamil.com: 4,169 lines compared, 734 differ: 240 spelling, 392 reading, 1 strongly different (134.6),
   57 line breaks, 3 lines the site lacks (opening lines of 84, 160, 170), 39 repaired from the site.
 - 385 is cut short in the source (last line a gap).
+- tamilvu: of the 393 `reading`/`unlike` rows, tamilvu agrees with ours in 51 lines; 339 differ only in spelling
+  (mostly the site's inserted hard consonants and split words). Changed: 4 lines where tamilvu agrees with the
+  site (32 எனபது, 36 இல், 39 பெரு, 44 குடம் காய்), and 7 where the builder's `தௌ ` -> தெளி reading should be
+  தெள் (208, 212, 243, 267, 287, 305, 321; the other 15 தெளி agree with tamilvu).
 
 ## Kuruntokai (`kuruntokai.jsonl`, pmuni0110)
 
@@ -59,6 +72,13 @@ arbitrated.
 - The text keeps the old sandhi-joined spelling, so most differences are spelling: 2,498 lines compared, 1,718
   differ (1,137 spelling, 537 reading, 40 line breaks, 3 lines the site lacks). One line supplied: 377 line 1.
   Eight `ௌி` leftovers repaired; 394's lost first syllable (ன்னாள் -> முன் நாள்) taken from the site.
+- tamilvu: of the 537 `reading` rows, 463 are spelling only (joined against split sandhi), tamilvu agrees with ours
+  in 29, with the site in 41 (our line repaired, keeping the joined spelling: 13 பயலை -> பசலை, 94 மானே -> யானே,
+  316 கொல்லோ -> சொல்லோ, 365 முரசின் -> முழவின் ...), and with neither in 2 (177 நாந்தப், 274 முயகினஞ்: kept,
+  flagged). Among the `spelling` rows six more slips were repaired (128, 151, 170, 318, 338, 341) and one
+  more is kept against both (182 கலிந்தவிர்).
+  105 and 180 had the poet's name printed at the end of the last line: moved to `poet` (நக்கீரர், கச்சிப்பேட்டு
+  நன்னாகையார்).
 
 ## Ainkurunuru (`ainkurunuru.jsonl`, pmuni0028)
 
@@ -70,8 +90,12 @@ arbitrated.
 - This is the weakest base text: a romanized-to-Tamil conversion with many broken words (`த்ஹுறவன்`,
   `ய்ய்ரன்`, `மல்ர்ந்த`). 30 such words replaced by the site's reading, 3 stray spaces closed, one stray code point removed (491).
 - vs sangamtamil.com: 2,160 lines, 955 differ (627 spelling, 248 reading, 60 line breaks, 1 line the site
-  lacks, 18 repaired). One line supplied: 468 line 4. Many `reading` rows are typing errors in our text that a
-  word-level pass against tamilvu should settle.
+  lacks, 18 repaired). One line supplied: 468 line 4.
+- tamilvu: 321 lines changed where tamilvu agrees with the site against our text. 156 are conversion faults of a
+  known kind (ன/ண/ந, ல/ள/ழ, ர/ற, a wrong or lost vowel sign, a pulli for அ, a stray letter: `rule` in the log),
+  165 other readings (கள்வன் -> களவன், மகிநன் -> மகிழ்நன், 442 கற்பின் -> தாயே ...). Of the 248 `reading` rows, 150
+  are repaired, tamilvu agrees with ours in 6, 92 are spelling only, none is left with tamilvu against both. 105 line 3,
+  where the builder's junk repair doubled a word (தணம் தண்ணந்துறைவன்), is corrected to தண்ணம் துறைவன்.
 
 ## Patitruppattu (`patitruppattu.jsonl`, pmuni0038)
 
@@ -116,8 +140,10 @@ arbitrated.
 
 ## Open problems
 
-- `reading` differences are not arbitrated against tamilvu; Ainkurunuru and Kuruntokai hold most of the real
-  typing errors.
-- The site crawl lives in the session scratchpad; without it the builder stops. `scripts/build_sangam_core.py`
+- Patitruppattu, Paripadal and Kalittokai `reading` differences are not arbitrated against tamilvu.
+- The tamilvu check compares consonant skeletons, so a difference only of vowel signs or of ல்/ன்/ற் before a
+  consonant is treated as spelling; Ainkurunuru was also checked word by word for vowel faults, the other two
+  were not. Differences where ours and the site agree against tamilvu were not looked at.
+- `scripts/build_sangam_core.py`
   rewrites the whole flags file when run, which would drop these entries; rerun this builder after it.
 - Paripadal heading removal is heuristic (see `heading_dropped` flags).

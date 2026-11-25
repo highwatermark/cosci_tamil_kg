@@ -15,9 +15,11 @@ Base text: the Project Madurai e-texts mirrored in data/text/:
   pmuni0296 Natrinai, pmuni0110 Kuruntokai, pmuni0028 Ainkurunuru, pmuni0038 Patitruppattu,
   pmuni0087 Paripadal and Paripadal thirattu, pmuni0221 Kalittokai.
 
-Witness: the sangamtamil.com verse files (data/verses/<book>.js of the cached crawl, given with
---stc-dir). Only the Tamil verse lines and the thinai label are read. The site's English
-translations, English situation notes and romanized names are never read into a record.
+Witness: sangamtamil.com, read from kg/core/ettuthogai_site_readings.jsonl, which holds only the
+site's Tamil verse lines and its thinai (as the Tamil thinai name), one row per poem. That file was
+made from a cached crawl of the site's verse files (data/verses/<book>.js) with
+--save-site-readings CRAWL_DIR; the build itself no longer needs the crawl. The site's English
+translations, English situation notes and romanized names were never read into it.
 
 What the cross-check does, for each poem:
   1. Our lines (after the character repairs below) are aligned with the site's lines by a
@@ -39,6 +41,10 @@ What the cross-check does, for each poem:
        line is supplied (`line_sources` says so).
      Everything else keeps our reading; the site's reading is stored in `variants`.
 
+Arbitration (Natrinai, Kuruntokai, Ainkurunuru): scripts/repair_ettuthogai.py holds the reading
+differences checked against tamilvu.org (U. V. Swaminatha Aiyar's text). It is applied to each of
+these books after the cross-check; it logs every change in kg/core/ettuthogai_repairs.jsonl.
+
 Character repairs (before the cross-check; logged in the flags):
   · -> ஃ; TSCII leftovers for ரி: (ா|஡|¡)(஢|¢) -> ரி and (ொ|ௌ)(஢|¢) -> ெரி (கடும்பா஢ =
   கடும்பரி, தொ¢ய = தெரிய, தௌ¢மே = தெரிமே); ¦’+consonant -> consonant+ெ; zero-width characters;
@@ -49,7 +55,8 @@ Copyright: only verse lines and the traditional colophon facts (poet, patron, th
 the speaker label, the decade and poem names, metre and music of Paripadal) are kept. The
 e-texts' modern notes, headings inside Paripadal songs and source remarks are not copied.
 
-Run: python3 -I scripts/build_ettuthogai_core.py [--text-dir DIR] [--stc-dir DIR] [--out-dir DIR]
+Run: python3 -I scripts/build_ettuthogai_core.py [--text-dir DIR] [--out-dir DIR] [--books a,b]
+     python3 -I scripts/build_ettuthogai_core.py --save-site-readings CRAWL_DIR   (rewrite the readings file)
 """
 import argparse
 import difflib
@@ -61,12 +68,14 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-STC_DEFAULT = Path("/private/tmp/claude-501/-Users-harilakshmanan-Cursor-cosci-knowledge-graph/"
-                   "56dc2695-7ba3-4110-8a35-77dd53b3fdc5/scratchpad/sangamtamil_crawl")
+SITE_READINGS = ROOT / "kg" / "core" / "ettuthogai_site_readings.jsonl"
 
 _spec = importlib.util.spec_from_file_location("build_sangam_core", ROOT / "scripts" / "build_sangam_core.py")
 core = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(core)
+_spec = importlib.util.spec_from_file_location("repair_ettuthogai", ROOT / "scripts" / "repair_ettuthogai.py")
+repair = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(repair)
 
 BOOKS = ("natrinai", "kuruntokai", "ainkurunuru", "patitruppattu", "paripadal", "kalittokai")
 RIGHTS = {"tamil": "public_domain", "colophon": "public_domain"}
@@ -98,6 +107,7 @@ REPAIRS = (
 )
 
 flags = []
+repair_log = []
 
 
 def flag(book, rid, kind, detail, line=None, text=None):
@@ -169,6 +179,21 @@ def repair_line(book, rid, n, line):
             flag(book, rid, "repaired", why, n, f"{line} -> {new}")
             line = new
     return re.sub(r"\s+", " ", line).strip()
+
+
+LINE_CHECK_KINDS = ("unicode", "empty_line", "spelling", "lacuna")
+
+
+def line_checks(book, rid, i, l):
+    probs = sorted(set(core.unicode_problems(l)))
+    if probs:
+        flag(book, rid, "unicode", "; ".join(probs), i, l)
+    if not TAMIL_CHAR.search(l):
+        flag(book, rid, "empty_line", "line has no Tamil letters", i, l)
+    if re.search(r"(?:^|[\s'‘“(])[\u0B95-\u0BB9]\u0BCD", l):
+        flag(book, rid, "spelling", "a word begins with a dead consonant (letter lost?)", i, l)
+    if re.search(r"\.\.|- -", l):
+        flag(book, rid, "lacuna", "the line has a gap (dots or dashes in the source)", i, l)
 
 
 def blank_free(lines):
@@ -645,7 +670,9 @@ STC_FILES = {"natrinai": "natrinai", "kuruntokai": "kuruntokai", "ainkurunuru": 
 # --------------------------------------------------------------------------------------------
 # sangamtamil.com
 
-def load_stc(stc_dir, book):
+def parse_stc_crawl(stc_dir, book):
+    """The site's Tamil verse lines and thinai from the crawl's verse file (used only to write
+    SITE_READINGS)."""
     path = stc_dir / "data" / "verses" / f"{STC_FILES[book]}.js"
     s = path.read_text(encoding="utf-8")
     i = s.index("=") + 1
@@ -666,6 +693,23 @@ def load_stc(stc_dir, book):
                 continue
             lines.append(re.sub(r"\s+", " ", l))
         out[v["verse_number"]] = {"lines": lines, "thinai": STC_THINAI.get((v.get("thinai") or "").lower())}
+    return out
+
+
+def save_site_readings(stc_dir, path=SITE_READINGS):
+    with open(path, "w", encoding="utf-8") as out:
+        for book in BOOKS:
+            for n, v in parse_stc_crawl(stc_dir, book).items():
+                out.write(json.dumps({"book": book, "number": n, "thinai": v["thinai"], "lines": v["lines"]},
+                                     ensure_ascii=False) + "\n")
+
+
+def load_stc(book, path=SITE_READINGS):
+    out = {}
+    for l in path.read_text(encoding="utf-8").splitlines():
+        row = json.loads(l)
+        if row["book"] == book:
+            out[row["number"]] = {"lines": row["lines"], "thinai": row["thinai"]}
     return out
 
 
@@ -1033,15 +1077,7 @@ def build_book(book, text_dir, stc):
                 tamil[i - 1] = new
         # checks
         for i, l in enumerate(tamil, 1):
-            probs = sorted(set(core.unicode_problems(l)))
-            if probs:
-                flag(book, rid, "unicode", "; ".join(probs), i, l)
-            if not TAMIL_CHAR.search(l):
-                flag(book, rid, "empty_line", "line has no Tamil letters", i, l)
-            if re.search(r"(?:^|[\s'‘“(])[\u0B95-\u0BB9]\u0BCD", l):
-                flag(book, rid, "spelling", "a word begins with a dead consonant (letter lost?)", i, l)
-            if re.search(r"\.\.|- -", l):
-                flag(book, rid, "lacuna", "the line has a gap (dots or dashes in the source)", i, l)
+            line_checks(book, rid, i, l)
         for i in range(1, len(tamil)):
             if letters(tamil[i]) == letters(tamil[i - 1]):
                 flag(book, rid, "duplicate_line", "same line printed twice in a row", i + 1, tamil[i])
@@ -1085,6 +1121,8 @@ def build_book(book, text_dir, stc):
         rec["variants"] = variants
         rec["rights"] = RIGHTS
         records.append(rec)
+    if book in repair.BOOKS:
+        repair_log.extend(repair.apply(book, records, flags, line_checks, classify, LINE_CHECK_KINDS))
     if book in ("natrinai", "kuruntokai", "ainkurunuru", "kalittokai"):
         nums = [r["number"] for r in records]
         if nums != sorted(nums):
@@ -1217,20 +1255,30 @@ STANDARD = {
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--text-dir", type=Path, default=ROOT / "data" / "text")
-    ap.add_argument("--stc-dir", type=Path, default=STC_DEFAULT)
+    ap.add_argument("--site-readings", type=Path, default=SITE_READINGS)
+    ap.add_argument("--save-site-readings", type=Path, metavar="CRAWL_DIR",
+                    help="rewrite the site readings file from a sangamtamil.com crawl, then stop")
     ap.add_argument("--out-dir", type=Path, default=ROOT / "kg" / "core")
     ap.add_argument("--books", default=",".join(BOOKS))
     args = ap.parse_args()
-    if not (args.stc_dir / "data" / "verses").is_dir():
-        raise SystemExit(f"sangamtamil.com crawl not found at {args.stc_dir}; pass --stc-dir")
+    if args.save_site_readings:
+        if not (args.save_site_readings / "data" / "verses").is_dir():
+            raise SystemExit(f"no sangamtamil.com crawl at {args.save_site_readings}")
+        save_site_readings(args.save_site_readings, args.site_readings)
+        print("wrote", args.site_readings)
+        return
     books = args.books.split(",")
     args.out_dir.mkdir(parents=True, exist_ok=True)
     summary = {}
     for book in books:
-        stc = load_stc(args.stc_dir, book)
+        stc = load_stc(book, args.site_readings)
         records, stats = build_book(book, args.text_dir, stc)
         write_jsonl(args.out_dir / f"{book}.jsonl", records)
         kinds = Counter(r["kind"] for r in records)
+        if book in repair.BOOKS:  # the variants after the tamilvu repairs, and how tvu judged them
+            stats = Counter({k: v for k, v in stats.items() if k == "same"})
+            stats.update(v["kind"] for r in records for v in r["variants"])
+            summary[book + " tvu"] = Counter(v["tvu"] for r in records for v in r["variants"] if "tvu" in v)
         summary[book] = (kinds, stats, sum(r["line_count"] for r in records))
     fpath = args.out_dir / "sangam_text_flags.jsonl"
     keep = []
@@ -1242,10 +1290,27 @@ def main():
             out.write(l + "\n")
         for f in flags:
             out.write(json.dumps(f, ensure_ascii=False) + "\n")
-    for book, (kinds, stats, nlines) in summary.items():
+    rpath = args.out_dir / "ettuthogai_repairs.jsonl"
+    keep = []
+    if rpath.exists():
+        keep = [l for l in rpath.read_text(encoding="utf-8").splitlines()
+                if l.strip() and json.loads(l)["book"] not in books]
+    if repair_log or keep:
+        with open(rpath, "w", encoding="utf-8") as out:
+            for l in keep:
+                out.write(l + "\n")
+            for rec in repair_log:
+                out.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    for book in books:
+        kinds, stats, nlines = summary[book]
         print(f"{book}: {dict(kinds)}, {nlines} lines; standard: {STANDARD[book]}")
         print("   vs sangamtamil.com:", dict(stats))
+        if book + " tvu" in summary:
+            print("   reading differences judged by tamilvu:", dict(summary[book + " tvu"]))
     print("flags:", dict(Counter((f["book"], f["kind"]) for f in flags)))
+    for book in books:
+        if book in repair.BOOKS:
+            print(f"{book} repairs:", dict(Counter((r["action"], r["kind"]) for r in repair_log if r["book"] == book)))
 
 
 if __name__ == "__main__":
