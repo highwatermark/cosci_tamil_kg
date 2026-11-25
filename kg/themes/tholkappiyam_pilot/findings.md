@@ -146,3 +146,27 @@ cause, the porul 6.12 states, comparison type, ullurai with its tenor, and `muta
   traditional readings the Tamil does not fix.
 - The sample has no Tirumanthiram verse from the chapters that most use body-and-life language, so
   the uyir/mey section leans on corpus string counts and two out-of-sample verses.
+
+## Agreement with a second, blind tagger (2026-11-25)
+
+A second agent tagged the same 100 verses from the brief alone, without seeing tags_A. The full
+table is in agreement.txt.
+
+- **Reliable (kappa 0.8 or above):**
+  - akam/puram (0.97)
+  - uri (0.93)
+  - comparison present (0.84), its basis and its type (overlap about 0.9)
+  - how a verse relates life and body (0.87)
+  - frame fit (0.83)
+- **Usable:** thinai (82% agreement, kappa 0.72), weakest in the Kural (0.42). The eight feelings
+  overlap at a Jaccard of 0.75.
+- **Not reliable yet (kappa around 0.5 or below):**
+  - hidden comparison, ullurai (0.48): tagger A found 9, tagger B 3
+  - suggested meaning, iraicchi (0.49)
+  - kurippu (0.45)
+  - native things present, karu (0.37)
+
+  Finding 3 above, that ullurai is where the Siddhar cipher fits, rests on the weakest field and is
+  not confirmed. The brief needs a sharper test for ullurai before the cipher can be read through it.
+- Marker class against basis (porul 7.12 to 7.16): both taggers find that the class matches the
+  basis only about a third of the time. That is one finding the two taggers share.
