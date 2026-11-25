@@ -1,0 +1,1613 @@
+{
+ "version": "0.1",
+ "date": "2026-11-25",
+ "about": "Words and phrases in the six pilot chapters that carry two traditional senses. Each entry starts as proposed; graders accept or reject it, and the acceptance rate (accepted / reviewed) is the lexicon's quality metric.",
+ "count_method": "corpus_verses = units of kg/core/siddhar.jsonl whose Tamil (lines joined, spaces removed) matches pattern; the grep-equivalent count over the Tamil only, so glosses and variant notes are not counted.",
+ "status_values": [
+  "proposed",
+  "accepted",
+  "rejected"
+ ],
+ "acceptance": {
+  "proposed": 39,
+  "accepted": 0,
+  "rejected": 0,
+  "rate": null
+ },
+ "entries": [
+  {
+   "id": "vaasi",
+   "tamil": "வாசி",
+   "senses": [
+    {
+     "sense": "a horse, the steed",
+     "layer": "literal"
+    },
+    {
+     "sense": "the breath as a practice, ridden and reined",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1396,
+    1397
+   ],
+   "uses": [
+    {
+     "verse": 1396,
+     "layers": [
+      "breath"
+     ]
+    },
+    {
+     "verse": 1397,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "வாசி",
+   "corpus_verses": 62,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "The pattern also matches வாசிக்க (to read) and வாசித்த, so the corpus count is an upper bound."
+  },
+  {
+   "id": "muulam",
+   "tamil": "மூலம், மூலநிலை",
+   "senses": [
+    {
+     "sense": "the source, origin, root of things",
+     "layer": "consciousness"
+    },
+    {
+     "sense": "the root centre at the base of the spine",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1646,
+    1656,
+    1863
+   ],
+   "uses": [
+    {
+     "verse": 1646,
+     "layers": [
+      "breath",
+      "consciousness"
+     ]
+    },
+    {
+     "verse": 1656,
+     "layers": [
+      "consciousness"
+     ]
+    },
+    {
+     "verse": 1863,
+     "layers": [
+      "breath",
+      "consciousness"
+     ]
+    }
+   ],
+   "pattern": "மூல(?![ிீ])",
+   "corpus_verses": 125,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "Counts include மூலநாடி and மூலாதாரம், where the breath sense is fixed by the compound."
+  },
+  {
+   "id": "muulanaadi",
+   "tamil": "மூலநாடி",
+   "senses": [
+    {
+     "sense": "the root channel, a channel starting at the root",
+     "layer": "literal"
+    },
+    {
+     "sense": "the central channel, சுழுமுனை",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1395,
+    1403,
+    1405,
+    1413
+   ],
+   "uses": [
+    {
+     "verse": 1395,
+     "layers": [
+      "breath"
+     ]
+    },
+    {
+     "verse": 1403,
+     "layers": [
+      "breath"
+     ]
+    },
+    {
+     "verse": 1405,
+     "layers": [
+      "breath"
+     ]
+    },
+    {
+     "verse": 1413,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "மூலநாடி",
+   "corpus_verses": 11,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "The identification with சுழுமுனை is traditional; the words name only a root channel."
+  },
+  {
+   "id": "nadu",
+   "tamil": "நடு",
+   "senses": [
+    {
+     "sense": "the middle, the mean between extremes",
+     "layer": "literal"
+    },
+    {
+     "sense": "the central channel, or the point between the brows",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1409
+   ],
+   "uses": [
+    {
+     "verse": 1409,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "நடு",
+   "corpus_verses": 66,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "A very common word; the count is mostly the plain sense."
+  },
+  {
+   "id": "vin_naadi",
+   "tamil": "விண்நாடி",
+   "senses": [
+    {
+     "sense": "seeking the sky (விண் + நாடி, a verb)",
+     "layer": "literal"
+    },
+    {
+     "sense": "the sky-channel, the central channel up to the crown",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1858
+   ],
+   "uses": [
+    {
+     "verse": 1858,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "விண்நாடி|விண்ணாடி",
+   "corpus_verses": 2,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "mandalam",
+   "tamil": "மண்டலம்",
+   "senses": [
+    {
+     "sense": "a circle, region or sphere",
+     "layer": "literal"
+    },
+    {
+     "sense": "the three regions of sun, moon and fire in the body",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1404,
+    1651
+   ],
+   "uses": [
+    {
+     "verse": 1404,
+     "layers": [
+      "breath"
+     ]
+    },
+    {
+     "verse": 1651,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "மண்டல",
+   "corpus_verses": 25,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "thaal",
+   "tamil": "தாள்",
+   "senses": [
+    {
+     "sense": "the foot, especially the Lord's feet",
+     "layer": "literal"
+    },
+    {
+     "sense": "a door-bolt; in yoga, a knot on the central channel",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1393,
+    1404
+   ],
+   "uses": [
+    {
+     "verse": 1393,
+     "layers": [
+      "breath"
+     ]
+    },
+    {
+     "verse": 1404,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "தாள்",
+   "corpus_verses": 31,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "Most corpus uses are the feet; in 1393 and 1404 the door context fixes the bolt."
+  },
+  {
+   "id": "vaasal",
+   "tamil": "வாசல்",
+   "senses": [
+    {
+     "sense": "a door or gate",
+     "layer": "literal"
+    },
+    {
+     "sense": "a bodily opening (the nine gates) or the crown aperture",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1393,
+    1406,
+    2317
+   ],
+   "uses": [
+    {
+     "verse": 1393,
+     "layers": [
+      "breath"
+     ]
+    },
+    {
+     "verse": 1406,
+     "layers": [
+      "breath"
+     ]
+    },
+    {
+     "verse": 2317,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "வாசல",
+   "corpus_verses": 39,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "kamalam",
+   "tamil": "கமலம்",
+   "senses": [
+    {
+     "sense": "a lotus",
+     "layer": "literal"
+    },
+    {
+     "sense": "a centre of the yogic body; in the head, the crown",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1857
+   ],
+   "uses": [
+    {
+     "verse": 1857,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "கமல",
+   "corpus_verses": 33,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "siram",
+   "tamil": "சிரம்",
+   "senses": [
+    {
+     "sense": "the head",
+     "layer": "literal"
+    },
+    {
+     "sense": "the crown centre, seat of the thousand-petalled lotus",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1857
+   ],
+   "uses": [
+    {
+     "verse": 1857,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "சிரம",
+   "corpus_verses": 5,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "peruvazhi",
+   "tamil": "பெருவழி",
+   "senses": [
+    {
+     "sense": "a highway, the great road",
+     "layer": "literal"
+    },
+    {
+     "sense": "the central channel to the crown",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    2317
+   ],
+   "uses": [
+    {
+     "verse": 2317,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "பெருவழி",
+   "corpus_verses": 2,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "meru",
+   "tamil": "மேரு",
+   "senses": [
+    {
+     "sense": "Mount Meru",
+     "layer": "literal"
+    },
+    {
+     "sense": "the spine, the central channel",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1405
+   ],
+   "uses": [
+    {
+     "verse": 1405,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "மேரு",
+   "corpus_verses": 13,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "thandhi",
+   "tamil": "தந்தி",
+   "senses": [
+    {
+     "sense": "an elephant (the tusked one); also a string",
+     "layer": "literal"
+    },
+    {
+     "sense": "a channel of the body (nadi), as the corpus gloss gives it",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1404
+   ],
+   "uses": [
+    {
+     "verse": 1404,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "தந்தி",
+   "corpus_verses": 16,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "aththi",
+   "tamil": "அத்தி",
+   "senses": [
+    {
+     "sense": "an elephant",
+     "layer": "literal"
+    },
+    {
+     "sense": "a channel of the body (nadi); the corpus gloss gives both",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1658
+   ],
+   "uses": [
+    {
+     "verse": 1658,
+     "layers": [
+      "literal"
+     ]
+    }
+   ],
+   "pattern": "அத்தி",
+   "corpus_verses": 8,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "The pattern also matches the fig tree (அத்தி) and அத்திமுகவன், so the count is an upper bound."
+  },
+  {
+   "id": "kunjaram",
+   "tamil": "திரிகோணக் குஞ்சரம்",
+   "senses": [
+    {
+     "sense": "an elephant; Ganapati as the elephant-faced god",
+     "layer": "literal"
+    },
+    {
+     "sense": "Ganapati seated in the triangle of the root centre",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    2293
+   ],
+   "uses": [
+    {
+     "verse": 2293,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "குஞ்சர",
+   "corpus_verses": 3,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "Of the same kind as துதிக்கை read as both the hand of worship and the trunk, which places Ganesha at the base centre."
+  },
+  {
+   "id": "vanni",
+   "tamil": "வன்னி, அனல்",
+   "senses": [
+    {
+     "sense": "fire",
+     "layer": "literal"
+    },
+    {
+     "sense": "the fire raised from the root, kundalini",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1394,
+    1395,
+    1405,
+    1412
+   ],
+   "uses": [
+    {
+     "verse": 1394,
+     "layers": [
+      "breath"
+     ]
+    },
+    {
+     "verse": 1395,
+     "layers": [
+      "breath"
+     ]
+    },
+    {
+     "verse": 1405,
+     "layers": [
+      "breath"
+     ]
+    },
+    {
+     "verse": 1412,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "வன்னி|அனல்",
+   "corpus_verses": 19,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "neer",
+   "tamil": "நீர்",
+   "senses": [
+    {
+     "sense": "water (also 'you', plural)",
+     "layer": "literal"
+    },
+    {
+     "sense": "the nectar that falls from the moon in the head",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1394,
+    1395
+   ],
+   "uses": [
+    {
+     "verse": 1394,
+     "layers": [
+      "breath"
+     ]
+    },
+    {
+     "verse": 1395,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "நீர",
+   "corpus_verses": 147,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "Very common, and also the pronoun நீர்; the count says only how ordinary the word is."
+  },
+  {
+   "id": "amudham",
+   "tamil": "அமுதம்",
+   "senses": [
+    {
+     "sense": "the nectar of the gods, a sweet",
+     "layer": "literal"
+    },
+    {
+     "sense": "the cool nectar of the crown in yoga",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1404
+   ],
+   "uses": [
+    {
+     "verse": 1404,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "அமுத|அமிர்த",
+   "corpus_verses": 18,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "muchchudar",
+   "tamil": "முச்சுடர்",
+   "senses": [
+    {
+     "sense": "the three lights of the world: sun, moon and fire",
+     "layer": "literal"
+    },
+    {
+     "sense": "the two breaths and the root fire",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    2307
+   ],
+   "uses": [
+    {
+     "verse": 2307,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "முச்சுட|சுடர்மூன்று|மூன்றுசுடர்",
+   "corpus_verses": 12,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "kalai",
+   "tamil": "கலை",
+   "senses": [
+    {
+     "sense": "an art, a branch of learning",
+     "layer": "literal"
+    },
+    {
+     "sense": "a phase of the breath, or a digit of the moon",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    2302
+   ],
+   "uses": [
+    {
+     "verse": 2302,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "கலை",
+   "corpus_verses": 64,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "Also matches கலைந்து and similar forms; the count is an upper bound."
+  },
+  {
+   "id": "poori",
+   "tamil": "பூரி",
+   "senses": [
+    {
+     "sense": "earth, or fullness",
+     "layer": "literal"
+    },
+    {
+     "sense": "filling with the in-breath (பூரகம்)",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1391
+   ],
+   "uses": [
+    {
+     "verse": 1391,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "பூரி",
+   "corpus_verses": 8,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "ettu",
+   "tamil": "எட்டு",
+   "senses": [
+    {
+     "sense": "eight, a number",
+     "layer": "literal"
+    },
+    {
+     "sense": "a breath count, or the numeral letter அ (8)",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1389,
+    1398
+   ],
+   "uses": [
+    {
+     "verse": 1389,
+     "layers": [
+      "breath"
+     ]
+    },
+    {
+     "verse": 1398,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "எட்டு|எட்டெட்டு|எட்டும்",
+   "corpus_verses": 24,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "onbadhu",
+   "tamil": "ஒன்பது",
+   "senses": [
+    {
+     "sense": "nine, a number",
+     "layer": "literal"
+    },
+    {
+     "sense": "the nine openings of the body",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    301,
+    2317
+   ],
+   "uses": [
+    {
+     "verse": 301,
+     "layers": [
+      "literal"
+     ]
+    },
+    {
+     "verse": 2317,
+     "layers": [
+      "literal",
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "ஒன்பது|தொன்பது",
+   "corpus_verses": 8,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "In 2317 the gates are named; in 301 only the number is given."
+  },
+  {
+   "id": "kuligai",
+   "tamil": "குளிகை",
+   "senses": [
+    {
+     "sense": "the alchemist's pill",
+     "layer": "alchemy"
+    },
+    {
+     "sense": "the retained breath or seed",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    2305
+   ],
+   "uses": [
+    {
+     "verse": 2305,
+     "layers": [
+      "alchemy",
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "குளிகை",
+   "corpus_verses": 2,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "kavanam",
+   "tamil": "கவனக் (கமனக்)",
+   "senses": [
+    {
+     "sense": "attention, care (கவனம்)",
+     "layer": "literal"
+    },
+    {
+     "sense": "going, flight (கமனம்), as in the pill of flight",
+     "layer": "alchemy"
+    }
+   ],
+   "verses": [
+    2305
+   ],
+   "uses": [
+    {
+     "verse": 2305,
+     "layers": [
+      "literal",
+      "alchemy"
+     ]
+    }
+   ],
+   "pattern": "கவனக்|கமனக்|கமன",
+   "corpus_verses": 8,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "A double reading by emendation: the text has கவனக், tradition has கமனக் குளிகை."
+  },
+  {
+   "id": "rasam",
+   "tamil": "ரசம், ரசபானம்",
+   "senses": [
+    {
+     "sense": "mercury, the alchemist's base",
+     "layer": "alchemy"
+    },
+    {
+     "sense": "the inner nectar, or the taste of bliss",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    2309
+   ],
+   "uses": [
+    {
+     "verse": 2309,
+     "layers": [
+      "alchemy",
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "ரசபான|இரசம்|ரசம்",
+   "corpus_verses": 3,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "vaadham",
+   "tamil": "வாதம் (வாதபித் தங்கோழை)",
+   "senses": [
+    {
+     "sense": "wind, the first of the three humours of Tamil medicine",
+     "layer": "alchemy"
+    },
+    {
+     "sense": "alchemy, the transmutation of metals (இரசவாதம்)",
+     "layer": "alchemy"
+    }
+   ],
+   "verses": [
+    301
+   ],
+   "uses": [
+    {
+     "verse": 301,
+     "layers": [
+      "alchemy"
+     ]
+    }
+   ],
+   "pattern": "வாதம|வாதபி",
+   "corpus_verses": 8,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "In 301 the humour sense is fixed by பித்தம் and கோழை beside it; the word is listed because the flat marks' concept vaadham means alchemy, and the two senses meet in the medical-alchemical texts."
+  },
+  {
+   "id": "maaranam",
+   "tamil": "மாரணம்",
+   "senses": [
+    {
+     "sense": "the tantric rite of killing",
+     "layer": "literal"
+    },
+    {
+     "sense": "the alchemists' 'killing' (calcination) of a metal",
+     "layer": "alchemy"
+    }
+   ],
+   "verses": [
+    1650
+   ],
+   "uses": [
+    {
+     "verse": 1650,
+     "layers": [
+      "alchemy"
+     ]
+    }
+   ],
+   "pattern": "மாரண",
+   "corpus_verses": 2,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "seppu",
+   "tamil": "செப்பு",
+   "senses": [
+    {
+     "sense": "to speak, to tell (verb)",
+     "layer": "literal"
+    },
+    {
+     "sense": "copper, the base metal the alchemist would turn to gold",
+     "layer": "alchemy"
+    }
+   ],
+   "verses": [
+    2314
+   ],
+   "uses": [
+    {
+     "verse": 2314,
+     "layers": [
+      "alchemy"
+     ]
+    }
+   ],
+   "pattern": "செப்பு",
+   "corpus_verses": 13,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "Most corpus uses are the verb."
+  },
+  {
+   "id": "soonyam",
+   "tamil": "சூனியம்",
+   "senses": [
+    {
+     "sense": "nothing, emptiness, absence",
+     "layer": "literal"
+    },
+    {
+     "sense": "the void that is the Supreme",
+     "layer": "consciousness"
+    }
+   ],
+   "verses": [
+    1860
+   ],
+   "uses": [
+    {
+     "verse": 1860,
+     "layers": [
+      "consciousness"
+     ]
+    }
+   ],
+   "pattern": "சூனிய|சூன்ய",
+   "corpus_verses": 9,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "veli",
+   "tamil": "வெளி",
+   "senses": [
+    {
+     "sense": "open space, the outside",
+     "layer": "literal"
+    },
+    {
+     "sense": "the supreme space, the void as the ground of awareness",
+     "layer": "consciousness"
+    }
+   ],
+   "verses": [
+    1412,
+    2298,
+    2300
+   ],
+   "uses": [
+    {
+     "verse": 1412,
+     "layers": [
+      "consciousness"
+     ]
+    },
+    {
+     "verse": 2298,
+     "layers": [
+      "consciousness"
+     ]
+    },
+    {
+     "verse": 2300,
+     "layers": [
+      "consciousness"
+     ]
+    }
+   ],
+   "pattern": "வெளி",
+   "corpus_verses": 148,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "Also matches வெளிப்படும் (appears); the count is an upper bound."
+  },
+  {
+   "id": "si",
+   "tamil": "சி, சீ, சிகாரம்",
+   "senses": [
+    {
+     "sense": "the letter சி",
+     "layer": "literal"
+    },
+    {
+     "sense": "Siva, the syllable at the heart of the five",
+     "layer": "consciousness"
+    }
+   ],
+   "verses": [
+    1390,
+    1656
+   ],
+   "uses": [
+    {
+     "verse": 1390,
+     "layers": [
+      "consciousness"
+     ]
+    },
+    {
+     "verse": 1656,
+     "layers": [
+      "consciousness"
+     ]
+    }
+   ],
+   "pattern": "சிகார|சீயில்",
+   "corpus_verses": 10,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "ma",
+   "tamil": "மகாரம்",
+   "senses": [
+    {
+     "sense": "the letter ம, third of Om",
+     "layer": "literal"
+    },
+    {
+     "sense": "malam or maya, the bond",
+     "layer": "consciousness"
+    }
+   ],
+   "verses": [
+    1656
+   ],
+   "uses": [
+    {
+     "verse": 1656,
+     "layers": [
+      "consciousness"
+     ]
+    }
+   ],
+   "pattern": "மகார",
+   "corpus_verses": 11,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "a_letter",
+   "tamil": "அகாரம், அவ்",
+   "senses": [
+    {
+     "sense": "the letter அ, first of the letters",
+     "layer": "literal"
+    },
+    {
+     "sense": "the first arising, or the soul",
+     "layer": "consciousness"
+    }
+   ],
+   "verses": [
+    1390,
+    1655
+   ],
+   "uses": [
+    {
+     "verse": 1390,
+     "layers": [
+      "consciousness"
+     ]
+    },
+    {
+     "verse": 1655,
+     "layers": [
+      "consciousness"
+     ]
+    }
+   ],
+   "pattern": "அகார|அவ்வில்",
+   "corpus_verses": 22,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "ya",
+   "tamil": "யவ், யகாரம்",
+   "senses": [
+    {
+     "sense": "the letter ய",
+     "layer": "literal"
+    },
+    {
+     "sense": "the soul, last of the five syllables",
+     "layer": "breath"
+    }
+   ],
+   "verses": [
+    1389
+   ],
+   "uses": [
+    {
+     "verse": 1389,
+     "layers": [
+      "breath"
+     ]
+    }
+   ],
+   "pattern": "யவ்வி|யகார",
+   "corpus_verses": 5,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "mey",
+   "tamil": "மெய்",
+   "senses": [
+    {
+     "sense": "truth",
+     "layer": "literal"
+    },
+    {
+     "sense": "the body",
+     "layer": "consciousness"
+    }
+   ],
+   "verses": [
+    1645,
+    1858
+   ],
+   "uses": [
+    {
+     "verse": 1645,
+     "layers": [
+      "literal"
+     ]
+    },
+    {
+     "verse": 1858,
+     "layers": [
+      "consciousness"
+     ]
+    }
+   ],
+   "pattern": "மெய்",
+   "corpus_verses": 141,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "Very common; the count says only how ordinary the word is."
+  },
+  {
+   "id": "paadham",
+   "tamil": "பாதம்",
+   "senses": [
+    {
+     "sense": "the foot, the Lord's feet",
+     "layer": "literal"
+    },
+    {
+     "sense": "a step: one of the four paths (நாலு பாதம்)",
+     "layer": "literal"
+    }
+   ],
+   "verses": [
+    1395,
+    1401,
+    1644,
+    1646
+   ],
+   "uses": [
+    {
+     "verse": 1395,
+     "layers": [
+      "literal"
+     ]
+    },
+    {
+     "verse": 1401,
+     "layers": [
+      "literal"
+     ]
+    },
+    {
+     "verse": 1644,
+     "layers": [
+      "literal"
+     ]
+    },
+    {
+     "verse": 1646,
+     "layers": [
+      "literal"
+     ]
+    }
+   ],
+   "pattern": "பாதம|பாதச்|பாதஞ்",
+   "corpus_verses": 80,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ],
+   "note": "Both senses are plain; listed because the flat marks and links move between them."
+  },
+  {
+   "id": "kadal",
+   "tamil": "கடல்",
+   "senses": [
+    {
+     "sense": "the sea",
+     "layer": "literal"
+    },
+    {
+     "sense": "the heart or self in which the Lord dwells",
+     "layer": "consciousness"
+    }
+   ],
+   "verses": [
+    1397
+   ],
+   "uses": [
+    {
+     "verse": 1397,
+     "layers": [
+      "consciousness"
+     ]
+    }
+   ],
+   "pattern": "கடல",
+   "corpus_verses": 42,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  },
+  {
+   "id": "theertham",
+   "tamil": "தீர்த்தம்",
+   "senses": [
+    {
+     "sense": "the holy water of a temple tank",
+     "layer": "literal"
+    },
+    {
+     "sense": "the inner bath at a centre of the body",
+     "layer": "social"
+    }
+   ],
+   "verses": [
+    1407
+   ],
+   "uses": [
+    {
+     "verse": 1407,
+     "layers": [
+      "social"
+     ]
+    }
+   ],
+   "pattern": "தீர்த்த",
+   "corpus_verses": 20,
+   "status": "proposed",
+   "history": [
+    {
+     "version": "0.1",
+     "status": "proposed",
+     "by": "pilot marker (Claude)",
+     "note": "pilot"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "chapter_no": 15,
+ "poet": "பட்டினத்தார்",
+ "work": "koyil-thiruvagaval-2",
+ "layer_note": "One long agaval. Its literal layer is a catalogue of the body; the alchemy-and-medicine layer, absent from the flat marks, shows that the catalogue is built partly from the physician's theory of the three humours, which is what links it to the Kural's chapter on medicine and to the Thiruppugazh's disease lists. One phrase the flat marks could not construe (நான்முழத்து ஒன்பது பீற்றத் துண்டம்) reads, under the nine-gates key, as the body's nine openings.",
+ "verses": {
+  "301": {
+   "stance": [
+    "saiva_siddhanta"
+   ],
+   "layers": {
+    "literal": {
+     "reading": "The poet, whose love and thought run after women and who has not won the fortune of wearing the Lord's feet, names his body in some forty figures (a wilderness raided by the five thieves, a chest of excrement, a village where wind, bile and phlegm lodge, a stinking pot, a torn rag of four cubits and nine, a shirt the four-faced tailor stitches, a tuber worms dig, a bubble, writing on water, a dream) and, worse than all, a stain of maya; enough, Lord: show the dance of bliss and take me.",
+     "confidence": "med",
+     "carriers": [
+      "வாதபித் தங்கோழை",
+      "நான்முழத் தொன்பது பீற்றத் துண்டம்",
+      "சதுர்முகப் பாணன்",
+      "நீர்மே லெழுத்து",
+      "மாயக் களங்கம்"
+     ],
+     "keys": [
+      "nine_gates"
+     ],
+     "lexicon": [
+      "onbadhu"
+     ]
+    },
+    "alchemy": {
+     "reading": "The body as the seat of the three humours of Tamil medicine: a village where wind, bile and phlegm come to live, a ship of ceaseless disease, a tuber worms dig. The physician's theory is taken as fact and turned into a reason for disgust; no cure is offered or implied.",
+     "confidence": "high",
+     "carriers": [
+      "வாதபித் தங்கோழை குடிபுகுஞ் சீறூர்",
+      "ஓயா நோய்க்கிடம்",
+      "கிருமிக் கிண்டுங்"
+     ],
+     "keys": [],
+     "lexicon": [
+      "vaadham"
+     ]
+    },
+    "consciousness": {
+     "reading": "Worse than every figure of transience is the stain of maya; only grace, the shown dance, ends it.",
+     "confidence": "med",
+     "carriers": [
+      "மாயக் களங்கம்",
+      "மாயா விகாரம்",
+      "ஆனந்தத் தாண்டவங் காட்டி"
+     ],
+     "keys": [],
+     "lexicon": []
+    }
+   },
+   "body_place": [
+    {
+     "place": "humours",
+     "tamil": "வாதபித் தங்கோழை",
+     "basis": "named",
+     "confidence": "high"
+    },
+    {
+     "place": "nine_gates",
+     "tamil": "தொன்பது",
+     "basis": "key",
+     "confidence": "med"
+    },
+    {
+     "place": "tattva_senses",
+     "tamil": "ஐவர் கலகமிட்",
+     "basis": "key",
+     "confidence": "med"
+    }
+   ],
+   "knows_by": []
+  }
+ },
+ "links": [
+  {
+   "a": 301,
+   "b": "tirumanthiram:2040",
+   "type": "same_image",
+   "layer": "literal",
+   "also_holds_on": [],
+   "keys": [],
+   "confidence": "med",
+   "origin": "kept",
+   "note": "Tirumular says the wealth that seemed lasting is like writing on water and tells one to conquer the senses; Pattinathar applies நீர்மேல் எழுத்து to the body itself, among the frost, the rainbow and the dream. The same image moves from possessions to the possessor.",
+   "stances": [
+    [
+     "saiva_siddhanta"
+    ],
+    [
+     "unclear"
+    ]
+   ]
+  },
+  {
+   "a": 301,
+   "b": "thiruppugazh:894",
+   "type": "same_image",
+   "layer": "alchemy",
+   "also_holds_on": [
+    "literal"
+   ],
+   "keys": [],
+   "confidence": "med",
+   "origin": "new",
+   "note": "Two inventories of the body built from the physician's vocabulary. Arunagirinathar lists diabetes, leprosy, phlegm, wind and bile among its diseases, calls it a nest of worms and the house Brahma built, stinking through nine gates; Pattinathar has the village where wind, bile and phlegm lodge, the tuber worms dig, the shirt the four-faced tailor stitches, the rag torn in nine. Four features match (the humours, the worms, Brahma as maker, the nine), not only the genre of the body-catalogue.",
+   "stances": [
+    [
+     "saiva_siddhanta"
+    ],
+    [
+     "saiva_siddhanta"
+    ]
+   ]
+  },
+  {
+   "a": 301,
+   "b": "kural:941",
+   "type": "parallel_domain",
+   "layer": "alchemy",
+   "also_holds_on": [
+    "literal"
+   ],
+   "keys": [],
+   "confidence": "med",
+   "origin": "new",
+   "note": "The same medical theory used for opposite ends. The Kural, deferring to the learned (நூலோர்), says the three beginning with wind cause disease when they exceed or fall short, which is a rule for keeping the body well; Pattinathar names the three (வாதம், பித்தம், கோழை) as tenants of the body's little village, which is a reason to despise it. The humours are a fact for both.",
+   "stances": [
+    [
+     "saiva_siddhanta"
+    ],
+    [
+     "unclear"
+    ]
+   ]
+  }
+ ],
+ "old_links": [
+  {
+   "a": 301,
+   "b": "naladiyar:27",
+   "type": "same_image",
+   "old_grade": "weak",
+   "layer": "literal",
+   "verdict": "generic",
+   "action": "dropped",
+   "note": "The bubble is one of forty items and the commonest Tamil figure for transience.",
+   "stances": [
+    [
+     "saiva_siddhanta"
+    ],
+    [
+     "unclear"
+    ]
+   ]
+  },
+  {
+   "a": 301,
+   "b": "tirumanthiram:2040",
+   "type": "same_image",
+   "old_grade": "sound",
+   "layer": "literal",
+   "verdict": "holds_literal",
+   "action": "kept",
+   "note": "The verbatim நீர்மேல் எழுத்து, moved from possessions to the body.",
+   "stances": [
+    [
+     "saiva_siddhanta"
+    ],
+    [
+     "unclear"
+    ]
+   ]
+  },
+  {
+   "a": 301,
+   "b": "thiruppugazh:534",
+   "type": "same_image",
+   "old_grade": "weak",
+   "layer": "literal",
+   "verdict": "generic",
+   "action": "dropped",
+   "note": "Shares only the genre of the body-catalogue; replaced by Thiruppugazh 894, which shares specific figures on the medicine layer.",
+   "stances": [
+    [
+     "saiva_siddhanta"
+    ],
+    [
+     "unclear"
+    ]
+   ]
+  },
+  {
+   "a": 302,
+   "b": 301,
+   "type": "same_image",
+   "old_grade": "sound",
+   "layer": "literal",
+   "verdict": "holds_literal",
+   "action": "out_of_scope",
+   "note": "The verbatim top on the rope of desire in Pattinathar's two agavals.",
+   "stances": [
+    [
+     "saiva_siddhanta"
+    ],
+    [
+     "saiva_siddhanta"
+    ]
+   ]
+  }
+ ],
+ "source_issues": [
+  "Line 12 நான்முழத் தொன்பது பீற்றத் துண்டம் is read here, under the nine_gates key, as a four-cubit rag torn in nine places; the flat marks left it unconstrued. Line 18 தூற்றம் பத்தம் remains unclear."
+ ]
+}
