@@ -9,7 +9,7 @@ larger work.
 | 1 | Naladiyar | | verse (400) | yes |
 | 2 | Tirumanthiram | | verse (2,783 in the corpus) | yes |
 | 3 | Thiruppugazh | | song (1,326) | yes |
-| 4 | Siddhar songs, all Siddhars | | verse, keyed by `seq`; marked by poet in three passes | marking |
+| 4 | Siddhar songs, all Siddhars | | verse, keyed by `seq`; marked by poet in three passes | marked, linked and graded (2026-11-25) |
 | 5 | Tiruvasagam | Thiruvempavai (hymn 7) | stanza (661) | yes |
 | 6 | Aathichudi | read with Kondrai Vendhan, Nalvazhi, Moodurai | line or verse (270) | yes |
 | 7 | Purananuru | | poem (398) | yes |
