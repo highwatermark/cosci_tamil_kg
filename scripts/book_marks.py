@@ -14,7 +14,7 @@
                                                 narrative) and chapters
 
 Chapters are numbered 1..N in the book's order (BOOKS below says how a record maps to one).
-Links may point within the book (an integer) or to another book as "kural:N", "naladiyar:N",
+Links may point within the book (a number, as 13 or "13") or to another book as "kural:N", "naladiyar:N",
 "tirumanthiram:N" or "<book>:N". Long runs of one heading are split into chapters of at most
 SPLIT[book] verses, so a marking file stays a manageable size. Verses with no text are not marked. The schema is kg/themes/SCHEMA.md; commentators are listed per book.
 """
@@ -99,9 +99,14 @@ def show(book, numbers):
                 print(f"{field.upper()}:", squeeze(str(v.get(field))) or "(none)")
 
 
+def within(target):
+    """A within-book link target: an integer, or the same number as a digit string ("13")."""
+    return (isinstance(target, int) and not isinstance(target, bool)) or (isinstance(target, str) and target.isdigit())
+
+
 def target_ok(target, verses, finished):
-    if isinstance(target, int):
-        return target in verses
+    if within(target):
+        return int(target) in verses
     if str(target).startswith("pattupattu:"):
         return pattupattu_range_ok(target)
     m = re.fullmatch(r"([a-z_]+):(\d+)", str(target))
@@ -462,8 +467,8 @@ def check_keys(book, c, ch, verses, marked, errors):
 
 
 def sangam_target_ok(book, target, verses, finished):
-    if isinstance(target, int):
-        return book != "pattupattu" and target in verses
+    if within(target):
+        return book != "pattupattu" and int(target) in verses
     t = str(target)
     if t.startswith("pattupattu:"):
         return pattupattu_range_ok(t)
@@ -1103,8 +1108,8 @@ def check_links(book, c, links, texts, marked, errors):
         if str(a) not in texts:
             errors.append(f"{where}: `a` is not a verse of this chapter")
         per_verse[str(a)] = per_verse.get(str(a), 0) + 1
-        if isinstance(b, int):  # a verse of this book; a unit book's links name the unit or span
-            ok = NEW[book][1][0] != "units" and str(b) in new_keys(book)[0]
+        if within(b):  # a verse of this book (13 or "13"); a unit book's links name the unit or span
+            ok = NEW[book][1][0] != "units" and str(int(b)) in new_keys(book)[0]
         else:
             ok = new_target_ok(b) or sangam_target_ok("akananuru", str(b), {}, finished_numbers())
         if not ok:
@@ -1118,7 +1123,7 @@ def check_links(book, c, links, texts, marked, errors):
             errors.append(f"{where}: `teaches` must say in a sentence what the pairing teaches")
         elif teaches == squeeze(link.get("note")):
             errors.append(f"{where}: `teaches` repeats the note")
-        other = book if isinstance(b, int) else link_book(b)
+        other = book if within(b) else link_book(b)
         if fields == "ethics":
             if "item" in link:
                 items = (marked.get(str(a)) or {}).get("items") if isinstance(marked.get(str(a)), dict) else None

@@ -1,18 +1,25 @@
-"""Score blind grades of Sangam packets made by scripts/make_sangam_packets.py.
+"""Score blind grades of packets made by scripts/make_sangam_packets.py.
 
 Usage (from the repository root):
   python3 -I scripts/score_sangam_grades.py OUTDIR [--json FILE]
 
-Reads OUTDIR/key.json and every OUTDIR/graded/packet_N.<grader>.json. A graded file is the object
-{"links": [...], "poems": [...]} the packet asks for; a bare array, or an object of several arrays,
-is also accepted (an item with "grade" is a link, an item with "id" is a poem).
+Reads OUTDIR/key.json and every OUTDIR/graded/packet_N.<grader>.json. If OUTDIR has no key.json but
+its subdirectories do (one per grader brief: sangam, ethics, epic), each is scored in turn. A graded
+file is the object {"links": [...], "poems"|"verses"|"units": [...]} the packet asks for; a bare
+array, or an object of several arrays, is also accepted (an item with "grade" is a link, an item
+with "id" is a Part B item).
 
-Reports, per grader and pooled: Part A grades of the proposed links by book, by target book and
-within-group against cross-group, and how often `teaches` held; agreement with the calibration
-links' known grades; agreement between graders when there are two or more (exact, and Cohen's kappa
-on the grade and on sound/not sound). Part B: Cohen's kappa between the proposer and each grader
-(and between graders) on ullurai_present and iraicchi_present, and the conditions the graders'
-rejected candidates failed. --json FILE also writes the numbers as JSON.
+Part A (every brief): grades of the proposed links per grader and pooled, by book, by target book,
+within-group against cross-group and by type; how often `teaches` held, and `list_adds` (ethics) and
+`gains` (epic bridges); agreement with the calibration links' known grades; agreement between
+graders (exact, and Cohen's kappa on the grade, sound/not sound and teaches_holds).
+Part B, per field set, between the proposer and each grader and between graders:
+  akam       kappa on ullurai_present and iraicchi_present; rejected candidates by failed condition
+  ethics     kappa on domain, norm present, count word given and Pazhamozhi story kind; Jaccard on the
+             item sets, the norm kinds and the proverb lines; item counts against the expected ones
+  narrative  kappa on "states a claim"; Jaccard on the claim sets (matched by line, within CLAIM_SLACK
+             lines) and the echo sets (by couplet); kappa on school and stance of the matched claims
+--json FILE also writes the numbers as JSON.
 """
 import json
 import re
@@ -21,6 +28,10 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 GRADES = ("sound", "weak", "forced", "wrong")
+CLAIM_SLACK = 2
+# docs/ethics-grader-brief.md, "items": the expected counts per work
+ITEM_COUNTS = {"thirikadugam": {3}, "nanmanikkadigai": {4}, "innaa_narpathu": {4}, "iniyavai_narpathu": {3, 4},
+               "sirupanchamoolam": {5, 6}, "elathi": {6, 5}, "muthumozhikkanchi": {1}}
 
 
 def usage(msg=None):
@@ -63,7 +74,7 @@ def load(outdir):
     key = json.loads((outdir / "key.json").read_text(encoding="utf-8"))
     gdir = outdir / "graded"
     if not gdir.is_dir():
-        usage(f"{gdir} does not exist")
+        return key, {}, []
     files = sorted(gdir.glob("packet_*.*.json"))
     graded = defaultdict(dict)            # grader -> packet -> (links, poems)
     problems = []
@@ -160,6 +171,12 @@ def part_a(key, matched, report, out):
                 k = key[i]
                 gr = grade_of(g)
                 tf = g.get("teaches_holds") is False
+                if "list_adds" in k:
+                    total["list_adds_n"] += 1
+                    total["list_adds_false"] += g.get("list_adds_holds") is False
+                if k.get("bridge"):
+                    total["gains_n"] += 1
+                    total["gains_false"] += g.get("gains_holds") is False
                 for dim, lab in (("by book", k["book"]), ("by target book", k["target_book"]),
                                  ("within/cross group", "within " + k["group_a"] if k["within_group"]
                                   else f"cross {k['group_a']}->{k['group_b']}"),
@@ -177,7 +194,9 @@ def part_a(key, matched, report, out):
         dims["within vs cross (all)"] = wc
         report.append(f"\n[{who}] proposals graded: {total['n']}; "
                       + ", ".join(f"{g} {total[g]}" for g in GRADES + ("invalid",) if total[g])
-                      + f"; teaches failed {total['teaches_false']}")
+                      + f"; teaches failed {total['teaches_false']}"
+                      + (f"; list_adds failed {total['list_adds_false']}/{total['list_adds_n']}" if total["list_adds_n"] else "")
+                      + (f"; gains failed {total['gains_false']}/{total['gains_n']} bridges" if total["gains_n"] else ""))
         for dim in ("by book", "by target book", "within/cross group", "within vs cross (all)", "by type"):
             table(dim, dims[dim], report)
         out.setdefault("part_a", {})[who] = {"total": dict(total), **{d: {l: dict(c) for l, c in v.items()} for d, v in dims.items()}}
@@ -232,12 +251,20 @@ def failed_of(x):
 
 
 def part_b(key, matched, report, out):
-    poems = [i for i, k in enumerate(key) if k["part"] == "B"]
+    kinds = defaultdict(list)
+    for i, k in enumerate(key):
+        if k["part"] == "B":
+            kinds[k.get("fieldset", "akam")].append(i)
+    for kind, items in kinds.items():
+        {"akam": part_b_akam, "ethics": part_b_ethics, "narrative": part_b_narrative}[kind](key, items, matched, report, out)
+
+
+def part_b_akam(key, poems, matched, report, out):
     if not poems:
         return
     prop_u = sum(key[i]["ullurai_present"] for i in poems)
     prop_i = sum(key[i]["iraicchi_present"] for i in poems)
-    report.append(f"\nPART B: {len(poems)} poems; proposer tagged ullurai {prop_u}, iraicchi {prop_i}")
+    report.append(f"\nPART B (akam): {len(poems)} poems; proposer tagged ullurai {prop_u}, iraicchi {prop_i}")
     graders = sorted(matched)
     res = {}
     for who in graders:
@@ -286,6 +313,247 @@ def part_b(key, matched, report, out):
     out["part_b"] = res
 
 
+
+# ---- Part B for the ethics and narrative field sets ----
+
+def tamil_only(text):
+    return re.sub(r"[^\u0B80-\u0BFF]", "", text if isinstance(text, str) else "")
+
+
+def jaccard(m, nx, ny):
+    u = nx + ny - m
+    return None if u == 0 else m / u
+
+
+def fmt_j(j):
+    return "n/a" if j is None else f"{j:.2f}"
+
+
+def as_int(x):
+    try:
+        return int(x)
+    except (TypeError, ValueError):
+        return None
+
+
+def sources(key, items, matched):
+    """{source name: {key index: tags}}: the proposer from key.json, each grader from its graded file."""
+    src = {"proposer": {i: key[i].get("tags") or {} for i in items}}
+    for g in sorted(matched):
+        src[g] = {i: matched[g][i] for i in items if i in matched[g] and isinstance(matched[g][i], dict)}
+    return src
+
+
+def pairs_of(names):
+    """proposer vs each grader, then grader vs grader."""
+    graders = [n for n in names if n != "proposer"]
+    out = [("proposer", g) for g in graders]
+    out += [(graders[x], graders[y]) for x in range(len(graders)) for y in range(x + 1, len(graders))]
+    return out
+
+
+def item_list(t):
+    """An ethics tag's items as [(tamil form, line)], or None."""
+    its = t.get("items")
+    if not isinstance(its, list):
+        return None
+    out = []
+    for it in its:
+        if isinstance(it, (list, tuple)) and it:
+            out.append((tamil_only(str(it[0])), as_int(it[1]) if len(it) > 1 else None))
+        elif isinstance(it, dict):
+            out.append((tamil_only(str(it.get("thing") or it.get("form") or "")), as_int(it.get("line"))))
+    return out
+
+
+def same_item(p, q):
+    """Two items are one when they are on the same line (or the next, since a thing may run on) and
+    their first Tamil letters agree (the shorter's first four, or all of it if shorter)."""
+    (fp, lp), (fq, lq) = p, q
+    if lp is None or lq is None or abs(lp - lq) > 1 or not fp or not fq:
+        return False
+    n = min(4, len(fp), len(fq))
+    return fp[:n] == fq[:n]
+
+
+def match_count(xs, ys, same):
+    """Greedy one-to-one matching; returns the matched pairs."""
+    free, pairs = list(ys), []
+    for x in xs:
+        y = next((y for y in free if same(x, y)), None)
+        if y is not None:
+            free.remove(y)
+            pairs.append((x, y))
+    return pairs
+
+
+def norm_kinds(t):
+    n = t.get("norm")
+    if not isinstance(n, dict):
+        return None
+    return {str(k) for k in n.get("kinds") or []}
+
+
+def pz_of(t):
+    pz = t.get("pazhamozhi")
+    return pz if isinstance(pz, dict) else None
+
+
+def part_b_ethics(key, items, matched, report, out):
+    src = sources(key, items, matched)
+    report.append(f"\nPART B (ethics): {len(items)} verses")
+    res = {"per_source": {}, "pairs": {}}
+    for name, tags in src.items():
+        dom = Counter(str(t.get("domain")) for t in tags.values())
+        nk = Counter(k for t in tags.values() for k in (norm_kinds(t) or ()))
+        nn = sum(1 for t in tags.values() if norm_kinds(t) is not None)
+        off = [key[i]["id"] for i, t in tags.items()
+               if key[i]["book"] in ITEM_COUNTS and item_list(t) is not None and len(item_list(t)) not in ITEM_COUNTS[key[i]["book"]]]
+        report.append(f"  {name} ({len(tags)} verses): domain " + ", ".join(f"{d} {n}" for d, n in sorted(dom.items()))
+                      + f"; norm {nn} (" + ", ".join(f"{k} {n}" for k, n in sorted(nk.items())) + ")"
+                      + f"; item counts off the expected {len(off)}" + (f" ({', '.join(off)})" if off else ""))
+        res["per_source"][name] = {"domain": dict(dom), "norm": nn, "norm_kinds": dict(nk), "item_count_off": off}
+    for x, y in pairs_of(src):
+        both = [i for i in items if i in src[x] and i in src[y]]
+        if not both:
+            continue
+        X, Y = src[x], src[y]
+        r = {"n": len(both)}
+        r["kappa_domain"] = kappa([str(X[i].get("domain")) for i in both], [str(Y[i].get("domain")) for i in both])
+        r["agree_domain"] = sum(str(X[i].get("domain")) == str(Y[i].get("domain")) for i in both)
+        r["kappa_norm"] = kappa([norm_kinds(X[i]) is not None for i in both], [norm_kinds(Y[i]) is not None for i in both])
+        m = nx = ny = 0
+        for i in both:
+            a, b = norm_kinds(X[i]) or set(), norm_kinds(Y[i]) or set()
+            m, nx, ny = m + len(a & b), nx + len(a), ny + len(b)
+        r["jaccard_norm_kinds"] = jaccard(m, nx, ny)
+        m = nx = ny = cnt_eq = cnt_n = 0
+        for i in both:
+            a, b = item_list(X[i]), item_list(Y[i])
+            if a is None and b is None:
+                continue
+            a, b = a or [], b or []
+            m, nx, ny = m + len(match_count(a, b, same_item)), nx + len(a), ny + len(b)
+            cnt_n += 1
+            cnt_eq += len(a) == len(b)
+        r["jaccard_items"] = jaccard(m, nx, ny)
+        r["item_count_agree"] = f"{cnt_eq}/{cnt_n}"
+        cw = lambda t: bool(tamil_only(t.get("count_word")))
+        r["kappa_count_word"] = kappa([cw(X[i]) for i in both], [cw(Y[i]) for i in both])
+        pzb = [i for i in both if pz_of(X[i]) or pz_of(Y[i])]
+        line = ""
+        if pzb:
+            kx = [str((pz_of(X[i]) or {}).get("kind")) for i in pzb]
+            ky = [str((pz_of(Y[i]) or {}).get("kind")) for i in pzb]
+            r["kappa_story_kind"] = kappa(kx, ky)
+            m = nx = ny = 0
+            for i in pzb:
+                a = {as_int(l) for l in (pz_of(X[i]) or {}).get("proverb_lines") or []}
+                b = {as_int(l) for l in (pz_of(Y[i]) or {}).get("proverb_lines") or []}
+                m, nx, ny = m + len(a & b), nx + len(a), ny + len(b)
+            r["jaccard_proverb_lines"] = jaccard(m, nx, ny)
+            who = lambda t: tamil_only((pz_of(t) or {}).get("who"))
+            r["who_agree"] = sum((not who(X[i]) and not who(Y[i])) or (bool(who(X[i])) and bool(who(Y[i]))
+                                 and (who(X[i]) in who(Y[i]) or who(Y[i]) in who(X[i]))) for i in pzb)
+            line = (f"; Pazhamozhi ({len(pzb)}): story kind kappa {fmt_k(r['kappa_story_kind'])}, proverb lines "
+                    f"Jaccard {fmt_j(r['jaccard_proverb_lines'])}, who agree {r['who_agree']}/{len(pzb)}")
+        report.append(f"  {x} vs {y} ({len(both)}): domain kappa {fmt_k(r['kappa_domain'])} (agree {r['agree_domain']}), "
+                      f"norm kappa {fmt_k(r['kappa_norm'])}, norm kinds Jaccard {fmt_j(r['jaccard_norm_kinds'])}, "
+                      f"items Jaccard {fmt_j(r['jaccard_items'])} (counts agree {r['item_count_agree']}), "
+                      f"count word kappa {fmt_k(r['kappa_count_word'])}" + line)
+        res["pairs"][f"{x}|{y}"] = r
+    out["part_b_ethics"] = res
+
+
+def claim_list(t):
+    cs = t.get("claims")
+    return [c for c in cs if isinstance(c, dict)] if isinstance(cs, list) else []
+
+
+def echo_list(t):
+    es = t.get("echoes")
+    return [e for e in es if isinstance(e, dict)] if isinstance(es, list) else []
+
+
+def same_claim(p, q):
+    lp, lq = as_int(p.get("line")), as_int(q.get("line"))
+    return lp is not None and lq is not None and abs(lp - lq) <= CLAIM_SLACK
+
+
+def part_b_narrative(key, items, matched, report, out):
+    src = sources(key, items, matched)
+    report.append(f"\nPART B (narrative): {len(items)} units")
+    res = {"per_source": {}, "pairs": {}}
+    for name, tags in src.items():
+        cl = [c for t in tags.values() for c in claim_list(t)]
+        sch, st = Counter(str(c.get("school")) for c in cl), Counter(str(c.get("stance")) for c in cl)
+        ec = [e for t in tags.values() for e in echo_list(t)]
+        rej = sum(len(t.get("claims_rejected") or []) for t in tags.values() if isinstance(t.get("claims_rejected"), list))
+        report.append(f"  {name} ({len(tags)} units): {len(cl)} claims; school " + ", ".join(f"{k} {n}" for k, n in sorted(sch.items()))
+                      + "; stance " + ", ".join(f"{k} {n}" for k, n in sorted(st.items()))
+                      + f"; echoes {len(ec)}" + (f" ({', '.join(str(e.get('b')) for e in ec)})" if ec else "")
+                      + (f"; rejected candidates {rej}" if name != "proposer" else ""))
+        res["per_source"][name] = {"claims": len(cl), "school": dict(sch), "stance": dict(st), "echoes": len(ec),
+                                   "rejected": rej if name != "proposer" else None}
+    for x, y in pairs_of(src):
+        both = [i for i in items if i in src[x] and i in src[y]]
+        if not both:
+            continue
+        X, Y = src[x], src[y]
+        r = {"n": len(both)}
+        r["kappa_has_claim"] = kappa([bool(claim_list(X[i])) for i in both], [bool(claim_list(Y[i])) for i in both])
+        m = nx = ny = 0
+        sx, sy, tx, ty = [], [], [], []
+        for i in both:
+            a, b = claim_list(X[i]), claim_list(Y[i])
+            # prefer pairs that also agree on school, then any within the line slack
+            pr = match_count(a, b, lambda p, q: same_claim(p, q) and p.get("school") == q.get("school"))
+            rest_a = [c for c in a if all(c is not p for p, _ in pr)]
+            rest_b = [c for c in b if all(c is not q for _, q in pr)]
+            pr += match_count(rest_a, rest_b, same_claim)
+            m, nx, ny = m + len(pr), nx + len(a), ny + len(b)
+            for p, q in pr:
+                sx.append(str(p.get("school"))); sy.append(str(q.get("school")))
+                tx.append(str(p.get("stance"))); ty.append(str(q.get("stance")))
+        r.update({"claims_matched": m, "claims_x": nx, "claims_y": ny, "jaccard_claims": jaccard(m, nx, ny),
+                  "kappa_school": kappa(sx, sy), "kappa_stance": kappa(tx, ty),
+                  "agree_school": sum(a == b for a, b in zip(sx, sy)), "agree_stance": sum(a == b for a, b in zip(tx, ty))})
+        m = nx = ny = 0
+        kx, ky = [], []
+        for i in both:
+            a = [e for e in echo_list(X[i]) if e.get("b")]
+            b = [e for e in echo_list(Y[i]) if e.get("b")]
+            pr = match_count(a, b, lambda p, q: str(p.get("b")) == str(q.get("b")))
+            m, nx, ny = m + len(pr), nx + len(a), ny + len(b)
+            kx += [str(p.get("kind")) for p, _ in pr]
+            ky += [str(q.get("kind")) for _, q in pr]
+        r.update({"echoes_matched": m, "jaccard_echoes": jaccard(m, nx, ny), "kappa_echo_kind": kappa(kx, ky)})
+        report.append(f"  {x} vs {y} ({len(both)}): has-claim kappa {fmt_k(r['kappa_has_claim'])}; claims {r['claims_x']} vs "
+                      f"{r['claims_y']}, matched {r['claims_matched']}, Jaccard {fmt_j(r['jaccard_claims'])}; on matched: school "
+                      f"kappa {fmt_k(r['kappa_school'])} (agree {r['agree_school']}), stance kappa {fmt_k(r['kappa_stance'])} "
+                      f"(agree {r['agree_stance']}); echoes Jaccard {fmt_j(r['jaccard_echoes'])} (matched {r['echoes_matched']}), "
+                      f"kind kappa {fmt_k(r['kappa_echo_kind'])}")
+        res["pairs"][f"{x}|{y}"] = r
+    out["part_b_narrative"] = res
+
+
+def score(outdir):
+    key, graded, problems = load(outdir)
+    if not graded:
+        return None, None
+    matched = match(key, graded, problems)
+    brief = next((k.get("brief") for k in key if k.get("brief")), "sangam")
+    report, out = [f"[{brief}] {outdir}", f"Graders: {', '.join(sorted(graded))}; packets graded: "
+                   + "; ".join(f"{g} {sorted(graded[g])}" for g in sorted(graded))], {"brief": brief}
+    part_a(key, matched, report, out)
+    part_b(key, matched, report, out)
+    if problems:
+        report.append("\nPROBLEMS")
+        report += ["  " + p for p in problems]
+    out["problems"] = problems
+    return report, out
+
+
 def main():
     args = sys.argv[1:]
     jpath = None
@@ -298,23 +566,25 @@ def main():
     if len(args) != 1:
         usage()
     outdir = Path(args[0])
-    if not (outdir / "key.json").exists():
-        usage(f"{outdir / 'key.json'} does not exist")
-    key, graded, problems = load(outdir)
-    if not graded:
-        usage(f"no graded files in {outdir / 'graded'}")
-    matched = match(key, graded, problems)
-    report, out = [f"Graders: {', '.join(sorted(graded))}; packets graded: "
-                   + "; ".join(f"{g} {sorted(graded[g])}" for g in sorted(graded))], {}
-    part_a(key, matched, report, out)
-    part_b(key, matched, report, out)
-    if problems:
-        report.append("\nPROBLEMS")
-        report += ["  " + p for p in problems]
-    out["problems"] = problems
-    print("\n".join(report))
+    if (outdir / "key.json").exists():
+        dirs = [outdir]
+    else:
+        dirs = sorted(p.parent for p in outdir.glob("*/key.json"))
+        if not dirs:
+            usage(f"{outdir / 'key.json'} does not exist, nor does any {outdir}/*/key.json")
+    reports, outs = [], {}
+    for d in dirs:
+        report, out = score(d)
+        if report is None:
+            if len(dirs) == 1:
+                usage(f"no graded files in {d / 'graded'}")
+            reports.append(f"[{d.name}] no graded files yet")
+            continue
+        reports.append("\n".join(report))
+        outs[d.name] = out
+    print("\n\n".join(reports))
     if jpath:
-        jpath.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+        jpath.write_text(json.dumps(outs[dirs[0].name] if len(dirs) == 1 else outs, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 if __name__ == "__main__":
