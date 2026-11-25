@@ -218,6 +218,24 @@ def calibration_pool(rng):
                 pool[e["audit"]].append(e | {"_note": sp[0], "_teaches": sp[1]})
     for g in pool:
         rng.shuffle(pool[g])
+    # Sangam links that two blind graders graded alike go on top, so calibration looks like the
+    # links around it (popped first).
+    sangam = {g: [] for g in pool}
+    for kp in sorted((ROOT / "kg" / "themes" / "sangam_grading").glob("*/key.json")):
+        grades = {}
+        for f in kp.parent.glob("graded/packet_*.json"):
+            for x in json.loads(f.read_text(encoding="utf-8")).get("links", []):
+                grades.setdefault((x["a"], x["b"]), []).append(x.get("grade"))
+        for k in json.loads(kp.read_text(encoding="utf-8")):
+            if "a" not in k:
+                continue
+            gs = grades.get((k["a"], k["b"]), [])
+            if k.get("kind") == "proposal" and len(gs) >= 2 and len(set(gs)) == 1 and gs[0] in pool:
+                sangam[gs[0]].append({"s": k["a"], "o": k["b"], "p": k["type"], "audit": gs[0],
+                                      "_note": k["note"], "_teaches": k["teaches"], "_sangam": True})
+    for g in pool:
+        rng.shuffle(sangam[g])
+        pool[g] = pool[g] + sangam[g]
     return pool
 
 
@@ -277,7 +295,7 @@ def main():
             ga, gb = GROUP[book_of(e["s"])], GROUP[book_of(e["o"])]
             pk.append({"a": e["s"], "b": e["o"], "type": e["p"].lower(), "note": e["_note"],
                        "teaches": e["_teaches"], "kind": "calibration", "known": e["audit"],
-                       "teaches_derived": True, "book": book_of(e["s"]), "target_book": book_of(e["o"]),
+                       "teaches_derived": not e.get("_sangam"), "book": book_of(e["s"]), "target_book": book_of(e["o"]),
                        "group_a": ga, "group_b": gb, "within_group": ga == gb})
         rng.shuffle(pk)
         lines = [f"# Packet {pi}", "",
