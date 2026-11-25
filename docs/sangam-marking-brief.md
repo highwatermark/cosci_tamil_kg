@@ -488,3 +488,11 @@ the test, not as settled interpretations.
 - **Ullurai:** graders tag about 70% more than markers (31 against 18). Their extra tags mostly pass
   conditions 1 and 2 but are near misses on condition 3. Apply condition 3 (at least two
   scene-to-situation pairs) as written, and record near misses in `nuance`.
+
+## Lessons from the group pilots (Kalittokai, Kar Narpathu, Patitruppattu, Paripadal)
+
+- Links were 52% sound, and Kalittokai's were best at 60%.
+- The graders tagged iraicchi in 3–5 Kalittokai and Kar Narpathu poems where the marker tagged 1,
+  though they agreed only moderately with each other (kappa 0.44, few cases). In these shorter
+  later works, apply the deletion test case by case rather than leaving iraicchi out by default.
+- `parallel_domain` was 20% sound across all groups. Avoid it.

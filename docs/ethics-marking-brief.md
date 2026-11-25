@@ -95,6 +95,9 @@ A list of `{"thing", "claim", "line"}`, one object per counted thing, in the ver
 
 - `thing`: Tamil words copied from the verse (check finds them on `line`). Keep the case ending and
   sandhi as written; do not lemmatise.
+  Copy only the words that name the counted thing (the noun phrase with its own qualifiers), not
+  the predicate or the count word. Two blind graders agreed on these boundaries (Jaccard 0.88) while
+  the pilot marker did not (0.50), usually because the marker copied part of the predicate.
 - `claim`: what the verse says of that thing, in a short English clause of your own. Where the
   verse gives one predicate to all its things (they are painful; they are a medicine), the claim is
   that predicate applied to this thing, sharpened if the thing has its own condition ("a house
@@ -307,3 +310,12 @@ case: link it to the poem that names him, and say what the ethics work does with
   (within the book, to the other ethics works, to the Kural, to the Naladiyar, to each other book),
   counts by `domain`, how many verses carry `norm` (by kind), how many counts differed from the
   table, how many verses you marked uncertain, and text problems.
+
+## Lessons from the pilot grading (two blind graders; 2026-11-25)
+
+- **Domain and norm tags hold.** Domain kappa was 0.96–1.00 and norm 0.78–0.82.
+- **Item boundaries:** see the `thing` rule above.
+- **Links to the Kural** were 46–54% sound. `list_adds` failed on 19 of 84. It must name what the
+  list form itself adds, such as a grouping, a ranking or a contrast the couplet lacks. Restating the
+  shared virtue is not enough.
+- **`parallel_domain`** was 20% sound. Avoid it unless the two verses share a structure of argument.

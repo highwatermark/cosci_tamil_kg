@@ -172,7 +172,7 @@ A list of `{"claim", "school", "line", "stance", "voiced_by"}`, one object per c
 
 **Polemic presents the rival school through its own eyes.** The Neelakesi's account of Buddhism is
 a Jain's account; Manimekalai 27's accounts of the other schools are a Buddhist's. Record what the
-text says the school holds, with `stance: "refuted"`, and say in `nuance` when the account is one
+text says the school holds, and say in `nuance` when the account is one
 the school itself would not accept, if the Tamil shows it. Never present a polemic's version of a
 school as that school's doctrine.
 
@@ -294,3 +294,18 @@ link is weak; make it only if `teaches` can still name something specific.
   (within the epic, to other epics, to the Kural, Naladiyar, Siddhars, Tirumanthiram, Purananuru and
   each other book), claim counts by school and by stance, echoes found (with couplet numbers), how
   many units you adjusted, how many you marked uncertain, and text problems.
+
+## Lessons from the pilot grading (two blind graders; 2026-11-25)
+
+- **School tags hold.** School agreed with the graders at kappa 0.93–0.97. Keep the rules.
+- **Stance did not hold** (kappa 0.34–0.39 against the graders, who agreed with each other at 0.86).
+  The marker called 47 of 62 claims `refuted`, and the graders called most of them `reported`.
+  Rule from now on:
+  - `refuted` only when the work answers the claim, in this unit or in a passage you cite in `nuance`
+    (e.g. Manimekalai 29–30, or the Neelakesi's reply).
+  - A school's view that is laid out and left unanswered here, as in most of Manimekalai 27, is
+    `reported`, even in a polemical work.
+- **Bridges:** `gains` failed on 14 of 40 bridges. Each side's gain must be something that side
+  lacks, not a restatement of the shared topic.
+- **`parallel_domain` links were 20% sound.** Use the type only when the two passages share a
+  structure of argument, and say what it is.
