@@ -1,0 +1,873 @@
+{
+ "chapter_no": 1,
+ "chapter_theme": "The invocation counts three deeds of the god's feet, and the twenty verses that follow each count three things under one predicate (a medicine, the ruin of ignorance, a road to grief, a mute's dream, an undying body), mixing household, social and royal conduct so that unlike acts are judged as one kind.",
+ "verses": {
+  "0": {
+   "reading": "The invocation counts three deeds of the dark one coloured like the kaya flower (measuring the wide earth, felling the fragrant kurundham tree, kicking the magic cart that came at him) and names the three together as his feet.",
+   "concepts": [
+    "iraivan",
+    "thiruvadi",
+    "vazhipaadu"
+   ],
+   "domain": "all",
+   "nuance": "All three deeds are deeds of the foot (a stride, a leap at the tree, a kick), so the predicate 'these three are his feet' is exact: the book's counting form is turned on the god before it is turned on conduct, and the feet are worshipped as the acts they did.",
+   "items": [
+    {
+     "thing": "ஞாலம் அளந்துதூஉம்",
+     "claim": "his feet are the stride that measured the wide earth",
+     "line": 1
+    },
+    {
+     "thing": "பூங்குருந்தம் பாய்த்ததூஉம்",
+     "claim": "his feet are the leap that brought down the cool flowering kurundham",
+     "line": 2
+    },
+    {
+     "thing": "சகடம் உதைத்தூஉம்",
+     "claim": "his feet are the kick that broke the magic cart that drew near",
+     "line": 3
+    }
+   ],
+   "count_word": "இம்மூன்றும்"
+  },
+  "1": {
+   "reading": "The shoulders of a wife chaste as Arundhati, unbroken company with the excellent of an old well-ordered family, and the friendship of men whose learning by listening clears away the tangle of words are three things that act as a medicine like the three pungent drugs.",
+   "concepts": [
+    "marundhu",
+    "karpu",
+    "natpu",
+    "kelvi"
+   ],
+   "domain": "householder",
+   "nuance": "The predicate gives the book its name: the three are not called good but curative, which implies a sickness they treat. The second and third items are both kinds of company, so two of the three remedies are chosen associates and only one is the house.",
+   "items": [
+    {
+     "thing": "அருந்ததிக் கற்பினார் தோளும்",
+     "claim": "the embrace of a wife as chaste as Arundhati is a remedy",
+     "line": 1
+    },
+    {
+     "thing": "தொல்குடியின் மாண்டார் தொடர்ச்சியும்",
+     "claim": "lasting association with the worthy of an old, ordered family is a remedy",
+     "line": 2
+    },
+    {
+     "thing": "கேள்வியார் நட்பும்",
+     "claim": "friendship with men whose heard learning untangles confused speech is a remedy",
+     "line": 3,
+     "domain": "all"
+    }
+   ],
+   "count_word": "இம்மூன்றும்"
+  },
+  "2": {
+   "reading": "Keeping one's own good nature from declining, doing what is asked by people of sweet nature and flawless worth, and walking the way of the knowers of the four Vedas are named the work of the gentle.",
+   "concepts": [
+    "panpu",
+    "ozhukkam",
+    "andhanar",
+    "saandror"
+   ],
+   "domain": "all",
+   "nuance": "The Veda-knowers enter as guides to a path, qualified by நன்குணர்வின் (of good understanding); the verse sets them beside one's own character and the bidding of the good, so the gentle person's conduct is drawn from three sources, only one of them Vedic.",
+   "items": [
+    {
+     "thing": "தன்குணம் குன்றாத் தகைமையும்",
+     "claim": "not letting one's own character decline is the work of the gentle",
+     "line": 1
+    },
+    {
+     "thing": "இன்குணத்தார் ஏவினசெய்தலும்",
+     "claim": "doing what the flawless and sweet-natured ask is the work of the gentle",
+     "line": 2
+    },
+    {
+     "thing": "நான்மறை யாளர் வழிச்செலவும்",
+     "claim": "following the way of the knowers of the four Vedas is the work of the gentle",
+     "line": 3
+    }
+   ],
+   "count_word": "இம்மூன்றும்"
+  },
+  "3": {
+   "reading": "Living as one of the kin of the unlearned, beating one's wife with a stick, and entering a house in the company of petty men are named three ruins that come from ignorance.",
+   "concepts": [
+    "pedhaimai",
+    "kallaamai",
+    "kedu",
+    "ilvaazhkkai"
+   ],
+   "domain": "householder",
+   "uncertain": true,
+   "nuance": "காழ்கொண்ட qualifies the wife and is ambiguous: 'firm, of settled worth' would make the item 'beating a steadfast wife', while 'harbouring rancour' would make it 'beating a wife who has turned bitter'; either way the beating is counted as ignorance, but the scope of the condemnation turns on the word. The count word is run into the verb (புகலுமிம் மூன்றும்), so count_word records only மூன்றும் and the third thing is cut before the fused verb.",
+   "items": [
+    {
+     "thing": "கல்லார்க்கு இனனாய் ஒழுகலும்",
+     "claim": "keeping company as kin with the unlearned is a ruin born of ignorance",
+     "line": 1
+    },
+    {
+     "thing": "இல்லாளைக் கோலால் புடைத்தலும்",
+     "claim": "beating one's (steadfast or embittered) wife with a stick is a ruin born of ignorance",
+     "line": 2
+    },
+    {
+     "thing": "சிறியாரைக் கொண்டு",
+     "claim": "entering a house with petty men as one's company is a ruin born of ignorance",
+     "line": 3
+    }
+   ],
+   "count_word": "மூன்றும்",
+   "norm": {
+    "historical": true,
+    "kinds": [
+     "gender"
+    ],
+    "note": "a marital norm of the period: the verse counts a husband's beating of his wife among the ruins of ignorance"
+   }
+  },
+  "4": {
+   "reading": "Setting up one's life in front of one's enemies, walking without a stick into a gathered herd of cattle, and taking by the hand a man who was earlier enraged against oneself are named the doings of one about to die.",
+   "concepts": [
+    "pagai",
+    "kedu",
+    "therithal"
+   ],
+   "domain": "all",
+   "uncertain": true,
+   "nuance": "The third item rests on dividing முற்றன்னை as முன் + தன்னை, 'oneself, earlier'; read as முற்று + அன்னை it would be 'one who rages at his aged mother', which makes a different item (taking up with a matricidal-tempered man). The first reading keeps all three items about exposure to a known danger.",
+   "items": [
+    {
+     "thing": "பகைமுன்னர் வாழ்க்கை செயலும்",
+     "claim": "making one's living in the face of enemies is the conduct of one bound for death",
+     "line": 1
+    },
+    {
+     "thing": "பெற்றத்துள் கோலின்றிச் சேறலும்",
+     "claim": "entering a herd of cattle without a stick is the conduct of one bound for death",
+     "line": 2
+    },
+    {
+     "thing": "காய்வானைக் கைவாங்கிக் கோடலும்",
+     "claim": "taking into one's hand a man who once raged against one is the conduct of one bound for death",
+     "line": 3
+    }
+   ],
+   "count_word": "இம்மூன்றும்"
+  },
+  "5": {
+   "reading": "Going down into the water at a ford no one uses, joining the shoulders of women who have no desire for one, and arriving worn out as a guest in a strange town are named roads that lead to hard suffering.",
+   "concepts": [
+    "idumbai",
+    "kaamam",
+    "virundhu"
+   ],
+   "domain": "all",
+   "nuance": "ஒப்ப joins the first two items: union with an unwilling woman is likened to entering water at an unused ford, a danger whose depth is unknown. The third item looks at hospitality from the guest's side, as a hazard of dependence.",
+   "items": [
+    {
+     "thing": "வழங்காத் துறையிழிந்து நீர்ப்போக்கும்",
+     "claim": "crossing water by an unused ford leads to suffering",
+     "line": 1
+    },
+    {
+     "thing": "விழைவிலாப் பெண்டீர்த்தோள் சேர்வும்",
+     "claim": "embracing women who do not desire one leads to suffering",
+     "line": 2
+    },
+    {
+     "thing": "விருந்தினனாய் வேற்றூர் புகலும்",
+     "claim": "entering another town, worn, as a guest leads to suffering",
+     "line": 3
+    }
+   ],
+   "count_word": "இம்மூன்றும்"
+  },
+  "6": {
+   "reading": "Being abashed when others honour one, bearing it patiently when those who do not honour one speak ill of one's ability, and doing deeds of dharma in the manner of the rain-cloud's giving are named the pride called ஊராண்மை.",
+   "concepts": [
+    "panivu",
+    "porai",
+    "oppuravu",
+    "maanam"
+   ],
+   "domain": "all",
+   "nuance": "The closing word செருக்கு (pride) is paradoxical after three acts of self-effacement: the verse claims that true pride is modesty under praise, patience under scorn and giving without return. காராண்மை is read as the cloud's liberality, which asks nothing back; it might also mean the farmer's labour.",
+   "items": [
+    {
+     "thing": "பிறர்தன்னைப் பேணுங்கால் நாணலும்",
+     "claim": "shrinking with modesty when honoured is the pride of ஊராண்மை",
+     "line": 1
+    },
+    {
+     "thing": "திறன்வேறு கூறில் பொறையும்",
+     "claim": "patience when the disrespectful run down one's ability is the pride of ஊராண்மை",
+     "line": 2
+    },
+    {
+     "thing": "காராண்மை போல ஒழுகலும்",
+     "claim": "practising dharma as the cloud gives rain is the pride of ஊராண்மை",
+     "line": 3
+    }
+   ],
+   "count_word": "இம்மூன்றும்"
+  },
+  "7": {
+   "reading": "A vaalai fish caught in the trap, a man of no capacity born into a wealthy family, and hard learning acquired by one who is afraid in assemblies are named a dream seen by a sleeping mute.",
+   "concepts": [
+    "payan",
+    "kalvi",
+    "avai",
+    "selvam"
+   ],
+   "domain": "all",
+   "uncertain": true,
+   "nuance": "The image is exact: a mute's dream is real to him and can never be told, so each item is a good possessed that cannot be brought out. உள்ளல் is taken as a fish trap; if it is a pool or a place, the first item changes from 'caught' to 'stranded'.",
+   "items": [
+    {
+     "thing": "வாளைமீன் உள்ளல் தலைப்படலும்",
+     "claim": "the vaalai fish's getting into the trap is a mute's dream",
+     "line": 1
+    },
+    {
+     "thing": "செல்வக் குடியுட் பிறத்தலும்",
+     "claim": "an incapable man's birth into a wealthy house is a mute's dream",
+     "line": 2
+    },
+    {
+     "thing": "அஞ்சுவான் கற்ற அருநூலும்",
+     "claim": "hard learning gained by one who fears assemblies is a mute's dream",
+     "line": 3
+    }
+   ],
+   "count_word": "இம்மூன்றும்"
+  },
+  "8": {
+   "reading": "Lineage that shows itself in an old assembly, learning that stands out in a gathered good assembly, and a victory in battle that delights the king are named three things that need not speak of themselves.",
+   "concepts": [
+    "kudi",
+    "kalvi",
+    "avai",
+    "adakkam"
+   ],
+   "domain": "all",
+   "nuance": "Each item carries its own witness (the old assembly, the good assembly, the pleased king), so the claim is that real worth is proclaimed by a setting, not by its owner. வட்டார்த்த is obscure; it seems to describe the clamour of the battle where the victory was won.",
+   "items": [
+    {
+     "thing": "தொல்லவையுள் தோன்றும் குடிமையும்",
+     "claim": "good birth that shows in an ancient assembly does not need to proclaim itself",
+     "line": 1
+    },
+    {
+     "thing": "நல்லவையுள் மேம்பட்ட கல்வியும்",
+     "claim": "learning that excels in a good assembly does not need to proclaim itself",
+     "line": 2
+    },
+    {
+     "thing": "வட்டார்த்த வென்றியும்",
+     "claim": "victory in battle that gladdens the king does not need to proclaim itself",
+     "line": 3,
+     "domain": "king"
+    }
+   ],
+   "count_word": "இம்மூன்றும்"
+  },
+  "9": {
+   "reading": "Moving away from the company of the great, living in desire for women one has no right to, and resolving on things that are not excellent are named what utter fools love.",
+   "concepts": [
+    "pedhaimai",
+    "piranil",
+    "inam"
+   ],
+   "domain": "all",
+   "nuance": "The predicate is காதல், love: the verse says these are not the fool's mistakes but his preferences, which places folly in what is wanted, not in what is misjudged.",
+   "items": [
+    {
+     "thing": "பெருமை யுடையா ரினத்தின் அகறல்",
+     "claim": "leaving the company of the great is what fools love",
+     "line": 1
+    },
+    {
+     "thing": "உரிமையில் பெண்டிரைக் காமுற்று வாழ்தல்",
+     "claim": "living in lust for women not one's own is what fools love",
+     "line": 2
+    },
+    {
+     "thing": "விழுமிய வல்ல துணிதல்",
+     "claim": "resolving on what is not worthy is what fools love",
+     "line": 3
+    }
+   ],
+   "count_word": "இம்மூன்றும்"
+  },
+  "10": {
+   "reading": "A town with no teachers, an assembly with no elders to settle quarrels, and living beside people who do not share their food are named three things that yield no good.",
+   "concepts": [
+    "kalvi",
+    "avai",
+    "eegai",
+    "oppuravu"
+   ],
+   "domain": "all",
+   "nuance": "All three are about a place lacking a kind of person, so the verse measures a settlement by who lives in it: the teacher, the arbiter, the sharer. The third makes a neighbour's stinginess a loss to those beside him.",
+   "items": [
+    {
+     "thing": "கணக்காயர் இல்லாத ஊரும்",
+     "claim": "a town without teachers yields no good",
+     "line": 1
+    },
+    {
+     "thing": "மூத்தோரை இல்லா அவைக்களனும்",
+     "claim": "an assembly without elders who end disputes yields no good",
+     "line": 2
+    },
+    {
+     "thing": "தன்மையி லாளர் அயலிருப்பும்",
+     "claim": "living next to those who do not share their food yields no good",
+     "line": 3
+    }
+   ],
+   "count_word": "இம்முன்றும்"
+  },
+  "11": {
+   "reading": "Watching the dance of one who has not invited one, the unguarded talk of a man who is not drunk enough to fall, and going again and again into the house of one who does not trust one are named three things the whole town finds offensive.",
+   "concepts": [
+    "sol",
+    "kutram",
+    "maanam"
+   ],
+   "domain": "all",
+   "uncertain": true,
+   "nuance": "The second item excuses nothing by drink: it is the sober man's careless speech that is blamed. Each of the three words விளியாதான், களியாதான், தெளியாதான் is a negative participle and the readings ('one who has not called', 'one not drunk', 'one not assured') are inferred; ஊரெல்லாம் நோவது உடைத்து may also mean that these bring pain on the doer from the whole town.",
+   "items": [
+    {
+     "thing": "கூத்தாட்டுக் காண்டலும்",
+     "claim": "going uninvited to watch someone's dance is offensive to the town",
+     "line": 1
+    },
+    {
+     "thing": "காவா துரையும்",
+     "claim": "a sober man's unguarded talk is offensive to the town",
+     "line": 2
+    },
+    {
+     "thing": "கூரையுள் பல்காலும் சேறலும்",
+     "claim": "repeatedly entering the house of one who does not trust one is offensive to the town",
+     "line": 3
+    }
+   ],
+   "count_word": "இம்மூன்றும்"
+  },
+  "12": {
+   "reading": "The verse defines three titles by conduct (the man of effort is one who lives without debt, the vellalan is one who does not eat while a guest is waiting, the man of principle is one who does not forget) and says it is sweet to live with these three as kin.",
+   "concepts": [
+    "virundhu",
+    "muyarchi",
+    "nanri",
+    "sutram"
+   ],
+   "domain": "householder",
+   "nuance": "The form changes here: instead of three things it gives three definitions, each 'X என்பான்' fixing a name by an act. வேளாளன், a name that can denote an agrarian community, is defined by hospitality alone, not by birth or land.",
+   "items": [
+    {
+     "thing": "தாளாளன் என்பான் கடன்படா வாழ்பவன்",
+     "claim": "the man of effort, who lives without debt, is good to have as kin",
+     "line": 1
+    },
+    {
+     "thing": "வேளாளன் என்பான் விருந்திருக்க உண்ணாதான்",
+     "claim": "the vellalan, who will not eat while a guest waits, is good to have as kin",
+     "line": 2
+    },
+    {
+     "thing": "கோளாளன் என்பான் மறவாதான்",
+     "claim": "the man of principle, who does not forget, is good to have as kin",
+     "line": 3
+    }
+   ],
+   "count_word": "இம்மூவர்"
+  },
+  "13": {
+   "reading": "A young member of a family who knows right conduct, a king able to care well for his people, and an ascetic of excellent character without a blemish are named three people hard to find anywhere.",
+   "concepts": [
+    "ozhukkam",
+    "arasu",
+    "thavam",
+    "ilamai"
+   ],
+   "domain": "all",
+   "nuance": "Each figure is rare because his virtue runs against his station: conduct is not expected of the young, care for subjects is hard for one who rules them, and a flawless life is what the ascetic's vow claims but seldom keeps.",
+   "items": [
+    {
+     "thing": "சீலம் அறிவான் இளங்கிளை",
+     "claim": "a young kinsman who knows right conduct is rare",
+     "line": 1,
+     "domain": "householder"
+    },
+    {
+     "thing": "குடியோம்பல் வல்லான் அரசன்",
+     "claim": "a king able to protect his people is rare",
+     "line": 2,
+     "domain": "king"
+    },
+    {
+     "thing": "மாண்ட குணத்தான் தவசி",
+     "claim": "an ascetic of spotless excellence is rare",
+     "line": 3,
+     "domain": "ascetic"
+    }
+   ],
+   "count_word": "இம்மூவர்"
+  },
+  "14": {
+   "reading": "Youth, whose nature is to slip; folly, which is fixed in speaking words of blame; and meanness, which always stands with hostility, are three things the wise do not go near.",
+   "concepts": [
+    "ilamai",
+    "pedhaimai",
+    "sirumai",
+    "arivu"
+   ],
+   "domain": "all",
+   "nuance": "Each item is a state given its defining trait (slipping, blaming, hostility); youth is named as a thing to keep away from, not a time to be used, which makes it a temperament rather than an age.",
+   "items": [
+    {
+     "thing": "இழுக்கல் இயல்பிற்று இளமை",
+     "claim": "youth, prone to slip, is shunned by the wise",
+     "line": 1
+    },
+    {
+     "thing": "சொல்லுதல் வற்றாகும் பேதைமை",
+     "claim": "folly that keeps speaking reproachful words is shunned by the wise",
+     "line": 2
+    },
+    {
+     "thing": "செறுவொடு நிற்கும் சிறுமை",
+     "claim": "meanness bound up with hostility is shunned by the wise",
+     "line": 3
+    }
+   ],
+   "count_word": "இம் மூன்றும்"
+  },
+  "15": {
+   "reading": "The luckless wretch who lives by dealing in lies, the hollow man who claims equality when one's fortune has turned and one is low, and the one who attaches himself as fortune runs and looks only to the profit of the business are named three not to be befriended.",
+   "concepts": [
+    "natpu",
+    "vaaimai",
+    "therithal"
+   ],
+   "domain": "all",
+   "uncertain": true,
+   "nuance": "பொறியறை and தட்டை are terms of contempt whose exact sense is unsure ('one bereft of fortune', 'a husk'); ஊழினால் ஒட்டி is read as attaching oneself according to another's fortune. Read so, all three fail a friend at the turn of fortune.",
+   "items": [
+    {
+     "thing": "பொய்வழங்கி வாழும் பொறியறையும்",
+     "claim": "the wretch who lives by lies is not to be befriended",
+     "line": 1
+    },
+    {
+     "thing": "நேர்கருதும் தட்டையும்",
+     "claim": "the hollow man who claims equality when one has fallen is not to be befriended",
+     "line": 2
+    },
+    {
+     "thing": "வினைநலம் பார்ப்பானும்",
+     "claim": "the one who clings by fortune and watches for gain is not to be befriended",
+     "line": 3
+    }
+   ],
+   "count_word": "இம்மூவர்"
+  },
+  "16": {
+   "reading": "One who has planted lofty fame on the earth, one who has won a chaste wife from among women of spotless worth, and one who has dug a well of drinking water without stint are named three who have gained a body that does not die.",
+   "concepts": [
+    "pugazh",
+    "karpu",
+    "oppuravu",
+    "nilaiyaamai"
+   ],
+   "domain": "householder",
+   "nuance": "The 'undying body' is fame's body, but the three routes are unlike: a public reputation, a private marriage and a public work for water. Winning a chaste wife is counted as an achievement equal to the other two.",
+   "items": [
+    {
+     "thing": "வான்புகழ் நட்டானும்",
+     "claim": "one who has planted high renown has an undying body",
+     "line": 1
+    },
+    {
+     "thing": "கற்புடையாள் பெற்றானும்",
+     "claim": "one who has gained a chaste wife has an undying body",
+     "line": 2
+    },
+    {
+     "thing": "குறைவின்றித் தொட்டானும்",
+     "claim": "one who has dug a drinking well without stint has an undying body",
+     "line": 3,
+     "domain": "all"
+    }
+   ],
+   "count_word": "இம்மூவர்"
+  },
+  "17": {
+   "reading": "One who in old age has turned away from what is good, the husband who does not go to his chaste wife at her season, and the mendicant bearing a sect's sign who wants to win by words in disputes are named three who have let go the raft of learning.",
+   "concepts": [
+    "kalvi",
+    "ilvaazhkkai",
+    "thuravu",
+    "karpu"
+   ],
+   "domain": "all",
+   "nuance": "The three let go of learning at the three stages where it should bind most: the old man at life's end, the householder in his duty to his wife, and the renouncer, whose learning turns into a weapon of debate. இலிங்கி names one who bears a sectarian mark, not necessarily a Saiva ascetic.",
+   "items": [
+    {
+     "thing": "நன்மைக்கு அகன்றானும்",
+     "claim": "the old man who turns from the good has abandoned learning's raft",
+     "line": 1
+    },
+    {
+     "thing": "பூப்பின்கண் சாராத தலைமகனும்",
+     "claim": "the husband who does not come to his chaste wife at her season has abandoned learning's raft",
+     "line": 2,
+     "domain": "householder"
+    },
+    {
+     "thing": "சொல்வென்றி வேண்டும் இலிங்கியும்",
+     "claim": "the sign-bearing mendicant who seeks victory in wordy disputes has abandoned learning's raft",
+     "line": 3,
+     "domain": "ascetic"
+    }
+   ],
+   "count_word": "இம்மூவர்",
+   "norm": {
+    "historical": true,
+    "kinds": [
+     "gender"
+    ],
+    "note": "a marital rule of the period about the wife's season (பூப்பு): the husband is held bound to go to her then"
+   }
+  },
+  "18": {
+   "reading": "Old age, which comes surely from one side, separation, painful at both ends to those who were united, and great disease that melts the body within and eats it are named three things to be feared more than thieves.",
+   "concepts": [
+    "nilaiyaamai",
+    "pirivu",
+    "noy",
+    "yaakkai"
+   ],
+   "domain": "all",
+   "nuance": "The comparison with thieves makes all three robbers: of youth, of a companion, of the body. Separation of lovers, an akam theme, is counted among the bodily dreads, and ஒருதலையான் and இருதலை play on 'one side' and 'both sides'.",
+   "items": [
+    {
+     "thing": "வந்துறூஉ மூப்பும்",
+     "claim": "old age, which comes inevitably, is to be feared more than thieves",
+     "line": 1
+    },
+    {
+     "thing": "இருதலையு மின்னாப் பிரிவும்",
+     "claim": "separation, painful to both the parted, is to be feared more than thieves",
+     "line": 2
+    },
+    {
+     "thing": "தின்னும் பெரும்பிணியும்",
+     "claim": "great disease that melts and consumes the body is to be feared more than thieves",
+     "line": 3
+    }
+   ],
+   "count_word": "இம்மூன்றும்"
+  },
+  "19": {
+   "reading": "The witless man who runs at a killing elephant, the man who loiters at another's door by night, and the senseless one who plays with a dancing snake not knowing its fury are named, on examination, three who hang by a thread.",
+   "concepts": [
+    "pedhaimai",
+    "piranil",
+    "kedu"
+   ],
+   "domain": "all",
+   "nuance": "யானைக்கோடும் is read as யானைக்கு ஓடும், 'runs at the elephant', not as 'the elephant's tusk'. The middle item (by night at another man's door) is placed between two acts of reckless courting of animal danger, so the adulterer's risk is treated as physical. தூங்குபவர் may mean those as good as hanged or those who sleep heedless.",
+   "items": [
+    {
+     "thing": "கொல்யானைக் கோடும் குணமிலியும்",
+     "claim": "the fool who runs at a killing elephant is in mortal danger",
+     "line": 1
+    },
+    {
+     "thing": "பிறன்கடை நின்றொழுகு வானும்",
+     "claim": "the one who hangs about another's door by night is in mortal danger",
+     "line": 2
+    },
+    {
+     "thing": "ஆடும்பாம் பாட்டும் அறிவிலியும்",
+     "claim": "the fool who makes a cobra dance without knowing its fury is in mortal danger",
+     "line": 3
+    }
+   ],
+   "count_word": "இம்மூவர்"
+  },
+  "20": {
+   "reading": "One's hope coming to rest on another, falling into sloth while one's dependants go hungry, and being scorned in anger by someone as unlearned are named three things painful to everyone.",
+   "concepts": [
+    "avaa",
+    "madi",
+    "kallaamai",
+    "innaa"
+   ],
+   "domain": "all",
+   "nuance": "பாசம் here means those bound to one (kin, dependants), so the second item is not sloth in general but sloth at the moment others need one's work.",
+   "items": [
+    {
+     "thing": "ஆசை பிறன்கண் படுதலும்",
+     "claim": "having one's hopes depend on another is painful",
+     "line": 1
+    },
+    {
+     "thing": "மடியைக் கொளலும்",
+     "claim": "taking to sloth while one's dependants starve is painful",
+     "line": 2,
+     "domain": "householder"
+    },
+    {
+     "thing": "கல்லானென்று எள்ளப் படுதலும்",
+     "claim": "being scorned as unlearned is painful",
+     "line": 3
+    }
+   ],
+   "count_word": "இம்மூன்றும்"
+  }
+ },
+ "links": [
+  {
+   "a": 0,
+   "b": "kural:610",
+   "type": "same_image",
+   "note": "Both use the god who measured the world with his foot: the invocation worships the stride; the Kural makes all it spanned the reward of a king without sloth.",
+   "teaches": "The same Trivikrama stride serves the ethics group both as an object of worship and as a measure of worldly gain, so the mythic foot carries devotion in one book and royal ambition in the other.",
+   "item": 1,
+   "list_adds": "It sets the stride beside two other kicks of the same feet, so the measuring becomes one of three acts that together are the feet worshipped."
+  },
+  {
+   "a": 1,
+   "b": "kural:794",
+   "type": "develops",
+   "note": "Kural 794 says a friend of good family who shrinks from blame is worth buying; Thirikadugam makes lasting company with the worthy of an old family a medicine.",
+   "teaches": "Read together, the couplet gives the price of such company and the verse its use: one pays for it because it cures.",
+   "item": 2,
+   "list_adds": "It makes the old family's worthy one of three remedies with a chaste wife and a learned friend, so lineage-company is ranked with marriage as a cure."
+  },
+  {
+   "a": 1,
+   "b": "kural:417",
+   "type": "develops",
+   "note": "Kural 417 says men of deep heard learning do not speak folly even when mistaken; Thirikadugam says friendship with such men clears the tangle of words.",
+   "teaches": "The couplet says kelvi keeps its owner's own speech clear; the verse adds that it clears others' confusion, so the virtue passes to the friend.",
+   "item": 3,
+   "list_adds": "It turns a trait of the learned into a benefit for those who befriend them, and sets it among remedies."
+  },
+  {
+   "a": 2,
+   "b": "kural:134",
+   "type": "parallel_domain",
+   "note": "Kural 134 says a brahmin can relearn the Veda but is ruined if his conduct declines; Thirikadugam asks every gentle person not to let his character decline, and lists following the Veda-knowers as a separate item.",
+   "teaches": "The pair shows the same verb குன்று applied to conduct in both, but the Kural ranks conduct above Vedic learning inside one birth, while the Thirikadugam keeps them as two equal items for everyone.",
+   "item": 1,
+   "list_adds": "It moves the rule of undeclining conduct from the brahmin to all gentle people and places Vedic guidance beside it, not above it."
+  },
+  {
+   "a": 3,
+   "b": "kural:451",
+   "type": "develops",
+   "note": "Kural 451 says the small take small company as kin; Thirikadugam names living as kin of the unlearned as a ruin that comes from ignorance.",
+   "teaches": "The couplet explains who seeks low company (the small); the verse names why (ignorance) and what follows (ruin), giving the act a cause and a result.",
+   "item": 1,
+   "list_adds": "It sets low company beside wife-beating and entering a house with petty men, so all three are failures of a householder's judgment."
+  },
+  {
+   "a": 4,
+   "b": "kural:882",
+   "type": "develops",
+   "note": "Kural 882 says to fear the enemy who seems like kin; Thirikadugam counts taking by the hand a man formerly enraged against one as the conduct of one about to die.",
+   "teaches": "The couplet warns against the hidden foe in general; the verse names the concrete act, taking back a former enemy, and states its outcome as death.",
+   "item": 3,
+   "list_adds": "It puts this misplaced trust beside living in sight of foes and walking unarmed among cattle, all three plain exposures to known danger."
+  },
+  {
+   "a": 5,
+   "b": "kural:90",
+   "type": "develops",
+   "note": "Kural 90 says the guest withers at the host's changed face; Thirikadugam counts arriving worn as a guest in a strange town as a road to suffering.",
+   "teaches": "The Kural measures hospitality by the host's face; the verse looks from the guest's side and counts dependence on strangers as itself a hardship, which is why the host's face matters so much.",
+   "item": 3,
+   "list_adds": "It sets guesthood beside an unused ford and an unwilling woman, three ventures whose danger lies in the unknown other side."
+  },
+  {
+   "a": 5,
+   "b": "kural:1191",
+   "type": "parallel_domain",
+   "note": "Kural 1191 calls the love of those loved back the seedless fruit; Thirikadugam counts embracing women who do not desire one among roads to suffering.",
+   "teaches": "The akam couplet praises mutual desire from inside love; the ethics verse states the reverse as a rule of conduct, so the need for mutual desire is affirmed in both kinds of poetry.",
+   "item": 2,
+   "list_adds": "It moves the claim from a lover's lament into counsel, and likens union without desire to entering water at an unused ford."
+  },
+  {
+   "a": 6,
+   "b": "kural:773",
+   "type": "parallel_domain",
+   "note": "Kural 773 makes ஊராண்மை the cutting edge of valour, help to a foe in distress; Thirikadugam defines ஊராண்மை by modesty under honour, patience under scorn and unreturned dharma.",
+   "teaches": "The pair shows one word moving from the battlefield, where it is mercy to the fallen enemy, into everyday conduct, where it is a pride made of self-effacement.",
+   "list_adds": "It breaks the Kural's single heroic act into three civil ones and calls their sum a pride."
+  },
+  {
+   "a": 7,
+   "b": "kural:727",
+   "type": "agrees",
+   "note": "Both say learning held by one who fears the assembly is useless: the Kural likens it to a sword in a coward's hand, Thirikadugam to a mute man's dream.",
+   "teaches": "The two images name different failures: the sword is a power left unused, the mute's dream an experience that cannot be told, so together they say fear of the assembly blocks both action and communication.",
+   "item": 3,
+   "list_adds": "It sets the timid scholar beside an incapable heir to wealth and a trapped fish, three goods held that cannot be brought out."
+  },
+  {
+   "a": 8,
+   "b": "kural:439",
+   "type": "develops",
+   "note": "Kural 439 says never admire oneself; Thirikadugam names lineage, learning and victory as things that need not speak of themselves.",
+   "teaches": "The couplet gives the rule; the verse gives a reason for it in the three strongest cases of worth, each of which has its own witness (an assembly, a king), so self-praise is not only wrong but redundant.",
+   "list_adds": "It picks the three things most tempting to boast of and attaches to each the audience that proclaims it."
+  },
+  {
+   "a": 9,
+   "b": "kural:450",
+   "type": "develops",
+   "note": "Kural 450 ranks leaving the company of the good as ten times worse than many enemies; Thirikadugam counts leaving the company of the great as what fools love.",
+   "teaches": "The couplet measures the harm of leaving good company; the verse says why people still do it: fools want it, so the harm is chosen.",
+   "item": 1,
+   "list_adds": "It sets leaving good company beside adulterous desire and base resolve, making all three expressions of a fool's preferences."
+  },
+  {
+   "a": 10,
+   "b": "kural:322",
+   "type": "develops",
+   "note": "Kural 322 makes sharing food the chief of all precepts; Thirikadugam counts living beside those who do not share their food as something that yields no good.",
+   "teaches": "The couplet praises the sharer; the verse shows the cost of the non-sharer falling on his neighbours, so sharing is a public good of a settlement, not only a private virtue.",
+   "item": 3,
+   "list_adds": "It sets the stingy neighbour beside a town without teachers and an assembly without elders, three lacks that make a place barren."
+  },
+  {
+   "a": 11,
+   "b": "kural:127",
+   "type": "develops",
+   "note": "Kural 127 says whatever else one fails to guard, guard the tongue; Thirikadugam singles out the unguarded talk of a man who is not drunk.",
+   "teaches": "Adding 'not drunk' removes the one excuse for loose speech, so the verse sharpens the couplet: unguarded speech when sober is chosen, not lapsed into.",
+   "item": 2,
+   "list_adds": "It makes careless speech one of three social intrusions (uninvited watching, untrusted visiting) that offend the whole town."
+  },
+  {
+   "a": 12,
+   "b": "kural:81",
+   "type": "develops",
+   "note": "Kural 81 says all household life exists for caring for guests and doing வேளாண்மை; Thirikadugam defines the வேளாளன் as one who does not eat while a guest waits.",
+   "teaches": "Both books use the vel- word for help to guests; the verse makes it a definition of a person, showing that in this group the name is earned by hospitality, not given by birth or land.",
+   "item": 2,
+   "list_adds": "It sets the vellalan beside the debt-free man and the grateful man as three kinds of kin worth having."
+  },
+  {
+   "a": 12,
+   "b": "kural:110",
+   "type": "develops",
+   "note": "Kural 110 says there is no escape for one who kills a benefit received; Thirikadugam defines the man of principle as one who does not forget.",
+   "teaches": "The couplet condemns ingratitude as unforgivable; the verse turns gratitude into a mark by which one chooses kin, making it a reason to bind oneself to a person.",
+   "item": 3,
+   "list_adds": "It makes gratitude a qualification for kinship, alongside freedom from debt and hospitality."
+  },
+  {
+   "a": 13,
+   "b": "kural:544",
+   "type": "qualifies",
+   "note": "Kural 544 says the world embraces the feet of the king who embraces his people; Thirikadugam names such a king as hard to find anywhere.",
+   "teaches": "The couplet states the reward of the caring king as if it were the order of things; the verse adds that such kings are rare, so the world's embrace is seldom earned.",
+   "item": 2,
+   "list_adds": "It sets the good king beside a well-conducted youth and a flawless ascetic, three rarities each at odds with his station."
+  },
+  {
+   "a": 15,
+   "b": "kural:813",
+   "type": "agrees",
+   "note": "Kural 813 says friends who weigh their gains are no better than thieves; Thirikadugam counts the one who clings by fortune and watches for profit as not to be befriended.",
+   "teaches": "The Kural shames the calculating friend by comparison; the verse adds when he shows himself, at the turn of fortune, which is also when the liar and the hollow man show themselves.",
+   "item": 3,
+   "list_adds": "It groups the calculating friend with the liar and the one who claims equality in one's fall, three who fail at reversal."
+  },
+  {
+   "a": 16,
+   "b": "purananuru:18",
+   "type": "parallel_domain",
+   "note": "Purananuru 18 tells a Pandya that those who join water to land give bodies and life; Thirikadugam says one who digs a drinking well without stint gains an undying body.",
+   "teaches": "The puram poem credits the builder of water works with the lives of his people; the ethics verse credits the well-digger with his own undying body, so the same act of providing water is rewarded outward in one and inward in the other.",
+   "item": 3
+  },
+  {
+   "a": 16,
+   "b": "kural:233",
+   "type": "develops",
+   "note": "Kural 233 says only lofty fame stands undying; Thirikadugam names fame as one of three ways to an undying body, with a chaste wife and a public well.",
+   "teaches": "The couplet makes fame the only deathless thing; the verse widens the routes to it, counting a marriage and a work of public water as equally lasting.",
+   "item": 1,
+   "list_adds": "It turns the Kural's single route to deathlessness into three, two of them not fame-seeking acts at all."
+  },
+  {
+   "a": 16,
+   "b": 1,
+   "type": "develops",
+   "note": "Verse 1 makes a wife chaste as Arundhati a medicine; verse 16 makes the man who won a chaste wife deathless.",
+   "teaches": "Within the book the chaste wife is given two predicates, cure and deathlessness, so she is valued both for what she does for the husband now and for the name she leaves him.",
+   "item": 2
+  },
+  {
+   "a": 17,
+   "b": "kural:1134",
+   "type": "same_image",
+   "note": "Kural 1134 has love's flood sweep away the raft of shame and manliness; Thirikadugam has three men let go of the raft of learning.",
+   "teaches": "Both use the raft against a flood, but the Kural's raft is carried off by force while the Thirikadugam's is let go by choice, which makes the ethics verse a charge of fault, not a lament.",
+   "list_adds": "It shows one raft dropped at three stages of life (old age, marriage, renunciation), not one lover's moment."
+  },
+  {
+   "a": 18,
+   "b": "naladiyar:92",
+   "type": "agrees",
+   "note": "Naladiyar 92 sets death, old age and disease before the reader and tells him to share before eating; Thirikadugam names old age, separation and disease as things to fear more than thieves.",
+   "teaches": "The quatrain moves from the threats to a remedy (give now), while the verse stops at the threat and calls it theft, so the pair shows a list that diagnoses beside a quatrain that prescribes.",
+   "list_adds": "It adds the separation of the joined to old age and disease, putting an akam grief among the bodily dreads."
+  },
+  {
+   "a": 19,
+   "b": "kural:146",
+   "type": "develops",
+   "note": "Kural 146 says enmity, sin, fear and blame never leave one who enters another's home; Thirikadugam puts the man at another's door by night between one who runs at a killing elephant and one who plays with a cobra.",
+   "teaches": "The couplet lists the moral consequences; the verse's company of items makes the danger bodily and immediate, like courting an elephant or a snake.",
+   "item": 2,
+   "list_adds": "It frames adultery as reckless risk to life by placing it among two plain acts of physical folly."
+  },
+  {
+   "a": 19,
+   "b": 9,
+   "type": "develops",
+   "note": "Verse 9 calls lust for women not one's own what fools love; verse 19 says the man at another's door by night hangs by a thread.",
+   "teaches": "Within the book the same act is first a fool's desire and then a mortal danger, so the book judges it both by the wanting and by the result.",
+   "item": 2
+  },
+  {
+   "a": 20,
+   "b": "kural:603",
+   "type": "develops",
+   "note": "Kural 603 says the family of the slothful fool perishes before him; Thirikadugam counts falling into sloth while one's dependants go hungry as painful to all.",
+   "teaches": "The couplet gives the end of sloth, the family's death; the verse gives its moment, idling while those bound to one hunger, so the harm is seen as it begins.",
+   "item": 2,
+   "list_adds": "It sets this sloth beside dependence on others and being scorned as unlearned, three humiliations of a man who fails his station."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "0 lines 1 and 3: அளந்துதூஉம் and உதைத்தூஉம் stand beside பாய்த்ததூஉம் on line 2 and look like shortened or misprinted forms of அளந்ததூஉம் and உதைத்ததூஉம்.",
+  "1 line 2: the text was repaired from a misprint (தெடார்ச்சியும் read தொடர்ச்சியும்); the reading differs from the site.",
+  "3 line 3: the count word is fused with the verb (புகலுமிம் மூன்றும்), so the usual இம்மூன்றும் does not appear as a separate word.",
+  "10 line 4: the count word is spelt இம்முன்றும் with a short u, probably a misprint for இம்மூன்றும்; the same closing line recurs at verse 63.",
+  "14 line 3: the other witness has செறுவோடு for செறுவொடு; line 4 recurs as the closing line of verse 46."
+ ]
+}
