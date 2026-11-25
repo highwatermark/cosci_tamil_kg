@@ -1,5 +1,5 @@
 {
- "grader_files": 10,
+ "grader_files": 20,
  "items_in_key": 400,
  "items_graded": 400,
  "rejected_rows": 0,
@@ -8,44 +8,44 @@
  "candidates_graded": 300,
  "control_grade_distribution": {
   "0.0": 93,
-  "1.0": 7
+  "0.5": 2,
+  "1.0": 5
  },
  "candidate_grade_distribution": {
-  "0.0": 63,
-  "1.0": 212,
-  "2.0": 23,
+  "0.0": 54,
+  "0.5": 24,
+  "1.0": 194,
+  "1.5": 11,
+  "2.0": 15,
   "3.0": 2
  },
- "control_grade_p95": 1.0,
+ "control_grade_p95": 0.5249999999999986,
  "control_overlap_p95": 1.4994049999999992,
  "controls_graded_2plus": 0,
  "control_false_positive_rate": 0.0,
- "candidates_graded_2plus": 25,
- "strong": 25,
+ "candidates_graded_2plus": 17,
+ "strong": 17,
  "strong_by_direction": {
-  "supports": 12,
-  "contradicts": 8,
-  "neither": 5
+  "supports": 8,
+  "contradicts": 5,
+  "neither": 4
  },
  "strong_by_finding_strength": {
-  "established": 10,
-  "contested": 3,
-  "replicated": 10,
+  "established": 9,
+  "contested": 2,
+  "replicated": 4,
   "speculative": 2
  },
  "strong_by_domain": {
   "physics": 6,
   "breathing": 2,
-  "psychology": 2,
   "neuroplasticity": 1,
   "dmn": 1,
   "nasal-cycle": 1,
-  "attention": 3,
   "population-genetics": 2,
-  "aging": 3,
-  "parapsychology": 2,
+  "aging": 2,
   "toxicity": 1,
   "ego-dissolution": 1
  },
- "strong_cipher_dependent": 0
+ "strong_cipher_dependent": 2
 }
