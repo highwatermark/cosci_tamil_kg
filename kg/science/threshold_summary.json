@@ -1,0 +1,51 @@
+{
+ "grader_files": 10,
+ "items_in_key": 400,
+ "items_graded": 400,
+ "rejected_rows": 0,
+ "status": "complete",
+ "controls_graded": 100,
+ "candidates_graded": 300,
+ "control_grade_distribution": {
+  "0.0": 93,
+  "1.0": 7
+ },
+ "candidate_grade_distribution": {
+  "0.0": 63,
+  "1.0": 212,
+  "2.0": 23,
+  "3.0": 2
+ },
+ "control_grade_p95": 1.0,
+ "control_overlap_p95": 1.4994049999999992,
+ "controls_graded_2plus": 0,
+ "control_false_positive_rate": 0.0,
+ "candidates_graded_2plus": 25,
+ "strong": 25,
+ "strong_by_direction": {
+  "supports": 12,
+  "contradicts": 8,
+  "neither": 5
+ },
+ "strong_by_finding_strength": {
+  "established": 10,
+  "contested": 3,
+  "replicated": 10,
+  "speculative": 2
+ },
+ "strong_by_domain": {
+  "physics": 6,
+  "breathing": 2,
+  "psychology": 2,
+  "neuroplasticity": 1,
+  "dmn": 1,
+  "nasal-cycle": 1,
+  "attention": 3,
+  "population-genetics": 2,
+  "aging": 3,
+  "parapsychology": 2,
+  "toxicity": 1,
+  "ego-dissolution": 1
+ },
+ "strong_cipher_dependent": 0
+}

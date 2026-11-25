@@ -1,0 +1,996 @@
+{
+ "packet": 7,
+ "brief": "docs/science-grader-brief.md",
+ "output": "kg/science/grading/graded/packet_07.<grader>.json",
+ "items": [
+  {
+   "item": "P07-01",
+   "verse": {
+    "id": "siddhar:203",
+    "unit_id": "siddhar:meynjanap-pulambal:200",
+    "poet": "பத்திரகிரியார்",
+    "work": "மெய்ஞ்ஞானப் புலம்பல்",
+    "tamil": [
+     "பேரறிவிலே மனதைப் பேராமலே இருத்தி",
+     "ஓரறிவில் என்னாளும் ஊன்றி நிற்பது எக்காலம்?"
+    ],
+    "reading": "Setting my mind unmoving in the great awareness, when will I stand rooted every day in the one awareness?",
+    "nuance": "பேரறிவு and ஓரறிவு, the great awareness and the one awareness, are the same thing named from two sides: its size and its singleness."
+   },
+   "finding": {
+    "id": "finding:mind-wandering-unhappy",
+    "domain": "attention",
+    "claim": "People's minds wander nearly half their waking time, and they report being less happy while wandering than while focused.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-02",
+   "verse": {
+    "id": "siddhar:2660",
+    "unit_id": "siddhar:njanak-kummi:143",
+    "poet": "மதுரை வாலைசாமி",
+    "work": "ஞானக்கும்மி",
+    "tamil": [
+     "தேசங்கள் போவது மாசையடி குல",
+     "தெய்வமுண்டென்பது மாசையடி",
+     "நேசமெம்பிர்ம ஞான சே.தியை",
+     "சேர்ந்துகும்மி படியுங்கடி"
+    ],
+    "reading": "Going to far lands is desire, saying there is a family god is desire; join the light of the Brahman-knowledge we love and dance the kummi.",
+    "nuance": "தேசங்கள் போவது is pilgrimage or wandering; குலதெய்வம் is the lineage deity of the household. Both are put on the side of wanting."
+   },
+   "finding": {
+    "id": "finding:hedonic-adaptation",
+    "domain": "psychology",
+    "claim": "People adapt to most gains and losses so that happiness drifts back toward a personal set point, though not fully for every life event.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-03",
+   "verse": {
+    "id": "siddhar:2145",
+    "unit_id": "siddhar:thirikonar:1",
+    "poet": "திரிகோணச் சித்தர்",
+    "work": "திரிகோணச் சித்தர் பாடல் (கலிவெண்பா)",
+    "tamil": [
+     "சிவனே பரமகுரு தேசிகனே பாதம்",
+     "அவனே அனுதினமும் ஆகும் நவநீத"
+    ],
+    "reading": "Siva alone is the supreme guru, the preceptor; his feet alone, every day, are what one holds to; and he is the one behind Vishnu, whose epithet the run-on line begins.",
+    "nuance": "The unit ends in நவநீத, which belongs to the next unit (the butter-stealing, cloud-coloured Vishnu). The first line sets the theme of the whole poem: the guru is Siva, and Siva comes as guru (2168 to 2170)."
+   },
+   "finding": {
+    "id": "finding:predictive-brain",
+    "domain": "predictive-processing",
+    "claim": "On the predictive-processing account, perception is the brain's best guess about the causes of sensory input, constantly corrected by prediction error.",
+    "strength": "contested"
+   }
+  },
+  {
+   "item": "P07-04",
+   "verse": {
+    "id": "siddhar:2062",
+    "unit_id": "siddhar:pambatti:83",
+    "poet": "பாம்பாட்டிச் சித்தர்",
+    "work": "பாம்பாட்டிச் சித்தர் பாடல்",
+    "tamil": [
+     "ஆலடிப் பொந்தினிலே வாழ்ந்த பாம்பே",
+     "அரசடிப் பொந்திலே புகுந்து கொண்டாய்",
+     "வாலடி தன்னிலே பார்த்துப் பார்த்து",
+     "வாங்கியே தூங்கிநின் றாடாய் பாம்பே"
+    ],
+    "reading": "Snake who lived in the hole at the foot of the banyan, you have entered the hole at the foot of the pipal; look and look at the tip of your tail, draw in and sleep standing, and dance.",
+    "nuance": "The two trees and holes are cipher: tradition takes the snake as the coiled power or breath moving from one seat in the body to another, and watching the tail-tip as turning back to its root. The plain picture is only a snake changing holes and sleeping."
+   },
+   "finding": {
+    "id": "finding:voluntary-autonomic",
+    "domain": "neuroplasticity",
+    "claim": "Trained practitioners of breathing and cold exposure or of tummo meditation can voluntarily raise body temperature or modulate the innate immune response, effects once thought impossible.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-05",
+   "verse": {
+    "id": "siddhar:2330",
+    "unit_id": "siddhar:kakapusundar-njanam:5",
+    "poet": "காகபுசுண்டர்",
+    "work": "காகபுசுண்டர் ஞானம்",
+    "tamil": [
+     "செய்யப்பா வாசிமுனி மகனே கேளு",
+     "தீர்க்கமுடன் முன்னுரைத்த ஆயி ரத்தில்",
+     "மெய்யப்பா சரக்குநீத் துவகை யெல்லாம்",
+     "மேன்மையுடன் கட்டினங்கள் உருக்கி னங்கள்",
+     "பொய்யப்பா சொல்லவில்லை ரத்னப் போக்குப்",
+     "புனிதமுடன் சரியாகச் சொல்லிப் போட்டேன்",
+     "வையப்பா இந்நூலில் மவுன மெல்லாம்",
+     "வகையாகச் சொல்லுகிறேன் பணிந்து கேளே"
+    ],
+    "reading": "Listen, son Vasimuni: in the thousand verses he gave earlier he told truly the drugs, salts, bound and melted substances and the way of gems, without a lie; in this book he will tell all the silence in order, so listen bowing.",
+    "nuance": "The disciple is வாசிமுனி, the breath-sage, and later வாசிநாதா; the name makes the pupil the breath itself. The earlier ஆயிரம் is an alchemical work claimed as Kakapusundar's; the verse marks the turn from alchemy to மவுனம், which the formulas of 2397 to 2403 then undo."
+   },
+   "finding": {
+    "id": "finding:metals-in-indian-medicine",
+    "domain": "toxicity",
+    "claim": "A scoping review found 220 cases of heavy-metal poisoning, mostly lead and mercury, linked to Ayurvedic and Siddha preparations, with most analysed samples over permissible limits.",
+    "strength": "established"
+   }
+  },
+  {
+   "item": "P07-06",
+   "verse": {
+    "id": "siddhar:1478",
+    "unit_id": "siddhar:sivavakkiyam:514",
+    "poet": "சிவவாக்கியர்",
+    "work": "சிவவாக்கியம்",
+    "tamil": [
+     "காயகாயம் உண்பதாகக் கண்டவர் மதித்திட",
+     "மாயவித்தை செய்வதுஎங்கு மடிப்புமோசம் செய்பவர்",
+     "நேரமாகக் கஞ்சாஅடித்து நேர்அபினையைத் தின்பதால்",
+     "நாயதாக நக்கிமுக்கி நாட்டினில் அலைவரே"
+    ],
+    "reading": "So that onlookers will esteem them as eaters of kaya-kalpa, they do conjuring tricks everywhere, frauds and cheats; because they smoke ganja at set hours and eat opium straight, they roam the land like dogs, licking and sniffing.",
+    "nuance": "காயகாயம் is read as காயகற்பம், the body-preserving medicine of Siddha tradition; the verse says its claimants are kept going by hemp and opium instead. It is a witness to the drugs of the wandering ascetic, and treats the kaya-kalpa claim as a cover rather than denying the medicine."
+   },
+   "finding": {
+    "id": "finding:siddha-decoction-trials",
+    "domain": "herbal",
+    "claim": "Siddha polyherbal decoctions such as Nilavembu and Kaba Sura Kudineer have been tested in few, small COVID-19 trials, with uncertain benefit beyond standard care.",
+    "strength": "speculative"
+   }
+  },
+  {
+   "item": "P07-07",
+   "verse": {
+    "id": "siddhar:1510",
+    "unit_id": "siddhar:azhuganni:22",
+    "poet": "அழுகணிச் சித்தர்",
+    "work": "அழுகணிச் சித்தர் பாடல்கள்",
+    "tamil": [
+     "பாதாள மூலியடி பாடாணம் தான்சேர்த்து",
+     "வேதாளங் கூட்டியல்லோ வெண்டாரை நெய்யூற்றிச்",
+     "செந்தூர மையடியோ செகமெல்லாம் தான்மிரட்டித்",
+     "தந்த மருந்தாலே என் கண்ணம்மா!",
+     "தணலாக வேகுறண்டி!"
+    ],
+    "reading": "A root from the underworld with arsenic added, with the goblin-drug joined and white-thorn ghee poured, a red vermilion ink that terrifies the whole world: by the drug she gave I burn like a coal, my Mother.",
+    "nuance": "The verse lists alchemical materials, பாடாணம், வேதாளம், செந்தூரம், as the Mother's drug, and its effect is the poet's burning. Whether the burning is the heat of the awakened power or the ruin of a failed preparation is open; both readings are traditional."
+   },
+   "finding": {
+    "id": "finding:curcumin-pains",
+    "domain": "herbal",
+    "claim": "Curcumin, though popular, is unstable, poorly absorbed and a frequent false positive in assays, and no double-blind trial has shown a clear therapeutic benefit.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-08",
+   "verse": {
+    "id": "siddhar:1372",
+    "unit_id": "siddhar:sivavakkiyam:408",
+    "poet": "சிவவாக்கியர்",
+    "work": "சிவவாக்கியம்",
+    "tamil": [
+     "வளர்ந்தெழுந்த கொங்கைதன்னை மாயமென்று எண்ணிநீர்",
+     "அருள்கொள்சீவ ராருடம்பை உண்மையகத் தேர்வீர்காள்",
+     "விளங்குஞானம் மேவியே மிக்கோர்சொல்லலைக் கேட்பிரேல்",
+     "களங்கமற்று நெஞ்சுளே கருத்துவந்து புக்குமே"
+    ],
+    "reading": "You who count the breast that grew and rose as maya, examine in truth within yourself the body of the jiva that holds grace; if you listen to the words of the great who have gained shining knowledge, the right thought will enter your stainless heart.",
+    "nuance": "The first line may rebuke those who dismiss the body (or woman) as illusion, in keeping with the poet's praise of the body as Shakti; or கொங்கை may be a figure for the swelling of pride or desire. அருள்கொள் சீவர் ஆர் உடம்பு is loose: 'the body of the grace-bearing souls'."
+   },
+   "finding": {
+    "id": "finding:predictive-brain",
+    "domain": "predictive-processing",
+    "claim": "On the predictive-processing account, perception is the brain's best guess about the causes of sensory input, constantly corrected by prediction error.",
+    "strength": "contested"
+   }
+  },
+  {
+   "item": "P07-09",
+   "verse": {
+    "id": "siddhar:2459",
+    "unit_id": "siddhar:romarishi-njanam:4",
+    "poet": "உரோம ரிஷி",
+    "work": "உரோம ரிஷி ஞானம்",
+    "tamil": [
+     "வாங்கியந்தப் பன்னிரண்டி னுள்ளே ரேசி",
+     "வன்னிநின்ற விடுமல்லோ சூர்யன் வாழ்க்கை?",
+     "ஓங்கியிந்த இரண்டிடமு மறிந்தோன் யோகி;",
+     "உற்றபர மடிதானே பதினாறாகும்;",
+     "தாங்கிநின்ற காலடிதான் பன்னி ரண்டு;",
+     "சார்வான பதினாறில் மெள்ள வாங்கி",
+     "ஏங்கினதைப் பன்னிரண்டில் நிறுத்தி யூதி",
+     "எழுந்தபுரி யட்டமடங் கிற்றுப் பாரே"
+    ],
+    "reading": "Having drawn in, exhale within that twelve; is not the standing fire let go the sun's life? One who knows these two places is a yogi; the supreme foot that is reached is sixteen; the foot of the wind that held is twelve; drawing gently in the sixteen, holding what strained in the twelve and blowing, the risen city of eight has subsided: see.",
+    "nuance": "Twelve and sixteen are the Siddhars' breath numbers: the out-breath that runs twelve finger-breadths from the nose, and the moon's sixteen kalas, or an in-breath of sixteen measures held at twelve. Tradition reads பன்னிரண்டு as the sun's breath and பதினாறு as the moon's, matching 2458. புரியட்டகம், the city of eight, is the subtle body of eight parts; its subsiding is the goal of the exercise. The numbers are the whole content and their exact referents are not certain."
+   },
+   "finding": {
+    "id": "finding:slow-breath-hrv",
+    "domain": "breathing",
+    "claim": "Breathing voluntarily at about six breaths a minute raises vagally mediated heart-rate variability during practice, right after one session and after multi-session training.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-10",
+   "verse": {
+    "id": "siddhar:1328",
+    "unit_id": "siddhar:sivavakkiyam:364",
+    "poet": "சிவவாக்கியர்",
+    "work": "சிவவாக்கியம்",
+    "tamil": [
+     "பறந்ததே கறந்தபோது பாய்ச்சலூரின் வழியிலே",
+     "பிறந்ததே பிராணன்அன்றிப் பெண்ணும்ஆணும் அல்லவே",
+     "துறந்ததோ சிறந்ததோ தூயதுங்கம் ஆனதோ",
+     "இறந்தபோதில் அன்றதே இலங்கிடும் சிவாயமே"
+    ],
+    "reading": "It flew, when it was milked, by the way of Paychalur: what was born was breath, not female nor male. Did it renounce, did it excel, did it become pure and lofty? Not at the moment of death: Sivayam shines then too.",
+    "nuance": "The plain claim in line 2 is that what is born in the body's way is the breath, which has no sex. கறந்தபோது, when milked, is odd; it may be the drawing of the breath. The last line can be 'not only then' or 'not then but now'; the formula returns in 1333 with துறந்தபோது for கறந்தபோது."
+   },
+   "finding": {
+    "id": "finding:breath-retention-lifespan",
+    "domain": "breathing",
+    "claim": "The idea that a fixed stock of breaths or heartbeats sets lifespan rests on a cross-species correlation; within humans, lower resting heart rate predicts lower mortality but slowing breath has not been shown to extend life.",
+    "strength": "contested"
+   }
+  },
+  {
+   "item": "P07-11",
+   "verse": {
+    "id": "siddhar:2458",
+    "unit_id": "siddhar:romarishi-njanam:3",
+    "poet": "உரோம ரிஷி",
+    "work": "உரோம ரிஷி ஞானம்",
+    "tamil": [
+     "பேசுவேன் இடைகலையே சந்த்ர காந்தம்;",
+     "பின்கலைதா னாதித்தனாதி யாச்சு;",
+     "நேசமதாய் நடுவிருந்த சுடர்தான் நீங்கி",
+     "நீங்காம லொன்றானா லதுதான் முத்தி;",
+     "காதலாய்ப் பார்த்தோர்க்கிங் கிதுதான் மோட்சம்;",
+     "காணாத பேர்க்கென்ன காம தேகஞ்",
+     "சோதனையாய் இடைகலையி லேற வாங்கிச்",
+     "சுழுமுனையில் கும்பித்துச் சொக்கு வீரே"
+    ],
+    "reading": "I will speak: the left channel is the moonstone; the right channel is the sun from the first; when the light that stood lovingly in the middle departs and then becomes one without departing, that is release; for those who looked with love, this is moksha here; for those who do not see, what is there but a body of lust? As a test, draw the breath up in the left channel, hold it in the sushumna, and you will be entranced.",
+    "nuance": "The cipher is stated and then decoded within the verse: இடைகலை is the moon, பின்கலை the sun, and the middle light the sushumna where they unite. சோதனையாய், as a test, invites the hearer to try the kumbhaka and see; சொக்குவீரே (you will be stunned, or absorbed) is the promised result."
+   },
+   "finding": {
+    "id": "finding:glymphatic-sleep",
+    "domain": "sleep",
+    "claim": "Mouse studies reported that sleep increases clearance of brain waste through the glymphatic system, but a 2024 study found clearance fell during sleep, so the claim is disputed.",
+    "strength": "contested"
+   }
+  },
+  {
+   "item": "P07-12",
+   "verse": {
+    "id": "siddhar:1890",
+    "unit_id": "siddhar:valaik-kummi:27",
+    "poet": "கொங்கணச் சித்தர்",
+    "work": "வாலைக் கும்மி",
+    "tamil": [
+     "சிலம்பொலி யென்னக் கேட்குமடி மெத்த",
+     "சிக்குள்ள பாதை துடுக்கமடி",
+     "வலம்புரி யச்சங்கமூது மடி மேலே",
+     "வாசியைப் பாரடி வாலைப்பெண்ணே!"
+    ],
+    "reading": "It is heard like the ring of anklets; the tangled path is very steep; the right-whorled conch sounds; above, look at the breath, Maiden.",
+    "nuance": "Anklet-sound and conch are the inner sounds (நாதம்) heard as the breath rises; tradition lists them among the ten sounds of yoga. துடுக்கம் (steepness, or roughness) is the difficulty of the channel. The stanza joins sound and breath without explaining how one leads to the other."
+   },
+   "finding": {
+    "id": "finding:psi-replication-failure",
+    "domain": "parapsychology",
+    "claim": "Reported evidence for precognition and other psychic powers failed to replicate and exposed weaknesses in standard statistical practice.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-13",
+   "verse": {
+    "id": "siddhar:1948",
+    "unit_id": "siddhar:valaik-kummi:85",
+    "poet": "கொங்கணச் சித்தர்",
+    "work": "வாலைக் கும்மி",
+    "tamil": [
+     "மெத்தை தனிலே படுத்திருந் துநாமும்",
+     "மெல்லிய ரோடு சிரிக்கும்போது",
+     "யுத்தகாலன் வந்துதான் பிடித்தால் நாமும்",
+     "செத்த சவமடி வாலைப்பெண்ணே!"
+    ],
+    "reading": "While we lie on the mattress laughing with soft women, if warlike Death comes and seizes us, we too are only a dead corpse, Vaalai girl.",
+    "nuance": ""
+   },
+   "finding": {
+    "id": "finding:mortality-salience",
+    "domain": "psychology",
+    "claim": "Reminders of death reliably shift people's attitudes and defence of their worldviews, a moderately sized effect across many studies, though recent large replications have been weaker.",
+    "strength": "contested"
+   }
+  },
+  {
+   "item": "P07-14",
+   "verse": {
+    "id": "siddhar:46",
+    "unit_id": "siddhar:meynjanap-pulambal:45",
+    "poet": "பத்திரகிரியார்",
+    "work": "மெய்ஞ்ஞானப் புலம்பல்",
+    "tamil": [
+     "சோற்றுத் துருத்திதனைச் சுமந்து அலைந்து வாடாமல்",
+     "ஊத்தைச் சடம்போட்டு உனை அடைவது எக்காலம்?"
+    ],
+    "reading": "Not carrying this leather bag of rice about and withering, when shall I throw off the filthy inert body and reach you?",
+    "nuance": "துருத்தி is a leather water-bag; filled with cooked rice it is the body, a skin full of food. சடம், the inert thing, is the body as mere matter, set against உனை, the one reached."
+   },
+   "finding": {
+    "id": "finding:mantra-deactivation",
+    "domain": "dmn",
+    "claim": "Silent repetition of a single word reduces activity widely across the cortex, including default-mode regions, compared with rest.",
+    "strength": "speculative"
+   }
+  },
+  {
+   "item": "P07-15",
+   "verse": {
+    "id": "siddhar:1215",
+    "unit_id": "siddhar:sivavakkiyam:251",
+    "poet": "சிவவாக்கியர்",
+    "work": "சிவவாக்கியம்",
+    "tamil": [
+     "காயிலாத சோலையில் கனியுகந்த வண்டுகள்",
+     "ஈயிலாத தேனையுண்டு இராப்பகல் உறங்குறீர்",
+     "பாயிலாத கப்பலேறி அக்கரைப் படுமுனே",
+     "வாயினால் உரைப்பதாகு மோமவுன ஞானமே"
+    ],
+    "reading": "Bees that love the fruit of a grove with no unripe fruit, you eat honey no bee made and sleep night and day; before you board the sailless ship and land on the far shore, can the knowledge of silence be spoken by the mouth?",
+    "nuance": "The images are paradoxes: a grove with no raw fruit (all ripe), honey without bees, a ship without a sail; tradition reads them as knowledge that comes without process and the body or practice that crosses without visible means. The question at the end is the firm part: மவுன ஞானம், silence-knowledge, cannot be said."
+   },
+   "finding": {
+    "id": "finding:meditation-predictive-mind",
+    "domain": "predictive-processing",
+    "claim": "A theoretical account proposes that meditation progressively loosens predictive models, from reduced mind-wandering to cessation of experience in advanced states.",
+    "strength": "speculative"
+   }
+  },
+  {
+   "item": "P07-16",
+   "verse": {
+    "id": "siddhar:1641",
+    "unit_id": "siddhar:thiruvalluvar-njanam:2.19",
+    "poet": "திருவள்ளுவர்",
+    "work": "திருவள்ளுவர் ஞானம்",
+    "tamil": [
+     "எண்சாணாந் தேக மெடுத்தாலென் னாண்டையே",
+     "பெண்சாரல் நீக்கியே பேரின்பம் - கண்காணத்",
+     "தேக மொழியாமல் சித்தி பெறுஞானம்",
+     "யோகசித்தி போசைவிதி யுன்"
+    ],
+    "reading": "Taking a body of eight spans, what of it, my Lord? Removing the nearness of women, there is great bliss; so that the eye may see, without the body ceasing, the knowledge that gains siddhi, the siddhi of yoga ... decree: think on it.",
+    "nuance": "தேகம் ஒழியாமல் சித்தி பெறும் ஞானம், the knowledge that gains siddhi without the body ceasing, is the text's statement of its goal: release in the living body. போசைவிதி is an obscure word, perhaps a corruption; the sense of the last foot is lost."
+   },
+   "finding": {
+    "id": "finding:artemisinin",
+    "domain": "herbal",
+    "claim": "Artemisinin, isolated from sweet wormwood after a search of traditional Chinese recipes, became a frontline malaria drug, showing traditional texts can point to real compounds.",
+    "strength": "established"
+   }
+  },
+  {
+   "item": "P07-17",
+   "verse": {
+    "id": "siddhar:380",
+    "unit_id": "siddhar:thiruppadal-thirattu:0270-5.52",
+    "poet": "பட்டினத்தார்",
+    "work": "திருப்பாடல் திரட்டு (தலப் பாடல்கள்)",
+    "tamil": [
+     "மையாடுகண்ணியுமைந்தரும்வாழ்வுமனையுஞ்செந்தீ",
+     "யையாநின்மாயையுருவெளித்தோற்றமகிலத்துள்ளே",
+     "மெய்யாயிருந்ததுநாட்செலநாட்செலவெட்டவெறும்",
+     "பொய்யாய்ப்பழங்கதையாய்க்கனவாய்மெல்லபோனதுவே"
+    ],
+    "reading": "Kohl-eyed wife, sons, livelihood, house: Lord of the red fire, in this world of your maya's appearances in open form, what was real day after day, as the days went by, slowly went away as a plain lie, an old tale, a dream.",
+    "nuance": "உருவெளித்தோற்றம், apparitions in the open, is a term for mirage-like seeing; the household is not denied but reclassified. The three words for its end, பொய், பழங்கதை, கனவு, mark a gradient from falsehood to memory to sleep."
+   },
+   "finding": {
+    "id": "finding:predictive-brain",
+    "domain": "predictive-processing",
+    "claim": "On the predictive-processing account, perception is the brain's best guess about the causes of sensory input, constantly corrected by prediction error.",
+    "strength": "contested"
+   }
+  },
+  {
+   "item": "P07-18",
+   "verse": {
+    "id": "siddhar:1288",
+    "unit_id": "siddhar:sivavakkiyam:324",
+    "poet": "சிவவாக்கியர்",
+    "work": "சிவவாக்கியம்",
+    "tamil": [
+     "ஆணியான ஐம்புலன்கள் அவையும்மொக்குகள் ஒக்குமோ?",
+     "யோனியில் பிறந்திருந்த துன்பமிக்கு மொக்குமோ?",
+     "வீணர்காள் பிதற்றுவீர் மெய்மையே உணர்திரேல்",
+     "ஊண்உறக்க போகமும் உமக்கெனக்கும் ஒக்குமே"
+    ],
+    "reading": "Are the five senses, the nails that hold us, alike for all or not? Is the heavy suffering of being born from a womb alike or not? Idle men, you prattle; if you realise the truth, food, sleep and pleasure are alike for you and for me.",
+    "nuance": "The argument against caste from the body: the same senses, the same birth, the same needs. ஆணியான ஐம்புலன்கள் makes the senses nails that pin everyone alike. உமக்கெனக்கும் ஒக்குமே, the same for you and me, puts the poet, presumably low-born, beside the hearer."
+   },
+   "finding": {
+    "id": "finding:caste-genetics",
+    "domain": "population-genetics",
+    "claim": "Indian groups descend from a mixture of ancestral populations, and widespread intermarriage gave way to strict endogamy only about 1,900 to 4,200 years ago.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-19",
+   "verse": {
+    "id": "siddhar:46",
+    "unit_id": "siddhar:meynjanap-pulambal:45",
+    "poet": "பத்திரகிரியார்",
+    "work": "மெய்ஞ்ஞானப் புலம்பல்",
+    "tamil": [
+     "சோற்றுத் துருத்திதனைச் சுமந்து அலைந்து வாடாமல்",
+     "ஊத்தைச் சடம்போட்டு உனை அடைவது எக்காலம்?"
+    ],
+    "reading": "Not carrying this leather bag of rice about and withering, when shall I throw off the filthy inert body and reach you?",
+    "nuance": "துருத்தி is a leather water-bag; filled with cooked rice it is the body, a skin full of food. சடம், the inert thing, is the body as mere matter, set against உனை, the one reached."
+   },
+   "finding": {
+    "id": "finding:cell-turnover",
+    "domain": "embodied-cognition",
+    "claim": "The body replaces around 330 billion cells a day, mostly blood and gut cells, so its material is continually renewed.",
+    "strength": "established"
+   }
+  },
+  {
+   "item": "P07-20",
+   "verse": {
+    "id": "siddhar:1002",
+    "unit_id": "siddhar:sivavakkiyam:38",
+    "poet": "சிவவாக்கியர்",
+    "work": "சிவவாக்கியம்",
+    "tamil": [
+     "கலத்தின்வார்த்து வைத்தநீர் கடுத்ததீ முடுக்கினால்",
+     "கலத்திலே கரந்ததோ கடுத்ததீக் குடித்ததோ",
+     "நிலத்திலே கரந்ததோ நீள்விசும்பு கொண்டதோ",
+     "மனத்தின்மாயை நீக்கியே மனத்துள்ளே கரந்ததோ!"
+    ],
+    "reading": "Water poured and kept in a vessel, when a fierce fire is set under it: did it hide in the vessel, did the fierce fire drink it, did it hide in the earth, did the long sky take it? Removing the maya of the mind, did it hide within the mind?",
+    "nuance": "The boiled-away water is a figure for what vanishes at death, the life, or for the world when maya is removed; the questions are the ordinary accounts (body, fire, earth, sky) and the last line is the poet's own answer, that it went into the mind. Whether மனத்துள்ளே கரந்ததோ is a question like the others or the answer is a matter of tone."
+   },
+   "finding": {
+    "id": "finding:predictive-brain",
+    "domain": "predictive-processing",
+    "claim": "On the predictive-processing account, perception is the brain's best guess about the causes of sensory input, constantly corrected by prediction error.",
+    "strength": "contested"
+   }
+  },
+  {
+   "item": "P07-21",
+   "verse": {
+    "id": "siddhar:1503",
+    "unit_id": "siddhar:azhuganni:15",
+    "poet": "அழுகணிச் சித்தர்",
+    "work": "அழுகணிச் சித்தர் பாடல்கள்",
+    "tamil": [
+     "மூக்கால் அரும்பெடுத்து மூவிரண்டாய்த் தான்தூக்கி",
+     "நாக்கால் வளைபரப்பி நாற்சதுர வீடுகட்டி",
+     "நாக்கால் வலைபரப்பி நாற்சதுர வீட்டினுள்ளே",
+     "மூக்காலைக் காணாமல் என் கண்ணம்மா",
+     "முழுதும் தவிக்கிறண்டி!"
+    ],
+    "reading": "Drawing the bud up with the nose and lifting it as six, spreading the net with the tongue and building a four-square house, spreading the net with the tongue inside the four-square house, I do not see the nose and suffer entirely, my Mother.",
+    "nuance": "Breath drawn by the nose and the tongue turned back are the pranayama and khechari of yoga; the four-square house is read as the root or the brow. The last line admits the practice failed: he cannot find the nose, that is, the breath itself. மூவிரண்டு, two threes, may be the six centres or the breath's measures."
+   },
+   "finding": {
+    "id": "finding:nasal-breath-limbic",
+    "domain": "breathing",
+    "claim": "Nasal breathing entrains oscillations in olfactory and limbic brain areas and improves memory and fear recognition timed to inhalation, an effect absent with mouth breathing.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-22",
+   "verse": {
+    "id": "siddhar:2637",
+    "unit_id": "siddhar:njanak-kummi:120",
+    "poet": "மதுரை வாலைசாமி",
+    "work": "ஞானக்கும்மி",
+    "tamil": [
+     "லிங்கமுருக்க வளைவார்கள் சாதி",
+     "லிங்கமிருப்ப தறியாமல்",
+     "வங்கமுக்தங்கஞ் சேர்த்திருக்கதை",
+     "பங்கமிதல்லவோ ஞானப்பெண்ணே"
+    ],
+    "reading": "They bend their effort to melting the lingam, not knowing the lingam of the right kind; the tale of joining lead with gold, is it not a disgrace, girl?",
+    "nuance": "லிங்கம் here is the alchemists' word for cinnabar (ரசலிங்கம், சாதிலிங்கம், red sulphide of mercury), and சாதிலிங்கம் is that mineral's name; the stanza plays on the word's other sense, Siva's emblem, so a second reading has them melting idols while not knowing the true linga. வங்கம் is lead or tin, and the gold-and-lead story is the coiner's fraud."
+   },
+   "finding": {
+    "id": "finding:body-microbial",
+    "domain": "embodied-cognition",
+    "claim": "A typical human body holds roughly as many bacterial cells as human cells, so the body is in large part a community of other organisms.",
+    "strength": "established"
+   }
+  },
+  {
+   "item": "P07-23",
+   "verse": {
+    "id": "siddhar:1278",
+    "unit_id": "siddhar:sivavakkiyam:314",
+    "poet": "சிவவாக்கியர்",
+    "work": "சிவவாக்கியம்",
+    "tamil": [
+     "உறக்கிலென், விழிக்கிலென், உணர்வுசென்று ஒடுங்கிலென்",
+     "சிறந்த ஐம்புலன்களும் திசைத்திசைகள் ஒன்றிலென்?",
+     "புறமும்உள்ளும் எங்ஙனம் பொருந்திருந்த தேகமாய்",
+     "நிறைந்திருந்த ஞானிகாள் நினைப்பது ஏதும் இல்லையே"
+    ],
+    "reading": "What if they sleep, what if they wake, what if awareness goes and withdraws? What if the five fine senses go off in every direction? For jnanis who stand filled as the body fitted within and without, there is nothing at all to think.",
+    "nuance": "The jnani is not asked to control sleep, waking or the senses; they are made irrelevant. நிறைந்திருந்த (filled, full) is the condition: one who is the whole has no object left for thought. The repeated இலென் (what of it?) carries the tone."
+   },
+   "finding": {
+    "id": "finding:microtubule-anesthesia",
+    "domain": "quantum",
+    "claim": "A microtubule-stabilising drug delayed isoflurane-induced unconsciousness in rats, consistent with but not proof of a microtubule role in consciousness.",
+    "strength": "speculative"
+   }
+  },
+  {
+   "item": "P07-24",
+   "verse": {
+    "id": "siddhar:2414",
+    "unit_id": "siddhar:agasthiyar-njanam:2.1",
+    "poet": "அகஸ்தியர்",
+    "work": "அகஸ்தியர் ஞானம்",
+    "tamil": [
+     "மனமது செம்மை யானால் மந்திரஞ் செபிக்க வேண்டா;",
+     "மனமது செம்மை யானால் வாயுவை வுயர்த்த வேண்டா;",
+     "மனமது செம்மை யானால் வாசியை நிறுத்த வேண்டா;",
+     "மனமது செம்மை யானால் மந்திரஞ் செம்மை யாமே"
+    ],
+    "reading": "If the mind is set right there is no need to recite mantra, no need to raise the vital air, no need to halt the vaasi; if the mind is set right, the mantra is itself set right.",
+    "nuance": "செம்மை is straightness or rightness, not mere calm. The three practices named are the Siddhars' own: japa, raising the breath along the spine, and holding the vaasi (breath as the practice). The verse does not reject them as false, it makes them unnecessary once the mind is right; the fourth line can also be read as 'the mind is the mantra', the usual way it is quoted. Whether this is a dismissal of technique or a statement of its goal is left open."
+   },
+   "finding": {
+    "id": "finding:breath-control-psychophysiology",
+    "domain": "breathing",
+    "claim": "Slow controlled breathing is associated with greater parasympathetic activity, more alpha power and lower arousal and anxiety, though most trials are small.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-25",
+   "verse": {
+    "id": "siddhar:590",
+    "unit_id": "siddhar:arutpulambal-2:0276_01-85",
+    "poet": "பட்டினத்தார்",
+    "work": "அருட்புலம்பல் - மகடூ முன்னிலை",
+    "tamil": [
+     "உளக்கண்ணுக்கல்லாதூன்கண்ணாலோருமதோ",
+     "விளக்குச்சுடரொளிபோன்மேவியிருந்தாண்டி"
+    ],
+    "reading": "Can he be known by the eye of flesh, and not only by the mind's eye? He abides pervading, like the flame-light of a lamp.",
+    "nuance": "ஓருமதோ (can it discern?) is a rhetorical question: only the inner eye sees him."
+   },
+   "finding": {
+    "id": "finding:meditation-adverse",
+    "domain": "attention",
+    "claim": "Meditators report a wide range of challenging experiences, including perceived lights, altered self-sense, fear and lasting distress, some needing support.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-26",
+   "verse": {
+    "id": "siddhar:2058",
+    "unit_id": "siddhar:pambatti:79",
+    "poet": "பாம்பாட்டிச் சித்தர்",
+    "work": "பாம்பாட்டிச் சித்தர் பாடல்",
+    "tamil": [
+     "ஆசையென்னுஞ் செருப்பின்மேல் அடிமை வைத்தே",
+     "ஆங்கார முட்காட்டை அறவே மிதித்தே",
+     "காசையெனுந் துர்குணத்திற் கனலைக் கொளுத்திக்",
+     "காலாகாலங் கடந்தோமென் றாடாய் பாம்பே"
+    ],
+    "reading": "Setting our foot on the sandal called desire, trampling the thorn-forest of ego to the root, lighting a fire in the bad quality called kaasai, we have passed beyond time and death.",
+    "nuance": "காசை is unclear: perhaps greed for money (காசு), perhaps a corrupt word. காலாகாலம் கடந்தோம் can mean beyond all time or beyond Kala, Death. Desire is a sandal worn under the foot: used, not renounced."
+   },
+   "finding": {
+    "id": "finding:hedonic-adaptation",
+    "domain": "psychology",
+    "claim": "People adapt to most gains and losses so that happiness drifts back toward a personal set point, though not fully for every life event.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-27",
+   "verse": {
+    "id": "siddhar:2091",
+    "unit_id": "siddhar:pambatti:112",
+    "poet": "பாம்பாட்டிச் சித்தர்",
+    "work": "பாம்பாட்டிச் சித்தர் பாடல்",
+    "tamil": [
+     "ஆகார முதலிலே பாம்ப தாக",
+     "ஆனந்த வயலிலே படம் விரித்தே",
+     "ஊகார முதலிலே யொத்தொ டுங்கி",
+     "ஓடி வகாரத்தி னாவை நீட்டிச்",
+     "சீகாரங் கிடந்ததோர் மந்திரத் தைச்",
+     "சித்தப்பி டாரனார் போதஞ் செய்ய",
+     "மாகாரப் பிறப்பையும் வேர றுத்து",
+     "மாயபந்தங் கடந்தோமென் றாடாய் பாம்பே"
+    ],
+    "reading": "Becoming a snake at the root of ஆ, spreading its hood in the field of bliss, folding in at the root of ஊ, running and stretching out the tongue of வ: when the Siddha snake-charmer taught the mantra in which சீ lay, we cut the root of birth in ம and passed beyond maya's bonds.",
+    "nuance": "The syllables are the cipher: ஆ, ஊ and ம give the pranava's a, u and m, and வ and சீ the letters of சிவ in the five-letter mantra. Tradition takes the snake as the coiled power rising through the syllables. சித்தப்பிடாரனார், the Siddha snake-charmer, is the guru and also Pambatti's own name."
+   },
+   "finding": {
+    "id": "finding:mantra-rosary-breath",
+    "domain": "breathing",
+    "claim": "Reciting a rosary prayer or a yoga mantra slows breathing to about six a minute and raises baroreflex sensitivity, linking repetitive recitation to the slow-breath physiology.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-28",
+   "verse": {
+    "id": "siddhar:1321",
+    "unit_id": "siddhar:sivavakkiyam:357",
+    "poet": "சிவவாக்கியர்",
+    "work": "சிவவாக்கியம்",
+    "tamil": [
+     "வயங்குமோனச் செஞ்சுடர் வடிந்தசோதி நாதமும்",
+     "கயங்கள்போலக் கதறியே கருவூரற்ற வெளியிலே",
+     "பயங்கொடின்றி இன்றியே படர்ந்துநின்ற பான்மையை",
+     "நயங்கள்கோவென் றேநடுங்கி நங்கையான தீபமே"
+    ],
+    "reading": "The red flame of shining silence, the light that drained, and nada, crying out like tanks in the space emptied of Karuvur; the nature that spread with no fear at all; the lamp that is the Lady, trembling and crying out at the pleasures.",
+    "nuance": "கருவூர், the embryo town, is the womb or the body's seat (compare 1332); the space emptied of it is beyond birth. நங்கை, the Lady, is Shakti as the lamp. கயங்கள்போலக் கதறி and நயங்கள் கோவென்று are obscure; the stanza's sense beyond its nouns is not recoverable by me."
+   },
+   "finding": {
+    "id": "finding:meditation-adverse",
+    "domain": "attention",
+    "claim": "Meditators report a wide range of challenging experiences, including perceived lights, altered self-sense, fear and lasting distress, some needing support.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-29",
+   "verse": {
+    "id": "siddhar:301",
+    "unit_id": "siddhar:koyil-thiruvagaval-2:1",
+    "poet": "பட்டினத்தார்",
+    "work": "இரண்டாவது கோயிற்றிருவகவல்",
+    "tamil": [
+     "காதள வோடிய கலகப் பாதகக்",
+     "கன்னியர் மருங்கிற் புண்ணுட னாடுங்",
+     "காதலுங் கருத்து மல்லால்நின் னிருதாள்",
+     "பங்கயஞ் சூடப் பாக்கியஞ் செய்யாச்",
+     "சங்கடங் கூர்ந்த தமியேன் பாங்கிருந்",
+     "தங்கோ டிங்கோ டலமருங் கள்வர்",
+     "ஐவர் கலகமிட் டலைக்குங் கானகம்;",
+     "சலமலப் பேழை; யிருவினைப் பெட்டகம்;",
+     "வாதபித் தங்கோழை குடிபுகுஞ் சீறூர்;",
+     "ஊத்தைப் புன்தோ லுதிரக் கட்டளை;",
+     "நாற்றப் பாண்டம், நான்முழத் தொன்பது",
+     "பீற்றத் துண்டம், பேய்ச்சுரைத் தோட்டம்",
+     "அடலைப் பெரிய சுடலைத் திடருள்,",
+     "ஆசைக் கயிற்றி லாடும் பம்பரம்",
+     "ஓயா நோய்க்கிடம், ஓரு மரக்கலம்;",
+     "மாயா விகாரம், மரணப் பஞ்சரம்;",
+     "சோற்றுத் துருத்தி, தூற்றம் பத்தம்;",
+     "காற்றில் பறக்கும் காணப் பட்டம்;",
+     "விதிவழித் தருமன் வெட்டுங் கட்டை,",
+     "சதுர்முகப் பாணன் தைக்குஞ் சட்டை",
+     "ஈமக் கனலி லிடுசில விருந்து;",
+     "காமக் கனலிற் கருகுஞ் சருகு;",
+     "கிருமிக் கிண்டுங் கிழங்கஞ் சருமி,",
+     "பாவக்கொழுந் தேறுங் கவைக்கொழு கொம்பு",
+     "மணமாய் நடக்கும் வடிவின் முடிவிற்",
+     "பிணமாய்க் கிடக்கும் பிண்டம், பிணமேல்",
+     "ஊரிற் கிடக்க வொட்டா வுபாதி",
+     "காலெதிர் குவித்த பூளை, காலைக்",
+     "கதிரெதிர்ப் பட்ட கடும்பனிக் கூட்டம்;",
+     "அந்தரத் தியங்கு மிந்திர சாபம்;",
+     "அதிரு மேகத் துருவி னருநிழல்",
+     "நீரிற் குமிழி; நீர்மே லெழுத்து;",
+     "கண்டுயில் கனவிற் கண்ட காட்சி;",
+     "அதனினும் பொல்லா மாயக் களங்கம்;",
+     "அமையு மமையும் பிரானே, யமையும்",
+     "இமைய வல்லி வாழியென் றேத்த",
+     "ஆனந்தத் தாண்டவங் காட்டி",
+     "ஆண்டுகொண் டருள்கைநின் னருளினுக் கழகே"
+    ],
+    "reading": "The poet, whose love and thought go only to the quarrelsome, sinful women whose eyes run to their ears and who play with the sore at their hips, and who has not been granted the fortune of wearing the Lord's two lotus feet, describes his own body as a wilderness where the five thieves raid, a chest of urine and excrement, a casket of the two deeds, a hamlet where wind, bile and phlegm lodge, a bloody frame of filthy skin, a stinking pot, a torn rag of four cubits and nine, a garden of bitter gourd, a mound in the great cremation ground, a top spinning on the rope of desire, a ship of ceaseless disease, a changing illusion, a cage of death, a bellows for rice, a kite flying in the wind, a log that fate's Dharma cuts, a shirt the four-faced tailor stitches, a feast thrown to the pyre, a dry leaf shrivelling in the fire of lust, a tuber worms dig, a forked branch up which the shoot of sin climbs, a lump that walks as a bridegroom and ends lying as a corpse, a burden the town will not let lie, a heap of pulai flowers against the wind, frost before the morning sun, a rainbow moving in the sky, the passing shadow of a thundering cloud, a bubble on water, writing on water, a sight seen in sleep's dream, and, worse than all of these, a stain of maya; and says enough, enough, Lord, enough: show the dance of bliss while the daughter of the mountain cries 'live', take me and rule me, for that is the beauty of your grace.",
+    "nuance": "The names fall into kinds: the body as a container of waste, as a thing moved by what is not itself (the top on the rope of desire, the kite in the wind, the puppet of 240), as a thing already prepared for death (the log Dharma cuts, the shirt Brahma sews, the feast for the fire), and as the stock brief things, which the poet caps by saying the body is worse than a bubble or a dream because it is a மாயக் களங்கம், a stain made of maya. சதுர்முகப் பாணன், the four-faced tailor, is Brahma stitching the body; விதிவழித் தருமன் is Yama as Dharma. நான்முழத் தொன்பது பீற்றத் துண்டம் is obscure: a torn cloth four cubits long with nine (holes), or nine torn pieces of four cubits. ஊரிற் கிடக்க ஒட்டா உபாதி uses the Siddhanta word உபாதி loosely for the corpse the town hurries out. The petition at the end is brief, and the grace asked for is to be ruled (ஆண்டுகொண்டருள்), not to be released."
+   },
+   "finding": {
+    "id": "finding:cell-turnover",
+    "domain": "embodied-cognition",
+    "claim": "The body replaces around 330 billion cells a day, mostly blood and gut cells, so its material is continually renewed.",
+    "strength": "established"
+   }
+  },
+  {
+   "item": "P07-30",
+   "verse": {
+    "id": "siddhar:1477",
+    "unit_id": "siddhar:sivavakkiyam:513",
+    "poet": "சிவவாக்கியர்",
+    "work": "சிவவாக்கியம்",
+    "tamil": [
+     "யோகசாலை காட்டுவார் உயரவும் எழும்புவார்",
+     "வேகமாக அட்டசித்து வித்தைகற்று நெட்டுவார்",
+     "மோகம்கொண்டு மாதரின் மூத்திரப்பை சிக்கிப்பின்",
+     "பேயது பிடித்தவர்போல் பேருலகில் சாவரே"
+    ],
+    "reading": "They show a yoga hall and rise and float upward; they quickly learn the eight siddhis as a trick and stretch up tall; then, seized by lust, caught in the urine-bag of women, they die in this wide world like men possessed by a ghoul.",
+    "nuance": "அட்டசித்து வித்தை (the eight siddhis as an art) is siddhi as performance. The verse's sequence, display then lust then death, makes the showman's downfall ordinary desire, and the coarse phrase for women is the poet's contempt for the fall, not for women as such (compare 1467)."
+   },
+   "finding": {
+    "id": "finding:psi-replication-failure",
+    "domain": "parapsychology",
+    "claim": "Reported evidence for precognition and other psychic powers failed to replicate and exposed weaknesses in standard statistical practice.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-31",
+   "verse": {
+    "id": "siddhar:1150",
+    "unit_id": "siddhar:sivavakkiyam:186",
+    "poet": "சிவவாக்கியர்",
+    "work": "சிவவாக்கியம்",
+    "tamil": [
+     "மனத்தகத்து அழுக்கறாத மவுனஞான யோகிகள்;",
+     "வனத்தகத்து இருக்கினும் மனத்தகத்து அழுக்கறார்;",
+     "மனத்தகத்து அழுக்கறுத்த மவினஞான யோகிகள்",
+     "பிணத்தடத்து இருக்கினும் பிறப்பறுத்து இருப்பரே!"
+    ],
+    "reading": "Yogis of silent wisdom whose inner dirt is uncut stay dirty though they live in the forest; yogis of silent wisdom who have cut the dirt within have cut off birth, though they sit among corpses.",
+    "nuance": "The same title, மவுன ஞான யோகிகள், is given to both kinds, so silence and the forest are not what divide them; மனத்தகத்து அழுக்கு, the dirt in the mind, is. பிணத்தடம், a place of corpses, is the cremation ground where Siddhars sat, chosen as the least pure place to make the point."
+   },
+   "finding": {
+    "id": "finding:meditation-dmn",
+    "domain": "dmn",
+    "claim": "Meditation is associated with reduced activity in the default mode network and changed coupling between it and attention and control networks, with larger effects in experienced practitioners.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-32",
+   "verse": {
+    "id": "siddhar:2117",
+    "unit_id": "siddhar:sangili:9",
+    "poet": "சங்கிலிச் சித்தர்",
+    "work": "சங்கிலிச் சித்தர் பாடல்",
+    "tamil": [
+     "மாலுந் திருவும் வசித்திருக்கும் இடம்",
+     "வணங்கி இப்பால் செல்லும்போது",
+     "மேலும் உருத்திரன் ருத்திரி சேவையை",
+     "மேவியே காண்பாய் ஆனந்தப் பெண்ணே"
+    ],
+    "reading": "Bowing at the place where Vishnu and Lakshmi dwell and passing beyond it, you will go on and see above the service of Rudra and Rudri, blissful girl.",
+    "nuance": "The gods are stations of the climb: Vishnu's centre and Rudra's centre, each with his consort, in the traditional assignment of deities to the centres. The stanza says only that one bows and passes on; where in the body these places are is tradition's gloss."
+   },
+   "finding": {
+    "id": "finding:circadian-clock",
+    "domain": "sleep",
+    "claim": "Nearly every cell keeps a roughly 24-hour molecular clock entrained by light, and misalignment of these clocks is linked to metabolic and mental illness.",
+    "strength": "established"
+   }
+  },
+  {
+   "item": "P07-33",
+   "verse": {
+    "id": "siddhar:1504",
+    "unit_id": "siddhar:azhuganni:16",
+    "poet": "அழுகணிச் சித்தர்",
+    "work": "அழுகணிச் சித்தர் பாடல்கள்",
+    "tamil": [
+     "காமமலர் தூவக் கருத்தெனக்கு வந்ததடி",
+     "பாமவலி தொலைக்கப் பாசவலி கிட்டுதில்லை",
+     "பாமவலி தொலைக்கப் பாசவலி நிற்குமென்றால்",
+     "காமமலர் மூன்றும் என் கண்ணம்மா!",
+     "கண்ணெதிரே நில்லாவோ!"
+    ],
+    "reading": "The thought came to me to strew the flowers of desire; to end the strength of sin I did not get the strength of the bond, and if I had, would not the three flowers of desire stand before my eyes, my Mother?",
+    "nuance": "பாம வலி is read as பாப வலி, the force of sin, and பாச வலி as the strength of the bond, or of love. The three flowers of desire are unexplained; the three desires for land, gold and women is one traditional gloss. The verse may mean that love's bond, rightly placed, is the cure for lust, but the text is too compressed to be sure."
+   },
+   "finding": {
+    "id": "finding:wanting-liking",
+    "domain": "psychology",
+    "claim": "The brain's dopamine 'wanting' system can drive craving independently of 'liking', so addictive desire can grow while pleasure does not.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-34",
+   "verse": {
+    "id": "siddhar:724",
+    "unit_id": "siddhar:puranamalai:51",
+    "poet": "பட்டினத்தார்",
+    "work": "பூரணமாலை",
+    "tamil": [
+     "வாலையாய்ப்பக்குவமாய்வளர்ந்துகிழந்தானாகும்",
+     "பாலையாய்நின்றபயனறியேன்பூரணமே"
+    ],
+    "reading": "The poet says he does not know the fruit of you who stood as the maiden stage, the ripe stage and the growing to old age, and as the stage before them.",
+    "nuance": "வாலை, பக்குவம், கிழம் are the stages of a life, girlhood, ripeness, age, and on this reading the Lord is the ageing itself; but வாலை is also the Siddhars' young goddess, so a coded reading has the goddess ripening into the old one. பாலை is the puzzle: the infant stage (from பாலன்), the desert tract, or a corruption; the plain reading as the first age is taken here."
+   },
+   "finding": {
+    "id": "finding:adult-neurogenesis",
+    "domain": "neuroplasticity",
+    "claim": "Whether adult humans make new hippocampal neurons is disputed, with major studies reporting both near-absence and abundance.",
+    "strength": "contested"
+   }
+  },
+  {
+   "item": "P07-35",
+   "verse": {
+    "id": "siddhar:824",
+    "unit_id": "siddhar:thiruvidaimaruthur-mummanikkovai:13",
+    "poet": "பட்டினத்தார்",
+    "work": "திருவிடைமருதூர் மும்மணிக்கோவை",
+    "tamil": [
+     "மேவிய புன்மயிர்த் தொகையோ வம்மயிர்",
+     "பாவிய தோலின் பரப்போ தோலிடைப்",
+     "புகவிட்டுப் பொதிந்த புண்ணோ புண்ணிடை",
+     "யூறு முதிரப் புனலோ கூறுசெய்",
+     "திடையிடை நிற்கு மெலும்போ வெலும்பிடை",
+     "முடைகெழு மூளை விழுதோ வழுவழுத்",
+     "துள்ளிடை யொழுகும் வழும்போ மெள்ளநின்",
+     "றூரும் புழுவு னொழுங்கோ நீரிடை",
+     "வைத்த மலத்தின் குவையோ வைத்துக்",
+     "கட்டிய நரம்பின் கயிறோ வுடம்பிற்குட்",
+     "பிரியா தொறுக்கும் பிணியோ தெரிதரல்",
+     "இன்ன தியானென் றறியே னென்னை",
+     "யேதினுந் தேடினன் யாதினுங் காணேன்",
+     "முன்னம்",
+     "வரைத்தனி வில்லாற் புரத்தை யழலூட்டிக்",
+     "கண்படை யாகக் காமனை யொருநா",
+     "ணுண்பொடி யாக நோக்கி யண்டத்து",
+     "வீயா வமரர் வீயவந் தெழுந்த",
+     "தீவாய் நஞ்சைத் திருவமு தாக்கி",
+     "யிருவர் தேடி வெருவா நிமிர்ந்து",
+     "பாலனுக் காகக் காலனைக் காய்ந்து",
+     "சந்தன சரள சண்பக வகுள",
+     "நந்தன வனத்திடை ஞாயிறு வழங்காது",
+     "நவமணி முகிழ்த்த புதுவெயி லெறிப்ப",
+     "வெண்ணருங் கோடி யிருடி கணங் கட்குப்",
+     "புண்ணியம் புரக்கும் பொன்னி சூழ்ந்த",
+     "திருவிடை மருத பொருவிடைப் பாக",
+     "மங்கை பங்க கங்கைநாயக நின்",
+     "றெய்வத் திருவருள் கைவந்து கிடைத்தலின்",
+     "மாயப் படலங் கீறித் தூய",
+     "ஞான நாட்டம் பெற்றனன் பெற்றபின்",
+     "னின்பெருந் தன்மையுங் கண்டேன் காண்டலு",
+     "மென்னையுங் கண்டேன் பிறரையுங் கண்டே",
+     "னின்னிலை யனைத்தினுங் கண்டே னென்னை",
+     "நின்னைக் காணா மாந்தர்",
+     "தன்னையுங் காணாத் தன்மை யோரே."
+    ],
+    "reading": "Is it the mass of coarse hair, or the stretch of skin the hair grows on, or the wound packed inside the skin, or the blood that wells in the wound, or the bones standing here and there between, or the stinking marrow that drips from the bones, or the slime that oozes within, or the orderly files of crawling worms, or the heap of excrement set in water, or the ropes of tied nerves, or the disease that never leaves the body: which of these is 'I', I do not know; I searched everywhere and found it nowhere. Then, Lord of Marudur who burnt the three cities with one mountain bow, made Kama fine dust with a glance, turned the fire-mouthed poison to nectar so the gods would not die, stood beyond the two who sought you, and scorched Death for the boy's sake, half-woman, lord of Ganga, Lord of the Kaveri-girt grove where nine gems shine without the sun: because your divine grace came into my hand, I tore the veil of maya and gained the pure eye of knowledge; and having gained it I saw your greatness, and seeing it I saw myself, and saw others, and saw myself in all your states; those who do not see you are the kind that do not see themselves.",
+    "nuance": "The dissection is a search for the self, each part posed as a question (ஓ), and the answer is that the self is not found in the body but given by grace along with the sight of the Lord. The order of seeing matters: the Lord first, then oneself, then others, then oneself in all his states. The variant தெரியாது இன்ன (not discerning, this) for தெரிதரல் இன்ன does not change the sense."
+   },
+   "finding": {
+    "id": "finding:interoception-insula",
+    "domain": "interoception",
+    "claim": "The insula integrates signals from inside the body into a felt sense of bodily state, and disturbed interoception is implicated in anxiety, depression and eating disorders.",
+    "strength": "established"
+   }
+  },
+  {
+   "item": "P07-36",
+   "verse": {
+    "id": "siddhar:143",
+    "unit_id": "siddhar:meynjanap-pulambal:141",
+    "poet": "பத்திரகிரியார்",
+    "work": "மெய்ஞ்ஞானப் புலம்பல்",
+    "tamil": [
+     "பன்னிரண்டு கால்புரவி பாய்ந்து சில்லம் தட்டாமல்",
+     "பின் இரண்டு சங்கிலிக்குள் பிணிப்பது இனி எக்காலம்?"
+    ],
+    "reading": "When will I bind the twelve-legged horse that leaps, so that it does not kick the plate, within the two chains behind?",
+    "nuance": "A cipher verse. The horse with twelve legs is the breath (Tirumular's ஈராறு கால் புரவி), its twelve being the twelve finger-breadths the breath travels or the twelve kalas; the two chains behind are, in the tradition, ida and pingala, or the two nostrils; சில்லம் is unexplained (a shard, a wheel, a plate). The plain sense is a wild horse tethered; the cipher makes it the breath held."
+   },
+   "finding": {
+    "id": "finding:slow-breath-hrv",
+    "domain": "breathing",
+    "claim": "Breathing voluntarily at about six breaths a minute raises vagally mediated heart-rate variability during practice, right after one session and after multi-session training.",
+    "strength": "replicated"
+   }
+  },
+  {
+   "item": "P07-37",
+   "verse": {
+    "id": "siddhar:2288",
+    "unit_id": "siddhar:kanjamalai:21",
+    "poet": "கஞ்சமலைச் சித்தர்",
+    "work": "கஞ்சமலைச் சித்தர் பாடல்",
+    "tamil": [
+     "அநித்திய மானது தேகம்-அதில்",
+     "ஆசையும் ஒன்றால் அடங்காது மோகம்",
+     "தனித்திருந் தால்அந்த போகம்-ஒன்று",
+     "தானாகி நிற்பது வேசிவ யோகம்"
+    ],
+    "reading": "The body is impermanent; in it, infatuation is not contained by desire alone; if one stays alone, that enjoyment, standing as oneself alone, is Siva-yoga.",
+    "nuance": "தனித்திருந்தால், staying alone, is both solitude and the standing-as-one (தானாகி நிற்பது) that the stanza calls Siva-yoga; the enjoyment (போகம்) desire sought is redefined as the yogi's. The second line is compressed; ஆசையும் ஒன்றால் may mean that desire, being one thing, does not contain the infatuation it breeds."
+   },
+   "finding": {
+    "id": "finding:cell-turnover",
+    "domain": "embodied-cognition",
+    "claim": "The body replaces around 330 billion cells a day, mostly blood and gut cells, so its material is continually renewed.",
+    "strength": "established"
+   }
+  },
+  {
+   "item": "P07-38",
+   "verse": {
+    "id": "siddhar:2195",
+    "unit_id": "siddhar:thirikonar:52",
+    "poet": "திரிகோணச் சித்தர்",
+    "work": "திரிகோணச் சித்தர் பாடல் (கலிவெண்பா)",
+    "tamil": [
+     "தன்னாணை தானே தனக்காணை யாவதன்றிப்",
+     "பின்னாணை இல்லாத பெற்றியான் எந்நாளும்"
+    ],
+    "reading": "His own command is the only command upon himself; he has no other law over him; and for all time (2196) his fame does not change.",
+    "nuance": "The guru's autonomy is the claim: no scripture, sect or god rules him, which the attacks of 2181 and 2221 to 2233 presuppose."
+   },
+   "finding": {
+    "id": "finding:aging-hallmarks",
+    "domain": "aging",
+    "claim": "Ageing reflects a set of interacting cellular hallmarks such as genomic instability, loss of protein balance and stem-cell exhaustion, none yet reversed in humans.",
+    "strength": "established"
+   }
+  },
+  {
+   "item": "P07-39",
+   "verse": {
+    "id": "siddhar:1170",
+    "unit_id": "siddhar:sivavakkiyam:206",
+    "poet": "சிவவாக்கியர்",
+    "work": "சிவவாக்கியம்",
+    "tamil": [
+     "அங்கலிங்க பீடமும் அசவைமூன்று எழுத்தினும்",
+     "சங்குசக் கரத்திலும் சகல வானத்திலும்",
+     "பங்குகொண்ட யோகிகள் பரமவாசல் அஞ்சினும்",
+     "சிங்கநாத ஓசையும் சிவாயம்அல்ல தில்லையே"
+    ],
+    "reading": "The pedestal of the linga in the body, the three letters of the unspoken mantra, the conch and the discus, all the sky; the yogis who have taken their share there, the five supreme gates and the lion-roar sound: nothing is other than Sivayam.",
+    "nuance": "The gloss gives அசவை as the ajapa mantra, the unrecited syllables of the breath (in tradition ஹம்ஸ or சோகம்), here counted as three letters. Conch and discus are Vishnu's, so the stanza claims the Vaishnava emblems for Sivayam too. பரம வாசல் அஞ்சு, the five supreme gates, is not fixed, perhaps the five senses or five centres. Near-repeat of 1138."
+   },
+   "finding": {
+    "id": "finding:mantra-deactivation",
+    "domain": "dmn",
+    "claim": "Silent repetition of a single word reduces activity widely across the cortex, including default-mode regions, compared with rest.",
+    "strength": "speculative"
+   }
+  },
+  {
+   "item": "P07-40",
+   "verse": {
+    "id": "siddhar:2089",
+    "unit_id": "siddhar:pambatti:110",
+    "poet": "பாம்பாட்டிச் சித்தர்",
+    "work": "பாம்பாட்டிச் சித்தர் பாடல்",
+    "tamil": [
+     "பிறப்பையும் இறப்பையும் அறுத்து விடயான்",
+     "பெருமருந் தொன்று சொல்வேன் பெட்புடன் கேளாய்",
+     "திறப்புடன் மனப்பூட்டுஞ் சிந்தைக் கதவும்",
+     "திறந்திடும் வகையறிந் தாடாய் பாம்பே"
+    ],
+    "reading": "I will tell you one great medicine to cut off both birth and death, so hear it eagerly: know the way to open with the key the lock of the mind and the door of thought, and dance.",
+    "nuance": "The great medicine (பெருமருந்து) is not a drug but a knowing; the lock and door are the mind's, so the release is an opening of the mind rather than an escape from the body."
+   },
+   "finding": {
+    "id": "finding:psilocybin-depression",
+    "domain": "ego-dissolution",
+    "claim": "A single 25 mg dose of psilocybin with psychological support reduced treatment-resistant depression scores at three weeks more than 1 mg, with adverse events in both arms.",
+    "strength": "replicated"
+   }
+  }
+ ]
+}

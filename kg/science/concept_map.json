@@ -1,0 +1,540 @@
+{
+ "_note": "Hand-written map from Tamil concept ids (kg/themes/concepts.json) to English keywords used in kg/science/findings.jsonl. Used only to score candidate pairs; it is a search aid, not a claim of equivalence.",
+ "yaakkai": [
+  "body",
+  "flesh",
+  "bag",
+  "worms",
+  "filth",
+  "decay",
+  "impermanent",
+  "blood",
+  "bone",
+  "dwelling",
+  "house"
+ ],
+ "meyyunarvu": [
+  "truth",
+  "real",
+  "see",
+  "perceive",
+  "illusion",
+  "awareness",
+  "self"
+ ],
+ "manam": [
+  "mind",
+  "thought",
+  "wander",
+  "restless",
+  "monkey",
+  "fickle",
+  "still",
+  "control",
+  "stray"
+ ],
+ "oli": [
+  "light",
+  "radiance",
+  "flame",
+  "lamp",
+  "shine",
+  "vision",
+  "sun",
+  "moon"
+ ],
+ "gnaanam": [
+  "know",
+  "awareness",
+  "truth",
+  "see",
+  "self",
+  "mind"
+ ],
+ "nilaiyaamai": [
+  "impermanent",
+  "death",
+  "perish",
+  "decay",
+  "change",
+  "old",
+  "age",
+  "youth",
+  "corpse"
+ ],
+ "yogam": [
+  "yoga",
+  "breath",
+  "practice",
+  "meditation",
+  "control",
+  "posture",
+  "siddhi"
+ ],
+ "mounam": [
+  "silence",
+  "still",
+  "quiet",
+  "stop",
+  "thought",
+  "mind",
+  "cease"
+ ],
+ "siththi": [
+  "siddhi",
+  "power",
+  "miracle",
+  "eight",
+  "fly",
+  "invisible",
+  "heat",
+  "control"
+ ],
+ "maayai": [
+  "illusion",
+  "maya",
+  "dream",
+  "false",
+  "appear",
+  "seem",
+  "delusion",
+  "world"
+ ],
+ "praanan": [
+  "breath",
+  "breathing",
+  "inhale",
+  "exhale",
+  "retain",
+  "hold",
+  "slow",
+  "count",
+  "life"
+ ],
+ "vaasi": [
+  "breath",
+  "breathing",
+  "horse",
+  "rhythm",
+  "control",
+  "inhale",
+  "exhale",
+  "nostril",
+  "count"
+ ],
+ "naadi": [
+  "channel",
+  "nadi",
+  "nostril",
+  "left",
+  "right",
+  "pulse",
+  "idai",
+  "pingalai"
+ ],
+ "suzhumunai": [
+  "nostril",
+  "left",
+  "right",
+  "sun",
+  "moon",
+  "union",
+  "breath",
+  "channel"
+ ],
+ "aadhiththan": [
+  "sun",
+  "day",
+  "light",
+  "right",
+  "heat"
+ ],
+ "kundalini": [
+  "kundalini",
+  "heat",
+  "fire",
+  "power",
+  "serpent",
+  "breath"
+ ],
+ "vaadham": [
+  "alchemy",
+  "mercury",
+  "gold",
+  "metal",
+  "transmute",
+  "copper",
+  "sulphur",
+  "calcine",
+  "quicksilver",
+  "salt"
+ ],
+ "karpam": [
+  "kalpa",
+  "rejuvenate",
+  "immortal",
+  "deathless",
+  "age",
+  "youth",
+  "mercury",
+  "herb",
+  "body"
+ ],
+ "marundhu": [
+  "medicine",
+  "herb",
+  "remedy",
+  "cure",
+  "pill",
+  "decoction",
+  "drug"
+ ],
+ "noy": [
+  "disease",
+  "pain",
+  "cure",
+  "heal",
+  "fever",
+  "sick"
+ ],
+ "amudham": [
+  "nectar",
+  "immortal",
+  "deathless",
+  "drink",
+  "body"
+ ],
+ "aayul": [
+  "lifespan",
+  "life",
+  "long",
+  "breath",
+  "count",
+  "death",
+  "age"
+ ],
+ "saakkaadu": [
+  "death",
+  "die",
+  "corpse",
+  "yama",
+  "pyre",
+  "burn",
+  "mortal"
+ ],
+ "soonyam": [
+  "void",
+  "empty",
+  "nothing",
+  "cease",
+  "self",
+  "dissolve"
+ ],
+ "paazh": [
+  "void",
+  "empty",
+  "nothing",
+  "cease",
+  "silence"
+ ],
+ "aakaasam": [
+  "space",
+  "universe",
+  "void",
+  "everywhere",
+  "pervade"
+ ],
+ "viyaabagam": [
+  "pervade",
+  "everywhere",
+  "universe",
+  "whole",
+  "one",
+  "all"
+ ],
+ "andapindam": [
+  "universe",
+  "body",
+  "cosmos",
+  "whole",
+  "one"
+ ],
+ "andam": [
+  "universe",
+  "cosmos",
+  "space"
+ ],
+ "pooranam": [
+  "whole",
+  "fullness",
+  "one",
+  "breath"
+ ],
+ "naadham": [
+  "sound",
+  "om",
+  "syllable",
+  "mantra"
+ ],
+ "mandhiram": [
+  "mantra",
+  "syllable",
+  "recite",
+  "chant",
+  "repeat",
+  "letters"
+ ],
+ "panchaakkaram": [
+  "mantra",
+  "five",
+  "letters",
+  "syllable",
+  "recite",
+  "repeat",
+  "chant"
+ ],
+ "thiyaanam": [
+  "meditation",
+  "attention",
+  "focus",
+  "still",
+  "mind"
+ ],
+ "samaadhi": [
+  "meditation",
+  "still",
+  "self",
+  "dissolve",
+  "union",
+  "cease"
+ ],
+ "avaththai": [
+  "sleep",
+  "dream",
+  "wake",
+  "awake",
+  "consciousness",
+  "unconscious"
+ ],
+ "kanavu": [
+  "dream",
+  "sleep",
+  "night"
+ ],
+ "kaamam": [
+  "desire",
+  "lust",
+  "women",
+  "pleasure",
+  "craving",
+  "want"
+ ],
+ "avaa": [
+  "desire",
+  "craving",
+  "greed",
+  "want",
+  "thirst",
+  "wealth",
+  "enough"
+ ],
+ "pattru": [
+  "attachment",
+  "craving",
+  "desire",
+  "mine",
+  "cling"
+ ],
+ "mayal": [
+  "desire",
+  "craving",
+  "delusion",
+  "lust"
+ ],
+ "agandhai": [
+  "ego",
+  "self",
+  "pride",
+  "mine",
+  "I"
+ ],
+ "thuravu": [
+  "renounce",
+  "desire",
+  "wealth",
+  "attachment"
+ ],
+ "thavam": [
+  "penance",
+  "austerity",
+  "fast",
+  "practice",
+  "tapas"
+ ],
+ "pasi": [
+  "hunger",
+  "food",
+  "eat",
+  "fast",
+  "starve"
+ ],
+ "undi": [
+  "food",
+  "eat",
+  "rice",
+  "meal",
+  "belly",
+  "stomach"
+ ],
+ "kollaamai": [
+  "kill",
+  "harm",
+  "mercy",
+  "compassion",
+  "beings"
+ ],
+ "arul": [
+  "compassion",
+  "mercy",
+  "kindness",
+  "beings",
+  "grace",
+  "love"
+ ],
+ "anbu": [
+  "love",
+  "kindness",
+  "compassion"
+ ],
+ "thiruvarul": [
+  "grace",
+  "faith",
+  "belief",
+  "trust"
+ ],
+ "pirappu": [
+  "birth",
+  "born",
+  "caste",
+  "blood"
+ ],
+ "kudi": [
+  "caste",
+  "birth",
+  "lineage",
+  "born"
+ ],
+ "thoomai": [
+  "blood",
+  "womb",
+  "birth",
+  "impure",
+  "caste",
+  "filth"
+ ],
+ "theettu": [
+  "impure",
+  "pollution",
+  "blood",
+  "caste"
+ ],
+ "malam": [
+  "impure",
+  "filth",
+  "bond"
+ ],
+ "vindhu": [
+  "seed",
+  "semen",
+  "retain",
+  "body"
+ ],
+ "ilamai": [
+  "youth",
+  "age",
+  "old",
+  "decay"
+ ],
+ "uyir": [
+  "life",
+  "breath",
+  "body"
+ ],
+ "sootcham": [
+  "subtle",
+  "secret",
+  "hidden"
+ ],
+ "aadhaaram": [
+  "centre",
+  "body",
+  "spine",
+  "lotus"
+ ],
+ "vaalai": [
+  "kundalini",
+  "flame",
+  "breath",
+  "power"
+ ],
+ "saththi": [
+  "power",
+  "energy"
+ ],
+ "piravi": [
+  "birth",
+  "rebirth",
+  "death",
+  "womb"
+ ],
+ "veedu": [
+  "release",
+  "free",
+  "liberation"
+ ],
+ "thaththuvam": [
+  "element",
+  "constituent",
+  "body",
+  "senses"
+ ],
+ "vazhipaadu": [
+  "worship",
+  "ritual",
+  "prayer",
+  "temple"
+ ],
+ "vesham": [
+  "ascetic",
+  "garb",
+  "claim",
+  "fraud"
+ ],
+ "iravu": [
+  "beg",
+  "alms",
+  "food"
+ ],
+ "kalai": [
+  "moon",
+  "phase",
+  "breath",
+  "sixteen"
+ ],
+ "guru": [
+  "teacher",
+  "method",
+  "practice"
+ ],
+ "vedham": [
+  "book",
+  "scripture",
+  "learning"
+ ],
+ "kaalam": [
+  "time",
+  "season",
+  "day",
+  "night"
+ ]
+}
