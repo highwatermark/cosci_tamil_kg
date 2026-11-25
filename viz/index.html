@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Four Tamil Classics</title>
+<title>Five Tamil Classics</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +24,7 @@
   --inbam: #b54a6a;
   --tm: #4f6d8a;
   --tp: #9c5b3c;
+  --sd: #6b5a8e;
   --t-tension: #c0392b;
   --t-agrees: #3d8b40;
   --t-develops: #2f6fb3;
@@ -41,7 +42,7 @@
   :root:not([data-theme="light"]) {
     color-scheme: dark;
     --paper: #141917; --panel: #1b211e; --ink: #e4e9e5; --muted: #9aa69f; --rule: #2e3833;
-    --accent: #6fb0dc; --aram: #4fb39b; --porul: #e0a34a; --inbam: #e07a98; --tm: #93b3cf; --tp: #dc9873;
+    --accent: #6fb0dc; --aram: #4fb39b; --porul: #e0a34a; --inbam: #e07a98; --tm: #93b3cf; --tp: #dc9873; --sd: #b6a2dc;
     --t-tension: #ec6a5c; --t-agrees: #74c178; --t-develops: #6aa6e6; --t-qualifies: #b08ae6;
     --t-same_image: #d4b45a; --t-parallel_domain: #5cc2c2;
     --good: #6cc48b; --warn: #e2a64a; --bad: #ec7272; --halo: rgba(111, 176, 220, .22);
@@ -50,7 +51,7 @@
 :root[data-theme="dark"] {
   color-scheme: dark;
   --paper: #141917; --panel: #1b211e; --ink: #e4e9e5; --muted: #9aa69f; --rule: #2e3833;
-  --accent: #6fb0dc; --aram: #4fb39b; --porul: #e0a34a; --inbam: #e07a98; --tm: #93b3cf; --tp: #dc9873;
+  --accent: #6fb0dc; --aram: #4fb39b; --porul: #e0a34a; --inbam: #e07a98; --tm: #93b3cf; --tp: #dc9873; --sd: #b6a2dc;
   --t-tension: #ec6a5c; --t-agrees: #74c178; --t-develops: #6aa6e6; --t-qualifies: #b08ae6;
   --t-same_image: #d4b45a; --t-parallel_domain: #5cc2c2;
   --good: #6cc48b; --warn: #e2a64a; --bad: #ec7272; --halo: rgba(111, 176, 220, .22);
@@ -90,6 +91,7 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
 .books label { cursor: pointer; }
 .cell.nal { transform: rotate(45deg) scale(0.78); border-radius: 1px; }
 .cell.tm { clip-path: polygon(50% 6%, 96% 94%, 4% 94%); border-radius: 0; }
+.cell.sd { clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%, 50% 0%, 50% 30%, 70% 50%, 50% 70%, 30% 50%, 50% 30%); border-radius: 0; }
 .cell.tp { clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); border-radius: 0; }
 .chapblock { display: flex; flex-direction: column; gap: 2px; }
 .pill.across { color: var(--accent); }
@@ -166,7 +168,7 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
 </head>
 <body>
 <header>
-  <h1>திருக்குறள் · நாலடியார் · திருமந்திரம் · திருப்புகழ் <span>Tamil literary knowledge graph</span></h1>
+  <h1>திருக்குறள் · நாலடியார் · திருமந்திரம் · திருப்புகழ் · சித்தர் <span>Tamil literary knowledge graph</span></h1>
   <div class="stats" id="stats"></div>
 </header>
 <main>
@@ -238,14 +240,14 @@ const KG = window.KG;
 // Colour encodes the part; shape encodes the book.
 const PARTS = { "அறத்துப்பால்": ["aram", "Aram (virtue)"], "பொருட்பால்": ["porul", "Porul (wealth, statecraft)"], "காமத்துப்பால்": ["inbam", "Inbam (love)"] };
 // Books with their own structure get one colour each (key, legend name).
-const OWN_PART = { tirumanthiram: ["tm", "Tirumanthiram (nine tantras)"], thiruppugazh: ["tp", "Thiruppugazh (songs by shrine)"] };
-const BOOK_NAMES = { kural: "Kural", naladiyar: "Naladiyar", tirumanthiram: "Tirumanthiram", thiruppugazh: "Thiruppugazh" };
-const BOOK_TAMIL = { kural: "திருக்குறள்", naladiyar: "நாலடியார்", tirumanthiram: "திருமந்திரம்", thiruppugazh: "திருப்புகழ்" };
+const OWN_PART = { tirumanthiram: ["tm", "Tirumanthiram (nine tantras)"], thiruppugazh: ["tp", "Thiruppugazh (songs by shrine)"], siddhar: ["sd", "Siddhar songs (by poet)"] };
+const BOOK_NAMES = { kural: "Kural", naladiyar: "Naladiyar", tirumanthiram: "Tirumanthiram", thiruppugazh: "Thiruppugazh", siddhar: "Siddhar" };
+const BOOK_TAMIL = { kural: "திருக்குறள்", naladiyar: "நாலடியார்", tirumanthiram: "திருமந்திரம்", thiruppugazh: "திருப்புகழ்", siddhar: "சித்தர் பாடல்கள்" };
 const COMMENTATOR_NAMES = { kural: "Parimelazhagar, Manakkudavar and Kalaignar", naladiyar: "Mudaliar and Shanmuganar" };
-const PREFIX = { kural: "k", naladiyar: "n", tirumanthiram: "t", thiruppugazh: "p" };
-const SYMBOLS = { kural: d3 => d3.symbolCircle, naladiyar: d3 => d3.symbolDiamond, tirumanthiram: d3 => d3.symbolTriangle, thiruppugazh: d3 => d3.symbolStar, both: d3 => d3.symbolSquare };
+const PREFIX = { kural: "k", naladiyar: "n", tirumanthiram: "t", thiruppugazh: "p", siddhar: "s" };
+const SYMBOLS = { kural: d3 => d3.symbolCircle, naladiyar: d3 => d3.symbolDiamond, tirumanthiram: d3 => d3.symbolTriangle, thiruppugazh: d3 => d3.symbolStar, siddhar: d3 => d3.symbolWye, both: d3 => d3.symbolSquare };
 // Graph bands, top to bottom: both other books link mostly to the Kural, so it sits in the middle.
-const BAND_ORDER = ["naladiyar", "kural", "tirumanthiram", "thiruppugazh"];
+const BAND_ORDER = ["naladiyar", "kural", "tirumanthiram", "siddhar", "thiruppugazh"];
 const TYPES = ["tension", "agrees", "develops", "qualifies", "same_image", "parallel_domain"];
 const TYPE_NAMES = { tension: "Tension", agrees: "Agrees", develops: "Develops", qualifies: "Qualifies", same_image: "Same image", parallel_domain: "Parallel domain" };
 const GRADE_SETS = { sound: ["sound"], weak: ["sound", "weak"], all: ["sound", "weak", "forced", "wrong"] };
@@ -261,8 +263,8 @@ const CHAPTER_VERSES = {};
 for (const [id, v] of Object.entries(verses)) (CHAPTER_VERSES[v.ch] = CHAPTER_VERSES[v.ch] || []).push(id);
 for (const ids of Object.values(CHAPTER_VERSES)) ids.sort((a, b) => verses[a].num - verses[b].num);
 const bookOf = id => verses[id].book;
-const label = id => ({ kural: "", naladiyar: "N", tirumanthiram: "T", thiruppugazh: "P" })[bookOf(id)] + verses[id].num;
-const fullName = id => `${BOOK_NAMES[bookOf(id)]} ${verses[id].num}`;
+const label = id => ({ kural: "", naladiyar: "N", tirumanthiram: "T", thiruppugazh: "P", siddhar: "S" })[bookOf(id)] + verses[id].num;
+const fullName = id => verses[id].who ? `${verses[id].who} (Siddhar ${verses[id].num})` : `${BOOK_NAMES[bookOf(id)]} ${verses[id].num}`;
 const state = { view: "grid", grade: "sound", scope: "texts", types: new Set(TYPES), books: new Set(Object.keys(BOOK_NAMES)), thread: null, selected: null };
 const SCOPES = {
   texts: l => bookOf(l.a) !== bookOf(l.b),
@@ -285,6 +287,7 @@ const shownVerses = () => Object.keys(verses).filter(inBooks);
     `<span class="stat"><b>${fmt(count("naladiyar"))}</b> Naladiyar quatrains</span>`,
     `<span class="stat"><b>${fmt(count("tirumanthiram"))}</b> Tirumanthiram verses</span>`,
     `<span class="stat"><b>${fmt(count("thiruppugazh"))}</b> Thiruppugazh songs</span>`,
+    `<span class="stat"><b>${fmt(count("siddhar"))}</b> Siddhar verses</span>`,
     `<span class="stat"><b>${Object.keys(KG.concepts).length}</b> shared concepts</span>`,
     `<span class="stat"><b>${positions}</b> commentator positions</span>`,
     `<span class="stat"><b>${contested}</b> contested</span>`,
@@ -345,6 +348,8 @@ document.getElementById("search").addEventListener("keydown", e => {
   if (e.key !== "Enter") return;
   const q = e.target.value.trim().toLowerCase(); if (!q) return;
   const nal = q.match(/^(n|nal|naladiyar|நாலடியார்)\s*:?\s*(\d+)$/), kur = q.match(/^(k|kural|குறள்)?\s*:?\s*(\d+)$/);
+  const sdq = q.match(/^(s|sd|siddhar|சித்தர்)\s*:?\s*(\d+)$/);
+  if (sdq && verses["s:" + sdq[2]]) return selectVerse("s:" + sdq[2], true);
   const tpq = q.match(/^(p|tp|thiruppugazh|திருப்புகழ்)\s*:?\s*(\d+)$/);
   if (tpq && verses["p:" + tpq[2]]) return selectVerse("p:" + tpq[2], true);
   const tmq = q.match(/^(t|tm|tirumanthiram|திருமந்திரம்)\s*:?\s*(\d+)$/);
@@ -411,7 +416,7 @@ function renderGrid() {
   const sectionsOf = book => OWN_PART[book]
     ? [...new Set(Object.values(KG.chapters).filter(c => c.book === book).sort((a, b) => a.num - b.num).map(c => c.section))].map(s => [s, [OWN_PART[book][0], s]])
     : Object.entries(PARTS);
-  const cell = (id, book) => `<button class="cell${on(id) ? " on" : ""}${id === sel ? " sel" : ""}${book === "naladiyar" ? " nal" : book === "tirumanthiram" ? " tm" : book === "thiruppugazh" ? " tp" : ""}" data-cell="${id}" aria-label="${fullName(id)}"></button>`;
+  const cell = (id, book) => `<button class="cell${on(id) ? " on" : ""}${id === sel ? " sel" : ""}${book === "naladiyar" ? " nal" : book === "tirumanthiram" ? " tm" : book === "thiruppugazh" ? " tp" : book === "siddhar" ? " sd" : ""}" data-cell="${id}" aria-label="${fullName(id)}"></button>`;
   grid.innerHTML = BAND_ORDER.filter(b => state.books.has(b)).sort((a, b) => Object.keys(BOOK_NAMES).indexOf(a) - Object.keys(BOOK_NAMES).indexOf(b)).map(book => sectionsOf(book).map(([section, [key, name]]) => {
     const chs = Object.entries(KG.chapters).filter(([, c]) => c.book === book && c.section === section)
       .sort((a, b) => a[1].num - b[1].num);
@@ -428,7 +433,7 @@ function renderGrid() {
   }).join("")).join("");
 }
 
-const shape = d => d3.symbol(SYMBOLS[d.book](d3), Math.PI * d.r * d.r * (d.book === "naladiyar" ? 1.15 : d.book === "tirumanthiram" ? 1.3 : d.book === "thiruppugazh" ? 1.25 : 1))();
+const shape = d => d3.symbol(SYMBOLS[d.book](d3), Math.PI * d.r * d.r * (d.book === "naladiyar" ? 1.15 : d.book === "tirumanthiram" ? 1.3 : d.book === "thiruppugazh" ? 1.25 : d.book === "siddhar" ? 1.3 : 1))();
 
 function render() {
   for (const v of ["grid", "verses", "concepts"]) document.getElementById("v-" + v).setAttribute("aria-pressed", state.view === v);
@@ -455,11 +460,11 @@ function render() {
 
   current = state.view === "verses" ? verseGraph() : conceptGraph();
   const { width, height } = document.getElementById("stage").getBoundingClientRect();
-  const partX = { aram: width * 0.22, porul: width * 0.5, inbam: width * 0.78, tm: width * 0.5, tp: width * 0.5 };
+  const partX = { aram: width * 0.22, porul: width * 0.5, inbam: width * 0.78, tm: width * 0.5, tp: width * 0.5, sd: width * 0.5 };
   const two = state.books.size > 1 && state.view === "verses";
   const bands = BAND_ORDER.filter(b => state.books.has(b)), bookY = { both: height / 2 };
   bands.forEach((b, i) => bookY[b] = two ? height * (i + 0.5) / bands.length : height / 2);
-  const bandWords = { kural: "Kural (circles)", naladiyar: "Naladiyar (diamonds)", tirumanthiram: "Tirumanthiram (triangles)", thiruppugazh: "Thiruppugazh (stars)" };
+  const bandWords = { kural: "Kural (circles)", naladiyar: "Naladiyar (diamonds)", tirumanthiram: "Tirumanthiram (triangles)", thiruppugazh: "Thiruppugazh (stars)", siddhar: "Siddhars (three-pointed)" };
   const scopeWord = { texts: " between books", sections: " between parts", any: "" }[state.scope];
   document.getElementById("hint").textContent = state.thread !== null
     ? `Thread: ${current.nodes.length} verses, ${current.links.length} links. Click the thread again to leave it.`
@@ -639,12 +644,13 @@ function showEmpty() {
   const L = KG.links, cross = L.filter(l => bookOf(l.a) !== bookOf(l.b)), crossSound = cross.filter(l => l.grade === "sound").length;
   const tm = L.filter(l => bookOf(l.a) === "tirumanthiram"), tmSound = tm.filter(l => l.grade === "sound").length;
   const tp = L.filter(l => bookOf(l.a) === "thiruppugazh"), tpSound = tp.filter(l => l.grade === "sound").length;
+  const sd = L.filter(l => bookOf(l.a) === "siddhar"), sdSound = sd.filter(l => l.grade === "sound").length;
   detail.innerHTML = `<div class="empty">
     <h2>How to read this</h2>
-    <p>Four books are here. The <b>Thirukkural</b> and the <b>Naladiyar</b>, a Jain collection of 400 quatrains long paired with it, are both in three parts (virtue, wealth, love), and colour shows the part. The <b>Tirumanthiram</b> of Tirumular, a Saiva work on ethics, yoga and grace in nine tantras, and the <b>Thiruppugazh</b> of Arunagirinathar, 1,325 songs to Murugan grouped by shrine, have a colour each. Shape shows the book: circles for the Kural, diamonds for the Naladiyar, triangles for the Tirumanthiram, stars for the Thiruppugazh.</p>
-    <p><b>All verses</b> shows every verse, in rows of ten per chapter. It opens lighting the verses with a sound link to another book. Click any square to read the verse, what its commentators say (${COMMENTATOR_NAMES.kural} for the Kural; ${COMMENTATOR_NAMES.naladiyar} for the Naladiyar; none for the Tirumanthiram or the Thiruppugazh), and its links, other books first.</p>
-    <p><b>Links</b> opens on the ${crossSound} sound links between books, in bands from top to bottom: Naladiyar, Kural, Tirumanthiram, Thiruppugazh. <b>Concepts</b> are shared, so one concept gathers verses from every book.</p>
-    <p><b>Trust:</b> every link was graded blind by a separate agent. ${crossSound} of ${cross.length} links between books are sound. The Tirumanthiram has no commentary here, so its readings are the marking agent's own, ${fmt(Object.values(verses).filter(v => v.book === "tirumanthiram" && v.u).length)} of its verses are flagged uncertain, and its graders ran lenient against calibration links: treat its ${tmSound} sound links of ${tm.length} as an upper bound. The Thiruppugazh also has no commentary here; its graders were warned of that leniency and came closer to the known grades (${tpSound} of ${tp.length} sound). No Tamil scholar has reviewed any of this.</p>
+    <p>Five books are here. The <b>Thirukkural</b> and the <b>Naladiyar</b>, a Jain collection of 400 quatrains long paired with it, are both in three parts (virtue, wealth, love), and colour shows the part. The <b>Tirumanthiram</b> of Tirumular, a Saiva work on ethics, yoga and grace in nine tantras, and the <b>Thiruppugazh</b> of Arunagirinathar, 1,325 songs to Murugan grouped by shrine, and the <b>Siddhar songs</b>, 2,700 verses by 26 poets of breath, body and the void, written in cipher, have a colour each. Shape shows the book: circles for the Kural, diamonds for the Naladiyar, triangles for the Tirumanthiram, stars for the Thiruppugazh, three-pointed marks for the Siddhars.</p>
+    <p><b>All verses</b> shows every verse, in rows of ten per chapter. It opens lighting the verses with a sound link to another book. Click any square to read the verse, what its commentators say (${COMMENTATOR_NAMES.kural} for the Kural; ${COMMENTATOR_NAMES.naladiyar} for the Naladiyar; none for the Tirumanthiram, the Thiruppugazh or the Siddhars), and its links, other books first.</p>
+    <p><b>Links</b> opens on the ${crossSound} sound links between books, in bands from top to bottom: Naladiyar, Kural, Tirumanthiram, Siddhars, Thiruppugazh. <b>Concepts</b> are shared, so one concept gathers verses from every book.</p>
+    <p><b>Trust:</b> every link was graded blind by a separate agent. ${crossSound} of ${cross.length} links between books are sound. The Tirumanthiram has no commentary here, so its readings are the marking agent's own, ${fmt(Object.values(verses).filter(v => v.book === "tirumanthiram" && v.u).length)} of its verses are flagged uncertain, and its graders ran lenient against calibration links: treat its ${tmSound} sound links of ${tm.length} as an upper bound. The Thiruppugazh also has no commentary here; its graders were warned of that leniency and came closer to the known grades (${tpSound} of ${tp.length} sound). The Siddhars write in cipher and also have no commentary; ${fmt(Object.values(verses).filter(v => v.book === "siddhar" && v.u).length)} of their verses are flagged uncertain, and ${sdSound} of their ${sd.length} links are sound. No Tamil scholar has reviewed any of this.</p>
   </div>`;
 }
 

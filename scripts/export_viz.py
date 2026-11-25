@@ -2,7 +2,7 @@
 """Export the graphs of every built book as viz/data.js, the data file the explorer loads.
 
 Verse ids are "k:N" for the Kural, "n:N" for the Naladiyar, "t:N" for the Tirumanthiram and
-"p:N" for the Thiruppugazh; chapter ids
+"p:N" for the Thiruppugazh and "s:N" for the Siddhar songs (N is the unit's seq); chapter ids
 follow the same pattern.
 """
 import json
@@ -11,7 +11,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "viz" / "data.js"
 BOOKS = {"kural": ("k", ROOT / "kg" / "kural"), "naladiyar": ("n", ROOT / "kg" / "naladiyar"),
-         "tirumanthiram": ("t", ROOT / "kg" / "tirumanthiram"), "thiruppugazh": ("p", ROOT / "kg" / "thiruppugazh")}
+         "tirumanthiram": ("t", ROOT / "kg" / "tirumanthiram"), "thiruppugazh": ("p", ROOT / "kg" / "thiruppugazh"),
+         "siddhar": ("s", ROOT / "kg" / "siddhar")}
 
 
 def read_jsonl(path):
@@ -22,7 +23,8 @@ def short(node_id):
     """kural:12 -> k:12, naladiyar:12 -> n:12, naladiyar-chapter:3 -> n:3, chapter:3 -> k:3, tirumanthiram:5 -> t:5."""
     kind, number = node_id.split(":")
     return {"kural": "k", "chapter": "k", "naladiyar": "n", "naladiyar-chapter": "n",
-            "tirumanthiram": "t", "tirumanthiram-chapter": "t", "thiruppugazh": "p", "thiruppugazh-chapter": "p"}[kind] + ":" + number
+            "tirumanthiram": "t", "tirumanthiram-chapter": "t", "thiruppugazh": "p", "thiruppugazh-chapter": "p",
+            "siddhar": "s", "siddhar-chapter": "s"}[kind] + ":" + number
 
 
 def main():
@@ -42,6 +44,8 @@ def main():
                     "book": book, "num": n["number"], "t": n["tamil"], "p": pope, "r": n["reading"],
                     "n": n["nuance"], "x": int(n["contested"]), "u": int(n["uncertain"]),
                     "f": int(n.get("text_needs_review", False)), "c": [], "pos": []}
+                if book == "siddhar":
+                    verses[f"{prefix}:{n['number']}"]["who"] = n["siddhar"]
         for e in edges:
             if e["p"] == "IN_CHAPTER":
                 verses[short(e["s"])]["ch"] = short(e["o"])
@@ -57,8 +61,8 @@ def main():
         if (folder / "threads.json").exists():
             for t in json.loads((folder / "threads.json").read_text(encoding="utf-8")):
                 pairs = [[short(x) if isinstance(x, str) else f"{prefix}:{x}" for x in pair] for pair in t["links"]]
-                books = sorted({{"k": "Kural", "n": "Naladiyar", "t": "Tirumanthiram", "p": "Thiruppugazh"}[x[0]] for pair in pairs for x in pair},
-                               key=["Kural", "Naladiyar", "Tirumanthiram", "Thiruppugazh"].index)
+                books = sorted({{"k": "Kural", "n": "Naladiyar", "t": "Tirumanthiram", "p": "Thiruppugazh", "s": "Siddhars"}[x[0]] for pair in pairs for x in pair},
+                               key=["Kural", "Naladiyar", "Tirumanthiram", "Thiruppugazh", "Siddhars"].index)
                 threads.append({"id": t["id"], "title": t["title"], "claim": t["claim"],
                                 "grade": t["audit_grade"], "links": pairs, "books": books,
                                 "limits": t.get("limits", ""), "issue": t.get("audit_issue", "")})
