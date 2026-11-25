@@ -466,3 +466,25 @@ the test, not as settled interpretations.
   Prefer develops or qualifies over agrees when the two verses differ in scope.
 - **`teaches` failed 37% of the time.** It must name what you learn from the pair that neither verse
   says alone. Restating the shared topic doesn't count.
+
+## Lessons from grading round 2 (554 links, 158 graded twice; 2026-11-25)
+
+- **The round-1 fix worked.** Akam to Kural links rose from 25% to 60% sound once they had to share the
+  speaker's situation. Keep that rule.
+- **The weak spots now:**
+
+  | Kind of link | Sound |
+  |---|---|
+  | links inside the akam books (mostly same_image) | 36% |
+  | puram to akam | 26% |
+  | parallel_domain | 14% |
+
+  A shared king, town or formula line is real, but alone it teaches little. Link two poems that name
+  the same patron or place only when the pairing shows something neither poem shows alone, for
+  example the same king seen in war and in love. Say what that is in `teaches`, and drop the link
+  if you cannot.
+- **`teaches` still failed 37% of the time.** Graders reject a `teaches` that restates the shared item
+  ("both mention Pannan"). Write what the reader learns from holding the two together.
+- **Ullurai:** graders tag about 70% more than markers (31 against 18). Their extra tags mostly pass
+  conditions 1 and 2 but are near misses on condition 3. Apply condition 3 (at least two
+  scene-to-situation pairs) as written, and record near misses in `nuance`.
