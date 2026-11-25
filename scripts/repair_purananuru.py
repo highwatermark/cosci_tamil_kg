@@ -308,6 +308,18 @@ COLOPHON = [
          auth=[PM], note="the base text's remark on the poet moved from thurai to note"),
     dict(n=145, field="note", old=None, new="'பரணர் பாட்டு' எனவும் கொள்வர்", auth=[PM],
          note="moved from thurai"),
+    dict(n=169, field='thurai', old='பரிசில் கடாநிலை. அரசனின் வென்றிச் சிறப்பைப் போற்றியதும் காண்க.)',
+         new='பரிசில் கடாநிலை', auth=[PM], note="a modern editor's remark trailed the thurai"),
+    dict(n=177, field='thurai', old='இயன்மொழி. (வந்தார்க்கு மான் கறியும் சோறும் வாரி வழங்கிய கொடையியல்பைப் பாடுகின்றார் புலவர்.)',
+         new='இயன்மொழி', auth=[PM], note="a modern editor's remark trailed the thurai"),
+    dict(n=186, field='thurai', old='பொருண்மொழிக் காஞ்சி ஆட்சியாளர் நெஞ்சங்களில் ஆழப் பதியவேண்டிய ஒரு செய்யுளும் ஆம்.)',
+         new='பொருண்மொழிக் காஞ்சி', auth=[PM], note="a modern editor's remark trailed the thurai"),
+    dict(n=74, field='thurai', old="முதுமொழிக் காஞ்சி 'தாமே தாங்கிய தாங்கரும் பையுள்' என்னும் துறைக்குக் காட்டுவர் இளம்பூரணர்",
+         new='முதுமொழிக் காஞ்சி', auth=[PM], note="an editor's note on Ilampuranar's citation trailed the thurai"),
+    dict(n=60, field='poet', old='உறையூர் மருத்துவன் தாமோதரனார். குடை புறப்பட்டதெனக் இருதித் தொழுதேம் என்று',
+         new='உறையூர் மருத்துவன் தாமோதரனார்', auth=[PM], note='verse words had run into the poet field'),
+    dict(n=78, field='poet', old='இடைக்குன்றூர் கிழார். பாடப்பட்டோன். பாண்டியன் தலையாலங்கானத்துச் செருவென்ற நெடுஞ்செழியன்',
+         new='இடைக்குன்றூர் கிழார்', auth=[PM], note="the patron's text had run into the poet field"),
 ]
 
 # Edition differences where our reading is kept (flagged as edition_variant), and readings that
