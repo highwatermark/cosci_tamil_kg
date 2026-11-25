@@ -5,6 +5,8 @@ Writes:
   kg/core/akananuru.jsonl         the invocation (number 0) and poems 1-400, one record per poem
   kg/core/pattupattu.jsonl        the ten idylls, one record per poem with all its lines
   kg/core/pattupattu_units.jsonl  each idyll split into reading units of 10-25 lines
+  kg/core/pattupattu_repairs.jsonl the Pattupattu text repairs checked against tamilvu.org
+                                  (tables in scripts/repair_pattupattu.py, applied here)
   kg/core/sangam_text_flags.jsonl misprints, repairs and checks for all three books
 
 Reads only Project Madurai e-texts already mirrored in data/text/ (as parse_purananuru.py does):
@@ -46,6 +48,7 @@ pattupattu:<n>:<start>-<end> with the poem's own line numbers (1-based, inclusiv
 Run: python3 -I scripts/build_sangam_core.py [--text-dir DIR] [--out-dir DIR]
 """
 import argparse
+import importlib.util
 import json
 import re
 import unicodedata
@@ -650,14 +653,44 @@ def join_half_lines(rid, verse, marks):
     return verse, marks
 
 
-def build_pattupattu(text_dir):
+def load_pattu_repairs():
+    spec = importlib.util.spec_from_file_location("repair_pattupattu",
+                                                  ROOT / "scripts" / "repair_pattupattu.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def pattu_repairs(n, rid, verse, log):
+    """Apply scripts/repair_pattupattu.py to one idyll; log and flag each change and kept reading."""
+    recs = load_pattu_repairs().repair(n, verse)
+    order = {"changed": 0, "kept": 1}
+    recs.sort(key=lambda x: (order[x["action"]], x["line"]))
+    ids = []
+    for k, rec in enumerate(recs, 1):
+        rec = {"id": f"pattupattu:{n}:r{k}", "poem": rid, "number": n, **rec}
+        log.append(rec)
+        ids.append(rec["id"])
+        if rec["action"] == "changed":
+            flag("pattupattu", rid, "repaired", f"{rec['kind']}: {rec['note']} [{rec['id']}]",
+                 rec["line"], f"{rec['old']} -> {rec['new']}")
+        else:
+            readings = "; ".join(f"{a}: {b}" for a, b in (rec.get("readings") or {}).items())
+            flag("pattupattu", rid, rec["kind"], f"our reading kept; {readings}"
+                 + (" " if readings else "") + f"({rec['note']}) [{rec['id']}]", rec["line"], rec["old"])
+    return ids
+
+
+def build_pattupattu(text_dir, repair_log=None):
     poems, units = [], []
+    repair_log = [] if repair_log is None else repair_log
     for n, name, short, title, standard in PATTU:
         rid = f"pattupattu:{n}:{short}"
         col, col_raw, verse, marks, sections = pattu_lines(text_dir, name)
         verse = [repair("pattupattu", rid, i, l) for i, l in enumerate(verse, 1)]
         verse, marks = join_half_lines(rid, verse, marks)
         verse = text_fixes(rid, verse)
+        repair_ids = pattu_repairs(n, rid, verse, repair_log)
         check_lines("pattupattu", rid, verse)
         check_marks("pattupattu", rid, marks)
         src_count = col.get("source_line_count")
@@ -675,7 +708,7 @@ def build_pattupattu(text_dir):
             "line_count": len(verse), "standard_line_count": standard,
             "colophon_raw": " | ".join(col_raw) or None,
             "sections": sections or None,
-            "tamil": verse, "tamil_source": name, "rights": RIGHTS,
+            "tamil": verse, "tamil_source": name, "repairs": repair_ids, "rights": RIGHTS,
         })
         bounds = [s["start"] - 1 for s in sections] or [0]
         if bounds[0] != 0:
@@ -784,7 +817,8 @@ def main():
 
     akam = build_akananuru(args.text_dir)
     cross_duplicates("akananuru", akam)
-    poems, units = build_pattupattu(args.text_dir)
+    pattu_log = []
+    poems, units = build_pattupattu(args.text_dir, pattu_log)
     cross_duplicates("pattupattu", poems)
     pur = None
     if not args.skip_purananuru:
@@ -794,7 +828,16 @@ def main():
     write_jsonl(args.out_dir / "akananuru.jsonl", akam)
     write_jsonl(args.out_dir / "pattupattu.jsonl", poems)
     write_jsonl(args.out_dir / "pattupattu_units.jsonl", units)
-    write_jsonl(args.out_dir / "sangam_text_flags.jsonl", flags)
+    write_jsonl(args.out_dir / "pattupattu_repairs.jsonl", pattu_log)
+    # Other builders (ettuthogai, kizhkanakku, epics) keep their own books' flags in the same file:
+    # replace only the books this script builds.
+    own = {f.get("book") for f in flags} | {"akananuru", "pattupattu", "purananuru"}
+    flag_path = args.out_dir / "sangam_text_flags.jsonl"
+    others = []
+    if flag_path.exists():
+        others = [json.loads(l) for l in flag_path.read_text(encoding="utf-8").splitlines()
+                  if l.strip() and json.loads(l).get("book") not in own]
+    write_jsonl(flag_path, flags + others)
 
     numbered = [r for r in akam if r["number"] > 0]
     print(f"akananuru: {len(numbered)} poems + invocation, {sum(r['line_count'] for r in akam)} lines; "
@@ -805,6 +848,7 @@ def main():
         mark = "ok" if p["line_count"] == p["standard_line_count"] else "DIFFERS"
         print(f"pattupattu {p['number']:>2} {p['short_name']:<22} {p['line_count']:>4} lines "
               f"(standard {p['standard_line_count']}) {mark}")
+    print("pattupattu repairs:", dict(Counter((x["action"], x["kind"]) for x in pattu_log)))
     lengths = Counter(u["line_count"] for u in units)
     print(f"units: {len(units)}, lengths {min(lengths)}-{max(lengths)}, "
           f"break scores {dict(Counter(u['break_score'] for u in units))}")
