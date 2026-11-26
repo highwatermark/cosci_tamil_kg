@@ -1,0 +1,732 @@
+{
+  "chapter_no": 1,
+  "chapter_theme": "The nineteen surviving fragments, in the editor's order, open with an invocation to a lord defined by labour for others and an apology that excuses the poet's slips by the worth of his subject; most of the rest argue a renouncer's case: bodily austerities are mere words, desire is not quenched by enjoyment, death is a daily march to execution, the body is carrion that cannot be called 'mine', a fault stays a fault even in a god, and the wise meet pardon and death alike as the fruit of deeds. Two verses praise an unnamed king.",
+  "cast": [
+    {
+      "id": "unnamed_speaker",
+      "tamil": "என்றான்",
+      "role": "the unnamed man whose words verse 4 reports; the fragment does not say who he is"
+    },
+    {
+      "id": "praised_king",
+      "tamil": "அண்ணல்",
+      "role": "the unnamed king praised in verses 15 and 16"
+    },
+    {
+      "id": "arasan",
+      "tamil": "அரசன்",
+      "role": "the unnamed king of verse 19 who orders a man released"
+    },
+    {
+      "id": "steadfast_man",
+      "tamil": "நின்றான்",
+      "role": "the unnamed man of verse 19 who stays unmoved by pardon and a plot against his life"
+    }
+  ],
+  "verses": {
+    "1": {
+      "reading": "The invocation takes as lord and refuge the one who stood in greatness from the first, who until he reached the end thought only good and spoke only virtue, kept nothing for himself and laboured only for the good of others.",
+      "concepts": [
+        "iraivan",
+        "adaikkalam",
+        "eegai"
+      ],
+      "nuance": "The lord is not named; he is defined by a career (முன் ... முடிவு எய்து காறு, from the beginning until the end was reached) spent wholly for others (பிறர்க்கே உறுதிக்கு உழந்தான்), not by creation or omniscience. That selfless career across a long course is the mark of the Buddha-to-be, and the claim is tagged Buddhist on that mark; the verse itself does not say Buddha.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "the lord to take refuge in is the one who, from first to last, thought only good, spoke only virtue and toiled for others with no thought for himself",
+          "school": "buddhist",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "2": {
+      "reading": "As the sick do not weigh the taste of medicine and those who need fire do not reckon the harm of its smoke, the poet says, so for one praising the fame of him who cut away the three faults, the slips of his own speech are no slips.",
+      "concepts": [
+        "kutram",
+        "sol",
+        "pugazh"
+      ],
+      "nuance": "The apology does not ask pardon; it argues that the worth of the object cancels the fault of the words, using two images in which a lesser harm is accepted for a greater need. The three faults (குற்றம் மூன்றும்) are named only by number.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "faults of wording in praise of the one who cut off the three faults are not to be counted as faults",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "3": {
+      "reading": "As a well-built ship is made with an eye to the wind and a life is lived with an eye to its span, so all purity looks to the pure one who has not even the thought that leans toward evil deeds.",
+      "concepts": [
+        "thooimai",
+        "iraivan",
+        "vinai"
+      ],
+      "nuance": "துப்புரவு may mean purity or, as often in older Tamil, the means of living and enjoyment; on the second reading the verse says all that sustains us depends on the pure one. The two similes, ship to wind and life to lifespan, make the dependence one of guidance rather than creation.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "all purity depends on turning toward the pure one who has no thought of evil deeds",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "4": {
+      "reading": "An unnamed speaker lists wrapping the body or stripping it bare, smearing it with dust, enduring biting cold, bathing and standing in fire, living on alms and wearing matted hair, and says these are mere words: the tapas to practise is to live subdued.",
+      "concepts": [
+        "thavam",
+        "vesham",
+        "adakkam"
+      ],
+      "nuance": "The list takes in practices of several orders at once: going naked was the mark of one Jain order, ash and matted hair of Saiva and Vedic ascetics, standing in fire of the five-fires penance. The reading of the last line (வார்த்தை இவை; செய்தவம் மடிந்து ஒழுகல்) as 'these are talk; tapas is to live restrained' is mine; மடிந்து could also mean 'as one already dead'. சார்த்தர் (line 3) may be caravan merchants who give the alms.",
+      "uncertain": true,
+      "speaker": {
+        "who": "unnamed_speaker",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "going without clothes is a practice of tapas",
+          "school": "jain",
+          "line": 1,
+          "stance": "refuted",
+          "voiced_by": "unnamed_speaker"
+        },
+        {
+          "claim": "bodily mortifications such as ash, cold water, fire, alms and matted hair make up tapas",
+          "school": "general",
+          "line": 3,
+          "stance": "refuted",
+          "voiced_by": "unnamed_speaker"
+        },
+        {
+          "claim": "true tapas is a restrained, subdued way of living, not bodily display",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "unnamed_speaker"
+        }
+      ]
+    },
+    "5": {
+      "reading": "Some say they will wipe out the senseless desire that is dressed up in praise of shapely shoulders and gem-dark hair by enjoying it with love; the verse asks whether a blazing pit of fire can be put out with ghee.",
+      "concepts": [
+        "kaamam",
+        "pullarivu"
+      ],
+      "nuance": "The body praised is a man's: குஞ்சி is a man's tuft of hair and the shoulders are the hero's. The verse also blames the praise itself (புகழ் எழ விகற்பிக்கின்ற), the poetic convention that inflates desire.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "desire can be wiped out by satisfying it",
+          "school": "general",
+          "line": 3,
+          "stance": "refuted",
+          "voiced_by": "narrator"
+        },
+        {
+          "claim": "indulgence feeds desire as ghee feeds fire and cannot quench it",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "6": {
+      "reading": "Those who will not put out the fire of desire, lodged within like a flame, with the water of revulsion, and insist they will remove it by thoughtless union, are like one who would stop a flood with more flood.",
+      "concepts": [
+        "kaamam",
+        "yaakkai"
+      ],
+      "nuance": "உவர்ப்பு names the remedy: revulsion, the deliberate turning against the body that verses 11 to 14 then practise. The verse pairs with 5: there the wrong remedy is fuel on fire, here water on water.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "desire is removed by union",
+          "school": "general",
+          "line": 3,
+          "stance": "refuted",
+          "voiced_by": "narrator"
+        },
+        {
+          "claim": "the fire of desire is quenched only by the water of revulsion",
+          "school": "general",
+          "line": 2,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "7": {
+      "reading": "Those of surpassing understanding count it gain each time a breath that went out comes back in; so for things whose nature is to perish their perishing need not be mourned, and those who say they weep from love are only stripping their own eyes.",
+      "concepts": [
+        "nilaiyaamai",
+        "saakkaadu",
+        "praanan"
+      ],
+      "nuance": "The argument inverts ordinary reckoning: life is not a possession that death takes away but a run of returned breaths, each a windfall. The sense of the last half-line (கண் அணி களையல் உற்றார்) is not certain; it may mean they ruin their eyes with weeping or lose the eye of understanding.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "things whose nature is to perish should not be mourned when they perish",
+          "school": "general",
+          "line": 3,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "8": {
+      "reading": "Even snakes, demons and lions do no harm to those who stay near them a little while; but from Death, who will not pity for one moment us who through boundless time have never left him and have lived obeying his word, who can escape?",
+      "concepts": [
+        "kootru",
+        "saakkaadu",
+        "piravi"
+      ],
+      "nuance": "வரம்பில் காலத்துள் (through limitless time) assumes the round of births: we have been Death's servants life after life, and long service earns no mercy.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "Death spares no one, though beings have served him through endless births",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "9": {
+      "reading": "The foetus has died, the child has died, the youth has died, the desiring young adult has died; this same course now brings old age, so we die day by day, and the verse asks why we do not weep for ourselves.",
+      "concepts": [
+        "nilaiyaamai",
+        "ilamai",
+        "yaakkai"
+      ],
+      "nuance": "Each stage of life is spoken of as a death (செத்தும), so death is not one event at the end but the steady form of living.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "one dies daily, each stage of life dying into the next",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "10": {
+      "reading": "Caught in the net and led to the killing ground, one might yet see a return; but each day's step has no return, and we walk to set our heads at the edge of the sword of Death that drinks our life: is this living?",
+      "concepts": [
+        "kootru",
+        "nilaiyaamai",
+        "saakkaadu"
+      ],
+      "nuance": "The image is of a condemned prisoner led to execution: ordinary life is that walk, only with no chance of reprieve.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "each day is a step without return toward death, so living is a march to execution",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "11": {
+      "reading": "If one loves this body thinking it smells sweet, when filth pours from every opening, a dog drags it about to eat and it rots in every direction, the verse asks how any fragrance can be found in it.",
+      "concepts": [
+        "yaakkai",
+        "kaamam",
+        "nilaiyaamai"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "the body, foul from every opening and food for dogs, holds nothing sweet to desire",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "12": {
+      "reading": "If one desires shoulders praised as rivals of Mount Mandara and as swelling emerald bars, the verse asks what delight there is in that flesh when vultures and dogs tear and pluck at it.",
+      "concepts": [
+        "yaakkai",
+        "kaamam"
+      ],
+      "nuance": "Again the praised body is a man's: Mandara and the bar (எழு) are the stock similes for a hero's shoulders, so the contemplation of foulness is aimed at desire for a man.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "desire for a body is undone by seeing it as carrion for vultures and dogs",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "13": {
+      "reading": "If the great bag in which the limbs and their fluids are bound into one, hidden and serving as a prop for longing, deludes us, the verse asks whether anything will be wanted of it when its limbs rot away as if cut and it lies loathsome.",
+      "concepts": [
+        "yaakkai",
+        "kaamam",
+        "mayal"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "what deludes desire is only a covered bag of limbs and fluids that will rot",
+          "school": "general",
+          "line": 2,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "14": {
+      "reading": "Because one thinks of it as 'mine', this body is taken for pleasure; yet it is a body made by deeds, where swarms of worms small and grown feed and live, and the verse asks whether a sinner can call it 'I' and 'mine'.",
+      "concepts": [
+        "yaakkai",
+        "pattru",
+        "vinai"
+      ],
+      "nuance": "The denial is argued from the body's other tenants: the worms already live off it, so the claim 'mine' is false on its face. வினைய உடம்பு makes the body itself a product of past deeds. Line 2 (இனைப் பெய்த புன்கத்தைப் போல) is obscure.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "the body, a product of deeds and a home for worms, cannot be called 'I' or 'mine'",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "15": {
+      "reading": "The king of the moon-white umbrella, the sceptre that holds to dharma and the elephant in triple must is praised as an embodied form, born to bring together all the good qualities that are hard to attain.",
+      "concepts": [
+        "arasu",
+        "sengol",
+        "aram"
+      ],
+      "nuance": "The sense of இறந்த (line 1), 'surpassing' or 'gone away', changes whether the king gathers rare virtues or restores lost ones.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": []
+    },
+    "16": {
+      "reading": "Having crushed anger and put away falsehood, warding off death with his sceptre, the king spoke no word but 'give', and appeared so that even the bewildered longed for the sight of him.",
+      "concepts": [
+        "sengol",
+        "eegai",
+        "vaaimai"
+      ],
+      "nuance": "கூற்றம் காய்ந்து may mean that his rule kept death from his subjects or that he gave up putting men to death. The last line's தடுமாற்றத்துத் தோற்றம் is obscure.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "praised_king",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": null,
+      "claims": []
+    },
+    "17": {
+      "reading": "Not only in earthly people like us but in those who have reached truth, a fault stays a fault and does not turn good: who would say the stain on the throat of the exalted one praised by the gods, whose forehead is split by an eye, is not a stain?",
+      "concepts": [
+        "kutram",
+        "vaaimai"
+      ],
+      "nuance": "The example is the Saiva god, named by his forehead eye and stained throat; the verse uses the mark that Saiva praise treats as a sign of his grace as proof that even a god carries a fault. It stands against the poet's own plea in 2.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "a fault remains a fault even in those who have reached truth and in gods; greatness does not make it good",
+          "school": "general",
+          "line": 2,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "18": {
+      "reading": "What turns back will turn back, what swells will swell, what is to be gained is gained and what is to be lost is lost; those who know this neither grieve nor exult, and it is good to say that what is to come will come.",
+      "concepts": [
+        "oozh",
+        "samanilai"
+      ],
+      "nuance": "The verse names no agent of the outcome, neither god nor deed; equanimity rests only on the certainty that what is due arrives. Verse 19 supplies the cause as deeds (வினை).",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "what is due will come, so the wise neither grieve at loss nor exult at gain",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "19": {
+      "reading": "Both when the king of the fragrant garland said 'let him go' and after a death was plotted against him in an unbearable way, the man stood with no swelling or wilting, able to say that all that had unfolded was the fruit of deeds.",
+      "concepts": [
+        "vinai",
+        "samanilai",
+        "arasu"
+      ],
+      "nuance": "The verse tells an event but not whose: the man is unnamed, and who plotted the killing (கொலை சூழ்ந்த) is not stated; it may be the same king. The fragment does not let the story be rebuilt.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "arasan",
+          "form": "ரரசன்",
+          "line": 1
+        },
+        {
+          "id": "steadfast_man",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "A king orders a man released, and later his killing is plotted; through both the man stays unmoved.",
+      "claims": [
+        {
+          "claim": "all that befalls one is the fruit of one's deeds",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "steadfast_man"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "a": "2",
+      "b": 17,
+      "type": "tension",
+      "note": "Verse 2 says the slips of speech of one praising the faultless are no slips; verse 17 says a fault stays a fault even in those who have reached truth and in a god.",
+      "teaches": "The fragments hold two standards side by side: the poet excuses faults by the worth of what is praised, while the moral verse refuses to let any height excuse a fault, so the apology rests on devotion, not on a rule about faults."
+    },
+    {
+      "a": "2",
+      "b": "neelakesi:6",
+      "type": "tension",
+      "note": "Both poets apologise for faults in their work: the Kundalakesi poet says faults in praise of the faultless one are not faults; the Neelakesi poet says the moon itself has a spot and he will own any fault.",
+      "teaches": "The two rival works answer the same assembly in opposite ways, the Buddhist denying that his slips count and the Jain conceding them, so the debate between the books begins in how each poet stands toward his own fault."
+    },
+    {
+      "a": "2",
+      "b": "kural:360",
+      "type": "develops",
+      "note": "Verse 2 praises the one who cut off the three faults without naming them; Kural 360 names three, desire, anger and confusion, whose very names must perish for pain to end.",
+      "teaches": "Read with the couplet, the epic's unnamed three faults take on a Tamil list already current, and the couplet's goal of ending the three is shown as the very mark by which a Buddhist poet recognises his lord.",
+      "gains": {
+        "a": "the fragment's bare 'three faults' gets a known Tamil naming",
+        "b": "the couplet's triad is seen used as a title of the one who has achieved it, not only a goal for the seeker"
+      }
+    },
+    {
+      "a": "4",
+      "b": "kural:280",
+      "type": "qualifies",
+      "note": "Kural 280 says neither shaving nor long hair is needed if one gives up what the world condemns; Kundalakesi 4 dismisses a longer list, nakedness, ash, cold, fire, alms and matted hair, as words, and calls tapas a subdued life.",
+      "teaches": "The couplet sets aside only the hair, and tests the renouncer by the world's blame; the fragment sets aside the whole repertoire of bodily austerity and puts the test in inner restraint, so the two differ on where the renouncer's proof lies.",
+      "gains": {
+        "a": "the fragment's dismissal is seen to extend a point the Kural already made about outward marks",
+        "b": "the couplet's narrow example is shown to open onto a general attack on bodily penance"
+      }
+    },
+    {
+      "a": "4",
+      "b": "tirumanthiram:1662",
+      "type": "tension",
+      "note": "Tirumanthiram 1662 makes wearing holy ash the first of the emblems of the flawless Siva-yogi; Kundalakesi 4 puts smearing the body with ash among the practices it calls mere words.",
+      "teaches": "The same act, ash on the body, is for Tirumular the first sign of the true yogi and for the Kundalakesi a hollow show, so the two traditions disagree on whether an outward mark can belong to tapas at all; the tension depends on reading பொடி பூசல் as ash-smearing.",
+      "gains": {
+        "a": "the fragment's target is seen to be a practice a living Tamil tradition held sacred",
+        "b": "the Saiva emblem is shown under attack from outside, which explains why Tirumular must defend it against hollow wearers"
+      }
+    },
+    {
+      "a": "5",
+      "b": "kural:1148",
+      "type": "qualifies",
+      "note": "Kural 1148 says thinking gossip can put out love is like thinking ghee can put out fire; Kundalakesi 5 asks whether a fire-pit can be put out with ghee, of those who would end desire by enjoying it.",
+      "teaches": "The same proverb of ghee on fire serves the lover, for whom nothing will quench love and that is its strength, and the ascetic, for whom indulgence only feeds desire and that is its danger.",
+      "gains": {
+        "a": "the fragment's argument is seen to borrow an image already fixed in love poetry and turn it",
+        "b": "the couplet's image is shown to carry a warning against desire that the love-speaker does not draw"
+      }
+    },
+    {
+      "a": "7",
+      "b": 9,
+      "type": "tension",
+      "note": "Verse 7 says the wise do not mourn things whose nature is to perish and calls weeping from love a self-injury; verse 9 asks why we do not weep for ourselves, who die day by day.",
+      "teaches": "The call to weep in 9 cannot be the grief that 7 forbids: it is a rhetorical shock meant to make the living see their own dying, so the fragments separate mourning others from waking to one's own mortality."
+    },
+    {
+      "a": "9",
+      "b": "naladiyar:24",
+      "type": "develops",
+      "note": "Naladiyar 24 ends with the dying carrying the dead; Kundalakesi 9 says the foetus, child, youth and young adult have each died in us and we die daily.",
+      "teaches": "The quatrain makes the mourners already dying in the moment of a funeral; the fragment moves death inside each life, as a series of deaths of one's own former selves, so the bearer is also already a corpse many times over.",
+      "gains": {
+        "a": "the fragment's interior deaths gain a public scene where the point is seen",
+        "b": "the quatrain's 'the dying' is given a measure: one dies at every stage of growth"
+      }
+    },
+    {
+      "a": "10",
+      "b": "kural:334",
+      "type": "develops",
+      "note": "Kural 334 says what shows itself as a day is a blade sawing through life; Kundalakesi 10 says each day's step takes us to lay our heads at the edge of Death's sword.",
+      "teaches": "The couplet makes the day itself the blade; the fragment makes the day a step toward a blade held by Death and adds the condemned man's walk, so time becomes not only the cutting but the procession to execution with no reprieve.",
+      "gains": {
+        "a": "the fragment's image of the executioner's sword is seen to rest on the Kural's day-as-blade",
+        "b": "the couplet's still image gains motion and a missing reprieve, which sharpens what 'those who perceive it' would perceive"
+      }
+    },
+    {
+      "a": "12",
+      "b": "naladiyar:48",
+      "type": "qualifies",
+      "note": "Naladiyar 48 asks whether those who praise sandal paste and garlands have not seen vultures tear the stinking cart of the body; Kundalakesi 12 asks what delight is left in shoulders praised as Mandara when vultures and dogs pluck at them.",
+      "teaches": "The Naladiyar turns the contemplation of carrion on a body adorned for love, usually the woman's; the fragment turns the same contemplation on a man's heroic shoulders, so the discipline is shown to apply to desire for either sex.",
+      "gains": {
+        "a": "the fragment is placed in an established Tamil practice of looking at the body as carrion",
+        "b": "the quatrain's lesson is shown not to depend on the desired body being a woman's"
+      }
+    },
+    {
+      "a": "14",
+      "b": "kural:346",
+      "type": "qualifies",
+      "note": "Kural 346 says the one who cuts off the pride of 'I' and 'mine' enters a world above the gods'; Kundalakesi 14 asks whether a body of deeds, fed on by worms, can be called 'I' and 'mine'.",
+      "teaches": "The couplet gives the reward for cutting 'I' and 'mine' but not the argument; the fragment gives the argument from the body's foulness and tenants but promises no higher world, so together they separate the case against 'mine' from the hope it is made for.",
+      "gains": {
+        "a": "the fragment's question is seen to aim at a goal the Kural names",
+        "b": "the couplet's bare command gains a reason a hearer can test on his own body"
+      }
+    },
+    {
+      "a": "14",
+      "b": "siddhar:354",
+      "type": "develops",
+      "note": "Pattinathar's verse has fire, worm, earth, kite, jackal and dog each say of the body 'it is mine'; Kundalakesi 14 says worms feed and live in the body while one still calls it 'mine'.",
+      "teaches": "The fragment finds the rival owners already at work in the living body, while Pattinathar lines them up at the corpse; held together, the claim 'mine' is false both before death and after it.",
+      "gains": {
+        "a": "the fragment's denial is extended past death to every scavenger",
+        "b": "the Siddhar's after-death scene is shown to have begun in the living body, which sharpens his question of what gain the rearing brought"
+      }
+    },
+    {
+      "a": "17",
+      "b": "kural:957",
+      "type": "develops",
+      "note": "Kural 957 says a fault in the well-born stands out like the spot on the moon; Kundalakesi 17 says a fault stays a fault even in those who have reached truth, as the stain on the god's throat is still a stain.",
+      "teaches": "The couplet says height makes a fault more visible; the fragment adds that height does not change its nature, and carries the rule up from the well-born to the gods.",
+      "gains": {
+        "a": "the fragment's claim is grounded in the Kural's moon-spot observation",
+        "b": "the couplet's rule is extended beyond human lineage to the divine"
+      }
+    },
+    {
+      "a": "18",
+      "b": "kural:379",
+      "type": "qualifies",
+      "note": "Kural 379 asks why those who welcome good when it comes should grieve when it does not; Kundalakesi 18 says those who know that what is due will come neither grieve nor exult.",
+      "teaches": "The couplet only rebukes grief and leaves joy at good fortune untouched; the fragment strikes out elation too, so its equanimity is stricter than the Kural's.",
+      "gains": {
+        "a": "the fragment is seen as answering a question the Kural poses",
+        "b": "the couplet's one-sided rebuke is shown to stop short of the full equanimity its premise allows"
+      }
+    },
+    {
+      "a": "18",
+      "b": "purananuru:192",
+      "type": "develops",
+      "note": "Purananuru 192 says good and ill do not come from others, we neither delight in life nor call it bitter, since life moves by its order like a raft on a river; Kundalakesi 18 says what is due comes, so the wise neither grieve nor exult.",
+      "teaches": "The Sangam poet draws from the same certainty a rule about others, neither marvelling at the great nor despising the small; the fragment draws only the inner rule, so the pair shows one premise yielding a social ethic in one book and a private discipline in the other.",
+      "gains": {
+        "a": "the fragment's maxim gains an older Tamil statement of the same order of things",
+        "b": "the Sangam poem's equanimity is shown carried into a later religious setting where it becomes a teaching on grief and joy"
+      }
+    },
+    {
+      "a": "18",
+      "b": 19,
+      "type": "develops",
+      "note": "Verse 18 states that the wise neither grieve nor exult because what is due will come; verse 19 shows a man unmoved both by a king's pardon and by a plot to kill him, naming all of it the fruit of deeds.",
+      "teaches": "The maxim of 18 is put to its hardest test in 19, a reprieve and a death plot, and 19 names the cause 18 left unnamed: deeds."
+    },
+    {
+      "a": "19",
+      "b": "siddhar:365",
+      "type": "tension",
+      "note": "Pattinathar asks what use weeping is, since good and evil will not come otherwise than as the lotus-born god wrote; Kundalakesi 19 has a man stay unmoved by pardon and death because all that befalls is the fruit of deeds.",
+      "teaches": "Both counsel the same steadiness, but the Siddhar grounds it in what a god wrote and the fragment in one's own deeds, so the same calm rests on incompatible accounts of who decides what comes.",
+      "gains": {
+        "a": "the fragment's karma is set against a theistic account of the same events",
+        "b": "the Siddhar's appeal to Brahma's writing is shown to be one choice among Tamil grounds for equanimity"
+      }
+    }
+  ],
+  "new_concepts": [],
+  "source_issues": [
+    "The core file carries no quoted_in for any of the 19 verses, though the brief says the fragments record the work that preserved each; the source of each fragment cannot be checked here.",
+    "Verses 10 and 17 were printed in eight half-lines and joined into four by the build; the joins read correctly.",
+    "Verse 4 line 3 (சார்த்தரிடு) and line 4 (மடிந்தொழுக) admit more than one division and sense.",
+    "Verse 14 line 2 (றினைப்பெய்த புன்கத்தைப் போலச்) is obscure as divided; the simile cannot be fixed.",
+    "Verse 16 lines 3 and 4 (தடு மாற்றத்துத் தோற்றம்) are obscure.",
+    "The order of the fragments is the editor's; links between them (2 and 17, 7 and 9, 18 and 19) rest on their content, not on any story sequence."
+  ]
+}

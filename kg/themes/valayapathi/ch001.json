@@ -1,0 +1,889 @@
+{
+ "chapter_no": 1,
+ "chapter_theme": "The first run of Valayapathi fragments, quoted mostly in the Purattirattu: an invocation to the knower that asks release from old deeds, verses on the rarity of human birth, a cluster of harsh sayings on women's inconstancy set against praise of the chaste wife, and a sermon in plural commands against lying, theft, killing, flesh-eating and other men's wives, closing on penance, release without return, and the blindness of desire.",
+ "cast": [
+  {
+   "id": "unknown_speaker",
+   "tamil": "பெயர் தெரியாக் கூற்றாளர்",
+   "role": "the voice of a fragment whose speaker the surviving text does not name"
+  },
+  {
+   "id": "namar",
+   "tamil": "நமர்",
+   "role": "the group a speaker addresses as his own people (verse 16)"
+  }
+ ],
+ "verses": {
+  "0": {
+   "reading": "The poet says he bows, with a faultless heart and in purity, at the feet of the knower whom the three worlds praise together, so that his ancient deeds may leave him.",
+   "concepts": [
+    "vazhipaadu",
+    "vinai",
+    "iraivan"
+   ],
+   "uncertain": true,
+   "nuance": "The god is named only as அறிவன், the knower, praised by three worlds; no creating role is given, and the hoped-for fruit of worship is the removal of old deeds (தொல்வினை), not a gift of grace. Line 2 is badly divided in the text, so the exact epithet is not secure.",
+   "speaker": {
+    "who": "narrator",
+    "form": "யான்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "narrator",
+     "form": "யான்",
+     "line": 4
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1": {
+   "reading": "For the soul that suffers through very many births, taking one different body after another by the force of its many deeds, birth as a human is rare, and even when it comes, wealth enough to enjoy sweet things is just as rare.",
+   "concepts": [
+    "piravi",
+    "vinai",
+    "yaakkai",
+    "selvam"
+   ],
+   "nuance": "The verse stacks two rarities: the human body and, inside it, the means of enjoyment. It does not yet say what the rare birth is for.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the soul passes through many bodies by the force of its deeds, and human birth among them is rare",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    },
+    {
+     "claim": "even a human birth rarely brings wealth enough to enjoy",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "2": {
+   "reading": "Birth in a high family, a body without defect, learning and listening that clear away confusion, an understanding that grasps much, and taking up the great dharma are hard to get, the speaker tells a man, and only those who get them are called human.",
+   "concepts": [
+    "kudi",
+    "kalvi",
+    "arivu",
+    "aram"
+   ],
+   "nuance": "The address ஏடா shows a speaker talking to one man, but the fragment does not say who either is. 'Human' (மக்கள்) is made a title earned by a list that runs from birth to dharma, so high birth sits beside virtue as a condition.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "only one who has high birth, a sound body, learning, understanding and dharma deserves the name of human",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "3": {
+   "reading": "Praise from country and town, and rain that falls when bidden to fall, belong, when the able men of Koodal speak of the good, to the illustrious chaste wife.",
+   "concepts": [
+    "paththini",
+    "karpu",
+    "mazhai",
+    "pugazh"
+   ],
+   "nuance": "The rain at the wife's word is one honour in a list, beside the praise of country and town, and it is credited to what the learned of Koodal say. Whether கூடல் ஆற்றவர் means an assembly at Madurai or simply learned men is not clear from the line.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the chaste wife earns public praise, and rain falls at her bidding",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "4": {
+   "reading": "Fish used to the old water of a pond still long for a new flood when they see one, and so, the speaker tells someone to know, the heart of a garlanded woman turns and melts for another even if she is with the love god himself.",
+   "concepts": [
+    "kaamam",
+    "manam"
+   ],
+   "nuance": "Addressed to one listener (கொள்நீ, 'take it'), so the view belongs to an unknown speaker in a lost scene, not plainly to the poet. 'Even with Kaman' makes the claim independent of the husband's merit.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a woman's heart turns to someone new however worthy her man",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "5": {
+   "reading": "There is a guard for food, a guard for wealth and a guard for precious learning, but those who have learned and seen the world said that there is no way to guard women.",
+   "concepts": [
+    "karpu",
+    "manam"
+   ],
+   "nuance": "The speaker cites the learned (கற்றறிந்தோர்) as the authority. The verse puts women in the list of possessions a man keeps, and then denies that this one can be kept by any outward means.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "women cannot be guarded by any means a man has",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "6": {
+   "reading": "As many as the grains of sand in rivers, the drops of water, the dew on grass, the leaves fallen from trees and the fine hairs, so many men thought they had entered the hearts of sweet-speaking women and found themselves shut in a closed room.",
+   "concepts": [
+    "kaamam",
+    "vanjam",
+    "manam"
+   ],
+   "uncertain": true,
+   "nuance": "பொதியறைப் பட்டார் is read here as being trapped in a sealed chamber, that is, deceived; the image could also be of being suffocated. The counting similes make the deceived men beyond number rather than describing a single case.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "countless men who believed they had won a woman's heart were deceived",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "7": {
+   "reading": "Like a single cool raindrop on a lotus that stays only as long as the wind allows, women are steady only for the short while the man who cherishes them is watching; otherwise they waver and do not stay.",
+   "concepts": [
+    "karpu",
+    "nilaiyaamai",
+    "manam"
+   ],
+   "uncertain": true,
+   "nuance": "The last phrase துணைவனைக் கையார் is hard: it may mean they do not openly spurn their partner, which would make the inconstancy hidden. The raindrop image ties women's steadiness to outward conditions rather than to an inner guard.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "women keep steady only while their man is watching",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "8": {
+   "reading": "Wealth without a child is like knowledge without patience, youth without pleasure, a tank without steps, finery without cloth, a garland without fragrance, scholarship without learning's goodness, and a town without a moat of good water.",
+   "concepts": [
+    "makkal",
+    "selvam"
+   ],
+   "nuance": "Each item in the list is a thing that exists but lacks what makes it usable or whole; the child is placed as the completion of wealth, not as a good in itself.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "wealth without a child is incomplete",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "9": {
+   "reading": "It can raise a man, cast him into hard fetters, ruin him and send him to the vile hell: of the five senses that must be guarded, none needs guarding so much as the tongue.",
+   "concepts": [
+    "adakkam",
+    "naragam",
+    "sol"
+   ],
+   "nuance": "The tongue is counted among the five senses (இந்திரியம் ஐந்து), so it is both the organ of taste and of speech; the verse does not choose, and புலைநகரம், a hell called 'vile', can carry a hint of flesh.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "of the five senses the tongue most needs guarding, since it can raise a man or send him to hell",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "10": {
+   "reading": "Hold to your wife and her good and stand firm: town and country will surely rejoice, and the victorious gods will praise you and come to receive you with honour.",
+   "concepts": [
+    "vaazhkkaithunai",
+    "pugazh",
+    "marumai"
+   ],
+   "uncertain": true,
+   "nuance": "The plural command (தலைநின்மின்) addresses a group. தாரம் நல்லிதந் தாங்கி is read as cherishing one's wife; if so, the same praise from town and country that verse 3 gives the chaste wife is here promised to the faithful husband.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a man who keeps to his wife is praised on earth and welcomed by the gods",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "11": {
+   "reading": "The great sorrow that comes from women cannot be counted even by the most thoughtful; the heavy, entangling deed rises against one, so whatever happens, keep away from another man's woman.",
+   "concepts": [
+    "piranil",
+    "vinai",
+    "idumbai"
+   ],
+   "nuance": "The verse opens with a charge against women in general and closes on a narrower command about the other man's wife (ஏதில்பெண்); the karma of line 3 is what joins them.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "going to another man's woman brings on heavy deeds; avoid it whatever comes",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "12": {
+   "reading": "Do not lie, do not backbite, revile no one, do not try to escape by saying what is unfitting, do not spend your days killing living beings and eating them, and do no evil in company with base people.",
+   "concepts": [
+    "vaaimai",
+    "purangooral",
+    "kollaamai",
+    "pulaal"
+   ],
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "one must not lie or backbite",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    },
+    {
+     "claim": "one must not live by killing creatures and eating them",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "13": {
+   "reading": "Steal nothing that is theft; do not accept a dharma that comes joined with killing; scorn no one as poor; and do not befriend or approach another man's woman.",
+   "concepts": [
+    "kalavu",
+    "kolai",
+    "aram",
+    "piranil"
+   ],
+   "nuance": "கொலை கூடி வரும் அறம் rejects any dharma that involves killing; the line names no rite or school, though sacrifice is the obvious case.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a dharma that involves killing is to be refused",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    },
+    {
+     "claim": "one must not despise the poor",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    },
+    {
+     "claim": "one must not approach another man's woman",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "14": {
+   "reading": "If one asks why someone gathered food into a single mouthful and set a finger on it, the reason is the conviction that however many flawless gifts there are, none equals a mouthful of rice.",
+   "concepts": [
+    "eegai",
+    "undi",
+    "aram"
+   ],
+   "uncertain": true,
+   "nuance": "The verse explains a gesture whose scene is lost; who makes it and for whom cannot be told. The point is a ranking of gifts, with the smallest gift of food placed above the rest.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Someone gathers food into one mouthful and lays a finger on it, and the gesture is explained.",
+   "claims": [
+    {
+     "claim": "no gift equals a mouthful of food given",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "15": {
+   "reading": "Show grace to all precious lives, spread dharma, do not draw near to wrong, cast off excess deceit and pride, and keep these as your wealth.",
+   "concepts": [
+    "arul",
+    "aram",
+    "vanjam"
+   ],
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "one must show grace to every living being",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    },
+    {
+     "claim": "these virtues are to be kept as one's wealth",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "16": {
+   "reading": "One should not hoard wealth as if it were wealth but do dharma with grace as one's wealth; when one does dharma so, the speaker asks his own people, how could one come to the dark state in the world above?",
+   "concepts": [
+    "arul",
+    "aram",
+    "selvam",
+    "marumai"
+   ],
+   "uncertain": true,
+   "nuance": "The last line is read as இருள் இயல்பு எய்தாதது, not reaching the dark state; the address நமரங்காள் shows a speaker talking to a group he counts as his own.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": "namar"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "grace, not goods, is the wealth to keep, and dharma done with it keeps one from darkness hereafter",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "17": {
+   "reading": "No sin exceeds killing a life wrongly; the one who eats at a price his craving sets wants flesh to multiply, and the one who kills other creatures with nets, as a trapper, and sells the flesh at that price also wants more of them to die.",
+   "concepts": [
+    "kollaamai",
+    "pulaal",
+    "kolai",
+    "avaa"
+   ],
+   "uncertain": true,
+   "nuance": "The verse joins buyer and seller through one price set by craving (அவா விலை): the eater's demand and the trapper's trade feed each other. Line 4's மாண்டருகல் is obscure and read loosely.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "no sin is greater than killing a life wrongly",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    },
+    {
+     "claim": "the eater's craving and the seller's price together drive the killing of animals",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "18": {
+   "reading": "Looked at within the ocean of births, no one is free of fault in killing, and those who eat flesh without weighing dharma have eaten their own kin without remainder.",
+   "concepts": [
+    "pulaal",
+    "piravi",
+    "sutram"
+   ],
+   "uncertain": true,
+   "nuance": "The argument rests on rebirth: every creature has at some birth been one's kin, so flesh is always a relative's. Line 2 is hard; its குற்றம் may stand for சுற்றம் (kin), which would say that no being is not one's kin.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "through the round of births every creature has been one's kin, so eating flesh is eating one's kin",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "19": {
+   "reading": "Protect living beings, do not eat flesh from craving, shed your faults and give up anger, and you will be born in good states, spotless like the moons that those who see them worship.",
+   "concepts": [
+    "kollaamai",
+    "pulaal",
+    "vekuli",
+    "piravi"
+   ],
+   "nuance": "கதி, the state of the next birth, is the term Jain and Buddhist works use for the destinations of rebirth; the verse promises a good one rather than release.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "one who protects life, refuses flesh and gives up anger is reborn in a good state",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "20": {
+   "reading": "Even if you are joined to wealth and pleasure, practise the hard penance that is fit for grace; going to the state free of darkness, you will not come back here again; if you would gain clarity, gain it in that.",
+   "concepts": [
+    "thavam",
+    "veedu",
+    "arul",
+    "piravi"
+   ],
+   "nuance": "Release here is reached by one's own penance, with no god granting it, and it is marked by no return (இனி இவண் வாரீர்). The verse speaks to people still in wealth and pleasure, not to monks.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "hard penance with grace leads to a state from which there is no return to birth",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "21": {
+   "reading": "Except for the lord of penance who dwells above penance, it is hard to end delusion, to hold mind and speech with the body, to be without liking and loathing, to have grace for every kind of life, and to give up wealth with longing; know that as well.",
+   "concepts": [
+    "thavam",
+    "adakkam",
+    "arul",
+    "thuravu"
+   ],
+   "nuance": "The three restraints of mind, speech and body are named together; only the perfected ascetic (தவத்து இறை) is said to achieve them all. Addressed to one listener (அறிநீ).",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "only the perfected ascetic fully ends delusion and restrains mind, speech and body",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "22": {
+   "reading": "Desire decides without thinking, runs any way it likes, melts one from within, takes no counsel from the wise, comes without closeness, longs for those who do not love, and, standing in the eye, fells those who desire too much.",
+   "concepts": [
+    "kaamam",
+    "manam"
+   ],
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "desire overrides judgment and the counsel of the wise",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  },
+  "23": {
+   "reading": "When the arrow Kama lets fly strikes the body, men do not see the blame they invite standing alone while the wise recoil, will not take the word of their elders, and stain a fame that held up the sky.",
+   "concepts": [
+    "kaamam",
+    "pazhi",
+    "pugazh",
+    "saandror"
+   ],
+   "nuance": "The verse judges the lover from outside, by what he loses in others' eyes; the next verse (24) goes on to the madal.",
+   "speaker": {
+    "who": "unknown_speaker",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "one struck by desire loses shame, ignores elders and ruins his fame",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "unknown_speaker"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": "1",
+   "b": "naladiyar:34",
+   "type": "develops",
+   "note": "Both call the human body rare (அரிய, அரும்பெறல் யாக்கை); the Valayapathi derives the rarity from karma's long series of bodies, the Naladiyar draws the duty of pressing virtue from it.",
+   "teaches": "The Naladiyar's command to use the rare body gains its urgency from the fragment's account of how many karma-driven bodies come before a human one, and the fragment's second rarity, wealth to enjoy, is what the quatrain says to turn into virtue instead.",
+   "gains": {
+    "a": "the fragment's statement of rarity gets the practical conclusion it leaves unsaid",
+    "b": "the quatrain's bare 'rare body' is given its cause in the cycle of deeds"
+   }
+  },
+  {
+   "a": "3",
+   "b": "kural:55",
+   "type": "qualifies",
+   "note": "Both say rain falls at the chaste wife's word; the Kural makes it her one power, the Valayapathi sets it in a list of honours with the praise of country and town and credits it to what the learned of Koodal say.",
+   "teaches": "Read beside the fragment, the Kural's single astonishing claim becomes an item of public reputation, cited on authority, so the rain is treated as the community's recognition of the wife rather than her private power.",
+   "gains": {
+    "a": "the fragment's rain-claim is anchored to the couplet that first stated it",
+    "b": "the couplet's claim is seen being received as a cited saying and folded into public honour"
+   }
+  },
+  {
+   "a": "3",
+   "b": "4",
+   "type": "tension",
+   "note": "Verse 3 gives the chaste wife public praise and power over rain; verse 4 says any garlanded woman's heart turns to a new man even if she has the love god.",
+   "teaches": "The surviving fragments hold both the highest claim for a wife's chastity and a denial that any woman's heart stays put, so either the lost story set them in different mouths or it made chastity a rare exception; the conflict depends on reading verse 4 as about all women."
+  },
+  {
+   "a": "4",
+   "b": "naladiyar:370",
+   "type": "same_image",
+   "note": "Both use the fresh flood (புதுப்புனல், வெள்ளம் புதியது) for women's love; in the Naladiyar it is the courtesan's love that dries when the money stops, in the Valayapathi it is the new water the fish leave the old pond for.",
+   "teaches": "The image changes its target: the Naladiyar confines the fickle flood to women whose love is bought, while the fragment turns it on any woman, even one with a perfect lover, so the charge moves from the market to the marriage.",
+   "gains": {
+    "a": "the fragment's fish-and-flood image is seen as a reworking of an existing figure of fickle love",
+    "b": "the quatrain's limitation of the charge to paid women stands out against a text that drops it"
+   }
+  },
+  {
+   "a": "5",
+   "b": "kural:57",
+   "type": "qualifies",
+   "note": "Both deny that women can be kept by outward guarding; the Kural moves the guard inside the woman (நிறைகாக்கும் காப்பு), the Valayapathi says the learned found no guard at all.",
+   "teaches": "The two share a premise, that confinement fails, and part on the conclusion: the Kural trusts the woman's own steadiness, the fragment trusts nothing, which shows that the Kural's inner guard is a choice and not the only way to read the failure of walls.",
+   "gains": {
+    "a": "the fragment's bleak verdict is shown to reject an available answer rather than to lack one",
+    "b": "the couplet's faith in the woman's own guard is set off by a text that refuses it"
+   }
+  },
+  {
+   "a": "7",
+   "b": "naladiyar:362",
+   "type": "qualifies",
+   "note": "Both make women's faultless time short; the Naladiyar says even under a guard of swords, the Valayapathi says only while the man who cherishes them is watching.",
+   "teaches": "On whether watching helps, the two disagree: for the fragment, the provider's gaze buys a brief steadiness, while for the quatrain even armed guard does not, so the fragment's distrust is milder in what it allows surveillance to achieve.",
+   "gains": {
+    "a": "the fragment's raindrop image is placed in a tradition of harsh sayings and measured against it",
+    "b": "the quatrain's claim that guarding fails is shown to be stronger than a parallel text's"
+   }
+  },
+  {
+   "a": "8",
+   "b": "kural:61",
+   "type": "qualifies",
+   "note": "Both prize children; the Kural ranks children who come to understanding above all gains, the Valayapathi makes a child the thing without which wealth is like a garland without scent.",
+   "teaches": "The pairing shows two grounds for the same praise: the Kural values the child for its own understanding, the fragment for completing a householder's estate, so the fragment's child is an ornament of wealth and the Kural's a good in itself.",
+   "gains": {
+    "a": "the fragment's list is seen to value the child only in relation to wealth",
+    "b": "the couplet's condition அறிவறிந்த stands out as what separates its praise from the estate view"
+   }
+  },
+  {
+   "a": "9",
+   "b": "kural:127",
+   "type": "qualifies",
+   "note": "Both single out the tongue as what must be guarded above all; the Kural's tongue is speech, the Valayapathi counts it among the five senses and makes it lead to hell.",
+   "teaches": "Placing the tongue among the senses lets the fragment's warning cover taste as well as speech, so the Kural's rule about words is widened into a rule about appetite, which the fragments' verses on flesh then fill.",
+   "gains": {
+    "a": "the fragment's ranking of the tongue is anchored to a well-known rule",
+    "b": "the couplet's tongue of speech is shown being reread as the tongue of taste too"
+   }
+  },
+  {
+   "a": "9",
+   "b": "19",
+   "type": "develops",
+   "note": "Verse 9 says the tongue, among the senses, can send one to the vile hell; verse 19 commands not to eat flesh from craving and promises a good birth.",
+   "teaches": "Together the two give the tongue's danger a concrete content in these fragments: the craving tongue is the flesh-eating one, and guarding it decides between hell and a spotless rebirth."
+  },
+  {
+   "a": "13",
+   "b": "kural:259",
+   "type": "qualifies",
+   "note": "Both put not killing above ritual merit; the Kural says abstaining from one killing is better than a thousand oblations, the Valayapathi refuses any dharma that comes with killing.",
+   "teaches": "The Kural weighs non-killing against sacrifice and finds it heavier, while the fragment denies that a killing rite is dharma at all, so the pair shows the step from ranking merits to disqualifying a kind of virtue.",
+   "gains": {
+    "a": "the fragment's flat refusal is seen as a sharpening of an older comparison",
+    "b": "the couplet's comparison is shown to stop short of the verdict a later text draws"
+   }
+  },
+  {
+   "a": "14",
+   "b": "tirumanthiram:252",
+   "type": "qualifies",
+   "note": "Both speak of a handful or mouthful of food set aside as a gift; Tirumular says anyone can give it, the Valayapathi says no gift equals it.",
+   "teaches": "The same small gift is easy in the Tirumanthiram and supreme in the fragment, and held together they say that the gift no one can excuse himself from is also the one no greater gift surpasses.",
+   "gains": {
+    "a": "the fragment's obscure gesture of a finger set on a mouthful is matched to a known practice of setting food aside before eating",
+    "b": "the Saiva verse's minimum gift gains a claim to the highest rank among gifts"
+   }
+  },
+  {
+   "a": "16",
+   "b": "kural:241",
+   "type": "develops",
+   "note": "Both set the wealth of grace (அருள்) above wealth of goods; the Kural argues from distribution (goods are found even among the base), the Valayapathi commands that grace be made the wealth and ties it to escape from darkness hereafter.",
+   "teaches": "The Kural gives the reason grace outranks goods, and the fragment gives the practice and its fruit, turning a valuation into a command with an afterlife reward the couplet does not mention.",
+   "gains": {
+    "a": "the fragment's command gets the argument that justifies its ranking",
+    "b": "the couplet's ranking is shown carried into a promise about the next world"
+   }
+  },
+  {
+   "a": "17",
+   "b": "kural:256",
+   "type": "develops",
+   "note": "Both trace meat back to a price: the Kural says no one would sell flesh if no one killed for eating, the Valayapathi says the eater's craving sets a price at which the trapper kills and sells.",
+   "teaches": "The Kural makes the buyer answerable for the seller's killing; the fragment adds the trapper's own interest in more deaths, so the guilt runs both ways through the one price.",
+   "gains": {
+    "a": "the fragment's hard lines are clarified by the couplet's plainer argument",
+    "b": "the couplet's one-way blame on the buyer is extended to the seller's motive"
+   }
+  },
+  {
+   "a": "17",
+   "b": "neelakesi:9",
+   "type": "develops",
+   "note": "The Valayapathi argues against flesh-eating in a sermon with no opponent; the Neelakesi announces the view that accepts flesh (ஊன்கொண்ட காட்சி) as the first matter its heroine will debate.",
+   "teaches": "Among the Jain-tradition epics the same ethic appears in two forms, as a plain moral exhortation in the fragment and as a doctrine to be defended against a named view in the Neelakesi, which shows meat-eating treated as a dividing line between schools and not only as a private fault."
+  },
+  {
+   "a": "18",
+   "b": "naladiyar:121",
+   "type": "develops",
+   "note": "The Naladiyar makes the flesh-eater's belly a burning ground for beasts and birds; the Valayapathi, through rebirth, makes the beasts eaten the eater's own kin.",
+   "teaches": "Put together, the eater's belly becomes a burning ground for his own relatives: the fragment supplies the kinship the quatrain's image lacks, and the quatrain supplies the funeral the fragment's argument implies.",
+   "gains": {
+    "a": "the fragment's kinship argument gains a vivid image of where the kin end up",
+    "b": "the quatrain's burning-ground image gains a reason why the dead in it are mourned as one's own"
+   }
+  },
+  {
+   "a": "20",
+   "b": "tirumanthiram:272",
+   "type": "tension",
+   "note": "The Valayapathi says hard penance fit for grace leads to the dark-free state of no return; Tirumular says even burning one's bones and frying one's flesh does not reach the Lord without love that melts.",
+   "teaches": "The two disagree on whether one's own austerity reaches the goal: the fragment's release needs no god and comes by penance, while the Tirumanthiram makes the most extreme penance worthless without love for the Lord; the conflict holds if the fragment's தவம் is read as sufficient by itself.",
+   "gains": {
+    "a": "the fragment's godless route to release is set against the strongest Saiva denial of it",
+    "b": "Tirumular's dismissal of austerity is seen answering a real rival claim, not an abstract one"
+   }
+  },
+  {
+   "a": "23",
+   "b": "kural:1133",
+   "type": "qualifies",
+   "note": "Both tell of a man whom desire strips of shame and standing; the Kural's lover says it in his own voice as a loss of shame and manliness, the Valayapathi condemns it from outside as blame and stained fame.",
+   "teaches": "The same loss is a lover's plea in the Kural and a moralist's charge in the fragment, so the pair shows the madal lover judged two ways: as one whose suffering should move his beloved, and as one whose reputation is ruined.",
+   "gains": {
+    "a": "the fragment's censure is set against the lover's own account it ignores",
+    "b": "the couplet's inventory of loss is shown as it looks to the society the lover defies"
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "paththini",
+   "tamil": "பத்தினி",
+   "gloss": "the chaste wife whose virtue gives her word power, even over rain",
+   "label_source": "The text's word: பத்தினிக்(கு) (valayapathi 3, line 4)"
+  }
+ ],
+ "source_issues": [
+  "0: line 2 is badly divided ('ஏத்துமாண்' runs into 'டிலக மாய திலறறி வனடி'); 'திலறறி' is doubtful and the epithet of the knower cannot be fixed.",
+  "6: line 3 'அத்துனை' is a misspelling of அத்துணை.",
+  "13: line 3 'என்றெண்னி' has ன் for ண் (என்றெண்ணி).",
+  "14: line 2 repaired by the tool ('·' for ஃ in அஃது).",
+  "17: line 4 'மாண்டருகல்' is obscure and may be corrupt.",
+  "18: line 2 'குற்றம்' may be a slip for சுற்றம் (kin), which line 4 uses; the sense of the line turns on it.",
+  "20: line 1 'பொருளடு' is probably பொருளொடு with the vowel sign lost (flagged by the tool).",
+  "21: line 2 'மனமொழி யடுமெயிற்' is probably மனமொழியொடு மெயிற் with the vowel sign lost, and line 3 'கய்தலொ(டு)' probably காய்தலொடு with ா lost; neither is flagged by the tool."
+ ]
+}
