@@ -1,0 +1,780 @@
+{
+ "chapter_no": 30,
+ "chapter_theme": "In Kanchi Aravanar first tells Manimekalai why she bears the goddess's name and why Puhar fell to the sea, and then, when she asks for the true doctrine after rejecting the five schools, begins the Buddhist account of knowledge: two means only, perception as bare awareness and inference, with the forms of a valid proof and a catalogue of false theses and false reasons, many of whose examples are the doctrines of the schools she heard in kaathai 27.",
+ "cast": [
+  {
+   "id": "manimekalai",
+   "tamil": "மணிமேகலை",
+   "role": "Madhavi's daughter, come to Kanchi to take up the ascetic life and hear the dharma"
+  },
+  {
+   "id": "aravana_adigal",
+   "tamil": "அறவணன்",
+   "role": "the Buddhist teacher Aravana Adigal, who tells her family's story and teaches the means of knowledge"
+  },
+  {
+   "id": "killi",
+   "tamil": "கிள்ளி",
+   "role": "the Chola king whose lost infant son led him to forget Indra's festival"
+  },
+  {
+   "id": "pilivalai",
+   "tamil": "பீலிவளை",
+   "role": "daughter of the Naga king, mother of Killi's son"
+  },
+  {
+   "id": "kambala_chetti",
+   "tamil": "கம்பளச் செட்டி",
+   "role": "the merchant whose ship carrying the infant sank"
+  },
+  {
+   "id": "indiran",
+   "tamil": "இந்திரன்",
+   "role": "king of the gods, whose festival lapsed and whose seat trembled at the Bodhisattva's distress"
+  },
+  {
+   "id": "kula_muthalvan",
+   "tamil": "முதல்வன்",
+   "role": "the founder of Kovalan's line, a future Buddha saved from shipwreck by the sea goddess"
+  },
+  {
+   "id": "manimekala_deyvam",
+   "tamil": "மணிமேகலா தெய்வம்",
+   "role": "the sea goddess who saved the ancestor and after whom Manimekalai is named"
+  },
+  {
+   "id": "saaranar",
+   "tamil": "சாரணர்",
+   "role": "the sky-going sages who told the reason for the naming"
+  },
+  {
+   "id": "kovalan",
+   "tamil": "கோவலன்",
+   "role": "Manimekalai's father, who named her after the goddess"
+  },
+  {
+   "id": "madhavi",
+   "tamil": "மாதவி",
+   "role": "Manimekalai's mother, now an ascetic"
+  },
+  {
+   "id": "suthamathi",
+   "tamil": "சுதமதி",
+   "role": "Manimekalai's companion, counted among her mothers"
+  }
+ ],
+ "verses": {
+  "manimekalai:29:1-16": {
+   "reading": "Blessing the girl who bows to him, Aravanar begins a long account: the Naga king's daughter Pilivalai bore Killi's son on the island and handed the infant to the merchant Kambala Chetti, whose ship broke up near the shore that night; told the child was lost, the grieving king searched for him and forgot Indra's festival, and because his festival lapsed the lord of the gods...",
+   "concepts": [
+    "arasu",
+    "idumbai",
+    "piravi"
+   ],
+   "nuance": "The sentence that begins here runs on to line 34, where the lord of the gods named at line 13 lays the curse; lines 14 to 33 are an inset about Manimekalai's ancestor. The unit tells as past what kaathai 1 gave as a warning: that a lapsed festival brings ruin on the city.",
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": "அறவணன்",
+    "line": 2,
+    "addressee": "manimekalai"
+   },
+   "agents": [
+    {
+     "id": "aravana_adigal",
+     "form": "அறவணன்",
+     "line": 2
+    },
+    {
+     "id": "manimekalai",
+     "form": "இளங்கொடி",
+     "line": 1
+    },
+    {
+     "id": "pilivalai",
+     "form": "பீலிவளை",
+     "line": 4
+    },
+    {
+     "id": "kambala_chetti",
+     "form": "கம்பளச் செட்டி",
+     "line": 6
+    },
+    {
+     "id": "killi",
+     "form": "அரைசற்கு",
+     "line": 11
+    }
+   ],
+   "event": "Aravanar tells how Killi's infant son by Pilivalai was lost when the merchant's ship sank, and how the grieving king forgot Indra's festival.",
+   "claims": []
+  },
+  "manimekalai:29:17-28": {
+   "reading": "The inset: when the ship of her father's ancestor, the first among living beings, sank, he struggled in the sea for seven days without harm because of his unfailing virtue, until Indra saw his pale stone seat tremble and bade the goddess relieve the one who would become the lord at the root of the Bodhi tree, and she lifted him from the sea, being one who helps him in every birth to complete the perfections, rule the kingdom of dharma and turn its wheel.",
+   "concepts": [
+    "ozhukkam",
+    "arul",
+    "piravi"
+   ],
+   "nuance": "The ancestor of Kovalan's line is named only as a future Buddha (போதி மூலத்து நாதன் ஆவோன்), so the epic makes Manimekalai's own family the family of a Bodhisattva. The image of line 17 likens the man in the sea to a gold needle stitched into a green blanket. Indra's throne that trembles at a good man's distress is a story pattern the unit takes for granted.",
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [
+    {
+     "id": "kula_muthalvan",
+     "form": "முதல்வன்",
+     "line": 23
+    },
+    {
+     "id": "indiran",
+     "form": null,
+     "line": 22
+    },
+    {
+     "id": "manimekala_deyvam",
+     "form": null,
+     "line": 26
+    }
+   ],
+   "event": "Aravanar tells how the founder of her father's line, shipwrecked, endured seven days in the sea until Indra's seat trembled and the sea goddess lifted him out.",
+   "claims": [
+    {
+     "claim": "unbroken moral discipline (சீலம்) keeps a future Buddha from harm and moves the gods to help him",
+     "school": "buddhist",
+     "line": 20,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    },
+    {
+     "claim": "a future Buddha must complete the perfections over many births before he turns the wheel of dharma",
+     "school": "buddhist",
+     "line": 26,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    }
+   ]
+  },
+  "manimekalai:29:29-42": {
+   "reading": "Because the sky-going sages told the reason, her father named her after the goddess for that help; the goddess Manimekala had announced her renunciation in a dream that night, and by the curse laid in accord with her the sea took the city, so her mothers and Aravanar came to Kanchi for her sake; Manimekalai bows and answers that Deepathilakai of the Buddha seat told her this, and so, in a borrowed form, she heard the subtle doctrines of the schools in that city...",
+   "concepts": [
+    "piravi",
+    "samayam",
+    "thuravu"
+   ],
+   "nuance": "Two speakers share the unit: Aravanar to line 37, Manimekalai from 38. The phrase என்பவட்கு ஒப்ப அவன் இடு சாபத்து leaves open how far the curse is Indra's and how far the goddess's; the epic elsewhere has the goddess carry out the punishment. The naming and the dream were first told by the goddess herself in kaathai 7; here the reason behind the naming is given.",
+   "uncertain": true,
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": "அறவணன்",
+    "line": 37,
+    "addressee": "manimekalai"
+   },
+   "agents": [
+    {
+     "id": "saaranar",
+     "form": "சாரணர்",
+     "line": 29
+    },
+    {
+     "id": "kovalan",
+     "form": "தந்தை",
+     "line": 31
+    },
+    {
+     "id": "manimekala_deyvam",
+     "form": "மணிமேகலா தெய்வம்",
+     "line": 33
+    },
+    {
+     "id": "indiran",
+     "form": null,
+     "line": 34
+    },
+    {
+     "id": "madhavi",
+     "form": "தாயரும்",
+     "line": 35
+    },
+    {
+     "id": "suthamathi",
+     "form": "தாயரும்",
+     "line": 35
+    },
+    {
+     "id": "aravana_adigal",
+     "form": "அறவணன்",
+     "line": 37
+    },
+    {
+     "id": "manimekalai",
+     "form": null,
+     "line": 37
+    }
+   ],
+   "event": "Aravanar tells that her father named her after the goddess and that a curse let the sea take Puhar, so he and her mothers came to Kanchi; Manimekalai bows and says she heard the schools in Vanji in a borrowed form.",
+   "claims": []
+  },
+  "manimekalai:29:43-54": {
+   "reading": "Manimekalai says that because the five kinds of schools were not right she kept none of them in mind, and asks for the true doctrine; Aravanar says the first Jina taught only two means of knowledge, perception and inference: perception is bare awareness that leaves out name, class, quality and action, which belong to inference, and of inference from cause, from effect and from co-presence only that from effect, as smoke to fire, cannot err.",
+   "concepts": [
+    "alavai",
+    "meyyunarvu",
+    "samayam",
+    "arivu"
+   ],
+   "nuance": "ஆதி சினேந்திரன் is the Buddha under a title the Jains also use. The definition answers kaathai 27's logician point for point: he put name, class, quality and action inside perception, and this teacher puts them outside. The rejection of the schools is Manimekalai's own judgment, made before any teaching; the teacher then gives a method, not a verdict on each school.",
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [
+    {
+     "id": "manimekalai",
+     "form": null,
+     "line": 43
+    },
+    {
+     "id": "aravana_adigal",
+     "form": null,
+     "line": 46
+    }
+   ],
+   "event": "Manimekalai asks Aravanar for the true doctrine, and he begins to teach the two means of knowledge.",
+   "claims": [
+    {
+     "claim": "there are only two means of valid knowledge, perception and inference",
+     "school": "buddhist",
+     "line": 47,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    },
+    {
+     "claim": "perception is bare awareness, free of name, class, quality and action, which are reached by inference",
+     "school": "buddhist",
+     "line": 49,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    },
+    {
+     "claim": "inference from an effect to its cause, as from smoke to fire, does not err, while inference from cause or co-presence can",
+     "school": "buddhist",
+     "line": 53,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    }
+   ]
+  },
+  "manimekalai:29:55-71": {
+   "reading": "All other means of knowledge are inference; an inference has five members, thesis, reason, example, application and conclusion, shown on 'this hill has fire, because it has smoke, like a kitchen', with the counter-example 'what has no fire has no smoke, like water'; the pure reasons are of effect and of own nature, as in 'sound is impermanent' with 'because it is made' stated of the subject.",
+   "concepts": [
+    "alavai",
+    "arivu",
+    "aaraaydhal"
+   ],
+   "nuance": "The other means named in kaathai 27 (comparison, scripture, presumption and the rest) are not refuted one by one but absorbed into inference by a single line (55-56). The five-member form is given here only to be cut to three at line 109.",
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "every means of knowledge other than perception is a form of inference",
+     "school": "buddhist",
+     "line": 55,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    },
+    {
+     "claim": "a sound reason is either an effect of what is inferred or of the same nature as it",
+     "school": "buddhist",
+     "line": 68,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    }
+   ]
+  },
+  "manimekalai:29:72-84": {
+   "reading": "The positive example states 'whatever is made is impermanent, like a pot' and the negative 'whatever is not impermanent is not made, like space'; for the reason from non-appearance, 'there is no pot in this open place, because none appears', with 'we do not see the hare's horn, because it is not' and 'whatever exists comes to appear, like a gooseberry in the hand'.",
+   "concepts": [
+    "alavai",
+    "arivu",
+    "meyyunarvu"
+   ],
+   "unit_note": "Boundary moved from 87 to 84: the non-appearance example ends at ஏற்ற விபக்கத்து உரை எனல் ஆகும் (84); line 85 begins the question of how a reason proves.",
+   "nuance": "With the effect reason and the own-nature reason of line 68, this gives three kinds of valid reason, the third proving absence. The word naming it, அநன்னுவயத்தில் (77), is doubtful as printed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the absence of a perceivable thing is proved by its not appearing where it would appear",
+     "school": "buddhist",
+     "line": 79,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    }
+   ]
+  },
+  "manimekalai:29:85-108": {
+   "reading": "Asked how smoke proves fire, the teacher denies that bare co-presence or co-absence does it: the smoke itself, rising and dark as fire's effect, must prove it; if co-presence proved, a man who once saw a donkey with a courtesan would have to infer the courtesan whenever he saw the donkey, and if co-absence proved, a donkey's neck bare of both dog's tail and jackal's tail would let one infer the one tail from the other.",
+   "concepts": [
+    "alavai",
+    "aaraaydhal",
+    "arivu"
+   ],
+   "unit_note": "Boundaries moved from 88 and 98 to 85 and 108: the question begins at இவ்வகை ஏது பொருள் சாதிப்பன (85) and the second objection closes at அதனால் அதுவும் ஆகாது (108).",
+   "nuance": "The two jokes carry the argument: a reason proves because it is tied to what it proves by nature (here as effect to cause), not because the two were once seen together or apart. Lines 92 and 94 (ஊர்த்தச் சாமம் கௌடிலச் சாமம், பகைத்திருப்ப) are obscure as printed, so the description of the smoke is uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a reason proves its conclusion through a real tie of nature or causation, not through observed co-presence or co-absence alone",
+     "school": "buddhist",
+     "line": 95,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    }
+   ]
+  },
+  "manimekalai:29:109-117": {
+   "reading": "Application and conclusion fold into the example, leaving thesis, reason and example, each of which may be good or bad; the thesis is to be set out as what joins an evident subject with an evident property to be proved, marked off from other things.",
+   "concepts": [
+    "alavai",
+    "aaraaydhal"
+   ],
+   "unit_note": "Boundaries moved from 99 and 113 to 109 and 117: line 108 ends the argument on co-presence, and the definition of the thesis that begins at 111 ends at நன்கு என் பக்கம் என நாட்டுக (117).",
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "an inference for others needs only thesis, reason and example; application and conclusion are contained in the example",
+     "school": "buddhist",
+     "line": 109,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    }
+   ]
+  },
+  "manimekalai:29:118-135": {
+   "reading": "In 'sound is impermanent' the subject is sound and the property to be proved is impermanence; a good reason has three marks, resting in the subject, found among similar cases and wholly absent from dissimilar ones, as 'being made' and 'arising from effort' are found in sound and in pots and never in space.",
+   "concepts": [
+    "alavai",
+    "aaraaydhal",
+    "nilaiyaamai"
+   ],
+   "unit_note": "Boundaries moved from 114 and 138 to 118 and 135: the worked example begins at 118 and closes at விளங்கிற்று என்க (135).",
+   "nuance": "The test case throughout is the impermanence of sound, which matters to a Buddhist teacher because everything made is impermanent; the logic is taught on a doctrine of the school.",
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a valid reason must be present in the subject, present in similar cases and absent from all dissimilar cases",
+     "school": "buddhist",
+     "line": 122,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    },
+    {
+     "claim": "whatever is made is impermanent",
+     "school": "buddhist",
+     "line": 132,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    }
+   ]
+  },
+  "manimekalai:29:136-153": {
+   "reading": "The example is of two kinds, by likeness and by difference, and these belong to a sound proof; their bad counterparts are the false thesis, false reason and false example, and the false thesis is of nine kinds, which the teacher names.",
+   "concepts": [
+    "alavai",
+    "poli",
+    "aaraaydhal"
+   ],
+   "unit_note": "Boundaries moved from 139 and 153 to 136 (153 unchanged): the account of the example begins at ஏதம் இல் திட்டாந்தம் இரு வகைய (136).",
+   "nuance": "The nine are the contradictions of perception, of inference, of one's own words, of common usage and of scripture, and four kinds of term the opponent does not accept. Kaathai 27's logician also listed false appearances, but of knowing; these are false steps in arguing before an opponent.",
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a thesis can fail in nine ways even before any reason is given",
+     "school": "buddhist",
+     "line": 147,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    }
+   ]
+  },
+  "manimekalai:29:154-172": {
+   "reading": "The teacher gives an example of each false thesis: 'sound is not heard by the ear' goes against perception, 'the pot is eternal' against inference, 'my mother is barren' against one's own words, 'the moon is not the moon' against common usage, a Vaisheshika calling the impermanent eternal against his own scripture, and a Buddhist telling a Sankhya that sound perishes uses a predicate the Sankhya does not accept.",
+   "concepts": [
+    "alavai",
+    "poli",
+    "samayam"
+   ],
+   "nuance": "The rival schools enter as test cases, not as opponents to be beaten: the Vaisheshika is called அநித்த வாதி and the Sankhya அவிநாசவாதி, and the rule is that a thesis must be put in terms the hearer grants. Line 163 turns on மதி and சந்திரன், two words for the moon.",
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a thesis that contradicts one's own accepted scripture is false",
+     "school": "buddhist",
+     "line": 164,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    },
+    {
+     "claim": "sound is impermanent",
+     "school": "vedic",
+     "line": 165,
+     "stance": "reported",
+     "voiced_by": "aravana_adigal",
+     "school_detail": "vaisheshika"
+    },
+    {
+     "claim": "nothing perishes",
+     "school": "vedic",
+     "line": 171,
+     "stance": "reported",
+     "voiced_by": "aravana_adigal",
+     "school_detail": "sankhya"
+    }
+   ]
+  },
+  "manimekalai:29:173-190": {
+   "reading": "A Sankhya telling a Buddhist 'the soul has consciousness' names a subject the Buddhist, who denies a soul, does not accept; a Vaisheshika telling a Buddhist 'the soul is the cause of pleasure and the rest' uses subject and predicate both unaccepted; and telling a Buddhist 'sound is impermanent' proves what he already holds, which needs no proof.",
+   "concepts": [
+    "alavai",
+    "poli",
+    "samayam",
+    "uyir"
+   ],
+   "unit_note": "Boundary moved from 192 to 190: the false theses end at வேறு சாதிக்க வேண்டாது ஆகும் (190); 191 begins the false reasons.",
+   "nuance": "The Buddhist's denial of the soul (அநான்ம வாதி, 177) is stated in passing, as a fact a debater must allow for, not argued. The rule makes a debate depend on what the other side grants.",
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "there is no soul",
+     "school": "buddhist",
+     "line": 177,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    },
+    {
+     "claim": "the soul is conscious",
+     "school": "vedic",
+     "line": 176,
+     "stance": "reported",
+     "voiced_by": "aravana_adigal",
+     "school_detail": "sankhya"
+    },
+    {
+     "claim": "the soul is the cause of pleasure and the other qualities",
+     "school": "vedic",
+     "line": 183,
+     "stance": "reported",
+     "voiced_by": "aravana_adigal",
+     "school_detail": "vaisheshika"
+    },
+    {
+     "claim": "a thesis the opponent already holds is not a thesis to be proved",
+     "school": "buddhist",
+     "line": 187,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    }
+   ]
+  },
+  "manimekalai:29:191-206": {
+   "reading": "False reasons are of three kinds, unestablished, inconclusive and contradictory; the unestablished are four: unaccepted by both sides ('sound is impermanent because seen by the eye'), unaccepted by one ('because produced', to a Sankhya for whom things are manifested, not produced), doubtful (declaring fire on seeing what may be mist or steam), and lacking a subject.",
+   "concepts": [
+    "alavai",
+    "poli",
+    "aaraaydhal"
+   ],
+   "unit_note": "Boundaries moved from 193 and 205 to 191 and 206: the false reasons begin at ஏதுப் போலி ஓதின் (191), and the example of the doubtful reason ends at துணிதல் (206).",
+   "nuance": "The doubtful kind is named சித்த அசித்தம் (203), though the definition (ஏது சங்கயமாய்) describes a reason in doubt; the name may be corrupt. The Sankhya example matches kaathai 27, where the Sankhya speaker describes every stage of the world as வெளிப்பட்டு, becoming manifest.",
+   "uncertain": true,
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "things are not produced but only made manifest",
+     "school": "vedic",
+     "line": 201,
+     "stance": "reported",
+     "voiced_by": "aravana_adigal",
+     "school_detail": "sankhya"
+    },
+    {
+     "claim": "a reason that is in doubt cannot ground a firm conclusion",
+     "school": "buddhist",
+     "line": 204,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    }
+   ]
+  },
+  "manimekalai:29:207-222": {
+   "reading": "The reason lacking a subject is shown by 'space is a substance because it has the quality of sound', said to one who denies that space is a substance; the inconclusive reasons are six, and the first, the too general, belongs to both similar and dissimilar cases, as 'sound is impermanent because knowable' leaves open whether sound is known like a pot or like space.",
+   "concepts": [
+    "alavai",
+    "poli",
+    "aaraaydhal"
+   ],
+   "unit_note": "Boundaries moved from 206 and 221 to 207 and 222: the reason lacking a subject begins at 207, and the question about knowability closes at நித்தத்து அறிவோ? (222).",
+   "nuance": "The example thesis about space is the Vaisheshika's (space is among his nine substances and sound among the qualities in kaathai 27); who denies it is not said.",
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "space is a substance, known by its quality of sound",
+     "school": "vedic",
+     "line": 209,
+     "stance": "reported",
+     "voiced_by": "aravana_adigal",
+     "school_detail": "vaisheshika"
+    },
+    {
+     "claim": "a reason found equally in similar and dissimilar cases proves nothing",
+     "school": "buddhist",
+     "line": 217,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    }
+   ]
+  },
+  "manimekalai:29:223-233": {
+   "reading": "The too narrow reason belongs to the subject alone and to neither similar nor dissimilar cases, as 'sound is eternal because it is heard' leaves doubt, since only sound is heard; the next kind is the reason found in part of the similar cases and throughout the dissimilar ones.",
+   "concepts": [
+    "alavai",
+    "poli"
+   ],
+   "unit_note": "Boundary moved from 222 to 223: line 223 opens with the closing word of the previous example (என்னல்) and then begins the too narrow reason.",
+   "nuance": "The kaathai's account of false reasons runs on past this chapter's end at 233.",
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a reason found only in the subject leaves the conclusion in doubt",
+     "school": "buddhist",
+     "line": 230,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": "manimekalai:29:1-16",
+   "b": "manimekalai:1:10-34",
+   "type": "develops",
+   "note": "Kaathai 1 has the assembled sages warn that if the festival is forgotten the guardian spirit will bring harm; here a king searching for his lost son forgets the festival, and the curse follows.",
+   "teaches": "The warning of the first kaathai turns out to name the cause of Puhar's end, and the lapse comes not from neglect but from a father's grief, so the city falls through the king's love rather than his vice."
+  },
+  {
+   "a": "manimekalai:29:29-42",
+   "b": "manimekalai:7:26-39",
+   "type": "develops",
+   "note": "In kaathai 7 the goddess says Kovalan named the child after her and that she told Madhavi in a dream that the child would be a great ascetic; here Aravanar gives the reason for the naming, the goddess's rescue of the Bodhisattva ancestor.",
+   "teaches": "Read together, the name Manimekalai is a debt of the family line to a goddess who serves a future Buddha, so the renunciation foretold at her birth is the line's old bond coming due."
+  },
+  {
+   "a": "manimekalai:29:29-42",
+   "b": "manimekalai:10:71-93",
+   "type": "develops",
+   "note": "The goddess foretold that Manimekalai would hear the false teachings of many schools and gave her the mantra to take another form; here Manimekalai reports having heard them so, in Vanji.",
+   "teaches": "The tour of the schools in kaathai 27 was a prescribed stage, not a chance encounter: the goddess set it up so that Manimekalai would reject the schools herself before the teacher speaks."
+  },
+  {
+   "a": "manimekalai:29:29-42",
+   "b": "thiruppugazh:138",
+   "type": "tension",
+   "note": "Both turn from the noise of the schools to a teacher; Arunagiri asks Murugan for an upadesam and a vision past the logicians' quarrel, while Manimekalai's teacher answers with the rules of valid argument.",
+   "teaches": "The pair shows two answers to the same fatigue with the schools: the Buddhist epic trains the hearer to argue rightly, the Saiva hymn asks to be lifted beyond argument by grace, and the tension holds as long as the logic is read as a path and not only as a tool.",
+   "gains": {
+    "a": "the epic unit gains a contrast showing that its turn to a teacher leads into more reasoning, not out of it",
+    "b": "the hymn's list of quarrelling schools gains a case where one of those schools, the Buddhist, is seen from inside, offering method rather than clamour"
+   }
+  },
+  {
+   "a": "manimekalai:29:43-54",
+   "b": "kural:423",
+   "type": "qualifies",
+   "note": "The couplet makes understanding the power to find the true substance in whatever one hears from anyone; Manimekalai has heard every school and judged them wanting, but asks a teacher for the true doctrine.",
+   "teaches": "The epic shows the limit of the couplet's test: a hearer can reject what she hears from many mouths and still lack the means to find the truth, so the teacher gives her a method of knowing rather than an answer.",
+   "gains": {
+    "a": "Manimekalai's refusal of the schools gains a general standard by which her judgment is measured",
+    "b": "the couplet gains a case showing that discernment can stop at rejection, and needs the means of knowledge to go further"
+   }
+  },
+  {
+   "a": "manimekalai:29:43-54",
+   "b": "kural:355",
+   "type": "qualifies",
+   "note": "The couplet bids one see the true thing whatever nature (தன்மை) a thing appears to have; the Buddhist teacher strips perception of name, class, quality and action and assigns them to inference.",
+   "teaches": "On the Buddhist account the 'nature' the couplet looks past is largely the mind's own labelling, so seeing the true thing becomes a matter of separating bare perception from what inference adds.",
+   "gains": {
+    "a": "the technical definition of perception gains a moral aim: the true thing the couplet calls understanding",
+    "b": "the couplet's open word தன்மை gains one precise reading, as the class, quality and name the mind lays on what it sees"
+   }
+  },
+  {
+   "a": "manimekalai:29:43-54",
+   "b": "manimekalai:12:104-121",
+   "type": "develops",
+   "note": "Aravanar told her that she would not take up the teaching until the events caused by her had come to pass; now, after the prison, Aputhiran's land and the tour of the schools, she asks him for it.",
+   "teaches": "The long middle of the epic is framed as the waiting time Aravanar named, and her request now marks that the conditions he set have been met."
+  },
+  {
+   "a": "manimekalai:29:55-71",
+   "b": "tirumanthiram:51",
+   "type": "tension",
+   "note": "Tirumular says the wise gave up logic and debate (தர்க்க வாதம்), recited the Veda and gained release; the Buddhist teacher folds scripture into inference and makes logic the first part of the true doctrine.",
+   "teaches": "The two disagree on the same question, whether scripture stands as its own source of truth above argument, and the Buddhist answer explains why the epic's road to release passes through debate rules that the Saiva verse tells the wise to leave behind.",
+   "gains": {
+    "a": "the epic's quiet reduction of all other means to inference gains a clear statement of the position it denies",
+    "b": "the verse's dismissal of தர்க்க வாதம் gains a concrete instance of the logic it dismisses, taught as a path to release"
+   }
+  },
+  {
+   "a": "manimekalai:29:72-84",
+   "b": "kural:351",
+   "type": "develops",
+   "note": "The couplet says that taking what is not a thing for a thing breeds an unworthy birth; the teacher gives a test for absence, that a thing which exists appears like a gooseberry in the hand, and the hare's horn does not.",
+   "teaches": "The epic turns the couplet's warning into a procedure: what would appear if it were there and does not appear may be judged absent, which gives the confusion the couplet fears a check in method.",
+   "gains": {
+    "a": "the logic of non-appearance gains a moral stake, since the couplet ties the error it guards against to rebirth",
+    "b": "the couplet's மருள் gains a means of correction, a rule for deciding what is not there"
+   }
+  },
+  {
+   "a": "manimekalai:29:136-153",
+   "b": "manimekalai:27:57-85",
+   "type": "qualifies",
+   "note": "The Vedic logician listed false appearances of knowing (shell for silver, post or man); the Buddhist teacher lists false theses, reasons and examples.",
+   "teaches": "Set side by side, the two lists show the Buddhist teacher moving error from the senses to argument: what goes wrong is less a mistaken seeing than a thesis put in terms the other side cannot grant."
+  },
+  {
+   "a": "manimekalai:29:173-190",
+   "b": "manimekalai:27:227-240",
+   "type": "develops",
+   "note": "In kaathai 27 the Sankhya speaker describes the person as awareness itself; here 'the soul has consciousness' is the stock example of a thesis whose subject a Buddhist does not accept.",
+   "teaches": "The doctrine Manimekalai heard laid out without reply in kaathai 27 returns as a lesson in debate, answered not by a counter-argument but by the rule that a debater cannot assume a soul his opponent denies."
+  },
+  {
+   "a": "manimekalai:29:173-190",
+   "b": "naladiyar:313",
+   "type": "qualifies",
+   "note": "The quatrain mocks debaters who do not know how to make what they learned reach the hearer; the teacher's false theses are exactly theses that cannot reach the hearer, because he does not grant their terms or already holds the conclusion.",
+   "teaches": "The epic gives the quatrain's complaint a precise form: an argument fails not only by poor delivery but when its subject or conclusion is foreign or already granted to the one it is aimed at.",
+   "gains": {
+    "a": "the technical rules gain an ethical frame, as the duty of a speaker to the one he addresses",
+    "b": "the quatrain's 'not knowing how to make it reach' gains named cases showing what such a failure is"
+   }
+  },
+  {
+   "a": "manimekalai:29:191-206",
+   "b": "manimekalai:27:202-226",
+   "type": "develops",
+   "note": "The Sankhya speaker of kaathai 27 tells every stage of the world as வெளிப்பட்டு, becoming manifest; here 'because it is produced' is a reason a Sankhya does not accept, since for him things are manifested, not produced.",
+   "teaches": "The pairing shows that the epic's logic lesson is built on the doctrines Manimekalai heard in Vanji, so the account of the schools in kaathai 27 is accurate enough to be used as the test case here."
+  },
+  {
+   "a": "manimekalai:29:207-222",
+   "b": "manimekalai:27:241-262",
+   "type": "develops",
+   "note": "The Vaisheshika of kaathai 27 counts space among the nine substances and sound among the qualities; here 'space is a substance by its quality of sound' is a thesis whose subject an opponent may deny.",
+   "teaches": "The doctrine stated as settled fact in kaathai 27 is shown here to rest on a subject not every school grants, so the teacher answers the Vaisheshika by the form of debate rather than by contrary doctrine."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "poli",
+   "tamil": "போலி",
+   "gloss": "a false semblance of a member of an argument: a thesis, reason or example that looks valid and is not",
+   "label_source": "The text's word: பக்கப் போலியும் ஏதுப் போலியும் திட்டாந்தப் போலியும் (145-146), ஏதுப் போலி (191)"
+  }
+ ],
+ "source_issues": [
+  "Line 90 prints புகஈ for புகை.",
+  "Line 94 (பகைத்திருப்ப) and line 92 (ஊர்த்தச் சாமம் கௌடிலச் சாமம்) are obscure as printed.",
+  "Line 77 prints அநன்னுவயத்தில் where the sense calls for the reason from non-appearance; the word may be corrupt.",
+  "Line 203 names the doubtful reason சித்த அசித்தம், though its definition (204-206) is of a reason in doubt; the name may be corrupt.",
+  "Lines 189 (அவன்ன்) and 192 (விருத்தம்ம்) print a doubled final consonant.",
+  "Line 131 reads ஆ அகாசம், with a stray ஆ.",
+  "Lines 113, 114 and 201 were repaired for the old-font ௌ / ெள confusion.",
+  "The core unit breaks at 16 and 42 fall inside sentences: Aravanar's account runs from line 1 to 37 as one sentence."
+ ]
+}

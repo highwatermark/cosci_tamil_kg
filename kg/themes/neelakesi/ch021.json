@@ -1,0 +1,789 @@
+{
+ "chapter_no": 21,
+ "chapter_theme": "The last run of the Mokkala debate: Mokkala attacks the Jain claim of omniscience (infinite objects, past and future things) and mocks the Jain marks of the Lord; Neelakesi answers, declares him defeated with Kundalakesi's old arguments, sings a hymn to the Jina's knowledge, marvels and feet, and explains release as a burnt seed that never sprouts; Mokkala accepts, disowns his teachers, sends her to his own teacher at Kapilapuram, honours her and leaves, and she sets out against the Buddha.",
+ "cast": [
+  {
+   "id": "neelakesi",
+   "tamil": "நீலகேசி",
+   "role": "the demoness of the burning-ground temple who takes the Jain dharma and becomes its debater"
+  },
+  {
+   "id": "mokkalan",
+   "tamil": "மொக்கலன்",
+   "role": "the Buddhist elder at Padumapuram, named in 266 as the Buddha's first disciple and Arkkachandra's teacher"
+  }
+ ],
+ "verses": {
+  "439": {
+   "reading": "Neelakesi says there is no lasting fault in holding that the Lord's knowledge stands and grasps the many different things by the ways they are alike and unlike, and rebukes Mokkala for not taking in, after all he has heard today, the truth of such knowledge.",
+   "concepts": [
+    "arivu",
+    "iraivan",
+    "vaadham"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi answers Mokkala's objection to the omniscience of her Lord and rebukes him for not grasping it.",
+   "claims": [
+    {
+     "claim": "the omniscient's knowledge grasps many distinct things through their likeness and difference without fault",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "440": {
+   "reading": "Mokkala objects that if the boundless knower knows boundless things without limit by boundless knowledge, that knowledge could never reach the end of them.",
+   "concepts": [
+    "arivu",
+    "vaadham",
+    "iraivan"
+   ],
+   "nuance": "The verse turns on the word எல்லை, used seven times: an object without end, he argues, cannot be known to its end, so a knowledge that knows it completely contradicts itself.",
+   "speaker": {
+    "who": "mokkalan",
+    "form": null,
+    "line": null,
+    "addressee": "neelakesi"
+   },
+   "agents": [
+    {
+     "id": "mokkalan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Mokkala objects that infinite objects cannot be known completely.",
+   "claims": [
+    {
+     "claim": "a knowledge of infinitely many things can never be completed, so no one knows all things",
+     "school": "buddhist",
+     "line": 4,
+     "stance": "refuted",
+     "voiced_by": "mokkalan"
+    }
+   ]
+  },
+  "441": {
+   "reading": "Neelakesi replies that she has already said the Lord's knowledge lights up the whole nature of the many gathered things at once as the sun does, and calls him a simpleton for repeating the same objection.",
+   "concepts": [
+    "arivu",
+    "iraivan",
+    "pedhaimai"
+   ],
+   "nuance": "Line 3 is hard to divide (களக்கிவர் தன்ன மன்னாய் ஆத்தனது அறிவும்); the image there is unclear, so only the sun simile and the rebuke are read with confidence.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi repeats that the Lord's knowledge reveals all things like the sun and rebukes Mokkala.",
+   "claims": [
+    {
+     "claim": "the omniscient's knowledge reveals the nature of all things together as the sun lights everything",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "442": {
+   "reading": "Mokkala presses a dilemma: if the Lord has no knowledge of what is not present he is defective, if he has it then nothing more is needed, and since the things so known include what does not exist, his knowledge would be working on non-existent things, which is a fault.",
+   "concepts": [
+    "arivu",
+    "vaadham",
+    "iraivan"
+   ],
+   "nuance": "The repeated ஓதலில் is the crux; I take it as knowledge of what is not before him (past and future things), which 443's answer about gone and coming qualities supports, but the word could be read otherwise.",
+   "uncertain": true,
+   "speaker": {
+    "who": "mokkalan",
+    "form": null,
+    "line": null,
+    "addressee": "neelakesi"
+   },
+   "agents": [
+    {
+     "id": "mokkalan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Mokkala argues that knowing past and future things would mean knowing what does not exist.",
+   "claims": [
+    {
+     "claim": "to know past and future things is to know what does not exist, which is a fault in knowledge",
+     "school": "buddhist",
+     "line": 4,
+     "stance": "refuted",
+     "voiced_by": "mokkalan"
+    }
+   ]
+  },
+  "443": {
+   "reading": "Neelakesi answers that the stainless one knows by his abiding knowledge the qualities that have gone, those that will come and those of today through the nature of the substance itself, so past and future are not lacking in things.",
+   "concepts": [
+    "arivu",
+    "iraivan",
+    "kaalam"
+   ],
+   "nuance": "The answer rests on the Jain view that a substance carries its past and future modes, so the omniscient does not know a non-existent but an aspect of what is; it meets 442 directly.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "past and future qualities belong to the nature of a substance, so the omniscient knows them without knowing non-existents",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "444": {
+   "reading": "Mokkala mocks the Jain marks of the Lord: if one is the Aptha in your scripture because he has no birth, no forgetting and none of the four wombs, then the stone that rolls about in the open would be a holy one too.",
+   "concepts": [
+    "iraivan",
+    "piravi",
+    "vaadham"
+   ],
+   "speaker": {
+    "who": "mokkalan",
+    "form": null,
+    "line": null,
+    "addressee": "neelakesi"
+   },
+   "agents": [
+    {
+     "id": "mokkalan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Mokkala argues that the Jain marks of lordship, being absences, would make a stone a lord.",
+   "claims": [
+    {
+     "claim": "a lord defined by having no birth and no forgetting is no better than a stone",
+     "school": "buddhist",
+     "line": 4,
+     "stance": "refuted",
+     "voiced_by": "mokkalan"
+    }
+   ]
+  },
+  "445": {
+   "reading": "Neelakesi retorts that if being born made one great, children would be greatest; the Lord is great because the eightfold seeds are utterly burnt; and she wishes on those who call the excellent Lord a stone that they become lepers with sores breaking through the skin.",
+   "concepts": [
+    "iraivan",
+    "vinai",
+    "piravi",
+    "kadunjol"
+   ],
+   "nuance": "The eightfold seeds (அட்டக வித்து) are read as the eight kinds of karma, so lordship is defined by what has been destroyed, not by mere absence of birth. Lines 3 and 4 read as a curse on the mocker, but the syntax is loose and the curse is my reading.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi rebuts Mokkala's stone argument and curses those who call her Lord a stone.",
+   "claims": [
+    {
+     "claim": "the Lord's greatness is that the eight seeds of karma are burnt away, not mere absence of birth",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "446": {
+   "reading": "Neelakesi asks what fault there is in calling Lord the one who has no womb to enter, has no equal, has reached endless knowledge, and is praised on every side by the twelve assemblies under the pindi tree within golden walls, beneath the triple umbrella.",
+   "concepts": [
+    "iraivan",
+    "arivu",
+    "vazhipaadu"
+   ],
+   "nuance": "The golden walls, the pindi (asoka) tree and the three umbrellas are the marks of the Jina's preaching hall; she answers the stone jibe by adding positive marks to the negative ones.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Lord is the one free of rebirth who has gained endless knowledge and is worshipped by the twelve assemblies",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "447": {
+   "reading": "Neelakesi, who won by speaking with justice, tells Mokkala that what he has sifted and put forward is the line by which Kundalakesi once defeated the Jains in the great hall, and that he too has fallen.",
+   "concepts": [
+    "vaadham",
+    "samayam"
+   ],
+   "nuance": "Lines 1 and 2 (கோதியிட்டு, ஆதிசாலாவணத்துள் ஆர்கதர்) are hard; I read ஆர்கதர் as the Arhat's followers and the place as a hall or market of debate, which makes Mokkala's arguments a reuse of Kundalakesi's; the verse may instead say Kundalakesi was defeated there.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": "நீலமா கேசி நல்லாள்",
+    "line": 4,
+    "addressee": "mokkalan"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": "நீலமா கேசி நல்லாள்",
+     "line": 4
+    }
+   ],
+   "event": "Neelakesi declares Mokkala defeated, saying his arguments were the ones Kundalakesi had used.",
+   "claims": []
+  },
+  "448": {
+   "reading": "Neelakesi tells Mokkala that he has babbled at length only what fools say and has a mind so swollen that men call him a great fool, and announces that she will tell him the worth of the stainless one, the father, the leader, the seer of reality who taught the justice of the path of tapas.",
+   "concepts": [
+    "iraivan",
+    "pedhaimai",
+    "thavam"
+   ],
+   "nuance": "The metre changes here, and the next seven verses are a hymn to the Jina in short four-syllable feet.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi begins a hymn on the qualities of her Lord.",
+   "claims": []
+  },
+  "449": {
+   "reading": "The hymn says that wherever the Lord goes, enmity, hunger, disease and the many sorrows perish, trees burst into bud, flower, shoot and fragrance, the land yields its harvest, and all rejoice in every direction.",
+   "concepts": [
+    "iraivan",
+    "pasi",
+    "pagai",
+    "noy"
+   ],
+   "nuance": "The Lord is called சுகதன், a name usually given to the Buddha; either the hymn claims the title for the Jina or line 4 says these marvels are other than the Buddha's, and I cannot settle which.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Jina's going through the land ends enmity, hunger and disease",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "450": {
+   "reading": "The hymn says our Lord's knowledge knows wholly, like a gem in the open palm, all the unerring things that combine and separate, that never fail in their permanence, that rise and fall, and whose nature is without end.",
+   "concepts": [
+    "arivu",
+    "iraivan",
+    "nilaiyaamai"
+   ],
+   "nuance": "Things are described at once as abiding (நிலையின) and as rising and falling (எழுவன விழுவன): the Jain view that a thing is permanent as substance and changing as mode, set against the Buddhist claim of momentariness.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "things are both permanent and arising and perishing, and the omniscient knows them all as plainly as a gem in the palm",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "451": {
+   "reading": "The hymn says those with full senses know through them and in order, but the Lord is not one whose knowledge goes by order even when things happen in order; hidden things exist but do not hide from his knowledge, and this is how he knows all.",
+   "concepts": [
+    "arivu",
+    "iraivan"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the omniscient's knowledge does not depend on the senses and does not proceed in sequence",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "452": {
+   "reading": "The hymn says the grace of the supreme one to whom all bow shows the sure way to cut the whirlpool of the sea of disease-bringing births, the way our sorrow ends, and the attainment of the jewel-like state of Siva.",
+   "concepts": [
+    "veedu",
+    "piravi",
+    "arul"
+   ],
+   "nuance": "சிவகதி here is the auspicious state of the released soul, not union with Siva; the hymn shares the Saiva words அருள், பரமன், சிவகதி while giving them Jain sense.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the supreme one's teaching shows the way to cut the cycle of births and reach the auspicious state",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "453": {
+   "reading": "The hymn names the signs of the Lord's presence: showers of flowers and drops of fragrance, the deeds of the gods, the praiseworthy qualities, the spreading sound of praise from which the state of Siva follows, and the blazing gem-set seat.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan",
+    "veedu"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the praise of the Lord brings about the auspicious state",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "454": {
+   "reading": "The hymn says that when kings, gods and countless others sit and ask, our Lord's speech thunders like a drum so that all of them, rejoicing, understand in many ways the things that are.",
+   "concepts": [
+    "iraivan",
+    "sol",
+    "kelvi"
+   ],
+   "nuance": "The speech heard by every listener in his own way is the Jina's divine sound, one of his marks.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Lord's single speech is understood by every hearer according to his kind",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "455": {
+   "reading": "The hymn says these are the twin feet of our Lord, which with spreading rays destroy the darkness of deeds, drive away dense darkness, defeat cruel faults, and are reached by those who seek the path.",
+   "concepts": [
+    "thiruvadi",
+    "vinai",
+    "iraivan"
+   ],
+   "nuance": "Line 3 (மனையிருள் நெறிபெற மதிகெட அடைவன) is obscure; and வினையம் in line 4 may be 'discipline' or a play on வினை, deeds.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Lord's feet destroy the darkness of karma",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "456": {
+   "reading": "Neelakesi ends the hymn: those who, saying this is the Aptha, strew flowers on the place of his feet and praise him with fitting hymns lose both kinds of deed and come to the undivided state of Siva.",
+   "concepts": [
+    "vazhipaadu",
+    "vinai",
+    "veedu"
+   ],
+   "nuance": "Both kinds of deed (இருவினை), good and bad, must perish; the verse makes worship of the Aptha a cause of that, a stronger claim for devotion than the debate verses make.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi closes her hymn by telling what reward the Aptha's worshippers receive.",
+   "claims": [
+    {
+     "claim": "those who worship the Aptha with flowers and praise lose both kinds of deed and reach release",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "457": {
+   "reading": "Mokkala grants that if these are the Lord's powers they are fitting and the matters as set out are without error, and asks her to explain, as she has examined it, how release differs from what has simply perished.",
+   "concepts": [
+    "veedu",
+    "vaadham"
+   ],
+   "nuance": "The question seems to be whether Jain release is anything other than extinction; the reading of வீந்த இவற்றின் வேற்றுமை is doubtful.",
+   "uncertain": true,
+   "speaker": {
+    "who": "mokkalan",
+    "form": null,
+    "line": null,
+    "addressee": "neelakesi"
+   },
+   "agents": [
+    {
+     "id": "mokkalan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Mokkala concedes the Lord's powers and asks what release is.",
+   "claims": []
+  },
+  "458": {
+   "reading": "Neelakesi answers that as a burnt seed never sprouts, the soul, having become the same in the eight qualities and free of birth, abides permanently in the state of perfection with its eightfold nature intact.",
+   "concepts": [
+    "veedu",
+    "uyir",
+    "piravi"
+   ],
+   "nuance": "The burnt seed answers 457: release is not perishing, since the soul remains; what is burnt is only the capacity to be born.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "mokkalan"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the released soul, like a burnt seed, is never born again and abides eternally in perfection with eight qualities",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "459": {
+   "reading": "Mokkala, his heart cooled, says this is right, and that the nature of his leaders who ruined this release is unworthy, and he laughs at himself.",
+   "concepts": [
+    "veedu",
+    "samayam",
+    "thelivu"
+   ],
+   "nuance": "Line 4 (நக்கனனாய்க்கென்று நன்னுதல் என்றான்) is obscure; நக்கனன் may be 'he laughed' or a form of நக்கன், the naked Jain ascetic, so it is unclear whether he laughs or addresses Neelakesi.",
+   "uncertain": true,
+   "speaker": {
+    "who": "mokkalan",
+    "form": "மொக்கலன்",
+    "line": 2,
+    "addressee": "neelakesi"
+   },
+   "agents": [
+    {
+     "id": "mokkalan",
+     "form": "மொக்கலன்",
+     "line": 2
+    }
+   ],
+   "event": "Mokkala accepts the Jain account of release and disowns his own teachers' doctrine.",
+   "claims": [
+    {
+     "claim": "the Buddhist teachers' doctrine ruined the idea of release",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "mokkalan"
+    }
+   ]
+  },
+  "460": {
+   "reading": "Mokkala tells her that the one who first gave him this delusion is in Kapilapuram, the city that bewilders those who see it, teaching his doctrine there, and bids her go and fight him without flinching.",
+   "concepts": [
+    "vaadham",
+    "guru",
+    "mayal"
+   ],
+   "speaker": {
+    "who": "mokkalan",
+    "form": null,
+    "line": null,
+    "addressee": "neelakesi"
+   },
+   "agents": [
+    {
+     "id": "mokkalan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Mokkala sends Neelakesi to Kapilapuram to debate the teacher who taught him.",
+   "claims": []
+  },
+  "461": {
+   "reading": "As soon as she declared the excellence of the Jain way, Mokkala said at once that he would never forget her, the jewelled woman who is a raft of dharma with the power to cut off birth and bring bliss, and he circled her and departed.",
+   "concepts": [
+    "aram",
+    "piravi",
+    "panivu"
+   ],
+   "speaker": {
+    "who": "mokkalan",
+    "form": null,
+    "line": null,
+    "addressee": "neelakesi"
+   },
+   "agents": [
+    {
+     "id": "mokkalan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Mokkala honours Neelakesi by circling her and takes his leave.",
+   "claims": [
+    {
+     "claim": "the dharma she teaches is a raft that cuts off birth and brings bliss",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "mokkalan"
+    }
+   ]
+  },
+  "462": {
+   "reading": "She who has grace, whose knowledge is dharma, whose only wealth is enlightening those who do not understand, and whose senses are full, rose like a flame that ends darkness and went against him.",
+   "concepts": [
+    "arul",
+    "aram",
+    "arivu"
+   ],
+   "nuance": "அவன்மேல் at the end points forward to the Buddha in Kapilapuram named in 460, and closes the sarukkam.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi rises and sets out against the Buddha.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "440",
+   "b": 451,
+   "type": "tension",
+   "note": "Mokkala argues that infinite things cannot be known to their end; the hymn answers that the Lord's knowledge is not sensory and does not go in order (முறைபடும் அறிவிலன்).",
+   "teaches": "The infinity objection assumes knowing means counting through objects one by one, and the hymn's answer is to deny that the omniscient's knowledge is sequential at all, which shows where the two sides really part."
+  },
+  {
+   "a": "445",
+   "b": 458,
+   "type": "develops",
+   "note": "445 defines the Lord by the burning of the eightfold seeds; 458 uses the burnt seed that never sprouts to explain why the released soul is never reborn yet remains.",
+   "teaches": "The same image does two jobs: first it defines what made the Jina Lord, then it answers whether release is extinction, so the seed shows that what is destroyed is karma while the soul persists."
+  },
+  {
+   "a": "460",
+   "b": 266,
+   "type": "develops",
+   "note": "Arkkachandra, defeated, named Mokkala, the Buddha's first disciple, as his teacher; Mokkala, defeated, names the one in Kapilapuram who first gave him his delusion.",
+   "teaches": "Each defeated Buddhist names the teacher above him, so the debates climb a chain of transmission from Kundalakesi to the Buddha himself, and the epic's route is the lineage read backwards."
+  },
+  {
+   "a": "458",
+   "b": "manimekalai:30:125-138",
+   "type": "tension",
+   "note": "The Manimekalai's teacher describes release as the reverse chain in which birth and all its sorrow cease; Neelakesi says the released soul, like a burnt seed, never sprouts but abides eternally with eight qualities.",
+   "teaches": "Both epics define release as the end of birth, but the Buddhist account has nothing that remains while the Jain account insists a soul abides, which is exactly what Mokkala's question in 457 asks."
+  },
+  {
+   "a": "449",
+   "b": "kural:734",
+   "type": "qualifies",
+   "note": "The Kural defines a land as one free of severe hunger, unceasing disease and destructive enemies; the hymn says hunger, disease and enmity perish wherever the Jina goes.",
+   "teaches": "The three ills the Kural treats as a test of a well-governed land are, in the Jain hymn, ended by the presence of a saint rather than by the king, so the pairing moves the source of a land's welfare from rule to holiness.",
+   "gains": {
+    "a": "the hymn's list of marvels is seen to answer a standard Tamil measure of a good country, not just to praise",
+    "b": "the couplet's measure is shown being claimed by religious polemic for the Jina's presence"
+   }
+  },
+  {
+   "a": "456",
+   "b": "kural:5",
+   "type": "develops",
+   "note": "The Kural says the two kinds of dark deed do not cling to those devoted to the Lord's true praise; Neelakesi says those who strew flowers and hymn the Aptha lose both kinds of deed and reach the state of Siva.",
+   "teaches": "The couplet leaves its Lord unnamed and its reward unstated, and the epic fills both, naming the Aptha by the marks just argued for and calling the reward release, which shows how a sect could read the Kural's opening chapter as its own.",
+   "gains": {
+    "a": "the verse's claim that worship removes both kinds of deed is seen to rest on a widely known couplet, not on Jain doctrine alone",
+    "b": "the couplet's unnamed Lord and unstated outcome are given one concrete reading in a sectarian debate"
+   }
+  },
+  {
+   "a": "456",
+   "b": "tirumanthiram:2716",
+   "type": "tension",
+   "note": "Tirumular says that saying Siva Siva makes evil deeds die and brings the state of Siva (சிவகதி); Neelakesi says that praising the Aptha destroys both kinds of deed and brings the undivided state of Siva (சிவகதி).",
+   "teaches": "The two verses share the formula of praise, deeds destroyed and சிவகதி, but for Tirumular the word names Siva and only evil deeds must go, while for the Jain hymn it names a godless auspicious state and good deeds must go too.",
+   "gains": {
+    "a": "the hymn's Saiva-sounding vocabulary is seen as a contest over shared words, not a borrowing of Saiva belief",
+    "b": "the Tirumanthiram's சிவகதி is shown to be a term a rival school used for release without a creator god"
+   }
+  },
+  {
+   "a": "458",
+   "b": "siddhar:1753",
+   "type": "same_image",
+   "note": "Idaikkadar says a roasted seed will not sprout and those without devotion will not reach the goal; Neelakesi says a burnt seed never sprouts and so the released soul is never born again.",
+   "teaches": "The same roasted seed is failure for the Siddhar, the soul without devotion that cannot grow toward release, and success for the Jain, the soul whose karma is burnt so it cannot grow into rebirth, so the image's meaning depends on whether sprouting is birth or attainment.",
+   "gains": {
+    "a": "the Jain verse's image is seen to have a rival use in which not sprouting is a loss",
+    "b": "the Siddhar's terse image is set against the older doctrinal use it inverts"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "441: show repairs line 4 ('•' read as ஃ); line 3 (களக்கிவர் தன்ன மன்னாய்) remains hard to divide.",
+  "442: the repeated ஓதலில் is unclear and may be a corruption.",
+  "447: lines 1-2 (கோதியிட்டு, ஆதிசாலாவணத்துள் ஆர்கதர்) are obscure; who defeated whom there is uncertain.",
+  "449: line 4 சுகதன, usually the Buddha's name, sits oddly in a hymn to the Jina; possibly corrupt.",
+  "455: line 3 (மனையிருள் நெறிபெற மதிகெட அடைவன) is obscure.",
+  "459: line 4 (நக்கனனாய்க்கென்று நன்னுதல் என்றான்) is obscure and may be corrupt.",
+  "448-455: the metre changes for the hymn; the section is not marked off by any rubric."
+ ]
+}

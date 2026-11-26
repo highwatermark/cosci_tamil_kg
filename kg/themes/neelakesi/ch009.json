@@ -1,0 +1,745 @@
+{
+ "chapter_no": 9,
+ "chapter_theme": "Before the king of Kampili the debate is staked (honour to the winner, expulsion to the loser); Kundalakesi sets out her teacher, the Buddha who suffered only for others, and the five aggregates and momentary perishing, and Neelakesi attacks the teacher first: his greatness 'from the first', his self-ruin, sufferings that by the Buddhists' own law of karma must be his own sin, a compassion that ends at his release, and his eating of flesh.",
+ "cast": [
+  {
+   "id": "neelakesi",
+   "tamil": "நீலகேசி",
+   "role": "the demoness of the burning-ground temple who takes the Jain dharma and becomes its debater"
+  },
+  {
+   "id": "kundalakesi",
+   "tamil": "குண்டலகேசி",
+   "role": "the Buddhist woman debater who planted the rose-apple branch at Kampili's gate"
+  },
+  {
+   "id": "kampili_king",
+   "tamil": "காம்பிலிக் காவலன்",
+   "role": "the king of Kampili, before whose court the debate is held"
+  },
+  {
+   "id": "assembly",
+   "tamil": "அவை",
+   "role": "the king's court that hears the debate"
+  }
+ ],
+ "verses": {
+  "171": {
+   "reading": "Hearing the message, the king, swelling with joy, bids the two women with wide flower-like eyes come in, gives them seats, and performs the customary courtesies graciously.",
+   "concepts": [
+    "vendhan",
+    "avai",
+    "virundhu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kampili_king",
+     "form": "வேந்தனு",
+     "line": 1
+    }
+   ],
+   "event": "The king of Kampili admits Neelakesi and Kundalakesi, seats them and receives them with courtesy.",
+   "claims": []
+  },
+  "172": {
+   "reading": "The king asks the two women to make clear to the court their first teacher, his scripture, the final meaning of that scripture, the matters it treats, and their own tenets.",
+   "concepts": [
+    "avai",
+    "samayam",
+    "therithal"
+   ],
+   "nuance": "The king's five heads (முதலவன், நூல், முடிபொருள், நுதலிய பொருள், நுங்கோள்) set the order of the debate: in 178 Neelakesi takes up the first head, the teacher, before the rest.",
+   "speaker": {
+    "who": "kampili_king",
+    "form": null,
+    "line": null,
+    "addressee": "kundalakesi"
+   },
+   "agents": [
+    {
+     "id": "kampili_king",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king asks the debaters to set out their founder, his scripture, its conclusion, its subject and their own tenets.",
+   "claims": []
+  },
+  "173": {
+   "reading": "Kundalakesi praises the king's request but says she will not speak unless he first declares, before his court, a great prize for the winner and great suffering for the losers.",
+   "concepts": [
+    "avai",
+    "pagai",
+    "maanam"
+   ],
+   "nuance": "Line 2 is damaged (வென்க்கோர், பெரந்துயரும்); the sense of a stake for winner and loser is clear from 174, where the king answers it.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kundalakesi",
+    "form": "குண்டலமா கேசி",
+    "line": 4,
+    "addressee": "kampili_king"
+   },
+   "agents": [
+    {
+     "id": "kundalakesi",
+     "form": "குண்டலமா கேசி",
+     "line": 4
+    }
+   ],
+   "event": "Kundalakesi refuses to begin until the king sets a prize for the winner and a penalty for the loser.",
+   "claims": []
+  },
+  "174": {
+   "reading": "The righteous king promises to honour the winner well and to drive the losers out that very day with ill treatment, and both women rejoice at this.",
+   "concepts": [
+    "arasu",
+    "oruththal",
+    "avai"
+   ],
+   "nuance": "Line 4 is garbled at its start (கிறப்பவும் பெருதுவந்தார்); 'both rejoiced greatly' is the likely sense. The king's word is kept in 228, where the beaten Kundalakesi is drummed out of the city gate.",
+   "speaker": {
+    "who": "kampili_king",
+    "form": null,
+    "line": null,
+    "addressee": "kundalakesi"
+   },
+   "agents": [
+    {
+     "id": "kampili_king",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kundalakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king pledges honour to the winner and expulsion to the loser; both debaters welcome the terms.",
+   "claims": []
+  },
+  "175": {
+   "reading": "To the wonder of the royal assembly, Kundalakesi announces the doctrine of the teacher she has chosen, and then the dark-haired woman goes on to set it out.",
+   "concepts": [
+    "avai",
+    "samayam",
+    "puththan"
+   ],
+   "nuance": "Line 4's 'the woman of dark tresses swarmed by bees' most likely names Kundalakesi again, since 176 and 177 are her exposition; it could be read as Neelakesi, so the line is marked uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kundalakesi",
+     "form": "குண்டலமா கேசி",
+     "line": 2
+    }
+   ],
+   "event": "Kundalakesi begins the debate by stating her teacher's doctrine before the court.",
+   "claims": []
+  },
+  "176": {
+   "reading": "Kundalakesi says her lord, the one of the Bodhi tree, was great from the first, knew only what is good for the whole time until he came to his end, taught only true dharma, wanted nothing for himself, suffered only for others, and saves those who come to him.",
+   "concepts": [
+    "puththan",
+    "arul",
+    "iraivan",
+    "adaikkalam"
+   ],
+   "nuance": "The verse restates in the Neelakesi's metre the invocation of the Kundalakesi itself (கு. 1: முன் தான் பெருமைக்கண் நின்றான் ... பிறர்க்கே உறுதிக்கு உழந்தான்), so the Jain poet puts the rival work's own praise into its heroine's mouth. Each phrase is then attacked in turn: 'from the first' (179-180), 'until the end' (181), 'for others' (183-185). The claim is refuted across 179-190.",
+   "speaker": {
+    "who": "kundalakesi",
+    "form": null,
+    "line": null,
+    "addressee": "kampili_king"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Buddha, great from the first, wanted nothing for himself, suffered only for others and taught the true dharma until his end",
+     "school": "buddhist",
+     "line": 3,
+     "stance": "refuted",
+     "voiced_by": "kundalakesi"
+    },
+    {
+     "claim": "the Buddha saves those who join him",
+     "school": "buddhist",
+     "line": 4,
+     "stance": "refuted",
+     "voiced_by": "kundalakesi"
+    }
+   ]
+  },
+  "177": {
+   "reading": "Kundalakesi says the teacher first taught the three scriptures and their conclusion: the five aggregates (form, feeling, consciousness, perception and formation), and that thoughts going and coming have no permanence, so that things perish of themselves like the tip of a flame.",
+   "concepts": [
+    "kandham",
+    "nilaiyaamai",
+    "puththan"
+   ],
+   "nuance": "Her list matches the Manimekalai's own (30: உருவு நுகர்ச்சி குறிப்பே பாவனை உள்ள அறிவு) except that feeling is named உழப்பு, pain or toil, and formation செய்கை. The flame-tip image gives the doctrine of momentary perishing. Neelakesi answers the five aggregates in 194 and momentary perishing in 195-199.",
+   "speaker": {
+    "who": "kundalakesi",
+    "form": null,
+    "line": null,
+    "addressee": "kampili_king"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "what is called a person is five aggregates: form, feeling, consciousness, perception and formation",
+     "school": "buddhist",
+     "line": 2,
+     "stance": "refuted",
+     "voiced_by": "kundalakesi"
+    },
+    {
+     "claim": "nothing abides; each thing perishes of itself at once, like the tip of a flame",
+     "school": "buddhist",
+     "line": 4,
+     "stance": "refuted",
+     "voiced_by": "kundalakesi"
+    }
+   ]
+  },
+  "178": {
+   "reading": "Neelakesi says she will set aside for now the conclusions on the four heads, and, asking the good assembly to attend, will take up the marks of the leader of boundless virtue placed first among them and show the many great faults in it, point by point.",
+   "concepts": [
+    "avai",
+    "kutram",
+    "therithal"
+   ],
+   "nuance": "நான்மை here seems to be the four heads of 172-177 (teacher, scripture, conclusion, subject), not the four noble truths; the teacher is attacked first.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "assembly"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi announces that she will refute the account of the teacher before the other heads.",
+   "claims": []
+  },
+  "179": {
+   "reading": "Neelakesi argues that 'the first' can only mean the beginningless round of births: if he was great within that, (his greatness was a fruit of penance, not of a first state); if he became great afterwards, the word of time ('first') goes wrong; either way the claim of greatness turns false.",
+   "concepts": [
+    "piravi",
+    "anaadhi",
+    "perumai"
+   ],
+   "nuance": "The target is the opening word of 176 and of the Kundalakesi's own invocation (முன்). Line 2 (அறங்கொண்ட தவமாகும்) and line 4's masculine என்னென்றான் are hard to construe, so the first half of the dilemma is reconstructed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "kundalakesi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "in a round of births without beginning no teacher can be great 'from the first'",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "180": {
+   "reading": "If he had greatness before, she asks, what deed was left for him to complete here; and if he had not and you say he became great by reflecting on dharma, then the toiling outcastes and all others who discerned dharma with single mind would be leaders too.",
+   "concepts": [
+    "perumai",
+    "aram",
+    "pirappu"
+   ],
+   "nuance": "The second horn assumes that greatness won by learning dharma cannot single out a founder. The outcaste (புலையர்) is the debater's figure for the lowest possible claimant, a social ranking she uses, not one she argues for.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "kundalakesi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "if a teacher's greatness was only won by coming to know dharma, any who know dharma, even the lowest, would equal him",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "181": {
+   "reading": "Neelakesi asks whether the teacher who taught the cruelty of flesh did not understand the saying 'even if you are ruined, do not plan the ruin of the worthy', and whether the doctrine he gave while ruining himself to the end must not itself perish utterly.",
+   "concepts": [
+    "pulaal",
+    "kedu",
+    "saandror"
+   ],
+   "nuance": "Line 1 quotes, as a saying (என்பதனை), the opening of Naladiyar 80 (தான்கெடினும் தக்கார்கேடு எண்ணற்க); it is not entered as an echo because the edition's word division leaves only three written words, under the four-word test. Line 3 turns 176's 'until the end' (அறக்கெடும் அளவெல்லாம்) into 'as long as he was ruining himself'. ஊன் கொடுமை (line 2) is taken as the Jain charge that the Buddha allowed flesh-eating (cf. 163, ஊன் தின்றல் இழுக்கு என்னான்); the quatrain's second line also speaks of ஊன், which may be why it was chosen. How exactly the saying convicts him is not spelled out.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "kundalakesi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "even when ruined oneself, one should not plan the ruin of the worthy",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "182": {
+   "reading": "Those who suffer ruin so that the right way may live are the best of men, she says; but would the world heed one who, heedless of blame and sin, lays waste those who cling to him, and call such a sinner its leader?",
+   "concepts": [
+    "pazhi",
+    "saandror",
+    "kedu"
+   ],
+   "nuance": "Line 4 (கிழியோடு மாறாக் காசு என்றான் சொல்) seems to be a proverb about a coin that will not pass even with its purse; its point is not recoverable.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "kundalakesi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "one who brings ruin on those who rely on him, heedless of sin, is no leader",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "183": {
+   "reading": "If one dipped the tip of a fine hair in the wide sea and flicked it off, the births of suffering he lay in were as many as those drops; you say they were all for others, she says, but would he not then have done sin of the same measure?",
+   "concepts": [
+    "piravi",
+    "idumbai",
+    "vinai"
+   ],
+   "nuance": "The image measures the countless lives of the Buddha-to-be; the Jain debater reads their suffering as a ledger of evil deeds of the same size, which 184 makes explicit.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "kundalakesi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "suffering through countless births implies evil deeds of the same measure",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "184": {
+   "reading": "Your own people always say that suffering comes only from evil deeds, she says; so if he afterwards made births of suffering for the sake of others, was that not the fruit of a hard deed he did earlier out of attachment?",
+   "concepts": [
+    "vinai",
+    "idumbai",
+    "anbu"
+   ],
+   "nuance": "She takes a tenet her opponent's school holds (நுமர் உரைப்ப) and turns it against the claim of 176: suffering cannot be chosen for others if all suffering is the fruit of one's own past deed. அன்பினான் is read as attachment, the bond she says caused the deed.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "kundalakesi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "suffering arises only from one's own evil deeds",
+     "school": "buddhist",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "neelakesi"
+    },
+    {
+     "claim": "the Buddha's sufferings for others were the fruit of a former deed done out of attachment",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "185": {
+   "reading": "When we see a bonded labourer who, gaining nothing for himself, toils carrying great heaps of dung, she says, the one thing to think of is the long sin he once did; would you then praise the greatness of those who daily and gladly put him to work?",
+   "concepts": [
+    "adimai",
+    "vinai",
+    "idumbai"
+   ],
+   "nuance": "The simile recasts 'suffered only for others' (176) as bonded labour that pays off a debt, and those who live off it as masters, not as the saved; the second half's target (the disciples) is inferred.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "kundalakesi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "one who toils for others with no gain to himself is paying off his own past sin",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "186": {
+   "reading": "Kundalakesi answers that he toils in this way to remove the great suffering others cannot escape, and that this is how his compassion works.",
+   "concepts": [
+    "arul",
+    "idumbai",
+    "puththan"
+   ],
+   "speaker": {
+    "who": "kundalakesi",
+    "form": "குண்டலமா கேசி",
+    "line": 4,
+    "addressee": "neelakesi"
+   },
+   "agents": [
+    {
+     "id": "kundalakesi",
+     "form": "குண்டலமா கேசி",
+     "line": 4
+    }
+   ],
+   "event": "Kundalakesi replies that the Buddha's suffering is compassion acting to end the suffering of others.",
+   "claims": [
+    {
+     "claim": "the Buddha takes on suffering to remove the inescapable suffering of others, and this is his compassion",
+     "school": "buddhist",
+     "line": 3,
+     "stance": "refuted",
+     "voiced_by": "kundalakesi"
+    }
+   ]
+  },
+  "187": {
+   "reading": "Neelakesi takes up the claim that he toils for others out of compassion: when his births ended, did he find that compassion was no real thing, or had all beings dried up, she asks, and tells her to explain it plainly before the assembly.",
+   "concepts": [
+    "arul",
+    "veedu",
+    "uyir"
+   ],
+   "nuance": "புற்கலர் (pudgalas, persons) is a striking word in a Jain's mouth against a school that denies the persisting person; the argument needs only that beings still suffer after the teacher's release.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "kundalakesi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a compassion that ceases at the teacher's release while beings still suffer was not real compassion",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "188": {
+   "reading": "If he who ends the suffering that pierces and kills life has gained release and died out, she says, let his compassion perish: the sinner rescued no one, and is like the man in the saying who made his father toil and then said 'hold my cloth'.",
+   "concepts": [
+    "veedu",
+    "arul",
+    "saakkaadu"
+   ],
+   "nuance": "The closing comparison (தாதையையே உழப்பித்தோன் ஆடை பற்று) is a proverb whose story is lost; its drift is a son who burdens his father and then asks more of him.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "kundalakesi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a teacher who has passed into release can no longer act in compassion",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "189": {
+   "reading": "If you say from here that two others there will come and end suffering, who will trust this one's compassion, she asks; and even if there are two, assembly, before they come we will wear out our own deeds and go, she says, laughing.",
+   "concepts": [
+    "vinai",
+    "veedu",
+    "muyarchi"
+   ],
+   "nuance": "The 'two there' are not named; they may be later Buddhas the opponent appeals to. The Jain answer is self-reliance: release comes from wearing out one's own karma (நம் கருமம் உலைப்பித்து), not from another's compassion. Line 2 is corrupt (நீயஙரைத்தா).",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "assembly"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi mocks the appeal to future saviours and laughs.",
+   "claims": [
+    {
+     "claim": "each must wear out his own deeds to reach release; no other's compassion does it",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "190": {
+   "reading": "He first killed his own mother, she says, eats corpse-flesh with his whole body wrapped in robes, and when he explains release calls it emptiness; and you say there is no lord like him? Does one who milks the cow while its own calf dies have pity for anything else?",
+   "concepts": [
+    "pulaal",
+    "arul",
+    "soonyam",
+    "veedu"
+   ],
+   "nuance": "Polemic in the Jain's voice: the 'killing' of his mother turns the Buddhist story of Maya dying after his birth into a crime, and 'eats corpse-flesh' is the charge of 163; the Buddhists would accept neither. That release is emptiness is stated only to be mocked. The calf simile: one who takes milk while the calf starves shows no pity, so one who ate flesh cannot claim compassion.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "kundalakesi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "release is emptiness",
+     "school": "buddhist",
+     "line": 2,
+     "stance": "refuted",
+     "voiced_by": "neelakesi"
+    },
+    {
+     "claim": "one who eats flesh has no compassion for other beings",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "191": {
+   "reading": "Kundalakesi was like a man who calls a woman his darling though she has no eyes or ears, her breasts are shrunken, her teeth, lips and nose are gone and she is diseased: who else would speak of her beauty?",
+   "concepts": [
+    "pedhaimai",
+    "azhagu",
+    "pullarivu"
+   ],
+   "nuance": "The simile closes the attack on the teacher: praising such a leader is a lover's blindness. Whether these are the narrator's words or Neelakesi's is not certain; 'ஒத்தாள்' in the third person suggests the narrator.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "173",
+   "b": 230,
+   "type": "tension",
+   "note": "Kundalakesi will not speak without a great prize for the winner; in 230 the winner, Neelakesi, refuses every gift the king offers and asks only that he keep to dharma.",
+   "teaches": "The stake Kundalakesi demanded turns against her twice: she suffers the loser's penalty, and the victor shows by refusing the prize that the Jain side did not argue for gain."
+  },
+  {
+   "a": "174",
+   "b": 228,
+   "type": "develops",
+   "note": "The king pledges to drive out the losers that day; in 228 the beaten Kundalakesi is drummed out of the city gate.",
+   "teaches": "The penalty the debaters agreed to at the start is carried out exactly, so the debate is framed as a binding royal trial and not a mere exchange of views."
+  },
+  {
+   "a": "176",
+   "b": "kundalakesi:1",
+   "type": "develops",
+   "note": "Kundalakesi's praise of her lord repeats, phrase for phrase, the invocation of the Kundalakesi: great from the first, thinking only good until the end, wanting nothing for himself, toiling for others.",
+   "teaches": "The Neelakesi argues against the Kundalakesi's actual opening verse, so the surviving fragment is the text under attack and the debate is with a book, not an invented opponent."
+  },
+  {
+   "a": "177",
+   "b": "manimekalai:30:183-197",
+   "type": "qualifies",
+   "note": "Both list the five aggregates; the Manimekalai's teacher names feeling நுகர்ச்சி and formation பாவனை, the Neelakesi's Kundalakesi names them உழப்பு and செய்கை.",
+   "teaches": "The Jain poet reports the aggregates accurately in substance, but naming feeling as pain (உழப்பு) and adding the flame of momentary perishing loads the list toward the points he means to attack."
+  },
+  {
+   "a": "177",
+   "b": 194,
+   "type": "tension",
+   "note": "Kundalakesi states the five aggregates; in 194 Neelakesi answers that perception, feeling and formation are not other than consciousness, so five collapses to two.",
+   "teaches": "The aggregate doctrine set out here is refuted by reduction later in the debate, which is why its claim is marked refuted here and not merely reported."
+  },
+  {
+   "a": "179",
+   "b": "kundalakesi:1",
+   "type": "tension",
+   "note": "The Kundalakesi's invocation opens 'he stood in greatness from the first' (முன் தான் பெருமைக்கண் நின்றான்); Neelakesi asks what 'first' can mean in a beginningless round of births.",
+   "teaches": "A word of praise in the Buddhist invocation is read as a doctrinal claim and put to a dilemma, showing how the Jain debater turns devotion into a proposition that can be refuted."
+  },
+  {
+   "a": "181",
+   "b": "naladiyar:80",
+   "type": "qualifies",
+   "note": "Neelakesi quotes the quatrain's first line, 'even if ruined, do not plan the ruin of the worthy', against a teacher who ruined himself for others and taught flesh-eating.",
+   "teaches": "The quatrain's counsel to forbearance becomes a test of a rival teacher: self-ruin does not excuse doctrine that harms others.",
+   "gains": {
+    "a": "the debater's charge rests on a saying the assembly already accepts, so it needs no Jain premise",
+    "b": "the quatrain's line is shown circulating as a proverb that a debater can cite against a whole school"
+   }
+  },
+  {
+   "a": "183",
+   "b": "manimekalai:25:115-139",
+   "type": "tension",
+   "note": "The Manimekalai praises the Buddha as one who does not pity his own life and protects others' lives; Neelakesi takes the same countless lives of self-giving as evidence of countless sins.",
+   "teaches": "The mark by which the Buddhist epic defines its teacher's dharma is exactly what the Jain debater reinterprets as karmic debt, so the two schools disagree over what suffering for others means."
+  },
+  {
+   "a": "184",
+   "b": "kundalakesi:19",
+   "type": "tension",
+   "note": "A Kundalakesi fragment praises a man who stood unmoved, saying all that had befallen him was the fruit of deeds; Neelakesi cites that same Buddhist tenet to argue the Buddha's sufferings were his own karma.",
+   "teaches": "A tenet shared by both schools, that suffering ripens from one's own deeds, cuts against the Buddhist claim that the teacher suffered for others."
+  },
+  {
+   "a": "189",
+   "b": "tirumanthiram:1527",
+   "type": "tension",
+   "note": "Neelakesi says we will wear out our own deeds and go; Tirumular says that when the two deeds stand balanced, grace comes as the guru and ends one's own doing.",
+   "teaches": "The Jain debater denies that another's compassion can release, and Tirumular makes release depend on a grace that ends one's own agency, so they answer oppositely who removes karma.",
+   "gains": {
+    "a": "the Jain self-reliance is shown to be aimed at any doctrine of release by another, not only the Buddhist one",
+    "b": "Tirumular's grace is seen as one side of a live dispute in which a rival denies any outside agent of release"
+   }
+  },
+  {
+   "a": "190",
+   "b": "kural:251",
+   "type": "develops",
+   "note": "The Kural asks how one who eats another's flesh can hold compassion; Neelakesi asks the same of a teacher said to be all compassion who eats flesh.",
+   "teaches": "The couplet's general question becomes a charge against a named teacher's claim to compassion, so the Kural's link between flesh and compassion settles a dispute between schools.",
+   "gains": {
+    "a": "the Jain charge borrows the authority of an accepted ethical rule instead of a sectarian one",
+    "b": "the couplet's question is shown answering a concrete case: a teacher's compassion is measured by his food"
+   }
+  },
+  {
+   "a": "190",
+   "b": "siddhar:1777",
+   "type": "tension",
+   "note": "Neelakesi mocks a teacher who calls release emptiness (சூனியம்); the Idaikkadar Siddhar tells the soul that clinging to what became the void (சூனியமான அத்தை) is beyond compare.",
+   "teaches": "The void that the Jain debater treats as an absurd account of release is, for a later Siddhar, the goal itself, so the word changes from a target of ridicule to a name of the highest state.",
+   "gains": {
+    "a": "the ridicule is seen to target a word that later Tamil mystics would claim for release",
+    "b": "the Siddhar's void is placed against an older debate in which calling release empty was a charge to answer"
+   }
+  },
+  {
+   "a": "190",
+   "b": 163,
+   "type": "develops",
+   "note": "In 163 Neelakesi resolves to strike down the Buddha's way, which does not call flesh-eating a fault; in 190 she makes that charge before the court.",
+   "teaches": "The plan made alone at the shrine is carried out in the debate, so the charge of flesh-eating is the purpose of the whole sarukkam, not a passing taunt."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "puththan",
+   "tamil": "புத்தன்",
+   "gloss": "the Buddha: the awakened teacher of dharma, his coming in a dark age, and the worship of his seat and footprints",
+   "label_source": "label from the Manimekalai; these verses say போதியான் எம்மிறைவன் (176)"
+  },
+  {
+   "id": "kandham",
+   "tamil": "கந்தம்",
+   "gloss": "the five aggregates (form, feeling, perception, formation, consciousness) that are spoken of as a person",
+   "label_source": "label from the Manimekalai; 177 lists the five (உரு, உழப்பு, அறிவு, குறி, செய்கை) without the word, which 194 uses (ஐங்கந்தம்)"
+  }
+ ],
+ "source_issues": [
+  "173 line 2 is corrupt: வென்க்கோர் (for வென்றார்க்கோர்) and பெரந்துயரும் (for பெருந்துயரும்).",
+  "174 line 4 begins with a misdivided or corrupt கிறப்பவும் பெருதுவந்தார் (likely இறப்பவும் பெரிது உவந்தார்).",
+  "179 line 4 has a masculine என்னென்றான் in a speech by Neelakesi; the reading is doubtful.",
+  "189 line 2 has நீயஙரைத்தா, apparently a corruption of நீ உரைத்தால்.",
+  "182 line 4 and 188 lines 3-4 carry proverbs whose stories are lost; the lines are left uncertain.",
+  "181 line 2 and 186 line 2 carry repaired encodings flagged by show (ஃ; பேரிடர்)."
+ ]
+}

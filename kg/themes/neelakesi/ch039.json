@@ -1,0 +1,784 @@
+{
+ "chapter_no": 39,
+ "chapter_theme": "The materialist Pisasakan rises after the Vedic debate and, before King Madanasittan's assembly, holds that the five elements combined yield the senses, awareness and pleasure as liquor yields intoxication, and that nothing survives their parting; Neelakesi restates his view and answers that he has no omniscient teacher or scripture, that his own debating presupposes fruit and a debater, that awareness, moral traits, the unity of the senses, memory and a newborn's instinct cannot be effects of the elements.",
+ "cast": [
+  {
+   "id": "neelakesi",
+   "tamil": "நீலகேசி",
+   "role": "the demoness of the burning-ground temple who takes the Jain dharma and becomes its debater"
+  },
+  {
+   "id": "pisasakan",
+   "tamil": "பிசாசகன்",
+   "role": "the materialist (பூத வாதி) who challenges Neelakesi after the Vedic debate; called பிசாசிகன் in 892 and 894"
+  },
+  {
+   "id": "madanasiththan",
+   "tamil": "மதனசித்தன்",
+   "role": "the king with a great army and elephants before whose assembly the materialist debate is held"
+  },
+  {
+   "id": "assembly",
+   "tamil": "அவை",
+   "role": "the king's court that hears the debate"
+  }
+ ],
+ "verses": {
+  "854": {
+   "reading": "After Neelakesi has left the Vedic debater pale, a materialist rises in anger to go against her, reckoning that to subdue so practised a debater would be no small gain.",
+   "concepts": [
+    "vaadhu",
+    "boothavaadham"
+   ],
+   "nuance": "பூத வாதி names the opponent by his doctrine, that only the elements are; his motive is the prize of beating a famous debater, not a question he wants answered.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pisasakan",
+     "form": "பூத வாதியும்",
+     "line": 2
+    }
+   ],
+   "event": "A materialist rises to challenge Neelakesi after her defeat of the Vedic debater.",
+   "claims": []
+  },
+  "855": {
+   "reading": "When someone bids the man stop and state here the truth he has seen, the king Madanasittan, with his great army, stone-like shoulders and rutting elephants, is about to speak.",
+   "concepts": [
+    "vaadhu",
+    "avai"
+   ],
+   "nuance": "Line 1 can be divided நில் அப்பா இனி (a courteous 'stay now, sir') or நில் பாவி நீ ('stop, sinner'); the first fits a presiding king inviting the materialist to state his case, the second Neelakesi challenging him. The description of line 3-4 is of a king, and he seems to be the one who then opens the hearing (856).",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "madanasiththan",
+     "form": "மதனசித்",
+     "line": 3
+    }
+   ],
+   "event": "The materialist is called on to state his doctrine before King Madanasittan.",
+   "claims": []
+  },
+  "856": {
+   "reading": "Told to let the royal assembly hear, the materialist Pisasakan, of the diseased face, says he will make no talk of substance and quality but will set out, as settled, only the workings of the five elements.",
+   "concepts": [
+    "boothavaadham",
+    "gunam",
+    "vaadhu"
+   ],
+   "nuance": "பிசாசகன், a name that sounds like பிசாசு (a demon), is given with an insult (பிணிகொள் மூஞ்சி); the end of the sarukkam turns the name into a joke (892: 'your very name is Pisasikan'). Refusing the substance-quality frame that the Vaisheshika and Jain debates turned on is his first move.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pisasakan",
+     "form": "பிசாசகன்",
+     "line": 2
+    }
+   ],
+   "event": "Pisasakan begins his case before the king's assembly.",
+   "claims": [
+    {
+     "claim": "only the workings of the five elements need be stated, without any distinction of substance and quality",
+     "school": "lokayata",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "pisasakan"
+    }
+   ]
+  },
+  "857": {
+   "reading": "Pisasakan says that from fire, earth, water, wind and space come eye, nose, tongue, body and ear, and colour, smell, taste, touch and sound, which arise where the elements are joined.",
+   "concepts": [
+    "boothavaadham",
+    "pori"
+   ],
+   "nuance": "He counts five elements, space (காயம்) among them; the materialists are usually said to count four. Each sense and its object is derived from the elements; nothing is left over for a soul.",
+   "speaker": {
+    "who": "pisasakan",
+    "form": null,
+    "line": null,
+    "addressee": "assembly"
+   },
+   "agents": [
+    {
+     "id": "pisasakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the five senses and their five objects arise from the five elements joined together",
+     "school": "lokayata",
+     "line": 4,
+     "stance": "refuted",
+     "voiced_by": "pisasakan"
+    }
+   ]
+  },
+  "858": {
+   "reading": "He says that when the five come together, knowing, pleasure and the rest appear, as the power to intoxicate appears in liquor and as a lamp's light in a pot, and that when the combination scatters each part goes back to join its own kind.",
+   "concepts": [
+    "boothavaadham",
+    "arivu",
+    "kal",
+    "inbam"
+   ],
+   "nuance": "Consciousness is a new power of the mixture, as drunkenness is of fermented liquor, and it ends with no remainder when the parts return to their elements. Neelakesi answers the liquor figure in 866 and the claim that a mixture yields what its parts lack in 868. The lamp-in-a-pot comparison of line 3 is compressed and its point is a reading.",
+   "uncertain": true,
+   "speaker": {
+    "who": "pisasakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pisasakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "awareness and pleasure arise from the combined elements as intoxication arises in liquor",
+     "school": "lokayata",
+     "line": 2,
+     "stance": "refuted",
+     "voiced_by": "pisasakan"
+    },
+    {
+     "claim": "when the combination breaks up, each element returns to its own kind and nothing survives",
+     "school": "lokayata",
+     "line": 4,
+     "stance": "refuted",
+     "voiced_by": "pisasakan"
+    }
+   ]
+  },
+  "859": {
+   "reading": "He says the whole world is these elements alone, and that those who stand convinced by the clever talk of a soul only make many fruitless quarrels and end up as mere scholars.",
+   "concepts": [
+    "boothavaadham",
+    "uyir",
+    "samayam"
+   ],
+   "nuance": "The sting is that belief in a soul produces argument and nothing else; Neelakesi turns the same charge back in 864, asking what his own debating is for if nothing bears fruit.",
+   "uncertain": true,
+   "speaker": {
+    "who": "pisasakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pisasakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the world is nothing but the elements, and talk of a soul yields only fruitless dispute",
+     "school": "lokayata",
+     "line": 1,
+     "stance": "refuted",
+     "voiced_by": "pisasakan"
+    }
+   ]
+  },
+  "860": {
+   "reading": "He ends that in time past, present and to come this combining alone is what happens, the world is always of this nature, and those who say otherwise are deluded.",
+   "concepts": [
+    "boothavaadham",
+    "samayam"
+   ],
+   "speaker": {
+    "who": "pisasakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pisasakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "in all three times the world is only the combining of the elements",
+     "school": "lokayata",
+     "line": 3,
+     "stance": "refuted",
+     "voiced_by": "pisasakan"
+    }
+   ],
+   "nuance": "Answered in this chapter's arguments for the soul (865-874) and conceded by him at the sarukkam's end (893)."
+  },
+  "861": {
+   "reading": "Having heard that this is his settled tenet, the carp-eyed Neelakesi repeats it for the learned and for everyone sitting there until they hold it clearly, and then takes up her reply.",
+   "concepts": [
+    "vaadhu",
+    "avai"
+   ],
+   "nuance": "She restates the opponent's case to the whole audience before answering it, the debate's rule that the view refuted must first be granted and understood.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": "கயற் கண்ணினாள்",
+     "line": 4
+    }
+   ],
+   "event": "Neelakesi restates the materialist's position to the assembly and begins her refutation.",
+   "claims": []
+  },
+  "862": {
+   "reading": "Neelakesi says that since he has no teacher shining with knowledge freed from deeds, he has no first book, and lacking scripture of that worth his words are invention and false.",
+   "concepts": [
+    "aagamam",
+    "guru",
+    "vinai"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a doctrine with no teacher freed from deeds has no first scripture, and so is invention",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "863": {
+   "reading": "She says that if there is no soul besides the elements, then the forked staff, the bowl and the other gear fit for penance, and the ascetic's state itself, are wasted, and guiding people by teaching is a cheat.",
+   "concepts": [
+    "thavam",
+    "vesham",
+    "uyir"
+   ],
+   "nuance": "The argument is that ascetic practice only makes sense if something survives the body; it may also hit the materialist's own ascetic garb, which the verse implies he wears. கட்டில் in line 1 and சுதத்தி in line 4 are doubtful forms.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "without a soul beyond the elements, penance and its gear are futile and teaching is deception",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "864": {
+   "reading": "She asks why he labours in debate to prove that only the elements are and other books are false, when on his view there is no Lord's good path, no good deed and no good fruit, so that the effort itself is waste.",
+   "concepts": [
+    "payan",
+    "vinai",
+    "vaadhu"
+   ],
+   "nuance": "A performative objection: arguing to win presupposes that some outcome is worth reaching, which his denial of fruit undercuts. It returns the 'fruitless quarrel' charge of 859.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "if there is no path, no merit and no fruit, arguing for that view is itself pointless",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "865": {
+   "reading": "She asks: if nothing is soul and only what he calls elements exist, then which of the five is the element that has come and sits debating with her, and which is that debate?",
+   "concepts": [
+    "uyir",
+    "boothavaadham",
+    "vaadhu"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the one who debates cannot be identified with any of the five elements",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "866": {
+   "reading": "She says he has offered the intoxicating power of liquor to show how the five yield knowing and pleasure, and asks whether, since in liquor both cause and effect are material, he means that awareness lay hidden as a material form.",
+   "concepts": [
+    "arivu",
+    "kal",
+    "boothavaadham"
+   ],
+   "nuance": "The reply to 858: drunkenness is a change in matter produced by matter, so the comparison either makes awareness material or fails. Lines 3-4 are compressed and the turn of the argument is a reading.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the liquor analogy cannot explain awareness, since in liquor cause and effect are both material",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "867": {
+   "reading": "She says the effect of what has form is form and the effect of the formless is formless, as with space, yet he says awareness is not the effect of any one thing; what then is its matching cause?",
+   "concepts": [
+    "arivu",
+    "boothavaadham"
+   ],
+   "nuance": "The principle is that an effect shares the kind of its cause, so formless awareness cannot be the product of elements with form. Line 2's ஆகாயக்கு ஆம் is a division of a joined form.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "an effect is of the same kind as its cause, so formless awareness cannot come from elements with form",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "868": {
+   "reading": "She asks whether straw, earth, hair and dung put in a bag will yield crystal, and whether the claim that the five false elements joined make awareness and pleasure deserves a thought.",
+   "concepts": [
+    "boothavaadham",
+    "arivu"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a mixture cannot produce a thing of a nature none of its parts has",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "869": {
+   "reading": "She says there is no thieving element, lusting element or generous element, so to say that some mind-element produces these traits is false: they are not qualities of the elements.",
+   "concepts": [
+    "gunam",
+    "manam",
+    "boothavaadham"
+   ],
+   "nuance": "Moral character is her evidence that mind is not material: no element carries theft, desire or bounty as a quality, so these must belong to something else.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "dispositions such as theft, lust and generosity are not qualities of any element",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "870": {
+   "reading": "She asks him to mark the matter and say one thing: are the five knowings that come through the five senses, made of the five elements, the property of those five, or of something other?",
+   "concepts": [
+    "pori",
+    "arivu",
+    "uyir"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the five kinds of sense-knowing must belong either to the elements severally or to a further knower",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "871": {
+   "reading": "She says that even if one grants that each element's effect is its own sense-knowing, all of them would then be sentient; and if instead they all make up one product, the argument arrives at the soul.",
+   "concepts": [
+    "uyir",
+    "arivu",
+    "boothavaadham"
+   ],
+   "nuance": "A dilemma: either every element is conscious (which he denies of dead matter) or the unity of knowing needs a single subject, which is the soul. The second horn's wording (யாக்கம் ஒன்றே) is compressed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "either every element is conscious, or the unity of knowing requires a soul",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "872": {
+   "reading": "She says that if he makes all the elements into knowing, he must still posit another element for the mind; let him think it over or search it out, for that is all he can do against her now.",
+   "concepts": [
+    "manam",
+    "boothavaadham"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the materialist would need a further, sixth element to account for mind",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "873": {
+   "reading": "She asks whether, when beings born in a body later recall what they ate, saw, understood and did, he will say that this recollection is the effect of an element that can be seen.",
+   "concepts": [
+    "uyir",
+    "arivu",
+    "boothavaadham"
+   ],
+   "nuance": "Memory is the evidence here: recollection carries the past into the present, which no perceptible element is seen to do.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "memory of past experience is not the effect of any perceptible element",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "874": {
+   "reading": "She asks how, in the first days after birth, the infant and other young know to run to the mother's breast and not to other food, since the five elements just come together in those days cannot do that.",
+   "concepts": [
+    "uyir",
+    "arivu",
+    "piravi"
+   ],
+   "nuance": "Instinct as proof of a prior knower: the newborn's seeking of the breast is knowledge it was not taught in this body. The verse does not say 'former birth', but the argument points there, and the materialist concedes birth at 893.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a newborn's knowing to seek the breast shows knowledge not produced by the elements of this birth",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": "858",
+   "b": "manimekalai:27:263-276",
+   "type": "qualifies",
+   "note": "Both epics give the materialist the liquor figure for awareness arising in combined elements; Manimekalai's lets awareness die like a drum's sound, Neelakesi's sends each element back to its kind and counts space among five elements.",
+   "teaches": "The liquor analogy was the stock materialist argument in both traditions, but only the Jain epic answers it on its own terms (866, 868), while Manimekalai leaves the doctrine and attacks only its theory of knowledge."
+  },
+  {
+   "a": "874",
+   "b": "manimekalai:27:277-283",
+   "type": "qualifies",
+   "note": "Manimekalai asks the materialist whether some have not known a former birth, and he waves it off as the delusion of dreams or possession; Neelakesi points instead to the newborn seeking the breast.",
+   "teaches": "Set beside the Manimekalai, the Jain choice of evidence shows its point: an infant's instinct cannot be dismissed as dream or a god's delusion, the very escape the materialist used against memory of past births."
+  },
+  {
+   "a": "856",
+   "b": "kural:850",
+   "type": "develops",
+   "note": "The Kural says one who denies what the world holds to be will be counted a demon (அலகை); the epic names its materialist Pisasakan, a name that sounds like பிசாசு, and ends the sarukkam by showing him a demon (887-892).",
+   "teaches": "The epic turns the couplet's label into a plot: the man who denies spirits carries a demon's name and is converted by meeting one, so the Kural's 'demon' becomes both insult and refutation.",
+   "gains": {
+    "a": "the name Pisasakan gains an ethical frame, as the stock word for the denier of what all accept",
+    "b": "the couplet's unnamed blank, what is denied, is filled with a case: the denial of soul, rebirth and spirits"
+   }
+  },
+  {
+   "a": "869",
+   "b": "kural:271",
+   "type": "qualifies",
+   "note": "The Kural has the five elements laugh inwardly at a deceiver's hidden conduct; Neelakesi argues that no element has theft, lust or generosity as a quality.",
+   "teaches": "Read together, the Kural's laughing elements must be a figure of moral witness, since the Jain debate shows that moral traits are exactly what the elements cannot bear, and her 'thieving element' mocks any literal reading.",
+   "gains": {
+    "a": "her sarcastic 'thieving element' gains a target: a familiar way of speaking in which elements do take moral notice",
+    "b": "the couplet gains a test of its figure: whether the elements could literally judge conduct is a question the schools argued"
+   }
+  },
+  {
+   "a": "863",
+   "b": "tirumanthiram:1677",
+   "type": "tension",
+   "note": "Neelakesi argues that the ascetic's staff and bowl would be wasted unless a soul survives the body; Tirumular says garb put on the body is not for the soul and falls away with the body.",
+   "teaches": "Both tie ascetic dress to the body-soul question but draw opposite lessons from it: for the Jain debater the gear presupposes a soul, for Tirumular it cannot reach the soul at all, so outward penance is evidence in one text and irrelevance in the other.",
+   "gains": {
+    "a": "the epic's argument gains its limit: the Saiva text denies that outward marks bear on the soul it presupposes",
+    "b": "Tirumular's dismissal of garb gains a context in which garb was used as proof of the soul against a materialist"
+   }
+  },
+  {
+   "a": "862",
+   "b": 680,
+   "type": "develops",
+   "note": "Against the Ajivikas Neelakesi argued that a Lord who never spoke left no scripture; here she argues that a school with no teacher freed from deeds has no first book at all.",
+   "teaches": "Her test of a school's scripture is constant across the debates: authority runs only from an omniscient speaker, and the materialist fails it more completely than the Ajivika, having no such teacher even in claim."
+  },
+  {
+   "a": "865",
+   "b": 568,
+   "type": "develops",
+   "note": "Against the Buddha, who denied a soul, she asked who he then was that taught; against the materialist she asks which element is the one debating with her.",
+   "teaches": "The same self-reference argument serves against both deniers of the soul: the debater's own presence is the counterexample, whether the denial is the Buddhist's no-self or the materialist's mere elements."
+  },
+  {
+   "a": "860",
+   "b": 893,
+   "type": "tension",
+   "note": "Pisasakan says the world has always been only the combining of elements and those who say otherwise are deluded; at the sarukkam's end he says he accepts birth, demons and all she said.",
+   "teaches": "The epic stages the materialist's claim to permanence of his view in order to reverse it within the same sarukkam, so the debate ends in a conversion rather than a mere victory."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "boothavaadham",
+   "tamil": "பூதவாதம்",
+   "gloss": "materialism (Lokayata): the doctrine that only the elements exist and that awareness arises from their combination and ends with it, as rival schools report it",
+   "label_source": "the sarukkam's rubric பூத வாதச் சருக்கம் and பூத வாதி (854)"
+  },
+  {
+   "id": "vaadhu",
+   "tamil": "வாதம்",
+   "gloss": "formal debate between schools, opened by a challenge and held before a king's assembly",
+   "label_source": "the verses use வாத வாதி (854) and வாதஞ் செய்து (864, 865); id as declared in earlier Neelakesi chapters, distinct from vaadham (alchemy)"
+  },
+  {
+   "id": "pori",
+   "tamil": "பொறி",
+   "gloss": "a sense faculty; in Jain teaching beings are graded by how many of the five senses they have",
+   "label_source": "as declared in neelakesi ch004; here பொறி (870)"
+  },
+  {
+   "id": "gunam",
+   "tamil": "குணம்",
+   "gloss": "a quality of a thing, lasting or passing, and its relation to the substance (பொருள், குணி) that bears it",
+   "label_source": "as declared in neelakesi ch018; here குணி குணம் (856) and பூதக் குணம் (869)"
+  }
+ ],
+ "source_issues": [
+  "855: line 1 நில்லப் பாவினி can be divided நில் அப்பா இனி or நில் பாவி நீ; who speaks the challenge is unclear.",
+  "856: the materialist is பிசாசகன் here but பிசாசிகன் in 892 and 894.",
+  "857: line 1 தண்ணென் றீ is an odd epithet of fire; the division may be corrupt.",
+  "858: line 3 (அந்தி நாளுங் குடஞ்சுடர் நாட்டம்போல்) is obscure; the comparison is a reading.",
+  "863: கட்டில் (line 1) and சுதத்தி (line 4) are doubtful forms.",
+  "866-867: compressed lines (ஒளித்து நின்ற வுணர்வுரு; மேலவா காயக்காம்) make the turn of the cause-effect argument uncertain.",
+  "864, 865, 871: ஃ restored from the old encoding '•' (flagged by show)."
+ ]
+}

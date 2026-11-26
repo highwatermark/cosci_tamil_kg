@@ -1,0 +1,918 @@
+{
+ "chapter_no": 38,
+ "chapter_theme": "In the Vedic debate Neelakesi goes to the Brahmin Bhutikan's Veda school at Kakandi, answers his taunt that a Sudra woman cannot judge the Veda, argues by inference that the Veda was made and contradicts itself on killing and birth, and attacks sacrifice by holding that each deed falls on its doer and not on the gods or ancestors it is offered to; the text breaks at 845-851 and resumes with Bhutikan's concession.",
+ "cast": [
+  {
+   "id": "neelakesi",
+   "tamil": "நீலகேசி",
+   "role": "the demoness of the burning-ground temple who takes the Jain dharma and becomes its debater"
+  },
+  {
+   "id": "bhuthikan",
+   "tamil": "பூதிகன்",
+   "role": "the Brahmin teacher of the Veda at Kakandi whom Neelakesi debates"
+  },
+  {
+   "id": "mudhumagan",
+   "tamil": "முதுமகன்",
+   "role": "an elder seated in Bhutikan's Veda school, perhaps Bhutikan himself"
+  },
+  {
+   "id": "kaakandhi_nagarar",
+   "tamil": "நகரத்துள்ளார்",
+   "role": "the people of Kakandi who watch the debate"
+  }
+ ],
+ "verses": {
+  "824": {
+   "reading": "After crossing many kaathams Neelakesi enters the guarded city of Kakandi and goes into the Veda school of the Brahmin Bhutikan, known in the world for teaching and expounding the Veda, its limbs and the other sciences to all who seek them.",
+   "concepts": [
+    "vedham",
+    "andhanar",
+    "vaadhu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi reaches Kakandi and enters the Veda school of the Brahmin Bhutikan.",
+   "claims": []
+  },
+  "825": {
+   "reading": "When she asks what their subject is, an old man seated there, taking this to be the lady's errand, sets out gently and in order the rare Veda from the beginning and the works that came after it.",
+   "concepts": [
+    "vedham",
+    "kalvi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "mudhumagan",
+     "form": "முதுமகனவைதன்",
+     "line": 4
+    }
+   ],
+   "event": "Neelakesi asks what is taught there, and an elder of the school lists the Veda and the works that follow it.",
+   "claims": [],
+   "nuance": "Whether the elder (முதுமகன்) is Bhutikan himself is not said; the next verse has Bhutikan answer her in anger. எர்த்துரைத்தான் in line 3 looks like a slip for எடுத்துரைத்தான்.",
+   "uncertain": true
+  },
+  "826": {
+   "reading": "Bhutikan, flaring up, tells her that if all she speaks is unbelief, the scripture brought forth of old is the Veda, which is self-existent, and that she, a Sudra woman, talks so only because she has no competence in it.",
+   "concepts": [
+    "vedham",
+    "pirappu",
+    "vaadhu"
+   ],
+   "speaker": {
+    "who": "bhuthikan",
+    "form": "பூதிகனே",
+    "line": 4,
+    "addressee": "neelakesi"
+   },
+   "agents": [
+    {
+     "id": "bhuthikan",
+     "form": "பூதிகனே",
+     "line": 4
+    }
+   ],
+   "event": "Bhutikan angrily calls her an unbeliever and a Sudra woman unfit to judge the Veda.",
+   "claims": [
+    {
+     "claim": "the Veda is self-existent, made by no one",
+     "school": "vedic",
+     "line": 2,
+     "stance": "refuted",
+     "voiced_by": "bhuthikan",
+     "school_detail": "mimamsa"
+    },
+    {
+     "claim": "one of Sudra birth has no competence to speak on the Veda",
+     "school": "vedic",
+     "line": 3,
+     "stance": "refuted",
+     "voiced_by": "bhuthikan"
+    }
+   ],
+   "nuance": "The Brahmin answers her with her birth before her argument: the charge of being a Sudra woman (சூத்திரி) is the point she takes up in 827 and that 830 and 834 answer. Line 1 (முன் நான் பயந்த) and line 4 (போத்தந்தியோ) are hard to divide; the sense 'the scripture of old is the Veda, self-born' is clear from சயம்பு.",
+   "uncertain": true
+  },
+  "827": {
+   "reading": "Neelakesi, unshaken, says she is able in all of it and that he has looked only at her birth, and bids him state his case; he answers that if the Veda has any beginning or any end she should show it by reasoning, and he will concede.",
+   "concepts": [
+    "vedham",
+    "vaadhu",
+    "pirappu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "bhuthikan",
+     "form": "பூதிகன்",
+     "line": 1
+    },
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi rejects the slur on her birth, and Bhutikan challenges her to prove the Veda has a beginning or end.",
+   "claims": [
+    {
+     "claim": "the Veda has neither beginning nor end",
+     "school": "vedic",
+     "line": 3,
+     "stance": "refuted",
+     "voiced_by": "bhuthikan",
+     "school_detail": "mimamsa"
+    }
+   ],
+   "nuance": "The terms of the debate are set here: the Brahmin stakes the Veda's authority on its having no origin, and the next five verses are her inferences that it was made. Read with the division சாற்றுக என்றாட்கு ஆதி: lines 1-2 are hers and lines 3-4 his."
+  },
+  "828": {
+   "reading": "Neelakesi argues that the Veda is a made thing, since it involves action and novelty, goes against what is seen, mixes falsehood with sense, and is bound up with confusion, contradiction and killing, and so surely drives its followers to an evil birth.",
+   "concepts": [
+    "vedham",
+    "kathi",
+    "kolai",
+    "vaadhu"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Veda is a made work, not eternal, because it shows action and novelty",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    },
+    {
+     "claim": "because it is joined with killing, the Veda leads its followers to an evil state of birth",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ],
+   "nuance": "She stacks several reasons (ஏது) in the form of a formal inference, the logicians' own method turned on the Veda. Line 2 குவகொடும் is unclear and may be corrupt.",
+   "uncertain": true
+  },
+  "829": {
+   "reading": "To the question who made it, if anyone knows, she answers that when a man defiles a room in the middle of the town and slips away, no one concludes on inquiry that nobody did it merely because his name and form cannot be found.",
+   "concepts": [
+    "vedham",
+    "vaadhu"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "that a work's author is not remembered does not show it has no author",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    },
+    {
+     "claim": "no one is known to have made the Veda, so it has no maker",
+     "school": "vedic",
+     "line": 1,
+     "stance": "refuted",
+     "voiced_by": "neelakesi",
+     "school_detail": "mimamsa"
+    }
+   ],
+   "nuance": "The coarse example is chosen to insult as well as to argue: the authorless Veda is likened to filth left by a man who hid. Line 2 ஒருஐறயுள் is garbled (perhaps ஓர் உறையுள்)."
+  },
+  "830": {
+   "reading": "She argues that when appearance, smell, taste and touch are examined in full, the claim that some are of high birth and others low does not hold true, as those versed in the two Vedas, the makers of treatises and the penetrating know.",
+   "concepts": [
+    "pirappu",
+    "kudi",
+    "arivu"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "high and low birth is not a real difference, since the senses find none between persons",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ],
+   "nuance": "The argument against caste is from perception: no sense can find the difference that birth is said to make. It also answers the taunt of 826. The force of இரு வேதம் (two Vedas) and of line 1's list is not certain.",
+   "uncertain": true
+  },
+  "831": {
+   "reading": "She argues from reasons that the Veda is not a thing of nature, since it is completed by the effort of utterance in letters and words, has the character of something produced, and its makers give their names to its parts; so speaks the learned one whose name tells of hair that rivals the rain-cloud.",
+   "concepts": [
+    "vedham",
+    "vaadhu",
+    "kalvi"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": "புலமையினாள்",
+    "line": 4,
+    "addressee": "bhuthikan"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": "புலமையினாள்",
+     "line": 4
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "speech is produced by effort through letters and words, so the Veda is not natural or eternal",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ],
+   "nuance": "The poet names Neelakesi here by a gloss on her name (நீல-கேசி, dark hair) joined to புலமை, learning, just after Bhutikan has called her an incompetent Sudra."
+  },
+  "832": {
+   "reading": "She adds that since the Veda names particular persons and matches the present age rather than the days of the ancients, and since it is a body of injunctions, we call it new like the songs we sing, and that is fitting.",
+   "concepts": [
+    "vedham",
+    "vaadhu"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Veda names persons and fits the present age, so it is recent like any song",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ],
+   "nuance": "Line 1 கதியவர் is unclear; the sense 'it names persons' rests on பெயர் இன்னவை சுட்டின.",
+   "uncertain": true
+  },
+  "833": {
+   "reading": "She lists the Veda's contradictions as its own reciters state them: it says killing is evil yet sets no limit to what may be killed in sacrifice for gain, says to give up sexual union and that a heaven is reached by it, and says the holy fords are the path and also that they are evil.",
+   "concepts": [
+    "kollaamai",
+    "velvi",
+    "vedham",
+    "vaadhu"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Veda contains precepts that contradict each other",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    },
+    {
+     "claim": "killing in the sacrifice has no limit and brings gain",
+     "school": "vedic",
+     "line": 1,
+     "stance": "refuted",
+     "voiced_by": "neelakesi"
+    }
+   ],
+   "nuance": "The sacrificial claim is answered in 836 to 844. The account of what the Veda teaches is the Jain debater's, and a Vedic school would not grant that its rules contradict each other."
+  },
+  "834": {
+   "reading": "She goes on: they say birth yields nothing and austerity yields fruit, yet they set out with approval the order of the four classes from the beginning and will not grant a Sudra birth; to the clear-sighted these are confusions on confusions.",
+   "concepts": [
+    "pirappu",
+    "thavam",
+    "vedham"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "birth yields nothing and austerity yields fruit",
+     "school": "vedic",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "neelakesi"
+    },
+    {
+     "claim": "the four classes are ordained from the beginning",
+     "school": "vedic",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "neelakesi"
+    },
+    {
+     "claim": "a scripture that says both of these is confused",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ],
+   "nuance": "She does not argue that either Vedic teaching is false here, only that they cannot both stand. Line 3 சூதித்த தோற்றமும் பிழைப்பென is obscure.",
+   "uncertain": true
+  },
+  "835": {
+   "reading": "Because it has made contradictions within itself and caused confusion, she asks what is gained by it, and says that a teaching that is firm and worthy, true in all it says, has no conflict within, and that such a teaching is what makes people do excellent things.",
+   "concepts": [
+    "vedham",
+    "vaaimai"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a true teaching has no inner contradiction",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ],
+   "nuance": "Line 2 (பெறுதலை யென்னைகொ றத்துவந்தனையன்று பறுமுண்டே) is badly corrupt and cannot be divided with confidence; only the drift of lines 1, 3 and 4 is clear.",
+   "uncertain": true
+  },
+  "836": {
+   "reading": "She charges that for the Vasus, Rudras, ancestors and many others they kill cows, buffaloes, horses, tigers, dogs and more without pity, and that even if they behave as mere eaters of what others killed, the heavy deed is theirs.",
+   "concepts": [
+    "kollaamai",
+    "velvi",
+    "vinai",
+    "thevar"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "killing in sacrifice to gods and ancestors brings a heavy deed upon the sacrificers",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "837": {
+   "reading": "If he says that in killings meant for the gods and ancestors he wishes the evil deed to fall on them, she answers that whoever is intended, what each did comes to each, and that deed reaches him in ways he cannot know.",
+   "concepts": [
+    "vinai",
+    "velvi",
+    "thevar"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the sin of a killing done for the gods passes to the gods",
+     "school": "vedic",
+     "line": 2,
+     "stance": "refuted",
+     "voiced_by": "neelakesi"
+    },
+    {
+     "claim": "each person's deed comes back to that person, whoever it was meant for",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "838": {
+   "reading": "She argues that just as one who sets up a feeding-hall for his kin cannot know how its merit stands, so the gods for whom killing is done do not even show that the deed has reached them, and have no reckoning by which to know it.",
+   "concepts": [
+    "vinai",
+    "thevar",
+    "eegai"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a deed done in another's name does not pass to that other",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ],
+   "nuance": "The comparison in lines 1-2 is compressed and its point is not certain.",
+   "uncertain": true
+  },
+  "839": {
+   "reading": "If merit done with the wish that it reach the eminent goes to them rather than the doer, she says, then a deed aimed at renouncers who have already won release would drag them back into this birth: what folly is that.",
+   "concepts": [
+    "vinai",
+    "veedu",
+    "thuravu"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "merit done in the name of others reaches them and not the doer",
+     "school": "vedic",
+     "line": 2,
+     "stance": "refuted",
+     "voiced_by": "neelakesi"
+    },
+    {
+     "claim": "if deeds passed to those they were aimed at, the released could be bound again",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ],
+   "nuance": "A reductio: the doctrine of transferred merit would let anyone's deed bind even the liberated, which neither side will grant."
+  },
+  "840": {
+   "reading": "Who would say, she asks, that nectar or poison eaten with a friend or an enemy in mind goes to them rather than to the eater; so the many deeds of killing aimed at the gods ripen in many ways in you, faithless one.",
+   "concepts": [
+    "vinai",
+    "kollaamai",
+    "thevar"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the fruit of a deed falls on its doer as poison works on the one who eats it",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "841": {
+   "reading": "If he says the evil deed joins only the killers and not those for whom the killing was done, nor the eaters, as it does not join the gods, she calls it foolishness and says the deed falls alike on those who eat the flesh with pleasure.",
+   "concepts": [
+    "pulaal",
+    "vinai",
+    "kollaamai"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "only the killer, not the eater of sacrificial flesh, bears the sin",
+     "school": "vedic",
+     "line": 1,
+     "stance": "refuted",
+     "voiced_by": "neelakesi"
+    },
+    {
+     "claim": "those who eat the flesh share the killer's deed",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ],
+   "nuance": "Lines 2-4 are hard to divide (றின்றவர்க கியாவையும், கொன்றுவி யேனல னோ), so the exact shape of the objection is uncertain.",
+   "uncertain": true
+  },
+  "842": {
+   "reading": "Can gods who rejoice when killers of flies and dogs give to them, and who do only evil, remove that evil deed; and if they say the rite drives off diseases and demons, she answers that when death comes they will learn how hard karma is to remove.",
+   "concepts": [
+    "thevar",
+    "vinai",
+    "velvi"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "sacrifice drives away disease and demons",
+     "school": "vedic",
+     "line": 3,
+     "stance": "refuted",
+     "voiced_by": "neelakesi"
+    },
+    {
+     "claim": "gods who delight in killing cannot remove the deed of the killer",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "843": {
+   "reading": "She mocks: we cannot end our own sufferings and others' are harder still to remove, and these gods likewise cannot end their own, yet they are said to bring every kind of disease on others.",
+   "concepts": [
+    "thevar",
+    "idumbai",
+    "nindhai"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi mocks the gods of the sacrifice.",
+   "claims": [
+    {
+     "claim": "gods who cannot end their own suffering cannot end that of others",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "844": {
+   "reading": "If the gods were hungry beings who tormented the beast we kill and give, she says, they would kill and eat it themselves and none could stop them; so speak no ill of them: the gods take their food from afar and have no bellies that eat rice with flesh.",
+   "concepts": [
+    "thevar",
+    "pulaal",
+    "velvi"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the gods need and eat the flesh offered in sacrifice",
+     "school": "vedic",
+     "line": 1,
+     "stance": "refuted",
+     "voiced_by": "neelakesi"
+    },
+    {
+     "claim": "the gods have no bodily hunger for meat, so the slaughter offered to them is pointless",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ],
+   "nuance": "She turns piety against the rite: to say the gods eat flesh is itself to slander them (தீங்கொன்றும் உரையன்மின்)."
+  },
+  "852": {
+   "reading": "Telling Bhutikan that no good comes of speaking falsely and bidding him speak the truth, she hears him speak it too, and the people say that he also is fit to be praised by all quarters, men of the nature called true who stand in the truth.",
+   "concepts": [
+    "vaaimai",
+    "vaadhu"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "bhuthikan"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "bhuthikan",
+     "form": "பூதிகனே",
+     "line": 1
+    },
+    {
+     "id": "kaakandhi_nagarar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Bhutikan, urged to speak the truth, concedes, and the onlookers praise him.",
+   "claims": [
+    {
+     "claim": "no good comes of speaking falsely",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ],
+   "nuance": "Verses 845 to 851 are missing from the text, so the turn between her attack on sacrifice and his concession is lost; 852 opens on her last plea."
+  },
+  "853": {
+   "reading": "After she has expounded to him and the citizens, to their delight, which teachings are good and prepares to leave, those bound to her in love, eager because she made the path of dharma known, follow her a little way, circle her and turn back.",
+   "concepts": [
+    "aram",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "bhuthikan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kaakandhi_nagarar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi teaches Bhutikan and the townspeople, then leaves; her new followers escort and circumambulate her.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "826",
+   "b": "831",
+   "type": "tension",
+   "note": "Bhutikan dismisses Neelakesi as a Sudra woman with no competence in the Veda; five verses later the poet names her by her learning (புலமையினாள்) as she argues from the phonetics of the Veda itself.",
+   "teaches": "The poet answers the Brahmin's caste taunt not with a counter-taunt but by showing the Sudra woman doing the grammarian's and logician's work on the Veda, so the debate's form refutes his premise before its content does."
+  },
+  {
+   "a": "826",
+   "b": "852",
+   "type": "tension",
+   "note": "The Brahmin who opened in anger, calling her an unbeliever, is at the close urged to speak truly, concedes, and is praised by the onlookers as one of the true.",
+   "teaches": "The Jain poem converts its opponent rather than humiliating him: the man who began by denying her standing ends with standing of his own, praised for yielding to the truth."
+  },
+  {
+   "a": "830",
+   "b": "neelakesi:19",
+   "type": "tension",
+   "note": "The opening sermon praises a land where Brahmins and the rest make up the four flawless varnas, none straying from its path; here the same heroine argues that high and low birth is not real, since no sense can detect it.",
+   "teaches": "The Jain epic holds two views of caste at once: as a social order it can praise the four varnas, but as a claim of inborn rank it denies it, so its quarrel is with birth as worth, not with the order of occupations."
+  },
+  {
+   "a": "836",
+   "b": "neelakesi:105",
+   "type": "develops",
+   "note": "The sermon lists the deaths of beasts in Vedic sacrifice among the many sufferings death brings; the debate takes the same slaughter and argues who bears its karma.",
+   "teaches": "What the sermon offered as an item of compassion for the victim becomes in debate a question of moral accounting for the sacrificer, so the poem moves from pity for the beast to the sacrificer's own liability."
+  },
+  {
+   "a": "827",
+   "b": "manimekalai:27:96-107",
+   "type": "develops",
+   "note": "In the Manimekalai the Vedic brahmin states that the Veda has no cause, beginning or end, and Manimekalai simply judges that it agrees with no way of truth; here the same thesis is put by Bhutikan as a challenge and answered with five inferences.",
+   "teaches": "The Buddhist epic records the Veda's beginninglessness and dismisses it without argument, while the Jain epic makes it the hinge of a full debate, showing which of the two heterodox poets chose to argue the point."
+  },
+  {
+   "a": "833",
+   "b": "valayapathi:13",
+   "type": "develops",
+   "note": "The Valayapathi fragment says not to accept a dharma joined with killing; Neelakesi applies that rule to the Veda, which she says forbids killing and yet permits limitless killing in sacrifice.",
+   "teaches": "The fragment's maxim gets a named target: the dharma joined with killing is the Vedic sacrifice, and the Neelakesi adds that such a dharma fails even by its own rule against killing."
+  },
+  {
+   "a": "836",
+   "b": "kural:259",
+   "type": "qualifies",
+   "note": "The couplet ranks not killing one creature above pouring oblations in a thousand sacrifices; Neelakesi says the sacrifice itself is the killing and its heavy deed falls on those who perform it.",
+   "teaches": "Read beside the Jain charge, the couplet's comparison is seen to be the mild form of an argument the debater presses to the end: the Kural weighs sacrifice against abstention, Neelakesi denies the sacrifice any merit at all.",
+   "gains": {
+    "a": "Neelakesi's charge gains a widely shared ethical maxim that already ranks abstention above sacrifice, so her conclusion looks like its extension rather than a sectarian novelty",
+    "b": "the couplet gains a case where the oblations it sets aside are themselves animal killing, which sharpens its comparison into an indictment"
+   }
+  },
+  {
+   "a": "834",
+   "b": "kural:134",
+   "type": "qualifies",
+   "note": "The couplet says a Brahmin's birth is ruined when conduct fails though the Veda can be relearned; Neelakesi says the Veda itself teaches that birth yields nothing yet fixes the four classes and shuts out the Sudra.",
+   "teaches": "Both put conduct above birth, but the Kural keeps birth as a rank that conduct can lose, while Neelakesi finds the Veda caught between those two and calls the mixture confusion.",
+   "gains": {
+    "a": "the verse gains a well-known saying that already ranks conduct above the Brahmin's birth, which makes the contradiction she alleges in the Veda visible in a familiar text",
+    "b": "the couplet gains a reader who notices that it still assumes a Brahmin's birth as something to be lost, which the Jain argument treats as the very confusion"
+   }
+  },
+  {
+   "a": "839",
+   "b": "kural:43",
+   "type": "qualifies",
+   "note": "The couplet names tending the ancestors and the gods among the householder's five chief duties; Neelakesi argues that merit done in the name of the eminent dead cannot reach them, or the released would be bound again.",
+   "teaches": "Set beside the Jain reductio, the Kural's duty to the ancestors is seen to say nothing on whether anything reaches them, which is the question on which the Vedic and Jain views divide.",
+   "gains": {
+    "a": "Neelakesi's argument gains a respected text whose duty to the ancestors her opponent would cite, so the reductio is seen to strike at ordinary household piety too",
+    "b": "the couplet gains a sharp question its list leaves open: whether tending the ancestors benefits them or only disciplines the householder"
+   }
+  },
+  {
+   "a": "840",
+   "b": "naladiyar:101",
+   "type": "develops",
+   "note": "The quatrain says an old deed seeks out its doer as a calf finds its mother among many cows; Neelakesi says a deed of killing done for the gods ripens in the killer as poison in the one who eats it, whoever it was meant for.",
+   "teaches": "The quatrain's claim that a deed finds its own doer becomes in the debate a weapon against transferred merit, showing that the proverb rules out offering one's deed to gods or ancestors.",
+   "gains": {
+    "a": "Neelakesi's argument gains a common proverb that already states her premise, so her opponent must deny popular wisdom to escape it",
+    "b": "the quatrain gains a disputed case, sacrifice offered for another, in which its calf image does real argumentative work"
+   }
+  },
+  {
+   "a": "828",
+   "b": "tirumanthiram:51",
+   "type": "tension",
+   "note": "Tirumular says there is no dharma that leaves out the Veda, and the wise gave up disputation and recited it to gain release; Neelakesi argues by inference that the Veda is made and, being joined to killing, drives its followers to evil births.",
+   "teaches": "The two verses disagree both on the Veda and on method: Tirumular sets recitation above argument as the way to release, while Neelakesi makes argument the test that the Veda fails.",
+   "gains": {
+    "a": "the verse gains a clear statement of the Veda's claim to contain all dharma, the claim her inferences are built to break",
+    "b": "Tirumular's verse gains a concrete instance of the disputation it tells the wise to give up, and of what that disputation says about the Veda"
+   }
+  },
+  {
+   "a": "842",
+   "b": "tirumanthiram:214",
+   "type": "tension",
+   "note": "Tirumular says that when steadfast Brahmins pour the oblation sky, earth, the quarters and their gods flourish; Neelakesi says that rites cannot drive off disease or demons and that gods who delight in killing cannot remove the killer's karma.",
+   "teaches": "Where the Saiva verse gives the rite power to sustain the world and its gods, the Jain debater denies it any power over karma at all, so the two disagree on whether ritual acts on the moral order.",
+   "gains": {
+    "a": "the verse gains the full Vedic-Saiva claim for the rite that it denies, which shows how much it is rejecting",
+    "b": "Tirumular's verse gains an opponent who asks what the oblation can do against a deed already done, a question it does not take up"
+   }
+  },
+  {
+   "a": "830",
+   "b": "siddhar:127",
+   "type": "qualifies",
+   "note": "Pattirakiriyar longs to go about without caste, as the agama of Kapila says; Neelakesi argues that high and low birth is unreal because sight, smell, taste and touch find no difference.",
+   "teaches": "Both reject caste, but on different grounds: the Siddhar appeals to a scripture, while the Jain debater appeals to perception against scripture, which shows that an anti-caste position need not rest on any text.",
+   "gains": {
+    "a": "Neelakesi's argument gains a later Tamil voice reaching the same rejection of caste, which shows her point outlived the debate",
+    "b": "the Siddhar's verse gains a reason from the senses that does not depend on Kapila's unidentified agama"
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "vaadhu",
+   "tamil": "வாதம்",
+   "gloss": "formal debate between schools, opened by a challenge and held before a king's assembly",
+   "label_source": "the sarukkam's rubric (வேத வாதச் சருக்கம்); the id differs from vaadham, which the list already uses for alchemy"
+  },
+  {
+   "id": "velvi",
+   "tamil": "வேள்வி",
+   "gloss": "the sacrifice: the Vedic rite performed by priests for a patron, and by extension a deed spoken of as a sacrifice",
+   "label_source": "the verse's own word (வேள்வியில், 833 line 1)"
+  },
+  {
+   "id": "thevar",
+   "tamil": "தேவர்",
+   "gloss": "the gods as a class of embodied beings in the round of births, ranked and numbered beside humans, animals and hell-beings",
+   "label_source": "the verses' own word (தேவரும் 837, தேவர் 842, 844)"
+  },
+  {
+   "id": "kathi",
+   "tamil": "கதி",
+   "gloss": "a state or course of birth: in Jain teaching one of the four (hell, animal, human, god) into which deeds carry a soul",
+   "label_source": "the verse's own word (தீக்கதி, 828 line 4)"
+  }
+ ],
+ "source_issues": [
+  "Verses 845 to 851 are missing from the core text: the chapter runs 824-844 and then 852-853, so the end of the attack on sacrifice and Bhutikan's turn are lost.",
+  "825 line 3: எர்த்துரைத்தான் is probably a slip for எடுத்துரைத்தான்.",
+  "826 lines 1 and 4: முன் நான் பயந்த and போத்தந்தியோ are hard to divide.",
+  "828 line 2: குவகொடும் is unclear and may be corrupt.",
+  "829 line 2: ஒருஐறயுள் is garbled (perhaps ஓர் உறையுள்); lines 3-4 carry repairs of TSCII leftovers.",
+  "832 line 1: கதியவர் is unclear.",
+  "834 line 3: சூதித்த தோற்றமும் பிழைப்பென is obscure.",
+  "835 line 2: பெறுதலை யென்னைகொ றத்துவந்தனையன்று பறுமுண்டே is badly corrupt.",
+  "840 line 3: றுதலிய is probably a slip for நுதலிய.",
+  "841 lines 2-4: றின்றவர்க கியாவையும் and கொன்றுவி யேனல னோ are hard to divide; the sense is uncertain."
+ ]
+}

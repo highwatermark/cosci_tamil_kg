@@ -1,0 +1,790 @@
+{
+ "chapter_no": 7,
+ "chapter_theme": "The sermon ends with the sage's teaching on the body: to the woman who came to tempt him he shows that beauty is in the seer, that adornment covers filth and leads to hell, and that one who lives in the burning ground cannot be moved. Neelakesi casts off her disguise, confesses, is forgiven, hymns the sage's endurance in the burning ground, and, asking for atonement, is told to spread the Jina's path, which sends her into the debates.",
+ "structure_note": "127 closes the sermon; 128 to 132 are the sage's words on the body; 133 to 135 her conversion and pardon; 136 to 145 her hymn (four long verses, then five burning-ground verses); 146 to 149 her request, his answer and her departure.",
+ "cast": [
+  {
+   "id": "neelakesi",
+   "tamil": "நீலகேசி",
+   "role": "the demoness of the burning-ground temple who takes the Jain dharma and becomes its debater"
+  },
+  {
+   "id": "munichandran",
+   "tamil": "முனிச்சந்திரன்",
+   "role": "the Jain sage whose penance Neelakesi cannot break"
+  }
+ ],
+ "verses": {
+  "127": {
+   "reading": "The sage gives Neelakesi the nectar of dharma, teaching how birth comes about, how it is a disease, and how dharma is the medicine that does not fail, so that she may hear, understand and hold it in her heart.",
+   "concepts": [
+    "aram",
+    "piravi",
+    "marundhu",
+    "amudham"
+   ],
+   "nuance": "The verse frames the whole sermon that went before as medicine: birth is the illness (பிணி), dharma the remedy. மறவி தான் இல்லா (line 2) is best taken as 'free of forgetting', a remedy whose effect does not lapse; the phrase is compressed.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "munichandran",
+     "form": "வறவியான்",
+     "line": 4
+    },
+    {
+     "id": "neelakesi",
+     "form": "திறவியாள்",
+     "line": 3
+    }
+   ],
+   "event": "The sage gives Neelakesi his teaching on birth as a disease and dharma as its cure.",
+   "claims": [
+    {
+     "claim": "birth is a disease and dharma is its unfailing medicine",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "128": {
+   "reading": "The sage says that hair, teeth, breasts, red lips, shoulders and waist, which the lustful see as beauty, are seen otherwise by ascetics like himself and otherwise again by the pack of jackals, so that, rightly understood, the one body is three different things.",
+   "concepts": [
+    "yaakkai",
+    "kaamam",
+    "meyyunarvu"
+   ],
+   "nuance": "The argument is about perception, not anatomy: the body has no single nature that lust reads correctly. The jackals, for whom the same limbs are food, are the third witness, and யாம் (we) places the ascetic between the lover and the scavenger.",
+   "speaker": {
+    "who": "munichandran",
+    "form": null,
+    "line": null,
+    "addressee": "neelakesi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a woman's beauty is not in the body itself, since lovers, ascetics and jackals see the same body as different things",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "munichandran"
+    }
+   ]
+  },
+  "129": {
+   "reading": "Like fish that crave the bait on the hook of a low fisherman on the bank and come to harm, those caught by the one wrapped in foam-fine cloth and a girdle meet only deep sorrow.",
+   "concepts": [
+    "kaamam",
+    "idumbai",
+    "yaakkai"
+   ],
+   "nuance": "The fisherman is கயமகன், a base man, so the bait has a malicious hand behind it; the verse does not say whether that hand is the woman's or desire's own. வரை (line 4) is read as the bounded body girt with cloth and girdle; it could also mean the woman as a 'boundary' or trap.",
+   "speaker": {
+    "who": "munichandran",
+    "form": null,
+    "line": null,
+    "addressee": "neelakesi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "those caught by desire for a woman's adorned body meet deep sorrow, as fish meet the hook",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "munichandran"
+    }
+   ]
+  },
+  "130": {
+   "reading": "Flowers in the hair, kohl on the long eyes, silk dress, many bangles and fresh ear-rolls: these adornments lead all who cling to them into hell, the sage says, and the last line likens them to a show put on for a dog.",
+   "concepts": [
+    "naragam",
+    "kaamam",
+    "azhagu"
+   ],
+   "nuance": "Line 4 (நாய்க் கொட்டார்த்தார் செய்யும் கோலங்கள் வண்ணம்) is obscure as divided in the text; the comparison to something done for a dog is a guess at it, and the claim rests on line 3 alone.",
+   "uncertain": true,
+   "speaker": {
+    "who": "munichandran",
+    "form": null,
+    "line": null,
+    "addressee": "neelakesi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a woman's adornments lead those who attach themselves to them into hell",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "munichandran"
+    }
+   ]
+  },
+  "131": {
+   "reading": "You have bathed, put on scent, worn jewels and garlands, sulked as lovers sulk, the sage tells the woman before him, but you have only covered with skin a body full of many things that leak filth, and I will not speak flattering words to it.",
+   "concepts": [
+    "yaakkai",
+    "azhagu",
+    "kaamam"
+   ],
+   "nuance": "The sage answers her play (ஊடினாய், the lover's sulk) with a refusal of முகமன், courtly flattery: he declines the lover's role as much as the body. The woman addressed is Neelakesi in the borrowed form of a princess, so the body he strips of its cover is not her own.",
+   "speaker": {
+    "who": "munichandran",
+    "form": null,
+    "line": null,
+    "addressee": "neelakesi"
+   },
+   "agents": [],
+   "event": "The sage refuses to flatter the adorned woman who has come to tempt him.",
+   "claims": [
+    {
+     "claim": "the adorned body is skin covering a vessel of filth",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "munichandran"
+    }
+   ]
+  },
+  "132": {
+   "reading": "You came before me thinking I would delight in a waist like lightning and shoulders like bamboo, the sage says, but I live in the burning ground clothed with poor skin and many bones; would I be deluded by these?",
+   "concepts": [
+    "yaakkai",
+    "kaamam",
+    "thavam",
+    "nilaiyaamai"
+   ],
+   "nuance": "The sage's defence is his dwelling, not a doctrine: one who lives among skin and bones in the புறங்காடு already sees what her body will become. The burning ground is also Neelakesi's own haunt (the demoness of its temple), so he turns her ground against her.",
+   "speaker": {
+    "who": "munichandran",
+    "form": null,
+    "line": null,
+    "addressee": "neelakesi"
+   },
+   "agents": [],
+   "event": "The sage tells the tempting woman that, living in the burning ground among bones, he cannot be moved by her beauty.",
+   "claims": []
+  },
+  "133": {
+   "reading": "As molten gold fills a clay mould once the wax figure inside has been heated out, she put away her evil, having been shown the worm-ridden truth of the body, took on a form of beauty and drank the nectar of dharma.",
+   "concepts": [
+    "aram",
+    "amudham",
+    "azhagu"
+   ],
+   "nuance": "The simile is lost-wax casting: the wax (her old nature) melts away and gold takes the same shape, so the change is inward and complete. Line 3 can be taken as 'shown the body as worms' (the sage's lesson) or as her casting off a false body; the reading of line 3 is not secure.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi casts off her evil and takes in the sage's dharma.",
+   "claims": []
+  },
+  "134": {
+   "reading": "Thinking that the virtuous sage is like a mother who, out of overflowing kindness, nurses her infant with her milk even when it hurts her, she dropped her illusory form, took her own other form, and bowed, saying, 'Lord, forgive all the wrongs I, a demon, have done.'",
+   "concepts": [
+    "kannottam",
+    "porai",
+    "panivu",
+    "arul"
+   ],
+   "nuance": "கழிகண்ணோட்டம் names the Kural's virtue of kindly regard in excess; the mother suckling a biting child makes the sage's forbearance maternal rather than judicial. Her confession calls herself பேயேன், the first time she names her true nature to him.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": "பேயேன்",
+     "line": 4
+    }
+   ],
+   "event": "Neelakesi sheds the princess's form, takes her own, and begs the sage's forgiveness.",
+   "claims": [
+    {
+     "claim": "the virtuous bear the wrongs of those who hurt them as a mother bears her nursing infant",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "135": {
+   "reading": "The sage tells her not to grieve: in this world the great put away displeasure when those who deserve their anger stand before them and speak, and what is there that such as we cannot bear? She praises his flowering feet and, with joined hands, begins to hymn him as a mountain of virtues.",
+   "concepts": [
+    "porai",
+    "arul",
+    "vazhipaadu"
+   ],
+   "nuance": "Lines 1 and 2 are compressed; முனிதக்கார் is read as 'those who deserve anger', so that the great forgive the offender who comes before them. It might instead mean the sages themselves, which would leave the sense close but the grammar different.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "munichandran",
+     "form": "வறவோன்",
+     "line": 3
+    },
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sage forgives Neelakesi and she begins her hymn of praise.",
+   "claims": [
+    {
+     "claim": "the great forgive those who wronged them when they come and confess",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "munichandran"
+    }
+   ]
+  },
+  "136": {
+   "reading": "Neelakesi praises the sage as the one who bore the flood rains, who closed the gate of karma, who has a glorious mind, who taught the way to be saved, and who, seeing every harm she did him in the dead of night, showed no contempt; she will come to his peerless feet.",
+   "concepts": [
+    "vinai",
+    "thavam",
+    "porai",
+    "vazhipaadu"
+   ],
+   "nuance": "வினையின் வாயில் அடைத்தோய் (closing the doorway of karma) and, in 139, the doorway that burns karma correspond to the Jain pair of stopping karma's inflow and wearing it off; the hymn uses plain Tamil rather than technical names for them.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "munichandran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the ascetic can close the doorway by which karma enters",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "137": {
+   "reading": "She hails him as the one who taught the three delusions, scorned the hostile apparition, expounded bondage and release, loathed the pleasure that karma brings, and stayed wholly unshaken when she made the forest rise up to trouble him; she bows to his blameless feet.",
+   "concepts": [
+    "veedu",
+    "vinai",
+    "thavam",
+    "meyyunarvu"
+   ],
+   "nuance": "மூடம் மூன்று (the three delusions) is the Jain list that the sermon gave at verse 122. முரண்செய் தோற்றம் can be the hostile shapes she raised against him or 'birth' as the source of conflict; the third line makes the first likelier, since she names her own assault.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "munichandran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "bondage and release are the two states of the soul that the teacher expounds",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    },
+    {
+     "claim": "the three delusions are to be known and avoided",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "138": {
+   "reading": "She hails him as the one who has left painful birth, cut the burning root of desire, angrily reduced the invincible Ananga to white ash, and by his virtues alone made her, who came to kill him, bow; she worships his feet, beyond words to praise.",
+   "concepts": [
+    "piravi",
+    "avaa",
+    "kaamam",
+    "panivu"
+   ],
+   "nuance": "Burning the god of love to ash is the deed Saiva hymns give to Siva; the Jain hymn gives it to a human ascetic, and keeps even the anger (வெகுண்டோய்). Line 3 states the turn of the whole chapter: she was conquered not by force but by his qualities.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "munichandran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "an enemy who came to kill is overcome by virtue, not by force",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "139": {
+   "reading": "She hails him as the one who knew the truth of the body, cut away the longing for sleep, laid open the doorway that burns all painful karma, and in grace rained the rain of dharma on her, who had no restraint; may his broad red-lotus feet be on her head.",
+   "concepts": [
+    "vinai",
+    "yaakkai",
+    "arul",
+    "meyyunarvu"
+   ],
+   "nuance": "The grace (அருள்) here is the teacher's compassion in giving the dharma, not a god's power that removes karma; the karma itself is burned by the doorway he showed.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "munichandran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "there is a way by which all painful karma is burned away",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "140": {
+   "reading": "As the heavy rain beat down again and again and many poisonous creatures crawled up his body, he stood restrained, knowing that he is other than the body; she will worship his feet with joined palms.",
+   "concepts": [
+    "uyir",
+    "yaakkai",
+    "thavam",
+    "porai"
+   ],
+   "nuance": "உடம்பொடு வேறு எனும் ஓர்ப்பு (the realisation that one is other than the body) is the Jain separation of soul and body made a practice: the ascetic endures because he does not take the body for himself.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "munichandran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the self is distinct from the body",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "141": {
+   "reading": "In the burning ground of thick darkness, when the harsh wind blew enough to melt stone, he stayed and uprooted all his karmas; she will worship his feet every day as a good deed.",
+   "concepts": [
+    "vinai",
+    "thavam",
+    "vazhipaadu"
+   ],
+   "nuance": "She calls her worship நல்வினை, a good deed, so the hymn itself is placed within the economy of karma the sage is ending.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "munichandran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "142": {
+   "reading": "In the rainy days when clouds poured, through countless nights in the forest that breeds fear, he sat resolved not to move anywhere; she will bow to his lotus-like feet.",
+   "concepts": [
+    "thavam",
+    "thitpam",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "munichandran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "143": {
+   "reading": "In the old burning ground where jackals howl all night as they eat the bodies of the dead, he meditates with all attachment cut; she will circle and worship his two feet according to rule.",
+   "concepts": [
+    "pattru",
+    "thavam",
+    "nilaiyaamai",
+    "vazhipaadu"
+   ],
+   "nuance": "விதியின் (by rule) shows that the convert's first act is worship in prescribed form, the opposite of the blood offerings her own temple received.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "munichandran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "144": {
+   "reading": "In the forest where fierce little demons tear and play with white skulls, he burns away the eight dusts; she will worship his feet with flowers humming with bees.",
+   "concepts": [
+    "vinai",
+    "thavam",
+    "vazhipaadu"
+   ],
+   "nuance": "எண் துகள் (the eight dusts) is read as the eight kinds of karma of Jain teaching, which cling to the soul like dust; the verse gives only the number and the image.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "munichandran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "karma is of eight kinds and is burned away by the ascetic",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "145": {
+   "reading": "In the forest where, among the corpses, the pyre fire blazes and spirits dance the thunangai, he whose virtues never wane stays; she will bow at his feet every day.",
+   "concepts": [
+    "thavam",
+    "anangu",
+    "vazhipaadu"
+   ],
+   "nuance": "The five burning-ground verses (141 to 145) each set the sage in a scene of terror and then name one victory; the terrors are those of Neelakesi's own realm, so the hymn is also her renunciation of it.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "munichandran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "146": {
+   "reading": "Looking now to the fine good path, she praised the sage's feet three times and said, 'I have done sin as great as the cold sea; tell me what I must do now.'",
+   "concepts": [
+    "vinai",
+    "guru",
+    "panivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi praises the sage three times and asks him what she must do to answer for her sins.",
+   "claims": []
+  },
+  "147": {
+   "reading": "The sage answers: for all souls that die and are born again among beasts, in fierce hells and the rest, blinded, sunk in the sea of sorrow and without any good, the great one without guile removes their trembling and gives the high state; take refuge in him, for he is the refuge of all people.",
+   "concepts": [
+    "adaikkalam",
+    "piravi",
+    "naragam",
+    "iraivan"
+   ],
+   "nuance": "The refuge offered is the guileless great one, the Jina, not the sage himself; the sage turns her worship of him to the one he follows. The 'trembling' removed echoes the நாற்கதி (four states) of the earlier sermon, of which beasts and hell are named.",
+   "speaker": {
+    "who": "munichandran",
+    "form": null,
+    "line": null,
+    "addressee": "neelakesi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the guileless great one is the refuge of all beings, freeing souls from the births of beasts and hells and giving the high state",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "munichandran"
+    }
+   ]
+  },
+  "148": {
+   "reading": "She says: you have told me the way to be saved and the realities beginning with the soul; I have taken clear good knowledge that does not wither, and you have filled me with all your good qualities; great one, give me, who erred, an atonement. He answers: to end the evil you did, make the Jina's path clear in the land.",
+   "concepts": [
+    "piraayachchiththam",
+    "gnaanam",
+    "aram",
+    "kutram"
+   ],
+   "nuance": "The expiation asked for (பிராயச்சித்தம்) is given not as a rite or a penance but as a mission: she is to teach the Jina's path. This sets up every debate that follows. கடனாட்டில் may be read as 'in the sea-girt land' or 'as a duty'; the command is the same either way.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "munichandran"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "munichandran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi asks the sage for an atonement, and he bids her spread the Jina's path.",
+   "claims": [
+    {
+     "claim": "the evil one has done is atoned for by making the Jina's path clear to others",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "munichandran"
+    }
+   ]
+  },
+  "149": {
+   "reading": "Saying, 'Lord, by your grace, by which hard suffering is removed, I will never forget these feet', she circled him and went joyfully to the Jina's temple on the mountain, bright with gem-lamps.",
+   "concepts": [
+    "vazhipaadu",
+    "guru",
+    "aram"
+   ],
+   "nuance": "The verse is written with lengthened syllables (யாஅ, மாஅ, வேஎ, தீஇ) at the head of each line, and line 3 and 4's description of the temple is only partly clear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi takes leave of the sage and goes to the Jina temple on the mountain.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "128",
+   "b": 63,
+   "type": "develops",
+   "note": "At 63 she bears a form made to be desired so as to shake his penance; at 128 the sage answers that the same limbs are three different things to the lustful, the ascetic and the jackal.",
+   "teaches": "The sermon on the body is a direct reply to the disguise: the form chosen to excite desire is answered by showing that desirability lies in the seer, so the trick fails at its root."
+  },
+  {
+   "a": "128",
+   "b": "naladiyar:46",
+   "type": "develops",
+   "note": "Naladiyar 46 lists entrails, blood, bone and skin and asks which of these is the garlanded woman; Neelakesi 128 lists the woman's beauties and says lovers, ascetics and jackals each see something else in them.",
+   "teaches": "The quatrain dissolves the beloved into parts, while the epic keeps the parts whole and moves the difference to the viewer, so the two give two routes to the same detachment: analysis of the object and analysis of the gaze.",
+   "gains": {
+    "a": "the sage's three viewers gain the anatomical list that says what the ascetic and the jackal actually see",
+    "b": "the quatrain's question gains a speaker and an addressee, a sage telling it to the woman herself"
+   }
+  },
+  {
+   "a": "131",
+   "b": "manimekalai:20:49-69",
+   "type": "same_image",
+   "note": "Manimekalai shows the prince an old woman's body and says flowers, sandal, cloth and jewels hide its flesh; the Neelakesi's sage tells the adorned woman herself that her bath, scents, jewels and garlands only cover filth with skin.",
+   "teaches": "The Buddhist and Jain epics use one argument with the roles reversed: in the Manimekalai a woman ascetic cures a man's lust, in the Neelakesi a male ascetic rebuffs a woman's, and here the body he unmasks is itself a borrowed disguise."
+  },
+  {
+   "a": "132",
+   "b": "naladiyar:45",
+   "type": "develops",
+   "note": "Both speakers refuse to be swayed by praise of a woman's beauty because they have seen bones in the burning ground: the Naladiyar's speaker has seen the scattered teeth, the Neelakesi's sage lives among the bones.",
+   "teaches": "The quatrain's resolve rests on having once seen the burning ground; the sage's rests on dwelling there, so the pair shows the same defence held as a memory and as a way of life.",
+   "gains": {
+    "a": "the sage's boast gains the quatrain's precise point that beauty praised as jasmine and pearl ends as scattered teeth",
+    "b": "the quatrain's resolve is shown put to a real test, a supernatural temptress who chose the burning ground's own sage"
+   }
+  },
+  {
+   "a": "134",
+   "b": 59,
+   "type": "develops",
+   "note": "At 59 she takes the form of the princess Kamalekai to tempt the sage; at 134 she casts off that illusory form, takes her own, and asks pardon as a demon.",
+   "teaches": "The disguise put on to break his vow is the first thing she gives up, so conversion begins with the end of deception and confession of her real nature, before any doctrine is taken."
+  },
+  {
+   "a": "134",
+   "b": "kural:579",
+   "type": "develops",
+   "note": "Kural 579 calls it the highest disposition to show kindly regard to and bear with even those whose way is to hurt one; the Neelakesi's sage is likened to a mother who in excess of kindly regard (கழிகண்ணோட்டம்) suckles the infant that hurts her.",
+   "teaches": "The epic gives the couplet's high virtue an image and a result: the forbearance is maternal, and it converts the one who came to harm, which the couplet's rule does not promise.",
+   "gains": {
+    "a": "the mother simile gains a name in the ethics books, கண்ணோட்டம் extended to those who harm",
+    "b": "the couplet's virtue is shown working on an attacker who then gives up her violence"
+   }
+  },
+  {
+   "a": "137",
+   "b": 55,
+   "type": "develops",
+   "note": "At 55 the narrator tells how her terrors of elephant, tiger and lion failed to frighten him and she gave up; at 137 she herself sings that he stayed unshaken when she made the forest rise against him.",
+   "teaches": "The failed assault becomes, in the attacker's own mouth, a title of praise, so the story's earlier defeat is retold as the ground of her devotion."
+  },
+  {
+   "a": "138",
+   "b": "kural:314",
+   "type": "develops",
+   "note": "Kural 314 says the punishment for those who hurt you is to shame them by doing them good; Neelakesi 138 says the sage made her, who came to kill him, bow by his virtues alone.",
+   "teaches": "The epic shows the couplet's punishment by goodness carried through to its end: the would-be killer is not only shamed but turned into a worshipper and, two verses later, an advocate.",
+   "gains": {
+    "a": "her confession gains the couplet's frame, in which his forbearance is a form of punishment and not passivity",
+    "b": "the couplet's counsel gains a case in which the wrongdoer was a deadly enemy and the result was conversion"
+   }
+  },
+  {
+   "a": "138",
+   "b": "siddhar:603",
+   "type": "qualifies",
+   "note": "The Siddhar verse names the Lord as the one who opened his fire-eye and burned Kama; the Neelakesi's hymn says the sage in anger reduced Ananga to white ash.",
+   "teaches": "A Jain hymn takes the Saiva god's signature deed and gives it to a human ascetic, so the victory over desire that the Saiva texts reserve for the Lord is claimed as something a man achieves by penance.",
+   "gains": {
+    "a": "the Jain epithet is seen as a borrowing from the Saiva stock of praise, pointed against it",
+    "b": "the Siddhar's image of the Lord is shown contested by a school that gives his deed to the ascetic"
+   }
+  },
+  {
+   "a": "140",
+   "b": "kural:340",
+   "type": "develops",
+   "note": "Kural 340 asks whether the life lodging in the body has no home of its own; Neelakesi 140 praises the sage who, while rain beat on him and poisonous creatures crawled over him, knew himself to be other than the body.",
+   "teaches": "The couplet's doubtful question about the soul's lodging becomes in the epic a settled conviction that is practised: knowing the self is other than the body is what lets the ascetic bear the body's torments.",
+   "gains": {
+    "a": "the sage's endurance gains the couplet's image of the soul as a lodger, which explains why bodily suffering does not touch him",
+    "b": "the couplet's question gains an answer from a school that holds soul and body distinct and turns that into discipline"
+   }
+  },
+  {
+   "a": "140",
+   "b": "siddhar:824",
+   "type": "qualifies",
+   "note": "Pattinathar searches hair, skin, blood, bone and worms for the 'I', finds it nowhere, and says that only when the Lord's grace came did he see himself; the Neelakesi praises an ascetic who knows himself other than the body by his own steadfast penance.",
+   "teaches": "Both hold that the self is not the body, but the Saiva poet reaches that knowledge only by grace while the Jain sage reaches it by enduring, so the shared insight hides a disagreement about how it is won.",
+   "gains": {
+    "a": "the Jain claim gains a sharp contrast that shows it needs no god for the knowledge of the self",
+    "b": "the Siddhar's turn to grace is shown to be a choice, since another school claimed the same insight without it"
+   }
+  },
+  {
+   "a": "141",
+   "b": "tirumanthiram:1616",
+   "type": "tension",
+   "note": "Tirumanthiram 1616 makes Siva the renouncer who dwells in the burning ground and cuts off the births of those who renounce; Neelakesi 141 praises the ascetic who in the burning ground uprooted all his own karmas.",
+   "teaches": "The same dwelling place holds two answers to who ends rebirth: in the Saiva verse the god of the burning ground cuts the renouncer's births, in the Jain hymn the renouncer there uproots his karma himself, a disagreement that turns on reading பல்வினையும் பறிப்போய் as his own karma.",
+   "gains": {
+    "a": "the hymn's self-won release is set against the Saiva alternative it implicitly excludes",
+    "b": "Tirumular's burning-ground renouncer-god is shown to answer a rival model in which no god is needed"
+   }
+  },
+  {
+   "a": "147",
+   "b": "kural:10",
+   "type": "develops",
+   "note": "Kural 10 says those who reach the Lord's feet swim the great sea of births; Neelakesi 147 says souls sunk in the sea of sorrow, born among beasts and in hells, should take refuge in the guileless great one.",
+   "teaches": "The epic names what the couplet leaves open: the sea is filled with the births of beasts and hells, and the feet are those of the Jina, so a Jain teacher reads the Kural's refuge as his own.",
+   "gains": {
+    "a": "the sage's call to refuge gains the Kural's image of crossing, which shows refuge as escape from rebirth",
+    "b": "the couplet's unnamed Lord is given a sectarian identity and its sea a list of states"
+   }
+  },
+  {
+   "a": "148",
+   "b": 163,
+   "type": "develops",
+   "note": "At 148 the sage gives as her atonement the task of making the Jina's path clear; at 163 she chooses the Buddha's path, which does not call flesh-eating a fault, as the first to subdue.",
+   "teaches": "The debates of the rest of the poem are her penance: the commission given as expiation for her violence is carried out first against the school she charges with tolerating killing for food."
+  },
+  {
+   "a": "148",
+   "b": "purananuru:34",
+   "type": "qualifies",
+   "note": "Purananuru 34 cites dharma as granting expiation (கழுவாய்) for killing cows, destroying unborn children and wronging elders, but none for ingratitude; in Neelakesi 148 the demoness asks expiation for her sins and is told to teach the Jina's path.",
+   "teaches": "Both assume that grave wrongs admit expiation, but the Sangam maxim treats it as a provision of dharma with exceptions while the Jain sage turns it into a lifelong mission of persuasion.",
+   "gains": {
+    "a": "the sage's command gains the older Tamil idea of a fixed expiation, against which its novelty shows",
+    "b": "the maxim's list of expiable wrongs is shown to admit a case, killing and the will to kill, met by teaching rather than rite"
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "piraayachchiththam",
+   "tamil": "பிராயச்சித்தம்",
+   "gloss": "expiation; the act that answers for a wrong done",
+   "label_source": "the verse uses the word (Neelakesi 148)"
+  }
+ ],
+ "source_issues": [
+  "Verse 139, line 1: 'உணர்ந்தோய்ந £யுறங்க' has a stray '£' (U+00A3); read உணர்ந்தோய் நீ உறங்க.",
+  "Verse 130, line 4: 'நாய்க் கொட்டார்த்தார்' is obscure as divided; the word division may be faulty.",
+  "Verses 147, 148, 149: each stanza was printed in eight half-lines and has been joined into four; in 149, line 2 'மாஅ துடைஅடி' is oddly divided."
+ ]
+}

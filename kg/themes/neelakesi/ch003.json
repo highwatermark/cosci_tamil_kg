@@ -1,0 +1,769 @@
+{
+ "chapter_no": 3,
+ "chapter_theme": "The sage Munichandra stops a goat sacrifice vowed for a child by arguing that the child came from karma, not the goddess, and gives the worshippers a clay substitute and the householder's five abstentions; the demons who lose their offerings bring the goddess Neelakesi, whose terrors fail against his unmoved penance.",
+ "cast": [
+  {
+   "id": "neelakesi",
+   "tamil": "நீலகேசி",
+   "role": "the demoness of the burning-ground temple who takes the Jain dharma and becomes its debater"
+  },
+  {
+   "id": "munichandran",
+   "tamil": "முனிச்சந்திரன்",
+   "role": "the Jain sage whose penance Neelakesi cannot break"
+  },
+  {
+   "id": "sirupey",
+   "tamil": "சிறுபேய்",
+   "role": "the lesser demons who seek out Neelakesi for help"
+  },
+  {
+   "id": "kolaiyaalar",
+   "tamil": "கொலையாளர்",
+   "role": "the worshippers who bring a goat to be killed for the goddess in thanks for a child"
+  }
+ ],
+ "verses": {
+  "34": {
+   "reading": "The narrator introduces the sage named Munichandra: he knows the existents by measuring them with the means of valid knowledge, is great in the virtues that begin with the restraints, and by the twelve kinds of penance cuts the chain of births.",
+   "concepts": [
+    "thavam",
+    "alavai",
+    "piravi",
+    "arivu"
+   ],
+   "nuance": "The vocabulary is technical Jain: அத்திகாயங்கள் (the astikayas, the extended existents), குத்தி (gupti, the restraints of mind, speech and body) and பத்தின் மேல் இரு, ten and two, the twelvefold penance. The sage is defined first as one who knows by அளவை, which prepares his later role as teacher of a debater. The opening of line 4 (முத்தின் யான்) does not construe clearly.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the twelvefold penance cuts the chain of births",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "35": {
+   "reading": "At the temple, when some were carrying out the rite of cutting off the head of a goat that knew nothing for the deity, the sage who knew the way told them to stop and to say why they would kill a life for one end.",
+   "concepts": [
+    "kollaamai",
+    "bali",
+    "vazhipaadu",
+    "kolai"
+   ],
+   "nuance": "The sage's first move is a question, not a ban: he asks the worshippers to give their reason, which sets up the exchange of 36 to 40 as a small debate. The goat is called அறிவிலா மறி, the goat without understanding, which makes its killing the taking of a life that cannot consent.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kolaiyaalar",
+     "form": "சிலர்",
+     "line": 2
+    },
+    {
+     "id": "munichandran",
+     "form": "நெறியறி",
+     "line": 3
+    }
+   ],
+   "event": "As worshippers prepare to behead a goat for the temple deity, the sage stops them and asks why they kill.",
+   "claims": []
+  },
+  "36": {
+   "reading": "The killers answer that the broad-shouldered woman standing here had no child, that they made a vow about it to this goddess Modi of the host, that a child was born, and that they have brought the goat to cut it in thanks.",
+   "concepts": [
+    "vazhipaadu",
+    "bali",
+    "makkal"
+   ],
+   "nuance": "மோடி is a name of the fierce goddess; the sacrifice is a vow repaid (நேர்த்தி in later usage), a gift for a gift. The poem names the worshippers by their act, கொலையாளர், the killers, before they have argued at all.",
+   "speaker": {
+    "who": "kolaiyaalar",
+    "form": "கொலையாளர்",
+    "line": 4,
+    "addressee": "munichandran"
+   },
+   "agents": [
+    {
+     "id": "kolaiyaalar",
+     "form": "கொலையாளர்",
+     "line": 4
+    }
+   ],
+   "event": "The worshippers explain that the goddess granted a barren woman a child and the goat is the vowed thank-offering.",
+   "claims": [
+    {
+     "claim": "a deity who has granted a child must be repaid with the vowed blood offering",
+     "school": "general",
+     "line": 4,
+     "stance": "refuted",
+     "voiced_by": "kolaiyaalar"
+    }
+   ]
+  },
+  "37": {
+   "reading": "The sage asks which became the child, the flesh-body or the life: if the body, it is of the parents' blood; if the life, it came to a human birth by the deed it did before; so what did the god give the woman with honeyed hair?",
+   "concepts": [
+    "vinai",
+    "piravi",
+    "uyir",
+    "yaakkai"
+   ],
+   "nuance": "The argument splits the child into body and soul and finds no share left for the goddess: the body has a natural cause, the soul a karmic one. It denies the gift, not the goddess's existence, so the vow lapses for want of anything to repay.",
+   "speaker": {
+    "who": "munichandran",
+    "form": null,
+    "line": null,
+    "addressee": "kolaiyaalar"
+   },
+   "agents": [
+    {
+     "id": "munichandran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sage answers that the child's body came from its parents' blood and its life from its own former deeds.",
+   "claims": [
+    {
+     "claim": "a child's body comes from the parents' blood and its life from its own former deeds, so no deity gave it",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "munichandran"
+    }
+   ]
+  },
+  "38": {
+   "reading": "The sage proposes that, since the gods are content even when what was vowed to them is made in figure, the worshippers make a goat of clay and give it, and then neither they nor the gods will bear blame or sin.",
+   "concepts": [
+    "kollaamai",
+    "vazhipaadu",
+    "pazhi"
+   ],
+   "nuance": "A pastoral compromise: the sage does not ask the worshippers to break their vow but to keep it with an image, and he speaks as if the gods accept this. Lines 1 and 2 (ஏறி யானை இருங்கலைகள் நேர்ந்தார், perhaps vows of an elephant to ride or great stags) do not construe securely; the clay goat of line 3 is plain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "munichandran",
+    "form": null,
+    "line": null,
+    "addressee": "kolaiyaalar"
+   },
+   "agents": [
+    {
+     "id": "munichandran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sage tells them to offer a clay goat in place of the living one.",
+   "claims": [
+    {
+     "claim": "a vowed living offering is discharged without sin by offering its image in clay",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "munichandran"
+    }
+   ]
+  },
+  "39": {
+   "reading": "The sage whose tongue keeps men from the hot hell tells them that the world calls the killer cruel and the words of the scriptures agree, so if they give up this practice from today it will be good for them in both lives.",
+   "concepts": [
+    "kollaamai",
+    "naragam",
+    "marumai",
+    "pazhi"
+   ],
+   "nuance": "He argues from two authorities his hearers already accept, common opinion and the scriptures, not from Jain doctrine; the appeal is to a shared ground before the doctrinal list of 40.",
+   "speaker": {
+    "who": "munichandran",
+    "form": "நாவினான்",
+    "line": 4,
+    "addressee": "kolaiyaalar"
+   },
+   "agents": [
+    {
+     "id": "munichandran",
+     "form": "நாவினான்",
+     "line": 4
+    }
+   ],
+   "event": "The sage urges the worshippers to give up killing from that day.",
+   "claims": [
+    {
+     "claim": "the world and the scriptures both condemn the killer, and giving up killing benefits this life and the next",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "munichandran"
+    }
+   ]
+  },
+  "40": {
+   "reading": "The sage, who looks on ash, potsherd, shining gem and gold alike, tells them that if they put away killing, lying and theft, do not go after other men's wives, and calm the mind's craving for wealth, the world of the gods will be within their reach.",
+   "concepts": [
+    "kollaamai",
+    "vaaimai",
+    "piranil",
+    "avaa"
+   ],
+   "nuance": "These are the five lesser vows of the Jain householder (not killing, not lying, not stealing, not going to another's wife, limiting possessions), given in order. The reward named is the world of the immortals, not release: the sage asks of lay worshippers a householder's discipline, while his own epithet (gold and potsherd alike) marks the ascetic's equanimity.",
+   "speaker": {
+    "who": "munichandran",
+    "form": "நோக்குவான்",
+    "line": 4,
+    "addressee": "kolaiyaalar"
+   },
+   "agents": [
+    {
+     "id": "munichandran",
+     "form": "நோக்குவான்",
+     "line": 4
+    }
+   ],
+   "event": "The sage gives the worshippers the five abstentions of the householder.",
+   "claims": [
+    {
+     "claim": "one who avoids killing, lying, theft and others' wives and curbs the craving for wealth reaches the world of the gods",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "munichandran"
+    }
+   ]
+  },
+  "41": {
+   "reading": "Hearing the compassionate words of the one worthy of praise, the worshippers bowed, prayed that their old deeds too might be undone, and took the tethered goat away with them, promising to keep it safe.",
+   "concepts": [
+    "vinai",
+    "arul",
+    "kollaamai",
+    "panivu"
+   ],
+   "nuance": "The converts at once think of their own karma (பழவினை), so the sage's argument about the child's karma in 37 has been taken home. Line 3 (அம்மறியும் மறமும்) can be read as taking away the goat and their violence, or the goat and the dharma (அறமும்); either way the goat leaves alive.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kolaiyaalar",
+     "form": "கருத்தினார்",
+     "line": 4
+    }
+   ],
+   "event": "The worshippers bow to the sage, pray to be freed of their old deeds, and lead the goat away alive.",
+   "claims": []
+  },
+  "42": {
+   "reading": "When the whole company had gone away telling of it, the demons who lived in that place gathered in great distress and spoke of their plight, saying that this man had no regard for them at all.",
+   "concepts": [
+    "anangu",
+    "bali",
+    "idumbai"
+   ],
+   "nuance": "The cost of the conversion falls on the spirits of the place, who lose the offerings they lived on. Lines 3 and 4 are obscure and the demons' words cannot be fixed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sirupey",
+     "form": "பேயுங்",
+     "line": 2
+    }
+   ],
+   "event": "After the worshippers leave, the demons of the temple gather to lament.",
+   "claims": []
+  },
+  "43": {
+   "reading": "The demons say that when the hot sun rises they have no standing, being hidden like dark night and hard to see, and they resolve to roam many lands and settlements and bring back a strong deity to drive this man away.",
+   "concepts": [
+    "anangu",
+    "pagai"
+   ],
+   "nuance": "The demons are weak by day and must borrow strength; the plan of 44 to 46 begins here. The verse is defective: line 3 carries an editor's bracketed (றெண்ணி) and line 4 ends short.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sirupey",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sirupey",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The demons resolve to search for a powerful deity to drive the sage off.",
+   "claims": []
+  },
+  "44": {
+   "reading": "Saying there is no use staying, they set out through the Kasi country, the Chedi country and many lands without finding one, and in the southern direction they met the great goddess Neelakesi and eagerly told her this.",
+   "concepts": [
+    "anangu",
+    "thunai"
+   ],
+   "nuance": "Neelakesi is here a மாதெய்வம், a great deity, where the invocation called her a பேய் (4); the poem lets the demons' own estimate of her stand. She is found in the south after the northern lands fail.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sirupey",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "neelakesi",
+     "form": "கேசி",
+     "line": 4
+    }
+   ],
+   "event": "The demons search Kasi, Chedi and other lands in vain and find the goddess Neelakesi in the south.",
+   "claims": []
+  },
+  "45": {
+   "reading": "The demons weep to Neelakesi that the sage forced his way into their place, told many that feeding the bali of cooked food and flesh is sin, does not care what becomes of their clamorous forest, and has tormented them, and they put themselves under her protection.",
+   "concepts": [
+    "bali",
+    "adaikkalam",
+    "anangu",
+    "pulaal"
+   ],
+   "nuance": "The sage's teaching reaches us here in the mouth of its victims: what the worshippers heard as a release, the demons report as an invasion (வலிசெய்து புகுந்து). The meaning of line 3 is not secure.",
+   "speaker": {
+    "who": "sirupey",
+    "form": null,
+    "line": null,
+    "addressee": "neelakesi"
+   },
+   "agents": [
+    {
+     "id": "sirupey",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The demons complain to Neelakesi that the sage has stopped their offerings and ask her protection.",
+   "claims": []
+  },
+  "46": {
+   "reading": "Neelakesi asks why they weep: let the one who is set on hard penance sit there passing his time, and she will show him to the vultures to eat; beating her hands and crying 'rise', she went and sat in the field where corpses are laid.",
+   "concepts": [
+    "anangu",
+    "thavam",
+    "pagai",
+    "saakkaadu"
+   ],
+   "nuance": "She treats the penance as idleness (பொழுது போக்குதல்); the phrase பொருத்தம் அஃது உடைத்தே (that has its fitness) reads as scorn, though its exact turn is not certain.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "sirupey"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi promises to feed the sage to the vultures and goes to the cremation ground where he sits.",
+   "claims": []
+  },
+  "47": {
+   "reading": "Going through the dark and rising up again and again, she boasts of herself before the ascetic, saying she will swallow him if she frightens him and that she will roll the high peak of a mountain onto him.",
+   "concepts": [
+    "anangu",
+    "agandhai",
+    "acham"
+   ],
+   "nuance": "Her threats are self-praise (தன்னை வியக்கும்); the line that seems to say he has no power to delude or to resist (மருட்டிறம் இலன்) is damaged by word division.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": "munichandran"
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi appears before the sage in the dark and threatens to swallow him and crush him with a mountain.",
+   "claims": []
+  },
+  "48": {
+   "reading": "The sage, who had clearly grasped the good precepts and the holy word of the Jina, who knew without limit the many things of the three times, and who knew besides that the vyantara spirits frighten in this way, judged that this was Neelakesi's want of the right path.",
+   "concepts": [
+    "arivu",
+    "anangu",
+    "ozhukkam"
+   ],
+   "nuance": "வியந்தரம் is the Jain class of wandering demigods (vyantara): the sage meets the goddess with a category, as a known kind of being acting according to its kind, not as a power to be feared. Her violence is read as a lack of நெறி, to be cured, not as wickedness.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "munichandran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sage recognizes the terrors as the work of a vyantara spirit and judges her to lack the right path.",
+   "claims": [
+    {
+     "claim": "vyantara spirits frighten people with such displays",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "49": {
+   "reading": "The sage knew that, though she frighten him with her transformations, he would make her understand her own powerlessness, and that if in a little while she gained the arts of meaning through learning, she would come to the good path of dharma and grace.",
+   "concepts": [
+    "arul",
+    "aram",
+    "kalvi",
+    "thelivu"
+   ],
+   "nuance": "விகுர்வணை is the Jain term for a deity's power to change form (vikurvana). The sage plans to teach, not to defeat: the line about learning the arts of meaning (பொருட்டிறங்களைப் புலமையில்) foreshadows her later career as a debater.",
+   "speaker": {
+    "who": "munichandran",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "munichandran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sage resolves to bear her terrors and foresees that she will come to the dharma.",
+   "claims": []
+  },
+  "50": {
+   "reading": "She rises to touch the sky like a mountain, roars like rock struck on rock, bursts like a cloud thundering through the air, thrusts out her tongue like a serpent, and roams about as many and as few.",
+   "concepts": [
+    "anangu",
+    "acham"
+   ],
+   "nuance": "The run 50 to 54 is a catalogue of a deity's transformations, each verse built on repeated similes; பலவெனச் சிலவென (as many, as few) shows her changing number as well as shape.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi takes terrifying forms to frighten the sage.",
+   "claims": []
+  },
+  "51": {
+   "reading": "She laughs with fire flaring between her long gleaming fangs, roars with a din like a storm of rain, opens the great cave of her mouth like a pit and calls, and stands to bewilder him, thrusting her hand into her long hair and panting.",
+   "concepts": [
+    "anangu",
+    "acham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi takes terrifying forms to frighten the sage.",
+   "claims": []
+  },
+  "52": {
+   "reading": "She stamps her feet so the earth is shattered to dust, beats her belly, falls like fire screaming, and whirls everywhere like a circle of burning brands.",
+   "concepts": [
+    "anangu",
+    "acham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi takes terrifying forms to frighten the sage.",
+   "claims": []
+  },
+  "53": {
+   "reading": "She hurls stones fiercer than fire, sets white arrows to a bow and shoots them, grinds her teeth saying she will close with him in wrestling, and with those teeth divides the fat of many corpses.",
+   "concepts": [
+    "anangu",
+    "acham",
+    "pulaal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi takes terrifying forms to frighten the sage.",
+   "claims": []
+  },
+  "54": {
+   "reading": "She takes a form and then hides as if formless, sings with a clattering din, dances a drama crying that her great hunger be eased, and says again and again that she will pass right through him before she gives over.",
+   "concepts": [
+    "anangu",
+    "pasi",
+    "bali"
+   ],
+   "nuance": "அரும்பசி களைக, ease my great hunger: in the middle of the terrors the goddess's own need shows, the hunger left by the offerings the sage has stopped (45). Line 1 (ஓடு முட்குடை) is obscure.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi takes terrifying forms to frighten the sage.",
+   "claims": []
+  },
+  "55": {
+   "reading": "Though she became elephant, great striped tiger, fierce bull, killing lion and other beasts of great rage, he did not flinch, and she held back, thinking this was no refuge for her and that the fullness of his penance would burn her.",
+   "concepts": [
+    "thavam",
+    "anjaamai",
+    "anangu"
+   ],
+   "nuance": "The sage does nothing: his penance acts by being unmoved, and it is the assailant who imagines it as fire. The story bears her thought out, since she withdraws and in time takes his dharma (4).",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": "தவிர்ந்தாள்",
+     "line": 4
+    }
+   ],
+   "event": "The sage stays unmoved through her beast forms, and Neelakesi gives up the attack.",
+   "claims": [
+    {
+     "claim": "the fullness of an ascetic's penance burns whoever assails him",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  },
+  "56": {
+   "reading": "Neelakesi says she had thought to destroy his penance by fear but did not know him: this victor has no other magic but great virtue, and unless he wills it she cannot come before him; and she shrank, her body trembling as if poisoned.",
+   "concepts": [
+    "thavam",
+    "panpu",
+    "acham"
+   ],
+   "nuance": "She sets virtue (விழுக்குணம்) against magic (விச்சை): she reads his strength as the absence of the very powers she was using. Line 1's construction (அழிக்குவன் தவம் என அறியேன்) can also mean she did not know he would undo her; the sense of defeat is clear either way.",
+   "speaker": {
+    "who": "neelakesi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "neelakesi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Neelakesi admits she cannot overcome the sage and shrinks back trembling.",
+   "claims": [
+    {
+     "claim": "an ascetic needs no magic: his virtue alone makes him unassailable",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "neelakesi"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": "37",
+   "b": "tirumanthiram:451",
+   "type": "tension",
+   "note": "Both give an account of where a child comes from: the Neelakesi's sage assigns the body to the parents' blood and the life to its own former deeds, leaving the deity nothing to give; Tirumular has the Lord sit in the womb and form the embryo, knowing what it will become.",
+   "teaches": "On the same question, the making of a child, the Jain sage removes every divine agent while Tirumular puts the Lord inside the womb, so karma alone and karma shaped by the Lord are opposed answers, not one view in two idioms.",
+   "gains": {
+    "a": "the sage's denial is seen to cut against a Tamil theology in which a god does make the child, not only against a village vow",
+    "b": "Tirumular's embryology is seen as a position a rival school in Tamil openly argued against"
+   }
+  },
+  {
+   "a": "38",
+   "b": "kural:259",
+   "type": "qualifies",
+   "note": "The Kural sets abstaining from one killing above a thousand fire sacrifices; the Neelakesi's sage does not ask the worshippers to drop their vow but to offer a clay goat in its place.",
+   "teaches": "Between the Kural's flat preference for not killing over ritual and outright refusal of the rite lies a third course the epic shows a teacher using: keep the vow, replace the victim with an image.",
+   "gains": {
+    "a": "the clay-goat advice is seen as a practical form of a principle the ethics books already state",
+    "b": "the couplet's comparison is shown applied to a vowed village offering, where giving up the rite has a social cost the couplet does not weigh"
+   }
+  },
+  {
+   "a": "40",
+   "b": "kural:323",
+   "type": "qualifies",
+   "note": "The Kural ranks not killing first and not lying second; the sage lists killing, lying, theft, going to others' wives and craving for wealth, and promises the world of the gods.",
+   "teaches": "The Kural's ranking of not killing above not lying is the head of a fixed Jain list of five householder abstentions, which the epic gives whole with a heavenly reward rather than release.",
+   "gains": {
+    "a": "the sage's list is seen keeping the same order of the first two goods that the Kural argues for",
+    "b": "the couplet's two-term ranking is shown as the opening of a longer five-part code"
+   }
+  },
+  {
+   "a": "40",
+   "b": "siddhar:285",
+   "type": "qualifies",
+   "note": "Both list the same abstentions, killing first, then lying and theft; the Siddhar asks the Lord of Chidambaram to grant him a life without them, while the sage tells householders that keeping them wins the world of the gods.",
+   "teaches": "The same list of abstentions is a gift begged of the Lord in the Siddhar and the householder's own work with a self-acting reward in the Jain sermon, which is the grace-against-effort divide in miniature.",
+   "gains": {
+    "a": "the sermon's silent assumption, that the hearer can keep the vows unaided, is brought out by a text that asks for them as grace",
+    "b": "the Siddhar's petition is seen against a rival ethic that needs no giver for the same virtues"
+   }
+  },
+  {
+   "a": "37",
+   "b": "silappathikaram:12:141-144",
+   "type": "tension",
+   "note": "The Silappathikaram's hunters offer the goddess blood as the price (விலை) of the victory she gives; the Neelakesi's worshippers offer a goat for the child she gave, and the sage denies that she gave anything.",
+   "teaches": "Both epics show worship to the fierce goddess as an exchange of blood for a boon; the Jain sage attacks the exchange at its first term, the boon, which the hunters' song takes for granted.",
+   "gains": {
+    "a": "the sage's argument is seen to strike at the logic of a widespread kind of worship, not at one family's vow",
+    "b": "the hunters' price-for-victory is shown to rest on a premise another epic set out to deny"
+   }
+  },
+  {
+   "a": "49",
+   "b": "kural:264",
+   "type": "qualifies",
+   "note": "The Kural says penance can crush one's foes if one so intends; the sage, attacked by Neelakesi, intends instead to make her see her powerlessness and come to the dharma.",
+   "teaches": "The power the Kural grants penance against enemies is here held back and turned to converting the enemy, which is what the Kural's 'if one so intends' leaves open.",
+   "gains": {
+    "a": "the sage's restraint is seen as a choice not to use a power the Kural says penance has",
+    "b": "the couplet's condition எண்ணின் gains a case where the ascetic, able to destroy, chooses not to"
+   }
+  },
+  {
+   "a": "55",
+   "b": "kural:267",
+   "type": "qualifies",
+   "note": "The Kural pictures penance as pain burning the ascetic as fire burns gold; Neelakesi fears that the fullness of the sage's penance will burn her.",
+   "teaches": "The fire of penance faces two ways: inward in the Kural, where it purifies the one who bears it, and outward in the epic, where the assailant feels it as a fire that would consume her.",
+   "gains": {
+    "a": "her fear is seen to rest on the same fire that the Kural says the ascetic has passed through",
+    "b": "the couplet's inward fire is shown to be imagined by others as a danger to them"
+   }
+  },
+  {
+   "a": "49",
+   "b": "4",
+   "type": "develops",
+   "note": "The sage foresees that Neelakesi, once she learns the arts of meaning, will come to the path of dharma; the invocation says she took the great one's dharma and turned the world from violence.",
+   "teaches": "The invocation's report of her conversion is planted in the story as the sage's own foreknowledge at the moment of her attack, so the conversion is his aim from the start, not a later turn."
+  },
+  {
+   "a": "56",
+   "b": "49",
+   "type": "develops",
+   "note": "The sage resolves to make her understand her own powerlessness (திறமின்மை); she ends by confessing she cannot touch him.",
+   "teaches": "His plan is carried out without any act of his: her own failed terrors teach her the powerlessness he meant her to learn."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "bali",
+   "tamil": "பலி",
+   "gloss": "the offering of blood or food laid before a fierce deity as a due owed to her",
+   "label_source": "the verse's own word (45, line 2: பலியும்); id as declared in silappathikaram ch017"
+  }
+ ],
+ "source_issues": [
+  "Verse 43, line 3 carries an editor's bracketed (றெண்ணி), and line 4 (யிரந்தோர் வன்றெய்வங் கொணர்ந்திவற் கடிதுமென்) is metrically short; the verse appears defective.",
+  "Verse 34, line 4: முத்தின் யான் does not construe as divided; the word division may be wrong.",
+  "Verse 56, line 4: நடுங்கும் னுடம்பென has a stray ன் before உடம்பு, probably for நடுங்குமென் னுடம்பென."
+ ]
+}
