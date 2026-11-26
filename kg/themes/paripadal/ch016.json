@@ -1,0 +1,972 @@
+{
+ "chapter_no": 16,
+ "chapter_theme": "Paripadal 20, the Vaiyai: the rain-borne flood with its scents, the town's comic rush to the river, a wife who finds her bangle on her husband's courtesan, the abuse and the courtesan's reply, the onlookers' counsel that love keeps no bounds, and the river's nature of joining lovers.",
+ "verses": {
+  "paripadal:20:1-13": {
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": null,
+    "thurai": null
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "தரூஉம், வையை"
+    ],
+    "note": "the river's coming with the rains is hailed as a gift, praise under paadaan (porul 2.27)"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": {
+    "land": [
+     "மலை"
+    ],
+    "season": [
+     "மழை",
+     "கார்"
+    ],
+    "hour": [
+     "கங்குலான்"
+    ],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "கடல்",
+     "stem": "கடல்",
+     "line": 1,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "sea"
+    },
+    {
+     "form": "முகில்",
+     "stem": "முகில்",
+     "line": 3,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "cloud"
+    },
+    {
+     "form": "புலி",
+     "stem": "புலி",
+     "line": 4,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "tiger"
+    },
+    {
+     "form": "யானைக்",
+     "stem": "யானை",
+     "line": 4,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "elephant"
+    },
+    {
+     "form": "மரன்",
+     "stem": "மரம்",
+     "line": 8,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "trees"
+    },
+    {
+     "form": "தேன்",
+     "stem": "தேன்",
+     "line": 9,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "honey bees"
+    },
+    {
+     "form": "கனி",
+     "stem": "கனி",
+     "line": 10,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "fruit"
+    },
+    {
+     "form": "பொழில்",
+     "stem": "பொழில்",
+     "line": 12,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "grove"
+    }
+   ],
+   "comparisons": [],
+   "meyppadu": [],
+   "puram_thurai": [],
+   "thurai_akam": [],
+   "entities": [
+    {
+     "type": "river",
+     "name": "வையை",
+     "line": 11
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null,
+   "reading": "Clouds that drank the sea until it shrank break on the hills with roaring thunder, rain on them again and again at evening, wash clean the blood on the tusks of an elephant that fought a tiger, and through the sleeping night pour down, so that the Vaiyai arrives bearing, all mixed together, the scent of tree blossom, of honey flowers, of the rain-soaked forest after scorching summer, and of fruit shaken from the boughs, its own fragrance rising above the river's rank flood smell.",
+   "concepts": [
+    "mazhai"
+   ],
+   "nuance": "The opening is a chain of scents (நாற்றம், five times in lines 8 to 13) rather than of sights: the river is known by what it carries from the hills before it is seen. The elephant's tusk washed of a tiger's blood brings hill violence down into the river that will carry the town's play. வேசனை (line 13) is an unusual word in our text.",
+   "uncertain": true
+  },
+  "paripadal:20:14-26": {
+   "akam_puram": "mixed",
+   "colophon": {
+    "thinai": null,
+    "thurai": null
+   },
+   "thinai": "marutham",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "மகளிர் கோதை மைந்தர் புனையவும்",
+     "கூடல் விழையும்"
+    ],
+    "note": "lovers rush to the river, wearing each other's garlands, the union of the river town"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "பறை",
+     "stem": "பறை",
+     "line": 14,
+     "kind": "parai",
+     "role": "scene",
+     "land": null,
+     "sense": "drum"
+    },
+    {
+     "form": "புரவி",
+     "stem": "புரவி",
+     "line": 16,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "horse"
+    },
+    {
+     "form": "வங்கம்",
+     "stem": "வங்கம்",
+     "line": 16,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "boat"
+    },
+    {
+     "form": "வயமாப்",
+     "stem": "வயமா",
+     "line": 18,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "horse"
+    },
+    {
+     "form": "மதமாப்",
+     "stem": "மதமா",
+     "line": 18,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "rutting elephant"
+    },
+    {
+     "form": "கயமாப்",
+     "stem": "கயமா",
+     "line": 19,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "elephant"
+    },
+    {
+     "form": "கோதை",
+     "stem": "கோதை",
+     "line": 20,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "garland"
+    },
+    {
+     "form": "தார்",
+     "stem": "தார்",
+     "line": 21,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "garland"
+    },
+    {
+     "form": "வண்டு",
+     "stem": "வண்டு",
+     "line": 23,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "bee"
+    }
+   ],
+   "comparisons": [],
+   "meyppadu": [
+    {
+     "feeling": "nakai",
+     "cause": "பேதைமை"
+    }
+   ],
+   "puram_thurai": [],
+   "thurai_akam": [],
+   "entities": [
+    {
+     "type": "town",
+     "name": "கூடல்",
+     "line": 26
+    },
+    {
+     "type": "river",
+     "name": "வையை",
+     "line": 26
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null,
+   "reading": "Drums sound in town after town; woken by the roar of the water climbing the high wall, people in their haste yoke chariot horses to boats and drive boat-carts as chariots, harness rutting elephants with gear meant for war horses, men put on women's garlands and women men's, all order forgotten in the wish to be first, and they crowd the mansion streets down to the bee-loud sand of the great flood: such is the Vaiyai that Koodal longs for.",
+   "concepts": [
+    "punarchi",
+    "kaamam",
+    "punalaadal"
+   ],
+   "nuance": "Lines 16 to 21 are a set of crossed pairs (horse and boat, horse-gear and elephant, women's garland and men's), each half reversing the other; the comedy of confusion is also love's mixing, which the closing lines of the poem will name as the river's nature. கூடல் in line 26 is both the town's name and 'union'."
+  },
+  "paripadal:20:27-47": {
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": null,
+    "thurai": null
+   },
+   "thinai": "marutham",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "அவள் மாற்றாள் இவள்",
+     "கள்வன்"
+    ],
+    "note": "a wife finds her own bangle on her husband's other woman, the marutham quarrel"
+   },
+   "mixed": false,
+   "uri": "oodal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "கோதை",
+     "stem": "கோதை",
+     "line": 27,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "garland"
+    },
+    {
+     "form": "தார்",
+     "stem": "தார்",
+     "line": 28,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "garland"
+    },
+    {
+     "form": "மாலை",
+     "stem": "மாலை",
+     "line": 29,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "garland"
+    },
+    {
+     "form": "வளை",
+     "stem": "வளை",
+     "line": 33,
+     "kind": "pira",
+     "role": "ornament",
+     "land": null,
+     "sense": "bangle"
+    },
+    {
+     "form": "ஆரமோடு",
+     "stem": "ஆரம்",
+     "line": 33,
+     "kind": "pira",
+     "role": "ornament",
+     "land": null,
+     "sense": "necklace"
+    },
+    {
+     "form": "மணல்",
+     "stem": "மணல்",
+     "line": 43,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "sand"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "செருச் செய்த வாளி சீற்றத்தவை",
+     "tenor": "the women's kohl eyes",
+     "marker": "அன்ன",
+     "basis": [
+      "uru",
+      "vinai"
+     ],
+     "type": "explicit"
+    },
+    {
+     "vehicle": "நிரை காடாக",
+     "tenor": "the crowd of women in which she hides",
+     "marker": null,
+     "basis": "mey",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "nakai",
+     "cause": "எள்ளல்"
+    }
+   ],
+   "puram_thurai": [],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "pira",
+     "addressee": "kandor",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": null
+     }
+    }
+   ],
+   "entities": [
+    {
+     "type": "river",
+     "name": "வையை",
+     "line": 42
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null,
+   "reading": "Women decked in garlands of every kind climb up and look at one another's finery across the crowd, and there a wife, her husband beside her, sees on another woman's body the bangle and necklace he gave away, and, hurt, marks her as the rival; the poet bids us look at the giver, the thief, and his shamed face, and at the other woman running to hide among women whose eyes are like the arrows of battle, slipping away; the wife's women hunt her along the sand, demand what tie she has with him, and she, defiant at first, stands dumb, her wits gone.",
+   "concepts": [
+    "parathai",
+    "oodal",
+    "kalavu"
+   ],
+   "nuance": "The proof is an object: the bangle the wife lost (கெடு வளை) appears on the rival, so the quarrel that follows is about property as much as love. The poet calls the husband கள்வன், the thief, before anyone in the poem does. Lines 41 to 45 are compressed and the speakers are not named; whether 'மாற்றாள் மகள்' (line 45) is the rival herself or her daughter is unclear.",
+   "uncertain": true
+  },
+  "paripadal:20:48-67": {
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": null,
+    "thurai": null
+   },
+   "thinai": "marutham",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "விலைக் கணிகை",
+     "தேடினாள் ஏச"
+    ],
+    "note": "the wife's companion rails at the courtesan who holds the husband"
+   },
+   "mixed": false,
+   "uri": "oodal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "நறா",
+     "stem": "நறா",
+     "line": 52,
+     "kind": "unavu",
+     "role": "scene",
+     "land": null,
+     "sense": "toddy"
+    },
+    {
+     "form": "நாஞ்சில்",
+     "stem": "நாஞ்சில்",
+     "line": 53,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "plough"
+    },
+    {
+     "form": "யாழ்",
+     "stem": "யாழ்",
+     "line": 57,
+     "kind": "yaazh",
+     "role": "scene",
+     "land": null,
+     "sense": "lute"
+    },
+    {
+     "form": "மாலையா",
+     "stem": "மாலை",
+     "line": 61,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "garland"
+    },
+    {
+     "form": "எருது",
+     "stem": "எருது",
+     "line": 62,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "ox"
+    },
+    {
+     "form": "வேளாளர்க்கு",
+     "stem": "வேளாளர்",
+     "line": 63,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "farmers"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "முது சாடி",
+     "tenor": "the courtesan who intoxicates and drives men on",
+     "marker": null,
+     "basis": "payan",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "காரிகை நீர் ஏர் வயல், காமக் களி நாஞ்சில்",
+     "tenor": "her beauty worked like a field by the plough of love's frenzy",
+     "marker": null,
+     "basis": "vinai",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "யாழ் ஆர்த்தும் பாணியில்",
+     "tenor": "her binding of the husband for whoever pays",
+     "marker": null,
+     "basis": "vinai",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "எருது தொழில் செய்யாது ஓட விடும் கடன் வேளாளர்க்கு இன்று",
+     "tenor": "the household that will not let the husband stray",
+     "marker": null,
+     "basis": "vinai",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "nakai",
+     "cause": "எள்ளல்"
+    }
+   ],
+   "puram_thurai": [],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thozhi",
+     "addressee": "parathai",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": null
+     }
+    }
+   ],
+   "entities": [
+    {
+     "type": "river",
+     "name": "வையை",
+     "line": 60
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null,
+   "reading": "One of the wife's company turns on the other woman: a bought courtesan who mixes love with tricks and lies, whose womanhood is common to all, an old vat that pours raw toddy and drives the plough of love's frenzy through the field of beauty, a herdswoman of the pleasure-ford who strings our jewel like a lute for whoever pays; we brought the stray before the bathing women into this Vaiyai pen, broke him, beat him with garlands for a whip and followed him to the assembly, for farmers do not let an ox run off unworked; is your chest the same as hers whose chest wears the necklace he paid as forfeit?; and while she rails, some women take offence at it there in the Vaiyai.",
+   "concepts": [
+    "varaivinmagalir",
+    "parathai",
+    "oodal",
+    "karpu"
+   ],
+   "nuance": "The abuse is built as a farming allegory: the husband is the household's ox, the courtesan a herdswoman (பொதுவி, also 'woman held in common') who drives him off, and the wife's party the farmers who own the work. The whipping with garlands (மத்திகை மாலையா) turns the river festival's flower-play into a mock punishment. Lines 51, 54 and 64 are obscure in our text.",
+   "uncertain": true
+  },
+  "paripadal:20:68-83": {
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": null,
+    "thurai": null
+   },
+   "thinai": "marutham",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "மாற்றாளை மாற்றாள் வரவு",
+     "அவன் கள்வன்"
+    ],
+    "note": "wife and courtesan face each other over the husband's gifts"
+   },
+   "mixed": false,
+   "uri": "oodal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "மயிற்",
+     "stem": "மயில்",
+     "line": 69,
+     "kind": "pul",
+     "role": "scene",
+     "land": null,
+     "sense": "peacock"
+    },
+    {
+     "form": "முழவின்",
+     "stem": "முழவு",
+     "line": 75,
+     "kind": "parai",
+     "role": "scene",
+     "land": null,
+     "sense": "drum"
+    },
+    {
+     "form": "வளை",
+     "stem": "வளை",
+     "line": 76,
+     "kind": "pira",
+     "role": "ornament",
+     "land": null,
+     "sense": "bangle"
+    },
+    {
+     "form": "மாலை",
+     "stem": "மாலை",
+     "line": 79,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "garland"
+    },
+    {
+     "form": "சிலம்பும்",
+     "stem": "சிலம்பு",
+     "line": 80,
+     "kind": "pira",
+     "role": "ornament",
+     "land": null,
+     "sense": "anklet"
+    },
+    {
+     "form": "அதிரல்",
+     "stem": "அதிரல்",
+     "line": 81,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "athiral flower"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "மட மயிற் சாயலை",
+     "tenor": "the courtesan's grace",
+     "marker": null,
+     "basis": "mey",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "nakai",
+     "cause": "எள்ளல்"
+    }
+   ],
+   "puram_thurai": [],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "parathai",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": null
+     }
+    },
+    {
+     "alt": 2,
+     "speaker": "parathai",
+     "addressee": "thalaivi",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": null
+     }
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null,
+   "reading": "Peacemakers ask the wife's side to stop harsh words and go and salute the soft, peacock-graced woman; the answer is that this is a sickness of the heart, that it is shameful for strangers to bow to strangers and unfitting for a rival to go to a rival; the wife tells the silent courtesan that if the bangle and necklace given to her came to her by no trick of theft, let her give back the man who gave them and then be proud; and the courtesan answers that he paid her price for garlands, that he would strip even the anklets from the wife's feet, that the wife's beloved is her beloved too: he is the thief, and she is no thief.",
+   "concepts": [
+    "parathai",
+    "oodal",
+    "kalavu",
+    "varaivinmagalir"
+   ],
+   "nuance": "The courtesan's defence turns the word the poet used at line 36 back on the husband: கள்வன் is his, கள்வி she refuses (line 82). Her claim that he paid (விலை தந்தான்) makes the gift a fair purchase and the wife's ornaments his to give. எந்தை (line 76) may be the wife's father, which would make the bangle her own dowry, or her lord; the reading changes how sharp her charge is. Line 74 has a gap, and line 82 கதுவாய் is obscure.",
+   "uncertain": true
+  },
+  "paripadal:20:84-98": {
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": null,
+    "thurai": null
+   },
+   "thinai": "marutham",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "கேள்வரை ஏத்தி இறைஞ்சுவார்",
+     "புலவியும்"
+    ],
+    "note": "onlookers counsel the wife to bear the husband's straying, the marutham sulk"
+   },
+   "mixed": false,
+   "uri": "oodal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "மானே",
+     "stem": "மான்",
+     "line": 84,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "doe"
+    },
+    {
+     "form": "காக்கை",
+     "stem": "காக்கை",
+     "line": 87,
+     "kind": "pul",
+     "role": "scene",
+     "land": null,
+     "sense": "crow"
+    },
+    {
+     "form": "கொடி",
+     "stem": "கொடி",
+     "line": 94,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "creeper"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "காக்கை கடிந்து ஒழுகல்",
+     "tenor": "a wife keeping other women off her husband",
+     "marker": null,
+     "basis": "vinai",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "கொடி இயலாய்",
+     "tenor": "the wife's slender grace",
+     "marker": null,
+     "basis": "mey",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [],
+   "puram_thurai": [],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "kandor",
+     "addressee": "thalaivi",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": null
+     }
+    }
+   ],
+   "entities": [
+    {
+     "type": "king",
+     "name": "தென்னவன்",
+     "line": 98
+    },
+    {
+     "type": "river",
+     "name": "வையை",
+     "line": 98
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null,
+   "reading": "The onlookers tell the courtesan, doe of Vachchi, to stop her defiance, since what her lovers give is hers in the sight of the land, and tell the wife that a woman whose husband goes to the sweet beds of others cannot spend her life driving crows away: women of worth, even when their husbands slight their virtue, praise and bow to them, so let her stop, for no one has ever managed to bar the chests of men who chase women, and love does not stay within bounds; such resolves and sulks the Pandya's Vaiyai brings on.",
+   "concepts": [
+    "karpu",
+    "kaamam",
+    "oodal",
+    "parathai"
+   ],
+   "nuance": "The counsel is double: it gives the courtesan her gifts by public right (நாடு அறிய நும்மவே) and asks the wife to accept what cannot be stopped, so the ideal of the wife who bows to her husband (lines 88, 89) is offered as resignation, not as a source of power. வச்சிய (line 84) is unclear: a place or a people. Line 95 is a modern prose heading, not verse; lines 87 to 89 are not in sangamtamil.com.",
+   "uncertain": true
+  },
+  "paripadal:20:99-112": {
+   "akam_puram": "mixed",
+   "colophon": {
+    "thinai": null,
+    "thurai": null
+   },
+   "thinai": "marutham",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "காதலரொடு ஆடப் புணர்வித்தல்"
+    ],
+    "note": "the river's nature is said to be the joining of lovers"
+   },
+   "mixed": true,
+   "uri": "punarthal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "முகை",
+     "stem": "முகை",
+     "line": 99,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": "buds"
+    },
+    {
+     "form": "அரவு",
+     "stem": "அரவு",
+     "line": 100,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "snake"
+    },
+    {
+     "form": "குலை",
+     "stem": "குலை",
+     "line": 100,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": "flower clusters"
+    },
+    {
+     "form": "மலர்",
+     "stem": "மலர்",
+     "line": 101,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": "flowers"
+    },
+    {
+     "form": "சுனை",
+     "stem": "சுனை",
+     "line": 102,
+     "kind": "pira",
+     "role": "scene",
+     "land": "kurinji",
+     "sense": "hill pool"
+    },
+    {
+     "form": "அருவி",
+     "stem": "அருவி",
+     "line": 104,
+     "kind": "pira",
+     "role": "scene",
+     "land": "kurinji",
+     "sense": "waterfall"
+    },
+    {
+     "form": "களிறு",
+     "stem": "களிறு",
+     "line": 106,
+     "kind": "maa",
+     "role": "simile",
+     "land": "kurinji",
+     "sense": "bull elephant"
+    },
+    {
+     "form": "கள்ளும்",
+     "stem": "கள்",
+     "line": 110,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "toddy"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "கொடி இயலார் கை",
+     "tenor": "the closed buds",
+     "marker": "போல",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "அரவு உடன்றவை",
+     "tenor": "the spread flower clusters",
+     "marker": "போல",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "குடை விரிந்தவை",
+     "tenor": "the opened flowers",
+     "marker": "போல",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "கடு மா களிறு அணைத்துக் கைவிடு நீர்",
+     "tenor": "the flood pouring on Koodal's wall",
+     "marker": "போல",
+     "basis": "vinai",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "விளையாட்டு"
+    }
+   ],
+   "puram_thurai": [],
+   "thurai_akam": [],
+   "entities": [
+    {
+     "type": "town",
+     "name": "கூடல்",
+     "line": 107
+    },
+    {
+     "type": "river",
+     "name": "வையை",
+     "line": 112
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null,
+   "reading": "Buds folded like the hands of slender women, clusters spread like angry serpents' hoods, flowers opened like parasols, water flowers swept out of the pools, blossoms fallen from the boughs and buds from the bushes, all driven on by the waves the waterfalls poured, come down the middle way, and the full flood falls on the guarded wall of tall-mansioned Koodal like water that a fierce bull elephant holds in its trunk and lets go; and it is the nature of the flower-filled Vaiyai to bring lovers together to play, so that quarrel, friendship, parting, love and toddy are all mixed and praised as one.",
+   "concepts": [
+    "punarchi",
+    "oodal",
+    "kal",
+    "punalaadal"
+   ],
+   "nuance": "The close makes the quarrel of the middle of the poem part of the river's gift: the list in lines 109 and 110 puts the fight and the parting beside friendship and love, so the bitter exchange of wife and courtesan is counted among the festival's pleasures. The hill flowers come down to the town's wall, so kurinji things end in a marutham scene. நெடு மால் கருங்கை (line 105) is obscure in our text.",
+   "uncertain": true
+  }
+ },
+ "links": [
+  {
+   "a": "paripadal:20:68-83",
+   "b": "akananuru:186",
+   "type": "develops",
+   "note": "Akananuru 186 has the courtesan say, for the wife's women to overhear, that the wife's real enemy is the husband who leaves women pale and lives in her own house; Paripadal 20.79-82 has the courtesan tell the wife to her face that he is the thief and she is not (அவன் கள்வன்; கள்வி நான் அல்லேன்).",
+   "teaches": "Together the two show that shifting the blame onto the husband was the courtesan's settled defence in marutham, and that what the Akananuru gives as an overheard boast the festival poem stages as a face-to-face exchange, with the husband's gift on her body as the evidence and a crowd to hear both sides."
+  },
+  {
+   "a": "paripadal:20:68-83",
+   "b": "kural:913",
+   "type": "tension",
+   "note": "Kural 913 makes the embrace of women who love for wealth a falsehood, like holding a stranger's corpse in the dark; in Paripadal 20.79-82 the paid woman herself argues that the payment was fair (விலை தந்தான்) and that the falsehood is the man's.",
+   "teaches": "The Kural judges the bought embrace from the client's side, so the deceit is hers; the Paripadal lets the woman answer from inside the bargain, and on that reading the two cannot both stand, since one places the lie in her love and the other in his gift of what was not his to give."
+  },
+  {
+   "a": "paripadal:20:48-67",
+   "b": "naladiyar:385",
+   "type": "develops",
+   "note": "Naladiyar 385 has the wife wonder how women who embrace many chests for gain can do so daily; Paripadal 20.48-51 has the wife's companion call the courtesan a bought woman whose womanhood is common to all (பெண்மைப் பொதுமைப் பிணையிலி).",
+   "teaches": "The Naladiyar's contrast of chaste wife and common woman is a private wondering, while in the Paripadal the same contrast becomes public abuse at the river, worked out as a farmer's claim on a straying ox, which shows the wife's chastity defended as a household's ownership of the husband and not only as her own shame."
+  },
+  {
+   "a": "paripadal:20:84-98",
+   "b": "kural:55",
+   "type": "qualifies",
+   "note": "Kural 55 says the wife who rises worshipping her husband commands the rain; Paripadal 20.88-89 has onlookers tell a wronged wife that worthy women praise and bow to their husbands even when the husbands slight them (கேள்வரை ஏத்தி இறைஞ்சுவார்).",
+   "teaches": "The Kural offers the wife's worship of her husband as a source of power over nature, but the Paripadal shows the same ideal used in a quarrel to silence a wife whose husband has given her bangle away, so the couplet's praise of devotion could serve in practice as counsel to put up with a man's straying."
+  },
+  {
+   "a": "paripadal:20:84-98",
+   "b": "kural:1251",
+   "type": "qualifies",
+   "note": "Kural 1251 has the woman say desire's axe breaks the door of restraint; Paripadal 20.91-94 has the onlookers say no one can bar men's chests from women and ask whether love stays within its bounds (கட வரை நிற்குமோ காமம்?).",
+   "teaches": "In the Kural the claim that desire breaks every bound is a woman's confession about her own longing, while in the Paripadal the same claim is turned into an excuse for the husband's straying and urged on the wife, which shows how one maxim about love's force served opposite ends depending on whose desire it named."
+  },
+  {
+   "a": "paripadal:20:99-112",
+   "b": "kural:1330",
+   "type": "develops",
+   "note": "Kural 1330 says sulking is love's pleasure and its pleasure is the embrace that follows; Paripadal 20.109-112 says it is the Vaiyai's nature to join lovers so that quarrel, friendship, parting, love and toddy are praised together.",
+   "teaches": "The Kural's rule that the sulk sweetens union is a statement about two lovers, and the Paripadal extends it to a whole town's festival, closing a poem whose centre was a bitter public quarrel by counting that quarrel among the river's pleasures, so the couplet's private economy of oodal is shown working at civic scale."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "punalaadal",
+   "tamil": "புனல் ஆடல்",
+   "gloss": "water-play in the river or pool, especially the festival bathing of the town and of lovers in the new flood",
+   "label_source": "the verse's words (Paripadal 20, line 111: காதலரொடு ஆடப் புணர்வித்தல்; line 24: இரும் புனலில்); the id Paripadal 6 coined"
+  }
+ ],
+ "source_issues": [
+  "Paripadal 20: the colophon has no thinai or thurai; it gives the poet நல்லந்துவனார், the music by நல்லச்சுதனார், the pan காந்தாரம் and the subject வையை.",
+  "Paripadal 20 line 95 (வையை நீர் மலர்களுடன் வந்து கூடல் மதிலின்) reads as a modern prose heading left in the verse text, not verse; it accounts for the lineation flag at line 96 (printed 95 stands on line 96) and for the core text's 112 lines against the source's 111.",
+  "Paripadal 20: the builder dropped lines it took for modern headings at positions 1, 13, 29, 87 and 100 (flags); none could be checked against a second edition in the corpus.",
+  "Paripadal 20 lines 72, 73, 74, 87, 88 and 89 are not in sangamtamil.com's text (flag); ours kept.",
+  "Paripadal 20 line 74 has a gap (அ...), so the opening of the wife's speech to the courtesan is incomplete.",
+  "Paripadal 20 line 13 வேசனை and line 82 கதுவாய் are doubtful readings in our text."
+ ]
+}

@@ -1,0 +1,2452 @@
+{
+ "chapter_no": 2,
+ "chapter_theme": "Porunaratruppadai: a bard who has been rewarded by Karikal Valavan guides another bard to him, describing the lute and its singer, his own reception, feast and parting gifts, the king's birth and victory at Venni, and the Chola land where the five landscapes mingle and the Kaveri does not fail.",
+ "structure_note": "The idyll is one long address. Lines 1-59 hail the bard and describe the lute and the paadini; 60-129 tell the guide's own reception; 130-148 praise the king; 149-177 promise the gifts; 178-248 describe the land. Fourteen of the sixteen core units were re-cut at sense breaks into thirteen adjusted units (fifteen units in all); 189-207 and 208-217 are unchanged.",
+ "verses": {
+  "pattupattu:2:1-22": {
+   "reading": "The guide hails a skilled porunan who, once the festival of a great town of unfailing plenty is over, cares nothing for its leftover food and sets out for another land, and describes his lute part by part: a bowl forked like a hoofprint, a covering skin the colour of lamp flame stitched with a seam like the line of down on a young pregnant woman's belly, pegs like the eyes of a crab in its hole, a mouth shaped like the eighth-day moon, a stem rising like a snake's raised hood, bands like the bangles on a dark woman's forearm, strings fine as pounded millet, the whole like a bathed and fragrant bride, a paalai lute so sweet that it makes the robbers who waylay travellers drop their weapons and turn back.",
+   "concepts": [
+    "aatruppadai",
+    "azhagu",
+    "arul"
+   ],
+   "nuance": "Almost every part of the lute is likened to a woman's body or ornament (the down on a pregnant woman's belly, a dark woman's bangles, a bathed bride), so the instrument is already a body before the singing woman of the next unit is described. The power of the paalai tune over robbers (lines 21 and 22) is the first proof that this bard's art protects him on the road.",
+   "unit_note": "Adjusted from the core units 1-14 and 15-29: the description of the lute runs from line 4 to பாலை in line 22, and line 23 turns to how it is played and to the singing woman.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "விரகறி பொருந",
+     "பாலை"
+    ],
+    "note": "a performer addresses a fellow bard to direct him to a patron: the guide poem (ஆற்றுப்படை) under paadaan"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": null,
+   "karu": [
+    {
+     "form": "பொருந",
+     "stem": "பொருநன்",
+     "line": 3,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "bard"
+    },
+    {
+     "form": "ழலவன்",
+     "stem": "அலவன்",
+     "line": 9,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "crab"
+    },
+    {
+     "form": "டிங்கள்",
+     "stem": "திங்கள்",
+     "line": 11,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "moon"
+    },
+    {
+     "form": "பாம்பணந்",
+     "stem": "பாம்பு",
+     "line": 13,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "snake"
+    },
+    {
+     "form": "தினை",
+     "stem": "தினை",
+     "line": 16,
+     "kind": "unavu",
+     "role": "simile",
+     "land": null,
+     "sense": "millet"
+    },
+    {
+     "form": "கள்வர்",
+     "stem": "கள்வர்",
+     "line": 21,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "highway robbers"
+    },
+    {
+     "form": "பாலை",
+     "stem": "பாலை யாழ்",
+     "line": 22,
+     "kind": "yaazh",
+     "role": "scene",
+     "land": null,
+     "sense": "paalai lute"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "குளப்புவழி யன்ன",
+     "tenor": "the forked bowl of the lute",
+     "marker": "அன்ன",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "விளக்கழ லுருவின்",
+     "tenor": "the colour of the skin stretched over the bowl",
+     "marker": "உருவின்",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "எய்யா விளஞ்சூற் செய்யோ ளவ்வயிற் றைதுமயி ரொழுகிய தோற்றம் போல",
+     "tenor": "the seam of the stitched cover",
+     "marker": "போல",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "அளைவா ழலவன் கண்கண் டன்ன",
+     "tenor": "the pegs that close the holes",
+     "marker": "அன்ன",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "எண்ணாட் டிங்கள் வடிவிற்",
+     "tenor": "the lute's hollow mouth",
+     "marker": "வடிவிற்",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "பாம்பணந் தன்ன",
+     "tenor": "the high dark stem",
+     "marker": "அன்ன",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "மாயோள் முன்கை ஆய்தொடி கடுக்கும்",
+     "tenor": "the tight bands on the stem",
+     "marker": "கடுக்கும்",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "ஆய்தினை யரிசி யவைய லன்ன",
+     "tenor": "the fine strings",
+     "marker": "அன்ன",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "மணங்கமழ் மாதரை மண்ணி யன்ன",
+     "tenor": "the whole adorned lute",
+     "marker": "அன்ன",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "marutkai",
+     "cause": "புதுமை"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:2:23-47": {
+   "reading": "Playing the lute in all its ways and scattering fine words with the music, the bard is accompanied by his paadini, described from head to foot: hair like rippled sand, brow like the crescent, brows like a killing bow, mouth red as the silk-cotton petal, teeth like pearls, ears hung with swinging earrings, neck bent with modesty, shoulders like swaying bamboo, fingers like the kaanthal of the high hills, nails like a parrot's beak, breasts so close a split rib cannot pass between, navel like an eddy, a waist one hardly knows is there, a girdle of strands like rows of bees, thighs like a she-elephant's trunk, and small feet like a panting dog's tongue, blistered like ripe marul fruit from walking on ground red as melted lac, so that at midday she stops on the road, like a peahen.",
+   "concepts": [
+    "azhagu",
+    "aatruppadai",
+    "idumbai"
+   ],
+   "nuance": "The head-to-foot description ends not on beauty but on injury: the feet like a panting dog's tongue are soft because they are hurt, and the blisters are the road's mark on her. The ideal body and the poverty of the journey are drawn in one sentence, which is the guide poem's whole case for going to the patron.",
+   "unit_note": "Adjusted from the core units 15-29 and 30-48: the playing begins at line 23, and the description of the paadini closes at பெருந்தகு பாடினி in line 47.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "பாடினி"
+    ],
+    "note": "the companion of the bard on the guide's road; the description belongs to the guide poem under paadaan"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": {
+    "land": [
+     "செந்நில"
+    ],
+    "season": [],
+    "hour": [
+     "நன்பக"
+    ],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "அறல்",
+     "stem": "அறல்",
+     "line": 25,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "rippled sand"
+    },
+    {
+     "form": "இலவிதழ்",
+     "stem": "இலவு",
+     "line": 27,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": "silk-cotton"
+    },
+    {
+     "form": "முத்திற்",
+     "stem": "முத்து",
+     "line": 28,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "pearl"
+    },
+    {
+     "form": "ஆடமைப்",
+     "stem": "அமை",
+     "line": 32,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "bamboo"
+    },
+    {
+     "form": "காந்தள்",
+     "stem": "காந்தள்",
+     "line": 33,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "glory lily"
+    },
+    {
+     "form": "கிளிவா",
+     "stem": "கிளி",
+     "line": 34,
+     "kind": "pul",
+     "role": "simile",
+     "land": null,
+     "sense": "parrot"
+    },
+    {
+     "form": "வண்டிருப்",
+     "stem": "வண்டு",
+     "line": 39,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "bee"
+    },
+    {
+     "form": "இரும்பிடித்",
+     "stem": "பிடி",
+     "line": 40,
+     "kind": "maa",
+     "role": "simile",
+     "land": null,
+     "sense": "she-elephant"
+    },
+    {
+     "form": "நாய்",
+     "stem": "நாய்",
+     "line": 42,
+     "kind": "maa",
+     "role": "simile",
+     "land": null,
+     "sense": "dog"
+    },
+    {
+     "form": "மரற்",
+     "stem": "மரல்",
+     "line": 45,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": "marul"
+    },
+    {
+     "form": "பெடைமயி",
+     "stem": "பெடை மயில்",
+     "line": 47,
+     "kind": "pul",
+     "role": "simile",
+     "land": null,
+     "sense": "peahen"
+    },
+    {
+     "form": "பாடினி",
+     "stem": "பாடினி",
+     "line": 47,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "singing woman"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "அறல்போற்",
+     "tenor": "her hair",
+     "marker": "போல்",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "பிறைபோல்",
+     "tenor": "her brow",
+     "marker": "போல்",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "கொலைவிற் புருவத்து",
+     "tenor": "her brows",
+     "marker": null,
+     "basis": "mey",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "இலவிதழ் புரையும்",
+     "tenor": "her red mouth",
+     "marker": "புரை",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "பலஉறு முத்திற்",
+     "tenor": "her white teeth",
+     "marker": "இன்",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "மயிர்குறை கருவி மாண்கடை யன்ன",
+     "tenor": "her ears",
+     "marker": "அன்ன",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "ஆடமைப் பணைத்தோ",
+     "tenor": "her shoulders",
+     "marker": null,
+     "basis": "mey",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "நெடுவரை மிசைஇய காந்தள் மெல்விரற்",
+     "tenor": "her soft fingers",
+     "marker": null,
+     "basis": [
+      "mey",
+      "uru"
+     ],
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "கிளிவா யப்பி",
+     "tenor": "her bright nails",
+     "marker": "ஒப்பி",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "நீர்ப்பெயற் சுழியி",
+     "tenor": "her navel",
+     "marker": "இன்",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "வண்டிருப் பன்ன",
+     "tenor": "the many strands of her girdle",
+     "marker": "அன்ன",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "இரும்பிடித் தடக்கையிற்",
+     "tenor": "her thighs",
+     "marker": "இன்",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "வருந்துநாய் நாவிற்",
+     "tenor": "her small feet",
+     "marker": "இன்",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "அரக்குருக் கன்ன",
+     "tenor": "the red ground she walks",
+     "marker": "அன்ன",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "மரற்பழுத் தன்ன",
+     "tenor": "the blisters on her feet",
+     "marker": "அன்ன",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "பெடைமயி லுருவிற்",
+     "tenor": "the paadini",
+     "marker": "உருவிற்",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "ilivaral",
+     "cause": "வருத்தம்"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:2:48-59": {
+   "reading": "Singing to the beat day after day, halting in forest tracks where tuskers roam, bearing the hardship of thin, net-like shade under the leafless maraa, and making the due offering to the god who dwells in the forest, the leader of the performers with his lute, which looks like the three drum-thundering kings seated together in council, is told that having strayed from the way he did not know, meeting the guide on the road is the fruit of his past penance.",
+   "concepts": [
+    "aatruppadai",
+    "thavam",
+    "vazhipaadu"
+   ],
+   "nuance": "What the simile of the three kings in council (lines 53 to 55) describes is not fixed by the words: it may be the lute, held up as a court in itself, or the gathered company of performers. 'நோற்றதன் பயனே' (line 59) makes the chance meeting a reward for past austerity, the first of the poem's comparisons between the bard's luck and the fruit of tapas (see lines 91 and 92).",
+   "uncertain": true,
+   "unit_note": "Adjusted from the core units 30-48 and 49-59: line 48 (the singing to the beat) begins the clause that closes at நோற்றதன் பயனே in line 59.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "கோடியர் தலைவ"
+    ],
+    "note": "the guide hails the wandering performer and turns him toward the patron"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": {
+    "land": [
+     "கானத்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "களிறு",
+     "stem": "களிறு",
+     "line": 49,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "tusker"
+    },
+    {
+     "form": "மராஅத்த",
+     "stem": "மராஅம்",
+     "line": 50,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "kadamba"
+    },
+    {
+     "form": "கடவுட்கடன்",
+     "stem": "கடவுள்",
+     "line": 52,
+     "kind": "deyvam",
+     "role": "scene",
+     "land": null,
+     "sense": "forest god"
+    },
+    {
+     "form": "முரசுமுழங்கு",
+     "stem": "முரசு",
+     "line": 54,
+     "kind": "parai",
+     "role": "simile",
+     "land": null,
+     "sense": "war drum"
+    },
+    {
+     "form": "எழாஅற்",
+     "stem": "எழால்",
+     "line": 56,
+     "kind": "yaazh",
+     "role": "scene",
+     "land": null,
+     "sense": "lute"
+    },
+    {
+     "form": "கோடியர்",
+     "stem": "கோடியர்",
+     "line": 57,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "performers"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "வலைவலந் தன்ன",
+     "tenor": "the thin shade of the leafless tree",
+     "marker": "அன்ன",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "மூவருங் கூடி அரசவை யிருந்த தோற்றம் போல",
+     "tenor": "the lute that carries the song (or the company of performers)",
+     "marker": "போல",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "ilivaral",
+     "cause": "வருத்தம்"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:2:60-72": {
+   "reading": "Listen well, the guide says, you who excel in fame: if you want to end the long hunger of your large kin, worn by wasting hunger, rise without delay, master of the seven strings; for I too, like a bird that thinks of a fruiting tree, entered unannounced the wide humming palace whose great gate stops no one who comes in need, weary in body, to end my distress, and beat my wide drum, its face stained by the hand like the spots on a cobra's spread hood, to a double beat in the depth of night as Venus rose.",
+   "concepts": [
+    "pasi",
+    "aatruppadai",
+    "inmai",
+    "eegai"
+   ],
+   "nuance": "The open gate 'that does not bar those who come in need' (line 66) is what makes the fruit-tree simile work: a fruiting tree in the open is free to every bird. The guide's argument is his own story, told in the first person, so the promise rests on testimony rather than on the patron's reputation.",
+   "unit_note": "Adjusted from the core unit 60-75: the bard's arrival and playing end with the time of day in line 72; from line 73 the patron's welcome begins.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "நீடுபசி",
+     "புகழ்மேம் படுந"
+    ],
+    "note": "the guide urges the hungry bard to go to the patron, offering his own arrival as proof"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": {
+    "land": [],
+    "season": [],
+    "hour": [
+     "நள்ளிருள் விடியல்"
+    ],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "பறவையின்",
+     "stem": "பறவை",
+     "line": 64,
+     "kind": "pul",
+     "role": "simile",
+     "land": null,
+     "sense": "bird"
+    },
+    {
+     "form": "பழுமர",
+     "stem": "பழு மரம்",
+     "line": 64,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": "fruiting tree"
+    },
+    {
+     "form": "பாம்பின்",
+     "stem": "பாம்பு",
+     "line": 69,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "cobra"
+    },
+    {
+     "form": "தடாரி",
+     "stem": "தடாரி",
+     "line": 70,
+     "kind": "parai",
+     "role": "scene",
+     "land": null,
+     "sense": "small drum"
+    },
+    {
+     "form": "வெள்ளி",
+     "stem": "வெள்ளி",
+     "line": 72,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "Venus"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "பழுமர முள்ளிய பறவையின்",
+     "tenor": "the hungry bard going to the patron's house",
+     "marker": "இன்",
+     "basis": "vinai",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "பைத்த பாம்பின் துத்தி யேய்ப்ப",
+     "tenor": "the hand-stains on the drum's face",
+     "marker": "ஏய்ப்ப",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "வறுமை"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:2:73-95": {
+   "reading": "Before I could say what I wanted, the patron, wishing to take me as kin, spoke words of welcome, seated me close where his eyes could reach me, looked at me without tiring as if drinking me in, so that my bones cooled as if melting, had my rags, sweat-soaked, patched with other threads and full of lice and nits, stripped off and gave me cloth fine as a snake's slough that the eye cannot see through, and had jewelled, smiling women pour drink again and again into golden cups in his cloud-high mansion until my weariness ended; so I stayed in a corner of his palace like ascetics who gain the fruit of their penance without leaving the body, and rose free of every care except the drowsy tremor of drink.",
+   "concepts": [
+    "virundhu",
+    "eegai",
+    "parisil",
+    "anbu"
+   ],
+   "nuance": "The patron gives before he is asked (line 73), and the comparison in lines 91 and 92 makes the bard's ease the reward that ascetics get only after death, here received in the living body. The removal of the patched rags is the first act, before food: the bard is re-dressed as a guest of rank.",
+   "unit_note": "Adjusted from the core units 60-75, 76-94 and 95-117: the welcome begins at line 73 and the sentence of the first night closes at மாழாந்து எழுந்து in line 95.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "கேளிர் போலக் கேள்கொளல்",
+     "அறுவை நல்கி"
+    ],
+    "note": "the patron's reception of the bard, told as the guide's own experience"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": null,
+   "karu": [
+    {
+     "form": "ஈரும்",
+     "stem": "ஈர்",
+     "line": 79,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "nits"
+    },
+    {
+     "form": "பேனும்",
+     "stem": "பேன்",
+     "line": 79,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "lice"
+    },
+    {
+     "form": "அரவுரி",
+     "stem": "அரவு",
+     "line": 83,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "snake"
+    },
+    {
+     "form": "மழையென",
+     "stem": "மழை",
+     "line": 84,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "rain cloud"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "கேளிர் போல",
+     "tenor": "the patron receiving a stranger",
+     "marker": "போல",
+     "basis": "vinai",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "பருகு அன்ன",
+     "tenor": "the patron's unwearying gaze",
+     "marker": "அன்ன",
+     "basis": "vinai",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "உருகு பவைபோ",
+     "tenor": "the bard's bones growing cool",
+     "marker": "போல",
+     "basis": "vinai",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "அரவுரி யன்ன",
+     "tenor": "the fine cloth given",
+     "marker": "அன்ன",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "மழையென",
+     "tenor": "the tall mansion",
+     "marker": "என",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "தவஞ்செய் மாக்கள் தம்முடம் பிடாஅ ததன்பய மெய்திய வளவை மான",
+     "tenor": "the bard's ease in the palace",
+     "marker": "மான",
+     "basis": "payan",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "செல்வம்"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:2:96-118": {
+   "reading": "Waking to find his former misery gone like dusk and his state now one of bee-ringed garlands that amazes all who see it, the bard wonders whether it is a dream, until untaught young servants tell him; the patron calls him at once, and after the rites serves boiled meat of sheep fed on grass and fat roasted on spits, urging him to eat, then many kinds of sweets when he tires of meat, with drum and small lute and bright-browed dancing women keeping time; after many days of drinking he begs him to take rice, unbroken, husked, the grains straight as fingers, with fried relish floating in sour gruel, until the guests' teeth, blunted by meat day and night, are like the ploughshare that has ploughed a dry field.",
+   "concepts": [
+    "virundhu",
+    "undi",
+    "eegai"
+   ],
+   "nuance": "The comedy of lines 117 and 118 answers the hunger of line 61: the poor bard's teeth wear down from too much meat, like a share on dry ground. Rice is begged on him (இரப்ப, line 112), so the host now does the asking that the bard did before. Line 96's 'misery like dusk' is uncertain in its construction, and line 97 prints கண்டோட், which reads best as கண்டோர்.",
+   "uncertain": true,
+   "unit_note": "Adjusted from the core units 95-117 and 118-127: the morning begins at line 96, and the image of the blunted teeth closes with மழுங்கி in line 118.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "அவிழ்ப்பதங் கொள்கென் றிரப்ப"
+    ],
+    "note": "the patron's feeding of the bard, told as the guide's experience"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": null,
+   "karu": [
+    {
+     "form": "வண்டுசூழ்",
+     "stem": "வண்டு",
+     "line": 97,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "bee"
+    },
+    {
+     "form": "துராஅய்",
+     "stem": "துராய்",
+     "line": 103,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "grass"
+    },
+    {
+     "form": "துருவையம்",
+     "stem": "துருவை",
+     "line": 103,
+     "kind": "maa",
+     "role": "gift_food",
+     "land": null,
+     "sense": "sheep"
+    },
+    {
+     "form": "கோழூன்",
+     "stem": "கொழு ஊன்",
+     "line": 105,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "fat meat"
+    },
+    {
+     "form": "முழவின்",
+     "stem": "முழவு",
+     "line": 109,
+     "kind": "parai",
+     "role": "scene",
+     "land": null,
+     "sense": "drum"
+    },
+    {
+     "form": "சீறியாழ்",
+     "stem": "சீறியாழ்",
+     "line": 109,
+     "kind": "yaazh",
+     "role": "scene",
+     "land": null,
+     "sense": "small lute"
+    },
+    {
+     "form": "விறலியர்",
+     "stem": "விறலி",
+     "line": 110,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "dancing women"
+    },
+    {
+     "form": "மகிழ்ப்பதம்",
+     "stem": "மகிழ்",
+     "line": 111,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "toddy"
+    },
+    {
+     "form": "அரிசி",
+     "stem": "அரிசி",
+     "line": 113,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "rice"
+    },
+    {
+     "form": "புழுக்கல்",
+     "stem": "புழுக்கல்",
+     "line": 114,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "boiled rice"
+    },
+    {
+     "form": "கருனை",
+     "stem": "கருனை",
+     "line": 115,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "fried relish"
+    },
+    {
+     "form": "காடியின்",
+     "stem": "காடி",
+     "line": 115,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "sour gruel"
+    },
+    {
+     "form": "ஊன்றின்று",
+     "stem": "ஊன்",
+     "line": 118,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "meat"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "மாலை யன்னதோர் புன்மை",
+     "tenor": "the bard's former misery",
+     "marker": "அன்ன",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "கனவென",
+     "tenor": "the bard's new state",
+     "marker": "என",
+     "basis": "payan",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "விரலென",
+     "tenor": "the long straight grains of rice",
+     "marker": "என",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "கொல்லை உழுகொழு ஏய்ப்ப",
+     "tenor": "the guests' blunted teeth",
+     "marker": "ஏய்ப்ப",
+     "basis": "mey",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "marutkai",
+     "cause": "புதுமை"
+    },
+    {
+     "feeling": "uvagai",
+     "cause": "புலன்"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:2:119-129": {
+   "reading": "Sated with meat and with no room left to breathe, one day the bard softly tells the lord to whom angry enemies bring tribute that he will go back to his old town; the lord, looking at him angrily like one wronged, asks 'will you leave our company?', and then, saying 'take what you like', gives elephants with their mates and calves whose slow gait is like the beat of the thudi drum, giving and giving by the measure he knows, while the bard takes what he needs by the measure he knows and comes away with his poverty ended.",
+   "concepts": [
+    "eegai",
+    "parisil",
+    "inmai",
+    "anbu"
+   ],
+   "nuance": "The king's anger at being left is the form his affection takes. Lines 127 and 128 set two measures side by side, தன் அறி அளவையின் and என் அறி அளவையின்: the giver gives to the limit of what he knows to give, and the taker takes to the limit of what he knows to need, so that the gift is bounded by the receiver's restraint as much as by the giver's wealth.",
+   "unit_note": "Adjusted from the core units 118-127 and 128-144: the leave-taking begins at line 119 and the bard's story ends at இன்மை தீர வந்தனென் in line 129; the last word of line 129, வென்வேல், opens the next sentence but cannot be split from its line.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "பெட்டவை கொள்கென",
+     "இன்மை தீர"
+    ],
+    "note": "the patron's parting gifts to the bard"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": null,
+   "karu": [
+    {
+     "form": "துடியடி",
+     "stem": "துடி",
+     "line": 125,
+     "kind": "parai",
+     "role": "simile",
+     "land": null,
+     "sense": "thudi drum"
+    },
+    {
+     "form": "குழவியொடு",
+     "stem": "குழவி",
+     "line": 125,
+     "kind": "maa",
+     "role": "gift_food",
+     "land": null,
+     "sense": "elephant calf"
+    },
+    {
+     "form": "பிடிபுணர்",
+     "stem": "பிடி",
+     "line": 126,
+     "kind": "maa",
+     "role": "gift_food",
+     "land": null,
+     "sense": "she-elephant"
+    },
+    {
+     "form": "வேழம்",
+     "stem": "வேழம்",
+     "line": 126,
+     "kind": "maa",
+     "role": "gift_food",
+     "land": null,
+     "sense": "elephant"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "சிரறிய வன்போற்",
+     "tenor": "the patron's look at the departing bard",
+     "marker": "போற்",
+     "basis": "vinai",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "துடியடி யன்ன",
+     "tenor": "the slow gait of the elephant calves",
+     "marker": "அன்ன",
+     "basis": "mey",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "செல்வம்"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:2:130-148": {
+   "reading": "The patron is the son of Ilaiyon of many fine chariots, a lord fierce with Murugan's anger, who received his inheritance while still in the womb, made unknowing foes obey, threw enemy lands into turmoil, and grew from the day he learned to crawl, bearing his land on his shoulder, like the sun that spreads its rays over the sea and climbs the sky; like the fierce cub of the yaali, which before it leaves the breast kills a tusker in its first hunt, Karikal Valavan with his eye-filling chaplet struck at Venni so that the two great kings, who wore the palmyra frond and the neem's tender leaf on their heads, fell together on one field.",
+   "concepts": [
+    "vendhan",
+    "maram",
+    "ilamai",
+    "pugazh"
+   ],
+   "nuance": "The whole stretch answers one charge, youth: the king inherited in the womb, ruled from the crawling age, and won at Venni like a cub still at the breast. The two defeated kings are named only by their flowers, the Chera palmyra and the Pandya neem, so the victory is told as heraldry.",
+   "unit_note": "Adjusted from the core units 128-144 and 145-160: the description of the patron begins at line 130 (after வந்தனென் in line 129) and his name closes it in line 148.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "வெண்ணித் தாக்கிய",
+     "இருபெரு வேந்தரு"
+    ],
+    "note": "praise of the patron's birth and his victory at Venni"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": null,
+   "karu": [
+    {
+     "form": "முருகற்",
+     "stem": "முருகன்",
+     "line": 131,
+     "kind": "deyvam",
+     "role": "scene",
+     "land": null,
+     "sense": "Murugan"
+    },
+    {
+     "form": "ஆளி",
+     "stem": "ஆளி",
+     "line": 139,
+     "kind": "maa",
+     "role": "simile",
+     "land": null,
+     "sense": "yaali"
+    },
+    {
+     "form": "களிறட்",
+     "stem": "களிறு",
+     "line": 142,
+     "kind": "maa",
+     "role": "simile",
+     "land": null,
+     "sense": "tusker"
+    },
+    {
+     "form": "போந்தைத்",
+     "stem": "போந்தை",
+     "line": 143,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "palmyra"
+    },
+    {
+     "form": "வேம்பின்",
+     "stem": "வேம்பு",
+     "line": 144,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "neem"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "முருகற் சீற்றத்",
+     "tenor": "the lord's fury in battle",
+     "marker": null,
+     "basis": "vinai",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "பவ்வ மீமிசைப் பகற்கதிர் பரப்பி வெல்வெஞ் செல்வன் விசும்புபடர்ந் தாங்கு",
+     "tenor": "the king's rise and growth from childhood",
+     "marker": "ஆங்கு",
+     "basis": "vinai",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "ஆளி நன்மான் அணங்குடைக் குருளை மீளி மொய்ம்பின் மிகுவலி செருக்கி முலைக்கோள் விடாஅ மாத்திரை ஞெரேரெனத் தலைக்கோள் வேட்டங் களிறட் டாஅங்கு",
+     "tenor": "the young king's victory at Venni",
+     "marker": "ஆங்கு",
+     "basis": "vinai",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "perumitham",
+     "cause": "தறுகண்"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [
+    {
+     "type": "king",
+     "name": "இளையோன்",
+     "line": 130
+    },
+    {
+     "type": "battle",
+     "name": "வெண்ணி",
+     "line": 147
+    },
+    {
+     "type": "king",
+     "name": "கரிகால் வளவன்",
+     "line": 148
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:2:149-162": {
+   "reading": "If you go near the shade of his feet and stand before him in worship, he will look on you with the unfailing love of a cow that has calved and, before you even ask, strip off your stitched rags, worn and dirty like the roots of moss, and give you silk cloth with knotted borders, pour flower-scented toddy into precious cups day after day until you cover the cup with your hand, set on your curly hair a lotus of gold, petalless, bright as flame, and adorn your paadini with a fine chain that no thread strings and with bright pearls.",
+   "concepts": [
+    "parisil",
+    "eegai",
+    "virundhu"
+   ],
+   "nuance": "The promised gifts repeat in order what the guide himself received (lines 79 to 88: the rags removed, cloth given, drink poured), so the guide poem works by turning one man's experience into a forecast. The lotus is 'without petals' (ஏடில்) because it is gold: a flower that will not fade.",
+   "unit_note": "Adjusted from the core units 145-160 and 161-176: the guide's promise begins at line 149 and the first gifts close with பாடினி அணிய in line 162; line 163 turns to the chariot.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "தொழுதுமுன் னிற்குவி ராயிற்",
+     "பட்டுடை நல்கிப்"
+    ],
+    "note": "the guide promises the bard the gifts he will receive"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": null,
+   "karu": [
+    {
+     "form": "றீற்றா",
+     "stem": "ஈற்று ஆ",
+     "line": 151,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "cow that has calved"
+    },
+    {
+     "form": "பாசி",
+     "stem": "பாசி",
+     "line": 153,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "moss"
+    },
+    {
+     "form": "தேறல்",
+     "stem": "தேறல்",
+     "line": 157,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "toddy"
+    },
+    {
+     "form": "தாமரை",
+     "stem": "தாமரை",
+     "line": 159,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "golden lotus"
+    },
+    {
+     "form": "முத்தமொடு",
+     "stem": "முத்தம்",
+     "line": 162,
+     "kind": "pira",
+     "role": "ornament",
+     "land": null,
+     "sense": "pearl"
+    },
+    {
+     "form": "பாடினி",
+     "stem": "பாடினி",
+     "line": 162,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "singing woman"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "றீற்றா விருப்பிற்",
+     "tenor": "the patron's love for the bard",
+     "marker": null,
+     "basis": "vinai",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "பாசி வேரின்",
+     "tenor": "the dirt on the bard's rags",
+     "marker": "இன்",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "எரியகைந் தன்ன",
+     "tenor": "the golden lotus",
+     "marker": "அன்ன",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "செல்வம்"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:2:163-177": {
+   "reading": "He will yoke four milk-white horses with swaying dyed plumes to a tall chariot whose rail is of ivory, walk seven steps behind it on foot, take away the goad and bid you mount, send you off in due order with your great lute, and give you a land of many good villages in cool fields and many fierce elephants at whom the warning drum is beaten; he does not stop giving, and if, feeding others with what you received on the way, you hurry to leave, he will grieve, and weighing the nature of this unstable world, will not be the one to send you off saying 'go'.",
+   "concepts": [
+    "eegai",
+    "parisil",
+    "nilaiyaamai",
+    "anbu"
+   ],
+   "nuance": "Walking seven steps behind the departing guest's chariot is the king's humility in giving. The syntax of lines 173 to 177 is not certain: the participle ஆர்த்தி most naturally has the bard as subject (you feed others with what you got), and பல புலந்து and நிலைமை தூக்கி may belong to the king, who will not dismiss a guest because he knows how little in the world stays.",
+   "uncertain": true,
+   "unit_note": "Adjusted from the core unit 161-176 and 177-188: the chariot begins at line 163, and the sentence closes at செல்கென விடுக்குவன் அல்லன் in line 177; the last word of line 177, நொல்லென, opens the description of his land.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "தரவிடைத் தங்கலோ விலனே"
+    ],
+    "note": "the guide's promise of the patron's gifts and farewell"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": null,
+   "karu": [
+    {
+     "form": "புரவி",
+     "stem": "புரவி",
+     "line": 165,
+     "kind": "maa",
+     "role": "gift_food",
+     "land": null,
+     "sense": "horse"
+    },
+    {
+     "form": "பேரியாழ்",
+     "stem": "பேரியாழ்",
+     "line": 168,
+     "kind": "yaazh",
+     "role": "scene",
+     "land": null,
+     "sense": "great lute"
+    },
+    {
+     "form": "தண்பணை",
+     "stem": "பணை",
+     "line": 169,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "fields"
+    },
+    {
+     "form": "வெரூஉப்பறை",
+     "stem": "பறை",
+     "line": 171,
+     "kind": "parai",
+     "role": "scene",
+     "land": null,
+     "sense": "warning drum"
+    },
+    {
+     "form": "வேழம்",
+     "stem": "வேழம்",
+     "line": 172,
+     "kind": "maa",
+     "role": "gift_food",
+     "land": null,
+     "sense": "elephant"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "பால்புரை",
+     "tenor": "the white horses",
+     "marker": "புரை",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "perumitham",
+     "cause": "கொடை"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:2:178-188": {
+   "reading": "His land lies wide within the shore of the great wave-tossed sea, with dark mango trees, paddy here and there, low-hanging coconut palms and cool groves; in homes with granaries the black crow, when it tires of the red rice offerings it has eaten, leaves the tortoise that has laid its eggs to guard its young in the shade of the house's nochchi, the young play at building sand houses, and the old, entering the assembly, speak their quarrels there.",
+   "concepts": [
+    "naadu",
+    "kudi",
+    "sengol"
+   ],
+   "nuance": "The crow is sated by the offerings (கவவு முனையின்), so the nesting tortoise is safe: in this land even the predator is fed. The quarrels of the old are carried to the assembly, not settled by force, which is the only sign of conflict in the picture.",
+   "unit_note": "Adjusted from the core unit 177-188: the description of the land begins after the farewell sentence that closes in line 177, so the unit starts at line 178.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "கூடு கெழீஇய குடி"
+    ],
+    "note": "praise of the patron's land"
+   },
+   "mixed": true,
+   "uri": null,
+   "mutal": {
+    "land": [
+     "பெளவத்துக்",
+     "கரை"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "பெளவத்துக்",
+     "stem": "பௌவம்",
+     "line": 178,
+     "kind": "pira",
+     "role": "scene",
+     "land": "neythal",
+     "sense": "sea"
+    },
+    {
+     "form": "மாவின்",
+     "stem": "மா",
+     "line": 180,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "mango"
+    },
+    {
+     "form": "வயினெற்",
+     "stem": "நெல்",
+     "line": 180,
+     "kind": "unavu",
+     "role": "scene",
+     "land": "marutham",
+     "sense": "paddy"
+    },
+    {
+     "form": "தாழைத்",
+     "stem": "தாழை",
+     "line": 181,
+     "kind": "maram",
+     "role": "scene",
+     "land": "neythal",
+     "sense": "coconut palm"
+    },
+    {
+     "form": "சோற்ற",
+     "stem": "சோறு",
+     "line": 183,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "rice offering"
+    },
+    {
+     "form": "காக்கை",
+     "stem": "காக்கை",
+     "line": 184,
+     "kind": "pul",
+     "role": "scene",
+     "land": null,
+     "sense": "crow"
+    },
+    {
+     "form": "நொச்சி",
+     "stem": "நொச்சி",
+     "line": 185,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "nochchi"
+    },
+    {
+     "form": "யாமை",
+     "stem": "யாமை",
+     "line": 186,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "tortoise"
+    }
+   ],
+   "comparisons": [],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "விளையாட்டு"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:2:189-207": {
+   "reading": "Gentle-eyed peacocks dance on crooked kaanji and red marutham trees, feed on the clustered fruit of the green bitter gourd and red-segmented fruit amid the noise of labourers at the cut sugarcane and the reaped paddy, and, when they tire of that place with its beach creepers, pakanrai, budding punku, low groves and njaazhal, move to the good woodland with its thalavam, thondri, smiling mullai, golden konrai and sapphire kaayaa; and when that walk too wearies them, the herons that have fed on prawns of the shark-haunted sea, frightened from the flowering punnai by the roar of high waves, rest on the fronds of the sweet palmyra.",
+   "concepts": [
+    "naadu",
+    "selvam",
+    "inbam"
+   ],
+   "nuance": "The creatures move between the landscapes not from want but from surfeit: the repeated முனையின் (198, 202, and 184 before it) makes boredom with plenty the motive for crossing from field to woodland to shore, the reverse of the hungry bard's crossing that opened the poem. Who moves in lines 198 to 202, the peacocks or the field folk, is not fixed by the syntax.",
+   "uncertain": true,
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "களமர்",
+     "நற் புறவி"
+    ],
+    "note": "praise of the patron's land as a place every landscape shares"
+   },
+   "mixed": true,
+   "uri": null,
+   "mutal": {
+    "land": [
+     "புறவி",
+     "பெளவத்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "காஞ்சிச்",
+     "stem": "காஞ்சி",
+     "line": 189,
+     "kind": "maram",
+     "role": "scene",
+     "land": "marutham",
+     "sense": "kaanji tree"
+    },
+    {
+     "form": "மருதின்",
+     "stem": "மருது",
+     "line": 189,
+     "kind": "maram",
+     "role": "scene",
+     "land": "marutham",
+     "sense": "marutham tree"
+    },
+    {
+     "form": "மயில்",
+     "stem": "மயில்",
+     "line": 190,
+     "kind": "pul",
+     "role": "scene",
+     "land": "kurinji",
+     "sense": "peacock"
+    },
+    {
+     "form": "பாகற்",
+     "stem": "பாகல்",
+     "line": 191,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "bitter gourd"
+    },
+    {
+     "form": "கரும்பி",
+     "stem": "கரும்பு",
+     "line": 193,
+     "kind": "maram",
+     "role": "scene",
+     "land": "marutham",
+     "sense": "sugarcane"
+    },
+    {
+     "form": "நெல்லின்",
+     "stem": "நெல்",
+     "line": 193,
+     "kind": "unavu",
+     "role": "scene",
+     "land": "marutham",
+     "sense": "paddy"
+    },
+    {
+     "form": "களமர்",
+     "stem": "களமர்",
+     "line": 194,
+     "kind": "seythi",
+     "role": "scene",
+     "land": "marutham",
+     "sense": "field labourers"
+    },
+    {
+     "form": "ளடும்பி",
+     "stem": "அடும்பு",
+     "line": 195,
+     "kind": "maram",
+     "role": "scene",
+     "land": "neythal",
+     "sense": "beach creeper"
+    },
+    {
+     "form": "பகன்றைத்",
+     "stem": "பகன்றை",
+     "line": 195,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "pakanrai"
+    },
+    {
+     "form": "புன்கின்",
+     "stem": "புன்கு",
+     "line": 196,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "punku"
+    },
+    {
+     "form": "ஞாழலொடு",
+     "stem": "ஞாழல்",
+     "line": 197,
+     "kind": "maram",
+     "role": "scene",
+     "land": "neythal",
+     "sense": "njaazhal"
+    },
+    {
+     "form": "தளவி",
+     "stem": "தளவு",
+     "line": 199,
+     "kind": "maram",
+     "role": "scene",
+     "land": "mullai",
+     "sense": "thalavam jasmine"
+    },
+    {
+     "form": "தோன்றி",
+     "stem": "தோன்றி",
+     "line": 199,
+     "kind": "maram",
+     "role": "scene",
+     "land": "mullai",
+     "sense": "thondri"
+    },
+    {
+     "form": "முல்லை",
+     "stem": "முல்லை",
+     "line": 200,
+     "kind": "maram",
+     "role": "scene",
+     "land": "mullai",
+     "sense": "jasmine"
+    },
+    {
+     "form": "கொன்றை",
+     "stem": "கொன்றை",
+     "line": 201,
+     "kind": "maram",
+     "role": "scene",
+     "land": "mullai",
+     "sense": "konrai"
+    },
+    {
+     "form": "காயா",
+     "stem": "காயா",
+     "line": 201,
+     "kind": "maram",
+     "role": "scene",
+     "land": "mullai",
+     "sense": "kaayaa"
+    },
+    {
+     "form": "சுற",
+     "stem": "சுறவு",
+     "line": 203,
+     "kind": "pira",
+     "role": "scene",
+     "land": "neythal",
+     "sense": "shark"
+    },
+    {
+     "form": "நாரை",
+     "stem": "நாரை",
+     "line": 204,
+     "kind": "pul",
+     "role": "scene",
+     "land": "neythal",
+     "sense": "heron"
+    },
+    {
+     "form": "புன்னைச்",
+     "stem": "புன்னை",
+     "line": 205,
+     "kind": "maram",
+     "role": "scene",
+     "land": "neythal",
+     "sense": "punnai"
+    },
+    {
+     "form": "பெண்ணை",
+     "stem": "பெண்ணை",
+     "line": 207,
+     "kind": "maram",
+     "role": "scene",
+     "land": "neythal",
+     "sense": "palmyra"
+    }
+   ],
+   "comparisons": [],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "செல்வம்"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:2:208-217": {
+   "reading": "Where tall coconuts, banana bunches, lush kaanthal and flowering naagam trees grow, in hamlets where the owl calls like a thudi drum, the gentle peacock spreads its plumes to the tune of bees humming like a lute and wanders over sand dunes white as moonlight; those who bartered honey and tubers go home with fish oil and toddy, and those who gave sweet sugarcane and flattened rice go home with venison and liquor.",
+   "concepts": [
+    "naadu",
+    "selvam",
+    "undi"
+   ],
+   "nuance": "The barter of lines 214 to 217 pairs the hill's honey and tubers with the shore's fish oil, and the field's cane and flattened rice with the forest's venison: the five lands are joined by trade as well as by the wandering creatures of the previous unit.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "மாறியோர்"
+    ],
+    "note": "praise of the patron's land through the exchange of its products"
+   },
+   "mixed": true,
+   "uri": null,
+   "mutal": null,
+   "karu": [
+    {
+     "form": "டெங்கின்",
+     "stem": "தெங்கு",
+     "line": 208,
+     "kind": "maram",
+     "role": "scene",
+     "land": "neythal",
+     "sense": "coconut"
+    },
+    {
+     "form": "வாழைக்",
+     "stem": "வாழை",
+     "line": 208,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "banana"
+    },
+    {
+     "form": "காந்தண்",
+     "stem": "காந்தள்",
+     "line": 209,
+     "kind": "maram",
+     "role": "scene",
+     "land": "kurinji",
+     "sense": "glory lily"
+    },
+    {
+     "form": "நாகத்துத்",
+     "stem": "நாகம்",
+     "line": 209,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "naagam tree"
+    },
+    {
+     "form": "குடிஞைக்",
+     "stem": "குடிஞை",
+     "line": 210,
+     "kind": "pul",
+     "role": "scene",
+     "land": null,
+     "sense": "owl"
+    },
+    {
+     "form": "துடிக்",
+     "stem": "துடி",
+     "line": 210,
+     "kind": "parai",
+     "role": "scene",
+     "land": null,
+     "sense": "thudi drum"
+    },
+    {
+     "form": "யாழ்",
+     "stem": "யாழ்",
+     "line": 211,
+     "kind": "yaazh",
+     "role": "scene",
+     "land": null,
+     "sense": "lute"
+    },
+    {
+     "form": "வண்டின்",
+     "stem": "வண்டு",
+     "line": 211,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "bee"
+    },
+    {
+     "form": "மஞ்ஞை",
+     "stem": "மஞ்ஞை",
+     "line": 212,
+     "kind": "pul",
+     "role": "scene",
+     "land": "kurinji",
+     "sense": "peacock"
+    },
+    {
+     "form": "தேனெய்",
+     "stem": "தேன்",
+     "line": 214,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": "kurinji",
+     "sense": "honey"
+    },
+    {
+     "form": "கிழங்கு",
+     "stem": "கிழங்கு",
+     "line": 214,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": "kurinji",
+     "sense": "tubers"
+    },
+    {
+     "form": "மீனெய்",
+     "stem": "மீன் நெய்",
+     "line": 215,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": "neythal",
+     "sense": "fish oil"
+    },
+    {
+     "form": "நறவு",
+     "stem": "நறவு",
+     "line": 215,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "toddy"
+    },
+    {
+     "form": "கரும்போ",
+     "stem": "கரும்பு",
+     "line": 216,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": "marutham",
+     "sense": "sugarcane"
+    },
+    {
+     "form": "டவல்",
+     "stem": "அவல்",
+     "line": 216,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": "marutham",
+     "sense": "flattened rice"
+    },
+    {
+     "form": "மான்",
+     "stem": "மான் குறை",
+     "line": 217,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": "mullai",
+     "sense": "venison"
+    },
+    {
+     "form": "மது",
+     "stem": "மது",
+     "line": 217,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "liquor"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "துடிக் குடிஞை",
+     "tenor": "the owl's call",
+     "marker": null,
+     "basis": "vinai",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "யாழ் வண்டின்",
+     "tenor": "the humming of the bees",
+     "marker": null,
+     "basis": "vinai",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "நில வெக்கர்",
+     "tenor": "the white sand dunes",
+     "marker": null,
+     "basis": "uru",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:2:218-231": {
+   "reading": "There the fishermen sing the kurinji tune and the hill people wear chaplets of fragrant neythal flowers, the forest people sing the marutham tune and the bards tell of the mullai and the other landscapes, the jungle fowl pecks the ears of paddy and the house fowl takes the millet, hill monkeys dive in the backwaters and backwater herons perch on the hills: in the cool settlements the lands gather without blemish, and the people say there is one umbrella; such is the lord who has ruled greatly with great kinship and a just sceptre joined to virtue and knowing the right ways; long live that lord of the victorious spear.",
+   "concepts": [
+    "sengol",
+    "naadu",
+    "arasu",
+    "aram"
+   ],
+   "nuance": "Each people sings another land's tune, wears another land's flower, and each land's creature eats or rests in another's place: the poet takes the poetics of karu, in which each landscape has its own people, birds, food and music, and inverts it point by point to show a realm where the borders of the five lands no longer hold under one umbrella.",
+   "unit_note": "Adjusted from the core unit 218-234: the description of the mingled lands and the blessing of the king close at அன்னோன் வாழி வென்வேற் குருசில் in line 231; line 232 begins the description of drought.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "ஒரு குடை",
+     "செங்கோல்"
+    ],
+    "note": "praise of the king's rule as one umbrella over all the lands"
+   },
+   "mixed": true,
+   "uri": null,
+   "mutal": {
+    "land": [
+     "வரை",
+     "கழி"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "குறிஞ்சி",
+     "stem": "குறிஞ்சி",
+     "line": 218,
+     "kind": "yaazh",
+     "role": "scene",
+     "land": "kurinji",
+     "sense": "kurinji tune"
+    },
+    {
+     "form": "பரதவர்",
+     "stem": "பரதவர்",
+     "line": 218,
+     "kind": "seythi",
+     "role": "scene",
+     "land": "neythal",
+     "sense": "fishermen"
+    },
+    {
+     "form": "நெய்தல்",
+     "stem": "நெய்தல்",
+     "line": 218,
+     "kind": "maram",
+     "role": "ornament",
+     "land": "neythal",
+     "sense": "water lily"
+    },
+    {
+     "form": "குறவர்",
+     "stem": "குறவர்",
+     "line": 219,
+     "kind": "seythi",
+     "role": "scene",
+     "land": "kurinji",
+     "sense": "hill people"
+    },
+    {
+     "form": "கானவர்",
+     "stem": "கானவர்",
+     "line": 220,
+     "kind": "seythi",
+     "role": "scene",
+     "land": "mullai",
+     "sense": "forest people"
+    },
+    {
+     "form": "மருதம்",
+     "stem": "மருதம்",
+     "line": 220,
+     "kind": "yaazh",
+     "role": "scene",
+     "land": "marutham",
+     "sense": "marutham tune"
+    },
+    {
+     "form": "அகவர்",
+     "stem": "அகவர்",
+     "line": 220,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "bards"
+    },
+    {
+     "form": "முல்லைப்",
+     "stem": "முல்லை",
+     "line": 221,
+     "kind": "yaazh",
+     "role": "scene",
+     "land": "mullai",
+     "sense": "mullai tune"
+    },
+    {
+     "form": "கானக் கோழி",
+     "stem": "கானக் கோழி",
+     "line": 222,
+     "kind": "pul",
+     "role": "scene",
+     "land": "mullai",
+     "sense": "jungle fowl"
+    },
+    {
+     "form": "கதிர்",
+     "stem": "கதிர்",
+     "line": 222,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": "marutham",
+     "sense": "paddy ears"
+    },
+    {
+     "form": "மனைக் கோழி",
+     "stem": "மனைக் கோழி",
+     "line": 223,
+     "kind": "pul",
+     "role": "scene",
+     "land": "marutham",
+     "sense": "house fowl"
+    },
+    {
+     "form": "தினைக்",
+     "stem": "தினை",
+     "line": 223,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": "kurinji",
+     "sense": "millet"
+    },
+    {
+     "form": "மந்தி",
+     "stem": "மந்தி",
+     "line": 224,
+     "kind": "maa",
+     "role": "scene",
+     "land": "kurinji",
+     "sense": "female monkey"
+    },
+    {
+     "form": "நாரை",
+     "stem": "நாரை",
+     "line": 225,
+     "kind": "pul",
+     "role": "scene",
+     "land": "neythal",
+     "sense": "heron"
+    }
+   ],
+   "comparisons": [],
+   "meyppadu": [
+    {
+     "feeling": "marutkai",
+     "cause": "புதுமை"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:2:232-248": {
+   "reading": "Even in a bad season of great drought, when the sun appears so that kings tremble and spreads its many rays, scorching the kullai and setting branches aflame, when the falls of the great hills dwindle and the clustered clouds forget to draw water from the sea, the Kaveri, carrying nari, naratham, agil and sandal, sets down its load at every ford and flows on, its foaming, roaring flood entering every enclosure where bathing women plunge in, and the paddy cut with bent sickles is piled in sheaves day after day in unfailing heaps like hills, packed into sacks that crowd the space, in hedged fields of saali paddy that yield a thousandfold: he is the lord of the land the Kaveri nourishes.",
+   "concepts": [
+    "mazhai",
+    "naadu",
+    "selvam",
+    "uzhavu"
+   ],
+   "nuance": "The drought is granted in full, sun, dried falls and clouds that forget the sea, and the river is set against it: the land's wealth is made independent of the rain, and so of the cosmic signs that might be read against a king. The sun that makes kings tremble here is the same image the poem used for the king himself (lines 135 and 136), now turned against the land and answered by the Kaveri.",
+   "unit_note": "Adjusted from the core units 218-234 and 235-248: the description of the drought begins at மன்னர் நடுங்க in line 232 and runs into the closing praise of the Kaveri's land.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "பாடாண்திணை",
+    "thurai": "ஆற்றுப்படை"
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "காவிரி புரக்கு நாடுகிழ வோனே"
+    ],
+    "note": "praise of the patron's land, whose river does not fail"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": {
+    "land": [],
+    "season": [
+     "பெருவற"
+    ],
+    "hour": [],
+    "negated": true
+   },
+   "karu": [
+    {
+     "form": "குல்லை",
+     "stem": "குல்லை",
+     "line": 234,
+     "kind": "maram",
+     "role": "absent",
+     "land": null,
+     "sense": "kullai"
+    },
+    {
+     "form": "அருவி",
+     "stem": "அருவி",
+     "line": 235,
+     "kind": "pira",
+     "role": "absent",
+     "land": null,
+     "sense": "waterfall"
+    },
+    {
+     "form": "வானங்",
+     "stem": "வானம்",
+     "line": 236,
+     "kind": "pira",
+     "role": "absent",
+     "land": null,
+     "sense": "rain clouds"
+    },
+    {
+     "form": "நறையும்",
+     "stem": "நறை",
+     "line": 238,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "fragrant nari"
+    },
+    {
+     "form": "நரந்தமு",
+     "stem": "நரந்தம்",
+     "line": 238,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "naratham"
+    },
+    {
+     "form": "மகிலு",
+     "stem": "அகில்",
+     "line": 238,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "agil"
+    },
+    {
+     "form": "மாரமும்",
+     "stem": "ஆரம்",
+     "line": 238,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "sandal"
+    },
+    {
+     "form": "குரைப்புனல்",
+     "stem": "புனல்",
+     "line": 240,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "flood water"
+    },
+    {
+     "form": "வாய்நெல்",
+     "stem": "நெல்",
+     "line": 242,
+     "kind": "unavu",
+     "role": "scene",
+     "land": null,
+     "sense": "paddy"
+    },
+    {
+     "form": "சாலி",
+     "stem": "சாலி நெல்",
+     "line": 246,
+     "kind": "unavu",
+     "role": "scene",
+     "land": null,
+     "sense": "saali paddy"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "குன்றெனக்",
+     "tenor": "the heaps of harvested paddy",
+     "marker": "என",
+     "basis": "mey",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "marutkai",
+     "cause": "ஆக்கம்"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [
+    {
+     "name": "ஆற்றுப்படை",
+     "colophon_form": "ஆற்றுப்படை"
+    }
+   ],
+   "entities": [
+    {
+     "type": "river",
+     "name": "காவிரி",
+     "line": 248
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null
+  }
+ },
+ "links": [
+  {
+   "a": "pattupattu:2:60-72",
+   "b": "kural:216",
+   "type": "same_image",
+   "note": "The Kural likens the wealth of a man of நயன் to a fruit tree ripening in the middle of the town; the guide says he went to Karikalan like a bird that thinks of a fruiting tree, through a gate that bars no one in need.",
+   "teaches": "The Kural states the tree from the giver's side and makes its public place the point, while the idyll shows the same tree from the hungry bird's side and supplies the condition the couplet compresses into உள்ளூர், an open gate, so the maxim's promise turns out to depend on access as much as on fruit."
+  },
+  {
+   "a": "pattupattu:2:60-72",
+   "b": "purananuru:209",
+   "type": "qualifies",
+   "note": "Puram 209 compares the bard to birds that fly to a fruit tree in a mountain cleft and turn back with nothing when it is bare; the guide uses the bird and fruit tree as the image of certain success.",
+   "teaches": "The bird-and-fruit-tree simile carried the bard's risk as well as his hope, since in Puram 209 the tree can be bare, so the guide poem's use of it is a claim that this patron is never the empty tree, and its first-person testimony is offered to meet exactly that doubt."
+  },
+  {
+   "a": "pattupattu:2:119-129",
+   "b": "purananuru:140",
+   "type": "qualifies",
+   "note": "Puram 140 mocks the lord of Nanjil as a simpleton who gave an elephant when asked for a little rice, giving that knows no measure; here Karikalan gives elephants with mates and calves by the measure he knows, and the bard takes by the measure he knows.",
+   "teaches": "The elephant given to a bard was a stock sign of excessive giving that one poet could tease as folly ignoring measure, while the idyll answers that charge by naming two measures, the giver's and the taker's, so the excess is kept in bounds by the receiver's restraint."
+  },
+  {
+   "a": "pattupattu:2:130-148",
+   "b": "purananuru:66",
+   "type": "tension",
+   "note": "The idyll makes the battle of Venni, where two great kings fell on one field, the crown of Karikalan's praise; Puram 66, addressed to Karikalan himself, says the king who was wounded in the back at Venni and starved himself facing north is the better man.",
+   "teaches": "The same victory at Venni is in one poem the proof of Karikalan's greatness and in the other the occasion for saying the loser surpassed him, which shows that praise addressed to a victor could, in this poetry, rank the defeated king's honour above the win itself."
+  },
+  {
+   "a": "pattupattu:2:149-162",
+   "b": "purananuru:385",
+   "type": "same_image",
+   "note": "In Puram 385 the lord of Ambar, hearing a bard's drum at another man's door, strips off his earth-eaten rags, dresses him in white and ends his hunger; the guide promises that Karikalan will strip off the bard's stitched rags and give him silk before he asks.",
+   "teaches": "Puram 385 tells the removal of rags and the gift of cloth as one patron's spontaneous kindness, while the guide poem can predict it as the first step of a known sequence, which suggests the re-dressing of the bard was a recognised rite of reception rather than a single generous act."
+  },
+  {
+   "a": "pattupattu:2:163-177",
+   "b": "naladiyar:2",
+   "type": "develops",
+   "note": "Naladiyar 2 tells those who gain wealth to share its food with many at once, since wealth turns like a cart wheel; the idyll's bard passes on to others what he received on the road, and the king, weighing the instability of the world, will not dismiss his guest.",
+   "teaches": "The impermanence that the Naladiyar uses as an argument for giving is already in the idyll a motive at both ends of the gift, the bard redistributing as he goes and the king holding on to the guest, so instability argued for keeping company as well as for releasing wealth before it became a quatrain about wealth alone."
+  },
+  {
+   "a": "pattupattu:2:218-231",
+   "b": "purananuru:7",
+   "type": "qualifies",
+   "note": "Puram 7 praises Karikalan for delighting in plunder by the light of burning enemy towns, so that the good things are gone from others' rich lands of fields and fish; the idyll shows his own land as one umbrella under which all five landscapes mingle in plenty.",
+   "teaches": "Held together, the two poems show the same Chola fertility, fields where water and fish abound, as what Karikalan destroys in other kings' lands and what he guarantees in his own, so the guide poem's harmony of the five lands is the domestic face of a conquest the puram poet praises openly."
+  },
+  {
+   "a": "pattupattu:2:232-248",
+   "b": "kural:545",
+   "type": "tension",
+   "note": "The Kural says rain and harvest gather together in the land of the king who wields the sceptre rightly; the idyll grants that in Karikalan's land, under a sceptre it has just called just, the rain can fail in great drought, and gives the harvest to the Kaveri instead.",
+   "teaches": "On the idyll's reading the just king's land is not spared drought, which the Kural's couplet implies it should be, so the poet keeps the king's righteousness and the land's plenty together by moving the source of harvest from the sky, which answers to the sceptre, to the river, which does not need to."
+  },
+  {
+   "a": "pattupattu:2:232-248",
+   "b": "purananuru:117",
+   "type": "qualifies",
+   "note": "Puram 117 says that even when Saturn smokes, comets appear and Venus runs south, the rain never failed in the dry land of the just king; the idyll describes a sun that makes kings tremble, falls that dwindle and clouds that forget the sea, and sets the Kaveri against them.",
+   "teaches": "Both poems meet the same fear, that signs in the sky foretell drought and blame the king, but Puram 117 denies that the rain fails in a good king's land while the idyll admits the failure and lets the river make it harmless, two different ways of protecting a ruler's name from a bad season."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Line 168 prints முறையுழிக்; tamilvu reads முறையுளிக் (flag r11). The sense (in due order) is the same; our reading kept.",
+  "Line 73 prints ஓன்றியான் with a long initial vowel; ஒன்றியான் (or ஒன்று யான்) is expected.",
+  "Line 97 prints கண்டோட்; கண்டோர் (those who see) is the expected form.",
+  "Line 123 prints அகறி ரொவெம், which reads as அகறிரோ எம்; the short ொ for ோ looks like a misprint.",
+  "Line 145 prints ஒங்கிருஞ் with a short initial vowel; ஓங்கிருஞ் is expected (as line 206 was repaired, flag r7).",
+  "Lines 129 and 177 each end with the first word of the next sentence (வென்வேல், நொல்லென); units cannot split a line, so these words stay in the earlier unit.",
+  "Line 228 is printed ஒரு குடையா னென்று கூற; the sense (they say: one umbrella) takes it as ஒரு குடையான் என்று."
+ ]
+}

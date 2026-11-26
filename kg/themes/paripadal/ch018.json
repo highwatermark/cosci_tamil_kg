@@ -1,0 +1,757 @@
+{
+ "chapter_no": 18,
+ "chapter_theme": "Thirumal at Irunthaiyur by Koodal: the ford, the ring of hill, pond and field, the peoples and shrines of his town, and the serpent lord whose deeds are its glory (Paripadal Thirattu 1).",
+ "verses": {
+  "paripadal:thirattu:1:1-17": {
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": null,
+    "thurai": null
+   },
+   "thinai": "paadaan",
+   "mixed": false,
+   "uri": null,
+   "thurai_akam": [],
+   "puram_thurai": [],
+   "ullurai": null,
+   "iraicchi": null,
+   "entities": [
+    {
+     "type": "town",
+     "name": "கூடல்",
+     "line": 3
+    },
+    {
+     "type": "town",
+     "name": "இருந்தையூர்",
+     "line": 5
+    }
+   ],
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "இருந்தையூர் அமர்ந்த செல்வ",
+     "பரவுதும்"
+    ],
+    "note": "worship of the god seated at Irunthaiyur, opened by bowing at his feet: கடவுள் வாழ்த்து under paadaan"
+   },
+   "reading": "Where the river, swollen by the rain of the sky-filling clouds, comes down from the honeyed peaks and is met by four-towered Koodal, at the ghat brimming with sweet water that is a medicine, the singers bow their heads to the well-formed feet of the lord seated at Irunthaiyur and praise him; around him lie, on one side, a hill gone gem-dark with vengai, maraa, makizham and opening asoka trees, on another a pond whose lotus buds hum with bees and whose flowers sit in it like the stars spread in the sky, and on another fields where ploughing noise rivals the festival music of the flood, revellers wander dazed and planters shout, fields fit for the goddess of fortune to desire.",
+   "concepts": [
+    "vazhipaadu",
+    "thiruvadi",
+    "theerththam",
+    "uzhavu"
+   ],
+   "nuance": "The shrine is placed by water before it is placed by anything else: the river is not named, only traced from rain to hill to the city's welcome, and the ghat's water is called a medicine (மருந்து ஆகும் தீம் நீர், line 4), so the holiness of the site begins as the healing of its ford. The ஒருசார் (on one side) refrain that begins at line 7 lays out the god's surroundings as a ring of landscapes, hill, pond and field, each closed by a one-word line (மலை, கயம், வயல்).",
+   "mutal": {
+    "land": [
+     "மலை",
+     "கயம்",
+     "வயல்"
+    ],
+    "season": [
+     "மழை வளம் நந்த"
+    ],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "எழிலி",
+     "stem": "எழிலி",
+     "line": 1,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "cloud"
+    },
+    {
+     "form": "மழை",
+     "stem": "மழை",
+     "line": 1,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "rain"
+    },
+    {
+     "form": "தேன்",
+     "stem": "தேன்",
+     "line": 2,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "honey"
+    },
+    {
+     "form": "நீர்",
+     "stem": "நீர்",
+     "line": 4,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "water"
+    },
+    {
+     "form": "வேங்கை",
+     "stem": "வேங்கை",
+     "line": 7,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "vengai tree"
+    },
+    {
+     "form": "மராஅ",
+     "stem": "மரா",
+     "line": 7,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "kadamba"
+    },
+    {
+     "form": "மகிழம்",
+     "stem": "மகிழ்",
+     "line": 7,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "makizham tree"
+    },
+    {
+     "form": "பிண்டி",
+     "stem": "பிண்டி",
+     "line": 8,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "asoka"
+    },
+    {
+     "form": "தாமரைப்",
+     "stem": "தாமரை",
+     "line": 10,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "lotus"
+    },
+    {
+     "form": "வண்டு",
+     "stem": "வண்டு",
+     "line": 11,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "bee"
+    },
+    {
+     "form": "உழவின்",
+     "stem": "உழவு",
+     "line": 15,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "ploughing"
+    },
+    {
+     "form": "நடுநரும்",
+     "stem": "நடுநர்",
+     "line": 16,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "planters"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "மணி நிறம்",
+     "tenor": "the hill dark with massed trees",
+     "marker": "none",
+     "basis": "uru",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "விண் வீற்றிருக்கும் கய மீன்",
+     "tenor": "the lotus flowers sitting in the pond",
+     "marker": "none",
+     "basis": "mey",
+     "type": "juxtaposition"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "செல்வம்"
+    }
+   ]
+  },
+  "paripadal:thirattu:1:18-29": {
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": null,
+    "thurai": null
+   },
+   "thinai": "paadaan",
+   "mixed": false,
+   "uri": null,
+   "thurai_akam": [],
+   "puram_thurai": [],
+   "ullurai": null,
+   "iraicchi": null,
+   "entities": [],
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "அந்தணர் ஈண்டி",
+     "புண்ணிய வணிகர்"
+    ],
+    "note": "the god's town praised through the peoples gathered round the shrine, still within the hymn: paadaan"
+   },
+   "reading": "On one side is the settlement that does not swerve from aram, where brahmins gather who have completed the penance joined to aram and the Veda, whose fame of mastery stands and who never stray in the way of their learning by hearing; on another the decked street of meritorious merchants and weavers, selling what is eaten, smeared, worn, put on and washed with, gems and gold, the goods of hill and sea and wares that yield clean profit; on another the guarded street of the field hands and ploughmen of soft and hard lands; and on every side such good things meet, so that delight comes in its proper measure.",
+   "concepts": [
+    "andhanar",
+    "aram",
+    "vedham",
+    "uzhavu"
+   ],
+   "nuance": "The catalogue gives each people its virtue in the word that names it: the brahmins' settlement does not swerve from aram (அறத்தின் திரியா, line 21), the merchants are புண்ணிய வணிகர் (line 25), meritorious traders, and the farmers' street is guarded (கடி மறுகு). Merit is assigned to trade as well as to rite, so the shrine town is pictured as a whole social order, not a priestly enclave. Line 26 (விளைவதை வினை எவன்) does not construe as it stands.",
+   "uncertain": true,
+   "mutal": {
+    "land": [
+     "மென் புல",
+     "வன் புல"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "அந்தணர்",
+     "stem": "அந்தணர்",
+     "line": 20,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "brahmins"
+    },
+    {
+     "form": "மணி",
+     "stem": "மணி",
+     "line": 23,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "gem"
+    },
+    {
+     "form": "கடல்",
+     "stem": "கடல்",
+     "line": 23,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "sea"
+    },
+    {
+     "form": "காருகப்",
+     "stem": "காருகம்",
+     "line": 24,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "weaving"
+    },
+    {
+     "form": "வணிகர்",
+     "stem": "வணிகர்",
+     "line": 25,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "merchants"
+    },
+    {
+     "form": "களமர்",
+     "stem": "களமர்",
+     "line": 27,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "field hands"
+    },
+    {
+     "form": "உழவர்",
+     "stem": "உழவர்",
+     "line": 27,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "ploughmen"
+    }
+   ],
+   "comparisons": [],
+   "meyppadu": []
+  },
+  "paripadal:thirattu:1:30-48": {
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": null,
+    "thurai": null
+   },
+   "thinai": "paadaan",
+   "mixed": false,
+   "uri": null,
+   "thurai_akam": [],
+   "puram_thurai": [],
+   "ullurai": null,
+   "iraicchi": null,
+   "entities": [],
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "அடியுறையார் ஈண்டி",
+     "செல்வன் நகர்"
+    ],
+    "note": "the crowd of devotees at the hill lord's shrine: worship, paadaan"
+   },
+   "reading": "As the bees rise with a rush, there crowd without pause at the shrine of the lord of the hill, whose neck bears the two-coloured mark, the devotees: women with heavy ear-rings and brows bright as lightning, men noble as those who ride elephants, women with dark plaits and bow-curved brows, men adorned with a fame that matches their learning, women adorned with a modesty that matches their beauty, men whose victorious gait rivals the bull, women of gentle gait, old men grey as the ranked waves of the sea, bearing food offerings, umbrellas, incense and flowers, so that the town is like the unshaken heaven where those whose deeds have ripened enjoy their great fruit.",
+   "concepts": [
+    "adiyaar",
+    "vazhipaadu",
+    "vinai",
+    "naanam"
+   ],
+   "nuance": "The crowd is drawn in matched pairs, each man's line answered by a woman's (fame matched to learning against modesty matched to beauty, lines 38 and 39; the bull's gait against the gait of innocence, lines 40 and 41), so the worshippers are a society of couples before they are a congregation. The heaven the town resembles is one of enjoyment earned by ripened deeds (விளைந்தார் வினையின் விழுப் பயன் துய்க்கும், line 45), not of release. Who the lord of the hill is (lines 47, 48) is not certain; the two-coloured mark on the neck (உத்தி) may be the spots of a serpent's hood, which would tie this shrine to the serpent lord of lines 83 and 84. Lines 30 to 32 are obscure.",
+   "uncertain": true,
+   "mutal": null,
+   "karu": [
+    {
+     "form": "வண்டு",
+     "stem": "வண்டு",
+     "line": 30,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "bee"
+    },
+    {
+     "form": "களிற்றன்ன",
+     "stem": "களிறு",
+     "line": 35,
+     "kind": "maa",
+     "role": "simile",
+     "land": null,
+     "sense": "elephant"
+    },
+    {
+     "form": "விடையோடு",
+     "stem": "விடை",
+     "line": 40,
+     "kind": "maa",
+     "role": "simile",
+     "land": null,
+     "sense": "bull"
+    },
+    {
+     "form": "திரையின்",
+     "stem": "திரை",
+     "line": 42,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "wave"
+    },
+    {
+     "form": "பூ",
+     "stem": "பூ",
+     "line": 43,
+     "kind": "maram",
+     "role": "gift_food",
+     "land": null,
+     "sense": "flowers offered"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "மிளிர் மின்",
+     "tenor": "the women's bright brows",
+     "marker": "none",
+     "basis": "uru",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "ஊர் களிற்றன்ன",
+     "tenor": "the noble men",
+     "marker": "அன்ன",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "வரி சிலை",
+     "tenor": "the women's brows",
+     "marker": "none",
+     "basis": "mey",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "விடையோடு இகலிய",
+     "tenor": "the men's gait",
+     "marker": "none",
+     "basis": "vinai",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "கடல் நிரை திரையின்",
+     "tenor": "the grey hair of the old",
+     "marker": "none",
+     "basis": "uru",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "துளங்கா விழுச் சீர்த் துறக்கம்",
+     "tenor": "the hill lord's town crowded with devotees",
+     "marker": "புரை",
+     "basis": "payan",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "புணர்வு"
+    }
+   ]
+  },
+  "paripadal:thirattu:1:49-67": {
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": null,
+    "thurai": null
+   },
+   "thinai": "paadaan",
+   "mixed": false,
+   "uri": null,
+   "thurai_akam": [],
+   "puram_thurai": [],
+   "ullurai": null,
+   "iraicchi": null,
+   "entities": [
+    {
+     "type": "town",
+     "name": "குளவாய்",
+     "line": 67
+    }
+   ],
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "நாகர் நகர்",
+     "குளவாய் அமர்ந்தான் நகர்"
+    ],
+    "note": "festivals at two shrines of the god's town, sung as praise: paadaan"
+   },
+   "reading": "With bees and humming beetles and the well-strung lute resounding, the musth elephant trumpeting with the thunder of the clouds, the twin drums sounding with the unceasing falls, men joined with women whose eyes are streaked red, dance appearing with well-wrought song, garland buds opening with the honey that is worn and desire wanting more with the toddy that is not, all these and others like them meet in the town of the Nagas with flowered crowns; and in the town of the one seated at Kulavaay, on the stony bed that hugs the hill's mouth, women with gem-like rippling hair, anklets and flower-like eyes come richly adorned with lords like musth elephants and bow, the darkness passes, affliction leaves and all good things come together.",
+   "concepts": [
+    "vazhipaadu",
+    "inbam",
+    "kaamam",
+    "kal"
+   ],
+   "nuance": "Lines 54 and 55 play on one word: the honey that is worn (சூடு நறவு) opens the garland buds, the honey that is not worn, the drunk toddy, makes desire grow; the shrine festival is openly a festival of drink and love, and the poem lists it among the things that befit the god's town without apology. Both shrines end on a நகர் line (58, 67), continuing the shrine-by-shrine walk of lines 47 and 48. Lines 59 to 63 are long strings of attributes that are hard to divide.",
+   "uncertain": true,
+   "mutal": null,
+   "karu": [
+    {
+     "form": "வண்டொடு",
+     "stem": "வண்டு",
+     "line": 49,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "bee"
+    },
+    {
+     "form": "தும்பியும்",
+     "stem": "தும்பி",
+     "line": 49,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "beetle"
+    },
+    {
+     "form": "யாழ்",
+     "stem": "யாழ்",
+     "line": 49,
+     "kind": "yaazh",
+     "role": "scene",
+     "land": null,
+     "sense": "lute"
+    },
+    {
+     "form": "கரி",
+     "stem": "கரி",
+     "line": 50,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "elephant"
+    },
+    {
+     "form": "மேகமொடு",
+     "stem": "மேகம்",
+     "line": 50,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "cloud"
+    },
+    {
+     "form": "அருவியொடு",
+     "stem": "அருவி",
+     "line": 51,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "waterfall"
+    },
+    {
+     "form": "முழவு",
+     "stem": "முழவு",
+     "line": 51,
+     "kind": "parai",
+     "role": "scene",
+     "land": null,
+     "sense": "drum"
+    },
+    {
+     "form": "தாமம்",
+     "stem": "தாமம்",
+     "line": 54,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "garland"
+    },
+    {
+     "form": "நறவொடு",
+     "stem": "நறவு",
+     "line": 55,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "toddy"
+    },
+    {
+     "form": "மயில்",
+     "stem": "மயில்",
+     "line": 62,
+     "kind": "pul",
+     "role": "scene",
+     "land": null,
+     "sense": "peacock"
+    },
+    {
+     "form": "களிற்று",
+     "stem": "களிறு",
+     "line": 63,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "elephant"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "அரி மலர்",
+     "tenor": "the women's eyes",
+     "marker": "none",
+     "basis": "uru",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "மணி மயில் தொழில் எழில்",
+     "tenor": "the women's grace of movement",
+     "marker": "none",
+     "basis": "vinai",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "கடுங் கடாக் களிற்று",
+     "tenor": "the lordly men",
+     "marker": "none",
+     "basis": "mey",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "விளையாட்டு"
+    }
+   ]
+  },
+  "paripadal:thirattu:1:68-86": {
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": null,
+    "thurai": null
+   },
+   "thinai": "paadaan",
+   "mixed": false,
+   "uri": null,
+   "thurai_akam": [],
+   "puram_thurai": [],
+   "ullurai": null,
+   "iraicchi": null,
+   "entities": [
+    {
+     "type": "battle",
+     "name": "திரிபுரம்",
+     "line": 80
+    },
+    {
+     "type": "hill",
+     "name": "இமய",
+     "line": 81
+    }
+   ],
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "ஆயிரம் விரித்த",
+     "நிற் பரவுதும்"
+    ],
+    "note": "the serpent's deeds told as praise and the closing prayer: paadaan"
+   },
+   "reading": "When the bright ocean was churned, it was they who drew up the mountain, bore it on their own heads and set it in the sea of leaping makaras, who for the two famed hosts became the rope at both ends while the discus-bearer pulled the twin cords, and wore it unbroken through ages with strength that did not give; it was they who met head-on all the overwhelming might that came against them; they who bore like an ornament the earth on which the great gem-like mountains stand; and they who, when the rider of the bull destroyed the three cities, became the string of the Himalaya bow and gave it its ancient fame: bowing to that lord with his host who spreads a thousand awful heads and extolling his good feet, we praise you, and ask that none of us be parted, all together with our kin.",
+   "concepts": [
+    "iraivan",
+    "amudham",
+    "vazhipaadu",
+    "sutram"
+   ],
+   "nuance": "Each deed closes on தாம் (they themselves, lines 75, 77, 79, 82), so the churning, the bearing of the earth and the bowstring of the three-city war, which other poems give to Mal or to Shiva, are counted here as the serpent's own fame (தொல் புகழ் தந்தாரும் தாம்). The serpent lord is bowed to first and the god praised through him (நல் அடி ஏத்தி நிற் பரவுதும், line 85), a shrine-order of attendant before master. The closing wish is not for release but that the worshippers and their kin stay together. Line 74 (ஒரு தோழம் காலம்) and lines 76 and 77 are hard to construe.",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "முந்நீர்",
+     "stem": "முந்நீர்",
+     "line": 68,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "sea"
+    },
+    {
+     "form": "வெற்புத்",
+     "stem": "வெற்பு",
+     "line": 68,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "mountain"
+    },
+    {
+     "form": "மகர",
+     "stem": "மகரம்",
+     "line": 70,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "makara fish"
+    },
+    {
+     "form": "கடல்",
+     "stem": "கடல்",
+     "line": 70,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "sea"
+    },
+    {
+     "form": "விடைப்",
+     "stem": "விடை",
+     "line": 80,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "bull"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "மணி",
+     "tenor": "the great mountains",
+     "marker": "புரை",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "அணி",
+     "tenor": "the serpent bearing the earth",
+     "marker": "போல்",
+     "basis": "vinai",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "marutkai",
+     "cause": "பெருமை"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": "paripadal:thirattu:1:68-86",
+   "b": "purananuru:55",
+   "type": "qualifies",
+   "note": "Purananuru 55.1-4 gives the mountain bow strung with a snake (பாம்புஞாண்) and the three forts burned with one arrow as the blue-throated god's feat, an emblem to measure the Pandya by; Paripadal Thirattu 1.80-82 says the serpent became the string of the Himalaya bow when the bull-rider destroyed the three cities and that it was they who gave him that ancient fame.",
+   "teaches": "The same snake-strung bow is Shiva's glory in a court poem and the serpent's own merit in a shrine hymn, so the pair shows that a fixed myth could be re-credited to whichever power a cult served, the bowstring becoming the hero once it had a temple."
+  },
+  {
+   "a": "paripadal:thirattu:1:68-86",
+   "b": "paripadal:1:1-13",
+   "type": "develops",
+   "note": "Paripadal 1.1-2 opens with the god's form whose thousand awful hooded heads (ஆயிரம் விரித்த அணங்குடை அருந் தலை) rise over his crown, white as a conch and carrying the plough; Paripadal Thirattu 1.83-85 uses the same words for a separate lord with his host, bowed to before the god is praised.",
+   "teaches": "One formula line serves in the first song as a form of Mal himself and in this song as an attendant lord with his own retinue and his own deeds, so the anthology shows the serpent both absorbed into the god's body and kept as a distinct object of worship at his shrine."
+  },
+  {
+   "a": "paripadal:thirattu:1:68-86",
+   "b": "thiruppugazh:11",
+   "type": "qualifies",
+   "note": "Thiruppugazh 11 names Murugan's uncle as the one who sleeps on the serpent and who churned the sea of old (பனகம் துயில்கின்ற ... கடல் முன்பு கடைந்த); Paripadal Thirattu 1.68-75 gives the churning to the serpent, who lifted the mountain and was the rope while the discus-bearer (ஆழியான்) only pulled.",
+   "teaches": "By Arunagirinathar's time the churning is simply Mal's act and the serpent his bed, while the Sangam hymn praises the rope for not breaking, so the pair shows the serpent losing its share of the myth as it became the god's couch."
+  },
+  {
+   "a": "paripadal:thirattu:1:30-48",
+   "b": "kural:1103",
+   "type": "qualifies",
+   "note": "Kural 1103 asks whether the world of the lotus-eyed one is sweeter than sleep in the soft arms of the one you love; Paripadal Thirattu 1.33-46 lists the shrine crowd as matched men and women and says the god's town is like the heaven where ripened deeds are enjoyed.",
+   "teaches": "The couplet sets lovers' joy against Mal's heaven as rivals, but the hymn builds its likeness of heaven out of the paired lovers in the god's own crowd, so the opposition the Kural plays on was not one the temple festival felt."
+  },
+  {
+   "a": "paripadal:thirattu:1:30-48",
+   "b": "patitruppattu:31",
+   "type": "qualifies",
+   "note": "Patitruppattu 31.1-10 shows crowds from the four quarters who go unfed (உண்ணாப் பைஞ்ஞிலம்), bathe at the cold ghat and praise the red feet of the tulasi-garlanded lord before going home glad; Paripadal Thirattu 1.43-46 shows the crowd at the god's town bearing food offerings, umbrellas, incense and flowers, in a town like a heaven of enjoyment.",
+   "teaches": "Read together the two give two modes of early Mal worship, a fasting and bathing crowd in the Chera poem and a feasting, paired and pleasure-seeking crowd in the Koodal hymn, so devotion to the same god was already practised as abstinence in one place and as festival in another."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Paripadal Thirattu 1: the colophon gives no thinai, thurai, poet or pan; only the subject திருமால் is recorded, and the song is a fragment preserved outside the main collection.",
+  "Paripadal Thirattu 1: our text has 86 lines but the source numbers its last line 82, and printed line number 45 stands on line 44 (lineation flag); line numbers here are the ones show prints.",
+  "Paripadal Thirattu 1 lines 49 and 60 were flagged as possible modern headings (heading_dropped), but both are verse: line 49 opens the run of ஆர்ப்ப / அதிர / ஆர்ப்ப clauses (49-51), and line 60 continues the string of the women's attributes (59-61); kept.",
+  "Paripadal Thirattu 1 lines 1-14 are not in sangamtamil.com (flag), and the யொடு restoration in line 14 (இசையொடு) is by rule, unconfirmed there.",
+  "Paripadal Thirattu 1 line 32: the repair flag reports பேரிசை restored on this line, but the line as printed (கடிப் புகு வேரிக் கதவமிற் றோட்டி) has no such word; the flag may belong to a different line given the lineation drift. The line is obscure.",
+  "Paripadal Thirattu 1 lines 30 and 31 repeat almost word for word (வண்டு பொரேரென எழ / எழும்), possibly a dittography; line 26 (விளைவதை வினை எவன்) and lines 59-63 and 74-77 are hard to construe and readings there are tentative."
+ ]
+}

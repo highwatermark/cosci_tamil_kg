@@ -1,0 +1,1894 @@
+{
+ "chapter_no": 15,
+ "chapter_theme": "Short speeches of the five lands: women waiting through the rains and the seasons for men gone to the waste (281-283, 285, 287, 289, 290), men remembering and reassuring the hill-girl (286, 291, 300), the friend's curses, counsel and pleas in secret love (284, 292, 294, 297, 298), and the wife's grief at the husband's other women (293, 295, 296), with two poems weighing love against heaven and the world (288, 300).",
+ "verses": {
+  "281": {
+   "reading": "The woman asks her bright-jewelled friend whether their man has gone into the forest where hills crowd together, his curly head bright with the white leaf from the crown of the palmyra that grows thick on white sand and with the pale flowers of the neem.",
+   "nuance": "She sees him in his going-out dress, palmyra leaf and neem flowers on his head, the kind of adornment worn by men setting out as warriors; the whole poem is one picture and one question, and the question (கொல்லோ) lets her hold off knowing. உளைத்தலை could also be the tufted head of a horse.",
+   "concepts": [
+    "pirivu",
+    "ninaivu"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "பாலை",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "paalai",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "சென்றனர் கொல்லோ"
+    ],
+    "note": "she asks whether he has already left on the hill-forest road"
+   },
+   "mixed": false,
+   "uri": "pirithal",
+   "mutal": {
+    "land": [
+     "கானம்",
+     "குன்றுதலை"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "வெண்மணற்",
+     "stem": "மணல்",
+     "line": 1,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "sand"
+    },
+    {
+     "form": "போந்தைக்",
+     "stem": "போந்தை",
+     "line": 2,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "palmyra"
+    },
+    {
+     "form": "வேம்பி",
+     "stem": "வேம்பு",
+     "line": 3,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "neem"
+    }
+   ],
+   "comparisons": [],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "இழவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": null
+     },
+     "note": "the vocative சேயிழை names the friend; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "282": {
+   "reading": "The friend asks whether their man, seeing the cool clearing turning toward the rains, where the young fawn of the deer nibbles the dark leaf of the seedling sprung on the red ground of ripe millet, will not say that her bangles must be slipping off like the new hollow flowers of white koothalam dropping from their stems on the water-bright slope.",
+   "nuance": "The friend hopes the season itself will speak for the woman: the land he crosses shows him the rains, and she wants him to read her slipping bangles there. Line 7 (ஆர்கழல் புகுவ) is hard to construe; the falling-flower sense is a guess.",
+   "concepts": [
+    "pirivu",
+    "paruvam",
+    "melivu"
+   ],
+   "uncertain": true,
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "பாலை",
+    "thurai": "தோழி கூற்று"
+   },
+   "thinai": "mullai",
+   "thinai_evidence": {
+    "basis": "mutal",
+    "words": [
+     "காரெதிர் தண்புனங்"
+    ],
+    "note": "the field facing the rains is the season he should come back by"
+   },
+   "mixed": true,
+   "uri": "irutthal",
+   "mutal": {
+    "land": [
+     "புனங்"
+    ],
+    "season": [
+     "காரெதிர்"
+    ],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "வரகின்",
+     "stem": "வரகு",
+     "line": 1,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "millet"
+    },
+    {
+     "form": "நவ்வி",
+     "stem": "நவ்வி",
+     "line": 3,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "deer"
+    },
+    {
+     "form": "நாண்மறி",
+     "stem": "மறி",
+     "line": 3,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "fawn"
+    },
+    {
+     "form": "கைவளை",
+     "stem": "வளை",
+     "line": 4,
+     "kind": "pira",
+     "role": "ornament",
+     "land": null,
+     "sense": "bangle"
+    },
+    {
+     "form": "சிலம்பின்",
+     "stem": "சிலம்பு",
+     "line": 5,
+     "kind": "pira",
+     "role": "scene",
+     "land": "kurinji",
+     "sense": "hill slope"
+    },
+    {
+     "form": "கூதாளத்",
+     "stem": "கூதாளம்",
+     "line": 6,
+     "kind": "maram",
+     "role": "simile",
+     "land": "kurinji",
+     "sense": "koothalam"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "வெண்கூ தாளத் தந்தூம்பு புதுமலர்",
+     "tenor": "her bangles slipping off her wasted arms",
+     "marker": "போல",
+     "basis": "vinai",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "அசைவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thozhi",
+     "addressee": "thalaivi",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": null
+     },
+     "note": "நமர் suggests the friend speaks to the woman; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "283": {
+   "reading": "The woman tells her friend that he left after showing her plainly the force of what he had said, that those who waste what they have are not counted as men and that the life of the poor is more shameful even than begging, and went by the waterless road through the long old waste where a hawk watches the reeking flesh of travellers killed by bandits whose spears kill like Death.",
+   "nuance": "She quotes his reasons almost as maxims and then sets them against the road: the argument that sent him is clear (தெளியக் காட்டி), and what waits on the road is a hawk over the bodies of men robbed of what they carried. The poem does not say whether she accepts the argument.",
+   "concepts": [
+    "pirivu",
+    "selvam",
+    "inmai",
+    "iravu"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "பாலை",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "paalai",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "சென்றனர்",
+     "நீரில் ஆறே"
+    ],
+    "note": "he has gone for wealth across the waterless waste"
+   },
+   "mixed": false,
+   "uri": "pirithal",
+   "mutal": {
+    "land": [
+     "நெடுமூ திடைய",
+     "நீரில் ஆறே"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "மறவர்",
+     "stem": "மறவர்",
+     "line": 5,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "bandits"
+    },
+    {
+     "form": "பருந்துபார்த்",
+     "stem": "பருந்து",
+     "line": 7,
+     "kind": "pul",
+     "role": "scene",
+     "land": null,
+     "sense": "hawk"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "கூற்றத்",
+     "tenor": "the bandits' killing spears",
+     "marker": "அன்ன",
+     "basis": "vinai",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "accham",
+     "cause": "கள்வர்"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": null
+     },
+     "note": "the vocative வாழி தோழி names the friend; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "284": {
+   "reading": "The friend says that, whether the man of the land where many bright red kaanthal open together on the boulder of the village common like the spotted face of a fighting elephant proves good or not, the people of this small village, living wretchedly in their huts below the white waterfall that drops from the hill, will blame us, or care nothing for us.",
+   "nuance": "Line 5 (நம்மே சுவரோ தம்மிலர் கொல்லோ) is hard to divide, and the reading 'will they blame us' is a guess; what is clear is the friend weighing the lover's worth against the village's judgment, and finding the village careless either way.",
+   "concepts": [
+    "alar",
+    "kalaviyal"
+   ],
+   "uncertain": true,
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தோழி கூற்று"
+   },
+   "thinai": "kurinji",
+   "thinai_evidence": {
+    "basis": "karu",
+    "words": [
+     "காந்தள்",
+     "ளருவி"
+    ],
+    "note": "kaanthal on the rock and the hill waterfall"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": {
+    "land": [
+     "வரையிற்",
+     "மன்றத் துறுகல்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "யானைப்",
+     "stem": "யானை",
+     "line": 1,
+     "kind": "maa",
+     "role": "simile",
+     "land": null,
+     "sense": "elephant"
+    },
+    {
+     "form": "காந்தள்",
+     "stem": "காந்தள்",
+     "line": 3,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "kaanthal"
+    },
+    {
+     "form": "ளருவி",
+     "stem": "அருவி",
+     "line": 6,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "waterfall"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "பொருத யானைப் புகர்முகங்",
+     "tenor": "the red kaanthal massed on the rock",
+     "marker": "கடுப்ப",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thozhi",
+     "addressee": "thalaivi",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": null
+     },
+     "note": "the man is spoken of in the third person (நாடன்); the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "285": {
+   "reading": "The woman asks her friend where he can be, who crossed the sky-high mountains where a lone hawk sits on the top of the nyemai tree craving flesh: day after day passes and he does not come, every limit of time passes and he does not appear, though this is the season he named; is the bird calling again and again to its dull-backed mate for delight nothing to his eyes?",
+   "nuance": "The repeated words of lines 1 and 2 (வைகல் வைகல் வைகவும், எல்லா எல்லை எல்லையும்) make the days pile up in the sound. Lines 5 and 6 are hard; the bird and its mate are read as the season's sign the man ignores. The lone hawk waiting for flesh is a mood of the road, not iraicchi.",
+   "concepts": [
+    "pirivu",
+    "paruvam",
+    "ninaivu"
+   ],
+   "uncertain": true,
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "பாலை",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "paalai",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "மலையிறந் தோரே"
+    ],
+    "note": "she waits for one who crossed the mountains"
+   },
+   "mixed": false,
+   "uri": "pirithal",
+   "mutal": {
+    "land": [
+     "பிறங்கல்"
+    ],
+    "season": [
+     "பருவமோ"
+    ],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "பெடையொடு",
+     "stem": "பெடை",
+     "line": 5,
+     "kind": "pul",
+     "role": "iraicchi",
+     "land": null,
+     "sense": "hen-bird"
+    },
+    {
+     "form": "ஞெமைத்தலை",
+     "stem": "ஞெமை",
+     "line": 6,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "nyemai tree"
+    },
+    {
+     "form": "யொருபருந்",
+     "stem": "பருந்து",
+     "line": 7,
+     "kind": "pul",
+     "role": "scene",
+     "land": null,
+     "sense": "hawk"
+    }
+   ],
+   "comparisons": [],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "அசைவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": null
+     },
+     "note": "the vocative தோழி names the friend; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": {
+    "experimental": true,
+    "carrier": {
+     "form": "பெடையொடு",
+     "line": 5
+    },
+    "act": "the male bird calls to its mate again and again so that they may delight together",
+    "sense": "at this season even birds call their mates, yet he does not come to her",
+    "deletion_test": true
+   }
+  },
+  "286": {
+   "reading": "The man says he seems to see, as he thinks of it, the look of the hill-girl with wide rain-cool eyes, full of pride and soft smiling, her mouth red and lovely where nectar wells by her sharp teeth, her hair dark like rippled sand and fragrant with agil and sandal.",
+   "nuance": "The whole poem is one noun phrase hanging on நோக்கே, the last word: after the mouth, the hair and the eyes, what memory finally holds is a look, proud and smiling at once.",
+   "concepts": [
+    "ninaivu",
+    "azhagu",
+    "kalaviyal"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தலைவன் கூற்று"
+   },
+   "thinai": "kurinji",
+   "thinai_evidence": {
+    "basis": "karu",
+    "words": [
+     "கொடிச்சி"
+    ],
+    "note": "the beloved is a girl of the hills"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "கமழகில்",
+     "stem": "அகில்",
+     "line": 2,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "agil"
+    },
+    {
+     "form": "ஆர",
+     "stem": "ஆரம்",
+     "line": 3,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "sandal"
+    },
+    {
+     "form": "கொடிச்சி",
+     "stem": "கொடிச்சி",
+     "line": 4,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "hill girl"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "அறல்",
+     "tenor": "her dark hair",
+     "marker": "போல",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "புணர்வு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivan",
+     "addressee": "pira",
+     "overhearer": null,
+     "occasion": {
+      "stage": "kalavu",
+      "words": null
+     },
+     "note": "he speaks to himself; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "287": {
+   "reading": "The speaker asks her friend whether their lover will forsake them even after seeing it: the time when the great roaring cloud, having drunk the sea, cannot climb the sky and holds itself back, gathering toward the many rich hills, like women heavy with a first child who, at the end of their months, cannot move and crave green tamarind.",
+   "nuance": "The cloud is pregnant with rain as women are with child, and the season it brings is the one he promised; the simile makes the rain season itself a time of fulfilment he would be failing.",
+   "concepts": [
+    "paruvam",
+    "pirivu",
+    "mazhai"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "முல்லை",
+    "thurai": "தோழி கூற்று"
+   },
+   "thinai": "mullai",
+   "thinai_evidence": {
+    "basis": "mutal",
+    "words": [
+     "வான மேர்தரும் பொழுதே"
+    ],
+    "note": "the rain clouds gather: the season of return"
+   },
+   "mixed": false,
+   "uri": "irutthal",
+   "mutal": {
+    "land": [
+     "குன்றம்"
+    ],
+    "season": [
+     "வான மேர்தரும்"
+    ],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "பசும்புளி",
+     "stem": "புளி",
+     "line": 4,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": "tamarind"
+    },
+    {
+     "form": "வான",
+     "stem": "வானம்",
+     "line": 8,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "cloud"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "கடுஞ்சூல் மகளிர்",
+     "tenor": "the rain clouds slow and heavy with water",
+     "marker": "போல",
+     "basis": "vinai",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "அசைவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thozhi",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": null
+     },
+     "note": "the colophon names the friend as speaker, but the poem addresses தோழி and speaks of காதலர், which reads as the woman's voice; see source_issues"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "288": {
+   "reading": "The woman says that because the lord of the great hill country, where monkeys sit together eating tender shoots on the slope where pepper grows, is dear to her, even the hurt that comes from kin is sweeter than the world of the gods that is called sweet.",
+   "nuance": "Whose kin (இனத்தின்) cause the hurt is not said: her own family's anger at the affair, or his people's coldness. The monkeys that sit together (ஒருங்கு) eating may hint at a troop that keeps its members, but the poem does not draw this, so they stay scene.",
+   "concepts": [
+    "anbu",
+    "kaamam",
+    "inbam"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "kurinji",
+   "thinai_evidence": {
+    "basis": "karu",
+    "words": [
+     "கறிவளர்",
+     "குரங்கொருங்"
+    ],
+    "note": "pepper slopes and monkeys of the hills"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": {
+    "land": [
+     "அடுக்கத்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "கறிவளர்",
+     "stem": "கறி",
+     "line": 1,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "pepper"
+    },
+    {
+     "form": "முறியருந்து",
+     "stem": "முறி",
+     "line": 1,
+     "kind": "maram",
+     "role": "gift_food",
+     "land": null,
+     "sense": "shoots"
+    },
+    {
+     "form": "குரங்கொருங்",
+     "stem": "குரங்கு",
+     "line": 2,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "monkey"
+    }
+   ],
+   "comparisons": [],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "புணர்வு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "pira",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": null
+     },
+     "note": "no addressee is named; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "289": {
+   "reading": "The woman tells her friend that, growing day by day like the waxing moon, the grief that loosened the bangles on her wrist has left her shrunk like a crushed sprout; besides the pain of his not being near, the rain has set in thick, and this clamouring town pities her more than she pities him out in the rain.",
+   "nuance": "The town here is not the hostile gossip of other poems but a chorus of pity, and its pity measures her own: she grieves for him in the rain, the town grieves for her. Line 6 (பட்ட மாரி படாஅக் கண்ணும்) is hard and the reading of it is a guess.",
+   "concepts": [
+    "pirivu",
+    "melivu",
+    "alar",
+    "mazhai"
+   ],
+   "uncertain": true,
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "முல்லை",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "mullai",
+   "thinai_evidence": {
+    "basis": "mutal",
+    "words": [
+     "மழையுந்",
+     "மாரி"
+    ],
+    "note": "the rains have come while he is away"
+   },
+   "mixed": false,
+   "uri": "irutthal",
+   "mutal": {
+    "land": [],
+    "season": [
+     "மழையுந்",
+     "மாரி"
+    ],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "இறைவளை",
+     "stem": "வளை",
+     "line": 2,
+     "kind": "pira",
+     "role": "ornament",
+     "land": null,
+     "sense": "bangle"
+    },
+    {
+     "form": "குழைபிசைந்",
+     "stem": "குழை",
+     "line": 3,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": "sprout"
+    },
+    {
+     "form": "மழையுந்",
+     "stem": "மழை",
+     "line": 5,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "rain"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "வளர்பிறை",
+     "tenor": "her growing grief",
+     "marker": "போல",
+     "basis": "vinai",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "குழைபிசைந் தனையே",
+     "tenor": "her wasted body",
+     "marker": "அனைய",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "அசைவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": null
+     },
+     "note": "the vocative தோழி names the friend; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "290": {
+   "reading": "The woman asks whether those who tell her to bear her love do not know what it is, or are themselves that strong: if she does not see her lover, with a heart where clinging grief has swelled, she will waste away little by little like the small foam that breaks on a rock in deep water.",
+   "nuance": "The image gives no crash, only foam dissolving where it strikes; the doubled மெல்ல மெல்ல makes the dissolution slow. The poet is named from this simile (கல்பொரு சிறுநுரையார்).",
+   "concepts": [
+    "kaamanoy",
+    "pirivu",
+    "nenju"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "நெய்தல்",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "neythal",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "இல்லா குதுமே"
+    ],
+    "note": "lament of one who will fade without him"
+   },
+   "mixed": false,
+   "uri": "irangal",
+   "mutal": {
+    "land": [
+     "பெருநீர்க்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "சிறுநுரை",
+     "stem": "நுரை",
+     "line": 5,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "foam"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "கல்பொரு சிறுநுரை",
+     "tenor": "her slow wasting away",
+     "marker": "போல",
+     "basis": "vinai",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "அசைவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "pira",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": null
+     },
+     "note": "she answers those who counsel endurance; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "291": {
+   "reading": "The man says that the clapper in the hand of the hill-girl driving parrots from the millet on the burnt clearing makes a call sweeter than music, so the parrots take it for one of their own and will not rise; and her eyes, which wept in vexation at that, were like the many-petalled kuvalai of the deep hill pool, ruffled by bees and taking the cool drops.",
+   "nuance": "The joke turns on her sweetness: she fails at her work because her voice is too lovely, and her vexed tears only add a second beauty. The man watches both.",
+   "concepts": [
+    "azhagu",
+    "kalaviyal"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தலைவன் கூற்று"
+   },
+   "thinai": "kurinji",
+   "thinai_evidence": {
+    "basis": "karu",
+    "words": [
+     "கொடிச்சிகைக்",
+     "படுகிளி"
+    ],
+    "note": "a hill girl guarding millet from parrots"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": {
+    "land": [
+     "சாரற்",
+     "பைஞ்சுனைப்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "வேனற்",
+     "stem": "ஏனல்",
+     "line": 1,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "millet"
+    },
+    {
+     "form": "படுகிளி",
+     "stem": "கிளி",
+     "line": 2,
+     "kind": "pul",
+     "role": "scene",
+     "land": null,
+     "sense": "parrot"
+    },
+    {
+     "form": "கொடிச்சிகைக்",
+     "stem": "கொடிச்சி",
+     "line": 2,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "hill girl"
+    },
+    {
+     "form": "குவளை",
+     "stem": "குவளை",
+     "line": 6,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": "blue lily"
+    },
+    {
+     "form": "வண்டுபயில்",
+     "stem": "வண்டு",
+     "line": 7,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "bee"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "குவளை",
+     "tenor": "her tear-wet eyes",
+     "marker": "போன்றன",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "புலன்"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivan",
+     "addressee": "pira",
+     "overhearer": null,
+     "occasion": {
+      "stage": "kalavu",
+      "words": null
+     },
+     "note": "no addressee is named; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "292": {
+   "reading": "The friend curses her mother: as Nannan, when a bright-browed girl who had gone to bathe ate a green fruit the stream carried down, refused eighty-one elephants and a golden doll of her weight in amends and chose to kill a woman, so may her mother go to endless hell, who, since a smiling guest came one day, has not slept, as in a town that faces enemies.",
+   "nuance": "The curse is wildly out of proportion, and that is the point: one visit from a smiling guest has turned the house into a town under siege, and the friend answers with the worst story of cruelty she knows, a chief who would take no ransom for a girl's small fault.",
+   "concepts": [
+    "kalaviyal",
+    "kolai"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தோழி கூற்று"
+   },
+   "thinai": "kurinji",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "துஞ்சலோ இலளே"
+    ],
+    "note": "the mother's watch keeps the lovers apart"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "பசுங்காய்",
+     "stem": "காய்",
+     "line": 2,
+     "kind": "maram",
+     "role": "gift_food",
+     "land": null,
+     "sense": "green fruit"
+    },
+    {
+     "form": "களிற்றொ",
+     "stem": "களிறு",
+     "line": 3,
+     "kind": "maa",
+     "role": "gift_food",
+     "land": null,
+     "sense": "elephants"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "பெண்கொலை புரிந்த நன்னன்",
+     "tenor": "the mother",
+     "marker": "போல",
+     "basis": "vinai",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "பகைமுக ஊரின்",
+     "tenor": "the mother sleepless on guard",
+     "marker": "none",
+     "basis": "vinai",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "vekuli",
+     "cause": "அலை"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thozhi",
+     "addressee": "pira",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": null
+     },
+     "note": "the speaker curses the mother in the third person, perhaps with the man in hearing; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [
+    {
+     "type": "king",
+     "name": "நன்னன்",
+     "line": 5
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "293": {
+   "reading": "The wife says she is to be pitied: the bright-jewelled one, lovely as the old town of Aathi Aruman where people go home with palmyra kernels from tall dark palms whose spathes give small fibrous fruit, comes there, her leaf-skirt of white lilies beating in turn on her spotted thighs, to see the husband.",
+   "nuance": "The rival is praised before she is resented: the wife grants her the beauty of a famous chief's old town and then ends on herself, அளியேன் யானே. Line 1 (கள்ளிற் கேளிர் ஆத்திரை) is obscure: ஆத்திரை may be a place or a person, and the poet's name is taken from it.",
+   "concepts": [
+    "parathai",
+    "oodal",
+    "karpu"
+   ],
+   "uncertain": true,
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "மருதம்",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "marutham",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "கொழுநற் காணிய"
+    ],
+    "note": "another woman comes for the husband"
+   },
+   "mixed": false,
+   "uri": "oodal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "பெண்ணை",
+     "stem": "பெண்ணை",
+     "line": 3,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "palmyra"
+    },
+    {
+     "form": "நுங்கொடு",
+     "stem": "நுங்கு",
+     "line": 3,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "palm kernel"
+    },
+    {
+     "form": "ளாம்பல்",
+     "stem": "ஆம்பல்",
+     "line": 5,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "white lily"
+    },
+    {
+     "form": "நெறித்தழை",
+     "stem": "தழை",
+     "line": 5,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "leaf-skirt"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "ஆதி யருமன் மூதூ",
+     "tenor": "the other woman's beauty",
+     "marker": "அன்ன",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "இளிவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "pira",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": null
+     },
+     "note": "no addressee is named; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [
+    {
+     "type": "patron",
+     "name": "ஆதி யருமன்",
+     "line": 4
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "294": {
+   "reading": "The friend says that after sea-bathing, resting in the shore grove and dancing in the garlanded troop, he came suddenly like a stranger, embraced her and went, and gossip spread; yet he never left her side, and himself gave the green-leaf skirt that swings on her spotted hips with its fresh shoots; now mother keeps her guarded.",
+   "nuance": "The gift of a leaf-skirt is a lover's pledge, and the friend sets it against his stranger-like coming and going: the bond is real, and now the mother's watch makes marriage the only road. The last line (காத்தோம் பல்லே) is hard to divide.",
+   "concepts": [
+    "alar",
+    "kalaviyal",
+    "varaivu"
+   ],
+   "uncertain": true,
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "நெய்தல்",
+    "thurai": "தோழி கூற்று"
+   },
+   "thinai": "neythal",
+   "thinai_evidence": {
+    "basis": "mutal",
+    "words": [
+     "கடலுட",
+     "கான லல்கியும்"
+    ],
+    "note": "sea-bathing and the shore grove"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": {
+    "land": [
+     "கடலுட",
+     "கான லல்கியும்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "பசுங்குழைத்",
+     "stem": "குழை",
+     "line": 6,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "shoots"
+    },
+    {
+     "form": "தழையினும்",
+     "stem": "தழை",
+     "line": 7,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "leaf-skirt"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "நொதுமலர்",
+     "tenor": "the man arriving and leaving",
+     "marker": "போல",
+     "basis": "vinai",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thozhi",
+     "addressee": "pira",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": null
+     },
+     "note": "the man is spoken of in the third person; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "295": {
+   "reading": "The friend tells the man that he comes with the festival in a crowd of women bright with leaves worn as skirts, strung, put on and tucked in the hair, and that this town says the festival has truly begun now that the lovely young girl of a poor house that lives on a single cow has come.",
+   "nuance": "The town's praise of the new girl is reported by the friend as an accusation: 'the festival has come' now means 'your new woman has come', and the poverty of her house (one cow) sharpens the sting.",
+   "concepts": [
+    "parathai",
+    "oodal",
+    "alar"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "மருதம்",
+    "thurai": "தோழி கூற்று"
+   },
+   "thinai": "marutham",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "விழவொடு வருதி"
+    ],
+    "note": "the man comes to the festival with other women"
+   },
+   "mixed": false,
+   "uri": "oodal",
+   "mutal": {
+    "land": [],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "தழையணிப்",
+     "stem": "தழை",
+     "line": 2,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "leaves"
+    },
+    {
+     "form": "ஓரான்",
+     "stem": "ஆன்",
+     "line": 4,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "cow"
+    }
+   ],
+   "comparisons": [],
+   "meyppadu": [
+    {
+     "feeling": "nakai",
+     "cause": "எள்ளல்"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thozhi",
+     "addressee": "thalaivan",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": null
+     },
+     "note": "the friend addresses the man (நீயே); the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "296": {
+   "reading": "The woman tells her friend not to stand before the lord of the cool shore, where the stork sitting on the swaying punnai bough, tired of the small fish of the creek, longs for the toddy-scented neythal among the paddy of the field, and rebuke him harshly, as she had resolved, asking whether it suits him to forsake one who is in such a state.",
+   "nuance": "She forbids the rebuke while repeating it in full, so the reproach is spoken after all, through the friend's resolve. The stork leaving the creek's fish for the field is the hidden picture of his straying.",
+   "concepts": [
+    "pirivu",
+    "karpu",
+    "oodal"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "நெய்தல்",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "neythal",
+   "thinai_evidence": {
+    "basis": "karu",
+    "words": [
+     "நாரை",
+     "புன்னை"
+    ],
+    "note": "the stork on the punnai of the shore"
+   },
+   "mixed": false,
+   "uri": "irangal",
+   "mutal": {
+    "land": [
+     "உறுகழிச்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "புன்னை",
+     "stem": "புன்னை",
+     "line": 1,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "punnai"
+    },
+    {
+     "form": "நாரை",
+     "stem": "நாரை",
+     "line": 2,
+     "kind": "pul",
+     "role": "ullurai",
+     "land": null,
+     "sense": "stork"
+    },
+    {
+     "form": "சிறுமீன்",
+     "stem": "மீன்",
+     "line": 3,
+     "kind": "pira",
+     "role": "ullurai",
+     "land": null,
+     "sense": "fish"
+    },
+    {
+     "form": "நெய்தல்",
+     "stem": "நெய்தல்",
+     "line": 4,
+     "kind": "maram",
+     "role": "ullurai",
+     "land": null,
+     "sense": "water lily"
+    }
+   ],
+   "comparisons": [],
+   "meyppadu": [],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": null
+     },
+     "note": "the vocative தோழி names the friend; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": {
+    "experimental": true,
+    "vehicle": [
+     {
+      "form": "நாரை",
+      "line": 2
+     }
+    ],
+    "tenor": "the husband who tires of his wife and seeks women elsewhere",
+    "pairs": [
+     {
+      "scene": "உறுகழிச் சிறுமீன் முனையிற்",
+      "situation": "he has tired of what is his own at home"
+     },
+     {
+      "scene": "செறுவிற் கள்நாறு நெய்தல்",
+      "situation": "he longs for other women away from the shore"
+     }
+    ],
+    "anchor": "துறத்தல்",
+    "speaker_fit": "the woman uses a stork of her own shore, a thing she knows (porul 7.26)"
+   },
+   "iraicchi": null
+  },
+  "297": {
+   "reading": "The friend says she understood surely, before he did, that the right course was for the two to go off together, speaking good words of the wide rocky waste where the cairns heaped with leaves over travellers who stood against the bow-bearing bandits and died look like a village.",
+   "nuance": "The friend takes credit for the elopement plan, and lays its road out in its worst colours, a village of graves; the danger is not hidden from the girl but made part of the choice.",
+   "concepts": [
+    "udanpokku",
+    "kalaviyal"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தோழி கூற்று"
+   },
+   "thinai": "paalai",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "புணர்ந்துடன் போதல்"
+    ],
+    "note": "elopement through the waste land"
+   },
+   "mixed": false,
+   "uri": "pirithal",
+   "mutal": {
+    "land": [
+     "கல்லுயர் நனந்தலை"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "மறவர்",
+     "stem": "மறவர்",
+     "line": 1,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "bandits"
+    },
+    {
+     "form": "வம்பலர்",
+     "stem": "வம்பலர்",
+     "line": 3,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "travellers"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "ஊரின்",
+     "tenor": "the cairns of the dead",
+     "marker": "none",
+     "basis": "uru",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "accham",
+     "cause": "கள்வர்"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thozhi",
+     "addressee": "pira",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": null
+     },
+     "note": "the man is spoken of in the third person; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [
+    {
+     "type": "herostone",
+     "name": "பதுக்கை",
+     "line": 4
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "298": {
+   "reading": "The friend asks the woman to think of the sorrowful look of the man who comes slowly again and again to their street, rarely opens his mouth to say sweet words and stays each day with his colour changed: his long standing at the back aims at something else, like the young she-elephants that Akuthai's father, of sweet strong toddy, gave as gifts to the singing women with small white-tipped sticks.",
+   "nuance": "The simile is the hard part: what the gift and the waiting share seems to be that each is an outward act aimed at something beyond itself, the chief's gift at the singers' praise, the man's patience at the girl. The friend thus casts the lover as a suppliant whose silence is a request.",
+   "concepts": [
+    "kalaviyal",
+    "kurippu",
+    "parisil"
+   ],
+   "uncertain": true,
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தோழி கூற்று"
+   },
+   "thinai": "kurinji",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "பைதல் நோக்கம்"
+    ],
+    "note": "the lover waiting for the girl's consent"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "கள்ளின்",
+     "stem": "கள்",
+     "line": 5,
+     "kind": "unavu",
+     "role": "scene",
+     "land": null,
+     "sense": "toddy"
+    },
+    {
+     "form": "மடப்பிடிப்",
+     "stem": "பிடி",
+     "line": 7,
+     "kind": "maa",
+     "role": "simile",
+     "land": null,
+     "sense": "she-elephant"
+    },
+    {
+     "form": "லகவன்",
+     "stem": "அகவன் மகளிர்",
+     "line": 6,
+     "kind": "seythi",
+     "role": "simile",
+     "land": null,
+     "sense": "singers"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "மடப்பிடிப் பரிசில்",
+     "tenor": "his long waiting at the back",
+     "marker": "மான",
+     "basis": "payan",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thozhi",
+     "addressee": "thalaivi",
+     "overhearer": null,
+     "occasion": {
+      "stage": "kalavu",
+      "words": null
+     },
+     "note": "the vocative தோழி marks the friend speaking to the woman; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [
+    {
+     "type": "patron",
+     "name": "அகுதை",
+     "line": 5
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "299": {
+   "reading": "The woman asks her friend what this is: in the shade of the clustered punnai on the dune of the shore grove where the old sea's waves play and birds cry, on the day their tryst came true, her eyes saw the lord of the shore and her ears heard his words; and now her wide soft shoulders take on great beauty when he joins her and waste when he leaves.",
+   "nuance": "Eyes and ears are named as the witnesses that did the harm, each with மன் (once, and no more); the body that now swells and wastes with his coming and going is the only record left.",
+   "concepts": [
+    "melivu",
+    "kuri",
+    "ninaivu",
+    "pirivu"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "நெய்தல்",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "neythal",
+   "thinai_evidence": {
+    "basis": "mutal",
+    "words": [
+     "புணரி",
+     "கானல்"
+    ],
+    "note": "the sea and the shore grove"
+   },
+   "mixed": false,
+   "uri": "irangal",
+   "mutal": {
+    "land": [
+     "புணரி",
+     "கானல்",
+     "யெக்கர்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "புள்ளிமிழ்",
+     "stem": "புள்",
+     "line": 2,
+     "kind": "pul",
+     "role": "scene",
+     "land": null,
+     "sense": "birds"
+    },
+    {
+     "form": "புன்னை",
+     "stem": "புன்னை",
+     "line": 3,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "punnai"
+    }
+   ],
+   "comparisons": [],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "அசைவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": null
+     },
+     "note": "the vocative தோழி names the friend; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "300": {
+   "reading": "The man tells the dark girl with fine spots like the pollen of the deep-water lotus, with heaped dark hair smelling of kuvalai and a honeyed red mouth smelling of aambal, that she fears his very word 'do not fear'; but he would not think of leaving her friendship even if he gained the sea-ringed world where the short-legged swan rests on heaped sand.",
+   "nuance": "The setting of நீயே against யானே divides the poem between her fear and his oath. The swan resting on heaped sand is a shore image of rest, put inside the very world he says he would refuse.",
+   "concepts": [
+    "natpu",
+    "anbu",
+    "punarchi"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தலைவன் கூற்று"
+   },
+   "thinai": "kurinji",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "அஞ்ச லென்றவென்"
+    ],
+    "note": "reassurance after union in secret love"
+   },
+   "mixed": true,
+   "uri": "punarthal",
+   "mutal": {
+    "land": [],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "குவளை",
+     "stem": "குவளை",
+     "line": 1,
+     "kind": "maram",
+     "role": "scene",
+     "land": "marutham",
+     "sense": "blue lily"
+    },
+    {
+     "form": "ஆம்பல்",
+     "stem": "ஆம்பல்",
+     "line": 2,
+     "kind": "maram",
+     "role": "scene",
+     "land": "marutham",
+     "sense": "white lily"
+    },
+    {
+     "form": "தாமரைக்",
+     "stem": "தாமரை",
+     "line": 3,
+     "kind": "maram",
+     "role": "simile",
+     "land": "marutham",
+     "sense": "lotus"
+    },
+    {
+     "form": "லன்னங்",
+     "stem": "அன்னம்",
+     "line": 6,
+     "kind": "pul",
+     "role": "scene",
+     "land": "neythal",
+     "sense": "swan"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "குண்டுநீர்த் தாமரைக் கொங்கின்",
+     "tenor": "her fine spots",
+     "marker": "அன்ன",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivan",
+     "addressee": "thalaivi",
+     "overhearer": null,
+     "occasion": {
+      "stage": "kalavu",
+      "words": null
+     },
+     "note": "the man addresses the girl (மாஅயோயே); the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  }
+ },
+ "links": [
+  {
+   "a": 283,
+   "b": "kural:1064",
+   "type": "tension",
+   "note": "Kuruntokai 283 reports the man's maxim that the life of those who have nothing is more shameful even than begging, and he leaves for wealth; Kural 1064 says the worth that will not beg even when nothing is left is too great for the world to hold. On the reading that 283 ranks poverty below begging, the two rank the same states in opposite order.",
+   "teaches": "The Kural makes the destitute man who refuses to beg the height of dignity, while the akam hero's maxim makes destitution itself the deepest shame, so the poems show that the urge to go for wealth rested on a ranking of poverty and begging the Kural explicitly reverses."
+  },
+  {
+   "a": 288,
+   "b": "kural:1103",
+   "type": "develops",
+   "note": "Kural 1103: the man asks whether the lotus-eyed one's world is sweeter than sleep on the beloved's soft arms; Kuruntokai 288: the woman asks whether the world of the gods is sweeter even than the hurt that comes from kin because of her lover.",
+   "teaches": "The couplet weighs heaven against the joy of love, the poem weighs it against love's pain, so the woman's claim is the stronger: not only the embrace but even the suffering it brings outweighs the gods' world."
+  },
+  {
+   "a": 299,
+   "b": "kural:1233",
+   "type": "develops",
+   "note": "Kural 1233: the shoulders that swelled on the day of union now seem to announce the parting; Kuruntokai 299: the woman's shoulders gain beauty when he joins her and waste when he leaves, after the tryst on the shore.",
+   "teaches": "The couplet gives the swelling and the wasting as public evidence that others read, while the poem gives them as the woman's own bewildered discovery, tied to the day her eyes saw him and her ears heard him, so the same bodily sign is both the town's proof and her private record."
+  },
+  {
+   "a": 289,
+   "b": "kural:1130",
+   "type": "qualifies",
+   "note": "Kural 1130: he lives joyfully in her heart, while the town says he is unloving and lives apart; Kuruntokai 289: she grieves for him out in the rain, and the clamouring town grieves for her more.",
+   "teaches": "In both the woman's thought goes out to the absent man while the town's goes to her plight, but the town's verdict differs, blame in the Kural and pity in the poem, so the town's talk in akam is not fixed as hostile gossip and can be her chorus."
+  },
+  {
+   "a": 290,
+   "b": "akananuru:45",
+   "type": "qualifies",
+   "note": "Akananuru 45, told to bear up, the woman answers with the dangers of his road, the gossip and her own coming madness like Aathi Manthi's; Kuruntokai 290 answers the same counsel ('bear your love') by saying she will waste away like foam on a rock.",
+   "teaches": "The two poems answer the same counsel to endure in opposite registers, one with public ruin and a famous madness, the other with a silent dissolving, which shows that the heroine's refusal of endurance could be voiced as loud breakdown or as quiet vanishing."
+  },
+  {
+   "a": 292,
+   "b": 73,
+   "type": "develops",
+   "note": "Kuruntokai 73 (Paranar) tells of the Kosar who cut down Nannan's fragrant mango and drove him from his land; Kuruntokai 292 (Paranar) tells of Nannan killing a girl who ate a green fruit the stream carried down, refusing eighty-one elephants and her weight in gold.",
+   "teaches": "Read together, Paranar's two poems hold both halves of one tale, the cruelty over a fruit and the tree's later felling, and each friend uses a different half: one as a model of hard scheming, the other as the type of cruelty to curse a watchful mother with."
+  },
+  {
+   "a": 298,
+   "b": "purananuru:233",
+   "type": "qualifies",
+   "note": "Purananuru 233 names Akuthai as the strong one whose elephants never ran short for those who came for gifts; Kuruntokai 298 recalls the young she-elephants Akuthai's father gave to singing women and likens the lover's long waiting to that gift.",
+   "teaches": "The puram lament knows the house of Akuthai only as givers of elephants, and the akam friend turns that known generosity into a figure for a lover's patience, so a patron's fame for gifts served akam as a ready image of an act that waits on a return."
+  },
+  {
+   "a": 300,
+   "b": 288,
+   "type": "qualifies",
+   "note": "In Kuruntokai 300 the man says he would not leave her even for the sea-ringed world; in Kuruntokai 288 the woman says even the hurt love brings is sweeter than the world of the gods.",
+   "teaches": "The man measures his love against earthly rule and the woman against heaven, so the two speakers of kalavu each renounce the highest good of their own sphere, kingship for him, the gods' world for her."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Kuruntokai colophons give only the speaker (… கூற்று), so every addressee and stage in thurai_akam is inferred from the poem; each item says so in its note.",
+  "kuruntokai:283 line 3 (தெளிய) was repaired from a TSCII leftover (தௌிய); the repair reads correctly.",
+  "kuruntokai:293 line 8 is the tamilvu.org reading that replaced ours (flag); marked as printed.",
+  "kuruntokai:287: the colophon says தோழி கூற்று, but the poem addresses தோழி and speaks of காதலர், which reads as the woman's voice; the colophon is kept and the doubt recorded here.",
+  "Thinai differs from the colophon in 282 (mullai: the field facing the rains, against பாலை) and 297 (paalai: the elopement through the waste, against குறிஞ்சி).",
+  "Hard lines, marked uncertain: 282 line 7 (ஆர்கழல் புகுவ), 284 line 5 (நம்மே சுவரோ தம்மிலர்), 285 lines 5-6, 289 line 6, 293 line 1 (ஆத்திரை), 294 line 8 (காத்தோம் பல்லே), 298 lines 5-8 (the simile)."
+ ]
+}

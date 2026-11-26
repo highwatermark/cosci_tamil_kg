@@ -1,0 +1,1985 @@
+{
+ "chapter_no": 1,
+ "chapter_theme": "Kuruntokai 0 to 20: an invocation drawn wholly in Murugan's red, then short poems across the five lands; hill courtships praised and pressed toward marriage, shore laments of sleepless nights, marutham wives who hide their husbands' wrongs and the other woman who mocks him, and paalai women who would follow or who refuse to call the leavers wise; madal and puram names (Evvi, the Kosar, Katti) used as measures of private feeling.",
+ "verses": {
+  "0": {
+   "reading": "The invocation: the world has come into safe days because the god of the cock banner guards it, he whose red feet are like the lotus, whose body is like coral, whose cloth is like the red kunri seed, and whose long bright spear split the mountain to its heart.",
+   "nuance": "Murugan is never named; he is drawn wholly in red (lotus feet, coral body, kunri-red cloth) and known by his spear and banner, and the poem's one claim is that the world's safety (ஏம வைகல்) follows from his guarding.",
+   "concepts": [
+    "iraivan",
+    "thiruvadi"
+   ],
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": null,
+    "thurai": null
+   },
+   "thinai": "paadaan",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "சேவலங் கொடியோன் காப்ப"
+    ],
+    "note": "praise of the guarding god, the கடவுள் வாழ்த்து placed under paadaan"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": null,
+   "karu": [
+    {
+     "form": "கொடியோன்",
+     "stem": "சேவற்கொடியோன்",
+     "line": 5,
+     "kind": "deyvam",
+     "role": "scene",
+     "land": null,
+     "sense": "Murugan"
+    },
+    {
+     "form": "சேவலங்",
+     "stem": "சேவல்",
+     "line": 5,
+     "kind": "pul",
+     "role": "ornament",
+     "land": null,
+     "sense": "cock"
+    },
+    {
+     "form": "தாமரை",
+     "stem": "தாமரை",
+     "line": 1,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "குன்றி",
+     "stem": "குன்றி",
+     "line": 3,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": "kunri seed"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "தாமரை",
+     "tenor": "his red feet",
+     "marker": "புரை",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "பவழத் தன்ன",
+     "tenor": "his body",
+     "marker": "அன்ன",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "குன்றி யேய்க்கும்",
+     "tenor": "his red cloth",
+     "marker": "ஏய்",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "marutkai",
+     "cause": "பெருமை"
+    }
+   ],
+   "puram_thurai": [],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "1": {
+   "reading": "The friend says that the hill of the Red One, who destroyed the demons till the field ran red, whose arrows are red-shafted, whose elephant is red-tusked and who wears the anklet and the bangle, is thick with kanthal in clusters the colour of blood.",
+   "nuance": "Everything is red, five times over (செங்களம், செங்கோல், செங்கோட்டு, சேஎய், குருதி), and the last red is the flower; the poem does not say why the friend speaks, and the old setting (she turns away the man's gift of kanthal, since her own hill is full of it) comes only from the tradition, not the text.",
+   "concepts": [
+    "kalaviyal",
+    "iraivan"
+   ],
+   "uncertain": true,
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தோழி கூற்று"
+   },
+   "thinai": "kurinji",
+   "thinai_evidence": {
+    "basis": "karu",
+    "words": [
+     "குன்றம்",
+     "காந்தட்டே"
+    ],
+    "note": "Murugan's hill and its kanthal fix the land; no situation is stated"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": {
+    "land": [
+     "குன்றம்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "சேஎய்",
+     "stem": "சேய்",
+     "line": 3,
+     "kind": "deyvam",
+     "role": "scene",
+     "land": null,
+     "sense": "Murugan"
+    },
+    {
+     "form": "யானைக்",
+     "stem": "யானை",
+     "line": 2,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "குலைக்காந் தட்டே",
+     "stem": "காந்தள்",
+     "line": 4,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": null
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "குருதிப் பூவின்",
+     "tenor": "the kanthal clusters, red as blood",
+     "marker": null,
+     "basis": "uru",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thozhi",
+     "addressee": "thalaivan",
+     "overhearer": null,
+     "occasion": {
+      "stage": "kalavu",
+      "words": "தோழி கூற்று"
+     },
+     "note": "the colophon names only the speaker; the addressee is the tradition's (the hero bringing flowers), not the poem's"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "2": {
+   "reading": "The man asks the bee that lives by searching out pollen to tell him what it has seen and not what it wants: of all the flowers it knows, is there one more fragrant than the hair of this woman of close-set teeth and peacock grace, whose love has held fast through long closeness?",
+   "nuance": "He asks the bee for an eyewitness's report and forbids it to flatter (காமம் செப்பாது கண்டது மொழிமோ), which turns praise into a test of fact, and the answer is assumed in the asking; the fragrance is joined to a love already settled by long companionship (பயிலியது கெழீஇய நட்பின்).",
+   "concepts": [
+    "nalam",
+    "azhagu",
+    "kaamam",
+    "punarchi"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தலைவன் கூற்று"
+   },
+   "thinai": "kurinji",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "பயிலியது கெழீஇய நட்பின்",
+     "கூந்தலின்"
+    ],
+    "note": "a lover praising the woman he has joined; the bee and peacock are of the hills"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "தும்பி",
+     "stem": "தும்பி",
+     "line": 1,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "bee"
+    },
+    {
+     "form": "மயிலியல்",
+     "stem": "மயில்",
+     "line": 3,
+     "kind": "pul",
+     "role": "scene",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "பூவே",
+     "stem": "பூ",
+     "line": 5,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": null
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "நீயறியும் பூவே",
+     "tenor": "her hair, set above every flower in fragrance",
+     "marker": "இன்",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "மயிலியல்",
+     "tenor": "her bearing, like a peacock's",
+     "marker": null,
+     "basis": "mey",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "புணர்வு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivan",
+     "addressee": "pira",
+     "overhearer": null,
+     "occasion": {
+      "stage": "kalavu",
+      "words": "தலைவன் கூற்று"
+     },
+     "note": "he addresses the bee"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "3": {
+   "reading": "The woman says that her love for the man of the hill country, where bees gather the flowers of the black-stemmed kurinji on the slope to build great honeycombs, is larger than the earth, higher than the sky and past measuring deeper than the sea.",
+   "nuance": "The three measures are of land, sky and water, the whole world, but the poem closes on a small slow labour: honey built from a shrub that flowers rarely; the vast love is set beside the patient making that produced it, and she calls it நட்பு, not காமம்.",
+   "concepts": [
+    "natpu",
+    "anbu",
+    "kaamam",
+    "kalaviyal"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "kurinji",
+   "thinai_evidence": {
+    "basis": "karu",
+    "words": [
+     "குறிஞ்சிப் பூக்கொண்டு",
+     "சாரல்"
+    ],
+    "note": "the kurinji flower and hill honey, with a love affirmed in secret"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": {
+    "land": [
+     "சாரல்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "குறிஞ்சிப்",
+     "stem": "குறிஞ்சி",
+     "line": 3,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "பெருந்தேன்",
+     "stem": "தேன்",
+     "line": 4,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "honeycomb"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "நிலத்தினும் பெரிதே",
+     "tenor": "her love, wider than the earth",
+     "marker": "இனும்",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "வானினும் உயர்ந்தன்று",
+     "tenor": "her love, higher than the sky",
+     "marker": "இனும்",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "நீரினும் ஆரள வின்றே",
+     "tenor": "her love, deeper than the sea",
+     "marker": "இனும்",
+     "basis": "mey",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "புணர்வு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": "kalavu",
+      "words": "தலைவி கூற்று"
+     },
+     "note": "the addressee is not named; the colophon gives only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "4": {
+   "reading": "The woman, holding back tears hot enough to scorch her eyelids, tells her heart three times that it aches, because the lover who was so fitting has now become unfitting.",
+   "nuance": "The refrain நோம்என் நெஞ்சே is said three times and the turn rests on one verb used twice: அமைதற்கு அமைந்த (made to be fitting) and அமைவிலர் (not fitting); the tears are held back (தாங்கி), not shed.",
+   "concepts": [
+    "nenju",
+    "kaamanoy",
+    "pirivu"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "நெய்தல்",
+    "thurai": "தலைமகள் கூற்று"
+   },
+   "thinai": "neythal",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "நோம்என் நெஞ்சே"
+    ],
+    "note": "pure lament with no land named; lament is neythal's uri"
+   },
+   "mixed": false,
+   "uri": "irangal",
+   "mutal": null,
+   "karu": [],
+   "comparisons": [
+    {
+     "vehicle": "இமைதீய்ப் பன்ன",
+     "tenor": "her tears, hot as if they burned the eyelids",
+     "marker": "அன்ன",
+     "basis": "payan",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "அசைவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "nenju",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": "தலைமகள் கூற்று"
+     }
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "5": {
+   "reading": "The woman asks her friend whether this is what love-sickness is: since the gentle lord of the shore has left, where herons sleep in the sweet shade of the punnai and the spray of breaking waves buds on it, her many-petalled darkened eyes cannot sleep.",
+   "nuance": "She finds out she is in love from a symptom (அதுகொல்... காம நோயே); the herons that sleep in his punnai shade are the opposite of her sleepless eyes, but they only sit in the scene: they do nothing a lover does, so they are not iraicchi.",
+   "concepts": [
+    "kaamanoy",
+    "kan",
+    "pirivu"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "நெய்தல்",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "neythal",
+   "thinai_evidence": {
+    "basis": "karu",
+    "words": [
+     "புன்னை",
+     "உடைதிரைத்",
+     "புலம்பன்"
+    ],
+    "note": "the punnai, waves and the shore lord, with lament at parting"
+   },
+   "mixed": false,
+   "uri": "irangal",
+   "mutal": {
+    "land": [
+     "உடைதிரைத்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "குரு குறங்கும்",
+     "stem": "குருகு",
+     "line": 2,
+     "kind": "pul",
+     "role": "scene",
+     "land": null,
+     "sense": "heron"
+    },
+    {
+     "form": "புன்னை",
+     "stem": "புன்னை",
+     "line": 2,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "திவலை",
+     "stem": "திவலை",
+     "line": 3,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "spray"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "பல்லிதழ்",
+     "tenor": "her eyes, as many-petalled flowers",
+     "marker": null,
+     "basis": "uru",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "இழவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": "தலைவி கூற்று"
+     }
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "6": {
+   "reading": "The woman says it is the dead of night; words have ceased, people have gone sweetly to rest, the whole wide world sleeps without care, and only she, surely, does not sleep.",
+   "nuance": "Three clauses of the world sleeping end on one clause of her waking, with ஓர்யான் (I alone) and the emphatic மன்ற; nothing in the scene names the lover at all.",
+   "concepts": [
+    "kaamanoy",
+    "pirivu",
+    "ninaivu"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "நெய்தல்",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "neythal",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "துஞ்சா தேனே"
+    ],
+    "note": "a sleepless lament with no land named; midnight alone would point to kurinji"
+   },
+   "mixed": false,
+   "uri": "irangal",
+   "mutal": {
+    "land": [],
+    "season": [],
+    "hour": [
+     "யாமம்"
+    ],
+    "negated": false
+   },
+   "karu": [],
+   "comparisons": [],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "அசைவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "pira",
+     "overhearer": null,
+     "occasion": {
+      "stage": null,
+      "words": "தலைவி கூற்று"
+     },
+     "note": "she speaks to no one; the night is her only hearer"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "7": {
+   "reading": "Onlookers on the road see a bowman with warrior's anklets on his legs and a bangled girl with anklets still on her soft feet, and ask who these good, pitiable people are, setting out into the bamboo wilds where the white vaakai pods rattle in the wind like the drum of Aryan rope-dancers.",
+   "nuance": "The onlookers read the pair from their anklets alone: his கழல், and her சிலம்பு still on, which tells them she is unwed and has gone with him; their only judgement is pity (அளியர்).",
+   "concepts": [
+    "udanpokku",
+    "kaamam"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "பாலை",
+    "thurai": "கண்டோர் கூற்று"
+   },
+   "thinai": "paalai",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "அழுவம் முன்னி யோரே"
+    ],
+    "note": "a couple leaving together through the wilds"
+   },
+   "mixed": true,
+   "uri": "pirithal",
+   "mutal": {
+    "land": [
+     "அழுவம்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "வாகை",
+     "stem": "வாகை",
+     "line": 5,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "பறையிற்",
+     "stem": "பறை",
+     "line": 4,
+     "kind": "parai",
+     "role": "simile",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "ஆரியர்",
+     "stem": "ஆரியர்",
+     "line": 3,
+     "kind": "seythi",
+     "role": "simile",
+     "land": null,
+     "sense": "rope-dancers"
+    },
+    {
+     "form": "வேய்பயில்",
+     "stem": "வேய்",
+     "line": 6,
+     "kind": "maram",
+     "role": "scene",
+     "land": "kurinji",
+     "sense": "bamboo"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "ஆரியர் கயிறாடு பறையிற்",
+     "tenor": "the rattling of the vaakai pods in the wind",
+     "marker": "இன்",
+     "basis": "vinai",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "அசைவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "kandor",
+     "addressee": "pira",
+     "overhearer": null,
+     "occasion": {
+      "stage": "kalavu",
+      "words": "கண்டோர் கூற்று"
+     },
+     "note": "the onlookers speak among themselves"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "8": {
+   "reading": "The other woman says that the man of the town where the vaalai fish of the pond snatch the sweet ripe fruit that falls from the mango in the field talks big about her in her house, but in his own home does whatever his son's mother wants, raising hand and foot as she raises hers, like an image in a mirror.",
+   "nuance": "The insult is aimed at the wife's power as much as at him: he is a mirror image, moving only as she moves; the fish that takes fruit falling into its mouth is the man who takes the pleasure that comes to him without effort.",
+   "concepts": [
+    "parathai",
+    "oodal",
+    "penvazhi",
+    "ilvaazhkkai"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "மருதம்",
+    "thurai": "காதற் பரத்தை கூற்று"
+   },
+   "thinai": "marutham",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "மூரன்",
+     "புதல்வன் தாய்க்கே"
+    ],
+    "note": "the other woman's jibe at a husband held by his wife"
+   },
+   "mixed": false,
+   "uri": "oodal",
+   "mutal": {
+    "land": [
+     "கழனி",
+     "பழன"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "மாஅத்து",
+     "stem": "மா",
+     "line": 1,
+     "kind": "maram",
+     "role": "ullurai",
+     "land": null,
+     "sense": "mango"
+    },
+    {
+     "form": "வாளை",
+     "stem": "வாளை",
+     "line": 2,
+     "kind": "pira",
+     "role": "ullurai",
+     "land": null,
+     "sense": "fish"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "ஆடிப் பாவை",
+     "tenor": "the man doing his wife's bidding",
+     "marker": "போல",
+     "basis": "vinai",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "nakai",
+     "cause": "எள்ளல்"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "parathai",
+     "addressee": "pira",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": "காதற் பரத்தை கூற்று"
+     },
+     "note": "she speaks so that those close to the wife may hear"
+    }
+   ],
+   "entities": [],
+   "ullurai": {
+    "experimental": true,
+    "vehicle": [
+     {
+      "form": "மாஅத்து",
+      "line": 1
+     },
+     {
+      "form": "வாளை",
+      "line": 2
+     }
+    ],
+    "tenor": "the husband who takes the other woman's pleasure without effort and goes home to obey his wife",
+    "pairs": [
+     {
+      "scene": "விளைந்துகு தீம்பழம்",
+      "situation": "the pleasure that falls to him unsought, the other woman herself"
+     },
+     {
+      "scene": "பழன வாளை கதூஉ",
+      "situation": "he snatches what drops within reach, and gives nothing for it"
+     }
+    ],
+    "anchor": "எம்மிற் பெருமொழி கூறி",
+    "speaker_fit": "the other woman is not bound by porul 7.26 to 7.28 and may use the mango and fish of his marutham town freely (porul 7.29)"
+   },
+   "iraicchi": null
+  },
+  "9": {
+   "reading": "The friend says the dark woman has become the mother of the house: her body has wilted like flowers never worn and left in a well-made box, and out of shame before them she hides the cruelty of the lord of the cool shore, where neythal lilies on tall stems rise above green leaves and look like the eyes of girls diving in the pond each time the tide fills the backwater with fish.",
+   "nuance": "The wilting has two halves: the flower was never worn (பெய்யா), so it was kept and not used, and that is the wife's condition; she does not complain, she conceals (கரப்பு), and the friend's speech exposes what she hides.",
+   "concepts": [
+    "karpu",
+    "naanam",
+    "parathai",
+    "melivu"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "மருதம்",
+    "thurai": "தோழி கூற்று"
+   },
+   "thinai": "marutham",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "கொடுமை",
+     "னாணிக் கரப்பா"
+    ],
+    "note": "a wife hiding her husband's wrong is marutham's situation, though every thing named is of the shore"
+   },
+   "mixed": true,
+   "uri": "oodal",
+   "mutal": {
+    "land": [
+     "னிருங்கழி"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "நெய்தல்",
+     "stem": "நெய்தல்",
+     "line": 4,
+     "kind": "maram",
+     "role": "simile",
+     "land": "neythal",
+     "sense": null
+    },
+    {
+     "form": "இனமீ",
+     "stem": "மீன்",
+     "line": 5,
+     "kind": "pira",
+     "role": "scene",
+     "land": "neythal",
+     "sense": "fish"
+    },
+    {
+     "form": "பூவின்",
+     "stem": "பூ",
+     "line": 3,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": null
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "பெய்யாப் பூவின்",
+     "tenor": "her wilted body",
+     "marker": "இன்",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "மகளிர் கண்ணின்",
+     "tenor": "the neythal lilies above the water",
+     "marker": "மானும்",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "அசைவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thozhi",
+     "addressee": "thalaivan",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": "தோழி கூற்று"
+     },
+     "note": "the addressee is inferred from துறைவன் கொடுமை: she speaks of the wife to the husband"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "10": {
+   "reading": "The friend says the wife, first lady of the festival, has become the mother of the house: because she hid the cruelty of the man of the town of kaanji trees, whose fragrant soft branches, with clusters like green gram, the ploughmen pull down to bathe in their fresh pollen, she comes ashamed.",
+   "nuance": "It opens with the same words as poem 9 (யாயாகியளே) on the same act of concealment; here the shame is the cost of hiding: she leads the festival and comes to it ashamed.",
+   "concepts": [
+    "karpu",
+    "naanam",
+    "parathai"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "பாலை",
+    "thurai": "தோழி கூற்று"
+   },
+   "thinai": "marutham",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "யூரன் கொடுமை",
+     "உழவர்"
+    ],
+    "note": "a wife hiding the town-lord's wrong, among ploughmen and kaanji; nothing of the wilds"
+   },
+   "mixed": false,
+   "uri": "oodal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "காஞ்சி",
+     "stem": "காஞ்சி",
+     "line": 4,
+     "kind": "maram",
+     "role": "ullurai",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "உழவர்",
+     "stem": "உழவர்",
+     "line": 3,
+     "kind": "seythi",
+     "role": "ullurai",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "பயறுபோ",
+     "stem": "பயறு",
+     "line": 2,
+     "kind": "unavu",
+     "role": "simile",
+     "land": null,
+     "sense": "green gram"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "பயறுபோ லிணர",
+     "tenor": "the kaanji's flower clusters",
+     "marker": "போல",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thozhi",
+     "addressee": "thalaivan",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": "தோழி கூற்று"
+     },
+     "note": "the addressee is inferred: the town-lord whose wrong was hidden"
+    }
+   ],
+   "entities": [],
+   "ullurai": {
+    "experimental": true,
+    "vehicle": [
+     {
+      "form": "காஞ்சி",
+      "line": 4
+     },
+     {
+      "form": "உழவர்",
+      "line": 3
+     }
+    ],
+    "tenor": "the husband who lets other women draw him down and take their pleasure of him",
+    "pairs": [
+     {
+      "scene": "உழவர் வாங்கிய",
+      "situation": "low women pull him down to them as ploughmen pull a branch"
+     },
+     {
+      "scene": "பைந்தாது படீஇயர்",
+      "situation": "they bathe in what he gives, while the wife is left with the shame"
+     }
+    ],
+    "anchor": "யூரன் கொடுமை",
+    "speaker_fit": "the friend uses a kaanji tree and ploughmen of the marutham town the poem is set in (porul 7.27)"
+   },
+   "iraicchi": null
+  },
+  "11": {
+   "reading": "The woman tells her heart that rather than stay here crying, her conch bangles slipping day by day, it should rise and go: though he is in a land of strange speech beyond the country of Katti of the strong spear, past the frontier of the Vadugar who wear kullai garlands, let them set out to follow him to his land.",
+   "nuance": "She does not ask him to return; she proposes to go herself, across a named frontier of foreign speech (மொழிபெயர் தேஎம்), and she frames staying as what cannot be survived.",
+   "concepts": [
+    "nenju",
+    "pirivu",
+    "melivu",
+    "ninaivu"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "பாலை",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "paalai",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "மொழிபெயர் தேஎத்த ராயினும்"
+    ],
+    "note": "he is gone far for his work and she longs to follow"
+   },
+   "mixed": false,
+   "uri": "pirithal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "இலங்குவளை",
+     "stem": "வளை",
+     "line": 1,
+     "kind": "pira",
+     "role": "ornament",
+     "land": null,
+     "sense": "conch bangle"
+    },
+    {
+     "form": "குல்லைக்",
+     "stem": "குல்லை",
+     "line": 5,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": null
+    }
+   ],
+   "comparisons": [],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "அசைவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "nenju",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": "தலைவி கூற்று"
+     }
+    }
+   ],
+   "entities": [
+    {
+     "type": "king",
+     "name": "கட்டி",
+     "line": 6
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "12": {
+   "reading": "The woman says that the road his chariot took is said to be a forking track of tiny pools like ant-holes, where hunters with curved bows climb rocks hot as an anvil-stone to sharpen their arrows; yet this clamouring town, without grieving over that, scolds her like a stranger.",
+   "nuance": "Her fear is learned by hearsay (என்ப) and the town's blame is direct; she sets what she fears for him against what the town says of her, and finds the town has no pity.",
+   "concepts": [
+    "alar",
+    "pirivu",
+    "acham"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "பாலை",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "paalai",
+   "thinai_evidence": {
+    "basis": "mutal",
+    "words": [
+     "பாறை",
+     "கவலைத்"
+    ],
+    "note": "a hot rocky track of hunters and scanty water"
+   },
+   "mixed": false,
+   "uri": "pirithal",
+   "mutal": {
+    "land": [
+     "பாறை",
+     "கவலைத்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "எறும்பி",
+     "stem": "எறும்பி",
+     "line": 1,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "ant"
+    },
+    {
+     "form": "எயினர்",
+     "stem": "எயினர்",
+     "line": 3,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "hunters"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "எறும்பி யளையிற்",
+     "tenor": "the tiny rock pools",
+     "marker": "இன்",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "உலைக்கல்",
+     "tenor": "the rock, hot and hard as an anvil-stone",
+     "marker": "அன்ன",
+     "basis": [
+      "mey",
+      "payan"
+     ],
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "accham",
+     "cause": "கள்வர்"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": "தலைவி கூற்று"
+     },
+     "note": "the addressee is not named"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "13": {
+   "reading": "The woman tells her friend that the man of the country where a great dark rough boulder, beaten by heavy rain until it looks like an elephant washed clean, rests on one side of the slope, has given her this sickness, and pallor has filled her lily eyes.",
+   "nuance": "The boulder washed clean and at rest stands beside her eyes filled with pallor; the image belongs to his country, not to her, and the sense of பைதல் (sad, or cool and wet) decides whether the rock shares her grief.",
+   "concepts": [
+    "pasalai",
+    "kaamanoy",
+    "kan",
+    "kalaviyal"
+   ],
+   "uncertain": true,
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "kurinji",
+   "thinai_evidence": {
+    "basis": "karu",
+    "words": [
+     "துறுகற்",
+     "யானை",
+     "நாடன்"
+    ],
+    "note": "the hill boulder, the elephant and the hill-country lord"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": {
+    "land": [],
+    "season": [
+     "பெரும்பெயல்"
+    ],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "யானை",
+     "stem": "யானை",
+     "line": 1,
+     "kind": "maa",
+     "role": "simile",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "துறுகற்",
+     "stem": "துறுகல்",
+     "line": 2,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "boulder"
+    },
+    {
+     "form": "குவளையங்",
+     "stem": "குவளை",
+     "line": 5,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": null
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "மாசறக் கழீஇய யானை",
+     "tenor": "the rain-washed dark boulder",
+     "marker": "போல",
+     "basis": [
+      "uru",
+      "mey"
+     ],
+     "type": "explicit"
+    },
+    {
+     "vehicle": "குவளையங் கண்ணே",
+     "tenor": "her eyes, as blue lilies",
+     "marker": null,
+     "basis": "uru",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "ilivaral",
+     "cause": "பிணி"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": "kalavu",
+      "words": "தலைவி கூற்று"
+     }
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "14": {
+   "reading": "The man wishes he may win the girl of few words, whose long bright white teeth came so that her nectar-holding red tongue is shy behind them; and having won her, may this town know it, may many in the street say 'there goes the good woman's husband', and may he be a little ashamed.",
+   "nuance": "He wants the public naming (நல்லோள் கணவன் இவன்) and the small shame that comes with it (நாணுகஞ் சிறிதே); the tradition hears a madal threat in 'let the town know', but the poem's words are a wish for a public bond.",
+   "concepts": [
+    "varaivu",
+    "alar",
+    "naanam",
+    "kaamam"
+   ],
+   "uncertain": true,
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தலைவன் கூற்று"
+   },
+   "thinai": "kurinji",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "பெறுகதில் அம்ம யானே"
+    ],
+    "note": "a lover in secret love who wants her and the town's knowledge of it"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": null,
+   "karu": [],
+   "comparisons": [
+    {
+     "vehicle": "அமிழ்துபொதி",
+     "tenor": "her tongue and speech, as holding nectar",
+     "marker": null,
+     "basis": "payan",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivan",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": "kalavu",
+      "words": "தலைவன் கூற்று"
+     },
+     "note": "the addressee is inferred; the colophon names only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "15": {
+   "reading": "The foster mother tells a friend that the love between the youth with fine anklets and red-leafed white spear and the girl with stacked bangles on her forearm has proved true, as true as the good word of the Kosar of Nalur spoken at the common hall under the ancient banyan, with drums sounding and conches blaring.",
+   "nuance": "The love's truth is measured by a public oath: the Kosar's word given in assembly with drums and conches; the foster mother vindicates the elopement by a standard of sworn faith, not of feeling.",
+   "concepts": [
+    "udanpokku",
+    "natpu",
+    "vaaimai"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "பாலை",
+    "thurai": "செவிலி கூற்று"
+   },
+   "thinai": "paalai",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "விடலையொடு",
+     "மடந்தை நட்பே"
+    ],
+    "note": "the youth and the girl gone together; a foster mother's word on it"
+   },
+   "mixed": false,
+   "uri": "pirithal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "பறைபடப்",
+     "stem": "பறை",
+     "line": 1,
+     "kind": "parai",
+     "role": "simile",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "பணிலம்",
+     "stem": "பணிலம்",
+     "line": 1,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "conch"
+    },
+    {
+     "form": "தாலத்துப்",
+     "stem": "ஆலம்",
+     "line": 2,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": "banyan"
+    },
+    {
+     "form": "தொகுவளை",
+     "stem": "வளை",
+     "line": 6,
+     "kind": "pira",
+     "role": "ornament",
+     "land": null,
+     "sense": "bangle"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "நாலூர்க் கோசர் நன்மொழி",
+     "tenor": "the lovers' bond, proved true",
+     "marker": "போல",
+     "basis": "payan",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "uvagai",
+     "cause": "புணர்வு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "sevili",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": "kalavu",
+      "words": "செவிலி கூற்று"
+     }
+    }
+   ],
+   "entities": [
+    {
+     "type": "town",
+     "name": "நாலூர்க்",
+     "line": 3
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "16": {
+   "reading": "The friend asks whether they will not think of us, the men who crossed the forest of kalli, where the red-legged lizard calls to its mate with a sound like thieves flicking with their nail-tips the gold-bound arrows to test them straight.",
+   "nuance": "The simile brings robbers into the very sound of the forest, so the comfort is shadowed by danger; the question form (உள்ளார் கொல்லோ) expects the answer yes.",
+   "concepts": [
+    "pirivu",
+    "ninaivu",
+    "acham"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "பாலை",
+    "thurai": "தோழி கூற்று"
+   },
+   "thinai": "paalai",
+   "thinai_evidence": {
+    "basis": "karu",
+    "words": [
+     "கள்ளியங் காடிறந்",
+     "கள்வர்"
+    ],
+    "note": "the spurge forest and its robbers, with a man gone"
+   },
+   "mixed": false,
+   "uri": "pirithal",
+   "mutal": {
+    "land": [
+     "கள்ளியங் காடிறந்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "பல்லி",
+     "stem": "பல்லி",
+     "line": 4,
+     "kind": "pira",
+     "role": "iraicchi",
+     "land": null,
+     "sense": "lizard"
+    },
+    {
+     "form": "கள்ளியங்",
+     "stem": "கள்ளி",
+     "line": 5,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "கள்வர்",
+     "stem": "கள்வர்",
+     "line": 1,
+     "kind": "seythi",
+     "role": "simile",
+     "land": null,
+     "sense": "robbers"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "உகிர்நுதி புரட்டும் ஓசை",
+     "tenor": "the lizard's call",
+     "marker": "போல",
+     "basis": "vinai",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "accham",
+     "cause": "கள்வர்"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thozhi",
+     "addressee": "thalaivi",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": "தோழி கூற்று"
+     },
+     "note": "the addressee is inferred: the friend calls her தோழி in line 1 and reassures her"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": {
+    "experimental": true,
+    "carrier": {
+     "form": "பல்லி",
+     "line": 4
+    },
+    "act": "the lizard calls to its mate across the dry forest",
+    "sense": "the man who passes and hears even the lizard call its mate will think of his own and turn home",
+    "deletion_test": true
+   }
+  },
+  "17": {
+   "reading": "The man says that when love hardens like heartwood, men ride the palm-stem calling it a horse, wear a garland of erukku buds calling it a flower, become a spectacle in the street, and become something else besides.",
+   "nuance": "He speaks in the third person plural, as a general rule of what love does, and ends vaguely (பிறிதும் ஆகுப), which is the threat: the next step is beyond naming.",
+   "concepts": [
+    "madal",
+    "kaamam",
+    "naanam",
+    "alar"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தலைவன் கூற்று"
+   },
+   "thinai": "perunthinai",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "மடலும் ஊர்ப",
+     "காமங்காழ் கொளினே"
+    ],
+    "note": "the madal of love grown excessive, which porul 1.51 sets under perunthinai"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "மடலும்",
+     "stem": "மடல்",
+     "line": 1,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "palm stem"
+    },
+    {
+     "form": "எருக்கங்",
+     "stem": "எருக்கு",
+     "line": 2,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": null
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "மாவென",
+     "tenor": "the palm-stem, ridden as a horse",
+     "marker": null,
+     "basis": "vinai",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "பூவென",
+     "tenor": "the erukku buds, worn as flowers",
+     "marker": null,
+     "basis": "uru",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "காமங்காழ்",
+     "tenor": "love grown hard as heartwood",
+     "marker": null,
+     "basis": "mey",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "ilivaral",
+     "cause": "வருத்தம்"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivan",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": "kalavu",
+      "words": "தலைவன் கூற்று"
+     },
+     "note": "the addressee is inferred; the colophon names only the speaker"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "18": {
+   "reading": "The friend tells the man of the slope where jackfruit, fenced with bamboo, bears even on its roots, to be timely; who knows how it stands? like a huge fruit hanging from a small stalk on the slope, her life is very small and her love very great.",
+   "nuance": "The same tree serves twice: fruit low on the root, within reach and fenced (the girl ready and guarded), then fruit too heavy for its stalk; the first image is a near miss for ullurai, since the poem itself draws the second as an open simile.",
+   "concepts": [
+    "varaivu",
+    "uyir",
+    "kaamam"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "குறிஞ்சி",
+    "thurai": "தோழி கூற்று"
+   },
+   "thinai": "kurinji",
+   "thinai_evidence": {
+    "basis": "karu",
+    "words": [
+     "வேரல் வேலி",
+     "பலவின்",
+     "சாரல்"
+    ],
+    "note": "hill jackfruit and bamboo, with the friend pressing for marriage"
+   },
+   "mixed": false,
+   "uri": "punarthal",
+   "mutal": {
+    "land": [
+     "சாரல்"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "வேரல்",
+     "stem": "வேரல்",
+     "line": 1,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "bamboo"
+    },
+    {
+     "form": "பலவின்",
+     "stem": "பலா",
+     "line": 1,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "jackfruit"
+    },
+    {
+     "form": "பெரும்பழந்",
+     "stem": "பழம்",
+     "line": 4,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": "jackfruit"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "சிறுகோட்டுப் பெரும்பழந் தூங்கி",
+     "tenor": "her small life bearing a great love",
+     "marker": "ஆங்க",
+     "basis": "mey",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "ilivaral",
+     "cause": "மென்மை"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thozhi",
+     "addressee": "thalaivan",
+     "overhearer": null,
+     "occasion": {
+      "stage": "kalavu",
+      "words": "தோழி கூற்று"
+     }
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "19": {
+   "reading": "The man tells his heart to grieve, dull and bare like the flowerless heads of the bards made poor by the loss of Evvi: who is she to us now, the woman of thick dark hair fragrant as the jasmine that blooms by day on the house-tree?",
+   "nuance": "The simile borrows a public mourning, bards who stopped wearing flowers when their patron died, for a private estrangement; and the question யாரளோ நமக்கே disowns her while the line before it lingers on her hair.",
+   "concepts": [
+    "nenju",
+    "oodal",
+    "kaiyarunilai"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "மருதம்",
+    "thurai": "தலைவன் கூற்று"
+   },
+   "thinai": "marutham",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "யாரளோ நமக்கே",
+     "மனைமரத்"
+    ],
+    "note": "a husband shut out by his wife's displeasure"
+   },
+   "mixed": false,
+   "uri": "oodal",
+   "mutal": null,
+   "karu": [
+    {
+     "form": "பாணர்",
+     "stem": "பாணர்",
+     "line": 1,
+     "kind": "seythi",
+     "role": "simile",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "வறுமையாழ்ப்",
+     "stem": "யாழ்",
+     "line": 1,
+     "kind": "yaazh",
+     "role": "simile",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "பூவில்",
+     "stem": "பூ",
+     "line": 2,
+     "kind": "maram",
+     "role": "absent",
+     "land": null,
+     "sense": null
+    },
+    {
+     "form": "மௌவல்",
+     "stem": "மௌவல்",
+     "line": 4,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "jasmine"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "பாணர் பூவில் வறுந்தலை",
+     "tenor": "the heart's desolation",
+     "marker": "போல",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "இழவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivan",
+     "addressee": "nenju",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": "தலைவன் கூற்று"
+     }
+    }
+   ],
+   "entities": [
+    {
+     "type": "patron",
+     "name": "எவ்வி",
+     "line": 1
+    }
+   ],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "20": {
+   "reading": "The woman tells her friend that if those who put aside grace and love and leave their companion to go after wealth are the strong and wise, then let them be the wise, and let us be the fools.",
+   "nuance": "The word உரவோர் is said three times until it turns to mockery; she concedes the name of wisdom to the leavers and claims folly (மடவம்) for the ones who stay, a refusal phrased as agreement.",
+   "concepts": [
+    "pirivu",
+    "selvam",
+    "arul",
+    "anbu"
+   ],
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "பாலை",
+    "thurai": "தலைவி கூற்று"
+   },
+   "thinai": "paalai",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "பொருள்வயிற் பிரிவோர்"
+    ],
+    "note": "a man leaving for wealth"
+   },
+   "mixed": false,
+   "uri": "pirithal",
+   "mutal": null,
+   "karu": [],
+   "comparisons": [],
+   "meyppadu": [
+    {
+     "feeling": "nakai",
+     "cause": "எள்ளல்"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "thalaivi",
+     "addressee": "thozhi",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": "தலைவி கூற்று"
+     },
+     "note": "she addresses the friend as மடந்தை"
+    }
+   ],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  }
+ },
+ "links": [
+  {
+   "a": 0,
+   "b": "thiruppugazh:323",
+   "type": "develops",
+   "note": "Kuruntokai 0 knows Murugan by his lotus-red feet, the spear that split the mountain and the cock banner, and says his guarding keeps the world safe; Thiruppugazh 323 names the same spear that pierced Krauncha, the cock banner and the golden anklet feet, and asks for release from desire.",
+   "teaches": "The same three marks of Murugan pass from a guarantee of the whole world's safety in the oldest invocation to one devotee's plea for rescue from his own lust, so the iconography stayed fixed while the god's protection moved from the world to the self."
+  },
+  {
+   "a": 2,
+   "b": "kural:1111",
+   "type": "develops",
+   "note": "In both the man praises the woman he has just joined by addressing a creature of the flowers: Kuruntokai 2 asks the bee whether any flower is more fragrant than her hair; Kural 1111 tells the anicham it is soft but she is softer.",
+   "teaches": "Valluvar keeps the Sangam device of praise through an apostrophe to nature but changes the sense judged, from smell to touch, and drops the witness: the Kuruntokai man asks the bee for evidence, the Kural man simply declares the verdict."
+  },
+  {
+   "a": 5,
+   "b": "kural:1179",
+   "type": "qualifies",
+   "note": "Both have the woman in separation with eyes that cannot sleep; Kuruntokai 5 uses the sleeplessness to ask whether this is love-sickness, Kural 1179 says the eyes do not sleep when he is away nor when he comes.",
+   "teaches": "The Sangam woman learns from sleepless eyes that she is in love, while the Kural woman, past that discovery, finds the sleeplessness survives even his return, so the couplet assumes and goes beyond the moment the older poem records."
+  },
+  {
+   "a": 6,
+   "b": "kural:1168",
+   "type": "qualifies",
+   "note": "Both set the sleeping world against the one woman awake in separation; Kuruntokai 6 leaves her alone awake under the dead night, Kural 1168 makes the night itself her companion, pitied for having no one else.",
+   "teaches": "The Kural turns the bare Sangam contrast of a sleeping world and one waking woman into a conceit in which the night shares her vigil, so the couplet adds a companion, even a mocked one, to a solitude the older poem leaves complete."
+  },
+  {
+   "a": 7,
+   "b": "akananuru:321",
+   "type": "same_image",
+   "note": "In Kuruntokai 7 onlookers see anklets still on the eloping girl's soft feet; in Akananuru 321 the foster mother says the girl took off her pebble-filled anklets for fear her mother would hear, before crossing the bamboo hills.",
+   "teaches": "Together they show the anklet as the sign of an unwed girl read from two sides: at home its sound must be silenced for her to escape, while on the road strangers recognise from it, still on her feet, that the pair are lovers in flight rather than a married couple."
+  },
+  {
+   "a": 8,
+   "b": "kural:906",
+   "type": "tension",
+   "note": "Kural 906 says men who fear their wife's shoulders are worthless even if they live like gods; in Kuruntokai 8 the other woman mocks the man for doing his son's mother's bidding like a mirror image, and on the akam reading this obedience is the household holding him, which the poem does not condemn.",
+   "teaches": "Read together they show that the conduct the Kural brands as a man's vice appears in akam only as the other woman's spiteful jibe, so the ethical charge of wife-obedience and the love poem's victory of the wife are the same act seen from opposite sides."
+  },
+  {
+   "a": 9,
+   "b": 10,
+   "type": "develops",
+   "note": "Both open with யாயாகியளே and both have the friend tell how the wife hides her husband's cruelty (கொடுமை) out of shame; in 9 she wilts like an unworn flower, in 10 she comes as leader of the festival yet ashamed.",
+   "teaches": "Placed together the two poets show the wife's concealment as a set karpu situation with two costs: it wastes her body in private and shames her in public, and in each case it is the friend, not the wife, who breaks the silence."
+  },
+  {
+   "a": 11,
+   "b": "kural:1248",
+   "type": "tension",
+   "note": "Kural 1248 has the woman call her heart a fool for running after the man who left; in Kuruntokai 11 the woman herself bids her heart rise and follow him even past the land of the Vadugar, since staying here cannot be survived.",
+   "teaches": "The heart that the Kural woman scolds for following is the one the Sangam woman sends out on purpose, so the same impulse is folly in the Kural's chapter and the only means of survival in Maamulanar's poem."
+  },
+  {
+   "a": 13,
+   "b": "kural:1183",
+   "type": "develops",
+   "note": "In both the woman says her lover gave her sickness and pallor: Kuruntokai 13 says plainly he gave the sickness and pallor fills her eyes; Kural 1183 says he took her grace and modesty and gave sickness and pallor in exchange.",
+   "teaches": "The Kural turns Kapilar's single complaint of a gift into an exchange with two sides, naming what was taken (சாயல், நாண்) as well as what was given, so the pair show the 'he gave me pallor' formula growing into an account of loss."
+  },
+  {
+   "a": 15,
+   "b": "akananuru:113",
+   "type": "same_image",
+   "note": "Kuruntokai 15 measures the lovers' fidelity by the good word of the Kosar of Nalur given under the old banyan; Akananuru 113 calls the Kosar many-speared guards who never swerve from friendship even in bad times.",
+   "teaches": "Akananuru 113 supplies the reputation the Kuruntokai simile depends on: the Kosar were known for keeping faith in adversity, so the foster mother vindicates the eloped girl's bond by the standard of a war band's unbreakable loyalty, not by its feeling."
+  },
+  {
+   "a": 17,
+   "b": "kural:1133",
+   "type": "develops",
+   "note": "Both are the man speaking of the madal: Kuruntokai 17 lists as a general rule what men do when love hardens (ride the palm horse, wear erukku, become a street spectacle); Kural 1133 says he once had shame and manliness and now has the madal.",
+   "teaches": "The Kuruntokai poem supplies the public ritual (the erukku garland, the mocking street) that the Kural compresses into a single inventory of loss, and the Kural adds what the older poem leaves unstated: that taking up the madal costs a man his shame and manliness."
+  },
+  {
+   "a": 18,
+   "b": "kural:1163",
+   "type": "same_image",
+   "note": "Kuruntokai 18 says her love hangs on her small life like a great jackfruit on a small stalk; Kural 1163 says love and shame hang from the two ends of a carrying pole that is her life.",
+   "teaches": "Both picture love as a weight hanging from life, but the Kural adds shame as a counterweight, so the Sangam image of a stalk about to snap under one load becomes in the couplet a pole balanced between two loads that will snap either way."
+  },
+  {
+   "a": 19,
+   "b": "purananuru:233",
+   "type": "same_image",
+   "note": "Purananuru 233 refuses to believe the dawn news that Evvi, leader of the bards' families, lies with spear wounds in his chest; Kuruntokai 19 compares the man's grieving heart to the flowerless heads of the bards impoverished by Evvi's loss.",
+   "teaches": "The puram lament gives the moment of the news, and Paranar's simile gives its aftermath, bards going bare-headed without flowers, so the pair show a patron's death becoming a recognised mourning custom that akam could borrow to measure a lover's estrangement."
+  },
+  {
+   "a": 20,
+   "b": "akananuru:43",
+   "type": "tension",
+   "note": "In Akananuru 43 the man who stays calls those who leave their companion for wealth fools (மடமையோர்); in Kuruntokai 20 the woman left behind grants the leavers the name of the wise (உரவோர்) and claims folly (மடவம்) for those who stay.",
+   "teaches": "The paalai debate is fought over the same pair of words, wise and foolish: the staying man pins folly on the leavers, while the abandoned woman lets them keep wisdom and takes folly as the side of love, so who names whom foolish depends on who was left."
+  },
+  {
+   "a": 20,
+   "b": "purananuru:216",
+   "type": "develops",
+   "note": "Both are by Kopperunchozhan: in Purananuru 216 he says his unseen friend Pisirandhaiyar calls himself 'the foolish Chola's'; in Kuruntokai 20 his heroine says let the leavers be wise and let us be fools.",
+   "teaches": "The same king, in puram and in akam, gives the name of folly to loyalty that prudence would abandon, his friend's in the one and the waiting woman's in the other, so the akam poem's irony has a model in the king's own creed of friendship."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "9: the colophon thinai is மருதம்; sangamtamil.com gives நெய்தல் (text flag). The poem's things are all of the shore, its situation (a wife hiding her husband's wrong) marutham; I infer marutham, mixed.",
+  "10: the colophon thinai பாலை does not fit the poem, which has kaanji, ploughmen and a town-lord's wrong and nothing of the wilds; sangamtamil.com gives மருதம் (text flag), which agrees with my inference.",
+  "17: the colophon's குறிஞ்சி; the madal of excessive love is perunthinai by porul 1.51, which is my inference.",
+  "Kuruntokai colophons give only the speaker (… கூற்று); every addressee and stage in thurai_akam is inferred from the poem and is so noted.",
+  "13: line 5 is the repaired reading of tamilvu.org (text flag)."
+ ]
+}

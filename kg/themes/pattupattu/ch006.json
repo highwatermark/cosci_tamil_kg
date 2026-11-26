@@ -1,0 +1,882 @@
+{
+ "chapter_no": 6,
+ "chapter_theme": "Mullaippattu is the waiting of mullai told in three places at one rainy night: a wife at home who will not be comforted by the old women's omen, a king in his war camp kept awake by what the battle cost, and the road on which his chariot returns through the flowering forest; the poem joins the two vigils only through sound, ending when his horses fill her ears.",
+ "structure_note": "The text runs as a few long sentences, so the five core units were all moved to breaks of description: the omen and the wife's tears (1-23), the camp's layout (24-44), the guard of the king's tent (45-66), the king's sleepless thought (67-79), and the wife's vigil with the return (80-103). The colophon gives only the thinai; the camp units are puram matter (vanji) inside an akam frame.",
+ "verses": {
+  "pattupattu:5:1-23": {
+   "reading": "As a cloud that has drunk the roaring cold sea rises to the right like Mal standing tall as the water was poured, with conch and discus in his hand, and rains heavily in the small, sad evening, old women go out to the edge of the guarded old town, scatter paddy and fresh mullai buds, join their hands and stand listening for a chance word; they hear a herd-girl, her hands on her shivering shoulders, tell a calf tied with a short rope and looking about in distress that its mothers will come soon, driven by the cowherds, and they tell the wife that the good word means her lord will surely return with tribute, his work done, so she should put away her grief; but however often they show her, she will not see it, and her flower-like eyes, overflowing, drop the pearls of loneliness.",
+   "concepts": [
+    "virichi",
+    "pirivu",
+    "maalai"
+   ],
+   "nuance": "The calf is a near miss for ullurai and iraicchi: tied, distressed and promised its mothers' return, it matches the wife at several points, but the old women state the match themselves (அதனால் ... வருதல் தலைவர் வாய்வது), so condition 2 fails and the calf stays scene; the herd-girl's words matter as overheard speech, the omen, not as an image. The poem's first sentence is itself a sign, since the cloud rises on the right (வலனேர்பு), so the sky's omen comes before the street's.",
+   "unit_note": "Adjusted from the core units 1-16 and 17-38: the core break at line 16 falls inside the old women's speech (என்போள் / நன்னர் நன்மொழி). This unit runs to line 23, where the wife's weeping (புலம்புமுத் துறைப்ப) closes the scene at home before the war camp begins in line 24.",
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "முல்லை",
+    "thurai": null
+   },
+   "thinai": "mullai",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "வருத றலைவர் வாய்வது",
+     "பருவர லெவ்வங் களை"
+    ],
+    "note": "the wife waits for a husband away at war in the rainy evening and is told he will come: waiting, the uri of mullai"
+   },
+   "mixed": false,
+   "uri": "irutthal",
+   "mutal": {
+    "land": [],
+    "season": [
+     "பெரும்பெயல் பொழிந்த"
+    ],
+    "hour": [
+     "சிறுபுன் மாலை"
+    ],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "மாஅல்",
+     "stem": "மால்",
+     "line": 3,
+     "kind": "deyvam",
+     "role": "simile",
+     "land": null
+    },
+    {
+     "form": "பனிக்கடல்",
+     "stem": "பனிக் கடல்",
+     "line": 4,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "sea"
+    },
+    {
+     "form": "வெழிலி",
+     "stem": "எழிலி",
+     "line": 5,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "rain cloud"
+    },
+    {
+     "form": "யாழிசை",
+     "stem": "யாழ் இசை",
+     "line": 8,
+     "kind": "yaazh",
+     "role": "simile",
+     "land": null
+    },
+    {
+     "form": "யினவண்",
+     "stem": "இன வண்டு",
+     "line": 8,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "bees"
+    },
+    {
+     "form": "நெல்லொடு",
+     "stem": "நெல்",
+     "line": 8,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null
+    },
+    {
+     "form": "முல்லை",
+     "stem": "முல்லை",
+     "line": 9,
+     "kind": "maram",
+     "role": "gift_food",
+     "land": null
+    },
+    {
+     "form": "கன்றி",
+     "stem": "கன்று",
+     "line": 12,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "calf"
+    },
+    {
+     "form": "கோவலர்",
+     "stem": "கோவலர்",
+     "line": 15,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "cowherds"
+    },
+    {
+     "form": "பூப்போ",
+     "stem": "பூ",
+     "line": 23,
+     "kind": "maram",
+     "role": "simile",
+     "land": null
+    },
+    {
+     "form": "புலம்புமுத்",
+     "stem": "முத்து",
+     "line": 23,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "pearl"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "நீர்செல நிமிர்ந்த மாஅல்",
+     "tenor": "the dark rain cloud rising after drinking the sea",
+     "marker": "போல",
+     "basis": [
+      "uru",
+      "vinai"
+     ],
+     "type": "explicit"
+    },
+    {
+     "vehicle": "யாழிசை",
+     "tenor": "the hum of the swarming bees",
+     "marker": null,
+     "basis": "payan",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "பூ",
+     "tenor": "the wife's kohl-lined eyes",
+     "marker": "போல",
+     "basis": "uru",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "புலம்புமுத்",
+     "tenor": "the tears of her loneliness",
+     "marker": null,
+     "basis": "uru",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "அசைவு"
+    }
+   ],
+   "thurai_akam": [
+    {
+     "alt": 1,
+     "speaker": "pira",
+     "addressee": "thalaivi",
+     "overhearer": null,
+     "occasion": {
+      "stage": "karpu",
+      "words": null
+     },
+     "note": "the old women (பெருமுது பெண்டிர்) who sought the omen speak to the wife; the colophon has no thurai"
+    }
+   ],
+   "puram_thurai": [],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:5:24-44": {
+   "reading": "In the wide, long woodland that a forest river embraces, the soldiers clear the far-scented pidavam and green bushes, set up the hunters' huts, ring the camp with a fence of laid thorns, and spread it out like the sea; in its leaf-thatched streets, at the crossings, stands a small-eyed elephant with musth on its cheeks that will not eat the sweet fodder of sugarcane and paddy ears bound together, but wipes its brow and holds it on its tusks, while unlettered young men speak to it in the northern tongue with forked goads and press the balls of food on it; bows that never run from battle, with quivers hung on them like the triple staff of a vowed brahmin in ochre cloth, are planted, posts driven and ropes drawn, spears set up and shields ranged, bows made into a wall, and in the middle of the many armies a separate tall-poled tent of cloth is raised for the king.",
+   "concepts": [
+    "paasarai",
+    "padai",
+    "aran"
+   ],
+   "nuance": "The elephant's keepers are கல்லா இளைஞர், young men without learning, who drive it in வடமொழி: the northern speech is the language of elephant handling, not of learning. The fodder the elephant refuses, sugarcane and paddy from the fields, comes from the watered country, so marutham things sit in the forest camp.",
+   "unit_note": "Adjusted from the core units 17-38 and 39-54: the core break at line 38 falls inside the simile of the brahmin's triple staff (கடுப்ப நற்போ / ரோடா வல்விற் றூணி). This unit takes the laying out of the camp from line 24 to line 44, where the king's separate tent (வேறோர் நெடுங்காழ்க் கண்டங் கோலி) completes the plan, before the women of his tent begin in line 45.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "முல்லை",
+    "thurai": null
+   },
+   "thinai": "vanji",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "வேறுபல் பெரும்படை",
+     "பரந்த பாடி"
+    ],
+    "note": "the camp of an army on campaign in another's land, described for itself, with no love situation in the unit"
+   },
+   "mixed": true,
+   "uri": null,
+   "mutal": {
+    "land": [
+     "வகனெடும் புறவிற்",
+     "கான்யாறு"
+    ],
+    "season": [],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "கான்யாறு",
+     "stem": "கான் யாறு",
+     "line": 24,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "forest river"
+    },
+    {
+     "form": "பிடவமொடு",
+     "stem": "பிடவம்",
+     "line": 25,
+     "kind": "maram",
+     "role": "scene",
+     "land": null
+    },
+    {
+     "form": "புணரியிற்",
+     "stem": "புணரி",
+     "line": 28,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "sea"
+    },
+    {
+     "form": "யுவலைக்",
+     "stem": "உவலை",
+     "line": 29,
+     "kind": "maram",
+     "role": "scene",
+     "land": null,
+     "sense": "leaf thatch"
+    },
+    {
+     "form": "யானை",
+     "stem": "யானை",
+     "line": 31,
+     "kind": "maa",
+     "role": "scene",
+     "land": null
+    },
+    {
+     "form": "கரும்பொடு",
+     "stem": "கரும்பு",
+     "line": 32,
+     "kind": "maram",
+     "role": "gift_food",
+     "land": "marutham",
+     "sense": "sugarcane"
+    },
+    {
+     "form": "வயல்விளை",
+     "stem": "வயல் விளை",
+     "line": 33,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": "marutham",
+     "sense": "field crop"
+    },
+    {
+     "form": "விளைஞர்",
+     "stem": "இளைஞர்",
+     "line": 36,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "elephant keepers"
+    },
+    {
+     "form": "கவளங்",
+     "stem": "கவளம்",
+     "line": 36,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "fodder balls"
+    },
+    {
+     "form": "பார்ப்பான்",
+     "stem": "பார்ப்பான்",
+     "line": 37,
+     "kind": "seythi",
+     "role": "simile",
+     "land": null
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "படுநீர்ப் புணரி",
+     "tenor": "the army camp spread wide",
+     "marker": "இன்",
+     "basis": "mey",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "படிவப் பார்ப்பான் முக்கோ லசைநிலை",
+     "tenor": "the planted bows with quivers hung on them",
+     "marker": "கடுப்ப",
+     "basis": "uru",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [],
+   "thurai_akam": [],
+   "puram_thurai": [],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:5:45-66": {
+   "reading": "Inside, women with short bangles and hair falling on small backs, who make night into day, wear bright swords in striped belts and, holding oil-filled lamps with long wicks, relight them whenever they dim; at midnight, when the long-tongued bells are silenced, old guards wrapped in cloth sway as they doze, like the flowering athiral creeper on a padar bush stirred by a drizzling wind; men who measure the hours without error stand with joined hands, hail the king who goes out to conquer the wave-girt world and tell him how much water the little clock has let through; strong-bodied Yavanas of fearsome look, in tight coats with whips at their waists, set up a gem lamp in the fine chamber hung with tiger chains and screened by curtains on strong ropes, and Mlecchas who speak only by signs stand close by in their mantles.",
+   "concepts": [
+    "paasarai",
+    "vendhan",
+    "padai"
+   ],
+   "nuance": "The guard of the king's sleep is a list of strangers to the Tamil household: armed women, Yavanas and Mlecchas who cannot speak the language (உடம்பின் உரைக்கும் உரையா நாவின்). The hour-keepers' formula addresses the king as the one who goes to conquer the world, so even the telling of time is praise.",
+   "unit_note": "Adjusted from the core units 39-54 and 55-70: those breaks fall inside one description of the king's tent (சூழப் / பொழுதளந் தறியும்; பரூஉக்கை துமியத் / தேம்பாய்). This unit holds the guard of the king's tent from the women lamp-bearers (line 45) to the Mlecchas at his side (உழைய ராக, line 66), before the king himself appears in line 67.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "முல்லை",
+    "thurai": null
+   },
+   "thinai": "vanji",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "வையகம் வெலீஇய செல்வோய்"
+    ],
+    "note": "the night watch round a king who has gone out to conquer the world"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": {
+    "land": [],
+    "season": [
+     "சிதர்வர லசைவலி"
+    ],
+    "hour": [
+     "நடுநா"
+    ],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "மங்கையர்",
+     "stem": "மங்கையர்",
+     "line": 47,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "sword-bearing women"
+    },
+    {
+     "form": "நெய்யுமிழ்",
+     "stem": "நெய்",
+     "line": 48,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "lamp oil"
+    },
+    {
+     "form": "ளதிரல்",
+     "stem": "அதிரல்",
+     "line": 51,
+     "kind": "maram",
+     "role": "simile",
+     "land": null
+    },
+    {
+     "form": "படாஅர்",
+     "stem": "படர்",
+     "line": 51,
+     "kind": "maram",
+     "role": "simile",
+     "land": null,
+     "sense": "bush"
+    },
+    {
+     "form": "பெருமூ தாள",
+     "stem": "பெருமுது ஆளர்",
+     "line": 54,
+     "kind": "seythi",
+     "role": "simile",
+     "land": null,
+     "sense": "old guards"
+    },
+    {
+     "form": "மாக்க",
+     "stem": "மாக்கள்",
+     "line": 55,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null,
+     "sense": "hour-keepers"
+    },
+    {
+     "form": "யவனர்",
+     "stem": "யவனர்",
+     "line": 61,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null
+    },
+    {
+     "form": "மிலேச்ச",
+     "stem": "மிலேச்சர்",
+     "line": 66,
+     "kind": "seythi",
+     "role": "scene",
+     "land": null
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "ளதிரல் பூத்த வாடுகொடிப் படாஅர்",
+     "tenor": "the old guards nodding in sleep",
+     "marker": "ஆங்கு",
+     "basis": "vinai",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [],
+   "thurai_akam": [],
+   "puram_thurai": [],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:5:67-79": {
+   "reading": "The king, eager for close battle, cannot sleep: he thinks of the tusker that forgot its herd of cow elephants when thrown spears pierced it and its thick trunk, writhing like a snake, was cut off; he remembers the men in honey-dripping garlands who fought well and fell, having made good the rice they ate; he thinks of the horses that, deep-pierced by sharp arrows, droop their ears and stand suffering without eating; one hand pressed on the bed, the other, with its bracelet, raised to his crown, he thinks long, his strong finger that grips the weapon pointing at the enemy, in the camp where the drum roars and kings tremble.",
+   "concepts": [
+    "vendhan",
+    "paasarai",
+    "saakkaadu"
+   ],
+   "nuance": "His sleeplessness begins as desire for battle (மண்டமர் நசையொடு) and turns, line by line, into memory of what the battle cost, the elephant, the men, the horses; the camp is then called the place of the drum before which kings shiver, so the reckoning of loss sits inside the boast. The next line calls him இன்துயில் வதியுநன், one who lies in sweet sleep, which may say he has slept at last or name him as the husband the wife cannot see.",
+   "uncertain": true,
+   "unit_note": "Adjusted from the core units 55-70 and 71-88: the core break at line 70 falls between a phrase and its verb (பரூஉக்கை துமியத் / தேம்பாய் கண்ணி), and the break at 88 inside the wife's scene. This unit takes the king's sleepless thought from line 67 to the camp it ends on (முரசுமுழங்கு பாசறை, line 79); line 80 turns to the wife.",
+   "akam_puram": "puram",
+   "colophon": {
+    "thinai": "முல்லை",
+    "thurai": null
+   },
+   "thinai": "vanji",
+   "thinai_evidence": {
+    "basis": "content",
+    "words": [
+     "மண்டமர் நசையொடு கண்படை பெறாஅ",
+     "பகைவர்ச் சுட்டிய"
+    ],
+    "note": "a king on campaign, awake in his camp, thinking of his wounded and his foes"
+   },
+   "mixed": false,
+   "uri": null,
+   "mutal": null,
+   "karu": [
+    {
+     "form": "பிடிக்கண",
+     "stem": "பிடிக் கணம்",
+     "line": 69,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "cow elephants"
+    },
+    {
+     "form": "வேழம்",
+     "stem": "வேழம்",
+     "line": 69,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "tusker"
+    },
+    {
+     "form": "பாம்பு",
+     "stem": "பாம்பு",
+     "line": 70,
+     "kind": "pira",
+     "role": "simile",
+     "land": null,
+     "sense": "snake"
+    },
+    {
+     "form": "கண்ணி",
+     "stem": "கண்ணி",
+     "line": 71,
+     "kind": "maram",
+     "role": "ornament",
+     "land": null,
+     "sense": "garland"
+    },
+    {
+     "form": "சோறு",
+     "stem": "சோறு",
+     "line": 72,
+     "kind": "unavu",
+     "role": "gift_food",
+     "land": null,
+     "sense": "rice"
+    },
+    {
+     "form": "மா",
+     "stem": "மா",
+     "line": 74,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "horse"
+    },
+    {
+     "form": "முரசு",
+     "stem": "முரசு",
+     "line": 79,
+     "kind": "parai",
+     "role": "scene",
+     "land": null
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "பாம்புபதைப் பன்ன",
+     "tenor": "the elephant's severed, writhing trunk",
+     "marker": "அன்ன",
+     "basis": "vinai",
+     "type": "explicit"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "இழவு"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": null
+  },
+  "pattupattu:5:80-103": {
+   "reading": "Not seeing him, the wife suffers, her loneliness breaking the self-command with which she held her heart; she thinks long and steadies herself, straightens her slipping bangles, falls into a daze and sighs deeply, trembles like a peacock struck by an arrow, her ornaments loosening, and lies in the seven-storeyed mansion, the lamp in the statuette's hands burning with a thick flame, listening to the sweet many-voiced music of the streams falling from the curved eaves; then her ears are filled by the sound of his horses: with the great gathered army that has seized the lands others wanted, the victory banner raised, rising to the right while horns and conches blare, along the great red road that the forest has enriched, where the kaayaa flowers collyrium, the konrai spills good gold, the kodal's closed buds open like palms and the thondri blooms blood, past the rain-fed millet where the twisted-horned stag leaps with the young doe, leaving behind the forest of ripe fruit in the month of white rain, the horses yoked to the tall chariot famed for its deeds race, urged on.",
+   "concepts": [
+    "pirivu",
+    "nirai",
+    "melivu"
+   ],
+   "nuance": "The return is told through her hearing (அஞ்செவி நிறைய ஆலின): she lies listening to the rain on the eaves, and the next sound to fill her ears is his horses, so the poem ends before anyone meets. The road home is lined with the mullai flowers of the season he would have promised, each set as a jewel or as blood, the colours of victory.",
+   "unit_note": "Adjusted from the core units 71-88 and 89-103: the core break at line 88 falls inside a single phrase (ஓர்ப்பனள் கிடந்தோ / ளஞ்செவி நிறைய), since the sound of the returning horses fills the ears of the wife who lay listening. This unit takes her from line 80 (காணா டுயருழந்து) to the end of the poem.",
+   "akam_puram": "akam",
+   "colophon": {
+    "thinai": "முல்லை",
+    "thurai": null
+   },
+   "thinai": "mullai",
+   "thinai_evidence": {
+    "basis": "uri",
+    "words": [
+     "காணா டுயருழந்து",
+     "நிறைதபு புலம்பொடு"
+    ],
+    "note": "the wife endures the waiting until the sound of the returning chariot reaches her, in a mullai forest of the rains"
+   },
+   "mixed": false,
+   "uri": "irutthal",
+   "mutal": {
+    "land": [
+     "கான நந் திய செந்நிலப் பெருவழி"
+    ],
+    "season": [
+     "வானம் வாய்த்த",
+     "வெண்மழை பொழியுந் திங்களின்"
+    ],
+    "hour": [],
+    "negated": false
+   },
+   "karu": [
+    {
+     "form": "மஞ்ஞையி",
+     "stem": "மஞ்ஞை",
+     "line": 84,
+     "kind": "pul",
+     "role": "simile",
+     "land": null,
+     "sense": "peacock"
+    },
+    {
+     "form": "ளருவி",
+     "stem": "அருவி",
+     "line": 87,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "falling eave water"
+    },
+    {
+     "form": "வயிறும்",
+     "stem": "வயிர்",
+     "line": 92,
+     "kind": "parai",
+     "role": "scene",
+     "land": null,
+     "sense": "horn trumpet"
+    },
+    {
+     "form": "வளையு",
+     "stem": "வளை",
+     "line": 92,
+     "kind": "parai",
+     "role": "scene",
+     "land": null,
+     "sense": "conch trumpet"
+    },
+    {
+     "form": "காயா",
+     "stem": "காயா",
+     "line": 93,
+     "kind": "maram",
+     "role": "simile",
+     "land": null
+    },
+    {
+     "form": "கொன்றை",
+     "stem": "கொன்றை",
+     "line": 94,
+     "kind": "maram",
+     "role": "simile",
+     "land": null
+    },
+    {
+     "form": "கோடற்",
+     "stem": "கோடல்",
+     "line": 95,
+     "kind": "maram",
+     "role": "simile",
+     "land": null
+    },
+    {
+     "form": "தோன்றி",
+     "stem": "தோன்றி",
+     "line": 96,
+     "kind": "maram",
+     "role": "simile",
+     "land": null
+    },
+    {
+     "form": "வரகிற்",
+     "stem": "வரகு",
+     "line": 98,
+     "kind": "unavu",
+     "role": "scene",
+     "land": null,
+     "sense": "millet"
+    },
+    {
+     "form": "பிரலையொடு",
+     "stem": "இரலை",
+     "line": 99,
+     "kind": "maa",
+     "role": "iraicchi",
+     "land": null,
+     "sense": "stag"
+    },
+    {
+     "form": "மானுகள",
+     "stem": "மான்",
+     "line": 99,
+     "kind": "maa",
+     "role": "iraicchi",
+     "land": null,
+     "sense": "doe"
+    },
+    {
+     "form": "வெண்மழை",
+     "stem": "வெண் மழை",
+     "line": 100,
+     "kind": "pira",
+     "role": "scene",
+     "land": null,
+     "sense": "white cloud"
+    },
+    {
+     "form": "வள்ளியங்",
+     "stem": "வள்ளி",
+     "line": 101,
+     "kind": "maram",
+     "role": "scene",
+     "land": null
+    },
+    {
+     "form": "மாவே",
+     "stem": "மா",
+     "line": 103,
+     "kind": "maa",
+     "role": "scene",
+     "land": null,
+     "sense": "horse"
+    }
+   ],
+   "comparisons": [
+    {
+     "vehicle": "மேவுறு மஞ்ஞை",
+     "tenor": "the trembling wife",
+     "marker": "இன்",
+     "basis": "vinai",
+     "type": "explicit"
+    },
+    {
+     "vehicle": "வஞ்சன",
+     "tenor": "the dark blossoms of the kaayaa",
+     "marker": null,
+     "basis": "uru",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "நன்பொன்",
+     "tenor": "the konrai's yellow flowers",
+     "marker": null,
+     "basis": "uru",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "யங்கை",
+     "tenor": "the opening buds of the kodal",
+     "marker": null,
+     "basis": "mey",
+     "type": "metaphor"
+    },
+    {
+     "vehicle": "குருதி",
+     "tenor": "the red flowers of the thondri",
+     "marker": null,
+     "basis": "uru",
+     "type": "metaphor"
+    }
+   ],
+   "meyppadu": [
+    {
+     "feeling": "azhugai",
+     "cause": "அசைவு"
+    },
+    {
+     "feeling": "uvagai",
+     "cause": "புணர்வு"
+    }
+   ],
+   "thurai_akam": [],
+   "puram_thurai": [],
+   "entities": [],
+   "ullurai": null,
+   "iraicchi": {
+    "experimental": true,
+    "carrier": {
+     "form": "பிரலையொடு",
+     "line": 99
+    },
+    "act": "the twisted-horned stag leaps about together with the young doe in the rain-fed millet",
+    "sense": "the beasts of the season are already together, as the husband and wife will be when the chariot that passes them arrives",
+    "deletion_test": true
+   }
+  }
+ },
+ "links": [
+  {
+   "a": "pattupattu:5:1-23",
+   "b": "pattupattu:7:152-166",
+   "type": "same_image",
+   "note": "Both idylls have women reassure the waiting wife with the words இன்னே வருகுவர் (they will come soon), and both have her refuse it in tears: காட்டவுங் காட்டவுங் காணாள் கலுழ்சிறந்து here, உகத்தவை மொழியவும் ஒல்லாள் மிகக்கலுழ்ந்து in Nedunalvadai.",
+   "teaches": "The promise of a quick return and the wife's weeping refusal form one fixed sequence in both idylls, but Mullaippattu takes the promise from a herd-girl's words to a calf, read as an omen, while Nedunalvadai puts it in the grey-haired nurses' mouths as plain comfort, so the convention let the same words come from chance speech or from household authority, and in both the comfort must fail."
+  },
+  {
+   "a": "pattupattu:5:1-23",
+   "b": "kar_narpathu:12",
+   "type": "develops",
+   "note": "Kar Narpathu 12 says the dark clouds rising every day on the right (வைகலு மேரும் வலம்) are a sign beyond doubt (ஐயந்தீர் காட்சி) that he will come; Mullaippattu opens with a cloud that drinks the sea and rises on the right (வலனேர்பு).",
+   "teaches": "Read with Kar Narpathu's explicit rule that a cloud rising on the right foretells the lover's return, Mullaippattu's opening simile is already an omen in the sky set before the old women's omen in the street, and the poem closes with the returning army also rising on the right (line 91), so the idyll is framed by the sign and its fulfilment."
+  },
+  {
+   "a": "pattupattu:5:1-23",
+   "b": "akananuru:9",
+   "type": "qualifies",
+   "note": "In Akananuru 9 the returning husband pictures his wife at the evening when calves come home, standing at a corner of the house and praying at every chirp of the lizard; in Mullaippattu the old women seek the omen at evening, a calf supplies it, and the wife will not accept it.",
+   "teaches": "The husband's picture of a wife eagerly reading every omen is his own fancy on the road; Mullaippattu, told from the house, gives the omen-seeking to the old women and shows the wife refusing its comfort, which qualifies the hopeful, praying wife of the man's imagination."
+  },
+  {
+   "a": "pattupattu:5:45-66",
+   "b": "purananuru:22",
+   "type": "qualifies",
+   "note": "Purananuru 22 praises the king under whose umbrella the unarmed sleep safe (வாள் மருங்கு இலோர் காப்பு உறங்க) because he himself does not sleep (நீ துஞ்சாய் மாறே); Mullaippattu sets armed women, old guards, hour-keepers, Yavanas and Mlecchas round the king's own bed at midnight.",
+   "teaches": "The praise of a wakeful king who lets others sleep safely has a reverse side that only the idyll shows: the king's own sleep needs a whole household of armed and foreign watchers, so royal protection of the realm's sleep rests on others guarding his."
+  },
+  {
+   "a": "pattupattu:5:67-79",
+   "b": "pattupattu:7:167-188",
+   "type": "develops",
+   "note": "Mullaippattu's king lies awake thinking of the maimed tusker, the fallen men and the arrow-struck horses; Nedunalvadai's king goes out at midnight with a lamp-bearer to see his soldiers' wounds (விழுப்புண் காணிய புறம்போந்து) and does not sleep (பள்ளி கொள்ளான்).",
+   "teaches": "The two idylls give the same scene of a king kept awake in camp by his wounded, as inward thought lying with a hand on the bed in Mullaippattu and as an outward round of inspection in Nedunalvadai, and only Mullaippattu lets the night end in the sweet sleep (இன்துயில்) that the wife at home is denied."
+  },
+  {
+   "a": "pattupattu:5:67-79",
+   "b": "kural:780",
+   "type": "develops",
+   "note": "Kural 780: a death that fills the eyes of those who maintained one with tears is worth begging for; Mullaippattu's king remembers those who fell having made good the rice they ate (சோறுவாய்த் தொழிந்தோர் உள்ளியும்).",
+   "teaches": "The Kural measures the warrior's best death by the tears of the one who fed him, and the idyll shows that patron from inside, lying awake over the men who repaid his rice with their lives, so the maxim gains a scene where the debt of food and the king's grief are both seen."
+  },
+  {
+   "a": "pattupattu:5:67-79",
+   "b": "akananuru:214",
+   "type": "qualifies",
+   "note": "Akananuru 214: in the rain-drowned camp the king, set on glory, has no sleep (கண்படை இலனே), and the soldier wonders how his wife fares alone in the rainy evening; Mullaippattu 67: the king, eager for battle, gets no sleep (கண்படை பெறாஅ), and the next lines turn to the wife.",
+   "teaches": "Akananuru 214 compresses the idyll's two scenes, the sleepless king in the rainy camp and the wife alone at evening, but splits king and husband into two men, which shows that Mullaippattu's joining of them, the wife's husband being the sleepless king himself, is the idyll's choice and not the convention's rule."
+  },
+  {
+   "a": "pattupattu:5:80-103",
+   "b": "kar_narpathu:8",
+   "type": "same_image",
+   "note": "In Kar Narpathu 8 the kaayaa opens buds as if dipped in the eye's collyrium (கண்ணிய லஞ்சனங் தோய்ந்தபோற் காயாவும்) and so announces his return; in Mullaippattu 93 the kaayaa blooms collyrium (காயா வஞ்சன மலர) on the road his chariot is driving.",
+   "teaches": "The collyrium-dark kaayaa is a promise in Kar Narpathu, pointed to by the friend while the man is away, and in the idyll it is scenery the returning chariot passes, so the same flower serves as proof of the return in the short poem and as the return itself in the long one."
+  },
+  {
+   "a": "pattupattu:5:80-103",
+   "b": "pattupattu:7:172-176",
+   "type": "same_image",
+   "note": "Mullaippattu 85 lights the wife's room with பாவை விளக்கிற் பரூஉச்சுட ரழல; Nedunalvadai 175 lights the king's midnight round of the wounded with பாண்டில் விளக்கிற் பரூஉச்சுட ரழல.",
+   "teaches": "The same half-line of a lamp's thick flame burning lights the sleepless wife at home in Mullaippattu and the sleepless king in camp in Nedunalvadai, so the formula belongs to the night vigil itself and the two idylls assign that vigil in opposite directions."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "virichi",
+   "tamil": "விரிச்சி",
+   "gloss": "the omen of chance speech: women go out at evening to the edge of the town, make an offering, and take the first words they overhear as a sign of what will happen",
+   "label_source": "text: பெருமுது பெண்டிர் விரிச்சி நிற்ப, Mullaippattu line 11",
+   "first_book": "pattupattu"
+  },
+  {
+   "id": "paasarai",
+   "tamil": "பாசறை",
+   "gloss": "the war camp of a king on campaign, where the absent husband is held while his wife waits",
+   "label_source": "text: முரசுமுழங்கு பாசறை, Mullaippattu line 79; பாடி, line 28",
+   "first_book": "pattupattu"
+  }
+ ],
+ "source_issues": [
+  "Line 92 prints வயிறும் (belly) beside வளை (conch); in a list of instruments sounding as the army returns it reads only as வயிரும், the horn trumpet, so ற looks like a misprint for ர. The line-final வயிர, before செறியிலைக் காயா in line 93, is unclear in our text.",
+  "Lines 71 and 78 both carry கண்ணி நல்வலந் திருத்தி (தேம்பாய் கண்ணி, நகைதாழ் கண்ணி). Both are printed as part of the text and show does not flag a repeat; whether line 71 describes the fallen warriors and line 78 the king, as read here, is not settled by the text alone.",
+  "Line 97 prints கான நந் திய, splitting the word நந்திய across a space; line 84 prints மேவுறு for -ம் ஏவுறு across a word boundary (உயிர்த்தும் ஏவுறு). Karu forms and words are copied as printed.",
+  "The colophon gives the thinai (முல்லை) but no thurai, so there is no speech situation to copy; the speech of the old women in lines 17 to 21 is recorded from the poem, with occasion words left null."
+ ]
+}
