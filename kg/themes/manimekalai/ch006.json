@@ -1,0 +1,442 @@
+{
+ "chapter_no": 6,
+ "chapter_theme": "Through the crystal the prince sees Manimekalai, brushes off Sudhamathi's warning of the girl's fated austerity, and hears Sudhamathi's story of how Jain monks turned away her gored Brahmin father and a Buddhist monk carried him to safety; he leaves trusting Chithirapathi to deliver the girl, Manimekalai confesses her heart has followed him and curses desire, and the goddess Manimekala arrives to praise the Buddha's seat as evening falls on Puhar.",
+ "cast": [
+  {
+   "id": "manimekalai",
+   "tamil": "மணிமேகலை",
+   "role": "Madhavi's daughter, newly turned from the courtesan's life"
+  },
+  {
+   "id": "suthamathi",
+   "tamil": "சுதமதி",
+   "role": "Manimekalai's companion in the grove"
+  },
+  {
+   "id": "udayakumaran",
+   "tamil": "உதயகுமரன்",
+   "role": "the Chola king's son, who desires Manimekalai"
+  },
+  {
+   "id": "suthamathi_thandhai",
+   "tamil": "பார்ப்பன முதுமகன்",
+   "role": "Sudhamathi's father, an old fire-tending Brahmin"
+  },
+  {
+   "id": "samana_munivar",
+   "tamil": "சமணீர்",
+   "role": "the Jain ascetics of Puhar who turn Sudhamathi's father away"
+  },
+  {
+   "id": "sangadharuman",
+   "tamil": "சங்கதருமன்",
+   "role": "the Buddhist monk who carries Sudhamathi's father to the monks' dwelling and teaches them"
+  },
+  {
+   "id": "manimekala_deyvam",
+   "tamil": "மணிமேகலா தெய்வம்",
+   "role": "the sea goddess, Kovalan's family deity, who carries Manimekalai to Manipallavam"
+  },
+  {
+   "id": "buddhan",
+   "tamil": "புலவன்",
+   "role": "the Buddha, praised at his seat in the grove"
+  },
+  {
+   "id": "chithirapathi",
+   "tamil": "சித்திராபதி",
+   "role": "Madhavi's mother, a courtesan of Puhar"
+  }
+ ],
+ "verses": {
+  "manimekalai:5:1-17": {
+   "reading": "Through the crystal screen the prince sees the girl as if a painted image of Lakshmi stood there to stir Kama, wonders at what the painter must have imagined, then grasps that it is the dark-eyed girl herself, feels along the pavilion with his hand, and asks Sudhamathi what sort of girl hers is; she replies that even if the girl will not drink in his Murugan-like beauty with her eyes, she is one whose austerity comes by fate, whose curse is an arrow, and whose truthfulness has passed beyond Kama.",
+   "concepts": [
+    "thavam",
+    "kaamam",
+    "vaaimai",
+    "oozh"
+   ],
+   "uncertain": true,
+   "nuance": "Lines 1 to 8 are dense: the prince first takes the figure behind the crystal for a painting, and only at 8 does he see a living girl, which keeps the crystal room's double nature (it hides and shows) in play. Sudhamathi's three epithets at 16 to 17 claim for Manimekalai an ascetic's powers she has only just begun to seek: the austerity is called ஊழ் தரு, given by fate, so destiny and not yet her own practice is named as its source.",
+   "speaker": {
+    "who": "suthamathi",
+    "form": null,
+    "line": null,
+    "addressee": "udayakumaran"
+   },
+   "agents": [
+    {
+     "id": "udayakumaran",
+     "form": "இளங்கோன்",
+     "line": 1
+    },
+    {
+     "id": "suthamathi",
+     "form": "சுதமதி",
+     "line": 10
+    }
+   ],
+   "event": "Udayakumaran sees Manimekalai through the crystal, tries the pavilion with his hand and asks Sudhamathi about her; Sudhamathi warns that the girl's austerity can curse.",
+   "claims": [
+    {
+     "claim": "one whose austerity is given by fate has a curse for a weapon and is beyond desire",
+     "school": "general",
+     "line": 16,
+     "stance": "reported",
+     "voiced_by": "suthamathi"
+    }
+   ]
+  },
+  "manimekalai:5:18-31": {
+   "reading": "The prince retorts that no dam holds a swollen flood and no restraint holds once desire takes root, so let her be as ripe as she likes, and, turning away with a twisted heart, asks Sudhamathi, whom the city says a vidyadhara carried off, why she left her people's place to come here with this girl; she blesses him, prays that his heart not take the evil path, and begs the ruler of the sea-girt earth to hear her reason.",
+   "concepts": [
+    "nirai",
+    "kaamam",
+    "mayal"
+   ],
+   "uncertain": true,
+   "nuance": "The prince's maxim at 19 to 20 makes desire an irresistible force and so excuses in advance whatever he does; Sudhamathi's answer at 29 treats his heart as still able to choose. The word அராந்தாணம் at 23, the place where the vidyadhara left her, is rare and its sense here is not fixed.",
+   "speaker": {
+    "who": "udayakumaran",
+    "form": null,
+    "line": null,
+    "addressee": "suthamathi"
+   },
+   "agents": [
+    {
+     "id": "suthamathi",
+     "form": "சுதமதி",
+     "line": 18
+    },
+    {
+     "id": "udayakumaran",
+     "form": "அகல்வோன்",
+     "line": 22
+    }
+   ],
+   "event": "Udayakumaran brushes off Sudhamathi's warning and asks how she came to be with Manimekalai; Sudhamathi begins her account.",
+   "claims": [
+    {
+     "claim": "no restraint can hold once desire has taken hold",
+     "school": "general",
+     "line": 20,
+     "stance": "reported",
+     "voiced_by": "udayakumaran"
+    }
+   ]
+  },
+  "manimekalai:5:32-41": {
+   "reading": "Sudhamathi tells that her father, an old Brahmin of firm mind who had lost her mother, kept the ritual food rules and tended the fire that brings rain, grieved when through the fruit of old deeds she fell into a wrong union, searched for her among the crowds at the Kumari bathing ghat, and on his way back, coming with Sanskrit-speakers who had bathed in the Kaveri, found her here and asked how she had come.",
+   "concepts": [
+    "vinai",
+    "andhanar",
+    "aaguthi"
+   ],
+   "nuance": "Sudhamathi gives her abduction two causes in one line (35): the fruit of former deeds and the wrong union itself, without blaming the vidyadhara. Her father's fire is credited with bringing rain (34), a claim the story then sets beside his ruin.",
+   "speaker": {
+    "who": "suthamathi",
+    "form": null,
+    "line": null,
+    "addressee": "udayakumaran"
+   },
+   "agents": [
+    {
+     "id": "suthamathi_thandhai",
+     "form": "பார்ப்பன முதுமகன்",
+     "line": 33
+    }
+   ],
+   "event": "Sudhamathi tells how her Brahmin father searched for her after her abduction and found her in Puhar.",
+   "claims": [
+    {
+     "claim": "a misfortune such as a wrong union comes from the fruit of former deeds",
+     "school": "general",
+     "line": 35,
+     "stance": "asserted",
+     "voiced_by": "suthamathi"
+    },
+    {
+     "claim": "the Brahmin's tending of the sacred fire brings rain",
+     "school": "vedic",
+     "line": 34,
+     "stance": "reported",
+     "voiced_by": "suthamathi"
+    }
+   ]
+  },
+  "manimekalai:5:42-65": {
+   "reading": "Weeping over her, her father would not abandon her though she was no longer fit for the learned Brahmins, and lived by begging from house to house in the city, until one day a cow with a new calf gored him; holding his gut in his hands like a red garland he staggered into the place where she lived and begged the Jain monks for refuge, but they, angry with her too, said he was not one of them and drove them out, and as the two cried in the street whether any righteous people were left, a monk with a bowl in his palm and a golden robe, his face like a cool moon at noon, asked what had befallen them, cooled their hearts with kind words and put his bowl into her hand.",
+   "concepts": [
+    "arul",
+    "andhanar",
+    "iravu",
+    "samayam"
+   ],
+   "nuance": "The scene runs through three refusals and one answer: her father's own Brahmins (43), the Jain ascetics of spotless form (54), and then the street, where the cry அறவோர் உளீரோ (56) is answered by a monk of a third order. The Jains reject the dying man as not of their faith, so the episode sets the Buddhist's compassion against a refuge limited to one's own; that is the Buddhist work's framing, not a Jain account.",
+   "speaker": {
+    "who": "suthamathi",
+    "form": null,
+    "line": null,
+    "addressee": "udayakumaran"
+   },
+   "agents": [
+    {
+     "id": "suthamathi_thandhai",
+     "form": "திரிவோன்",
+     "line": 46
+    },
+    {
+     "id": "samana_munivar",
+     "form": "மாதவர்",
+     "line": 54
+    },
+    {
+     "id": "sangadharuman",
+     "form": "பாத்திரம் உடையோன்",
+     "line": 59
+    }
+   ],
+   "event": "Gored by a cow, Sudhamathi's father seeks refuge with the Jain monks, who turn him and his daughter away; a Buddhist monk with a begging bowl stops to help them.",
+   "claims": []
+  },
+  "manimekalai:5:66-90": {
+   "reading": "Sudhamathi finishes: the monk lifted her father onto his head, carried him to the dwelling of the ascetics, and this Sangadharuman, who freed him from the grief of death, taught them the nature of their lord, who lives not for himself but for others, turned the wheel of dharma out of compassion so that all beings might reach bliss, and passed beyond Kama, and she has no tongue for anything but his feet; the prince says he knows her case now and that Manimekalai may yet come to him through Chithirapathi, and leaves; Manimekalai opens the crystal room and confesses that though he scorned her as a woman without chastity, without austerity, without caste protection, one who sells herself, her heart went after the stranger, and asks whether this is the nature of desire.",
+   "concepts": [
+    "arul",
+    "kaamam",
+    "nenju",
+    "thuravu"
+   ],
+   "uncertain": true,
+   "nuance": "The monk is called மறையோன் at 68, a word for one who knows the sacred lore, and is then named Sangadharuman; the lines read most simply as one person, but whether the bowl-bearer and the teacher are the same is not certain. The words Manimekalai puts in the prince's mouth at 86 to 87 are not spoken by him in this kaathai or the last; she reads his scorn from his manner. Her question is the first crack in her renunciation, and she answers it herself at 91.",
+   "speaker": {
+    "who": "suthamathi",
+    "form": null,
+    "line": null,
+    "addressee": "udayakumaran"
+   },
+   "agents": [
+    {
+     "id": "sangadharuman",
+     "form": "சங்கதருமன்",
+     "line": 70
+    },
+    {
+     "id": "udayakumaran",
+     "form": null,
+     "line": 83
+    },
+    {
+     "id": "manimekalai",
+     "form": null,
+     "line": 84
+    }
+   ],
+   "event": "Sudhamathi ends her story of the monk Sangadharuman; Udayakumaran leaves vowing to win Manimekalai through Chithirapathi; Manimekalai comes out and admits her heart has followed him.",
+   "claims": [
+    {
+     "claim": "the Buddha lives not for himself but belongs to others, and turned the wheel of dharma from compassion so that beings may reach bliss",
+     "school": "buddhist",
+     "line": 73,
+     "stance": "asserted",
+     "voiced_by": "suthamathi"
+    },
+    {
+     "claim": "the Buddha has passed beyond Kama",
+     "school": "buddhist",
+     "line": 77,
+     "stance": "asserted",
+     "voiced_by": "suthamathi"
+    },
+    {
+     "claim": "a courtesan has no chastity, no austerity and no protection of caste, but sells herself for wealth",
+     "school": "general",
+     "line": 86,
+     "stance": "reported",
+     "voiced_by": "manimekalai"
+    }
+   ]
+  },
+  "manimekalai:5:91-105": {
+   "unit_note": "Boundary moved from 103 to 105: the goddess's praise of the Buddha begun at 98 closes with என்று at 105; the core unit cut it after the second of three என்கோ clauses.",
+   "reading": "Manimekalai cries that if this is desire, let its power perish; as she stands with Sudhamathi, the goddess Manimekala, who comes to see the adorned festival of Indra, takes the form of a woman of the city, circles the jewelled seat and praises the Buddha as the wise one, the ford-maker, the meritorious, the ancient, highest in vows for the world, who destroyed fault and curbed hatred, the first who knew fully, who passed beyond Kama, who is refuge and who drove off the fierce enemy of the evil path, ending that she lacks a thousand tongues to praise his wheel-marked feet.",
+   "concepts": [
+    "vazhipaadu",
+    "kaamam",
+    "kutram",
+    "adaikkalam"
+   ],
+   "nuance": "The goddess's first epithets answer Manimekalai's curse on desire: காமற் கடந்தோய் (102) is the epithet Sudhamathi gave the girl at 17 and the Buddha at 77, so the one quality the girl has just failed to hold is the one the praise returns to. The jewelled seat (பீடிகை) is the Buddha's seat in the grove, worshipped in his absence.",
+   "speaker": {
+    "who": "manimekala_deyvam",
+    "form": "மணிமேகலா தெய்வம்",
+    "line": 95,
+    "addressee": "buddhan"
+   },
+   "agents": [
+    {
+     "id": "manimekalai",
+     "form": "மணிமேகலை",
+     "line": 92
+    },
+    {
+     "id": "manimekala_deyvam",
+     "form": "மணிமேகலா தெய்வம்",
+     "line": 95
+    }
+   ],
+   "event": "Manimekalai curses the power of desire; the goddess Manimekala, disguised as a city woman, circles the Buddha's seat in the grove and praises him.",
+   "claims": [
+    {
+     "claim": "the Buddha destroyed fault, curbed hatred, knew all things fully and is the first",
+     "school": "buddhist",
+     "line": 100,
+     "stance": "asserted",
+     "voiced_by": "manimekala_deyvam"
+    },
+    {
+     "claim": "the Buddha passed beyond Kama and is a refuge",
+     "school": "buddhist",
+     "line": 102,
+     "stance": "asserted",
+     "voiced_by": "manimekala_deyvam"
+    }
+   ]
+  },
+  "manimekalai:5:106-122": {
+   "unit_note": "Boundaries moved from 104 to 106 at the start and from 119 to 122 at the end: the praise ends at 105, and the figure of Puhar as a woman adorned with moon and sun for earrings closes with பெய்தலும் at 122.",
+   "reading": "The narrator turns to evening on Puhar, pictured as a flowering creeper of a woman: its moat her girdle and anklets, its walls and gates her jewelled belt and arms, its two tall temple towers her breasts, its great temple her face, and the rising full moon in the east and the setting sun in the west her silver and gold earrings.",
+   "concepts": [
+    "azhagu",
+    "naadu",
+    "maalai"
+   ],
+   "uncertain": true,
+   "nuance": "The figure maps the city part by part onto a woman's body and ornaments, and one of the ornaments is named மேகலை (112), the girl's own name; several mappings (108 to 109, 114 to 116) are compressed and their exact correspondences are a reading.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "manimekalai:5:123-141": {
+   "unit_note": "Boundary moved from 120 to 123: the unit now begins with the evening's events after the earrings of moon and sun are set at 122.",
+   "reading": "Evening's signs follow: a swan tears open a lotus that has shut on its mate and carries her to a coconut frond, the anril hen calls her mate at sunset, cows that grazed on lilies return lowing for their calves with milk dripping, Brahmins tend the evening fire, women bring lamps, lute players strum the marutham mode and cowherds take up the mullai flute, and evening comes to the great city with pale skin and grief like a woman who has lost her husband in battle going back to her kin's house.",
+   "concepts": [
+    "maalai",
+    "pasalai",
+    "kaimmai"
+   ],
+   "nuance": "The closing simile (137 to 140) makes evening a war widow returning to her own people, a figure of loss that falls on the day Manimekalai has confessed her heart's going after the prince; the swan that frees its mate from the closed lotus (123 to 126) may glance at the girl shut in the crystal, but the lines do not say so.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Evening falls on Puhar.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "manimekalai:5:1-17",
+   "b": "kural:264",
+   "type": "qualifies",
+   "note": "The couplet says crushing foes comes through tapas if the ascetic so intends; Sudhamathi warns the prince that Manimekalai's fated austerity carries a curse for an arrow.",
+   "teaches": "The couplet's power of tapas is invoked here as a shield for a girl who has barely begun austerity, and the prince's shrug at line 21 shows the threat carrying no weight until it is backed by practice.",
+   "gains": {
+    "a": "Sudhamathi's warning is read as an appeal to a recognised Tamil belief that tapas can harm an enemy, not an empty boast.",
+    "b": "The couplet's claim gets a case where the power is asserted on another's behalf and fails to deter, which the couplet's confident statement does not consider."
+   }
+  },
+  {
+   "a": "manimekalai:5:1-17",
+   "b": "manimekalai:18:77-89",
+   "type": "develops",
+   "note": "Sudhamathi tells the prince the girl is given to fated austerity; in kaathai 18 he reports that a golden woman appeared to him at night with a sceptre and told him to forget the girl who had taken up tapas.",
+   "teaches": "The warning comes twice, first from a woman he brushes aside and then from a divine figure, and the prince repeats the second to Chithirapathi without obeying it, so his ruin is shown as a refusal of a warning he understood."
+  },
+  {
+   "a": "manimekalai:5:18-31",
+   "b": "kural:1251",
+   "type": "qualifies",
+   "note": "The couplet is a woman's admission that the axe of desire breaks the door of restraint; the prince asks whether any restraint exists once desire takes hold.",
+   "teaches": "The same claim that in the Kural is a woman's confession of her own defeat becomes, in a prince's mouth, a licence to press on a woman who refuses him, so the epic shows how the love-book's lament can serve as an excuse.",
+   "gains": {
+    "a": "The prince's maxim is recognised as borrowed from the love poets' woman's voice, which shows how far he has moved it from its place.",
+    "b": "The couplet's resignation gets a test: said by the stronger party about another's body, the same words stop being a confession and become a threat."
+   }
+  },
+  {
+   "a": "manimekalai:5:42-65",
+   "b": "kural:30",
+   "type": "develops",
+   "note": "The couplet says the அந்தணர் are the virtuous, because they wear cool kindness toward every life; Sudhamathi's Brahmin father, turned off by Brahmins and Jain monks alike, cries for any அறவோர் and is answered by a Buddhist monk, called மறையோன் at 68.",
+   "teaches": "The epic tells the couplet's redefinition as a story: those who hold the title by birth or by vows fail the dying man, and the title of one who knows the sacred lore passes to the stranger who shows kindness to him.",
+   "gains": {
+    "a": "The cry அறவோர் உளீரோ gets the couplet's measure of virtue, kindness to every life, which explains why the monks of spotless form fail it.",
+    "b": "The couplet's definition by conduct is shown working against real holders of the status, and across a sectarian line the couplet does not name."
+   }
+  },
+  {
+   "a": "manimekalai:5:66-90",
+   "b": "kural:1255",
+   "type": "develops",
+   "note": "The couplet says those sick with love cannot know the dignity of not going after one who has turned hostile; Manimekalai says her heart went after the stranger who had scorned her, and asks if this is the nature of desire.",
+   "teaches": "The couplet's lovesick woman knows her loss of dignity and keeps loving, while Manimekalai, meeting the same fact in herself on a single sight, answers it with a curse on desire (91), the renunciant's reply the love chapter never gives.",
+   "gains": {
+    "a": "Manimekalai's question is shown to have a known answer in the Tamil love tradition, so her surprise marks how new desire is to her.",
+    "b": "The couplet's diagnosis is applied to a girl vowed to austerity, which shows it holding even where the speaker has renounced the love it describes."
+   }
+  },
+  {
+   "a": "manimekalai:5:66-90",
+   "b": "purananuru:182",
+   "type": "qualifies",
+   "note": "The Purananuru poem says the world endures because there are those who strive not for themselves but for others (தமக்கென முயலா ... பிறர்க்கென முயலுநர்); Sudhamathi calls the Buddha one who lives not for himself but belongs to others (தனக்கு என வாழாப் பிறர்க்கு உரியாளன்).",
+   "teaches": "The epic takes the Sangam formula for a class of honourable men who hold the world up and makes it the mark of one being whose living for others is the turning of the dharma wheel, moving the ideal from social honour to religious compassion.",
+   "gains": {
+    "a": "The epithet at 73 is heard as a Tamil ideal already named in puram poetry, so the Buddha is praised in terms a Tamil audience held as the highest human worth.",
+    "b": "The poem's unnamed many who strive for others are given a single founder as exemplar, whose motive is compassion for all beings rather than fear of blame and love of fame."
+   }
+  },
+  {
+   "a": "manimekalai:5:66-90",
+   "b": "manimekalai:18:17-36",
+   "type": "develops",
+   "note": "The prince leaves saying Manimekalai may yet come to him through Chithirapathi; in kaathai 18 Chithirapathi vows to put the girl in the prince's golden chariot or be shamed among the dancers.",
+   "teaches": "The prince's passing remark becomes the grandmother's public vow, so the plot against the girl is shown to be carried by her own family's trade rather than by the prince alone."
+  },
+  {
+   "a": "manimekalai:5:91-105",
+   "b": "kural:8",
+   "type": "qualifies",
+   "note": "The couplet says none but those who reach the feet of the அறவாழி அந்தணன் can cross the other seas; the goddess praises the Buddha's feet marked with the thousand-spoked wheel (ஆயிர ஆரத்து ஆழி), whom Sudhamathi has just called the one who turned the wheel of dharma (அறக் கதிர் ஆழி, 76).",
+   "teaches": "The same words, அறம், ஆழி and the lord's feet, name the Buddha's wheel of dharma in the epic, which shows that ஆழி in the couplet's epithet could be heard as wheel as well as sea, and that a Buddhist hearer would find the Buddha in a verse that names no one.",
+   "gains": {
+    "a": "The goddess's praise of the feet is set in the Kural's opening frame, where reaching the feet is the way across.",
+    "b": "The couplet's unnamed epithet is shown in use for a named founder, which opens a second sense of ஆழி that the sea reading alone hides."
+   }
+  },
+  {
+   "a": "manimekalai:5:123-141",
+   "b": "silappathikaram:4:1-20",
+   "type": "same_image",
+   "note": "The Silappathikaram brings evening on Puhar with the earth weeping as if her king were lost, lamps lit by women, the cowherds' mullai flute, and evening 'came and encamped' (மாலைவந்து இருத்தென); the Manimekalai's evening on Puhar has the lamps, the mullai flute and evening that came and encamped (வந்து இறுத்தனளால்) as a woman widowed in battle.",
+   "teaches": "The sequel reuses its parent's evening on the same city almost item by item but moves the grief from an earth that has lost her king to a woman who has lost her husband and goes home to her kin, so the evening of Kovalan's daughter carries the bereaved woman's figure that the first epic gave to the land."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Line 13 puts quotation marks around the epithet குருகு பெயர்க் குன்றம் கொன்றோன் inside Sudhamathi's speech, as if it were a separate quotation; it reads as an epithet for Murugan in her own sentence.",
+  "Lines 86 to 87 are quoted as the prince's words, but he says nothing of the kind in this kaathai or the last; the quotation marks frame Manimekalai's reading of his scorn.",
+  "Line 141 ends with a bare என், the kaathai's closing particle, as in kaathai 4."
+ ]
+}

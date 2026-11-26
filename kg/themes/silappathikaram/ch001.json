@@ -1,0 +1,409 @@
+{
+ "chapter_no": 1,
+ "chapter_theme": "The patikam frames the epic: hill folk report a one-breasted woman taken to heaven, Saathan tells Ilango the story of Kovalan's death and Kannaki's burning of Madurai and its cause in a curse from a former birth, and Ilango sets down the poem's three morals, the death of an erring king by dharma, the praise of the pathini and the inevitability of the past deed, before the thirty kaathais are listed.",
+ "cast": [
+  {
+   "id": "ilango",
+   "tamil": "இளங்கோ வடிகள்",
+   "role": "the Chera prince who gave up kingship and lives at the eastern-gate shrine; the patikam names him as the poet"
+  },
+  {
+   "id": "saathan",
+   "tamil": "சாத்தன்",
+   "role": "the grain merchant of Madurai (கூல வாணிகன்), Tamil poet, who tells Ilango the story and hears the poem"
+  },
+  {
+   "id": "kunra_kuravar",
+   "tamil": "குன்றக் குறவர்",
+   "role": "the hill-dwelling kuravar who saw the one-breasted woman taken to heaven"
+  },
+  {
+   "id": "kannaki",
+   "tamil": "கண்ணகி",
+   "role": "Kovalan's wife, the pathini who burned Madurai"
+  },
+  {
+   "id": "kovalan",
+   "tamil": "கோவலன்",
+   "role": "merchant of Puhar, Kannaki's husband, killed in Madurai"
+  },
+  {
+   "id": "madhavi",
+   "tamil": "மாதவி",
+   "role": "the dancer-courtesan of Puhar with whom Kovalan lived"
+  },
+  {
+   "id": "porkollan",
+   "tamil": "பொன்செய் கொல்லன்",
+   "role": "the royal goldsmith of Madurai who accused Kovalan of theft"
+  },
+  {
+   "id": "nedunjeliyan",
+   "tamil": "நெடுஞ்செழியன்",
+   "role": "the Pandya king of Madurai who had Kovalan killed (named here as வேம்பன், பாண்டியன்)"
+  },
+  {
+   "id": "kaavalar",
+   "tamil": "காவலர்",
+   "role": "the Pandya's guards who carry out the killing"
+  },
+  {
+   "id": "madurai_maadheyvam",
+   "tamil": "மதுரைமா தெய்வம்",
+   "role": "the guardian goddess of Madurai who tells Kannaki the cause from a former birth"
+  }
+ ],
+ "verses": {
+  "silappathikaram:0:1-11": {
+   "reading": "The hill kuravar gather before Ilango, the Chera prince who gave up the throne and lives at the shrine of the eastern gate, and tell him that under a flowering vengai they saw a great pathini who had lost one breast taken up to heaven, with her beloved husband shown to her, by the retinue of the king of the gods; they ask him to find out what this wonder means, and Saathan, sitting beside him, says he knows how it came about.",
+   "concepts": [
+    "pathini",
+    "thuravu",
+    "vazhipaadu"
+   ],
+   "nuance": "The epic opens from the outside: the witnesses are hill folk who do not know the woman's name, and the frame puts the story in the mouth of a merchant-poet told to a renouncer prince. The poet himself is introduced by what he gave up (அரசுதுறந்து), so the work's narrator stands from the first line in the posture of renunciation, though the patikam makes no doctrinal claim about it.",
+   "speaker": {
+    "who": "kunra_kuravar",
+    "form": "குன்றக் குறவர்",
+    "line": 3,
+    "addressee": "ilango"
+   },
+   "agents": [
+    {
+     "id": "kunra_kuravar",
+     "form": "குன்றக் குறவர்",
+     "line": 3
+    },
+    {
+     "id": "ilango",
+     "form": "இளங்கோ",
+     "line": 2
+    },
+    {
+     "id": "saathan",
+     "form": "சாத்தன்",
+     "line": 10
+    }
+   ],
+   "event": "The hill kuravar report to Ilango that they saw a one-breasted woman carried to heaven with her husband, and Saathan offers to explain it.",
+   "claims": []
+  },
+  "silappathikaram:0:12-26": {
+   "reading": "Saathan tells how Kovalan, a merchant of the Chola's Puhar, lost his great wealth living with a dancing courtesan, came to Madurai to sell an anklet of his wife Kannaki, and showed it to the royal goldsmith, who told him to wait, went off, and said to the king that he had found, in a stranger's hand, the thief of the anklet he himself had once taken.",
+   "concepts": [
+    "kalavu",
+    "selvam",
+    "varaivinmagalir"
+   ],
+   "nuance": "The summary already lets the listener know the goldsmith is the thief: பண்டுதான் கொண்ட சிலம்பு, the anklet he himself took earlier, so the accusation is shown as a cover for his own theft before any karma is mentioned. The courtesan is not named here; the loss of wealth is put down to Kovalan's own way of life (ஆடிய கொள்கையின்).",
+   "speaker": {
+    "who": "saathan",
+    "form": null,
+    "line": null,
+    "addressee": "ilango"
+   },
+   "agents": [
+    {
+     "id": "kovalan",
+     "form": "கோவலன்",
+     "line": 14
+    },
+    {
+     "id": "porkollan",
+     "form": "கொல்லன்",
+     "line": 22
+    }
+   ],
+   "event": "Kovalan, ruined, brings Kannaki's anklet to Madurai to sell, and the royal goldsmith who had stolen the queen's anklet denounces him as the thief.",
+   "claims": []
+  },
+  "silappathikaram:0:27-36": {
+   "reading": "Saathan says that because it was the time for the deed to ripen, the Pandya did not inquire, called his guards and ordered them to kill the thief and bring the anklet; Kovalan's wife, finding no ground to stand on, wept, and being a pathini, twisted off her breast and set fire to Madurai so that the Pandya fell, and this is the woman the kuravar saw, the pathini praised by many.",
+   "concepts": [
+    "pathini",
+    "kodungol",
+    "vinai",
+    "karpu"
+   ],
+   "nuance": "Two causes stand side by side: the ripening of the deed (வினைவிளை காலம் ஆதலின்) explains why the king failed to inquire (தேரானாகி), and Kannaki's being a pathini (பத்தினி யாகலின்) explains the city's ruin. Karma here does not excuse the king's fault; it is given as the reason the fault happened, and the burning falls on the king all the same.",
+   "speaker": {
+    "who": "saathan",
+    "form": null,
+    "line": null,
+    "addressee": "ilango"
+   },
+   "agents": [
+    {
+     "id": "nedunjeliyan",
+     "form": "வேம்பன்",
+     "line": 28
+    },
+    {
+     "id": "kaavalar",
+     "form": "காவலர்",
+     "line": 29
+    },
+    {
+     "id": "kannaki",
+     "form": "பத்தினி",
+     "line": 33
+    }
+   ],
+   "event": "The Pandya, without inquiring, has Kovalan killed; Kannaki weeps, tears off her breast and burns Madurai.",
+   "claims": [
+    {
+     "claim": "when the time for a deed to ripen comes, even a king fails to judge rightly",
+     "school": "general",
+     "line": 27,
+     "stance": "asserted",
+     "voiced_by": "saathan"
+    },
+    {
+     "claim": "a chaste wife's power can bring ruin on a king who wronged her",
+     "school": "general",
+     "line": 33,
+     "stance": "asserted",
+     "voiced_by": "saathan"
+    }
+   ]
+  },
+  "silappathikaram:0:37-54": {
+   "reading": "Ilango asks what deed it was that ripened, and Saathan answers that, lying at night in the silver hall of Madurai, he saw the great goddess of Madurai appear before the grieving pathini and tell her that their ripe deed had run its course because of a curse laid in a former birth by the wife of Sangaman, a merchant of Singapuram, and that she would see her husband after fourteen days only in the form of the gods, not in human form; this unbiased word, he says, he heard.",
+   "concepts": [
+    "vinai",
+    "saabam",
+    "piravi",
+    "pathini"
+   ],
+   "nuance": "The patikam names only the curse and its author, the widow of Sangaman, and not what was done to Sangaman; the reader learns only in the Katturai Kaathai that Kovalan in that birth had him killed as a spy. Saathan vouches for the account as a witness, not as a sage: he overheard it (கேட்டனன் யான்). Lines 50 to 53 are repeated almost word for word at Silappathikaram 23.173-176.",
+   "speaker": {
+    "who": "saathan",
+    "form": null,
+    "line": null,
+    "addressee": "ilango"
+   },
+   "agents": [
+    {
+     "id": "ilango",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "madurai_maadheyvam",
+     "form": "மதுரைமா தெய்வம்",
+     "line": 43
+    },
+    {
+     "id": "saathan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Asked about the deed that ripened, Saathan reports overhearing the goddess of Madurai tell Kannaki that a curse from a former birth has come to fruit and that she will see her husband in divine form after fourteen days.",
+   "claims": [
+    {
+     "claim": "a curse laid in a former birth binds and comes to fruit in this one",
+     "school": "general",
+     "line": 49,
+     "stance": "asserted",
+     "voiced_by": "saathan"
+    },
+    {
+     "claim": "a deed once ripe runs its course and then ends",
+     "school": "general",
+     "line": 45,
+     "stance": "asserted",
+     "voiced_by": "madurai_maadheyvam"
+    }
+   ]
+  },
+  "silappathikaram:0:55-68": {
+   "reading": "Ilango declares that, to show that dharma becomes death to those who err in kingship, that the great praise a renowned pathini, and that the deed of the past comes in wrath and makes one eat its fruit, he will set down a song-poem named Silappathikaram with the anklet as its cause; told that it belongs to all three crowned kings and that he himself should compose it, he composes, and the list of its kaathais begins: the benediction, the wedding household, Madhavi's debut, the evening, the Indra festival, the sea bathing.",
+   "concepts": [
+    "aram",
+    "pathini",
+    "oozh",
+    "kodungol"
+   ],
+   "nuance": "The three morals are stated as theses the poem will show (ஆவதூஉம், ஏத்தலும், என்பதூஉம்), and the title is derived from the anklet as the cause (சிலம்பு காரணமாக) of all three. The first is narrowed to kings (அரைசியல் பிழைத்தோர்க்கு), where the venba of the Vazhakkurai Kaathai gives it as a general saying about all wrongdoers. The third sits beside the first without being reconciled with it: the poem holds both that the king's error is punished and that the past deed had to come. Who speaks lines 55 to 60 is not marked; the யாம் of நாட்டுதும் can be read as Ilango's resolve, with lines 61 and 62 as Saathan's reply, or as Saathan's proposal; this marking follows the first.",
+   "uncertain": true,
+   "speaker": {
+    "who": "ilango",
+    "form": null,
+    "line": null,
+    "addressee": "saathan"
+   },
+   "agents": [
+    {
+     "id": "ilango",
+     "form": "அடிகள்",
+     "line": 62
+    },
+    {
+     "id": "saathan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Ilango resolves to compose the Silappathikaram on the three morals, and is urged to do so as a poem for all three kings.",
+   "claims": [
+    {
+     "claim": "dharma itself becomes death to rulers who go wrong in kingship",
+     "school": "general",
+     "line": 55,
+     "stance": "asserted",
+     "voiced_by": "ilango"
+    },
+    {
+     "claim": "the exalted praise a pathini of great renown",
+     "school": "general",
+     "line": 56,
+     "stance": "asserted",
+     "voiced_by": "ilango"
+    },
+    {
+     "claim": "the deed of a former time comes in wrath and makes its doer eat its fruit",
+     "school": "general",
+     "line": 57,
+     "stance": "asserted",
+     "voiced_by": "ilango"
+    }
+   ]
+  },
+  "silappathikaram:0:69-90": {
+   "reading": "The list of the thirty kaathais continues from the Kaanal Vari through Madhavi's lament, the dream, the journey, the killing and the plea, to the burning, the goddess's word, the hill kuravai and the five Vanchi kaathais ending with the Varantharu Kaathai, and the patikam closes by saying that this song-poem with prose set among it was composed by Adigal and heard by Saathan the grain merchant of Madurai.",
+   "concepts": [
+    "thamizh",
+    "pugazh"
+   ],
+   "nuance": "Line 86 (இவ்வா றைந்தும், six fives) gives the count of thirty, which the list bears out. The closing lines describe the form, verse with prose between (உரையிடை இட்ட பாட்டுடைச் செய்யுள்), and name Saathan as the first hearer, so the frame that began with him telling the story ends with him receiving the poem.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ilango",
+     "form": "அடிகள்",
+     "line": 88
+    },
+    {
+     "id": "saathan",
+     "form": "சாத்தன்",
+     "line": 89
+    }
+   ],
+   "event": "Adigal composes the poem and Saathan, the grain merchant of Madurai, hears it.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "silappathikaram:0:1-11",
+   "b": "silappathikaram:23:177-200",
+   "type": "develops",
+   "note": "The kuravar's report of a one-breasted woman taken to heaven under a flowering vengai by the retinue of the king of the gods is the event the Katturai Kaathai narrates at its close, where Kannaki climbs the hill, stands under the vengai and boards the heavenly car with Kovalan.",
+   "teaches": "The patikam gives the ascent as seen by strangers who call it a wonder, while the kaathai gives it from inside, with Kannaki naming herself one who did the deed of fire, so the pair shows the poem framing as a marvel what its heroine felt as guilt."
+  },
+  {
+   "a": "silappathikaram:0:12-26",
+   "b": "silappathikaram:20:74-91",
+   "type": "tension",
+   "note": "The goldsmith names Kovalan the thief (கள்வன்) of the anklet; in the Vazhakkurai Kaathai the king, seeing the gem fly from the broken anklet, says that he, who heard the goldsmith, is the thief (யானே கள்வன்).",
+   "teaches": "The word thief passes in the course of the poem from the accused stranger to the goldsmith's own hidden act and finally to the king's mouth about himself, so the patikam's first accusation is set up to be reversed by the one who acted on it."
+  },
+  {
+   "a": "silappathikaram:0:27-36",
+   "b": "silappathikaram:20:55-73",
+   "type": "qualifies",
+   "note": "The patikam says the Pandya did not inquire because the time of the deed's ripening had come; Kannaki addresses him as தேரா மன்னா, the king who did not inquire, and says ஊழ்வினை drove her husband to Madurai.",
+   "teaches": "The patikam makes karma the reason the king failed to inquire, but Kannaki uses that failure as her charge against him while giving karma only as what brought Kovalan to the city, so the epic keeps karma and royal fault as two causes and assigns blame only to the second."
+  },
+  {
+   "a": "silappathikaram:0:27-36",
+   "b": "kural:548",
+   "type": "qualifies",
+   "note": "The couplet says a ruler who does not examine (ஓரா) and do justice falls by himself; the patikam has the Pandya fail to examine (தேரானாகி) and fall, but says he failed because the time of the deed's ripening had come.",
+   "teaches": "The couplet treats the failure to examine as the king's own fault and the ruin as its consequence, and the epic keeps the consequence but places the failure itself inside a karmic order, which raises the question the couplet does not face of how a fated lapse can still be the king's guilt.",
+   "gains": {
+    "a": "the epic's double cause gains a precise rule from outside the story against which the king's lapse is a fault in law and not only a misfortune",
+    "b": "the couplet gains a test case in which the lapse it condemns is said to have been brought on by a past deed, so its self-caused ruin is shown with a second cause behind it"
+   }
+  },
+  {
+   "a": "silappathikaram:0:27-36",
+   "b": "kural:55",
+   "type": "qualifies",
+   "note": "The couplet says the wife who worships her husband rather than a god commands the rain; the patikam says that because Kannaki was a pathini she burned Madurai and brought down its king.",
+   "teaches": "The power the couplet gives the devoted wife is a blessing on the world through rain, and the epic turns the same power into fire against a city once her husband is wronged, so the pair shows the chaste wife's word as a force that can destroy as well as nourish.",
+   "gains": {
+    "a": "Kannaki's burning of the city gains a source in the ethics book's claim that a wife's devotion commands nature",
+    "b": "the couplet's promise gains its dark counterpart: the same command over nature used for punishment, which the couplet's rain never suggests"
+   }
+  },
+  {
+   "a": "silappathikaram:0:37-54",
+   "b": "silappathikaram:23:138-160",
+   "type": "develops",
+   "note": "The patikam names only the curse of Sangaman's wife from a former birth; the Katturai Kaathai tells that Kovalan, then Bharatan, a king's servant, seized Sangaman as a spy and had him killed, and that his widow Nili, finding no refuge, cried for justice.",
+   "teaches": "Read together, the curse is seen to repeat its cause exactly: a merchant falsely taken and killed by royal order, a wife left with no ground to stand on, so Kovalan's death mirrors the one he caused and Kannaki's lament repeats Nili's."
+  },
+  {
+   "a": "silappathikaram:0:37-54",
+   "b": "naladiyar:101",
+   "type": "qualifies",
+   "note": "The quatrain says an old deed finds its doer as a calf finds its mother among many cows; the patikam has a deed of a former birth in Singapuram find Kovalan in Madurai, and says it has run its course for both of them (நுங்கட்கு).",
+   "teaches": "The quatrain's deed seeks the one who did it, but the epic's curse reaches across a birth and a country through the word of the victim's widow and falls on the doer's wife as well, so the pair shows the epic widening the quatrain's single doer into a household.",
+   "gains": {
+    "a": "Saathan's report gains a general law stated without story, that a past deed actively seeks its doer, which makes the goddess's word an instance and not a private verdict",
+    "b": "the quatrain gains a case showing how the seeking works, through a curse spoken by another, and that it can fall on one who did not do the deed"
+   }
+  },
+  {
+   "a": "silappathikaram:0:55-68",
+   "b": "silappathikaram:20:92-95",
+   "type": "develops",
+   "note": "The patikam's first moral is that dharma becomes death to those who err in kingship; the first venba after the Pandya's death calls this the saying of many assemblies, that dharma is death to wrongdoers, and turns it on the queen as well.",
+   "teaches": "The patikam narrows the saying to kings and claims it as the poem's own thesis, while the venba gives it back to common opinion and extends it to the queen who dies with the king, so the pair shows the poem's moral both resting on a proverb and making it a rule of kingship."
+  },
+  {
+   "a": "silappathikaram:0:55-68",
+   "b": "kural:380",
+   "type": "develops",
+   "note": "The couplet says nothing is stronger than ஊழ், which arrives first even when one devises (சூழினும்) another way; the patikam says the ஊழ்வினை comes in wrath and makes one eat it, through the finely made (சூழ்வினை) anklet.",
+   "teaches": "The couplet's fate outruns any plan, and the epic gives the plan a body: the anklet Kovalan meant to sell to start life again becomes the instrument of the fate it was meant to escape, and the epic adds that fate comes in anger and feeds its fruit, which the couplet does not say.",
+   "gains": {
+    "a": "the epic's moral gains a sharper claim about scheming, that devising against fate is itself overtaken, which explains why Kovalan's fresh start ends in his death",
+    "b": "the couplet's abstract race between fate and plan gains a concrete object, the anklet, and an emotional colour, the wrath of the returning deed"
+   }
+  },
+  {
+   "a": "silappathikaram:0:55-68",
+   "b": "tirumanthiram:1649",
+   "type": "tension",
+   "note": "The patikam states as a thesis that the deed of the past comes in wrath and makes one eat it; the Tirumanthiram says that by Siva's grace deeds do not cling (வினை சேரகிலாமை).",
+   "teaches": "If the patikam's line is read as admitting no release, the two give incompatible accounts of whether a past deed must be eaten, and the epic offers no grace that could stop it, since even the gods appear only to honour Kannaki after the deed has run its course; the Tirumanthiram puts grace before the fruit.",
+   "gains": {
+    "a": "the epic's moral gains its sharpest contrast, which shows that its karma is unmediated: no god in the patikam intervenes before the fruit",
+    "b": "the Tirumanthiram's claim gains a rival from the same language and land in which deeds do cling and must be eaten, so its grace is seen as an answer to a live view"
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "pathini",
+   "tamil": "பத்தினி",
+   "gloss": "the chaste wife whose steadfastness gives her word power over kings, cities and nature",
+   "label_source": "the unit's own word (lines 5, 33, 36, 42, 56)"
+  },
+  {
+   "id": "saabam",
+   "tamil": "சாபம்",
+   "gloss": "a curse, a word spoken in grief or anger that binds its object and comes to fruit, even in a later birth",
+   "label_source": "the unit's own word (line 49)"
+  }
+ ],
+ "source_issues": []
+}

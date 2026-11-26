@@ -1,0 +1,423 @@
+{
+ "chapter_no": 14,
+ "chapter_theme": "Aravana Adigal tells Manimekalai the early life of Aputtiran, first holder of her bowl: abandoned by his brahmin mother, nursed by a cow and adopted by a brahmin, he steals a cow from a sacrifice, answers the brahmins' contempt for his birth with their own seers' animal and courtesan births, and is driven out to live in Madurai as a beggar who feeds the helpless.",
+ "cast": [
+  {
+   "id": "aravana_adigal",
+   "tamil": "அறவண அடிகள்",
+   "role": "the Buddhist teacher who tells Manimekalai the bowl's history"
+  },
+  {
+   "id": "manimekalai",
+   "tamil": "மணிமேகலை",
+   "role": "Madhavi's daughter, who has received the bowl"
+  },
+  {
+   "id": "aaputhiran",
+   "tamil": "ஆபுத்திரன்",
+   "role": "the cow-nursed foundling, first holder of the bowl"
+  },
+  {
+   "id": "saali",
+   "tamil": "சாலி",
+   "role": "Abanjikan's wife, Aputtiran's mother"
+  },
+  {
+   "id": "abanjikan",
+   "tamil": "அபஞ்சிகன்",
+   "role": "Veda teacher of Varanasi, Saali's husband"
+  },
+  {
+   "id": "ompiya_aa",
+   "tamil": "ஆ",
+   "role": "the cow that nursed the abandoned infant"
+  },
+  {
+   "id": "ilampoothi",
+   "tamil": "இளம்பூதி",
+   "role": "brahmin of Vayanangodu who adopts Aputtiran"
+  },
+  {
+   "id": "ilampoothi_manaivi",
+   "tamil": "காதலி",
+   "role": "Ilampoothi's wife"
+  },
+  {
+   "id": "velvi_aa",
+   "tamil": "ஆ",
+   "role": "the cow led to the sacrifice and stolen by Aputtiran"
+  },
+  {
+   "id": "velvi_anthanar",
+   "tamil": "அந்தணர்",
+   "role": "the brahmins who pursue and revile Aputtiran"
+  },
+  {
+   "id": "uvaaththi",
+   "tamil": "அந்தணர் உவாத்தி",
+   "role": "the brahmins' teacher, gored by the cow"
+  },
+  {
+   "id": "anthanan_oruvan",
+   "tamil": "ஓர் அந்தணன்",
+   "role": "the brahmin who reports Saali's confession"
+  }
+ ],
+ "verses": {
+  "manimekalai:13:1-19": {
+   "reading": "Aravana Adigal begins Aputtiran's story for Manimekalai: Saali, wife of the Varanasi Veda teacher Abanjikan, having wronged her husband and fled his punishment, bears a child on her way back from bathing at Kumari and leaves it in a hidden grove; a cow licks and suckles it and guards it seven days, until the brahmin Ilampoothi of Vayanangodu hears it cry, weeps, and claims it as his own son, not a cow's.",
+   "concepts": [
+    "pirappu",
+    "arul",
+    "karpu"
+   ],
+   "nuance": "The unit sets the human mother who 'did not pity' the child (இரங்காள் ஆகி, 9) against the cow that comes to end its sorrow (அதன் துயர் தீர, 12); Ilampoothi's first words, 'not a cow's son but my son' (19), anticipate the insult the brahmins will later throw at the boy.",
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [
+    {
+     "id": "saali",
+     "form": "சாலி",
+     "line": 5
+    },
+    {
+     "id": "ompiya_aa",
+     "form": "ஆ",
+     "line": 12
+    },
+    {
+     "id": "ilampoothi",
+     "form": "இளம்பூதி",
+     "line": 16
+    }
+   ],
+   "event": "Saali abandons her newborn in a grove near the road; a cow nurses and guards it for seven days, and the brahmin Ilampoothi finds the child and takes it as his son.",
+   "claims": []
+  },
+  "manimekalai:13:20-48": {
+   "reading": "Ilampoothi and his wife take the boy home and rejoice in a son, and he masters the brahmins' learning before his thread ceremony; entering a brahmin's house where a flesh-ringed sacrifice is prepared, he sees a garlanded cow trembling like a deer in a net, steals it away by night, and is caught on the desert road by the brahmins, who call him no son of theirs but a base boy and beat him with sticks until the cow gores their teacher and runs off into the forest.",
+   "concepts": [
+    "kollaamai",
+    "aaguthi",
+    "arul",
+    "andhanar"
+   ],
+   "nuance": "The narrator names the rite புலை சூழ் வேள்வி (28), a sacrifice surrounded by what is foul, and the boy's own aim is to end the cow's suffering from 'stealthy work' (கள்ள வினை, 35), so the theft is framed as rescue before the brahmins name it theft. The cow that kills the teacher (46-47) makes the rescued victim the cause of a death, a cost the narration states without comment. Boundary moved: see unit_note.",
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [
+    {
+     "id": "ilampoothi",
+     "form": null,
+     "line": 20
+    },
+    {
+     "id": "ilampoothi_manaivi",
+     "form": "காதலி",
+     "line": 20
+    },
+    {
+     "id": "aaputhiran",
+     "form": null,
+     "line": 28
+    },
+    {
+     "id": "velvi_anthanar",
+     "form": "அந்தணர்",
+     "line": 40
+    },
+    {
+     "id": "uvaaththi",
+     "form": "உவாத்தி",
+     "line": 46
+    },
+    {
+     "id": "velvi_aa",
+     "form": "ஆ",
+     "line": 48
+    }
+   ],
+   "event": "The boy steals the cow meant for a sacrifice, is caught and beaten by the brahmins, and the cow gores their teacher to death and escapes.",
+   "claims": [
+    {
+     "claim": "a sacrifice that kills a cow is a foul act",
+     "school": "general",
+     "line": 28,
+     "stance": "asserted",
+     "voiced_by": "aravana_adigal"
+    }
+   ],
+   "unit_note": "The boundary between this unit and the next was moved from 44/45 to 48/49: the sentence that begins at 40 with the brahmins' capture runs through the beating (45) and the cow's flight (48), and Aputtiran's speech opens at 49."
+  },
+  "manimekalai:13:49-56": {
+   "reading": "Aputtiran tells the brahmins not to do hurtful things and to hear him: the cow eats the grass of the waste lands and from the day of their birth feeds all people its sweet milk with a heart that gives virtue and overflowing kindness, so what enmity do they have with it?",
+   "concepts": [
+    "arul",
+    "kollaamai",
+    "aram"
+   ],
+   "nuance": "He defends the cow by what it gives, not by any sanctity of its kind: it eats what no one owns (விடு நில மருங்கின் படு புல், 51) and nourishes everyone, so the brahmins' claim on it as a victim is answered with a claim of debt.",
+   "speaker": {
+    "who": "aaputhiran",
+    "form": "ஆபுத்திரன்",
+    "line": 49,
+    "addressee": "velvi_anthanar"
+   },
+   "agents": [
+    {
+     "id": "aaputhiran",
+     "form": "ஆபுத்திரன்",
+     "line": 49
+    }
+   ],
+   "event": "Aputtiran asks the brahmins why they bear enmity to a cow that feeds all people.",
+   "claims": [
+    {
+     "claim": "a cow, which nourishes all people with its milk out of kindness, should not be harmed",
+     "school": "general",
+     "line": 54,
+     "stance": "asserted",
+     "voiced_by": "aaputhiran"
+    }
+   ],
+   "unit_note": "Starts at 49 instead of 45; see the note on 20-48. Ends at 56 as before."
+  },
+  "manimekalai:13:57-69": {
+   "reading": "The brahmins scorn him as one who despised the Veda that Brahma, son of the discus-bearing lord of life, gave them, a small-minded boy fit to be a cow's son and no son of theirs; Aputtiran answers that their own tradition praises the seers Asalan, son of a cow, Sringi, son of a deer, Virinchi, son of a tiger, and Kesakambalan, son of a jackal, as sages of their line, and asks whether the good books of the four Vedas know any lineage ruined by birth from a cow.",
+   "concepts": [
+    "pirappu",
+    "kudi",
+    "vedham",
+    "andhanar"
+   ],
+   "nuance": "The brahmins' insult turns the boy's history into a verdict (ஆ மகன் ஆதற்கு ஒத்தனை, 61); Aputtiran does not reject the Veda but argues from within it. The names at 63-65 are rare and their legends are not told here, so whose tradition supplies them is not clear from the Tamil.",
+   "uncertain": true,
+   "speaker": {
+    "who": "aaputhiran",
+    "form": null,
+    "line": null,
+    "addressee": "velvi_anthanar"
+   },
+   "agents": [
+    {
+     "id": "velvi_anthanar",
+     "form": null,
+     "line": 62
+    },
+    {
+     "id": "aaputhiran",
+     "form": null,
+     "line": 63
+    }
+   ],
+   "event": "The brahmins revile Aputtiran as a cow's son ignorant of the Veda, and he replies with seers of their tradition born of animals.",
+   "claims": [
+    {
+     "claim": "the Veda was given by Brahma, son of the discus-bearing lord",
+     "school": "vedic",
+     "line": 58,
+     "stance": "reported",
+     "voiced_by": "velvi_anthanar"
+    },
+    {
+     "claim": "one who scorns the Veda is no son of the brahmins and fit to be called a cow's son",
+     "school": "vedic",
+     "line": 61,
+     "stance": "refuted",
+     "voiced_by": "velvi_anthanar"
+    },
+    {
+     "claim": "birth from an animal does not debase a lineage, since revered seers were so born",
+     "school": "general",
+     "line": 68,
+     "stance": "asserted",
+     "voiced_by": "aaputhiran"
+    }
+   ],
+   "unit_note": "The boundary with the next unit was moved from 68/69 to 69/70: Aputtiran's question that begins at 68 (ஆவொடு வந்த அழி குலம் உண்டோ) ends at 69 with என, and the brahmin's new speech opens at 70."
+  },
+  "manimekalai:13:70-91": {
+   "reading": "One of the brahmins says he knows the boy's birth: he met Saali, worn by the road, worshipping at Kumari, and when he asked her town and errand she told him she was the wife of the Varanasi Veda teacher, had behaved unlike a brahmin woman and slighted her husband, had fled in fear of punishment, and on her way back had left her newborn in a grove beyond Korkai, asking whether a sinner like her had any good course left; this boy is her son, so they must not touch him, for he is an outcaste.",
+   "concepts": [
+    "pirappu",
+    "karpu",
+    "vinai",
+    "kudi"
+   ],
+   "nuance": "Saali's confession (78-88) repeats the narrator's account at 3-10 almost word for word, now inside a hostile witness's speech, so the same facts are used once to explain the child and once to condemn him. The brahmin judges the son by the mother's conduct; Aputtiran answers that verdict in the next unit (92-98).",
+   "speaker": {
+    "who": "anthanan_oruvan",
+    "form": "அந்தணன்",
+    "line": 70,
+    "addressee": "velvi_anthanar"
+   },
+   "agents": [
+    {
+     "id": "anthanan_oruvan",
+     "form": "அந்தணன்",
+     "line": 70
+    },
+    {
+     "id": "saali",
+     "form": "சாலி",
+     "line": 75
+    }
+   ],
+   "event": "A brahmin reports Saali's confession of her lapse and her abandonment of the child, and declares Aputtiran her son and an outcaste.",
+   "claims": [
+    {
+     "claim": "one who has done evil deeds has no good destiny left",
+     "school": "general",
+     "line": 88,
+     "stance": "reported",
+     "voiced_by": "saali"
+    },
+    {
+     "claim": "the son of a brahmin wife who broke her conduct is an outcaste and must not be touched",
+     "school": "vedic",
+     "line": 91,
+     "stance": "refuted",
+     "voiced_by": "anthanan_oruvan"
+    }
+   ],
+   "unit_note": "Starts at 70 instead of 69 (see the note on 57-69) and ends at 91 instead of 93: the brahmin's speech closes at 91 with என, and 92-93 introduce Aputtiran's reply."
+  },
+  "manimekalai:13:92-115": {
+   "reading": "Aputtiran laughs and tells the brahmins to hear the birth of their own line: the two first brahmin seers of the ancient Veda were the beloved sons of a heavenly courtesan, so what fault has Saali? He is then cast out by his father Poothi as unfit to study among brahmins, stones are dropped in his begging bowl in every brahmin village as 'the cow-stealing thief', and he goes to southern Madurai, lodges in the hall before the temple of Chinthadevi, begs from house to house, calls the blind, the deaf, the lame, the unprotected and the sick to eat, eats what is left and sleeps with his bowl for a pillow.",
+   "concepts": [
+    "pirappu",
+    "iravu",
+    "pasi",
+    "eegai"
+   ],
+   "nuance": "The tradition names the two seers born of a heavenly courtesan as Vasishtha and Agastya; the Tamil here does not name them. The narrator calls the outcast beggar காவலன் (115), protector, the word for a king, and the begging bowl (கடிஞை, 103, 109) stoned in the villages is the one he will soon exchange for the divine bowl (Manimekalai 14).",
+   "speaker": {
+    "who": "aravana_adigal",
+    "form": null,
+    "line": null,
+    "addressee": "manimekalai"
+   },
+   "agents": [
+    {
+     "id": "aaputhiran",
+     "form": "ஆபுத்திரன்",
+     "line": 92
+    },
+    {
+     "id": "ilampoothi",
+     "form": "பூதி",
+     "line": 101
+    },
+    {
+     "id": "velvi_anthanar",
+     "form": "அந்தணர்",
+     "line": 102
+    }
+   ],
+   "event": "Aputtiran mocks the brahmins' pride of birth, is disowned by Ilampoothi and driven from the brahmin villages, and settles in Madurai begging to feed the helpless.",
+   "claims": [
+    {
+     "claim": "if revered brahmin seers were born of a courtesan, a mother's lapse cannot debase her son",
+     "school": "general",
+     "line": 98,
+     "stance": "asserted",
+     "voiced_by": "aaputhiran"
+    },
+    {
+     "claim": "one not born of a proper brahmin union is unfit for Vedic study",
+     "school": "vedic",
+     "line": 100,
+     "stance": "reported",
+     "voiced_by": "ilampoothi"
+    }
+   ],
+   "unit_note": "Starts at 92 instead of 94; see the note on 70-91."
+  }
+ },
+ "links": [
+  {
+   "a": "manimekalai:13:1-19",
+   "b": "manimekalai:15:15-30",
+   "type": "develops",
+   "note": "The cow that licks, suckles and guards the abandoned infant here is the cow in whose womb Aputtiran is reborn after he dies on Manipallavam.",
+   "teaches": "The mother who would not pity her child is replaced across two births by the cow, which first nurses him and then bears him, so the name 'cow's son' that the brahmins throw at him as an insult becomes literally true and honoured."
+  },
+  {
+   "a": "manimekalai:13:92-115",
+   "b": "manimekalai:14:1-15",
+   "type": "develops",
+   "note": "Aputtiran begs with an ordinary bowl to feed the helpless and eats the leftovers; in the next kaathai, unable to feed travellers who come in the rain, he is given the inexhaustible bowl by Chinthadevi.",
+   "teaches": "The divine bowl goes to someone already living as a beggar who feeds others before himself, so the epic presents it as answering an alms-giving done with nothing rather than as the source of his charity."
+  },
+  {
+   "a": "manimekalai:13:20-48",
+   "b": "kural:259",
+   "type": "qualifies",
+   "note": "The couplet ranks not taking one creature's life above a thousand oblations; the boy takes the cow from a sacrifice and is caught, beaten and called a thief.",
+   "teaches": "The couplet weighs abstention against sacrifice as a private choice of merit, while the epic shows what acting on it costs inside a sacrificing community: the rescuer is branded a thief and expelled from his caste.",
+   "gains": {
+    "a": "The boy's theft gains a recognised ethical rule behind it, which the brahmins' charge of theft leaves out.",
+    "b": "The couplet's comparison gains a case where refusing the sacrifice carries a social price, which the couplet does not count."
+   }
+  },
+  {
+   "a": "manimekalai:13:57-69",
+   "b": "naladiyar:195",
+   "type": "develops",
+   "note": "The quatrain calls good and bad caste mere words and makes lineage depend on austerity, learning and effort; Aputtiran cites the brahmins' own seers born of cow, deer, tiger and jackal.",
+   "teaches": "The quatrain denies birth rank from outside by naming what truly makes a line, while Aputtiran denies it from inside the brahmins' tradition, so the critique becomes a charge of inconsistency rather than a rival standard.",
+   "gains": {
+    "a": "Aputtiran's retort is given the general principle that his examples only imply.",
+    "b": "The quatrain's bare assertion gains an argument that defenders of birth rank cannot dismiss as foreign to their own books."
+   }
+  },
+  {
+   "a": "manimekalai:13:70-91",
+   "b": "kural:134",
+   "type": "qualifies",
+   "note": "The couplet says a brahmin's birth is ruined when his conduct fails; the brahmin witness declares the boy an outcaste because his mother confessed she acted unlike a brahmin wife.",
+   "teaches": "The couplet lets a man's own conduct unmake his birth, and the witness stretches this into a son's birth unmade by his mother's conduct, a step the couplet does not take and one Aputtiran then turns back on the Vedic seers' own mothers.",
+   "gains": {
+    "a": "The witness's verdict is seen as a twisting of a recognised rule rather than plain prejudice.",
+    "b": "The couplet's rule is shown to be open to use as hereditary taint once conduct is read through a mother."
+   }
+  },
+  {
+   "a": "manimekalai:13:92-115",
+   "b": "kural:1066",
+   "type": "tension",
+   "note": "The couplet says nothing shames the tongue more than begging, even water for a cow; Aputtiran, the cow's son, begs from house to house to feed the blind, the deaf and the lame.",
+   "teaches": "The couplet holds that even the worthiest cause cannot make asking honourable, while the epic makes begging on others' behalf its hero's virtue and the ground of the divine bowl; the conflict depends on reading the couplet's cow example as covering begging for another's need, which it seems to.",
+   "gains": {
+    "a": "Aputtiran's begging stands out as a choice made against a known ethic of shame, not mere want.",
+    "b": "The couplet's limit case meets a story that answers it by honouring a beggar for others' sake."
+   }
+  },
+  {
+   "a": "manimekalai:13:92-115",
+   "b": "siddhar:360",
+   "type": "qualifies",
+   "note": "The Siddhar says he has resolved to beg from any caste and lacks nothing; Aputtiran, driven from caste with stones in his bowl, begs from every house to feed the helpless and eats what is left.",
+   "teaches": "Begging across caste lines is the Siddhar's chosen freedom and his sufficiency, while for Aputtiran it is what is left after caste expels him, and he turns it outward to feed others, so the same act carries renunciation in one and charity in the other.",
+   "gains": {
+    "a": "The epic beggar's stripped life is seen as close to a renouncer's, though he claims no renunciation.",
+    "b": "The Siddhar's self-sufficiency is seen to leave out the feeding of others that the epic puts at the centre of begging."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Line 1 opens a quotation for Aravana Adigal's speech that is not closed within the kaathai; it continues into kaathai 14.",
+  "Lines 93-98: Aputtiran's reply opens with a double quotation mark at 93 and closes with a single mark after தவறு? at 98.",
+  "Line 115 ends with a bare என், the kaathai's closing particle, so the last sentence reads as cut off in this text.",
+  "Unit boundaries at 44/45, 68/69 and 93/94 fell inside sentences (the last with break score 0); they were moved to 48/49, 69/70 and 91/92."
+ ]
+}

@@ -1,0 +1,573 @@
+{
+ "chapter_no": 15,
+ "chapter_theme": "On the road from Uraiyur to Madurai the travellers meet a Vaishnava brahmin who praises the Pandya line and maps three roads, with a cave of wish-granting pools on one; the Jain ascetic Kavunthi answers that truth and care for life reach the same ends, and in the forest a goddess in the form of Madhavi's maid tries to delude Kovalan until a mantra unmasks her, before the three reach the hunters' shrine of Aiyai.",
+ "cast": [
+  {
+   "id": "kovalan",
+   "tamil": "கோவலன்",
+   "role": "the merchant's son of Puhar, travelling to Madurai"
+  },
+  {
+   "id": "kannaki",
+   "tamil": "கண்ணகி",
+   "role": "Kovalan's wife"
+  },
+  {
+   "id": "kavunthi",
+   "tamil": "கவுந்தி அடிகள்",
+   "role": "the Jain ascetic woman who guides them to Madurai (named here காவுந்தி ஐயை, கவுந்தி அடிகள், மாதவத்தாட்டி)"
+  },
+  {
+   "id": "saaranar",
+   "tamil": "சாரணர்",
+   "role": "the Jain Charanas, wandering sages, who speak at the shrine grove"
+  },
+  {
+   "id": "maangaattu_maraiyon",
+   "tamil": "மாங்காட்டு மறையோன்",
+   "role": "the old Vaishnava brahmin of Maankadu in the western hills who tells the roads to Madurai"
+  },
+  {
+   "id": "vanasaarini",
+   "tamil": "வனசாரிணி",
+   "role": "the forest goddess who takes Vasantamalai's form to delude Kovalan"
+  },
+  {
+   "id": "madhavi",
+   "tamil": "மாதவி",
+   "role": "the courtesan dancer, Kovalan's former companion (only reported here)"
+  }
+ ],
+ "verses": {
+  "silappathikaram:11:1-14": {
+   "reading": "After worshipping the Arhat seated under the triple umbrella beneath the flowering pindi tree, and after the Charanas and then the great ascetic woman had spoken their good words at the shrine grove, the three stay the night at their lodging and, eager to go south, set off at the last watch before dawn and enter a grove of young trees beside watered fields and ponds.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan",
+    "thavam"
+   ],
+   "nuance": "The chapter opens in an explicitly Jain setting (the triple umbrella, the pindi or asoka tree, the Charanas, அறிவன் for the omniscient one), so the Vaishnava pilgrim who appears next is met by travellers who have just come from another shrine.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "saaranar",
+     "form": "சாரணர்",
+     "line": 7
+    },
+    {
+     "id": "kavunthi",
+     "form": "மாதவத் தாட்டியும்",
+     "line": 8
+    },
+    {
+     "id": "kovalan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kannaki",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kovalan, Kannaki and Kavunthi worship at a Jain shrine, rest the night, and set out south at dawn into a grove.",
+   "claims": [],
+   "unit_note": "Adjusted from the core cut 1-16 to 1-14: line 14 (இளமரக் கானத் திருக்கை புக்குழி) ends the journey clause, and line 15 begins the brahmin's blessing of the Pandya (வாழ்க எங்கோ)."
+  },
+  "silappathikaram:11:15-30": {
+   "reading": "A voice in the grove hails the Pandya: may he guard the world age after age, he whose lance the sea would not bear and who, when the sea took the Pahruli river and the Kumari peak with its hills, took the Ganga and the Himalaya in the north and ruled the south; he of the lunar line who wears Indra's necklace on his chest, who broke a crown, and who, when the thundering clouds withheld their rain, bound them and made the harvest unfailing.",
+   "concepts": [
+    "vendhan",
+    "mazhai",
+    "pugazh",
+    "arasu"
+   ],
+   "nuance": "Lines 17 to 22 tie the loss of southern land to the sea to a king's quarrel with it and set a northern conquest against it; the epic gives this as praise, not as history. Line 26 (முடிவளை உடைத்தோன்) is compressed and whose crown was broken is not stated. The praise of a faultless line (தீதுதீர் சிறப்பின் தென்னனை, line 30) is spoken on the road to the city where the reigning Pandya will condemn himself.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maangaattu_maraiyon",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maangaattu_maraiyon",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "An old brahmin sitting in the grove sings a blessing on the Pandya kings.",
+   "claims": [
+    {
+     "claim": "a king of the right line can bind the clouds and make the harvest unfailing",
+     "school": "general",
+     "line": 29,
+     "stance": "reported",
+     "voiced_by": "maangaattu_maraiyon"
+    }
+   ],
+   "unit_note": "Adjusted from the core cut 17-32 to 15-30: line 30 (தீதுதீர் சிறப்பின் தென்னனை வாழ்த்தி) closes the blessing, and line 31 turns to the brahmin and Kovalan's question."
+  },
+  "silappathikaram:11:31-56": {
+   "reading": "Kovalan asks the old brahmin where he comes from and why he is here, and the brahmin of Maankadu in the western hills answers that his heart pressed him to see with his own eyes the form in which Vishnu lies on the thousand-hooded serpent at the river island of the Kaveri and the form in which he stands, conch and discus in hand like a dark cloud girt with lightning, on the peak of Venkatam between sun and moon, and that having seen the Pandya land's excellence he stayed to praise it.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan",
+    "naadu"
+   ],
+   "nuance": "The pilgrim's wish is to see (என்கண் காட்டு, line 52): his devotion is to the god's visible postures, reclining and standing, which the chapter will set beside the Jain nun's inward discipline.",
+   "speaker": {
+    "who": "maangaattu_maraiyon",
+    "form": "மாமறை யாளன்",
+    "line": 34,
+    "addressee": "kovalan"
+   },
+   "agents": [
+    {
+     "id": "kovalan",
+     "form": "கோவலன்",
+     "line": 33
+    },
+    {
+     "id": "maangaattu_maraiyon",
+     "form": "மாமுது மறையோன்",
+     "line": 31
+    }
+   ],
+   "event": "Kovalan questions the brahmin, who says he is on pilgrimage to see Vishnu at Srirangam and Venkatam and stopped to praise the Pandya land.",
+   "claims": [],
+   "unit_note": "Adjusted from the core cut 33-47 (with 31-32 from 17-32 and 48-56 from 48-61) to 31-56: line 31 opens the exchange with the brahmin and line 56 (இதுவென் வரவென) ends his answer; the core cuts fell inside his speech."
+  },
+  "silappathikaram:11:57-71": {
+   "reading": "Kovalan asks the brahmin for the straight road to Madurai, and the brahmin tells him he has come with his lady at the season when summer and the burning sun, like a wide land that has lost its royal order because its king bent with his officers, twist the mullai and kurinji out of their nature into the form called paalai, and that he must cross this long waste of rock, hill and maze-like paths to the bank of the great tank of Kodumbai, where the road forks like the trident of the crescent-crowned god.",
+   "concepts": [
+    "kodungol",
+    "idukkan",
+    "naadu"
+   ],
+   "nuance": "The simile at lines 60 to 66 makes paalai a state of land rather than a region: forest and hill turned by heat into waste, as a kingdom is turned by a bent sceptre (கொற்றவன் கோடி). It is spoken on the road to the kingdom whose sceptre will bend.",
+   "speaker": {
+    "who": "maangaattu_maraiyon",
+    "form": "மாமறை முதல்வ",
+    "line": 58,
+    "addressee": "kovalan"
+   },
+   "agents": [
+    {
+     "id": "kovalan",
+     "form": "கோவலற்",
+     "line": 59
+    },
+    {
+     "id": "maangaattu_maraiyon",
+     "form": "தீத்திறம் புரிந்தோன்",
+     "line": 57
+    }
+   ],
+   "event": "Kovalan asks the way to Madurai and the brahmin describes the summer waste up to the three-way fork at Kodumbai.",
+   "claims": [],
+   "unit_note": "Adjusted from the core cut 62-77 (with 57-61 from 48-61) to 57-71: line 57 starts Kovalan's question, and line 71 (கொடும்பை நெடுங்குளக் கோட்டகம் புக்கால்) ends the stretch of road before the fork."
+  },
+  "silappathikaram:11:72-86": {
+   "reading": "If they take the right-hand branch, the brahmin says, past dead kadambu and omai, scorched ulinjil and dry bamboo, where deer cry for water, and through the hunters' pass, they will see the Pandya's Sirumalai rising among rice, cane, millet, turmeric, plantain, areca, coconut, mango and jack; keeping that hill on the right, they should go on to the wide city.",
+   "concepts": [
+    "naadu",
+    "idukkan"
+   ],
+   "speaker": {
+    "who": "maangaattu_maraiyon",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The brahmin describes the right-hand road through the waste past Sirumalai to Madurai.",
+   "claims": [],
+   "unit_note": "Adjusted from the core cut 62-77 and 78-88 to 72-86: line 72 begins the fork, and line 86 (அம்மலை வலங்கொண் டகன்பதிச் செல்லுமின்) closes the right-hand road with a strong break."
+  },
+  "silappathikaram:11:87-103": {
+   "reading": "If they take the left-hand branch, past fields, groves and many forests to Thirumal's hill, there is a cave that dispels great confusion and three pools praised by the gods, Punniya Saravanam, Bhavakaarini and Ishtasiddhi: bathing in the first gives the treatise of the king of the gods, in the second the knowledge of one's former birth, and in the third whatever one wishes.",
+   "concepts": [
+    "theerththam",
+    "piravi",
+    "siththi"
+   ],
+   "nuance": "The brahmin offers three goods from water: learning, memory of past lives, and wishes granted. Kavunthi answers the second directly at lines 156 to 157 without denying the pools' power; see 150-165.",
+   "speaker": {
+    "who": "maangaattu_maraiyon",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The brahmin describes the left-hand road to Thirumal's hill, its cave and its three pools.",
+   "claims": [
+    {
+     "claim": "bathing in the pool Punniya Saravanam gives the treatise of the king of the gods",
+     "school": "vaishnava",
+     "line": 99,
+     "stance": "reported",
+     "voiced_by": "maangaattu_maraiyon"
+    },
+    {
+     "claim": "bathing in the pool Bhavakaarini brings knowledge of one's former birth",
+     "school": "vaishnava",
+     "line": 101,
+     "stance": "reported",
+     "voiced_by": "maangaattu_maraiyon"
+    },
+    {
+     "claim": "bathing in the pool Ishtasiddhi gains whatever one wishes",
+     "school": "vaishnava",
+     "line": 103,
+     "stance": "reported",
+     "voiced_by": "maangaattu_maraiyon"
+    }
+   ],
+   "unit_note": "Adjusted from the core cut 78-88 and 89-103 to 87-103: line 87 (அவ்வழிப் படரீ ராயின்) opens the left-hand road, and line 103 closes the pools' account with a strong break."
+  },
+  "silappathikaram:11:104-117": {
+   "reading": "To enter the cave, the brahmin says, they must worship the high one of the hill, set his feet in their minds and walk round the hill three times; then by the Silambaaru a bangled woman will appear among karnikara blossoms and ask them to tell her the joy of this life, the joy of the next, and the state that stands in perfection beyond both, saying she is Varottamai who lives at the hill's foot, belongs to those who answer, and will open the door to the worthy.",
+   "concepts": [
+    "vazhipaadu",
+    "inbam",
+    "marumai",
+    "thiruvadi"
+   ],
+   "nuance": "Varottamai's riddle lays out a scale of three ends, joy here, joy hereafter, and a third beyond both, which looks like release; the chapter never gives the answer.",
+   "speaker": {
+    "who": "maangaattu_maraiyon",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The brahmin explains the rite for entering the cave and the guardian woman's riddle at its door.",
+   "claims": [
+    {
+     "claim": "the cave opens to one who keeps the hill god's feet in mind and walks round the hill three times",
+     "school": "vaishnava",
+     "line": 106,
+     "stance": "reported",
+     "voiced_by": "maangaattu_maraiyon"
+    }
+   ]
+  },
+  "silappathikaram:11:118-140": {
+   "reading": "Inside, the brahmin goes on, are many gates; above a joined gate a slender maiden will ask them to tell her the joy that has no end and promise them what they seek, or else send them unharmed back to the road, and to those who answer she shows the three pools; there, reciting together the two mantras of five and of eight letters, they may bathe in the one they want, but better, thinking of none of these, to fix the heart on the golden lotus feet of the god on the hill, whose bird banner will then appear, and having reached the joy of his feet that ends sorrow, to go on to Madurai.",
+   "concepts": [
+    "thiruvadi",
+    "mandhiram",
+    "theerththam",
+    "inbam"
+   ],
+   "nuance": "The brahmin himself ranks the pools below devotion (மற்றவை நினையாது, line 133), so the pilgrim's account already moves from outer water to the god's feet. Lines 128 to 132, on the two mantras and what is not to be seen, are compressed and my reading of them is tentative; the text says only five and eight letters, not which formulas.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maangaattu_maraiyon",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The brahmin describes the inner gates, a second riddle, the mantras for the pools, and the higher way of devotion to the hill god.",
+   "claims": [
+    {
+     "claim": "fixing the heart on the hill god's feet, not on the pools' boons, brings the joy that ends sorrow",
+     "school": "vaishnava",
+     "line": 134,
+     "stance": "reported",
+     "voiced_by": "maangaattu_maraiyon"
+    }
+   ],
+   "unit_note": "Adjusted from the core cut 118-136 (with 137-140 from 137-149) to 118-140: line 136 (புணர்நிலை தோன்றும்) runs on into 137 (தோன்றிய பின்), and line 140 (காண்டகு பிலத்தின் காட்சி யீதாங்கு) closes the account of the cave."
+  },
+  "silappathikaram:11:141-149": {
+   "reading": "If they take neither branch, the middle way is the straight road: past forests set between towns there is on the hard way a goddess of great affliction who appears gently and, doing no harm, holds back those who pass, and then the Madurai highway; as for himself, the brahmin says, he goes to worship the feet of the tall-crowned lord who strode across the wide earth.",
+   "concepts": [
+    "anangu",
+    "vazhipaadu"
+   ],
+   "nuance": "The warning is brief and its last verb (தாங்கும், line 146) can mean to hold back or to bear up travellers; Kovalan recalls it at lines 192 to 193 as a warning of a deluding goddess, which supports the first sense.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maangaattu_maraiyon",
+    "form": "தகையேன்",
+    "line": 149,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maangaattu_maraiyon",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The brahmin describes the middle road, warns of a goddess on it, and takes his leave to worship Vishnu.",
+   "claims": [],
+   "unit_note": "Adjusted from the core cut 137-149 to 141-149: line 141 (அந்நெறிப் படரீ ராயின்) begins the third road after the cave account ends at line 140; line 149 ends the brahmin's speech."
+  },
+  "silappathikaram:11:150-165": {
+   "reading": "Kavunthi answers the brahmin that there is no need to enter the cave: does he not see clearly, by the book that the Indra of the heavens taught, that what was gained in past births is seen in this one, and is there any rare thing beyond the reach of those who never swerve from truth and who protect living beings; let him go and worship the god he loves, and they will take their long road; so the travellers part from him, rest that day in a town and go on.",
+   "concepts": [
+    "vaaimai",
+    "kollaamai",
+    "piravi",
+    "theerththam"
+   ],
+   "nuance": "She does not deny the pools: she says their ends are reached by truth and care for life, and answers Bhavakaarini's promise of one's former birth (line 101) with the claim that past births show in this one. She then sends the brahmin courteously to his own god. கப்பத்து இந்திரன் (line 154) seems to be the Indra of a heaven (கற்பம்) and the book a scripture; which book is not said. The narrator calls her reply a கட்டுரை, a weighty word, which I take as endorsement.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kavunthi",
+    "form": "காவுந்தி யையை",
+    "line": 151,
+    "addressee": "maangaattu_maraiyon"
+   },
+   "agents": [
+    {
+     "id": "kavunthi",
+     "form": "காவுந்தி யையை",
+     "line": 151
+    },
+    {
+     "id": "kovalan",
+     "form": "கோவலன்",
+     "line": 163
+    }
+   ],
+   "event": "Kavunthi tells the brahmin the cave is unnecessary and sends him to his god; the travellers rest a day in a town and go on.",
+   "claims": [
+    {
+     "claim": "what one gained in past births can be known in this birth, as a scripture taught by Indra shows, without entering the cave",
+     "school": "jain",
+     "line": 157,
+     "stance": "asserted",
+     "voiced_by": "kavunthi"
+    },
+    {
+     "claim": "nothing is beyond the reach of those who never swerve from truth and who protect living beings",
+     "school": "general",
+     "line": 159,
+     "stance": "asserted",
+     "voiced_by": "kavunthi"
+    }
+   ],
+   "unit_note": "Adjusted from the core cut 150-172 to 150-165: line 165 ends the day's march, and line 166 begins the scene at the roadside where Kannaki and Kavunthi rest."
+  },
+  "silappathikaram:11:166-191": {
+   "reading": "While Kannaki and Kavunthi rest by the road, Kovalan goes by a side path to a pool, thirsty, and the forest goddess, thinking he will yield to love, appears in the form of Vasantamalai, falls at his feet weeping and tells him that over the message written in the garland Madhavi, distraught and saying Kovalan had been cruel, declared the courtesan's life the lowest, one that the noble, the learned and the discerning cast off as a disease, tore off her string of pearls and in anger dismissed her too, so that she came with a caravan to Madurai and now asks his command.",
+   "concepts": [
+    "vanjam",
+    "anangu",
+    "varaivinmagalir",
+    "pirivu"
+   ],
+   "nuance": "The goddess's story takes up the thread left loose in the Venil kaathai, where Kovalan refused Madhavi's garland letter (8:94-118), and puts in Madhavi's mouth a verdict on her own calling which the later story has her live out in renouncing it. Lines 176 to 177 (தீதிலேன் பிழைமொழி செப்பினை) are hard to divide between Madhavi's words and the maid's; I read them as Madhavi blaming the maid for her message.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vanasaarini",
+    "form": "கானுறை தெய்வம்",
+    "line": 171,
+    "addressee": "kovalan"
+   },
+   "agents": [
+    {
+     "id": "kannaki",
+     "form": "கருந்தடங் கண்ணியும்",
+     "line": 166
+    },
+    {
+     "id": "kavunthi",
+     "form": "கவுந்தி யடிகளும்",
+     "line": 166
+    },
+    {
+     "id": "kovalan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vanasaarini",
+     "form": "கானுறை தெய்வம்",
+     "line": 171
+    }
+   ],
+   "event": "The forest goddess, in the form of Madhavi's maid Vasantamalai, meets Kovalan at a pool and tells him Madhavi has cast her off.",
+   "claims": [
+    {
+     "claim": "the courtesan's life is the lowest, one the noble, the learned and the discerning cast off as a disease",
+     "school": "general",
+     "line": 183,
+     "stance": "reported",
+     "voiced_by": "vanasaarini"
+    }
+   ],
+   "unit_note": "Adjusted from the core cut 150-172 and 173-192 to 166-191: line 172 (நல்குவன் இவனென) runs on into 173 (வயந்த மாலை வடிவில் தோன்றி), and line 191 (நின் பணிமொழி யாதென) ends the false maid's speech."
+  },
+  "silappathikaram:11:192-202": {
+   "reading": "Because the brahmin had said a deluding goddess haunts this forest, Kovalan resolves to know the woman by the mantra that undoes deceit, and since the mantra he speaks is that of the goddess Paaykalaippaavai, the spirit confesses that she is Vanasaarini who deluded him, begs him not to tell his wife or the holy lady, and goes; Kovalan then brings cool water in a lotus leaf and relieves Kannaki's thirst.",
+   "concepts": [
+    "mandhiram",
+    "vanjam",
+    "anangu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kovalan",
+     "form": "கோவலன்",
+     "line": 196
+    },
+    {
+     "id": "vanasaarini",
+     "form": "வனசா ரிணியான்",
+     "line": 198
+    },
+    {
+     "id": "kannaki",
+     "form": "மடந்தை",
+     "line": 202
+    }
+   ],
+   "event": "Kovalan unmasks the goddess with a mantra; she confesses and leaves, and he brings water to Kannaki.",
+   "claims": [],
+   "unit_note": "Adjusted from the core cut 173-192 and 193-216 to 192-202: line 192 begins Kovalan's recall of the warning, and line 202 (அருந்துயர் தீர்த்து) ends the episode before the march resumes."
+  },
+  "silappathikaram:11:203-216": {
+   "reading": "As the sun climbs hot and the forest grows hard to cross, Kovalan, Kannaki and the ascetic come through the bewildering waste to the shrine of Aiyai in a grove of kuravam, maravam, kongu and vengai, the virgin goddess with the eye in her brow, to whom the bow-ploughing hunters, who get no wealth from rain but only from those who cross the waste, bring the spoils of raids on other lands as they wait on the duty of great valour.",
+   "concepts": [
+    "vazhipaadu",
+    "maram",
+    "anangu"
+   ],
+   "nuance": "Lines 209 to 210 say the hunters' only harvest is the traveller: they plough with the bow. The travellers reach the shrine of the people who live by the road's danger, which sets up the next kaathai, the hunters' song.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kovalan",
+     "form": "கோவலன்",
+     "line": 205
+    },
+    {
+     "id": "kannaki",
+     "form": "கொடுங்குழை மாதொடும்",
+     "line": 205
+    },
+    {
+     "id": "kavunthi",
+     "form": "மாதவத் தாட்டியும்",
+     "line": 206
+    }
+   ],
+   "event": "The three travellers reach the shrine of the hunters' goddess Aiyai as the midday heat begins.",
+   "claims": [],
+   "unit_note": "Adjusted from the core cut 193-216 to 203-216: line 203 begins the resumed march after the goddess episode ends at 202; line 216 ends the kaathai."
+  }
+ },
+ "links": [
+  {
+   "a": "silappathikaram:11:15-30",
+   "b": "kural:545",
+   "type": "qualifies",
+   "note": "The brahmin hails a Pandya who, when the thundering clouds withheld rain, bound them and made the harvest unfailing (மழைபிணித் தாண்ட மன்னவன்); the couplet says rain and harvest gather together in the land of the king who rules by the sceptre's nature.",
+   "teaches": "The couplet makes rain the natural consequence of just rule, while the epic's praise makes the king compel the clouds, so the same belief appears once as a law and once as a dynastic feat that this epic will test when the Pandya's sceptre bends.",
+   "gains": {
+    "a": "the praise gains a stated rule by which the dynasty's rain-making can later be judged as a duty rather than a marvel",
+    "b": "the couplet gains a royal legend showing its abstract link between sceptre and rain told of one named line of kings"
+   }
+  },
+  {
+   "a": "silappathikaram:11:15-30",
+   "b": "silappathikaram:20:74-91",
+   "type": "tension",
+   "note": "On the road the brahmin blesses the Pandya line as one of faultless fame (தீதுதீர் சிறப்பின் தென்னனை); in Madurai the reigning Pandya pronounces himself the thief (யானோ அரசன் யானே கள்வன்) and falls dead.",
+   "teaches": "The journey to Madurai opens with a blessing of a flawless lineage, so the king's self-condemnation reads as a fall from inherited fame and not only as one wrong verdict."
+  },
+  {
+   "a": "silappathikaram:11:15-30",
+   "b": "purananuru:9",
+   "type": "develops",
+   "note": "Nettimaiyar wishes the Pandya years more than the sands of the Pahruli river of the ancient Pandya; the epic's blessing says the sea took the Pahruli river (பஃறுளி யாற்றுடன்) with the Kumari peak.",
+   "teaches": "The Sangam poet measures a king's life by a river that still flows, while the epic remembers the same river as drowned and makes its loss the occasion of a northern conquest, so the river turns from a figure of endurance into a figure of loss.",
+   "gains": {
+    "a": "the epic's legend gains evidence that Pahruli was a living name in Pandya praise before it was told as lost",
+    "b": "the Purananuru blessing gains a later memory in which the river it swore by has vanished, sharpening its wish for long life"
+   }
+  },
+  {
+   "a": "silappathikaram:11:57-71",
+   "b": "kural:559",
+   "type": "develops",
+   "note": "The brahmin likens the summer that turns mullai and kurinji into paalai to a wide land that has lost its royal order when its king bent with his officers (கொற்றவன் கோடி); the couplet says that if the king bends justice the sky will not pour rain.",
+   "teaches": "The couplet states that a bent king dries the sky, and the brahmin's simile reads a drought landscape as the look of a misruled kingdom, so the waste Kovalan crosses already pictures the bent sceptre waiting in Madurai.",
+   "gains": {
+    "a": "the simile gains a doctrine that makes the drought the fruit of misrule rather than only a likeness of it",
+    "b": "the couplet gains a picture of what its rainless land looks like: forest and hill twisted out of their nature into waste"
+   }
+  },
+  {
+   "a": "silappathikaram:11:87-103",
+   "b": "silappathikaram:11:150-165",
+   "type": "tension",
+   "note": "The brahmin promises that bathing in Bhavakaarini brings knowledge of one's former birth (பழம்பிறப் பெய்துவிர்); Kavunthi asks whether he does not see in this birth what was gained in past births (இறந்த பிறப்பின் எய்திய வெல்லாம் பிறந்த பிறப்பிற் காணா யோநீ).",
+   "teaches": "The Jain ascetic answers the pilgrim's offer point for point, moving knowledge of past lives from a sacred pool to the reading of one's present life, so the chapter sets two routes to one end side by side without letting either deny the other."
+  },
+  {
+   "a": "silappathikaram:11:118-140",
+   "b": "siddhar:1028",
+   "type": "qualifies",
+   "note": "The brahmin tells the traveller to recite the mantras of five and eight letters and bathe in the pool he wants, though better to fix the heart on the god's feet; the Siddhar asks those seeking a holy water where the bathing is, and says the holy water is the five letters within.",
+   "teaches": "Both move from outer water toward an inner formula, but the brahmin keeps the pool and makes the letters its key while the Siddhar dissolves the pool into the letters, so the pair shows two stages of one turn from pilgrimage to recitation.",
+   "gains": {
+    "a": "the epic's rite gains a later voice that removes the pool it still keeps and shows where its own ranking of devotion over water could lead",
+    "b": "the Siddhar's attack gains an early literary witness of the practice it rejects, recitation of a letter-formula as the key to a sacred pool"
+   }
+  },
+  {
+   "a": "silappathikaram:11:150-165",
+   "b": "kural:265",
+   "type": "qualifies",
+   "note": "Kavunthi asks whether anything rare is out of reach for those who never swerve from truth and protect living beings, against the brahmin's pool that grants every wish; the couplet says austerity is pursued because it gains whatever is wished as it is wished.",
+   "teaches": "Kavunthi uses the Kural's promise that discipline gains every wish against a pool that also grants every wish, and grounds that discipline in truth and non-harm, so the couplet's motive of attainment becomes an argument for ethics over pilgrimage.",
+   "gains": {
+    "a": "Kavunthi's rhetorical question gains a stated rule that a disciplined life yields whatever is wished",
+    "b": "the couplet gains a rival, the wish-granting pool, which shows what its claim for austerity competes with"
+   }
+  },
+  {
+   "a": "silappathikaram:11:141-149",
+   "b": "silappathikaram:11:192-202",
+   "type": "develops",
+   "note": "The brahmin warns of a goddess on the hard way who appears gently and holds travellers back; at the pool Kovalan recalls that the wondrous brahmin said a deluding goddess haunts the forest (மயக்குந் தெய்வமிவ் வன்காட் டுண்டென) and unmasks her with a mantra.",
+   "teaches": "The pilgrim's road knowledge, which Kavunthi had set aside as unneeded for the cave, is what saves Kovalan in the forest, so the chapter does not let either guide be simply right."
+  },
+  {
+   "a": "silappathikaram:11:166-191",
+   "b": "silappathikaram:8:94-118",
+   "type": "tension",
+   "note": "In the Venil kaathai Vasantamalai reports that Kovalan refused Madhavi's letter and Madhavi lies sleepless saying she will see him at dawn; the goddess in Vasantamalai's form tells him Madhavi turned in anger, condemned her calling, tore her pearls and dismissed her maid.",
+   "teaches": "The illusion is built on the one unfinished thread in Kovalan's past, the refused letter, so the forest goddess tempts him with his unresolved bond to Madhavi rather than with a stranger's charm."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "The kaathai has 216 lines in the core text but the edition's printed last line is 215, so line numbers here (the kaathai's own, as `show` prints them) differ by one from the printed ones somewhere in the kaathai.",
+  "Lines 102 to 103 repeat இட்ட சித்தி (இட்ட சித்தி எய்துவி ராயின் / இட்ட சித்தி எய்துவிர் நீரே); this looks like the text's own wordplay rather than a doubled line, and I marked it as written."
+ ]
+}

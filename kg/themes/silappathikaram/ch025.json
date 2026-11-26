@@ -1,0 +1,282 @@
+{
+ "chapter_no": 25,
+ "chapter_theme": "After the Sun's answer, Kannaki walks the streets of Madurai holding her one anklet and calls the city's chaste women to witness that her husband was no thief; the townspeople read her grief as the bending of the Pandya's sceptre and the coming of a new goddess, show her Kovalan's body at dusk, and hear her lament couple the king's fault with a deed that must be eaten; Kovalan rises in a vision among the immortals, wipes her tears and leaves, and she, refusing to rejoin him until her anger is spent, goes to the king's gate.",
+ "cast": [
+  {
+   "id": "kannaki",
+   "tamil": "கண்ணகி",
+   "role": "Kovalan's wife, who goes through Madurai with her anklet"
+  },
+  {
+   "id": "kovalan",
+   "tamil": "கோவலன்",
+   "role": "Kannaki's husband, killed as a thief, seen here dead and then in a vision among the immortals"
+  },
+  {
+   "id": "veyyon",
+   "tamil": "வெய்யோன்",
+   "role": "the Sun, whose answer to Kannaki closes the preceding kaathai"
+  },
+  {
+   "id": "pathini_pendir",
+   "tamil": "பத்தினிப் பெண்டிர்",
+   "role": "the chaste wives of Madurai whom Kannaki calls to witness"
+  },
+  {
+   "id": "madurai_makkal",
+   "tamil": "மதுரையார்",
+   "role": "the people of Madurai, who grieve with Kannaki and show her Kovalan's body"
+  },
+  {
+   "id": "nedunjeliyan",
+   "tamil": "நெடுஞ்செழியன்",
+   "role": "the Pandya king of Madurai who had Kovalan killed (named here as அரசன், தென்னவன், பாண்டியன், மன்னவன், தீவேந்தன்)"
+  }
+ ],
+ "verses": {
+  "silappathikaram:19:1-14": {
+   "reading": "With the Sun's word just spoken, Kannaki does not stand still but, holding her one anklet, calls on the chaste wives living in the city of a king without justice to hear her: she has suffered what none has suffered, her husband was no thief but was killed for the price of her anklet, and she will see him before the women and hear a faultless word from his mouth, or let them scorn her as one who did a wrong.",
+   "concepts": [
+    "pathini",
+    "kodungol",
+    "kalavu",
+    "vaazhkkaithunai"
+   ],
+   "nuance": "Each of her six statements closes with ஈதொன்று, 'this is one thing', so the speech is built as a count of grievances and vows. She calls her witnesses நிறையுடைப் பத்தினிப் பெண்டிர், giving the women of the city the same standing she claims, and puts herself under their judgment: if she does not hear her husband's word, they may scorn her (எள்ளல்). The charge against the king is already in her address, முறையில் அரசன், before anyone in the city has spoken.",
+   "speaker": {
+    "who": "kannaki",
+    "form": "வளைத்தோளி",
+    "line": 1,
+    "addressee": "pathini_pendir"
+   },
+   "agents": [
+    {
+     "id": "veyyon",
+     "form": "வெய்யோன்",
+     "line": 1
+    },
+    {
+     "id": "kannaki",
+     "form": "வளைத்தோளி",
+     "line": 1
+    }
+   ],
+   "event": "Kannaki, holding her one anklet, calls on the chaste women of Madurai to hear that her husband was killed as a thief for the price of her anklet.",
+   "claims": [],
+   "unit_note": "End moved from line 21 to line 14: Kannaki's speech closes on line 14 with இதுவொன்றென்று, and line 15 begins the narration of the townspeople; the core boundary at 21 fell inside their speech, whose sentence runs on into line 22."
+  },
+  "silappathikaram:19:15-34": {
+   "reading": "The people of Madurai, seeing her weep beyond bearing, ask in bewilderment whether this is the unbending sceptre bent, the Pandya's victory broken, the cool umbrella breeding heat, a new great goddess come among them for their sake, a woman possessed; the crowd shows her her husband, she sees him who cannot see her, and as the sun hides behind the mountain her cry fills the dusk and the city resounds.",
+   "concepts": [
+    "kodungol",
+    "sengol",
+    "anangu",
+    "pazhi"
+   ],
+   "nuance": "The townspeople, not Kannaki, are the first to name the king's fault: their refrain இதுவென்கொல் moves from the bent sceptre and the umbrella that cools the earth now giving heat to a stranger goddess (வம்பப் பெருந்தெய்வம்) come 'for our sake', so the city reads one woman's grief at once as the failure of rule and as the arrival of a deity. Madurai is called a city whose people spread the king's blame (மன்பழி தூற்றுங் குடியதே). Line 15 (அல்லலுற் றாற்றா தழுவாளை) is close to Kural 555's opening, but the verb differs and the run is shorter than four words, so it is not marked as an echo. Line 34 is printed ஒலிபடைத்த தூர், probably ஒலிபடைத்தது ஊர.",
+   "speaker": {
+    "who": "madurai_makkal",
+    "form": "மதுரையா ரெல்லாருந்",
+    "line": 16,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "madurai_makkal",
+     "form": "மதுரையா ரெல்லாருந்",
+     "line": 16
+    },
+    {
+     "id": "kannaki",
+     "form": "பூங்கொடியாள்",
+     "line": 33
+    }
+   ],
+   "event": "The people of Madurai grieve with Kannaki, ask whether the king's sceptre has bent, and show her Kovalan's body as the sun sets, and her cry fills the city.",
+   "claims": [
+    {
+     "claim": "a king's unjust killing bends his sceptre and turns the shade he gives his people into heat",
+     "school": "general",
+     "line": 18,
+     "stance": "asserted",
+     "voiced_by": "madurai_makkal"
+    }
+   ],
+   "unit_note": "Start moved from line 22 to line 15 (Kannaki's speech ends at 14); end kept at line 34, where the sentence closes with ஊர் and the next line begins the scene at the body."
+  },
+  "silappathikaram:19:35-50": {
+   "reading": "She who that morning took the garland from her husband's hair for her own tresses sees him at evening with blood flowing from his wounds, and laments that his fragrant golden body lies in the dust before her, alone in the dusk, while she does not know the cruel deed behind the king's harm, and asks whether no one will tell her: this is the deed that tears, the deed that must be eaten, now that the Pandya has erred and the world spreads his blame.",
+   "concepts": [
+    "vinai",
+    "oozh",
+    "kodungol",
+    "saakkaadu"
+   ],
+   "nuance": "The three stanzas of the lament hold both causes in each closing pair of lines: the king commits the fault (பாண்டியன் தவறிழைப்ப, மன்னவன் தவறிழைப்ப) and yet what has come is a வினை to be eaten (உண்பதோர் வினை), and she calls herself one who has a harsh deed (கடுவினை யுடையேன்). She does not know which deed (மறவினை யறியாதேற்கு); the patikam's goddess will name it. The morning garland and the evening wound frame one day of the marriage.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kannaki",
+    "form": null,
+    "line": null,
+    "addressee": "kovalan"
+   },
+   "agents": [
+    {
+     "id": "kannaki",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kannaki sees Kovalan's wounded body at dusk and laments over it.",
+   "claims": [
+    {
+     "claim": "the fruit of a deed must be eaten even when it arrives through the king's fault",
+     "school": "general",
+     "line": 50,
+     "stance": "asserted",
+     "voiced_by": "kannaki"
+    }
+   ]
+  },
+  "silappathikaram:19:51-75": {
+   "reading": "Kannaki asks whether there are wives who bear their husbands' affliction, worthy men who raise the children they beget, or any god in the Koodal of a king who erred with the sword; as she embraces her husband's chest he rises, wipes her tears saying her moon face has faded, and when she falls and grasps his feet he rises whole among a host of immortals, bids her stay, and goes; she asks whether it was illusion or a deluding god, vows not to join him until her anger cools and to face the cruel king, and, remembering her evil dream, goes weeping to the palace gate.",
+   "concepts": [
+    "vekuli",
+    "marumai",
+    "kanavu",
+    "karpu"
+   ],
+   "nuance": "Her vow in the opening speech, to hear a faultless word from his mouth, is answered only by a tender word about her faded face and the command to stay (இருந்தைக்க, a rare form), and she herself judges it no word of substance (பொருளுரையோ இதுவன்று). She rejects the vision as a reason to grieve and turns to judgment: காய்சினந் தணிந்தன்றிக் கணவனைக் கைகூடேன். The three questions (பெண்டிரும், சான்றோரும், தெய்வமும் உண்டுகொல்) test the city's wives, its men and its god in turn. Lines 73 and 74 nearly repeat each other.",
+   "speaker": {
+    "who": "kannaki",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kannaki",
+     "form": "தாயிழையாள்",
+     "line": 64
+    },
+    {
+     "id": "kovalan",
+     "form": "தன்கணவன்",
+     "line": 64
+    }
+   ],
+   "event": "Kovalan rises from death in a vision, wipes Kannaki's tears and departs among the immortals, and Kannaki goes to the king's palace gate to confront him.",
+   "claims": [
+    {
+     "claim": "a true wife bears the affliction that befalls her husband",
+     "school": "general",
+     "line": 52,
+     "stance": "asserted",
+     "voiced_by": "kannaki"
+    },
+    {
+     "claim": "no god can be present in the city of a king who has erred with the sword",
+     "school": "general",
+     "line": 58,
+     "stance": "reported",
+     "voiced_by": "kannaki"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": "silappathikaram:19:1-14",
+   "b": "silappathikaram:19:51-75",
+   "type": "develops",
+   "note": "Kannaki's vow to see her husband and hear a faultless word from him is kept in the vision, where he speaks only of her faded face and bids her stay.",
+   "teaches": "The vow is fulfilled in form but not in substance: the dead husband's word clears no one, so the proof of innocence has to come from Kannaki's own plea at court."
+  },
+  {
+   "a": "silappathikaram:19:15-34",
+   "b": "silappathikaram:20:1-7",
+   "type": "same_image",
+   "note": "The townspeople's bent sceptre and cool umbrella breeding heat are the omens the queen sees falling in her dream in the next kaathai.",
+   "teaches": "The same signs of ruin appear first as the street's verdict in waking speech and then as the palace's dream, so the city knows the king's fall before the court does."
+  },
+  {
+   "a": "silappathikaram:19:15-34",
+   "b": "kural:555",
+   "type": "develops",
+   "note": "The city sees Kannaki weeping beyond bearing (அல்லலுற் றாற்றா தழுவாளை), the very condition the couplet names as the force that wears away a king's wealth.",
+   "teaches": "The couplet's tears work slowly as an abrasive on wealth, but the epic makes one woman's tears the moment the people themselves declare the sceptre bent, the first step to the city's burning.",
+   "gains": {
+    "a": "the citizens' grief gains a known rule that such tears are a weapon against the ruler",
+    "b": "the couplet's general 'those who suffer' gains a single witnessed scene in which a whole city reads the tears as a verdict on the king"
+   }
+  },
+  {
+   "a": "silappathikaram:19:15-34",
+   "b": "purananuru:72",
+   "type": "develops",
+   "note": "In Puram 72 the Sangam Pandya Nedunjeliyan of Talaiyalanganam curses himself, should he fail in his vow, to be a king whose people find no cool shade and spread his blame (குடிபழி தூற்றும்); the epic's Madurai spreads the blame of its king (மன்பழி தூற்றுங் குடி) and finds his cool umbrella breeding heat. The two kings share a title, not an identity: the epic's Nedunjeliyan is not the Sangam one.",
+   "teaches": "The Sangam king's conditional self-curse, a boast of what will never happen, becomes in the epic a description of what has happened to a later Pandya, so the formula of royal disgrace moves from oath to fulfilment.",
+   "gains": {
+    "a": "the citizens' words gain the weight of an old Pandya oath that names exactly this disgrace",
+    "b": "the oath's imagined penalty gains a story showing a Pandya city actually blaming its king"
+   }
+  },
+  {
+   "a": "silappathikaram:19:35-50",
+   "b": "naladiyar:101",
+   "type": "qualifies",
+   "note": "The quatrain's old deed seeks out its own doer as a calf finds its mother among many cows; Kannaki laments a deed to be eaten that reached her husband through the king's fault.",
+   "teaches": "Where the quatrain sends the deed straight back to the one who did it, the epic interposes a guilty king between deed and fruit, so karma and the ruler's fault both stand as causes of one death.",
+   "gains": {
+    "a": "Kannaki's 'deed that must be eaten' gains the quatrain's account of how a deed finds its owner",
+    "b": "the quatrain gains a case where the deed arrives through another's wrongdoing, which its image of the calf leaves out"
+   }
+  },
+  {
+   "a": "silappathikaram:19:35-50",
+   "b": "purananuru:280",
+   "type": "develops",
+   "note": "Both show a wife at her husband's wounded chest at the edge of night; the Puram wife reads the omens and dreads the widow's life, while Kannaki asks who will name the deed and blames the king.",
+   "teaches": "The Sangam lament by the wounded body looks ahead to widowhood, but Kannaki's lament at the same scene turns outward into a charge against the king, so the old mourning form becomes the opening of a plea.",
+   "gains": {
+    "a": "Kannaki's lament gains the old shape of the wife's watch by the wounded husband, against which its turn to accusation shows",
+    "b": "the Puram wife's private grief gains a counterpart in which the same scene is made public and political"
+   }
+  },
+  {
+   "a": "silappathikaram:19:35-50",
+   "b": "silappathikaram:0:37-54",
+   "type": "develops",
+   "note": "Kannaki says she does not know the cruel deed behind her loss; the patikam's goddess tells the grieving pathini it was a curse laid in a former birth by the wife of Sangaman.",
+   "teaches": "The heroine laments in ignorance of the cause the poem's frame has already disclosed, so the reader judges her accusation of the king knowing a second cause she does not."
+  },
+  {
+   "a": "silappathikaram:19:51-75",
+   "b": "silappathikaram:0:37-54",
+   "type": "qualifies",
+   "note": "The patikam's goddess says Kannaki will see her husband only in the form of the gods; here he rises among a host of immortals (பல்லமரர் குழாத்துளான்) on the day of his death.",
+   "teaches": "The vision anticipates the reunion the goddess limits to divine form, and Kannaki's refusal to join him until her anger cools shows the reunion withheld by her own choice, not only by the curse's term."
+  },
+  {
+   "a": "silappathikaram:19:51-75",
+   "b": "silappathikaram:9:45-54",
+   "type": "develops",
+   "note": "The closing lines recall the evil dream (இடருற்ற தீக்கனா) in which Kannaki saw a false word laid on her husband in a great city.",
+   "teaches": "Kannaki goes to the king remembering the dream that foretold the false charge, so the dream that was dismissed now becomes her warrant for the confrontation it did not foresee."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "pathini",
+   "tamil": "பத்தினி",
+   "gloss": "the chaste wife whose steadfastness gives her word power over kings, cities and nature",
+   "label_source": "the unit's own word (line 4, பத்தினிப் பெண்டிர்)"
+  }
+ ],
+ "source_issues": [
+  "Core unit silappathikaram:19:1-21 ends inside the townspeople's speech (line 21 runs on into 22); boundaries moved to 1-14 and 15-34.",
+  "Line 34 is printed ஒலிபடைத்த தூர்; the word division is probably ஒலிபடைத்தது ஊர்.",
+  "Lines 73 and 74 nearly repeat each other (நின்றாள் நினைந்தாள் / நின்றால் நினைந்தாள்), and lines 74 and 75 read நின்றால் and சென்றால் where the sense wants நின்றாள் and சென்றாள்; probably a doubling or misprint.",
+  "The kaathai is one block in the core, though the metre changes at line 39 (the three lament stanzas), at line 51 (the refrain questions) and at line 72 (the closing lines); no rubric marks the changes."
+ ]
+}

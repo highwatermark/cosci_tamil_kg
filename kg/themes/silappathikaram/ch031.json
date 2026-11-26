@@ -1,0 +1,756 @@
+{
+ "chapter_no": 31,
+ "chapter_theme": "The hill women of the Chera country meet Kannaki under a vengai, hear her name her fate, see the gods take her to heaven with her husband and make her their clan's goddess; their kuravai then weaves the cult into an akam love story, mocking the velan's rite, praying to Murugan for the lover's wedding, and crediting the new pathini of their millet field when the lover comes, before blessing the Chera king.",
+ "cast": [
+  {
+   "id": "kurava_magalir",
+   "tamil": "குன்றக் குறவர் மகளிர்",
+   "role": "the young women of the hill kuravar hamlet who meet Kannaki and sing and dance the kuravai"
+  },
+  {
+   "id": "kurava_thalaivi",
+   "tamil": "குறமகள்",
+   "role": "the hill girl in a secret love, the heroine of the kuravai's love songs"
+  },
+  {
+   "id": "thozhi",
+   "tamil": "தோழி",
+   "role": "the hill girl's friend, who speaks to her and to her lover"
+  },
+  {
+   "id": "annai",
+   "tamil": "அன்னை",
+   "role": "the hill girl's mother, who calls the velan"
+  },
+  {
+   "id": "malai_naadan",
+   "tamil": "மலைநாடன்",
+   "role": "the hill girl's lover, the man of the hill (also சிலம்பன், வெற்பன்)"
+  },
+  {
+   "id": "murugan",
+   "tamil": "முருகன்",
+   "role": "the hill god addressed in the kuravai by epithets (இறைவன், கடம்பன், அறுமுக வொருவ, மலைமகள் மகன்); the unit does not use the name முருகன்"
+  },
+  {
+   "id": "kannaki",
+   "tamil": "கண்ணகி",
+   "role": "Kovalan's wife, the pathini who burned Madurai"
+  },
+  {
+   "id": "kovalan",
+   "tamil": "கோவலன்",
+   "role": "merchant of Puhar, Kannaki's husband, killed in Madurai"
+  },
+  {
+   "id": "kunra_kuravar",
+   "tamil": "குன்றக் குறவர்",
+   "role": "the hill-dwelling kuravar who saw the one-breasted woman taken to heaven"
+  },
+  {
+   "id": "vaanavar",
+   "tamil": "வானவர்",
+   "role": "the gods who rain flowers and take Kannaki to heaven with her husband"
+  },
+  {
+   "id": "senguttuvan",
+   "tamil": "குடவர் கோ",
+   "role": "the Chera king, blessed here only as king of the Kudavar who ruled Kolli and the Himalaya; the next kaathai names him Senguttuvan"
+  }
+ ],
+ "verses": {
+  "silappathikaram:24:1-22": {
+   "reading": "The hill women tell how, coming back from scaring birds off the millet and bathing in the falls, they met under a mountain vengai a woman who had lost a breast and asked who she was, and she answered that she was the one of cruel deeds who had lost her husband there when strong karma pressed on her and Madurai and its kingship came to ruin; as they bowed, the gods rained flowers and took her away with her husband while the hill folk watched, and the women call the hamlet to take her as its god, with drums, horn, bells, kurinji song, incense and flowers, so that the great hill may never sleep but yield its wealth.",
+   "concepts": [
+    "pathini",
+    "vinai",
+    "vazhipaadu",
+    "oozh"
+   ],
+   "nuance": "Kannaki gives two causes in one breath: the strong deed of the past that came and pressed (வல்வினைவந் துருத்தகாலை, the patikam's ஊழ்வினை உருத்துவந்து ஊட்டும் and the Madurai goddess's உம்மை வினைவந் துருத்த காலை), and herself as the doer, கடுவினையேன், the woman of cruel deeds. The women compare her to Valli (வள்ளிபோல்வீர்) before they know her, and the reason they give for the cult is plain: no deity of their clan is as great as she (line 10). The prayer asks for the hill's fertility, the boon the Kural gives to the chaste wife's word.",
+   "speaker": {
+    "who": "kurava_magalir",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kurava_magalir",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kannaki",
+     "form": "கடுவினையேன்",
+     "line": 6
+    },
+    {
+     "id": "vaanavar",
+     "form": "வானவரும்",
+     "line": 8
+    },
+    {
+     "id": "kunra_kuravar",
+     "form": "குன்றவரும்",
+     "line": 9
+    },
+    {
+     "id": "kovalan",
+     "form": "கொழுநனொடு",
+     "line": 9
+    }
+   ],
+   "event": "The hill women meet the one-breasted Kannaki under a vengai, she tells them who she is, the gods take her to heaven with her husband, and the women call the hamlet to worship her.",
+   "claims": [
+    {
+     "claim": "a strong deed of the past came upon her and brought the loss of her husband and the ruin of Madurai's kingship",
+     "school": "general",
+     "line": 5,
+     "stance": "asserted",
+     "voiced_by": "kannaki"
+    },
+    {
+     "claim": "a woman like her is a greater deity for the clan than any other and should be taken as its god",
+     "school": "general",
+     "line": 10,
+     "stance": "asserted",
+     "voiced_by": "kurava_magalir"
+    }
+   ]
+  },
+  "silappathikaram:24:23-30": {
+   "reading": "A hill girl bids her friend look at the falls that come down coloured like the rainbow with the earth's collyrium, orpiment and vermilion, and says they will bathe in the falls of the cloud-wrapped grove, the falls of the man who said 'do not fear', enjoyed her beauty and gave no grace.",
+   "concepts": [
+    "kalaviyal",
+    "sool",
+    "pirivu"
+   ],
+   "nuance": "The lover's 'do not fear' (அஞ்சலோம் பென்று) is the promise of the secret union; the bathing song turns at once from the beauty of the falls to his failure to keep it, which is the complaint the whole kuravai will try to cure by asking for his wedding.",
+   "speaker": {
+    "who": "kurava_thalaivi",
+    "form": null,
+    "line": null,
+    "addressee": "thozhi"
+   },
+   "agents": [
+    {
+     "id": "kurava_thalaivi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The hill girls go to bathe in the waterfall, and one complains of the lover who promised and did not return.",
+   "claims": []
+  },
+  "silappathikaram:24:31-34": {
+   "reading": "The girl says she finds no cause to sulk, for the fresh flood that came washing the stones of his hill is the water they bathed in, and closes with an obscure line on others and the heart.",
+   "concepts": [
+    "oodal",
+    "nenju"
+   ],
+   "nuance": "The three stanzas differ only in what the water touched on his hill (stone, gold, flowers) and in the verb of bathing with others (உற்று, முன், மீது). The water from his hill stands for the man himself, so bathing in it undoes the quarrel. The last line, மற்றையார் ... ஆடினோம் தோழி நெஞ்சன்றே, may mean that others bathed in it too, or that it was not the heart that sulked; I cannot fix it.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kurava_thalaivi",
+    "form": null,
+    "line": null,
+    "addressee": "thozhi"
+   },
+   "agents": [
+    {
+     "id": "kurava_thalaivi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "silappathikaram:24:35-38": {
+   "reading": "The girl says she finds no cause to sulk, for the fresh flood that came washing the gold of his hill is the water they bathed in, and closes with an obscure line on others and the heart.",
+   "concepts": [
+    "oodal",
+    "nenju"
+   ],
+   "nuance": "The three stanzas differ only in what the water touched on his hill (stone, gold, flowers) and in the verb of bathing with others (உற்று, முன், மீது). The water from his hill stands for the man himself, so bathing in it undoes the quarrel. The last line, மற்றையார் ... ஆடினோம் தோழி நெஞ்சன்றே, may mean that others bathed in it too, or that it was not the heart that sulked; I cannot fix it.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kurava_thalaivi",
+    "form": null,
+    "line": null,
+    "addressee": "thozhi"
+   },
+   "agents": [
+    {
+     "id": "kurava_thalaivi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "silappathikaram:24:39-42": {
+   "reading": "The girl says she finds no cause to sulk, for the fresh flood that came washing the flowers of his hill is the water they bathed in, and closes with an obscure line on others and the heart.",
+   "concepts": [
+    "oodal",
+    "nenju"
+   ],
+   "nuance": "The three stanzas differ only in what the water touched on his hill (stone, gold, flowers) and in the verb of bathing with others (உற்று, முன், மீது). The water from his hill stands for the man himself, so bathing in it undoes the quarrel. The last line, மற்றையார் ... ஆடினோம் தோழி நெஞ்சன்றே, may mean that others bathed in it too, or that it was not the heart that sulked; I cannot fix it.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kurava_thalaivi",
+    "form": null,
+    "line": null,
+    "addressee": "thozhi"
+   },
+   "agents": [
+    {
+     "id": "kurava_thalaivi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "silappathikaram:24:43-46": {
+   "reading": "Having bathed until their eyes reddened, the girl bids her friend come and, raising praise to the spear that killed the mango of the strong sea, link hands in a kuravai and sing.",
+   "concepts": [
+    "kuravai",
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "speaker": {
+    "who": "kurava_thalaivi",
+    "form": null,
+    "line": null,
+    "addressee": "thozhi"
+   },
+   "agents": [
+    {
+     "id": "kurava_thalaivi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The girls leave the water and begin the kuravai dance in praise of Murugan's spear.",
+   "claims": []
+  },
+  "silappathikaram:24:47-50": {
+   "reading": "The first spear song says the spear in the hand of the god who never leaves Senthil, Sengodu, Venkunru and Erakam is the bright-leaved white spear that once went into the dark sea and cut down Sur's mango.",
+   "concepts": [
+    "iraivan",
+    "thalam",
+    "maram"
+   ],
+   "nuance": "The four hills named are the kuravar's list of Murugan's seats; it is not the six of the guide poem.",
+   "speaker": {
+    "who": "kurava_magalir",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "silappathikaram:24:51-54": {
+   "reading": "The second spear song says it is the spear held by the one who alone has six fair faces and twelve hands, the white spear that, riding Pinimukam, killed so that the asuras lost their pride and the lord of the sky praised him.",
+   "concepts": [
+    "iraivan",
+    "maram"
+   ],
+   "speaker": {
+    "who": "kurava_magalir",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "silappathikaram:24:55-58": {
+   "reading": "The third spear song says it is the spear of the one who drank at the breasts of six mothers in the Saravana lotus bed, the long spear that split the chest of the asura and killed the mountain named for the crane.",
+   "concepts": [
+    "iraivan",
+    "maram"
+   ],
+   "speaker": {
+    "who": "kurava_magalir",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "silappathikaram:24:59-62": {
+   "reading": "The friend laughs to the girl that mother, not knowing how to cure the sickness the lord of the pepper hills caused, says it is the Kadamba god's and, wanting the veri rite, has told the velan to come.",
+   "concepts": [
+    "velan",
+    "veri",
+    "kaamanoy"
+   ],
+   "nuance": "The mother's belief that the god has seized the girl is answered in the next three stanzas (lines 63 to 74), which call the velan and the god himself foolish if they come to cure a sickness a man gave; hence 'refuted'.",
+   "speaker": {
+    "who": "thozhi",
+    "form": null,
+    "line": null,
+    "addressee": "kurava_thalaivi"
+   },
+   "agents": [
+    {
+     "id": "annai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The girl's mother calls the velan to hold the veri rite for a sickness she thinks Murugan sent.",
+   "claims": [
+    {
+     "claim": "a girl's wasting is the god's seizure and the velan's rite will cure it",
+     "school": "general",
+     "line": 61,
+     "stance": "refuted",
+     "voiced_by": "annai"
+    }
+   ]
+  },
+  "silappathikaram:24:63-66": {
+   "reading": "The friend says it is laughable: if the velan comes to cure the sickness the man of the great hill caused, the velan is a fool, and more foolish than he is the one who killed the crane mountain, if he comes.",
+   "concepts": [
+    "velan",
+    "veri",
+    "kaamanoy"
+   ],
+   "speaker": {
+    "who": "thozhi",
+    "form": null,
+    "line": null,
+    "addressee": "kurava_thalaivi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a sickness of love that a man gave is not the god's doing, and no rite of the velan or of the god can cure it",
+     "school": "general",
+     "line": 65,
+     "stance": "asserted",
+     "voiced_by": "thozhi"
+    }
+   ]
+  },
+  "silappathikaram:24:67-70": {
+   "reading": "The velan who comes to cure the sickness the man of the fragrant hill caused is a fool, the friend repeats, and more foolish still is the son of the one under the banyan, if he comes.",
+   "concepts": [
+    "velan",
+    "veri",
+    "iraivan"
+   ],
+   "speaker": {
+    "who": "thozhi",
+    "form": null,
+    "line": null,
+    "addressee": "kurava_thalaivi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "silappathikaram:24:71-74": {
+   "reading": "The friend says, not in jest, that if the god of the dark kadamba garland comes to cure the hot sickness the chest of the man of the hill gave, he is more foolish than the velan who comes to cure it.",
+   "concepts": [
+    "velan",
+    "veri",
+    "iraivan"
+   ],
+   "nuance": "நகையா (line 71) may be read 'not laughing' against the refrain's இதுநகையாகின்றே, turning the last stanza from jest to earnest; the same girls have just praised this god's spear, and the mockery is of his coming to the wrong rite, not of his power.",
+   "speaker": {
+    "who": "thozhi",
+    "form": null,
+    "line": null,
+    "addressee": "kurava_thalaivi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "silappathikaram:24:75-78": {
+   "reading": "If the son of the one under the banyan comes on his blue bird with his bride to the veri ground where the velan dances, the girls say, they will ask him for the wedding of the man of the great hill.",
+   "concepts": [
+    "varaivu",
+    "veri",
+    "iraivan"
+   ],
+   "nuance": "The rite the friend mocked is put to another use: if the god does come, they will ask him not to cure the sickness but to bring the marriage that alone cures it.",
+   "speaker": {
+    "who": "kurava_magalir",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "silappathikaram:24:79-82": {
+   "reading": "The girls tell the son of the lord of Kailasa that they have worshipped his feet, which are like asoka flowers, asking that the girl of the hill folk, peacock-like with a moon brow, be spared another's marriage and given the marriage of her lover.",
+   "concepts": [
+    "varaivu",
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "nuance": "அயல்மணம் is the fear behind the prayer: a match the family might make with someone else, which would break the secret bond.",
+   "speaker": {
+    "who": "kurava_magalir",
+    "form": null,
+    "line": null,
+    "addressee": "murugan"
+   },
+   "agents": [
+    {
+     "id": "kurava_magalir",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The hill girls pray to Murugan that the girl be married to her lover and not to another.",
+   "claims": [
+    {
+     "claim": "worship of Murugan can bring a wished marriage and avert an unwanted one",
+     "school": "general",
+     "line": 81,
+     "stance": "reported",
+     "voiced_by": "kurava_magalir"
+    }
+   ]
+  },
+  "silappathikaram:24:83-86": {
+   "reading": "The girls tell the son of the mountain's daughter, the god of high station, that they have worshipped his feet asking that the girl of the kuravar of the high hills be wed in the marriage that many know.",
+   "concepts": [
+    "varaivu",
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "nuance": "பலரறி மணம், the marriage many know, is the public wedding that ends the secret union.",
+   "speaker": {
+    "who": "kurava_magalir",
+    "form": null,
+    "line": null,
+    "addressee": "murugan"
+   },
+   "agents": [
+    {
+     "id": "kurava_magalir",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "silappathikaram:24:87-90": {
+   "reading": "Calling the six-faced one's kurava wife their own clan's daughter, the girls say they have worshipped his feet with her, asking that those who touch his feet at the bathing place be granted a good marriage and spared a wrong one.",
+   "concepts": [
+    "valli",
+    "varaivu",
+    "vazhipaadu"
+   ],
+   "nuance": "குறமகள் அவள் எம குலமகள்: the hill women claim the god's wife, Valli, as a girl of their own clan, so their prayer goes to a god who is their kinsman by marriage.",
+   "speaker": {
+    "who": "kurava_magalir",
+    "form": null,
+    "line": null,
+    "addressee": "murugan"
+   },
+   "agents": [
+    {
+     "id": "kurava_magalir",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "silappathikaram:24:91-100": {
+   "reading": "The friend tells the girl that the man of the hill, who had heard their song from hiding, was going away when she went before him, worshipped his feet and told him that he comes to this village for a girl's sake wearing kadamba and carrying a spear, yet has no six faces, no peacock and no kurava bride, so the hamlet's people, who will not take him for the kadamba god, are simple folk.",
+   "concepts": [
+    "varaivu",
+    "kalaviyal",
+    "iraivan"
+   ],
+   "nuance": "She treats the lover in the god's own forms, bowing at his feet as the girls bowed at Murugan's, and then lists what he lacks of the god. Lines 99 and 100 (கடம்பூண் தெய்வ மாக நேரார் மடவர்) can be read either way: the folk are simple for not seeing that the girl's god is this man, or for taking him for the god; the reading turns on நேரார்.",
+   "uncertain": true,
+   "speaker": {
+    "who": "thozhi",
+    "form": null,
+    "line": null,
+    "addressee": "kurava_thalaivi"
+   },
+   "agents": [
+    {
+     "id": "malai_naadan",
+     "form": "மலைநாடன்",
+     "line": 92
+    },
+    {
+     "id": "thozhi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The hidden lover overhears the girls' song, and the friend stops him as he leaves and speaks to him.",
+   "claims": []
+  },
+  "silappathikaram:24:101-117": {
+   "reading": "When she told him that gossip had arisen, the friend says, the man of the hill who had turned away with a withering heart seems now about to marry; so they will sing of the pathini who with her breast destroyed great Madurai, to whom the gods with their kin brought her husband and showed him, singing in praise of her who burned Koodal when the royal order failed, and as they sing they ask for the lover's wedding, for a woman whom chaste wives praise and worship is in their own millet field.",
+   "concepts": [
+    "pathini",
+    "varaivu",
+    "alar",
+    "kodungol"
+   ],
+   "nuance": "Here the cause of the burning is the king's failure, கோமுறை நீங்க (line 111), where Kannaki in the first unit named the strong deed of the past and her own cruel act: the chapter gives both causes, in her voice and in the hill women's. The love story and the cult are joined: the friend's report of gossip moves the lover to marry, and the girls credit the new goddess of their field with the boon.",
+   "speaker": {
+    "who": "thozhi",
+    "form": null,
+    "line": null,
+    "addressee": "kurava_thalaivi"
+   },
+   "agents": [
+    {
+     "id": "malai_naadan",
+     "form": "வெற்பன்",
+     "line": 104
+    },
+    {
+     "id": "thozhi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The lover, told that gossip has spread, turns to marry, and the girls begin to sing the praise of the pathini in their field.",
+   "claims": [
+    {
+     "claim": "the royal city was burned because the king's just order failed",
+     "school": "general",
+     "line": 111,
+     "stance": "asserted",
+     "voiced_by": "kurava_magalir"
+    },
+    {
+     "claim": "the pathini is one whom chaste wives themselves worship",
+     "school": "general",
+     "line": 116,
+     "stance": "asserted",
+     "voiced_by": "kurava_magalir"
+    }
+   ]
+  },
+  "silappathikaram:24:118-134": {
+   "reading": "The girls sing that even after the gods brought her husband to her they do not cease their praise, that the gods of heaven worship the woman under the fragrant forest vengai, that she has gone with her husband to the life of heaven and will not come back, and that the village which sings her has gained a distinction, to see the gold-bangled girl's lover wed; seeing the kuravai, their lovers have come, and they bless themselves to live and feast every day, and the king of the Kudavar who ruled Kolli and the Himalaya where the bow was carved.",
+   "concepts": [
+    "pathini",
+    "varaivu",
+    "kuravai",
+    "vendhan"
+   ],
+   "nuance": "மறுதரவில்லாள் (she has no return) closes the story of Kannaki on earth: the hill folk keep her as a deity under the vengai, not as one who will come back. The closing blessing turns from the hill to the Chera king, who in the next kaathai hears of her; the bow carved on the Himalaya is a Chera emblem the Sangam poems give to Cheralathan, and the kuravai does not name which king it means.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kurava_magalir",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kurava_magalir",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "malai_naadan",
+     "form": "காதலர்",
+     "line": 131
+    }
+   ],
+   "event": "The girls finish the kuravai in praise of the pathini, their lovers come to marry them, and they bless the Chera king.",
+   "claims": [
+    {
+     "claim": "a village that sings the praise of the pathini gains the boon of seeing its lovers wed",
+     "school": "general",
+     "line": 125,
+     "stance": "reported",
+     "voiced_by": "kurava_magalir"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": "silappathikaram:24:1-22",
+   "b": "silappathikaram:23:161-176",
+   "type": "develops",
+   "note": "The Madurai goddess told Kannaki that a deed of the former birth had come and pressed (உம்மை வினைவந் துருத்த காலை) and that after fourteen days she would see her husband only in a god's form; here Kannaki uses the same words of herself and the gods bring her husband.",
+   "teaches": "Kannaki takes the goddess's karmic account into her own mouth when strangers ask who she is, so the explanation offered to her in Madurai becomes the one she gives of herself, and the prophecy is fulfilled before witnesses outside the city."
+  },
+  {
+   "a": "silappathikaram:24:1-22",
+   "b": "silappathikaram:0:1-11",
+   "type": "develops",
+   "note": "The patikam's hill kuravar report to Ilango that they saw a pathini taken to heaven under a vengai; this unit is the hill women's own telling of that sight.",
+   "teaches": "The frame says the epic began from the hill folk's report; the kaathai shows that report already as a cult with drums, incense and a prayer for the hill's wealth, so the poem's source is presented as a worship before it is a story."
+  },
+  {
+   "a": "silappathikaram:24:1-22",
+   "b": "kural:380",
+   "type": "qualifies",
+   "note": "Kural 380 says nothing is stronger than oozh, which arrives before any device; Kannaki blames the strong deed that pressed on her but also names herself the woman of cruel deeds.",
+   "teaches": "Kannaki grants karma the force the couplet gives oozh yet keeps the burning of Madurai as her own act, so the epic holds fate and the agent's deed together where the couplet speaks only of fate's priority.",
+   "gains": {
+    "a": "her double phrase (வல்வினை, கடுவினையேன்) is set against a flat statement of fate's power, which brings out that she does not hide behind it",
+    "b": "the couplet's abstract fate is shown working through a person who still owns what she did"
+   }
+  },
+  {
+   "a": "silappathikaram:24:59-62",
+   "b": "kuruntokai:111",
+   "type": "develops",
+   "note": "In Kuruntokai 111 the mother takes the velan's word that Neduvel caused the girl's sickness, and the friend wants the lover to come so the household may see a great laugh (பெருநகை); here the friend's refrain is இதுநகையாகின்றே over the same mistake.",
+   "teaches": "The laugh at the mother's misreading, a friend's private aside in the short poem, becomes the sung refrain of a public round dance, which shows the old akam situation turned into communal performance.",
+   "gains": {
+    "a": "the epic's refrain gains a source: the joke on the velan was an established akam situation, not the hill girls' invention",
+    "b": "the short poem's single laugh is shown as a convention strong enough to carry four stanzas of a festival song"
+   }
+  },
+  {
+   "a": "silappathikaram:24:71-74",
+   "b": "natrinai:34",
+   "type": "develops",
+   "note": "Natrinai 34's friend tells Murugan that, knowing the sickness is not his seizure, he came to the veri house at the velan's call, and so, though a god, he is truly foolish (மடவை மன்ற); the kuravai ranks the god as more foolish than the velan if he comes.",
+   "teaches": "The single daring address to the god in the Sangam poem becomes a graded series (the velan foolish, the god more so) sung inside a hymn to the same god's spear, so the mockery of his coming to the rite sits beside praise of his power without contradiction.",
+   "gains": {
+    "a": "the stanza's charge against the god is seen to be a received akam boldness, not irreverence peculiar to the epic",
+    "b": "the poem's address gains a setting in worship: the same girls who call the god foolish here have just sung his victories"
+   }
+  },
+  {
+   "a": "silappathikaram:24:63-66",
+   "b": "paripadal:5:1-21",
+   "type": "qualifies",
+   "note": "Paripadal 5 praises the spear that cut Sur's mango in the sea and split the crane-named mountain and says the velan's praises and veri are neither true nor false; the kuravai names the same crane-mountain killer and calls him foolish if he comes to the velan's rite.",
+   "teaches": "Both texts hold the god's deeds fixed while keeping the velan's rite at a distance: the hymn suspends judgement on the rite, and the kuravai laughs at it, which shows that doubt about the diviner was compatible with full praise of Murugan.",
+   "gains": {
+    "a": "the friend's mockery gains a temple-hymn parallel that also refuses to vouch for the veri",
+    "b": "the hymn's guarded 'neither true nor false' is shown in a folk voice that goes further and laughs"
+   }
+  },
+  {
+   "a": "silappathikaram:24:47-50",
+   "b": "pattupattu:1:177-189",
+   "type": "qualifies",
+   "note": "Thirumurugatruppadai places the god at Erakam among Brahmins who chant the six-syllable mantra at the hours; the kuravai names Erakam with Senthil, Sengodu and Venkunru as hills the god never leaves.",
+   "teaches": "The same shrine is claimed by the guide poem for a Brahmin rite and by the hill women for their kuravai, and their list differs from the six seats, so the roster of Murugan's hills was not yet fixed when the epic was made.",
+   "gains": {
+    "a": "the epic's four names gain a comparison that shows they are a distinct list, with Sengodu and Venkunru outside the six",
+    "b": "the guide poem's Erakam is seen also as a hill folk's god's seat, not only a Brahmin site"
+   }
+  },
+  {
+   "a": "silappathikaram:24:79-82",
+   "b": "paripadal:19:85-105",
+   "type": "qualifies",
+   "note": "In Paripadal 19 maidens who do not eat the leftover of the god's elephant at Parankunram fail to win husbands; the hill girls pray to Murugan not for marriage in general but that their friend be spared another's match and given her own lover.",
+   "teaches": "The temple poem treats Murugan as giver of husbands to all maidens who honour him, while the kuravai bends the same belief to the akam crisis of the secret union, asking him to prevent the family's match.",
+   "gains": {
+    "a": "the girls' prayer is seen to rest on an established belief that Murugan grants marriages",
+    "b": "the hymn's general belief is shown turned to one lover and against one feared marriage (அயல்மணம்)"
+   }
+  },
+  {
+   "a": "silappathikaram:24:87-90",
+   "b": "thiruppugazh:1000",
+   "type": "develops",
+   "note": "The kuravai girls call Murugan's kurava wife their own clan's daughter; Thiruppugazh 1000 tells Valli guarding the hunters' millet from her platform and Murugan entering the field.",
+   "teaches": "The epic's hill women claim Valli as kin and pray to Murugan as an in-law of the clan, while the later devotional song keeps the millet field and the hunter girl but makes the story a model of the god's grace to the devotee, so the kin claim comes first and the theology after.",
+   "gains": {
+    "a": "the clan claim gains a view of what the Valli story would later carry in devotion",
+    "b": "the song's millet field and hunter girl are seen rooted in a hill people's claim to the goddess as their daughter"
+   }
+  },
+  {
+   "a": "silappathikaram:24:91-100",
+   "b": "ainkurunuru:250",
+   "type": "qualifies",
+   "note": "Ainkurunuru 250 tells the beads that the one who afflicted the girl is not Vel, lord of their valli forest; the friend here tells the lover that he comes with kadamba and spear but has no six faces, no peacock and no kurava bride.",
+   "teaches": "The Sangam friend's bare denial that the god caused the sickness is worked out here as a point-by-point comparison of the man with the god's attributes, which shows the denial leaning on an iconography of Murugan already settled.",
+   "gains": {
+    "a": "the friend's list gains a precedent: denying the god's seizure was a set move of the friend's speech",
+    "b": "the short poem's 'not Vel' is spelled out in the god's own marks, making plain what the girl's lover is being measured against"
+   }
+  },
+  {
+   "a": "silappathikaram:24:101-117",
+   "b": "silappathikaram:24:1-22",
+   "type": "qualifies",
+   "note": "Kannaki names a strong deed of the past and her own cruel deed as the cause of Madurai's ruin; the hill women sing that she burned Koodal because the royal order failed.",
+   "teaches": "Within one kaathai the burning is put down to karma in the victim's voice and to the king's broken justice in the worshippers', so the chapter repeats the patikam's two morals as two voices rather than choosing one."
+  },
+  {
+   "a": "silappathikaram:24:101-117",
+   "b": "kural:55",
+   "type": "qualifies",
+   "note": "Kural 55 says the wife who rises worshipping her husband and not a god can bid the rain fall; here the pathini, who held to her husband alone, has become the god whom chaste wives worship, and the hill women ask her to keep their hill fruitful.",
+   "teaches": "The couplet's power of the chaste wife's word passes, after her death, into a cult in which other chaste wives worship her, so the woman the couplet exempts from worshipping a god is herself made one.",
+   "gains": {
+    "a": "the epic's deification gains a basis in a stated ethical claim about the chaste wife's power over rain and plenty",
+    "b": "the couplet is tested at its edge: its own ideal, once dead, becomes an object of the worship the couplet set her free from"
+   }
+  },
+  {
+   "a": "silappathikaram:24:118-134",
+   "b": "silappathikaram:0:55-68",
+   "type": "develops",
+   "note": "The patikam promises to show that the high praise a renowned pathini (உரைசால் பத்தினிக்கு உயர்ந்தோர் ஏத்தல்); here the gods of heaven worship her and the hill women sing her praise.",
+   "teaches": "The second moral is first fulfilled among the gods and the hill girls of a love song, before any king hears of her, so the praise of the pathini begins at the margin of the kingdom and travels to the Chera court in the next kaathai."
+  },
+  {
+   "a": "silappathikaram:24:118-134",
+   "b": "akananuru:127",
+   "type": "same_image",
+   "note": "Akananuru 127 credits Cheralathan with driving off the sea-foe, cutting the kadamba and carving his bow on the Himalaya; the kuravai's closing blessing hails the king of the Kudavar who ruled Kolli and the Himalaya where the bow was carved.",
+   "teaches": "A deed the akam poem ties to one named Chera becomes, in the epic's blessing, an epithet of the reigning king of the Kudavar without a name, which shows a Sangam memory turned into a dynastic title; the Tamil does not say the two kings are one.",
+   "gains": {
+    "a": "the blessing's 'bow-inscribed Himalaya' gains its Sangam source and reads as inherited fame, not a deed of the king now ruling",
+    "b": "the poem's single feat is shown surviving as a formula for the whole line in a later work"
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "pathini",
+   "tamil": "பத்தினி",
+   "gloss": "the chaste wife whose steadfastness gives her word power over the world, and who is worshipped as a goddess",
+   "label_source": "text (பத்தினி, lines 107, 116)"
+  },
+  {
+   "id": "kuravai",
+   "tamil": "குரவை",
+   "gloss": "the round dance with linked hands, danced here by the hill girls in praise of Murugan and the pathini",
+   "label_source": "text (குரவை, lines 46, 130)"
+  }
+ ],
+ "source_issues": [
+  "Line 7: இறைஞ்சியஞ் looks corrupt (perhaps இறைஞ்சி யஞ்சி, 'bowing in fear'); the sense of bowing is clear.",
+  "Lines 31-42: the closing line of each stanza (மற்றையார் ...னோம்தோழி நெஞ்சன்றே) is obscure in our text and the stanzas are marked uncertain.",
+  "Line 20: பரவுலும் is probably பரவலும.",
+  "The kaathai's printed last line number is missing (show prints None); the text has 134 lines."
+ ]
+}

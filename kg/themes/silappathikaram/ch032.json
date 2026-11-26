@@ -1,0 +1,619 @@
+{
+ "chapter_no": 32,
+ "chapter_theme": "On a journey to the hills, Senguttuvan hears from the hill people of the one-breasted woman taken to heaven and from Saathan of the burning of Madurai; he reads the Pandya's death as a bent sceptre straightened, his queen chooses Kannaki for worship, and he resolves to bring the goddess's stone from the Himalaya, which his ministers turn into a summons to the northern kings.",
+ "cast": [
+  {
+   "id": "senguttuvan",
+   "tamil": "செங்குட்டுவன்",
+   "role": "the Chera king of Vanchi (here வாய்வாட் கோதை, வானவன், மன்னர் கோமான்), who hears the pathini's story and resolves to fetch her stone from the Himalaya"
+  },
+  {
+   "id": "ilango_venmal",
+   "tamil": "இளங்கோ வேண்மாள்",
+   "role": "Senguttuvan's queen (மாபெருந் தேவி), not the poet Ilango"
+  },
+  {
+   "id": "kodichiyar",
+   "tamil": "கொடிச்சியர்",
+   "role": "the hill women who sing the kunra kuravai"
+  },
+  {
+   "id": "kunra_kuravar",
+   "tamil": "குன்றக் குறவர்",
+   "role": "the hill-dwelling kuravar who saw the one-breasted woman taken to heaven (here மலைமிசை மாக்கள்)"
+  },
+  {
+   "id": "saathan",
+   "tamil": "சாத்தன்",
+   "role": "the grain merchant of Madurai and Tamil poet (தண்டமிழ் ஆசான்), who tells the king the story"
+  },
+  {
+   "id": "nedunjeliyan",
+   "tamil": "நெடுஞ்செழியன்",
+   "role": "the Pandya king of Madurai (here தென்னர் கோமான்), whose death Saathan reports"
+  },
+  {
+   "id": "kopperundevi",
+   "tamil": "கோப்பெருந்தேவி",
+   "role": "the Pandya's chief queen (here பெருங்கோப் பெண்டு), who died with him"
+  },
+  {
+   "id": "kannaki",
+   "tamil": "கண்ணகி",
+   "role": "Kovalan's wife, the pathini who burned Madurai"
+  },
+  {
+   "id": "nool_ari_pulavar",
+   "tamil": "நூலறி புலவர்",
+   "role": "the learned men of the Chera court, consulted on the stone"
+  },
+  {
+   "id": "villavan_kothai",
+   "tamil": "வில்லவன் கோதை",
+   "role": "Senguttuvan's minister, who recounts his victories"
+  },
+  {
+   "id": "azhumbil_vel",
+   "tamil": "அழும்பில்வேள்",
+   "role": "a chief of Senguttuvan's court who advises proclaiming the campaign by drum"
+  },
+  {
+   "id": "arai_parai",
+   "tamil": "அறைபறை",
+   "role": "the proclaiming drum, beaten from an elephant's neck, whose message the last unit gives"
+  }
+ ],
+ "verses": {
+  "silappathikaram:25:1-13": {
+   "reading": "The Chera king, scion of the line that threw down the kadambu in the sea and set its bow on the Himalaya, sitting in the silver mansion with his queen Ilango Venmal, resolves to see the hills, and leaves Vanchi with his retinue for the groves and river banks.",
+   "concepts": [
+    "vendhan",
+    "pugazh",
+    "naadu"
+   ],
+   "nuance": "The queen named here (இளங்கோ வேண்மாள், line 5) is Senguttuvan's wife, not the poet Ilango. Whether the kadambu and Himalaya feats of lines 1 to 2 are the king's own or his line's turns on whether the participles qualify வானவர் or தோன்றல் (line 3); the Patitruppattu preface gives the carved bow to his father Imayavaramban. The kaathai opens as a pleasure trip, so the news of the pathini reaches the king by chance, not by petition.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "senguttuvan",
+     "form": "வாய்வாட் கோதை",
+     "line": 3
+    },
+    {
+     "id": "ilango_venmal",
+     "form": "இளங்கோ வேண்மா",
+     "line": 5
+    }
+   ],
+   "event": "Senguttuvan sets out from Vanchi with his queen and retinue to see the mountain country.",
+   "claims": []
+  },
+  "silappathikaram:25:14-29": {
+   "reading": "The royal camp spreads its halls on the sandbanks of the great river like the god riding his vast elephant, where fallen flowers hide the stream, and from every side rise the kuravai of the hill women, the velan's song to Murugan, the millet-pounders' vallai and the calls of the field-watchers and toddy-drinking kuravar.",
+   "concepts": [
+    "naadu",
+    "velan"
+   ],
+   "nuance": "The catalogue of hill sounds (ஓதை, repeated line after line into the next unit) sets the Chera court inside the kurinji world whose people witnessed Kannaki's ascent; the kuravai named at line 24 points back to the previous kaathai's kunra kuravai.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "senguttuvan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kodichiyar",
+     "form": "கொடிச்சியர்",
+     "line": 24
+    },
+    {
+     "id": "kunra_kuravar",
+     "form": "குறவ",
+     "line": 27
+    }
+   ],
+   "event": "The king's camp is pitched on the river bank amid the songs and noises of the hill people.",
+   "claims": []
+  },
+  "silappathikaram:25:30-45": {
+   "reading": "Amid the din of the moving army, the hill people come carrying goods beyond counting, like enemy kings who stand bearing tribute at Vanchi's court without finding the king's hour, and the list begins: tusks, aloe wood, yak-tail whisks, pots of honey, sandal, vermilion, collyrium, orpiment, cardamom, pepper, arrowroot, coconuts, mangoes, jack fruit, cane and flowering creepers.",
+   "concepts": [
+    "vendhan",
+    "naadu",
+    "selvam"
+   ],
+   "nuance": "The simile turns a free gift of hill produce into tribute: the hill folk stand at the king's camp as defeated enemies stand at his court, which prepares the kaathai's turn from wonder to conquest.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kunra_kuravar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The hill people arrive at the camp laden with the produce of the mountains.",
+   "claims": []
+  },
+  "silappathikaram:25:46-63": {
+   "reading": "Carrying on their heads plantain and areca clusters and the young of lion, tiger, elephant, bear, mountain goat, deer, musk-deer, mongoose, peacock, civet, jungle fowl and parrot, the hill people hail the king as his servants for seven births and tell him that under a forest vengai a woman who had lost her breast, alone in her grief, joined her husband and went to heaven while the gods praised her; they do not know her country or whose daughter she is, and they wish him long life.",
+   "concepts": [
+    "pathini",
+    "vendhan",
+    "karpu"
+   ],
+   "nuance": "The witnesses repeat the patikam's report to Ilango almost image for image (the vengai, the lost breast, the ascent), but now to the reigning king, and they confess they do not know her (நின்னாட்டு யாங்கள் நினைப்பினும் அறியேம்): the pathini enters the Chera land as a nameless stranger before Saathan names her. Lines 59 and 60 both begin வானவர் போற்ற.",
+   "speaker": {
+    "who": "kunra_kuravar",
+    "form": "மலைமிசை மாக்கள்",
+    "line": 55,
+    "addressee": "senguttuvan"
+   },
+   "agents": [
+    {
+     "id": "kunra_kuravar",
+     "form": "மலைமிசை மாக்கள்",
+     "line": 55
+    }
+   ],
+   "event": "The hill people offer their gifts and tell the king of the one-breasted woman they saw taken up to heaven under the vengai.",
+   "claims": [],
+   "unit_note": "End moved from line 61 to 63: the hill people's speech runs on to its closing blessing ending வாழியரென on line 63, and line 64 turns to Saathan."
+  },
+  "silappathikaram:25:64-77": {
+   "reading": "Saathan, the teacher of cool Tamil, who sat beside the king rapt with joy, offers to tell all that befell the woman: how, the anklet of an evil deed being the cause, her husband met his end, how she went with her anklet to plead before the king, and how the great pathini threw down the anklet before the queen, made her vow and burned the old city of Madurai with the fire that rose from her breast.",
+   "concepts": [
+    "pathini",
+    "vinai",
+    "vanjinam",
+    "kodungol"
+   ],
+   "nuance": "Saathan's account to the king calls the anklet தீவினைச் சிலம்பு (line 69), placing the evil deed in the object, and leaves out the former-birth curse he explained to Ilango in the patikam; told publicly to a king, the story is the case, the vow and the burning.",
+   "speaker": {
+    "who": "saathan",
+    "form": "தண்டமி ழாசான்",
+    "line": 66,
+    "addressee": "senguttuvan"
+   },
+   "agents": [
+    {
+     "id": "saathan",
+     "form": "தண்டமி ழாசான்",
+     "line": 66
+    }
+   ],
+   "event": "Saathan begins to tell Senguttuvan the story of Kannaki's loss, her case before the Pandya and the burning of Madurai.",
+   "claims": [
+    {
+     "claim": "an evil deed, through the anklet, caused what befell her husband",
+     "school": "general",
+     "line": 69,
+     "stance": "asserted",
+     "voiced_by": "saathan"
+    }
+   ],
+   "unit_note": "Start moved from line 62 to 64: the hill people's speech ends at line 63 (வாழியரென), and the narration of Saathan begins at line 64."
+  },
+  "silappathikaram:25:78-92": {
+   "reading": "Saathan goes on: the Pandya on his lion throne, unable to bear her grief, fell senseless; his queen, stroking his feet and finding no answer, unshaken yet unable to bear the pain, said she would go where the king went and died with him as if seeking the life that had taken hers; and the maiden, as if to show the king the nature of the Pandya's bent sceptre, did not go to her own land alone but came to the Chera's, and Saathan blesses the king's victory for age upon age.",
+   "concepts": [
+    "kodungol",
+    "saakkaadu",
+    "vaazhkkaithunai",
+    "pathini"
+   ],
+   "nuance": "In the Vazhakkurai the queen only trembles and falls at the king's feet; here she dies by her own resolve (மன்னவன் செல்வுழிச் செல்க யான், line 84). Saathan gives the pathini's coming to Chera land a purpose, to show another king what a bent sceptre comes to (lines 87 to 88), which turns a refugee goddess into a lesson for kings. Line 82 (தலைத்தாள் நெடுமொழி தன்செவி கேளாள்) is obscure.",
+   "uncertain": true,
+   "speaker": {
+    "who": "saathan",
+    "form": null,
+    "line": null,
+    "addressee": "senguttuvan"
+   },
+   "agents": [
+    {
+     "id": "nedunjeliyan",
+     "form": "தென்னர் கோமான்",
+     "line": 79
+    },
+    {
+     "id": "kopperundevi",
+     "form": "பெருங்கோப் பெண்டு",
+     "line": 86
+    },
+    {
+     "id": "kannaki",
+     "form": "நங்கை",
+     "line": 90
+    }
+   ],
+   "event": "Saathan tells how the Pandya king died, how his queen died with him, and how Kannaki came into the Chera country.",
+   "claims": [],
+   "unit_note": "End moved from line 93 to 92: Saathan's speech closes with his blessing ending கொற்றமென on line 92, and line 93 begins the sentence about the king who heard it."
+  },
+  "silappathikaram:25:93-109": {
+   "reading": "Senguttuvan, grieving at the Pandya's fiery end, says it is well that the king's life left before word of his straying from justice reached kings like himself, that his departing life straightened into a just sceptre what strong former deeds had bent, and that to be born in a good line that guards the people, in great fear when rain fails and greater fear when any life is wronged, is only suffering and nothing to be revered; then he asks which of the two women the fair-browed queen admires more, the one who went with her husband's life or the one who came here in wrath.",
+   "concepts": [
+    "kodungol",
+    "sengol",
+    "vinai",
+    "arasu"
+   ],
+   "nuance": "Both causes are given in one line: the sceptre was bent by வல்வினை (line 98), yet the king's own death is what straightens it, so karma bends and the king's choice repairs. This is the patikam's first moral (அரைசியல் பிழைத்தோர்க்கு அறம்கூற்று ஆவது) read by a fellow king as a mercy: death came before the shame. The question at lines 107 to 109 sets the two kinds of wifely virtue side by side for the queen to judge.",
+   "speaker": {
+    "who": "senguttuvan",
+    "form": "மன்னர் கோமான்",
+    "line": 94,
+    "addressee": "saathan"
+   },
+   "agents": [
+    {
+     "id": "senguttuvan",
+     "form": "மன்னர் கோமான்",
+     "line": 94
+    }
+   ],
+   "event": "Senguttuvan laments the Pandya's death, reflects on the burden of kingship and asks his queen which of the two women is greater.",
+   "claims": [
+    {
+     "claim": "a king who strays from justice is better dead before the word of it spreads",
+     "school": "general",
+     "line": 97,
+     "stance": "asserted",
+     "voiced_by": "senguttuvan"
+    },
+    {
+     "claim": "strong former deeds bent the king's sceptre and his dying straightened it",
+     "school": "general",
+     "line": 98,
+     "stance": "asserted",
+     "voiced_by": "senguttuvan"
+    },
+    {
+     "claim": "a protecting king lives in fear of the rain failing and greater fear of any life being wronged",
+     "school": "general",
+     "line": 101,
+     "stance": "asserted",
+     "voiced_by": "senguttuvan"
+    },
+    {
+     "claim": "to be born to a line that guards the people is suffering, not a thing to be revered",
+     "school": "general",
+     "line": 104,
+     "stance": "reported",
+     "voiced_by": "senguttuvan"
+    }
+   ],
+   "unit_note": "Start moved from line 94 to 93: the sentence that introduces the king's speech begins at line 93 (தென்னர் கோமான் தீத்திறங் கேட்ட) and runs into line 94."
+  },
+  "silappathikaram:25:110-121": {
+   "reading": "The great queen answers that the woman who died without seeing her husband's grief may gain great fortune in heaven, but that they must worship this pathini goddess who has come to their wide land; the king, pleased, looks to the learned men, who say that a stone taken from Pothiyil or from the Himalaya will become the goddess, and that bathing it in the Ganges or the Kaveri is fitting.",
+   "concepts": [
+    "pathini",
+    "vazhipaadu",
+    "marumai"
+   ],
+   "nuance": "The queen settles the king's question by dividing the two women: the Pandya queen's reward is in heaven (வானகத்து), Kannaki's is a cult on earth (பத்தினிக் கடவுளைப் பரசல்). The learned men offer two sources, south and north, as equal.",
+   "speaker": {
+    "who": "ilango_venmal",
+    "form": "மாபெருந் தேவி",
+    "line": 110,
+    "addressee": "senguttuvan"
+   },
+   "agents": [
+    {
+     "id": "ilango_venmal",
+     "form": "மாபெருந் தேவி",
+     "line": 110
+    },
+    {
+     "id": "senguttuvan",
+     "form": "மன்னவன்",
+     "line": 115
+    },
+    {
+     "id": "nool_ari_pulavar",
+     "form": "நூலறி புலவரை",
+     "line": 116
+    }
+   ],
+   "event": "The queen proposes that they worship the pathini as a goddess, and the learned men advise on the stone and its bathing.",
+   "claims": [
+    {
+     "claim": "a wife who dies before seeing her husband's grief gains fortune in heaven",
+     "school": "general",
+     "line": 112,
+     "stance": "reported",
+     "voiced_by": "ilango_venmal"
+    },
+    {
+     "claim": "a stone from Pothiyil or the Himalaya, bathed in the Ganges or the Kaveri, becomes the goddess",
+     "school": "general",
+     "line": 119,
+     "stance": "reported",
+     "voiced_by": "nool_ari_pulavar"
+    }
+   ],
+   "unit_note": "End moved from line 120 to 121: the learned men's advice ends with தகவோ உடைத்தென on line 121, and the king's reply begins at line 122."
+  },
+  "silappathikaram:25:122-136": {
+   "reading": "Senguttuvan answers that taking a stone from Pothiyil and bathing it at the Kaveri's ford is no deed of honour for those born to his line of the sword, and that if the king of the great northern mountain, with his matted, thread-wearing, three-fire-tending twice-born, will not give a stone to carve the goddess of the great pathini, then the kaanchi themes of lives gone fruitless, of the daughter given to the moon-crowned god, and of the long kaanchi set against the north will follow.",
+   "concepts": [
+    "pathini",
+    "maanam",
+    "kudi",
+    "vazhipaadu"
+   ],
+   "nuance": "The cult becomes a matter of the king's honour: the near southern stone is rejected because it brings no glory, and the Himalaya's king, whose daughter married Siva (lines 133 to 134), is threatened with the kaanchi of war. The run of kaanchi turai names (lines 131 to 136) is compressed and its exact sense is not sure.",
+   "uncertain": true,
+   "speaker": {
+    "who": "senguttuvan",
+    "form": null,
+    "line": null,
+    "addressee": "nool_ari_pulavar"
+   },
+   "agents": [
+    {
+     "id": "senguttuvan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Senguttuvan rejects the southern stone and resolves to take one from the Himalaya, threatening war if its king refuses.",
+   "claims": [],
+   "unit_note": "Start moved from line 121 to 122: the learned men's speech ends at line 121, and the king's reply begins at line 122."
+  },
+  "silappathikaram:25:137-151": {
+   "reading": "The king goes on that they shall see his moon-touching head crowned with a garland of mandaram and vengai, and that his army shall wear the vanchi of the true sword outside the golden city in all its kinds, the umbrella, victory, assembly, conquest and great feast; and Villavan Kothai, wishing the king long years, speaks to him.",
+   "concepts": [
+    "vanjinam",
+    "maram",
+    "padai"
+   ],
+   "nuance": "The speech is built from the names of the vanchi turai of the grammar of war, so the campaign is announced as a sequence of literary themes. Where the king's words end and Villavan Kothai's begin (line 140, 149 or 150) is not certain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "senguttuvan",
+    "form": null,
+    "line": null,
+    "addressee": "nool_ari_pulavar"
+   },
+   "agents": [
+    {
+     "id": "senguttuvan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "villavan_kothai",
+     "form": "வில்லவன் கோதை",
+     "line": 151
+    }
+   ],
+   "event": "Senguttuvan declares that he will wear the vanchi garland and march north.",
+   "claims": []
+  },
+  "silappathikaram:25:152-177": {
+   "reading": "Villavan Kothai recalls that kings who rose against him brought the fish banner from the Kongu field and their fame reached the elephants of the quarters, that his hunt among Aryans and Tamils is still before the minister's eyes, and that on the day his mother was bathed in the Ganges, Death saw him stand alone against a thousand Aryan kings; there is none in the world who would oppose him, so let letters bearing the bow, fish and tiger go to the northern kings; and Azhumbil Vel adds that the spies of enemy kings, who never leave Vanchi's gate, will carry the news, so let the drum be beaten.",
+   "concepts": [
+    "maram",
+    "pugazh",
+    "otru"
+   ],
+   "nuance": "The minister argues that fame will do the work of war: the Himalaya journey is only for a stone (line 169), and the northern kings need only wear the three Tamil emblems. Line 165 (இமிழ்கடல் வேலியைத் தமிழ்நா டாக்கிய) uses the Patitruppattu preface's phrase for his father. Azhumbil Vel turns the enemy's spies into the king's heralds.",
+   "speaker": {
+    "who": "villavan_kothai",
+    "form": null,
+    "line": null,
+    "addressee": "senguttuvan"
+   },
+   "agents": [
+    {
+     "id": "villavan_kothai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "azhumbil_vel",
+     "form": "அழும்பில்வே",
+     "line": 177
+    }
+   ],
+   "event": "The minister recounts the king's victories and urges a summons to the northern kings, and Azhumbil Vel advises proclaiming it by drum.",
+   "claims": [],
+   "unit_note": "End moved from line 175 to 177: Azhumbil Vel's counsel runs from line 173 to அறைபறை யென்றே ... உரைப்ப on line 177, and line 178 begins the king's assent."
+  },
+  "silappathikaram:25:178-194": {
+   "reading": "The king consents and enters great Vanchi, and the drum, raised on an elephant's neck, proclaims through the city: long live our lord; since he goes to take a stone from the Himalaya, let the northern kings come with tribute and live hearing of the kadambu thrown down in the sea and the bow carved on the cleft, or else live in a renunciation that leaves their wives; long live the king and his army's front.",
+   "concepts": [
+    "padai",
+    "pugazh",
+    "thuravu",
+    "vendhan"
+   ],
+   "nuance": "Renunciation appears here as a threat: the alternative to tribute is a துறவு that gives up one's wives (line 190), the defeated king's forced exile, in a poem whose author by tradition renounced the Chera throne. The proclaimed feats (lines 187 to 188) are those the kaathai's opening gave to the Chera line.",
+   "speaker": {
+    "who": "arai_parai",
+    "form": "அறைபறை",
+    "line": 194,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "senguttuvan",
+     "form": "வேந்தனும்",
+     "line": 178
+    },
+    {
+     "id": "arai_parai",
+     "form": "அறைபறை",
+     "line": 194
+    }
+   ],
+   "event": "Senguttuvan returns to Vanchi and the drum proclaims his northern campaign, calling the northern kings to tribute.",
+   "claims": [],
+   "unit_note": "Start moved from line 176 to 178: Azhumbil Vel's counsel ends on line 177 (உரைப்ப), and line 178 begins the king's consent and the proclamation."
+  }
+ },
+ "links": [
+  {
+   "a": "silappathikaram:25:46-63",
+   "b": "silappathikaram:0:1-11",
+   "type": "develops",
+   "note": "The hill kuravar's report of the one-breasted woman taken to heaven, made to Ilango in the patikam, is made here to the reigning king.",
+   "teaches": "The same witnesses tell the same wonder twice, to the prince who renounced and to the king who rules, and only the king's hearing turns it into a cult and a war, so the epic's frame and its last book answer each other."
+  },
+  {
+   "a": "silappathikaram:25:64-77",
+   "b": "silappathikaram:0:37-54",
+   "type": "qualifies",
+   "note": "To Ilango, Saathan explains the former-birth curse behind the deed; to the king he tells only the anklet, the case, the vow and the burning.",
+   "teaches": "Saathan tailors the story to his hearer: the renouncer is told the karmic cause, the king is told the public case of a bent sceptre, so the epic keeps its two explanations of the disaster apart by audience."
+  },
+  {
+   "a": "silappathikaram:25:78-92",
+   "b": "silappathikaram:20:74-91",
+   "type": "develops",
+   "note": "In the Vazhakkurai the queen trembles and falls at the dying king's feet; Saathan reports that she resolved to go where the king went and died with him.",
+   "teaches": "The scene of the verdict leaves the queen's end open, and the report to another court completes it as a chosen death, which is what lets the Chera queen weigh her against Kannaki in the next units."
+  },
+  {
+   "a": "silappathikaram:25:93-109",
+   "b": "silappathikaram:20:74-91",
+   "type": "develops",
+   "note": "The Pandya named himself the thief and died; Senguttuvan reads that death as the dying life straightening a sceptre bent by strong former deeds.",
+   "teaches": "A second king supplies the interpretation the Pandya scene leaves unstated: the fault is laid on வல்வினை, yet the remedy is the king's own death, so karma and royal responsibility are both kept in one verdict."
+  },
+  {
+   "a": "silappathikaram:25:93-109",
+   "b": "purananuru:35",
+   "type": "qualifies",
+   "note": "Vellaikkudi Naganar tells the Chola that the world blames kings when rain fails and bids him ignore such talk and guard the ploughmen; Senguttuvan names rain failing and a life wronged as the protector-king's two great fears.",
+   "teaches": "The Sangam counsellor treats blame for drought as unfair public talk a just king can bear, while the epic king takes the same burden inward as fear and ranks one wronged life above drought, so that kingship itself becomes suffering.",
+   "gains": {
+    "a": "the king's lament gains a known royal topos, the king answerable for rain, against which his ranking of a wronged life above drought stands out",
+    "b": "the poem's advice to set aside blame gains a counter-voice: a king who, after seeing a Pandya die of one wrong verdict, finds the burden unbearable rather than ignorable"
+   }
+  },
+  {
+   "a": "silappathikaram:25:93-109",
+   "b": "kural:388",
+   "type": "tension",
+   "note": "The Kural says the king who does justice and protects is set apart as இறை for the people; Senguttuvan says birth into a line that guards the people is suffering and nothing to be revered.",
+   "teaches": "Read with தொழுதக as 'worthy of reverence', the two judge the same office oppositely: the couplet awards the protector divine standing, while the epic king, speaking after a just king's fall, denies that the office deserves reverence at all.",
+   "gains": {
+    "a": "the lament gains a sharp opposite: the standard honour of the just king that it refuses",
+    "b": "the couplet's conditional honour gains the view from inside the office, where the same duty of protection is felt as fear and suffering"
+   }
+  },
+  {
+   "a": "silappathikaram:25:110-121",
+   "b": "silappathikaram:0:55-68",
+   "type": "develops",
+   "note": "The patikam's second moral, that the great praise a renowned pathini, begins to be enacted when the Chera queen proposes worshipping her.",
+   "teaches": "The moral is fulfilled first by a queen's judgment that sets the Pandya queen's death aside for heaven and chooses Kannaki for worship on earth, so the praise of the great begins in a comparison of two wives."
+  },
+  {
+   "a": "silappathikaram:25:110-121",
+   "b": "purananuru:246",
+   "type": "qualifies",
+   "note": "Bhuthapandiyan's queen Perunkoppendu rejects the elders and chooses the pyre after her husband; the Chera queen grants the Pandya queen who died with her king heaven, but chooses Kannaki for worship.",
+   "teaches": "The Sangam queen's death after her husband is the summit of a wife's virtue in its own poem, while the epic, granting such a death its heavenly reward, ranks above it the wronged wife who survived to accuse a king.",
+   "gains": {
+    "a": "the queen's verdict gains the Sangam model of the widow's chosen death that it puts in second place",
+    "b": "the poem gains a later judgment in which following one's husband in death is honoured yet ranked below the pathini's wrath"
+   }
+  },
+  {
+   "a": "silappathikaram:25:122-136",
+   "b": "patitruppattu:patikam:5",
+   "type": "develops",
+   "note": "The Patitruppattu preface to the fifth decade lists among Senguttuvan's deeds that he went for a stone for the goddess Pattini and bathed it in the Ganges; the epic shows him choosing the Himalaya stone over the one from Pothiyil.",
+   "teaches": "The preface records the stone as one conquest among many, while the epic gives its reason, a king's honour that refuses the near southern stone, so the pairing shows the pathini's cult being written into the Chera king's record of war.",
+   "gains": {
+    "a": "the king's resolve gains independent witness that the stone for Pattini belonged to the tradition of Senguttuvan's deeds",
+    "b": "the preface's bare phrase கடவுள் பத்தினிக் கற்கோள் gains a scene, a debate over which stone and why"
+   }
+  },
+  {
+   "a": "silappathikaram:25:152-177",
+   "b": "patitruppattu:patikam:2",
+   "type": "develops",
+   "note": "Villavan Kothai credits Senguttuvan with making the sea-fenced land Tamil (இமிழ்கடல் வேலியைத் தமிழ்நா டாக்கிய); the Patitruppattu preface uses nearly the same phrase of his father Imayavaramban.",
+   "teaches": "The minister applies to the son the formula the preface gives the father, so the Chera line's fame works as a shared inheritance that the campaign for the stone is said to renew.",
+   "gains": {
+    "a": "the minister's praise gains its source, a formula of the Chera line rather than a fresh boast",
+    "b": "the preface's phrase gains a later use as an argument that the northern kings will yield without war"
+   }
+  },
+  {
+   "a": "silappathikaram:25:152-177",
+   "b": "patitruppattu:43",
+   "type": "qualifies",
+   "note": "Patitruppattu 43 praises Kuttuvan whose army broke kings from the Himalaya to Kumari; Villavan Kothai argues that because of such victories none in the world will resist him.",
+   "teaches": "The Sangam poem praises conquest as done, while the epic minister uses the same fame as a reason no new conquest is needed, so the reputation of past war is offered as the means of a bloodless one.",
+   "gains": {
+    "a": "the minister's claim that none will resist gains the Sangam record of conquest it rests on",
+    "b": "the poem's praise gains a political use, fame as a weapon that spares battle"
+   }
+  },
+  {
+   "a": "silappathikaram:25:178-194",
+   "b": "silappathikaram:25:1-13",
+   "type": "same_image",
+   "note": "The kadambu thrown down in the sea and the bow set on the Himalaya, epithets of the Chera line in the opening lines, return in the drum's proclamation.",
+   "teaches": "The same two feats change use within one kaathai: at the start they adorn a king going to see the hills, at the end they are a threat sent to northern kings, which marks how far the news of the pathini has turned the pleasure trip."
+  },
+  {
+   "a": "silappathikaram:25:178-194",
+   "b": "kural:590",
+   "type": "qualifies",
+   "note": "The Kural warns that honouring a spy openly lets out the king's secret; Azhumbil Vel counts on the enemy's spies at Vanchi's gate to carry the proclamation.",
+   "teaches": "The couplet treats exposure to spies as a leak to be prevented, while the epic court makes the leak its instrument, so the pairing shows intelligence used as a channel of open threat.",
+   "gains": {
+    "a": "the counsel gains the norm of secrecy that it deliberately inverts",
+    "b": "the couplet gains a case where a king wants his purpose known, which marks the limit of its rule"
+   }
+  },
+  {
+   "a": "silappathikaram:25:178-194",
+   "b": "purananuru:39",
+   "type": "same_image",
+   "note": "Purananuru 39 praises the Chola who made the Chera of the Himalaya-carved bow fall and withered வாடா வஞ்சி; the epic's king enters வாடா வஞ்சி and the drum boasts of the carved bow.",
+   "teaches": "The epithets 'unwithering Vanchi' and 'the bow carved on the Himalaya' are the Chera line's own glory in the epic and the measure of a Chola victory in the Sangam poem, so the pairing shows one stock of Chera fame used by both its owners and its enemies.",
+   "gains": {
+    "a": "the proclamation gains the knowledge that its boasts were stock epithets that rival poets also used",
+    "b": "the poem's paradox of withering the unwithering city gains the Chera's own use of the same name for a city at the height of its power"
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "pathini",
+   "tamil": "பத்தினி",
+   "gloss": "the chaste wife whose steadfastness gives her word power over kings, cities and nature",
+   "label_source": "the unit's own word (lines 74, 114, 129)"
+  }
+ ],
+ "source_issues": [
+  "The edition prints the last line as 190 but the kaathai has 194 lines; line numbers here are show's.",
+  "Line 126: a leftover HTML quote mark was removed in the build (show flags the repair).",
+  "Lines 59 and 60 both begin வானவர் போற்ற; possibly a doubled phrase, kept as written."
+ ]
+}

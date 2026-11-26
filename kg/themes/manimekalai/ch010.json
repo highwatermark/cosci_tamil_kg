@@ -1,0 +1,169 @@
+{
+  "chapter_no": 10,
+  "chapter_theme": "At the jewel seat on Manipallavam Manimekalai weeps, falls and rises knowing her former birth, and tells it aloud to the absent sage Brahmadharma: his warning that King Attipathi's city Idavayam would sink, the king's evacuation and the city's fall on the foretold day, her birth as Lakshmi and marriage to Attipathi's son Rahulan, and the sage's prophecy that Rahulan would die of a glance-poison snake, that she would enter his pyre, be reborn in Puhar, be carried by Manimekala to an island and there know her birth at the seat. She ends asking for the deity who was to show her husband's new birth.",
+  "cast": [
+    {"id": "manimekalai", "tamil": "மணிமேகலை", "role": "Madhavi's daughter, alone on Manipallavam, who here recalls her former birth"},
+    {"id": "ilakkumi", "tamil": "இலக்குமி", "role": "Manimekalai in her former birth, daughter of King Ravivarman of Asotharam and wife of Rahulan"},
+    {"id": "brahmadharman", "tamil": "பிரமதருமன்", "role": "the Buddhist ascetic, brother-in-law of King Attipathi, who foretold the fall of Idavayam and Lakshmi's future births"},
+    {"id": "aththipathi", "tamil": "அத்திபதி", "role": "the king of Idavayam in Gandhara, Rahulan's father"},
+    {"id": "idavayam_makkal", "tamil": "மக்கள்", "role": "the people of Idavayam who left the city with their king and worshipped the sage at Kayangarai"},
+    {"id": "raahulan", "tamil": "இராகுலன்", "role": "Attipathi's son, Lakshmi's husband in the former birth (Udayakumaran in this one)"}
+  ],
+  "verses": {
+    "manimekalai:9:1-15": {
+      "reading": "Seeing the seat, Manimekalai joins her hands above her head, weeps, circles it three times and falls like a lightning-creeper with its cloud, and rising with her former birth known without error, she hails the sage Brahmadharma, brother-in-law of King Attipathi of Gandhara, and says that all he spoke on the bank of the Kayangarai she now knows to have come true.",
+      "concepts": ["piravi", "vazhipaadu", "vaaimai"],
+      "nuance": "Lines 1 to 8 are narration and line 9 begins her speech, which runs to line 70. She speaks to Brahmadharma as if present, though only the seat is before her: the recognition of the birth and the confirmation of the sage's word (வாயே ஆகுதல், 11) arrive together, so the seat's first gift is proof that a prophecy held.",
+      "speaker": {"who": "manimekalai", "form": "ஆய் இழை", "line": 1, "addressee": "brahmadharman"},
+      "agents": [{"id": "manimekalai", "form": "ஆய் இழை", "line": 1}],
+      "event": "Manimekalai worships the jewel seat, falls to the ground, rises knowing her former birth and addresses the sage Brahmadharma.",
+      "claims": [
+        {"claim": "what a true seer foretells comes to pass", "school": "general", "line": 11, "stance": "asserted", "voiced_by": "manimekalai"}
+      ],
+      "uncertain": false
+    },
+    "manimekalai:9:16-30": {
+      "reading": "Manimekalai recalls that the sage went to King Attipathi and warned him that in seven days an earthquake would sink his city four hundred yojanas into the Naga underworld, and that the king had the drum proclaim that all should leave with their cattle and horses, left Idavayam with his army for Avanti in the north, and camped in a flowering grove on the bank of the Kayangarai.",
+      "concepts": ["kedu", "arasu", "nilaiyaamai"],
+      "nuance": "The sage gives no cause for the city's fall: no fault of the king and no curse, only the warning, and the king acts on it at once. Set against the later fall of Puhar, which the epic ties to a forgotten festival and a goddess's anger, this first drowned city is the case of a warning heeded.",
+      "speaker": {"who": "manimekalai", "form": null, "line": null, "addressee": "brahmadharman"},
+      "agents": [
+        {"id": "brahmadharman", "form": null, "line": 16},
+        {"id": "aththipathi", "form": "இரு நில வேந்தனும்", "line": 23}
+      ],
+      "event": "Brahmadharma warns Attipathi that Idavayam will sink in seven days; the king proclaims an evacuation, leaves the city and camps on the bank of the Kayangarai.",
+      "claims": [],
+      "unit_note": "Boundary moved from after line 25 to after line 30: line 25 ends with என்றே and the proclamation runs on into line 26 (பறையின் சாற்றி), and the clause of the king's journey closes with இருப்ப at line 30."
+    },
+    "manimekalai:9:31-41": {
+      "reading": "On the day the sage had named the city fell, and the king and all the people gathered round his feet and praised him while he, bound to the dharma of compassion, taught to end the world's suffering; at that time, she says, she had been born as Lakshmi, daughter of Queen Amuthapathi and King Ravivarman of sea-loud Asotharam.",
+      "concepts": ["arul", "aram", "piravi", "vazhipaadu"],
+      "nuance": "The sentence ties her birth to 'that day' (அந் நாள், 37), which most naturally means she was living as Lakshmi at the time, not born that day. Her memory of the camp at Kayangarai is all worship and teaching; kaathai 21 will add what she does not say here, that on the same visit her husband killed the cook.",
+      "speaker": {"who": "manimekalai", "form": null, "line": null, "addressee": "brahmadharman"},
+      "agents": [
+        {"id": "aththipathi", "form": "அரசொடு", "line": 34},
+        {"id": "idavayam_makkal", "form": "மக்கள்", "line": 34},
+        {"id": "brahmadharman", "form": null, "line": 37}
+      ],
+      "event": "Idavayam sinks on the foretold day; the king and people worship Brahmadharma, who teaches them; Manimekalai names her former birth as Lakshmi of Asotharam.",
+      "claims": [
+        {"claim": "the dharma of compassion, taught, ends the suffering of the world", "school": "buddhist", "line": 36, "stance": "asserted", "voiced_by": "manimekalai"}
+      ],
+      "unit_note": "Boundaries moved: the unit began at line 26 and ended at line 38, which split the phrase அசோதரம் ஆளும் / இரவிவன்மன் across lines 38 and 39. It now begins at line 31 (எம் கோன், a new clause after இருப்ப at 30) and ends at line 41, where பிறந்தேன் closes the sentence."
+    },
+    "manimekalai:9:42-57": {
+      "reading": "As Lakshmi she married Rahulan, son of Attipathi and Queen Neelapathi, and when she bowed with him at the sage's feet he foretold that within sixteen days Rahulan would die of a snake whose glance is poison and she would sink into his fire, and that since the cause for her awakening had not come to pass there, she would be born in the city named for the Kaveri, and on a day of great sorrow the goddess Manimekala would carry her by night to an island in the south.",
+      "concepts": ["piravi", "ethu", "saakkaadu", "vinai"],
+      "nuance": "The sage foretells the pyre as plainly as the death, with no word of praise or blame for it; the reason he gives for her rebirth in Puhar is that the ripening cause (ஏது நிகழ்ச்சி, 51) is absent 'here', a term the epic will use again for the conditions that must mature before release. Rahulan is the sage's nephew (Attipathi's son, and the sage is Attipathi's மைத்துனன், line 15). எட்டு இரு நாள் (48) is read as sixteen days (eight times two); ten is grammatically possible.",
+      "speaker": {"who": "manimekalai", "form": null, "line": null, "addressee": "brahmadharman"},
+      "agents": [
+        {"id": "ilakkumi", "form": null, "line": 46},
+        {"id": "raahulan", "form": "இராகுலன்", "line": 46},
+        {"id": "brahmadharman", "form": null, "line": 48}
+      ],
+      "event": "Lakshmi marries Rahulan; when the two bow to Brahmadharma he foretells Rahulan's death by a glance-poison snake, her death in his fire, her rebirth in Puhar and her carrying by Manimekala to a southern island.",
+      "claims": [
+        {"claim": "when the cause for awakening has not ripened in one birth, it comes to pass in a later birth", "school": "buddhist", "line": 51, "stance": "asserted", "voiced_by": "brahmadharman"}
+      ],
+      "uncertain": true,
+      "unit_note": "Begins at line 42 instead of 39, since lines 39 to 41 now close the sentence of the previous unit (பிறந்தேன், 41); ends at 57 as before."
+    },
+    "manimekalai:9:58-71": {
+      "reading": "The prophecy goes on: on that island she was to worship the bright seat where the physician of the disease of birth sat and taught dharma, where the Naga kings put away the stain of anger and of mind and opened the ear of dharma and closed the ear of war, and that same day know her birth and see his words were clear; she, faint at the news of death, had asked to be shown her lover's next birth, and he had said the goddess who brought her would appear and say 'this is your husband'; will that goddess not come, she asks, and weeps.",
+      "concepts": ["piravi", "pirivu", "manam", "aram"],
+      "nuance": "The Buddha is not named: he is the physician of the disease of birth (பிறவிப் பிணி மருத்துவன், 61) and the seat is where he sat. Lakshmi's one question to the sage after hearing her husband would die was not about release but about finding him again, and Manimekalai repeats it now as her first wish after recovering the birth: the attachment the sage foresaw is still at work.",
+      "speaker": {"who": "manimekalai", "form": "இளங்கொடி", "line": 71, "addressee": "brahmadharman"},
+      "agents": [
+        {"id": "brahmadharman", "form": null, "line": 64},
+        {"id": "ilakkumi", "form": null, "line": 66},
+        {"id": "manimekalai", "form": "இளங்கொடி", "line": 71}
+      ],
+      "event": "Manimekalai recalls the sage's promise that at the seat she would know her birth and that a goddess would show her her husband, and weeps asking why that goddess has not come.",
+      "claims": [
+        {"claim": "the teacher of dharma is the physician of the disease of birth", "school": "buddhist", "line": 61, "stance": "asserted", "voiced_by": "brahmadharman"},
+        {"claim": "dharma is heard only when the stains of anger and of mind have been cleansed", "school": "buddhist", "line": 59, "stance": "asserted", "voiced_by": "brahmadharman"}
+      ]
+    }
+  },
+  "links": [
+    {
+      "a": "manimekalai:9:1-15",
+      "b": "manimekalai:7:100-115",
+      "type": "develops",
+      "note": "Manimekala told the sleeping Sudhamathi that within seven days Lakshmi, her younger sister, would come knowing her own birth and Sudhamathi's; here Manimekalai rises from the seat knowing that birth.",
+      "teaches": "The goddess's promise to a third person is kept before Manimekalai knows it was made, so the recognition at the seat is staged as the second prophecy fulfilled in the chapter, not a private vision."
+    },
+    {
+      "a": "manimekalai:9:16-30",
+      "b": "manimekalai:28:120-137",
+      "type": "same_image",
+      "note": "In both a Buddhist ascetic foretells that a city will be swallowed, Idavayam by earthquake and Kaveripattinam by the sea, and those who trust the word act on it and are saved from the ruin.",
+      "teaches": "The epic repeats the drowned city as a test of trust in a seer's word: the survivors in both are those who believed a forecast before any sign, which makes heeding the ascetic the epic's form of escape from a city's fate."
+    },
+    {
+      "a": "manimekalai:9:31-41",
+      "b": "manimekalai:21:45-60",
+      "type": "qualifies",
+      "note": "Manimekalai remembers the camp at Kayangarai as a day of worship and the sage's compassionate teaching; the deity of the pillar in kaathai 21 tells that on that same visit Rahulan killed the cook who stumbled with the sage's food.",
+      "teaches": "The recovered memory is partial: what the seat restores to her is the piety of that day, and the deed that will kill her husband has to be supplied later by a god, so knowing one's birth in this epic does not yet mean knowing one's karma."
+    },
+    {
+      "a": "manimekalai:9:42-57",
+      "b": "manimekalai:6:200-214",
+      "type": "develops",
+      "note": "The sage foretold that on a day of sorrow Manimekala would lift her in the dark night and set her on an island in the southern quarter (தென் திசை மருங்கில்); kaathai 6 tells it in the same words: at midnight the goddess carried her south and left her on Manipallavam.",
+      "teaches": "Read back from this prophecy, the abduction of kaathai 6 that seemed a goddess's rescue from the prince is shown to be an appointment fixed a birth earlier, which turns chance into the ripening of a cause."
+    },
+    {
+      "a": "manimekalai:9:42-57",
+      "b": "manimekalai:21:61-72",
+      "type": "develops",
+      "note": "The sage foretells Rahulan's death by a glance-poison snake without a cause; the deity of kaathai 21 gives the cause, his killing of the cook, and says Lakshmi's loving refusal to leave him could not turn the deed aside.",
+      "teaches": "Together the passages show the epic's karma working in two steps: the prophecy fixes the fruit as certain, and only later is the deed named, with the added point that a wife's devotion, even unto the pyre, does not share or lighten a husband's deed."
+    },
+    {
+      "a": "manimekalai:9:42-57",
+      "b": "purananuru:246",
+      "type": "qualifies",
+      "note": "Perunkoppendu insists against the elders that her husband's pyre is to her a lotus pool; the sage tells Lakshmi as a plain fact that she will sink into Rahulan's fire, and the epic sends her, through that fire, to a new birth still bound to him.",
+      "teaches": "The Sangam queen's choice of the pyre is her last word and her karpu's proof, while the Buddhist epic treats the same act as foretold and as no end at all: the bond she dies for carries into the next birth as the attachment that must be undone.",
+      "gains": {
+        "a": "Lakshmi's foretold death in the fire is set against a known Tamil model of the wife who chooses the pyre, which shows how flatly the sage reports it, without praise.",
+        "b": "The queen's claim that the fire and the lotus pool are one meets a work for which the fire leads not to union but to rebirth with the same longing."
+      }
+    },
+    {
+      "a": "manimekalai:9:58-71",
+      "b": "manimekalai:10:16-39",
+      "type": "develops",
+      "note": "The sage promised that the goddess who brought her would appear and say 'this is your husband'; in kaathai 10 Manimekala comes and names Rahulan as Udayakumaran, telling the story of Lakshmi's past.",
+      "teaches": "The husband she longs to be shown turns out to be the prince she has been hiding from, so the promised reunion is delivered as a reason to understand her pull toward him and turn from it."
+    },
+    {
+      "a": "manimekalai:9:58-71",
+      "b": "silappathikaram:23:161-176",
+      "type": "qualifies",
+      "note": "In the Silappathikaram the goddess of Madurai tells the grieving Kannaki she will see her husband within fourteen days, but only in a god's form; here the grieving Lakshmi is told a goddess will show her husband in a later human birth.",
+      "teaches": "The two epics answer the same plea of a widow to see her husband again in opposite ways: the first through a heavenly reunion after death, the second through a new birth in which the man shown is the one she must learn to leave."
+    },
+    {
+      "a": "manimekalai:9:58-71",
+      "b": "thiruppugazh:277",
+      "type": "same_image",
+      "note": "The epic calls the teacher whose seat this is the physician of the disease of birth (பிறவிப் பிணி மருத்துவன்); Arunagirinathar calls Murugan of Thiruttani the physician of the disease of becoming (பவரோக வயித்திய நாத) and asks his grace to cut birth's root.",
+      "teaches": "The same title names two cures: in the Buddhist epic the physician heals by teaching dharma to those who have cleansed their minds, and his seat alone is left to be worshipped; in the Saiva hymn he heals by grace given to one who calls his name.",
+      "gains": {
+        "a": "The epithet at line 61 is shown to be a contested title, and the epic's choice to name no god while using it becomes visible.",
+        "b": "The hymn's physician-god is seen against an older Tamil use of the title for a teacher whose cure is a doctrine heard, not a grace received."
+      }
+    }
+  ],
+  "new_concepts": [
+    {"id": "ethu", "tamil": "ஏது", "gloss": "the cause or condition that must ripen before an event, above all before awakening or release; in the Manimekalai's phrase ஏது நிகழ்ச்சி, the coming to pass of that cause", "label_source": "the unit's own word: ஏது நிகழ்ச்சி ஈங்கு இன்று ஆதலின் (line 51)"}
+  ],
+  "source_issues": [
+    "Line 64: the edition's தௌிவாய் was repaired to தெளிவாய் (old fonts drew ௌ and ெள alike).",
+    "Default unit boundaries at lines 25/26 and 38/39 fell inside sentences (the second split the phrase அசோதரம் ஆளும் இரவிவன்மன்); three units were adjusted to 16-30, 31-41 and 42-57.",
+    "Line 48: எட்டு இரு நாள் is read as sixteen days; it could be ten."
+  ]
+}
