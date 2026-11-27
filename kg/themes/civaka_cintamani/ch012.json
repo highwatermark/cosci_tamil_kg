@@ -1,0 +1,918 @@
+{
+ "chapter_no": 12,
+ "chapter_theme": "Dharmadattan answers Kattiyangaran's plan to kill the king with a long speech on the king's divinity, the hell awaiting regicides and the ruin of a bent sceptre; Madanan and Kattiyangaran reject it, the councillor yields, and the usurper imprisons the king's kin and besieges the palace, where Saccandan prepares to fight, sends Vijayai away, and consoles her with the doctrine that birth and death are the fruit of one's deeds.",
+ "cast": [
+  {
+   "id": "saccandan",
+   "tamil": "சச்சந்தன்",
+   "role": "king of Emangatham, Civakan's father"
+  },
+  {
+   "id": "vijayai",
+   "tamil": "விசயை",
+   "role": "Saccandan's queen, Civakan's mother"
+  },
+  {
+   "id": "kattiyangaran",
+   "tamil": "கட்டியங்காரன்",
+   "role": "Saccandan's minister, given the rule, who usurps it"
+  },
+  {
+   "id": "dharmadattan",
+   "tamil": "தருமதத்தன்",
+   "role": "councillor who counsels Kattiyangaran against regicide"
+  },
+  {
+   "id": "madanan",
+   "tamil": "மதனன்",
+   "role": "Kattiyangaran's ally who urges force"
+  },
+  {
+   "id": "kattiyangaran_army",
+   "tamil": "சேனை",
+   "role": "the army Kattiyangaran sends against the palace"
+  },
+  {
+   "id": "vaayilon",
+   "tamil": "செய்ய கோல் வெய்ய சொல்லான்",
+   "role": "palace servant with a red staff who warns the king"
+  }
+ ],
+ "verses": {
+  "246": {
+   "reading": "Dharmadattan tells Kattiyangaran that, though the learned rank gods and kings alike above ordinary people, he holds that kings surpass the gods in many ways.",
+   "concepts": [
+    "arasu",
+    "vendhan",
+    "iraivan"
+   ],
+   "speaker": {
+    "who": "dharmadattan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [
+    {
+     "id": "dharmadattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Dharmadattan begins his answer to Kattiyangaran's question about killing the king.",
+   "claims": [
+    {
+     "claim": "kings surpass the gods in many respects",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    }
+   ],
+   "nuance": "The speech that runs to 255 answers Kattiyangaran's request in 241 for counsel on the 'deity' that urges him to kill the king; its first move is to put the king above any deity."
+  },
+  "247": {
+   "reading": "He argues that the king is a great deity whose favour raises a man to rule and whose anger burns him, while the gods, praised or reviled, do not make and unmake on the spot as he does.",
+   "concepts": [
+    "arasu",
+    "iraivan",
+    "vekuli"
+   ],
+   "speaker": {
+    "who": "dharmadattan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the king's favour and anger make and destroy at once, as the gods' do not",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    }
+   ],
+   "nuance": "அருளுமேல் அரசு ஆக்கும் glances at Kattiyangaran himself, whom the king's favour has just made ruler (201 to 203)."
+  },
+  "248": {
+   "reading": "Even asleep, the king's splendour guards the sea-girt earth, whereas the unblinking gods, though always awake, do not stand guard when dharma is plundered.",
+   "concepts": [
+    "arasu",
+    "sengol",
+    "aram"
+   ],
+   "speaker": {
+    "who": "dharmadattan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a king's power protects the world even while he sleeps",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "dharmadattan"
+    }
+   ],
+   "nuance": "The story is about to test this: a king sunk in pleasure (261) does not protect even his own palace. The narrator does not repeat the claim, so it stands as Dharmadattan's.",
+   "uncertain": true
+  },
+  "249": {
+   "reading": "The world takes as divine whoever follows after the four, and men do not even think of what angers their guardian kings, nor speak of it, fearing the fault.",
+   "concepts": [
+    "arasu",
+    "acham",
+    "vendhan"
+   ],
+   "speaker": {
+    "who": "dharmadattan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "subjects should not even think or speak against the king",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    }
+   ],
+   "nuance": "Who the நால்வர் of line 1 are is not stated in the verse; the reading of the first two lines is open.",
+   "uncertain": true
+  },
+  "250": {
+   "reading": "The fire that is a king burns those who touch it along with all their kin, and turns nectar or poison as it will, so the deity Kattiyangaran says speaks in his mouth is no worthy guide.",
+   "concepts": [
+    "arasu",
+    "vendhan",
+    "utpagai"
+   ],
+   "speaker": {
+    "who": "dharmadattan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "whoever lays hands on a king is destroyed with his kin",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    }
+   ],
+   "nuance": "நின் வாய் மொழித் தெய்வம் answers 241 directly: the 'great deity hostile to the king' that Kattiyangaran claims possesses him is dismissed as a deity of his own words."
+  },
+  "251": {
+   "reading": "If Kattiyangaran says that sending the king to heaven and ruling the earth himself would be good, that is not clean, the speaker tells him.",
+   "concepts": [
+    "utpagai",
+    "soozhchi",
+    "nanri"
+   ],
+   "speaker": {
+    "who": "dharmadattan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "killing the king to rule in his place is not pure conduct",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    }
+   ],
+   "nuance": "The simile of the last line (வாள் ஞமற்கு ஓலை வைத்து அன்ன) recalls 202, where Kattiyangaran himself likened the throne given him to a seat put on a dog; whom the simile and the epithet ஒண் திறல் ஆற்றலான் describe is not clear.",
+   "uncertain": true
+  },
+  "252": {
+   "reading": "The wife who seeks another spear-bearer while the man who garlanded her lives, the one who turned his back on a faultless lord, and those who fail to honour their elders are, he says, food for suffering.",
+   "concepts": [
+    "karpu",
+    "nanri",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "dharmadattan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a wife who seeks another man while her husband lives comes to suffering",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    },
+    {
+     "claim": "one who deserts a faultless lord, or fails to honour elders, comes to suffering",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    }
+   ]
+  },
+  "253": {
+   "reading": "Betraying a friend's secret, taking another's wife, ravishing a maiden in lust, killing beings and eating their flesh, and killing the king while serving as his minister: these, he says, sink into leprosy and hell.",
+   "concepts": [
+    "naragam",
+    "pulaal",
+    "piranil",
+    "amaichu"
+   ],
+   "speaker": {
+    "who": "dharmadattan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "one who kills and eats living beings sinks into hell",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    },
+    {
+     "claim": "a minister who kills his king sinks into leprosy and hell",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    },
+    {
+     "claim": "betraying a friend, adultery and violating a maiden lead to hell",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    }
+   ],
+   "nuance": "The list ends on the crime Kattiyangaran is weighing, so the catalogue of sins is aimed at one man; flesh-eating is ranked with regicide."
+  },
+  "254": {
+   "reading": "As the hare in the moon grows with the waxing crescent and wanes with the waning moon, a man who takes the king as his lord and follows him will win lasting fame like the full moon that splits the dark.",
+   "concepts": [
+    "amaichu",
+    "pugazh",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "dharmadattan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a servant's fortune rises and falls with his lord's, so loyal service brings fame",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    }
+   ],
+   "nuance": "The image binds the minister's fate to the king's: if the moon wanes, so does the hare on it, which makes regicide self-destruction."
+  },
+  "255": {
+   "reading": "If the king's sceptre bends, he says, the planets leave their courses, the hours fail, the sun's heat runs over, rain stops, harvests shrink, hunger lengthens, women's chastity breaks, dharma turns, and the world is ruined.",
+   "concepts": [
+    "kodungol",
+    "mazhai",
+    "karpu",
+    "pasi"
+   ],
+   "speaker": {
+    "who": "dharmadattan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "when the king's sceptre bends, rain fails, chastity breaks and the world is ruined",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    }
+   ],
+   "nuance": "Dharmadattan uses the bent-sceptre doctrine against a would-be usurper: the seizure itself is the bending. Women's chastity is listed among the cosmic effects, not as a separate cause."
+  },
+  "256": {
+   "reading": "When Dharmadattan has rebuked him fittingly, Madanan, his chest under its fragrant kuvalai garland drenched in sweat like a beacon lit on a hill, answers.",
+   "concepts": [
+    "vekuli",
+    "amaichu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dharmadattan",
+     "form": "தரும தத்தன்",
+     "line": 1
+    },
+    {
+     "id": "madanan",
+     "form": "மதனன்",
+     "line": 4
+    }
+   ],
+   "event": "Dharmadattan finishes his rebuke and Madanan, flushed with anger, rises to reply.",
+   "claims": [],
+   "nuance": "The Karthikai lamp on a hill, used here of Madanan's heated body, returns in 262 as the lamp of blame Kattiyangaran lights on a hilltop."
+  },
+  "257": {
+   "reading": "Madanan says he knows no way of settling things with the mouth, only with the sword that splits the heads of those who gather, and that hands that melt with pity at talk like thunderclouds will slip in battle.",
+   "concepts": [
+    "padai",
+    "vekuli",
+    "arul"
+   ],
+   "speaker": {
+    "who": "madanan",
+    "form": null,
+    "line": null,
+    "addressee": "dharmadattan"
+   },
+   "agents": [
+    {
+     "id": "madanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Madanan scorns debate and urges force.",
+   "claims": [
+    {
+     "claim": "pity makes a fighter's hands fail in battle, so force and not talk must settle the matter",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "madanan"
+    }
+   ],
+   "nuance": "The third line (காள மேகங்கள் சொல்லிக் கருனையால் குழைக்கும் கைகள்) seems to mock Dharmadattan's speech and its pity; the construction is not clear.",
+   "uncertain": true
+  },
+  "258": {
+   "reading": "Sweat beading on him like fine pearls, his brow drawn, fire in his eyes, Kattiyangaran strikes his jewelled bracelet and, laughing in anger, speaks.",
+   "concepts": [
+    "vekuli",
+    "utpagai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran",
+     "form": "கட்டியங் காரன்",
+     "line": 4
+    }
+   ],
+   "event": "Kattiyangaran, enraged, laughs and prepares to answer Dharmadattan.",
+   "claims": []
+  },
+  "259": {
+   "reading": "Kattiyangaran says no one but he would bear such words and no one but Dharmadattan would plot ill to one close to him; let the king go to rule heaven as lord of the gods, and he will guard the earth so that it brims with gold.",
+   "concepts": [
+    "utpagai",
+    "soozhchi",
+    "vanjam"
+   ],
+   "speaker": {
+    "who": "kattiyangaran",
+    "form": null,
+    "line": null,
+    "addressee": "dharmadattan"
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kattiyangaran rejects Dharmadattan's counsel and declares he will take the earth while the king goes to heaven.",
+   "claims": [],
+   "nuance": "He uses the very pretext Dharmadattan forestalled in 251, sending the king to heaven, now as a promise of prosperity."
+  },
+  "260": {
+   "reading": "The speaker gives way: let it flourish, they said no more than that, no need for anger, let them rise and do it now; the king will be killed by Death, by the woman, by his own fault, by his boundless wealth and by his own grace.",
+   "concepts": [
+    "kootru",
+    "kaamam",
+    "vinai",
+    "arul"
+   ],
+   "speaker": {
+    "who": "dharmadattan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [
+    {
+     "id": "dharmadattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The councillor withdraws his objection to Kattiyangaran's plan.",
+   "claims": [
+    {
+     "claim": "a king who errs is destroyed by his own fault, his passion, his wealth and his misplaced grace",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    }
+   ],
+   "nuance": "The speaker is not named; வெகுள வேண்டா answers the anger of 258 and விளைக பொலிக echoes Kattiyangaran's promise in 259, so this is Dharmadattan giving way, in resignation or irony. Death (கூற்றம்), the woman, the king's own fault (தான் செய்த பிழைப்பு), his wealth and his grace are named together as what kills, so fate and the king's own failing are both given as the cause; the narrator bears the claim out in 261.",
+   "uncertain": true
+  },
+  "261": {
+   "reading": "Seeing the king, sunk in pleasure with his queen, deep in a love he could not leave, stripped of the invincible army he had given up, the cruel one planned to kill him with all his line.",
+   "concepts": [
+    "soozhchi",
+    "kaamam",
+    "utpagai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran",
+     "form": "கொடியவன்",
+     "line": 4
+    }
+   ],
+   "event": "Kattiyangaran plots to kill the defenceless king and his whole line.",
+   "claims": [],
+   "nuance": "The narrator names the king's own surrender of his army in pleasure as the opening for the treachery; the king's lust and the minister's cruelty are both causes."
+  },
+  "262": {
+   "reading": "He sank the king's kinsmen in chains in the prison, heaped wealth on all who bowed under him, brought the whole land under one umbrella, and stood revealed like one who lights a blazing lamp of infamy on a hilltop.",
+   "concepts": [
+    "kodungol",
+    "pazhi",
+    "utpagai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kattiyangaran imprisons the king's kin, buys followers with wealth and takes the land.",
+   "claims": [],
+   "nuance": "'One umbrella' is the formula of lawful sovereignty, here won by chains and bribes; the hilltop lamp makes the usurpation visible to all."
+  },
+  "263": {
+   "reading": "Readying war elephants, horses and wide-wheeled chariots, the great army fills every street of the old city and, with fiery swords, bows and leaf-bladed spears, surrounds the king's palace.",
+   "concepts": [
+    "padai",
+    "pagai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran_army",
+     "form": "சேனை",
+     "line": 2
+    }
+   ],
+   "event": "Kattiyangaran's army surrounds the king's palace.",
+   "claims": []
+  },
+  "264": {
+   "reading": "A man of harsh word with a red staff bows from afar and cries to the king, praising him, that Kattiyangaran has come intending to seize him.",
+   "concepts": [
+    "pagai",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "vaayilon",
+    "form": "சொல்லான்",
+    "line": 4,
+    "addressee": "saccandan"
+   },
+   "agents": [
+    {
+     "id": "vaayilon",
+     "form": "சொல்லான்",
+     "line": 4
+    },
+    {
+     "id": "kattiyangaran",
+     "form": "கட்டியங் காரன்",
+     "line": 3
+    }
+   ],
+   "event": "A palace servant warns the king that Kattiyangaran has come against him.",
+   "claims": [],
+   "nuance": "செய்ய கோல் may be the herald's or gatekeeper's red staff; who the speaker is beyond that is not said. கோள் நிலைக் குறித்து may mean intent to capture.",
+   "uncertain": true
+  },
+  "265": {
+   "reading": "The king, his voice like a thunderclap, orders the strong gates barred, chariots, elephants and horses made ready, and the guards to man the wide walls.",
+   "concepts": [
+    "padai",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "saccandan",
+    "form": "சொல்லான்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": "சொல்லான்",
+     "line": 4
+    }
+   ],
+   "event": "Saccandan orders the palace defended.",
+   "claims": []
+  },
+  "266": {
+   "reading": "Drawing his gold-hilted sword from its tiger-skin sheath and looking on its blaze, the king laughs, baring his teeth: they will see what Kattiyangaran, whose heart is lord of strife, has resolved against them.",
+   "concepts": [
+    "padai",
+    "pagai",
+    "aanmai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Saccandan draws his sword and laughs at Kattiyangaran's challenge.",
+   "claims": []
+  },
+  "267": {
+   "reading": "The king tells his lady she must go and not grieve over wealth, since all she dreamt that night has come to pass; she swoons, beats her face and falls, and her grief pains him.",
+   "concepts": [
+    "kanavu",
+    "idumbai",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "saccandan",
+    "form": null,
+    "line": null,
+    "addressee": "vijayai"
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vijayai",
+     "form": "செங் கயல் கண்ணி",
+     "line": 4
+    }
+   ],
+   "event": "Saccandan bids Vijayai leave; she collapses in grief.",
+   "claims": [],
+   "nuance": "The king now concedes the dream he had brushed aside in 228."
+  },
+  "268": {
+   "reading": "The king of mountain shoulders goes to the fallen queen, lifts and embraces her, eases her grief, and speaks these words.",
+   "concepts": [
+    "anbu",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": "தோளான்",
+     "line": 1
+    },
+    {
+     "id": "vijayai",
+     "form": "அமிர்தம் அன்னாளை",
+     "line": 2
+    }
+   ],
+   "event": "Saccandan raises and comforts Vijayai.",
+   "claims": []
+  },
+  "269": {
+   "reading": "He tells her that dying and being born come from the fruit of one's own deeds, that rise and ruin are the nature of things, and that sorrow and pity come from want of fine understanding, so she errs greatly in grieving.",
+   "concepts": [
+    "vinai",
+    "piravi",
+    "nilaiyaamai",
+    "samanilai"
+   ],
+   "speaker": {
+    "who": "saccandan",
+    "form": null,
+    "line": null,
+    "addressee": "vijayai"
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "birth and death come from the fruit of one's own deeds",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "saccandan"
+    },
+    {
+     "claim": "gain and loss are the nature of all things",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "saccandan"
+    },
+    {
+     "claim": "grief and pity arise from lack of subtle understanding",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "saccandan"
+    }
+   ],
+   "nuance": "The king who preaches deed-fruit and detachment is the one whose own pleasure lost him the kingdom (261, and தான் செய்த பிழைப்பு in 260): the story gives his present fault as the cause, while he gives the fruit of deeds, so karma and the king's fault stand side by side, and the doctrine consoles and also indicts him."
+  }
+ },
+ "links": [
+  {
+   "a": "250",
+   "b": 241,
+   "type": "tension",
+   "note": "In 241 Kattiyangaran claims a great deity hostile to the king possesses him and urges the killing; 250 calls that a deity of his own mouth, after 247 has made the king himself the great deity.",
+   "teaches": "The usurper's appeal to divine compulsion is answered by moving divinity to the king, so the regicide is recast from obedience to a god into an attack on one."
+  },
+  {
+   "a": "251",
+   "b": 259,
+   "type": "develops",
+   "note": "Dharmadattan forestalls the excuse of sending the king to heaven; in 259 Kattiyangaran uses exactly that excuse, dressed as a promise that the earth will brim with gold.",
+   "teaches": "The counsellor named the usurper's rationalisation before he spoke it, so 259 reads as a man walking into a trap already shown to him."
+  },
+  {
+   "a": "248",
+   "b": 261,
+   "type": "tension",
+   "note": "248 claims the king's splendour guards the world even while he sleeps; 261 shows the king sunk in pleasure, his army given up, and helpless against his minister.",
+   "teaches": "The story refutes the councillor's extravagant praise of royal power: a king who has let go of rule is not protected by his majesty."
+  },
+  {
+   "a": "260",
+   "b": 205,
+   "type": "develops",
+   "note": "In 205 the king refuses the astrologer's warning, saying he has done his part for Kattiyangaran and let him do as he will; 260 lists the king's own grace among the things that will kill him.",
+   "teaches": "அருள் கொல்லும் names the king's trust in 205 as a fatal fault, so his generosity is counted with lust and wealth among the causes of his fall."
+  },
+  {
+   "a": "263",
+   "b": 204,
+   "type": "develops",
+   "note": "The astrologer in 204 warned that if the king put his power in one man the land's fortune would leave; in 263 that man's army surrounds the palace.",
+   "teaches": "The siege fulfils a warning the king dismissed, so the fall is shown as foreseen and refused, not as blind chance."
+  },
+  {
+   "a": "267",
+   "b": 228,
+   "type": "tension",
+   "note": "In 228 the king soothed Vijayai by calling belief in dreams a woman's credulity; in 267 he tells her that all she dreamt has come to pass.",
+   "teaches": "The king's dismissal of his wife's dream is reversed by his own admission, which turns his later lecture on detachment in 269 into a man correcting his own earlier error."
+  },
+  {
+   "a": "267",
+   "b": 223,
+   "type": "develops",
+   "note": "Vijayai's dream in 223 of the ashoka tree falling, its garland crowning a shoot, is what the king says in 267 has now come true.",
+   "teaches": "The fallen tree of the dream is the king himself, which the earlier verse could only hint at, while the shoot points ahead to the son not yet born."
+  },
+  {
+   "a": "247",
+   "b": "kural:388",
+   "type": "qualifies",
+   "note": "Kural 388 calls the ruler who does justice and protects இறை; Dharmadattan calls the king a great deity because his favour makes and his anger burns.",
+   "teaches": "The Kural makes the king's divinity a reward for just rule, while Dharmadattan makes it a matter of the king's power, which lets him use it to protect even a king who has abandoned rule.",
+   "gains": {
+    "a": "the councillor's claim is seen to drop the condition the Kural sets, which explains why the story can refute it",
+    "b": "the couplet's condition is shown to be what separates a just king's sanctity from mere fear of his power"
+   }
+  },
+  {
+   "a": "248",
+   "b": "kural:547",
+   "type": "qualifies",
+   "note": "Kural 547 says the ruler guards the world and justice guards him if he does not falter; 248 says the king's splendour guards the world even as he sleeps.",
+   "teaches": "The Cintamani's king, who sleeps in pleasure and loses everything, illustrates the Kural's condition by its breach: majesty without unfaltering justice guards nothing.",
+   "gains": {
+    "a": "the verse's claim is placed against a rule that names the condition it leaves out",
+    "b": "the couplet's 'if he does not falter' is shown at work in a king who faltered through pleasure, not cruelty"
+   }
+  },
+  {
+   "a": "250",
+   "b": "kural:691",
+   "type": "develops",
+   "note": "Kural 691 tells those who serve kings to keep to them as men warming at a fire, neither near nor far; 250 says the king's fire burns those who touch it along with their kin and can be nectar or poison.",
+   "teaches": "The Kural's fire is a rule of prudent distance for courtiers, while Dharmadattan extends it to the minister who would seize the fire, and to his whole family.",
+   "gains": {
+    "a": "the councillor's threat is grounded in a known maxim of service",
+    "b": "the couplet's image is carried from caution in service to the fate of a servant who turns on his king"
+   }
+  },
+  {
+   "a": "253",
+   "b": "kural:110",
+   "type": "qualifies",
+   "note": "Kural 110 says there is no escape for one who kills a benefit; 253 names a minister who kills the king who raised him among those who sink into hell and leprosy.",
+   "teaches": "The epic gives the Kural's abstract unforgivable sin a concrete political form, the minister's regicide, and spells out where 'no escape' leads.",
+   "gains": {
+    "a": "the regicide is ranked as ingratitude, the sin the Kural puts beyond remedy",
+    "b": "the couplet's general rule receives its gravest case and an explicit punishment"
+   }
+  },
+  {
+   "a": "253",
+   "b": "neelakesi:97",
+   "type": "develops",
+   "note": "Dharmadattan sends the one who kills and eats flesh to hell; Neelakesi 97 shows hell's tormentors burning beings while naming the sins of killing and eating flesh.",
+   "teaches": "Dharmadattan files regicide in one list with killing and flesh-eating, the very sins Neelakesi's tormentors name as they burn the damned, so a political crime is set inside the minor epic's catalogue of injuries to life."
+  },
+  {
+   "a": "255",
+   "b": "kural:559",
+   "type": "develops",
+   "note": "Kural 559 says that when the king bends justice the sky will not rain; 255 extends the effects to the planets, the hours, harvest, hunger, women's chastity and dharma.",
+   "teaches": "The Cintamani turns the Kural's warning to an unjust king into an argument against a minister seizing power, treating usurpation itself as the bending of the sceptre.",
+   "gains": {
+    "a": "the councillor's list is anchored in the Kural's best-known statement of the bent sceptre",
+    "b": "the couplet's single effect, failed rain, is shown as the first of a cascade that reaches into household morals"
+   }
+  },
+  {
+   "a": "255",
+   "b": "thirikadugam:50",
+   "type": "qualifies",
+   "note": "Thirikadugam 50 names three separate 'planets' that cut off rain: a greedy king, deceitful men and a woman who crosses her bounds; 255 makes the bent sceptre the one cause from which failed rain and broken chastity both follow.",
+   "teaches": "Where the Thirikadugam gives the king, the liar and the unchaste woman equal blame for drought, the Cintamani makes women's lapse a symptom of the king's fault.",
+   "gains": {
+    "a": "the epic's causal order stands out against a list that treats the three as parallel",
+    "b": "the verse's planet image, கோள், is shown read in the epic as literal disorder of the planets"
+   }
+  },
+  {
+   "a": "262",
+   "b": "tirumanthiram:245",
+   "type": "develops",
+   "note": "Tirumular says one who comes to seize the world for others or himself has the nature of a pouncing tiger; 262 shows Kattiyangaran's seizure: kin chained, wealth given to those who submit, one umbrella over the land.",
+   "teaches": "The Tirumanthiram names the usurper's nature, and the Cintamani shows his method, buying loyalty and chaining kin, and calls the result a lamp of infamy.",
+   "gains": {
+    "a": "the narrator's verdict of blame is seen to match a doctrine of kingship outside the epic",
+    "b": "the verse's tentative line about seizing the world gains a worked case of usurpation by a minister"
+   }
+  },
+  {
+   "a": "260",
+   "b": "silappathikaram:0:55-68",
+   "type": "qualifies",
+   "note": "Ilango's patikam says dharma becomes death to those who err in kingship and that past deeds ripen; 260 lists Death, the woman, the king's own fault, his wealth and his grace as what will kill the king.",
+   "teaches": "The Silappathikaram's king dies for an unjust verdict, while the Cintamani's is killed for lust and misplaced trust, so 'erring in kingship' is shown to include neglect, not only injustice."
+  },
+  {
+   "a": "269",
+   "b": "naladiyar:110",
+   "type": "qualifies",
+   "note": "Naladiyar 110 says what was fixed at the start neither shrinks nor grows, so why grieve in ruin; 269 says birth and death come from one's own deeds and grief is want of understanding.",
+   "teaches": "Both forbid grief by appeal to a fixed outcome, but the king speaks while his own fault caused the ruin, so in his mouth deed-fruit is also a confession, which the Naladiyar's impersonal fixed mark is not.",
+   "gains": {
+    "a": "the king's consolation is placed within the ethical books' argument against grieving",
+    "b": "the quatrain's fixed fate is set beside a version in which the fixing is one's own past action"
+   }
+  },
+  {
+   "a": "269",
+   "b": "siddhar:365",
+   "type": "tension",
+   "note": "The Siddhar says weeping and worship are useless because good and evil come as the lotus-born god wrote; the king says birth and death come from the fruit of one's own deeds.",
+   "teaches": "The two give the same counsel against grief for opposite reasons: the Siddhar's outcome is written by a creator, the Cintamani's by the sufferer's own deeds, with no god in the account.",
+   "gains": {
+    "a": "the king's karma is seen as godless by contrast with a fate assigned by Brahma",
+    "b": "the Siddhar's fatalism is shown to have a rival ground in self-made deed that leaves worship equally useless"
+   }
+  },
+  {
+   "a": "246",
+   "b": "purananuru:186",
+   "type": "qualifies",
+   "note": "Purananuru 186 says the world lives by its king, so it is the king's duty to know he is its life; 246 puts kings above the gods.",
+   "teaches": "The Purananuru turns the king's exalted place into a duty laid on the king, while Dharmadattan turns it into a ban laid on the subject who would harm him.",
+   "gains": {
+    "a": "the councillor's exaltation of kingship is seen as one use of a shared idea, aimed at the subject",
+    "b": "the poem's claim is shown to cut the other way when a minister, not a king, is the one being warned"
+   }
+  },
+  {
+   "a": "256",
+   "b": 262,
+   "type": "same_image",
+   "note": "In 256 Madanan's sweating, garlanded chest is likened to the Karthikai lamp lit on a hill; in 262 Kattiyangaran's seizure is a blazing lamp of infamy lit on a hilltop.",
+   "teaches": "The festival lamp that first flatters the usurper's ally turns, six verses later, into the sign that shows the usurper's shame to the whole land, so the image passes from praise to blame."
+  },
+  {
+   "a": "260",
+   "b": 269,
+   "type": "qualifies",
+   "note": "Dharmadattan names the king's own fault, his woman and his grace among what kills him; the king, consoling his queen, says death and birth come from the fruit of one's deeds.",
+   "teaches": "The councillor places the cause in faults of this life that the king could have avoided, while the king refers it to deeds in general, so his doctrine of karma softens a blame the earlier verse fixes on him."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 252 to 269 were printed in eight half-lines and joined into four by the build (FLAG repaired); the joins read correctly.",
+  "Verse 249 line 1 (நால்வரைப் பின்னிடின்) and verse 251 line 4 (வாள் ஞமற்கு ஓலை வைத்து அன்ன) are obscure as printed.",
+  "Verse 260 names no speaker; the attribution to Dharmadattan rests on its reply to 259.",
+  "Verse 257 line 3 reads கருனையால், probably for கருணையால்."
+ ]
+}

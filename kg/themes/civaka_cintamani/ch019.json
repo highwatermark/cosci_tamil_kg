@@ -1,0 +1,620 @@
+{
+ "chapter_no": 19,
+ "chapter_theme": "The Kovindaiyar ilampakam opens with the release of Civakan's teacher Accanandi and a portrait of Civakan as the young man every maiden takes for Kama, then turns to the cattle raid: hunters seize the king's herd despite their own omen-reader's prophecy that one man in a chariot will break them, the herders ignore an ill omen of their own and are routed, and their outcry is carried to the usurper seated at ease on his throne.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, son of Saccandan and Vijayai, raised by a merchant, who wins eight brides, regains his father's kingdom and renounces"
+  },
+  {
+   "id": "accanandi",
+   "tamil": "அச்சணந்தி",
+   "role": "Civakan's teacher, who renounces and attains release"
+  },
+  {
+   "id": "cattle_raiders",
+   "tamil": "வேட்டுவர்",
+   "role": "the deceitful hunters whose seized herd Civakan frees"
+  },
+  {
+   "id": "pul_kurippon",
+   "tamil": "புட்குரல் அறிவான்",
+   "role": "the hunter who reads bird-omens and foretells the raid's outcome"
+  },
+  {
+   "id": "raider_chief",
+   "tamil": "வேட்டுவன்",
+   "role": "the hunter who scorns the omen and urges the raid"
+  },
+  {
+   "id": "valluvan",
+   "tamil": "வள்ளுவன்",
+   "role": "the herders' announcer, who warns of an ill omen"
+  },
+  {
+   "id": "aayar",
+   "tamil": "ஆயர்",
+   "role": "the herdsmen of the king's cattle"
+  },
+  {
+   "id": "aaychiyar",
+   "tamil": "ஆய்த்தியர்",
+   "role": "the herdswomen of the cattle hamlets"
+  },
+  {
+   "id": "kattiyankaran",
+   "tamil": "கட்டியங்காரன்",
+   "role": "Saccandan's minister, given the rule, who usurps it"
+  }
+ ],
+ "verses": {
+  "409": {
+   "reading": "The narrator tells how Accanandi, having cut out the root of desire, went away and performed austerities in the shade of the Hero's feet, and then, while the gods worshipped, left his embodied form, vanishing like a bubble in the rain.",
+   "concepts": [
+    "avaa",
+    "thavam",
+    "veedu",
+    "yaakkai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "accanandi",
+     "form": "தச்ச ணந்தி",
+     "line": 1
+    }
+   ],
+   "event": "Accanandi, Civakan's teacher, renounces, performs austerities at the Hero's feet and attains release.",
+   "claims": [],
+   "nuance": "The ilampakam opens by closing the teacher's story before the hero's adventures begin. The order is threefold: the root of desire is cut, austerity follows, and only then does the body go. வீரன் is the Jina's epithet, so the verse places the release under a Jain master without stating a doctrine in so many words. The bubble is not an image of life's frailty here but of how cleanly the embodied form ends."
+  },
+  "410": {
+   "reading": "In this fine city like the city of the Nagas, Civakan rides about on gold-caparisoned elephants, chariots with long red-gold banners and horses, like the god of spring whose passing makes hearts burn.",
+   "concepts": [
+    "azhagu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "நம்ப",
+     "line": 1
+    }
+   ],
+   "event": "Civakan rides through Rajamapuram on elephant, chariot and horse.",
+   "claims": [],
+   "nuance": "வேம்ப (so that they burn) makes the hero's display a torment to those who watch him, preparing the next two verses.",
+   "uncertain": true
+  },
+  "411": {
+   "reading": "In breadth of learning, delight to the eye, mastery of the bow and the wealth of the vina, the broad-chested Civakan became one without a second in the world.",
+   "concepts": [
+    "kalvi",
+    "azhagu",
+    "aanmai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "412": {
+   "reading": "The poet announces that he will tell what befell the prince whom the young maidens, taking him for Kama, drank in with their lotus eyes as he went about.",
+   "concepts": [
+    "kaamam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "கூறுவாம் is the poet's own voice turning to a new episode; the maidens' gaze sets up the marriage that ends this ilampakam."
+  },
+  "413": {
+   "reading": "The herds of the land are pictured: jasmine blooms as if the rains had come, the cattle crowd round their calves and pour out milk, and the noise of the herds is greater than the sea's.",
+   "concepts": [
+    "naadu",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "414": {
+   "reading": "On a hill where elephants' musth mixes with honey and fills the springs to overflowing, men strong as lions gathered.",
+   "concepts": [
+    "maram",
+    "pagai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "cattle_raiders",
+     "form": "மக்க ளீண்டினார்",
+     "line": 4
+    }
+   ],
+   "event": "The hunters gather on the hill.",
+   "claims": []
+  },
+  "415": {
+   "reading": "As the hunters said the king's herd was near and that on an auspicious day they would take it, one among them who knew all, reading the cry of a bird, spoke first.",
+   "concepts": [
+    "pul",
+    "pagai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "cattle_raiders",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "pul_kurippon",
+     "form": "யொருவன்",
+     "line": 3
+    }
+   ],
+   "event": "The hunters plan to seize the king's herd, and an omen-reader among them speaks.",
+   "claims": [],
+   "nuance": "புட்குரன் is read here as புள் குரல் (the bird's cry) run into முன்னம்; the reader is a hunter who interprets bird-signs, not a royal soothsayer.",
+   "uncertain": true
+  },
+  "416": {
+   "reading": "The omen-reader foretells that they will get the herd, and that when they do the king's army will break, leaving its umbrellas and peacock-feather standards, but that afterwards they themselves will be broken by one man in a chariot, as bees scatter from smoked honey.",
+   "concepts": [
+    "pul",
+    "padai",
+    "pagai"
+   ],
+   "speaker": {
+    "who": "pul_kurippon",
+    "form": null,
+    "line": null,
+    "addressee": "cattle_raiders"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The prophecy gives the whole battle in advance, both the raiders' first victory and their defeat by Civakan, who is not named. Line 4 is hard to divide and may be corrupt; the smoked-honey simile is read from தேன் உடைந்த.",
+   "uncertain": true
+  },
+  "417": {
+   "reading": "When he had said this, a hunter answered his fellows that even if the one man in the chariot were Death himself, what could one man do, and urged them to rise and take the herd that day; and they went.",
+   "concepts": [
+    "pedhaimai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "raider_chief",
+    "form": null,
+    "line": null,
+    "addressee": "cattle_raiders"
+   },
+   "agents": [
+    {
+     "id": "raider_chief",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "cattle_raiders",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The hunters dismiss the warning and set out for the herd.",
+   "claims": [],
+   "nuance": "ஏழை வேட்டுவீர் (foolish hunters) may be the answering hunter scorning his fellows' fear, or the poet's own judgment folded into the speech; either way the boast is set up to be broken."
+  },
+  "418": {
+   "reading": "Having drunk honey-toddy swarming with bees, with tondakam drums and thudi sounding, they bowed to their deity, saying 'may we win', and fell on the herd at daybreak.",
+   "concepts": [
+    "kal",
+    "vazhipaadu",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "cattle_raiders",
+     "form": "மண்டி னார்",
+     "line": 4
+    }
+   ],
+   "event": "The hunters drink, worship their deity and attack the herd at dawn.",
+   "claims": []
+  },
+  "419": {
+   "reading": "A man with a pearl garland on his chest, among herdswomen bearing gold like the flowering kongu, spoke about that herd: he was the herders' valluvan, the announcer.",
+   "concepts": [
+    "pul"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "valluvan",
+     "form": "வள்ளு வன்",
+     "line": 4
+    }
+   ],
+   "event": "The herders' announcer speaks of the herd.",
+   "claims": [],
+   "nuance": "Line 2 (ஆய்த்தியர் நலக் காசெறூணனான்) cannot be divided with confidence, so who the valluvan is and what he wears is unclear beyond the pearl garland.",
+   "uncertain": true
+  },
+  "420": {
+   "reading": "He warned that an ill-omened bird had entered and spoiled the day, so they should not scorn it and should keep the herd in today; yet the herdsmen, shoulders shining like silver bracelets, went out with the cattle in their strength.",
+   "concepts": [
+    "pul",
+    "maram"
+   ],
+   "speaker": {
+    "who": "valluvan",
+    "form": null,
+    "line": null,
+    "addressee": "aayar"
+   },
+   "agents": [
+    {
+     "id": "aayar",
+     "form": "மாயரும்",
+     "line": 4
+    }
+   ],
+   "event": "The herdsmen take the herd out despite the announcer's warning of an ill omen.",
+   "claims": [],
+   "nuance": "பிள்ளை is taken as the name of an omen bird. The herders, like the hunters in 417, hear an omen and go ahead.",
+   "uncertain": true
+  },
+  "421": {
+   "reading": "While the herd grazed scattered in the forest like the stars, the hunters of cruel trade shouted together and loosed arrows like rain, and the herdsmen were churned like curd under the churning stick.",
+   "concepts": [
+    "padai",
+    "pagai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "cattle_raiders",
+     "form": "வேட ரார்த்துடன்",
+     "line": 2
+    },
+    {
+     "id": "aayar",
+     "form": "ஆயர்",
+     "line": 4
+    }
+   ],
+   "event": "The hunters attack the grazing herd with arrows and throw the herdsmen into confusion.",
+   "claims": []
+  },
+  "422": {
+   "reading": "Dropping flute and axe, the cowherds fled through the forest; the calves broke their tethers and ran round the yards, and in the hamlets the sweet-voiced women were thrown into confusion and cried out.",
+   "concepts": [
+    "acham",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "aayar",
+     "form": "கோவலர்",
+     "line": 1
+    },
+    {
+     "id": "aaychiyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The cowherds flee and the hamlet is thrown into uproar.",
+   "claims": []
+  },
+  "423": {
+   "reading": "Saying that the hunters had driven the herd off, as a churning rope let go at one end is not let go at the other, the women smelling of broken sour curd all crowded together.",
+   "concepts": [
+    "idumbai",
+    "acham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "aaychiyar",
+     "form": "தோணலார்",
+     "line": 4
+    }
+   ],
+   "event": "The herdswomen gather in alarm at the news that the cattle are driven off.",
+   "claims": [],
+   "nuance": "The churning-rope simile is hard to fix: it may picture the cattle pulled one way while the women hold the other, or the unbroken report passed from mouth to mouth.",
+   "uncertain": true
+  },
+  "424": {
+   "reading": "Like deer caught in a net, like peacocks, the herdswomen, the pearls on their breasts and the cool garlands in their hair tangled together, beat their bellies and wept.",
+   "concepts": [
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "aaychiyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The herdswomen weep and beat themselves.",
+   "claims": []
+  },
+  "425": {
+   "reading": "The herdswomen lamented with the calves of their houses, asking them how they would live now that the hunters of the cruel border had driven off their mothers in pain.",
+   "concepts": [
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "aaychiyar",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "aaychiyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The herdswomen grieve over the calves whose mothers were taken.",
+   "claims": [],
+   "nuance": "The women address the calves as orphans: the loss is framed as a family's, mothers taken from children, not as property."
+  },
+  "426": {
+   "reading": "With curd, milk and ghee spilled on the rocks like a river and the hamlet in tumult, the herdsmen's force fought back and broke, scattering flowers in the mud as it hurried away.",
+   "concepts": [
+    "padai",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "aayar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The herdsmen's attempt to fight back fails.",
+   "claims": []
+  },
+  "427": {
+   "reading": "Passing through the flowered pasture and crossing the lotus-filled farmland, they carried their outcry to the king of the old city girt with a shark-filled moat and a strong wall.",
+   "concepts": [
+    "arasu",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "aayar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The herdsmen go to the city to bring their complaint to the king.",
+   "claims": []
+  },
+  "428": {
+   "reading": "The herdsmen with oiled hair and flower garlands spread the cry through the rich city that the bow-bearing hunters had gathered, swept off the belled herd with its humped bulls and gone up the long hill path where waterfalls hang like silk.",
+   "concepts": [
+    "idumbai",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "aayar",
+    "form": "ராயர் பூசல்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "aayar",
+     "form": "ராயர் பூசல்",
+     "line": 4
+    }
+   ],
+   "event": "The herdsmen spread the news of the raid through the city.",
+   "claims": []
+  },
+  "429": {
+   "reading": "The strong-shouldered king sat on the lion throne, maidens fanning him with jewelled chamaras, his great makara earrings flashing, holding a fragrant blue water lily.",
+   "concepts": [
+    "arasu",
+    "selvam",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyankaran",
+     "form": "மொய்ம்பினான்",
+     "line": 4
+    }
+   ],
+   "event": "The king sits at ease on his throne as the outcry reaches the city.",
+   "claims": [],
+   "nuance": "The king is not named, but 438 shows the complaint reaching Kattiyankaran, the usurper; the picture of him fanned and holding a flower while his herds are being driven away is set against the herders' outcry."
+  }
+ },
+ "links": [
+  {
+   "a": "409",
+   "b": "naladiyar:27",
+   "type": "same_image",
+   "note": "Both use the rain bubble (மாரி மொக்குளின், படுமழை மொக்குளின்): the Naladiyar for the body that keeps forming and bursting, the epic for the moment the released teacher's form ends.",
+   "teaches": "Holding the two together shows the bubble used for opposite ends: in the quatrain its bursting is why the wise resolve to end their wandering, and in the epic the bursting is that resolve completed, the last end of a body that will not form again.",
+   "gains": {
+    "a": "the epic's simile gains the sense of repeated birth the quatrain gives the bubble, so Accanandi's vanishing reads as the end of the round, not just a death",
+    "b": "the quatrain's resolve to end the wandering gains a narrated case of someone who did it, and what its end looks like"
+   }
+  },
+  {
+   "a": "409",
+   "b": "siddhar:80",
+   "type": "develops",
+   "note": "Bhadragiriyar asks when he will cut the sunken root of desire at its base; the epic says Accanandi cut the root of desire (ஆர்வ வேர் அரிந்து) and went on to austerity and release.",
+   "teaches": "The same image of desire as a root to be cut is a lament of 'when?' in the Siddhar and a finished first step in the Jain epic, where it is only the start of a path that still needs austerity before release.",
+   "gains": {
+    "a": "the epic's one-phrase report gains the inner struggle the Siddhar voices, so the reader sees how hard that cutting was meant to be",
+    "b": "the Siddhar's longing gains a sequel in another tradition: what is said to follow once the root is cut"
+   }
+  },
+  {
+   "a": "409",
+   "b": "kural:365",
+   "type": "qualifies",
+   "note": "The Kural calls those free of craving the freed (அற்றவர்); the epic has Accanandi cut desire's root and then perform austerities before he leaves the body.",
+   "teaches": "Set beside the couplet, the verse separates what the Kural joins: being free of craving comes first, but release from the body comes only after austerity at the Jina's feet.",
+   "gains": {
+    "a": "the epic's sequence gains the Kural's claim that ending craving is the decisive freedom, which explains why it stands first",
+    "b": "the couplet's freedom gains a narrative that spells out what still remains after craving goes: penance and the body's end"
+   }
+  },
+  {
+   "a": "416",
+   "b": 437,
+   "type": "develops",
+   "note": "The omen-reader foretells that the king's army will break leaving umbrella and பிச்சம்; in 437 the army breaks, throwing down elephants, peacock-plumed standards, பிச்சம் and banners.",
+   "teaches": "The first half of the prophecy comes true to the detail of the dropped standards, which gives the reader warrant to trust its second half before Civakan has even set out."
+  },
+  {
+   "a": "416",
+   "b": 449,
+   "type": "develops",
+   "note": "The prophecy ends with the raiders broken by one man in a chariot; in 449 the hunters, stunned by the roar of the generous one's chariot, lose heart and give up the fight.",
+   "teaches": "The poet names Civakan only through the hunters' own omen, so the hero's victory is foretold by his enemies before it is told by the narrator."
+  },
+  {
+   "a": "417",
+   "b": 450,
+   "type": "tension",
+   "note": "The hunter boasts that one man in a chariot can do nothing even if he is Death; in 450 the hunters say a chariot-flood has surrounded them, victory is hard, and a hunter lied to them.",
+   "teaches": "The raiders' contempt for a single foe is reversed by their own words, and 450's charge that a hunter lied shows them blaming a speaker rather than their dismissal of the omen."
+  },
+  {
+   "a": "420",
+   "b": 415,
+   "type": "same_image",
+   "note": "Both sides consult birds: the hunters' omen-reader reads a bird's cry before the raid, and the herders' announcer warns of an ill-omened bird; each side goes ahead.",
+   "teaches": "The episode gives an omen to raiders and herders alike and lets both ignore it, so omens here foretell outcomes without ever restraining anyone."
+  },
+  {
+   "a": "429",
+   "b": "kural:560",
+   "type": "develops",
+   "note": "The Kural says the cows' yield fails when the guardian does not guard; the epic shows the king's herd driven off while the king sits fanned on his throne, and 437-438 his army breaks.",
+   "teaches": "The pairing turns the Kural's cows into the actual herd of the realm: the raid becomes the first public proof that the usurper cannot guard, and clears the place for Civakan, who will.",
+   "gains": {
+    "a": "the cattle raid gains a political sense beyond adventure: it measures Kattiyankaran as guardian",
+    "b": "the couplet's abstract link between guarding and the yield of cows gains a concrete scene of what failure to guard looks like"
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "pul",
+   "tamil": "புள்",
+   "gloss": "the omen bird; a bird's cry or flight read as a sign of what is coming",
+   "label_source": "verse 415 uses புட்குரல் (புள் + குரல்); 450 uses புள்"
+  }
+ ],
+ "source_issues": [
+  "Verse 416 line 4: உடைதுஞ் சுடுவிற்றே னுடைந்த வண்ணமே is hard to divide and may be corrupt; the smoked-honey simile is a conjecture.",
+  "Verse 419 line 2: ஆய்த்தியர் நலக் காசெ றூணனான் cannot be divided with confidence and may be corrupt.",
+  "Verse 420 line 2: the text flag reports a repaired ௌ read as ெள (எள்ளன்மின்).",
+  "Verse 427 line 4 lacks the closing full stop the other verses carry; no text seems lost."
+ ]
+}

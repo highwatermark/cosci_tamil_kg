@@ -1,0 +1,656 @@
+{
+ "chapter_no": 27,
+ "chapter_theme": "With the king's leave, the merchant Sridattan has ten thousand workers build a hall of gold and crystal for the vina contest, which the poet praises at length; drummers proclaim through the city a Jain benediction, a call to give to ascetics and do penance, and the terms by which Tattai will go to whoever of the three classes surpasses her at the vina, and the first suitor kings arrive.",
+ "cast": [
+  {
+   "id": "sridattan",
+   "tamil": "சீதத்தன்",
+   "role": "merchant of Rajamapuram, foster-father of Gandharvadattai on the Vidyadhara king's trust"
+  },
+  {
+   "id": "kattiyangaran",
+   "tamil": "கட்டியங்காரன்",
+   "role": "the usurping minister, now ruling Rajamapuram as king"
+  },
+  {
+   "id": "gandharvadattai",
+   "tamil": "தத்தை",
+   "role": "the Vidyadhara princess, here proclaimed as the merchant's daughter"
+  },
+  {
+   "id": "workmen",
+   "tamil": "பதினாயிரவர்",
+   "role": "the ten thousand workers who build the contest hall"
+  },
+  {
+   "id": "messengers",
+   "tamil": "இளையர்",
+   "role": "the young men Sridattan sends to the drummers"
+  },
+  {
+   "id": "drummers",
+   "tamil": "படுபணையவர்",
+   "role": "the drummers who proclaim the vina contest through the city"
+  },
+  {
+   "id": "hastinapura_king",
+   "tamil": "அத்தினபுரத்து வேந்தன்",
+   "role": "king of Hastinapuram, a suitor"
+  },
+  {
+   "id": "kampili_king",
+   "tamil": "காம்பிலிக் காவல் மன்னன்",
+   "role": "king of Kampili, a suitor"
+  },
+  {
+   "id": "varanavasi_king",
+   "tamil": "வாரணவாசி மன்னன்",
+   "role": "king of Varanavasi, a suitor"
+  }
+ ],
+ "verses": {
+  "589": {
+   "reading": "The king of the musth-elephant ranks is pleased, and the merchant of unfailing fame, his garland opened by pressing breasts, goes off glowing with joy, reaches his house quickly and gives the order to begin.",
+   "concepts": [
+    "arasu",
+    "muyarchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran",
+     "form": "மன்னன்",
+     "line": 1
+    },
+    {
+     "id": "sridattan",
+     "form": "நாய்கன்",
+     "line": 2
+    }
+   ],
+   "event": "Kattiyangaran approves the merchant's request, and Sridattan hurries home and orders the work begun.",
+   "claims": [],
+   "nuance": "The king who consents here is the usurper Kattiyangaran, so the contest that will bring Civakan his first bride is held by leave of the man who killed his father."
+  },
+  "590": {
+   "reading": "He orders a hall of fine gold, fit to be set in the sky, built in the midst of the moated city, and the reckoners fix its time: the month of Meenam, Friday, the tithi Jaya, the bright fortnight, when the vengai blooms in the forest.",
+   "concepts": [
+    "kaalam",
+    "idam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sridattan orders a gold hall built in the city, and its auspicious time is fixed.",
+   "claims": [],
+   "nuance": "The time is fixed by sign, weekday, tithi and fortnight, with the vengai's flowering as the seasonal mark; who reckons it (கண்ணினர்கள்) is not named.",
+   "uncertain": true
+  },
+  "591": {
+   "reading": "Ten thousand workers, friend, foe and those held in awe alike, are given fields that yield gold, silk, cotton cloth, fresh gold and food sweet with forest honey, and without a word set to their labour together.",
+   "concepts": [
+    "aalvinai",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "workmen",
+     "form": "பதி னாயிரவ",
+     "line": 4
+    }
+   ],
+   "event": "Ten thousand workers are paid in land, cloth, gold and food and labour on the hall.",
+   "claims": [],
+   "nuance": "Reading நட்புப்பகை யுட்கினொடு as the workers' range, friends, enemies and the fearful, all drawn in by the wages, is a guess at a compressed line.",
+   "uncertain": true
+  },
+  "592": {
+   "reading": "Drinking toddy with its bee-sought fragrance, they break the ground deep with picks, level it to suit all eight directions, and over it lay a floor of melted gold that delights the eye.",
+   "concepts": [
+    "aalvinai",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "workmen",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The workers dig, level and lay a gold floor for the hall.",
+   "claims": []
+  },
+  "593": {
+   "reading": "They set gold pillars, shaped like stacked gold pots, firmly in the fresh gold floor, lay coral beams, spread crystal slats, roof it well and build the walls of red gold.",
+   "concepts": [
+    "azhagu",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "workmen",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The workers raise gold pillars, coral beams, a crystal ceiling and gold walls.",
+   "claims": []
+  },
+  "594": {
+   "reading": "Where the maiden is to sit they raise walls of crystal, hang strings of cool pearls with garlands meeting garlands, and so adorn it that one would call it a temple for painters.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "workmen",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The workers build and adorn the crystal seat where the maiden will sit.",
+   "claims": [],
+   "nuance": "ஆலயம் இது ஓவியர்கட்கு makes the hall a shrine for the painters, the place their art is worshipped in, not a place of worship."
+  },
+  "595": {
+   "reading": "Gold garlands with fine petals sway in the wind and bend near the doors like lightning in the rain-cloud, so that the hall shows even to the far-off like a tilakam, and sea-pearls are spread there as sand.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "596": {
+   "reading": "Elephants, she-elephants, calves, stags, lotus pools and birds are painted with lifelike grace beside figures and yakshis, so that viewers cannot tell which is inside and which outside.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The doubt (ஐயம்) whether painted creatures are inside the hall or out is the poet's praise of the painting as indistinguishable from the world."
+  },
+  "597": {
+   "reading": "Even those who toiled on it look and are filled with joy; birds and beasts will not come near, as if it might swallow them; flags rise and dance, and nothing like it exists within the sea-fenced world: such is this fair mansion.",
+   "concepts": [
+    "azhagu",
+    "pugazh"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "workmen",
+     "form": "உழந்தவரு",
+     "line": 1
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "598": {
+   "reading": "Tearing the running clouds and setting the shining moon on its crest, the mansion is like the long-haired lord with the crescent; with its four faces it is like four-faced Brahma; in its towering height it is like Nemi.",
+   "concepts": [
+    "azhagu",
+    "iraivan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The building is compared in turn to the god who wears the moon in his matted hair, to Brahma and to the god of the wheel; a Jain epic by tradition uses the Vedic gods here only as measures of form and height, and claims nothing about them."
+  },
+  "599": {
+   "reading": "Making all who see it desire it, it is like Kama; praised by the whole world, it is like the victorious king; and like the nectar of a woman's breasts, it is to each who enjoys it just what that person is.",
+   "concepts": [
+    "azhagu",
+    "kaamam",
+    "manam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The last line turns the praise inward: the hall's beauty is not one thing but answers the nature of whoever looks, as the woman's nectar does."
+  },
+  "600": {
+   "reading": "The agil smoke laid in the jewelled mansion, like the moon above the clouds, creeps up, cuts through the sky, spreads like daylight rays, touches the vimanas of the five and enters the kalpa heavens of the gods, who breathe it in.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "கற்பம் and பஞ்சவர் விமானம் read as the heavens of Jain cosmology, the kalpas and five higher abodes; the word division of புக்கயா வுயிர்த்த is doubtful.",
+   "uncertain": true
+  },
+  "601": {
+   "reading": "Having taken leave by the king's grace and reached his broad house, the merchant, so that the world may know the manner of the announcement, sends swift young men as ordered to have the drum beaten through the old city.",
+   "concepts": [
+    "arasu",
+    "sol"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridattan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "messengers",
+     "form": "லிளையரை",
+     "line": 4
+    }
+   ],
+   "event": "Sridattan sends messengers to have the drummers proclaim the contest through the city.",
+   "claims": []
+  },
+  "602": {
+   "reading": "The messengers, swift as a loosed arrow and fearsome, reach the place where the drummers live and tell them to beat the thundering drum in the guarded city whose flags rise to touch the moon.",
+   "concepts": [
+    "arasu",
+    "sol"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "messengers",
+     "form": "தகையவர்",
+     "line": 1
+    }
+   ],
+   "event": "The messengers order the drummers to beat the proclamation drum.",
+   "claims": []
+  },
+  "603": {
+   "reading": "The drummers, in auspicious ornaments, open with the wish that the dharma path of the Excellent One may flourish in splendour, and then say they will proclaim the decree concerning the maiden with gem-bright smile and fragrant hair.",
+   "concepts": [
+    "aram",
+    "vaazhthu"
+   ],
+   "speaker": {
+    "who": "drummers",
+    "form": "மங்கல வணியினர்",
+    "line": 1,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "drummers",
+     "form": "மங்கல வணியினர்",
+     "line": 1
+    }
+   ],
+   "event": "The drummers begin the proclamation with a blessing on the Jina's path.",
+   "claims": [],
+   "nuance": "புங்கவன் அறநெறி names the path of the Excellent One, a title of the Jina; the public proclamation of a bride-contest is opened as a Jain benediction."
+  },
+  "604": {
+   "reading": "May the world have the wealth the sky gives and be free of disease; may all honey-voiced women hold to chastity without swerving, firm through every age; may all people, obedient to those who bore them, practise the household dharma every day.",
+   "concepts": [
+    "vaazhthu",
+    "karpu",
+    "ilvaazhkkai",
+    "mazhai"
+   ],
+   "speaker": {
+    "who": "drummers",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "people should live the household dharma daily, obedient to their parents",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "drummers"
+    }
+   ],
+   "nuance": "The rain, health, women's chastity and the household life are wished together as the goods of one well-kept world; the verse does not make any one of them the cause of another."
+  },
+  "605": {
+   "reading": "Seek out and care for the ascetics who practise penance in self-control, and give so that they rejoice, bowing and wishing that birth may be ended for you too; all of you, strive at hard penance while still in the body; and hear this matter proclaimed, so that you reach the path that leads to bliss.",
+   "concepts": [
+    "thavam",
+    "eegai",
+    "piravi",
+    "veedu"
+   ],
+   "speaker": {
+    "who": "drummers",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "giving to ascetics who practise penance is a way toward the ending of births",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "drummers"
+    },
+    {
+     "claim": "everyone, not only the renouncer, should strive at hard penance while in the body to reach release",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "drummers"
+    }
+   ],
+   "nuance": "The school is given as Jain because the proclamation opens on the Jina's path (603); the words here (தவம், பவம், சிவம் புரி நெறி) are shared with other schools. உடம்பு நீங்காது is read as 'before the body leaves', i.e. in this life; it could also mean 'without deserting the body'.",
+   "uncertain": true
+  },
+  "606": {
+   "reading": "There is one called Tattai, sweet of speech, with the grace of the goddess of the red lotus, whose waist aches even under anicham flowers and whose jewelled girdle lies on her broad hips.",
+   "concepts": [
+    "nalam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "drummers",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "607": {
+   "reading": "Her father is the merchant Sitattan of the generous hand, who has come of a victorious line; this is what he has declared: she, rich in former penance, has learned all the arts of the great treatises and plays the fine yaazh so that she melts even Kama.",
+   "concepts": [
+    "kalvi",
+    "isai",
+    "kudi"
+   ],
+   "speaker": {
+    "who": "drummers",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The proclamation names the merchant as her father, though he is her guardian on the Vidyadhara king's trust; her skill is credited to முற்றவம், past penance, as well as to learning. கொற்றவன் குலத்தின் வந்தான் may instead mean he came from the king's presence.",
+   "uncertain": true
+  },
+  "608": {
+   "reading": "To the man of any of the three classes, kings first among them, who draws and makes clear the sweet notes of the makara vina with more skill than this bangled maiden, her father will give her: so the drummer cried.",
+   "concepts": [
+    "isai",
+    "kalvi",
+    "pirappu"
+   ],
+   "speaker": {
+    "who": "drummers",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The contest is open to the three classes headed by kings, so a merchant's son is not shut out; the bride goes to whoever surpasses her in music, not to the highest born."
+  },
+  "609": {
+   "reading": "Blessing first the lord who embraces the earth-goddess as his bride, and then the guarded city, the drummers go through every street, beating the drum with gleaming sticks so that it thunders like the sky.",
+   "concepts": [
+    "arasu",
+    "vaazhthu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "drummers",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The drummers bless the king and the city and beat the drum through every street.",
+   "claims": []
+  },
+  "610": {
+   "reading": "The king of Hastinapuram, whose sword hand drips the fat and blood of unbowing kings split at the brow and whose strength could shift the earth, comes with his hard-to-hold elephants, thinking of the maiden whose eyes shame arrows.",
+   "concepts": [
+    "kaamam",
+    "maram",
+    "vendhan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hastinapura_king",
+     "form": "வேந்தன்",
+     "line": 3
+    }
+   ],
+   "event": "The king of Hastinapuram arrives seeking the maiden.",
+   "claims": []
+  },
+  "611": {
+   "reading": "The guardian king of Kampili, of unbreakable wrath, who binds sounding anklets, subdues musth elephants and could roll a mountain like a gem-ball, comes, a prince with tall armoured elephants.",
+   "concepts": [
+    "kaamam",
+    "maram",
+    "vendhan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kampili_king",
+     "form": "மன்னன்",
+     "line": 3
+    }
+   ],
+   "event": "The king of Kampili arrives for the contest.",
+   "claims": [],
+   "nuance": "பாலமா குமரன் is read as 'the young prince' describing the king of Kampili; it may be a name.",
+   "uncertain": true
+  },
+  "612": {
+   "reading": "The king of Varanavasi comes, with jewelled bracelet on his forearm, shoulders like bows, a chest no mountain could match, and his cool garland, crushed against the breasts of anklet-wearing women, dripping honey.",
+   "concepts": [
+    "kaamam",
+    "vendhan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "varanavasi_king",
+     "form": "மன்னன்",
+     "line": 4
+    }
+   ],
+   "event": "The king of Varanavasi arrives for the contest.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "609",
+   "b": 297,
+   "type": "tension",
+   "note": "In 297 the usurper has the drum beaten in his own name after burning his king and 'takes Fortune'; in 609 the city's drum blesses first the lord who embraces the earth as his bride.",
+   "teaches": "The same drum that announced a murderer's seizure now opens a wedding proclamation by hailing him as the earth's rightful husband, so the formula of royal blessing shows how quickly usurpation becomes the ordinary order of the city."
+  },
+  {
+   "a": "607",
+   "b": 556,
+   "type": "develops",
+   "note": "In 556 the Vidyadhara king asks the merchant to be father and mother to the princess; in 607 the proclamation calls the merchant her father outright.",
+   "teaches": "The private charge to stand in a parent's place becomes, in the public decree, plain fatherhood, so the trust hides the princess's Vidyadhara birth from the city that will compete for her."
+  },
+  {
+   "a": "610",
+   "b": 539,
+   "type": "develops",
+   "note": "The astrologer in 539 places the princess's destined husband in Rajamapuram; 610-612 bring kings from Hastinapuram, Kampili and Varanavasi to win her.",
+   "teaches": "Read against the horoscope, the far kings' arrival is a journey already in vain, and the open contest is the means by which the prophecy picks its man from the city it named."
+  },
+  {
+   "a": "605",
+   "b": "kural:263",
+   "type": "develops",
+   "note": "Kural 263 asks whether others, wanting to provide for renouncers, have forgotten their own penance; the proclamation in 605 bids people give to ascetics and also strive at hard penance themselves.",
+   "teaches": "The epic's decree answers the couplet's chiding question by refusing the division of labour it criticises: giving to ascetics and doing penance are both laid on every listener.",
+   "gains": {
+    "a": "a sharp statement of the danger its double command guards against, that support for ascetics could stand in for one's own penance",
+    "b": "a public, Jain-framed instance where the couplet's implied rule, that penance is not only for renouncers, is proclaimed to a whole city"
+   }
+  },
+  {
+   "a": "604",
+   "b": "kural:55",
+   "type": "qualifies",
+   "note": "Kural 55 makes the chaste wife command the rain; the benediction of 604 asks for rain and for women's unswerving chastity side by side as goods of the realm.",
+   "teaches": "The pair shows two ways of joining chastity and rain: the couplet gives one wife's karpu power over the sky, while the city's blessing wishes for both as gifts and gives women's chastity no power at all.",
+   "gains": {
+    "a": "a sense of how strong a link between chastity and rain the tradition could make, which the benediction leaves unclaimed",
+    "b": "a civic setting where the couplet's single wife becomes all the women of a city, wished steadfast rather than credited with power"
+   }
+  },
+  {
+   "a": "605",
+   "b": "tirumanthiram:724",
+   "type": "qualifies",
+   "note": "Tirumanthiram 724 nurtures the body because without it true knowledge cannot be gained; 605 bids all strive at hard penance while still in the body.",
+   "teaches": "Both make the living body the only place where release can be worked for, but the proclamation spends the body in austerity while Tirumular guards it as the means of knowledge, so the same premise yields discipline in one and care in the other.",
+   "gains": {
+    "a": "a statement of why 'while in the body' matters, which the proclamation's compressed phrase leaves unsaid",
+    "b": "a contrasting use of the body as the seat of penance, in a Jain frame, against which Tirumular's nurture of it stands out as a choice"
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "isai",
+   "tamil": "இசை",
+   "gloss": "music: the lute, melody, mode and the sounds compared to them",
+   "label_source": "the verse's words (யாழ் 607, மகர வீணை 608); id as used in the Valayapathi marks"
+  },
+  {
+   "id": "vaazhthu",
+   "tamil": "வாழ்த்து",
+   "gloss": "a blessing or wish spoken for another's welfare, the frame of a whole decade of the Ainkurunuru",
+   "label_source": "the verse's acts of blessing (வாழ்த்தி 609; மலிகென 603); id as used in the Ainkurunuru marks"
+  }
+ ],
+ "source_issues": [
+  "590 line 2: மண்டபங்செய் is irregular sandhi (expected மண்டபஞ்செய்); read as 'build a hall'.",
+  "600 line 4: the division புக்கயா வுயிர்த்த is doubtful.",
+  "606 line 2 and 608 line 1: the core repaired TSCII slips (ோ் for ேர், ௌ for ெள); the repaired readings are used.",
+  "610 line 3: வேழத்தத்தின புரத்து fuses வேழத்து and அத்தினபுரத்து.",
+  "611 line 4: பாலமா குமரன் may be a name or 'the young prince'; the division is uncertain."
+ ]
+}

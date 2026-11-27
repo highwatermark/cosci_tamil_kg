@@ -1,0 +1,831 @@
+{
+ "chapter_no": 39,
+ "chapter_theme": "Suramanjari and Gunamalai quarrel over their scented powders and wager on them; their maids take the powders to Civakan, whose verdict for Gunamalai is challenged by Suramanjari's maid, until he proves it by letting the grove's bees choose; the defeated Suramanjari vows to wait until he comes humbled to her feet and withdraws into the maidens' mansion.",
+ "cast": [
+  {
+   "id": "suramanjari",
+   "tamil": "சுரமஞ்சரி",
+   "role": "a merchant's daughter who loses the scented-powder contest and vows seclusion"
+  },
+  {
+   "id": "gunamalai",
+   "tamil": "குணமாலை",
+   "role": "a merchant's daughter, called Malai and Vannamalai, whose powder wins"
+  },
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, who judges the powders"
+  },
+  {
+   "id": "city_women",
+   "tamil": "மகளிர்",
+   "role": "the women of the city, here the rivals and their circle who set the wager"
+  },
+  {
+   "id": "suramanjari_thozhi",
+   "tamil": "தோழி",
+   "role": "Suramanjari's maid, who carries her powder and disputes the verdict"
+  },
+  {
+   "id": "gunamalai_thozhi",
+   "tamil": "தோழி",
+   "role": "Gunamalai's maid, who carries her powder"
+  },
+  {
+   "id": "youths",
+   "tamil": "இளையவர்",
+   "role": "the young men of the city, who send the maids on to Civakan"
+  },
+  {
+   "id": "civakan_thozhar",
+   "tamil": "தோழர்",
+   "role": "Civakan's companions"
+  },
+  {
+   "id": "bees",
+   "tamil": "சுரும்பு, வண்டு, தேன், ஞிமிறு",
+   "role": "the four kinds of bee of the grove whom Civakan calls as witnesses"
+  },
+  {
+   "id": "kanniyar",
+   "tamil": "கன்னியர்",
+   "role": "the maidens of the city who escort Suramanjari to the maidens' mansion"
+  },
+  {
+   "id": "suramanjari_thaay",
+   "tamil": "நற்றாய்",
+   "role": "Suramanjari's mother"
+  }
+ ],
+ "verses": {
+  "876": {
+   "reading": "Coming up to Gunamalai, Suramanjari laughs at her and asks whether this, carried under the name of powder, is what she thought would torment the waist of the one it adorns.",
+   "concepts": [
+    "igal",
+    "sol"
+   ],
+   "speaker": {
+    "who": "suramanjari",
+    "form": null,
+    "line": null,
+    "addressee": "gunamalai"
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "gunamalai",
+     "form": "மாலையை",
+     "line": 4
+    }
+   ],
+   "event": "Suramanjari mocks Gunamalai's scented powder.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The speaker is named only by her loosened hair (சோர்குழல்); the scorn is taken as Suramanjari's because Malai, the one laughed at, is Gunamalai, and lines 2 to 3 are hard to construe."
+  },
+  "877": {
+   "reading": "Seething, Gunamalai answers that if anything on earth, short of the golden heavens, matches her powder, her golden-statue-like rival should say so.",
+   "concepts": [
+    "igal",
+    "maanam"
+   ],
+   "speaker": {
+    "who": "gunamalai",
+    "form": "கொம்ப னாளுங்",
+    "line": 4,
+    "addressee": "suramanjari"
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": "கொம்ப னாளுங்",
+     "line": 4
+    }
+   ],
+   "event": "Gunamalai retorts that no powder on earth equals hers.",
+   "claims": []
+  },
+  "878": {
+   "reading": "The women bet that whoever loses at the powder gives up the water-play and pays the winner countless crores of gold, and lose all judgement over the fragrant stuff.",
+   "concepts": [
+    "soodhu",
+    "maanam",
+    "igal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "லேழையர்",
+     "line": 3
+    }
+   ],
+   "event": "The rival women fix the stakes: the loser forfeits the bathing festival and pays the winner gold.",
+   "claims": [],
+   "nuance": "The closing phrase கண்ணற்றார் (they lost sight, lost discernment) is the narrator's verdict on the quarrel before it is judged: the contest is already a loss of measure on both sides."
+  },
+  "879": {
+   "reading": "The spear-eyed women with jasmine-scented hair gather and, holding that the winning of this famous powder contest is a wager, send the powders out to be judged.",
+   "concepts": [
+    "soodhu",
+    "therithal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "கண்ணியர்",
+     "line": 2
+    }
+   ],
+   "event": "The women send the two powders out for a judgement that will settle the wager.",
+   "claims": []
+  },
+  "880": {
+   "reading": "Two slender maids, carrying golden trays covered with fine cloth, cross the long way with the powders.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhi",
+     "form": "மங்கைய",
+     "line": 1
+    },
+    {
+     "id": "gunamalai_thozhi",
+     "form": "மங்கைய",
+     "line": 1
+    }
+   ],
+   "event": "The two maids carry the covered powders through the city.",
+   "claims": []
+  },
+  "881": {
+   "reading": "The maids show the powders, with jasmine garlands, to the young men of the city, who say that if they want the powders' worth known they must go to Civakan of the warlike, generous hand.",
+   "concepts": [
+    "therithal",
+    "pugazh"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "gunamalai_thozhi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "youths",
+     "form": "மைந்தர்",
+     "line": 2
+    }
+   ],
+   "event": "The young men decline to judge and send the maids to Civakan.",
+   "claims": [],
+   "nuance": "The townsmen defer to one judge rather than vote, which the maid will later turn against him (885) by citing what the whole city praised."
+  },
+  "882": {
+   "reading": "Civakan sits ringed by young men whose learning is an ocean of books, like the cool moon among the stars.",
+   "concepts": [
+    "kalvi",
+    "kelvi",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "மார்பன்",
+     "line": 3
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": "மைந்தர்",
+     "line": 1
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "883": {
+   "reading": "The maids, whose eyes outdo the good sword with which Civakan has resolved to cut Kattiyangaran's shoulders, praise his feet and put their request.",
+   "concepts": [
+    "panivu",
+    "pagai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhi",
+     "form": "கண்ணியர்",
+     "line": 3
+    },
+    {
+     "id": "gunamalai_thozhi",
+     "form": "கண்ணியர்",
+     "line": 3
+    }
+   ],
+   "event": "The maids bow to Civakan and ask for his judgement.",
+   "claims": [],
+   "nuance": "The enmity with the usurper is slipped into a simile for the maids' eyes: in the middle of a contest of scents the poet reminds the reader that Civakan's sword already has a purpose."
+  },
+  "884": {
+   "reading": "Asked to examine the powders and say which are good, Civakan looks and declares that these, from black-haired Vannamalai's side, are the good ones.",
+   "concepts": [
+    "therithal",
+    "naduvu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "gunamalai_thozhi"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "suramanjari_thozhi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "gunamalai_thozhi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan judges Gunamalai's powder the better at sight.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "வண்ண மாலையி னீர் is taken as 'you of Vannamalai', a name for Gunamalai as in 876; the first two lines are the maids' request and the last two his verdict."
+  },
+  "885": {
+   "reading": "Suramanjari's maid objects that every person of this great city, the merchant included, has seen these powders and praised them as fine, and asks whether the young lord learned his judgement along with them.",
+   "concepts": [
+    "therithal",
+    "pugazh"
+   ],
+   "speaker": {
+    "who": "suramanjari_thozhi",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Suramanjari's maid challenges the verdict by appeal to the city's praise.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The appeal is to acclaim against judgement; the sarcastic last line also hints that a judge who sides with the crowd has learned nothing of his own. Whose powder 'these' are is inferred from the dispute that follows."
+  },
+  "886": {
+   "reading": "With joined hands the women say they came to him because he knows: let him, ocean of learning, refine his scholarship, weigh closely and speak without falsehood.",
+   "concepts": [
+    "therithal",
+    "vaaimai",
+    "kalvi"
+   ],
+   "speaker": {
+    "who": "suramanjari_thozhi",
+    "form": "கோதையார்",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhi",
+     "form": "கோதையார்",
+     "line": 4
+    },
+    {
+     "id": "gunamalai_thozhi",
+     "form": "கோதையார்",
+     "line": 4
+    }
+   ],
+   "event": "The maids ask Civakan to judge again, closely and truly.",
+   "claims": []
+  },
+  "887": {
+   "reading": "Civakan answers that these powders are good, and if asked why the others fall a little short: they are not the fine flower-powder of the hot season but were made in the cold.",
+   "concepts": [
+    "kaalam",
+    "therithal"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari_thozhi"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan explains the lesser powder was made in the cold season.",
+   "claims": [],
+   "nuance": "The verdict is grounded in the making, not in the smell at hand: quality is traced to the season, which the maid at once turns against him."
+  },
+  "888": {
+   "reading": "The maid with long spear-like eyes replies that when moist the bad becomes good and when wholly dried the good becomes bad, and asks whether that is not the way of the world.",
+   "concepts": [
+    "kaalam",
+    "therithal",
+    "nilaiyaamai"
+   ],
+   "speaker": {
+    "who": "suramanjari_thozhi",
+    "form": "கண்ணி",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhi",
+     "form": "கண்ணி",
+     "line": 4
+    }
+   ],
+   "event": "Suramanjari's maid answers that seasons change quality both ways.",
+   "claims": [
+    {
+     "claim": "the worth of things is not fixed but turns good or bad with their condition",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "suramanjari_thozhi"
+    }
+   ],
+   "nuance": "She does not deny his season argument but generalises it until it cuts both ways, so that his reason can no longer settle which powder wins; this is why the dispute moves from argument to a test (889 to 894)."
+  },
+  "889": {
+   "reading": "Civakan says she will not be let off until he has convinced her heart, and that if he brings a witness she must be settled in her mind.",
+   "concepts": [
+    "thelivu",
+    "aaraaydhal"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari_thozhi"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan offers to prove his verdict by a witness.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "வள்ள னீங்கப் பெறாய் வளைத்தேன் is hard to construe; the reading follows கரி (witness) and தெளிகென in lines 3 to 4."
+  },
+  "890": {
+   "reading": "The maid answers that neither men nor gods go beyond his word, and that if, with sweet-voiced birds and the like as witnesses, he removes the doubt, she will accept it.",
+   "concepts": [
+    "thelivu",
+    "sol"
+   ],
+   "speaker": {
+    "who": "suramanjari_thozhi",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The maid agrees beforehand to abide by a witness.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "மண்ண னீக்கின் is obscure; the sense of a condition accepted in advance is clear from ஒட்டுவல் யான் (I agree)."
+  },
+  "891": {
+   "reading": "Civakan says four dwellers of the grove will go as witnesses, and the maid, joining her hands, answers that it shall be as her lord has said.",
+   "concepts": [
+    "thelivu",
+    "panivu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari_thozhi"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "suramanjari_thozhi",
+     "form": "கொம்பன்றாள்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan names the grove's four kinds of bee as witnesses and the maid accepts.",
+   "claims": []
+  },
+  "892": {
+   "reading": "Civakan calls on the bees, the honey-bees and the swarming insects that dart everywhere like the eyes and hearts of fine women and gorge on honey.",
+   "concepts": [
+    "azhagu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "bees"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan summons the four kinds of bees.",
+   "claims": [],
+   "nuance": "The four witnesses of 891 are named by four words for bee (சுரும்பு, வண்டு, தேன், ஞிமிறு), and they are likened to women's restless eyes and hearts, so the jury is itself a figure of desire."
+  },
+  "893": {
+   "reading": "He tells them that the powder of Surama, the peahen of the grove, and that of Malai, the young peahen, are both very good, and bids them take the better as their delight and feed.",
+   "concepts": [
+    "therithal",
+    "naduvu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": "சொன்னான்",
+    "line": 4,
+    "addressee": "bees"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan sets the two powders before the bees as judges.",
+   "claims": [],
+   "nuance": "He praises both before the test, so that the outcome is left to the witnesses and not to his earlier verdict."
+  },
+  "894": {
+   "reading": "The lord of the bow throws the powders into the sky; Suramanjari's falls to the ground, and Malai's the bees seize and eat with their honey.",
+   "concepts": [
+    "aaraaydhal",
+    "therithal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "வள்ளல்",
+     "line": 1
+    },
+    {
+     "id": "bees",
+     "form": "வண்டொடு",
+     "line": 4
+    }
+   ],
+   "event": "Thrown in the air, Suramanjari's powder falls while the bees take Gunamalai's.",
+   "claims": [],
+   "nuance": "The proof needs no judge's word: the powder that the bees will not touch falls of its own weight, which answers the maid's argument of 888 without arguing."
+  },
+  "895": {
+   "reading": "He tells the coral-lipped maids, whose smiles are pearls set in coral, to look at whether this was fair and carry it so to their ladies.",
+   "concepts": [
+    "sol"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": "சொன்னான்",
+    "line": 4,
+    "addressee": "suramanjari_thozhi"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan sends the maids to report the result to their mistresses.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "ஒத்ததோ (was it equal, was it fitting) may ask whether the result matched his verdict or simply whether the test was fair."
+  },
+  "896": {
+   "reading": "A maid answers in praise of the spear-bearer, whose spear is like the eyes of her lady with brows arched as if painted in clear blue.",
+   "concepts": [
+    "pugazh",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "gunamalai_thozhi",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gunamalai_thozhi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gunamalai's maid praises Civakan.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The verse does not say which maid speaks; praise linked to 'our lady's eyes' fits the winner's maid."
+  },
+  "897": {
+   "reading": "The spear-eyed maids bow to the prince who proved the powder by the bees and hurry off; they tell Malai of her victory, and Manjari grieves like a snake struck by thunder in its hole.",
+   "concepts": [
+    "maanam",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhi",
+     "form": "கண்ணார்",
+     "line": 2
+    },
+    {
+     "id": "gunamalai_thozhi",
+     "form": "கண்ணார்",
+     "line": 2
+    },
+    {
+     "id": "suramanjari",
+     "form": "மஞ்சரி",
+     "line": 4
+    }
+   ],
+   "event": "The maids report the result; Gunamalai hears of her victory and Suramanjari is stricken.",
+   "claims": [],
+   "nuance": "The thunder-struck snake is the image the patikam (27) uses for Civakan's dread of kingship before he renounces; here it marks the start of Suramanjari's withdrawal."
+  },
+  "898": {
+   "reading": "Falling at her feet, a maid begs Suramanjari, who looks like a lotus crushed by the moon's rays, to speak to her quickly, there and then.",
+   "concepts": [
+    "idumbai",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "suramanjari_thozhi",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari"
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Suramanjari's maid falls at her feet and begs her to speak.",
+   "claims": []
+  },
+  "899": {
+   "reading": "Suramanjari answers her not a word, but says that since the generous one declared the powder she offered unacceptable, she will keep a vow until he comes defeated and worships her anklet-feet, and goes.",
+   "concepts": [
+    "nonbu",
+    "maanam",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "suramanjari",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": "மாற்ற மொன்றுரை யாண்",
+     "line": 1
+    }
+   ],
+   "event": "Suramanjari vows to wait under a vow until Civakan comes humbled to worship her feet.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The vow makes the man who shamed her its condition of release: what looks like a refusal of men is a waiting for one man's surrender. நோற்பன் நோற்றனை நீ is hard to divide; the reading takes நோற்பன் as her vow."
+  },
+  "900": {
+   "reading": "Ringed by the maidens of the never-taken city, the maiden with eyes like new blue lilies reaches the maidens' mansion, and the maidens tell her mother what has befallen her.",
+   "concepts": [
+    "naanam",
+    "maanam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kanniyar",
+     "form": "கன்னியர்",
+     "line": 1
+    },
+    {
+     "id": "suramanjari_thaay",
+     "form": "நற்றாய்",
+     "line": 3
+    }
+   ],
+   "event": "Suramanjari withdraws into the maidens' mansion and the girls tell her mother.",
+   "claims": [],
+   "nuance": "கன்னி is rung eight times: the unconquered city, the maidens' house, the fresh flower, the girl herself and her companions, so that her chosen seclusion is set inside every sense of the word."
+  }
+ },
+ "links": [
+  {
+   "a": "878",
+   "b": 12,
+   "type": "develops",
+   "note": "The patikam says the two women vowed not to bathe in the festival water if they lost; here the wager is spelt out: the loser forfeits the water-play and pays crores of gold.",
+   "teaches": "The patikam's single vow turns out to be one half of a two-part stake, honour and gold, and only the honour half is followed through the story, which shows which loss the poem thinks matters."
+  },
+  {
+   "a": "879",
+   "b": "kural:931",
+   "type": "qualifies",
+   "note": "The women treat the powder contest as a wager (வெல்வது சூது); the Kural says not to want gambling even when one can win, since the winnings are the hook the fish swallows.",
+   "teaches": "The epic shows a wager whose real stake is not wealth but pride, and whose cost falls in a vow of seclusion on the loser, so the Kural's warning about winnings is widened to what a wager does to the one who loses face.",
+   "gains": {
+    "a": "the women's game is shown to belong to a kind of act the ethical tradition already condemns, which the narrator's mild கண்ணற்றார் only hints at",
+    "b": "the couplet, which counts gambling's harm in money, gets a case where the harm is a loss of honour that reshapes a life"
+   }
+  },
+  {
+   "a": "883",
+   "b": 2206,
+   "type": "develops",
+   "note": "A simile for the maids' eyes mentions Civakan's resolve to cut Kattiyangaran down; much later a voice from the sky proclaims that Civakan will swallow Kattiyangaran's life.",
+   "teaches": "The revenge is never dropped even in a scene of scents and maids: the poet plants it as an aside here, so the heavenly proclamation reads as the public fulfilment of a purpose already settled in private."
+  },
+  {
+   "a": "885",
+   "b": "kural:423",
+   "type": "develops",
+   "note": "The maid cites the praise of the whole city, the merchant included, against Civakan's verdict; the Kural says understanding is seeing the true substance whoever's mouth one hears a thing from.",
+   "teaches": "The pairing shows the couplet's rule tested where it is hardest, against unanimous acclaim, and shows that the epic does not let the lone judge rest on his authority either but makes him prove the truth by a test both sides accept.",
+   "gains": {
+    "a": "Civakan's refusal to follow the city is given a principle, so it reads as discernment rather than vanity",
+    "b": "the couplet's abstract rule gains a case where the many and the respected are wrong and the truth needs a witness, not a second opinion"
+   }
+  },
+  {
+   "a": "888",
+   "b": "kural:504",
+   "type": "qualifies",
+   "note": "The maid argues that moisture makes the bad good and drying makes the good bad; the Kural bids one examine qualities and faults, see which prevail, and take that.",
+   "teaches": "The maid's argument exposes what the couplet assumes, that qualities hold still to be weighed; if condition changes them, weighing by inspection cannot settle a dispute, which is why the epic turns to the bees.",
+   "gains": {
+    "a": "the maid's retort is seen to strike at the method of judgement itself, not just at Civakan's verdict",
+    "b": "the couplet's method gets a limit: it needs qualities that are stable or a test that does not depend on the examiner's eye"
+   }
+  },
+  {
+   "a": "894",
+   "b": "kural:505",
+   "type": "qualifies",
+   "note": "Civakan proves the powder by what the bees do with it; the Kural says one's own deeds are the touchstone of greatness and smallness.",
+   "teaches": "Both put the proof in what a thing does rather than in what is said of it, but the epic adds that a touchstone convinces only when both parties accepted it beforehand, as the maid did in 890 and 891.",
+   "gains": {
+    "a": "the bee test is shown to rest on a recognised rule of judging by effects, not on a trick",
+    "b": "the couplet's touchstone, stated of persons, gains a scene showing it must be agreed in advance to settle a quarrel"
+   }
+  },
+  {
+   "a": "894",
+   "b": 2077,
+   "type": "develops",
+   "note": "Here the bees prove Suramanjari's powder the lesser; in her own ilampakam a woman says the guarded chastity Suramanjari kept is because the lord dimmed the powder he tested by producing a witness.",
+   "teaches": "The later verse reads the bee test as the cause of Suramanjari's guarded maidenhood, so a judgement of scents becomes in the story's memory the origin of a chaste seclusion."
+  },
+  {
+   "a": "899",
+   "b": 2088,
+   "type": "develops",
+   "note": "Suramanjari vows to wait until Civakan comes defeated and worships her anklet-feet; in her ilampakam Civakan sets his head on the anklet of her feet, says the great forgive the wrongs of the small, and ends her sulk.",
+   "teaches": "The vow is kept to the letter, his head on her anklet, yet the hero turns it by calling his own slight the wrong of a lesser one forgiven by the greater, so her condition is met and her pride still yielded."
+  },
+  {
+   "a": "899",
+   "b": 13,
+   "type": "develops",
+   "note": "The patikam says Suramanjari, beaten, resolved to look on no male form and withdrew into the guarded mansion; here she states the vow's condition, his coming defeated to her feet.",
+   "teaches": "The patikam's 'no male form' is in the verse itself a vow with one exception named in advance, the man who shamed her, so the summary hides that her withdrawal is aimed at Civakan."
+  },
+  {
+   "a": "899",
+   "b": "kural:969",
+   "type": "qualifies",
+   "note": "Shamed by the verdict, Suramanjari withdraws under a vow; the Kural says those like the yak that will not live once its hair is lost give up life when honour is lost.",
+   "teaches": "The epic offers a third path to the couplet's choice between life and honour: a withdrawal from the world that keeps the wound open and names the act that will restore her honour.",
+   "gains": {
+    "a": "Suramanjari's seclusion is seen as a measure of honour like the yak's, not mere sulking",
+    "b": "the couplet's stark alternative of death gains a case where honour lost is answered by a vow with terms, which the couplet does not imagine"
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "nonbu",
+   "tamil": "நோன்பு",
+   "gloss": "the vow; a religious observance or discipline undertaken",
+   "label_source": "verse 899 uses the verb நோற்பன்"
+  }
+ ],
+ "source_issues": [
+  "Verse 883 line 3: வவ்வியி கண்ணியர் is probably for வவ்விய கண்ணியர் (women whose eyes have seized the sword).",
+  "Verse 885 line 2: முற்று நாயியுங் is hard to construe as printed; perhaps முற்றும் நாய்கனும் (all, and the merchant).",
+  "Verse 889 line 2 (வள்ள னீங்கப் பெறாய் வளைத்தேன்) and verse 890 line 4 (மண்ண னீக்கின்) are obscure as divided and may be corrupt.",
+  "Verse 899 line 4: நோற்ப னோற்றனை நீ is hard to divide; the sense of a vow is clear but the clause addressed to the maid is not."
+ ]
+}

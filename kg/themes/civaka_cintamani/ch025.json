@@ -1,0 +1,728 @@
+{
+ "chapter_no": 25,
+ "chapter_theme": "At the court of the Vidyadhara king Kaluzhavegan the merchant Sridattan is welcomed as kin of seven generations, shown the princess Gandharvadattai, and entrusted with her: she is to go to his city and belong to whoever defeats her at the vina. The king defends marriage as the gods' own joy, leaves the outcome to destiny, loads her with gifts and lutes, and consoles himself that daughters, like the conch's pearls, are for others; she leaves the grieving palace and boards the aerial car.",
+ "cast": [
+  {
+   "id": "kaluzhavegan",
+   "tamil": "கலுழவேகன்",
+   "role": "the Vidyadhara king of Vichaloka in Gandhara on the silver mountain, Gandharvadattai's father"
+  },
+  {
+   "id": "sridattan",
+   "tamil": "சீதத்தன்",
+   "role": "the merchant (நாய்கன்), Civakan's friend, received by the Vidyadhara king"
+  },
+  {
+   "id": "gandharvadattai",
+   "tamil": "காந்தருவதத்தை",
+   "role": "daughter of the Vidyadhara king, mistress of the vina, to be won by a contest of music"
+  },
+  {
+   "id": "kaluzhavegan_devi",
+   "tamil": "தேவி",
+   "role": "the Vidyadhara king's queen, Gandharvadattai's mother"
+  },
+  {
+   "id": "veenapathi",
+   "tamil": "வீணாபதி",
+   "role": "Gandharvadattai's companion, charged to go with her"
+  },
+  {
+   "id": "vichaloka_vaayilon",
+   "tamil": "வாயிலோன்",
+   "role": "the gatekeeper of the Vidyadhara king's palace"
+  },
+  {
+   "id": "kavari_women",
+   "tamil": "வேல் பரந்தனைய கண்ணார்",
+   "role": "the women who fan the Vidyadhara king with yak-tail whisks"
+  },
+  {
+   "id": "dattai_thaayar",
+   "tamil": "தாயர்",
+   "role": "Gandharvadattai's mothers (mother and foster mothers)"
+  },
+  {
+   "id": "dattai_thozhiyar",
+   "tamil": "தோழியர்",
+   "role": "Gandharvadattai's companions"
+  },
+  {
+   "id": "dharanan",
+   "tamil": "தரன்",
+   "role": "a Vidyadhara of the king's people (named in 557)"
+  }
+ ],
+ "verses": {
+  "541": {
+   "reading": "The narrator sets the scene: the king sits on a couch of fresh gold spread with silk soft as milk, while women with spear-like eyes and breasts bound in bodices wave whisks white as the moon's rays.",
+   "concepts": [
+    "arasu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kavari_women",
+     "form": "கண்ணார்",
+     "line": 3
+    }
+   ],
+   "event": "The Vidyadhara king sits at ease on his couch, fanned by women with whisks.",
+   "claims": []
+  },
+  "542": {
+   "reading": "The guest asks the gatekeeper to announce him, enters and joins his hands before the king's gold-anklet feet, reddened by the diamonds of bowing kings' crowns, and the king greets him with sweet words and bids him take a seat.",
+   "concepts": [
+    "virundhu",
+    "inchol",
+    "vendhan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridattan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vichaloka_vaayilon",
+     "form": "வாயிலோ",
+     "line": 1
+    },
+    {
+     "id": "kaluzhavegan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sridattan is announced by the gatekeeper, bows before the Vidyadhara king, and is welcomed and seated.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "Who says என்வரவு இசைக்க is not stated; the merchant is the likeliest, but the Vidyadhara who brought him could be meant. The feet that kings' crowns have scored with diamonds make the welcome a condescension from a king of kings."
+  },
+  "543": {
+   "reading": "In a voice like ripe thunder that shames the war drum and falls like a rain of nectar, the king asks the jewelled merchant after his father, mother, wife, sons and kin, and goes on to say more.",
+   "concepts": [
+    "virundhu",
+    "inchol",
+    "sutram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kaluzhavegan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The Vidyadhara king asks after Sridattan's family.",
+   "claims": [],
+   "nuance": "The voice is thunder and nectar at once: the king's majesty and his kindness are given in a single simile, preparing the speech that will level king and merchant."
+  },
+  "544": {
+   "reading": "The king tells the merchant that their bond is not of today: kinship between his people and the merchant's has held for seven generations, bound by fate in an unbreakable diamond tie, and since their dharma is one there is no 'I a king, you a merchant'; this is his own house.",
+   "concepts": [
+    "kizhamai",
+    "natpu",
+    "oozh",
+    "aram"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": "sridattan"
+   },
+   "agents": [
+    {
+     "id": "kaluzhavegan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The Vidyadhara king declares an old family friendship with Sridattan and makes him at home.",
+   "claims": [
+    {
+     "claim": "a bond of friendship kept for seven generations is fixed by fate and cannot be broken",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "kaluzhavegan"
+    },
+    {
+     "claim": "those who share one dharma are not divided as king and merchant",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "kaluzhavegan"
+    }
+   ],
+   "nuance": "Two grounds are given for the friendship, ஊழ் and a shared அறம், and the second dissolves rank: the king of the Vidyadharas sets aside the difference of station in so many words. Whether அறன் here means a shared religion or a shared code of conduct the verse does not say."
+  },
+  "545": {
+   "reading": "At the king's words Sridattan revives like a sandal tree withered by drought that puts out shoots in the rain, and when he asks whether it was his grandfather who spoke of the king, the king recounts in full what he had heard of old.",
+   "concepts": [
+    "kizhamai",
+    "kudi",
+    "natpu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridattan",
+     "form": "சீதத்தன்",
+     "line": 2
+    },
+    {
+     "id": "kaluzhavegan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sridattan, revived, asks about the old tie, and the king begins to tell its history.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The sense of line 3 is not certain: எந்தைக்குத் தந்தை சொன்னான் நின்னை may be the merchant's question (did my grandfather speak of you?) or part of the king's answer; and who tells the tale in line 4 is not named."
+  },
+  "546": {
+   "reading": "The tale begins: on the southern row of the silver mountain, in the faultless land of Gandhara with its screwpine hedges, in the great city of Vichaloka girt by a moat full of birds, ruled Kaluzhavegan of the silver spear, king of the kings of the mountain.",
+   "concepts": [
+    "kudi",
+    "vendhan",
+    "naadu"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": "sridattan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "uncertain": true,
+   "nuance": "வெள்ளி வேதண்டம் and its southern row (தென் சேடி) place the Vidyadhara realm in the Jain cosmic geography. Whether Kaluzhavegan names himself here or an ancestor of the line is not clear from the verse."
+  },
+  "547": {
+   "reading": "Pointing to pools of white lotuses like broken conch, the speaker says 'these are our clan deities, our people, know it', and declares that their clan does not stray from these feet.",
+   "concepts": [
+    "kudi",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": "sridattan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The verse nests a speech within a speech (என்ன ... என்று சொன்னான்), and the referent of இங்கு அடி, the feet the clan never fails, is not given; it may be the clan deity or the old pledge to the merchant's line."
+  },
+  "548": {
+   "reading": "Taking the bracelet-adorned forearm of the noble prince's friend as he bowed, the king leads him into his inner quarters, shows him the dark-eyed girl who stands guarded and shining in gold, and begins to speak of her in a new strain.",
+   "concepts": [
+    "virundhu",
+    "kizhamai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kaluzhavegan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "sridattan",
+     "form": "குருசி றோழன்",
+     "line": 1
+    }
+   ],
+   "event": "The king leads Sridattan into the women's quarters and shows him his daughter.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "பெருந்தகைக் குருசில் தோழன் makes the merchant Civakan's friend, linking this distant court to the hero before he appears. Showing a guest the உரிமை, the women's apartments, is itself the proof of the intimacy the king has just claimed."
+  },
+  "549": {
+   "reading": "The merchant cannot tell whether he sees a creeper of desire risen in the crystal mansion, a vine of rare gems, lightning, or a jewelled doll painted by the king of the gods, and as he stands bewildered the king speaks.",
+   "concepts": [
+    "azhagu",
+    "mayal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridattan",
+     "form": "நாய்கன்",
+     "line": 3
+    },
+    {
+     "id": "kaluzhavegan",
+     "form": "மன்னன்",
+     "line": 4
+    }
+   ],
+   "event": "Sridattan is bewildered at the sight of the princess.",
+   "claims": [],
+   "nuance": "The run of questions with கொல் is the akam device of the man who cannot decide whether the woman is human (compare the Kural's அணங்குகொல்), given here to a merchant who looks on her as a father's guest, not a lover."
+  },
+  "550": {
+   "reading": "The king names her: she who stands with her garment slipping on her hips, coral-red mouth and fragrant hair, flashing like lightning, her earrings shining as she leaps from the swing, is Gandharvadattai, the divine one who holds the throng of faultless lutes.",
+   "concepts": [
+    "azhagu",
+    "ilamai"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": "sridattan"
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": "காந்தர்வ தத்தை",
+     "line": 4
+    }
+   ],
+   "event": "The king names his daughter Gandharvadattai to the merchant.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "Line 2 repeats words from 549 line 2 and ends cut off; the description may be disturbed."
+  },
+  "551": {
+   "reading": "Her fame lights the whole world through the beauty of her vina playing; she is a girl past measuring, whose young breasts swell like budding dark gems and whose slender waist, fine as lightning, cannot be seen at all, though it must exist.",
+   "concepts": [
+    "azhagu",
+    "kalvi"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": "sridattan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "uncertain": true,
+   "nuance": "Her renown is for her art before her beauty: the vina, the instrument of the contest to come, is named first. Whether this is still the king speaking or the narrator is not marked."
+  },
+  "552": {
+   "reading": "The king tells the merchant to take this girl, now called the merchant's own daughter, to his city: whoever defeats her in a contest of sweet music shall have her, even if it be himself, and he will serve that man at his feet; the queen, hearing it, says this is fitting for Dattai.",
+   "concepts": [
+    "makkal",
+    "varaivu",
+    "kalvi"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": "sridattan"
+   },
+   "agents": [
+    {
+     "id": "kaluzhavegan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kaluzhavegan_devi",
+     "form": "தேவி",
+     "line": 4
+    }
+   ],
+   "event": "The king entrusts Gandharvadattai to Sridattan, to be given to whoever beats her at music, and the queen consents.",
+   "claims": [],
+   "nuance": "நின்மகள் transfers the daughter to the merchant in a word: she leaves as his child. The condition 'even if I be the one' (யானும் ஆக) makes the contest absolute, binding the king himself, and the queen's consent is recorded as a separate act."
+  },
+  "553": {
+   "reading": "The king says that even with the tireless pleasures of the land of enjoyment granted without fail, there is no misery like living alone, while to sleep in the lap of a lover sweet of speech is the very state of the gods in the cool sky.",
+   "concepts": [
+    "inbam",
+    "punarchi",
+    "ilvaazhkkai"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": "sridattan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "to live alone is the greatest misery, even amid unfailing heavenly pleasures, and a lover's embrace equals the gods' state",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "kaluzhavegan"
+    }
+   ],
+   "nuance": "போக பூமி is the Jain cosmology's land of enjoyment, where couples are born together; the king uses a Jain heaven to argue for marriage. முனிவரும் is better taken as முனிவு அரும் (pleasures one never tires of) than as 'even sages'."
+  },
+  "554": {
+   "reading": "The king says that, having grasped the subtle meaning of what the learned seer foretold, he would not give her even if kings with armies like the sea fell at his feet and begged; when the destined time for this wide-eyed girl comes, who can stop those it is destined for?",
+   "concepts": [
+    "oozh",
+    "makkal"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": "sridattan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "when the destined time comes, no one can prevent what is destined",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "kaluzhavegan"
+    }
+   ],
+   "nuance": "Fate here does not defeat a plan; it is the king's reason for refusing all suitors and leaving the outcome to the contest. The seer (நூற்படு புலவன்) is mentioned but his prophecy is not told in this verse."
+  },
+  "555": {
+   "reading": "The king of an army that even Death fears puts off his grief for his daughter of matchless chastity, gives all the things proper to a bride's giving and more than was wanted, and says this to Veenapathi, her garlanded companion.",
+   "concepts": [
+    "eegai",
+    "makkal",
+    "karpu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kaluzhavegan",
+     "form": "வேந்தன்",
+     "line": 3
+    },
+    {
+     "id": "veenapathi",
+     "form": "வீணா பதி",
+     "line": 4
+    }
+   ],
+   "event": "The king gives his daughter's dowry and turns to Veenapathi.",
+   "claims": [],
+   "nuance": "பரிவு நீக்கி: the giving is done only after the father masters his grief, and the dowry is called கொடைக்குரிப்பால, what belongs to the act of giving away."
+  },
+  "556": {
+   "reading": "The king tells Veenapathi that she and the princess are like eye and shoulder, woven together as body and life and never apart; she must be father and mother to the girl so that she never feels alone, and both must live under the command of the spear-bearer who slew his foes.",
+   "concepts": [
+    "thunai",
+    "anbu",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": "veenapathi"
+   },
+   "agents": [],
+   "event": "The king charges Veenapathi to be a parent to Gandharvadattai.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The spear-bearer of line 4 is unnamed; it may be the merchant, now her guardian, or the king's own authority. The charge 'be her father and mother' answers the king's claim in 553 that living alone is the worst misery."
+  },
+  "557": {
+   "reading": "The king orders five hundred chests set with rare gems and diamonds and two thousand Yavana chests full of red gold and blazing gems to be carried for the jewelled merchant by Dharan's people.",
+   "concepts": [
+    "eegai",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The king sends chests of gems and gold with the merchant.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "சினந்தலை மழுங்கல் இன்றி and குருமணி முடியில் தேய்த்த are hard to construe; 'Dharan's people' depends on dividing தரன்றமர் as தரன் தமர்."
+  },
+  "558": {
+   "reading": "The king of the fat-smeared spear adds couches of worked coral with gem-set legs and fragrant aloe, seats, standing mirrors, soft incense, caskets of musk and more.",
+   "concepts": [
+    "eegai",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The king adds furniture, mirrors and perfumes to the gifts.",
+   "claims": []
+  },
+  "559": {
+   "reading": "He orders a thousand fine lutes of boundless sweetness, their skin covering taut as if warmed by lamp-flame, their stems smooth as flowing honey, their frets set like a row of moons.",
+   "concepts": [
+    "eegai",
+    "kalvi"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The king gives a thousand lutes.",
+   "claims": [],
+   "nuance": "The last and fullest gift is the vina, the instrument of the contest: a thousand of them go with her, as if the music that will decide her marriage travels as her dowry."
+  },
+  "560": {
+   "reading": "Her loving mothers embrace the girl of sword-sharp lily eyes again and again, and as she leaves like a red-gold lotus turning its back, the palace sinks in grief.",
+   "concepts": [
+    "pirivu",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dattai_thaayar",
+     "form": "காதற் றாயர்",
+     "line": 2
+    },
+    {
+     "id": "gandharvadattai",
+     "form": "மடந்தை",
+     "line": 4
+    }
+   ],
+   "event": "Gandharvadattai's mothers embrace her and the palace grieves as she departs.",
+   "claims": []
+  },
+  "561": {
+   "reading": "With parasols of jewelled rays on golden poles and many whisks waving, her anklets jingling and her girdle chiming, she goes and stands with folded hands before the king.",
+   "concepts": [
+    "panivu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gandharvadattai goes in state and bows before the king.",
+   "claims": []
+  },
+  "562": {
+   "reading": "Her anklets sounding, she bows her head at her father's feet so that her ornaments spill, and stands among her companions like a cluster of swaying lightning-creepers, and the king, unable to bear it, embraces her and speaks.",
+   "concepts": [
+    "pirivu",
+    "panivu",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "dattai_thozhiyar",
+     "form": "தோழியர்",
+     "line": 3
+    },
+    {
+     "id": "kaluzhavegan",
+     "form": "வேந்தன்",
+     "line": 4
+    }
+   ],
+   "event": "Gandharvadattai bows at her father's feet, and he embraces her in grief.",
+   "claims": []
+  },
+  "563": {
+   "reading": "The lord of the mountain says that daughters are like the pearl a right-whorled conch bears, which benefits those on the earth and never the conch, and with this he consoles the queen as she leaves the assembly.",
+   "concepts": [
+    "makkal",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": "குன்றிற் கதிபதி",
+    "line": 4,
+    "addressee": "kaluzhavegan_devi"
+   },
+   "agents": [
+    {
+     "id": "kaluzhavegan",
+     "form": "கதிபதி",
+     "line": 4
+    }
+   ],
+   "event": "The king consoles the queen with a saying on daughters as the princess departs.",
+   "claims": [
+    {
+     "claim": "daughters, like the conch's pearls, profit others and not those who bore them",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "kaluzhavegan"
+    }
+   ],
+   "uncertain": true,
+   "nuance": "Line 3 (தேவி தன் அவையை நீங்க) can be read as the queen leaving the assembly or as the king dispelling the queen's sorrow; either way the saying is said to console, so it turns a loss into the order of things."
+  },
+  "564": {
+   "reading": "Surrounded by sweet lutes, swans, lisping young parrots, peacocks, golden monkeys, spotted doves and herds of deer with timid eyes, the tender girl goes and reaches the aerial car.",
+   "concepts": [
+    "pirivu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gandharvadattai leaves with her pets and lutes and boards the aerial car.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "544",
+   "b": "kural:107",
+   "type": "qualifies",
+   "note": "The Kural says one remembers for seven births the friendship of those who wiped away one's sorrow; the Vidyadhara king says his people and the merchant's have held friendship for seven generations, bound by fate.",
+   "teaches": "Side by side, the seven-fold span of friendship rests on two different grounds: in the couplet on gratitude for a single act of rescue, in the epic on an inherited tie that fate fixes and no deed has to earn.",
+   "gains": {
+    "a": "the king's claim gains a measure of what such a bond is normally owed for, showing how much he gives in asking nothing of the merchant",
+    "b": "the couplet's seven births gain a case where the span runs through generations of a family rather than one person's rebirths"
+   }
+  },
+  {
+   "a": "553",
+   "b": "kural:1103",
+   "type": "develops",
+   "note": "The Kural's lover asks whether the lotus-eyed god's world is sweeter than sleep on a beloved's arms; the Vidyadhara king says even the endless pleasures of the Jain land of enjoyment are misery alone, and sleep in a lover's lap is the gods' own state.",
+   "teaches": "The couplet leaves its comparison with heaven as a question, and the epic answers it outright, turning a lover's boast into a father's argument for giving his daughter in marriage.",
+   "gains": {
+    "a": "the king's maxim gains the akam voice behind it, the man who first set the embrace against heaven",
+    "b": "the couplet's open question gains an answer, and a use outside the lovers' scene, as a reason to marry a daughter"
+   }
+  },
+  {
+   "a": "554",
+   "b": "kural:380",
+   "type": "qualifies",
+   "note": "The Kural says nothing is stronger than fate, which gets ahead of every contrivance; the king says that when the destined time comes no one can stop it, and so refuses every royal suitor.",
+   "teaches": "Read with the couplet, the king's appeal to fate is not a surrender but a policy: he uses fate's strength as the reason to refuse every suitor and leave the choice to a contest, where the Kural sees fate only as defeating a plan.",
+   "gains": {
+    "a": "the king's line gains the Kural's general law, which explains why even begging kings cannot move him",
+    "b": "the couplet gains a case where acknowledging fate guides a decision instead of frustrating one"
+   }
+  },
+  {
+   "a": "563",
+   "b": "naladiyar:274",
+   "type": "develops",
+   "note": "The Naladiyar likens a miser's hoard, enjoyed by a stranger, to a lovely daughter of the house who goes to an outsider in due season; the king says daughters are like the conch's pearls, which profit others and never the conch.",
+   "teaches": "The same commonplace, that a daughter is raised to go to another, serves the quatrain as an image of loss through folly and serves the epic as a father's consolation, so the pair shows the saying could carry blame or comfort.",
+   "gains": {
+    "a": "the king's saying gains the quatrain's point that the daughter's going is as certain as a season, which is why it can console",
+    "b": "the quatrain's simile gains a scene in which the daughter's leaving is felt by the father, not only used as an image"
+   }
+  },
+  {
+   "a": "553",
+   "b": 28,
+   "type": "tension",
+   "note": "The Vidyadhara king calls living alone the greatest misery even amid heavenly pleasure; the patikam ends the epic with Civakan, his brother, friends and wives renouncing the senses and going to release.",
+   "teaches": "The king's praise of married joy over solitary pleasure is one character's view, and the epic's own close, where the household and its pleasures are renounced for a higher state, rejects it as a final value."
+  },
+  {
+   "a": "554",
+   "b": 11,
+   "type": "develops",
+   "note": "The king refuses all suitors, citing a seer's word and the destined time; the patikam names among the episodes how the Vidyadhara king's daughter was defeated at the vina.",
+   "teaches": "The patikam already tells the outcome the king says no one can prevent, so the father's appeal to destiny is answered by the epic's own plan: the destined man is the hero."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 545 line 3: நின்ணை has ண் where நின்னை is expected; probably a typing slip.",
+  "Verse 550 line 2 repeats the phrase அருமணிக் கொடிகொல் மின்கொல் of 549 line 2 (here யருமணிக் கொடிகொன் மின்கொ) and ends cut off; the line looks disturbed or contaminated from the verse before.",
+  "Verse 557 lines 3-4: சினந்தலை மழுங்கல் இன்றி and குருமணி முடியிற் றேய்த்த தரன்றமர் are hard to divide and may be corrupt.",
+  "Verse 562 line 4: வேந்தன் னாற்றுகி லாது doubles the ன்.",
+  "Verse 564 line 4: the text flag reports a repaired ோ் read as ேர்."
+ ]
+}

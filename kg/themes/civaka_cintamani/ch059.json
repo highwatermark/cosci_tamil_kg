@@ -1,0 +1,737 @@
+{
+ "chapter_no": 59,
+ "chapter_theme": "Waking to find Civakan gone, Padumai laments to her myna, swan, peacock, lamp and mansion, strips off her ornaments, blames her eyes for sleeping, calls on bees, hills, gods and goddesses, reproaches the absent man whose grace failed her, and falls fainting like a hen-swan left at a dry pool, until her friend comes with words of comfort.",
+ "cast": [
+  {
+   "id": "padumai",
+   "tamil": "பதுமை",
+   "role": "princess of the Pallava city, Civakan's wife, whom he has left in the night"
+  },
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, absent, addressed in Padumai's lament"
+  },
+  {
+   "id": "padumai_thozhi",
+   "tamil": "தோழி",
+   "role": "Padumai's friend, who consoles her"
+  },
+  {
+   "id": "viruthi_maathar",
+   "tamil": "விருத்தி மாதர்",
+   "role": "the women who attend Padumai"
+  },
+  {
+   "id": "poovai",
+   "tamil": "பூவை",
+   "role": "Padumai's myna, addressed in her lament"
+  },
+  {
+   "id": "annam",
+   "tamil": "அன்னப் பேடை",
+   "role": "the hen-swan of Padumai's house, addressed in her lament"
+  },
+  {
+   "id": "mayil",
+   "tamil": "மயில்",
+   "role": "the peacock, addressed in her lament"
+  },
+  {
+   "id": "vilakku",
+   "tamil": "விளக்கு",
+   "role": "the bedroom lamp, addressed in her lament"
+  },
+  {
+   "id": "maadam",
+   "tamil": "மாடம்",
+   "role": "the tall mansion, addressed in her lament"
+  },
+  {
+   "id": "vandinam",
+   "tamil": "வண்டினம்",
+   "role": "the bees on the flowers, addressed in her lament"
+  },
+  {
+   "id": "iyarkai",
+   "tamil": "வரையே புனலே",
+   "role": "the streams, hills, groves and moonlight called on together in 1376"
+  },
+  {
+   "id": "amarar",
+   "tamil": "அமரீர்",
+   "role": "the gods of heaven, addressed in 1377"
+  },
+  {
+   "id": "amarar_magalir",
+   "tamil": "அமரர் மகளிர்",
+   "role": "the daughters of the gods, addressed in 1378"
+  }
+ ],
+ "verses": {
+  "1364": {
+   "reading": "Padumai reproaches her myna for not asking her lover whether it was right to leave the bed and go while their peerless doll lay distressed.",
+   "concepts": [
+    "pirivu",
+    "kaamanoy"
+   ],
+   "speaker": {
+    "who": "padumai",
+    "form": null,
+    "line": null,
+    "addressee": "poovai"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai, waking to find Civakan gone, laments to her myna.",
+   "claims": [],
+   "nuance": "She scripts for the bird the words it should have said, calling herself 'our doll' (எம் பாவை) in its mouth, so her own grief is voiced through the household's pets."
+  },
+  "1365": {
+   "reading": "She chides the hen-swan for not going after the peerless one, bidding him go with their golden girl, and bringing him back close.",
+   "concepts": [
+    "pirivu",
+    "thoothu"
+   ],
+   "speaker": {
+    "who": "padumai",
+    "form": null,
+    "line": null,
+    "addressee": "annam"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai scolds the hen-swan for not stopping or fetching Civakan.",
+   "claims": []
+  },
+  "1366": {
+   "reading": "Joining her hands, the carp-eyed girl begs the peacock, whose whole body is eyes that never close, to tell her truly where her lord went.",
+   "concepts": [
+    "pirivu",
+    "kan"
+   ],
+   "speaker": {
+    "who": "padumai",
+    "form": null,
+    "line": null,
+    "addressee": "mayil"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": "கயற் கண்ணினாள்",
+     "line": 4
+    }
+   ],
+   "event": "Padumai worships the peacock and asks it where Civakan has gone.",
+   "claims": [],
+   "nuance": "The peacock's eyed plumage is turned into a witness that cannot have slept, against her own eyes, which she later blames for sleeping (1373)."
+  },
+  "1367": {
+   "reading": "She goes up to the bright flame and asks the lamp, nourished and pure, that shows great things, why it did not show her where her dear life, who played with her in love, has hidden.",
+   "concepts": [
+    "pirivu",
+    "uyir"
+   ],
+   "speaker": {
+    "who": "padumai",
+    "form": null,
+    "line": null,
+    "addressee": "vilakku"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai turns to the lamp and asks where Civakan is hidden.",
+   "claims": [],
+   "nuance": "Civakan is called her ஆருயிர், her dear life; the plea to find him is a plea to find her own life."
+  },
+  "1368": {
+   "reading": "She sulks at the lamp: it drank the spreading dark, blackened and vomited it as soot, and stands trembling with its body burning, yet it will tell her nothing that concerns her.",
+   "concepts": [
+    "oodal",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "padumai",
+    "form": null,
+    "line": null,
+    "addressee": "vilakku"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai quarrels with the lamp for its silence.",
+   "claims": [],
+   "nuance": "The flame's flicker is read as guilty trembling, and the verb ஊடினாள் makes her complaint a lover's sulk directed at an object."
+  },
+  "1369": {
+   "reading": "She promises the tall mansion that touches the clouds a crore of fine cloths, ornaments, bathing sandal and more if it will seek out her friend and reach him.",
+   "concepts": [
+    "thoothu",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "padumai",
+    "form": null,
+    "line": null,
+    "addressee": "maadam"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai offers gifts to the mansion to send it after Civakan.",
+   "claims": []
+  },
+  "1370": {
+   "reading": "Saying that these were at fault for keeping her from holding close the man with a chest like a mountain of gold, she strips the bracelets from her arms, long as gem pillars.",
+   "concepts": [
+    "pirivu",
+    "punarchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai pulls off her bracelets, blaming them for hindering her embrace.",
+   "claims": [],
+   "nuance": "Line 4 reads வாடடினாள் as printed; the sense of removing or wasting the bracelets is clear from line 2, but the word looks miscopied.",
+   "uncertain": true
+  },
+  "1371": {
+   "reading": "Saying that the man of the killing spear has left their union and asking what ornaments can do for her here, she smears mountain sandal over her mouth (or face) and scatters the great ornaments from her breasts.",
+   "concepts": [
+    "pirivu",
+    "nalam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": "முற்றிழை",
+     "line": 4
+    }
+   ],
+   "event": "Padumai throws off her breast ornaments.",
+   "claims": []
+  },
+  "1372": {
+   "reading": "Asking her breasts what they will do in this body now that he has gone, she presses down the full breasts that weigh on her waist, her dark eyes reddening and troubled.",
+   "concepts": [
+    "pirivu",
+    "nalam",
+    "kaamanoy"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai beats down her breasts in grief.",
+   "claims": [],
+   "nuance": "The breasts, praised throughout the love scenes, are addressed as useless parties once the lover is gone; the ornaments and body parts are dismissed in turn (1370 to 1373)."
+  },
+  "1373": {
+   "reading": "She rages at her long eyes in her heart: she told them to keep from sleep so as to see the man with a chest like a cloud-girt mountain, yet they slept, so let them now deck themselves with collyrium.",
+   "concepts": [
+    "kan",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai blames her eyes for sleeping while Civakan left.",
+   "claims": []
+  },
+  "1374": {
+   "reading": "As her lac-red lotus eyes are held back by the women who tend her, the girdle, as if afraid or thinking she was suffering, gives no sound, shakes and slips down.",
+   "concepts": [
+    "melivu",
+    "kan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "viruthi_maathar",
+     "form": "விருத்தி மாதர்",
+     "line": 2
+    }
+   ],
+   "event": "Padumai's attendants restrain her, and her girdle falls silent and loosens.",
+   "claims": [],
+   "nuance": "The silenced, slipping girdle is the conventional sign of wasting in separation, given a feeling of its own.",
+   "uncertain": true
+  },
+  "1375": {
+   "reading": "In a new metre she tells the bees lying on dewy flowers that she never did anything to cause a sulk; she is alone, a single woman's life is all she has, and she asks them to say whether she must now stay like this.",
+   "concepts": [
+    "oodal",
+    "uyir",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "padumai",
+    "form": null,
+    "line": null,
+    "addressee": "vandinam"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai protests her innocence to the bees.",
+   "claims": [],
+   "nuance": "She denies having given cause (துனி), so the departure cannot be read as a lovers' quarrel she started."
+  },
+  "1376": {
+   "reading": "She calls on the rows of falling streams, the gold-pouring hills, the water, the plantain and leaves, the fragrant groves and the spreading moonlight to tell her where the guardian of her life is.",
+   "concepts": [
+    "pirivu",
+    "uyir"
+   ],
+   "speaker": {
+    "who": "padumai",
+    "form": null,
+    "line": null,
+    "addressee": "iyarkai"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai asks the hills, waters and moonlight where Civakan has gone.",
+   "claims": []
+  },
+  "1377": {
+   "reading": "She turns to the gods who dwell in the golden heaven and know all: petty humans know nothing, the gods have no pity, so her spreading sickness grows and her life is hard to keep; she begs them for grace.",
+   "concepts": [
+    "arul",
+    "uyir",
+    "kaamanoy"
+   ],
+   "speaker": {
+    "who": "padumai",
+    "form": null,
+    "line": null,
+    "addressee": "amarar"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai prays to the gods to pity her.",
+   "claims": [],
+   "nuance": "Line 1 is printed with a break (உறைவீ ர்தனைத்) and line 2 ends மானிடார்ற், so the exact construction is doubtful.",
+   "uncertain": true
+  },
+  "1378": {
+   "reading": "She asks the daughters of the gods, who know that when a husband leaves even in the sweet hour of a lovers' sulk his wife's life slips from her hand, to be gracious and bring back the life of her, the cruel one.",
+   "concepts": [
+    "oodal",
+    "pirivu",
+    "uyir"
+   ],
+   "speaker": {
+    "who": "padumai",
+    "form": null,
+    "line": null,
+    "addressee": "amarar_magalir"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai begs the goddesses to bring her lover back.",
+   "claims": [
+    {
+     "claim": "a husband's going, even in the sweet hour of a sulk, takes his wife's life from her",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "padumai"
+    }
+   ],
+   "nuance": "She calls herself கொடியேன், the cruel one, taking the blame on herself while the next verses blame him."
+  },
+  "1379": {
+   "reading": "She addresses a garland or girdle-like woman and asks whether, if it has become her gem girdle, her breath will not linger, and whether she, who could sing his worth, must droop and droop.",
+   "concepts": [
+    "kaamanoy",
+    "ninaivu"
+   ],
+   "speaker": {
+    "who": "padumai",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [],
+   "nuance": "Lines 3 and 4 are broken in the text (அகையா தெனதா விதழைக் குமெனத் / தகைபா டவலாய் ளர்கோ), and the addressee is unclear; only the closing cry of drooping is secure.",
+   "uncertain": true
+  },
+  "1380": {
+   "reading": "Speaking to the absent man, she recalls how, when she said his garland pressed and bruised her, he cooled her burning jewelled breasts with his flower eyes and tended her, and now, without a thought, the great one has left her.",
+   "concepts": [
+    "ninaivu",
+    "punarchi",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "padumai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai recalls Civakan's tenderness and reproaches his leaving.",
+   "claims": []
+  },
+  "1381": {
+   "reading": "She calls him one who stands on the road of grace and speaks only dharma, flower-anklet wearer who has gained knowledge that seeks meaning, brother-in-law of the victorious lord of the tall chariot, and asks why he stands on a dark road and shows no grace to her who grieves.",
+   "concepts": [
+    "arul",
+    "aram",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "padumai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai reproaches Civakan for withholding grace.",
+   "claims": [
+    {
+     "claim": "one who walks by grace and speaks dharma should not withhold grace from the one who suffers for him",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "padumai"
+    }
+   ],
+   "nuance": "The reproach turns on his own virtues: அருள் தேர் வழி against இருள் தேர் வழி in lines 1 and 3. Who the lord of the tall chariot is (line 4) is not fixed by the verse; it may be her brother, the king's son, which would make Civakan his மைத்துனன்.",
+   "uncertain": true
+  },
+  "1382": {
+   "reading": "She asks whether she did some great wrong or whether his heart, taking no delight, grew sick of her, that he has done what is unfitting and left her in unending sorrow.",
+   "concepts": [
+    "pirivu",
+    "kutram"
+   ],
+   "speaker": {
+    "who": "padumai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai asks what fault of hers drove Civakan away.",
+   "claims": [
+    {
+     "claim": "to abandon a wife in endless sorrow is conduct unfit for a worthy man",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "padumai"
+    }
+   ]
+  },
+  "1383": {
+   "reading": "The narrator tells how the swan-gaited girl, unable to hold herself up, her gleaming golden garland crushed, falls to the ground like a flash of lightning.",
+   "concepts": [
+    "kaamanoy",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai faints and falls to the floor.",
+   "claims": [],
+   "nuance": "Line 1 (குளிர்துன் னியபொன் னிலமே குதலாற்) is hard to construe; the fall itself is clear from lines 2 to 4.",
+   "uncertain": true
+  },
+  "1384": {
+   "reading": "Crying 'strong youth, embrace me', faltering, rising, she lifts herself and walks seven steps, falls again to the ground, glimmers, melts and weeps, the jewelled one, overwhelmed.",
+   "concepts": [
+    "kaamanoy",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai rises, takes seven steps after him and falls weeping.",
+   "claims": []
+  },
+  "1385": {
+   "reading": "She is like a coral-footed hen-swan whose mate has left the lotus bed of the Ganges, its banks hidden by waves, and who weeps by a dry pool of little water on stony gravel.",
+   "concepts": [
+    "pirivu",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [],
+   "nuance": "Repaired from eight half-lines in the source."
+  },
+  "1386": {
+   "reading": "As she weeps and melts ceaselessly like a wax doll held to heat, her friend, whose speech is like the strings of a well-tuned yazh, comes close and speaks reasonable words to end her great grief.",
+   "concepts": [
+    "thunai",
+    "sol"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumai_thozhi",
+     "form": "தோழி",
+     "line": 2
+    }
+   ],
+   "event": "Padumai's friend comes to console her.",
+   "claims": []
+  },
+  "1387": {
+   "reading": "The friend tells her that lovers' love is like the sea's craving for the clear river that flows into it, like honey that binds desire within, and like a drop of water fallen on gold heated through.",
+   "concepts": [
+    "kaamam",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "padumai_thozhi",
+    "form": null,
+    "line": null,
+    "addressee": "padumai"
+   },
+   "agents": [
+    {
+     "id": "padumai_thozhi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The friend begins her consolation with sayings on lovers' love.",
+   "claims": [
+    {
+     "claim": "a lover's love is insatiable and is drawn in at once, like a drop on hot gold",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "padumai_thozhi"
+    }
+   ],
+   "nuance": "The point of the three comparisons is not fixed by this verse alone: they may say that a lover's love never has enough and so he will return, or that it vanishes as fast as water on hot gold; the next verses decide which.",
+   "uncertain": true
+  }
+ },
+ "links": [
+  {
+   "a": "1383",
+   "b": 19,
+   "type": "develops",
+   "note": "The patikam says only that Civakan delighted in her for two months and then cut through the mountains and swiftly took the road; this run gives the night of that leaving from the side of the wife left behind.",
+   "teaches": "The patikam's swift departure is told from the hero's road, and only here does the epic count its cost, a wife who blames birds, lamps and her own eyes and falls to the floor."
+  },
+  {
+   "a": "1385",
+   "b": 1017,
+   "type": "tension",
+   "note": "Pleading with Gunamalai, Civakan asked whether a swan that delighted in the flowering Ganges would go near the white sand of a seep-well; here Padumai is a hen-swan left by a dry stony pool after her mate has quit the Ganges lotus bed.",
+   "teaches": "The hero's own image of a constancy that never leaves the Ganges is turned against him: the swan does leave, and the one stranded at the poor water is the wife he swore by it to another."
+  },
+  {
+   "a": "1364",
+   "b": 1000,
+   "type": "tension",
+   "note": "Gunamalai's parrot answers her plea and flies as her envoy to Civakan; Padumai's myna, swan, peacock and lamp neither stopped him nor will tell where he went.",
+   "teaches": "Set beside the parrot that carried Gunamalai's love, Padumai's mute household creatures show the same convention emptied: the love-messenger exists only when the lover is still within reach."
+  },
+  {
+   "a": "1373",
+   "b": "kural:1179",
+   "type": "qualifies",
+   "note": "The Kural's woman says her eyes do not sleep whether he is away or near; Padumai told her eyes not to sleep so she could keep sight of him, and they slept, and he went.",
+   "teaches": "The couplet's sleepless eyes are the lover's watch against loss; the epic shows the watch failing once, so the eyes are blamed not for their suffering but for the one night they rested.",
+   "gains": {
+    "a": "a reason, from the Kural's chapter on the eyes, why the night's sleep is a fault and not a mercy",
+    "b": "a case where the eyes' vigilance actually lapses and the feared parting happens, which the couplet only fears"
+   }
+  },
+  {
+   "a": "1370",
+   "b": "kural:1157",
+   "type": "qualifies",
+   "note": "In the Kural the bangles slip from the wasting wrist and so announce the parting; Padumai pulls her bracelets off herself, blaming them for having come between her and his embrace.",
+   "teaches": "The epic turns the couplet's involuntary sign into a deliberate act: the bangle no longer reports the grief but is punished as one of its causes.",
+   "gains": {
+    "a": "the convention of the bangle as the body's witness to separation, which makes her gesture legible",
+    "b": "a scene where the woman acts on the sign herself, so the bangle becomes a culprit rather than a gossip"
+   }
+  },
+  {
+   "a": "1381",
+   "b": "kural:1154",
+   "type": "develops",
+   "note": "Kural 1154 asks whether those who trusted the assuring words of one who was gracious can be at fault if he leaves; Padumai calls Civakan one who walks by grace and speaks dharma, and asks why he shows her no grace.",
+   "teaches": "The couplet sets the fault on the gap between the lover's word and deed; the epic sharpens it by making the deserter a man praised for grace and dharma, so his own virtue becomes the charge against him.",
+   "gains": {
+    "a": "a moral frame in which her reproach is not mere grief but an accusation of broken assurance",
+    "b": "a deserter whose public virtue is named, so the gap between word and deed is measured against a whole character, not one promise"
+   }
+  },
+  {
+   "a": "1378",
+   "b": "kural:1307",
+   "type": "develops",
+   "note": "The Kural's man finds one pain inside the sulk, the worry that union may be delayed; Padumai says that if a husband leaves even in the sweet hour of the sulk, the wife's life leaves her.",
+   "teaches": "The game of sulking assumes the lover stays to be won back; the epic names the case the couplet only worries about, where the partner leaves during the sulk and the delay becomes loss.",
+   "gains": {
+    "a": "the Kural's view of the sulk as a sweet risk, which explains why she names the sulk-time as the worst moment to be left",
+    "b": "the risk carried to its end from the woman's side, where the delay the man fears becomes desertion"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "1370 line 4: வாடடினாள் looks miscopied (perhaps a form of வாட்டினாள்).",
+  "1377 lines 1-2: broken word division (உறைவீ ர்தனைத்) and an odd form மானிடார்ற்.",
+  "1378: lengthened vowels in புணார்வின், உணார்வீ ரமரார், கொணார்வீர் where the metre and sense want புணர்வின், உணர்வீர் அமரர், கொணர்வீர்.",
+  "1379 lines 3-4 corrupt: ளர்கோ lacks its first syllable (probably தளர்கோ), and line 3 does not construe.",
+  "1380 line 3: வுன்கண் breaks the metre of the run.",
+  "1385 and 1386 were printed in eight half-lines and joined into four by the build."
+ ]
+}

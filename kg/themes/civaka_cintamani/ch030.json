@@ -1,0 +1,835 @@
+{
+ "chapter_no": 30,
+ "chapter_theme": "Gandharvadattai defeats kings, Vedic Brahmins and learned merchants at the vina, and Kattiyankaran says only Kama could win her; Civakan resolves to enter, but a palace woman brings Kantukkatan a hidden letter warning that the king means to kill him, and Kantukkatan begins the story behind the king's rage: at a staged dance Civakan adorned the dancer Anangamaalai, the crowd was undone by her, and she sent him her love by her eyes.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, raised by the merchant Kantukkatan; here called சீவக சாமி and ஐயன்"
+  },
+  {
+   "id": "gandharvadattai",
+   "tamil": "காந்தருவதத்தை",
+   "role": "the Vidyadhara princess who defeats all comers at the vina (named here only as கோதை, மடந்தை)"
+  },
+  {
+   "id": "kattiyankaran",
+   "tamil": "கட்டியங்காரன்",
+   "role": "the usurping king of Rajamapuram"
+  },
+  {
+   "id": "suitor_kings",
+   "tamil": "மன்னர்",
+   "role": "kings who came seeking the princess"
+  },
+  {
+   "id": "vedic_contestants",
+   "tamil": "நான்மறை நெறியவர்",
+   "role": "Brahmins skilled in music who contest the princess after the kings"
+  },
+  {
+   "id": "merchant_contestants",
+   "tamil": "வணிகர்",
+   "role": "merchants learned in music theory who contest the princess"
+  },
+  {
+   "id": "nandattan",
+   "tamil": "நந்தட்டன்",
+   "role": "Civakan's younger brother (named here only as தம்பி)"
+  },
+  {
+   "id": "civakan_thozhar",
+   "tamil": "தோழர்",
+   "role": "Civakan's companions"
+  },
+  {
+   "id": "buddhisenan",
+   "tamil": "புத்திசேனன்",
+   "role": "Civakan's companion who carries his message to Kantukkatan"
+  },
+  {
+   "id": "kantukkatan",
+   "tamil": "கந்துக்கடன்",
+   "role": "the merchant who raised Civakan (கந்துகன், நாய்கன்)"
+  },
+  {
+   "id": "palace_woman",
+   "tamil": "பெண்கொடி",
+   "role": "a woman from the palace who brings a secret warning hidden in a flower"
+  },
+  {
+   "id": "anangamaalai",
+   "tamil": "அனங்கமாலை",
+   "role": "the dancer whom Civakan adorns and who falls in love with him"
+  },
+  {
+   "id": "spectators",
+   "tamil": "கண்டார்",
+   "role": "the audience at the dance"
+  }
+ ],
+ "verses": {
+  "661": {
+   "reading": "After the kings have lost to the long-haired girl who is so hard to win, men of the way bounded by the four Vedas, practised in the strings and the clear-voiced note, come forward to contest with her.",
+   "concepts": [
+    "isai",
+    "andhanar"
+   ],
+   "nuance": "The Brahmins are defined at once by Veda and by music: the contest is open to learning, not only to royal birth.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vedic_contestants",
+     "form": "நெறியவர்",
+     "line": 4
+    }
+   ],
+   "event": "With the kings defeated, Vedic Brahmins skilled in music enter the vina contest.",
+   "claims": []
+  },
+  "662": {
+   "reading": "As bees hum in a lotus, the garlanded girl sings and the heroes of the எழால் kind of music are beaten; when her coral lips and fingers sound the sweet strings, the young men's songs on twisted strings break down before her.",
+   "concepts": [
+    "isai"
+   ],
+   "nuance": "எழால் is a technical word of the lute tradition; whether it names a mode, a kind of instrument or a class of performer is not clear from the verse alone.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": "கோதை",
+     "line": 2
+    },
+    {
+     "id": "vedic_contestants",
+     "form": "வீரர்",
+     "line": 2
+    }
+   ],
+   "event": "Gandharvadattai sings and plays, and the contestants' music fails against hers.",
+   "claims": []
+  },
+  "663": {
+   "reading": "Her curled fingers, reddened by the plectrum like kanthal buds stained with lac, defeat even the merchants learned in the fine treatise who came to match her vina by the book, and they wilt like a lotus field scorched by the wind.",
+   "concepts": [
+    "isai",
+    "kalvi"
+   ],
+   "nuance": "The sequence of losers (kings in 661, Brahmins, now merchants versed in நூல்) runs through the orders of society, so that Civakan, the merchant's foster son, enters when every class has failed.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": "மடந்தை",
+     "line": 2
+    },
+    {
+     "id": "merchant_contestants",
+     "form": "வணிகரு",
+     "line": 3
+    }
+   ],
+   "event": "Merchants learned in music theory contest Gandharvadattai and are beaten.",
+   "claims": []
+  },
+  "664": {
+   "reading": "Kattiyankaran tells the spear-bearing suitors to give up: the one who could beat her at the sweet makara-headed vina would be Kama himself, whose long bow withers the strength of the mighty, and no such one is here.",
+   "concepts": [
+    "kaamam",
+    "isai",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "kattiyankaran",
+    "form": "கட்டியங் கார",
+    "line": 4,
+    "addressee": "suitor_kings"
+   },
+   "agents": [
+    {
+     "id": "kattiyankaran",
+     "form": "கட்டியங் கார",
+     "line": 4
+    }
+   ],
+   "event": "Kattiyankaran declares that no one present can defeat the princess and tells the suitors to stop.",
+   "claims": []
+  },
+  "665": {
+   "reading": "As the kings dim and melt like the full moon caught by the swift serpent that leaps at its hare, six days pass, and then the son of the city's chief merchant, a lion among young men called Civaka Sami, comes into the story.",
+   "concepts": [
+    "kaalam",
+    "mannar"
+   ],
+   "nuance": "The verse is the first half of a sentence that runs into 666; Civakan is introduced by his foster father's rank (ஆதி நாய்கன் சிறுவன்), not by his royal birth.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suitor_kings",
+     "form": "மன்னர்",
+     "line": 2
+    },
+    {
+     "id": "civakan",
+     "form": "சீவக சாமி",
+     "line": 4
+    }
+   ],
+   "event": "The kings lose heart, and after six days Civakan is introduced as the next contender.",
+   "claims": []
+  },
+  "666": {
+   "reading": "Civakan, his younger brother and his companions take counsel and resolve to go first into the fierce vina contest; he asks Buddhisenan to tell this to the elder, Buddhisenan tells Kantukkatan, and Kantukkatan answers.",
+   "concepts": [
+    "soozhchi",
+    "isai",
+    "sutram"
+   ],
+   "nuance": "The decision passes through the foster father before it is acted on: the hero does not go to the contest without the elder's word.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "nandattan",
+     "form": "தம்பி",
+     "line": 1
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": "தோழன் மாரு",
+     "line": 1
+    },
+    {
+     "id": "buddhisenan",
+     "form": "புத்தி சேன",
+     "line": 3
+    },
+    {
+     "id": "kantukkatan",
+     "form": "கந்துகற்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan resolves with his brother and friends to enter the contest and sends word through Buddhisenan to Kantukkatan.",
+   "claims": []
+  },
+  "667": {
+   "reading": "Kantukkatan says that sixty-four of a nature fitting for the master, like nectar on earth and like finely made figures, in the fullness of youth, have come together; and further he tells the bowman something more.",
+   "concepts": [
+    "kalvi",
+    "ilamai"
+   ],
+   "nuance": "Who or what the sixty-four (அறுபத்து நால்வர்) are is not settled by the verse: the figures of nectar, statues and ripe youth suit women, but the number is that of the arts, and the verse may say that all sixty-four have gathered in the master.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kantukkatan",
+    "form": "கந்துக",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": "கந்துக",
+     "line": 4
+    }
+   ],
+   "event": "Kantukkatan replies to the message and turns to tell Civakan something more.",
+   "claims": []
+  },
+  "668": {
+   "reading": "While he is speaking to the learned one, a woman with a brow that outshines the crescent comes from the palace, slips her hair from its sheath and holds out a blue kuvalai on its green stalk, and he takes the flower with a look.",
+   "concepts": [
+    "kurippu",
+    "otru"
+   ],
+   "nuance": "Neither who is addressed as மறைவல்லான் nor who takes the flower is named here; 669 shows that the merchant is the one who reads what it hides.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "palace_woman",
+     "form": "பெண்கொடி",
+     "line": 2
+    },
+    {
+     "id": "kantukkatan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A woman from the palace brings Kantukkatan a blue lily as a covert sign.",
+   "claims": []
+  },
+  "669": {
+   "reading": "Seeing her meaning, the merchant searches the flower and finds a palm-leaf letter lying among its petals with the stalk serving as its stylus; he takes it, works out the painter's cipher, unrolls it around the stylus and reads.",
+   "concepts": [
+    "kurippu",
+    "otru"
+   ],
+   "nuance": "The letter is in a cipher (துகிலிகைக் கணக்கு), so the warning comes from someone inside the palace who must hide it from the king.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": "நாய்கன்",
+     "line": 1
+    },
+    {
+     "id": "palace_woman",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kantukkatan finds a secret letter in the flower and reads it.",
+   "claims": []
+  },
+  "670": {
+   "reading": "The message: take the noble one out of the city and keep him safe, for the king, reddened like gold in fire, stands ready to kill him, burning in anger like the god who swallowed poison; the king said so to me today, and this is what has happened, sir.",
+   "concepts": [
+    "pagai",
+    "vekuli",
+    "vanjam"
+   ],
+   "nuance": "The verse ends in என்றாள், so the woman voices the warning; how much of it is the letter's text and how much her own report is not marked. The god compared to the angry king is named only as the one who ate the poison.",
+   "uncertain": true,
+   "speaker": {
+    "who": "palace_woman",
+    "form": null,
+    "line": null,
+    "addressee": "kantukkatan"
+   },
+   "agents": [
+    {
+     "id": "palace_woman",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kattiyankaran",
+     "form": "வேந்தன்",
+     "line": 3
+    }
+   ],
+   "event": "The palace woman warns Kantukkatan that the king means to kill Civakan and urges him to send Civakan out of the city.",
+   "claims": []
+  },
+  "671": {
+   "reading": "Handing the letter back to her, he gives her in secret a gem earring, pearls and a garland as tokens, seals the message and bids her come again; then to the one whose name joins the moon with the sea's nectar he says he will tell something that happened in earlier days.",
+   "concepts": [
+    "kurippu",
+    "soozhchi"
+   ],
+   "nuance": "The hearer is named by a riddling epithet (வேலைநெய் பெய்த திங்கள் விரவிய பெயரினான்) that the verse does not resolve; since Civakan himself took part in the episode now told, the hearer may be someone else.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kantukkatan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "palace_woman",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kantukkatan rewards the messenger secretly and begins to tell of a past event.",
+   "claims": []
+  },
+  "672": {
+   "reading": "When the old city, decked for the festival hall, surged like the sea and poets who knew the art of the stage crowded in, someone who wished to see a drama took counsel with the umbrella-bearing king and had Civakan sent for, and the spear-bearer and his friends went to watch.",
+   "concepts": [
+    "koothu",
+    "avai"
+   ],
+   "nuance": "Who proposes the summons is left unnamed; the verse says only that it was agreed with the king, which matters for the king's later rage in 670.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyankaran",
+     "form": "குடையுடை யவனொ",
+     "line": 3
+    },
+    {
+     "id": "civakan",
+     "form": "சீவகற்",
+     "line": 3
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": "தோழருங்",
+     "line": 4
+    }
+   ],
+   "event": "At a staged performance before the king, Civakan is summoned and goes with his friends to watch.",
+   "claims": []
+  },
+  "673": {
+   "reading": "Told to adorn the dancer as the rules of the stage require, Master Civakan ties the band on her fine brow, crowns her with a garland, puts blood-red sandal, a necklace and jewels on her breasts, and fits her with a skirt of red silk.",
+   "concepts": [
+    "koothu",
+    "azhagu",
+    "kalvi"
+   ],
+   "nuance": "The adornment is a learned skill (நிலமறிந்து, நெறியின்): Civakan is shown as master of the stage arts, and the same act sets the dancer's love in motion.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "சீவகன்",
+     "line": 1
+    },
+    {
+     "id": "anangamaalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan adorns the dancer for the performance.",
+   "claims": []
+  },
+  "674": {
+   "reading": "The one like Anangan sets flashing earrings and gold ear-rolls so that her moon-like face shines, and puts anklet, foot-ring and gold bells on her feet, adorning the woman until Rambha would be ashamed.",
+   "concepts": [
+    "azhagu",
+    "kaamam"
+   ],
+   "nuance": "Calling the adorner அனங்கன் (Kama) here answers Kattiyankaran's claim in 664 that only Kama could win the princess.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "anangamaalai",
+     "form": "யரிவையை",
+     "line": 4
+    }
+   ],
+   "event": "Civakan finishes adorning the dancer.",
+   "claims": []
+  },
+  "675": {
+   "reading": "As skin drum, yazh and pierced flute sound, she comes on like a twig bending in the wind, shows her hand gestures, looks up as if startled, lets her garment trail and sways; the face she has made up shakes every mind.",
+   "concepts": [
+    "koothu",
+    "isai",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "anangamaalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The dancer enters and begins her dance to drum, lute and flute.",
+   "claims": []
+  },
+  "676": {
+   "reading": "Her eyes, like kuvalai planted in the moon, dart as if in fear, her garland drips honey, and her brows bend so that gods would fall from the sky; and the hearts of the jewel-anklet men who sit watching lose their tune.",
+   "concepts": [
+    "koothu",
+    "kan",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "anangamaalai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "spectators",
+     "form": "காணும்",
+     "line": 4
+    }
+   ],
+   "event": "The dancer's eyes and brows move as she dances, and the watchers are overcome.",
+   "claims": []
+  },
+  "677": {
+   "reading": "With anklet and gold bells ringing, her garland swelling, the gold ear-disc showering lightning, saffron paste spread on her, earrings flashing like a rainbow and her necklace gleaming, the woman dances.",
+   "concepts": [
+    "koothu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "anangamaalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The dancer dances in full ornament.",
+   "claims": []
+  },
+  "678": {
+   "reading": "Some in the crowd say: knowing her waist is a single thread and she is her mother's only daughter, can these iron-hearted people sit and watch? Was it her base mother who brought her onto the stage, or else the base men who crowned her with the bee-haunted garland? Go away!",
+   "concepts": [
+    "nalam",
+    "kayamai"
+   ],
+   "nuance": "The outrage is praise by hyperbole: the waist is too slender to bear a dance. Its target includes, without naming him, the one who garlanded her in 673, Civakan himself.",
+   "uncertain": true,
+   "speaker": {
+    "who": "spectators",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "spectators",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "679": {
+   "reading": "She wears no sandal, only agil smoke, and goes nowhere near flowers, for if she did, the doll who breeds enmity even by day would lose her small waist, alas; yet they painted sandal on her young breasts and hung pearls and flowers on her, and her mother, seeing it, still lives, alas.",
+   "concepts": [
+    "nalam",
+    "azhagu"
+   ],
+   "nuance": "பகலே பகை வளர்த்த is hard to fix: it may mean the waist that day itself treats as an enemy, or the girl who breeds rivalry among men by day.",
+   "uncertain": true,
+   "speaker": {
+    "who": "spectators",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "spectators",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "680": {
+   "reading": "As the creeper garlanded with jasmine dances on the stage in strands of honeyed flowers, coral, flame-gold and lightning, her gold girdle swinging, all who see her call her a peacock of the field, a swan, a golden creeper, the lotus goddess, or if not that, a daughter of the immortals.",
+   "concepts": [
+    "anangu",
+    "azhagu",
+    "koothu"
+   ],
+   "nuance": "The crowd's names run from bird to plant to goddess and end in doubt whether she is human at all.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "anangamaalai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "spectators",
+     "form": "கண்டா",
+     "line": 3
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "681": {
+   "reading": "Others sit saying that whoever hung cool pearls on her and bathed her in saffron is a killer, that her breasts destroy those who live at her feet and may well destroy her too, and wondering whether her waist exists at all; look, they say, is it the moon on which Kama, son of the red-eyed Tall One, has set his bow and arrows, or her bright face?",
+   "concepts": [
+    "kaamam",
+    "nalam",
+    "anangu"
+   ],
+   "nuance": "Kama is named as the son of செங்கண் நெடியான், the red-eyed Tall One. Line 2's sense of who destroys whom is uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "spectators",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "spectators",
+     "form": "காண்பாரு",
+     "line": 3
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "682": {
+   "reading": "Seeing her mass of hair like ghee-fed darkness, men lose their self-command; struck by her kohl-drinking eyes as by sword blows, they pine; watching the doll keep time with her hips in the dance, they melt in body, eyes and heart and waste away like a butter doll in the sun of desire.",
+   "concepts": [
+    "nirai",
+    "melivu",
+    "kaamanoy"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "anangamaalai",
+     "form": "பாவை",
+     "line": 3
+    },
+    {
+     "id": "spectators",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "683": {
+   "reading": "Anangamaalai dances on the stage of men's hearts, and so that the master may see, she writes a letter called her long streaked eyes and sends it by the friend called her smile, telling how she has withered and the sickness she suffers.",
+   "concepts": [
+    "kan",
+    "kurippu",
+    "kaamanoy"
+   ],
+   "nuance": "The verse rewrites the plot's real letter (669) as a figure: the secret palm-leaf of the palace and the dancer's glance are both covert messages, and the second is what turned the king against Civakan.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "anangamaalai",
+     "form": "னங்க மாலை",
+     "line": 1
+    },
+    {
+     "id": "civakan",
+     "form": "யையன்",
+     "line": 2
+    }
+   ],
+   "event": "While dancing, Anangamaalai shows Civakan by glance and smile that she has fallen in love with him.",
+   "claims": []
+  },
+  "684": {
+   "reading": "I was granted rich flowers to wear and my white bangles set right; I had my hip touched by his hand; today the toil of bearing young breasts is over, and today I have the joy that women pining in love attain.",
+   "concepts": [
+    "inbam",
+    "kaamam",
+    "nalam"
+   ],
+   "nuance": "No speaker is named. The joy over being adorned and touched, and the reference to her own breasts, fit Anangamaalai remembering Civakan's dressing of her in 673-674; the verse may also be the content of the 'letter' of 683.",
+   "uncertain": true,
+   "speaker": {
+    "who": "anangamaalai",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "anangamaalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Anangamaalai rejoices that Civakan adorned her with his own hands.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "665",
+   "b": 454,
+   "type": "same_image",
+   "note": "In 454 Civakan returns from the cattle raid like the full moon the Tall One freed from the planet's mouth; in 665 the defeated kings dim like the full moon seized by the serpent.",
+   "teaches": "The eclipse image is split between them: the rivals are the moon swallowed and Civakan the moon released, so the poet marks him as the winner before he has touched the vina."
+  },
+  {
+   "a": "670",
+   "b": 455,
+   "type": "develops",
+   "note": "In 455 one who hears of Civakan's recovery of the herd rages like a man whose last day has come; in 670 the king, burning like gold in fire, stands ready to kill him.",
+   "teaches": "The ruler's anger first stirred by the hero's fame now becomes a plan to murder him, so Civakan's public successes are the very things that endanger him."
+  },
+  {
+   "a": "664",
+   "b": 674,
+   "type": "tension",
+   "note": "Kattiyankaran tells the suitors that only Kama could win the princess; ten verses later the poet calls Civakan, adorning the dancer, அனங்கன் அன்னான், one like Kama.",
+   "teaches": "The usurper's boast that no Kama is present is refuted by the man he wants dead, so his taunt unknowingly names his rival."
+  },
+  {
+   "a": "679",
+   "b": "kural:1115",
+   "type": "develops",
+   "note": "Kural 1115 jokes that her waist will snap if she wears anicham with its stems; the spectators of 679 say the dancer avoids flowers lest her small waist break, and lament that sandal and pearls were hung on her.",
+   "teaches": "The couplet's lover's joke is turned into a crowd's mock indignation at those who dressed the girl, so the hyperbole of the slender waist becomes a charge against the adorner.",
+   "gains": {
+    "a": "a known literary formula of the waist too slight for flowers, against which the crowd's outburst reads as conventional praise rather than real concern",
+    "b": "a public, theatrical setting in which the private lover's exaggeration is shouted by many and aimed at a culprit"
+   }
+  },
+  {
+   "a": "680",
+   "b": "kural:1081",
+   "type": "qualifies",
+   "note": "Kural 1081: the man seeing her first cannot tell whether she is a goddess, a peahen or a woman; the crowd at the dance names her peacock, swan, golden creeper, lotus goddess or daughter of the gods.",
+   "teaches": "The couplet's one man's bewilderment becomes a whole audience's at a staged dance, so the doubt about her nature is produced by art and costume, not by a chance meeting.",
+   "gains": {
+    "a": "the Kural's frame of first sight, which shows the crowd's guesses as the confusion of love rather than mere compliment",
+    "b": "a case where the woman's seeming divinity is made by adornment and performance, which the couplet's private encounter does not consider"
+   }
+  },
+  {
+   "a": "680",
+   "b": "naladiyar:48",
+   "type": "tension",
+   "note": "Naladiyar 48 mocks those who praise sandal paste and garlands without knowing what the body is; the crowd of 680 calls the sandalled, garlanded dancer a goddess or a daughter of the immortals.",
+   "teaches": "The epic stages exactly the admiration the Naladiyar scorns and gives it to the whole city without rebuke, so the two works disagree on whether adorned beauty is a fit object of wonder.",
+   "gains": {
+    "a": "a Jain didactic verdict against which the crowd's rapture can be weighed, which the narrative itself withholds here",
+    "b": "a full scene of the praise it condemns, showing how adornment, music and dance build the illusion the quatrain attacks"
+   }
+  },
+  {
+   "a": "682",
+   "b": "thiruppugazh:142",
+   "type": "same_image",
+   "note": "The spectators of 682 waste away like a butter doll in the sun of desire; in Thiruppugazh 142 the poet, melting like wax in fire for women, asks whether he must stay bound to that shame.",
+   "teaches": "The same melting is in the epic the measure of a dancer's art and in the hymn a bondage to be prayed away, so the image shows how one bodily figure serves praise and penitence.",
+   "gains": {
+    "a": "a devotional reading of the melting as delusion, which the epic, praising the dance, leaves unsaid",
+    "b": "a narrative where the melting is collective and caused by a staged performance, not only by a woman's body"
+   }
+  },
+  {
+   "a": "683",
+   "b": "kural:1100",
+   "type": "qualifies",
+   "note": "Kural 1100: once eyes agree with eyes, spoken words are useless; Anangamaalai sends her love to Civakan by a 'letter' of her eyes carried by her smile, in the middle of a public dance.",
+   "teaches": "The epic keeps the couplet's wordless eye-language but makes it one-sided and public, a message sent across a crowd, and shows its cost when the king's enmity follows from it.",
+   "gains": {
+    "a": "the Kural's rule that the look can replace speech, which makes the eye-letter a full declaration rather than a flirtation",
+    "b": "a case where the silent message is unreturned and dangerous, a consequence the couplet's mutual glance does not weigh"
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "isai",
+   "tamil": "இசை",
+   "gloss": "music: the lute, melody, mode and the sounds compared to them",
+   "label_source": "label ours, as declared in the Paripadal marks; the verses use வீணை, நரம்பு, பாடல், யாழ், குழல்"
+  },
+  {
+   "id": "koothu",
+   "tamil": "கூத்து",
+   "gloss": "dance-drama as a learned art, with its kinds, rules, gestures and accompanying music, performed before the king",
+   "label_source": "the verse's own word (677: கூத்தாடுகின்றாள்; 672: நாடகம்); id as declared in the Silappathikaram marks"
+  }
+ ],
+ "source_issues": [
+  "Verses 661 line 3, 669 line 1, 673 line 3, 674 line 3 and 678 line 4 carry repairs of conversion slips (FLAG repaired); the repaired readings make sense.",
+  "Verses 680, 681 and 682 were printed in eight half-lines and joined into four; the joins look right.",
+  "Verse 674 line 4 prints the word division oddly (னனங்கன ன்னான், for அனங்கன் அன்னான்); 679 line 2 (சிறுநுசுப் பொன் றுண்டே) is also oddly divided.",
+  "Verse 672 line 4 ends with a doubled full stop.",
+  "Verse 667 does not say who or what the sixty-four (அறுபத்து நால்வர்) are.",
+  "Verse 671's hearer is named only by a riddling epithet (வேலைநெய் பெய்த திங்கள் விரவிய பெயரினான்) not resolved in these verses.",
+  "Verse 684 names no speaker."
+ ]
+}

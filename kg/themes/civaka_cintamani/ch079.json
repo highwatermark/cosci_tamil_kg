@@ -1,0 +1,707 @@
+{
+ "chapter_no": 79,
+ "chapter_theme": "After the elephant's taming the city hails Civakan; his companions, guided by disguised spies, raid the king's herds dressed as hill raiders to draw him out, interrupting Nandattan just as he is about to tell the king their lineage; Civakan vows to bring the raiders captive, but Padumukan's arrow greets him as a crowned king's only son, and the friends bow at his feet and ride with him into the city.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, a guest at Tadamittan's court, called சீவக குமரன் in 1860"
+  },
+  {
+   "id": "nandattan",
+   "tamil": "நந்தட்டன்",
+   "role": "Civakan's younger brother, who drives his chariot"
+  },
+  {
+   "id": "tadamittan",
+   "tamil": "தடமித்தன்",
+   "role": "king of Hemamapuram, Kanakamalai's father (unnamed here: மன்னன், வேந்தன், கோ)"
+  },
+  {
+   "id": "dadamittan_makkal",
+   "tamil": "மக்கள்",
+   "role": "the king's sons, Civakan's pupils in arms (குமரர், மைந்தர்)"
+  },
+  {
+   "id": "nagar_makkal",
+   "tamil": "என்மரும்",
+   "role": "the people of the city who praise Civakan after he subdues the elephant"
+  },
+  {
+   "id": "padumukan",
+   "tamil": "பதுமுகன்",
+   "role": "Civakan's friend, leader of the companions who stage the cattle raid"
+  },
+  {
+   "id": "ottran",
+   "tamil": "ஒற்றாளர்",
+   "role": "the spies the companions sent out, here in disguise"
+  },
+  {
+   "id": "padumukan_padai",
+   "tamil": "மறவர்",
+   "role": "the warriors of Civakan's companions, dressed as hill raiders"
+  },
+  {
+   "id": "civakan_thozhar",
+   "tamil": "தோழர்",
+   "role": "Civakan's companions"
+  },
+  {
+   "id": "aayar",
+   "tamil": "ஆயர்",
+   "role": "the herdsmen of the king's cattle (கோவலர், ஆயர்)"
+  },
+  {
+   "id": "tadamittan_padai",
+   "tamil": "படை",
+   "role": "Tadamittan's army sent to recover the herd"
+  }
+ ],
+ "verses": {
+  "1843": {
+   "reading": "Some in the crowd call the son a god in his beauty and good fortune, others say the girl must have done penance to win him, while the king and his sons look on his shoulders with cool delight, and the cry of the world rises high.",
+   "concepts": [
+    "thavam",
+    "azhagu",
+    "pugazh"
+   ],
+   "speaker": {
+    "who": "nagar_makkal",
+    "form": "லென்மருங்",
+    "line": 2,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tadamittan",
+     "form": "கோவனும்",
+     "line": 3
+    },
+    {
+     "id": "dadamittan_makkal",
+     "form": "மக்களுங்",
+     "line": 3
+    }
+   ],
+   "event": "The city hails Civakan after he subdues the elephant, and the king and his sons gaze at him in delight.",
+   "claims": [
+    {
+     "claim": "a woman wins such a husband by penance done before",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "nagar_makkal"
+    }
+   ],
+   "nuance": "நோற்றனள் makes Kanakamalai's good match the fruit of her own austerity; the crowd's two sayings set the hero's worth beside the bride's merit, the usual pair of the Cintamani's wedding praises."
+  },
+  "1844": {
+   "reading": "Those who saw it say they saw with their own eyes the man who bound the great elephant that eats balls of rice, with his younger brother, enter the palace while bards and heralds sang and the great city bowed.",
+   "concepts": [
+    "pugazh",
+    "panivu"
+   ],
+   "speaker": {
+    "who": "nagar_makkal",
+    "form": "கண்டவர்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "பூட்டியவன்",
+     "line": 1
+    },
+    {
+     "id": "nandattan",
+     "form": "றம்பியுந்",
+     "line": 3
+    }
+   ],
+   "event": "Civakan and Nandattan enter the palace to the songs of bards as the city bows.",
+   "claims": []
+  },
+  "1845": {
+   "reading": "At the word of his spies in disguise Padumukan, of matchless fame, joyfully gave them rich wealth, and his warriors, crowding like a shoal of sharks, took up bows, swords and shining spears.",
+   "concepts": [
+    "otru",
+    "padai",
+    "natpu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumukan",
+     "form": "பதுமுகன்",
+     "line": 1
+    },
+    {
+     "id": "ottran",
+     "form": "படிவவொற் றாளர்",
+     "line": 1
+    },
+    {
+     "id": "padumukan_padai",
+     "form": "மறவரு",
+     "line": 3
+    }
+   ],
+   "event": "Padumukan rewards the disguised spies who found Civakan, and his men arm themselves.",
+   "claims": [],
+   "nuance": "படிவ ஒற்றாளர் are spies in a borrowed guise; the verse does not say whose. The scene shifts abruptly from the palace to the friends' camp, and the reader learns only from 1863 why armed men are gathering."
+  },
+  "1846": {
+   "reading": "Men learned in refined treatises, whose horses had pressed their hooves on bee-swarmed elephants after breaching walls of spears and swords in fierce battle, laughed that rounding up a herd of cows was hardly a task, and harnessed their horses together.",
+   "concepts": [
+    "maram",
+    "padai",
+    "perumai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumukan_padai",
+     "form": "கேள்வியார்",
+     "line": 4
+    }
+   ],
+   "event": "Padumukan's men laugh at the smallness of a cattle raid and ready their horses.",
+   "claims": [],
+   "nuance": "The laugh is double: a cattle raid is trivial for warriors who have stormed fortresses, and this one is a feint meant only to draw Civakan out."
+  },
+  "1847": {
+   "reading": "They went to swallow up the herds with their bulls; small drums, tudi and white conches sounded, and the young warriors of killing arms, with clustered anklets, raised a din that rose to the sky and flung on their armour.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumukan_padai",
+     "form": "யிளையரு",
+     "line": 4
+    }
+   ],
+   "event": "Padumukan's young warriors set out to seize the king's herds with drums and conches.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "அரணம் வீசினார் is hard to fix: அரணம் may be armour or a defence, and வீசினார் may mean they put it on or threw it aside."
+  },
+  "1848": {
+   "reading": "They wore wreaths of fragrant kantal on their brows, carefully measured garments, quivers of split bamboo swinging on their backs, and bright axes on their shoulders.",
+   "concepts": [
+    "vesham",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumukan_padai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [],
+   "nuance": "Kantal wreaths, bamboo quivers and axes are the gear of hill raiders: the companions come dressed as the hunters of the first cattle raid, so the herdsmen take them for real raiders."
+  },
+  "1849": {
+   "reading": "The cowherds who keep the king's herds said that while they watched over the herd in the forest where bees hum over the honeyed flowers, a bird had spoiled things among the cattle.",
+   "concepts": [
+    "kuri",
+    "veruvu"
+   ],
+   "speaker": {
+    "who": "aayar",
+    "form": "கோவலர்",
+    "line": 1,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "aayar",
+     "form": "கோவலர்",
+     "line": 1
+    }
+   ],
+   "event": "The king's cowherds speak of a bird that harmed the herd in the forest.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "ஆனிடை அழித்த புள் probably names an ill-omened bird, as in the herdsmen's warning before the first raid (420), but the line can also be read as a bird of prey among the cattle; whether the cowherds speak before or after the raid is unclear."
+  },
+  "1850": {
+   "reading": "The raiders scattered killing arrows from bows bright as hooded snakes, the white conches roared, and when the cowherds saw the swift horses charging they ran off at full speed.",
+   "concepts": [
+    "veruvu",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumukan_padai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "aayar",
+     "form": "கோவலர்",
+     "line": 4
+    }
+   ],
+   "event": "The raiders shower arrows and the cowherds flee before the horses.",
+   "claims": []
+  },
+  "1851": {
+   "reading": "Men like great tigers in their dens surrounded the fine herd; the hard-eyed herdsmen let out fearful cries, raised the alarm and ran to report it.",
+   "concepts": [
+    "veruvu",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumukan_padai",
+     "form": "வாடவர்",
+     "line": 1
+    },
+    {
+     "id": "aayar",
+     "form": "ணாயரும்",
+     "line": 2
+    }
+   ],
+   "event": "The raiders surround the herd and the herdsmen run crying to the city.",
+   "claims": []
+  },
+  "1852": {
+   "reading": "The king of the vast army said to Civakan's younger brother, of wrestler's shoulders, while the drums throbbed: tell us your country of watered fields, the name of your great city and the glory of your line.",
+   "concepts": [
+    "kudi",
+    "virundhu"
+   ],
+   "speaker": {
+    "who": "tadamittan",
+    "form": "மன்னன்",
+    "line": 1,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "tadamittan",
+     "form": "மன்னன்",
+     "line": 1
+    }
+   ],
+   "event": "Tadamittan asks Nandattan his country, city and lineage.",
+   "claims": [],
+   "nuance": "The question is the one the whole ilampakam turns on: Civakan has come as a stranger and his birth as Saccandan's son is still hidden from his host."
+  },
+  "1853": {
+   "reading": "Nandattan answers that if it please his lord he will tell the land, town and lineage: a land where peacocks frightened by the cascades of hills that spill red gold sleep on marutam trees beside the young of the paddy-field storks.",
+   "concepts": [
+    "naadu",
+    "kudi"
+   ],
+   "speaker": {
+    "who": "nandattan",
+    "form": null,
+    "line": null,
+    "addressee": "tadamittan"
+   },
+   "agents": [
+    {
+     "id": "nandattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Nandattan begins to describe his homeland to the king.",
+   "claims": [],
+   "nuance": "The peacock of the hills roosting among the marutam storks sets kurinji and marutam side by side: the land is praised as one where every region meets."
+  },
+  "1854": {
+   "reading": "He says the good land where carp leap, swans go with herons, the paddy ears strike the kuvalai flowers and honey spills into the sounding water of the fields is Emangatham, lord of the flaming spear.",
+   "concepts": [
+    "naadu"
+   ],
+   "speaker": {
+    "who": "nandattan",
+    "form": null,
+    "line": null,
+    "addressee": "tadamittan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1855": {
+   "reading": "He says the ancient city of golden walls, whose mansions are darkened by the scented smoke of honey and agil from women's hair, drifting over the people, is Rajamapuram.",
+   "concepts": [
+    "naadu",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "nandattan",
+    "form": null,
+    "line": null,
+    "addressee": "tadamittan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1856": {
+   "reading": "As he said 'let my lord hear our lineage', an outcry broke out that a flood of horses with tossing manes had surrounded and carried off all the herds here, and it reached the ears of the king of the moon-white umbrella.",
+   "concepts": [
+    "kudi",
+    "veruvu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nandattan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "aayar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The news of the raid interrupts Nandattan before he names his lineage, and reaches the king.",
+   "claims": [],
+   "nuance": "The interruption falls at the very word குலம்: the brother names land and city but never the line, so Civakan's birth stays hidden one scene longer, and the friends' raid, staged to find him, is what cuts the telling short."
+  },
+  "1857": {
+   "reading": "Told of it, the victorious king raged like a bull elephant that tusks its post and trumpets, struck a jewelled golden pillar till sparks flew, and with red eyes blazing and anger driving his body, spoke.",
+   "concepts": [
+    "vekuli",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tadamittan",
+     "form": "வேந்தற்",
+     "line": 1
+    }
+   ],
+   "event": "Tadamittan, enraged by the news, strikes a pillar and speaks.",
+   "claims": []
+  },
+  "1858": {
+   "reading": "He orders that, as if the four seas had come into the city, the sea of spears, the horses, the strong chariots and the herds of elephants roaring like death go out at once and drive back the seized herd.",
+   "concepts": [
+    "padai",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "tadamittan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tadamittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Tadamittan orders his whole army out to recover the herd.",
+   "claims": []
+  },
+  "1859": {
+   "reading": "Drums and horns sounded over the broad moat, elephants ranged like herds of cloud in the sky, chariots with strong yokes and horses sped, and the foot soldiers rose like a sea till the earth shook.",
+   "concepts": [
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tadamittan_padai",
+     "form": "காலாட்",
+     "line": 4
+    }
+   ],
+   "event": "The king's army marches out.",
+   "claims": []
+  },
+  "1860": {
+   "reading": "Having his horses, green as parrots with milk-white plumes on their brows, yoked to the strong chariot, with his younger brother taking the reins, Civaka Kumaran, his chest hung with a pearl chain cool as the crescent moon, mounted and spoke.",
+   "concepts": [
+    "padai",
+    "sutram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "சீவக குமரன்",
+     "line": 4
+    },
+    {
+     "id": "nandattan",
+     "form": "தம்பி",
+     "line": 2
+    }
+   ],
+   "event": "Civakan mounts his chariot with Nandattan driving and speaks.",
+   "claims": []
+  },
+  "1861": {
+   "reading": "Civakan vows that if he does not bring those who seized the king's herd to the city and make them lay their crowns at the king's golden anklets, let his name not go out in the world of sweet song but lie hidden like desire in the hearts of maidens.",
+   "concepts": [
+    "vanjinam",
+    "pugazh",
+    "maanam"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan vows to bring the raiders captive to Tadamittan.",
+   "claims": [],
+   "nuance": "The pledge is a self-curse on his fame, and its simile is love's: a name hidden like a maiden's unspoken longing. He is staking his reputation for a host king who does not yet know who he is."
+  },
+  "1862": {
+   "reading": "As the garlanded hero's strong chariot appeared in the midst of the army that spread over the earth, flying like lightning across a cloud heavy with rain, the bold youth Padumukan took up a fine arrow and set it to his bow.",
+   "concepts": [
+    "padai",
+    "natpu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "தார்மலி மார்பன்",
+     "line": 3
+    },
+    {
+     "id": "padumukan",
+     "form": "பதுமுகன்",
+     "line": 4
+    }
+   ],
+   "event": "Padumukan sees Civakan's chariot and fits an arrow to his bow.",
+   "claims": []
+  },
+  "1863": {
+   "reading": "Padumukan's arrow, sent as if saying 'we your servants have come to see the only son of the victorious king of the shading umbrella and to dwell in the shade of his unfailing feet', flew and fell on the chariot, and the anklet-wearing prince looked at it and waved a white cloth.",
+   "concepts": [
+    "natpu",
+    "adimai",
+    "panivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumukan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": "குருசி",
+     "line": 4
+    }
+   ],
+   "event": "Padumukan's arrow carries the companions' greeting to Civakan, who answers by waving a white cloth.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "என்ன leaves open whether the arrow bore a written message or only meant this; பின்முனா வீழ்தல் may say it fell butt first, a sign it was not shot to harm. The greeting names Civakan as the only son of a crowned king, the lineage his brother had just failed to tell."
+  },
+  "1864": {
+   "reading": "All the companions fell worshipping at the hero's feet, and with his reddened eyes, strong shoulders, fitting sweet words and garlanded crown he honoured them, and their grief was ended.",
+   "concepts": [
+    "natpu",
+    "panivu",
+    "inchol"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_thozhar",
+     "form": "தோழ",
+     "line": 1
+    },
+    {
+     "id": "civakan",
+     "form": "ஏந்தலை",
+     "line": 1
+    }
+   ],
+   "event": "The companions fall at Civakan's feet, he honours them, and their grief ends.",
+   "claims": [],
+   "nuance": "The four instruments of honour, eyes, shoulders, words and crown, mean a look, an embrace, a greeting and a bow of the head; அவலநோய் names the grief that had made them plan revenge and death."
+  },
+  "1865": {
+   "reading": "The young bull of strong anklet-bound legs set his dear friends, who bowed in his shade, on the necks of tall elephants, and with the young princes of fiery spears around him entered the city of the garlanded lady's father.",
+   "concepts": [
+    "natpu",
+    "sutram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "காளை",
+     "line": 1
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": "காதலாரை",
+     "line": 1
+    },
+    {
+     "id": "dadamittan_makkal",
+     "form": "லரசிளங் குமரர்",
+     "line": 3
+    }
+   ],
+   "event": "Civakan brings his companions on elephants into Kanakamalai's father's city.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1861,
+   "b": "purananuru:72",
+   "type": "develops",
+   "note": "Neduncheliyan swears that if he fails to take the kings who scorned him, the poets led by Mangudi Marutan may cease to sing of his land; Civakan swears that if he fails to bring the raiders to bow before the king, his name may not go out in the world of song.",
+   "teaches": "The epic keeps the Purananuru's vanjinam form, a war vow whose penalty is the loss of poets' praise, but its hero swears it for another man's king and against raiders who prove to be his friends, so the oath of fame becomes a set piece the plot quietly empties.",
+   "gains": {
+    "a": "Civakan's vow gains its form: the vanjinam kanchi self-curse, which shows his oath stakes the same thing a Sangam king staked, fame in song",
+    "b": "the Purananuru vow gains a later life in which the curse is softened into a love simile and sworn by a hero in exile on a host's behalf"
+   }
+  },
+  {
+   "a": 1861,
+   "b": 1864,
+   "type": "tension",
+   "note": "Civakan swears to bring the raiders to the city with their crowns at the king's feet; three verses later the raiders fall at his own feet as his companions and ride into the city honoured on elephants.",
+   "teaches": "The vow is kept to the letter and reversed in substance: the raiders do come to the city bowing, but as friends at the hero's feet rather than captives at the king's, so the epic turns a war oath into a reunion."
+  },
+  {
+   "a": 1861,
+   "b": 443,
+   "type": "develops",
+   "note": "In the first cattle raid Civakan swears that if he does not protect cows, renunciants, women, children and brahmins he may become like a shameless eunuch; here he swears by his fame to bring raiders to a foreign king.",
+   "teaches": "Set beside the first raid's vow, which rests on the duty to protect the helpless, the second vow rests on fame and loyalty to a host, and the friends' choice of a cattle raid to draw him out repeats the very scene that first made his name."
+  },
+  {
+   "a": 1858,
+   "b": 432,
+   "type": "same_image",
+   "note": "Both kings, told of a cattle raid, order the army to go swiftly and turn back the herd (விரைந்து தொறுமீட்க, 432; வல்லே படுநிரை பெயர்க்க, 1858).",
+   "teaches": "The repeated order scene makes Tadamittan stand where the usurper Kattiyangaran stood, but where the usurper's army was routed by real hunters, this king's whole army rides out against a raid staged by friends, so his rage meets no enemy."
+  },
+  {
+   "a": 1845,
+   "b": "kural:586",
+   "type": "qualifies",
+   "note": "The Kural's spy goes in the guise of renunciants (துறந்தார் படிவத்தர்) and gives nothing away; Padumukan's spies (படிவ ஒற்றாளர்) have found Civakan in disguise and are rewarded on their report.",
+   "teaches": "The Kural writes spying as a king's instrument against enemies, while the epic turns the same disguised spy to a band of friends searching for their lost lord, which shows the technique is a means that serves loyalty as well as statecraft.",
+   "gains": {
+    "a": "the epic's spies gain from the couplet the sense of படிவம், a borrowed and often ascetic guise, which the verse names but does not explain",
+    "b": "the couplet gains a case where the spy's master is not a king and his search is for a friend, not for hidden enemies"
+   }
+  },
+  {
+   "a": 1864,
+   "b": 1741,
+   "type": "develops",
+   "note": "The companions, taking a passing song as a sign that Civakan lived, put off revenge and scattered to search for him; here they find him and their grief ends.",
+   "teaches": "The search the companions began in place of revenge ends in this verse, so the grief that had nearly turned into killing the king is finally discharged by a bow at the hero's feet."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "1852-1862 were printed in eight half-lines and joined into four (FLAG repaired); the joins read correctly.",
+  "திண்டோ (1858, 1859, 1860, 1862) and தோமேல் (1863) read as if for திண்டேர் and தேர்மேல்: the chariot word appears to have been mis-transcribed (ர read as ா), consistently across five verses.",
+  "1847 line 4 (அரணம் வீசினார்) and 1849 line 4 (ஆனிடை யழித்தபுள்) are hard to construe; 1863 line 3 (பின்முனா) is obscure."
+ ]
+}

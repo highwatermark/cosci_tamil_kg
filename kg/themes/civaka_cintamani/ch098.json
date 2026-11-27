@@ -1,0 +1,828 @@
+{
+  "chapter_no": 98,
+  "chapter_theme": "In the battle for the earth (மண்மகள் இலம்பகம்), champions of both armies fight: men hailing Govindan, Nandan and Civakan stand alone, pluck spears from their bodies and laugh, and die so their lord may take the land; Civakan then mounts his chariot and his arrows send a river of blood over the kings' regalia, and Arichandan tries to stop the rout by shaming the fleeing.",
+  "cast": [
+    {
+      "id": "civakan",
+      "tamil": "சீவகன்",
+      "role": "the hero, fighting to recover his father's kingdom"
+    },
+    {
+      "id": "govindan",
+      "tamil": "கோவிந்தன்",
+      "role": "the king who leads Civakan's war against Kattiyangaran, hailed in the war cries"
+    },
+    {
+      "id": "kattiyangaran",
+      "tamil": "கட்டியங்காரன்",
+      "role": "the minister who seized Saccandan's throne, Civakan's enemy"
+    },
+    {
+      "id": "nandattan",
+      "tamil": "நந்தட்டன்",
+      "role": "Civakan's younger brother (taken to be the நந்தன் of 2288)"
+    },
+    {
+      "id": "govindan_kaalai",
+      "tamil": "காளை",
+      "role": "a young warrior of Govindan's side who stands alone (2277)"
+    },
+    {
+      "id": "simhanadan",
+      "tamil": "சிங்க நாதன்",
+      "role": "a champion in the service of the Pallava king"
+    },
+    {
+      "id": "poornasenan",
+      "tamil": "பூரண சேனன்",
+      "role": "an archer in the battle"
+    },
+    {
+      "id": "kattiyangaran_kumaran",
+      "tamil": "குமரன்",
+      "role": "a young warrior who swears loyalty to Kattiyangaran and is shot down (2282 to 2287)"
+    },
+    {
+      "id": "govindan_villaalan",
+      "tamil": "கோவிந்தன் வாழ்க என்று நடத்துவான்",
+      "role": "an archer of Govindan's side who shoots the boasting warrior"
+    },
+    {
+      "id": "nandan_kaalai",
+      "tamil": "காளை",
+      "role": "a warrior hailing Nandan who holds the kings back and takes their spears"
+    },
+    {
+      "id": "vendhar_padai_oruvan",
+      "tamil": "ஒருமகன்",
+      "role": "a champion of the enemy army who throws only at elephants"
+    },
+    {
+      "id": "pagai_vendhar",
+      "tamil": "வேந்தர், அரசர்",
+      "role": "the kings of Kattiyangaran's side"
+    },
+    {
+      "id": "salanidhi",
+      "tamil": "சலநிதி",
+      "role": "a warrior of Civakan's side who dies standing"
+    },
+    {
+      "id": "civakan_mallar",
+      "tamil": "மள்ளர்",
+      "role": "Civakan's warriors"
+    },
+    {
+      "id": "arichandan",
+      "tamil": "அரிச்சந்தன்",
+      "role": "a captain who rallies the fleeing warriors"
+    },
+    {
+      "id": "udaintha_mainthar",
+      "tamil": "மைந்தர்",
+      "role": "the routed young warriors Arichandan addresses"
+    }
+  ],
+  "verses": {
+    "2277": {
+      "reading": "A young warrior binds his hair, wears thumbai, cries long life to Govindan, takes his spear and stands apart, and the kings of the rutting elephants burn inwardly.",
+      "concepts": [
+        "maram",
+        "padai",
+        "vendhan"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "govindan_kaalai",
+          "form": "காளை",
+          "line": 3
+        }
+      ],
+      "event": "A warrior of Govindan's side, hailing his king, takes his stand alone before the enemy kings.",
+      "claims": [],
+      "nuance": "The thumbai (line 2) is the battle flower; standing apart (வேறு நின்றான்) marks the champion who seeks single combat, and the enemy's burning belly (line 4) is the first effect of the challenge, before any blow."
+    },
+    "2278": {
+      "reading": "Simhanadan, warrior of the Pallava king, who had lain on the breasts of women whose paste he had taken, approaches the battlefield with a heart that knows no half-measures.",
+      "concepts": [
+        "maram",
+        "kaamam",
+        "padai"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "simhanadan",
+          "form": "சிங்க நாதன்",
+          "line": 4
+        }
+      ],
+      "event": "Simhanadan, a champion of the Pallava king, comes up to the field.",
+      "claims": [],
+      "nuance": "The verse joins the lover and the fighter in one man: the sandal paste his chest took from women's breasts is the same chest that now goes to war, a pairing the whole run repeats. பாகத்தைப் படாத நெஞ்சு (line 3) may mean a heart that does not share itself (undivided) or one that does not yield; read as undivided resolve.",
+      "uncertain": true
+    },
+    "2279": {
+      "reading": "A warrior rings his tusk-like beard, takes his gold-bright sword and binds on his anklets, saying that it is for a day like this that lords keep men like him, and swims through the enemy like fire through a dry grass forest.",
+      "concepts": [
+        "maram",
+        "vendhan",
+        "padai"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "simhanadan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The champion arms himself and drives through the enemy ranks like wildfire.",
+      "claims": [
+        {
+          "claim": "a lord sustains his warriors so that they will serve him on the day of battle",
+          "school": "general",
+          "line": 3,
+          "stance": "reported",
+          "voiced_by": "simhanadan"
+        }
+      ],
+      "nuance": "The speech (lines 2 to 3, closed by என்றே) is the warrior's own account of the bond between lord and fighter: the king's care is a debt that falls due in battle. Who speaks is not named; read as Simhanadan of the verse before.",
+      "uncertain": true
+    },
+    "2280": {
+      "reading": "Poornasenan, sandal painted on his broad garlanded chest and his gold cords and silks flashing until the dark is dispelled, takes up his fighting bow.",
+      "concepts": [
+        "maram",
+        "azhagu",
+        "padai"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "poornasenan",
+          "form": "பூரண சேனன்",
+          "line": 4
+        }
+      ],
+      "event": "Poornasenan takes up his bow for the fight.",
+      "claims": [],
+      "nuance": "Which army Poornasenan fights for is not said in the verse."
+    },
+    "2281": {
+      "reading": "With his iron-hard chest like a meat-block, garland swaying and bow bent, he scatters arrows through the battle where doe-eyed women and young men had gathered, like the arrows Kama shoots.",
+      "concepts": [
+        "maram",
+        "kaamam",
+        "padai"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "poornasenan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Poornasenan shoots arrows thick through the battle.",
+      "claims": [],
+      "nuance": "The simile turns war arrows into love's arrows: those hit fall as lovers fall to Kama, an inversion the poet keeps returning to in this run. The women in the battle (line 3) may be those watching, or the image may carry over from the festival crowds Kama shoots at.",
+      "uncertain": true
+    },
+    "2282": {
+      "reading": "A warrior, drunk on toddy and garlanded, takes his wound-headed spear and comes to the field, swearing that until his eyes close his lord is Kattiyangaran, and bids his spear eat its fill as he charges.",
+      "concepts": [
+        "maram",
+        "vendhan",
+        "padai"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "kattiyangaran_kumaran",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "A fighter of Kattiyangaran's side vows lifelong loyalty to the usurper and attacks.",
+      "claims": [
+        {
+          "claim": "a warrior owes his lord loyalty until death",
+          "school": "general",
+          "line": 3,
+          "stance": "reported",
+          "voiced_by": "kattiyangaran_kumaran"
+        }
+      ],
+      "nuance": "The usual warrior's oath of faith to the lord is sworn here to the usurper who killed Civakan's father; the epic gives the enemy's men the same loyalty and courage as its hero's, without comment."
+    },
+    "2283": {
+      "reading": "The strong young man goes on without felling elephants like Death, cutting down their banners or raging at lesser foes, like a fierce shark leaping through the sea so that the fish flee.",
+      "concepts": [
+        "maram",
+        "padai",
+        "maanam"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "kattiyangaran_kumaran",
+          "form": "குமரன்",
+          "line": 3
+        }
+      ],
+      "event": "The young warrior passes over lesser foes looking for one worthy of him.",
+      "claims": [],
+      "nuance": "His refusal to strike what lies in his path is a point of pride: valour is measured by the foe chosen. That this குமரன் is the drinker of 2282 is a reading from the run; the verse does not name his side.",
+      "uncertain": true
+    },
+    "2284": {
+      "reading": "He comes on laughing and saying: if men who are captured among women's crowds like lilies opening at evening tremble in sword-battle like pond lotuses at the moon, what becomes of the manliness of the world?",
+      "concepts": [
+        "aanmai",
+        "maram",
+        "kaamam"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "kattiyangaran_kumaran",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The warrior advances laughing and taunting the fearful.",
+      "claims": [
+        {
+          "claim": "men who are bold in love but tremble in battle have no manliness",
+          "school": "general",
+          "line": 4,
+          "stance": "reported",
+          "voiced_by": "kattiyangaran_kumaran"
+        }
+      ],
+      "nuance": "குறுமுயல் கூடு (line 2), the small hare's house, is the moon, at whose sight the lotus closes; the lily that opens at evening and the lotus that shuts at moonrise set the lover's eagerness against the coward's shrinking."
+    },
+    "2285": {
+      "reading": "Seeing a warrior striding with a chest flushed from women's breasts, who cries long life to Govindan, the other draws his bow without a smile.",
+      "concepts": [
+        "maram",
+        "kaamam",
+        "padai"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "govindan_villaalan",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "kattiyangaran_kumaran",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "A fighter of Govindan's side faces the laughing warrior and bends his bow.",
+      "claims": [],
+      "nuance": "Line 1 (the matted-haired sage who once received in sacrifice the spear-eyed women) is an allusion whose story the verse does not tell. Who looks at whom and who draws the bow turns on நடத்துவான் அவனை நோக்கி (line 4); read as Govindan's man drawing on the laughing one, whose laughter is answered by நகா, the unsmiling bow.",
+      "uncertain": true
+    },
+    "2286": {
+      "reading": "Covered in blood, with kites screaming over him, the young warrior tells his worthy foe that his angry spear is still unfed and will fill its belly today on his life; the other shoots arrows into his shouting mouth until he looks like a quiver.",
+      "concepts": [
+        "maram",
+        "saakkaadu",
+        "vekuli"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "kattiyangaran_kumaran",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "govindan_villaalan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The boasting warrior is shot full of arrows as he shouts his threat.",
+      "claims": [],
+      "nuance": "The boast about the spear's hunger is cut off by arrows filling the mouth that makes it: the verse punishes the speech in the organ of speech. Who is shot is read from context.",
+      "uncertain": true
+    },
+    "2287": {
+      "reading": "Pierced by thronging arrows, the warrior lies on that bed like a sharp-toothed yali, and is like the gold ball that women with breasts like caskets toss and catch in play.",
+      "concepts": [
+        "saakkaadu",
+        "maram",
+        "kaamam"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": "The fallen warrior lies on a bed of arrows.",
+      "claims": [],
+      "nuance": "Two similes in one verse: the beast of the first keeps his fierceness in death, and the women's ball of the second makes the arrow-studded body a plaything, the run's habit of seeing war through the women's world.",
+      "uncertain": true
+    },
+    "2288": {
+      "reading": "A youth binds his hair with a gold cord, raises his blood-wet spear and stands crying long life to Nandan, and the kings cannot pass his spear, standing as the roaring sea stands at its shore.",
+      "concepts": [
+        "maram",
+        "padai",
+        "vendhan"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "nandan_kaalai",
+          "form": "காளை",
+          "line": 3
+        },
+        {
+          "id": "pagai_vendhar",
+          "form": "வேந்தர்",
+          "line": 3
+        }
+      ],
+      "event": "A warrior hailing Nandan holds the enemy kings at bay by himself.",
+      "claims": [],
+      "nuance": "Nandan is taken as Nandattan, Civakan's brother, fighting on his side; the verse gives only the name. The play on வேலை, spear and shore (lines 3 to 4), makes one man's spear a coast the sea of kings cannot cross.",
+      "uncertain": true
+    },
+    "2289": {
+      "reading": "One man of that standing army, blue-haired and garlanded, who would not throw at anything but a young elephant, angrily hurls his shining spear like lightning, and the red-eyed warrior receives the spear as a guest.",
+      "concepts": [
+        "maram",
+        "virundhu",
+        "padai"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "vendhar_padai_oruvan",
+          "form": "யொருமக",
+          "line": 1
+        },
+        {
+          "id": "nandan_kaalai",
+          "form": "மறவன",
+          "line": 4
+        }
+      ],
+      "event": "An enemy champion throws his spear at the warrior, who meets it.",
+      "claims": [],
+      "nuance": "Two courtesies of war in one verse: the thrower honours the youth by spending on him a spear kept for elephants, and the youth honours the spear by welcoming it as a guest (விருந்து எதிர்கொண்டான்), the host's word for meeting a visitor."
+    },
+    "2290": {
+      "reading": "The warrior, whose garland hums with drunken bees, plucks out in one pull the white spear that had fed on his flesh, like the frightened, darting eyes of sweet-voiced women, and laughs.",
+      "concepts": [
+        "maram",
+        "aanmai",
+        "kaamam"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "nandan_kaalai",
+          "form": "தாரான்",
+          "line": 4
+        }
+      ],
+      "event": "The wounded warrior pulls the spear from his body and laughs.",
+      "claims": [],
+      "nuance": "Line 3 (ஊன்வயிறு ஆர்ந்த வெள்வேல் ஒய்யெனப் பறித்து நக்கான்) is the deed of Kural 774 in other words; the spear is likened to women's eyes, which also wound."
+    },
+    "2291": {
+      "reading": "As the white spear flies like lightning falling from the sky, he does not blink his fierce long eyes at all, but receives it gladly on his ornamented chest like a garland that women throw, and as the fiery spear passes through, he becomes a path for it.",
+      "concepts": [
+        "maram",
+        "saakkaadu",
+        "kaamam"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "nandan_kaalai",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Another spear comes; the warrior takes it on his chest without blinking and falls.",
+      "claims": [],
+      "nuance": "இமைத்திலன் (line 2) is the unblinking eye of Kural 775. கானெறி ஆயினான் (line 4) is hard: perhaps he became a road for the spear (கால்நெறி), perhaps he went the forest way, that is, died; it is taken as his fall. Whether this spear is the one of 2289 or a second is unclear.",
+      "uncertain": true
+    },
+    "2292": {
+      "reading": "Salanidhi, learned and broad of hearing as a sea, his garland drenched with honey from the breasts of beautiful women, praises Civakan's feet and attacks.",
+      "concepts": [
+        "maram",
+        "padai",
+        "kalvi"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "salanidhi",
+          "form": "சலநிதி",
+          "line": 4
+        }
+      ],
+      "event": "Salanidhi, a man of Civakan's side, praises his lord and charges.",
+      "claims": [],
+      "nuance": "Line 1 (கவிமதம் கடந்து) may praise beauty past what poets can describe, belonging to the women, or Salanidhi's mastery beyond poets; read as the women's."
+    },
+    "2293": {
+      "reading": "His sword bent from crushing elephants and red with blood, he pulls out the spear that had entered his heart, holds it over the great wound and stands watching the fierce battle while he straightens his sword in a bend, and the kings, afraid, flee with their elephant herds.",
+      "concepts": [
+        "maram",
+        "acham",
+        "padai"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "salanidhi",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "pagai_vendhar",
+          "form": "றரசர்",
+          "line": 4
+        }
+      ],
+      "event": "Salanidhi, wounded, pulls out the spear and straightens his bent sword, and the enemy kings flee.",
+      "claims": [],
+      "nuance": "மிறைக்கொளீஇ திருத்துவான் (line 3), setting the bent blade in a lever to straighten it, is the image of Purananuru 284, where a warrior straightens his twisted sword on the tusk of the elephant he killed. What he does with the pulled spear (வான் புண்ணுள் நீட்டி, line 2) is unclear.",
+      "uncertain": true
+    },
+    "2294": {
+      "reading": "His chest, which had ploughed the bud-like breasts of slender women wearing pearls and taken their paste, now takes the plunge of swords, and he stands to take the tusk's earth, stands so that his lord may take the earth.",
+      "concepts": [
+        "maram",
+        "saakkaadu",
+        "naadu"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "salanidhi",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Salanidhi stands under the swords so that his lord may win the land.",
+      "claims": [],
+      "nuance": "The last line turns on மண் கொள்ள twice: the warrior's chest takes the earth dug up by tusks (the warrior's marking, or the elephant's blow), and his lord takes the earth, the kingdom, the மண்மகள் of the ilampakam's name. The warrior's body is spent for the lord's land.",
+      "uncertain": true
+    },
+    "2295": {
+      "reading": "Civakan, his body bright as a heap of glowing gems that drives away the dark, takes his bow in hand, proclaims that he will plunder the lives of the jewelled kings with his fire-arrows, and mounts his jewelled chariot as the gods worship.",
+      "concepts": [
+        "maram",
+        "arasu",
+        "padai"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "civakan",
+          "form": "சீவகன்",
+          "line": 2
+        }
+      ],
+      "event": "Civakan takes his bow and mounts his chariot to enter the battle.",
+      "claims": [],
+      "nuance": "Until now the run has shown only his men dying for him; here the lord himself enters. மான்றோ (line 4) is read as மான்தேர், the horse-drawn chariot."
+    },
+    "2296": {
+      "reading": "As if the roar of the black wind, the thundercloud, the roaring sea and the lion had all joined, the shouts of the field-reaping warriors and the twisted conch and drum sound together, and he begins the work of war.",
+      "concepts": [
+        "padai",
+        "maram"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "civakan",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "civakan_mallar",
+          "form": "மள்ள",
+          "line": 3
+        }
+      ],
+      "event": "Civakan opens battle to the noise of his warriors, conches and drums.",
+      "claims": [],
+      "nuance": "செருவிளை கழனி மள்ளர் (line 3) makes the battlefield a crop field and the warriors its reapers."
+    },
+    "2297": {
+      "reading": "As the prince's bow bends, a roaring flood of blood flows, sweeping kings' crowns, jewels and pearl strings, carrying drums, parasols, garlands and peacock-plume fans, dragging horses and swift chariots and bearing off elephants.",
+      "concepts": [
+        "padai",
+        "maram",
+        "nilaiyaamai"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "civakan",
+          "form": "குமர",
+          "line": 4
+        }
+      ],
+      "event": "Civakan's archery fills the field with a river of blood that carries away the enemy kings' regalia.",
+      "claims": [],
+      "nuance": "The river carries off exactly the signs of royalty (crown, drum, parasol), so the flood is the end of the kings' rule as well as of their men."
+    },
+    "2298": {
+      "reading": "Great trunks and tusks fall together, as if a fiery-eyed gaping serpent and the young crescent moon fell together from a mountain, and in the shade of the spreading arrows the fighters are bewildered.",
+      "concepts": [
+        "padai",
+        "maram"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": "Elephants' trunks and tusks are cut down and the fighters lose their way under the arrows.",
+      "claims": [],
+      "nuance": "Trunk as serpent and curved tusk as crescent: the image is of an eclipse falling from a hill, the arrows thick enough to cast shade."
+    },
+    "2299": {
+      "reading": "Seeing the routed young men of the battle, whose coral-strong hands had shamed other men's manliness, flee like yaks scattering from a forest fire, Arichandan of the garland speaks.",
+      "concepts": [
+        "acham",
+        "aanmai",
+        "padai"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "arichandan",
+          "form": "ரரிச்சந்த",
+          "line": 4
+        },
+        {
+          "id": "udaintha_mainthar",
+          "form": "மைந்தர்",
+          "line": 2
+        }
+      ],
+      "event": "Arichandan sees the broken warriors fleeing and addresses them.",
+      "claims": [],
+      "nuance": "Arichandan's side is not named; since those fleeing are the ones Civakan has just broken, he is read as a captain of the opposing army trying to stop a rout. Line 2 (நீடெரி நிலைக்கண்ணாடி) is obscure.",
+      "uncertain": true
+    },
+    "2300": {
+      "reading": "Arichandan says: if young men whose tufted heads have been kicked by the small feet of lightning-like women, painted with lac and ringed with anklets, let others take their valour and run in fear, where then is manliness?",
+      "concepts": [
+        "aanmai",
+        "maanam",
+        "kaamam"
+      ],
+      "speaker": {
+        "who": "arichandan",
+        "form": null,
+        "line": null,
+        "addressee": "udaintha_mainthar"
+      },
+      "agents": [
+        {
+          "id": "arichandan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Arichandan shames the fleeing warriors.",
+      "claims": [
+        {
+          "claim": "a warrior who flees in fear and lets others take his valour loses his manliness",
+          "school": "general",
+          "line": 4,
+          "stance": "reported",
+          "voiced_by": "arichandan"
+        }
+      ],
+      "nuance": "A lover kicked by his beloved in a quarrel is a stock image of the man who submits to a woman; Arichandan's taunt is that men who bear that should not bear defeat, the same argument the laughing warrior made in 2284."
+    },
+    "2301": {
+      "reading": "He goes on: as deer, when the horns on their heads trouble them, shake and throw them off, so the brave, when their hearts waver in fear, cast it off at once like lightning and become fierce-eyed again.",
+      "concepts": [
+        "acham",
+        "maram",
+        "aanmai"
+      ],
+      "speaker": {
+        "who": "arichandan",
+        "form": null,
+        "line": null,
+        "addressee": "udaintha_mainthar"
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "brave men also feel fear, but they cast it off at once",
+          "school": "general",
+          "line": 3,
+          "stance": "reported",
+          "voiced_by": "arichandan"
+        }
+      ],
+      "nuance": "The speech grants what the taunt denied: fear touches the brave too, and courage is the speed with which it is thrown off. The deer simile in lines 1 to 2 is hard to fix (shedding antlers, or tossing the head); that it continues Arichandan's speech is a reading.",
+      "uncertain": true
+    }
+  },
+  "links": [
+    {
+      "a": 2290,
+      "b": "kural:774",
+      "type": "develops",
+      "note": "The Kural's hero pulls the spear from his own body and laughs; the epic's youth plucks out the spear that fed on his flesh and laughs (பறித்து நக்கான்).",
+      "teaches": "The epic gives the couplet's laugh a cause the couplet leaves open: the spear had been thrown by a man who kept his spear for elephants, so the wound is an honour and the laugh is the pride of having been judged worth it.",
+      "gains": {
+        "a": "the youth's laugh is placed in a known code of valour, so it reads as a canonical act rather than bravado",
+        "b": "the couplet's bare gesture gets a situation, the foe's choice of target in 2289, that explains why a wound is a matter for joy"
+      }
+    },
+    {
+      "a": 2291,
+      "b": "kural:775",
+      "type": "develops",
+      "note": "The Kural calls it flight when a fierce man blinks at a flung spear; the epic's warrior does not blink at all (இமைத்திலன்) as the spear comes, and takes it on his chest.",
+      "teaches": "Set beside the couplet, the verse shows where its standard leads: the unblinking eye is kept to the end, and the warrior who will not blink is the one the spear kills, so the code costs the life it measures.",
+      "gains": {
+        "a": "the stillness of the eye, one detail among many, is shown to be the decisive proof in the code of courage",
+        "b": "the couplet's test is followed to its consequence, a death embraced like a garland, which the couplet's question stops short of"
+      }
+    },
+    {
+      "a": 2289,
+      "b": "kural:772",
+      "type": "qualifies",
+      "note": "The Kural prefers a spear that missed an elephant to an arrow that hit a hare; the epic's thrower would not cast except at a young elephant, and spends that spear on one warrior.",
+      "teaches": "The couplet ranks targets; the epic shows the ranking used as a courtesy between enemies, a man of the elephant-only code paying a foot soldier the honour of the elephant's spear.",
+      "gains": {
+        "a": "the thrower's habit is recognised as the standard the couplet names, so his choice reads as tribute to the youth",
+        "b": "the couplet's private scale of glory becomes something one warrior can confer on another"
+      }
+    },
+    {
+      "a": 2293,
+      "b": "purananuru:284",
+      "type": "same_image",
+      "note": "In Purananuru 284 a warrior straightens his twisted sword with an elephant's tusk as lever (மிறையாக ... திருத்தா) and laughs at the fleeing back; Salanidhi straightens his elephant-bent sword in a lever (மிறைக்கொளீஇ திருத்துவான்) and the kings flee.",
+      "teaches": "The pair shows the epic taking over a Sangam war vignette in its own words, the sword-straightening and the enemy's flight, but turning the Sangam hero's laugh into the foe's fear and making the man a spear-pierced warrior who dies in the next verse.",
+      "gains": {
+        "a": "Salanidhi's obscure gesture is clarified by the older poem's clearer picture of a sword set against a lever",
+        "b": "the Purananuru vignette is shown to have lived on as a set piece of heroic poetry long after the Sangam"
+      }
+    },
+    {
+      "a": 2279,
+      "b": "purananuru:290",
+      "type": "develops",
+      "note": "Purananuru 290 tells a king to give toddy to the warrior whose forefathers died for his, because he will shield the king from the spear; the epic's warrior says it is for a day like this that lords keep their men.",
+      "teaches": "The two show the same exchange of sustenance for service from both ends: the Sangam poet urges the lord to pay in advance, and the epic's warrior, arming, counts himself as that payment falling due.",
+      "gains": {
+        "a": "the warrior's brief remark is seen as part of an old covenant between lord and fighter rather than a passing thought",
+        "b": "the bard's plea to the king is answered by the warrior's own voice accepting the debt"
+      }
+    },
+    {
+      "a": 2284,
+      "b": 2300,
+      "type": "same_image",
+      "note": "A warrior advancing laughs that men bold among women but trembling in battle have no manliness; Arichandan shames fleeing warriors whose heads women's feet have kicked.",
+      "teaches": "The same taunt, the lover who yields to women must not yield in war, is spoken by an attacker scorning cowards and by a captain stopping a rout, which shows the epic's measure of martial shame is drawn from love and serves either army."
+    }
+  ],
+  "new_concepts": [],
+  "source_issues": [
+    "2277, 2278, 2288, 2290, 2292, 2294, 2296, 2297 and 2299 were printed in eight half-lines and joined into four by the tool.",
+    "2285 line 1 alludes to a sage who received spear-eyed women in a sacrifice; the story is not told and the line's link to the rest of the verse is unclear.",
+    "2291 line 4 கானெறி is hard to divide (கான் நெறி or கால் நெறி).",
+    "2293 line 2 (வான் புண்ணுள் நீட்டி) and 2299 line 2 (நீடெரி நிலைக்கண்ணாடி) are obscure as divided.",
+    "2295 line 4 மான்றோ is read as மான்தேர்."
+  ]
+}

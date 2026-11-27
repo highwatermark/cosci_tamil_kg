@@ -1,0 +1,840 @@
+{
+ "chapter_no": 49,
+ "chapter_theme": "Kantukkatan's plea for his son fails before Kattiyangaran, who swears to brand Civakan a thief; the father comforts Sunandai and Gunamalai with an ascetic's old prophecy that a famous son would come to them and that a yaksha would rescue him from the graceless king, while the friends learn that Civakan let his parents bind him and Buddhisenan plans to burn the city by night to free him.",
+ "cast": [
+  {
+   "id": "kantukkatan",
+   "tamil": "கந்துக்கடன்",
+   "role": "the merchant who raised Civakan, called நாய்கன் and தந்தை here"
+  },
+  {
+   "id": "kattiyangaran",
+   "tamil": "கட்டியங்காரன்",
+   "role": "the minister who seized Saccandan's throne and has Civakan bound"
+  },
+  {
+   "id": "sunandai",
+   "tamil": "சுநந்தை",
+   "role": "Kantukkatan's wife, Civakan's foster mother (தாய், மாமி)"
+  },
+  {
+   "id": "muni",
+   "tamil": "முனிவரன்",
+   "role": "the ascetic who once came to Kantukkatan's house when Sunandai's children had died and foretold Civakan's coming and his capture (கடவுள், அறவியான், விழுத்தவன்)"
+  },
+  {
+   "id": "gunamalai",
+   "tamil": "குணமாலை",
+   "role": "the merchant's daughter whom Civakan saved from the elephant, here grieving with Sunandai"
+  },
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, called சீவக சாமி and மைந்தன் here"
+  },
+  {
+   "id": "civakan_thozhar",
+   "tamil": "தோழர்",
+   "role": "Civakan's companions"
+  },
+  {
+   "id": "padumukan",
+   "tamil": "பதுமுகன்",
+   "role": "Civakan's friend"
+  },
+  {
+   "id": "ottran",
+   "tamil": "ஒற்றன்",
+   "role": "the spy the friends sent, who reports Civakan's binding"
+  },
+  {
+   "id": "kattiyankaran_army",
+   "tamil": "மள்ளர்",
+   "role": "Kattiyangaran's warriors who surround Civakan's house"
+  },
+  {
+   "id": "buddhisenan",
+   "tamil": "புத்திசேனன்",
+   "role": "Civakan's companion who plans the night attack"
+  }
+ ],
+ "verses": {
+  "1118": {
+   "reading": "Kantukkatan pleads with the king: when the king's own rutting elephant was about to kill a young woman of the old city, his son, thinking the death would be a stain on the king, drove it off and saved her life; if that is a fault, what then is a virtue?",
+   "concepts": [
+    "kodungol",
+    "kollaamai",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "kantukkatan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kantukkatan pleads before Kattiyangaran for his son, who saved a girl from the king's elephant.",
+   "claims": [
+    {
+     "claim": "saving a life from the king's own beast cannot be a crime against the king",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "kantukkatan"
+    }
+   ],
+   "nuance": "The plea turns the charge round: the father argues that the rescue protected the king's name, since a killing by the royal elephant would have been the king's disgrace (வடு)."
+  },
+  "1119": {
+   "reading": "He goes on that it is the duty of men to remove the danger that makes those caught by fate tremble, asks the king to forgive the fault of a youth who acted without thinking, and offers all the wealth his line has gathered over long years.",
+   "concepts": [
+    "aanmai",
+    "porai",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "kantukkatan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kantukkatan asks the king's pardon and offers all his wealth.",
+   "claims": [
+    {
+     "claim": "it is the duty of men to rescue those in danger",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "kantukkatan"
+    }
+   ],
+   "nuance": "The father both defends the act as a man's duty and calls it a fault of thoughtlessness (அறிவின்மை), conceding the king's frame while begging; the offer of wealth follows the twelve crores of 1117.",
+   "uncertain": true
+  },
+  "1120": {
+   "reading": "When the merchant asks the lord to bear with the youth who brought back the king's herds, the king, his garland and pearl strings snapping as he swells with rage, speaks in a fury like thunder.",
+   "concepts": [
+    "vekuli",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kattiyangaran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kantukkatan reminds the king that his son recovered the king's cattle; the king flares into rage.",
+   "claims": [],
+   "nuance": "The father's last argument is service: the same youth had won back the royal herds from the raiders, which only sharpens the king's anger."
+  },
+  "1121": {
+   "reading": "The king says he will have the tusk of his elephant Asanivegam made the stylus and Civakan's broad chest the palm leaf, and have 'thief' written on it for all the quarters to hear; the merchant is to stop grieving, go home and think no more of it.",
+   "concepts": [
+    "kodungol",
+    "vekuli",
+    "kadunjol"
+   ],
+   "speaker": {
+    "who": "kattiyangaran",
+    "form": null,
+    "line": null,
+    "addressee": "kantukkatan"
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kattiyangaran refuses the plea and threatens to brand Civakan a thief with the elephant's tusk.",
+   "claims": [],
+   "nuance": "The punishment answers the rescue with the very beast Civakan subdued: the elephant's tusk is to write the sentence on his body. The charge 'thief' (கள்வர்) has no ground in the story; it is the usurper's word."
+  },
+  "1122": {
+   "reading": "Hearing the venomous king speak, the merchant trembles and stands emptied like a wood-apple eaten hollow by the elephant disease, as if his life had gone, but he is held up by the nectar of the words of the ascetic of guileless doctrine, great in penance beyond praise.",
+   "concepts": [
+    "thavam",
+    "sol",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": "நாய்க",
+     "line": 1
+    }
+   ],
+   "event": "Kantukkatan, crushed by the refusal, takes strength from an ascetic's earlier words.",
+   "claims": [],
+   "nuance": "The verse turns the plot from the court to memory: what saves the father is not his wealth or his plea but a prophecy, which the following verses tell."
+  },
+  "1123": {
+   "reading": "Unable to win back his son of the shining spear, the father returns home, where the mother weeps and laments; he tells her not to grieve at all over their son's state, and to hear a true word.",
+   "concepts": [
+    "makkal",
+    "idumbai",
+    "sol"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": "றந்தை",
+     "line": 1
+    },
+    {
+     "id": "sunandai",
+     "form": "தாய",
+     "line": 2
+    }
+   ],
+   "event": "Kantukkatan returns home and comforts the weeping Sunandai.",
+   "claims": []
+  },
+  "1124": {
+   "reading": "He reminds her that long ago, after bearing many children who died, she was sunk in grief and said she would not live but die, and at that moment a holy one appeared suddenly and came to their door.",
+   "concepts": [
+    "makkal",
+    "saakkaadu",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "kantukkatan",
+    "form": null,
+    "line": null,
+    "addressee": "sunandai"
+   },
+   "agents": [
+    {
+     "id": "muni",
+     "form": "கடவு",
+     "line": 4
+    }
+   ],
+   "event": "Kantukkatan recalls how an ascetic came to their door when Sunandai, her children dead, wished to die.",
+   "claims": [],
+   "nuance": "The house's later fortune is rooted in a mother's despair over children born dead (செதுமகப் பலவும்), which the earlier narrative of the burning ground (325) presupposes."
+  },
+  "1125": {
+   "reading": "Like a cow that sees its calf they longed for him, bowed at his feet, seated him in a place hung with fragrant garlands, and when the four kinds of food fit for the ascetic were set before him he broke his fast as a bird takes pollen.",
+   "concepts": [
+    "vazhipaadu",
+    "virundhu",
+    "thavam"
+   ],
+   "speaker": {
+    "who": "kantukkatan",
+    "form": null,
+    "line": null,
+    "addressee": "sunandai"
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "sunandai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "muni",
+     "form": "றவியா",
+     "line": 3
+    }
+   ],
+   "event": "The couple receive the ascetic, seat him and feed him.",
+   "claims": [],
+   "nuance": "Line 3 (ஆறும் மூன்றும் அமைந்த நால் அமிர்தம்) names a set of foods by number that the reading does not resolve; the bee-like eating marks the ascetic's restraint in taking alms.",
+   "uncertain": true
+  },
+  "1126": {
+   "reading": "On the coral seat, with fragrant pure water poured from a rare pitcher into a golden vessel and she of the bamboo shoulders standing by, after the great ascetic had finished his rite, he says, he paid him homage with a smile according to the rule.",
+   "concepts": [
+    "vazhipaadu",
+    "thavam"
+   ],
+   "speaker": {
+    "who": "kantukkatan",
+    "form": null,
+    "line": null,
+    "addressee": "sunandai"
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "sunandai",
+     "form": "வேய்மணித் தோளி",
+     "line": 3
+    },
+    {
+     "id": "muni",
+     "form": "விழுத்தவ",
+     "line": 3
+    }
+   ],
+   "event": "Kantukkatan washes the ascetic's feet and worships him after his observance.",
+   "claims": []
+  },
+  "1127": {
+   "reading": "He had said to the ascetic: as all rivers come to rest in the sea, all things rest in the scripture of the lord of great penance, and you know them; look with your unhindered knowledge and tell us why she is not blessed with children, for those she bears go on to be born again.",
+   "concepts": [
+    "thavam",
+    "gnaanam",
+    "makkal",
+    "piravi"
+   ],
+   "speaker": {
+    "who": "kantukkatan",
+    "form": null,
+    "line": null,
+    "addressee": "sunandai"
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "muni",
+     "form": "விழுத்தவ",
+     "line": 2
+    }
+   ],
+   "event": "Kantukkatan asks the ascetic why their children die.",
+   "claims": [
+    {
+     "claim": "all things are contained in the scripture of the lord of great penance, as all rivers in the sea",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "kantukkatan"
+    },
+    {
+     "claim": "an ascetic of great penance sees hidden things with unhindered knowledge",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "kantukkatan"
+    }
+   ],
+   "nuance": "பெற்ற உயிர் சென்று பிறக்கும் puts the children's deaths in the language of rebirth: the lives she bears pass on to other births. The 'lord of great penance' (அருந்தவத்து இறைவன்) is the Jina, whose scripture the ascetic is credited with holding whole."
+  },
+  "1128": {
+   "reading": "He reminds her that she offered the ascetic an unripe areca nut, which he let fall, and that he picked a ripe red areca from the ground and gave it to her, and she took it with care.",
+   "concepts": [
+    "nimiththam",
+    "makkal"
+   ],
+   "speaker": {
+    "who": "kantukkatan",
+    "form": null,
+    "line": null,
+    "addressee": "sunandai"
+   },
+   "agents": [
+    {
+     "id": "sunandai",
+     "form": "வம்பவிழ் கோதை",
+     "line": 1
+    },
+    {
+     "id": "muni",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The ascetic drops the unripe areca Sunandai gives and hands her a ripe one.",
+   "claims": [],
+   "nuance": "The exchange of the unripe nut for a ripe one is told as the omen the next verse reads; that it figures the dead children replaced by a living son is a reading, not stated.",
+   "uncertain": true
+  },
+  "1129": {
+   "reading": "From that omen and from the way the words had fallen, seeing as clearly as those who hold a flawless gem in the palm, the chief of sages spoke in ripe words, addressing them as like the wishing tree and the creeper of desire.",
+   "concepts": [
+    "nimiththam",
+    "gnaanam",
+    "sol"
+   ],
+   "speaker": {
+    "who": "kantukkatan",
+    "form": null,
+    "line": null,
+    "addressee": "sunandai"
+   },
+   "agents": [
+    {
+     "id": "muni",
+     "form": "முனிவர",
+     "line": 4
+    }
+   ],
+   "event": "The sage reads the omen and begins his prophecy.",
+   "claims": [],
+   "nuance": "The sage's knowledge is presented as reading signs (நிமித்தம், the manner of speech) and as direct sight like a gem in the hand: omen and insight are joined."
+  },
+  "1130": {
+   "reading": "The sage told them not to worry at all, for they would gain a meritorious son of golden form whose fame would rule the whole world; when she had gone off rejoicing, he told the merchant more of what would happen, and the merchant now says he will tell it.",
+   "concepts": [
+    "makkal",
+    "pugazh",
+    "nimiththam"
+   ],
+   "speaker": {
+    "who": "kantukkatan",
+    "form": null,
+    "line": null,
+    "addressee": "sunandai"
+   },
+   "agents": [
+    {
+     "id": "muni",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "sunandai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sage foretells that they will gain a famous son, and tells Kantukkatan more in private.",
+   "claims": [],
+   "nuance": "The prophecy was split: the mother heard only the promise of a son, while the father alone kept the second part, the danger. That is why he can now comfort her with something she has never heard."
+  },
+  "1131": {
+   "reading": "The sage had said that when the graceless one seizes the youth of moon-bright jewels to kill him, binding his hands with many torments while the great city mourns, a yaksha will carry off the famous one; they should not fear, for after some days they will see him again.",
+   "concepts": [
+    "nimiththam",
+    "kodungol",
+    "arul"
+   ],
+   "speaker": {
+    "who": "kantukkatan",
+    "form": null,
+    "line": null,
+    "addressee": "sunandai"
+   },
+   "agents": [
+    {
+     "id": "muni",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kantukkatan tells the rest of the prophecy: Civakan will be seized to be killed and rescued by a yaksha.",
+   "claims": [],
+   "nuance": "The usurper is named only as 'the one without grace' (அருளிலான்), the Jain lack that marks him; the rescuer is an இயக்கன், which the story will show to be Sudanjanan, the dog Civakan once helped."
+  },
+  "1132": {
+   "reading": "Gunamalai of flawless chastity and her mother-in-law, melting as if their flesh dissolved and about to give up their lives, clung to the strong raft of the ascetic's words, swam the sea of grief in their hearts and saw the shore.",
+   "concepts": [
+    "karpu",
+    "idumbai",
+    "sol"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": "மாலையு",
+     "line": 1
+    },
+    {
+     "id": "sunandai",
+     "form": "மாமி",
+     "line": 1
+    }
+   ],
+   "event": "Gunamalai and Sunandai, near death with grief, are steadied by the prophecy.",
+   "claims": [],
+   "nuance": "Gunamalai is already called the merchant's daughter-in-law's equal here: மாமி makes Sunandai her mother-in-law, so the household treats the betrothal as binding."
+  },
+  "1133": {
+   "reading": "When the women of beautiful hair were wasting away and Civakan's dear friends heard that Civakasami's strong arms had been bound with a striped belt by the king, they were like a proud war elephant that has lost its tusks in the clash of swords.",
+   "concepts": [
+    "natpu",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_thozhar",
+     "form": "தோழன் மாரே",
+     "line": 4
+    }
+   ],
+   "event": "Civakan's friends hear that the king has had him bound.",
+   "claims": []
+  },
+  "1134": {
+   "reading": "Hearing what had befallen their friend, Padumukan laughs: can anyone eat the cub while the fierce tiger is outside? that donkey called Kattiyangaran leaping on our tiger, can such a thing be? you who are skilled in words, understand this.",
+   "concepts": [
+    "natpu",
+    "ookkam"
+   ],
+   "speaker": {
+    "who": "padumukan",
+    "form": "பதுமுக",
+    "line": 1,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "padumukan",
+     "form": "பதுமுக",
+     "line": 1
+    }
+   ],
+   "event": "Padumukan scorns the news, calling Kattiyangaran a donkey attacking a tiger.",
+   "claims": [],
+   "nuance": "The friends are the tiger outside the den; the usurper is the donkey. Line 4 (ஒட்டி இஃது உணரலாமே) is hard to construe and the reading of it is a guess.",
+   "uncertain": true
+  },
+  "1135": {
+   "reading": "Padumukan says that if their lord stood with his bow even the gods could not bend him, so his father, taking counsel with the mother who nursed him, must have done this cruel thing; as he tells the learned friends to hear more, the spy who had gone quickly returns and tells what happened.",
+   "concepts": [
+    "soozhchi",
+    "otru",
+    "makkal"
+   ],
+   "speaker": {
+    "who": "padumukan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "padumukan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "ottran",
+     "form": "வொற்றாள்",
+     "line": 4
+    }
+   ],
+   "event": "Padumukan guesses that Civakan's parents persuaded him to be bound; a spy arrives with the news.",
+   "claims": [],
+   "nuance": "The friend reasons from Civakan's strength to the only power that could bind him: his own parents. கொடுமை is his word for their act, though the parents meant it to save him.",
+   "uncertain": true
+  },
+  "1136": {
+   "reading": "The spy tells how fourteen thousand warriors, bearing lances, spears, sharp swords, great bows, iron discs, long-bladed tridents and fierce spiked clubs, gathered from all eight directions and ringed the house as a halo rings the blazing sun.",
+   "concepts": [
+    "padai",
+    "aran"
+   ],
+   "speaker": {
+    "who": "ottran",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "kattiyankaran_army",
+     "form": "மள்ளர்",
+     "line": 3
+    }
+   ],
+   "event": "Kattiyangaran's warriors surround Civakan's house.",
+   "claims": [],
+   "nuance": "எழாயிரத்து இரட்டி is twice seven thousand."
+  },
+  "1137": {
+   "reading": "As an elephant standing with its mate is penned in, so the young man, hemmed in with his flower-garlanded lady, flared up, rose with bow and arrows ready and appeared so terrible that the warriors lost their way like deer that see a killing tiger.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "speaker": {
+    "who": "ottran",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "மைந்தன்",
+     "line": 2
+    },
+    {
+     "id": "kattiyankaran_army",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan takes up his bow and the besiegers scatter in fear.",
+   "claims": [],
+   "nuance": "The lady (வடிமலர்க் கோதை) is unnamed; in this section she is most likely Gunamalai.",
+   "uncertain": true
+  },
+  "1138": {
+   "reading": "As the warriors scattered, his father by a stratagem embraced him and his weeping mother bound his shining arms; saying 'I have brought disgrace on my friends', Civakan stood shaken, like the bright sun seized by the serpent of the eclipse.",
+   "concepts": [
+    "soozhchi",
+    "makkal",
+    "maanam"
+   ],
+   "speaker": {
+    "who": "ottran",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": "றந்தை",
+     "line": 1
+    },
+    {
+     "id": "sunandai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kantukkatan and Sunandai hold and bind Civakan, who submits, ashamed before his friends.",
+   "claims": [],
+   "nuance": "The hero who routed fourteen thousand is bound by his parents' embrace; his shame is toward his friends, not his foe. Whether the mother's binding is literal or her arms hold him is not plain from line 2.",
+   "uncertain": true
+  },
+  "1139": {
+   "reading": "When the spy had told it, Padumukan, elephant-like and with shoulders like a hill of gold, asked whether his word had not proved true, looked at the faces of those around him, and asked them to say how this danger might be ended.",
+   "concepts": [
+    "soozhchi",
+    "natpu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "padumukan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "ottran",
+     "form": "ஒற்றன்",
+     "line": 1
+    }
+   ],
+   "event": "Padumukan, his guess confirmed, asks the friends for a plan.",
+   "claims": []
+  },
+  "1140": {
+   "reading": "Buddhisenan, bright as the full moon, thinks and says: tonight we will quickly burn the city, and while it burns, doing no harm to the king's [people] and letting the people escape the fire's mouth, we will kill the enemy, end the imprisonment and carry him off.",
+   "concepts": [
+    "soozhchi",
+    "sirai",
+    "padai"
+   ],
+   "speaker": {
+    "who": "buddhisenan",
+    "form": "புத்திசே",
+    "line": 1,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "buddhisenan",
+     "form": "புத்திசே",
+     "line": 1
+    }
+   ],
+   "event": "Buddhisenan proposes burning the city by night to free Civakan.",
+   "claims": [],
+   "nuance": "The plan includes care that the townspeople escape the fire (சனங்கள் நீங்க). Line 3's இறைக்குற்றேல் செய்தல் இன்றி is obscure: it may mean without harming the king or without rendering him service; the reading leaves it open.",
+   "uncertain": true
+  },
+  "1141": {
+   "reading": "He continues: as the fire like the fire of the world's end feeds on the city, our warriors, gathered in the fierce guise of Savara hunters, will surround the king of the bright spear in his palace, and raise an uproar at every place the fire is lit.",
+   "concepts": [
+    "soozhchi",
+    "padai"
+   ],
+   "speaker": {
+    "who": "buddhisenan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "buddhisenan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Buddhisenan lays out the disguise and the attack on the palace.",
+   "claims": [],
+   "nuance": "The friends plan to fight disguised as hunters (சவரர்), so that the blame falls elsewhere. Lines 3 to 4 are divided oddly (விப்பர் / லாலைத்தீ) and their last part is a guess.",
+   "uncertain": true
+  }
+ },
+ "links": [
+  {
+   "a": "1131",
+   "b": 1158,
+   "type": "develops",
+   "note": "The sage foretold that when the graceless king seized Civakan to kill him a yaksha would carry him off; in 1158 a god lifts Civakan and rises away in the storm while the city mourns.",
+   "teaches": "The rescue the friends are plotting by fire and disguise was already promised to the parents, so the plan of the companions is made needless by a fate a Jain ascetic had foreseen."
+  },
+  {
+   "a": "1130",
+   "b": 388,
+   "type": "develops",
+   "note": "In 388 the merchant takes up the infant 'as the great ascetic had foretold' (அருந்தவன் முந்து கூற); here, years later, the father tells what that foretelling was.",
+   "teaches": "The foundling's adoption, told earlier as a bare fulfilment, turns out to rest on a promise given to a mother in despair, and the same prophecy also held the hero's capture and rescue."
+  },
+  {
+   "a": "1124",
+   "b": 325,
+   "type": "develops",
+   "note": "In 325 the merchant leaves his own dead son at the burning ground and goes off with the royal child; 1124 recalls that Sunandai had borne many children who died before the ascetic came.",
+   "teaches": "The exchange at the burning ground was the last of a run of dead births, so the merchant's taking of the child answers a grief long prepared for, not a chance find."
+  },
+  {
+   "a": "1135",
+   "b": 1138,
+   "type": "develops",
+   "note": "Padumukan guesses that only Civakan's parents could have bound him; the spy reports that the father embraced him by a stratagem and the weeping mother bound his arms.",
+   "teaches": "The friend's reasoning from the hero's invincibility is confirmed by the report, so the one force the story allows to bind Civakan is filial obedience, not the usurper's army."
+  },
+  {
+   "a": "1138",
+   "b": 1116,
+   "type": "develops",
+   "note": "In 1116 Civakan is led off bound like a lion caught in a spider's thread; the spy's report explains the thread: his parents' embrace and tears.",
+   "teaches": "The spider's thread of 1116 is glossed by the scene of 1138: a weak bond holds the lion because he will not break his parents' hold, and he feels the shame of it toward his friends."
+  },
+  {
+   "a": "1121",
+   "b": 1165,
+   "type": "tension",
+   "note": "Kattiyangaran swears to write 'thief' on Civakan's chest; in 1165 he praises Civakan as without equal in grace, strength, learning and generosity and rewards the man who claims to have killed him.",
+   "teaches": "The usurper's own praise in 1165 shows that his charge of theft was never a judgment, so the bent sceptre here is a king punishing a man he knows to be the best of his subjects."
+  },
+  {
+   "a": "1118",
+   "b": "kural:550",
+   "type": "qualifies",
+   "note": "Kural 550 likens a king's putting killers to death to weeding a crop; here the king sentences the youth who stopped the royal elephant from killing a girl.",
+   "teaches": "The couplet's justice assumes that the king punishes the killer; the epic shows a king whose own beast is the killer punishing the rescuer, so the weeding image fails when the king himself decides what the weed is.",
+   "gains": {
+    "a": "a rule by which Kantukkatan's question 'if this is a fault, what is virtue?' becomes a charge of inverted justice",
+    "b": "a case in which the one who owns the deadly force is the judge, which the couplet's farming image cannot address"
+   }
+  },
+  {
+   "a": "1122",
+   "b": "kural:269",
+   "type": "qualifies",
+   "note": "Kural 269 says that those who attain the power of austerity can even leap past death; here the ascetic's words, remembered, keep the stricken merchant alive.",
+   "teaches": "The Kural places the power of tapas in the ascetic's own victory over death, while the epic shows it working on householders, through a foretelling whose remembered word revives a father who stood as if dead.",
+   "gains": {
+    "a": "a name for the force that holds up the merchant: the power of penance, here exercised through speech",
+    "b": "a story in which that power reaches beyond the ascetic to the lay people who fed him"
+   }
+  },
+  {
+   "a": "1132",
+   "b": "kural:1164",
+   "type": "qualifies",
+   "note": "In Kural 1164 the woman parted from her lover says there is a sea of love but no safe raft to cross it; here Gunamalai, parted from Civakan and near death, crosses the sea of grief on the raft of the ascetic's words.",
+   "teaches": "The Kural's parted woman has no raft because no one sends word; the epic gives its parted woman a raft from outside love altogether, an ascetic's prophecy, so the same plight is solved by religious authority rather than by the lover.",
+   "gains": {
+    "a": "the convention behind its image: the sea and raft are the parted woman's set terms, and Gunamalai's grief is cast as a lover's",
+    "b": "a case where the raft the couplet denies is supplied, and by whom, which shows what the woman of the couplet lacks"
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "nimiththam",
+   "tamil": "நிமித்தம்",
+   "gloss": "an omen or sign read as foretelling what will come",
+   "label_source": "the verse's own word: பெற்ற அந் நிமித்தத்தானும் (1129, line 1)"
+  },
+  {
+   "id": "sirai",
+   "tamil": "சிறை",
+   "gloss": "the prison or captivity, the king's confinement of those who offend him",
+   "label_source": "the verse's own word: சிறைக்குற்றம் நீங்க (1140, line 4)"
+  }
+ ],
+ "source_issues": [
+  "Every verse of 1118-1141 was printed in eight half-lines and has been joined into four by the build.",
+  "1125 line 4 has பட்டினிப பிரிவு, a missing pulli (பட்டினிப்); line 3 (ஆறும் மூன்றும் அமைந்த நால் அமிர்தம்) is obscure.",
+  "1139 line 2 has நோக்கிச சூழிமால், a missing pulli (நோக்கிச்).",
+  "1141 lines 3-4 are divided at விப்பர் / லாலைத்தீ, which looks like a misdivision (perhaps இப்பால் ஆலைத்தீ); the line's sense is uncertain.",
+  "1140 line 3 (இறைக்குற்றேல் செய்தல் இன்றி) and 1134 line 4 (ஒட்டியிஃ துணர லாமே) are hard to construe as written."
+ ]
+}

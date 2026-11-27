@@ -1,0 +1,900 @@
+{
+ "chapter_no": 66,
+ "chapter_theme": "Kemasari's mother Nipputhi consoles her with karma and impermanence but cannot reach her; Civakan walks through the night, and at sunrise meets a wayfarer whose riddle of four wives and one son opens into a Jain sermon on the householder's giving, conduct, fasting and worship, on lust, drink and meat, and on women's beauty, after which Civakan gives him his ornaments and crosses the wilderness.",
+ "cast": [
+  {
+   "id": "kemasari",
+   "tamil": "கேமசரி",
+   "role": "the merchant's daughter of the Takka land whom Civakan marries and leaves"
+  },
+  {
+   "id": "kemasari_thaay",
+   "tamil": "நற்றாய்",
+   "role": "Kemasari's mother, Subhadran's wife, named நிப்புதி in 1533"
+  },
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, who leaves Kemasari and goes on alone (அண்ணல் 1542, காளை 1540)"
+  },
+  {
+   "id": "sanron",
+   "tamil": "சான்றோன்",
+   "role": "the wayfarer Civakan meets at sunrise (ஆறுசெல் ஒருவன் 1542, பெருஞ்சான்றோன் 1544), who answers in a riddle and preaches the layman's virtues"
+  }
+ ],
+ "verses": {
+  "1533": {
+   "reading": "Kemasari wilts like a mango shoot touched by fire and weeps in a voice that falters like a plucked string, and when the cry reaches the household her mother Nipputhi comes and speaks to her.",
+   "concepts": [
+    "pirivu",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kemasari",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kemasari_thaay",
+     "form": "நிப்புதி",
+     "line": 4
+    }
+   ],
+   "event": "Kemasari weeps aloud, and her mother Nipputhi comes to her and speaks.",
+   "claims": [],
+   "nuance": "This is the only place in the ilampakam where the mother is named; earlier chapters call her only நற்றாய்."
+  },
+  "1534": {
+   "reading": "The mother tells her that the joy given by her husband, who is as unfailing as letters cut by the god's vajra point, came to her from austerity she attained by being born in a noble house, cutting the root of fierce desire and standing in truth without a lapse, and that she will have it again.",
+   "concepts": [
+    "thavam",
+    "inbam",
+    "vinai",
+    "kudi"
+   ],
+   "speaker": {
+    "who": "kemasari_thaay",
+    "form": "யென்றாள்",
+    "line": 4,
+    "addressee": "kemasari"
+   },
+   "agents": [
+    {
+     "id": "kemasari_thaay",
+     "form": "யென்றாள்",
+     "line": 4
+    }
+   ],
+   "event": "Kemasari's mother consoles her weeping daughter.",
+   "claims": [
+    {
+     "claim": "joy in this life is the fruit of austerity done before, and such fruit does not fail",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "kemasari_thaay"
+    }
+   ],
+   "nuance": "The consolation is karmic: the marriage is a reward already earned, so the parting cannot cancel it. The likeness of letters cut with the vajra makes Civakan himself, or his bond to her, the unalterable thing; the construction of line 3-4 allows either.",
+   "uncertain": true
+  },
+  "1535": {
+   "reading": "She reminds her that all that rises falls, that those who join must part, and that among the countless kinds of birth those born die and the dead are born again, and tells her to see it so and not grieve.",
+   "concepts": [
+    "nilaiyaamai",
+    "piravi",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "kemasari_thaay",
+    "form": "லென்றாள்",
+    "line": 4,
+    "addressee": "kemasari"
+   },
+   "agents": [
+    {
+     "id": "kemasari_thaay",
+     "form": "லென்றாள்",
+     "line": 4
+    }
+   ],
+   "event": "Kemasari's mother consoles her weeping daughter.",
+   "claims": [
+    {
+     "claim": "whatever rises falls and whoever is joined parts",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "kemasari_thaay"
+    },
+    {
+     "claim": "those born die and the dead are born again through countless kinds of birth",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "kemasari_thaay"
+    }
+   ],
+   "nuance": "The mother answers a bride's grief for a living husband with the doctrine usually spoken over the dead: parting in love is set inside the round of birth and death."
+  },
+  "1536": {
+   "reading": "She says, as something they have heard, that the pleasure of fiery desire is a drop of water while the grief born of parting is like the great sea, and that those who melt and leave the body from that grief gain the fruit of neither this life nor the next.",
+   "concepts": [
+    "pirivu",
+    "kaamam",
+    "marumai"
+   ],
+   "speaker": {
+    "who": "kemasari_thaay",
+    "form": "ரென்றுயாங்",
+    "line": 4,
+    "addressee": "kemasari"
+   },
+   "agents": [
+    {
+     "id": "kemasari_thaay",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kemasari's mother consoles her weeping daughter.",
+   "claims": [
+    {
+     "claim": "the pleasure of desire is small and the grief of parting vast",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "kemasari_thaay"
+    },
+    {
+     "claim": "one who dies of grief at parting loses the fruit of both this world and the next",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "kemasari_thaay"
+    }
+   ],
+   "nuance": "The mother gives this as hearsay (யாங் கேட்டும்), not as her own doctrine; it turns the akam convention of the woman wasting with separation into a loss in both worlds."
+  },
+  "1537": {
+   "reading": "She says that the pleasures of youth are like a bubble on water, that wealth vanishes like lightning and melts like dew in the sun, and asks why, since the gains of deeds are such, her sweet-voiced daughter should grieve.",
+   "concepts": [
+    "nilaiyaamai",
+    "ilamai",
+    "selvam",
+    "vinai"
+   ],
+   "speaker": {
+    "who": "kemasari_thaay",
+    "form": "யென்றாள்",
+    "line": 4,
+    "addressee": "kemasari"
+   },
+   "agents": [
+    {
+     "id": "kemasari_thaay",
+     "form": "யென்றாள்",
+     "line": 4
+    }
+   ],
+   "event": "Kemasari's mother consoles her weeping daughter.",
+   "claims": [
+    {
+     "claim": "youth and wealth, the gains of deeds, are fleeting, so grieving their loss is pointless",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "kemasari_thaay"
+    }
+   ]
+  },
+  "1538": {
+   "reading": "She ends by saying that women who could not keep him captive in the prison of their girdled hips and great breasts should let their grief go.",
+   "concepts": [
+    "pirivu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "kemasari_thaay",
+    "form": "வென்றாள்",
+    "line": 4,
+    "addressee": "kemasari"
+   },
+   "agents": [
+    {
+     "id": "kemasari_thaay",
+     "form": "வென்றாள்",
+     "line": 4
+    }
+   ],
+   "event": "Kemasari's mother consoles her weeping daughter.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The sense of தஞ்சிறைப் படுக்க லாதார் is not clear: it may be a general saying that one who could not hold a man by her charms gains nothing by grieving, or a rueful turn on the daughter herself."
+  },
+  "1539": {
+   "reading": "Though they said everything to her, Kemasari was like a crushed garland, alive only by the bond of the words her husband had spoken to the bee.",
+   "concepts": [
+    "pirivu",
+    "kurippu",
+    "uyir"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kemasari",
+     "form": "பாவை யன்னாள்",
+     "line": 4
+    }
+   ],
+   "event": "Kemasari stays unconsoled, kept alive only by Civakan's words to the bee.",
+   "claims": [],
+   "nuance": "பேசினார் can be the consolers who said everything, which is how it is read here; the verse sets all their talk against the single covert sentence that actually keeps her alive."
+  },
+  "1540": {
+   "reading": "Like the moon swallowed by the serpent, she trembles and melts in burning grief, the dark-haired one who had netted the youth and yet cannot find him though she gropes, while the youth goes on foot.",
+   "concepts": [
+    "pirivu",
+    "melivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kemasari",
+     "form": "குழலி",
+     "line": 3
+    },
+    {
+     "id": "civakan",
+     "form": "காளையுங்",
+     "line": 4
+    }
+   ],
+   "event": "Kemasari wastes in grief while Civakan goes on his way on foot.",
+   "claims": [],
+   "nuance": "The serpent-swallowed moon is the eclipse image; the verse turns from her to him in its last half-line, காளையுங் காலிற் சென்றான், and the story leaves the town with him."
+  },
+  "1541": {
+   "reading": "The bright moon god rises from the sea, pouring his sweet rays to drown the encircling dark as one might pour sweet milk from a jewelled pot into black mud, and appears like the faces of fair women.",
+   "concepts": [
+    "kaalam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1542": {
+   "reading": "The moon having risen as if holding a hand-lamp to clear the dark for the bull-like man, and the sun's disc having risen from the waves after he hurried on, there the lord sets about giving ornaments to a man going along the road.",
+   "concepts": [
+    "eegai",
+    "kaalam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "கண்ண லணிகல",
+     "line": 4
+    },
+    {
+     "id": "sanron",
+     "form": "லொருவற்",
+     "line": 4
+    }
+   ],
+   "event": "After a night's walk, at sunrise, Civakan meets a wayfarer and begins to give him his ornaments.",
+   "claims": [],
+   "nuance": "ஏறனாற் is read as ஏறு அனாற்கு, 'for the one like a bull', i.e. Civakan; the moon is made his lamp for the night's walk.",
+   "uncertain": true
+  },
+  "1543": {
+   "reading": "Asked where he comes from, where he is going, how many wives he has and how many of his children are unlike and how many like him, the worthy man answers that he is of this town, bound for this place, has four wives, no children unlike him and one son like him.",
+   "concepts": [
+    "kurippu",
+    "makkal",
+    "vaazhkkaithunai"
+   ],
+   "speaker": {
+    "who": "sanron",
+    "form": "சான்றோன்",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "sanron",
+     "form": "சான்றோன்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan questions the wayfarer, who answers in a riddle.",
+   "claims": [],
+   "nuance": "The questions in lines 1-2 are taken as Civakan's and the answer as the wayfarer's; the verse names only the answerer (சான்றோன்). 'This town' and 'this place' already hint that his journey is not one on the road."
+  },
+  "1544": {
+   "reading": "When Civakan wonders that the one son should be born of four from one womb, the great worthy laughs and praises him, and Civakan, saying the excellent man's words seem excellent indeed, asks him to tell what he meant and listens.",
+   "concepts": [
+    "kurippu",
+    "kelvi"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": "துரையென்றான்",
+    "line": 4,
+    "addressee": "sanron"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "துரையென்றான்",
+     "line": 4
+    },
+    {
+     "id": "sanron",
+     "form": "பெருஞ்சான்றோ",
+     "line": 2
+    }
+   ],
+   "event": "Civakan, puzzled by the riddle, asks the wayfarer to explain it.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The verse runs three speeches together without naming each speaker; the attribution of line 2's praise (நம்பிபோல் யாருலகி லினியார்) to the wayfarer and of lines 3-4 to Civakan is a reading."
+  },
+  "1545": {
+   "reading": "The wayfarer explains that his four wives are giving, right conduct, unshaken austerity and the worship of the Omniscient, and that the one son born of them is the merit that carries a man to the higher state; those who have him have a son, and other people's children are only others.",
+   "concepts": [
+    "eegai",
+    "ozhukkam",
+    "thavam",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "sanron",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "sanron",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The wayfarer expounds his riddle to Civakan as a sermon on the layman's virtues.",
+   "claims": [
+    {
+     "claim": "giving, right conduct, austerity and worship of the Omniscient beget the merit that carries one to a higher state",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "sanron"
+    },
+    {
+     "claim": "only that merit is truly one's child; children of the body belong to others",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sanron"
+    }
+   ],
+   "nuance": "அறிவர் சிறப்பு, 'honour to the Knower', is the Jain fourfold of the householder (dana, sila, tapas, puja) spoken as a family; the riddle remakes the household itself as a set of virtues."
+  },
+  "1546": {
+   "reading": "He says the great ones teach that giving is gladly giving to those who have renounced as a serpent sloughs its skin, done austerities that make onlookers shiver and conquered the five senses together, and that right conduct is giving up honey, toddy and meat, in which hosts of living things gather.",
+   "concepts": [
+    "eegai",
+    "pulaal",
+    "kal",
+    "thuravu"
+   ],
+   "speaker": {
+    "who": "sanron",
+    "form": "மிக்கோர்",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "sanron",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The wayfarer expounds his riddle to Civakan as a sermon on the layman's virtues.",
+   "claims": [
+    {
+     "claim": "true giving is giving gladly to renouncers who have conquered the senses",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "sanron"
+    },
+    {
+     "claim": "right conduct is abstaining from honey, toddy and meat, because hosts of living beings dwell in them",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sanron"
+    }
+   ],
+   "nuance": "The reason given for abstaining from honey and toddy as well as meat, that they are a place where living beings swarm (உயிர்க்குழா மீண்டி நிற்றற் கிடனாகும்), is the Jain one of harm to minute lives, not a reason of purity."
+  },
+  "1547": {
+   "reading": "He says austerity is fasting without fail on the two moon days and the eighth day while guarding one's conduct, and that worship is adorning daily the feet of the Father under the moonlike triple umbrella with flowers, incense, sandal, powder and lamps, as those who crossed the scripture teach.",
+   "concepts": [
+    "thavam",
+    "vazhipaadu",
+    "ozhukkam",
+    "iraivan"
+   ],
+   "speaker": {
+    "who": "sanron",
+    "form": "கரைகண் டாரே",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "sanron",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The wayfarer expounds his riddle to Civakan as a sermon on the layman's virtues.",
+   "claims": [
+    {
+     "claim": "a householder's austerity is fasting on the new and full moon days and the eighth day while keeping conduct",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "sanron"
+    },
+    {
+     "claim": "worship is offering flowers, incense, sandal, powder and lamps to the feet of the Lord under the triple umbrella",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sanron"
+    }
+   ],
+   "nuance": "The triple umbrella (முக்குடை) marks the Jina; here தவம் is a householder's calendar of fasts, not the forest ascetic's discipline."
+  },
+  "1548": {
+   "reading": "Those who have these four as consorts and this son as their beloved child, he says, go on to become Indras, then rule the whole earth as kings and honour the Lord under the triple umbrella, and at the end reach the world where there is no birth.",
+   "concepts": [
+    "veedu",
+    "marumai",
+    "arasu",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "sanron",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "sanron",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The wayfarer expounds his riddle to Civakan as a sermon on the layman's virtues.",
+   "claims": [
+    {
+     "claim": "the layman's four virtues lead through rebirth as Indra and as an earthly king to release from birth",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sanron"
+    }
+   ],
+   "nuance": "The path described is graded: heaven, then kingship, then release (பிறவா வுலகு), which is the shape of Civakan's own life in the epic."
+  },
+  "1549": {
+   "reading": "He says the Lord under the triple umbrella of the honeyed asoka is the Great One whose feet open the gate of unfailing bliss, and that deeds do not cling to those who hold his feet, as pleasure in this world does not cling to the destitute, while those who do not trust him are bound.",
+   "concepts": [
+    "iraivan",
+    "vinai",
+    "veedu"
+   ],
+   "speaker": {
+    "who": "sanron",
+    "form": "கண்டீர்",
+    "line": 1,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "sanron",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The wayfarer expounds his riddle to Civakan as a sermon on the layman's virtues.",
+   "claims": [
+    {
+     "claim": "karma does not cling to those who hold to the feet of the Jina",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sanron"
+    }
+   ],
+   "uncertain": true,
+   "nuance": "Line 3 (எட்டானும் பத்தானும் இல்லாதார்) and the construction of line 4 are hard; the comparison with the poor is a reading. மால் here names the Jina, not Vishnu: the pindi (asoka) and triple umbrella are his marks."
+  },
+  "1550": {
+   "reading": "He says that even going to their own kinsmen's town people take food for the way, yet when Death seizes them and drives them alone down the cruel road they take no provisions, as if they had no sense at all.",
+   "concepts": [
+    "kootru",
+    "aram",
+    "pedhaimai"
+   ],
+   "speaker": {
+    "who": "sanron",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "sanron",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The wayfarer expounds his riddle to Civakan as a sermon on the layman's virtues.",
+   "claims": [
+    {
+     "claim": "merit is the provision one must take for the road of death, which one walks alone",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sanron"
+    }
+   ],
+   "nuance": "The address shifts to the plural (கொள்ளீர், இலிரே): the sermon to one traveller becomes a sermon to all; the journey Civakan is making lends the figure of road provisions its point."
+  },
+  "1551": {
+   "reading": "He says that lust, intoxicating drink and fat-dripping meat ripen afterwards only into evil deeds and must all three be given up, yet when told so people swell and redden with anger and, alas, do not understand those who speak for their good.",
+   "concepts": [
+    "kaamam",
+    "kal",
+    "pulaal",
+    "vinai"
+   ],
+   "speaker": {
+    "who": "sanron",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "sanron",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The wayfarer expounds his riddle to Civakan as a sermon on the layman's virtues.",
+   "claims": [
+    {
+     "claim": "lust, drink and meat ripen into evil deeds and must be renounced",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "sanron"
+    }
+   ],
+   "nuance": "The anger of the hearers is compared to women's swelling breasts, so the simile itself keeps desire before the reader while the verse condemns it."
+  },
+  "1552": {
+   "reading": "Hard-hearted men who hunt for red flesh with fat like butter, with ears of wood, do not listen to the good dharma that flows like milk and nectar; they carry a body fattened for the vultures to eat and serve only the birds.",
+   "concepts": [
+    "pulaal",
+    "yaakkai",
+    "aram",
+    "kelvi"
+   ],
+   "speaker": {
+    "who": "sanron",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "sanron",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The wayfarer expounds his riddle to Civakan as a sermon on the layman's virtues.",
+   "claims": [
+    {
+     "claim": "those who eat flesh fatten a body that will only feed vultures",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sanron"
+    }
+   ]
+  },
+  "1553": {
+   "reading": "In an obscure comparison of a woman who answers a request with an excuse that it is not the season, he declares that all fine-sounding words are false and bids his hearers give before they eat while there is time.",
+   "concepts": [
+    "eegai",
+    "sol",
+    "kaalam"
+   ],
+   "speaker": {
+    "who": "sanron",
+    "form": "கண்டீர்",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "sanron",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The wayfarer expounds his riddle to Civakan as a sermon on the layman's virtues.",
+   "claims": [
+    {
+     "claim": "one should give to others before one eats oneself",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sanron"
+    }
+   ],
+   "uncertain": true,
+   "nuance": "Lines 1-3 (பொதித்துணை, விளாம்பழம், பருவம்) look like a proverb or scene now hard to recover; only the closing injunction, முன்னே கொடுத்துண்டல் புரிமின், is clear."
+  },
+  "1554": {
+   "reading": "Those who trust the smiles of moon-faced women, he says, are born in the grief-filled states of birth and dance there, as on a stage, through time without end.",
+   "concepts": [
+    "kaamam",
+    "piravi",
+    "marumai"
+   ],
+   "speaker": {
+    "who": "sanron",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "sanron",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The wayfarer expounds his riddle to Civakan as a sermon on the layman's virtues.",
+   "claims": [
+    {
+     "claim": "trusting women's smiles leads to endless rebirth in states of sorrow",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sanron"
+    }
+   ],
+   "nuance": "கதிகள் are the Jain states (gati) of birth; the stage image makes rebirth a performance repeated without end. The verse is said to a man just married, and soon to marry again."
+  },
+  "1555": {
+   "reading": "Those who fear the beauty of women whose speech is like the flute, as the white lotus shrinks from the moon's rays, rise to be gods worshipped by others and rule heaven.",
+   "concepts": [
+    "kaamam",
+    "adakkam",
+    "marumai"
+   ],
+   "speaker": {
+    "who": "sanron",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "sanron",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The wayfarer expounds his riddle to Civakan as a sermon on the layman's virtues.",
+   "claims": [
+    {
+     "claim": "those who shun women's beauty are reborn as gods and rule heaven",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sanron"
+    }
+   ],
+   "nuance": "1554 and 1555 are a pair: the water lily that drinks the moon's rays and the lotus that closes from them, so the same moon stands for women's beauty taken and refused."
+  },
+  "1556": {
+   "reading": "When the wayfarer had given this counsel, Civakan gladly held out all his gem-set gold ornaments, and at the word 'go' circled him in reverence, bowed and left, and the long-armed bowman set out across the sun-scorched wilderness.",
+   "concepts": [
+    "eegai",
+    "panivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sanron",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": "தோளான்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan gives the wayfarer his ornaments, takes leave of him with reverence and crosses the wilderness.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The verse does not name the subjects of நீட்டி, கூற and சென்றான்; it may instead be the wayfarer who, given the ornaments, circles Civakan and goes. The reading here follows 1542, where Civakan begins to give the ornaments, and makes the gift the fee for the teaching."
+  }
+ },
+ "links": [
+  {
+   "a": 1536,
+   "b": 1539,
+   "type": "qualifies",
+   "note": "The mother warns that dying of separation loses both worlds; the narrator says Kemasari lives only by his words to the bee.",
+   "teaches": "Holding the two together shows the doctrinal consolation failing: what keeps the bride alive is not the threat of losing both worlds but one covert sentence of love."
+  },
+  {
+   "a": 1537,
+   "b": "naladiyar:27",
+   "type": "qualifies",
+   "note": "Both use the water bubble for what forms and bursts.",
+   "teaches": "The impermanence figure that in the quatrain moves the wise to end their wandering is used by the epic's mother to keep a bride steady in the household until her husband returns.",
+   "gains": {
+    "a": "the mother's simile gains the quatrain's renunciant force, which shows how strong a medicine she is giving for a lover's absence",
+    "b": "the quatrain gains a domestic use of its argument, as comfort rather than a call to leave the world"
+   }
+  },
+  {
+   "a": 1545,
+   "b": "kural:63",
+   "type": "tension",
+   "note": "The couplet calls children a man's wealth; the riddle says children of the body are others' and only merit is one's own son.",
+   "teaches": "On the reading that line 4 denies ordinary children are one's own, the Jain riddle answers the Kural's householder by taking the very word மக்கள் and giving it to merit.",
+   "gains": {
+    "a": "the riddle gains the Kural's claim as the view it overturns, so its paradox reads as a reply",
+    "b": "the couplet's crux over whose deeds and whose wealth is sharpened by a text that assigns the only lasting gain to one's own deeds"
+   }
+  },
+  {
+   "a": 1546,
+   "b": "kural:263",
+   "type": "qualifies",
+   "note": "Both speak of householders who provide for renouncers.",
+   "teaches": "The couplet chides those who give to renouncers in place of doing austerity themselves; the epic's householder does both, counting the gift to renouncers and his own fasts as two of four equal duties.",
+   "gains": {
+    "a": "the epic gains the Kural's worry that giving to ascetics can stand in for austerity, which its fourfold scheme answers",
+    "b": "the couplet gains a worked-out lay discipline in which its implied rivalry of giving and tapas is resolved"
+   }
+  },
+  {
+   "a": 1547,
+   "b": "kural:261",
+   "type": "qualifies",
+   "note": "Both define tavam.",
+   "teaches": "The Kural defines austerity as enduring pain and harming none, with no rite named, while the epic's lay teacher defines it as fasting on fixed moon days: the pair shows the same word as an ethic and as a calendar.",
+   "gains": {
+    "a": "the epic's fasts gain the Kural's ethical core, the bearing of hardship, which gives them their point",
+    "b": "the couplet gains a concrete practice by which a householder can take up its definition"
+   }
+  },
+  {
+   "a": 1551,
+   "b": 1234,
+   "type": "develops",
+   "note": "Civakan once bade the forest hunter give up meat, honey and toddy; now a wayfarer bids him give up lust, drink and meat.",
+   "teaches": "The teacher becomes the taught, and the triad changes as it is aimed at him: honey drops out and lust comes in, the vice of a man who has just left a bride."
+  },
+  {
+   "a": 1552,
+   "b": "kural:251",
+   "type": "develops",
+   "note": "Both turn on eating flesh to swell one's own flesh.",
+   "teaches": "The couplet asks how the flesh-eater can have compassion; the epic adds the end of the fattened body, carried only to feed vultures, so the cruelty is shown to profit no one but the birds.",
+   "gains": {
+    "a": "the epic verse gains the couplet's moral charge that flesh-eating defeats arul, beyond its picture of waste",
+    "b": "the couplet gains an ending for the body it fattens, which it leaves unstated"
+   }
+  },
+  {
+   "a": 1550,
+   "b": "naladiyar:20",
+   "type": "develops",
+   "note": "Both bid people take provisions for the journey because Death is coming.",
+   "teaches": "The quatrain's bundle carried on the shoulder stays a figure; the epic sets it against the food anyone packs for a visit to kin, and says it to a man actually on the road, so the figure is pinned to an everyday act and to the hearer's own journey.",
+   "gains": {
+    "a": "the epic gains the quatrain's warning that Death takes even the unborn, which makes the provision urgent",
+    "b": "the quatrain gains the comparison with the ordinary traveller's food that shows why neglecting it is folly"
+   }
+  },
+  {
+   "a": 1554,
+   "b": "tirumanthiram:204",
+   "type": "develops",
+   "note": "Both warn men against women's smiles.",
+   "teaches": "Tirumular's etti fruit says only that the smile is poison under a fair surface; the Jain sermon says what the poison does, endless rebirth in states of sorrow, and in 1555 offers heaven to those who refuse it.",
+   "gains": {
+    "a": "the epic gains Tirumular's image of fair leaves over a poisoned fruit, which explains why a smile should be distrusted",
+    "b": "Tirumanthiram 204 gains the karmic consequence it does not state, in the Jain terms of the gatis"
+   }
+  },
+  {
+   "a": 1549,
+   "b": "kural:5",
+   "type": "develops",
+   "note": "Both say deeds do not cling to those devoted to the Lord.",
+   "teaches": "The Kural's unnamed Lord, to whose devotees the two deeds do not cling, is given a Jain identity in the epic, the Great One under the asoka and triple umbrella, so the couplet's claim is read as one about the Jina.",
+   "gains": {
+    "a": "the epic's hard verse gains a clear parallel for its claim that karma will not cling, which supports the reading of line 4",
+    "b": "the couplet gains an early reader who names its Lord, showing one tradition's reading of the Kural's opening chapter"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "1534-1536, 1538, 1540-1541, 1543-1553, 1555-1556: printed in 8 half-lines and joined into 4 by the build.",
+  "1544: three speeches run together without named speakers; attribution uncertain.",
+  "1549 line 3 (எட்டானும் பத்தானும் இல்லாதார்) and 1553 lines 1-3 are obscure and may be corrupt or proverbial.",
+  "1552 line 3 begins றறொழுகியமு, with a doubled ற that looks like a misprint (for றொழுகி).",
+  "1556: the subjects of நீட்டி, கூற and சென்றான் are not marked; whether Civakan or the wayfarer circles and leaves is uncertain."
+ ]
+}

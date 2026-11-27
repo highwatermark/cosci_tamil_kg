@@ -1,0 +1,740 @@
+{
+ "chapter_no": 37,
+ "chapter_theme": "The last run of the Gandharvadattai ilampakam: the city throngs the wedding house with gifts, the feast and the fire rite are held, and Civakan, still called the merchant's son, marries the Vidyadhara princess and lives with her in pleasure. A letter from her father Kaluzhavegan recounts the vina contest and the war, offers his arms, and assures him that what destiny brings comes unsought; Civakan gives his bride her father's gifts as the poet turns to the city.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, here called கந்துகன் சிறுவன், குருசில் and சாமி; husband of Gandharvadattai"
+  },
+  {
+   "id": "gandharvadattai",
+   "tamil": "காந்தருவதத்தை",
+   "role": "daughter of the Vidyadhara king, won by Civakan at the vina and now his bride"
+  },
+  {
+   "id": "kaluzhavegan",
+   "tamil": "கலுழவேகன்",
+   "role": "the Vidyadhara king, Gandharvadattai's father, who writes to Civakan (கலுழன், 843)"
+  },
+  {
+   "id": "kattiyangaran",
+   "tamil": "கட்டியங்காரன்",
+   "role": "the usurping minister; here very likely the கொடியான் who started the war over the bride"
+  },
+  {
+   "id": "dharan",
+   "tamil": "தரன்",
+   "role": "the Vidyadhara in Kaluzhavegan's service, who reported the contest and battle to him"
+  },
+  {
+   "id": "wedding_crowd",
+   "tamil": "மாசனம்",
+   "role": "the great crowd that throngs the wedding house"
+  },
+  {
+   "id": "gift_bringers",
+   "tamil": "வாழ்நர்",
+   "role": "the people of the land who bring wedding gifts and wish for the hero's merit"
+  },
+  {
+   "id": "vediyar",
+   "tamil": "வேதம் துன்னினர்",
+   "role": "those versed in the Veda who tend the wedding fire"
+  },
+  {
+   "id": "wedding_women",
+   "tamil": "தையலார்",
+   "role": "the women who praise the couple and attend the bridal chamber (இளையவர், அரிவையர்)"
+  },
+  {
+   "id": "olai_thoodhan",
+   "tamil": "ஒருவன்",
+   "role": "the messenger who brings Kaluzhavegan's palm-leaf letter"
+  }
+ ],
+ "verses": {
+  "828": {
+   "reading": "The narrator says the great crowd that mingled in the hero's rich house, like a dark sea, ringed it as spokes ring a hub and swarmed it like birds on a tree heavy with fruit.",
+   "concepts": [
+    "selvam",
+    "oppuravu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "wedding_crowd",
+     "form": "மாசனங்",
+     "line": 2
+    }
+   ],
+   "event": "Great crowds throng the house for the wedding.",
+   "claims": [],
+   "nuance": "அவன் has no named referent in the verse; the house is the hero's household of the wedding. The two similes do different work: the wheel puts the house at the centre of the town, the fruit tree makes the crowd its dependants."
+  },
+  "829": {
+   "reading": "So many gifts came that those listing them wore out their hands and ran out of palm leaf, and the people of the land went away saying 'may the penance this man did come to us too'.",
+   "concepts": [
+    "thavam",
+    "selvam",
+    "eegai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gift_bringers",
+     "form": "வாழ்நர்",
+     "line": 3
+    }
+   ],
+   "event": "The people bring wedding gifts beyond counting and wish for the hero's merit.",
+   "claims": [
+    {
+     "claim": "a man's present fortune is the fruit of penance he has done",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "gift_bringers"
+    }
+   ],
+   "uncertain": true,
+   "nuance": "Line 2 (ஐயென விருப்பமற்று அன்னது ஆதலான்) is hard to construe: it may say the giving went on until desire itself was sated, or that the gifts were too many to want more; the reading of the wish in line 4 does not depend on it. The wish echoes the onlookers of 465 and 467, who ask where his mother did penance."
+  },
+  "830": {
+   "reading": "The red water in which the white rice was washed for the feast flowed into pools where horses and elephants sank, blue lilies and lotuses bloomed, bees hummed and herons dived.",
+   "concepts": [
+    "undi",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "Hyperbole of the feast's scale: the waste water of the kitchen becomes a landscape of tanks."
+  },
+  "831": {
+   "reading": "Clothes, musk for rubbing, strung garlands, earrings and sandal paste dropped by those who gave and those who took lay heaped with jewels, lovelier than a sky in bloom with stars.",
+   "concepts": [
+    "eegai",
+    "selvam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Gifts change hands so freely that what falls lies heaped on the ground.",
+   "claims": []
+  },
+  "832": {
+   "reading": "The clatter of vessels being washed, the anklet sounds of the women cooking fried dishes, and the tinkle of the gold bells of those sweeping away leftovers rose louder than the roaring salt sea.",
+   "concepts": [
+    "undi",
+    "virundhu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The lines are printed out of order: lines 3 and 4 (கலங்கழும் அரவமும் ... மிச்சில் சீப்பவ) begin the sentence, and the stray ர at the head of line 1 is the end of சீப்பவர், so the verse reads 3-4-1-2."
+  },
+  "833": {
+   "reading": "The bride with mullai garlands in her fragrant hair and the hero whose bright sword hand is like the fire of the world's end, like Kama holding bow and arrows in his ringed fingers, came to the wedding place while lily-eyed women praised them.",
+   "concepts": [
+    "varaivu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": "குழலி",
+     "line": 1
+    },
+    {
+     "id": "civakan",
+     "form": "யானு",
+     "line": 2
+    },
+    {
+     "id": "wedding_women",
+     "form": "டையலார்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan and Gandharvadattai come to the wedding place, praised by the women.",
+   "claims": []
+  },
+  "834": {
+   "reading": "As instruments thundered and the fire blazed, those versed in the Veda poured ghee from palasa ladles in sacrifice; water was poured and the hero, like Murukan, received it from the right-whorled conch as Venus rose bright.",
+   "concepts": [
+    "varaivu",
+    "vedham",
+    "aaguthi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vediyar",
+     "form": "துன்னினர்",
+     "line": 2
+    },
+    {
+     "id": "civakan",
+     "form": "வீர",
+     "line": 3
+    }
+   ],
+   "event": "The wedding fire is lit, ghee is offered, and Civakan receives the bride-giving water from the conch.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The Jain epic narrates a Vedic fire rite (வேதம், பலாசு ladle) without comment. Who pours the water (சொரிந்தனன்) is not named; the bride's guardian in the city is the likeliest. Line 3 breaks the second-letter rhyme (ன்) of the other three lines and repeats சொரி from line 2, so it may be corrupt."
+  },
+  "835": {
+   "reading": "Taking by the forearm the long-haired bride, whose shining upper cloth, string of great pearls and honeyed garland sat on breasts almost too heavy to bear, he circled the blazing fire to the right and stepped up onto the fine gold seat.",
+   "concepts": [
+    "varaivu",
+    "vaazhkkaithunai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "gandharvadattai",
+     "form": "கூந்த லாட",
+     "line": 3
+    }
+   ],
+   "event": "Civakan takes Gandharvadattai's hand, walks round the fire with her and mounts the gold seat.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "கட்டில் in line 4 may be a couch or the raised seat of the rite; the verse does not say which."
+  },
+  "836": {
+   "reading": "The narrator declares that the wedding the merchant's son made in a moment with the Vidyadhara king's beloved daughter was one that even Indra, lord of the gods of the sky, could not have had.",
+   "concepts": [
+    "varaivu",
+    "perumai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "கந்துகன் சிறுவன்",
+     "line": 2
+    }
+   ],
+   "event": "The wedding is completed.",
+   "claims": [],
+   "nuance": "Civakan is still named as Kantukkatan's son: the king's heir is hidden in the merchant's son, and the Vidyadhara princess is given to the supposed merchant."
+  },
+  "837": {
+   "reading": "They built the bridal chamber with a coral floor, gold-bound beams, gem-set pillars and great crossbeams, hung it with fragrant garlands, spread a woollen canopy and wrapped it in incense smoke like cloud.",
+   "concepts": [
+    "azhagu",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "wedding_women",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The bridal chamber is built and decked.",
+   "claims": [],
+   "nuance": "The builders are not named (இயற்றினார்); the attendants are assumed."
+  },
+  "838": {
+   "reading": "They made three couches of manifold richness, drew a silk screen worked by machinery, and the young women held up a box of mouth-perfume, a box of sandal paste and a sapphire box of cool garlands.",
+   "concepts": [
+    "azhagu",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "wedding_women",
+     "form": "மிளையவ",
+     "line": 4
+    }
+   ],
+   "event": "The couches are made and the women bring perfumes and garlands.",
+   "claims": [],
+   "nuance": "ஐந்துமூன்று அடுத்த is literally 'five and three joined'; it may count layers of the couch or simply mean eightfold wealth."
+  },
+  "839": {
+   "reading": "The women held gold trays of jewel-handled peacock-feather fans, sandal-dryers and round fans, and fanned the pair, and he sported with the girl as her wide eyes bloomed like lilies.",
+   "concepts": [
+    "punarchi",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "wedding_women",
+     "form": "மரிவைய",
+     "line": 3
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "gandharvadattai",
+     "form": "தையல",
+     "line": 4
+    }
+   ],
+   "event": "Attended by fanning women, Civakan begins to sport with his bride.",
+   "claims": []
+  },
+  "840": {
+   "reading": "The Kama among men drank the Lakshmi among women as the gods in the sky drank their nectar, while her girdle swelled, her garland slipped and her bells and anklets cried out.",
+   "concepts": [
+    "punarchi",
+    "kaamam",
+    "amudham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "காம னன்னான்",
+     "line": 3
+    },
+    {
+     "id": "gandharvadattai",
+     "form": "டிருவ னாளை",
+     "line": 3
+    }
+   ],
+   "event": "Civakan and Gandharvadattai make love.",
+   "claims": []
+  },
+  "841": {
+   "reading": "Her young breasts reddening and her painted brows lifting, her coral mouth of words sweet as the strings shining, he held her close without parting from her mouth till she melted, and sank into a sea of untroubled joy.",
+   "concepts": [
+    "punarchi",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "gandharvadattai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan embraces Gandharvadattai and is lost in joy.",
+   "claims": [],
+   "nuance": "கிளைநரம்பு (the lute's strings) ties her speech to the vina by which she was won."
+  },
+  "842": {
+   "reading": "As days passed so, the gold-adorned hero went to see a grove of young trees; a man appeared, held out a palm-leaf letter, bowed and stood back, and the lord took it and read it in due form.",
+   "concepts": [
+    "thoothu",
+    "kizhamai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "குருசில்",
+     "line": 4
+    },
+    {
+     "id": "olai_thoodhan",
+     "form": "மொருவன்",
+     "line": 2
+    }
+   ],
+   "event": "A messenger brings Civakan a letter in the grove, and he reads it.",
+   "claims": []
+  },
+  "843": {
+   "reading": "The letter opens: Kaluzhan of the thunder-bright spear sends this letter to the lord whose fame fills the world, whose parasol is rich with fortune, wishing him to fare well and wishing him dharma, pleasure and wealth.",
+   "concepts": [
+    "thoothu",
+    "aram",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": "கலுழ",
+    "line": 1,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "kaluzhavegan",
+     "form": "கலுழ",
+     "line": 1
+    }
+   ],
+   "event": "Kaluzhavegan's letter greets Civakan.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The greeting names three of the four aims (அறன், இன்பம், பொருள்) and not release. Line 2 (பருமைக் குருப் பளிங்கில் புகழ்) is hard to construe; the reading of the fame image is a guess."
+  },
+  "844": {
+   "reading": "The king writes that when the kings of the vina contended with Dattai and lost, and the master of the arts won the bud-breasted girl by music, the wicked one, his heart burning, declared she belonged to the strongest spear and stirred up war.",
+   "concepts": [
+    "pagai",
+    "maram",
+    "kalai"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "கலை நம்பி",
+     "line": 2
+    },
+    {
+     "id": "kattiyangaran",
+     "form": "கொடியான்",
+     "line": 4
+    }
+   ],
+   "event": "The letter recounts the vina contest and the war started by the wicked one.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "கொடியான் (the wicked one) is unnamed; the usurper Kattiyangaran is the likeliest, but the verse does not say so. The challenge 'she belongs to the strongest spear' sets the law of force against the law of the contest the king laid down."
+  },
+  "845": {
+   "reading": "He writes that he has also heard how the honey-garlanded lord, on his tall gold chariot, rained arrows from his thundering bow till elephants sank in hot blood, and played with the army of spears.",
+   "concepts": [
+    "maram",
+    "padai",
+    "vali"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "குருசில்",
+     "line": 1
+    }
+   ],
+   "event": "The letter recounts Civakan's victory in the battle.",
+   "claims": [],
+   "nuance": "விளையாடியது: the king calls the battle play, the word the narrator uses for love in 839."
+  },
+  "846": {
+   "reading": "He writes that beyond this true account Dharan brought, he weighed fully what had been told before, and having known already the prowess of his lord of the leaping-horse chariot, he sent this letter.",
+   "concepts": [
+    "thoothu",
+    "kurippu",
+    "oozh"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "dharan",
+     "form": "தரன்",
+     "line": 1
+    },
+    {
+     "id": "kaluzhavegan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [],
+   "uncertain": true,
+   "nuance": "முந்து அவன் மொழிந்த பொருள் may be what was foretold before (the astrologer's word that the destined husband lives in Rajamapuram, 539) or Dharan's earlier report; எந்தை here is a courteous title for the son-in-law rather than 'my father'. Both readings are open."
+  },
+  "847": {
+   "reading": "He writes that, trusting his two arms that bring scorners low and praising the victory that raised his banner over the whole silver mountain, the hero should not slight the protection he offers, but only let him know what he has in mind; nothing else is needed.",
+   "concepts": [
+    "thunai",
+    "natpu",
+    "vali"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [],
+   "event": "The king offers Civakan his armed support for whatever he intends.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "Whose protection (காப்பு) is not to be slighted, and whether the boast of the silver mountain is the king's own or praise of the hero, are not plain. The offer looks forward to the war for Civakan's kingdom."
+  },
+  "848": {
+   "reading": "He writes that what is to come will come and none can undo it, and what is to go will go, such being the way of destiny; the sea does not go out to fetch fresh water, and the swelling river never needs to beg the rain.",
+   "concepts": [
+    "oozh",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "kaluzhavegan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "what destiny brings cannot be undone and what it takes cannot be kept",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "kaluzhavegan"
+    },
+    {
+     "claim": "what is due to one comes without being sought",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "kaluzhavegan"
+    }
+   ],
+   "nuance": "பொறி (line 2) is destiny as an engraved mark. The images make fate a source of confidence, not resignation: the sea and the river receive without asking. In a letter that has just offered arms, this means Civakan's fortune will come to him, not that he should sit still."
+  },
+  "849": {
+   "reading": "Bowing joyfully toward his great royal father-in-law's feet and sending off the loyal messenger, the lord gave the garlanded bride the things her king had sent, telling her these were made in the land of joy.",
+   "concepts": [
+    "kizhamai",
+    "eegai",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "சாமி",
+     "line": 4
+    },
+    {
+     "id": "olai_thoodhan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "gandharvadattai",
+     "form": "கோதை",
+     "line": 2
+    }
+   ],
+   "event": "Civakan honours his father-in-law, dismisses the messenger and gives Gandharvadattai her father's gifts.",
+   "claims": [],
+   "nuance": "இன்ப நிலம் (the land of joy) names the Vidyadhara world as a realm of enjoyment."
+  },
+  "850": {
+   "reading": "Painting creepers of saffron and sandal on her young breasts and playing as he went with his garlanded bride, the narrator says, he passed his days, and now the poem will tell what happened in that fair city.",
+   "concepts": [
+    "punarchi",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "குரிசில்",
+     "line": 3
+    },
+    {
+     "id": "gandharvadattai",
+     "form": "கோதை",
+     "line": 3
+    }
+   ],
+   "event": "Civakan lives in pleasure with his bride as the poet turns to events in the city.",
+   "claims": [],
+   "nuance": "The closing verse of the ilampakam, announcing (மொழிவாம்) the next part of the story."
+  }
+ },
+ "links": [
+  {
+   "a": 844,
+   "b": 640,
+   "type": "develops",
+   "note": "In 640 rival kings vow to plunge into war if another wins the vina contest; 844 reports that a wicked one, burning, said she belonged to the strongest spear and made war.",
+   "teaches": "The suitors' threat comes true not as their own act but through a single instigator who turns their wounded pride into a war, so the contest's law is broken by one man's design."
+  },
+  {
+   "a": 848,
+   "b": 554,
+   "type": "develops",
+   "note": "In 554 the king refused all suitors until the time fate set for his daughter; in 848 he tells the son-in-law that what is to come will come unsought.",
+   "teaches": "The king who once used fate to wait for the destined husband now uses it to promise that husband his kingdom, so his trust in destiny moves from patience to assurance."
+  },
+  {
+   "a": 848,
+   "b": "kural:376",
+   "type": "qualifies",
+   "note": "Kural 376 says what is not one's own will not stay however guarded and what is one's own will not leave though thrown away; 848 says what is to come comes and what is to go goes, as the sea and river receive unasked.",
+   "teaches": "The Kural states the rule of fate about possessions, and the letter applies it to a dispossessed heir in the same breath as an offer of arms, showing fate being cited to back an effort rather than to forbid one.",
+   "gains": {
+    "a": "the letter's proverbial lines gain the weight of a known maxim on fate and property",
+    "b": "the couplet gains a case where 'what is yours will come' is a political promise to a man whose throne is held by another"
+   }
+  },
+  {
+   "a": 848,
+   "b": "naladiyar:103",
+   "type": "develops",
+   "note": "Naladiyar 103 says each one's enjoyments are measured by their own course, as no one rounded the vilam fruit; 848 says the sea need not fetch water nor the river beg rain.",
+   "teaches": "Both argue from unmade nature, but the quatrain's fruit shows a lot fixed in advance while the letter's sea and river show a lot that flows in, so the same proof from nature can counsel content or confidence.",
+   "gains": {
+    "a": "the letter's images are placed in the didactic argument that nature's givens prove fate",
+    "b": "the quatrain's measured lot gains a picture of fate as abundance flowing toward the fortunate"
+   }
+  },
+  {
+   "a": 829,
+   "b": "kural:265",
+   "type": "qualifies",
+   "note": "Kural 265 says tavam is striven for because what is wanted comes as wanted; in 829 the crowd sees the hero's wedding wealth as the fruit of his tavam and wishes it would come to them.",
+   "teaches": "The onlookers accept the couplet's premise that tavam yields what one wants, yet only wish for its fruit instead of doing it, which is the very shortcut the couplet rules out.",
+   "gains": {
+    "a": "the crowd's wish is shown to rest on the doctrine that good fortune is the wages of penance",
+    "b": "the couplet gains its counter-case: people who believe its promise and still do not strive"
+   }
+  },
+  {
+   "a": 836,
+   "b": "kural:1103",
+   "type": "qualifies",
+   "note": "Kural 1103 has the lover ask whether the lotus-eyed god's world is sweeter than sleep in the beloved's arms; 836 says even Indra, lord of the gods, could not have had this wedding.",
+   "teaches": "Both set a human union above a god's world, but the Kural's lover measures it by private sweetness while the epic narrator measures it by public splendour, so the same boast ranks feeling in one and rank and wealth in the other.",
+   "gains": {
+    "a": "the narrator's hyperbole joins a known topos of love outranking heaven",
+    "b": "the couplet's private boast gains a version voiced in public about a wedding rather than an embrace"
+   }
+  },
+  {
+   "a": 828,
+   "b": "kural:216",
+   "type": "develops",
+   "note": "Kural 216 likens wealth in a man of goodwill to a fruit tree ripening in the town's midst; 828 likens the crowd at the hero's house to birds on a tree heavy with fruit.",
+   "teaches": "The couplet's tree is a figure for wealth that others may share, and the epic shows who actually comes to such a tree: a crowd that gives as well as takes, as 829 and 831 go on to say.",
+   "gains": {
+    "a": "the simile gains the couplet's moral sense that the house's wealth is held for others",
+    "b": "the couplet's fruit tree gains a scene showing the throng that gathers and the exchange of gifts both ways"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "832: the four lines are printed out of order; lines 3-4 begin the sentence and the stray ர at the head of line 1 completes சீப்பவர் at the end of line 4 (read 3-4-1-2). The source also prints the verse with the number 833 (FLAG numbering).",
+  "834 line 3 (சொரிந்தனன் வீர னேற்றான்) breaks the second-letter rhyme in ன் shared by lines 1, 2 and 4 and repeats சொரி from line 2; it may be corrupt.",
+  "835 line 3, 837 line 1 and 845 line 1 carry repairs of TSCII slips (FLAG repaired); the repaired readings make sense.",
+  "838 and 839 were printed in eight half-lines and joined into four (FLAG repaired)."
+ ]
+}

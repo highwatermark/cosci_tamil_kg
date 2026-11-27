@@ -1,0 +1,794 @@
+{
+ "chapter_no": 75,
+ "chapter_theme": "Civakan finishes telling his brother Nandattan how he escaped and wandered, through the god's rescue, the rain on the burning forest, and his marriages to Padumai and Kemasari and the princess of the middle country, and says a brother is the one thing that cannot be gained; at home his four companions suspect Gandharvadattai's calm, learn from her that he is safe, worship her, take her sealed letter and set out with a host of horse.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, son of Saccandan and Vijayai"
+  },
+  {
+   "id": "nandattan",
+   "tamil": "நந்தட்டன்",
+   "role": "Civakan's younger brother"
+  },
+  {
+   "id": "civakan_thozhar",
+   "tamil": "தோழர்",
+   "role": "Civakan's companions, four of them in 1762"
+  },
+  {
+   "id": "gandharvadattai",
+   "tamil": "காந்தருவதத்தை",
+   "role": "daughter of the Vidyadhara king, Civakan's wife (தத்தை 1762, வெள்ளி வெண்மலை வேந்தன் பாவை 1763)"
+  },
+  {
+   "id": "sudanjanan",
+   "tamil": "சுதஞ்சணன்",
+   "role": "the god, once the dying dog Civakan helped, who carries him out of prison (இயக்கன், வானவன் here)"
+  },
+  {
+   "id": "thanapathi",
+   "tamil": "தனபதி",
+   "role": "the Pallava king, Padumai's father (named in 1754)"
+  },
+  {
+   "id": "subhadran",
+   "tamil": "சுபத்திரன்",
+   "role": "merchant of the Takka country, Kemasari's father"
+  },
+  {
+   "id": "mathimadesa_mannan",
+   "tamil": "மத்திம தேய மன்னன்",
+   "role": "the king of the middle country who receives Civakan and gives him his daughter (இறைவன் 1758)"
+  },
+  {
+   "id": "thozhar_padai",
+   "tamil": "வீரர்",
+   "role": "the horsemen and soldiers who set out with the companions (மள்ளர் 1772)"
+  }
+ ],
+ "verses": {
+  "1749": {
+   "reading": "Civakan, telling his brother how he came here, says that in the fight at his arrest he saw his brother's fury, like a lion of shining strength that leaps so that elephants scatter and even the guardians of the eight quarters quail.",
+   "concepts": [
+    "maram",
+    "sutram"
+   ],
+   "nuance": "Line 1 (கண்டபின் நின்னைக் காண்பேன்) is hard to construe as printed; the reading follows the second-person address and the lion simile of lines 3-4.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "nandattan",
+     "form": "னின்னை",
+     "line": 1
+    }
+   ],
+   "event": "Civakan recalls seeing Nandattan rage like a lion in the fight when he was seized.",
+   "claims": []
+  },
+  "1750": {
+   "reading": "He goes on that he saw the companions at his brother's side like a pack of tigers, swelling their anger, drawing in their fiery limbs, ears pricked and eyes unblinking, crouching before they spring.",
+   "concepts": [
+    "maram",
+    "natpu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": "தோழர்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan recalls his companions standing like tigers ready to spring.",
+   "claims": []
+  },
+  "1751": {
+   "reading": "Seeing how they all stood together, and seeing the mountain's daughter on the top of the mansion with shield and sword crying 'let this city perish', he says, he grew afraid at that.",
+   "concepts": [
+    "acham",
+    "vaazhkkaithunai",
+    "maram"
+   ],
+   "nuance": "What he fears is not the enemy but the slaughter and ruin his own side is ready for; the next verse turns that fear into his choice of death.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "யஞ்சினே",
+     "line": 4
+    },
+    {
+     "id": "gandharvadattai",
+     "form": "மலைமக",
+     "line": 3
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan recalls Gandharvadattai on the mansion top, armed and cursing the city, and his fear at it.",
+   "claims": []
+  },
+  "1752": {
+   "reading": "He says he judged death far better than living freed from distress by a woman, and, hemmed in as his people were about to die, thought of the yaksha and praised the god, and the lord appeared and carried him off.",
+   "concepts": [
+    "maanam",
+    "saakkaadu",
+    "ninaivu",
+    "thunai"
+   ],
+   "nuance": "பெண் இடர் விடுப்ப வாழ்வின் is taken as 'than a life in which a woman frees me from distress', which fits his earlier refusal to be freed by Gandharvadattai's spells; another division of line 1 is possible.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "சிந்தித்தேன்",
+     "line": 3
+    },
+    {
+     "id": "sudanjanan",
+     "form": "னியக்கன்",
+     "line": 3
+    }
+   ],
+   "event": "Civakan, choosing death over rescue by his wife's arts, thinks of the yaksha, who comes and carries him away.",
+   "claims": [
+    {
+     "claim": "for a man, death is far better than a life saved from danger by a woman",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "1753": {
+   "reading": "The god gave him three mantras and sent him off, and on the way he saw a herd of elephants like rain clouds under a rainbow ringed by forest fire, and as he stood anxious and grieving for them holy rain poured down.",
+   "concepts": [
+    "arul",
+    "mandhiram",
+    "mazhai"
+   ],
+   "nuance": "In his own telling he does nothing but stand and worry; the rain is திருமழை, holy rain, and falls in answer to his compassion.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "சிந்தித்துக்",
+     "line": 4
+    },
+    {
+     "id": "sudanjanan",
+     "form": "வானவன்",
+     "line": 1
+    }
+   ],
+   "event": "Civakan, given three mantras, sees a herd of elephants trapped by forest fire, and rain falls as he grieves for them.",
+   "claims": []
+  },
+  "1754": {
+   "reading": "Having ended the elephants' fear he went swiftly through the forest into the Pallava country, where king Dhanapati's queen Tilottamai had borne the prince Lokapalan, whose sister was Padumai.",
+   "concepts": [
+    "naadu",
+    "sutram"
+   ],
+   "nuance": "The names Dhanapati, Tilottamai and Lokapalan, absent from the verses that told this episode, are given here in Civakan's summary.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan reaches the Pallava country of king Dhanapati.",
+   "claims": []
+  },
+  "1755": {
+   "reading": "When a snake bit her he cured the jewelled girl; the king of fighting elephants, wanting a friendship without end, gave her to him, and after two months he left at midnight.",
+   "concepts": [
+    "marundhu",
+    "natpu",
+    "pirivu"
+   ],
+   "nuance": "Line 1 (அரிகுரற் கோழி நாமத்து அரவு) seems to name the snake or the place of the bite in a way not fixed here.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "தீர்த்தேன்",
+     "line": 2
+    },
+    {
+     "id": "thanapathi",
+     "form": "மன்னன்",
+     "line": 3
+    }
+   ],
+   "event": "Civakan recounts curing Padumai of the snakebite, marrying her, and leaving her at midnight after two months.",
+   "claims": []
+  },
+  "1756": {
+   "reading": "Deceiving the woman, he set out to see the Takka country, and on his arrival Subhadran of the old town of gold-washed mansions saw him and loved him as the soul knows knowledge.",
+   "concepts": [
+    "vanjam",
+    "pirivu",
+    "natpu"
+   ],
+   "nuance": "Civakan uses the word வஞ்சித்து of his own leaving; he does not excuse it. The phrase வாவிப்புண் அடையினாளை for Padumai is unclear.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "வஞ்சித்துத்",
+     "line": 1
+    },
+    {
+     "id": "subhadran",
+     "form": "சுபத்திர",
+     "line": 3
+    }
+   ],
+   "event": "Civakan recounts leaving Padumai by deceit and being welcomed by Subhadran in the Takka country.",
+   "claims": []
+  },
+  "1757": {
+   "reading": "He rode with Subhadran in his chariot, entered his tall golden mansion, and the merchant, with a joy that spread over the whole earth, gave him his daughter with pearl-ringed breasts and wide eyes.",
+   "concepts": [
+    "varaivu",
+    "virundhu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "subhadran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan recounts Subhadran giving him his daughter Kemasari.",
+   "claims": []
+  },
+  "1758": {
+   "reading": "After two months there he left her and came this way to see the land, and the king here saw him, and so that his sons might learn archery in the right way gave him his long-eyed daughter, Civakan said, ending his account.",
+   "concepts": [
+    "varaivu",
+    "pirivu",
+    "kalvi"
+   ],
+   "nuance": "The marriage is tied to a service: the king's daughter comes with the teaching of the princes' bow-craft.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "mathimadesa_mannan",
+     "form": "மிறைவன்",
+     "line": 2
+    }
+   ],
+   "event": "Civakan recounts leaving Kemasari and coming to the middle country, whose king gave him his daughter for teaching his sons archery.",
+   "claims": []
+  },
+  "1759": {
+   "reading": "When he had told his brother all he had gone through, and the brother thought of their elders and wept so that his tears wet his chest like rain from the sky, the hero with the gleaming spear wiped them with his hand and said this.",
+   "concepts": [
+    "sutram",
+    "anbu",
+    "ninaivu"
+   ],
+   "nuance": "The verse can also be read with Civakan as the one who thinks of the elders and weeps; the dative சிந்தித்தாற்கு is taken here as the brother.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "வேலா",
+     "line": 4
+    },
+    {
+     "id": "nandattan",
+     "form": "தம்பியை",
+     "line": 1
+    }
+   ],
+   "event": "Civakan finishes his story; Nandattan weeps at the thought of their elders, and Civakan wipes his tears.",
+   "claims": []
+  },
+  "1760": {
+   "reading": "Firm wealth can be won, enemies can be destroyed, friends, wives and children can all be gained, he says, but a brother cannot be made; having got my brother here, what is there hard for me?",
+   "concepts": [
+    "sutram",
+    "selvam",
+    "natpu"
+   ],
+   "nuance": "He puts his wives among the things that can be gained, in a book named for them; the one bond beyond acquisition is birth.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "wealth, victory over enemies, friends, wives and children can be gained, but a brother born of the same parents cannot be made",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "1761": {
+   "reading": "The prince lived with his brother like milk mixed in honey while many days passed; meanwhile, back home, the companions, wasting like a hill in summer, their bodies withering, thought what they should do.",
+   "concepts": [
+    "pirivu",
+    "melivu",
+    "soozhchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "செல்வன்",
+     "line": 1
+    },
+    {
+     "id": "nandattan",
+     "form": "றம்பியோ",
+     "line": 1
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": "தோழர்",
+     "line": 3
+    }
+   ],
+   "event": "Civakan and Nandattan live together while the companions at home waste and take counsel.",
+   "claims": []
+  },
+  "1762": {
+   "reading": "The four sat together and asked what they should do now, and said that the parrot-like Gandharvadattai, with the peacock's grace, shows no wasting of the body at all; could it be deceit?",
+   "concepts": [
+    "soozhchi",
+    "vanjam",
+    "melivu"
+   ],
+   "nuance": "They read her unwasted body by the convention that a parted wife pales and wastes, and take its absence for a sign of deceit.",
+   "speaker": {
+    "who": "civakan_thozhar",
+    "form": "நால்வரு",
+    "line": 2,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_thozhar",
+     "form": "நால்வரு",
+     "line": 2
+    }
+   ],
+   "event": "The four companions take counsel and suspect Gandharvadattai because she does not waste.",
+   "claims": []
+  },
+  "1763": {
+   "reading": "Saying 'if there is deceit we shall see it', they went gently and asked her, and the daughter of the king of the white silver mountain told them what had befallen the generous one and how he had gone hidden.",
+   "concepts": [
+    "vanjam",
+    "aaraaydhal",
+    "sol"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_thozhar",
+     "form": "வினவக்",
+     "line": 2
+    },
+    {
+     "id": "gandharvadattai",
+     "form": "கூறினாள்",
+     "line": 2
+    }
+   ],
+   "event": "The companions question Gandharvadattai, who tells them what happened to Civakan and where he is hidden.",
+   "claims": []
+  },
+  "1764": {
+   "reading": "Hearing her, the young men, like those who get back a life that had gone, felt their bodies cool with a gladness greater than that of the parents who bore her, and their grief left them since there was no danger.",
+   "concepts": [
+    "inbam",
+    "uyir"
+   ],
+   "nuance": "பெற்ற மாந்தரின் is taken as her own parents' gladness; it may instead mean 'than those who gain (a treasure)'.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_thozhar",
+     "form": "மைந்தர்",
+     "line": 1
+    }
+   ],
+   "event": "The companions are relieved to learn Civakan is safe.",
+   "claims": []
+  },
+  "1765": {
+   "reading": "They set the anklets of the small feet of her, graceful as the goddess of fortune, on their tufted heads, their bodies swelling with melting hearts, and sang and danced with a love they drank in.",
+   "concepts": [
+    "panivu",
+    "inbam",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_thozhar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The companions place Gandharvadattai's feet on their heads and sing and dance for joy.",
+   "claims": []
+  },
+  "1766": {
+   "reading": "They said that those who worship the form of this goddess of fortune, whose teeth are pearls like those the hooded snake spits out, will see every sorrow of theirs perish.",
+   "concepts": [
+    "vazhipaadu",
+    "idumbai"
+   ],
+   "nuance": "Praise turns into a formula of worship for the wife they had just suspected of deceit.",
+   "speaker": {
+    "who": "civakan_thozhar",
+    "form": null,
+    "line": null,
+    "addressee": "gandharvadattai"
+   },
+   "agents": [
+    {
+     "id": "civakan_thozhar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1767": {
+   "reading": "'We shall go to our lord there; lady, if you have any message, tell it quickly,' they said, and she with the garland on her arm wrote secretly with an inked stylus on a fine palm leaf.",
+   "concepts": [
+    "thoothu",
+    "sol"
+   ],
+   "speaker": {
+    "who": "civakan_thozhar",
+    "form": null,
+    "line": null,
+    "addressee": "gandharvadattai"
+   },
+   "agents": [
+    {
+     "id": "civakan_thozhar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "gandharvadattai",
+     "form": "கோதை",
+     "line": 4
+    }
+   ],
+   "event": "The companions offer to carry a message, and Gandharvadattai secretly writes a letter on palm leaf.",
+   "claims": []
+  },
+  "1768": {
+   "reading": "She put red lac on it, pressed her seal on it with her flower earring and held it out, and bowing, the honey-haired one said 'go with the sound of victory', and they set off toward him.",
+   "concepts": [
+    "thoothu",
+    "panivu"
+   ],
+   "nuance": "ஆடிசை செல்க is taken as a blessing, 'go with resounding fame'; the reading of line 3 is not secure.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": "தேங்குழ லா",
+     "line": 3
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gandharvadattai seals the letter and sends the companions off with it.",
+   "claims": []
+  },
+  "1769": {
+   "reading": "She sent them off crowned with garlands of honeyed flowers chosen by women whose dark eyes are like bows and arrows, with bees humming over them.",
+   "concepts": [
+    "azhagu",
+    "thunai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": "விடுத்தாள்",
+     "line": 4
+    }
+   ],
+   "event": "Gandharvadattai garlands the companions and sends them off.",
+   "claims": []
+  },
+  "1770": {
+   "reading": "The steeds are described: they rise up and fill the ground, bear spotted whorls, leap as if spitting out their forelegs, and turn aside the arrows shot at them.",
+   "concepts": [
+    "padai",
+    "azhagu"
+   ],
+   "nuance": "Line 1 (the white moon made hungry, அப்பகலே) is obscure.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1771": {
+   "reading": "Through mire, sand, water and hard hills they run like the mind, never wavering in strength; in battle they wheel like a ring of fire so that the banners are drawn out; they are bred finer than those of the slopes of the great silver mountain.",
+   "concepts": [
+    "padai",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1772": {
+   "reading": "Warriors mounted these horses, numbered in thousands and twenties, their harness bright, their garlands and bells jingling, chowries set on them, and the soldiers gathered and rose with a roar.",
+   "concepts": [
+    "padai"
+   ],
+   "nuance": "The number (ஈரைஞ்ஞாற்றினை இருபதின் முரணிய தொகைய) can be read as a thousand and twenty or as twenty thousand.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "thozhar_padai",
+     "form": "வீர",
+     "line": 2
+    }
+   ],
+   "event": "The companions' horsemen mount and set out with a roar.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1752,
+   "b": 1149,
+   "type": "develops",
+   "note": "Gandharvadattai held back her spells lest a wife's rescue shame him; Civakan says he himself preferred death to being saved by a woman.",
+   "teaches": "Put together, the wife's restraint and the husband's choice turn out to be one scruple about his honour, held by each without the other's knowing, which is why the rescue had to come from the god and not from her."
+  },
+  {
+   "a": 1752,
+   "b": 959,
+   "type": "develops",
+   "note": "The god promised to come if Civakan thought of him in trouble; in his account Civakan thought of him and he came.",
+   "teaches": "The retelling shows that the god's promise worked as a pact of thought: Civakan's only act in the crisis is to think and praise, and the friendship made with the dog he once helped is what saves him."
+  },
+  {
+   "a": 1753,
+   "b": 1237,
+   "type": "qualifies",
+   "note": "The narrator says Civakan relieved the elephants hemmed in by fire; Civakan's own account says rain fell while he stood grieving.",
+   "teaches": "The narrator credits the hero with the rescue, while the hero credits a holy rain that came as he stood helpless, so his compassion is shown to act without any deed and he does not claim it."
+  },
+  {
+   "a": 1756,
+   "b": 1405,
+   "type": "develops",
+   "note": "Padumai, left behind, called him a deceiver; Civakan himself says he left her by deceit.",
+   "teaches": "The epic lets the hero confirm the abandoned woman's charge in his own word வஞ்சித்து, so her bitterness is not a lover's exaggeration but a judgment he accepts without excuse."
+  },
+  {
+   "a": 1758,
+   "b": 1215,
+   "type": "develops",
+   "note": "The god foretold that the king of the middle country would give him his daughter; Civakan reports that he has.",
+   "teaches": "The god's itinerary is fulfilled step by step, and the pairing shows that the marriage, which Civakan reports as a fee for teaching archery, was already fixed as his fortune before he set out."
+  },
+  {
+   "a": 1761,
+   "b": 1215,
+   "type": "develops",
+   "note": "The god foretold the friends would come to him drooping like stars that have lost the moon; they waste at home and set out.",
+   "teaches": "The friends' wasting like a burnt summer hill is the drooping the god foresaw, so their grief is part of the plan that brings them to him, not a delay in it."
+  },
+  {
+   "a": 1762,
+   "b": 1747,
+   "type": "tension",
+   "note": "The friends suspect Gandharvadattai because her body does not waste; she has already sent his brother to him by her spell.",
+   "teaches": "Read against 1747, the calm the friends take for deceit is knowledge: a wife who knows by her arts where her husband is has no cause to pale, and the convention they judge her by misleads them."
+  },
+  {
+   "a": 1762,
+   "b": "kural:1185",
+   "type": "qualifies",
+   "note": "The couplet makes the parted woman's pallor spread the moment the man goes; the friends treat its absence as proof of deceit.",
+   "teaches": "The epic turns the Kural's sign of parting into a test applied by men to a wife, and shows the test failing, since a wife who knows her husband is safe does not pale.",
+   "gains": {
+    "a": "the epic verse gains the rule behind the friends' suspicion, that pallor follows the lover's going at once",
+    "b": "the couplet gains a case where its sign is read from outside as evidence and its absence is misjudged"
+   }
+  },
+  {
+   "a": 1760,
+   "b": "kural:61",
+   "type": "qualifies",
+   "note": "The couplet says nothing that can be gained equals wise children; Civakan counts children among the gainable and sets a brother beyond gain.",
+   "teaches": "Civakan's list puts children with wealth and wives among the things a man can acquire, and names the brother as the one bond that cannot be got at all, a value the Kural's ranking of gains has no place for.",
+   "gains": {
+    "a": "the epic verse gains the Kural's frame of 'things that can be gained', which shows how far his praise goes in placing the brother outside it",
+    "b": "the couplet gains a rival answer, from kinship by birth rather than by begetting, to its question of the greatest gain"
+   }
+  },
+  {
+   "a": 1760,
+   "b": "kural:525",
+   "type": "qualifies",
+   "note": "The couplet says giving and sweet speech gather kin around a man; Civakan says friends and wives can be gained but a brother cannot be made.",
+   "teaches": "Set beside the Kural's way of winning kin by gifts and kind words, Civakan's saying separates the circle that can be won from the brother who can only be born, so not all kin answer to the Kural's means.",
+   "gains": {
+    "a": "the epic verse gains a contrast with the Kural's claim that kin can be drawn by giving, which sharpens what 'cannot be made' means",
+    "b": "the couplet gains a limit: the kin it gathers are the acquired circle, not the brother of one's birth"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "1749-1760: printed in 8 half-lines and joined into 4 by the build.",
+  "1749 line 1: கண்டபி னின்னைக் காண்பேன் is hard to construe as printed.",
+  "1755 line 1: அரிகுரற் கோழி நாமத் தரவவட் is obscure.",
+  "1756 line 1: வாவிப்புண் ணடையி னாளை is unclear.",
+  "1768 line 3 and 1770 line 1: word division unclear; sense uncertain.",
+  "1772 line 1: the number may be read as 1,020 or 20,000."
+ ]
+}

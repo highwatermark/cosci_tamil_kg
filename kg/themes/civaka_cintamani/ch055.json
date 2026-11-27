@@ -1,0 +1,804 @@
+{
+ "chapter_no": 55,
+ "chapter_theme": "News comes that Padumai, reaching for a flower in her grove, has been bitten by a snake; the prince's mantras, a crowd of rival healers, seven thousand Brahmins and an astrologer all fail, until an omen points to a young man, the prince sends for Civakan, and he diagnoses the bite by its cause, smell and kind and cures her with a spell, so that her first look on reviving falls on him.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, son of Saccandan and Vijayai, called சீவகசாமி in the invocation"
+  },
+  {
+   "id": "padumai",
+   "tamil": "பதுமை",
+   "role": "the princess of Chandrabham, bitten by a snake in her grove (named in 1273)"
+  },
+  {
+   "id": "iraimagan",
+   "tamil": "இறைமகன்",
+   "role": "the king's son of Chandrabham, who has taken Civakan as friend (மன்னவன் சிறுவன் in 1282)"
+  },
+  {
+   "id": "chandrabha_vendhan",
+   "tamil": "நரபதி",
+   "role": "the king of Chandrabham, Padumai's father, who offers her hand to whoever cures her"
+  },
+  {
+   "id": "vel_oruvan",
+   "tamil": "ஒருமகன்",
+   "role": "the spear-bearing man who brings the prince news of the bite"
+  },
+  {
+   "id": "malar_oruththi",
+   "tamil": "ஒருத்தி",
+   "role": "the woman who runs to tell Padumai that her jasmine has flowered"
+  },
+  {
+   "id": "padumai_thozhi",
+   "tamil": "தோழி",
+   "role": "Padumai's companion, who runs to the queen"
+  },
+  {
+   "id": "naagam",
+   "tamil": "அரவு",
+   "role": "the snake that bites Padumai"
+  },
+  {
+   "id": "vidam_vallar",
+   "tamil": "என்பார்",
+   "role": "the poison-healers who give rival diagnoses and remedies"
+  },
+  {
+   "id": "mandhira_anthanar",
+   "tamil": "அந்தணர்",
+   "role": "the seven thousand Brahmins versed in mantra and Veda who command the girl to rise"
+  },
+  {
+   "id": "kani",
+   "tamil": "கணி",
+   "role": "the astrologer who reads the hour of the bite"
+  },
+  {
+   "id": "nimiththikan",
+   "tamil": "நிமித்திகன்",
+   "role": "an unnamed reader of omens (here, at Chandrabham) who foretells Padumai's rescue; same id as the soothsayer type of 010, not the same person"
+  },
+  {
+   "id": "padumai_magalir",
+   "tamil": "இறைவளையவர்",
+   "role": "the bangled women of Padumai's household who lie weeping"
+  }
+ ],
+ "verses": {
+  "1266": {
+   "reading": "While the princess, garlanded with dripping honey, was at play, a man bearing a spear that drips flesh appears as suddenly as thunder and, bowing, speaks to the prince whose chest glitters with gems like falling stars.",
+   "concepts": [
+    "pirivu",
+    "acham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vel_oruvan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "iraimagan",
+     "form": "காவலற்",
+     "line": 4
+    }
+   ],
+   "event": "A spear-bearing messenger rushes in and bows to the prince to speak.",
+   "claims": [],
+   "nuance": "The verse holds back the news: the messenger's sudden coming (உருமின் தோன்றி) is the only sign of disaster, and the next six verses are his report."
+  },
+  "1267": {
+   "reading": "The messenger begins: in the grove of Pothiyil the lady has been rearing a young jasmine and a mauval creeper as one rears a crescent moon, watering them with clear water mixed with honey and screening them from the sun with garlands.",
+   "concepts": [
+    "anbu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "vel_oruvan",
+    "form": null,
+    "line": null,
+    "addressee": "iraimagan"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": "நங்கை",
+     "line": 4
+    }
+   ],
+   "event": null,
+   "claims": [],
+   "nuance": "The care given to the plant is the care of a mother for a child (பிறையென வளர்க்கின்றாள்); the scene that follows turns on her delight in what she has raised."
+  },
+  "1268": {
+   "reading": "That maiden jasmine, staked on a coral pole, fenced in gold, strewn with pearls, touched by her own hand and inscribed with her name, has now put out buds like fine teeth, O king of the army wide as the moated sea.",
+   "concepts": [
+    "anbu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "vel_oruvan",
+    "form": null,
+    "line": null,
+    "addressee": "iraimagan"
+   },
+   "agents": [],
+   "event": "Padumai's own jasmine comes into bud.",
+   "claims": [],
+   "nuance": "The plant bears her name and is called a maiden (கன்னி முல்லை), so its first flowering mirrors her own coming of age."
+  },
+  "1269": {
+   "reading": "A woman ran like a peacock, garland scattering, crying that the creeper had flowered and wishing her prosperity; the lady rewarded the good news with treasure and entered the fragrant grove that seemed spread with a woollen cloth of blossoms.",
+   "concepts": [
+    "inbam",
+    "eegai"
+   ],
+   "speaker": {
+    "who": "vel_oruvan",
+    "form": null,
+    "line": null,
+    "addressee": "iraimagan"
+   },
+   "agents": [
+    {
+     "id": "malar_oruththi",
+     "form": "வொருத்தி",
+     "line": 1
+    },
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A woman brings word that the jasmine has flowered; Padumai rewards her and goes into the grove.",
+   "claims": [],
+   "nuance": "ஓகை போக்கி is the custom of paying the bearer of glad news; the gift marks the joy just before the bite."
+  },
+  "1270": {
+   "reading": "In the honey-dripping grove, where a kuravam tree had flowered into a doll and bees sang over it, the lady, calling it her companion, stretched out her long arm to take the rare flower-doll.",
+   "concepts": [
+    "inbam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "vel_oruvan",
+    "form": null,
+    "line": null,
+    "addressee": "iraimagan"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": "தோளி",
+     "line": 3
+    }
+   ],
+   "event": "Padumai reaches out to pick the kuravam flower-doll.",
+   "claims": [],
+   "nuance": "The kuravam's blossom cluster called பாவை, a doll, lets the girl treat the flower as a playmate (என் தோழி ஈது); the gesture of reaching is the moment of danger."
+  },
+  "1271": {
+   "reading": "A snake living there looked at her face, took it for the laughing moon and bit her; she cried out for her mother, and her carp-eyed companion ran, crying for the lady's elders, and reached the queen.",
+   "concepts": [
+    "azhagu",
+    "acham"
+   ],
+   "speaker": {
+    "who": "vel_oruvan",
+    "form": null,
+    "line": null,
+    "addressee": "iraimagan"
+   },
+   "agents": [
+    {
+     "id": "naagam",
+     "form": "யரவு",
+     "line": 2
+    },
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "padumai_thozhi",
+     "form": "தோழி",
+     "line": 4
+    }
+   ],
+   "event": "The snake bites Padumai, mistaking her face for the moon, and her companion runs to tell the queen.",
+   "claims": [],
+   "nuance": "The bite is told as a praise of her face, the snake that seizes the moon of the eclipse turned on a girl. ஔவை here is 'mother'; திருமகள் in line 4 is most likely the queen, though the same word named the princess in 1266.",
+   "uncertain": true
+  },
+  "1272": {
+   "reading": "Bowing to the elders, worshipping her father's feet, clasping her mothers and asking them to think of her always though she has been cruel to them, she sank to the ground like lightning; 'O king, show grace,' the messenger ended.",
+   "concepts": [
+    "saakkaadu",
+    "anbu",
+    "arul"
+   ],
+   "speaker": {
+    "who": "vel_oruvan",
+    "form": null,
+    "line": null,
+    "addressee": "iraimagan"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Padumai takes leave of her parents as if dying and collapses.",
+   "claims": [],
+   "nuance": "Her farewell asks to be remembered as one who wronged them by dying (கொடியனாய்), the voice of a child who expects to die before her parents. Whose feet are meant by அடிகள் and ஐயன் in lines 1 and 2 is not certain.",
+   "uncertain": true
+  },
+  "1273": {
+   "reading": "Hearing that a snake had bitten Padumai, the prince was stricken, told Civakan to stay where he was, went at once, looked, and worked many mantras fit to quench the burning venom and remove the grief.",
+   "concepts": [
+    "mandhiram",
+    "marundhu",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "iraimagan",
+     "form": "குருசி",
+     "line": 2
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The prince leaves Civakan behind, goes to Padumai and tries many mantras on the venom.",
+   "claims": [],
+   "nuance": "The prince himself knows anti-venom mantras and fails; that he leaves his new friend behind sets up the later call for him (1282). Civakan is the one addressed by the spear epithet of line 2."
+  },
+  "1274": {
+   "reading": "The noble prince tried all he knew, and those there tried every other remedy, but the girl heard nothing; asked whether life remained, they could not say, and the force of the white-fanged snake's venom rose higher.",
+   "concepts": [
+    "marundhu",
+    "noy",
+    "saakkaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "iraimagan",
+     "form": "வள்ளறான்",
+     "line": 1
+    }
+   ],
+   "event": "Every remedy fails and the venom rises.",
+   "claims": []
+  },
+  "1275": {
+   "reading": "Proclaiming that whoever cures the lady of the harm the furious snake did her, taking her face for the moon, shall have the land, ships and great treasure and the daughter herself, the lord of the jewelled chariot had the thunder drum beaten.",
+   "concepts": [
+    "marundhu",
+    "selvam",
+    "varaivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "chandrabha_vendhan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king proclaims by drum that whoever cures Padumai will receive land, wealth and her hand.",
+   "claims": [],
+   "nuance": "The reward joins kingdom and bride, the formula of a svayamvara by deed; the Cintamani's marriages are won this way, by a feat rather than a match arranged for birth."
+  },
+  "1276": {
+   "reading": "The healers argue: some say it is a மண்டலி snake, some a royal great snake, some that a naga has seized her, some that wind, bile and phlegm, out of balance, have clotted and grown; some say that though they have done many spells that cut great harm, she does not respond.",
+   "concepts": [
+    "noy",
+    "marundhu",
+    "mandhiram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vidam_vallar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The poison-healers give rival diagnoses and report their spells have failed.",
+   "claims": [],
+   "nuance": "The scene is comic in its accumulation of என்பார்: each healer names a different snake or a humoral cause, and none agrees. The line on the three humours is the medical theory of the Kural's chapter on medicine, here applied to a bite.",
+   "uncertain": true
+  },
+  "1277": {
+   "reading": "Others say they will bleed her from the five veins, or feed her the drug சிருங்கி, or plunge her in rushing water, or apply fire; some say the snake bit to the bone as if seizing prey, and some say: speak no more, if the blood has left her the girl will not live.",
+   "concepts": [
+    "marundhu",
+    "noy",
+    "saakkaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vidam_vallar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The healers propose bleeding, drugs, water and fire, and some give her up.",
+   "claims": [],
+   "nuance": "The verse lists treatments without one being chosen; the remedies contradict each other (water and fire), which is the point. சிருங்கி is a rare word for a drug.",
+   "uncertain": true
+  },
+  "1278": {
+   "reading": "Some bind her hand and neck, some lay bright flames to her limbs, some praise the gods and stand worshipping in every direction, some say the whole world will now topple without escape; the people of the bewildered palace were like a sluice thrown open.",
+   "concepts": [
+    "vazhipaadu",
+    "idumbai",
+    "noy"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vidam_vallar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "padumai_magalir",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Healers bind and burn her limbs, others pray, and the palace breaks into wailing.",
+   "claims": [],
+   "nuance": "Worship of the gods (தெய்வதம் பரவி) is listed among the failed remedies, beside cautery and binding, with no comment from the narrator."
+  },
+  "1279": {
+   "reading": "Seven thousand Brahmins, who had received gifts of fiery gold flowers and gleaming gold thread and were masters of mantra and Veda, set cloth aloft in the air with spotless truth, clapped their hands and said, 'Let the girl with green bangles rise now, her pain gone.'",
+   "concepts": [
+    "andhanar",
+    "mandhiram",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "mandhira_anthanar",
+     "form": "ரந்தண",
+     "line": 3
+    }
+   ],
+   "event": "Seven thousand paid Brahmins chant mantras and command her to rise, without effect.",
+   "claims": [],
+   "nuance": "The Brahmins are paid before they act (பெற்றார்), and their command fails; in a Jain epic the scene sets the Vedic ritualists' mantras beside the one that will work. The rite of setting cloth in the air (அந்தரத்து அறுவை வைப்பார்) is obscure.",
+   "uncertain": true
+  },
+  "1280": {
+   "reading": "The astrologer, reading the stars, says that when a snake bites as the serpent rises, curing it is hard even for the Lord, and that today is the very day of the garlanded girl's birth star, so they must understand; at this the tears ran down to the dusty ground like water from a burst tank.",
+   "concepts": [
+    "kaalam",
+    "saakkaadu",
+    "oozh"
+   ],
+   "speaker": {
+    "who": "kani",
+    "form": "கணி",
+    "line": 3,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kani",
+     "form": "கணி",
+     "line": 3
+    }
+   ],
+   "event": "The astrologer declares the bite nearly incurable by the stars, and all weep.",
+   "claims": [],
+   "nuance": "பாம்பு எழ may name the rising of an asterism or the serpent of the eclipse; either way the verdict rests on the hour, not on the venom. Whether the birth-star day aggravates or softens the verdict is not clear from the line, but the weeping shows how it was heard. The prediction is overturned in 1290.",
+   "uncertain": true
+  },
+  "1281": {
+   "reading": "Someone tells the king: the lady will not die today, O lord of men, listen: on the closed bud at the crown of the flowering kongu an owl sits and calls with a sound like a bee's yaal, and there is a young man here who will end our distress.",
+   "concepts": [
+    "kaalam",
+    "thunai"
+   ],
+   "speaker": {
+    "who": "nimiththikan",
+    "form": null,
+    "line": null,
+    "addressee": "chandrabha_vendhan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "Against the astrologer's verdict a bird omen promises life and points to a rescuer not yet named; the verse makes divination itself split, one sign of death and one of help. Who speaks is not named (என்றான்), and reading ஆந்தை as an owl is likely but not certain.",
+   "uncertain": true
+  },
+  "1282": {
+   "reading": "Shaking the jewelled bracelets on his arm as he struck his hand on the coral pillar in his distress, the king's son said there was one more plan: 'Call and bring the young man who sat with me there'; they brought him, and Civakan saw the scene.",
+   "concepts": [
+    "thunai",
+    "natpu",
+    "soozhchi"
+   ],
+   "speaker": {
+    "who": "iraimagan",
+    "form": "மன்னவன் சிறுவன்",
+    "line": 2,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "iraimagan",
+     "form": "சிறுவன்",
+     "line": 2
+    },
+    {
+     "id": "civakan",
+     "form": "நம்பி",
+     "line": 3
+    }
+   ],
+   "event": "The prince remembers Civakan and has him fetched to Padumai.",
+   "claims": [],
+   "nuance": "The omen of a young man (1281) is fulfilled by the prince's memory of his new friend, so the help comes through friendship rather than proclamation."
+  },
+  "1283": {
+   "reading": "Seeing the bangled women lying and weeping, like great birds fallen and writhing together, like peacocks sprawled with spread wings, like cows that have lost their calves, Civakan asked what cruel thing had happened.",
+   "concepts": [
+    "idumbai",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "padumai_magalir",
+     "form": "ரிறைவளை",
+     "line": 4
+    }
+   ],
+   "event": "Civakan finds the women lamenting and asks what has befallen.",
+   "claims": []
+  },
+  "1284": {
+   "reading": "The one who sat in distress like a wounded lion spoke: 'Sow your towering fame in this victorious king's rich land, and reap kinship from it now; look at the girl who is like a fragrant flowering branch.'",
+   "concepts": [
+    "pugazh",
+    "sutram",
+    "varaivu"
+   ],
+   "speaker": {
+    "who": "chandrabha_vendhan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The appeal is put in the language of farming: fame is the seed and kinship (கேண்மை) the harvest, a quiet repetition of the drum's promise of the bride (1275). The verse names the speaker twice, as நம்பி and as கொற்ற வேந்தன், and it is not clear whether the king or the prince speaks, or whether கொற்ற வேந்தன் is the one addressed.",
+   "uncertain": true
+  },
+  "1285": {
+   "reading": "Civakan, master of learned spells and handsome as Kama, says: whether the furious snake from the anthill seized her past escape, or the gods willed it to do her harm, the girl with golden bangles will not die; do not weep in grief.",
+   "concepts": [
+    "mandhiram",
+    "kalvi",
+    "thunai"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": "காம னன்னான்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "காம னன்னான்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan assures the household that Padumai will not die.",
+   "claims": [],
+   "nuance": "கற்று அடிப்படுத்த விஞ்சை calls his power a learned art mastered by practice, not a gift of the moment, though the story traced it to a god's teaching. He allows that the gods may have caused the bite and still promises life."
+  },
+  "1286": {
+   "reading": "He adds the lore of bites: a snake bites for eight causes, pouring out venom, fear, prey, great anger, after mating, being trodden on, the season, and by mistake; and he names the kinds of bite, the one that squeezes and drinks life and the others, by how the fangs strike.",
+   "concepts": [
+    "arivu",
+    "noy",
+    "kalvi"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "padumai_magalir"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [],
+   "nuance": "Before any cure Civakan classifies: he names causes and kinds of bite as a physician names a disease, and that is what sets him apart from the healers of 1276-1279. Several terms (தட்டம், அதட்டம், பிளிற்று) are technical and their division is uncertain.",
+   "uncertain": true
+  },
+  "1287": {
+   "reading": "He says a bite smelling of the milk-and-ghee offering at dawn is from a Brahmin snake, one smelling of nandyavattam flowers from a royal snake, one smelling of the great screwpine from a merchant snake, and one smelling of decay from a Sudra snake.",
+   "concepts": [
+    "pirappu",
+    "arivu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "padumai_magalir"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [],
+   "nuance": "Snakes are sorted into the four varnas, each known by a smell drawn from its varna's world (the sacrificial offering, the royal flower, the merchant's trade flower, decay). This is snake-poison lore, not a statement about people, but it carries the varna order into nature without question."
+  },
+  "1288": {
+   "reading": "The snake that bit the maiden is itself a maiden, as the girl's look shows; it is of royal caste; and a great snake whose three fangs sink deep leaves blisters when the spot is rubbed with a finger, while one whose mark stays clear is of the மண்டலி kind.",
+   "concepts": [
+    "arivu",
+    "noy",
+    "pirappu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "padumai_magalir"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan diagnoses the bite as from a young female snake of royal caste.",
+   "claims": [],
+   "nuance": "The royal snake that bit a princess matches its victim, a symmetry the lore of 1287 makes possible. How lines 3 and 4 divide the tests is not certain.",
+   "uncertain": true
+  },
+  "1289": {
+   "reading": "Civakan, his shoulders like twin hills, recited the mantra twice, pressed the girl's dark, well-dressed hair knot, and stood reciting it twice more as he looked straight into her face.",
+   "concepts": [
+    "mandhiram",
+    "marundhu",
+    "kan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "தோளான்",
+     "line": 1
+    },
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan recites the mantra, pressing her hair knot and gazing into her face.",
+   "claims": [],
+   "nuance": "The cure is mantra and touch at the crown of the head, with the gaze into her face as part of the rite; the look that heals is also the first look between the two. இரண்டு உருவம் ஓதி most likely counts the repetitions (உரு) of the spell.",
+   "uncertain": true
+  },
+  "1290": {
+   "reading": "As the noble one stood gazing, the venom left her body as darkness breaks when the bright sun born of the long sea gathers its rays; the girl regained her form and looked at the young man with long eyes cupped like a palm.",
+   "concepts": [
+    "marundhu",
+    "kan",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "நெடுந்தகை",
+     "line": 1
+    },
+    {
+     "id": "padumai",
+     "form": "றொண்டொடி",
+     "line": 3
+    }
+   ],
+   "event": "The venom leaves Padumai, she revives and her first look falls on Civakan.",
+   "claims": [],
+   "nuance": "Her first act on returning to life is to look at Civakan (குமரன்மேல் நோக்கினாள்), so revival and falling in love are one moment; the drum's promise of 1275 has found its winner."
+  }
+ },
+ "links": [
+  {
+   "a": 1271,
+   "b": 18,
+   "type": "develops",
+   "note": "The patikam told in one line that a snake took the king's daughter's face for the moon and bit her; verse 1271 tells the bite in scene.",
+   "teaches": "The patikam's line already made the bite a praise of her face; the full scene keeps that conceit but sets it at the instant she reaches for a flower she raised, so the compliment and the danger arrive in the same gesture."
+  },
+  {
+   "a": 1285,
+   "b": 18,
+   "type": "develops",
+   "note": "In the patikam Civakan cures her by saying only 'let not your heart melt'; here he tells the household that she will not die and they must not weep.",
+   "teaches": "The patikam's bare word of comfort turns out to be the promise of a man who, unlike every healer before him, first diagnoses and then cures, so the comfort is earned by the lore of the next three verses rather than given as a hero's charm."
+  },
+  {
+   "a": 1289,
+   "b": 16,
+   "type": "develops",
+   "note": "The god freed Civakan and taught him spells, asking to be remembered; Civakan now heals the snakebite by reciting a spell.",
+   "teaches": "The spells given in return for the nectar Civakan once gave a dying dog become the means that win him a princess, so the chain of gratitude the patikam began pays out as a cure, here reached through the mantra and not through any call on the god himself."
+  },
+  {
+   "a": 1280,
+   "b": 1290,
+   "type": "tension",
+   "note": "The astrologer says the bite, given the hour, is hard to cure even for the Lord; within ten verses the venom leaves her at Civakan's gaze.",
+   "teaches": "The epic sets a reading of the stars that declares death against a cure that follows at once, so the hour the astrologer trusted is shown not to bind, and the outcome turns on the healer's learning rather than on the time of the bite."
+  },
+  {
+   "a": 1284,
+   "b": 1275,
+   "type": "develops",
+   "note": "The king had proclaimed by drum that whoever cures the girl will have land, wealth and the bride; now Civakan is told to sow fame and reap kinship in this land.",
+   "teaches": "The public offer of a prize is restated to one man as a bond of kinship, so the marriage that the drum put up for any healer becomes, before the cure, a relationship offered to Civakan in particular."
+  },
+  {
+   "a": 1286,
+   "b": "kural:948",
+   "type": "develops",
+   "note": "The Kural orders the healer to find the disease, its cause and the means that subdue it, then act; Civakan names the causes and kinds of bite and the snake's type before he recites the cure.",
+   "teaches": "The epic stages the couplet's order as a contest: a crowd of healers who act first and diagnose in contradiction all fail, and the one who examines cause and kind before acting succeeds, so the rule is shown by the cost of breaking it.",
+   "gains": {
+    "a": "Civakan's string of classifications gains a reason for being in the story: it is the diagnostic step the ethics book requires and the rival healers skipped",
+    "b": "the couplet's three steps gain a scene of failure beside success, which shows what is lost when treatment comes before finding the cause"
+   }
+  },
+  {
+   "a": 1276,
+   "b": "kural:941",
+   "type": "qualifies",
+   "note": "The Kural says the three humours counted by the learned, beginning with wind, cause disease when they exceed or fall short; one healer blames out-of-balance wind, bile and phlegm for the girl's state.",
+   "teaches": "The humoral theory the Kural states as the general cause of disease is here invoked for a snakebite and fails, so the epic marks a limit the couplet does not: a correct doctrine of illness misleads when the cause is a poison from outside.",
+   "gains": {
+    "a": "the healer's line is identified as learned medicine, so his failure is the failure of sound theory misapplied, not of quackery",
+    "b": "the couplet's account of disease gains a case outside its reach, a harm that does not arise from the body's own balance"
+   }
+  },
+  {
+   "a": 1287,
+   "b": "kural:972",
+   "type": "tension",
+   "note": "The Kural says birth is alike for all living beings and distinction comes from the work they do; Civakan's lore sorts even snakes into four varnas known by the smell of their bite.",
+   "teaches": "Read with பிறப்பொக்கும் as denying rank by birth, the couplet stands against a lore that fixes varna in nature down to snakes; the pairing shows that the Cintamani's hero carries birth-rank as plain knowledge even where the Kural, speaking of all living beings, had set it aside.",
+   "gains": {
+    "a": "the snake lore gains its weight as a claim about birth, which in the story passes as neutral technique",
+    "b": "the couplet's 'all living beings' gains a test case among animals, where the opposing view assigns rank by birth alone"
+   }
+  },
+  {
+   "a": 1281,
+   "b": "naladiyar:52",
+   "type": "qualifies",
+   "note": "The Naladiyar calls those who prattle of astrology the greatest fools; in the epic the astrologer's verdict of death fails while a bird omen of rescue comes true.",
+   "teaches": "The Jain epic does not dismiss divination wholesale as the quatrain does: it splits it, letting the star-reader's verdict be overturned while an omen pointing to a rescuer is fulfilled, so the scorn of the quatrain falls on fatalistic forecasting rather than on every sign.",
+   "gains": {
+    "a": "the omen and the astrologer gain a measure: the epic's tradition holds such readings in suspicion, which makes the success of the one and the failure of the other a pointed choice",
+    "b": "the quatrain's blanket scorn gains a narrative in which signs are tested against outcome, showing which kind of foretelling the scorn fits"
+   }
+  },
+  {
+   "a": 1289,
+   "b": "tirumanthiram:705",
+   "type": "qualifies",
+   "note": "Tirumular lists removing poison among the powers that yoga brings; Civakan removes the venom by a spell he learned, after seven thousand Brahmins with mantras have failed.",
+   "teaches": "Where the Tirumanthiram makes curing poison a sign of the yogi's attainment, the Cintamani gives it to a young layman as a learned art and lets the ritual mantra-masters fail, so the same power is moved from spiritual rank to skill and from priest to hero.",
+   "gains": {
+    "a": "Civakan's cure gains its weight as a power the Saiva tradition reserves for adepts, which makes its ease in a householder's hands notable",
+    "b": "the siddhi list gains a contrasting account in which poison-cure needs no yoga, only taught knowledge, which sharpens what Tirumular claims for his discipline"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "1271 line 4: திருமகள் named the princess in 1266 but here seems to be the queen the companion runs to; the referent is not certain.",
+  "1276 line 4: எனறுகே ளாதி தென்பார் has a misprint, probably என்று கேளாது இது என்பார் (என்று for எனறு).",
+  "1284: the verse names a speaker twice (நம்பி at line 1 and line 4, கொற்ற வேந்தன் at line 2), and who speaks to whom is not settled.",
+  "1286 and 1288: technical snake-lore terms (தட்டம், அதட்டம், பிளிற்று, மண்டலி) are rare and the division of the lines among them is uncertain."
+ ]
+}

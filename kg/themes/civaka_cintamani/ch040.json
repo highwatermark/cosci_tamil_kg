@@ -1,0 +1,774 @@
+{
+ "chapter_no": 40,
+ "chapter_theme": "Suramanjari's mother tells her father of the girl's vow to see or hear of no man; the doting father buys a royal order with a priceless necklace so that men are barred and even statues made female, while Suramanjari vows to keep her nirai for Civakan alone. Gunamalai grieves that a game has cost her a friend and worships the Jina, the town gives to suppliants and the temple at the festival, and the water-play is shown scene by scene in a run of 'behold' verses as Civakan goes to watch.",
+ "cast": [
+  {
+   "id": "suramanjari",
+   "tamil": "சுரமஞ்சரி",
+   "role": "a merchant's daughter who loses the scented-powder contest and shuns men"
+  },
+  {
+   "id": "suramanjari_thaai",
+   "tamil": "தாய்",
+   "role": "Suramanjari's mother, who reports her vow to the father"
+  },
+  {
+   "id": "suramanjari_thanthai",
+   "tamil": "தந்தை",
+   "role": "Suramanjari's father, a rich merchant who buys a royal order to keep men from her"
+  },
+  {
+   "id": "gunamalai",
+   "tamil": "குணமாலை",
+   "role": "a merchant's daughter, Suramanjari's rival in the powder contest, whom Civakan saves and marries"
+  },
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, whose verdict in the powder contest shamed Suramanjari"
+  },
+  {
+   "id": "civakan_thozhar",
+   "tamil": "தோழர்",
+   "role": "Civakan's companions"
+  },
+  {
+   "id": "kattiyangaran",
+   "tamil": "கட்டியங்காரன்",
+   "role": "the ruler of the city (the usurping minister), here only மன்னன் / மன்னவன்"
+  },
+  {
+   "id": "city_people",
+   "tamil": "சனம்",
+   "role": "the people of the city at the festival"
+  },
+  {
+   "id": "city_women",
+   "tamil": "மகளிர்",
+   "role": "the women of the city at the water-play"
+  },
+  {
+   "id": "city_women_friends",
+   "tamil": "தோழிமார்கள்",
+   "role": "the companions of a woman at the water-play"
+  },
+  {
+   "id": "youths",
+   "tamil": "மைந்தர்",
+   "role": "the young men of the city at the water-play"
+  }
+ ],
+ "verses": {
+  "901": {
+   "reading": "Thinking that grudges women take up do not leave them, even when bonds begun by the eyes would heal, the bright-eyed girl's mother speaks gently to her father.",
+   "concepts": [
+    "igal",
+    "sutram"
+   ],
+   "speaker": {
+    "who": "suramanjari_thaai",
+    "form": "டாயவ",
+    "line": 3,
+    "addressee": "suramanjari_thanthai"
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thaai",
+     "form": "டாயவ",
+     "line": 3
+    },
+    {
+     "id": "suramanjari_thanthai",
+     "form": "டந்தைக்குப்",
+     "line": 3
+    }
+   ],
+   "event": "Suramanjari's mother goes to tell her husband what has happened to their daughter.",
+   "claims": [
+    {
+     "claim": "a grudge a woman has taken up does not let go of her",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "suramanjari_thaai"
+    }
+   ],
+   "nuance": "The maxim is the mother's own judgment of her daughter (closed by என்று), not the narrator's; it prepares the father to take the vow seriously rather than as a sulk."
+  },
+  "902": {
+   "reading": "The mother tells him that their daughter's resolve is like trying to bar the moon from the sky: she will not eat if she so much as sees or hears of men.",
+   "concepts": [
+    "nirai",
+    "maanam"
+   ],
+   "speaker": {
+    "who": "suramanjari_thaai",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari_thanthai"
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thaai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The mother reports Suramanjari's vow to refuse food if she sees or hears of men.",
+   "claims": [],
+   "nuance": "The vow is one of fasting tied to the senses (கண்ணின் ... காணினுங் கேட்பினும்): even hearing of a man would break it."
+  },
+  "903": {
+   "reading": "She says that today at the water-play, over the difference that showed in the powders, the girl cried that she was undone, that it was death to her life, and stood shedding tears like pearls from her blue eyes.",
+   "concepts": [
+    "maanam",
+    "punalaadal",
+    "kootru"
+   ],
+   "speaker": {
+    "who": "suramanjari_thaai",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari_thanthai"
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": "ளேந்திழை",
+     "line": 1
+    }
+   ],
+   "event": "The mother describes Suramanjari weeping after the powder contest at the water festival.",
+   "claims": [],
+   "nuance": "இன்றேன் is read as 'I am no more'; the line division at 2-3 (வேறுபா / டின்றே னாவிக்கு) makes the exact construction uncertain.",
+   "uncertain": true
+  },
+  "904": {
+   "reading": "Asked what has befallen his darling, she answers that the girl strove with Gunamalai over the powder and lost, and burns with anger at Civakan's verdict, and asks whether he knew it.",
+   "concepts": [
+    "igal",
+    "maanam"
+   ],
+   "speaker": {
+    "who": "suramanjari_thaai",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari_thanthai"
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thanthai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "suramanjari",
+     "form": "மட்டவிழ் கோதை",
+     "line": 2
+    }
+   ],
+   "event": "The father asks what is wrong and the mother tells him of the lost contest and Suramanjari's anger at Civakan.",
+   "claims": [],
+   "nuance": "Line 1 is the father's question (பட்டதென் னங்கைக் கென்ன) folded into the mother's speech; the grievance is aimed at Civakan's judgment, not at Gunamalai alone."
+  },
+  "905": {
+   "reading": "Sighing like a resting elephant, the father says he gladly hears what his girl has set her mind on, and that even if she would shut men out of the whole city he will bring it about with his flood of wealth.",
+   "concepts": [
+    "selvam",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "suramanjari_thanthai",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari_thaai"
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thanthai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The father agrees to carry out his daughter's wish with his wealth.",
+   "claims": []
+  },
+  "906": {
+   "reading": "He wants his name to stand in story as the man whose daughter, at such a time and in such a city, kept men away to such a bound for such a cause, and he takes up a priceless necklace and goes.",
+   "concepts": [
+    "pugazh",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thanthai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The father takes a priceless necklace and sets out, wishing to be remembered for his daughter's vow.",
+   "claims": [],
+   "nuance": "The run of இன்னதோர் ('such a') mimics the shape of a told tale: the father wants the vow to become a story with his name in it, so his indulgence is also a bid for fame."
+  },
+  "907": {
+   "reading": "He gives the king a jewelled necklace worth the three worlds and states his request; the king orders it, men's coming and going in that place ceases, and he has every carved figure made into a woman with breasts.",
+   "concepts": [
+    "selvam",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thanthai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kattiyangaran",
+     "form": "மன்னற்",
+     "line": 2
+    }
+   ],
+   "event": "The father buys a royal order with a necklace; men are barred and even the carved figures are made female.",
+   "claims": [],
+   "nuance": "வாள்வழக் கற்ற is read as ஆள் வழக்கு அற்றது, the traffic of men ending; the king is the ruler of the city in the story (Kattiyangaran), not named here. A private grief is turned into public law by a gift to the throne.",
+   "uncertain": true
+  },
+  "908": {
+   "reading": "Suramanjari resolves with a single mind that even if time runs out, if she is to be joined to Civakan's gold-bright chest let it be so, but otherwise no one shall break her self-containment, and she withdraws.",
+   "concepts": [
+    "nirai",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "suramanjari",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": "சிந்தைய",
+     "line": 4
+    }
+   ],
+   "event": "Suramanjari makes an exception of Civakan in her vow and shuts herself away.",
+   "claims": [],
+   "nuance": "The vow against all men is not a refusal of love: the one man whose verdict shamed her is the one exception, so the vow is also a claim on him."
+  },
+  "909": {
+   "reading": "Thinking how a game meant to give joy had turned into a cause of sorrow that drove her friend away, Gunamalai wept in anguish out of love.",
+   "concepts": [
+    "inbam",
+    "idumbai",
+    "natpu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": "மாலை",
+     "line": 3
+    }
+   ],
+   "event": "Gunamalai weeps over her friend's estrangement.",
+   "claims": [
+    {
+     "claim": "play undertaken for pleasure can become the cause of grief and separation",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "gunamalai"
+    }
+   ],
+   "nuance": "ஈர்மலர் மாலை is taken as Gunamalai (called மாலை in 904); துறப்பித்திடும் may mean that the game makes one give up a friend or that it makes Suramanjari renounce men, and the subject of தன் அன்பினால் is not explicit.",
+   "uncertain": true
+  },
+  "910": {
+   "reading": "Having bathed in the cool sweet water, she offers a thousand golden lotuses at the feet of the one under the pindi tree and bows.",
+   "concepts": [
+    "vazhipaadu",
+    "punalaadal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gunamalai, after bathing, worships the Jina with a thousand golden lotuses.",
+   "claims": [],
+   "nuance": "பிண்டியினான், the one of the asoka (pindi) tree, is a Jain name for the Jina; the worshipper is taken to be Gunamalai continuing from 909, though the verse names no one.",
+   "uncertain": true
+  },
+  "911": {
+   "reading": "When the king of the wide sea-girt land bathed and proclaimed that the needy and the Brahmins should take, the shout rose to the sky and the people carried off bright treasure.",
+   "concepts": [
+    "eegai",
+    "punalaadal",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran",
+     "form": "மன்னவ",
+     "line": 2
+    },
+    {
+     "id": "city_people",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "At the festival bathing the king proclaims a free gift to the needy and Brahmins, and the people take the wealth.",
+   "claims": [],
+   "nuance": "மாசை (gold) and மீசை (above) are rare; the reading of the king's bath as the occasion of the gift is tentative.",
+   "uncertain": true
+  },
+  "912": {
+   "reading": "For the long temple-city of the peerless one who withered the god with the makara banner, walled in gold like fire-red peaks, the city gave eight crores.",
+   "concepts": [
+    "eegai",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_people",
+     "form": "நகரம்",
+     "line": 4
+    }
+   ],
+   "event": "The city gives eight crores of gold to the Jina's temple.",
+   "claims": [],
+   "nuance": "The Jina is named only by his victory over Kama (மகர வெல்கொடி மைந்தனை வாட்டிய), a fitting epithet in a chapter about a vow against desire."
+  },
+  "913": {
+   "reading": "Those who from the new-moon day poured out their wealth to suppliants, gold piled to the lap and offered with joined hands, dammed the sea called craving, whose water is the wavering mind and whose shore is unfailing deed.",
+   "concepts": [
+    "eegai",
+    "avaa",
+    "vinai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_people",
+     "form": "யுய்த்தவர்",
+     "line": 1
+    }
+   ],
+   "event": "The townspeople give their wealth to suppliants through the festival.",
+   "claims": [
+    {
+     "claim": "giving away wealth to those who ask holds back the sea of craving",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ],
+   "nuance": "The metaphor's parts (தவாவினை, சிந்தை நீர், அவா கடல்) are clear but how they attach is hard to fix: தவாவினை may be the bank that holds the sea or the deed that gives way to it.",
+   "uncertain": true
+  },
+  "914": {
+   "reading": "The peerless women with tinkling anklets on small feet and the men with sounding warrior anklets raise a roar in the golden water like a battlefield.",
+   "concepts": [
+    "punalaadal",
+    "ilamai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "நிகரில்லார்",
+     "line": 4
+    },
+    {
+     "id": "youths",
+     "form": "லாடவ",
+     "line": 2
+    }
+   ],
+   "event": "Men and women of the town plunge into the water-play.",
+   "claims": [],
+   "nuance": "The water-play is figured as battle (போரரவக் களம்), as in the Paripadal's river festivals."
+  },
+  "915": {
+   "reading": "The water-play stands adorned as women like lightning playing in the clouds, with banded breasts, sport with garlanded young men in the swelling water.",
+   "concepts": [
+    "punalaadal",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "மின்னனையார்",
+     "line": 1
+    },
+    {
+     "id": "youths",
+     "form": "மைந்தர்",
+     "line": 2
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "916": {
+   "reading": "Civakan, with the strength of a rutting tusker, goes to watch the women in flower-wreaths play, their young breasts pressing as bees drink.",
+   "concepts": [
+    "punalaadal",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "சீவக",
+     "line": 3
+    }
+   ],
+   "event": "Civakan goes to watch the women's water-play.",
+   "claims": []
+  },
+  "917": {
+   "reading": "You who have only one life, keep away: look at her walking like a gold-touched creeper to the water, her girdle and anklets crying and bees humming that she has become Death itself, splitting lives without mercy.",
+   "concepts": [
+    "anangu",
+    "kootru",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "பவளைக்",
+     "line": 4
+    }
+   ],
+   "event": "A young woman walks down to the water.",
+   "claims": [],
+   "nuance": "No speech tag names the voice of the காண்மின் series (917-925); it is read here as Civakan, who has just gone to watch (916), pointing the scenes out to his companions, but it could be the poet addressing his hearers.",
+   "uncertain": true
+  },
+  "918": {
+   "reading": "Look at the young woman who, seeing a garland of lotuses from the fiery pool drawn off by the water, gives her earrings, ornaments and string to the stream, telling it to wear them so its husband may rejoice.",
+   "concepts": [
+    "punalaadal",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "மிளையோ",
+     "line": 4
+    }
+   ],
+   "event": "A girl gives her jewels to the stream that took her garland.",
+   "claims": [],
+   "nuance": "She treats the stream as a bride whose husband must be pleased, the river's conventional marriage to the sea; same voice as 917.",
+   "uncertain": true
+  },
+  "919": {
+   "reading": "Look at the peacock that took a woman's spread hair for a peahen, ran to embrace her, saw its mistake, and walks off ashamed to the grove.",
+   "concepts": [
+    "azhagu",
+    "naanam"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "மகளிர்",
+     "line": 1
+    }
+   ],
+   "event": "A peacock mistakes a woman's hair for a peahen and slinks away.",
+   "claims": [],
+   "nuance": "Same voice as 917.",
+   "uncertain": true
+  },
+  "920": {
+   "reading": "Look at the grace of the girl whose bright jewel fell unseen into the water: she begs the swan-hen, saying she worships it, that her mother is harsh, and that it should find the jewel and keep her as its servant.",
+   "concepts": [
+    "punalaadal",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A girl who has lost her jewel in the water pleads with a swan to find it.",
+   "claims": [],
+   "nuance": "The inset prayer (அன்னப் பெடையே தொழுதேன்) is a small comic vow: she offers herself as slave for the return of a jewel, set beside Suramanjari's grave vow earlier in the chapter. Same voice as 917.",
+   "uncertain": true
+  },
+  "921": {
+   "reading": "Look at the eagerness of the husband who leaves the water for the flowering grove while his wife, nursing the child of love with sweet songs as milk from her breasts, rears it.",
+   "concepts": [
+    "kaamam",
+    "punarchi"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "கோதை",
+     "line": 1
+    }
+   ],
+   "event": "A husband leaves the water for the grove, drawn by his wife's songs.",
+   "claims": [],
+   "nuance": "காமக் குழவி, love as an infant fed on song, is the verse's own image; same voice as 917.",
+   "uncertain": true
+  },
+  "922": {
+   "reading": "Look how, as a girl swings on a coral seat hung by gold ropes from areca stems and the women in the middle push her, the broken beads of her girdle flash and fall like lightning from the sky.",
+   "concepts": [
+    "azhagu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "மடந்தை",
+     "line": 2
+    }
+   ],
+   "event": "A girl swings and her girdle beads scatter.",
+   "claims": [],
+   "nuance": "Same voice as 917; நடலைந் நடுவின் is obscure.",
+   "uncertain": true
+  },
+  "923": {
+   "reading": "Look at the girl walking on, her fine silk soaked with scented water so that her body shows through, ashamed of being exposed, while her jewelled girdle clings to its place and makes no sound, like proud women keeping silent.",
+   "concepts": [
+    "naanam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A girl in wet silk walks away in shame.",
+   "claims": [],
+   "nuance": "Same voice as 917.",
+   "uncertain": true
+  },
+  "924": {
+   "reading": "Look at the bamboo-shouldered girl who, as the little parrot hungry for milk searched how its mother might be kept from the water, took fright thinking it a snake, lost her gold ear-ring and trembled her way to the bank.",
+   "concepts": [
+    "acham",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "தோளி",
+     "line": 4
+    }
+   ],
+   "event": "A girl takes fright at something she thinks a snake and makes for the bank.",
+   "claims": [],
+   "nuance": "Line 2 (ஓம்பு தாய்நீர் குடைய வொழிக்கும் வண்ண நாடி) is hard to construe; what frightened her is not clear. Same voice as 917.",
+   "uncertain": true
+  },
+  "925": {
+   "reading": "Look at her playing with the flower-ball, her bangled forearms thrown left and right like a lone peacock leaping at flying ants, while her friends grieve that her waist will break.",
+   "concepts": [
+    "azhagu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "மவளைக்",
+     "line": 4
+    },
+    {
+     "id": "city_women_friends",
+     "form": "றோழி மார்க",
+     "line": 3
+    }
+   ],
+   "event": "A girl plays ball while her friends fear for her waist.",
+   "claims": [],
+   "nuance": "Same voice as 917.",
+   "uncertain": true
+  }
+ },
+ "links": [
+  {
+   "a": "908",
+   "b": 13,
+   "type": "qualifies",
+   "note": "The patikam sums up Suramanjari as resolving to look on no male form; 908 has her vow already reserve one exception, Civakan.",
+   "teaches": "The vow the outline reports as a refusal of all men is in the story a vow with Civakan written into it, so her seclusion is a waiting as much as a withdrawal."
+  },
+  {
+   "a": "908",
+   "b": 2005,
+   "type": "develops",
+   "note": "908's condition, joining Civakan's chest or no one breaking her nirai, is met when Suramanjari's heart rises to sink into his chest in her own ilampakam.",
+   "teaches": "The exception she sets in anger becomes the desire that ends the vow, so the epic keeps her nirai intact by letting the one permitted man be the one she longs for."
+  },
+  {
+   "a": "907",
+   "b": 2003,
+   "type": "tension",
+   "note": "The father has every carved figure made female so no male form is seen; later Civakan is told to hide by the golden image of Kama in the god of love's temple.",
+   "teaches": "A ban thorough enough to change the sex of statues still leaves the love god's own image standing, and that is the gap through which the excluded man is brought in."
+  },
+  {
+   "a": "913",
+   "b": "kural:367",
+   "type": "develops",
+   "note": "Kural 367 says that if craving is cut off thoroughly, unfailing deeds (தவாவினை) come as one wishes; 913 pictures giving to suppliants as damming the sea called அவா, with தவாவினை at its shore.",
+   "teaches": "The epic takes the Kural's pair of craving and unfailing deed and makes festival giving the practical means of checking craving, where the couplet names only the cutting itself.",
+   "gains": {
+    "a": "the doctrinal source of its compressed image: the words அவா and தவாவினை are the couplet's own pairing, which explains why deed and craving share one metaphor",
+    "b": "a concrete social act, gold poured out to suppliants on a festival day, as the way craving is held back short of renunciation"
+   }
+  },
+  {
+   "a": "909",
+   "b": "naladiyar:60",
+   "type": "develops",
+   "note": "Naladiyar 60 says the higher ones look to the pain within each pleasure and do not cling; in 909 Gunamalai, after the game that cost her a friend, sees that play meant for joy became the cause of sorrow.",
+   "teaches": "The quatrain's discipline of seeing pain inside pleasure appears in the epic first as a girl's tears over a garden game, an early lesson in a story that ends in renunciation.",
+   "gains": {
+    "a": "the ascetic frame in which Gunamalai's private grief reads as the first form of the insight that leads to thuravu",
+    "b": "a lived case where the pain in pleasure is not bodily or moral but a broken friendship, arising from a contest of beauty"
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "punalaadal",
+   "tamil": "புனல் ஆடல்",
+   "gloss": "water-play in the river or pool, especially the festival bathing of the town and of lovers in the new flood",
+   "label_source": "the verse's words (Civaka Cintamani 910: தீம்புன லாடிய; 903: நீர்விளை யாட்டினு)"
+  }
+ ],
+ "source_issues": [
+  "Verses 906, 917, 918, 919, 920 and 924 were printed in 8 half-lines and joined into 4 by the repair (FLAG repaired); the joins read correctly.",
+  "Verse 907 line 3 prints ஏவ வாள்வழக் கற்ற, read here as ஏவ ஆள் வழக்கு அற்றது; division uncertain.",
+  "Verse 911 (மாசை மாக்கடல், மீசை நீள்விசும்பு) and verse 913 lines 3-4 (தவாவினை யடைகரை தயங்கு சிந்தை நீ ரவாவெனு முடை கடல்) are hard to divide and construe.",
+  "Verse 922 line 3 (நடலைந் நடுவின்) and verse 924 line 2 (ஓம்பு தாய்நீர் குடைய) are obscure as printed.",
+  "Verse 909 line 2 begins டுன்பக், a sandhi split carried over from விளையாட்டினுள் + துன்பக்."
+ ]
+}

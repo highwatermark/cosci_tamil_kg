@@ -1,0 +1,782 @@
+{
+ "chapter_no": 54,
+ "chapter_theme": "Civakan ends his worship at the hill temple with a hymn to the Jina as the one who crossed birth, ended karma and gave the world its teaching, then travels to Chandirapam in the Pallava country, where a dancer falls in love with him on stage and vows herself to him, and the prince, following her gaze, takes him as a friend.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, son of Saccandan and Vijayai"
+  },
+  {
+   "id": "aruhan",
+   "tamil": "அறிவன்",
+   "role": "the Jina, the Omniscient, worshipped at the hill temple and addressed in Civakan's hymn (1241-1247)"
+  },
+  {
+   "id": "malai_deyvam",
+   "tamil": "வெம்மலைத் தெய்வதம்",
+   "role": "the deity of the mountain, who feasts Civakan"
+  },
+  {
+   "id": "kadaisiyar",
+   "tamil": "கடைசியர்",
+   "role": "the field-women of the Pallava country whom Civakan asks the way"
+  },
+  {
+   "id": "ulokapalan",
+   "tamil": "உலோகபாலன்",
+   "role": "the prince of Chandirapam in the Pallava country (இறைமகன் 1253, அரசன் 1262, இறைவன் 1264), who befriends Civakan; the name is traditional and not in these verses"
+  },
+  {
+   "id": "dancer",
+   "tamil": "அரம்பை அன்னாள்",
+   "role": "the unnamed dancer of Chandirapam who falls in love with Civakan (அழகி 1254)"
+  },
+  {
+   "id": "spectators",
+   "tamil": "கண்டார்",
+   "role": "the audience at the dance"
+  }
+ ],
+ "verses": {
+  "1241": {
+   "reading": "Civakan gathers flowers from the pond, fallen blossoms from low boughs and blooms from creepers, dripping honey, lays them with his own hands on the feet of the Omniscient of firm fame, and sings to the beat a song of the Lord's virtues.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan",
+    "isai"
+   ],
+   "nuance": "Three sources of flowers (water, tree, creeper) make the offering complete; the god is named only as அறிவன், the Knower, the Jain title of the Jina, not by a personal name.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "At the hill temple Civakan offers flowers at the Jina's feet and begins a hymn.",
+   "claims": []
+  },
+  "1242": {
+   "reading": "Civakan hails the Lord as the one who gave the first Veda, who sat beneath the rain of blossoms, who knew the way of justice and is lord of peerless vision, and asks that the bonds of attachment of those who worship his lotus feet in the harmful sea of births be loosened.",
+   "concepts": [
+    "iraivan",
+    "piravi",
+    "pattru",
+    "vedham"
+   ],
+   "nuance": "'The first Veda' (ஆதி வேதம்) is claimed for the Jina, not the Brahmins' Veda; the prayer asks not to be carried across the sea but for attachment (பசை) to come untied, the Jain account of what keeps one in it. The division பசை யாப்பு அவிழ is ours.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "aruhan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Jina is the giver of the first Veda and knower of the way of justice",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    },
+    {
+     "claim": "attachment binds beings in the harmful sea of births",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "1243": {
+   "reading": "He praises the Lord as one who has passed beyond painful birth, has bliss without equal, has rejected the unstable world and has boundless vision, and asks him to tell the way of rescue to those who sink in the sea of the senses' craving and wander in hostile karma.",
+   "concepts": [
+    "vinai",
+    "piravi",
+    "veedu",
+    "avaa"
+   ],
+   "nuance": "What the worshipper asks for is speech, உரையாயே, 'tell': the Lord saves by teaching a way, which fits the hymn's figure of the Jina as the one who himself crossed (இகந்தோய்) rather than one who lifts others.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "aruhan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "craving of the senses drowns beings and karma makes them wander",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    },
+    {
+     "claim": "the Lord has gone beyond birth and rejected the unstable world",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "1244": {
+   "reading": "He hails the Lord as owner of the three worlds, dweller within the bright golden wall, the foremost in strength, praised by the gods, an endless sea of virtues and the Primal one none can know, who raised the wheel that does not kill and sits in the shade of the cool triple umbrella.",
+   "concepts": [
+    "iraivan",
+    "kollaamai",
+    "anaadhi"
+   ],
+   "nuance": "The wheel of dominion, elsewhere the conqueror's sign, is here the wheel 'without killing' (கொலையில் ஆழி): the Jina's sovereignty is non-violence. The golden wall and triple umbrella are the marks of the Jina's preaching hall.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "aruhan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Jina's wheel of rule is a wheel without killing",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "1245": {
+   "reading": "In a question and answer, the hymn asks who it is that rose up to the crowned summit of the worlds while the worlds below praised him and showered blossoms, and answers that it is the Lord who destroyed the bonds of the three guarded fortresses.",
+   "concepts": [
+    "veedu",
+    "iraivan",
+    "pattru"
+   ],
+   "nuance": "The epithet of destroying three forts is the Saiva one of Siva and the three cities, taken over for the Jina; the word கட்டு ('bond', also 'fastening') suggests the forts are read as bonds, but the verse does not say which three. The 'crowned world' is the summit of the universe where the freed rest.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "aruhan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Lord rose to the summit of the worlds by destroying three fortified bonds",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "1246": {
+   "reading": "The hymn asks who is the Real One who, having conquered the three worlds so that strife ceased, gave the Three on earth, and answers that it is the Lord, the Knower-Aran whose wheel is like the cool moon and who is the refuge of the world.",
+   "concepts": [
+    "iraivan",
+    "thaththuvam",
+    "arul"
+   ],
+   "nuance": "'The Three' (மூன்று) are unnamed; in Jain teaching the triad given to the world would be right faith, knowledge and conduct, but that is our gloss. அரன் here is applied to the Jina, a second Saiva name taken over after the three forts of 1245.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "aruhan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Jina conquered the three worlds without strife and gave the world a threefold teaching",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "1247": {
+   "reading": "The hymn asks who is the Vaaman who ended karma that cannot be ended, discerned and handed on the sacred ford, and taught the state from which none return, and answers that it is the god of the blossoming asoka tree thick with flowers.",
+   "concepts": [
+    "vinai",
+    "veedu",
+    "theerththam",
+    "iraivan"
+   ],
+   "nuance": "வாராக் கதி, 'the going from which none come back', names release as the end of return, not a heaven. Whose karma is ended is not stated; in the Jain frame (and 1240's temple of the one who cut the ghati karmas) it is first the Jina's own, which he then teaches others to end.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "aruhan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "karma that cannot otherwise be ended was ended by the Jina, who taught the path of no return",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "1248": {
+   "reading": "Having bowed at the Jina temple on that hill and praised the golden-flowered red feet of the Lord, and having been feasted by the deity of the fierce mountain, the noble youth went on and reached the Pallava country.",
+   "concepts": [
+    "vazhipaadu",
+    "virundhu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "செம்மல்",
+     "line": 4
+    },
+    {
+     "id": "malai_deyvam",
+     "form": "தெய்வதம்",
+     "line": 3
+    }
+   ],
+   "event": "The mountain deity feasts Civakan, and he leaves the hill and reaches the Pallava country.",
+   "claims": []
+  },
+  "1249": {
+   "reading": "He asks two field-women, languid-eyed from drinking toddy, who pluck blue lilies in fields where striped varal fish leap, the way to the city and goes on ahead.",
+   "concepts": [
+    "uzhavu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kadaisiyar",
+     "form": "கடைசி மங்கையர்",
+     "line": 2
+    }
+   ],
+   "event": "Civakan asks two field-women the way to the city.",
+   "claims": []
+  },
+  "1250": {
+   "reading": "The city, ringed by moats of many lotuses where swans and makanril birds rest and by its ancient unbreached wall coiled like a serpent of green gold, shines like a lovely woman wearing the sea and adorned with gold.",
+   "concepts": [
+    "aran",
+    "azhagu"
+   ],
+   "nuance": "கன்னி மூதெயில், 'the virgin ancient wall', is the wall never taken; the figure of the city as an adorned woman readies the scene of the dancer that follows.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1251": {
+   "reading": "The young bull with the shining spear reaches Chandirapam, where flags on mansions fragrant with agil smoke cut through the clouds and shut out the daylight.",
+   "concepts": [
+    "naadu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "காளை",
+     "line": 4
+    }
+   ],
+   "event": "Civakan reaches the city Chandirapam.",
+   "claims": []
+  },
+  "1252": {
+   "reading": "He went on while many praised his beauty and water was brought in flower-decked jewelled pots, and he entered the city like the one who measured the world.",
+   "concepts": [
+    "azhagu",
+    "pugazh"
+   ],
+   "nuance": "Line 3 (அலர்கதிர் கரும்பு இளை மடுப்ப) is hard to construe; it may say that the sugarcane hedges took in the spreading rays. The comparison to உலகளந்தான் is the Vaishnava Trivikrama, used for the hero's stride into the city.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan enters Chandirapam amid praise and ceremonial water.",
+   "claims": []
+  },
+  "1253": {
+   "reading": "In a garden of sandal groves and blooming champak, with garlands hung and a jewelled stage adorned, women like the celestial maidens perform a drama while the king's son sits watching like Indra's son in heaven.",
+   "concepts": [
+    "koothu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ulokapalan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "dancer",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The prince of Chandirapam watches a dance-drama staged in the garden.",
+   "claims": []
+  },
+  "1254": {
+   "reading": "Her hair tied up and bright with honeyed garlands, wearing a gleaming gold forehead band, earrings and a necklace, her girdle bells and anklets chiming together, the long-armed beauty like Rambha dances on the stage.",
+   "concepts": [
+    "koothu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dancer",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A dancer takes the stage.",
+   "claims": []
+  },
+  "1255": {
+   "reading": "To drum, muzhavu, vina and flute she dances with eyes, brows, hands, feet, garment, hips and waist, and the men who watch her form melt like butter touched by fire.",
+   "concepts": [
+    "koothu",
+    "isai",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dancer",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The dancer performs and the men watching are overcome.",
+   "claims": []
+  },
+  "1256": {
+   "reading": "Her dance is joined to the song, the three tuned instruments blend and flow like nectar, and as the arrows of her long streaked eyes tear into hearts she dances keeping the rhythm.",
+   "concepts": [
+    "koothu",
+    "isai",
+    "kan"
+   ],
+   "nuance": "Line 4's வீடமை பசும்பொற் சாந்தம் is obscure as written; the image of fresh-gold sandal paste does not join clearly to the rest.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dancer",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1257": {
+   "reading": "With her forehead band flashing, her earrings throwing rainbows, her breasts trembling and her gold earring swaying on the left, she bends and circles her bangled hands, and with her blue-lily eyes she looks at the youth.",
+   "concepts": [
+    "koothu",
+    "kan",
+    "kurippu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dancer",
+     "form": "மாணிழை",
+     "line": 3
+    }
+   ],
+   "event": "In the middle of the dance she looks at Civakan.",
+   "claims": []
+  },
+  "1258": {
+   "reading": "She looked, and with her long eyes for a cupped palm she scooped up and drank the beauty of the finely formed youth; at that the rhythm she had kept left her, and her long eyes ran with tears that fell on her breasts like white pearls.",
+   "concepts": [
+    "kaamam",
+    "kan",
+    "koothu"
+   ],
+   "nuance": "The art fails at the moment of desire: the dancer whose eyes were weapons in 1256 becomes the one who drinks through them, and loses the laya, the one thing the stage requires.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dancer",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The dancer loses the rhythm and weeps.",
+   "claims": []
+  },
+  "1259": {
+   "reading": "The woman with proud kayal-fish eyes, shrinking from being seen as she looked at the noble son, pressed and broke the gleaming jewelled string on her breast so its thread snapped and scattered, and as all her flowers scorched and withered she could not bear it and languished in the red fire of desire.",
+   "concepts": [
+    "kaamanoy",
+    "kaamam",
+    "melivu"
+   ],
+   "nuance": "The flowers withering on her body are the tradition's sign of love's fever. 'Shrinking from being seen' depends on reading காண்டல் அஞ்சி for the printed காண்ட லங்சி.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dancer",
+     "form": "மாதர்",
+     "line": 2
+    }
+   ],
+   "event": "The dancer breaks her necklace and languishes with desire.",
+   "claims": []
+  },
+  "1260": {
+   "reading": "She says that the sweet fruit of her ripened maidenhood, fragrant with desire, is for this lord alone and no other; those who said that chastity breaks for gold told a lie; there is no room in her heart for anyone but this sweet-voiced man.",
+   "concepts": [
+    "karpu",
+    "kaamam",
+    "varaivinmagalir"
+   ],
+   "nuance": "A stage dancer, of the class the ethical books call women for hire, claims karpu for herself and calls the saying that gold breaks it a lie. The epic lets her speak it; whether the story bears her out is for later verses.",
+   "speaker": {
+    "who": "dancer",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dancer",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The dancer vows in her heart that she will belong to Civakan alone.",
+   "claims": [
+    {
+     "claim": "it is false that a dancer's chastity breaks for gold",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "dancer"
+    }
+   ]
+  },
+  "1261": {
+   "reading": "Is he the lovely youth who rides the dark-winged bird, or the lord who raised the great shark banner, or the rare prince Kumaran, she wonders, and stands bewildered, the jewelled one like a lovely doll.",
+   "concepts": [
+    "mayal",
+    "kaamam",
+    "azhagu"
+   ],
+   "nuance": "Her guesses are gods: the shark banner is Kama's; the bird-rider and Kumaran are less certain identifications (the bird may be Vishnu's Garuda or Murugan's peacock). Seeing the hero as a god in disguise is a recurring move of the poem.",
+   "uncertain": true,
+   "speaker": {
+    "who": "dancer",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dancer",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1262": {
+   "reading": "Her flower-like eyes turned aside and would not blink; wondering what she had seen, the king too looked carefully and saw the young man whose garland the bees hum over, and with his heart glad with affection he said, 'Bring the youth.'",
+   "concepts": [
+    "natpu",
+    "kurippu",
+    "kan"
+   ],
+   "nuance": "The ruler reads the dancer's gaze as the usurper's ally did in 685, and draws the opposite conclusion: not a rival to resent but a man to meet.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ulokapalan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Following the dancer's gaze, the prince sees Civakan and orders him brought.",
+   "claims": []
+  },
+  "1263": {
+   "reading": "All who looked, in doubt, reasoned that if he were the god with the sugarcane bow he would have his bow and arrows, and since he has none he must be a king of the true Yakshas.",
+   "concepts": [
+    "mayal",
+    "azhagu",
+    "aaraaydhal"
+   ],
+   "speaker": {
+    "who": "spectators",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "spectators",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1264": {
+   "reading": "Everyone decided he was a heavenly prince who had forgotten his spell, fallen and was walking on the earth, and brought him to the prince of Indra's splendour; the lord received and honoured him, spoke to the young man with joy and called him his brother-in-law friend.",
+   "concepts": [
+    "natpu",
+    "virundhu",
+    "anbu"
+   ],
+   "nuance": "'One who forgot his mantra and fell' is the lore of the Vidyadharas, whose flight depends on spells. மைத்துனத் தோழன் names a friend as close as a wife's brother; it may look ahead to a marriage tie the story has not yet made.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "spectators",
+     "form": "யாவரும்",
+     "line": 2
+    },
+    {
+     "id": "ulokapalan",
+     "form": "இறைவனும்",
+     "line": 3
+    }
+   ],
+   "event": "The crowd brings Civakan to the prince, who welcomes him and calls him a brother-in-law friend.",
+   "claims": []
+  },
+  "1265": {
+   "reading": "When the prince of the flower garland and the youth of the anklet-feet sat together, one in affection, the dancer came back to herself, took up the rhythm again and troubled him with the brows of her flower-like eyes.",
+   "concepts": [
+    "natpu",
+    "koothu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ulokapalan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "dancer",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan and the prince sit together as friends; the dancer recovers the rhythm and plays her glances at him.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1242,
+   "b": "kural:10",
+   "type": "qualifies",
+   "note": "The Kural says those who reach the Lord's feet swim the sea of births; Civakan's hymn worships the Jina's lotus feet from within that sea and asks that attachment's bonds be untied.",
+   "teaches": "Set beside the couplet, the hymn names what reaching the feet is supposed to do in a Jain frame: not a crossing given from outside but the loosening of attachment (பசை), so the same image of feet and sea carries a doctrine of release by unbinding.",
+   "gains": {
+    "a": "the hymn's sea and feet are placed in the oldest Tamil statement of the image, which shows that the Jain poet is answering a known formula",
+    "b": "the couplet's unnamed Lord and unexplained swimming gain one school's account of both: the Lord is the Jina and the swimming is the ending of attachment"
+   }
+  },
+  {
+   "a": 1245,
+   "b": "tirumanthiram:343",
+   "type": "qualifies",
+   "note": "Tirumular says the three cities Siva destroyed are the work of the three malas; the Jain hymn gives the destroyer of three guarded forts to the Jina, who rose to the world's summit.",
+   "teaches": "Both a Saiva and a Jain poet read the three-city myth as the destruction of inner bonds, but they give it to different destroyers, so the pair shows the myth as ground the schools contested and allegorised in rival directions.",
+   "gains": {
+    "a": "the hymn's bare epithet gains its source: it is Siva's deed, taken over for the Jina, and the allegorical reading of it was already current",
+    "b": "Tirumular's correction of 'fools' gains a rival who also refuses the literal myth yet keeps no Siva in it, a sharper opponent than literalism"
+   }
+  },
+  {
+   "a": 1247,
+   "b": "tirumanthiram:1527",
+   "type": "tension",
+   "note": "Tirumular has grace-power come as guru and end the malas when one's own agency ceases; the Jain hymn praises the Jina who ended karma that cannot be ended and taught the path of no return.",
+   "teaches": "On the reading that the Jina ended his own karma and teaches others to end theirs, the two verses give opposite answers to who removes karma: in the Saiva verse one's own doing must stop and grace acts, in the Jain verse the liberated one is the one whose own effort ended it.",
+   "gains": {
+    "a": "the hymn's 'karma that cannot be ended' gains its contrast: the Saiva text agrees it cannot be ended by the soul alone but supplies a divine agent the Jain hymn does without",
+    "b": "Tirumular's demand that one's own agency end gains a named rival doctrine in which the agent of release is a man who acted, which shows what the demand is arguing against"
+   }
+  },
+  {
+   "a": 1260,
+   "b": "naladiyar:371",
+   "type": "tension",
+   "note": "The Naladiyar says a harlot's love ends when the hand is empty, like a lamp without oil; the Cintamani's dancer calls the saying that chastity breaks for gold a lie and vows herself to one man.",
+   "teaches": "The dancer answers the very proverb the Naladiyar states, in her own voice, so the pair shows the epic giving the woman of the stage a reply that the didactic tradition never lets her make.",
+   "gains": {
+    "a": "the dancer's 'those who said it lied' gains a named target: a saying of this kind stood in the ethical books",
+    "b": "the quatrain's general rule gains a counter-claim from inside the class it judges, which tests whether the rule is observation or stereotype"
+   }
+  },
+  {
+   "a": 1262,
+   "b": 685,
+   "type": "tension",
+   "note": "In Rajamapuram the king saw that the dancer's longing had gone to Civakan and went in with resentment; in Chandirapam the prince follows the dancer's gaze to Civakan and is glad.",
+   "teaches": "The poem stages the same scene twice, a ruler reading a dancer's eyes fixed on Civakan, and makes the ruler's response the measure of him: jealous enmity in the usurper's city, affection and alliance in the Pallava court."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "koothu",
+   "tamil": "கூத்து",
+   "gloss": "dance-drama as a learned art, with its kinds, rules, gestures and accompanying music, performed before the king",
+   "label_source": "the verses' own words (1253: நாடகம்; 1254: கூத்தாடுகின்றாள்); id as declared in the Silappathikaram marks"
+  },
+  {
+   "id": "isai",
+   "tamil": "இசை",
+   "gloss": "music: the lute, melody, mode and the sounds compared to them",
+   "label_source": "label ours, as declared in the Paripadal marks; the verses use கீதம், வீணை, குழல், பண்"
+  }
+ ],
+ "source_issues": [
+  "1241, 1243, 1244, 1254, 1255, 1258, 1260, 1262: stanza printed in 8 half-lines, joined into 4 by the build.",
+  "1245 line 1: ஏதிதி is doubtful; perhaps ஏத்தி ('praising').",
+  "1252 line 3: அலர்கதிர் கரும்பிளை மடுப்ப வாய்நக. carries a stray full stop and is hard to construe.",
+  "1255 line 4: the verse ends without its final full stop, unlike its neighbours.",
+  "1256 line 4: வீடமை பசும்பொற் சாந்த is obscure as written.",
+  "1259 line 1: காண்ட லங்சி is probably a misprint for காண்டல் அஞ்சி."
+ ]
+}

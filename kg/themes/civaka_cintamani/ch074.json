@@ -1,0 +1,793 @@
+{
+ "chapter_no": 74,
+ "chapter_theme": "Nandattan reaches Civakan in Kanakamalai's city by Gandharvadattai's spell; after the reunion and Kanakamalai's welcome he tells how the companions debated revenge, took an overheard song as a sign that Civakan lived, and scattered, and how he found Gunamalai wasting and Gandharvadattai sent him on; Civakan begins his own story.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, now in Kanakamalai's city"
+  },
+  {
+   "id": "nandattan",
+   "tamil": "நந்தட்டன்",
+   "role": "Civakan's younger brother, who arrives and tells what happened after Civakan vanished"
+  },
+  {
+   "id": "kanakamalai",
+   "tamil": "கனகமாலை",
+   "role": "Civakan's wife in this city, named only by epithets in these verses"
+  },
+  {
+   "id": "padumukan",
+   "tamil": "பதுமுகன்",
+   "role": "Civakan's friend, who calls the companions to counsel"
+  },
+  {
+   "id": "buddhisenan",
+   "tamil": "புத்திசேனன்",
+   "role": "Civakan's companion, who calls for revenge"
+  },
+  {
+   "id": "devadattan",
+   "tamil": "தேவதத்தன்",
+   "role": "one of Civakan's companions, who urges inquiry first"
+  },
+  {
+   "id": "sridattan",
+   "tamil": "சீதத்தன்",
+   "role": "merchant of Rajamapuram, friend of Civakan"
+  },
+  {
+   "id": "civakan_thozhar",
+   "tamil": "தோழர்",
+   "role": "Civakan's companions"
+  },
+  {
+   "id": "paadal_oruvan",
+   "tamil": "ஒருவன்",
+   "role": "an unnamed man whose song hailing Civakan the companions overhear"
+  },
+  {
+   "id": "gunamalai",
+   "tamil": "குணமாலை",
+   "role": "Civakan's wife in the old city, named here as மாலை (1742)"
+  },
+  {
+   "id": "gandharvadattai",
+   "tamil": "காந்தருவதத்தை",
+   "role": "Civakan's Vidyadhara wife, called the mountain lady (மலைமகள்) here"
+  },
+  {
+   "id": "civakan_sutram",
+   "tamil": "சுற்றம்",
+   "role": "Civakan's kin in the old city"
+  }
+ ],
+ "verses": {
+  "1725": {
+   "reading": "The younger brother lies at Civakan's feet with joined hands; the elder, compared to the sun as the brother is to a lotus pool, embraces him three times and his own anguish ends.",
+   "concepts": [
+    "sutram",
+    "anbu"
+   ],
+   "nuance": "The four lines all open on தாமரை: the brother is the lotus pool, his virtue lotus-like, the elder lotus-eyed and the sun that opens it, so the reunion is told as the sun meeting the lotus.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nandattan",
+     "form": "தம்பி",
+     "line": 1
+    },
+    {
+     "id": "civakan",
+     "form": "றமையனும்",
+     "line": 2
+    }
+   ],
+   "event": "Nandattan falls at Civakan's feet and Civakan embraces him three times.",
+   "claims": []
+  },
+  "1726": {
+   "reading": "Civakan tells his brother that, not knowing his state, he has withered like a scorched shoot; he blames himself as luckless and foolish for not foreseeing this and for bringing grief on all their great kin, and bids him not to grieve.",
+   "concepts": [
+    "sutram",
+    "idumbai",
+    "pedhaimai"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": "லென்றான்",
+    "line": 4,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "லென்றான்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan blames himself for the grief his disappearance caused his kin.",
+   "claims": []
+  },
+  "1727": {
+   "reading": "Nandattan answers that gain and loss have come not to his lord alone, for even the god of the bird banner has had them, and asks why Civakan looked at him sighing and melting like a woman.",
+   "concepts": [
+    "kedu",
+    "samanilai"
+   ],
+   "nuance": "புட்கொடியான், the one with the bird (Garuda) banner, is Vishnu; the consolation sets the hero's fall beside a god's reverses. The speaker is named only as one like a pool of pointed fire, so taking him as Nandattan rests on அடிகளே, his word for his elder throughout this chapter.",
+   "uncertain": true,
+   "speaker": {
+    "who": "nandattan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "nandattan",
+     "form": "மொப்பான்",
+     "line": 4
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "gain and loss befall everyone, even the god who bears the bird banner",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "nandattan"
+    }
+   ]
+  },
+  "1728": {
+   "reading": "Calling himself a sinner, he says that the fruit of the sin of failing to tend his elders and going against their wish parted him from these lotus feet and brought him hard suffering, and he lays his head on the holy feet and weeps aloud.",
+   "concepts": [
+    "vinai",
+    "idumbai",
+    "sutram"
+   ],
+   "nuance": "He reads the separation as his own deed bearing fruit (பாவம் தர வந்த பயம்), where Civakan in 1726 had blamed himself; each brother takes the cause on himself. Who the elders (குரவர்) are, and which wish he crossed, the verse does not say.",
+   "uncertain": true,
+   "speaker": {
+    "who": "nandattan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "nandattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Nandattan lays his head on Civakan's feet and weeps.",
+   "claims": [
+    {
+     "claim": "a sin of neglecting one's elders comes back as suffering",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "nandattan"
+    }
+   ]
+  },
+  "1729": {
+   "reading": "Civakan wipes his weeping brother's lotus-red eyes, tells him there is no need to lament, and takes him into the palace where his nectar-like wife lives; the brother bows at the feet of the lady of Arundhati's chastity.",
+   "concepts": [
+    "sutram",
+    "karpu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "nandattan",
+     "form": "தவனுங்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan leads Nandattan into the palace, where he bows to Kanakamalai.",
+   "claims": []
+  },
+  "1730": {
+   "reading": "With a look Kanakamalai asks her husband who the youth is; told he is her brother-in-law, she says may they have such shining kin in all seven births.",
+   "concepts": [
+    "sutram",
+    "kurippu",
+    "piravi"
+   ],
+   "nuance": "Her question is asked by sign (குறிப்பினாலே) and only her blessing is spoken; the blessing reckons kinship across the seven births (எழுமையும்).",
+   "speaker": {
+    "who": "kanakamalai",
+    "form": "கொம்ப னாளே",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "kanakamalai",
+     "form": "கொம்ப னாளே",
+     "line": 4
+    },
+    {
+     "id": "civakan",
+     "form": "கொழுநனைக்",
+     "line": 1
+    }
+   ],
+   "event": "Kanakamalai asks by a glance who the youth is, and Civakan names him as her brother-in-law.",
+   "claims": []
+  },
+  "1731": {
+   "reading": "Civakan, his saffron-painted chest gleaming with diamond ornaments, eats the feast with his brother, and his wife serves it as a guest's welcome in due form.",
+   "concepts": [
+    "virundhu",
+    "ilvaazhkkai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "nandattan",
+     "form": "தம்பியோ",
+     "line": 3
+    },
+    {
+     "id": "kanakamalai",
+     "form": "வல்கு லாளும்",
+     "line": 4
+    }
+   ],
+   "event": "Kanakamalai serves a guest's feast to Civakan and Nandattan.",
+   "claims": []
+  },
+  "1732": {
+   "reading": "After the feast, alone with his brother, Civakan asks what befell when they could not find him and bids him tell, holding nothing back, all that his companions did; the youth begins.",
+   "concepts": [
+    "sutram",
+    "natpu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "nandattan",
+     "form": "காளை",
+     "line": 4
+    }
+   ],
+   "event": "Civakan asks Nandattan what his companions did after he vanished.",
+   "claims": []
+  },
+  "1733": {
+   "reading": "Nandattan says that at evening, when the sun set and the red sky looked like a battlefield soaked in blood, the companions left the field in haste and gathered outside the old city, and Padumukan of the burning spear asked them to consider what to do.",
+   "concepts": [
+    "natpu",
+    "soozhchi",
+    "maalai"
+   ],
+   "nuance": "The evening sky is likened to a battlefield (பொருகளம்) at the moment the companions are deciding whether to fight.",
+   "speaker": {
+    "who": "nandattan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "padumukan",
+     "form": "பதுமுக",
+     "line": 4
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The companions gather outside the city at dusk and Padumukan asks what they should do.",
+   "claims": []
+  },
+  "1734": {
+   "reading": "Buddhisenan, flaring up, says that if they cannot see their lord now, they will show the king the sky with their swords, trample the old city and go to join their master.",
+   "concepts": [
+    "vanjinam",
+    "vekuli",
+    "saakkaadu"
+   ],
+   "nuance": "சாமியைச் சார்தும், 'we will reach the master', assumes Civakan is dead: the vow is to die after him once vengeance is taken.",
+   "speaker": {
+    "who": "buddhisenan",
+    "form": "புத்திசேன்",
+    "line": 1,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "buddhisenan",
+     "form": "புத்திசேன்",
+     "line": 1
+    }
+   ],
+   "event": "Buddhisenan proposes to kill the king, wreck the city and follow Civakan in death.",
+   "claims": []
+  },
+  "1735": {
+   "reading": "Devadattan of the strong bow, raging like thunder on a hill, says that taking the enemy's life is easy for them, but they must first find out whether their lord is truly dead or not, and only then resolve on punishment.",
+   "concepts": [
+    "aaraaydhal",
+    "oruththal",
+    "therithal"
+   ],
+   "speaker": {
+    "who": "devadattan",
+    "form": "தத்த னென்பான்",
+    "line": 1,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "devadattan",
+     "form": "தத்த னென்பான்",
+     "line": 1
+    }
+   ],
+   "event": "Devadattan argues that they must learn whether Civakan is dead before taking revenge.",
+   "claims": [
+    {
+     "claim": "one must establish the truth of a death before punishing for it",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "devadattan"
+    }
+   ]
+  },
+  "1736": {
+   "reading": "Sridattan says that, as Buddhisenan has said, they will eat up the enemies root and all and so ease their grief; when he has spoken, Padumukan speaks what follows.",
+   "concepts": [
+    "pagai",
+    "vanjinam"
+   ],
+   "speaker": {
+    "who": "sridattan",
+    "form": "சீதத்த",
+    "line": 3,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridattan",
+     "form": "சீதத்த",
+     "line": 3
+    },
+    {
+     "id": "padumukan",
+     "form": "பதுமுக",
+     "line": 4
+    }
+   ],
+   "event": "Sridattan backs the call for revenge and Padumukan rises to speak.",
+   "claims": []
+  },
+  "1737": {
+   "reading": "Padumukan, addressing Nandattan, says that the companions have elders who would bear their grief, care for them and keep the rites of water, and asks what he could advise one who is like the whole world to them.",
+   "concepts": [
+    "sutram",
+    "kudi"
+   ],
+   "nuance": "Lines 2 and 3 are hard: the elders who keep the water rite (நீர்க்கடன்) seem to be the companions' parents, who will mourn them, so Padumukan leaves the final word to Civakan's own brother.",
+   "uncertain": true,
+   "speaker": {
+    "who": "padumukan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "padumukan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1738": {
+   "reading": "Nandattan says he told them that charging others with protection is for those who have someone at their side; he has no one, has done for them and for the lord what was his to do, and bade them rise together blazing like a forest fire.",
+   "concepts": [
+    "vanjinam",
+    "thunai",
+    "maram"
+   ],
+   "nuance": "ஓம்படை, a solemn charge to protect, is what one leaves to those one leaves behind; he says he has no one left to charge, so the restraint Devadattan and Padumukan urged does not bind him.",
+   "uncertain": true,
+   "speaker": {
+    "who": "nandattan",
+    "form": "வென்றேன்",
+    "line": 4,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "nandattan",
+     "form": "வென்றேன்",
+     "line": 4
+    }
+   ],
+   "event": "Nandattan urges the companions to rise at once against the king.",
+   "claims": []
+  },
+  "1739": {
+   "reading": "Just then a man sang a song, 'long live Civakan, whose sword-army rose fiercer than a pack of tigers round a lion with tusks like two crescent moons', and their grief fell away.",
+   "concepts": [
+    "nimiththam",
+    "sutram"
+   ],
+   "speaker": {
+    "who": "nandattan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "paadal_oruvan",
+     "form": "யொருவ",
+     "line": 4
+    }
+   ],
+   "event": "A passer-by sings a song hailing Civakan, and the companions' grief lifts.",
+   "claims": []
+  },
+  "1740": {
+   "reading": "The song tells a woman that her husband will come soon, that she need not melt and grieve till her bangles slip and her brow pales, for the foolish mullai, unable to tell, bloomed thinking the roar of the rutting elephant was the rain cloud.",
+   "concepts": [
+    "paruvam",
+    "pirivu",
+    "pasalai",
+    "nimiththam"
+   ],
+   "nuance": "The song is the old consolation of the friend who denies that the season has come: the flowers have been fooled, so he has not broken his word. Overheard, its 'our husband will come' is taken by the companions as a sign that Civakan lives.",
+   "speaker": {
+    "who": "paadal_oruvan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1741": {
+   "reading": "On hearing the song they said old enmity could wait and the killing could come later, since their prince had surely survived; they would spread over the land and search, and so they gathered and parted, each his own way.",
+   "concepts": [
+    "nimiththam",
+    "pagai",
+    "natpu"
+   ],
+   "nuance": "பழம்பகை நட்பும் ஆமே is obscure; it may mean that old enmity can turn to friendship, or that the feud can rest for now.",
+   "uncertain": true,
+   "speaker": {
+    "who": "nandattan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "civakan_thozhar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Taking the song as a sign that Civakan lives, the companions put off revenge and scatter to search for him.",
+   "claims": []
+  },
+  "1742": {
+   "reading": "Crossing misty hills that seem like gems wrapped in cloth, he reached the fine city and came to Maalai's house, where she sat wasting, her bangles slipping from her forearms like falling kaanthal blossoms.",
+   "concepts": [
+    "pirivu",
+    "melivu"
+   ],
+   "nuance": "மாலை is taken as Gunamalai, Civakan's wife in the old city, since the mountain lady of 1745 is another.",
+   "uncertain": true,
+   "speaker": {
+    "who": "nandattan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "nandattan",
+     "form": "யான்",
+     "line": 2
+    }
+   ],
+   "event": "Nandattan reaches the city and finds Gunamalai wasting in her house.",
+   "claims": []
+  },
+  "1743": {
+   "reading": "Seeing him, she had food made for her guest so his sorrow might ease, and when the golden women brought it the lady, who had sat like an ailing peacock, then had eyes like kuvalai dropping water.",
+   "concepts": [
+    "virundhu",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "nandattan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": "நங்கை",
+     "line": 3
+    }
+   ],
+   "event": "Gunamalai has a meal prepared for Nandattan and then breaks into tears.",
+   "claims": []
+  },
+  "1744": {
+   "reading": "She cries that without their lord they can now eat by themselves and calls him hard, then melts and falls to the ground like a peahen; seeing her distress, he turned back.",
+   "concepts": [
+    "virundhu",
+    "pirivu",
+    "idumbai"
+   ],
+   "nuance": "Her reproach turns the meal she herself ordered into the charge: a brother who can eat has stopped grieving.",
+   "speaker": {
+    "who": "nandattan",
+    "form": "மீண்டேன்",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": "சாய லாடன்",
+     "line": 4
+    },
+    {
+     "id": "nandattan",
+     "form": "மீண்டேன்",
+     "line": 4
+    }
+   ],
+   "event": "Gunamalai reproaches Nandattan for eating without Civakan and collapses; he leaves.",
+   "claims": []
+  },
+  "1745": {
+   "reading": "Resolving that this very day he would either find his lord and worship his red feet or leave this body and reach another world, he went to the house of the mountain lady with jasmine in her five-part hair.",
+   "concepts": [
+    "saakkaadu",
+    "marumai",
+    "sutram"
+   ],
+   "nuance": "மலைமகள், daughter of the mountain, is taken as Gandharvadattai, the Vidyadhara princess from the mountain; it is not Parvati.",
+   "speaker": {
+    "who": "nandattan",
+    "form": "சேர்ந்தேன்",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "nandattan",
+     "form": "சேர்ந்தேன்",
+     "line": 4
+    }
+   ],
+   "event": "Nandattan resolves to find Civakan or die that day, and goes to the mountain lady's house.",
+   "claims": []
+  },
+  "1746": {
+   "reading": "Her women played the jewel-voiced vina, stroking its fine frets, and cooled the heat with their hands, the garlanded lady sang, and he, much distraught, spoke to her words of reproach unfit for her.",
+   "concepts": [
+    "isai",
+    "idumbai",
+    "kadunjol"
+   ],
+   "nuance": "Line 2's cooling (வெப்பரால் தட்பம் மாற்றி) is hard to place; the music seems to be her way of keeping calm while the brother breaks down.",
+   "uncertain": true,
+   "speaker": {
+    "who": "nandattan",
+    "form": "சொன்னேன்",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": "கோதை",
+     "line": 3
+    },
+    {
+     "id": "nandattan",
+     "form": "சொன்னேன்",
+     "line": 4
+    }
+   ],
+   "event": "Gandharvadattai sings to the vina, and Nandattan speaks harshly to her.",
+   "claims": []
+  },
+  "1747": {
+   "reading": "Looking at him, she told him not to tremble, for she would bring him to his lord's feet; when the day had gone she recited a spell in the deep dark and sent him by this way, and he asks his lord to tell him in turn how he came here.",
+   "concepts": [
+    "mandhiram",
+    "thunai",
+    "sutram"
+   ],
+   "nuance": "விஞ்சை, the Vidyadhara's spell, carries a man across the land in a night; she promises reunion at the feet (பாதம் புல்ல), which is how 1725 opens.",
+   "speaker": {
+    "who": "nandattan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "nandattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gandharvadattai sends Nandattan to Civakan by a spell, and Nandattan asks Civakan to tell his own story.",
+   "claims": []
+  },
+  "1748": {
+   "reading": "Civakan begins: when, to please his father, he was being led bound with a belt, he saw in that city all their dear kin raging like a troop of fighting tigers, spears raised, set on dying.",
+   "concepts": [
+    "sutram",
+    "saakkaadu",
+    "maram"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "கண்டேன்",
+     "line": 4
+    },
+    {
+     "id": "civakan_sutram",
+     "form": "சுற்ற",
+     "line": 3
+    }
+   ],
+   "event": "Civakan begins to tell how he was led bound from the city while his kin stood ready to die.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1747,
+   "b": 1725,
+   "type": "develops",
+   "note": "Gandharvadattai's promise to bring him to his lord's feet is kept when the chapter opens with him lying at Civakan's feet.",
+   "teaches": "Read after 1747, the opening tableau of the brother at the feet is the exact fulfilment of a Vidyadhara's spoken promise, so the reunion the narrator showed first was her doing."
+  },
+  {
+   "a": 1745,
+   "b": 1734,
+   "type": "tension",
+   "note": "Buddhisenan would die after killing the king; Nandattan resolves to die alone if he cannot find his lord.",
+   "teaches": "The same either-find-him-or-die resolve is a public war vow in the companions' mouths and a private one in the brother's, and it is the private one, aimed at no enemy, that brings him to the woman who can reunite them."
+  },
+  {
+   "a": 1744,
+   "b": 1731,
+   "type": "tension",
+   "note": "Gunamalai reproaches him for being able to eat without his lord; at Kanakamalai's table he eats beside him.",
+   "teaches": "Held together, the two meals show that for the women of the epic eating is a measure of grief: the brother's meal without Civakan reads as betrayal, his meal with him as reunion."
+  },
+  {
+   "a": 1748,
+   "b": 1091,
+   "type": "develops",
+   "note": "Civakan's own account of being led bound names his reason, to please his father, and adds what he saw of his kin.",
+   "teaches": "The narrator showed him yielding to his parents' plea; his own retelling turns that yielding into filial choice and adds a sight the earlier scene did not report, kin armed and ready to die."
+  },
+  {
+   "a": 1740,
+   "b": "kuruntokai:251",
+   "type": "develops",
+   "note": "Both console a waiting woman by saying the flowers have been fooled by a false rain; in the epic the thunder is an elephant's trumpet and the song is overheard by warriors.",
+   "teaches": "The akam friend's denial that the season has come is lifted whole into the epic and read by men as an omen that their lord lives, so a love convention becomes a sign in a war story.",
+   "gains": {
+    "a": "the epic verse gains its key: the Kuruntokai poem shows that the song is the friend's claim that he has not yet broken his word, which is why it comforts",
+    "b": "the Kuruntokai poem's consolation is shown working outside the love situation, as a formula strangers could overhear and apply to their own loss"
+   }
+  },
+  {
+   "a": 1735,
+   "b": "kural:561",
+   "type": "qualifies",
+   "note": "The couplet defines a king as one who weighs a case before punishing; Devadattan asks the same of companions planning to punish a king.",
+   "teaches": "The pair shows the rule of inquiry before penalty binding not only the ruler but those who would avenge themselves on him, and its first question is not guilt but whether the wrong has happened at all.",
+   "gains": {
+    "a": "Devadattan's caution gains the couplet's standing as the definition of just punishment, not mere prudence",
+    "b": "the couplet gains a case where the punishers are subjects and the punished a king, outside the royal court it assumes"
+   }
+  },
+  {
+   "a": 1734,
+   "b": "purananuru:219",
+   "type": "qualifies",
+   "note": "Pisirandhaiyar and many others sit fasting with the Chola; Buddhisenan would follow Civakan in death, but only after vengeance and without knowing he is dead.",
+   "teaches": "Against the Purananuru's companions who die beside a living king by his own choice, the epic's vow to follow a lord in death rests on an unverified death and a killing first, and the next verse checks it.",
+   "gains": {
+    "a": "Buddhisenan's vow gains its model, the companion who dies with his lord, which shows what kind of loyalty he is claiming",
+    "b": "the Purananuru poem's sitting-with gains a contrast in which the same loyalty is armed, hasty and turned outward"
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "nimiththam",
+   "tamil": "நிமித்தம்",
+   "gloss": "an omen or sign read as foretelling what will come",
+   "label_source": "label from 1129; here an overheard song taken as a sign (1739-1741); the word is not in these verses"
+  },
+  {
+   "id": "isai",
+   "tamil": "இசை",
+   "gloss": "music: the lute, melody, mode and the sounds compared to them",
+   "label_source": "label as declared in the Paripadal marks; the verse uses வீணை and கீதம் (1746)"
+  }
+ ],
+ "source_issues": [
+  "All verses except 1727 were printed in eight half-lines and joined into four (FLAG repaired); the joins read correctly.",
+  "1737 lines 2-3 and 1741 lines 1-2 are hard to construe; 1746 line 2 (வெப்பரால் தட்பம் மாற்றி) is obscure.",
+  "1742 names the woman only as மாலை; the identification with Gunamalai rests on the story, not the verse."
+ ]
+}

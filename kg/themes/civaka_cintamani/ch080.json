@@ -1,0 +1,786 @@
+{
+ "chapter_no": 80,
+ "chapter_theme": "The companions arrive at Kanakamalai's city, are received by the king and feasted by the princess; Civakan reads Gandharvadattai's sulking letter, with its gifts, its cover-story to the Vidyadharas and its report of Gunamalai's wasting; he hears that his mother lives as an ascetic, weeps, the companions declare his Kuru birth to the king, and he takes leave of Kanakamalai and rides out.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, called சீவக சாமி in 1872, about to leave Kanakamalai's city"
+  },
+  {
+   "id": "civakan_thozhar",
+   "tamil": "தோழர்",
+   "role": "Civakan's companions, come from his mother to fetch him"
+  },
+  {
+   "id": "buddhisenan",
+   "tamil": "புத்திசேனன்",
+   "role": "Civakan's brahmin companion (நான்மறையினான் in 1829), taken here as the bearer of the letter"
+  },
+  {
+   "id": "dadamittan",
+   "tamil": "தடமித்தன்",
+   "role": "the king of the city, Kanakamalai's father (called மன்னன், வேந்தன், நரதேவன் here; the name is not in these verses)"
+  },
+  {
+   "id": "dadamittan_makkal",
+   "tamil": "மக்கள்",
+   "role": "the king's sons, Civakan's pupils (சிறுவர் in 1888)"
+  },
+  {
+   "id": "kanakamalai",
+   "tamil": "கனகமாலை",
+   "role": "Civakan's wife in this city, named only by epithets in these verses"
+  },
+  {
+   "id": "gandharvadattai",
+   "tamil": "காந்தருவதத்தை",
+   "role": "Civakan's Vidyadhara wife, who writes the letter and signs as தத்தை"
+  },
+  {
+   "id": "kaluzhavegan",
+   "tamil": "கலுழவேகன்",
+   "role": "Vidyadhara king, Gandharvadattai's father, who sends gifts (எம் மன்னன் in 1874)"
+  },
+  {
+   "id": "dharan",
+   "tamil": "தரன்",
+   "role": "the Vidyadhara of Kaluzhavegan's service, to whom Gandharvadattai gives a covering account"
+  },
+  {
+   "id": "gunamalai",
+   "tamil": "குணமாலை",
+   "role": "Civakan's wife in the old city, whose wasting Gandharvadattai reports"
+  }
+ ],
+ "verses": {
+  "1866": {
+   "reading": "In the old city of mansions whose flags wave in the sky, the companions, like lions come down from a herd of elephants, dismount while the women of the mansions, with sweet speech and doe-like eyes, worship them and the young men praise them.",
+   "concepts": [
+    "natpu",
+    "perumai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_thozhar",
+     "form": "டொப்பார்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan's companions dismount from their elephants in Kanakamalai's city amid the townspeople's welcome.",
+   "claims": []
+  },
+  "1867": {
+   "reading": "Watched with longing by the long-eyed women, they enter the palace whose red gold outshines the young sun, come in by the king's grace, and bow at the feet of the gold-anklet king.",
+   "concepts": [
+    "panivu",
+    "natpu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_thozhar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "dadamittan",
+     "form": "நரதேவ",
+     "line": 3
+    }
+   ],
+   "event": "The companions enter the palace and bow at the king's feet.",
+   "claims": []
+  },
+  "1868": {
+   "reading": "As the king, his broad chest bright with his jewels, looks at his son-in-law's face, Civakan tells him that all these young men are his friends, dear as his own life.",
+   "concepts": [
+    "natpu",
+    "sutram"
+   ],
+   "nuance": "Civakan addresses his father-in-law as அடிகள், and the king is seen looking at him as மருமான், his son-in-law: the scene places the companions inside a family before it places them in a court.",
+   "speaker": {
+    "who": "civakan",
+    "form": "ரென்றான்",
+    "line": 4,
+    "addressee": "dadamittan"
+   },
+   "agents": [
+    {
+     "id": "dadamittan",
+     "form": "மன்னன்",
+     "line": 2
+    },
+    {
+     "id": "civakan",
+     "form": "மருமான்",
+     "line": 3
+    }
+   ],
+   "event": "Civakan presents the companions to the king as his dearest friends.",
+   "claims": []
+  },
+  "1869": {
+   "reading": "The king of the diamond crown and jewelled anklets graciously bids them go and see the lady whose waist flickers like lightning in a cloud, and they bow and go.",
+   "concepts": [
+    "virundhu",
+    "natpu"
+   ],
+   "nuance": "Line 4 opens ஓமின்னு தாரான், which the stanza join leaves hard to divide; the sense that the king bids them go is clear from காண்க சென்று என்று.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dadamittan",
+     "form": "வேந்தன்",
+     "line": 2
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king sends the companions to meet Kanakamalai.",
+   "claims": []
+  },
+  "1870": {
+   "reading": "In the palace hung with garlands she stands like a lamp that lights the whole house by itself, a jewelled creeper; the companions bow to her, she looks at them knowing who they are, and affection wells up in the bright-bangled lady.",
+   "concepts": [
+    "anbu",
+    "virundhu"
+   ],
+   "nuance": "The opening word தழுமுற்றும் is obscure as printed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kanakamalai",
+     "form": "தோளி",
+     "line": 4
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": "தோளார்",
+     "line": 3
+    }
+   ],
+   "event": "Kanakamalai receives the companions, who bow to her.",
+   "claims": []
+  },
+  "1871": {
+   "reading": "The princess of the old city they call heaven itself laughs, 'Are these the thieves who drove off the herd? These are the men to be punished,' and having teased them, feasts them as lavishly as a rich man's daughter.",
+   "concepts": [
+    "virundhu",
+    "natpu"
+   ],
+   "nuance": "The joke has a ground: the companions had just seized the king's herd to draw Civakan out to battle (1845-1863), so the 'thieves' she would punish are her husband's friends, now her guests. The phrase வெறுக்கைக் கிழவன் மகள் may also glance at Civakan's upbringing in a merchant's house.",
+   "speaker": {
+    "who": "kanakamalai",
+    "form": "மங்கை",
+    "line": 1,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "kanakamalai",
+     "form": "மங்கை",
+     "line": 1
+    }
+   ],
+   "event": "Kanakamalai teases the companions as the cattle thieves and then feasts them.",
+   "claims": []
+  },
+  "1872": {
+   "reading": "The companion who keeps only the hard fire-rites and expounds all the Vedas as a feast gives a palm-leaf letter to Civaka Sami, who sits apart, and Civakan, removing the seal pressed by the bright earring, looks into it.",
+   "concepts": [
+    "thoothu",
+    "vedham"
+   ],
+   "nuance": "The letter-bearer is named only by his rites; Buddhisenan is the companion called நான்மறையினான் in 1829, so the identification rests on the story. எரி குண்டலத்தால் may name the earring that made the seal (1768) or the earrings Civakan wears.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "buddhisenan",
+     "form": "புரிந்தான்",
+     "line": 1
+    },
+    {
+     "id": "civakan",
+     "form": "சீவக",
+     "line": 2
+    }
+   ],
+   "event": "A brahmin companion hands Civakan Gandharvadattai's sealed letter and he breaks the seal.",
+   "claims": []
+  },
+  "1873": {
+   "reading": "The letter opens: let the lord see and grant it; under his flower feet his little servant Tattai falls at his feet, and she prays that the protections she has set within for his feet, his food and his bath may keep him well, and falls at his feet again.",
+   "concepts": [
+    "vaazhkkaithunai",
+    "panivu",
+    "vinjai"
+   ],
+   "nuance": "Three times in four lines the Vidyadhara princess falls at his feet (அடிவீழ்ச்சி, அடிவீழ்ந்தேன்): the letter's courtesy is a wife's self-abasement written out, which makes the sulking at its end sharper.",
+   "speaker": {
+    "who": "gandharvadattai",
+    "form": "தத்தை",
+    "line": 2,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": "தத்தை",
+     "line": 2
+    }
+   ],
+   "event": "Gandharvadattai's letter opens with her obeisance and the protective charms she sends.",
+   "claims": []
+  },
+  "1874": {
+   "reading": "She lists what her king has sent: diamond and jewelled ornaments, a fragrant garland of the wish-granting tree, a heady drink, a staff and robes, flawless sandal paste, bow and arrows, a jewelled lance and a sword, and a cloak of the hair-rat's fur.",
+   "concepts": [
+    "selvam",
+    "eegai",
+    "sutram"
+   ],
+   "nuance": "The gifts mix a bridegroom's finery with arms; மயிர் எலியின் போர்வை is the fabled cloak of a rat's hair, a Vidyadhara wonder.",
+   "speaker": {
+    "who": "gandharvadattai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "kaluzhavegan",
+     "form": "மன்னன்",
+     "line": 4
+    }
+   ],
+   "event": "Gandharvadattai's letter lists the gifts her father the Vidyadhara king sends Civakan.",
+   "claims": []
+  },
+  "1875": {
+   "reading": "She writes that when the one who came was brought in secret so that no one knew, and Taran asked, she told him that this was the lord's own resolve: that the jewel of men was there with his kin and would stay there to the term of five months.",
+   "concepts": [
+    "karavu",
+    "thoothu"
+   ],
+   "nuance": "The syntax of lines 1-2 (வந்தவனை ... தந்து) is hard to fix, and who 'the one who came' is, Nandattan or Taran, is not certain; the sense that she answered Taran's question with a story of a planned absence is carried on by 1876.",
+   "uncertain": true,
+   "speaker": {
+    "who": "gandharvadattai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "dharan",
+     "form": "தரன்",
+     "line": 2
+    }
+   ],
+   "event": "Gandharvadattai tells Civakan she gave Taran a covering account of his absence.",
+   "claims": []
+  },
+  "1876": {
+   "reading": "Fearing that the blame he had fallen into would spread over the Silver Mountain, she sent Taran off with another message; for what can come from a woman with a blossoming garland except to guard against blame that has fallen and spread fame?",
+   "concepts": [
+    "pazhi",
+    "pugazh",
+    "vaazhkkaithunai"
+   ],
+   "nuance": "The duty she names is served by a falsehood: what she told Taran (1875) was not what had happened, and she says so to her husband without apology. The blame (பழி) is the disgrace of a Vidyadhara's son-in-law vanishing after his arrest.",
+   "speaker": {
+    "who": "gandharvadattai",
+    "form": "விடுத்",
+    "line": 2,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": "விடுத்",
+     "line": 2
+    },
+    {
+     "id": "dharan",
+     "form": "னவனை",
+     "line": 2
+    }
+   ],
+   "event": "Gandharvadattai sends Taran away with a false message to keep Civakan's disappearance from her father's people.",
+   "claims": [
+    {
+     "claim": "a wife's part is to guard her husband from the blame that has befallen him and spread his fame",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "gandharvadattai"
+    }
+   ]
+  },
+  "1877": {
+   "reading": "Besides, she writes, her younger sister Gunamalai cannot bear it: seeing the moon move she says 'day, you are short', looking at the many-rayed sun she says 'moon, you are long'; the delicate one cannot tell whether it is morning or not.",
+   "concepts": [
+    "kaamanoy",
+    "pirivu",
+    "mayal"
+   ],
+   "nuance": "Gandharvadattai calls her co-wife எங்கை, my younger sister, and pleads her case to their husband: the co-wives are allied in his absence. The confusion of sun and moon is the lovesick woman's loss of the day's order.",
+   "speaker": {
+    "who": "gandharvadattai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": "மாலையவ",
+     "line": 1
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1878": {
+   "reading": "Her wide mound like a cobra's hood lies on the ground, the bright girdle like a rainbow has slipped from her, and brow, moon-face, praised shoulders and close-set breasts have lost their form; your servant cannot tell whether she still lives.",
+   "concepts": [
+    "melivu",
+    "kaamanoy",
+    "uyir"
+   ],
+   "nuance": "அடிச்சி may be Gandharvadattai speaking of herself (your servant does not know) or the subject of the doubt (whether your servant Gunamalai lives); both read.",
+   "uncertain": true,
+   "speaker": {
+    "who": "gandharvadattai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1879": {
+   "reading": "Told 'he comes tomorrow, do not grieve', she is glad, and laughing she says to her parrot, 'Is the day called tomorrow near, or very far? Tell me when tomorrow is'; every day of this lady's grief is such a day.",
+   "concepts": [
+    "pirivu",
+    "ninaivu",
+    "kaamanoy"
+   ],
+   "nuance": "The four lines each begin with நாள், and the promise of 'tomorrow' becomes a riddle the girl puts to her parrot, so the comfort itself measures how long the waiting is. Line 4 is hard to construe.",
+   "speaker": {
+    "who": "gandharvadattai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": "நங்கை",
+     "line": 4
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1880": {
+   "reading": "Of the women who flourish when he looks at them and waste if he does not look even for a blink, she says: the new bridegroom who lies on flower-scented beds dwells in the hearts of those who never leave him, so she will not need to remember him, and will pass her days praising his golden feet.",
+   "concepts": [
+    "karpu",
+    "oodal",
+    "ninaivu"
+   ],
+   "nuance": "புதுமணவாளனார், 'the new bridegroom', is the reproach: he has married again in this city. The pledge of worship is the sulk (புலவி, 1881) in its politest form.",
+   "speaker": {
+    "who": "gandharvadattai",
+    "form": "யென்றாள்",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": "யென்றாள்",
+     "line": 4
+    }
+   ],
+   "event": "Gandharvadattai closes her letter with a sulking pledge of devotion.",
+   "claims": [
+    {
+     "claim": "a faithful wife keeps her husband in her heart through his absence and spends her days worshipping his feet",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "gandharvadattai"
+    }
+   ]
+  },
+  "1881": {
+   "reading": "Having read with a shake of his crowned head the letter in which the lady of feet soft as silk-cotton had inscribed her sulking words, and having taken the protective spell set for his head, the garlanded hero of the bloodied spear goes over to his companions.",
+   "concepts": [
+    "oodal",
+    "vinjai",
+    "thoothu"
+   ],
+   "nuance": "The verse names the letter's tone itself, புலவிச்சொல்: the narrator reads the courteous letter as a lover's sulk.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "வேலான்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan reads the letter, takes up the protective spell it carries and goes to his companions.",
+   "claims": []
+  },
+  "1882": {
+   "reading": "When he asks where they heard of his affairs, they tell him that they met the beloved great queen of the king of the just sceptre, who has taken the form of unceasing penance and lives guarded in the Dandaka forest, and learned it from her.",
+   "concepts": [
+    "thavam",
+    "thuravu",
+    "sutram"
+   ],
+   "nuance": "They name Vijayai only as the queen of a king of செங்கோல், and the dead Saccandan is still given the just sceptre that was taken from him.",
+   "speaker": {
+    "who": "civakan_thozhar",
+    "form": "றிந்தோமே",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": "றிந்தோமே",
+     "line": 4
+    }
+   ],
+   "event": "The companions tell Civakan they found his mother living as an ascetic in the Dandaka forest.",
+   "claims": []
+  },
+  "1883": {
+   "reading": "Eagerly asking 'What? What is it you said?', he hears them tell it all again in order as before, and tears from his lotus eyes pour over his golden chest like scattered gems, and he grieves.",
+   "concepts": [
+    "idumbai",
+    "anbu",
+    "sutram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan, hearing of his mother, weeps.",
+   "claims": []
+  },
+  "1884": {
+   "reading": "He asks whether his lady mother is then alive; told this is how she has lived, he cries that to those who bore him there is no sorrow that does not come, asks where, where she is, turns to face that way, worships her feet in anguish and goes to the king's palace.",
+   "concepts": [
+    "idumbai",
+    "sutram",
+    "panivu"
+   ],
+   "nuance": "என்னைப் பெறவல்லார்க்கு எய்தா இடருளவே: he counts his mother's sufferings as the cost of having borne him, taking the blame on himself rather than on her fate or her enemies.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan learns his mother lives, worships toward her and goes to the king.",
+   "claims": []
+  },
+  "1885": {
+   "reading": "The king, wanting to know the hero's clan, looks to the young man's friends, and the garlanded men answer that the prince of the murderous spear is of the Kuru clan, a Kama to the sweet-voiced women.",
+   "concepts": [
+    "kudi",
+    "pirappu"
+   ],
+   "speaker": {
+    "who": "civakan_thozhar",
+    "form": "னென்றார்",
+    "line": 4,
+    "addressee": "dadamittan"
+   },
+   "agents": [
+    {
+     "id": "dadamittan",
+     "form": "வேந்த",
+     "line": 1
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": "தாரார்",
+     "line": 4
+    }
+   ],
+   "event": "The companions tell the king that Civakan is of the Kuru clan.",
+   "claims": []
+  },
+  "1886": {
+   "reading": "Saying that if the lord is of the Kuru clan then what he had guessed before is so, and that the young man who hid it has come out, the king embraces his golden chest, takes counsel with ministers of subtle learning, sends him on by the proper way, and enters his palace.",
+   "concepts": [
+    "kudi",
+    "amaichu",
+    "karavu"
+   ],
+   "nuance": "Lines 1-2 are the king's words without a verb of speech, and விடுத்தான் may mean he dismissed the companions or sent Civakan on; the run of the story favours Civakan's leave-taking.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dadamittan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": "மைந்த",
+     "line": 2
+    }
+   ],
+   "event": "The king, his guess at Civakan's birth confirmed, embraces him, consults his ministers and lets him go.",
+   "claims": []
+  },
+  "1887": {
+   "reading": "'Beloved young daughter of the king of broad unyielding shoulders, lady of fragrant flowers that bubble with honey, you are the life within my heart; you are not left behind,' he says, and the jewelled lady ... with the red water-lily in her hand.",
+   "concepts": [
+    "pirivu",
+    "anbu",
+    "uyir"
+   ],
+   "nuance": "Line 4, புள்ளாவிச் செங்கழுநீர்க் குவளை செய்தாள், is not secure: it may say that her hot breath withered the red lily in her hand, a sign of grief at parting, but the reading cannot be fixed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "kanakamalai"
+   },
+   "agents": [
+    {
+     "id": "kanakamalai",
+     "form": "புனைபூணாள்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan takes leave of Kanakamalai, telling her she is the life in his heart.",
+   "claims": []
+  },
+  "1888": {
+   "reading": "Embracing her so that the lady of bangled bamboo-like arms is glad at heart and her tearful eyes are cooled, the long-armed one leaves her, embraces the broad chests of the king's sons, mounts his horse, and the conches sound.",
+   "concepts": [
+    "pirivu",
+    "sutram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kanakamalai",
+     "form": "தோளாண்",
+     "line": 1
+    },
+    {
+     "id": "dadamittan_makkal",
+     "form": "சிறுவர்",
+     "line": 3
+    }
+   ],
+   "event": "Civakan embraces Kanakamalai and her brothers and rides out to the sound of conches.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1871,
+   "b": 1846,
+   "type": "tension",
+   "note": "The companions seized the king's herd as a ruse to bring Civakan out; the princess greets them as the thieves to be punished.",
+   "teaches": "Read against the staged raid, her mock sentence shows the household already knows the theft was a summons, so the crime against the king becomes a joke at his table."
+  },
+  {
+   "a": 1872,
+   "b": 1768,
+   "type": "develops",
+   "note": "Gandharvadattai sealed the letter with her earring and handed it to the companions; here it reaches Civakan and the seal is broken.",
+   "teaches": "The pair closes the errand she began: the earring-seal that made the leaf hers is the thing Civakan must remove to read her, so the seal guards her words until they reach the one reader they were for."
+  },
+  {
+   "a": 1876,
+   "b": "kural:56",
+   "type": "qualifies",
+   "note": "The couplet asks a wife to guard the good name of the house; Gandharvadattai guards her husband's name among her people by sending a false message.",
+   "teaches": "Together they show the wife's duty of guarding the good name pulling against truthfulness: Gandharvadattai keeps the couplet's charge by deceiving her own father's envoy, and names the couplet's duty as her reason.",
+   "gains": {
+    "a": "her deception gains the standing of a wife's recognised duty, the guarding of the house's name, rather than mere cunning",
+    "b": "the couplet's சொற்காத்து gains a hard case in which keeping the name requires a wife to tell something other than what happened"
+   }
+  },
+  {
+   "a": 1877,
+   "b": 1744,
+   "type": "develops",
+   "note": "Nandattan found Gunamalai wasting and reproaching him; Gandharvadattai's letter now reports her worse, unable to tell sun from moon.",
+   "teaches": "Set beside the brother's account, the letter shows Gunamalai's grief growing in the interval and makes the co-wife, not the brother, the one who carries it to Civakan."
+  },
+  {
+   "a": 1879,
+   "b": "kural:1269",
+   "type": "develops",
+   "note": "The couplet makes one day pass like seven for those waiting for a return; the epic's girl, told 'tomorrow', asks her parrot whether tomorrow is near or far.",
+   "teaches": "The pair shows that a promised day of return does not shorten the wait but makes it measurable, and the epic turns the couplet's arithmetic into a question the waiting woman cannot answer.",
+   "gains": {
+    "a": "Gunamalai's question gains the couplet's rule that the fixed day itself is what lengthens time for the one who waits",
+    "b": "the couplet's general waiting is given a scene, a comforter's 'tomorrow' and a parrot asked to say when it comes"
+   }
+  },
+  {
+   "a": 1880,
+   "b": "kural:1125",
+   "type": "qualifies",
+   "note": "The couplet's lover says he would recall her if he forgot, but he knows no forgetting; Gandharvadattai says she need not recall her husband, since he never leaves her heart.",
+   "teaches": "The conceit that one who never forgets has nothing to remember becomes, in the abandoned wife's letter, a reproach: the same words that pledge constancy remind the new bridegroom that she has not moved and he has.",
+   "gains": {
+    "a": "her line gains its source in the Kural's play on remembering and forgetting, so the sulk is a known figure of love",
+    "b": "the couplet's lover's boast is turned around into a wife's, said to a husband who is with another woman, where it carries blame as well as love"
+   }
+  },
+  {
+   "a": 1882,
+   "b": 1818,
+   "type": "develops",
+   "note": "The companions bowed at the feet of Vijayai in her penance grove before setting out; now they tell Civakan whom they met.",
+   "teaches": "The pair shows the companions' news running in the order the story requires: the mother's ascetic state, seen first by others, reaches her son only as their report, and he must ask to hear it twice."
+  },
+  {
+   "a": 1883,
+   "b": 1807,
+   "type": "develops",
+   "note": "Vijayai fell lamenting that she had seen her son once and failed to see him again; hearing of her, Civakan weeps.",
+   "teaches": "Read together, the mother's and the son's tears are the two halves of one grief, each learning of the other only through the companions who carried the story between them."
+  },
+  {
+   "a": 1885,
+   "b": 1856,
+   "type": "develops",
+   "note": "The king had asked Civakan for his clan when the alarm of the raid broke in; now the companions answer the question for him.",
+   "teaches": "The interrupted question is finished by others: Civakan's birth, which he was about to tell, is declared by his friends, so the hero's lineage reaches the king as testimony rather than his own claim."
+  },
+  {
+   "a": 1888,
+   "b": 1817,
+   "type": "develops",
+   "note": "The companions told Vijayai they would bring Civakan to her feet within a month; he now leaves Kanakamalai's city with them.",
+   "teaches": "The departure answers the mother's charge: what moves Civakan to leave a new wife is the promise his friends made to his mother, not any call of his own."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "vinjai",
+   "tamil": "விஞ்சை",
+   "gloss": "the vidya: the spell-lore of the Vidyadharas, recited to summon powers and weapons",
+   "label_source": "as declared in ch050 and ch073; here காப்பு விஞ்சை, the protective spell sent with the letter (1881)"
+  }
+ ],
+ "source_issues": [
+  "1880-1888 were printed in eight half-lines and joined into four (FLAG repaired); the joins read correctly.",
+  "1870 line 1 (தழுமுற்றும்), 1875 lines 1-2, 1879 line 4 and 1887 line 4 (புள்ளாவிச் செங்கழுநீர்க் குவளை செய்தாள்) are hard to construe as printed.",
+  "1867 line 4 reads புறகக் களற்றான், probably for கழற்றான் (the anklet-wearer); 1869 line 4 ஓமின்னு may be a mis-division of தோமின்னு or similar.",
+  "The verses name neither the letter-bearer of 1872 nor the king; both identifications rest on the story."
+ ]
+}

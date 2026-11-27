@@ -1,0 +1,737 @@
+{
+ "chapter_no": 41,
+ "chapter_theme": "At the bathing festival the poet shows a run of pleasure sights (a mirror, dice, feasting, the ship of desire, swans and a doe fooled by jewels) and then the one Civakan saw: Brahmins beat a dog to death for touching their rice, a drunkard claims the dog and threatens them, Civakan drives him off, then weeps over the dying dog and whispers the five padas into its ear, and the dog is reborn at once as a god in a golden city.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, who saves the Brahmins and teaches the dying dog the five padas"
+  },
+  {
+   "id": "naai",
+   "tamil": "நாய்",
+   "role": "the dog beaten to death by the Brahmins for touching their rice, reborn a god"
+  },
+  {
+   "id": "anthanar",
+   "tamil": "அந்தணர்",
+   "role": "the Brahmins (நான்மறை வல்லவர்) whose rice the dog seized and who beat it"
+  },
+  {
+   "id": "kalimagan",
+   "tamil": "களிமகன்",
+   "role": "the drunkard who claims the dog and threatens the Brahmins"
+  },
+  {
+   "id": "kal_kanniyar",
+   "tamil": "கன்னியர்",
+   "role": "the two maidens who carry the drunkard's toddy and serve it to him"
+  },
+  {
+   "id": "civakan_thozhar",
+   "tamil": "தோழர்",
+   "role": "Civakan's companions"
+  },
+  {
+   "id": "sudanjanan",
+   "tamil": "சுதஞ்சணன்",
+   "role": "the god the dog becomes, who later carries Civakan from prison (named in the epic's later telling, not here)"
+  },
+  {
+   "id": "deva_magalir",
+   "tamil": "தோளியர்",
+   "role": "the women of the heavenly city who gather as the new god's retinue"
+  }
+ ],
+ "verses": {
+  "926": {
+   "reading": "See how a woman graceful as Tiru draws the red cloth sheath off a clear mirror with her gold-ringed fingers to look at her adornment, the mirror showing like the moon spat out by the snake that swallowed it.",
+   "concepts": [
+    "vizhavu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The verse is one of a run (926-932) of festival sights, each closing with காண்மின் ('see'), addressed to listeners; no character in the story is named as the one showing them. The eclipse image makes uncovering a mirror a small release of the moon from Rahu."
+  },
+  "927": {
+   "reading": "See the young women with lips like silk-cotton buds playing dice on a gold board with crystal pieces, the gold dice rolling like crabs at play and their garlands slipping as they sing over coral cups.",
+   "concepts": [
+    "vizhavu",
+    "soodhu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "928": {
+   "reading": "See how the servers seek out guests and press on them sweet milk rice, golden-coloured cooked grain, sugared dishes and rosewater nectar, until fragrant ghee runs like an unchecked flood.",
+   "concepts": [
+    "vizhavu",
+    "undi",
+    "virundhu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "929": {
+   "reading": "See too the ship of desire that wanders in the wind of the mind on a sea of toddy, with youth for its mast, garland and smoke for its ropes and sorrow for its sail, its bodies stuck like a crab in deep mud.",
+   "concepts": [
+    "kaamam",
+    "kal",
+    "ilamai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The allegory is dense and some of its parts (the crab in mud, துயரி நிதியம், the 'wind that is in the mind') can be construed more than one way; the reading of the ship as the pleasure-seekers' revel is my best construction. Among the festival sights this is the one that judges: it sets desire as a drifting ship, just before the scene where the Brahmins and the drunkard show the festival's darker side."
+  },
+  "930": {
+   "reading": "See the white swans sleeping on beds of petalled lotus as the lapping waves rock them, like a jewelled baby asleep on a gold cot while its mother pats its cool thighs.",
+   "concepts": [
+    "vizhavu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "931": {
+   "reading": "See how young swans, taking the flame-red gems lying shadowed on blue cloth for a thick bloom of lotuses, come close, peck at the bright rays and are dismayed.",
+   "concepts": [
+    "vizhavu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "932": {
+   "reading": "See how a doe, coming on the fine emeralds the women have set out shining, takes them for creeper-grass and curls its tongue to graze, and how easily the myna laughs to see it.",
+   "concepts": [
+    "vizhavu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "931 and 932 make the same joke twice: creatures fooled by the city's jewels into taking them for nature."
+  },
+  "933": {
+   "reading": "Leaving these and other sights to the poets' fancy, the narrator says he will now tell one thing of the festival, of surpassing savour, that the hero with the gold chain looked on closely and with feeling.",
+   "concepts": [
+    "vizhavu",
+    "arul"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "மார்பன்",
+     "line": 1
+    }
+   ],
+   "event": null,
+   "claims": [],
+   "nuance": "The poet turns from the catalogue to the episode with மொழிவாம் ('we shall tell'); the 'thing of surpassing savour' at a festival of pleasures is the dying dog, an ironic choice of word."
+  },
+  "934": {
+   "reading": "When a dog came and seized the heap of rice cooked for the Brahmins, those who saw it ran at it shouting that it would not escape now, men whose nature was like the fire that shone in their own minds.",
+   "concepts": [
+    "andhanar",
+    "vekuli",
+    "undi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "naai",
+     "form": "நாய்",
+     "line": 2
+    },
+    {
+     "id": "anthanar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A dog snatches the rice cooked for the Brahmins, who chase it in anger.",
+   "claims": [],
+   "nuance": "தீயன நீரார் gives men who keep the sacred fire a mind of fire: the Vedic fire becomes their anger. Line 3 (யெனக்கனக் றோடினர்) looks damaged; 'ran in a rage' is the likely sense."
+  },
+  "935": {
+   "reading": "Holding stones and hard clubs they ran swifter than the wind, hemmed it in and set about killing it: it had fallen into the net of strong karma, which kills more surely than killing Death.",
+   "concepts": [
+    "vinai",
+    "kolai",
+    "kootru"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "anthanar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "naai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The Brahmins surround the dog with stones and clubs to beat it to death.",
+   "claims": [
+    {
+     "claim": "a strong deed of the past snares a creature more surely than Death itself",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ],
+   "nuance": "The narrator gives two causes at once: the men's fury, told in lines 1-3, and the dog's own வல்வினை in line 4. Karma does not excuse the men; the next verses call them brutes (மூர்க்கர்)."
+  },
+  "936": {
+   "reading": "Not heeding even the cry that the dog was someone's own, the brutes beat it at their feet, and it leapt into the long pond at the cool bathing steps and began to swim.",
+   "concepts": [
+    "kolai",
+    "velvi",
+    "vekuli"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "anthanar",
+     "form": "மூர்க்க",
+     "line": 3
+    },
+    {
+     "id": "naai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Beaten, the dog leaps into the pond and swims.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "Lines 1-2 embed a speech (வேள்வியில் உண்டி விலக்கிய நீவிர்கள் ... ஆள் எனக்கு) whose speaker is not named: it may be a bystander's or the owner's protest, addressed to the men 'who keep food from the sacrifice', that the dog belongs to someone. The verse ends in a comma and runs on into 937."
+  },
+  "937": {
+   "reading": "Then, with two maidens carrying toddy-pots of no clay but white as the moon, a drunken man appeared, so fearsome in his uncleanness that everyone trembled.",
+   "concepts": [
+    "kal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kalimagan",
+     "form": "களிமக",
+     "line": 4
+    },
+    {
+     "id": "kal_kanniyar",
+     "form": "கன்னிய",
+     "line": 2
+    }
+   ],
+   "event": "A drunkard appears with two maidens carrying pots of toddy.",
+   "claims": []
+  },
+  "938": {
+   "reading": "As the creeper-like women pressed silver cups of pure liquor to the mouth of the man with the wounding spear, they looked like two ray-spitting moons in a cave.",
+   "concepts": [
+    "kal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kal_kanniyar",
+     "form": "கொடியனார்",
+     "line": 2
+    },
+    {
+     "id": "kalimagan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The maidens hold cups of liquor to the drunkard's mouth.",
+   "claims": []
+  },
+  "939": {
+   "reading": "Drinking flower-toddy that burns like fire until it rises in him, with rolling eyes, a slipping garland, anklets and a dark cloth belt, he spoke these words of abuse in slurred speech.",
+   "concepts": [
+    "kal",
+    "kadunjol"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kalimagan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Drunk, the man turns on the Brahmins with abuse.",
+   "claims": []
+  },
+  "940": {
+   "reading": "'You beat my dog and killed it, you drove its life out fast; if you want to fight, bear the strength of my big hands, or else I will smash my toddy-pot on you', he said.",
+   "concepts": [
+    "kal",
+    "kadunjol",
+    "kolai"
+   ],
+   "speaker": {
+    "who": "kalimagan",
+    "form": null,
+    "line": null,
+    "addressee": "anthanar"
+   },
+   "agents": [
+    {
+     "id": "kalimagan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The drunkard claims the dog as his and threatens the Brahmins.",
+   "claims": [],
+   "nuance": "The only voice raised for the dog's life is the drunkard's, and he speaks of it as property (என் நாய்). The poem gives the defence of the creature to the man it calls without merit, and the cruelty to the keepers of the Veda."
+  },
+  "941": {
+   "reading": "Because that man with no good deed to his name was harrying the men learned in the four Vedas, Civakan, master of the bright spear, went quickly, drove off the trouble and ended their distress.",
+   "concepts": [
+    "vinai",
+    "andhanar"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "சீவக சாமி",
+     "line": 3
+    },
+    {
+     "id": "kalimagan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan steps in and rescues the Brahmins from the drunkard.",
+   "claims": [],
+   "nuance": "Civakan first protects the Brahmins, not the dog: the hero keeps the social order before he turns to the creature they have beaten. நல்வினை ஒன்றும் இலாதவன் (line 1) will return in 945 as நற்செய்கை ஒன்றும் இல்லார், said of the dog."
+  },
+  "942": {
+   "reading": "As the Brahmins went back, Civakan, bull-like, arriving with his gathered friends, saw the fine-toothed dog lying with no strength left, and wept.",
+   "concepts": [
+    "arul",
+    "saakkaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "கட்கினி",
+     "line": 4
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": "தோழர",
+     "line": 2
+    }
+   ],
+   "event": "Civakan finds the beaten dog dying and weeps.",
+   "claims": []
+  },
+  "943": {
+   "reading": "He tells the dog that, leaving its dog's body here, it will gain a god's body shining like the burning disc of the sun, if it will consent and think on the mantra of the path it goes to.",
+   "concepts": [
+    "mandhiram",
+    "piravi",
+    "yaakkai"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "naai"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan speaks to the dying dog and urges it to fix its mind on the mantra.",
+   "claims": [
+    {
+     "claim": "one who dies thinking on the mantra leaves a low body and gains a god's body",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ],
+   "nuance": "The school is assigned from 945-946, where the mantra is the ஐம்பதம் the Lord taught; this verse names it only செல்கதி மந்திரம். The promise is a better birth, not release."
+  },
+  "944": {
+   "reading": "At this the dog pricked up its ears, looked at the noble one with tears running from both eyes, wagged its tail in joy within, and the mountain-like hero resolved to tell it the padas.",
+   "concepts": [
+    "arul",
+    "mandhiram",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "naai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": "குன்றனை",
+     "line": 4
+    }
+   ],
+   "event": "The dog shows it has heard, and Civakan resolves to teach it the padas.",
+   "claims": [],
+   "nuance": "The poem takes care to show the dog's consent (தன்செவி ஓர்த்து, வால்குழைத்து): Civakan asked it to agree (நீ உடம்பட்டு, 943), and the mantra is given only once it does."
+  },
+  "945": {
+   "reading": "The strong-shouldered hero bends low and whispers into its ear the five mantras, the seed that frees those with no good deed from their former karma at the hour their days run out and makes good karma grow.",
+   "concepts": [
+    "mandhiram",
+    "vinai",
+    "saakkaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "தோளான்",
+     "line": 3
+    },
+    {
+     "id": "naai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan whispers the five mantras into the dying dog's ear.",
+   "claims": [
+    {
+     "claim": "the five mantras, heard at death, free even one with no merit from past karma and sow good karma",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ],
+   "uncertain": true,
+   "nuance": "Line 4 opens குதற்செய்கை, which I cannot construe with certainty; the bending (தாழ்ந்து) and whispering into the ear (செவிச் செப்புகின்றான்) are clear. The verse describes the mantra as a seed of new karma, so it works inside the economy of deeds rather than abolishing it."
+  },
+  "946": {
+   "reading": "'Do not trouble your heart thinking you lived doing nothing good before; let go of attachment and longing; be firm against the fear of death; if you eat the nectar of the five padas the Lord spoke, you will reach a good state', and so he took away its harm.",
+   "concepts": [
+    "mandhiram",
+    "pattru",
+    "marumai",
+    "iraivan"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "naai"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan counsels the dog to give up attachment and the fear of death and take the five padas.",
+   "claims": [
+    {
+     "claim": "one who lets go of attachment and the fear of death and takes the Lord's five padas reaches a good state after death",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ],
+   "nuance": "நற்கதி is a good destination of birth; nothing in the verse speaks of release from birth. The five padas are named only as what இறைவன் spoke, so the Jain identification rests on the work's frame and the five-fold formula."
+  },
+  "947": {
+   "reading": "'Put anger out of your mind, do not forget, and think on the five; freed of the dark karma lodged in you, it will give unbroken joy for as long as you say it', he said, and the dog swallowed the honeyed nectar of the padas in its heart and left its body.",
+   "concepts": [
+    "mandhiram",
+    "vinai",
+    "amudham",
+    "saakkaadu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "naai"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "naai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The dog takes the five padas to heart and dies.",
+   "claims": [
+    {
+     "claim": "holding the five in mind without forgetting frees one from dark karma and brings unbroken joy",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ],
+   "nuance": "செறும்பு நீக்கி asks the beaten dog to let go of anger at those who beat it: the dying creature is asked for the forgiveness its killers lacked. The narrator's last line closes the speech; நீனிற வினை colours karma dark, as in Jain teaching of karmic stain."
+  },
+  "948": {
+   "reading": "As the stage dancers gather on a high mountain top, make up their costume and, the curtain drawn back, appear dancing in the order of song, beat and opening, so he appeared at once as a god.",
+   "concepts": [
+    "piravi",
+    "marumai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sudanjanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The dog is reborn and appears at once as a god.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The god is not named here; I give him the id used for the god who later rescues Civakan (Sudanjanan, ch. 1-2 marks), on the story's identification, not this verse's. The simile is of the theatre: birth into heaven is instantaneous, like a dancer revealed when the screen is pulled away."
+  },
+  "949": {
+   "reading": "Through all the palace circle of the tall, battlemented golden city, women with fragrant hair and shoulders smooth as bamboo appeared, and the retinue gathered around him.",
+   "concepts": [
+    "marumai",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "deva_magalir",
+     "form": "றோளியர்",
+     "line": 3
+    }
+   ],
+   "event": "Heavenly women gather as the new god's retinue in his golden city.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The verse does not name the city; that it is the new god's heaven follows from 948. Line 4 (ஆயினார் பரியாளம் அடைந்ததே) is compressed."
+  }
+ },
+ "links": [
+  {
+   "a": "947",
+   "b": "14",
+   "type": "develops",
+   "note": "The patikam summarizes this episode as the hero giving nectar (அமிர்தம்) to a dog that came to harm at the bathing festival; 947 shows that the nectar is the five padas, swallowed in the heart (பதவமிர்தம் நெஞ்சின் அயின்று).",
+   "teaches": "The patikam's 'nectar' turns out to be a teaching rather than a drink, so the summary's word is the poem's own metaphor for the mantra and not a miracle of healing."
+  },
+  {
+   "a": "948",
+   "b": "15",
+   "type": "develops",
+   "note": "The dog appears as a god in 948; the patikam's next verse tells how a god came down the sky like lightning and carried Civakan out of the king's prison.",
+   "teaches": "Read together, the hero's kindness at the festival is the cause of his rescue later: the creature he saved by a mantra returns as the god who saves him, so the plot itself runs on karma's return."
+  },
+  {
+   "a": "934",
+   "b": "kural:30",
+   "type": "tension",
+   "note": "Kural 30 says those called அந்தணர் are so because they bear cool kindness to every living being; in 934-936 the men skilled in the four Vedas, with minds of fire, beat a dog to death over a heap of rice.",
+   "teaches": "The epic stages the Kural's definition as a test the Brahmins fail, and gives the cool kindness the Kural requires to the hero instead, so the name and the conduct come apart exactly as the couplet's reasoning allows.",
+   "gains": {
+    "a": "a standard, from outside the Jain frame, by which the Brahmins' violence is condemned without the epic having to state it",
+    "b": "a scene showing what follows when the title is kept and the conduct lost: the couplet's 'because' becomes a charge"
+   }
+  },
+  {
+   "a": "945",
+   "b": "tirumanthiram:533",
+   "type": "tension",
+   "note": "Tirumanthiram 533 says those who grieve the ascetics who teach the mantra are born as dogs; in 945 a dog dying with no merit hears a mantra and is born a god.",
+   "teaches": "Both texts tie the mantra to rebirth as a dog, but run the scale in opposite directions: Tirumular uses the dog's birth as the punishment for wronging the mantra's teachers, the Jain epic uses the mantra to lift a dog out of that birth even without merit.",
+   "gains": {
+    "a": "the sharpness of its choice of a dog, which in the Saiva text is the very emblem of a fallen birth",
+    "b": "a view in which the mantra's power reaches the lowest birth directly, not only as a sanction protecting its teachers"
+   }
+  },
+  {
+   "a": "946",
+   "b": "tirumanthiram:905",
+   "type": "tension",
+   "note": "Tirumanthiram 905 promises that chanting சிவாயநம ends birth, by grace; in 946 the Lord's five padas, taken at death, bring the dog a good state (நற்கதி), a better birth.",
+   "teaches": "Both are five-part formulas given at the decisive moment, but the Saiva five letters promise an end to birth through grace, while the Jain five padas here promise a better birth by the dog's own letting go of attachment and fear.",
+   "gains": {
+    "a": "the measure of how modest its promise is: a good birth, not release, and won by the hearer's renunciation rather than by a god's grace",
+    "b": "a rival five-fold formula against which its claim that the five letters end birth stands out as a stronger claim"
+   }
+  },
+  {
+   "a": "944",
+   "b": "naladiyar:322",
+   "type": "qualifies",
+   "note": "Naladiyar 322 says those not disposed to virtue cannot take it in, as a tanner's dog that chews leather cannot take the taste of milk rice; in 944 a dog pricks its ears, weeps and takes in the teaching.",
+   "teaches": "The quatrain uses the dog as the type of the creature who cannot receive dharma; the epic answers with a dog that hears and consents, so receptivity is made a matter of the moment of hearing, not of the hearer's kind.",
+   "gains": {
+    "a": "the force of the inversion: the dog is the proverbial non-hearer, which makes its listening the point",
+    "b": "a limit on its image: the dog's inability is a habit, which the epic shows can be broken at death"
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "vizhavu",
+   "tamil": "விழவு",
+   "gloss": "the festival; a public feast of a god or a town",
+   "label_source": "verse 933 uses விழவின் for the festival whose sights 926-932 show"
+  },
+  {
+   "id": "velvi",
+   "tamil": "வேள்வி",
+   "gloss": "the sacrifice: the Vedic rite performed by priests for a patron, and by extension a deed spoken of as a sacrifice",
+   "label_source": "verse 936 uses வேள்வியில் உண்டி; id as used in other books' marks"
+  }
+ ],
+ "source_issues": [
+  "Verses 926-930 and 932 were printed in 8 half-lines and joined into 4 by the build (FLAG repaired); the joins read correctly.",
+  "Verse 934 line 3 prints யெனக்கனக் றோடினர், probably for எனக் கனன்று ஓடினர் (ran in a rage); a letter seems lost or misread.",
+  "Verse 945 line 4 opens குதற்செய்கை, which does not construe clearly; the line may be corrupt.",
+  "Verse 936 ends with a comma and its sentence runs on into 937; lines 1-2 embed an unattributed speech."
+ ]
+}

@@ -1,0 +1,766 @@
+{
+ "chapter_no": 46,
+ "chapter_theme": "Gunamalai's nurse sounds her with news of a match with a rich cousin; Gunamalai refuses, vowing death or penance unless she is given to the elephant-tamer, and the news passes from nurse to mother to father, who sends envoys to Kantukkatan; the match is agreed, the day fixed, the wedding held with a rich dowry, and Civakan and Gunamalai's union and his teasing close the run.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, raised by the merchant Kantukkatan"
+  },
+  {
+   "id": "gunamalai",
+   "tamil": "குணமாலை",
+   "role": "the merchant's daughter whom Civakan saved from the elephant; here கிளவி, பாவை, குழலாள்"
+  },
+  {
+   "id": "gunamalai_sevili",
+   "tamil": "செவிலி",
+   "role": "Gunamalai's nurse (also கைத்தாய்)"
+  },
+  {
+   "id": "vinayamalai",
+   "tamil": "வினையமாமாலை",
+   "role": "Gunamalai's mother, wife of Kuberamittiran"
+  },
+  {
+   "id": "kuberamittiran",
+   "tamil": "குபேரமித்திரன்",
+   "role": "Gunamalai's father, a merchant chief"
+  },
+  {
+   "id": "kubera_envoys",
+   "tamil": "நால்வர்",
+   "role": "four learned men Kuberamittiran sends to Kantukkatan"
+  },
+  {
+   "id": "kantukkatan",
+   "tamil": "கந்துக்கடன்",
+   "role": "the merchant who raised Civakan (நாய்கன், தாதை)"
+  },
+  {
+   "id": "sunandai",
+   "tamil": "சுநந்தை",
+   "role": "Kantukkatan's wife, Civakan's foster mother"
+  },
+  {
+   "id": "astrologers",
+   "tamil": "கணி",
+   "role": "the astrologers who fix the wedding day"
+  },
+  {
+   "id": "suramanjari",
+   "tamil": "சுரமஞ்சரி",
+   "role": "Gunamalai's rival in the powder contest; only mentioned here"
+  }
+ ],
+ "verses": {
+  "1046": {
+   "reading": "Setting out to draw Gunamalai's mind into the open, her nurse tells her at a quiet moment that her father has today feasted the only son of her mother's elder brother.",
+   "concepts": [
+    "kurippu",
+    "varaivu"
+   ],
+   "nuance": "மதியுடம்படுக்கலுற்று names the nurse's purpose: she is sounding the girl, so the news of a match that follows may be a test rather than a settled plan; the cousin is never mentioned again once Gunamalai answers.",
+   "speaker": {
+    "who": "gunamalai_sevili",
+    "form": "செவிலி",
+    "line": 2,
+    "addressee": "gunamalai"
+   },
+   "agents": [
+    {
+     "id": "gunamalai_sevili",
+     "form": "செவிலி",
+     "line": 2
+    }
+   ],
+   "event": "Gunamalai's nurse tells her that her father has entertained her maternal cousin.",
+   "claims": []
+  },
+  "1047": {
+   "reading": "The nurse goes on: the cousin begs to serve as her bondman, bringing cartloads of gold and bangles as bride-price, and daily worships a likeness of her painted on cloth that no one who sees it can pass by.",
+   "concepts": [
+    "kaamam",
+    "selvam",
+    "varaivu"
+   ],
+   "speaker": {
+    "who": "gunamalai_sevili",
+    "form": null,
+    "line": null,
+    "addressee": "gunamalai"
+   },
+   "agents": [
+    {
+     "id": "gunamalai_sevili",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The nurse describes the cousin's bride-price and his worship of Gunamalai's painted portrait.",
+   "claims": []
+  },
+  "1048": {
+   "reading": "The nurse praises the cousin as handsome, heir to growing wealth and speaking no name but hers, says the elders have fixed on him for her, and at this the parrot-voiced girl covers her ears with her hands and speaks.",
+   "concepts": [
+    "varaivu",
+    "selvam",
+    "kurippu"
+   ],
+   "nuance": "Gunamalai's first answer is a gesture: she closes her ears before she says a word.",
+   "speaker": {
+    "who": "gunamalai_sevili",
+    "form": null,
+    "line": null,
+    "addressee": "gunamalai"
+   },
+   "agents": [
+    {
+     "id": "gunamalai_sevili",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "gunamalai",
+     "form": "கிளவி",
+     "line": 4
+    }
+   ],
+   "event": "Told that her elders intend her for the cousin, Gunamalai covers her ears.",
+   "claims": []
+  },
+  "1049": {
+   "reading": "Gunamalai says that, as wages for the toil of the man who conquered the rutting elephant, she can resolve on nothing but service at his feet, and asks the nurse not to cut her ears with the sword of burning words.",
+   "concepts": [
+    "anbu",
+    "nanri",
+    "kaamam"
+   ],
+   "nuance": "She frames her love as a debt (வருத்தச்சொற் கூலி, the wage of his pains), not as desire.",
+   "speaker": {
+    "who": "gunamalai",
+    "form": "பவளப் பாவை",
+    "line": 4,
+    "addressee": "gunamalai_sevili"
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": "பாவை",
+     "line": 4
+    }
+   ],
+   "event": "Gunamalai refuses the cousin and declares she will serve only Civakan.",
+   "claims": [
+    {
+     "claim": "a woman owes lifelong service to the man who risked himself to save her, as the wage of his labour",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "gunamalai"
+    }
+   ]
+  },
+  "1050": {
+   "reading": "She says that if her father and mother will not give her to the young horseman, tomorrow brings one of two things: death, or a mind turned elsewhere to the labour of penance.",
+   "concepts": [
+    "nirai",
+    "saakkaadu",
+    "thavam",
+    "karpu"
+   ],
+   "nuance": "The two alternatives are the epic's own exits for women, death and renunciation; she names them before any marriage, so the steadfastness usually asked of a wife is here a maiden's fixity on a man she has chosen.",
+   "speaker": {
+    "who": "gunamalai",
+    "form": "கண்ணாள்",
+    "line": 4,
+    "addressee": "gunamalai_sevili"
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": "கண்ணாள்",
+     "line": 4
+    }
+   ],
+   "event": "Gunamalai declares that if her parents refuse Civakan she will die or take up penance.",
+   "claims": [
+    {
+     "claim": "a maiden denied the man she has chosen should die or renounce rather than marry another",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "gunamalai"
+    }
+   ]
+  },
+  "1051": {
+   "reading": "Hearing the small girl's precocious wisdom, the nurse melts with joy, says it is like ghee climbing into milk, tells her not to weep, wipes her eyes with her garment and embraces her.",
+   "concepts": [
+    "anbu",
+    "inbam"
+   ],
+   "nuance": "The nurse's joy confirms that the cousin story was a sounding: she wanted this refusal.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai_sevili",
+     "form": "கைத்தா",
+     "line": 2
+    }
+   ],
+   "event": "The nurse rejoices at Gunamalai's answer, comforts her and embraces her.",
+   "claims": []
+  },
+  "1052": {
+   "reading": "Saying that this man of flawless learning has come to her by the fruit of old deeds of penance done with a mind free of fault, the nurse embraces her again, then tells the girl's mother, who tells her husband.",
+   "concepts": [
+    "vinai",
+    "arathodunirral",
+    "thavam"
+   ],
+   "nuance": "Two things are joined: the nurse reads the match as karma ripening from former penance, and the news moves up the household in the order of akam disclosure, nurse to mother to father.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai_sevili",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vinayamalai",
+     "form": "தாய்க்கு",
+     "line": 4
+    }
+   ],
+   "event": "The nurse reports Gunamalai's choice to her mother, who reports it to her husband.",
+   "claims": [
+    {
+     "claim": "a worthy husband comes as the fruit of penance done in former births with a faultless mind",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "gunamalai_sevili"
+    }
+   ]
+  },
+  "1053": {
+   "reading": "When Vinayamalai tells her husband Kuberamittiran, he says that if it has gone so, the lord is fit for the girl, the gold-garlanded man of merit suits her as though she were made for him.",
+   "concepts": [
+    "varaivu",
+    "panpu"
+   ],
+   "speaker": {
+    "who": "kuberamittiran",
+    "form": "குபேரமித் திரற்கு",
+    "line": 1,
+    "addressee": "vinayamalai"
+   },
+   "agents": [
+    {
+     "id": "vinayamalai",
+     "form": "வினையமா மாலை",
+     "line": 1
+    },
+    {
+     "id": "kuberamittiran",
+     "form": "குபேரமித் திரற்கு",
+     "line": 1
+    }
+   ],
+   "event": "Kuberamittiran hears his wife's report and approves Civakan as the girl's match.",
+   "claims": []
+  },
+  "1054": {
+   "reading": "He sends four learned men skilled in speech and verse on a fine chariot; they go, and the merchant with the heated-gold anklet bids them come and receives them.",
+   "concepts": [
+    "thoothu",
+    "virundhu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kuberamittiran",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kubera_envoys",
+     "form": "நால்வரை",
+     "line": 2
+    },
+    {
+     "id": "kantukkatan",
+     "form": "கழனாய்கன்",
+     "line": 3
+    }
+   ],
+   "event": "Kuberamittiran sends four learned envoys to Kantukkatan, who welcomes them.",
+   "claims": []
+  },
+  "1055": {
+   "reading": "Kantukkatan gives them betel from a gem casket and they take it; then words are spoken to the merchant: 'You who are like the glowing kalpaka tree, I have been granted to come; today I have reached heaven.'",
+   "concepts": [
+    "virundhu",
+    "eegai"
+   ],
+   "uncertain": true,
+   "nuance": "The speech is in the first person singular (வரப்பெற்றேன், சேர்ந்தேன்), which fits Kantukkatan's welcome, yet the closing words say it was said to the merchant, as in 1056; read here as the envoys' courtesy to their host, but the speaker is doubtful.",
+   "speaker": {
+    "who": "kubera_envoys",
+    "form": null,
+    "line": null,
+    "addressee": "kantukkatan"
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": "வேலான்",
+     "line": 1
+    },
+    {
+     "id": "kubera_envoys",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kantukkatan offers the envoys betel, and they greet him with praise.",
+   "claims": []
+  },
+  "1056": {
+   "reading": "The envoys tell the merchant that though no one offers a daughter with 'we give our girl, take her for your son', they have agreed today to give theirs to the one like a golden hill, on whose chest the lotus goddess dwells.",
+   "concepts": [
+    "varaivu",
+    "perumai"
+   ],
+   "nuance": "The bride's side breaking custom to offer the girl is itself the compliment: Civakan's worth justifies it.",
+   "speaker": {
+    "who": "kubera_envoys",
+    "form": null,
+    "line": null,
+    "addressee": "kantukkatan"
+   },
+   "agents": [
+    {
+     "id": "kubera_envoys",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The envoys formally offer Gunamalai in marriage to Civakan.",
+   "claims": [
+    {
+     "claim": "a bride's family does not ordinarily offer its daughter unasked",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "kubera_envoys"
+    }
+   ]
+  },
+  "1057": {
+   "reading": "The fragrant-garlanded merchant answers that he and the youth will do humble service to the strong-bowed man, and that he has been granted the favour of the creeper-like girl for the strong-shouldered one's son-in-law.",
+   "concepts": [
+    "panivu",
+    "varaivu"
+   ],
+   "uncertain": true,
+   "nuance": "The phrase சுற்றார் வல்விற் சூடுறு செம்பொற் கழல் describes Kantukkatan in 1054 but here seems to name the bride's father; who is honoured by whom turns on that epithet.",
+   "speaker": {
+    "who": "kantukkatan",
+    "form": "தாரான்",
+    "line": 4,
+    "addressee": "kubera_envoys"
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": "தாரான்",
+     "line": 4
+    }
+   ],
+   "event": "Kantukkatan accepts the offer on Civakan's behalf.",
+   "claims": []
+  },
+  "1058": {
+   "reading": "As Civakan's father says this like one who has seized the sea-girt world, the envoys tell how Civakan conquered the elephant and what the girl's nature is.",
+   "concepts": [
+    "inbam",
+    "panpu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": "தாதை",
+     "line": 1
+    },
+    {
+     "id": "kubera_envoys",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kantukkatan rejoices and the envoys recount the elephant fight and Gunamalai's virtues.",
+   "claims": []
+  },
+  "1059": {
+   "reading": "Civakan's mother, of unfailing chastity like the flame of the Vedic sacrificial fire, gladly welcomes the girl as good.",
+   "concepts": [
+    "karpu",
+    "inbam"
+   ],
+   "nuance": "The Jain epic compares a wife's chastity to the red flame of the mantra-fed Vedic sacrifice, an image of purity it borrows without comment.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sunandai",
+     "form": "சீவகன் றாயுங்",
+     "line": 2
+    }
+   ],
+   "event": "Sunandai, Civakan's foster mother, approves the match.",
+   "claims": []
+  },
+  "1060": {
+   "reading": "Having made the agreement firm, the envoys say they will go; told to leave, they depart on their bridled horses.",
+   "concepts": [
+    "thoothu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kubera_envoys",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The envoys take their leave and ride home.",
+   "claims": []
+  },
+  "1061": {
+   "reading": "They come back and tell the spear-bearing father what they have settled for the girl; he rejoices, and her mother, coming with anklets ringing, hears it and says it is fitting.",
+   "concepts": [
+    "varaivu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kubera_envoys",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kuberamittiran",
+     "form": "வேலாற்",
+     "line": 2
+    },
+    {
+     "id": "vinayamalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The envoys report to Kuberamittiran and his wife, who both approve.",
+   "claims": []
+  },
+  "1062": {
+   "reading": "All agree that she is fit for the man fit for fortune, the astrologers fix the day, and they set out to end the pining of the girl who is nectar to drink.",
+   "concepts": [
+    "varaivu",
+    "kaalam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "astrologers",
+     "form": "கணி",
+     "line": 3
+    }
+   ],
+   "event": "The astrologers fix the wedding day.",
+   "claims": []
+  },
+  "1063": {
+   "reading": "With the shout of a sea that breaks its shore, drums, mulavu and white conches, and crowds jostling, the Kama-like hero weds the girl of fragrant hair.",
+   "concepts": [
+    "varaivu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "வேனி லானே",
+     "line": 4
+    }
+   ],
+   "event": "Civakan marries Gunamalai.",
+   "claims": []
+  },
+  "1064": {
+   "reading": "With the girl, the merchant gives seven hundred adorned maidens, a crore of red gold and five old villages of sugarcane fields.",
+   "concepts": [
+    "selvam",
+    "eegai"
+   ],
+   "uncertain": true,
+   "nuance": "நாய்கன் named Kantukkatan in 1054, but a bride's father gives the dowry; Kuberamittiran, a merchant chief, is the likelier giver.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kuberamittiran",
+     "form": "நாய்க",
+     "line": 4
+    }
+   ],
+   "event": "Gunamalai's father gives a dowry of maidens, gold and villages.",
+   "claims": []
+  },
+  "1065": {
+   "reading": "The narrator praises her as a womanly nectar found neither in heaven nor on this earth, the nectar he has won.",
+   "concepts": [
+    "azhagu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1066": {
+   "reading": "While bees hum on the honey, her breasts press against him and his garland drips nectar: such is the pleasure they come to.",
+   "concepts": [
+    "punarchi",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": "குழலாள்",
+     "line": 2
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan and Gunamalai enjoy their first union.",
+   "claims": []
+  },
+  "1067": {
+   "reading": "He delights in her as if the sea's coral and pearl gave him nectar, while her kohl eyes and brows waver and her golden anklet-bells cry out.",
+   "concepts": [
+    "punarchi",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The lovers' union continues.",
+   "claims": []
+  },
+  "1068": {
+   "reading": "Civakan teases her: when the elephant threw all into turmoil she hid her long eyes in fear, and now the creeper that melts has melted for him, a strange thing and not the world's way.",
+   "concepts": [
+    "oodal",
+    "kaamam"
+   ],
+   "uncertain": true,
+   "nuance": "The last line (வம்பே இது வையகத்தார் வழக்கு அன்றே) can be read as 'this is new, not the world's custom' or as a rhetorical 'is this not the world's custom?'; the tone of the teasing turns on it.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "gunamalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1069": {
+   "reading": "He asks her to tell him today whether the harsh word spoken unguardedly about Suramanjari, who lost the powder contest at the water festival, is an arrow or nectar to him.",
+   "concepts": [
+    "kadunjol",
+    "oodal"
+   ],
+   "uncertain": true,
+   "nuance": "The harsh word is most likely his own verdict on the powders, which won him Gunamalai but drove Suramanjari to vow that he would come and worship her feet (899); whether அவள்கண் means 'about her' or 'to her' is not certain.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "gunamalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "1047",
+   "b": 1003,
+   "type": "same_image",
+   "note": "In 1003 Civakan paints Gunamalai on cloth as she stood trembling before the elephant; in 1047 the nurse says the cousin worships a likeness of her painted on cloth every day.",
+   "teaches": "The nurse's test gives the rival suitor the very gesture Civakan made, so Gunamalai's refusal shows that what binds her is the man she chose, not the devotion paid to her image."
+  },
+  {
+   "a": "1049",
+   "b": 978,
+   "type": "develops",
+   "note": "In 978 Civakan, seeing the girl in danger, judges death better than a life that lets her perish and charges the elephant; in 1049 she calls service at his feet the wage for that toil.",
+   "teaches": "Her refusal of the cousin is set up as repayment of a specific risk, so the epic makes her love the answer to his choosing death over a shamed life."
+  },
+  {
+   "a": "1050",
+   "b": 908,
+   "type": "develops",
+   "note": "After losing the powder contest Suramanjari vows that none but Civakan shall break her reserve and shuts herself away (902, 908); after winning it, Gunamalai vows death or penance if she is denied him.",
+   "teaches": "The quarrel Civakan judged ends with both rivals bound by vows only marriage to him can release, the loser by seclusion and the winner by threat of death, so his verdict sets up two of his marriages at once."
+  },
+  {
+   "a": "1050",
+   "b": "kural:54",
+   "type": "qualifies",
+   "note": "Kural 54 says nothing is greater than a woman who has the firmness called karpu; Gunamalai shows such firmness before marriage, against her own parents, for a man she has only chosen.",
+   "teaches": "Read together, the couplet's firmness moves from a wife's fidelity back to a maiden's choice, where it shows itself as resisting her parents with death or renunciation rather than as serving a husband.",
+   "gains": {
+    "a": "the Kural's naming of karpu as திண்மை, a strength, which lets her threat read as firmness of virtue rather than wilfulness",
+    "b": "a case of that firmness exercised before any marriage and directed against the girl's own parents, which a couplet about a wife does not foresee"
+   }
+  },
+  {
+   "a": "1050",
+   "b": "akananuru:369",
+   "type": "qualifies",
+   "note": "In Akananuru 369 the foster mother laments that her girl refused the rich wedding her kin had prepared and went off across the waste with a youth; Gunamalai, told by her nurse of a match with a rich cousin, names death or penance as her only alternatives.",
+   "teaches": "Beside the Akam girl who answers an unwanted family wedding by elopement, Gunamalai answers by a vow spoken to her nurse, keeping the refusal inside the house where it can move her parents instead of leaving them.",
+   "gains": {
+    "a": "the akam convention of the refused kin wedding, which marks the nurse's report as the familiar trigger for a heroine's flight that this heroine declines",
+    "b": "an outcome in which the same refusal, voiced rather than acted on, ends in a sanctioned wedding, a path the elopement poem never shows"
+   }
+  },
+  {
+   "a": "1052",
+   "b": "pattupattu:8:1-22",
+   "type": "develops",
+   "note": "Kurinjippattu opens with the friend disclosing to the mother the marriage the girl chose past her father's guard; in 1052 the nurse who sounded Gunamalai tells the mother, who tells the father.",
+   "teaches": "The epic runs the akam disclosure through the whole household chain and adds the nurse's verdict that the match ripens from past penance, so a convention of love poetry becomes a step in a karmic marriage plot.",
+   "gains": {
+    "a": "the logic of அறத்தொடு நிற்றல், by which the nurse's report reads as a recognised duty to disclose rather than gossip",
+    "b": "a narrated sequel in which disclosure reaches the father and produces the wedding, which the idyll's speech to the mother can only argue for"
+   }
+  },
+  {
+   "a": "1059",
+   "b": 996,
+   "type": "same_image",
+   "note": "In 996 Gunamalai says her heart burns like the sacrificial fire; in 1059 Civakan's mother's unfailing chastity is like the flame of the mantra-fed Vedic sacrifice.",
+   "teaches": "The same ritual fire stands first for a girl's consuming desire and then for a matron's chastity, so the epic uses one Vedic image for passion and for the discipline that marriage is meant to make of it."
+  },
+  {
+   "a": "1063",
+   "b": 1037,
+   "type": "develops",
+   "note": "In 1037 Gunamalai draws circles in the sand, asking whether she will unite with Civakan if his errand prospers; in 1063 the wedding drums sound.",
+   "teaches": "The sand-circle divination she made in doubt is answered by the wedding within the same ilampakam, so the epic lets a folk rite of the anxious lover come true."
+  },
+  {
+   "a": "1069",
+   "b": 899,
+   "type": "develops",
+   "note": "In 899 Suramanjari, hearing Civakan call her powder unfit, vows penance until he comes defeated to worship her anklets; in 1069 Civakan asks Gunamalai whether that harsh word is arrow or nectar to him.",
+   "teaches": "The hero knows his verdict both won him Gunamalai and earned him a rival's vow against him, so his teasing question names the double fruit of one judgement."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "arathodunirral",
+   "tamil": "அறத்தொடு நிற்றல்",
+   "gloss": "disclosure of a secret love to the family, usually by the friend to the mother or foster mother, so that the lovers may be married; literally, standing by what is right",
+   "label_source": "id as declared in the Pattupattu marks (the Kurinjippattu colophon); 1052 does not use the word, but narrates the disclosure from nurse to mother to father"
+  }
+ ],
+ "source_issues": [
+  "Verses 1047 to 1053 and 1059 were printed in eight half-lines and joined into four (FLAG repaired); the joins read correctly.",
+  "Verse 1055 is in the first person singular (வரப்பெற்றேன், சேர்ந்தேன்) but ends என நாய்கற் கவர்சொன்னார், the same close as 1056; the speaker is doubtful.",
+  "Verse 1057 line 1 repeats the epithet that names Kantukkatan in 1054 line 3, apparently for a different person.",
+  "Verse 1064 calls the giver of the dowry நாய்கன், the title used for Kantukkatan in 1054; the giver is probably the bride's father.",
+  "Verse 1053 divides the mother's name as வினையமா மாலை and 1059 line 3 prints பொன் கொம்பு அனையாளை unjoined, unlike the rest of the text; 1058 line 2 prints கைப்படுத் தான் போன் றிதுகூறக் with odd spacing.",
+  "Verses 1061 and 1069 lack the closing full stop the other verses carry."
+ ]
+}

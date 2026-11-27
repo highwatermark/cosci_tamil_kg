@@ -1,0 +1,718 @@
+{
+ "chapter_no": 34,
+ "chapter_theme": "As the suitor kings take up arms over Gandharvadattai, Civakan lays down the vina, comforts the weeping princess, sets Padumukan and armed women to guard her, trades taunts with the kings (they mock him as a merchant's son; he vows to see their backs or lose his name), and the battle opens, pictured as tuskers fighting over a cow-elephant, with the Vidyadharas watching from the clouds.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, who has won Gandharvadattai at the vina"
+  },
+  {
+   "id": "gandharvadattai",
+   "tamil": "காந்தருவதத்தை",
+   "role": "daughter of the Vidyadhara king, defeated by Civakan at the vina"
+  },
+  {
+   "id": "padumukan",
+   "tamil": "பதுமுகன்",
+   "role": "Civakan's companion, who challenges the kings and is set to guard the princess"
+  },
+  {
+   "id": "suitor_kings",
+   "tamil": "மன்னர்",
+   "role": "kings who came seeking the princess and now fight Civakan for her"
+  },
+  {
+   "id": "dattai_thozhi",
+   "tamil": "தோழி",
+   "role": "Gandharvadattai's companion"
+  },
+  {
+   "id": "vaal_magalir",
+   "tamil": "நங்கை வாட்படை",
+   "role": "the sword-bearing women who guard the princess"
+  },
+  {
+   "id": "koon_kural",
+   "tamil": "கூன்களுங் குறளும்",
+   "role": "the hunchbacks and dwarfs of the household, who hide in fear"
+  },
+  {
+   "id": "civakan_thambiyar",
+   "tamil": "தம்பியர்",
+   "role": "Civakan's younger brothers"
+  },
+  {
+   "id": "civakan_thozhar",
+   "tamil": "தோழர்",
+   "role": "Civakan's companions"
+  },
+  {
+   "id": "vinjaiyar",
+   "tamil": "விஞ்சையர்",
+   "role": "the Vidyadharas, who watch the battle from the clouds"
+  },
+  {
+   "id": "civakan_padai",
+   "tamil": "சேனை",
+   "role": "the army on Civakan's side"
+  }
+ ],
+ "verses": {
+  "757": {
+   "reading": "The speaker pictures the battle as a farm: those who sow arrows and darts in the field, raise a crop of corpses and coiled entrails, and feed the many ghosts rice of flesh in blood for ghee will win the victory they want, so there is no call for angry words.",
+   "concepts": [
+    "kalavazhi",
+    "maram",
+    "padai"
+   ],
+   "speaker": {
+    "who": "padumukan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "victory belongs to those who win it in battle, not to those who rage",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "padumukan"
+    }
+   ],
+   "nuance": "The verse has no speech tag; it reads as the close of Padumukan's challenge to the suitor kings (747-756), but the speaker is inferred from the run of speech, not named.",
+   "uncertain": true
+  },
+  "758": {
+   "reading": "As war drums sound everywhere and the army roars like a storm-tossed sea, Civakan takes it in, lays the vina down from his hand and speaks to the princess.",
+   "concepts": [
+    "padai",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "தார்ப்பொலி மார்ப",
+     "line": 3
+    },
+    {
+     "id": "gandharvadattai",
+     "form": "முலையி னாட்கு",
+     "line": 4
+    }
+   ],
+   "event": "Hearing the armies gather, Civakan sets down his vina and turns to Gandharvadattai.",
+   "claims": [],
+   "nuance": "The vina that won her is put down in the same line in which he turns to her: the contest of skill gives way to the contest of arms."
+  },
+  "759": {
+   "reading": "He tells her not to sob: the kings who stand there wanting her have already become full food for arrows as keen as her eyes.",
+   "concepts": [
+    "maram",
+    "kan"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "gandharvadattai"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan comforts Gandharvadattai, telling her the hostile kings are already prey for his arrows.",
+   "claims": []
+  },
+  "760": {
+   "reading": "At his words she cries out in fear, trembles with a startled heart and weeps until her tears run on her breasts, and her bloom fades with the word.",
+   "concepts": [
+    "acham",
+    "idumbai",
+    "nalam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": "தாயிழை",
+     "line": 2
+    }
+   ],
+   "event": "Gandharvadattai cries out and weeps in terror at the coming battle.",
+   "claims": []
+  },
+  "761": {
+   "reading": "Calling herself a sinner who has made a bitter enemy for her lord, she bids her life leave this ruined body, and weeps with her eyes clouded.",
+   "concepts": [
+    "idumbai",
+    "uyir",
+    "yaakkai"
+   ],
+   "speaker": {
+    "who": "gandharvadattai",
+    "form": "பாவி",
+    "line": 2,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": "பாவி",
+     "line": 2
+    }
+   ],
+   "event": "Gandharvadattai blames herself for the war and wishes to die.",
+   "claims": [],
+   "nuance": "She takes the blame for a war that the kings' desire and Kattiyangaran's scheme (755) have made; the self-accusation is a lover's, not the narrator's judgment."
+  },
+  "762": {
+   "reading": "Her companion wipes the tears from her eyes with fine cloth and tells her to see how their army will dance over this whole host in slaughter and drink it up.",
+   "concepts": [
+    "thunai",
+    "padai"
+   ],
+   "speaker": {
+    "who": "dattai_thozhi",
+    "form": "தோழி",
+    "line": 4,
+    "addressee": "gandharvadattai"
+   },
+   "agents": [
+    {
+     "id": "dattai_thozhi",
+     "form": "தோழி",
+     "line": 4
+    },
+    {
+     "id": "gandharvadattai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gandharvadattai's companion dries her tears and promises their army's victory.",
+   "claims": []
+  },
+  "763": {
+   "reading": "Saying they will see whether their womanhood or the garlanded kings' manhood proves the greater, the sword-bearing women of the guard close round the princess.",
+   "concepts": [
+    "aanmai",
+    "padai"
+   ],
+   "speaker": {
+    "who": "vaal_magalir",
+    "form": "வாட்படை",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vaal_magalir",
+     "form": "வாட்படை",
+     "line": 4
+    }
+   ],
+   "event": "Armed women surround Gandharvadattai to guard her.",
+   "claims": [],
+   "nuance": "The women set their பெண்மை against the kings' ஆண்மை as a rival kind of courage, not as its opposite."
+  },
+  "764": {
+   "reading": "The hunchbacks and dwarfs, sick with fear, run off into golden caskets and sandal jars, hang themselves among garlands as if they were bunches of flowers, and hide behind crystal pillars.",
+   "concepts": [
+    "acham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "koon_kural",
+     "form": "கூன்களுங்",
+     "line": 1
+    }
+   ],
+   "event": "The palace's hunchbacks and dwarfs hide in boxes, among garlands and behind pillars.",
+   "claims": [],
+   "nuance": "A comic interlude: the crystal pillars cannot hide anyone, so the joke turns on the hiding place being transparent."
+  },
+  "765": {
+   "reading": "Seeing this, Civakan smiles, laughingly tells them how to guard the lady, and goes out with anklets ringing like a lion that roars and leaps forth in anger.",
+   "concepts": [
+    "maram",
+    "anjaamai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "மார்ப",
+     "line": 1
+    }
+   ],
+   "event": "Civakan laughs at the hiders, gives orders for the princess's guard and goes out to fight.",
+   "claims": []
+  },
+  "766": {
+   "reading": "He charges Padumukan to guard this lady with the musth elephant standing by, and orders that their army, armed with swords, bows and spears, fall on the enemy in a four-sided array.",
+   "concepts": [
+    "padai",
+    "thunai",
+    "soozhchi"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "padumukan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "padumukan",
+     "form": "பதுமுக குமரன்",
+     "line": 1
+    }
+   ],
+   "event": "Civakan sets Padumukan to guard Gandharvadattai and orders the army into array.",
+   "claims": []
+  },
+  "767": {
+   "reading": "Belted, with a sword bound on either side, he mounts a strong chariot like Arjuna, with picked horses round it and men guarding its wheels, and looks like Death rising to seize and drink lives.",
+   "concepts": [
+    "kootru",
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan arms himself and mounts his chariot.",
+   "claims": [],
+   "nuance": "Two comparisons in one verse: Arjuna (தனஞ்செயன்) for the chariot-fighter, கூற்றம் for the killer."
+  },
+  "768": {
+   "reading": "Rising in anger on his chariot like the sun, he laughs with his sharp teeth showing and speaks to the crowned kings in a voice like thundering rain-clouds.",
+   "concepts": [
+    "vekuli",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "மார்பன்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan, from his chariot, addresses the assembled kings.",
+   "claims": []
+  },
+  "769": {
+   "reading": "He taunts them: will their wives' sulking glances still pour nectar for them after today? These arrows are hot beyond thought, and this spear smokes for the fame that battle brings.",
+   "concepts": [
+    "pugazh",
+    "maram",
+    "oodal"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "suitor_kings"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan taunts the kings that they will not return to their wives.",
+   "claims": [],
+   "nuance": "The sense of line 3 (கலதியம்பு) is not clear to me; the taunt rests on the wives' புலவி, a sulk that needs a living husband to answer it.",
+   "uncertain": true
+  },
+  "770": {
+   "reading": "The kings retort that he knows nothing of trade: when ruin threatens the capital, those who live by profit look to the small loss and keep both capitals safe, so let him run far and save himself, leaving the girl.",
+   "concepts": [
+    "kedu",
+    "therithal"
+   ],
+   "speaker": {
+    "who": "suitor_kings",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "suitor_kings",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The kings mock Civakan as a merchant's son and tell him to flee and leave the princess.",
+   "claims": [
+    {
+     "claim": "a prudent trader gives up a small thing rather than lose his capital",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "suitor_kings"
+    }
+   ],
+   "nuance": "The jibe is aimed at his upbringing in a merchant's house (Kantukkatan's), which the kings take as his birth. What the 'two capitals' are (life and goods, or life and the girl) is not fixed by the words; lines 2-3 are hard to construe.",
+   "uncertain": true
+  },
+  "771": {
+   "reading": "He answers that taking another's goods by giving one's own is the way his people live, and it suits him too: he will hand all the crowned kings arrows from his hand and take their fortune and glory before they know it.",
+   "concepts": [
+    "pirappu",
+    "selvam",
+    "maram"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "suitor_kings"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan turns the kings' trade jibe back on them.",
+   "claims": [
+    {
+     "claim": "a merchant's life is taking others' goods in exchange for his own",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "civakan"
+    }
+   ],
+   "nuance": "He accepts the merchant identity the kings throw at him and makes the exchange of goods into an exchange of arrows for kingdoms."
+  },
+  "772": {
+   "reading": "The kings reply that his beauty, youth and learning will be wasted, and he will lie with arrows sunk in the chest that women's breasts have pressed; what has he to say, wretch?",
+   "concepts": [
+    "ilamai",
+    "azhagu",
+    "saakkaadu"
+   ],
+   "speaker": {
+    "who": "suitor_kings",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "suitor_kings",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The kings foretell Civakan's death in battle.",
+   "claims": []
+  },
+  "773": {
+   "reading": "He vows that unless, after seeing their backs as they break and scatter like darkness before the blazing sun, he embraces this fragrant-haired lady, may his name perish in the world where sun and moon move.",
+   "concepts": [
+    "vanjinam",
+    "pugazh",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "suitor_kings"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan swears to rout the kings and win Gandharvadattai or lose his name.",
+   "claims": []
+  },
+  "774": {
+   "reading": "The poet pictures the earth's kings as a great herd of elephants, from a forest grown with thorns and spears, going to war out of desire for the she-elephant with the jewelled breasts.",
+   "concepts": [
+    "padai",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suitor_kings",
+     "form": "வேந்தெனும்",
+     "line": 3
+    }
+   ],
+   "event": "The kings' armies advance, pictured as a herd of tuskers fighting over a cow-elephant.",
+   "claims": [],
+   "nuance": "Line 1 (ஆண்மர வாணிலத் தப்பு வேல்செய்முட்) is obscure; the herd image is clear, but how the forest is described is not.",
+   "uncertain": true
+  },
+  "775": {
+   "reading": "Against them comes Civakan the lofty young tusker with his herd: his younger brothers are its long trunk and tusks, his friends its legs, the triple ichor pours, and his kin round him are a deep sea.",
+   "concepts": [
+    "thunai",
+    "sutram",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "சீவக",
+     "line": 3
+    },
+    {
+     "id": "civakan_thambiyar",
+     "form": "தம்பியர்",
+     "line": 1
+    },
+    {
+     "id": "civakan_thozhar",
+     "form": "தோழர்",
+     "line": 2
+    }
+   ],
+   "event": "Civakan, his brothers and his friends advance to meet the kings.",
+   "claims": [],
+   "nuance": "Where the kings are a herd, Civakan's side is one animal whose limbs are his kin and friends: the simile makes his force a single body."
+  },
+  "776": {
+   "reading": "To watch the battle between the herd called the umbrella-bearing kings and the young tusker that has the creeper-like girl for its mate, the Vidyadharas climb onto the brows of the thundering clouds.",
+   "concepts": [
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar",
+     "form": "விஞ்சைய",
+     "line": 3
+    }
+   ],
+   "event": "The Vidyadharas gather on the clouds to watch the battle.",
+   "claims": []
+  },
+  "777": {
+   "reading": "Drums and conches roar like the sea against its shore with clouds upon it; the kings join battle, and the sea-like army arrays itself for war.",
+   "concepts": [
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suitor_kings",
+     "form": "வரைசரு",
+     "line": 3
+    }
+   ],
+   "event": "The armies sound their drums and conches and draw up for battle.",
+   "claims": [],
+   "nuance": "அரணம் வீசினார் in line 3 may mean they threw on armour; I take it as arming, without certainty."
+  },
+  "778": {
+   "reading": "Worshipping their god and putting red gold in the mouth, they scatter arrows like rain on every side and fight a close battle, crying 'long live Civakan'.",
+   "concepts": [
+    "vazhipaadu",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_padai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan's warriors worship, then shower arrows and engage the enemy.",
+   "claims": [],
+   "nuance": "The rite of putting gold in the mouth before battle is not explained in the verse; I read it as a warrior's custom but cannot confirm what it means.",
+   "uncertain": true
+  },
+  "779": {
+   "reading": "The great armies close: arrows pour like rain, swords flash in crowds, horses charge, chariots are blocked, elephants rage, and the drums and conches roar.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The two armies clash.",
+   "claims": []
+  },
+  "780": {
+   "reading": "Arrows with crescent heads loosed from cloud-like bows sink in, and the fallen faces with their earrings, cut off, look like a rain of opened lotuses.",
+   "concepts": [
+    "saakkaadu",
+    "padai",
+    "kalavazhi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Heads fall on the field under the arrow-shower.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "757",
+   "b": "purananuru:369",
+   "type": "develops",
+   "note": "Purananuru 369 sings the Chera's battle as a season of tillage, arrows for rain, heads for crop, ghouls threshing; 757 uses the same sowing-and-harvest field, with ghosts fed on flesh and blood, as a warning to rivals before the fight.",
+   "teaches": "The bard's after-battle praise image, sung to earn a gift, becomes in the epic a combatant's threat spoken before a blow is struck, so the convention moves from rewarding a victory to predicting one.",
+   "gains": {
+    "a": "the full Sangam convention of the battlefield as a farm, which the verse compresses into four lines without naming it",
+    "b": "a use of the convention outside the bard's request for gifts, as an argument about who deserves a bride"
+   }
+  },
+  {
+   "a": "757",
+   "b": 820,
+   "type": "tension",
+   "note": "757 calls the slaughter a harvest that wins the victory; in 820 the victor makes a golden image of the Jina, holds a festival and gives gifts to put away the sin (பாவம்) of the battlefield.",
+   "teaches": "The same killing is first boasted as a crop and then expiated as a sin, so the Jain epic lets the heroic idiom stand in the speeches and corrects it only after the battle is won."
+  },
+  {
+   "a": "759",
+   "b": 798,
+   "type": "develops",
+   "note": "In 759 Civakan tells the princess the kings are already food (இரை) for his arrows; in 798 he greets the kings as guests and feeds (ஊட்டினான்) each of them one or two arrows.",
+   "teaches": "The consolation's figure of kings as food is carried out as a mock feast in which he is host and the arrows are the meal, so his reassurance to her is kept literally."
+  },
+  {
+   "a": "770",
+   "b": "kural:463",
+   "type": "qualifies",
+   "note": "Kural 463 says the wise do not undertake a deed that loses capital for the sake of gain; the kings tell Civakan, as a merchant's son, that a true trader would save his capital and flee, leaving the girl.",
+   "teaches": "The couplet's prudence is turned into a class insult, and the battle that follows shows that the rule cannot say what counts as capital: for the kings it is life and goods, for Civakan it is his name and the bride.",
+   "gains": {
+    "a": "the general maxim of not risking the principal, which the kings bend into an argument for cowardice",
+    "b": "a case where the maxim is quoted by the side that loses, showing that it holds only once one has judged what the capital is"
+   }
+  },
+  {
+   "a": "772",
+   "b": 816,
+   "type": "tension",
+   "note": "In 772 the kings foretell that Civakan will lie pierced by arrows, his beauty and youth wasted; in 816 those same kings vanish like lightning in rain and the Vidyadharas praise his victory.",
+   "teaches": "The kings' prophecy of his death is answered by their own flight, so the scorn they pour on his youth becomes the measure of their defeat."
+  },
+  {
+   "a": "773",
+   "b": "purananuru:71",
+   "type": "qualifies",
+   "note": "In Purananuru 71 the Pandya swears that if he does not see the backs (புறம்) of the kings who have joined against him, may he be parted from his wife; Civakan swears that unless he sees the kings' backs (புறக்கொடை) and embraces the lady, may his name perish.",
+   "teaches": "The vow keeps the Sangam form, allied kings and the sight of their backs, but moves the woman from the forfeit to the prize: the Pandya risks his wife, Civakan stakes his name to win a bride.",
+   "gains": {
+    "a": "its genre: the வஞ்சினம் of a king facing allied enemies, with the shape of a named forfeit",
+    "b": "a variant in which the beloved is what the vow wins rather than what it puts at stake, showing the form can serve courtship as well as kingship"
+   }
+  },
+  {
+   "a": "773",
+   "b": 817,
+   "type": "develops",
+   "note": "Civakan vows to see the kings' backs and then embrace the lady; in 817, having seen the field where the enemies fell, he enters his house with her, surrounded by his friends.",
+   "teaches": "The vow's two conditions are kept in its own order, the routed field first and the bride brought home after, so the marriage is presented as the vow's discharge."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 763 line 4 prints குழ்ந்ததே, which the sense requires as சூழ்ந்ததே (surrounded); likely a dropped or misread letter.",
+  "Verses 767 (lines 1-2) and 779 (line 3) carry repaired TSCII conversion slips (FLAG repaired: ேர் for ோ்); the repaired readings (திண்டேர், தேர்த்தொகை) make sense.",
+  "Verse 774 line 1 (ஆண்மர வாணிலத் தப்பு வேல்செய்முட்) and verse 769 line 3 (கலதியம்பு) are hard to divide and construe as printed.",
+  "Verse 770 lines 2-3 (ஊணிகந் தீட்டப் பட்ட வூதிய வொழுக்கி னெஞ்சத் தேணிகந் திலேசு) are obscure in word division."
+ ]
+}

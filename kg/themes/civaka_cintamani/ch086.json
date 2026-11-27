@@ -1,0 +1,629 @@
+{
+ "chapter_no": 86,
+ "chapter_theme": "Returning from Vimalai, Civakan is teased by his companions that his brides came by their parents' giving, and dared by a Brahmin companion to win Suramanjari, who shuns men; he swears to do it, disguises himself as a decrepit Brahmin, begs his way past the gatekeepers, and is surrounded by her armed women, some of whom hold back for fear of the sin of harming a Brahmin.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, who takes up his companions' dare and enters Suramanjari's house disguised as an old Brahmin"
+  },
+  {
+   "id": "civakan_thozhar",
+   "tamil": "தோழர்",
+   "role": "Civakan's companions, who meet him in the grove"
+  },
+  {
+   "id": "anthana_thozhan",
+   "tamil": "அந்தணன்",
+   "role": "a Brahmin among Civakan's companions, wearer of the sacred thread, who teases him and dares him to win Suramanjari"
+  },
+  {
+   "id": "vimalai",
+   "tamil": "விமலை",
+   "role": "Civakan's newest bride, named only"
+  },
+  {
+   "id": "suramanjari",
+   "tamil": "சுரமஞ்சரி",
+   "role": "the merchant's daughter who vowed to shun men after the powder contest; described, not present"
+  },
+  {
+   "id": "kaavalar",
+   "tamil": "காவலர்",
+   "role": "the gatekeepers of Suramanjari's mansion"
+  },
+  {
+   "id": "suramanjari_sediyar",
+   "tamil": "சேடியர்",
+   "role": "Suramanjari's maids and armed women attendants"
+  }
+ ],
+ "verses": {
+  "1995": {
+   "reading": "After two days away, while his brides pined, Civakan meets his companions in the dense grove; they embrace him, praise his feet and ask the name of the woman he has taken.",
+   "concepts": [
+    "natpu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_thozhar",
+     "form": "தோழர்",
+     "line": 3
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan's companions embrace him in the grove and ask the name of his new bride.",
+   "claims": [],
+   "nuance": "The opening line's women whose eyes are like two swords set crosswise are the brides who count the two days of his absence, so the ilampakam opens on the cost to the women left behind before it turns to the next one to be won."
+  },
+  "1996": {
+   "reading": "Civakan names Vimalai, whose breasts would make even the released fall and who is like Rambha dancing in heaven, and asks whether any woman is sweeter, one who is sweet to join even in a lovers' quarrel.",
+   "concepts": [
+    "kaamam",
+    "oodal",
+    "nalam"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [],
+   "event": "Civakan tells his companions his new bride is Vimalai and boasts of her.",
+   "claims": [],
+   "nuance": "வீடு பெற்றவரும் வீழும், that even those who have won release would fall for her, is a lover's hyperbole that borrows the language of liberation; the speaker is not named and is taken to be Civakan answering the question of 1995."
+  },
+  "1997": {
+   "reading": "A Brahmin companion, granting that the lord is Kama with his five arrows, teases that women are not won by trust: whatever their own strength of mind, when their elders give them away they yield, aching at heart.",
+   "concepts": [
+    "kaamam",
+    "varaivu",
+    "sutram"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "anthana_thozhan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "anthana_thozhan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The Brahmin companion teases Civakan that his brides married him only because their elders gave them.",
+   "claims": [
+    {
+     "claim": "women submit to the husband their elders choose, whether or not their hearts consent",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "anthana_thozhan"
+    }
+   ],
+   "nuance": "The speaker is fixed by அந்தணன் at the join of lines 1 and 2 (written வந்தண / னம்பு) and by the sacred thread Civakan names in 2002; the tease deflates the boast of 1996 by crediting the brides' parents rather than the hero."
+  },
+  "1998": {
+   "reading": "Nor is that all, he goes on: parents, saying that sin and fault come upon those who keep a grown maiden long at home, plan her garland and give her, and for anyone so given, to sigh and accept what befalls is the common lot.",
+   "concepts": [
+    "varaivu",
+    "pazhi",
+    "ilvaazhkkai"
+   ],
+   "speaker": {
+    "who": "anthana_thozhan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "keeping a grown daughter long unmarried brings sin and fault on her guardians",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "anthana_thozhan"
+    }
+   ],
+   "nuance": "பாவம் here is the guardians' sin of delay, not the girl's; the companion uses a household rule to say the hero's eight conquests owed more to custom than to charm."
+  },
+  "1999": {
+   "reading": "The companion says Civakan joins in new marriage with honey-garlanded women in every town he enters, but here in the great city, in its streets, is one moon-faced maiden.",
+   "concepts": [
+    "kaamam",
+    "varaivu"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "anthana_thozhan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "விதிக்கிடை காணலாம் is hard to fix: either that what is fated can be seen in the city's streets or that the streets are laid out by rule; the turn from teasing to challenge is clear either way."
+  },
+  "2000": {
+   "reading": "If men so much as pass near her quarters, or she hears their names asked after, she rages as though her life would leave her; she goes about with maids attending her as on a goddess.",
+   "concepts": [
+    "nirai",
+    "vekuli"
+   ],
+   "speaker": {
+    "who": "anthana_thozhan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The companion's account of Suramanjari's horror of men's names restates the vow she made after the powder contest, now become city talk."
+  },
+  "2001": {
+   "reading": "Even if Kama himself came she would flare up and not look, saying her body would burn; if you frighten that bamboo-shouldered girl and enjoy her beauty, all of us will hail our lord as Ananga-mathilakan, the crown of Kama.",
+   "concepts": [
+    "nirai",
+    "kaamam",
+    "pugazh"
+   ],
+   "speaker": {
+    "who": "anthana_thozhan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "ஏமுறுத்து, to frighten or overpower, makes the dare one of conquest rather than courtship, and the title offered, அநங்கமா திலகன், puts the prize in renown among the companions."
+  },
+  "2002": {
+   "reading": "Civakan answers the companion whose chest bears the sacred thread among the garlands crushed by courtesans' breasts: if he does not bewilder the girl of the name just spoken, may he touch the hair of a base woman without love.",
+   "concepts": [
+    "sool",
+    "maanam",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "anthana_thozhan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan swears to win Suramanjari, staking his honour on it.",
+   "claims": [],
+   "nuance": "The oath's penalty is a self-curse of disgrace: to have to touch a loveless low woman's hair. The addressee's முந்நூல் (sacred thread) is what marks the teasing companion as a Brahmin."
+  },
+  "2003": {
+   "reading": "He tells them to bring the creeper-like girl into the shrine of Kama, whose bow is cane strung with bees and whose arrows are mango shoots and flowers, where he will make her take in a man's name, hiding tomorrow beside the golden image of Kama.",
+   "concepts": [
+    "soozhchi",
+    "kaamam",
+    "vazhipaadu"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_thozhar"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan lays a plan to meet Suramanjari at the shrine of Kama.",
+   "claims": [],
+   "nuance": "ஆண்பேர் ஊட்டுவல, 'I will feed her a man's name', answers her refusal to hear men's names (2000); line 3's நீலம் உண்டது காற்றி is obscure, and whether he or the friends are to hide (கரந்திரு) is not certain."
+  },
+  "2004": {
+   "reading": "Strong as a maned lion in its cave, he told his keen-eyed friends his intent and rose to go, meaning to bring love-sickness on the rain-eyed maiden of the jewelled breasts and slender waist.",
+   "concepts": [
+    "kaamanoy",
+    "soozhchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan leaves his companions to set his plan in motion.",
+   "claims": []
+  },
+  "2005": {
+   "reading": "Civakan feels his mind rise in turmoil, longing to bathe coolly in the breasts and chest, hung with pearl strings, of the swooning beauty Suramanjari.",
+   "concepts": [
+    "kaamam",
+    "punarchi"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The hunter is already caught: the verse turns from the dare to his own unrest before he has seen her."
+  },
+  "2006": {
+   "reading": "He pictures her breasts swelling like burnished gold caskets beneath their chains and her blue-lily eyes, longer than a cupped palm, as things now dwelling in his mind.",
+   "concepts": [
+    "nalam",
+    "kan"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2007": {
+   "reading": "Her dark flower-crowned hair, bound behind with a jasmine garland, rouses his male beauty and stirs his mind.",
+   "concepts": [
+    "nalam",
+    "kaamam"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "Line 3's இவ் வகுளில் is not clear as written; the sense of a beauty that agitates him is secure."
+  },
+  "2008": {
+   "reading": "He reckons that the way to the gate of her beauty is easy: he, lord of distress, will go as a Brahmin.",
+   "concepts": [
+    "soozhchi",
+    "vanjam",
+    "andhanar"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan resolves to disguise himself as a Brahmin to enter Suramanjari's house.",
+   "claims": [],
+   "nuance": "அல்லலங் கிழவன், the lord of distress, is his self-mocking name for a man in love; the disguise borrows the one status her ban does not fear."
+  },
+  "2009": {
+   "reading": "He appears with skin like a snake's slough, body bent like a bowed strong bow, a tangled thread across his chest, as if he had studied a great book and written old age out of it.",
+   "concepts": [
+    "vesham",
+    "yaakkai",
+    "ilamai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan takes on the guise of a decrepit old Brahmin.",
+   "claims": [],
+   "nuance": "The image of old age copied out from a book makes the disguise an act of learning: the youth reproduces decay by rule."
+  },
+  "2010": {
+   "reading": "White-haired and blotched, with trembling flesh and dimmed gaze, carrying an umbrella and leaning on a staff, he became even a ghost for love of a woman's beauty.",
+   "concepts": [
+    "vesham",
+    "mayal",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan completes his old man's guise with umbrella and staff.",
+   "claims": [
+    {
+     "claim": "love of a woman's beauty makes a man take on even a ghastly form",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ],
+   "nuance": "The narrator's பேயும் ஆயினான் is comic, but it names the price: the hero's own beauty is given up for desire."
+  },
+  "2011": {
+   "reading": "As a mahout who would tame the elephant of her beauty with the goad of his lute-like throat, hidden under the face-cloth of old age, the young bull reached her guarded, rich mansion.",
+   "concepts": [
+    "vesham",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "காளை",
+     "line": 4
+    }
+   ],
+   "event": "Civakan in disguise reaches Suramanjari's guarded house.",
+   "claims": [],
+   "nuance": "Old age is a முகபடாம், the cloth over an elephant's face, so the disguise is itself an elephant's trapping while she is the elephant to be goaded by song: the elephant image is used on both sides."
+  },
+  "2012": {
+   "reading": "Leaning on his staff, sinking and panting, seen and rebuked by the gatekeepers, he looks into their faces and says that in his youth he loved milk-rice and today he longs for what kindly people give.",
+   "concepts": [
+    "pasi",
+    "iravu",
+    "ilamai"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "kaavalar"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kaavalar",
+     "form": "காவலர்கள்",
+     "line": 2
+    }
+   ],
+   "event": "The disguised Civakan begs the gatekeepers for milk-rice.",
+   "claims": [],
+   "nuance": "The plea is double: the old man's craving for milk-rice stands for the young man's craving for the girl."
+  },
+  "2013": {
+   "reading": "Those who saluted him with joined hands passed on; deaf with age, he talked like a madman as his mind moved him, and the guards, pitying his hunger, let him go with 'walk slowly', and he entered the women's gate.",
+   "concepts": [
+    "pasi",
+    "arul",
+    "vanjam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kaavalar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The gatekeepers, pitying the old Brahmin's hunger, let him into the women's quarters.",
+   "claims": [],
+   "nuance": "The ban on men is undone by the guards' own compassion for hunger; feigned deafness lets him ignore their rebukes."
+  },
+  "2014": {
+   "reading": "The women run up, hair loosened under garlands with bees buzzing, pearl strings and ornaments swinging, crying that this is a fault and he must go; he gives no answer and stands swaying as if about to fall.",
+   "concepts": [
+    "kutram",
+    "vesham"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari_sediyar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Suramanjari's women rush out to drive off the intruder, who stands silent and swaying.",
+   "claims": [],
+   "nuance": "ஊதவுகு தன்மையின், as if he would drop at a breath, is the guise kept up under pressure; the exact sense of the phrase is not certain."
+  },
+  "2015": {
+   "reading": "The women, breasts bound in bodices, take up jewelled swords, sharp spears, arrows and bows that tremble in their hands, and, turning their sweet words sour and hot to frighten him, surround him.",
+   "concepts": [
+    "acham",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari_sediyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Suramanjari's armed women surround the old man and threaten him.",
+   "claims": [],
+   "nuance": "The weapons tremble (நடுங்க) in the women's hands, so the threat is half display; the image of sweetness turned sour (அமது புளித்தாங்கு) is of milk going off."
+  },
+  "2016": {
+   "reading": "Some of them say: this is sin, do not speak to hurt him; old Brahmins die if they are touched; let us learn the command of our lady, beyond compare with the painters' dolls, about what we have seen.",
+   "concepts": [
+    "andhanar",
+    "kolai",
+    "arul"
+   ],
+   "speaker": {
+    "who": "suramanjari_sediyar",
+    "form": "சிலர்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari_sediyar",
+     "form": "சிலர்",
+     "line": 4
+    }
+   ],
+   "event": "Some of the women restrain the rest and resolve to ask Suramanjari what to do with the old Brahmin.",
+   "claims": [
+    {
+     "claim": "to wound an old Brahmin, even by harsh words, is sin",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "suramanjari_sediyar"
+    }
+   ],
+   "nuance": "The Brahmin's protected status, the very thing Civakan chose the guise for (2008), now works as planned: it turns the guards' anger into scruple and carries the decision to Suramanjari herself."
+  }
+ },
+ "links": [
+  {
+   "a": 2001,
+   "b": 908,
+   "type": "tension",
+   "note": "The companion dares Civakan to win a girl who would refuse even Kama; in 908 Suramanjari had already excepted Civakan alone from her vow of self-containment.",
+   "teaches": "The dare the companions think impossible was settled in advance by the girl herself, so the reader sees the conquest as a meeting she has already allowed and the hero's oath as courage spent on an open door."
+  },
+  {
+   "a": 2012,
+   "b": 899,
+   "type": "develops",
+   "note": "In 899 Suramanjari vows to wait until the generous one comes defeated and worships her anklet feet; in 2012 Civakan arrives bent, panting and begging at her gate.",
+   "teaches": "Her vow's terms are fulfilled to the letter in comic form, since the proud judge of the powder contest comes stooped and humbled, but in a guise he chose himself, so her victory and his stratagem are the same act."
+  },
+  {
+   "a": 2013,
+   "b": 907,
+   "type": "tension",
+   "note": "In 907 her father buys a royal order with a priceless necklace that ends men's coming and going and even makes the carved figures female; in 2013 the guards let a man in out of pity for an old Brahmin's hunger.",
+   "teaches": "A ban bought with the three worlds' worth of jewels fails not by force but through the guards' compassion for hunger and age, showing that the exclusion was drawn against young men's bodies and could not see past a guise of decay."
+  },
+  {
+   "a": 2010,
+   "b": "naladiyar:13",
+   "type": "qualifies",
+   "note": "Naladiyar 13 condemns the old who lean on a staff, toothless and tottering, yet keep their eyes on desire; Civakan, young, puts on that very figure with staff and white hair for love of a woman's beauty.",
+   "teaches": "The quatrain's figure of shame, the old man still ruled by desire, becomes in the epic a costume a young lover wears to reach a woman, so the image meant to turn men from desire is used as an instrument of it.",
+   "gains": {
+    "a": "the comic disguise gains a moral shadow: the narrator's 'became even a ghost' reads as the quatrain's verdict on desire that will not let go",
+    "b": "the quatrain's staff and failing body are shown to be imitable signs, so its warning rests on a look that a lover can counterfeit and that guards pity rather than scorn"
+   }
+  },
+  {
+   "a": 2011,
+   "b": "kural:586",
+   "type": "develops",
+   "note": "Kural 586 sends the spy into closed places in the guise of renunciants, undiscovered whatever is done to him; Civakan enters a house closed to men in the guise of an old Brahmin and holds his part under the women's threats (2014-2015).",
+   "teaches": "The statecraft couplet's method, borrowing a status no one guards against, is shown working in love, and its clause 'whatever is done to him' is tested when armed women surround the disguised man and he keeps silent.",
+   "gains": {
+    "a": "the trickster scene gains a named technique, the spy's guise of the harmless, which explains why the Brahmin disguise works where force could not",
+    "b": "the couplet gains a demonstration of the guise's real lever, the protector's scruple, since the women spare him because harming a Brahmin is sin (2016)"
+   }
+  },
+  {
+   "a": 2016,
+   "b": 2008,
+   "type": "develops",
+   "note": "In 2008 Civakan judges the gate easy to pass if he goes as a Brahmin; in 2016 the women hold back their weapons because touching an old Brahmin is sin.",
+   "teaches": "The plan's premise is confirmed by the guards' own ethics: the protection owed a Brahmin is what admits the intruder, so a religious scruple becomes the hero's key."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "1995, 1997, 2002, 2003: stanzas printed in eight half-lines in the source and joined into four lines by the build.",
+  "1997: spellings டைய்ய, னைய்ய, ரவ்வர், ரவ்வ double consonants as written; the speaker word அந்தணன் is split across lines 1 and 2 (வந்தண / னம்பு).",
+  "2003 line 3 (நீல முண்டது காற்றி யாண்பே ரூட்டுவல்) is obscure as divided.",
+  "2007 line 3 (இவ் வகுளி லாணலங்) does not divide cleanly.",
+  "2013 line 4 has irregular word spacing (தொய்யின் முலை யவர்கள் கடைத் தோன்றனனி புக்கான்) unlike the other lines."
+ ]
+}

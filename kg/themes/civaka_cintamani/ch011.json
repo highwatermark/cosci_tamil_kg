@@ -1,0 +1,784 @@
+{
+ "chapter_no": 11,
+ "chapter_theme": "Vijayai's dream of the falling asoka tree is read by Saccandan, who names the son, his wives and his rise but withholds the tree's fall; she conceives, Fortune quietly leaves the king, his wisdom bids him build a mechanical peacock, and Kattiyangaran, feigning a deity's command, asks the law-learned about killing the king while Dharmadattan, conceding the king's fault, counsels loyalty.",
+ "cast": [
+  {
+   "id": "saccandan",
+   "tamil": "சச்சந்தன்",
+   "role": "king of Emankatham, Civakan's father, who gave his realm to Kattiyangaran to live with his queen"
+  },
+  {
+   "id": "vijayai",
+   "tamil": "விசயை",
+   "role": "Saccandan's queen, Civakan's mother"
+  },
+  {
+   "id": "kattiyangaran",
+   "tamil": "கட்டியங்காரன்",
+   "role": "the minister to whom Saccandan handed the kingdom, who plots to kill him"
+  },
+  {
+   "id": "dharmadattan",
+   "tamil": "தருமதத்தன்",
+   "role": "a councillor who counsels Kattiyangaran against regicide"
+  },
+  {
+   "id": "perum_thachchan",
+   "tamil": "பெருந்தச்சன்",
+   "role": "the master carpenter who builds the mechanical peacock"
+  },
+  {
+   "id": "arivu",
+   "tamil": "அறிவு",
+   "role": "Wisdom, figured as the minister who counsels the king (or a minister so named)"
+  },
+  {
+   "id": "thirumagal",
+   "tamil": "திருமகள்",
+   "role": "the goddess of fortune, who leaves the king"
+  },
+  {
+   "id": "attendant_women",
+   "tamil": "கொம்பு அனையார் குழாம்",
+   "role": "the queen's women attendants"
+  },
+  {
+   "id": "law_scholars",
+   "tamil": "நீதி நூல் ஓதினார்",
+   "role": "the men learned in the law books whom Kattiyangaran consults"
+  }
+ ],
+ "verses": {
+  "222": {
+   "reading": "After the king has taken his pleasure with his beloved queen like the gods, she begins, in words sweet as honey, milk and nectar, to tell him a dream.",
+   "concepts": [
+    "kanavu",
+    "inbam",
+    "kaamam"
+   ],
+   "nuance": "The dream is set inside the pleasure that is the king's fault: the telling comes at the height of the life the next verses will condemn.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": "கோதை",
+     "line": 4
+    },
+    {
+     "id": "saccandan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Vijayai, after a time of delight with Saccandan, begins to tell him her dream.",
+   "claims": []
+  },
+  "223": {
+   "reading": "The dream: the blossom-laden asoka tree fell and was utterly gone, and from its foot a shoot rose and grew as if planted there, bearing a crown fit for eight pearl garlands.",
+   "concepts": [
+    "kanavu",
+    "arasu",
+    "makkal"
+   ],
+   "nuance": "The பிண்டி (asoka) is also the tree of the Jain teacher (பிண்டிப் பெருமான், verse 311), so a royal and a religious emblem share the image. How the eight garlands, the crown and the shoot fit together turns on line 2, which is compressed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": "saccandan"
+   },
+   "agents": [],
+   "event": "Vijayai tells her dream of the falling asoka tree and the shoot that grows from its foot.",
+   "claims": []
+  },
+  "224": {
+   "reading": "The king, mountain-like, lifting his crown, works out the dream's fruit by the rules of the dream-treatise and tells it without disturbing her beauty.",
+   "concepts": [
+    "kanavu",
+    "therithal",
+    "kalvi"
+   ],
+   "nuance": "ஏர் குழையாமல் says the king reads so as not to spoil her calm: the interpretation is already shaped by what he will not say.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": "குன்று அனையான்",
+     "line": 2
+    }
+   ],
+   "event": "Saccandan interprets Vijayai's dream by the rules of the dream-lore.",
+   "claims": [
+    {
+     "claim": "dreams carry a fruit that can be read by the rules of a treatise",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "225": {
+   "reading": "He reads the crown as her son, the garlands as the queens the son will enjoy, the shoot as the son's rising fortune, and stops without speaking of what the first part, the falling tree, portends.",
+   "concepts": [
+    "kanavu",
+    "makkal",
+    "kurippu"
+   ],
+   "nuance": "The silence is the point: பின்னதனால் பயன் பேசலன் விட்டான் makes the king knowingly withhold his own death, which verse 267 later admits.",
+   "speaker": {
+    "who": "saccandan",
+    "form": null,
+    "line": null,
+    "addressee": "vijayai"
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Saccandan explains the crown, garlands and shoot but leaves the tree's fall unexplained.",
+   "claims": []
+  },
+  "226": {
+   "reading": "The queen asks what the fall means, says that harm has now come upon her, and, speaking no more, sinks to the jewelled floor like a cut garland, her gold bangle slipping.",
+   "concepts": [
+    "kanavu",
+    "kurippu",
+    "idumbai"
+   ],
+   "nuance": "She understands from what he leaves out: the unsaid part of the reading is read anyway.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": "ஏந்திழை",
+     "line": 1
+    }
+   ],
+   "event": "Vijayai reads the king's silence as an omen of disaster and faints.",
+   "claims": []
+  },
+  "227": {
+   "reading": "With tears beyond the blue lily's, her beauty fading as if life had left her, the king goes to her crying 'cruel one, will you torment my life?' and takes her in his arms.",
+   "concepts": [
+    "anbu",
+    "idumbai"
+   ],
+   "nuance": "பாவி, 'sinner, cruel one', is a lover's reproach, not a moral charge.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": "ஆண் தகை",
+     "line": 4
+    },
+    {
+     "id": "vijayai",
+     "form": "தேவியை",
+     "line": 4
+    }
+   ],
+   "event": "Saccandan runs to the fainting queen and embraces her.",
+   "claims": []
+  },
+  "228": {
+   "reading": "Holding her to his cool chest, he asks whether a dream's nature is truth and whether a young woman's fancy is so great, and with words like music he eases her grief.",
+   "concepts": [
+    "kanavu",
+    "inchol",
+    "anbu"
+   ],
+   "nuance": "The king who has just read the dream by the treatise now denies dreams are true, to comfort her; the story answers him at verse 267, where he says the dreams have all come to fruit.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vijayai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Saccandan consoles Vijayai by making light of dreams.",
+   "claims": [
+    {
+     "claim": "dreams are not true and need not be feared",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "saccandan"
+    }
+   ]
+  },
+  "229": {
+   "reading": "Glad in her lover's love, worshipped by her women slender as creepers, she wears a pollen-shedding garland and lies on a soft bed of flowers fragrant with aloe.",
+   "concepts": [
+    "inbam",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": "பூ மகள்",
+     "line": 4
+    },
+    {
+     "id": "attendant_women",
+     "form": "குழாம்",
+     "line": 2
+    }
+   ],
+   "event": "Vijayai, comforted, returns to her pleasures among her women.",
+   "claims": []
+  },
+  "230": {
+   "reading": "For some days they drink in song and devour drama with their eyes, and the spear-eyed queen begins to weaken as the one who will gladden the earth grows within her.",
+   "concepts": [
+    "inbam",
+    "karu",
+    "makkal"
+   ],
+   "nuance": "மண் கனிப்பான், 'he who will make the earth ripen', names the unborn Civakan by his future rule.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": "கணி",
+     "line": 3
+    }
+   ],
+   "event": "Vijayai conceives, and her body weakens as the child grows.",
+   "claims": []
+  },
+  "231": {
+   "reading": "The signs of pregnancy: the pearls slip from her cane-like shoulders, her red lips pale, her eyes take on pallor, her nipples darken, her waist shows, the anicham garland becomes a burden, and her loveliness wanes like a pregnant conch.",
+   "concepts": [
+    "karu",
+    "nalam"
+   ],
+   "nuance": "The catalogue of pregnancy signs is conventional; சலஞ்சலம் is the rare right-whorled conch, so the waning is itself a mark of worth.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": "நங்கை",
+     "line": 4
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "232": {
+   "reading": "Like a wood-apple swallowed by an elephant, whole outside and empty within, the king is left alone as Fortune slips away without a word of leave, and his wisdom, as a minister, tells him what must be done.",
+   "concepts": [
+    "selvam",
+    "kedu",
+    "arivu",
+    "penvazhi"
+   ],
+   "nuance": "அறிவு எனும் அமைச்சன் can be a minister whose name is Wisdom or the king's own wisdom figured as a minister; with the realm already handed to Kattiyangaran the second reading fits, but the line does not settle it. The image keeps the outer shell intact: the king still reigns in form.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "thirumagal",
+     "form": "திருமகள்",
+     "line": 3
+    },
+    {
+     "id": "arivu",
+     "form": "அமைச்சன்",
+     "line": 4
+    }
+   ],
+   "event": "Fortune secretly abandons Saccandan, and his wisdom speaks to him as a minister.",
+   "claims": [
+    {
+     "claim": "fortune leaves a king sunk in pleasure without warning",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "233": {
+   "reading": "Wisdom rebukes him: he did not know how to walk by justice, which kings keep as their eye; taking the wrong path and bathing in the liquor of lust, he lost the senses he was taught; now let him build one rare machine.",
+   "concepts": [
+    "sengol",
+    "kaamam",
+    "kal",
+    "arivu"
+   ],
+   "nuance": "The verse turns on பொறி twice: the faculties (ஓதிய பொறி) the king has lost and the machine (அரும் பொறி) he must now build. The remedy offered is not reform but a means of escape, which shows the rule is already lost.",
+   "uncertain": true,
+   "speaker": {
+    "who": "arivu",
+    "form": null,
+    "line": null,
+    "addressee": "saccandan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "justice is the eye of kings, and lust like liquor robs a king of his learned sense",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "arivu"
+    }
+   ]
+  },
+  "234": {
+   "reading": "The king calls the master carpenter, so skilled in the science of machines that men take him for Mayan of the gods, and orders him to build a mechanical vehicle.",
+   "concepts": [
+    "soozhchi",
+    "kalvi"
+   ],
+   "speaker": {
+    "who": "saccandan",
+    "form": null,
+    "line": null,
+    "addressee": "perum_thachchan"
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "perum_thachchan",
+     "form": "தச்சனைக்",
+     "line": 3
+    }
+   ],
+   "event": "Saccandan orders the master carpenter to build a flying vehicle.",
+   "claims": []
+  },
+  "235": {
+   "reading": "With strips of cloth, resin, thread, good lac, wax and other materials, the carpenter makes in seven days a great peacock that flies.",
+   "concepts": [
+    "kalvi",
+    "muyarchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "perum_thachchan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The carpenter builds the mechanical peacock in seven days.",
+   "claims": []
+  },
+  "236": {
+   "reading": "He brings a real feathered peacock and the beautiful one he made, bows at the feet of the lord of the whole earth, and asks him to tell which dancing peacock is which.",
+   "concepts": [
+    "kalvi",
+    "aaraaydhal"
+   ],
+   "nuance": "The test of the craft is that the made bird cannot be told from the living one.",
+   "speaker": {
+    "who": "perum_thachchan",
+    "form": null,
+    "line": null,
+    "addressee": "saccandan"
+   },
+   "agents": [
+    {
+     "id": "perum_thachchan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "saccandan",
+     "form": "உடையான்",
+     "line": 3
+    }
+   ],
+   "event": "The carpenter presents the real and the made peacock side by side to the king.",
+   "claims": []
+  },
+  "237": {
+   "reading": "The famed king who loves the books of the good path cries 'good, good' and gives the master of the smith's craft a golden chamber full of shining jewels.",
+   "concepts": [
+    "eegai",
+    "kalvi"
+   ],
+   "nuance": "கொல் நெறி here is the smith's craft; the sound of 'killing' is near but the line does not make it a pun.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": "வெய்யோன்",
+     "line": 4
+    }
+   ],
+   "event": "Saccandan rewards the carpenter with a treasure-room of jewels.",
+   "claims": []
+  },
+  "238": {
+   "reading": "For some days the king flies the dancing peacock vehicle near the mansions and groves, rising higher and higher by stages, winding it to run, and teaches the queen, who learns it.",
+   "concepts": [
+    "soozhchi",
+    "kalvi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vijayai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Saccandan teaches Vijayai to fly the mechanical peacock.",
+   "claims": []
+  },
+  "239": {
+   "reading": "When the doll-like queen with music-playing fingers turns the pin to the right it rises through the clouds into the sky; when she turns it to the left the peacock comes down, to watchers' wonder, and settles with folded legs.",
+   "concepts": [
+    "soozhchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": "பாவை",
+     "line": 1
+    }
+   ],
+   "event": "Vijayai masters the peacock's controls, flying it up and bringing it down.",
+   "claims": []
+  },
+  "240": {
+   "reading": "Kattiyangaran, having taken the land by lawful gift, calls aside those learned in the law books and speaks to them, he who is the dregs within the dregs of bad character.",
+   "concepts": [
+    "vanjam",
+    "kayamai",
+    "utpagai"
+   ],
+   "nuance": "நீதியால் நிலம் கொண்ட stresses that he holds the land lawfully, which makes the coming plot a betrayal of a lawful trust; the narrator's judgment in line 4 is unusually blunt.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran",
+     "form": "கட்டியங் காரனும்",
+     "line": 1
+    }
+   ],
+   "event": "Kattiyangaran secretly summons the scholars of law to a private council.",
+   "claims": []
+  },
+  "241": {
+   "reading": "He tells them that a great deity hostile to the king has possessed him and presses him night and day to kill the king, and asks what he should do.",
+   "concepts": [
+    "vanjam",
+    "anangu",
+    "kolai"
+   ],
+   "nuance": "Laying the murderous wish on a possessing deity lets him propose regicide while disowning it; asking the law-learned what he should do seeks sanction rather than advice.",
+   "speaker": {
+    "who": "kattiyangaran",
+    "form": null,
+    "line": null,
+    "addressee": "law_scholars"
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kattiyangaran claims a deity's possession as pretext and asks counsel on killing the king.",
+   "claims": []
+  },
+  "242": {
+   "reading": "They shudder like a jewelled serpent struck by a thunderbolt, and Dharmadattan, one of those who saw his purpose had hardened, speaks.",
+   "concepts": [
+    "acham",
+    "amaichu"
+   ],
+   "nuance": "கருமம் காழ்த்தமை, 'that the deed had hardened', may mean that Kattiyangaran's intent was already fixed, so the counsel that follows is spoken knowing it may fail.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "law_scholars",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "dharmadattan",
+     "form": "தரும தத்தன்",
+     "line": 4
+    }
+   ],
+   "event": "The councillors are struck with dread, and Dharmadattan rises to answer.",
+   "claims": []
+  },
+  "243": {
+   "reading": "Dharmadattan grants the king's fault: the noble one took the queen with frog-bell anklets and kuvalai-wide eyes as his nectar and shrank into her, her heart his whole world.",
+   "concepts": [
+    "penvazhi",
+    "kaamam"
+   ],
+   "nuance": "The loyal counsellor does not defend the king's conduct; his case for loyalty starts by conceding it.",
+   "speaker": {
+    "who": "dharmadattan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": "அண்ணலும்",
+     "line": 3
+    },
+    {
+     "id": "vijayai",
+     "form": "கொழுங் கணாள்",
+     "line": 2
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "244": {
+   "reading": "Valuing a woman's pleasure above heaven and nectar, the king sank without thought, and this world sank with him and with the lotus goddess of fortune.",
+   "concepts": [
+    "penvazhi",
+    "inbam",
+    "kedu"
+   ],
+   "speaker": {
+    "who": "dharmadattan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": "அவன்",
+     "line": 2
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a king who prizes a woman's pleasure above all brings down the realm and its fortune with him",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    }
+   ]
+  },
+  "245": {
+   "reading": "If you seize the garlanded king who made you, Fortune will turn from you; if you follow in his way, none on this earth will ever uproot your line.",
+   "concepts": [
+    "nanri",
+    "selvam",
+    "kudi"
+   ],
+   "nuance": "The argument is prudential as much as moral: Dharmadattan offers a usurper his own line's safety. Madanan answers it with the sword at verse 257.",
+   "speaker": {
+    "who": "dharmadattan",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "Fortune turns from one who overthrows the lord who raised him",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    },
+    {
+     "claim": "loyalty to one's maker secures one's lineage on earth",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "dharmadattan"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": "225",
+   "b": "267",
+   "type": "develops",
+   "note": "The king reads the crown, garlands and shoot but will not speak of the falling tree; at 267 he tells the queen that all she dreamed that night has come to fruit.",
+   "teaches": "The withheld half of the dream was the king's own death, so his kindly silence at the reading becomes, at the fall of the city, an admission that he knew."
+  },
+  {
+   "a": "228",
+   "b": "267",
+   "type": "tension",
+   "note": "Consoling the queen, the king asks whether a dream's nature is truth; at 267 he tells her the dreams have all come true.",
+   "teaches": "The king's dismissal of dreams was comfort he did not believe, since the same man had read the dream by the treatise and later concedes its truth."
+  },
+  {
+   "a": "233",
+   "b": "272",
+   "type": "develops",
+   "note": "Wisdom's remedy for the king's lost sense is to build a rare machine; at 272 the king tells the queen the vehicle is ready and she must go first.",
+   "teaches": "The machine ordered as penance for the lust that cost the kingdom becomes the means of saving the heir, so the fault's remedy is escape rather than reform."
+  },
+  {
+   "a": "245",
+   "b": "257",
+   "type": "tension",
+   "note": "Dharmadattan argues that Fortune deserts the man who seizes his maker; Madanan answers that he can speak only with the sword, not the mouth.",
+   "teaches": "The counsel fails not by being refuted but by being refused, so the plot proceeds with its warning on record, which the story will make good."
+  },
+  {
+   "a": "232",
+   "b": "tirumanthiram:2593",
+   "type": "same_image",
+   "note": "Both use the wood-apple swallowed by the elephant, whole in shell and emptied within: the Cintamani for a king whom Fortune has left, Tirumular for Siva swallowing soul, states and world.",
+   "teaches": "The same figure of a shell kept whole while its substance is taken means ruin for a king and consummation for a soul, so Tirumular turns a stock image of loss into one of absorption in Siva.",
+   "gains": {
+    "a": "the epic's compressed simile is confirmed in its sense of an outwardly intact but emptied reign",
+    "b": "the Saiva verse is shown inverting an image whose ordinary use in narrative was loss of fortune"
+   }
+  },
+  {
+   "a": "232",
+   "b": "kural:638",
+   "type": "qualifies",
+   "note": "The Kural binds the one at the king's side to speak what is good even to a king who destroys counsel; in the Cintamani the counsel comes from Wisdom as minister, after the realm is already given away.",
+   "teaches": "With the minister's office handed to the usurper, the duty the Kural lays on the counsellor falls to the king's own wisdom, and it speaks only when advice can no longer save the realm.",
+   "gains": {
+    "a": "the figure of Wisdom as minister is placed within the Kural's account of the counsellor's duty",
+    "b": "the couplet's duty is shown with its limit: counsel that comes too late can only plan an escape"
+   }
+  },
+  {
+   "a": "244",
+   "b": "kural:906",
+   "type": "qualifies",
+   "note": "Kural 906 says the man who fears his wife's shoulders is worthless though he live like the gods; Dharmadattan says the king valued a woman's pleasure above heaven and nectar.",
+   "teaches": "The Kural weighs the wife-ruled man against the gods' life and finds him worthless, while the epic's king makes the same comparison in reverse, and the cost falls not on his worth but on the whole realm.",
+   "gains": {
+    "a": "the counsellor's charge is seen as the Kural's chapter on being led by a woman, applied to a king",
+    "b": "the couplet's private failing is shown with a public cost, a world that sinks with its king"
+   }
+  },
+  {
+   "a": "245",
+   "b": "kural:110",
+   "type": "develops",
+   "note": "Kural 110 says there is no escape for one who kills a good done to him; Dharmadattan warns that Fortune will leave the man who seizes the king who made him, and that loyalty secures his line.",
+   "teaches": "The Kural's 'no escape' for ingratitude is turned into a political forecast, the loss of fortune and lineage, and offered to a would-be usurper as prudence rather than only as virtue.",
+   "gains": {
+    "a": "the counsel is grounded in the Kural's ranking of ingratitude as the sin without remedy",
+    "b": "the couplet's abstract doom is given a concrete form, a usurper whose line will be uprooted"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "231 and 232 were printed in eight half-lines and joined into four by the build (flag repaired); the joins read correctly.",
+  "230 line 4 divides தளர்கின்றாள் as தளர் கின்றாள், and 240 line 1 divides கட்டியங்காரன் as கட்டியங் காரனும்; word division only.",
+  "223 line 2 (எண் முத்து அணி மாலை முடிக்கு இடன் ஆக) is compressed, and how the eight garlands relate to the crown and the shoot is not certain from the line."
+ ]
+}

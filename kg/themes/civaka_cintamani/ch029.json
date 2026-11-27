@@ -1,0 +1,653 @@
+{
+ "chapter_no": 29,
+ "chapter_theme": "At the vina contest the assembled kings gaze on Gandharvadattai and speak of her as Death and goddess, vowing war or penance if they lose; she enters, plays and sings three spring songs of a cuckoo's estranged mate won back, her friend the pedi Vinapati announces the terms and jests with the crowd, and when the suitors play in turn the birds that fell entranced at her song fly off at theirs.",
+ "cast": [
+  {
+   "id": "gandharvadattai",
+   "tamil": "காந்தருவதத்தை",
+   "role": "the Vidyadhara king's daughter, who will wed the one who defeats her at the vina"
+  },
+  {
+   "id": "vinapati",
+   "tamil": "வீணாபதி",
+   "role": "Gandharvadattai's friend, a pedi (பேடி), who announces the contest"
+  },
+  {
+   "id": "suitor_kings",
+   "tamil": "மன்னர்",
+   "role": "the kings and young men gathered to contend for her at the vina"
+  },
+  {
+   "id": "onlookers",
+   "tamil": "கண்டார்",
+   "role": "those in the hall who see her and speak of her"
+  },
+  {
+   "id": "tattai_maids",
+   "tamil": "இளையர்",
+   "role": "the young women who serve Gandharvadattai, prepare her seat and draw the screen"
+  }
+ ],
+ "verses": {
+  "637": {
+   "reading": "Onlookers say her girdle, like a shoal of fish, and her hot breasts are Death upon Death, and bid the suitors run off saving the lives within them, adding that the anklet-bells on her honeyed feet, which the scented garland trails after and will not let go, were fit only to be made of gold.",
+   "concepts": [
+    "kootru",
+    "kaamam",
+    "uyir"
+   ],
+   "speaker": {
+    "who": "onlookers",
+    "form": null,
+    "line": null,
+    "addressee": "suitor_kings"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The warning, 'we have told you' (உரைத்தேம்), is given before the contest: those who will lose at the vina are told in advance that the prize itself kills. Who speaks is known only from என்பார்; the line could also be read as the suitors' banter among themselves.",
+   "uncertain": true
+  },
+  "638": {
+   "reading": "Those who see her say that her mother, in bearing this golden-anklet creeper with the prattling voice of a bird, seems to have borne a Death to take the world, and cry out at how cruel it is.",
+   "concepts": [
+    "kootru",
+    "azhagu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "onlookers",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The praise goes by way of blame of the mother: bearing a beauty is called bearing Death (கூற்றீன்றாள்), so the crowd's wonder is voiced as reproach."
+  },
+  "639": {
+   "reading": "The garlanded kings, in doubt, ask whether she is Tiru on the red lotus, a Vidyadhara woman of fierce glance, or a daughter of the spotless gods.",
+   "concepts": [
+    "anangu",
+    "azhagu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "suitor_kings",
+    "form": "தார்மன்னர்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "All three guesses are divine or semi-divine; the second, விச்சாதரி, is in fact true of her by birth, since she is the Vidyadhara king's daughter, so the kings' doubt hits the fact without knowing it."
+  },
+  "640": {
+   "reading": "Some kings say that unless it is they who win at the vina and lie on her breasts, they will plunge into a war of bent bows if another takes her, and failing that will do great penance.",
+   "concepts": [
+    "thavam",
+    "kaamam",
+    "maram"
+   ],
+   "speaker": {
+    "who": "suitor_kings",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "Two fallbacks are named for defeat, war and penance (நற்றவம்); the contest is already shadowed by the threat that its result will be fought over, and தவம் stands here as a disappointed lover's recourse, not as a turn from desire."
+  },
+  "641": {
+   "reading": "Other kings say her lined breasts, like vermilion caskets, torment them, that she has drawn and shot them with her fine eyes, that they cannot live, and that the slender one will now let loose their end.",
+   "concepts": [
+    "kan",
+    "kaamanoy",
+    "uyir"
+   ],
+   "speaker": {
+    "who": "suitor_kings",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The sense of line 4 (மெலிய வாலி விடுக்குமற்று) is not secure; the reading as 'the slender one lets fly' carries the eye-as-archer image of line 3 forward.",
+   "uncertain": true
+  },
+  "642": {
+   "reading": "Others, with melted hearts, join their palms in worship and wander, saying that she has stretched out her lac-red feet onto soft flowers, shown her beauty and killed them.",
+   "concepts": [
+    "kaamanoy",
+    "nalam",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "suitor_kings",
+    "form": null,
+    "line": null,
+    "addressee": "gandharvadattai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The suitors worship (கைதொழுது) her as one worships a deity while accusing her of murder: the posture of devotion and the charge of killing are the same gesture."
+  },
+  "643": {
+   "reading": "Others list her parts as fish, coral, bow and pearls in a moon face, kongu buds and unworked gold on her chest, hands like red shoots dipped in ghee and feet like lotus, and say they cannot tell, she is a goddess who afflicts.",
+   "concepts": [
+    "anangu",
+    "nalam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "suitor_kings",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "644": {
+   "reading": "Seeing the pearl strings from golden makara clasps on her shoulders and the lightning-like makara earrings dancing, some ask how she, whose breasts infatuated Kama himself, is not Rambha, and others ask whether these blinking eyes can be hers.",
+   "concepts": [
+    "anangu",
+    "kan",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "suitor_kings",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The blink (இமைக்குங்கண்) is the test: the gods are the unblinking ones (இமையார், 647), so the eyes that blink tell the doubters that the goddess-like woman is mortal after all."
+  },
+  "645": {
+   "reading": "Kings with murderous spears, high on blue elephants with long white tusks like red flames climbing a hill of diamond streams, their garlands heaving, worship, weep and waste, a crore of them gathered, asking who will win the girl whose eyes outdo the sharpness of swords.",
+   "concepts": [
+    "kaamanoy",
+    "vendhan",
+    "kan"
+   ],
+   "speaker": {
+    "who": "suitor_kings",
+    "form": "மன்னர்",
+    "line": 1,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suitor_kings",
+     "form": "மன்னர்",
+     "line": 1
+    }
+   ],
+   "event": "The assembled kings, mounted on elephants, weep and ask who will win her.",
+   "claims": [],
+   "nuance": "A crore (கோடி) is the poet's hyperbole for the crowd; the warlike picture of the first two lines gives way to tears in the third."
+  },
+  "646": {
+   "reading": "Like a gold creeper that puts forth the shoot of a doll's beauty, while the young men's eyes roam round her like bees and her anklets tinkle, she walks softly as a swan and reaches the golden enclosure, like Tiru on the red lotus.",
+   "concepts": [
+    "azhagu",
+    "kan",
+    "nalam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gandharvadattai walks to the golden enclosure of the contest hall.",
+   "claims": []
+  },
+  "647": {
+   "reading": "With silk screens set round, garlands hung, the floor smeared with sandal, flowers strewn and incense raised, and young women praising, she sits like a daughter of the unblinking gods, takes up her yazh and plays a mode, and even the kinnaras swoon, forgetting themselves.",
+   "concepts": [
+    "isai",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "tattai_maids",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Her maids prepare the screened seat, and Gandharvadattai plays a mode on the yazh.",
+   "claims": [],
+   "nuance": "The kinnaras are the gods' own musicians; their swoon puts her playing above the celestial standard before any suitor has touched a string."
+  },
+  "648": {
+   "reading": "In her song, when the cuckoo's back is buried in kanji pollen, his young mate takes him for a parrot and shrinks away, and he calls in a voice that melts the bones, shakes out his wings and embraces her: young spring has come.",
+   "concepts": [
+    "oodal",
+    "punarchi",
+    "isai"
+   ],
+   "speaker": {
+    "who": "gandharvadattai",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The first of three refrain songs (தலைவந்த திளவேனில்) in a new metre; 651 confirms that she has sung them."
+  },
+  "649": {
+   "reading": "In the second song the cock, having bathed in cool kanji pollen, hides his own colour, his mate mistakes him for a parrot and moves off, and the young cock with fine down calls with his gaze and enfolds her with his wing: young spring has come.",
+   "concepts": [
+    "oodal",
+    "punarchi",
+    "isai"
+   ],
+   "speaker": {
+    "who": "gandharvadattai",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "650": {
+   "reading": "In the third song, when the short-legged cock cuckoo comes dusted with pollen and his mate turns from him in dislike, he will not let it be, ruffles his wings, coaxes her back to joy and bows at her feet with his body: young spring has come.",
+   "concepts": [
+    "oodal",
+    "punarchi",
+    "panivu"
+   ],
+   "speaker": {
+    "who": "gandharvadattai",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "Across the three songs the mate's estrangement is a mistake about appearance, and it is ended each time by the male's voice and, in the last, by his bowing at her feet; sung by a woman who will give herself only to the one who beats her in music, the songs set out the terms of her contest."
+  },
+  "651": {
+   "reading": "When the garlanded singer had sung and sat at ease, her friend Vinapati, a pedi with honey-sweet eyes, called out that the heroes should begin to play the yazh while the young spear-eyed one sang, or else the men should quickly sing to the bangled one's yazh.",
+   "concepts": [
+    "isai",
+    "avai"
+   ],
+   "speaker": {
+    "who": "vinapati",
+    "form": "வீணா பதி",
+    "line": 2,
+    "addressee": "suitor_kings"
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": "கோதை",
+     "line": 1
+    },
+    {
+     "id": "vinapati",
+     "form": "வீணா பதி",
+     "line": 2
+    }
+   ],
+   "event": "Vinapati announces the terms: the suitors are to play while Gandharvadattai sings, or sing while she plays.",
+   "claims": [],
+   "nuance": "பேடி names one of neither sex; the friend who announces the rules of a contest of men for a woman is herself outside that contest."
+  },
+  "652": {
+   "reading": "When some say her shoulders are bamboo, her brow a bow, her mouth coral, her body a mango shoot, and that bearing those breasts is a sickness to her, those sitting near exclaim, 'What, is this one a pedi?', is the girl with the gem girdle a pedi?",
+   "concepts": [
+    "azhagu",
+    "nalam"
+   ],
+   "speaker": {
+    "who": "onlookers",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The praise seems to be of Vinapati, whose womanly beauty makes the bystanders doubt what they have been told of her; the refrain line repeats the question. Who is praised is not stated.",
+   "uncertain": true
+  },
+  "653": {
+   "reading": "She answers the men in leaf-shaped ornaments that the gods, in a clamour, hid her breasts away because her eyes were already a noose that takes its offering and will not go, and a Death that eats lives by sound, and with that she went to the screen.",
+   "concepts": [
+    "kan",
+    "kootru",
+    "anangu"
+   ],
+   "speaker": {
+    "who": "vinapati",
+    "form": null,
+    "line": null,
+    "addressee": "onlookers"
+   },
+   "agents": [
+    {
+     "id": "vinapati",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Vinapati answers the onlookers' question with a jest and withdraws to the screen.",
+   "claims": [],
+   "nuance": "Read as Vinapati's reply to 652, the jest turns her lack into a boast: breasts were not needed where the eyes already kill. The speaker is inferred from the sequence, and the image of eyes killing 'by sound' (ஒலிகொண்டு) is not clear.",
+   "uncertain": true
+  },
+  "654": {
+   "reading": "She of the waist that can be known only if someone says it is there, under fine silk on wide hips and bending breasts, a creeper of love, carrying the yazh, swayed like a vine through their throng.",
+   "concepts": [
+    "azhagu",
+    "nalam",
+    "isai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Carrying the yazh, she moves through the throng to her place.",
+   "claims": [],
+   "nuance": "Who carries the yazh is not named; the verse may still be about Vinapati after 653, but 655 to 656 have Gandharvadattai take her seat with the yazh, so it is read as her.",
+   "uncertain": true
+  },
+  "655": {
+   "reading": "As the young women with parrot voices slowly drew back the screen of the crystal-bright gem wall, she went up onto her seat, while her anklet-bells cried in pity as if grieving that the lives of men would vanish today.",
+   "concepts": [
+    "uyir",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tattai_maids",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "gandharvadattai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The maids draw back the screen and Gandharvadattai takes her seat.",
+   "claims": []
+  },
+  "656": {
+   "reading": "With a light-veiling gem wall between, she with eyes like a sword drawn from its sheath sits on this side holding the yazh, and on that side the garlands of the men with blood-stained spears wither.",
+   "concepts": [
+    "kaamanoy",
+    "kan",
+    "isai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "suitor_kings",
+     "form": "வேலினார்",
+     "line": 4
+    }
+   ],
+   "event": "Gandharvadattai sits with the yazh behind the gem wall facing the suitors.",
+   "claims": [],
+   "nuance": "The withering garland is the warriors' sign of defeat before any note is struck; the spears are bloody (கறைகெழு) but useless here."
+  },
+  "657": {
+   "reading": "Like a divine image with a brow like a bow, she played with all the art and sang, and the bent trees of the leafy grove put out tender shoots and the birds forgot themselves and fell to the ground.",
+   "concepts": [
+    "isai",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gandharvadattai plays and sings; trees bud and birds fall entranced.",
+   "claims": []
+  },
+  "658": {
+   "reading": "Her dark brows did not rise, her eyes did not move, her throat did not swell, her teeth did not show; the listeners, melting, asked whether she had opened her coral mouth to sing at all, or whether the strung vina had walked upon her tongue.",
+   "concepts": [
+    "isai",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "suitor_kings",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "Mastery is marked by the absence of effort on the face, so that voice and instrument cannot be told apart."
+  },
+  "659": {
+   "reading": "It is said that when the men, like Ananga himself in skill of music and without fault, took up their great golden yazhs and played and sang, the birds took fright and flew up into the wide sky as if laughing at them.",
+   "concepts": [
+    "isai",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suitor_kings",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The suitors play and sing in turn, and the birds fly off in fright.",
+   "claims": [],
+   "nuance": "The praise of the suitors (வசைத்திறமிலாதவர்) is turned by the birds' mockery (அசிப்ப போன்று), and என்பவே keeps the poet at the distance of report."
+  },
+  "660": {
+   "reading": "The listening kinnara birds that came when the girl stroked her yazh turned back at the music of the men's hands: when she sang they came in, and when the garlanded men sang they went away.",
+   "concepts": [
+    "isai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "suitor_kings",
+     "form": "தாரினார்",
+     "line": 4
+    }
+   ],
+   "event": "The kinnara birds come to her singing and leave at the suitors'.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "644",
+   "b": "kural:1081",
+   "type": "qualifies",
+   "note": "The Kural's lover cannot tell whether the woman is a goddess, a peahen or a woman; the Cintamani's kings ask how she is not Rambha and then notice that her eyes blink (இமைக்குங்கண் இவையோ).",
+   "teaches": "The pair shows the lover's doubt can be settled by a sign: where the couplet leaves the heart reeling among three guesses, the epic supplies the blink that separates a mortal from the unblinking gods and ends the doubt.",
+   "gains": {
+    "a": "the kings' remark is seen as the closing move of a set doubt-scene whose first move the Kural states",
+    "b": "the couplet's unresolved question gains a test of the kind its own three guesses never apply"
+   }
+  },
+  {
+   "a": "637",
+   "b": "kural:1083",
+   "type": "qualifies",
+   "note": "The couplet's man says he never knew Death and knows it now in a woman's eyes; the onlookers tell the suitors that her girdle and breasts are Death and bid them flee, 'we have told you'.",
+   "teaches": "Read with the couplet, the onlookers' warning puts the suitors in the state the Kural's man has left behind, knowing Death only by report, and shows that being told does not save anyone, since the crowd stays.",
+   "gains": {
+    "a": "the warning gains its irony from the couplet's contrast between Death heard of and Death met",
+    "b": "the couplet's private discovery gains a public scene in which the same knowledge is offered as advice and goes unheeded"
+   }
+  },
+  {
+   "a": "653",
+   "b": "kural:1087",
+   "type": "qualifies",
+   "note": "The Kural likens the cloth over a woman's breasts to the face-cloth on a rutting elephant; Vinapati jests that the gods hid her breasts altogether because her eyes already killed.",
+   "teaches": "The two take opposite sides of one premise, that a woman's breasts are a danger to be covered, and the pedi's jest pushes it to the end by having the gods remove what the cloth only veils, with the eyes left as the whole of the threat.",
+   "gains": {
+    "a": "the obscure jest becomes legible as a play on a known figure of the veiled danger",
+    "b": "the couplet's covering gains its limit case, a body in which the covered danger is absent and the eyes do all the harm"
+   }
+  },
+  {
+   "a": "640",
+   "b": "kural:265",
+   "type": "qualifies",
+   "note": "The couplet says tavam is striven for because it gets whatever one wants as one wants it; the kings vow that if they lose her they will fight, or else do great penance.",
+   "teaches": "The kings take penance on the couplet's own motive, as a way to the thing desired, and so show the weakness the couplet's next verse attacks: penance offered as the consolation of a failed suitor stays bound to the desire it should end.",
+   "gains": {
+    "a": "the kings' fallback is seen as a reading of tavam the Kural itself supplies",
+    "b": "the couplet's promise of getting what one wants gains a speaker for whom the wanted thing is a woman lost at a contest"
+   }
+  },
+  {
+   "a": "640",
+   "b": "467",
+   "type": "same_image",
+   "note": "In 467 the city women say only those whose penance has earned it may drink Civakan's beauty; in 640 the suitor kings say that if they cannot win Gandharvadattai they will do penance.",
+   "teaches": "The epic gives the same belief to both sexes, that tavam is the price of a beloved, but turns it round: the women look to past penance as the cause of a lucky union, the kings to future penance as the comfort for a lost one."
+  },
+  {
+   "a": "659",
+   "b": "657",
+   "type": "tension",
+   "note": "At Gandharvadattai's song the trees bud and the birds fall entranced; at the song of the suitors, called faultless and like Ananga in music, the birds fly off as if laughing.",
+   "teaches": "The poet lets the birds give the verdict the narration withholds: the suitors' music is praised in words and condemned by nature, so the contest is judged before any human judge speaks."
+  },
+  {
+   "a": "659",
+   "b": "11",
+   "type": "tension",
+   "note": "The patikam announces that the Vidyadhara king's daughter was defeated at the vina by Civakan; here the assembled kings, faultless masters of music, fail before her.",
+   "teaches": "Against the patikam the failure of the kings, praised as masters, shows that the victory announced there belongs to no ordinary skill, and raises the merchant's son above a crowd of crowned musicians before he appears."
+  },
+  {
+   "a": "657",
+   "b": "thiruppugazh:43",
+   "type": "same_image",
+   "note": "At Krishna's flute in the Thiruppugazh dry trees in the forest sprout and birds come down to the ground; at Gandharvadattai's yazh the trees of the grove put out shoots and the birds forget themselves and fall.",
+   "teaches": "The same marvel of music that moves trees and birds is a god's sign in the hymn and a contest's evidence in the epic, where 659 adds the reverse, birds fleeing bad music, so the image becomes a measure as well as a wonder.",
+   "gains": {
+    "a": "the epic's marvel is shown to use a stock image of divine music, so that the girl is raised to the level of Krishna's flute",
+    "b": "the hymn's image gains a version in which nature can also refuse, which the hymn's all-conquering flute never shows"
+   }
+  },
+  {
+   "a": "637",
+   "b": "silappathikaram:7:83-89",
+   "type": "qualifies",
+   "note": "In the Kaanal Vari the man sings that a cruel Death with spear-like eyes lives in the shore grove in a girl's form, and that had he known he would not have come; in the Cintamani onlookers tell the suitors that she is Death and bid them run while they can.",
+   "teaches": "The two epics use the woman-as-Death figure at opposite moments: the Silappathikaram's singer learns it too late and says he would not have come, while the Cintamani's crowd says it beforehand to men who stay anyway, so the warning that comes too late in one comes in time and fails in the other."
+  },
+  {
+   "a": "650",
+   "b": "silappathikaram:7:21-28",
+   "type": "tension",
+   "note": "Kovalan's yazh song praises the Kaveri for not sulking when the Chola unites with the Ganga and calls that a noble woman's karpu; Gandharvadattai's yazh songs show the cuckoo's mate estranged and won back only when the male coaxes her and bows at her feet.",
+   "teaches": "Two yazh songs on lovers' estrangement take opposite sides: the Silappathikaram's makes the woman's not sulking her virtue, while the Cintamani's makes the man's humbling the end of a just sulk, which fits a heroine who yields only to the man who outdoes her."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "isai",
+   "tamil": "இசை",
+   "gloss": "music: the lute, melody, mode and the sounds compared to them",
+   "label_source": "the verses name the yazh (யாழ், 647, 651, 656, 659), the mode (பண், 647) and song (பாடி, 651, 657); id as used in the Valayapathi and Silappathikaram marks"
+  }
+ ],
+ "source_issues": [
+  "652 and 653 have five lines; in each the fifth line repeats the fourth's close with a variant epithet (பேடியோ, எழினி சேர்ந்தாள்), which reads as a refrain of the stanza form rather than an intrusion, but the count is irregular.",
+  "637 and 653: the ோ் for ேர் TSCII repair (lines 1, 3, 4 of 637; 4 and 5 of 653) has been accepted as printed by show.",
+  "646 and 647 were printed in eight half-lines and joined into four by the build.",
+  "656 ends with a doubled full stop (தீந்தவே..).",
+  "641 line 4 (மெலிய வாலி விடுக்குமற் றென்மரும்) does not parse with confidence; the word division may be at fault."
+ ]
+}

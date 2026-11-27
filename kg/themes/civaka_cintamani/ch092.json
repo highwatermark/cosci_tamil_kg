@@ -1,0 +1,793 @@
+{
+  "chapter_no": 92,
+  "chapter_theme": "Civakan enters his maternal uncle Govindan's city and palace, is received with tears, and exchanges first looks with the uncle's daughter; then Govindan in council hears Kattiyankaran's lying letter, which blames Saccandan's death on an elephant, and resolves to answer guile with guile, proclaiming a false alliance while mustering his army.",
+  "cast": [
+    {
+      "id": "civakan",
+      "tamil": "சீவகன்",
+      "role": "the hero, son of Saccandan and Vijayai, called சீவகசாமி in the invocation"
+    },
+    {
+      "id": "govindan",
+      "tamil": "கோவிந்தன்",
+      "role": "king of Videham (விதையம்), Vijayai's elder brother and Civakan's maternal uncle; named in these verses only as வேந்தன், மன்னன், காவலன்"
+    },
+    {
+      "id": "vijayai",
+      "tamil": "விசயை",
+      "role": "Saccandan's queen and Civakan's mother"
+    },
+    {
+      "id": "ilakkanai",
+      "tamil": "இலக்கணை",
+      "role": "Govindan's daughter, the maternal uncle's daughter Civakan is to marry; unnamed in these verses (நங்கை)"
+    },
+    {
+      "id": "civakan_pidi",
+      "tamil": "இளம்பிடி",
+      "role": "the young she-elephant Civakan rides into the city"
+    },
+    {
+      "id": "city_women",
+      "tamil": "மகளிர்",
+      "role": "the women of the city's streets and houses"
+    },
+    {
+      "id": "kovil_magalir",
+      "tamil": "மங்கையர்",
+      "role": "the women of Govindan's palace"
+    },
+    {
+      "id": "govindan_deviyar",
+      "tamil": "பட்டத் தேவியர்",
+      "role": "Govindan's crowned queens"
+    },
+    {
+      "id": "kovil_makkal",
+      "tamil": "கோயில்",
+      "role": "the whole household of Govindan's palace"
+    },
+    {
+      "id": "govindan_amaichar",
+      "tamil": "அமைச்சர்",
+      "role": "Govindan's ministers, addressed as நூல்வலீர்"
+    },
+    {
+      "id": "sitattan",
+      "tamil": "சீதத்தன்",
+      "role": "merchant's son who sails for wealth and is shipwrecked; here set to guard the city"
+    },
+    {
+      "id": "civakan_thozhar",
+      "tamil": "தோழர்",
+      "role": "Civakan's companions"
+    },
+    {
+      "id": "virisikan",
+      "tamil": "விரிசிகன்",
+      "role": "the man at Govindan's court who breaks the seal and reads Kattiyankaran's letter"
+    },
+    {
+      "id": "kattiyangaran",
+      "tamil": "கட்டியங்காரன்",
+      "role": "the minister who seized Saccandan's throne and imprisons Civakan"
+    },
+    {
+      "id": "saccandan",
+      "tamil": "சச்சந்தன்",
+      "role": "king of Emangatham, Civakan's father, who loses his kingdom to a plot"
+    },
+    {
+      "id": "asanivegam",
+      "tamil": "அசனிவேகம்",
+      "role": "the musth state elephant that breaks loose"
+    },
+    {
+      "id": "murasu_arainan",
+      "tamil": "முரசு அறைவோன்",
+      "role": "the drummer who beats out Govindan's proclamation in the old city"
+    }
+  ],
+  "verses": {
+    "2127": {
+      "reading": "The women of the street call to Civakan's young she-elephant: bring the king of rare beauty to our street tomorrow, and we will give you balls of rice.",
+      "concepts": [
+        "kaamam",
+        "virundhu",
+        "azhagu"
+      ],
+      "nuance": "The women bargain with the elephant, not the man: desire speaks through a bribe of food (கருனைக் கவளம்) to his mount, as if the beast decides where the prince goes.",
+      "speaker": {
+        "who": "city_women",
+        "form": null,
+        "line": null,
+        "addressee": "civakan_pidi"
+      },
+      "agents": [
+        {
+          "id": "city_women",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The women of the street ask Civakan's she-elephant to bring him to their street the next day.",
+      "claims": []
+    },
+    "2128": {
+      "reading": "On every side women in gem girdles, gold anklets and bright earrings praise the prince in the street and rejoice.",
+      "concepts": [
+        "azhagu",
+        "pugazh"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "city_women",
+          "form": "கோதையர்",
+          "line": 3
+        }
+      ],
+      "event": "The adorned women of the city praise the prince as he passes.",
+      "claims": []
+    },
+    "2129": {
+      "reading": "Through the street where cloth flags wave on the bright mansions like white surf on the milk sea, Civakan reaches the king's palace, like the young sun resting on the mountain at the sea's edge.",
+      "concepts": [
+        "azhagu",
+        "arasu"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "civakan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Civakan passes through the bannered street and reaches the king's palace.",
+      "claims": []
+    },
+    "2130": {
+      "reading": "In the palace bright with jewels, the women stand dazed in clusters like lightning in a cloud, their faces and carp-like eyes showing like blue lilies set among lotuses.",
+      "concepts": [
+        "kan",
+        "azhagu",
+        "kaamam"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "kovil_magalir",
+          "form": "மங்கையர்",
+          "line": 4
+        }
+      ],
+      "event": "The palace women stand gazing at Civakan, bewildered.",
+      "claims": []
+    },
+    "2131": {
+      "reading": "Seeing the bearer of the flaming spear, the crowned queens, like a host of goddesses of fortune, rejoice and stand, their streaked eyes brimming as if spilling over, honey and bees flowing from their garlands.",
+      "concepts": [
+        "anbu",
+        "kan"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "govindan_deviyar",
+          "form": "பட்டத் தேவியர்",
+          "line": 2
+        }
+      ],
+      "event": "The king's queens look on Civakan with joy.",
+      "claims": []
+    },
+    "2132": {
+      "reading": "Her garland loosening and slipping, her girdle flashing, the maiden accomplished in beauty stands embracing her friend, her small foot set on her anklet, like a golden creeper that has put out clusters of gems.",
+      "concepts": [
+        "naanam",
+        "azhagu",
+        "kaamam"
+      ],
+      "nuance": "The verse names her only as நங்கை; that she is the king's daughter Ilakkanai, the bride the patikam promised, is known from the story, not from this verse. Leaning on the friend is the shy girl's stance at first sight.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "ilakkanai",
+          "form": "நங்கை",
+          "line": 3
+        }
+      ],
+      "event": "A maiden of the palace stands leaning on her friend as Civakan arrives.",
+      "claims": []
+    },
+    "2133": {
+      "reading": "Her dark rain-cloud eyes, flowering in her face like blue lilies in a lotus, look at the man of the honeyed chest, and the prosperous one plunges into the heart of the flower-garlanded girl and hides there.",
+      "concepts": [
+        "kan",
+        "kaamam"
+      ],
+      "nuance": "The look is hers and the entering is his: her eyes act, but it is he who is said to sink in and hide (ஒளித்திட்டான்), so the first-sight love is told as his capture by her glance.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "ilakkanai",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "civakan",
+          "form": "செல்வன்",
+          "line": 3
+        }
+      ],
+      "event": "The maiden looks at Civakan and he enters her heart.",
+      "claims": []
+    },
+    "2134": {
+      "reading": "Her breasts swelling so that even those who travel the sky are troubled, and as he looks on them, the girl like gold plunges into the heart of the one of the wounding spear, who is like Kama of the five arrows.",
+      "concepts": [
+        "kaamam",
+        "kan"
+      ],
+      "nuance": "With 2133 the entering is made mutual: he sinks into her heart, then she into his, the same verb மூழ்கு used both ways.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "ilakkanai",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "civakan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The maiden in turn enters Civakan's heart.",
+      "claims": []
+    },
+    "2135": {
+      "reading": "Like a tiger coming down from a dark mountain, the young man gets down from the garlanded she-elephant, goes and bows, his head lowered, at the king's anklet that is rubbed bright by the crowns of kings.",
+      "concepts": [
+        "panivu",
+        "sutram"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "civakan",
+          "form": "மைந்தன்",
+          "line": 1
+        }
+      ],
+      "event": "Civakan dismounts and bows at the king's feet.",
+      "claims": []
+    },
+    "2136": {
+      "reading": "The king of strong shoulders, rejoicing, embraces his nephew without letting go, and as his love swells, tears like pearls from his red lotus eyes wet the young man's fragrant jewelled chest.",
+      "concepts": [
+        "anbu",
+        "sutram"
+      ],
+      "nuance": "மருமான் is the sister's son: the welcome is the mother's kin receiving the child of the sister whose husband was killed, and the tears carry that past, though the verse names only love (அன்பு).",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "govindan",
+          "form": "மன்னன்",
+          "line": 2
+        }
+      ],
+      "event": "Govindan embraces his nephew and weeps over him.",
+      "claims": []
+    },
+    "2137": {
+      "reading": "When the king wept unceasingly, the whole palace, losing itself, wept too, the rain of tears pouring over flower garlands, like a flock of peacocks crying on a mountain.",
+      "concepts": [
+        "idumbai",
+        "anbu"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "govindan",
+          "form": "வேந்தன்",
+          "line": 1
+        },
+        {
+          "id": "kovil_makkal",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The whole palace weeps with the king.",
+      "claims": []
+    },
+    "2138": {
+      "reading": "Grief spread through the golden palace where no music was heard, the cries mingling like the sea breaking its dam, until the king's younger sister, the queen of surpassing grace, herself put an end to the lament.",
+      "concepts": [
+        "idumbai",
+        "sutram"
+      ],
+      "nuance": "கோக்கு இளைய நங்கை is the king's younger sister, Vijayai, who had gone ahead to her brother (1932): the one with most cause to weep is the one who ends the weeping.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "vijayai",
+          "form": "தேவி",
+          "line": 4
+        }
+      ],
+      "event": "Vijayai stops the palace's lament.",
+      "claims": []
+    },
+    "2139": {
+      "reading": "Into the painted hall ringed with gold panels inlaid with gems, gold and coral, hung with garlands and fragrant with incense, the king went in due form while his victorious fame was praised.",
+      "concepts": [
+        "arasu",
+        "azhagu"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "govindan",
+          "form": "வேந்தன்",
+          "line": 3
+        }
+      ],
+      "event": "The king enters the painted hall in state.",
+      "claims": []
+    },
+    "2140": {
+      "reading": "When the women had set down the gem betel pouch, the gold vessel, the shining sword, the casket and the whisk, laid out the high seat and withdrawn, the great one went up with his ministers to take counsel.",
+      "concepts": [
+        "amaichu",
+        "soozhchi",
+        "arasu"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "kovil_magalir",
+          "form": "மகளிர்",
+          "line": 3
+        },
+        {
+          "id": "govindan",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "govindan_amaichar",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Govindan goes up with his ministers to take counsel.",
+      "claims": []
+    },
+    "2141": {
+      "reading": "The king of the lineage-given spear names Civakan the son born of a woman whose chastity outshines the star that hides from those whose days are ended, and orders that Sitattan of the sea-like army be set in rule to guard the bannered city.",
+      "concepts": [
+        "arasu",
+        "soozhchi",
+        "karpu"
+      ],
+      "nuance": "The star unseen by the dying is Arundhati, the emblem of a wife's chastity; Vijayai's karpu is said to make it hide. Who is set in rule and over which city is not certain: the line can be read as Civakan setting up Sitattan, or as the king's own order.",
+      "uncertain": true,
+      "speaker": {
+        "who": "govindan",
+        "form": null,
+        "line": null,
+        "addressee": "govindan_amaichar"
+      },
+      "agents": [
+        {
+          "id": "govindan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Govindan orders that Sitattan be put in charge to guard the city.",
+      "claims": []
+    },
+    "2142": {
+      "reading": "So that the enemy's spies could not single them out, the king gave all Civakan's companions jewels, food and clothing as he wished, without any distinction from his own, and then spoke in a voice like the roaring sea that shamed the bull-hide drum.",
+      "concepts": [
+        "otru",
+        "virundhu",
+        "soozhchi"
+      ],
+      "nuance": "The gifts are a disguise: honouring the guests exactly as his own men makes them invisible to Kattiyankaran's spies.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "govindan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Govindan provides for Civakan's companions as for his own people so that spies cannot pick them out.",
+      "claims": []
+    },
+    "2143": {
+      "reading": "The king bids them tell what is in the letter Kattiyankaran sent, with a pledge, aiming at a meeting; Virisikan of the naga-flower garland breaks the seal, bows to the king and reads it out.",
+      "concepts": [
+        "thoothu",
+        "amaichu"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "govindan",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "virisikan",
+          "form": "விரிசிகன்",
+          "line": 4
+        }
+      ],
+      "event": "Virisikan opens Kattiyankaran's letter and reads it to the king.",
+      "claims": []
+    },
+    "2144": {
+      "reading": "The letter begins: let the king of Videham see this letter of Kattiyankaran; a false blame covering this world has spread over me, people took it as truth and not as a tale, and even if I split my heart to show it, who would be convinced?",
+      "concepts": [
+        "pazhi",
+        "vanjam",
+        "sol"
+      ],
+      "nuance": "The blame he calls false is the killing of Saccandan, which the narration told plainly (290). The letter's voice is the usurper's own; the reader knows it lies.",
+      "speaker": {
+        "who": "kattiyangaran",
+        "form": null,
+        "line": null,
+        "addressee": "govindan"
+      },
+      "agents": [
+        {
+          "id": "virisikan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "In his letter Kattiyankaran protests that the blame laid on him is false.",
+      "claims": []
+    },
+    "2145": {
+      "reading": "The letter goes on: the killing elephant Asanivegam charged, scattering the herds of belled tuskers, smashing the tall-bannered chariots, goring the plumed horses and hurling warriors to the sky, and he could not bear it.",
+      "concepts": [
+        "vanjam",
+        "maram"
+      ],
+      "speaker": {
+        "who": "kattiyangaran",
+        "form": null,
+        "line": null,
+        "addressee": "govindan"
+      },
+      "agents": [
+        {
+          "id": "asanivegam",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Kattiyankaran's letter tells that the elephant Asanivegam ran amok and the king could not bear it.",
+      "claims": []
+    },
+    "2146": {
+      "reading": "Hearing that it had torn apart a hundred mahouts and eaten their lives, he went, subdued the musth elephant and mounted it, and as he was binding it fast to the post, it roared like Death, threw him down and killed him, and so the sceptre slackened.",
+      "concepts": [
+        "vanjam",
+        "saakkaadu",
+        "kootru"
+      ],
+      "nuance": "This is the usurper's cover story. The letter never names the king; the killed one is Saccandan by the story. கோல் இளகிற்று, 'the sceptre slackened', turns a regicide into an accident of the royal stable.",
+      "speaker": {
+        "who": "kattiyangaran",
+        "form": null,
+        "line": null,
+        "addressee": "govindan"
+      },
+      "agents": [
+        {
+          "id": "saccandan",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "asanivegam",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Kattiyankaran's letter claims the king was killed by the elephant he tried to tame.",
+      "claims": []
+    },
+    "2147": {
+      "reading": "For him I would give even my life; if he comes, the blame will go; henceforth he alone is my lord; not lingering to think of claim to the wide earth, trusting my word, let the king of angry elephants come quickly, the letter says.",
+      "concepts": [
+        "vanjam",
+        "panivu",
+        "pazhi"
+      ],
+      "nuance": "The pledge of life and the owning of a new lord repeat the bow Kattiyankaran made to Saccandan when he took the rule (203); the letter is bait to draw the king into reach.",
+      "uncertain": true,
+      "speaker": {
+        "who": "kattiyangaran",
+        "form": null,
+        "line": null,
+        "addressee": "govindan"
+      },
+      "agents": [],
+      "event": "Kattiyankaran's letter invites Govindan to come quickly and promises him loyalty.",
+      "claims": []
+    },
+    "2148": {
+      "reading": "Hearing what the letter held, the king of gem-set gold ornaments laughed, his bright teeth showing, and said: the wretch calls Death with his own hand; you learned in the books, there is no subtle scheme for killing him like this.",
+      "concepts": [
+        "soozhchi",
+        "kootru",
+        "pagai"
+      ],
+      "speaker": {
+        "who": "govindan",
+        "form": null,
+        "line": null,
+        "addressee": "govindan_amaichar"
+      },
+      "agents": [
+        {
+          "id": "govindan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Govindan laughs at the letter and tells his ministers it gives the means to kill Kattiyankaran.",
+      "claims": []
+    },
+    "2149": {
+      "reading": "He thought to kill us by guile; we too have resolved to take his life by guile; let none of you let it out of your heart; let the drum of the old city proclaim that the great army gather, the king commanded.",
+      "concepts": [
+        "vanjam",
+        "soozhchi",
+        "padai"
+      ],
+      "nuance": "The counter-deceit is a king's policy stated in council, not a maxim the narrator endorses; the verse also orders secrecy (உள்ளத்தால் உமிழ வேண்டா).",
+      "speaker": {
+        "who": "govindan",
+        "form": null,
+        "line": null,
+        "addressee": "govindan_amaichar"
+      },
+      "agents": [
+        {
+          "id": "govindan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Govindan resolves to meet Kattiyankaran's guile with guile and orders the army gathered.",
+      "claims": [
+        {
+          "claim": "one who plots to kill by deceit may rightly be killed by deceit",
+          "school": "general",
+          "line": 2,
+          "stance": "reported",
+          "voiced_by": "govindan"
+        }
+      ]
+    },
+    "2150": {
+      "reading": "The drummer beat the thundering drum: the guardian has become one with Kattiyankaran; give out paddy and gold freely; if you speak of what will come of it, the lord will not allow it; if you speak, your tongues are not your own.",
+      "concepts": [
+        "vanjam",
+        "natpu",
+        "soozhchi"
+      ],
+      "nuance": "The public face of the plot: a feast of alliance and a threat against anyone who guesses aloud what it is for. விட்டுநீர் is read as 'freely'; the word division is not sure.",
+      "speaker": {
+        "who": "murasu_arainan",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "murasu_arainan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The drum proclaims in the city that the king has made alliance with Kattiyankaran and forbids talk of it.",
+      "claims": []
+    },
+    "2151": {
+      "reading": "Tomorrow let the musth elephants that rip the bodies of foes, the bannered chariots and the bright-maned horses be made ready, and the warriors in hero-anklets, swords in hand, gather in the city so that the sea is put to shame, he said.",
+      "concepts": [
+        "padai",
+        "pagai"
+      ],
+      "speaker": {
+        "who": "govindan",
+        "form": null,
+        "line": null,
+        "addressee": "govindan_amaichar"
+      },
+      "agents": [
+        {
+          "id": "govindan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Govindan orders the elephants, chariots, horses and warriors to gather in the city the next day.",
+      "claims": []
+    }
+  },
+  "links": [
+    {
+      "a": 2133,
+      "b": 26,
+      "type": "develops",
+      "note": "The patikam lists Civakan's winning of his maternal uncle's daughter beside the spreading of his just sceptre; 2133 shows the first look between them in the uncle's palace.",
+      "teaches": "What the patikam pairs as a dynastic gain alongside the sceptre begins here as a private exchange of looks before any council has met, so the marriage is grounded in love before it serves the war."
+    },
+    {
+      "a": 2138,
+      "b": 302,
+      "type": "tension",
+      "note": "Vijayai once wept alone in the burning-ground forest for her lord; in her brother's palace she is the one who ends the household's weeping.",
+      "teaches": "The widow whose solitary grief the poem dwelt on now stands among her own kin and stops their lament, so her restraint marks the turn from mourning to the counsel of revenge."
+    },
+    {
+      "a": 2144,
+      "b": 294,
+      "type": "same_image",
+      "note": "Kattiyankaran wept and joined his hands over Saccandan's body; his letter now protests that the blame of that death is false.",
+      "teaches": "The usurper's tears at the pyre and his wounded innocence in the letter are one performance in two forms, which is why the reader, and Govindan, can see through the letter at once."
+    },
+    {
+      "a": 2146,
+      "b": 290,
+      "type": "tension",
+      "note": "The narration says the minister, a great snake, swallowed Saccandan; the letter says an elephant threw and killed him and the sceptre merely slackened.",
+      "teaches": "Setting the narrator's account against the usurper's shows the epic staging propaganda: the same death is a cruel sceptre spreading darkness in one telling and a stable accident in the other."
+    },
+    {
+      "a": 2147,
+      "b": 203,
+      "type": "tension",
+      "note": "Kattiyankaran bowed and vowed to bear the yoke of rule blamelessly for Saccandan; now he offers his life and owns Govindan as lord.",
+      "teaches": "The minister's vow of loyal service, already broken once, is reused word for word in spirit as bait, so the story teaches the reader to weigh his pledges by what followed the first one."
+    },
+    {
+      "a": 2149,
+      "b": 259,
+      "type": "develops",
+      "note": "Kattiyankaran plotted to send the king to rule heaven and keep the earth himself; Govindan now resolves to take his life by the same kind of guile.",
+      "teaches": "The guile that won Kattiyankaran the throne becomes the means of his own destruction, as Govindan names the symmetry outright, so the plot's justice is shown as treachery turned back on its maker."
+    },
+    {
+      "a": 2142,
+      "b": "kural:590",
+      "type": "qualifies",
+      "note": "The Kural warns that honouring one's own spy openly lets out the secret; Govindan honours Civakan's companions exactly as his own men so that the enemy's spies cannot pick them out.",
+      "teaches": "The couplet's insight that visible honour leaks a secret works in reverse too: honour spread evenly conceals, so a king can hide his guests by treating them like everyone else.",
+      "gains": {
+        "a": "the epic verse gains a statecraft rule that explains why the even-handed gifts are a security measure and not plain hospitality",
+        "b": "the couplet gains the inverse case, where the same logic of visible favour is used to defeat an enemy's spies rather than to protect one's own"
+      }
+    },
+    {
+      "a": 2147,
+      "b": "kural:827",
+      "type": "develops",
+      "note": "Kural 827 says the humble words of an enemy are like a bending bow; Kattiyankaran's letter bows, offers his life and calls Govindan lord.",
+      "teaches": "The letter shows the bowed bow of the couplet in a full text, and Govindan's laughter (2148) shows the reader the couplet applied: the humbler the words, the plainer the threat.",
+      "gains": {
+        "a": "the epic letter gains a rule by which its humility is read as menace before the story confirms it",
+        "b": "the couplet gains a concrete instance with its parts in view: the professed loyalty, the false excuse, the invitation to come close"
+      }
+    },
+    {
+      "a": 2150,
+      "b": "kural:830",
+      "type": "qualifies",
+      "note": "Kural 830 counsels befriending a feigned friend with the face while letting go in the heart; Govindan proclaims through the city that he has become one with Kattiyankaran while mustering his army.",
+      "teaches": "The couplet speaks of an individual's face and heart; the epic turns the face into a public proclamation and the hidden heart into a state secret guarded by threat, so the mask needs the silence of a whole city.",
+      "gains": {
+        "a": "the epic proclamation gains the Kural's licence for a face of friendship toward a false friend, which makes the king's feint a known policy and not mere cunning",
+        "b": "the couplet gains its political scale: when a king wears the friendly face, his people must wear it too, and the cost is a gag on every tongue"
+      }
+    }
+  ],
+  "new_concepts": [],
+  "source_issues": [
+    "Most verses of this run (2129-2133, 2138, 2140-2144, 2146-2151) were printed in eight half-lines and joined into four (FLAG repaired); the joins read correctly.",
+    "2137 line 3 மலாபுர்த் is garbled; the sense 'over the flowers' (perhaps மலர்ப்புறத்து) is clear from context.",
+    "2141 is hard to construe: who sets Sitattan in rule and over which city is not fixed by the line division.",
+    "2135 line 4 செய்பூங் கழலைக் has a doubled consonant before தொழுதான் (கழலைத் expected).",
+    "2144 line 1 விதையத்தார் stands for the Videha people; 2147 lines 2-3 (இருநிலக் கிழமை வேண்டி நினைத்துத்தா னெடிதல் செல்லா) are of uncertain construction."
+  ]
+}

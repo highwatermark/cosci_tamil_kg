@@ -1,0 +1,677 @@
+{
+ "chapter_no": 45,
+ "chapter_theme": "Gunamalai's parrot carries her love-sickness to Civakan, who pledges marriage and sends back a sealed letter sworn in a warrior's self-curse; she divines with a sand circle, receives the letter with joy, and vows offerings to the gods that he keep his word.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, who saved Gunamalai from the elephant"
+  },
+  {
+   "id": "gunamalai",
+   "tamil": "குணமாலை",
+   "role": "a merchant's daughter whom Civakan saved from the elephant and who loves him"
+  },
+  {
+   "id": "kili",
+   "tamil": "கிளி",
+   "role": "Gunamalai's green parrot, her messenger to Civakan"
+  }
+ ],
+ "verses": {
+  "1022": {
+   "reading": "The narrator tells that the parrot came ahead bearing the maiden's message, and Civakan, with a smiling look, asked it sweetly why it had come.",
+   "concepts": [
+    "thoothu",
+    "kalaviyal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kili",
+     "form": "பைங்கிளி",
+     "line": 2
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gunamalai's parrot arrives with her message and Civakan smilingly asks why it has come.",
+   "claims": [],
+   "nuance": "The message is called கன்னியர் தூது, the maidens' message, with an honorific plural; the sender is Gunamalai, whom the verse names only by her body."
+  },
+  "1023": {
+   "reading": "The parrot answers that its mistress sent it to find the right moment with the famed lord who fought the maddened elephant and to come back, so it has come to see him.",
+   "concepts": [
+    "thoothu",
+    "kaalam"
+   ],
+   "speaker": {
+    "who": "kili",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "kili",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The parrot tells Civakan that Gunamalai sent it to him.",
+   "claims": [],
+   "nuance": "செவ்வி கண்டு, 'having seen the moment', makes the go-between's skill one of timing; the elephant fight it recalls is the rescue from which Gunamalai's love began."
+  },
+  "1024": {
+   "reading": "The parrot reports that the girl who stole hearts and restraint with her long blue eyes, leaving them hollow like a wood-apple an elephant has swallowed, now trembles bathed in kohl-dark tears, and asks what her state is.",
+   "concepts": [
+    "kan",
+    "nirai",
+    "kaamanoy"
+   ],
+   "speaker": {
+    "who": "kili",
+    "form": "பசுங்கிளி",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": "கள்வி",
+     "line": 2
+    }
+   ],
+   "event": "The parrot describes Gunamalai trembling in tears.",
+   "claims": [],
+   "nuance": "The thief who stole நிறை now has lost her own: the eyes that emptied others like the swallowed wood-apple are full of tears. Whose heart was stolen, and whether line 4 is the parrot's own question or Gunamalai's to her parrot, is not certain from the word order.",
+   "uncertain": true
+  },
+  "1025": {
+   "reading": "The parrot goes on: she lies on her flower bed as on a fire, leans on a golden pillar like a carved doll, sighs again and again as if breath were flame, and softly sinks to sit on the ground.",
+   "concepts": [
+    "kaamanoy",
+    "melivu"
+   ],
+   "speaker": {
+    "who": "kili",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gunamalai, in the parrot's account, cannot rest on her bed and sinks to the ground.",
+   "claims": []
+  },
+  "1026": {
+   "reading": "She no longer looks at her adornment, her ball or her young birds, does not play with gem jacks, her dark skin has paled, she has left the lute and her food, and sleep has left her eyes.",
+   "concepts": [
+    "pasalai",
+    "melivu",
+    "kaamanoy"
+   ],
+   "speaker": {
+    "who": "kili",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gunamalai gives up play, music, food and sleep.",
+   "claims": [],
+   "nuance": "The list runs from a girl's games to the body's needs, so the account measures love-sickness by what the girlhood world has lost for her."
+  },
+  "1027": {
+   "reading": "She cries out to Civaka Saami of the shapely spear, laments that her conch bangles slip off, and begs him to come and hold her to his chest, she of grace like a flowering branch.",
+   "concepts": [
+    "kaamanoy",
+    "melivu",
+    "ninaivu"
+   ],
+   "speaker": {
+    "who": "kili",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gunamalai calls aloud on Civakan.",
+   "claims": [],
+   "nuance": "The parrot quotes her cries in the first person, so the girl's own appeal reaches the man only in the voice of the bird."
+  },
+  "1028": {
+   "reading": "The parrot says that maidens do not tell even those as dear as their eyes what ails them, out of shame, so it, who stays with her, cannot know her illness, and asks whether the prince himself knows it.",
+   "concepts": [
+    "naanam",
+    "kaamanoy",
+    "thoothu"
+   ],
+   "speaker": {
+    "who": "kili",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "kili",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The parrot asks Civakan whether he knows the cause of Gunamalai's illness.",
+   "claims": [
+    {
+     "claim": "an unmarried girl will not name her love-sickness even to those closest to her, from shame",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "kili"
+    }
+   ],
+   "nuance": "The parrot's ignorance is feigned: it has just described the illness and named its cause through her cries in 1027, so the question puts the diagnosis on the man."
+  },
+  "1029": {
+   "reading": "On hearing the bird's words, the spear-bearer, noble as the generous one who cut down the mango, felt as though he saw before him the long-eyed girl and her sweet words he had been thinking of.",
+   "concepts": [
+    "ninaivu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "மாண்பினான்",
+     "line": 4
+    }
+   ],
+   "event": "Hearing the parrot, Civakan feels Gunamalai is present before him.",
+   "claims": [],
+   "nuance": "மாத் தடிந்தான், 'he who cut down the mango', most likely names Murugan, who felled the demon standing as a mango tree; the comparison is the narrator's and the identification is a reading.",
+   "uncertain": true
+  },
+  "1030": {
+   "reading": "The parrot asks him, as the one who once gave her the medicine of life, to say what has settled in his mind, and says it seeks his bow-straightening shoulders as the sweet medicine for her.",
+   "concepts": [
+    "marundhu",
+    "kaamanoy",
+    "thoothu"
+   ],
+   "speaker": {
+    "who": "kili",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "kili",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The parrot asks Civakan to declare himself and names him as her cure.",
+   "claims": [],
+   "nuance": "சென்மருந்து தந்தாய் likely recalls the rescue from the elephant: the man who saved her life once is asked to save it again. The compound is hard to divide, so the sense is not fixed.",
+   "uncertain": true
+  },
+  "1031": {
+   "reading": "Civakan replies that, were he offered a hill of gold or a town of paddy heaps ringed by flowering fields, he would still bring his rock-like shoulders to her and wed her without failing his word, and bids the parrot go and tell her.",
+   "concepts": [
+    "sool",
+    "varaivu",
+    "vaaimai"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "kili"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan pledges to marry Gunamalai and sends the parrot back with his word.",
+   "claims": [],
+   "nuance": "சொல் குன்றா, 'without my word falling short', is the phrase Gunamalai will turn into her prayer in 1045 (சொற்குன்றான் ஆக)."
+  },
+  "1032": {
+   "reading": "The parrot says these things are hard for it to tell the fish-eyed girl and asks him to write a palm leaf; the garlanded hero gives one, and the parrot rises and flies off with the leaf and an ear of millet.",
+   "concepts": [
+    "thoothu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "மாலை மார்பன்",
+     "line": 3
+    },
+    {
+     "id": "kili",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan writes a palm-leaf letter, and the parrot flies off with it and a millet ear.",
+   "claims": [],
+   "nuance": "The bird asks for writing because speech is not enough: the pledge must reach her in a form she can hold, and the letter is read out in 1041 to 1043."
+  },
+  "1033": {
+   "reading": "Meanwhile the girl with well-dressed hair, small feet and fragrant body wrapped herself in the cover of the flowering pond and lay there, the dark-eyed doll, lovely in her waiting.",
+   "concepts": [
+    "kaamanoy",
+    "nalam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": "பாவை",
+     "line": 4
+    }
+   ],
+   "event": "Gunamalai waits, lying by or in the flower pond.",
+   "claims": [],
+   "nuance": "பூம்பொய்கைப் போர்வை, 'the covering of the flower pond', may be the pond's water or lotus leaves used to cool a fevered body; which is meant is not clear.",
+   "uncertain": true
+  },
+  "1034": {
+   "reading": "It is told that the spear-bearer of fierce bright spear went with his long anklets ringing and took his beloved's sulking away with his flower-crowned head, so that the long-eyed one's joy was full.",
+   "concepts": [
+    "oodal",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The verse ends என்பவே, 'they say', and reads as a told tale rather than an event of the story: probably the god with the spear ending his consort's sulk by bowing his head to her, set beside Gunamalai's waiting as the outcome she hopes for. Neither the god nor its place in the scene is named.",
+   "uncertain": true
+  },
+  "1035": {
+   "reading": "Gunamalai frets whether the parrot has left its mate's company and found a lonely place to reach her beloved, whether it stayed, went or arrived, and whether it has said that this is the word of the girl who melts as she waits for his moment, and she sighs, alas.",
+   "concepts": [
+    "ninaivu",
+    "thoothu",
+    "kaamanoy"
+   ],
+   "speaker": {
+    "who": "gunamalai",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gunamalai anxiously imagines the parrot's errand.",
+   "claims": [],
+   "nuance": "The chain of questions with கொல், 'perhaps', follows the bird step by step, so the verse turns waiting into an imagined journey."
+  },
+  "1036": {
+   "reading": "She says that if the man the parrot went to gives one sweet word he gives her her life, and if he does not, while the world grieves that this is unfit for Gunamalai, she will strive and win him even by penance.",
+   "concepts": [
+    "uyir",
+    "thavam",
+    "kaamanoy"
+   ],
+   "speaker": {
+    "who": "gunamalai",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gunamalai resolves that if he refuses she will win him by penance.",
+   "claims": [],
+   "nuance": "நோற்றானும் எய்துவனே makes தவம் a means to a husband: if this life fails, penance will bring him, presumably in a later birth. The division of காதகா தென்று (ஆ, தகாது?) is uncertain.",
+   "uncertain": true
+  },
+  "1037": {
+   "reading": "Praying that if the errand of the one who went succeeds and the spear-warrior's adorned chest is to embrace her, it may come together without fail, the jewelled girl drew a circle on the long pearl-like sand.",
+   "concepts": [
+    "koodal",
+    "ninaivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gunamalai draws a circle in the sand to divine whether she and Civakan will unite.",
+   "claims": [],
+   "nuance": "The circle must close (கூடுக) for the omen to be good; the verse shows the rite as a girl's private divination, without a diviner."
+  },
+  "1038": {
+   "reading": "As she thought that if the drawn line went wrong halfway her life would leave her, sinner that she was, the green parrot looked down from the sky, said that the maiden was there and it would go to her, and came down to her.",
+   "concepts": [
+    "koodal",
+    "uyir",
+    "thoothu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kili",
+     "form": "பைங்கிளியார்",
+     "line": 2
+    }
+   ],
+   "event": "As Gunamalai fears the omen will fail, the parrot sees her from the sky and lands beside her.",
+   "claims": [],
+   "nuance": "The bird arrives in the very moment of the drawing, so the answer to the divination comes as a messenger, not as the shape in the sand."
+  },
+  "1039": {
+   "reading": "She saw it, sighed deeply, joined her hands in worship, took the millet ear and wore it in her hair, pressed the parrot to her breast till it hurt, heard the garlanded man's message from its beak and rejoiced through her body.",
+   "concepts": [
+    "inbam",
+    "thoothu",
+    "punarchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gunamalai greets the parrot, wears the millet ear and hears Civakan's message.",
+   "claims": [],
+   "nuance": "She worships the bird (கைதொழுதாள) and squeezes it till it hurts (நோவ): the messenger is honoured and embraced as a stand-in for the man."
+  },
+  "1040": {
+   "reading": "She of bamboo-like shoulders fed the soft bird sweet milk, settled it to sleep in its gold and gem cage, touched the seal ring bearing his name, and read the clearly lettered leaf with care.",
+   "concepts": [
+    "thoothu",
+    "ninaivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": "பணைத்தோளி",
+     "line": 2
+    }
+   ],
+   "event": "Gunamalai tends the parrot and opens Civakan's sealed letter.",
+   "claims": [],
+   "nuance": "The ring with his name (மணிநாம மோதிரம்) seals the leaf, so the letter carries proof of its sender as well as words."
+  },
+  "1041": {
+   "reading": "The letter begins: the leaf of the man of the curved bow, for Gunamalai to see; he who could not bear the burning grief inside has had his swelling sickness cured by the little parrot sent to comfort him, and may the long-eyed girl too have her sorrowful thoughts depart.",
+   "concepts": [
+    "kaamanoy",
+    "marundhu",
+    "thoothu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": "கொடுஞ்சிலையா",
+    "line": 1,
+    "addressee": "gunamalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "He says the bird, not the girl, cured him: love's medicine here is a message, received before any meeting."
+  },
+  "1042": {
+   "reading": "The letter goes on that, even giving away all his heaped treasure and the rich towns ringed by cool lily ponds, he will not fail to embrace the girl of bow-like brow, sweet to him as their desire to those who desire.",
+   "concepts": [
+    "sool",
+    "selvam",
+    "punarchi"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "gunamalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The verse repeats the wealth-weighing of 1031 in writing, now as the price he would pay rather than a gift he would refuse.",
+   "uncertain": true
+  },
+  "1043": {
+   "reading": "He ends the letter by swearing that if he does not live with her to her joy, his garland marking her saffroned breasts and his presence quenching the fire in her mind with her tears, then let him be one who has thought of turning his weapon on men already beaten in sword battle.",
+   "concepts": [
+    "vanjinam",
+    "sool",
+    "maram"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "gunamalai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "to strike at those already defeated in battle is a disgrace fit to be sworn by",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ],
+   "nuance": "The love-pledge takes the form of a warrior's self-curse: the penalty he names is the worst shame of the battlefield, even to have thought (நினைந்தேன்) of attacking the routed, so the oath measures his word by the code of war."
+  },
+  "1044": {
+   "reading": "She looked at the fine lines of the letters, laid like drawn thread, as if drinking sweet honey poured into milk, her fish-like eyes brimming with tears, and rejoiced through her body as though she had already embraced the chest of the man who had made her love-mad.",
+   "concepts": [
+    "inbam",
+    "punarchi",
+    "kan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gunamalai reads the letter, weeps and rejoices.",
+   "claims": [],
+   "nuance": "Reading is described as drinking and as embracing, so the written pledge gives her by anticipation the union 1043 promised."
+  },
+  "1045": {
+   "reading": "She vows to offer milk-rice, flowers, incense, sandal paste and gold lamps that no wind puts out, and to worship with joined hands, and asks those she addresses to watch, like the men of the learned assembly, that the man of the fierce bow does not fail his word.",
+   "concepts": [
+    "vazhipaadu",
+    "vaaimai",
+    "sool"
+   ],
+   "speaker": {
+    "who": "gunamalai",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunamalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Gunamalai promises offerings to the deities if they keep Civakan true to his word.",
+   "claims": [],
+   "nuance": "Those addressed (நீங்கள்) are unnamed; the offerings point to household or temple deities. நூலவையார், the assembly versed in the books, makes them witnesses and judges of his oath, as an assembly hears a case.",
+   "uncertain": true
+  }
+ },
+ "links": [
+  {
+   "a": "1043",
+   "b": "purananuru:71",
+   "type": "develops",
+   "note": "Boothappandiyan swears that if he does not see his enemies' backs he may be parted from his wife; Civakan swears that if he does not live with Gunamalai he may be one who turned his weapon on the beaten.",
+   "teaches": "The vanjinam form stakes one domain against the other in both directions: the king pledges his marriage to secure a victory, and the epic hero pledges his warrior honour to secure a marriage, choosing as penalty an attack on fleeing men, the very thing the king's vow hopes to see.",
+   "gains": {
+    "a": "the Sangam vanjinam kaanji as the source of its self-curse, which the epic turns from a battle vow into a love pledge in a letter",
+    "b": "evidence that the vow's frame outlived the battlefield and that a later poet could read its stake, the beloved, as reversible with the warrior's code"
+   }
+  },
+  {
+   "a": "1028",
+   "b": "kural:1137",
+   "type": "qualifies",
+   "note": "The Kural ranks highest the woman who suffers a sea of desire and does not ride the palmyra horse; the parrot says maidens hide their love-sickness from even their nearest, out of shame.",
+   "teaches": "The silence the couplet praises has a working cost the couplet does not show: because the girl will not speak even to her confidante, the knowledge of her illness has to travel by a go-between who asks the man to diagnose it.",
+   "gains": {
+    "a": "a rule stating why Gunamalai must use a messenger rather than speak, which the scene assumes but does not argue",
+    "b": "a scene showing who carries the woman's unspoken desire once shame forbids her to declare it"
+   }
+  },
+  {
+   "a": "1041",
+   "b": "kural:1102",
+   "type": "qualifies",
+   "note": "The Kural's man says the woman who causes his love-sickness is its only cure; Civakan writes that the little parrot she sent has cured his swelling sickness.",
+   "teaches": "Set beside the couplet's rule that only the beloved herself can heal, the letter shows the cure passing to her token: a sent message relieves the sickness before any meeting, so the remedy can be borne by a proxy.",
+   "gains": {
+    "a": "the convention that love's cure is the beloved, against which the parrot's cure reads as a claim about messengers",
+    "b": "a case of courtship by letter, where the remedy the couplet confines to the woman's presence is carried by a go-between"
+   }
+  },
+  {
+   "a": "1036",
+   "b": "kural:265",
+   "type": "qualifies",
+   "note": "The Kural says penance is striven for because it gains what one wants as one wants it; Gunamalai says that if Civakan refuses she will win him even by penance.",
+   "teaches": "The girl takes the couplet's motive for தவம் at its word and aims it at a husband, which exposes how far the Kural's argument for penance rests on desire rather than release.",
+   "gains": {
+    "a": "a doctrinal ground for her resolve, which the verse states without explaining why penance should work",
+    "b": "a concrete wish, love for a man, that tests the couplet's open promise of getting whatever is wanted"
+   }
+  },
+  {
+   "a": "1031",
+   "b": 1045,
+   "type": "develops",
+   "note": "Civakan pledges to wed her with his word not falling short (சொற்குன்றா); Gunamalai, having read his letter, offers worship so that he may not fail his word (சொற்குன்றான் ஆக).",
+   "teaches": "The hero's own phrase comes back as the heroine's prayer, so the pledge he treats as settled she treats as needing divine witnesses, which marks the unequal risk the two carry in a promise of marriage."
+  },
+  {
+   "a": "1037",
+   "b": 1039,
+   "type": "develops",
+   "note": "Gunamalai draws a circle in the sand asking that the union come about without fail; the parrot then lands and she hears the message of his pledge.",
+   "teaches": "The divination is answered not by the circle closing but by the messenger's arrival, so the story replaces the omen with news and lets the girl's private rite be fulfilled by the man's written word."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "koodal",
+   "tamil": "கூடல் இழைத்தல்",
+   "gloss": "drawing a circle in the sand as a love divination: if its ends meet, the lovers will unite",
+   "label_source": "traditional name; the verse (1037) says ஆழி இழைத்தாள் and prays குன்றாது கூடுக, not the compound itself"
+  }
+ ],
+ "source_issues": [
+  "Verse 1042 line 2 ends with a stray opening bracket and word, (மென்றோட், and line 3 (வேட்டார்க்கு வேட்டனவே போன்றினிய வேய்) is short of a full line; a word seems displaced or lost between lines 2 and 3.",
+  "Verses 1039 and 1043 were printed in eight half-lines and joined into four by the build (FLAG repaired); the joined lines read correctly.",
+  "Verse 1036 line 3 (குணமாலைக் காதகா தென்றுலக) is hard to divide; ஆ தகாது is one possible reading.",
+  "Verse 1030 line 1 (சென்ம ருந்துதந் தாய்) is divided in print against the likely sense சென்மருந்து தந்தாய்."
+ ]
+}

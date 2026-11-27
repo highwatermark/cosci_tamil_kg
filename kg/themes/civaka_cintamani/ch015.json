@@ -1,0 +1,690 @@
+{
+ "chapter_no": 15,
+ "chapter_theme": "Vijayai leaves her newborn son among lamps in the burning ground with the king's ring, blesses him from hiding, and watches the merchant Kandukkatan take him in exchange for his own dead son and pass him off to his wife as their revived child, to public rejoicing and gifts; the deity then tells the queen her son's future and leads her toward an ascetics' hermitage in the Dandaka forest.",
+ "cast": [
+  {
+   "id": "vijayai",
+   "tamil": "விசயை",
+   "role": "Saccandan's queen, Civakan's mother"
+  },
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, newborn here"
+  },
+  {
+   "id": "kaval_deyvam",
+   "tamil": "தெய்வம்",
+   "role": "the deity who stands by Vijayai at the burning ground, in the guise of the hunchback maid Shenbakamalai"
+  },
+  {
+   "id": "kantukkatan",
+   "tamil": "கந்துக்கடன்",
+   "role": "the merchant (கந்து நாமன் here) who takes up and raises the newborn Civakan"
+  },
+  {
+   "id": "sunandai",
+   "tamil": "சுநந்தை",
+   "role": "Kandukkatan's wife, Civakan's foster mother (named in 365)"
+  },
+  {
+   "id": "kantukkatan_kin",
+   "tamil": "கிளை",
+   "role": "the merchant's kinsfolk"
+  },
+  {
+   "id": "city_women",
+   "tamil": "முலையினார்",
+   "role": "the women of the household who celebrate"
+  }
+ ],
+ "verses": {
+  "317": {
+   "reading": "Laying the boy down in the light of many jewelled lamps, his anklet bells tinkling, the queen slips quietly away, like the conch that has borne a fine pearl sinking back into the sea.",
+   "concepts": [
+    "makkal",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": "தேவி",
+     "line": 3
+    }
+   ],
+   "event": "Vijayai lays her newborn son down among lamps in the burning ground and withdraws.",
+   "claims": [],
+   "nuance": "The simile makes the abandonment a natural birth-and-return: the conch (சலஞ்சலம்) leaves its pearl on the shore because that is what conches do, which spares the mother blame."
+  },
+  "318": {
+   "reading": "Praying that every one of the hundred harms strangers might do him come to nothing, she suckles him, puts on him the jewelled ring bearing her husband's name, and goes off with the deity in woman's form to stand hidden.",
+   "concepts": [
+    "makkal",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kaval_deyvam",
+     "form": "கோதை தாழ் குழலினாளை",
+     "line": 4
+    }
+   ],
+   "event": "Vijayai nurses the child, slips the king's signet ring on him and hides with the deity.",
+   "claims": [],
+   "nuance": "The ring that carries the king's name (காதலான் பெயர் சுமந்த) is the one token of his birth left with him; in 323 the finder hides it at once."
+  },
+  "319": {
+   "reading": "Sobbing that she, who did no good deeds, must leave her prince alone among killers, she leans on a branch like a slender stem that has put out one blue flower and watches him with one eye.",
+   "concepts": [
+    "vinai",
+    "makkal",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Vijayai, hidden, watches the abandoned child and laments.",
+   "claims": [
+    {
+     "claim": "a mother's misfortune comes from her own lack of good deeds",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "vijayai"
+    }
+   ],
+   "nuance": "She takes the blame on herself as she did in 315 (யான் செய்த பாவம்), though the story has just laid it on the usurper and the king's own neglect."
+  },
+  "320": {
+   "reading": "As if the cool moon had slipped from its course and fallen with the planets and lightning, Kandhunaman, dressed in black and carrying a sword, appears out of the thick darkness.",
+   "concepts": [
+    "makkal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": "கந்து நாமனும்",
+     "line": 3
+    }
+   ],
+   "event": "The merchant Kandukkatan comes into the burning ground at night, sword in hand.",
+   "claims": [],
+   "nuance": "He arrives exactly as the deity foretold in 316 (கொண்டு போம் ஒருவன் இன்னே); the black clothes and sword are those of a man come to the cremation ground at night."
+  },
+  "321": {
+   "reading": "The broad-chested man looks about, the long gleam of the jewels tearing the hanging darkness, in that forest where a spirit frightens men away.",
+   "concepts": [
+    "anangu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": "மார்பன்",
+     "line": 2
+    }
+   ],
+   "event": "Kandukkatan looks around the haunted burning ground by the light of the jewels.",
+   "claims": []
+  },
+  "322": {
+   "reading": "With eager longing he hurries to the prince, who lies like the young crescent spreading its hot rays, a Kama to the young women of the future.",
+   "concepts": [
+    "makkal",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kandukkatan hurries to the child.",
+   "claims": []
+  },
+  "323": {
+   "reading": "The garlanded man hides the gold ring with its jewel and, as he gathers the child up in his hand like scooping light, the child sneezes, and a single voice from behind the branches says 'Jiva', live.",
+   "concepts": [
+    "makkal",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": "வனை மலர்த் தாரினான்",
+     "line": 2
+    },
+    {
+     "id": "vijayai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kandukkatan hides the signet ring and lifts the child, who sneezes; a hidden voice blesses him with 'Jiva'.",
+   "claims": [],
+   "nuance": "The voice is not named; read with 318 and 319 (மறைய நின்றாள், ஒரு கொம்பு பற்றி) it is the hidden mother, and the word of blessing becomes the hero's name (361)."
+  },
+  "324": {
+   "reading": "Love welling up until her bones seemed to melt, grieving for the king, she bows and blesses the child in sweet words: 'You will utterly destroy your old enemy.'",
+   "concepts": [
+    "pagai",
+    "anbu",
+    "vendhan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "From hiding Vijayai blesses her son and foretells that he will destroy his father's enemy.",
+   "claims": [],
+   "nuance": "பழம் பகை is the father's enmity made the son's inheritance; the prophecy is fulfilled only in the Manmagal ilampakam (2323)."
+  },
+  "325": {
+   "reading": "Like those who leave the body through hard penance of right conduct and gain an indestructible golden body, he leaves his own dead son there and goes quickly with the excellent child.",
+   "concepts": [
+    "thavam",
+    "yaakkai",
+    "makkal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kandukkatan leaves his own dead infant in the burning ground and takes Civakan away.",
+   "claims": [
+    {
+     "claim": "those who leave the body through hard penance of right conduct gain an imperishable golden body",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ],
+   "nuance": "The simile tells the reader what the merchant was doing there: வழுக்கிய புதல்வன் is a son already dead, brought for burial; the exchange of a dead body for a living one is likened to the ascetic's exchange of a mortal body for a divine one."
+  },
+  "326": {
+   "reading": "Crossing the lightning-struck darkness he enters the rich golden city and speaks sweet, kind words to the woman who is wilting as her own thoughts burn her.",
+   "concepts": [
+    "inchol",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "sunandai",
+     "form": "தையலுக்கு",
+     "line": 3
+    }
+   ],
+   "event": "Kandukkatan returns to Rajamapuram and goes to his grieving wife.",
+   "claims": []
+  },
+  "327": {
+   "reading": "He tells her, the woman of flawless chastity, famed in the world and greater than Arundhati, that her fine son has escaped harm, and bids her not grieve but come to the house.",
+   "concepts": [
+    "karpu",
+    "makkal",
+    "soozhchi"
+   ],
+   "speaker": {
+    "who": "kantukkatan",
+    "form": null,
+    "line": null,
+    "addressee": "sunandai"
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kandukkatan tells his wife their son has been saved.",
+   "claims": [],
+   "nuance": "The words are a ruse: their son is dead (325), and 'your son has escaped harm' passes the foundling off as her own revived child; 328 calls his handing over விரகு."
+  },
+  "328": {
+   "reading": "As joy floods the heart of the garlanded woman and she hurries to the child, the man of the white-leafed spear hands the prince to her with his cunning.",
+   "concepts": [
+    "makkal",
+    "inbam",
+    "soozhchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sunandai",
+     "form": "கோதை",
+     "line": 1
+    },
+    {
+     "id": "kantukkatan",
+     "form": "வேலினான்",
+     "line": 4
+    }
+   ],
+   "event": "Kandukkatan gives Civakan to his wife as her own son.",
+   "claims": []
+  },
+  "329": {
+   "reading": "Conches and drums roar to the open sky, and women scatter fired gold, like reddened pearls held up in flame.",
+   "concepts": [
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "கரிமுக முலையினார்",
+     "line": 4
+    }
+   ],
+   "event": "The household celebrates the child's 'recovery' with music and gold.",
+   "claims": []
+  },
+  "330": {
+   "reading": "In the market quarter that had been full of the sound of weeping, the kin rise rejoicing, and Kandhunaman, of exceeding love, gladly gives away his great wealth.",
+   "concepts": [
+    "sutram",
+    "eegai",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": "கந்து நாமன்",
+     "line": 3
+    },
+    {
+     "id": "kantukkatan_kin",
+     "form": "எழுகிளை",
+     "line": 2
+    }
+   ],
+   "event": "The merchant's kin rejoice and Kandukkatan gives away great wealth.",
+   "claims": [],
+   "nuance": "எமது அரசு வேண்டினான் (line 2) is unclear: it may be the kin's words, or the merchant's, about the kingdom or its king; the reading leaves it open.",
+   "uncertain": true
+  },
+  "331": {
+   "reading": "As though he had begotten a son of fortune, he opens the head of his great hoard like a mountain of red gold and fills the suppliants of the wide earth, and so the wealthy man goes on.",
+   "concepts": [
+    "eegai",
+    "selvam",
+    "makkal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kantukkatan",
+     "form": "செல்வன்",
+     "line": 4
+    }
+   ],
+   "event": "Kandukkatan opens his treasury to the suppliants in celebration of the child.",
+   "claims": [],
+   "nuance": "What line 4 (செருநிலம் பயப்பு உற) adds is not clear as printed.",
+   "uncertain": true
+  },
+  "332": {
+   "reading": "The narrator turns: when the good life had gone and one small life of great worth stayed with her and was then hidden in the forest, we shall now tell fully what befell the woman who suffered like one whose ship had foundered.",
+   "concepts": [
+    "idumbai",
+    "uyir"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The 'good life' is presumably the dead king and the 'small life' the child; line 3 (கல் உயிர் காட்டில்) is obscure.",
+   "uncertain": true
+  },
+  "333": {
+   "reading": "Sobbing, she drops to the bare ground like a puppet whose strings are cut, and as all that is to come is rightly told in due order, she passes out of her troubled thoughts.",
+   "concepts": [
+    "idumbai",
+    "oozh"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": "கோதை",
+     "line": 2
+    }
+   ],
+   "event": "Vijayai collapses, and the deity tells her what will come.",
+   "claims": [],
+   "nuance": "Who tells the future in lines 3 and 4 is not named; 334 shows it is the deity. நினைவின் அகன்றாள் could mean she swoons or that she leaves her grief.",
+   "uncertain": true
+  },
+  "334": {
+   "reading": "Having heard her son's future greatness told without fault, she asks the deity, 'Mother of one mind with me, tell me what I should now do,' and the deity answers.",
+   "concepts": [
+    "oozh",
+    "makkal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": "திரு மகள்",
+     "line": 2
+    },
+    {
+     "id": "kaval_deyvam",
+     "form": "தெய்வதம்",
+     "line": 4
+    }
+   ],
+   "event": "Vijayai asks the deity what she should do next.",
+   "claims": [],
+   "nuance": "She is content to leave the child once his future is assured; her question is now only about herself."
+  },
+  "335": {
+   "reading": "The deity addresses her as the woman whose chastity commands reverence and bids her go with it, wrapped in the cloak of dark night, to the great sandy river Amarikai.",
+   "concepts": [
+    "karpu",
+    "thunai"
+   ],
+   "speaker": {
+    "who": "kaval_deyvam",
+    "form": null,
+    "line": null,
+    "addressee": "vijayai"
+   },
+   "agents": [
+    {
+     "id": "kaval_deyvam",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "336": {
+   "reading": "Fifty yojanas beyond Amarikai, the deity says, lies the old walled city Dharanitilakam with its banner and towers, which keeps the ways of their kin; it is their own people's, but they will not go near it.",
+   "concepts": [
+    "sutram",
+    "kudi"
+   ],
+   "speaker": {
+    "who": "kaval_deyvam",
+    "form": null,
+    "line": null,
+    "addressee": "vijayai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "நமர் அது makes Dharanitilakam the city of her own kin; why they must avoid it is not said here.",
+   "uncertain": true
+  },
+  "337": {
+   "reading": "In the Dandaka forest, crowded with bee-filled lily ponds, tanks and heart-stealing groves, there is a hermitage of ascetics, the deity says, and there they will live.",
+   "concepts": [
+    "thavam",
+    "thuravu"
+   ],
+   "speaker": {
+    "who": "kaval_deyvam",
+    "form": null,
+    "line": null,
+    "addressee": "vijayai"
+   },
+   "agents": [
+    {
+     "id": "kaval_deyvam",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The deity proposes that Vijayai live in an ascetics' hermitage in the Dandaka forest.",
+   "claims": [],
+   "nuance": "The queen's next home is chosen as a place of austerity rather than of kin: the turn from palace to hermitage is decided for her by the deity."
+  },
+  "338": {
+   "reading": "As the deity spoke these meaningful true words with care, the bewildered woman weighed them and set off toward the gracious great ascetics, bright in her jewels like lightning in the dark.",
+   "concepts": [
+    "thavam",
+    "arul"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": "மாதர்",
+     "line": 2
+    },
+    {
+     "id": "kaval_deyvam",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Vijayai accepts the deity's counsel and sets out for the hermitage.",
+   "claims": []
+  },
+  "339": {
+   "reading": "The flashing makara earrings on either side of her moon face seem to light the sweet-voiced woman along the long matchless road.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "320",
+   "b": 316,
+   "type": "develops",
+   "note": "In 316 the deity foretells that one man will come at once and carry the child off; in 320 Kandukkatan appears out of the dark with a sword.",
+   "teaches": "The foundling's rescue is framed as foretold before it happens, so the merchant's chance night visit reads as the working of the prince's destiny."
+  },
+  {
+   "a": "323",
+   "b": 361,
+   "type": "develops",
+   "note": "The hidden voice's blessing சீவ on the child's sneeze becomes, in 361, the name சீவகன் given him by his foster parents.",
+   "teaches": "The hero's name is his lost mother's unseen blessing, given unknowingly a second time by the people who raise him."
+  },
+  {
+   "a": "324",
+   "b": 2323,
+   "type": "develops",
+   "note": "Vijayai's blessing that her son will destroy his old enemy (நுன் பழம் பகை) is fulfilled when Kattiyangaran's rule ends in the Manmagal ilampakam.",
+   "teaches": "The epic's whole plot of revenge and restoration is set down at the cradle as a mother's word, two thousand verses before it comes true."
+  },
+  {
+   "a": "331",
+   "b": 306,
+   "type": "develops",
+   "note": "In 306 Vijayai imagines the royal order that should have opened the gold hoards for suppliants at a prince's birth; in 331 a merchant opens his own hoard like a mountain of red gold for the same child.",
+   "teaches": "The birth-gifts denied the prince in the burning ground are given after all, but by a stranger who believes the child his own."
+  },
+  {
+   "a": "319",
+   "b": 343,
+   "type": "tension",
+   "note": "Vijayai says she has done no good deeds (நல் வினை செய்து இலாதேன்); in 343 the narrator likens the passing night to evil deeds that leave when old good deeds come forward.",
+   "teaches": "The mother's self-condemnation is overruled by the narrator a few verses later, who credits her with a store of former merit that now begins to ripen."
+  },
+  {
+   "a": "337",
+   "b": 347,
+   "type": "develops",
+   "note": "The deity names the ascetics' hermitage as their refuge; in 347 Vijayai reaches it, and the narrator says she suffered through a deed from a former birth.",
+   "teaches": "The road to the hermitage is laid by a deity's counsel, but on arrival the narrator explains the exile as karma, so divine help and former deeds are given together as causes."
+  },
+  {
+   "a": "323",
+   "b": "kural:1317",
+   "type": "same_image",
+   "note": "In the Kural the woman's automatic blessing at her lover's sneeze is withdrawn the next moment in jealousy; in the epic the blessing at the infant's sneeze comes from a mother who cannot show herself, and sticks as his name.",
+   "teaches": "The everyday sneeze-blessing, which the Kural shows can be taken back, here becomes the one bond between the hidden mother and her child that cannot be undone.",
+   "gains": {
+    "a": "the epic scene gains the domestic usage behind it: a blessing said by those who love the sneezer, which makes the hidden voice a mother's",
+    "b": "the couplet's small rite gains weight: the same word can name and protect a life, not only open a lovers' quarrel"
+   }
+  },
+  {
+   "a": "325",
+   "b": "kural:338",
+   "type": "qualifies",
+   "note": "The Kural pictures the life leaving the body as a bird flying from a nest left empty; the epic pictures ascetics leaving the body as an exchange for an imperishable golden one, and uses it for the merchant leaving his dead son for a living child.",
+   "teaches": "Leaving the body is loss in the Kural's figure and gain in the epic's, and the difference is the penance done beforehand.",
+   "gains": {
+    "a": "the simile gains a contrast that shows what penance adds: without it the body is only an abandoned nest",
+    "b": "the couplet gains a limit: the epic admits a departure from the body that is not mere desertion but a passage to a better frame"
+   }
+  },
+  {
+   "a": "319",
+   "b": "naladiyar:33",
+   "type": "qualifies",
+   "note": "The Naladiyar sets the fool who sighs and breaks when deeds ripen against the wise who say 'it is old desert' and go free; Vijayai says exactly that her deeds are to blame, yet sobs (விம்மா) as she says it.",
+   "teaches": "The quatrain makes knowing one's karma the cure for grief, but the queen shows that naming one's own deeds as the cause can be itself a form of grieving.",
+   "gains": {
+    "a": "Vijayai's lament gains a measure: her self-blame is the doctrine the wise hold, held without the calm it is said to bring",
+    "b": "the quatrain's clean division between fool and wise gains a case that falls between them, a mother who knows the rule and still breaks"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 330 line 2 (எமது அரசு வேண்டினான்) is unclear as to who speaks and what is meant.",
+  "Verse 331 line 4 (செருநிலம் பயப்பு உற) is obscure as printed.",
+  "Verse 332 line 3 (கல் உயிர் காட்டில்) is obscure as printed.",
+  "Verse 334 line 4 applies தெரு மரு, 'bewildered', to the deity, which reads oddly; the sense may belong to Vijayai.",
+  "The voice that says சீவ in 323 is not named in the verse."
+ ]
+}

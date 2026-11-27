@@ -1,0 +1,691 @@
+{
+ "chapter_no": 20,
+ "chapter_theme": "Hunters seize Kattiyangaran's herds; the king's great army is routed by them, the herd chief Nandagon offers his daughter to whoever recovers the herd, the city's men refuse, and Civakan vows to protect the herd and drives out alone against the hunters, who taunt him, lose heart before his chariot and, blaming their omen-reader, make a last charge.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, raised as a merchant's son in Rajamapuram"
+  },
+  {
+   "id": "kattiyangaran",
+   "tamil": "கட்டியங்காரன்",
+   "role": "the usurping minister, now ruling as king"
+  },
+  {
+   "id": "kattiyangaran_army",
+   "tamil": "சேனை",
+   "role": "the army Kattiyangaran sends to recover the herd"
+  },
+  {
+   "id": "cattle_raiders",
+   "tamil": "மறவர்",
+   "role": "the forest hunters (வேடர், எயினர், கானவர்) who seize the king's herd"
+  },
+  {
+   "id": "aayar",
+   "tamil": "ஆயர்",
+   "role": "the herdsmen of the royal herds"
+  },
+  {
+   "id": "nandagon",
+   "tamil": "நந்தகோன்",
+   "role": "the herd chief, father of Govindai, who names himself Govindan in 477"
+  },
+  {
+   "id": "milechchan",
+   "tamil": "மிலேச்சன்",
+   "role": "a Mleccha in Kattiyangaran's court whom the king rebukes"
+  },
+  {
+   "id": "city_men",
+   "tamil": "ஆடவர்",
+   "role": "the men of the city who refuse Nandagon's challenge"
+  },
+  {
+   "id": "oru_magan",
+   "tamil": "ஒருமகன்",
+   "role": "the man who tells Civakan of the raid"
+  },
+  {
+   "id": "omen_vedan",
+   "tamil": "வேடன்",
+   "role": "the hunters' omen-reader, blamed for a false omen"
+  }
+ ],
+ "verses": {
+  "430": {
+   "reading": "A herdsman, sword and herding staff in hand, joins his palms and bows at the fierce king's feet; told to say what the uproar is, he reports that the herd has been seized and begs the king to protect it.",
+   "concepts": [
+    "niraikol",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "aayar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kattiyangaran",
+     "form": "மன்னனை",
+     "line": 2
+    }
+   ],
+   "event": "A herdsman reports to Kattiyangaran that hunters have seized the herd and asks him to protect it.",
+   "claims": [],
+   "nuance": "The appeal கொண்டனர் நிரை போற்று puts the protection of the herd on the king, which is the duty the rest of the chapter shows him failing and Civakan taking up."
+  },
+  "431": {
+   "reading": "The king, eyes reddening and blazing, shouts at a jacketed Mleccha with red eyes, coarse hair and a fierce face, crushing the flower in his hand like killing Death.",
+   "concepts": [
+    "vekuli",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "milechchan",
+     "form": "மிலேச்சனை",
+     "line": 2
+    }
+   ],
+   "event": "Kattiyangaran, enraged, shouts at a Mleccha in his court.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "Who the Mleccha is, an attendant or officer of the court, is not said; குப் பாய is read as குப்பாயம், a jacket, across the printed word break."
+  },
+  "432": {
+   "reading": "Understanding the herdsmen's words, the guardian king with the killing spear looks at his sea-like army and roars like a lion's thunder that they must go swift as wind and recover the herd.",
+   "concepts": [
+    "niraikol",
+    "padai",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran",
+     "form": "காவல் மன்ன",
+     "line": 3
+    }
+   ],
+   "event": "Kattiyangaran orders his army to go quickly and recover the herd.",
+   "claims": []
+  },
+  "433": {
+   "reading": "The army sets out: musth elephants like rain clouds, war chariots, plumed horses and foot soldiers, with drums booming and conches roaring, as if the sky were marching, and the earth bends under it.",
+   "concepts": [
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran_army",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kattiyangaran's army marches out with all four arms.",
+   "claims": []
+  },
+  "434": {
+   "reading": "Like the sea rising when the wind beats on it, the spear-thick army meets the fierce hunters' attack amid wailing conches, horns and tudi drums, so that the dark hunters and the army seem like night closing round to fight the day.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran_army",
+     "form": "தானை",
+     "line": 2
+    },
+    {
+     "id": "cattle_raiders",
+     "form": "வெயினர்",
+     "line": 2
+    }
+   ],
+   "event": "The hunters attack the king's army.",
+   "claims": []
+  },
+  "435": {
+   "reading": "The hunters' fierce arrows lodge in the broad chests of the king's warriors, whose manhood proves to be a thing only the red-tongued talkers speak of, and the spearmen's bows go slack.",
+   "concepts": [
+    "maram",
+    "aanmai",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "cattle_raiders",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kattiyangaran_army",
+     "form": "மைந்தர்",
+     "line": 1
+    }
+   ],
+   "event": "The hunters' arrows strike down the king's warriors, who falter.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "Line 3 is read as the narrator's sarcasm that the army's valour was only boast; whose bows are made to sag in line 4 (the army's own, or the hunters' bent to shoot) is not certain."
+  },
+  "436": {
+   "reading": "As the swordsmen weaken, the hunters swarm like a pack of tigers bending strong bows and destroy the warriors with burning-tipped arrows, leaving dead horses, overturned chariots and fallen elephants like bowed snowy hills.",
+   "concepts": [
+    "padai",
+    "maram",
+    "saakkaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "cattle_raiders",
+     "form": "வேடர்",
+     "line": 1
+    },
+    {
+     "id": "kattiyangaran_army",
+     "form": "மைந்தர்",
+     "line": 3
+    }
+   ],
+   "event": "The hunters slaughter the king's warriors, horses and elephants.",
+   "claims": []
+  },
+  "437": {
+   "reading": "Thinking that they will win by drawing the enemy into open ground, the army's men call to fall back together, and the spear-army breaks like a roaring sea, leaving behind gold-hung elephants, horses, peacock plumes, parasols and banners.",
+   "concepts": [
+    "padai",
+    "soozhchi",
+    "pedhaimai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran_army",
+     "form": "வேற்படை",
+     "line": 4
+    }
+   ],
+   "event": "The king's army pulls back to draw the hunters into open ground, and the retreat becomes a rout.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The speaker of the call in lines 1 and 2 is not named; read so, the tactical withdrawal is the cause of the rout."
+  },
+  "438": {
+   "reading": "The herdsmen run with all their speed, the mullai garlands they had strung on fibre stripped with their teeth scattering, crying out that the army is routed, and Kattiyangaran sinks into grief.",
+   "concepts": [
+    "niraikol",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "aayar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kattiyangaran",
+     "form": "கட்டியங் கார",
+     "line": 4
+    }
+   ],
+   "event": "The herdsmen bring news of the rout and Kattiyangaran is plunged in grief.",
+   "claims": []
+  },
+  "439": {
+   "reading": "They tell the lord of the rich city with copper-like walls that his chiefs have come back carrying arrows like the carp eyes of the women they love, and the warriors have gone off with the cows.",
+   "concepts": [
+    "niraikol",
+    "padai"
+   ],
+   "speaker": {
+    "who": "aayar",
+    "form": null,
+    "line": null,
+    "addressee": "kattiyangaran"
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran_army",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "cattle_raiders",
+     "form": "மறவர்",
+     "line": 3
+    }
+   ],
+   "event": "The king is told that his chiefs returned wounded and the hunters kept the cows.",
+   "claims": [],
+   "nuance": "The simile turns the wounds into the love-wounds of women's eyes, a mocking report of an army that fled; the speakers are taken to be the herdsmen of 438."
+  },
+  "440": {
+   "reading": "Nandagon has the marriage drum beaten in every street of the city, proclaiming that to the warriors who bring back the king's herd he will give the maiden with sword-like eyes, like a golden creeper.",
+   "concepts": [
+    "niraikol",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nandagon",
+     "form": "நந்தகோ",
+     "line": 4
+    }
+   ],
+   "event": "Nandagon proclaims his daughter as the prize for whoever recovers the herd.",
+   "claims": [],
+   "nuance": "Where the king's army has failed, the herd chief turns the recovery into a bride contest, the pattern of Civakan's other marriages, which each come as a prize won."
+  },
+  "441": {
+   "reading": "Remembering how the army's host scattered under the hunters' arrows, the men of the city bow and decline, saying that not only the dark-eyed maiden to be won by fighting Death, but even a celestial woman hard to win would not tempt them.",
+   "concepts": [
+    "acham",
+    "maram",
+    "kootru"
+   ],
+   "speaker": {
+    "who": "city_men",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_men",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The city's men refuse the challenge despite the bride offered.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "காயம் ஆறாக ஏகும் is read as one who travels by the sky, a heavenly woman; the line is compressed and the refusal is inferred from தொழுது விட்டார்."
+  },
+  "442": {
+   "reading": "As the lustful men's hearts follow the lightning-like girl, Civakan is out driving his chariot horses and showing the circling paces of his garlanded horse when a man tells him all that has caused the great distress.",
+   "concepts": [
+    "niraikol",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "சீவக",
+     "line": 2
+    },
+    {
+     "id": "oru_magan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A man tells Civakan, at his horse exercise, of the raid and the rout.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "அருளிற் போகி may mean Civakan goes out of compassion or that another goes by his favour; the subject of காட்டுகின்றான் is taken to be Civakan."
+  },
+  "443": {
+   "reading": "Civakan swears that if he does not protect those the world names, the good cows, renunciants, women, children and brahmins, let him become like the eunuch who, having seen his wife in another man's arms, still hurries to his sweet rice.",
+   "concepts": [
+    "vanjinam",
+    "maanam",
+    "niraikol",
+    "aanmai"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan vows to recover the herd.",
+   "claims": [
+    {
+     "claim": "cows, renunciants, women, children and brahmins have a claim on a warrior's protection, and failing them is unmanly shame",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ],
+   "nuance": "The vow has the shape of the Sangam vanjinam, a self-curse on failure, but its curse is the shame of a பேடி who swallows dishonour for food; the list of the protected is the classical one, given here by a merchant's son and not the king."
+  },
+  "444": {
+   "reading": "He makes ready the war gear, yokes and harnesses the horses, fits out the chariot, strings the bow and chooses arrows, and rises like lightning from a cloud, and the dust from his horses' hooves blots out the sun.",
+   "concepts": [
+    "maram",
+    "ookkam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan arms himself and drives out against the hunters.",
+   "claims": []
+  },
+  "445": {
+   "reading": "As the youth whose arrows sink as flawlessly as young women's glances turns his strong chariot to face them, one hunter speaks a mean word, that this is no time to engage him and they should go.",
+   "concepts": [
+    "acham",
+    "kaalam"
+   ],
+   "speaker": {
+    "who": "cattle_raiders",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "காளை",
+     "line": 2
+    },
+    {
+     "id": "cattle_raiders",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan turns his chariot on the hunters, and one of them urges retreat.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "முழுது என்று and the doubled மொழிந்தான் are hard to construe; புண்மொழி may stand for புன்மொழி, a mean word."
+  },
+  "446": {
+   "reading": "Saying that if the crocodile is strong in deep old water, in the forest they will see off even the strong, the hunting band, like a hungry snake that has seized its prey, hurries on without letting the herd go.",
+   "concepts": [
+    "idam",
+    "vali",
+    "niraikol"
+   ],
+   "speaker": {
+    "who": "cattle_raiders",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "cattle_raiders",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The hunters refuse to give up the herd and press on.",
+   "claims": [
+    {
+     "claim": "each is strongest on its own ground, the crocodile in water and the forest people in the forest",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "cattle_raiders"
+    }
+   ],
+   "nuance": "The hunters take the crocodile maxim for themselves: the forest is their deep water. The story keeps them in their forest and still defeats them (453)."
+  },
+  "447": {
+   "reading": "Putting horns to their mouths, the hunters cry that the enemy should run and save themselves rather than fall into the Death that is the foresters who routed the sea-like army, and their calls, conches, whistles, drums and horns roar through the wasteland like cloud and sea rising together.",
+   "concepts": [
+    "maram",
+    "kootru"
+   ],
+   "speaker": {
+    "who": "cattle_raiders",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "cattle_raiders",
+     "form": "கானவ",
+     "line": 1
+    }
+   ],
+   "event": "The hunters raise a war cry and taunt Civakan's party to flee.",
+   "claims": []
+  },
+  "448": {
+   "reading": "Like whirled firebrands, the anklet-wearing lord's chariot circles so fast it seems to ring every direction in darkness; his heroes shout and the hunters shout back, and the lord plays the opening game of the crowded battle.",
+   "concepts": [
+    "maram",
+    "ookkam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "குருசில்",
+     "line": 2
+    },
+    {
+     "id": "cattle_raiders",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan opens the fight, wheeling his chariot round the hunters.",
+   "claims": [],
+   "nuance": "முதல் விளையாடினான் makes the battle Civakan's play, against the army's terror before the same men."
+  },
+  "449": {
+   "reading": "As snakes faint and fold their hoods at the sound of the wings of Garuda, mount of the discus-bearer, so the hunters, under the roar of the generous one's chariot and the whirl of dust, shrink like coop hens and give up valour from their hearts, as they had given up dharma.",
+   "concepts": [
+    "maram",
+    "aram",
+    "acham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "cattle_raiders",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The hunters lose heart before Civakan's chariot.",
+   "claims": [],
+   "nuance": "அறமென மறமும் விட்டார் pairs the two losses: men who had no dharma now lose their courage too, so the raiders' fall is given a moral as well as a martial cause."
+  },
+  "450": {
+   "reading": "The hunters say that the scrawny hunter who told them the bird-omen alone decides has lied, that victory is hard now that the flood of chariots surrounds them, and that they must make one charge fast as thought and escape; and with a shout they shower arrows on the generous one.",
+   "concepts": [
+    "vanjam",
+    "pedhaimai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "cattle_raiders",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "cattle_raiders",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "omen_vedan",
+     "form": "வேடன்",
+     "line": 1
+    }
+   ],
+   "event": "The hunters blame their omen-reader and charge Civakan with a rain of arrows.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "புள் ஒன்றே சொல்லும் is read as the omen-reader's assurance; the omen that drove the raid fails them, and the blame falls on the augur, not on the raid."
+  }
+ },
+ "links": [
+  {
+   "a": "440",
+   "b": 479,
+   "type": "develops",
+   "note": "Nandagon's drum promises the maiden to whoever brings back the herd; in 479 the herd chief, now naming himself Govindan, offers her with seven golden images to Civakan.",
+   "teaches": "The public prize proclaimed to all the city's warriors is paid to the one outsider who answered it, which makes Govindai's marriage a contract kept rather than a match made."
+  },
+  {
+   "a": "438",
+   "b": 455,
+   "type": "tension",
+   "note": "Kattiyangaran sinks in grief when the herd is lost; when he hears Civakan has recovered it he is enraged as if a spear were thrust into a sword wound.",
+   "teaches": "The usurper grieves the loss of his herd and rages at its return, showing that what wounds him is a rival's glory, not the people's loss."
+  },
+  {
+   "a": "446",
+   "b": 453,
+   "type": "tension",
+   "note": "The hunters claim the forest as their deep water where even the strong will fall; in 453 Civakan alone destroys six thousand of them there.",
+   "teaches": "The maxim of one's own ground is turned against the very people who invoked it, so the story shows it fails when the opponent is misjudged."
+  },
+  {
+   "a": "446",
+   "b": "kural:495",
+   "type": "qualifies",
+   "note": "The hunters restate the couplet's crocodile, strong in deep water, and apply it to themselves in their forest.",
+   "teaches": "The couplet's rule of ground is here voiced by the losing side, so the pair shows the rule cannot by itself predict a fight and must be weighed against the enemy's strength.",
+   "gains": {
+    "a": "the hunters' boast gains a known maxim of statecraft, so their defeat reads as a misapplied rule and not mere bluster",
+    "b": "the couplet gains a case where the strong-on-its-ground party still loses, a limit the bare maxim does not state"
+   }
+  },
+  {
+   "a": "443",
+   "b": "purananuru:9",
+   "type": "develops",
+   "note": "The Pandya's war proclamation in Puram 9 tells cows, brahmins, women, the sick and the sonless to get clear before battle; Civakan names cows, renunciants, women, children and brahmins as those he must protect.",
+   "teaches": "The same list of the protected is in the Sangam poem those a king spares from his own arrows, and in the epic those a warrior must defend from another's raid, so the duty widens from restraint to rescue.",
+   "gains": {
+    "a": "Civakan's oath gains a Sangam pedigree: his list is the old code of who stands outside war",
+    "b": "the Puram poem's code of sparing gains its active counterpart, an obligation to defend the same people when someone else attacks them"
+   }
+  },
+  {
+   "a": "443",
+   "b": "tirumanthiram:243",
+   "type": "qualifies",
+   "note": "Tirumular threatens unending hell to a king who fails to guard cows, women, the virtuous and the holy; Civakan, not a king, binds himself to the same guard on pain of a eunuch's shame.",
+   "teaches": "Read together, the duty to guard cows, women and the holy passes from the failed king to a private man, and its sanction moves from hell after death to dishonour in this life.",
+   "gains": {
+    "a": "the oath gains a measure of what the king himself owed and failed to give, which Civakan supplies",
+    "b": "Tirumular's rule, framed for the king's office, gains a case where the office fails and the duty is taken up by one who holds no office"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 433 line 4 prints நீர்டிவிளை; read as நீர்விளை, with a stray டி.",
+  "Verse 431 line 2 divides குப் பாய மிலேச்சனை; read as குப்பாய மிலேச்சனை (a jacketed Mleccha).",
+  "Verse 449 line 3 prints புளி ஞருள், a word (புளிஞர்) split by a space.",
+  "Verse 445 line 4 புண்மொழிந்தான் may be புன்மொழிந்தான்; the doubled மொழிந்தான் is hard to construe.",
+  "Verse 450 was printed in eight half-lines and joined into four (FLAG repaired); the join reads correctly.",
+  "The cast id for the usurper is kattiyangaran here, as in ch001 and ch011; ch010 and ch012 spell it kattiyankaran."
+ ]
+}

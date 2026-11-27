@@ -1,0 +1,748 @@
+{
+ "chapter_no": 23,
+ "chapter_theme": "The Gandharvadattai ilampakam opens with the merchant Sitattan, who, scorning those who blame former deeds and praising wealth as the only true thing, sails to a golden island, trades and enjoys himself for six months, and on the voyage home meets a storm in which he exhorts his crew with maxims on courage, the measured life-span and refuge in the Jina's feet; the ship sinks, all others drown, and he is cast alone on a strange shore.",
+ "cast": [
+  {
+   "id": "sitattan",
+   "tamil": "சீதத்தன்",
+   "role": "merchant's son who sails for wealth and is shipwrecked"
+  },
+  {
+   "id": "sitattan_crew",
+   "tamil": "உள்ளவர்",
+   "role": "those aboard Sitattan's ship"
+  },
+  {
+   "id": "island_king",
+   "tamil": "கோ",
+   "role": "king of the gold-yielding island"
+  }
+ ],
+ "verses": {
+  "493": {
+   "reading": "While Civakan and his companions live happily, a merchant rich in treasure gathered from the sea sets out to sail with ships, like great elephants on the waves, to bring back wealth.",
+   "concepts": [
+    "selvam",
+    "muyarchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": "நாய்கன்",
+     "line": 2
+    }
+   ],
+   "event": "A wealthy merchant resolves to sail abroad for wealth.",
+   "claims": [],
+   "nuance": "Line 1 (இங்கு இவர்கள் இவ்வாறு இருந்து இனிது வாழ) closes the previous ilampakam's household and opens a new thread; the merchant is named only in the next verse."
+  },
+  "494": {
+   "reading": "The merchant is introduced: the husband of the bright-jewelled Padumai, a man of the lance-fenced line of Dattan, and his son Sitattan, a bull of that line, like a fighting tiger dwelling on a golden hill.",
+   "concepts": [
+    "kudi",
+    "pirappu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The word division of line 2 (வேலியவ தத்தன்) leaves the father's name unsure, and whether Padumai's husband in line 1 is the father or Sitattan himself depends on reading அவன் தன் போல் in line 3 as 'like his father'."
+  },
+  "495": {
+   "reading": "Sitattan reflects that even artisans, by heaping up wealth from things as small as grains, come to ride elephants with frontlets, and that when fortune turns upside down, like a grindstone floating and a gourd sinking, to sulk and blame one's former deeds is not understanding.",
+   "concepts": [
+    "muyarchi",
+    "vinai",
+    "madi",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "sitattan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "to blame former deeds and sulk when fortune turns is not wisdom",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "sitattan"
+    },
+    {
+     "claim": "men of low station rise to greatness by accumulating small gains",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "sitattan"
+    }
+   ],
+   "nuance": "The reflection runs from here to 498, closed by என்று எழுந்து போந்தான்; it is the merchant's view, and within a few verses he himself will put his survival down to old deeds (510, 511).",
+   "uncertain": true
+  },
+  "496": {
+   "reading": "If a man of resolve strives, a flood of wealth may fall to him in a single day, since nothing fails to yield to effort; but to sink into sloth at the words of hollow-minded men is as bitter as the mockers' jeers.",
+   "concepts": [
+    "muyarchi",
+    "madi",
+    "aalvinai"
+   ],
+   "speaker": {
+    "who": "sitattan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "effort by a resolute man can bring great wealth in a single day",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "sitattan"
+    },
+    {
+     "claim": "there is nothing that does not yield to effort",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "sitattan"
+    }
+   ],
+   "nuance": "Line 4's comparison (எள்ளுநர்கட்கு ஏக்கழுத்தம் போல) is compressed; the sense that sloth gives one's mockers their triumph is a reading.",
+   "uncertain": true
+  },
+  "497": {
+   "reading": "Make wealth: there is no other steel that can subdue those who would subdue you, it works even while one sits still, and without doubt it brings pleasure, virtue and everything else; true wealth alone is wealth, and nothing else counts.",
+   "concepts": [
+    "selvam",
+    "pagai",
+    "aram",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "sitattan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "wealth is the one weapon that subdues one's enemies",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "sitattan"
+    },
+    {
+     "claim": "wealth brings pleasure and virtue and all else with it",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "sitattan"
+    }
+   ],
+   "nuance": "The verse gathers the Kural's chapter on making wealth (751, 759, 760) almost clause by clause, but in its own words: செய்க பொருள் and எஃகு are the only shared words, short of an echo. The shipwreck of 512 to 514 puts the creed to the test."
+  },
+  "498": {
+   "reading": "As old trees fill with hanging bats when they decay, so when a lofty lineage weakens the heroes born in it must hold it up, while shunning the evil talk that bows the head is the women's part; with that he rose and went.",
+   "concepts": [
+    "kudi",
+    "aanmai",
+    "maanam"
+   ],
+   "speaker": {
+    "who": "sitattan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sitattan resolves to restore his family's fortune and leaves to make ready.",
+   "claims": [
+    {
+     "claim": "men born into a declining family must bear the burden of restoring it",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "sitattan"
+    }
+   ],
+   "nuance": "Lines 3 and 4 divide duty by sex: upholding the line falls to the men, guarding against shaming talk to the women. Whether line 1 means the lineage is already declining or only that it may decline is open.",
+   "uncertain": true
+  },
+  "499": {
+   "reading": "Loading great quantities of goods without stint, the hill-chested man whose pollen-thick garland bore the marks of women's sword-like eyes set out with a flawless aim.",
+   "concepts": [
+    "selvam",
+    "muyarchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": "மார்பன்",
+     "line": 3
+    }
+   ],
+   "event": "Sitattan loads his cargo and sets out.",
+   "claims": []
+  },
+  "500": {
+   "reading": "The patron whose fame reached the sky gave suppliants whatever they asked, like rain, then boarded with his fragrant hair and bade the ship run sweetly without harm.",
+   "concepts": [
+    "eegai",
+    "pugazh"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": "வள்ள",
+     "line": 1
+    }
+   ],
+   "event": "Sitattan gives gifts to suppliants, boards and orders the ship to sail.",
+   "claims": []
+  },
+  "501": {
+   "reading": "With flags flying from the mast-tops and three sails set high, the young men cheering and conch and drum sounding over the sea, the ship ran sweetly like an elephant that does not trample the coral.",
+   "concepts": [
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The ship sails out under full sail.",
+   "claims": []
+  },
+  "502": {
+   "reading": "Striking the conches the waves bring, spilling clustered pearls, leaving the wind's arrows behind, the ship cleft the sea as if splitting a mountain lying in it and sped on, scattering the herds of the islands.",
+   "concepts": [
+    "kaalam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The ship crosses the sea at speed.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "Line 4 (இரை இடறிப் பாய்ந்து இரிய) is open: the ship may scatter flocks or fish feeding at the islands."
+  },
+  "503": {
+   "reading": "It reached an island of fine gold, rich in cleanliness and goodness, where women like lightning, flower-creepers and soft blossoms, with the gait of swans and peacocks and a nectar-like grace, live close and happy.",
+   "concepts": [
+    "azhagu",
+    "selvam",
+    "naadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The ship reaches a gold-yielding island.",
+   "claims": []
+  },
+  "504": {
+   "reading": "Landing on the island, the honey-garlanded lord saw its king and, reading his wish, gave him a fine pearl necklace and carried away his favour; then for some days he listened to the nectar of the speech of women like Lakshmi of the lotus and delighted in their dramas.",
+   "concepts": [
+    "kaamam",
+    "inbam",
+    "eegai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": "செம்மல",
+     "line": 1
+    },
+    {
+     "id": "island_king",
+     "form": "கோவினை",
+     "line": 2
+    }
+   ],
+   "event": "Sitattan presents a pearl necklace to the island's king, wins his favour and enjoys the island's women and dramas.",
+   "claims": []
+  },
+  "505": {
+   "reading": "After six months with women whose grace yields a pleasure lovers cannot bear to leave, he reckoned up the heaps of rich wealth from the goods he had sold, loaded his ship and made ready to return home.",
+   "concepts": [
+    "selvam",
+    "kaamam",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sitattan sells his goods, loads the proceeds and prepares to sail home.",
+   "claims": []
+  },
+  "506": {
+   "reading": "Taking leave of the king and of those he had met, on a good day when Revati, Jupiter's hour and the rising of Sagittarius met, he embarked, crossed the deep sea faster than the wind and ran five hundred kathams to the edge of the voyage's yojanas.",
+   "concepts": [
+    "kaalam",
+    "muyarchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sitattan departs on an auspicious day and sails most of the way home.",
+   "claims": [],
+   "nuance": "The care over the auspicious moment (line 2) sets up the storm that follows: a well-chosen day does not keep off what comes."
+  },
+  "507": {
+   "reading": "As they lingered in joy on this side, clouds heavy with drops gathered on a wind, the darkness thickened, lightning flashed as if calling, and the thunder roared and struck so fiercely that Death itself might hide, while the merchant...",
+   "concepts": [
+    "mazhai",
+    "kootru",
+    "idukkan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": "நாய்கன்",
+     "line": 4
+    }
+   ],
+   "event": "A storm breaks over the homeward ship.",
+   "claims": [],
+   "nuance": "The verse ends on நாய்கன், whose verb is கூறும் at the end of 508: the merchant's words are held back through a whole verse of storm."
+  },
+  "508": {
+   "reading": "The winds of the eight quarters met and clashed head-on, the sea seemed to rise up, the clouds roared and poured cold rain in streams like crystal rods, like the wrath of some god, and he says 'do not shake'.",
+   "concepts": [
+    "mazhai",
+    "idukkan",
+    "anjaamai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "In the storm Sitattan tells his crew not to tremble.",
+   "claims": []
+  },
+  "509": {
+   "reading": "When trouble comes, laugh without tremor, steady as a burning lamp, for that laughter is a steel that cuts the trouble; who has ever survived by sitting and weeping? Do not shame manliness: what must come will come, he says.",
+   "concepts": [
+    "idukkan",
+    "anjaamai",
+    "aanmai"
+   ],
+   "speaker": {
+    "who": "sitattan",
+    "form": null,
+    "line": null,
+    "addressee": "sitattan_crew"
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sitattan exhorts his crew to face the storm without fear.",
+   "claims": [
+    {
+     "claim": "in trouble one should laugh without fear, since that laughter cuts the trouble",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "sitattan"
+    },
+    {
+     "claim": "no one has been saved by weeping",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sitattan"
+    }
+   ],
+   "nuance": "Line 1 opens as Kural 621 opens (இடுக்கண் ... நகுக) and line 3 turns its claim into an image (நக்க போழ்து அவ் இடுக்கணை அரியும் எஃகு), but the run of shared words is under four, so it is not marked as an echo. எஃகு recalls 497, where wealth was the steel; here composure is."
+  },
+  "510": {
+   "reading": "If the span of life held in the body like clear water in a golden cup is spent, the sea will kill; but even plunged into the deep, the good survive by the fruit of their old deeds that surrounds them like an anklet, he says.",
+   "concepts": [
+    "aayul",
+    "vinai",
+    "oozh"
+   ],
+   "speaker": {
+    "who": "sitattan",
+    "form": null,
+    "line": null,
+    "addressee": "sitattan_crew"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "death comes when one's allotted life-span is spent, and not before",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "sitattan"
+    },
+    {
+     "claim": "the fruit of good deeds in former lives keeps the good alive even when they sink in the sea",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sitattan"
+    }
+   ],
+   "nuance": "The man who in 495 called blaming former deeds a failure of understanding now makes former deeds the ground of hope; the story does not mark the turn, but the two views sit four verses apart. The outcome bears him out: all the rest die (512) and he alone is cast ashore (513)."
+  },
+  "511": {
+   "reading": "Do not swim this sea weeping with melting eyes over the unbearable suffering that ripened deeds have brought; all of you, think on the flower-feet of the lord of the budding pindi tree and cast off fear, he says.",
+   "concepts": [
+    "vinai",
+    "thiruvadi",
+    "acham",
+    "adaikkalam"
+   ],
+   "speaker": {
+    "who": "sitattan",
+    "form": null,
+    "line": null,
+    "addressee": "sitattan_crew"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "suffering that is the ripening of one's deeds is not to be wept over",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "sitattan"
+    },
+    {
+     "claim": "meditating on the feet of the Arhat beneath the asoka tree dispels fear",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sitattan"
+    }
+   ],
+   "nuance": "பிண்டி நாதன், the lord of the asoka (pindi), names the Jina. The refuge offered is not rescue: the feet are to be remembered so that fear goes, while what the deeds bring is still to be borne."
+  },
+  "512": {
+   "reading": "As the merchant, like a caparisoned war elephant, stood quietly bowed, the ship heaved, the mast broke, it ran as it had been built to run, filled with water and sank, and all aboard perished together as if thunder had struck them.",
+   "concepts": [
+    "saakkaadu",
+    "idukkan",
+    "kootru"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": "களிற",
+     "line": 1
+    },
+    {
+     "id": "sitattan_crew",
+     "form": "வுள்ளவ",
+     "line": 4
+    }
+   ],
+   "event": "The ship founders and everyone aboard except Sitattan drowns.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "Line 1 (பருமித்த களிறனானும் பையெனக் கவிழ்ந்து நிற்ப) may describe the merchant standing bowed or the ship itself heeling over; the reading taken here makes it the merchant."
+  },
+  "513": {
+   "reading": "While the sea, bitter as neem, swallowed the wealth he had guarded and gathered and the people he loved, he stood without haste, clung to a broken piece of the mast, and the waves washed the fresh-garlanded man ashore.",
+   "concepts": [
+    "selvam",
+    "nilaiyaamai",
+    "samanilai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sitattan clings to a piece of the mast and is washed ashore.",
+   "claims": [],
+   "nuance": "ஓம்பிப் படைத்த பொருள் (line 1) is the wealth 497 called the only wealth; it goes down while the man who made it is kept, as 510 said the good would be."
+  },
+  "514": {
+   "reading": "'Having lost your ship, you swim alone through the midnight with no one beside you; you took wealth to be the thing of worth; you did not first make what would keep you from death, you made only deeds; my poor self,' he says, and goes on to a dune of white sand.",
+   "concepts": [
+    "vinai",
+    "selvam",
+    "nilaiyaamai"
+   ],
+   "speaker": {
+    "who": "sitattan",
+    "form": null,
+    "line": null,
+    "addressee": "sitattan"
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sitattan reproaches himself and reaches a sandbank.",
+   "claims": [
+    {
+     "claim": "to take wealth for the thing of real worth is an error",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "sitattan"
+    }
+   ],
+   "nuance": "பொருளைப் பொருள் என்று கொண்டாய் answers 497's பொய்யில் பொருளே பொருள் in the speaker's own mouth. Line 3 (வீவாய் என முன் படையாய் படைத்தாய் வினை) is compressed and the sense of what he failed to make is a reading; என் பாவாய் may be addressed to himself or to some other.",
+   "uncertain": true
+  },
+  "515": {
+   "reading": "Reaching a lovely red grove where ஞாழல் and புன்னை trees with rough bark were in flower and striped bees and honey-bees hummed, the hill-chested man sat there grieving.",
+   "concepts": [
+    "pirivu",
+    "idukkan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": "மார்ப",
+     "line": 4
+    }
+   ],
+   "event": "Sitattan reaches a flowering shore grove and sits in grief.",
+   "claims": []
+  },
+  "516": {
+   "reading": "In the long neytal grove, where crabs rolled over and over as the running waves kicked them, making the swans wonder, the noble one sat withering, watching for a ship to come.",
+   "concepts": [
+    "idukkan",
+    "nenju"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sitattan",
+     "form": "னெடுந்தகை",
+     "line": 3
+    }
+   ],
+   "event": "Sitattan waits on the shore watching for a ship.",
+   "claims": [],
+   "nuance": "The crab tumbled by the waves (lines 1 and 2) mirrors the castaway tossed ashore in 513."
+  }
+ },
+ "links": [
+  {
+   "a": "495",
+   "b": 510,
+   "type": "tension",
+   "note": "In 495 Sitattan calls it a failure of understanding to blame former deeds when fortune turns; in 510, in the storm, he makes the fruit of former deeds the only ground on which the good survive.",
+   "teaches": "The merchant's creed of effort over fate lasts only until the sea rises; under the storm the same man falls back on karma, so the epic stages the Kural's own pull between effort and fate as one character's change of mind."
+  },
+  {
+   "a": "497",
+   "b": 514,
+   "type": "tension",
+   "note": "497 ends பொய்யில் பொருளே பொருள்; 514 has the shipwrecked merchant tell himself பொருளைப் பொருள் என்று கொண்டாய், as a reproach.",
+   "teaches": "The wordplay on பொருள் as wealth and as the thing of worth is turned against its speaker, so the wreck reads as a verdict on his creed and not only as bad luck."
+  },
+  {
+   "a": "510",
+   "b": 213,
+   "type": "develops",
+   "note": "In 213 King Saccandan dismisses warning by saying pleasures and days of life are measured out in advance; in 510 Sitattan uses the same doctrine of a measured life-span to steady his crew, and alone survives.",
+   "teaches": "The doctrine of the measured life-span is voiced twice before a disaster, once as an excuse for heedlessness that ends in a king's death and once as courage that ends in rescue, so its worth in the epic depends on what the speaker does with it."
+  },
+  {
+   "a": "497",
+   "b": "kural:759",
+   "type": "qualifies",
+   "note": "497 restates Kural 759 (make wealth; no steel is sharper against foes) and joins to it the claims of 760 and 751 as a merchant's motto, a few verses before the sea swallows the wealth.",
+   "teaches": "Put in the mouth of a man about to lose everything at sea, the Kural's praise of wealth as the sharpest steel is shown to say nothing about wealth's own exposure to loss.",
+   "gains": {
+    "a": "the merchant's motto gains its source and is seen as a borrowed rule of statecraft applied to trade",
+    "b": "the couplet gains a test case in which the wealth it praises is destroyed by forces no amount of it can subdue"
+   }
+  },
+  {
+   "a": "509",
+   "b": "kural:621",
+   "type": "develops",
+   "note": "509 opens as Kural 621 opens and turns the couplet's laughter into a steel that cuts trouble, spoken by a captain to his crew in a storm that drowns them all but him.",
+   "teaches": "The couplet's laugh in trouble becomes a leader's duty to others, and the scene shows its limit: composure saves the one who keeps it but cannot save the ship.",
+   "gains": {
+    "a": "Sitattan's exhortation gains a known maxim behind it, which explains why he speaks in aphorisms at the height of the storm",
+    "b": "the couplet's private resolve gains a public setting, where the person who laughs is responsible for others who perish"
+   }
+  },
+  {
+   "a": "496",
+   "b": "kural:620",
+   "type": "qualifies",
+   "note": "496 holds that a resolute man's effort can bring a flood of wealth in a day and that nothing fails to yield to it; Kural 620 holds that tireless effort sees even fate's back.",
+   "teaches": "The epic puts the Kural's boldest claim for effort in the mouth of a man whose voyage ends in shipwreck, so the claim is made to depend on the life-span and deeds he later invokes.",
+   "gains": {
+    "a": "the merchant's boast gains the weight of a rule from the Kural's chapter on exertion",
+    "b": "the couplet gains a story in which tireless effort does meet fate head on and loses the wealth while the man survives"
+   }
+  },
+  {
+   "a": "498",
+   "b": "kural:1026",
+   "type": "develops",
+   "note": "498 gives the merchant's reason for the voyage: men born into a weakening lineage must hold it up. Kural 1026 defines good manliness as making oneself able to rule the house one was born into.",
+   "teaches": "The Kural's manliness of the house is the motive that sends a merchant onto the sea, and the verse adds a division the couplet lacks: restoring the line is the men's part, guarding against shame the women's.",
+   "gains": {
+    "a": "the merchant's resolve gains a named ideal, so the voyage reads as family duty and not greed",
+    "b": "the couplet gains a concrete undertaking and a risk: ruling one's house can mean staking one's life on a voyage"
+   }
+  },
+  {
+   "a": "513",
+   "b": "naladiyar:93",
+   "type": "agrees",
+   "note": "513 shows the wealth Sitattan guarded and gathered (ஓம்பிப் படைத்த பொருள்) swallowed by the sea while he stands unhurried; Naladiyar 93 holds that wealth, however tightly held, leaves when the deeds that sent it run out.",
+   "teaches": "Read with the quatrain, the wreck becomes the ending of a merit that had held the wealth, and the merchant's calm becomes the right response to a loss that no grip could prevent.",
+   "gains": {
+    "a": "the loss of the cargo gains a cause the verse does not give, the exhaustion of the merit that brought it",
+    "b": "the quatrain's abstract leaving of wealth gains a sudden, visible event and a man who loses it without clutching"
+   }
+  },
+  {
+   "a": "496",
+   "b": "siddhar:641",
+   "type": "tension",
+   "note": "496 has the merchant hold that effort alone can bring a flood of wealth in a day; Siddhar 641 tells the heart that the wealth it has came by the order of deeds done in earlier lives and was not got today.",
+   "teaches": "The two disagree about where wealth comes from, today's effort or earlier lives, and the epic lets its merchant hold the first view only until the storm turns him to the second.",
+   "gains": {
+    "a": "the merchant's creed gains its direct opposite, which shows how much it denies",
+    "b": "the Siddhar's claim gains an opponent who believes the reverse and is then brought round by events"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 494 line 2 (கொன்னொழுகு வேலியவ தத்தன்) and line 3 (காளைசீ தத்தனவன்) are divided oddly; the father's name and whether Padumai's husband is the father or the son cannot be fixed from the verse.",
+  "Verse 496 line 4 and 514 line 4 carry repaired glyphs (FLAG repaired); the repairs read correctly.",
+  "Verse 515 line 3 carries a repaired glyph (FLAG repaired); செவ்வனஞ் சேர்ந்தாங் reads correctly after it.",
+  "Verse 507 ends on நாய்கன் without a verb, which comes only at the end of 508 (கூறும்); the two verses form one sentence."
+ ]
+}

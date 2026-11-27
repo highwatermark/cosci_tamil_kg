@@ -1,0 +1,626 @@
+{
+ "chapter_no": 24,
+ "chapter_theme": "The shipwrecked merchant Sridattan tells his loss to a stranger, Dharan, who promises by magic to restore his drowned companions and goods and flies him on a ram to the Vidyadhara city on the silver mountain, which the poet describes at length; there Dharan begins the story of King Kaluzhavegan's daughter, whose horoscope places her destined husband in Rajamapuram on earth.",
+ "cast": [
+  {
+   "id": "sridattan",
+   "tamil": "சீதத்தன்",
+   "role": "merchant of Rajamapuram, friend of Civakan"
+  },
+  {
+   "id": "dharan",
+   "tamil": "தரன்",
+   "role": "Vidyadhara in the service of Kaluzhavegan, who stages the wreck and brings Sridattan to the Vidyadhara city"
+  },
+  {
+   "id": "kaluzhavegan",
+   "tamil": "கலுழவேகன்",
+   "role": "Vidyadhara king, father of Gandharvadattai"
+  },
+  {
+   "id": "vidyadhara_nimiththikan",
+   "tamil": "நிமித்திகன்",
+   "role": "Kaluzhavegan's astrologer"
+  },
+  {
+   "id": "suitor_kings",
+   "tamil": "மன்னர்",
+   "role": "kings who came seeking the princess"
+  }
+ ],
+ "verses": {
+  "517": {
+   "reading": "Cast up on the shore grove, the strong-shouldered merchant meets a man of strong stride and, calling him kin, begins to tell him what has befallen him.",
+   "concepts": [
+    "idukkan",
+    "kizhamai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridattan",
+     "form": "தோள்வலி மிக்கான்",
+     "line": 4
+    },
+    {
+     "id": "dharan",
+     "form": "யானொர் மகனை",
+     "line": 2
+    }
+   ],
+   "event": "Sridattan meets a stranger in the seashore grove and begins to tell him his misfortune.",
+   "claims": [],
+   "nuance": "The stranger is not yet named; 519 calls him Dharan, and 574 reveals he is the Vidyadhara who staged the storm, so the merchant here confides his loss to its author."
+  },
+  "518": {
+   "reading": "He tells the man how his ship went down in the black sea under the wind, how his goods were ruined, and how he survived by clinging to a hard-won float.",
+   "concepts": [
+    "idukkan",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sridattan recounts the shipwreck and his escape on a piece of wreckage.",
+   "claims": []
+  },
+  "519": {
+   "reading": "When the mighty merchant has told his grief so that even deer and trees pity him, the stranger's flawless words, sweet as honey and nectar, cool his heart.",
+   "concepts": [
+    "idukkan",
+    "inchol"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridattan",
+     "form": "மதவலி",
+     "line": 1
+    },
+    {
+     "id": "dharan",
+     "form": "தரனுக்",
+     "line": 2
+    }
+   ],
+   "event": "Sridattan finishes his tale to Dharan and is comforted by his reply.",
+   "claims": [],
+   "nuance": "The listener is first named here, in the dative தரனுக்கு; the comfort is described before its content is given in 520."
+  },
+  "520": {
+   "reading": "Dharan says he is master of magic arts and will, without any deceit and in the blink of an eye, give back the dead companions together with all the wealth that remains, so the merchant should not grieve.",
+   "concepts": [
+    "maayai",
+    "vanjam",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "dharan",
+    "form": null,
+    "line": null,
+    "addressee": "sridattan"
+   },
+   "agents": [
+    {
+     "id": "dharan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Dharan promises to restore Sridattan's companions and goods by his magic arts.",
+   "claims": [],
+   "nuance": "'Without any deceit' (வஞ்சம் ஒன்று இன்றி) is spoken by the man who, as 574 says, raised the storm by deceit; the promise to return 'dead' companions is kept because they were never dead (580, 582)."
+  },
+  "521": {
+   "reading": "Having made his word believed, Dharan says 'let us climb the mountain', mounts the merchant on a swift ram and flies off carrying him.",
+   "concepts": [
+    "maayai",
+    "thunai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dharan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "sridattan",
+     "form": "மைந்தனை",
+     "line": 4
+    }
+   ],
+   "event": "Dharan sets Sridattan on a flying ram and carries him up through the air.",
+   "claims": []
+  },
+  "522": {
+   "reading": "They split the sky-climbing clouds at speed, the cold rain wetting their sides, and come gladly to a hard mountain with fragrant groves on its dripping slopes.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dharan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "sridattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Dharan and Sridattan fly through rain clouds and land on a mountain.",
+   "claims": []
+  },
+  "523": {
+   "reading": "The merchant takes ripe fruits hanging from the branches, sweet to see and rare, fit for the lotus goddess, eats them like nectar, and his body is cooled.",
+   "concepts": [
+    "amudham",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sridattan eats the mountain's fruits and is refreshed.",
+   "claims": [],
+   "nuance": "Third use in a few verses of the image of cooling (519 heart, 523 body): the poet stages relief in steps after the wreck."
+  },
+  "524": {
+   "reading": "Looking on the groves of saffron, naga trees and sandal on the cloud-wrapped mountain, the jewel-chested merchant rejoices.",
+   "concepts": [
+    "azhagu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridattan",
+     "form": "மார்ப",
+     "line": 4
+    }
+   ],
+   "event": "Sridattan views the mountain groves with delight.",
+   "claims": []
+  },
+  "525": {
+   "reading": "Dharan tells him that a kaatham beyond this cool mountain of garland-like falls lies a fine city where the lord of flag-hung walls dwells, and bids him come; they go and reach it.",
+   "concepts": [
+    "naadu",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dharan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "sridattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Dharan leads Sridattan onward to the Vidyadhara king's city.",
+   "claims": [],
+   "nuance": "Lines 3 and 4 carry Dharan's words (…உண்டு அங்குப் போதும் எழுக) inside the narration without a speech tag."
+  },
+  "526": {
+   "reading": "The poet begins the description: the silver mountain, cloaked below by dark clouds and shining above, looks like the white moon half swallowed by a black serpent gripping it from beneath.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "An eclipse image: the dark serpent of the eclipse holds the moon from below, so the white peak shows only in part. The silver mountain is the Vidyadhara range named in 546 (வெள்ளிவேதண்டம்)."
+  },
+  "527": {
+   "reading": "The golden city, the poet says, can be described a little as if a god had measured out every fine place of the shining heaven, filled it with delight, built it into a city and crowned it with the young sun.",
+   "concepts": [
+    "azhagu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "528": {
+   "reading": "The golden city looks as though the thousand-eyed god's golden city, red eyes blooming like a thousand lotuses, had come to rest on the mountain with its fragrant-haired women.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The thousand eyes like a thousand lotuses are Indra's; the comparison sets the Vidyadhara city beside heaven's capital, as 535 does again."
+  },
+  "529": {
+   "reading": "The bright flags on the moated walls seem to pat the moon with hollowed palms, as though calling it like the faces of the doe-eyed women, so that the moon is cooled within.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The sense of line 3 (உடங்கு வெண்மதி உள்குளிர) and of கொம்மை கொட்டுதல் is uncertain; the conceit pairs the moon with the women's faces, as 532 does."
+  },
+  "530": {
+   "reading": "The sounds of girdles, anklets, harps, flutes and tuned drums make the bright city seem to open a noisy mouth and cry out, 'whose is beauty like this?'",
+   "concepts": [
+    "azhagu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "531": {
+   "reading": "The gem finials on the gold mansions, scorched by the long rays of the burning sun, seem to break out in blisters of gold.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "532": {
+   "reading": "Because the moon, its chariot halted, rests on the lofty mansions, the faces of the deer-eyed women seem in kindness to soothe its heat.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "uncertain": true,
+   "nuance": "Line 1 (உருளி மாமதி ஓட்டொழித்து) and the moon's 'heat' (அழல்) are hard; the reading that the moon pauses on the towers and is cooled by the women's faces is tentative."
+  },
+  "533": {
+   "reading": "Jewels and garlands of fresh gold lie where they fell, with no one wanting to pick them up, so that the streets look as if the sky had come into flower.",
+   "concepts": [
+    "selvam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The city's wealth is measured by indifference to it: dropped jewels lie unclaimed, a sharp contrast to the merchant who in 514 is reproached for taking wealth to be the only thing of worth."
+  },
+  "534": {
+   "reading": "The rich smoke of teak-dark agil mixed with honey, pent in the mansions, escapes slowly as they open, as though the mansions were breathing out sighs.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "535": {
+   "reading": "If one asks what the splendour of this matchless city of truthful Vidyadharas is like, it is like the gem casket Indra longs for, opened.",
+   "concepts": [
+    "azhagu",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The city's people are called தப்பில் வாய்மொழி, of faultless speech, in the same chapter whose host has just lied to bring the merchant there (520, 574)."
+  },
+  "536": {
+   "reading": "Seeing the fine city, the merchant wonders whether they have entered the serpents' world; they go in, descend into a gold mansion among the clouds, and Dharan entertains him as a guest and speaks.",
+   "concepts": [
+    "virundhu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridattan",
+     "form": "நாய்கன்",
+     "line": 1
+    },
+    {
+     "id": "dharan",
+     "form": "தாரான்",
+     "line": 4
+    }
+   ],
+   "event": "Dharan brings Sridattan into his mansion in the city, entertains him, and begins to speak.",
+   "claims": []
+  },
+  "537": {
+   "reading": "Dharan begins: the king Kaluzhavegan, a Garuda to rival kings who are like great gem-bearing serpents, has as queen Dharani of ancient fame, bee-haunted eyes and breasts that pierce men's judgment, a goddess among women.",
+   "concepts": [
+    "arasu",
+    "vendhan",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "dharan",
+    "form": null,
+    "line": null,
+    "addressee": "sridattan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "uncertain": true,
+   "nuance": "The king's name is split across words as printed (கலுழனாய கலுழவே கற்கு) and is confirmed in 546; the opening phrase மாடியந் தானை is obscure."
+  },
+  "538": {
+   "reading": "When the sweet-voiced queen bore a daughter, like the young white crescent rising for the heavens to worship, kings without number crowded onto this mountain and offered rare jewels and wealth from the heads of their elephants.",
+   "concepts": [
+    "pirappu",
+    "mannar",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "dharan",
+    "form": null,
+    "line": null,
+    "addressee": "sridattan"
+   },
+   "agents": [
+    {
+     "id": "suitor_kings",
+     "form": "மன்ன",
+     "line": 3
+    }
+   ],
+   "event": "At the princess's birth, kings gather on the Vidyadhara mountain bringing gifts to win her.",
+   "claims": [],
+   "nuance": "The princess is not named here; 550 names her Gandharvadattai."
+  },
+  "539": {
+   "reading": "The king called for his astrologer, who cast the princess's horoscope from the planets and declared that the one she is destined to join lives on earth, in Rajamapuram.",
+   "concepts": [
+    "oozh",
+    "kaalam",
+    "vaazhkkaithunai"
+   ],
+   "speaker": {
+    "who": "dharan",
+    "form": null,
+    "line": null,
+    "addressee": "sridattan"
+   },
+   "agents": [
+    {
+     "id": "kaluzhavegan",
+     "form": "மந்திரத் தரசன்",
+     "line": 1
+    },
+    {
+     "id": "vidyadhara_nimiththikan",
+     "form": "நிமித்திகன்",
+     "line": 1
+    }
+   ],
+   "event": "The astrologer reads the princess's horoscope and names Rajamapuram on earth as the place of her destined husband.",
+   "claims": [
+    {
+     "claim": "a woman's destined husband is fixed and can be read from the planets at her birth",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "vidyadhara_nimiththikan"
+    }
+   ],
+   "nuance": "பான்மை, one's allotted portion, is the word the king will take up in 554 (பான்மையார் விலக்குகிற்பார்). The prophecy points down from the sky-dwellers' city to the human town where Civakan lives."
+  },
+  "540": {
+   "reading": "Trusting the astrologer's word, the king kept the suitor kings standing in hope and hid his intent like the wheeling of a swift horse; unable to tell whether he meant it or not, they resolved to learn the matter there, and he went to the palace.",
+   "concepts": [
+    "soozhchi",
+    "kurippu",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "dharan",
+    "form": null,
+    "line": null,
+    "addressee": "sridattan"
+   },
+   "agents": [
+    {
+     "id": "kaluzhavegan",
+     "form": "வேந்த",
+     "line": 1
+    },
+    {
+     "id": "suitor_kings",
+     "form": "ளரசர் நிற்ப",
+     "line": 1
+    }
+   ],
+   "event": "Kaluzhavegan keeps the suitor kings waiting while concealing his plan, and withdraws to his palace.",
+   "claims": [],
+   "uncertain": true,
+   "nuance": "Who speaks lines 3 and 4 (அவனதே கருதிற்றாங்கொல் … அறிதும் என்று) is unclear: the waiting kings guessing the king's mind, or the king weighing the astrologer's word; the subject of ஏகினான் is the king."
+  }
+ },
+ "links": [
+  {
+   "a": "520",
+   "b": 574,
+   "type": "tension",
+   "note": "Dharan vows to restore all without any deceit (வஞ்சமொன்று இன்றி); in 574 the Vidyadhara lord himself declares the storm was a deceit (வஞ்சம்).",
+   "teaches": "The word that guarantees the promise is the word later used to explain the whole wreck, so the rescuer's honesty consists in undoing a lie he told."
+  },
+  {
+   "a": "520",
+   "b": 582,
+   "type": "develops",
+   "note": "The 'dead companions' Dharan promises to return meet the merchant alive and laugh that what they suffered at sea was a play (நாடகம்).",
+   "teaches": "The impossible promise to raise the dead is kept only because the deaths were staged, which turns the earlier lament for lost friends into an audience's grief."
+  },
+  {
+   "a": "520",
+   "b": "kural:292",
+   "type": "qualifies",
+   "note": "Kural 292 lets a falsehood stand as truth when it yields good free of fault; Dharan's wreck and his 'no deceit' promise are falsehoods serving his king's purpose of bringing a guardian for the princess.",
+   "teaches": "The pair tests the couplet's limit: the epic's lie does produce good, but at the cost of a man's real grief for friends he believed drowned, so whether its good is 'free of fault' becomes the question.",
+   "gains": {
+    "a": "a measure by which to judge Dharan's staged disaster, which the story itself excuses with laughter in 582",
+    "b": "a concrete case where the beneficial lie causes real suffering before the benefit arrives, which the couplet's bare rule does not weigh"
+   }
+  },
+  {
+   "a": "533",
+   "b": 514,
+   "type": "tension",
+   "note": "In 514 the shipwrecked merchant is reproached for taking wealth as the one thing of worth; in 533 he enters a city where jewels lie in the street because no one wants them.",
+   "teaches": "The man who lost everything for wealth is led into a place where wealth has no pull, so the description quietly answers the reproach of the wreck."
+  },
+  {
+   "a": "539",
+   "b": 11,
+   "type": "develops",
+   "note": "The astrologer names Rajamapuram as the place of the princess's destined husband; the patikam (11) already tells that the Vidyadhara king's daughter was defeated at the vina.",
+   "teaches": "The prophecy that sends the princess to earth is the start of the contest the patikam announced, so her defeat at the vina is the means by which her horoscope comes true."
+  },
+  {
+   "a": "539",
+   "b": 554,
+   "type": "develops",
+   "note": "The astrologer's reading of her பான்மை is taken up by the king in 554, who refuses every suitor because none can stop a portion when its time comes.",
+   "teaches": "A horoscope cast at birth becomes, years later, the king's reason for refusing all suitors, so the prophecy governs a political decision rather than merely forecasting a marriage."
+  },
+  {
+   "a": "540",
+   "b": "kural:376",
+   "type": "qualifies",
+   "note": "Kural 376 says what is not one's portion will not stay however guarded and what is one's portion will not leave; the king, told his daughter's portion lies in Rajamapuram, neither gives her to the gift-bearing kings nor tells them so, but keeps them waiting with his intent hidden.",
+   "teaches": "The pair shows that knowing one's portion in advance does not end action: the king turns the couplet's resignation into policy, managing powerful suitors while waiting for fate to arrive.",
+   "gains": {
+    "a": "a general rule of allotted portion behind the king's refusal to accept the suitors' riches",
+    "b": "a case where the rule is applied to a daughter rather than to wealth, and where the one who knows the portion must still act with craft to protect it"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 528 line 2 and verse 530 line 1 carry repairs of TSCII conversion slips (FLAG repaired); the repaired readings make sense.",
+  "Verse 537 line 2 prints the king's name split across words (கலுழனாய கலுழவே கற்கு); 546 confirms கலுழவேகன்.",
+  "Verse 537 line 1 (மாடியந் தானை) and verse 532 line 1 (உருளி மாமதி ஓட்டொழித்து) are obscure as printed.",
+  "Verse 522 line 2 reads பகும்புயல், possibly for பசும்புயல்.",
+  "Verse 540 lines 3 and 4 name no speaker."
+ ]
+}

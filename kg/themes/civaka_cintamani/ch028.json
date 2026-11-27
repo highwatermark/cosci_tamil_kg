@@ -1,0 +1,713 @@
+{
+ "chapter_no": 28,
+ "chapter_theme": "Suitor kings and crowds of every rank gather in Rajamapuram for the vina contest for Gandharvadattai; the merchant prepares the way and gives wealth away at the hour an omen-reader fixes, her companion predicts the suitors' defeat, attendants bathe and adorn her, and she goes out with auspicious emblems, the victor's garland, dwarfs and armed women guards, through a crowd whose eyes will not be held back by the guards.",
+ "cast": [
+  {
+   "id": "gandharvadattai",
+   "tamil": "காந்தருவதத்தை",
+   "role": "daughter of the Vidyadhara king Kaluzhavegan, whose hand goes to whoever beats her at the vina"
+  },
+  {
+   "id": "sridattan",
+   "tamil": "சீதத்தன்",
+   "role": "merchant of Rajamapuram (நாய்கன்) who brought her from the Vidyadhara city and holds the contest"
+  },
+  {
+   "id": "sridattan_wife",
+   "tamil": "அரிவை",
+   "role": "the woman with whom the merchant consults on the day, taken as his wife"
+  },
+  {
+   "id": "sridattan_men",
+   "tamil": "பணியாளர்",
+   "role": "the merchant's people who prepare the way to the contest hall"
+  },
+  {
+   "id": "suitor_kings",
+   "tamil": "மன்னர்",
+   "role": "kings who came seeking the princess"
+  },
+  {
+   "id": "avanti_mannan",
+   "tamil": "அவந்தியன்",
+   "role": "the crowned king of Avanti, a suitor"
+  },
+  {
+   "id": "ayodhya_mannan",
+   "tamil": "அயோத்தியர் இறை",
+   "role": "the lord of the Ayodhya people, a suitor"
+  },
+  {
+   "id": "contest_suitors",
+   "tamil": "நிலமிசையவர்கள்",
+   "role": "everyone on earth, down to the rich merchants, who comes to try the vina contest"
+  },
+  {
+   "id": "city_people",
+   "tamil": "மாந்தர்",
+   "role": "the crowds of Rajamapuram who come to watch"
+  },
+  {
+   "id": "thozhi",
+   "tamil": "தோழி",
+   "role": "Gandharvadattai's companion"
+  },
+  {
+   "id": "virichikan",
+   "tamil": "விரிச்சிகன்",
+   "role": "the reader of omens and planets who fixes the hour of the contest"
+  },
+  {
+   "id": "adorning_women",
+   "tamil": "அரம்பை அன்னார்",
+   "role": "the young women who bathe and dress the princess"
+  },
+  {
+   "id": "kural_sindhu",
+   "tamil": "குறள் சிந்து",
+   "role": "the dwarfs and hunchbacks of the princess's retinue"
+  },
+  {
+   "id": "women_guards",
+   "tamil": "எண்மர்",
+   "role": "the armed women of her guard, a thousand and eight"
+  }
+ ],
+ "verses": {
+  "613": {
+   "reading": "Surrounded by kings who bow with joined hands, his crowned head praised, the victorious king of Avanti arrives to his drums, his mind on the maiden of slender waist.",
+   "concepts": [
+    "mannar",
+    "vendhan",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "avanti_mannan",
+     "form": "தவந்தியன்",
+     "line": 3
+    },
+    {
+     "id": "suitor_kings",
+     "form": "மன்னர்",
+     "line": 1
+    }
+   ],
+   "event": "The king of Avanti arrives at Rajamapuram for the vina contest, thinking of the princess.",
+   "claims": []
+  },
+  "614": {
+   "reading": "The lord of the Ayodhya people, who on his coronation day sniffed garlands taken from kings' crowns and has won many battles with his leaf-bladed spear, comes too.",
+   "concepts": [
+    "vendhan",
+    "maram",
+    "mannar"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ayodhya_mannan",
+     "form": "லயோத்திய ரிறையும்",
+     "line": 4
+    }
+   ],
+   "event": "The king of Ayodhya arrives for the contest.",
+   "claims": [],
+   "nuance": "The suitors are introduced by their war record, so the coming contest of the lute is set against a field of conquerors whose strength it will not test."
+  },
+  "615": {
+   "reading": "Everyone on earth, down to the merchants of great wealth, hurries to win her at the vina, and the people crowd every corner and street of the old city in rows like swarms of bees drawn by honey.",
+   "concepts": [
+    "kaamam",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "contest_suitors",
+     "form": "நிலமிசை யவர்க ளெல்லாம்",
+     "line": 1
+    },
+    {
+     "id": "city_people",
+     "form": "மாந்தர்",
+     "line": 3
+    }
+   ],
+   "event": "Suitors of every rank and crowds of townspeople throng the city.",
+   "claims": [],
+   "nuance": "The contest is open to anyone, merchants included, not only kings: this is what lets a merchant's son win it."
+  },
+  "616": {
+   "reading": "For the maiden to walk on, they level a path five bows wide, lay down molten-bright gold, wash away the white dust with scented water and strew flowers loud with bees along its sides.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridattan_men",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The way to the contest hall is levelled and laid with gold and flowers.",
+   "claims": [],
+   "nuance": "The word ஓரைவில் (five bows) as a measure of the path's width is read across the printed word break.",
+   "uncertain": true
+  },
+  "617": {
+   "reading": "He spreads white cloth beyond price and soft anicham blossoms along the street to the width of five drums so her soft feet are spared, and with his wealth he makes the needy of the land, many as the earth, forget want.",
+   "concepts": [
+    "eegai",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The merchant carpets the street with cloth and flowers and scatters wealth.",
+   "claims": [],
+   "nuance": "Line 4, நிலவரைத் தன்ன னாரை நிதியினால் வறுமை செய்தான், literally says he made poverty for them by wealth; the sense that his gifts ended their want is a reading, and the subject is taken from the story.",
+   "uncertain": true
+  },
+  "618": {
+   "reading": "Her companion comes up to the creeper-like girl whose earrings shine like Jupiter beside the full moon, bows, strokes her fragrant hair and, with deference, tells her all the marriage customs of old.",
+   "concepts": [
+    "vaazhkkaithunai",
+    "inchol"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "thozhi",
+     "form": "தோழி",
+     "line": 2
+    },
+    {
+     "id": "gandharvadattai",
+     "form": "கொடியினை",
+     "line": 2
+    }
+   ],
+   "event": "The companion bows to the princess and speaks to her of the old forms of marriage.",
+   "claims": [],
+   "nuance": "Line 1's comparison (மண்டல நிறைந்த மாசின் மதிப்புடை வியாழம்) is read as the earring beside her moon face; the line could also describe the companion.",
+   "uncertain": true
+  },
+  "619": {
+   "reading": "The companion tells the girl, whose jewelled brow is like the young crescent and whose waist cannot bear her ornaments, that the crowned kings will drown in the flood of sweet paalai melody pouring down from her gem vina as from a hill: 'lady, I know it.'",
+   "concepts": [
+    "kalvi",
+    "mannar"
+   ],
+   "speaker": {
+    "who": "thozhi",
+    "form": null,
+    "line": null,
+    "addressee": "gandharvadattai"
+   },
+   "agents": [
+    {
+     "id": "thozhi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The companion predicts that every royal suitor will be beaten by the princess's playing.",
+   "claims": [],
+   "nuance": "அறிவல் makes the forecast a certainty in the companion's mouth; the patikam has already told that the princess is the one who loses."
+  },
+  "620": {
+   "reading": "People gather from everywhere until the ground overflows, saying 'today we shall see the vina sword-fight of the maiden whose face is like the clear moon in the sky, the moon that rode with Rohini.'",
+   "concepts": [
+    "inbam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_people",
+     "form": "மாந்தரும்",
+     "line": 1
+    }
+   ],
+   "event": "Crowds gather to watch the contest.",
+   "claims": [],
+   "nuance": "வீணை வாட்போர் names the music contest as a duel with swords, the figure 628 takes up with யாழ்ப் படை."
+  },
+  "621": {
+   "reading": "When the omen-reader, a man like the gods in the sky who has examined without fault the moon's conjunction, has read and declared the hour, the merchant consults with the lady of honeyed garland and scatters great wealth until people are as full as the sky.",
+   "concepts": [
+    "kaalam",
+    "eegai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "virichikan",
+     "form": "விரிச்சிக",
+     "line": 2
+    },
+    {
+     "id": "sridattan",
+     "form": "நாய்கன்",
+     "line": 3
+    },
+    {
+     "id": "sridattan_wife",
+     "form": "லரிவையொ டாய்ந்து",
+     "line": 3
+    }
+   ],
+   "event": "An astrologer fixes the auspicious hour and the merchant, after consulting his wife, gives wealth away.",
+   "claims": [],
+   "nuance": "விரிச்சிகன் is read as one who reads omens (விரிச்சி); the அரிவை he consults is taken as his wife, though the verse does not name her.",
+   "uncertain": true
+  },
+  "622": {
+   "reading": "They rub her with scented oil that draws the bees until their tender fingers redden, then smear her with a paste of white lodhra flowers ground fine to make her bright beauty shine.",
+   "concepts": [
+    "azhagu",
+    "nalam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "adorning_women",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The attendants anoint the princess.",
+   "claims": []
+  },
+  "623": {
+   "reading": "The Rambha-like women bathe the maiden of serpent-hood loins in auspicious scented water mixed with perfumes and astringents, as if the gem colour were washed with water brought in gem pots on elephants from the Ganges.",
+   "concepts": [
+    "azhagu",
+    "nalam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "adorning_women",
+     "form": "ரரம்பை யன்னார்",
+     "line": 4
+    },
+    {
+     "id": "gandharvadattai",
+     "form": "நங்கையை",
+     "line": 3
+    }
+   ],
+   "event": "The attendants bathe the princess.",
+   "claims": [],
+   "nuance": "The bath by elephants with gold pots of Ganges water recalls the lustration of the goddess of fortune, the figure 627 ends on (திருவிற்கோர் திலகம்)."
+  },
+  "624": {
+   "reading": "They bind a girdle of white silk on her, like lightning in a white cloud, spread sandal paste on her breasts and shoulders, put clear anklets and gold bells on her feet and crown her with a wreath of cool jasmine circled by bees.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "adorning_women",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The attendants dress the princess.",
+   "claims": []
+  },
+  "625": {
+   "reading": "They set pearls and a bow of shining gem powder, paint her breasts and back closely, and smear it on with fingertips over her pearl-hung chest, so that her body shines brighter than the gems.",
+   "concepts": [
+    "azhagu",
+    "nalam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "adorning_women",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The attendants paint and jewel the princess.",
+   "claims": []
+  },
+  "626": {
+   "reading": "Saying 'these are not dark red-streaked carp but blue lilies that left their pond for fear of the kingfisher that watches from the sky and took refuge in the moon, where the gem bow of her brows guards them', they line her eyes with kohl.",
+   "concepts": [
+    "kan",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "adorning_women",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The attendants line the princess's eyes with kohl.",
+   "claims": [],
+   "nuance": "The verse turns down one standard comparison of the eye (கயல், carp) for another (நீலம், blue lily), with the moon her face and the bow her brows; the conceit is the attendants' own speech."
+  },
+  "627": {
+   "reading": "In an emerald hall on four gold pillars, which the tongues of learned poets could not praise enough though they strained, the young women adorned her so well it was as if Indra had made her, and after that the maiden was like a tilaka on the goddess of fortune.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "adorning_women",
+     "form": "திருந்திளை யார்கள்",
+     "line": 3
+    },
+    {
+     "id": "gandharvadattai",
+     "form": "னங்கை",
+     "line": 4
+    }
+   ],
+   "event": "The adorning of the princess is finished.",
+   "claims": []
+  },
+  "628": {
+   "reading": "As the drums of moulded clay boom, conches blare and great drums roar like the sea and thunder, the white-bangled girl, melting as rain melts from the sky, goes out to break her opponents with the good yaazh, whose melody melts in its mode, as her weapon.",
+   "concepts": [
+    "kalvi",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gandharvadattai",
+     "form": "வெள்வளைத் தோளி",
+     "line": 3
+    }
+   ],
+   "event": "The princess sets out for the contest.",
+   "claims": [],
+   "nuance": "பொருது உடைக்கல் (to fight and shatter) and யாழ்ப் படை (the lute as army or weapon) cast the music contest as war, the language the suitors' introductions used in 613 and 614."
+  },
+  "629": {
+   "reading": "Ahead go the auspicious things: gold mirrors spreading light, banners, the goad, red-gold lamps that graze the darkness, the white drum, the full pot, and the paired fish emblem with a gold fringe of rays as though gathered from the white moon.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The auspicious emblems are carried in procession before the princess.",
+   "claims": [],
+   "nuance": "The list (mirror, banner, goad, lamp, drum, pot, paired fish) is the set of auspicious objects carried before a bride or a royal; the verse does not number them."
+  },
+  "630": {
+   "reading": "Next the gold garland to be put on the victor's chest comes out in a shining gem casket, and after it the jewelled yaazhs, garlands whose honey the singing bees drink, and the city blazes with light.",
+   "concepts": [
+    "vaazhkkaithunai",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The victor's garland and the contest lutes are carried in procession.",
+   "claims": [],
+   "nuance": "The garland is for வென்றவன், whoever wins: the procession carries the prize before the outcome is known."
+  },
+  "631": {
+   "reading": "With necklaces swinging and garments slipping, swinging their arms valiantly, dwarfs and hunchbacks walk ahead of the bangled maiden like walking toads.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kural_sindhu",
+     "form": "குறள் சிந்தினொ",
+     "line": 3
+    }
+   ],
+   "event": "Dwarfs and hunchbacks walk before the princess.",
+   "claims": [],
+   "nuance": "The metre changes here to a shorter line, which runs through 635."
+  },
+  "632": {
+   "reading": "A thousand and eight women with round spears, bodices on long breasts and silk bound at the hips, with quivers full of arrows, bows and swords, go ahead.",
+   "concepts": [
+    "aran",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "women_guards",
+     "form": "யாயிரத் தோரெண்மர்",
+     "line": 4
+    }
+   ],
+   "event": "A guard of a thousand and eight armed women goes before the princess.",
+   "claims": []
+  },
+  "633": {
+   "reading": "Hiding their swelling breasts under bodices, light as arrows, in men's dress, holding gold shields and swords, they serve the golden doll and go before her.",
+   "concepts": [
+    "aran",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "women_guards",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "gandharvadattai",
+     "form": "செம்பொற் பாவையை",
+     "line": 4
+    }
+   ],
+   "event": "The armed women in men's dress escort the princess.",
+   "claims": []
+  },
+  "634": {
+   "reading": "When the crowding guards strike with bamboo staffs crying 'by order, by order, move away', the eyes of the adorned city, in their longing to see, press in all the closer as if saying 'today the order is ours'.",
+   "concepts": [
+    "kan",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "women_guards",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "city_people",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The guards try to clear the crowd, which presses in to see the princess.",
+   "claims": [],
+   "nuance": "The answering cry ஆணையின்று எமதே is given to the eyes (கண்ணெருக்குற்றவே) rather than to the people, and can also be read 'no order binds us'.",
+   "uncertain": true
+  },
+  "635": {
+   "reading": "Those who scold the guards, 'was the eye born with us for anything but to see her beauty?', throng so close there is no room even to count them, as if heaven and earth had come to a feast.",
+   "concepts": [
+    "kan",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_people",
+     "form": "வைதவர்",
+     "line": 2
+    }
+   ],
+   "event": "The crowd protests against the guards and packs the street.",
+   "claims": [],
+   "nuance": "The crowd's retort makes seeing beauty the purpose the eye is born for, the view the renunciant of Naladiyar 44 calls blindness."
+  },
+  "636": {
+   "reading": "Her coral mouth, where jasmine seems to have flowered, with its bright teeth, her flower eyes and her heavy breasts, which stand apart from all their kind and set their thought on young men's lives: those who saw them, it seems, will never look upon the world of release.",
+   "concepts": [
+    "kan",
+    "anangu",
+    "veedu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The narrator's closing hyperbole makes her beauty a threat to the onlookers' lives and to their release; in a work that ends with its hero renouncing women for release, the line names the stake the story will later settle."
+  }
+ },
+ "links": [
+  {
+   "a": "619",
+   "b": 11,
+   "type": "tension",
+   "note": "The companion is sure the crowned suitors will drown in the flood of the princess's music; the patikam has already told the story as the Vidyadhara king's daughter losing at the vina.",
+   "teaches": "The companion's certainty is half right, since the kings do lose, but the one it never imagines losing is the princess herself, so the reader hears her boast through the outcome the poem announced at the start."
+  },
+  {
+   "a": "621",
+   "b": 539,
+   "type": "develops",
+   "note": "The Vidyadhara astrologer read in the planets that her destined husband lives in Rajamapuram; here an omen-reader in Rajamapuram fixes the contest's hour from the moon's conjunction.",
+   "teaches": "The open contest is framed by two readings of the stars, one naming the city and one naming the hour, so what looks like a public trial of skill is staged as the working out of a decree already read."
+  },
+  {
+   "a": "613",
+   "b": 540,
+   "type": "develops",
+   "note": "Kaluzhavegan kept the suitor kings in hope without telling them his mind; now the kings of the earth arrive in Rajamapuram, the city the horoscope named.",
+   "teaches": "The king's hidden purpose turns his daughter's suitors into unknowing escorts to the city where her destined husband lives, so their rivalry serves a plan they were never told."
+  },
+  {
+   "a": "636",
+   "b": 29,
+   "type": "tension",
+   "note": "Those who saw the princess, the narrator says, would never look upon the world of release; at the epic's end Civakan, having tasted the pleasure of women whose beauty makes the heavens bow, wants it no more and goes to release.",
+   "teaches": "The hyperbole that beauty shuts out release is a claim the epic's own ending answers, since its hero is the one who saw all such beauty and still reached release, so the line marks the stake of the story rather than its verdict."
+  },
+  {
+   "a": "636",
+   "b": "kural:1103",
+   "type": "qualifies",
+   "note": "The Kural's lover asks whether the lotus-eyed god's world is sweeter than sleep in the beloved's arms; the Cintamani's narrator says those who saw the princess would not look upon the world of release.",
+   "teaches": "Both weigh a woman's beauty against a world beyond this one, but the Jain epic raises the Kural's god's heaven to release from births and gives the preference to dazzled onlookers rather than a lover, which makes it a danger to be overcome rather than a joy to be asked about.",
+   "gains": {
+    "a": "the epic's hyperbole is shown to be a set figure of the lover's voice inherited from the Kural's third book, not a doctrine of the narrator",
+    "b": "the couplet's open question gets an answer from a tradition for which the other world is release, where preferring beauty is a peril to the soul, which the couplet does not consider"
+   }
+  },
+  {
+   "a": "626",
+   "b": "naladiyar:44",
+   "type": "tension",
+   "note": "The attendants call the princess's eyes not carp but blue lilies sheltering in the moon and line them with kohl; the Naladiyar's renunciant scorns those who call eyes water-lilies, carp or spears and sees the eye as a scooped-out palm fruit.",
+   "teaches": "The comparisons the Jain quatrain names as the talk of the blind are exactly the ones a Jain epic's attendants weigh and choose between, so the pair shows the same tradition keeping the lover's rhetoric in its epic and rejecting it in its ascetic verse.",
+   "gains": {
+    "a": "the epic's ornate conceit is set against a reading in which it is the very speech that endangers the renunciant, which the epic leaves unsaid until its last book",
+    "b": "the quatrain's anonymous praisers of eyes get a concrete scene, women adorning a bride for a crowd, showing the rhetoric it resists at work in public"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "623 line 3, 624 line 3, 625 line 1 and 636 lines 2 to 4 carry the repaired TSCII slip (ோ் read as ேர்) that show flags; the repaired forms read sensibly.",
+  "617 line 4 (நிலவரைத் தன்ன னாரை நிதியினால் வறுமை செய்தான்) is obscure as divided; the sense of gifts ending want is a reading.",
+  "618 line 1 (மண்டல நிறைந்த மாசின் மதிப்புடை வியாழம் போன்றோர்) is unclear as to whom it describes.",
+  "The metre changes at 631 (short lines through 635) and again at 636 (long lines); no rubric marks the changes."
+ ]
+}

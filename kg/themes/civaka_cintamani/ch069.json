@@ -1,0 +1,713 @@
+{
+ "chapter_no": 69,
+ "chapter_theme": "Crossing the mountain of a Jina shrine, Civakan offers flowers and sings a three-stanza hymn that argues from the Lord's solitary supremacy, the worship even Mal pays him, and his conquest of Kama to the duty of praise; he descends through rich country to Emamapuram in the Middle Country, learns its name from a bridegroom, and resting by a pond, watches a hen swan sulk at her own reflection and be won back by her mate, which turns him to memory of Gandharvadattai and fear that she may die of their parting.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, travelling alone after leaving Kemasari"
+  },
+  {
+   "id": "aruhan",
+   "tamil": "முனைவன்",
+   "role": "the Jina of the hill shrine, addressed in Civakan's hymn"
+  },
+  {
+   "id": "manamagan",
+   "tamil": "மணமகன்",
+   "role": "a bridegroom of the outer town of Emamapuram who tells Civakan the name of the land and city"
+  },
+  {
+   "id": "emamapura_magalir",
+   "tamil": "அவர்",
+   "role": "the women of Emamapuram who gaze at Civakan in the streets"
+  },
+  {
+   "id": "pedai_annam",
+   "tamil": "பெடையன்னம்",
+   "role": "the hen swan of the pond who mistakes her reflection for a rival"
+  },
+  {
+   "id": "annach_seval",
+   "tamil": "சேவல்",
+   "role": "the drake swan who reconciles his mate"
+  },
+  {
+   "id": "gandharvadattai",
+   "tamil": "தத்தை",
+   "role": "Civakan's first wife, remembered (named தத்தை in 1626)"
+  }
+ ],
+ "verses": {
+  "1605": {
+   "reading": "On one side of the mountain the glitter of gems and sunlight looks like the pure crowns, armlets, bright necklaces, ornaments and shining earrings of kings who renounced, fallen and lying tangled together as if asleep.",
+   "concepts": [
+    "thuravu",
+    "arasu",
+    "azhagu"
+   ],
+   "nuance": "The landscape is figured through renunciation: what glitters on the hill is likened to the regalia that kings cast off when they took up the ascetic life, so the hill of the Jina's shrine is strewn, in image, with abandoned kingship.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1606": {
+   "reading": "On another side a male monkey tears open a honeycomb by hand, gathers green pepper vines and clasps fruit, an elephant trumpets in fright, and a waterfall rushes down and roars.",
+   "concepts": [
+    "azhagu",
+    "naadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1607": {
+   "reading": "The gold dust churned up by the hooves of the horses, as if the great chariot of the hot-rayed sun god had caught among the sandal boughs on the peak, rises like haze and fills every direction.",
+   "concepts": [
+    "azhagu",
+    "aadhiththan"
+   ],
+   "nuance": "மான் in line 3 can be a deer or a horse; read with the sun's chariot of line 1, the hooves are most likely the chariot's horses, and the dust is the sun's light on the slopes.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1608": {
+   "reading": "Gathering blue lilies from the springs, சுள்ளி flowers, naga and kongu blossoms and clustered champak with vengai, he offered them and recited in full the praise of the Lord.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "nuance": "முனைவன், the Lord, is the Jina of the hill shrine; the hymn that follows (1609 to 1611) is Civakan's own.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "தோதினான்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan gathers mountain flowers, offers them to the Jina and sings his praise.",
+   "claims": []
+  },
+  "1609": {
+   "reading": "They say the unageing First One, summit of sagehood, has solitary supremacy as his own; if that supremacy is his, the singer asks, how could we fail to stand and praise him strewing cool flowers?",
+   "concepts": [
+    "iraivan",
+    "vazhipaadu",
+    "thavam"
+   ],
+   "nuance": "Each stanza repeats its second line as its third, turning 'they say' (என்ப) into 'if so' (என்றால், ஏல்) and ending on the same question, 'how could we not' (ஆறு என்னே): the hymn argues from what is said of the Lord to the duty of praise. தனிமைத் தலைமை, 'the supremacy of aloneness', may point to the Jina's isolation of the soul from karma (kevala), though the verse does not name it.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "aruhan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan sings the first stanza of his hymn to the Jina.",
+   "claims": [
+    {
+     "claim": "the First One, the summit of sagehood, alone holds solitary supremacy",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "1610": {
+   "reading": "They say his red feet, which bear flowers, are those that Mal himself, holding blossoms with folded hands, worships in awe; if Mal so worships him, how could we, even lacking flowers, fail to praise him?",
+   "concepts": [
+    "iraivan",
+    "vazhipaadu",
+    "thiruvadi"
+   ],
+   "nuance": "If மால் is Vishnu, as the folded hands of a worshipper suggest, the stanza ranks a Vaishnava god below the Jina as his devotee; மால் can also mean simply 'the great one', and line 1's மாலென்ப could then call the feet great. The reading is not certain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "aruhan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan sings the second stanza of his hymn.",
+   "claims": [
+    {
+     "claim": "even Mal worships the Jina's feet with flowers and folded hands",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "1611": {
+   "reading": "They say this is the lord of the wheel of dharma full of grace, who scorched even Kama with his maddening arrows; if this is that lord, how could we fail to sow praise of his undying virtues?",
+   "concepts": [
+    "iraivan",
+    "kaamam",
+    "arul",
+    "aram"
+   ],
+   "nuance": "காமனையும் காய்ந்த, 'who scorched even Kama', is the feat Saiva tradition gives Siva; the hymn gives it to the Jina, for whom it means the conquest of desire, and joins it to the wheel of dharma (அறவாழி) and compassion (அளி).",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "aruhan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan sings the third stanza of his hymn.",
+   "claims": [
+    {
+     "claim": "the Jina, turner of the wheel of dharma full of compassion, conquered Kama",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "1612": {
+   "reading": "Having praised in this way and bowed at the Lord's feet, the man of golden anklets came down from the gem-bright hill where swans sleep and went on through the great wilderness like lightning in pouring rain.",
+   "concepts": [
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "கழலா",
+     "line": 3
+    }
+   ],
+   "event": "Civakan worships at the Jina's feet, descends the hill and crosses the wilderness.",
+   "claims": []
+  },
+  "1613": {
+   "reading": "He reached the inner country of white sugarcane, a land like the women with eyes that make the bright spear quail and loose flower-arrows, waists like creepers and cardamom-scented hair.",
+   "concepts": [
+    "naadu",
+    "azhagu"
+   ],
+   "nuance": "The country is described through its women before he meets any of them; line 2 (கோலை விடுக ணுருகு) is hard to divide.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "டணைந்தான்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan reaches a fertile country.",
+   "claims": []
+  },
+  "1614": {
+   "reading": "It is a land where farm workers who have drunk toddy cut the cane, the presses that crush it roar like thunder so that the peacocks call, and water dashes at the sluice gates of the long red paddy.",
+   "concepts": [
+    "naadu",
+    "uzhavu"
+   ],
+   "nuance": "Peacocks taking the noise of the cane presses for thunder is a stock sign of a rich land; வாழைச்சறு in line 1 is unclear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1615": {
+   "reading": "Its broad flowering tanks fill every quarter, where the swan sleeps with its head on a lotus, cool lilies at its feet, embracing its lovely mate.",
+   "concepts": [
+    "naadu",
+    "punarchi",
+    "azhagu"
+   ],
+   "nuance": "The sleeping, embracing pair of swans here prepares for the quarrelling pair of 1623 to 1625.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1616": {
+   "reading": "He who had overcome the press of battle went on gladly through the honeyed groves, where young female monkeys pluck the nuts of the young areca and throw them and the langur scatters ripe fruit from the boughs.",
+   "concepts": [
+    "naadu",
+    "inbam"
+   ],
+   "nuance": "காய்பாபுஇக் in line 1 is corrupt; the plucking of nuts is a guess from context.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "கடந்தவன்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan travels on through groves.",
+   "claims": []
+  },
+  "1617": {
+   "reading": "Through the country of paddy fields where elephants are hidden by the ripe ears, the man of flawless learning arrived eagerly at the crowded city of the king, as the thundering drums roared.",
+   "concepts": [
+    "naadu",
+    "kelvi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "கேள்வியான்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan arrives at the king's city.",
+   "claims": []
+  },
+  "1618": {
+   "reading": "A bridegroom from the outer town came along, and the prince asked him what the place was called, telling him to name the land and the city; he answered, his flower-like mouth fragrant, 'Know it then.'",
+   "concepts": [
+    "naadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "manamagan",
+     "form": "மணமக னொருவன்",
+     "line": 1
+    },
+    {
+     "id": "civakan",
+     "form": "னிறைமகன்",
+     "line": 2
+    }
+   ],
+   "event": "Civakan meets a bridegroom outside the city and asks him the name of the land and town.",
+   "claims": []
+  },
+  "1619": {
+   "reading": "The bridegroom says that the land is the Middle Country, and that in it, among those who take in tribute the treasure of every quarter and pour it out to the needy, is this city, Emamapuram; and he tells the stranger that he seems new to these parts.",
+   "concepts": [
+    "naadu",
+    "eegai",
+    "selvam"
+   ],
+   "nuance": "The city is praised for its givers before it is described, a mark the epic sets on the place where Civakan will find his next bride.",
+   "speaker": {
+    "who": "manamagan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "manamagan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The bridegroom names the land as the Middle Country and the city as Emamapuram.",
+   "claims": []
+  },
+  "1620": {
+   "reading": "When the man had said 'so it is', the hero of the swelling shoulders that bend the bow told him that, since it was his mealtime and he had stopped to talk, he should go on and leave it there, for Civakan would learn the rest once he entered the golden city.",
+   "concepts": [
+    "kaalam",
+    "inchol"
+   ],
+   "nuance": "அறிவல், 'I shall know', is first person, so the dismissal is Civakan's courtesy to a man with his wedding meal waiting, not the bridegroom's rebuff; வின்மாபுஇ in line 4 is corrupt.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": "தோளினான்",
+    "line": 4,
+    "addressee": "manamagan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "தோளினான்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan lets the bridegroom go and goes into the city.",
+   "claims": []
+  },
+  "1621": {
+   "reading": "In the great city that smells like a bride's hair with the triple musth of tusked elephants, the man of paired-flower garland walked on, treading over fallen flower wreaths and red-gold chains.",
+   "concepts": [
+    "selvam",
+    "azhagu"
+   ],
+   "nuance": "புணர்மருப்பி in line 1 is likely புணர்மருப்பின்.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "தாரினா",
+     "line": 4
+    }
+   ],
+   "event": "Civakan walks through the streets of Emamapuram.",
+   "claims": []
+  },
+  "1622": {
+   "reading": "To escape the side-glances of the women who saw the garlanded man and gave him their delight, he found in a pavilion of crystal a great shade, and beside it a cool pond that gave him rest.",
+   "concepts": [
+    "kan",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "மார்பனை",
+     "line": 1
+    },
+    {
+     "id": "emamapura_magalir",
+     "form": "பளித்தவர்",
+     "line": 2
+    }
+   ],
+   "event": "Civakan takes refuge from the women's glances in the shade of a crystal pavilion by a pond.",
+   "claims": []
+  },
+  "1623": {
+   "reading": "The hen swan of coral beak, simple in her innocence, sees her own reflection in the cool water, takes it for another, and sulks at her mate: 'We have seen your beloved under the water, thief; we are not what we were; we want none of you; go.'",
+   "concepts": [
+    "oodal",
+    "kaamam"
+   ],
+   "nuance": "The rival is the hen herself: her jealousy is real and its object is an image of her own beauty. Line 4's படுக்வென் is likely a misprint for படுகென்.",
+   "uncertain": true,
+   "speaker": {
+    "who": "pedai_annam",
+    "form": "பெடையன்ன",
+    "line": 1,
+    "addressee": "annach_seval"
+   },
+   "agents": [
+    {
+     "id": "pedai_annam",
+     "form": "பெடையன்ன",
+     "line": 1
+    }
+   ],
+   "event": "By the pond, a hen swan mistakes her reflection for a rival and turns on her mate.",
+   "claims": []
+  },
+  "1624": {
+   "reading": "She glares red with anger and moves away from the drake; the drake says, 'Why do you doubt? I know none but you; I even breathe through my nose at your bidding; do not sulk', and again and again, embracing her with his wings to take away her aversion, he bows and sings to her.",
+   "concepts": [
+    "oodal",
+    "panivu",
+    "uyir"
+   ],
+   "nuance": "The drake's claim that his very breath is at her command is the humbled lover's plea of the love poems, given to a bird.",
+   "speaker": {
+    "who": "annach_seval",
+    "form": "சேவலி",
+    "line": 1,
+    "addressee": "pedai_annam"
+   },
+   "agents": [
+    {
+     "id": "pedai_annam",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "annach_seval",
+     "form": "சேவலி",
+     "line": 1
+    }
+   ],
+   "event": "The drake swan pleads with his mate, embraces her with his wings and courts her with song.",
+   "claims": []
+  },
+  "1625": {
+   "reading": "As men who understand the state of a sulk ripened by love in the hearts of women skilled in the arts end it and unite with them by the right way, so the loving drake ended the sulk of his mate upon the flowers; and seeing their close union, the man like a hill began to think.",
+   "concepts": [
+    "oodal",
+    "punarchi",
+    "ninaivu"
+   ],
+   "nuance": "The simile makes the drake a model of the lover who knows the art of ending a sulk (ஊடல் நிலை உணர் ... புணர்ந்தது), and it is this finished cycle of quarrel and union that turns the watching hero, alone, to memory.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "annach_seval",
+     "form": "சேவ",
+     "line": 3
+    },
+    {
+     "id": "civakan",
+     "form": "குன்றனான்",
+     "line": 4
+    }
+   ],
+   "event": "The swans are reconciled and Civakan, watching them unite, falls to brooding.",
+   "claims": []
+  },
+  "1626": {
+   "reading": "He thinks: when I looked at her face she looked at her breasts, when I spoke many things she would lisp one, and now the girl of young swelling breasts spread with golden spots, my first one, Tattai, appears before my face as she was.",
+   "concepts": [
+    "ninaivu",
+    "naanam",
+    "pirivu"
+   ],
+   "nuance": "என் முன்னையாள், 'my first one', names Gandharvadattai as the first of his wives; the memory is of her shyness, the downcast eyes and the single word, which the swans' quarrel and reconciliation bring back. தன்னையான் in line 1 is best divided தன்னை யான்.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan recalls Gandharvadattai and sees her as if before him.",
+   "claims": []
+  },
+  "1627": {
+   "reading": "Since even where grieving is fruitless women swoon like those broken, he wonders whether she will sink into the fire called the great love born of separation and die.",
+   "concepts": [
+    "pirivu",
+    "anbu",
+    "uyir"
+   ],
+   "nuance": "The verse turns on பிரிவில் தோன்றிய பேரன்பு, 'the great love that is born in separation': love is said to grow, not fade, when the lovers part, and to burn like fire. The woman feared for is most likely Tattai of 1626, though பாவைமார் in line 1 speaks of women in general.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan fears that his absent wife may die of grief at their parting.",
+   "claims": []
+  },
+  "1628": {
+   "reading": "He wonders whether she, whose eyes are like arrows, with her shoulders, soft heavy breasts and old beauty wasting day after day and burning within, tosses on her soft bed of பூளை flowers.",
+   "concepts": [
+    "pirivu",
+    "melivu",
+    "kaamanoy"
+   ],
+   "nuance": "Civakan, who has just left Kemasari without a word, here imagines for another wife exactly the wasting and burning that Kemasari voiced in her lament.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan imagines his wife wasting and sleepless in his absence.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1609,
+   "b": 1467,
+   "type": "qualifies",
+   "note": "Two hymns to the Jina in neighbouring episodes: the woman's song in 1467 warns that those who do not praise will not reach release; Civakan's hymn argues that praise follows from what the Lord is.",
+   "teaches": "Held together, the two hymns show the epic grounding worship two ways, as a condition of release in the singer's warning and as the only fitting answer to the Lord's nature in Civakan's reasoning, so praise is both means and response."
+  },
+  {
+   "a": 1611,
+   "b": "tirumanthiram:346",
+   "type": "tension",
+   "note": "The Jain hymn calls the Jina the one who scorched Kama; Tirumular makes the destruction of Kama's work Siva's yoga at Korukkai.",
+   "teaches": "The pair shows two traditions claiming the same feat for their own lord and reading it the same inward way, as desire overcome in austerity, so the rivalry is over who did it, not over what it means; the tension holds only if the epithet is read as a title one lord alone may bear.",
+   "gains": {
+    "a": "the epic hymn gains the Saiva background against which giving the Kama-burning to the Jina is a pointed claim, not a stock epithet",
+    "b": "Tirumular's verse gains a rival who claims the same conquest of Kama without a god's grace, by the Jina's own discipline and compassion"
+   }
+  },
+  {
+   "a": 1611,
+   "b": 1488,
+   "type": "tension",
+   "note": "In 1488 Civakan says one woman's beauty made her an enemy to Murugan, Kama, himself and the matted-haired god; here he praises the Jina who scorched Kama.",
+   "teaches": "The same hero who, newly in love, ranked Kama among those a woman's beauty conquers, now, having left that woman, praises the one who conquered Kama, so the hymn marks the swing in Civakan between desire and its mastery that the ilampakams keep repeating."
+  },
+  {
+   "a": 1623,
+   "b": "kalittokai:70",
+   "type": "same_image",
+   "note": "In both a hen swan is misled by a reflection in the water.",
+   "teaches": "In the Kalittokai the hen swan runs to the moon's reflection thinking it her mate and is shamed when he appears, an image of a wife who welcomes a straying husband; in the epic the hen takes her own reflection for a rival and sulks, so the same mistake that there yields shame here yields jealousy of herself.",
+   "gains": {
+    "a": "the epic scene gains the akam convention in which a swan deceived by a reflection stands for a wife's misjudgment of her husband",
+    "b": "the Kalittokai's image gains a version in which the false image is the bird's own, which turns misplaced longing into baseless jealousy"
+   }
+  },
+  {
+   "a": 1624,
+   "b": 96,
+   "type": "same_image",
+   "note": "The quarrelling pair of swans: in 96 the drake leaves the flock after a quarrel and sits alone like an ascetic; here the drake ends the quarrel and unites with his mate.",
+   "teaches": "The epic uses the swan's quarrel for opposite ends, the drake's withdrawal as a picture of the yogi's solitude in 96 and the drake's reconciliation as the sight that draws Civakan back into longing here, so the one image holds both the renunciant's and the lover's path."
+  },
+  {
+   "a": 1625,
+   "b": "kural:1109",
+   "type": "develops",
+   "note": "The couplet names quarrel, reconciliation and union as love's rewards; the epic stages that sequence in the swans and has the hero watch it.",
+   "teaches": "The couplet lists oodal, understanding and union as what lovers gain, and the epic shows that sequence complete in birds before a man who is parted, so the reward the couplet promises becomes, for the onlooker who lacks it, the cause of pain.",
+   "gains": {
+    "a": "the epic verse gains the couplet's order of quarrel, reconciliation and union, which explains why the swans' episode ends in union and not in the sulk",
+    "b": "the couplet gains a watcher outside the pair, for whom the rewards of love seen in others turn into longing"
+   }
+  },
+  {
+   "a": 1626,
+   "b": "kural:1094",
+   "type": "develops",
+   "note": "Both are a man describing the girl's averted gaze: when he looks she looks down.",
+   "teaches": "The couplet catches the girl's averted look in the present as a sign of love, and the epic hero recalls the same look from the past while parted from her, so the gesture that once told him she loved him is what memory hands back in separation.",
+   "gains": {
+    "a": "the epic verse gains the couplet's reading of the downcast look as a sign of love, not coldness, which is why Civakan treasures it",
+    "b": "the couplet gains a later moment, in which the shy look survives as a memory and returns unbidden to a husband far away"
+   }
+  },
+  {
+   "a": 1627,
+   "b": 1530,
+   "type": "tension",
+   "note": "Civakan fears his absent wife will die in the fire of separation; Kemasari, whom he has just left, held back her own life in 1530.",
+   "teaches": "The man who imagines a wife dying of separation has just left another wife who, contrary to his fear, chose to live for his sake, so the pairing shows the deserter's imagination of grief running behind what the deserted woman actually did."
+  },
+  {
+   "a": 1628,
+   "b": 1509,
+   "type": "develops",
+   "note": "Civakan imagines his wife wasting and burning on her bed; in 1509 Kemasari, left by him, cries that her life is leaving her body.",
+   "teaches": "Read together, the lament the epic gave Kemasari in her own voice returns here as the hero's guess about another wife, so the poem lets the reader measure his pity for the absent Tattai against his silence toward the wife he has just left."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "1623, 1624, 1625, 1626: printed in 8 half-lines and joined into 4 by the build.",
+  "1616 line 1: காய்பாபுஇக் is corrupt (the 'பாபுஇ' sequence looks like a mis-encoding).",
+  "1620 line 4: வின்மாபுஇ is corrupt, probably for a form of வில் with மாப்பு or similar.",
+  "1614 line 1: வாழைச்சறு is unclear, possibly வாழைச்சாறு.",
+  "1621 line 1: புணர்மருப்பி is likely புணர்மருப்பின்.",
+  "1623 line 4: படுக்வென் is likely a misprint for படுகென்.",
+  "1613 line 2 and 1607 lines 2-3: word division is unclear and the sense is uncertain."
+ ]
+}

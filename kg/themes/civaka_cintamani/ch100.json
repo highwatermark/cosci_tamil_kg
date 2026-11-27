@@ -1,0 +1,515 @@
+{
+ "chapter_no": 100,
+ "chapter_theme": "Civakan enters his father's city in triumph: the women crowd the mansions to praise and worship him and pale with longing as he passes, while his warriors drive the dead usurper's women out of the palace barefoot onto the hot ground, and the question of which of them was queen meets the answer that the king and his sons lie dead.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, returning victorious to his father's city"
+  },
+  {
+   "id": "city_women",
+   "tamil": "மடநல்லார்",
+   "role": "the women of the city who watch and praise Civakan's entry"
+  },
+  {
+   "id": "mallar",
+   "tamil": "மள்ளர்",
+   "role": "the warriors in the procession who praise Civakan's strength"
+  },
+  {
+   "id": "maithuna_mannar",
+   "tamil": "மைத்துன மன்னர்",
+   "role": "kings related to Civakan by marriage, riding beside him"
+  },
+  {
+   "id": "civakan_padai",
+   "tamil": "மறவர்",
+   "role": "Civakan's warriors who take the fallen usurper's palace"
+  },
+  {
+   "id": "kattiyangaran_magalir",
+   "tamil": "மடவார்",
+   "role": "the women of the fallen usurper Kattiyangaran's palace"
+  }
+ ],
+ "verses": {
+  "2327": {
+   "reading": "Having won the field and finished the rites of victory, the hero of the fragrant chest enters the ancient city, whose garlands the bees drink, while its people worship him with joined hands.",
+   "concepts": [
+    "maram",
+    "arasu",
+    "vendhan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "கடிமார்பன்",
+     "line": 1
+    }
+   ],
+   "event": "Civakan, victorious, enters the old capital as its people worship him.",
+   "claims": [],
+   "nuance": "The verse is a மடக்கு: every line opens with கண்ணாடி in a different sense (a mirror for the chest in line 1, the bees drinking in line 3), and the sense of the word in lines 2 and 4 (a foe's eye, a battle, a kind of elephant) can only be guessed. The opening of the ilampakam named for பூமகள், the goddess of fortune, is his return to his father's city.",
+   "uncertain": true
+  },
+  "2328": {
+   "reading": "Praising the one who set his killing spear on the wasting of his foes like a tiger or a lion of the cave, the garlanded young women crowd the high mansions like peacocks.",
+   "concepts": [
+    "maram",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "கோதை நல்லார்",
+     "line": 3
+    }
+   ],
+   "event": "The city's women gather on the mansions, praising Civakan.",
+   "claims": [],
+   "nuance": "Again a மடக்கு on கூடார் / கூடாரம்: the enemies (கூடார், those who do not join) and the women's tent-shaped breasts and mansions share one sound."
+  },
+  "2329": {
+   "reading": "Women with flower-like hair say that this man with his sharp arrows has destroyed the deluded one together with all his sons, and others say that today the blame that would not die has died.",
+   "concepts": [
+    "pazhi",
+    "pagai",
+    "kolai"
+   ],
+   "speaker": {
+    "who": "city_women",
+    "form": "மடநல்லார்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "மடநல்லார்",
+     "line": 4
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the lasting blame left by the usurper's crime ended with his death and his line's",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "city_women"
+    }
+   ],
+   "nuance": "மாயாப் பழி, the blame that does not perish, is said to have perished (மாய்ந்தது): the women speak as if the regicide's stain lay on the city, or on the son who had not yet avenged it, until this day. The Tamil does not say whose blame it was."
+  },
+  "2330": {
+   "reading": "The young women look like the maidens of the gods' world, as the city's elephants with jewelled forehead-plates, its flowering trees and its hill-streams scattering gems all play on the one word நாகம்.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "மடநல்லார்",
+     "line": 4
+    }
+   ],
+   "event": null,
+   "claims": [],
+   "nuance": "Each line opens with நாகம் in a different sense (mountain or serpent, elephant, the naga tree, the heavenly world); which sense governs which line is a guess.",
+   "uncertain": true
+  },
+  "2331": {
+   "reading": "Some dress the tall mansions, like ships with high masts, with banners of new silk, and others, jewels flashing like golden creepers, go to the front to worship the victor king.",
+   "concepts": [
+    "vendhan",
+    "azhagu",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "புனைவாருங்",
+     "line": 2
+    }
+   ],
+   "event": "The city is hung with new silk banners, and women press forward to worship Civakan.",
+   "claims": []
+  },
+  "2332": {
+   "reading": "As warriors with bows and anklets praise his strength, the women ask who here could equal him once he takes up the bow, and bid one another to see their lord and worship him with joined hands.",
+   "concepts": [
+    "maram",
+    "vendhan"
+   ],
+   "speaker": {
+    "who": "city_women",
+    "form": null,
+    "line": null,
+    "addressee": "city_women"
+   },
+   "agents": [
+    {
+     "id": "mallar",
+     "form": "மள்ளர்",
+     "line": 1
+    },
+    {
+     "id": "city_women",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Warriors praise Civakan and the women urge each other to worship him.",
+   "claims": []
+  },
+  "2333": {
+   "reading": "As the long-eyed women climb the gem mansions to scatter flowers and his kinsmen kings ride round him on great elephants, he looks like the dark gem-coloured god among his kin.",
+   "concepts": [
+    "vendhan",
+    "sutram",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "கண்ணார்",
+     "line": 2
+    },
+    {
+     "id": "maithuna_mannar",
+     "form": "மைத்துன மன்னர்",
+     "line": 3
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Women shower flowers from the mansions while Civakan rides ringed by his kinsmen kings.",
+   "claims": [],
+   "nuance": "மைத்துன runs through all four lines; in line 4 the dark god surrounded by his மைத்துனர் is most likely Krishna among his cousins and brothers-in-law, so the procession of kin is likened to the god's."
+  },
+  "2334": {
+   "reading": "Lotuses where bees hum and blue waterlilies seem to have bloomed together filling the street, for the women's faces, with their flashing spear-eyes, have opened like flowers.",
+   "concepts": [
+    "azhagu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2335": {
+   "reading": "Seeing the swelling shoulders of the master of the vina who slew the king, the women's breasts with their jewels and garlands break into gold, and the rich city looks like Amaravati, the gods' city.",
+   "concepts": [
+    "kaamam",
+    "pasalai",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "காரிகை",
+     "line": 2
+    }
+   ],
+   "event": null,
+   "claims": [],
+   "nuance": "பொன் பூத்து is the gold-coloured pallor of longing spreading over the women, set beside the gold of their ornaments; the epithet வீணை வித்தகன் recalls how he won Gandharvadattai, so the musician and the king-slayer are one man in the women's eyes."
+  },
+  "2336": {
+   "reading": "When he of the wishing-tree garland comes near, the beauty of the crowds of garlanded women on the walls wastes away, like a forest of waterlilies that closes when the moon wanes and the sun is seen.",
+   "concepts": [
+    "kaamanoy",
+    "melivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "தாரவன்",
+     "line": 1
+    },
+    {
+     "id": "city_women",
+     "form": "புரிசைக் குழா",
+     "line": 2
+    }
+   ],
+   "event": "The women on the walls wilt with longing as Civakan passes.",
+   "claims": [],
+   "nuance": "The women are the night-flowering ambal and he the sun: the same arrival that makes the city bloom in 2334 makes these women close."
+  },
+  "2337": {
+   "reading": "Like jewelled snakes trembling at thunder in the sky, the warriors burst into the usurper's wide palace, and while the peacock-like women's coral lips quiver in fear, they order them fiercely to leave at once without looking back.",
+   "concepts": [
+    "kedu",
+    "kadunjol",
+    "acham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_padai",
+     "form": "மறவ",
+     "line": 2
+    },
+    {
+     "id": "kattiyangaran_magalir",
+     "form": "மடவார்",
+     "line": 3
+    }
+   ],
+   "event": "Civakan's warriors enter Kattiyangaran's palace and drive out its women.",
+   "claims": [],
+   "nuance": "The command in line 4 (விழியாத்தொழித் தேகுகென்றார்) is hard to divide: either 'go without looking' or 'leave everything and go'. The palace is not named as Kattiyangaran's; it is the one the victors now take.",
+   "uncertain": true
+  },
+  "2338": {
+   "reading": "The doll-like women with anklets on soft small feet, who had never walked except on made flower-cushions, go out sobbing onto the bare hot ground, kohl-dark tears running over their jewelled breasts.",
+   "concepts": [
+    "kedu",
+    "nilaiyaamai",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran_magalir",
+     "form": "மடவார்",
+     "line": 4
+    }
+   ],
+   "event": "The usurper's women leave the palace on foot across the bare ground.",
+   "claims": [],
+   "nuance": "The verse names no fault of the women and no doctrine: the reversal from cushion to scorching earth is left to speak for itself."
+  },
+  "2339": {
+   "reading": "Their feet redden as if the earth they smelled were fire, blisters rise like the ripe fruit of the marul plant, their gold anklets seem to cry out their pain, and they go on, their cotton-soft feet aching.",
+   "concepts": [
+    "idumbai",
+    "kedu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran_magalir",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The women walk on with blistered feet.",
+   "claims": []
+  },
+  "2340": {
+   "reading": "Among them go women whose jewelled breasts, risen as if to learn fierce war, have seen the battlefield and turned from it, and others whose stance gives way, with chains laid on their breasts.",
+   "concepts": [
+    "idumbai",
+    "kedu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran_magalir",
+     "form": "முலையார்",
+     "line": 2
+    }
+   ],
+   "event": "The palace women leave in their several groups.",
+   "claims": [],
+   "nuance": "The sentence runs into 2341, which lists more groups of women and gives the verb. Lines 1 and 4 (பொருகோட்டை யழித்து, நெற்றிந் நிறுத்து வடம்வைத்த) are obscure; my reading of who these women are is a guess.",
+   "uncertain": true
+  },
+  "2341": {
+   "reading": "Women holding red-footed infants, women near their time whose breasts run with milk, and women laden with gold coins, pearls and coral, all crowd into the royal forecourt and fill it.",
+   "concepts": [
+    "makkal",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran_magalir",
+     "form": "முலையார்",
+     "line": 4
+    }
+   ],
+   "event": "The expelled women, with infants and the pregnant among them, fill the palace forecourt.",
+   "claims": [],
+   "nuance": "Infants and women about to give birth are among the expelled: the fall of the usurper's house takes in children who did nothing, as Civakan himself was born in the burning ground after his father's fall."
+  },
+  "2342": {
+   "reading": "Their gold-strung garlands slipping from oiled hair, the bangled women, flashing like flower-creepers in lightning from a cloud that has not rained, tremble in unwasting grief like does that see a tiger before them.",
+   "concepts": [
+    "acham",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran_magalir",
+     "form": "வளையார்",
+     "line": 3
+    }
+   ],
+   "event": null,
+   "claims": [],
+   "nuance": "The tiger (புலி) is the victor before their eyes, and the women his prey, the same figure the city's women used of Civakan in praise in 2328."
+  },
+  "2343": {
+   "reading": "When it is asked which among these was the one who won the favour of the garlanded king and wore the queen's golden fillet, the answer is that he and his sons have fallen in battle, ringed by golden crowns.",
+   "concepts": [
+    "kedu",
+    "saakkaadu",
+    "kudi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "Who asks and who answers is not said (என்ன ... என்றார்). The answer does not name a queen: with the king and his heirs dead, the fillet has no wearer, and the question of rank among his women has become empty.",
+   "uncertain": true
+  }
+ },
+ "links": [
+  {
+   "a": 2329,
+   "b": 324,
+   "type": "develops",
+   "note": "Vijayai's blessing at Civakan's birth, that he would utterly destroy his old enemy, is fulfilled when the city's women say he has killed the deluded one with all his sons.",
+   "teaches": "The blessing spoken alone in the burning ground is fulfilled in public speech: the city, not the mother, now announces the destruction she foretold."
+  },
+  {
+   "a": 2335,
+   "b": 664,
+   "type": "tension",
+   "note": "Kattiyangaran had told the suitors that only Kama himself could beat Gandharvadattai at the vina and that no such man was present; the women now call the king's slayer the vina-master.",
+   "teaches": "The usurper's own boast that no rival existed names the man who would kill him, so the vina contest becomes the first sign of his fall."
+  },
+  {
+   "a": 2338,
+   "b": 303,
+   "type": "same_image",
+   "note": "Vijayai went from a sky-touching palace to the burning ground alone after the usurper killed her husband; now the usurper's women go from flower-cushions to the bare hot ground after his death.",
+   "teaches": "The epic gives the usurper's household the very fall it gave the queen he wronged, and 303's reading of that fall as sin made visible is left for the reader to carry over."
+  },
+  {
+   "a": 2338,
+   "b": "kural:555",
+   "type": "qualifies",
+   "note": "The Kural says the tears of those who cannot bear oppression wear away the oppressor's wealth; when the usurper falls, the tears in the story are those of his own women.",
+   "teaches": "The ruin that the tears of the oppressed bring on a bent sceptre falls in the story on the oppressor's women, who now weep in their turn.",
+   "gains": {
+    "a": "the women's tears get a cause beyond the scene: the wealth they lose was worn away by the tears of the city in Saccandan's fall",
+    "b": "the couplet's abstract 'wealth' is shown to include people, and its justice is shown to land on those who did not themselves oppress"
+   }
+  },
+  {
+   "a": 2337,
+   "b": "naladiyar:3",
+   "type": "qualifies",
+   "note": "The Naladiyar says kings who rode in state fall when their deeds give out and their foes take the wives they married; the Cintamani's victors break into the fallen king's palace and drive his women out.",
+   "teaches": "The epic stages the quatrain's fall of a king but changes its last turn: the victors expel the dead king's wives rather than take them.",
+   "gains": {
+    "a": "the expulsion, which the verse narrates without comment, gets the quatrain's frame of a fall that comes when one's deeds run out",
+    "b": "the quatrain's 'foes take the wives' is shown not as the only end: a victor of the Jain epic sends them away instead"
+   }
+  },
+  {
+   "a": 2343,
+   "b": 297,
+   "type": "develops",
+   "note": "After killing Saccandan the usurper had his own name drummed from an elephant and, the poet said, the dark-hearted man won the goddess of fortune; now he and his sons lie dead and no one can say which of his women wore the queen's fillet.",
+   "teaches": "The fortune the usurper seized in 297 is shown at its end as an empty title, and the ilampakam named for that goddess opens by taking her back."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "2330 line 3: 'சிந்நி' looks like a misprint for 'சிந்தி'.",
+  "2343 line 2: 'யாவ னென்ன' asks 'which one' with a masculine யாவன் of the woman who wore the fillet (அணிந்தாள்); யாவள் would be expected."
+ ]
+}

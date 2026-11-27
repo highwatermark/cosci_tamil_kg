@@ -1,0 +1,711 @@
+{
+ "chapter_no": 87,
+ "chapter_theme": "Civakan, disguised as a destitute old brahmin, is received by Suramanjari, who had vowed to look on no man: she laughs at his wish to bathe at Kumari and be young again, feeds, dresses and lodges him in her mansion, and at nightfall, while the city's lovers come together, his singing bewilders her women and reminds them of the youth she keeps in her mind.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, here in the guise of an aged brahmin (பார்ப்பான், சாமி)"
+  },
+  {
+   "id": "suramanjari",
+   "tamil": "சுரமஞ்சரி",
+   "role": "a merchant's daughter who lost the scented-powder contest and vowed to see no man"
+  },
+  {
+   "id": "suramanjari_thozhi",
+   "tamil": "தோழி",
+   "role": "Suramanjari's maid, who announces the brahmin"
+  },
+  {
+   "id": "suramanjari_magalir",
+   "tamil": "கோல்வளையினீர்",
+   "role": "the women of Suramanjari's mansion who cook, serve and hear the song"
+  },
+  {
+   "id": "city_women",
+   "tamil": "மகளிர்",
+   "role": "the women of the city's streets and houses"
+  },
+  {
+   "id": "nagar_mainthar",
+   "tamil": "துணைவர்",
+   "role": "the men of the city, husbands and lovers, in the night scene"
+  }
+ ],
+ "verses": {
+  "2017": {
+   "reading": "A maid tells the lady that a brahmin with no means of living has come, brought by fate in extreme old age, and urges her to rise and come, saying it is easy to grant what he asks.",
+   "concepts": [
+    "vesham",
+    "mooppu",
+    "oozh"
+   ],
+   "speaker": {
+    "who": "suramanjari_thozhi",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari"
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": "பார்ப்பா",
+     "line": 2
+    }
+   ],
+   "event": "A maid announces to Suramanjari that an aged brahmin has come to the house.",
+   "claims": [],
+   "nuance": "The brahmin is Civakan in the old man's guise taken in the previous verses; the maid's ஊழின் (line 3), 'by fate', makes his age and poverty his lot, the first of many words in the scene that are true of the disguise and false of the man. The epithets of line 1 to 2 may describe the maid or the lady addressed, so who speaks to whom is a reading from context.",
+   "uncertain": true
+  },
+  "2018": {
+   "reading": "Garlanded, dripping honey, her breasts smeared with agil and thick sandal paste, speaking with the lisp of a jewelled lute in the paalai mode, she comes down from the golden upper floor like a peahen descending a mountain grove.",
+   "concepts": [
+    "azhagu",
+    "isai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Suramanjari descends from the upper floor of her mansion.",
+   "claims": [],
+   "nuance": "She has kept to the upper storey since her vow to look on no man; this descent toward a male visitor is the first breach of the seclusion, made safe in her eyes by his age."
+  },
+  "2019": {
+   "reading": "Her small feet's anklet bells and anklets chiming, her girdles murmuring softly, bees singing over her garland, she comes as if a fragrant flowering branch were learning to walk.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Suramanjari walks out to meet the visitor.",
+   "claims": []
+  },
+  "2020": {
+   "reading": "She asks why he has come; he tells the sword-eyed maiden that he means to bathe in the sacred waters of Kumari, which trouble his mind, and when she asks what gain comes of it he says, the end of the old age that afflicts him.",
+   "concepts": [
+    "theerththam",
+    "mooppu",
+    "vesham"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari"
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Suramanjari asks the old brahmin his errand, and he says he is going to bathe at Kumari to be rid of old age.",
+   "claims": [
+    {
+     "claim": "bathing in the sacred waters of Kumari takes away old age",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "civakan"
+    }
+   ],
+   "nuance": "The verse is a dialogue (her என்றாள் line 3, his என்றான் line 4). The claim is feigned: a youth asks to be cured of an age he does not have, and the story laughs at it through Suramanjari in the next two verses rather than refuting it in argument."
+  },
+  "2021": {
+   "reading": "The lady with honey-scented hair laughs aloud and asks him to say truly whether there are others who have gained this, and he says that among those who know the ford, go there, worship and bathe, they will see others, without doubt.",
+   "concepts": [
+    "theerththam",
+    "mooppu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari"
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Suramanjari laughs and asks if anyone has been made young by the bath; he insists that some have.",
+   "claims": [],
+   "nuance": "Her laugh (பெரிது நக்கு, line 1) is the hinge of the trick: once the old man is ridiculous he is harmless, and the woman who vowed to see no man will now serve him with her own hands.",
+   "uncertain": true
+  },
+  "2022": {
+   "reading": "Thinking that those who say a dead tree swarmed by rain will sprout again are mad, and that she will at least cure the ailment this man has, she goes up to the jewelled mansion whose crowded gems shrink the sun's bright rays.",
+   "concepts": [
+    "mooppu",
+    "pedhaimai",
+    "arul"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Suramanjari dismisses the hope of youth regained and resolves to relieve the old man's present want.",
+   "claims": [
+    {
+     "claim": "old age cannot be undone, as a dead tree cannot be revived by rain",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "suramanjari"
+    }
+   ],
+   "nuance": "Her scepticism is sound common sense, and it is the reason the disguise holds: what she is sure cannot happen is exactly what, in the story's terms, is about to happen before her eyes."
+  },
+  "2023": {
+   "reading": "She says that this is his form and his old age is pitiable, notes the coral-creeper mouth and the lotus hue of eyes and feet, says he is cruelly hungry, and tells the bangled maids to make food quickly and bring it here.",
+   "concepts": [
+    "virundhu",
+    "pasi",
+    "mooppu"
+   ],
+   "speaker": {
+    "who": "suramanjari",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari_magalir"
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "suramanjari_magalir",
+     "form": "கோல்வளையி",
+     "line": 3
+    }
+   ],
+   "event": "Suramanjari orders her maids to cook food at once for the hungry old man.",
+   "claims": [],
+   "nuance": "Lines 1 and 2 list a red mouth and lotus-coloured eyes and feet in a man just called pitifully old: the youth shows through the disguise, and she sees it without reading it.",
+   "uncertain": true
+  },
+  "2024": {
+   "reading": "Rubbing him with fragrant powder and bathing him in scented water, the sweet-voiced one gives him a gleaming white cloth, a sacred thread of fine gold and the darbha ring, and he sits down at ease on the seat set for him.",
+   "concepts": [
+    "virundhu",
+    "vesham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The old brahmin is bathed, dressed in white with thread and ring, and seated.",
+   "claims": [],
+   "nuance": "The gifts are the marks of the brahmin (நூல், பவித்திரம்): her hospitality completes the disguise she is taken in by."
+  },
+  "2025": {
+   "reading": "Spreading many golden vessels bright as the stars about the moon, the women bring sweet food like nectar, and the great worthy one eats, saying there is no such taste anywhere.",
+   "concepts": [
+    "virundhu",
+    "undi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "சான்றோ",
+     "line": 3
+    },
+    {
+     "id": "suramanjari_magalir",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The guest is served on golden vessels and eats with praise for the food.",
+   "claims": [],
+   "nuance": "மிகு சான்றோன் (line 3) is said with a smile: the honour paid to an old man of learning falls on a young lover in disguise."
+  },
+  "2026": {
+   "reading": "Women whose grace is entwined with Tamil hold a vessel pouring pure flower-water; the strong one sits and rinses, and when they show him betel leaf with the five fragrances prepared like nectar he takes it into his cheek.",
+   "concepts": [
+    "virundhu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari_magalir",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": "வுர வோ",
+     "line": 2
+    }
+   ],
+   "event": "After the meal the guest rinses his mouth and is given betel.",
+   "claims": [],
+   "nuance": "தமிழ் தழிய சாயலவர் (line 1), women whose softness embraces Tamil, uses the language's name as a word for sweetness; உரவோன், 'the strong one', slips past the old man's frailty to the hero underneath."
+  },
+  "2027": {
+   "reading": "She asks what he is skilled in; he says he is master of the Veda; asked how far, he says to the meaning and the very end; asked how long he studied, he tells the honey-voiced, parrot-speaking maiden that he does not remember.",
+   "concepts": [
+    "vedham",
+    "vesham",
+    "mooppu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari"
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": "மறை வல்லன்",
+     "line": 1
+    }
+   ],
+   "event": "Suramanjari questions the brahmin about his learning, and he claims the whole Veda but cannot say when he learned it.",
+   "claims": [],
+   "nuance": "The last answer is the joke: the man who claims the Veda to its end has no years of study to show, because the years are false."
+  },
+  "2028": {
+   "reading": "Marvelling that there are no such men on earth, she praises him and sits gazing, and he, thinking that she will next speak of his leaving, nods off a little and droops.",
+   "concepts": [
+    "vanjam",
+    "vesham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": "மென்னடையி",
+     "line": 2
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Suramanjari praises the old man; he feigns drowsiness so as not to be sent away.",
+   "claims": [],
+   "nuance": "Line 4 is hard to divide; the sense that his sleep is feigned to forestall dismissal follows from line 3 (போகு திறம் பேசும் என எண்ணி) and the next verse.",
+   "uncertain": true
+  },
+  "2029": {
+   "reading": "Looking at the maiden of the lily eyes, the very old master says his legs ache badly and his eyes are heavy with sleep, and asks the lady of the cardamom-scented garland what she will do for it.",
+   "concepts": [
+    "mooppu",
+    "vanjam"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": "சாமி",
+    "line": 2,
+    "addressee": "suramanjari"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "சாமி",
+     "line": 2
+    }
+   ],
+   "event": "The old brahmin complains of weariness and asks her for a place to rest.",
+   "claims": [],
+   "nuance": "சாமி, 'master', is the title the epic gives Civakan himself (சீவகசாமி); applied to the old brahmin it is a quiet signal of who he is."
+  },
+  "2030": {
+   "reading": "The lady of the honey-dripping garland tells him to rest without care on the couch spread with silk; he lies down gently on the bed laid for him, and begins to churn an ocean of desire that burns like fierce fire.",
+   "concepts": [
+    "kaamam",
+    "vanjam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Suramanjari gives the old man a silk couch in her mansion, and he lies on it burning with desire.",
+   "claims": [],
+   "nuance": "Line 4 tears the disguise for the reader: the frail guest in the woman's own chambers is a lover, and the house she guarded against men now has one inside it by her own leave."
+  },
+  "2031": {
+   "reading": "The day sinks, the sun sets in gloom, evening comes, the moon rises and joy with it, and the spear-eyed women join their beloved husbands, painting their strong shoulders with their breasts.",
+   "concepts": [
+    "maalai",
+    "punarchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "nagar_mainthar",
+     "form": "துணைவர்",
+     "line": 3
+    }
+   ],
+   "event": "Night falls over the city and the women go to their husbands.",
+   "claims": []
+  },
+  "2032": {
+   "reading": "Agil smoke raised on flowered beds, the scented smoke breathing from wilted garlands, the agil smoke of hair and the fragrant smoke of perfumed cloth all rise from mansions taller than cloud-capped hills.",
+   "concepts": [
+    "inbam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "Four kinds of smoke (புகை) in four lines: the night's lovemaking given by scent alone."
+  },
+  "2033": {
+   "reading": "Having eaten a little of the faultless milk-food, wearing light garlands, ear ornaments, fine cloth and fragrant sandal, the spotless maidens pluck the strings of the jewelled vina.",
+   "concepts": [
+    "isai",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "மடவார்",
+     "line": 4
+    }
+   ],
+   "event": "The young women of the city eat lightly, dress, and play the vina.",
+   "claims": []
+  },
+  "2034": {
+   "reading": "Peerless men with garland-crowned hair smear their strong shoulders and broad chests with fragrance, drink the nectar of coral lips sweet as sugarcane, and swoon as their rich garlands are crushed.",
+   "concepts": [
+    "punarchi",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagar_mainthar",
+     "form": "பொருவில்லார்",
+     "line": 1
+    }
+   ],
+   "event": "The city's men lie with their women through the night.",
+   "claims": []
+  },
+  "2035": {
+   "reading": "On the flower couch in the golden chamber he, to bring on first the wedding he intends, hums a melody sweetly, and all who hear it take it as nectar.",
+   "concepts": [
+    "isai",
+    "vathuvai",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "suramanjari_magalir",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "At night the old brahmin sings softly in the mansion, and the household listens.",
+   "claims": [],
+   "nuance": "முன்னிய தன் மன்றல் (line 2): the song is a means to the marriage. The city's night of lovers (2031 to 2034) frames a house where the one man present is still playing the old man.",
+   "uncertain": true
+  },
+  "2036": {
+   "reading": "Wondering whether it is the voice of the god of love's jewel bell, that nothing like it exists, whether it is the music of the yakshas, they look behind and before, are deeply bewildered, and praise the name of the youth the maiden has wrought into her mind.",
+   "concepts": [
+    "isai",
+    "kaamam",
+    "ninaivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari_magalir",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The women of the house, bewildered by the song, are reminded of Civakan and praise his name.",
+   "claims": [],
+   "nuance": "கன்னி தன் மனத்து இழைத்த காளை (line 4): the youth she has fashioned in her mind is Civakan, for whom alone she said she would break her seclusion; the song is recognised by its likeness to him before anyone guesses that it is him."
+  },
+  "2037": {
+   "reading": "Shrinking like branches, wearing curled garlands, the arrow-eyed women run to see, their anklets crying out, longing for the song the noble one gave, and he becomes none other than the god of spring whose desire burns.",
+   "concepts": [
+    "isai",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari_magalir",
+     "form": "கண்ணி னார",
+     "line": 2
+    },
+    {
+     "id": "civakan",
+     "form": "நம்பி",
+     "line": 3
+    }
+   ],
+   "event": "The women run toward the singer, and the old man seems to them the god of love.",
+   "claims": []
+  },
+  "2038": {
+   "reading": "Because it matched the thought of the long-eyed women with garlanded hair, the youth like Kama, the master, sang well another Sama chant that lay in his jewelled throat.",
+   "concepts": [
+    "isai",
+    "vedham",
+    "vesham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "சாமி",
+     "line": 4
+    }
+   ],
+   "event": "The disguised Civakan sings a second Sama melody for the women.",
+   "claims": [],
+   "nuance": "சாம கீதம் (line 4): the song of the brahmin's own Veda keeps up the disguise while doing the lover's work; the verse calls the singer காமன் அன்ன காளை and சாமி in one breath."
+  }
+ },
+ "links": [
+  {
+   "a": 2020,
+   "b": "thiruppugazh:263",
+   "type": "qualifies",
+   "note": "Both name bathing at Kumari to be rid of a bodily affliction; the Thiruppugazh poet asks not to go there and be laughed at by many as a diseased wretch, and the epic's old brahmin goes there and is laughed at (பெரிது நக்கு, 2021).",
+   "teaches": "Holding the two together shows that the afflicted pilgrim to Kumari was a stock figure of ridicule, and that Civakan chooses that figure as a disguise precisely because a man so laughable is trusted inside a guarded house.",
+   "gains": {
+    "a": "the epic's pretext is shown to be a recognisable, mocked practice rather than an invented whim, which explains why Suramanjari laughs instead of suspecting him",
+    "b": "the shame the Thiruppugazh poet fears is seen acted out, the laugh given by the very person asked for help, and turned to the trickster's profit"
+   }
+  },
+  {
+   "a": 2022,
+   "b": "naladiyar:11",
+   "type": "qualifies",
+   "note": "The Naladiyar warns that grey hair will come and youth will not return; Suramanjari scoffs that those who think a dead tree revives by rain are mad.",
+   "teaches": "The Naladiyar's truth that age is irreversible becomes, in the epic, the very certainty a schemer relies on: because everyone knows the old cannot become young, no one looks for the young man inside the old one.",
+   "gains": {
+    "a": "Suramanjari's scoff is shown to rest on a sober didactic commonplace, so her being deceived is not folly but the misuse of a sound belief",
+    "b": "the quatrain's warning acquires a social use it never considers: the general certainty about age is a cover that disguise can exploit"
+   }
+  },
+  {
+   "a": 2025,
+   "b": "kural:87",
+   "type": "qualifies",
+   "note": "The Kural says the fruit of tending a guest has no fixed measure but is as great as the guest's worth; Suramanjari feeds a guest she takes for a poor old brahmin.",
+   "teaches": "The couplet assumes the host's offering and its fruit are reckoned by the guest's true worth; the epic shows a host who cannot see that worth, so the fruit she reaps, the end of her vow, is far beyond what she thought she was giving.",
+   "gains": {
+    "a": "the feast gains a frame in which its unforeseen consequence is the guest's hidden worth returning on the host",
+    "b": "the couplet's measure by the guest's worth is tested where that worth is concealed, showing that the return is fixed by what the guest is, not by what the host believes"
+   }
+  },
+  {
+   "a": 2035,
+   "b": 899,
+   "type": "tension",
+   "note": "In 899 Suramanjari vowed to hold out until Civakan came beaten and worshipped her anklet-feet; here he is inside her house as a begging old brahmin, singing to bring on the wedding.",
+   "teaches": "Her condition is met in mockery: he does come to her low and dependent, a supplicant fed at her hands, yet the humbling is a mask he wears to win her, so the vow is kept in form and defeated in substance."
+  },
+  {
+   "a": 2036,
+   "b": 908,
+   "type": "develops",
+   "note": "In 908 she resolved that only union with Civakan could break her nirai; here her women hear the song and praise the youth wrought into her mind.",
+   "teaches": "The single exception she allowed in her seclusion is the one man already inside it, so the guard she set against all men admits the very one it was kept for, unrecognised."
+  },
+  {
+   "a": 2037,
+   "b": 729,
+   "type": "develops",
+   "note": "At Gandharvadattai's contest his song shamed Kama (அனங்கன் நாண, 729); here his song makes him seem none other than the god of spring himself.",
+   "teaches": "The music that won one bride openly, before kings, is now used covertly to win another, and the comparison moves from surpassing the god of love to being taken for him, as the singer's aim shifts from victory to seduction."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "mooppu",
+   "tamil": "மூப்பு",
+   "gloss": "old age, as the body's decline and the state no remedy reverses",
+   "label_source": "the verse's own word: முது மூப்பு (2017 line 3, 2020 line 4), மூப்பு (2023 line 1)"
+  },
+  {
+   "id": "isai",
+   "tamil": "இசை",
+   "gloss": "music: the lute, melody, mode and the sounds compared to them",
+   "label_source": "the label is the house word declared in earlier chapters; these verses name the யாழ் (2018), வீணை (2033) and கீதம் (2035, 2038)"
+  },
+  {
+   "id": "vathuvai",
+   "tamil": "வதுவை",
+   "gloss": "the wedding; the rite that makes a marriage",
+   "label_source": "the label is the house word declared in earlier chapters; 2035 uses மன்றல்"
+  }
+ ],
+ "source_issues": [
+  "2017 lines 1-2: the run of epithets may describe the maid or the lady she addresses; the speaker is read from context.",
+  "2021 line 4 (கறிதிர்பிற நீவிரென) is obscure as divided; perhaps காண்டிர் was meant.",
+  "2028 line 4 (தன்னஞ்சிறி தேதுயின்று தாழவவ ணக்காள்) is hard to divide; the sense of feigned sleep is a guess from context.",
+  "2032 line 3 கொழுமெனறும் is probably கொழுமென் நறும் with a letter lost.",
+  "2034 line 4 சோந்தார் is probably a misprint for சோர்ந்தார்.",
+  "2035 line 4 (கின்னமிர்த மாகவிளை யாருமது கேட்டார்) is obscure as divided.",
+  "2036 and 2037 were printed in eight half-lines and joined into four by the tool."
+ ]
+}

@@ -1,0 +1,637 @@
+{
+ "chapter_no": 88,
+ "chapter_theme": "Disguised as a very old Brahmin, Civakan draws Suramanjari and her maidens with song, learns from them that her hatred of men is anger at his own verdict, and sings an evening-song of a woman's longing that undoes her vow; next morning she prays at Kama's temple to be joined to Civakan, and his hidden companion answers in the god's voice.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, here disguised as a very old Brahmin singer"
+  },
+  {
+   "id": "suramanjari",
+   "tamil": "சுரமஞ்சரி",
+   "role": "a merchant's daughter who lost the powder contest and vowed to shun men"
+  },
+  {
+   "id": "suramanjari_thozhi",
+   "tamil": "தோழி",
+   "role": "Suramanjari's maid, who disputed Civakan's powder verdict"
+  },
+  {
+   "id": "suramanjari_thozhiyar",
+   "tamil": "தோழிமார்",
+   "role": "Suramanjari's maidens and attendants in her mansion"
+  },
+  {
+   "id": "kaman",
+   "tamil": "காமன்",
+   "role": "the god of love (also அநங்கன்), at whose temple Suramanjari prays"
+  },
+  {
+   "id": "buddhisenan",
+   "tamil": "புத்திசேனன்",
+   "role": "Civakan's companion; here the 'king's friend' (வேந்தன் தோழன்) who speaks as the god"
+  }
+ ],
+ "verses": {
+  "2039": {
+   "reading": "Hearing the ripe song that the falsely aged Brahmin sends down the street, the wide-eyed maidens of Suramanjari's mansion run to it like a flock of peacocks, their hearts set on the sound.",
+   "concepts": [
+    "vesham",
+    "vanjam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhiyar",
+     "form": "தடங்கணார்",
+     "line": 2
+    },
+    {
+     "id": "civakan",
+     "form": "கள்ள மூப்பி னந்த ணன்",
+     "line": 1
+    }
+   ],
+   "event": "Suramanjari's maidens run toward the disguised Civakan's singing.",
+   "claims": [],
+   "nuance": "The narrator names the disguise at the outset (கள்ள மூப்பு, a false old age) and calls the singer's art புள்ளுவம், trickery, so the reader is never in doubt that the music is bait."
+  },
+  "2040": {
+   "reading": "Suramanjari herself, a gem-branch of the wishing tree whose young breasts seem to grumble that a little more swelling will break her slender waist, goes and falls into the singer's net of song.",
+   "concepts": [
+    "kaamam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": "கற்பக மணிக்கொம் பொப்பாள்",
+     "line": 3
+    },
+    {
+     "id": "civakan",
+     "form": "பனிப்பிறைப் பூணி னான்",
+     "line": 4
+    }
+   ],
+   "event": "Suramanjari is drawn to the singer.",
+   "claims": [],
+   "nuance": "பாண்வலை, the net of song, makes the woman who shut out men the quarry of a hunt; she goes to it on her own feet."
+  },
+  "2041": {
+   "reading": "She comes with anklets crying and girdle sounding, and when the old man says that he is very old and can do nothing, she laughs, is ashamed, and hides behind her maid among the throng of women.",
+   "concepts": [
+    "naanam",
+    "vesham",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": "வடிக்கணா",
+     "line": 3
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Suramanjari arrives; the old man disclaims his age, and she laughs and hides behind her maid.",
+   "claims": [],
+   "nuance": "The disclaimer முடிப்பதென் பெரிது மூத்தேன் is the disguise talking: by protesting his age he lets her come near a man without breaking her vow in her own eyes."
+  },
+  "2042": {
+   "reading": "The old man asks what they would do if they saw a young man; the maid answers 'may honey-garlanded young men perish!'; and he asks whether the lady grieves because no one has spoken to her, or for some other cause.",
+   "concepts": [
+    "kurippu",
+    "igal",
+    "maanam"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari_thozhi"
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhi",
+     "form": "தோழி",
+     "line": 2
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The disguised Civakan probes the maid about the lady's hatred of men, and the maid curses young men.",
+   "claims": [],
+   "nuance": "His second question offers the lady a softer cause for her grief, that no one has courted her, in place of the anger she professes: he is testing whether the hatred is wounded pride."
+  },
+  "2043": {
+   "reading": "The maid explains that the lady has been angry ever since Civakan disparaged her powder; the old man says that young man must be as good as dead to her; and the women bless him together, saying they have weighed it and know the lord came through.",
+   "concepts": [
+    "igal",
+    "maanam",
+    "vesham"
+   ],
+   "speaker": {
+    "who": "suramanjari_thozhiyar",
+    "form": "மாதரா",
+    "line": 3,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": "காளை",
+     "line": 2
+    },
+    {
+     "id": "suramanjari_thozhiyar",
+     "form": "மாதரா",
+     "line": 3
+    }
+   ],
+   "event": "The maid names the powder verdict as the cause of the lady's anger, and the disguised Civakan condemns the young man who gave it.",
+   "claims": [],
+   "nuance": "Civakan, unrecognised, pronounces his own sentence (தீயான் மாய்ந்தனன் போலும்). Line 4 (ஆய்ந்தன மைய னுய்ந்தா னறிந்தன மதனை) is hard to construe; whether ஐயன் is the old man or Civakan, and in what sense he 'escaped', is a guess.",
+   "uncertain": true
+  },
+  "2044": {
+   "reading": "The maids say that when their lady was shaken like a love-creeper in the wind and bewildered, they sent a young parrot as messenger, and that by a parrot-mouthed one, having seen Tattai's good fortune, their distress was eased.",
+   "concepts": [
+    "thoothu",
+    "kaamanoy"
+   ],
+   "speaker": {
+    "who": "suramanjari_thozhiyar",
+    "form": "யாங்கண்",
+    "line": 2,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhiyar",
+     "form": "யாங்கண்",
+     "line": 2
+    }
+   ],
+   "event": null,
+   "claims": [],
+   "nuance": "தத்தை means both a parrot and Gandharvadattai, Civakan's first bride; the verse plays on both and I cannot fix who sent which messenger or whose distress ended. It may glance at Gunamalai's parrot messenger to Civakan earlier in the book.",
+   "uncertain": true
+  },
+  "2045": {
+   "reading": "The flower-branch women beg the old man to sing them a song out of kindness, saying the serving women have forgotten what passed and dropped their anger, and that whatever happens they will not let him go without hearing it.",
+   "concepts": [
+    "anbu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "suramanjari_thozhiyar",
+    "form": "கொம்பொ டொப்பார்",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "suramanjari_thozhiyar",
+     "form": "கொம்பொ டொப்பார்",
+     "line": 4
+    }
+   ],
+   "event": "The women press the old man to sing.",
+   "claims": [],
+   "nuance": "பொன்றெட்டேம் (line 3) is obscure as divided; the reading of it is left open. The women who shut men out now refuse to let a man leave.",
+   "uncertain": true
+  },
+  "2046": {
+   "reading": "The old man says he will sing if the lady grants him something touching her beauty, and bids them agree before they listen; the women ask one another who would go looking to see a demon, and say this man's words are no game.",
+   "concepts": [
+    "soozhchi",
+    "kurippu",
+    "acham"
+   ],
+   "speaker": {
+    "who": "suramanjari_thozhiyar",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "suramanjari_thozhiyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The old man sets a condition for his song, and the women are alarmed by it.",
+   "claims": [],
+   "nuance": "What he asks (பாவை பொற்பே பற்றி) is veiled; the women's reply about seeking out a பேய் shows they hear a demand on the lady herself behind the old man's words.",
+   "uncertain": true
+  },
+  "2047": {
+   "reading": "She of the silk-clad waist agrees to it, and the strong-shouldered one says he will sing for her of the bright forehead the nectar that burdens the ear, from the vina that Kama gave.",
+   "concepts": [
+    "soozhchi",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": "தோளி னானும்",
+    "line": 2,
+    "addressee": "suramanjari"
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": "தோளி னானும்",
+     "line": 2
+    }
+   ],
+   "event": "Suramanjari accepts the condition, and Civakan agrees to sing.",
+   "claims": [],
+   "nuance": "She binds herself to an unknown condition for the sake of a song: the pledge will be called in when he is revealed."
+  },
+  "2048": {
+   "reading": "Looking at her flawless face, she like a painted doll come to life among the women, he begins to sing on faultless strings a song that drips honey and flows with nectar.",
+   "concepts": [
+    "azhagu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan begins his song, looking at Suramanjari.",
+   "claims": []
+  },
+  "2049": {
+   "reading": "In the first stanza of his song, evening comes, making bangles slip from the arms and rain pour from long eyes onto the breasts, and wears down the longing heart of women like us.",
+   "concepts": [
+    "maalai",
+    "melivu",
+    "pirivu",
+    "kaamanoy"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "The song speaks as a woman in separation (நந்திறத்தது, 'of our kind'), so the man who has come to win the lady sings her the lament of a woman who already loves; the refrain repeats line 2's close at the head of line 3."
+  },
+  "2050": {
+   "reading": "In the second stanza evening, laying the hips low and turning breath to fire, makes the hand slip and press the ground while tears beat on the cheeks, and enters like a spear into a running wound.",
+   "concepts": [
+    "maalai",
+    "kaamanoy",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "nuance": "புண்ணீரும் வேலிற் புகுந்ததால்: evening is not a fresh blow but a spear pushed into a wound already open."
+  },
+  "2051": {
+   "reading": "In the third stanza, with the flower garland loosened on the breast and golden pallor blooming on the budding breasts while pearls of tears gather in the fish-like eyes, evening wears down the heart melting in love.",
+   "concepts": [
+    "maalai",
+    "pasalai",
+    "melivu",
+    "kaamanoy"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "suramanjari"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2052": {
+   "reading": "He sang the divine song, a king of melody, and the bangled women swooned like proud peacocks; the golden doll praised the Brahmin and said that tomorrow she would enter the golden temple, worship Anangan and win a boon.",
+   "concepts": [
+    "kaamam",
+    "vazhipaadu",
+    "andhanar"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "suramanjari",
+     "form": "செம்பொற் பாவை",
+     "line": 3
+    },
+    {
+     "id": "suramanjari_thozhiyar",
+     "form": "சூடக மகளிர்",
+     "line": 2
+    }
+   ],
+   "event": "The women swoon at the song, and Suramanjari resolves to pray to Kama for a boon the next day.",
+   "claims": [],
+   "nuance": "She does not say what boon; the evening-song has done its work, and the next verses show it is Civakan."
+  },
+  "2053": {
+   "reading": "While she with breasts like the gem-bright young fruit of the palmyra, her life wasting in her body, and her friends were all consumed with longing, the sun rose from the sea like its forehead mark.",
+   "concepts": [
+    "kaamanoy",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Night passes in longing and the sun rises.",
+   "claims": []
+  },
+  "2054": {
+   "reading": "The bulls are dressed with gem bells, garlands and gold forehead plates and fed full with ghee and milk, the carriage is made ready, a woman takes the goad, and Suramanjari climbs into it with her maid.",
+   "concepts": [
+    "selvam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": "மின்னியற் பாவை",
+     "line": 4
+    },
+    {
+     "id": "suramanjari_thozhi",
+     "form": "தோழியோ",
+     "line": 4
+    }
+   ],
+   "event": "Suramanjari sets out in her bullock carriage with her maid.",
+   "claims": []
+  },
+  "2055": {
+   "reading": "Men scatter from her path as she goes ringed by sweet-voiced women; she alights at Kama's temple, where the generous one has been hidden, and while her attendants stand worshipping with garlands, sandal, lamp and incense, she prays.",
+   "concepts": [
+    "vazhipaadu",
+    "vanjam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": "திருமகள்",
+     "line": 4
+    },
+    {
+     "id": "suramanjari_thozhiyar",
+     "form": "சேடியர்",
+     "line": 4
+    }
+   ],
+   "event": "Suramanjari reaches Kama's temple, where Civakan lies hidden, and begins to worship.",
+   "claims": [],
+   "nuance": "ஆடவர் இரிய: the royal order her father bought still clears men from her road even as she goes to pray for one. The line does not say who hid Civakan."
+  },
+  "2056": {
+   "reading": "Her head touching the golden floor, her left knee planted, her soft garlanded hair falling on her right shoulder and her neck bent, the maiden joins both hands and speaks.",
+   "concepts": [
+    "vazhipaadu",
+    "panivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": "தையலீ",
+     "line": 4
+    }
+   ],
+   "event": "Suramanjari prostrates herself before Kama.",
+   "claims": []
+  },
+  "2057": {
+   "reading": "She prays to the lotus-eyed god with golden earrings that she has one desire, and that if she may join the chest of the young bull Civakan she will give him a makara banner, arrows, a sugarcane bow and a horse chariot, so that he shines with his whole town.",
+   "concepts": [
+    "vazhipaadu",
+    "kaamam",
+    "maanam"
+   ],
+   "speaker": {
+    "who": "suramanjari",
+    "form": null,
+    "line": null,
+    "addressee": "kaman"
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Suramanjari vows offerings to Kama if she may marry Civakan.",
+   "claims": [],
+   "nuance": "The offerings are Kama's own emblems (மகரம், அம்பு, கரும்புச் சிலை): she promises to arm the god who has just conquered her."
+  },
+  "2058": {
+   "reading": "'You have won the beloved who gladdens your heart; rise, do not stand so that your slender waist aches': the king's friend spoke this trick, and the spear-eyed one, not knowing it, took it that the god she worshipped had spoken with its own mouth, and praised it and went home.",
+   "concepts": [
+    "vanjam",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "buddhisenan",
+    "form": "வேந்த றோழன்",
+    "line": 2,
+    "addressee": "suramanjari"
+   },
+   "agents": [
+    {
+     "id": "buddhisenan",
+     "form": "வேந்த றோழன்",
+     "line": 2
+    },
+    {
+     "id": "suramanjari",
+     "form": "வேற்கணாள்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan's companion, hidden in the shrine, answers her prayer in the god's voice, and she leaves believing Kama has spoken.",
+   "claims": [],
+   "nuance": "The text names only வேந்தன் தோழன்; that this is Buddhisenan is from the story, not the verse. The narrator calls the oracle பட்டிமை, a deceit, and says outright that she did not see through it.",
+   "uncertain": true
+  },
+  "2059": {
+   "reading": "She of the golden anklets, seeing the young man standing by the fragrant chamber, is ashamed; when her sidelong glance meets him her heart starts, and she stands bending like a long creeper, like Tiru herself.",
+   "concepts": [
+    "naanam",
+    "kaamam",
+    "kan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suramanjari",
+     "form": "சிலம்பி னாள",
+     "line": 1
+    },
+    {
+     "id": "civakan",
+     "form": "மைந்தனை",
+     "line": 2
+    }
+   ],
+   "event": "Suramanjari sees Civakan in the temple and stands abashed.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 2056,
+   "b": 899,
+   "type": "tension",
+   "note": "In 899 she vows to keep her vow until Civakan comes defeated and worships her anklet-feet; in 2056 she sets her own head on the temple floor and joins her hands to pray for him.",
+   "teaches": "The prostration she demanded of the man who shamed her is performed by her, in his hidden presence, so the vow is undone in its own terms of who bows to whom."
+  },
+  {
+   "a": 2057,
+   "b": 908,
+   "type": "develops",
+   "note": "908 left one exception in her refusal: union with Civakan's gold-bright chest; 2057 asks Kama for exactly that chest (சீவகன் அகலம் சேர்த்தின்).",
+   "teaches": "The exception hidden inside her vow of self-containment becomes the whole content of her prayer once a disguised song has worked on her, so the refusal was a waiting all along."
+  },
+  {
+   "a": 2043,
+   "b": 885,
+   "type": "develops",
+   "note": "In 885 the maid disputes Civakan's powder verdict to his face; in 2043 she repeats the grievance to him in his disguise, and he condemns the young man who gave it.",
+   "teaches": "The judge of the powder contest now hears his verdict judged by the loser's household and joins in cursing himself, which is how the disguise wins their trust."
+  },
+  {
+   "a": 2058,
+   "b": 2052,
+   "type": "develops",
+   "note": "In 2052 she resolves to worship Anangan and win a boon; in 2058 the boon is granted aloud, by a man's voice she takes for the god's.",
+   "teaches": "The boon she set out to win is granted, but by Civakan's companions, so the plot turns the god's grace into a human contrivance the narrator names as deceit."
+  },
+  {
+   "a": 2050,
+   "b": "kural:1228",
+   "type": "qualifies",
+   "note": "Kural 1228: the herdsman's sweet flute is evening's envoy and a killing weapon to the woman whose lover is away; 2050 is a sweet vina-song whose evening enters like a spear into a wound.",
+   "teaches": "In the Kural sweet music wounds a woman because her lover is absent, while in the epic the lover himself plays the music to a woman who has no lover yet, so the evening-song creates the sickness it laments.",
+   "gains": {
+    "a": "the epic's song gains the Kural's figure of music as evening's weapon, which explains why a lament can work as a seduction",
+    "b": "the couplet gains a case where the weapon has a wielder with a purpose, turning the woman's complaint into a strategy someone else can use"
+   }
+  },
+  {
+   "a": 2058,
+   "b": "siddhar:1458",
+   "type": "develops",
+   "note": "Sivavakkiyar asks whether a planted stone will speak; in 2058 a worshipper hears the shrine speak, and the narrator says the voice was a man's trick.",
+   "teaches": "The Siddhar's scorn assumes the stone is silent; the epic shows a voice supplied to it by a hidden man, so the credulity he mocks can be steered by whoever stands behind the image.",
+   "gains": {
+    "a": "the comic oracle gains a doctrinal edge, since the Siddhar names the error of taking an image for a speaking god",
+    "b": "the Siddhar's rhetorical question gains a narrative case of what follows when worshippers do believe the image speaks: they can be deceived"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Every verse but 2039 and 2049-2051 was printed in eight half-lines and has been joined into four by the build; the joins look right.",
+  "2049 line 4 மழூங்குவிக்கு looks like a misprint of அழுங்குவிக்கும் (with sandhi), as 2051 line 4 has மழுங்குவிக்கு.",
+  "2043 line 4 (ஆய்ந்தன மைய னுய்ந்தா னறிந்தன மதனை) and 2045 line 3 (பொன்றெட்டேம்) are obscure as divided.",
+  "2044 turns on தத்தை (parrot / Gandharvadattai) and its speaker and sense are unsure."
+ ]
+}

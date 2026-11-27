@@ -1,0 +1,702 @@
+{
+  "chapter_no": 57,
+  "chapter_theme": "Padumai's companions take the lovesick princess to the pleasure grove against the king's wish; Civakan, wounded by her look, follows, doubts whether she is a goddess, knows her by her human marks, and unites with her in a madhavi bower, praising her and pledging a love like the moon and its mark before hiding from her returning women; her father, knowing nothing of it, resolves to give her to the man who saved her life and bears the marks of a king.",
+  "cast": [
+    {
+      "id": "civakan",
+      "tamil": "சீவகன்",
+      "role": "the hero, in the city of Padumai's father after curing her of snakebite, called வேலவன் and செல்வன் here"
+    },
+    {
+      "id": "padumai",
+      "tamil": "பதுமை",
+      "role": "the princess whom Civakan cured, named பதுமை in 1327"
+    },
+    {
+      "id": "padumai_thavvai",
+      "tamil": "தவ்வை",
+      "role": "Padumai's elder sister or elder kinswoman (அவ்வை in 1316, தவ்வை in 1337)"
+    },
+    {
+      "id": "padumai_thozhi",
+      "tamil": "தோழி",
+      "role": "Padumai's companion"
+    },
+    {
+      "id": "padumai_aayam",
+      "tamil": "ஆயம்",
+      "role": "the company of girls who go with Padumai to the grove"
+    },
+    {
+      "id": "bees",
+      "tamil": "வண்டு",
+      "role": "the bees in Padumai's hair whom Civakan addresses"
+    },
+    {
+      "id": "padumai_thanthai",
+      "tamil": "வேந்து",
+      "role": "Padumai's father, the king of the city, unnamed in these verses"
+    }
+  ],
+  "verses": {
+    "1316": {
+      "reading": "The elder kinswoman and the dear companion of the girl whose prattle is like the yazh ask each other what they ought to do for the flower-haired one of golden grace.",
+      "concepts": [
+        "kaamanoy",
+        "soozhchi"
+      ],
+      "nuance": "The word run மாதராடாதி can be divided as மாதராள் தாதி (the girl's nurse) or read with ஆதி (the first, the eldest); 1337 calls the same woman தவ்வை, the elder sister. The verse does not say why she needs their help; the sequel shows it is her longing for Civakan.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "padumai_thavvai",
+          "form": "யவ்வையுந்",
+          "line": 2
+        },
+        {
+          "id": "padumai_thozhi",
+          "form": "தோழியும்",
+          "line": 2
+        }
+      ],
+      "event": "Padumai's elder kinswoman and her companion take counsel over what to do for the lovesick girl.",
+      "claims": []
+    },
+    "1317": {
+      "reading": "Her slender waist all but weeping under the weight, they cover her swelling breasts with saffron and pearls and then, reverently, set the garland and the chaplet on the young one who is like a painted creeper.",
+      "concepts": [
+        "azhagu",
+        "nalam"
+      ],
+      "nuance": "அழுது, weeping, is the poet's conceit for the waist that strains under the breasts; it is not a sign that Padumai weeps.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "padumai_thavvai",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "padumai_thozhi",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "padumai",
+          "form": "யாளையே",
+          "line": 4
+        }
+      ],
+      "event": "The two women adorn Padumai with saffron, pearls, garland and chaplet.",
+      "claims": []
+    },
+    "1318": {
+      "reading": "Judging that it is right to go with the white-bangled band to the flowering grove and play there even if the king should be angry, the company gathers like peacocks and comes, and the grove shines with them.",
+      "concepts": [
+        "inbam",
+        "ilamai"
+      ],
+      "nuance": "வேந்து காயினும் admits that the outing is against the king's wish, so the grove where the lovers meet is reached by a small defiance of the father who in 1339 gives her away.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "padumai_aayam",
+          "form": "தாயம்",
+          "line": 4
+        }
+      ],
+      "event": "Padumai's companions decide, at the risk of the king's anger, to take her to the pleasure grove.",
+      "claims": []
+    },
+    "1319": {
+      "reading": "Some string garlands, some pluck flowers, some call back to the echo off the hill, some leap together into the made pool and stir it, and some, for love, wed one bright doll to another.",
+      "concepts": [
+        "inbam",
+        "ilamai"
+      ],
+      "nuance": "The doll wedding (பாவை இருமணம்) is the girls' game, but it foreshadows the union that will take place in the same grove.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "padumai_aayam",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The girls of the company play in the grove.",
+      "claims": []
+    },
+    "1320": {
+      "reading": "Women in long peacock-like garments swing, play at bright jacks, play with a ball held on a cord, and settle in every corner of the grove.",
+      "concepts": [
+        "inbam",
+        "ilamai"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "padumai_aayam",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The girls swing and play jacks and ball through the grove.",
+      "claims": []
+    },
+    "1321": {
+      "reading": "They say the man of the flaming spear, his heart torn open and burned within by the melting look of the fragrant-haired girl, went to see the grove where she was playing.",
+      "concepts": [
+        "kan",
+        "kaamanoy",
+        "kaamam"
+      ],
+      "nuance": "The longing is shared: the women's counsel in 1316 and Civakan's wound here make both lovers sick before the meeting. The look that wounds is hers (உருகு நோக்கம், a melting look), and the poet hedges with என்பவே, 'they say'.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "civakan",
+          "form": "வேலவ",
+          "line": 4
+        }
+      ],
+      "event": "Civakan, lovesick from Padumai's look, goes to the grove where she plays.",
+      "claims": []
+    },
+    "1322": {
+      "reading": "Where the peacocks' dance, the monkeys' sulking and the koels' song all mingle, he comes to a bower of madhavi creeper with cool shade on white sand, out of the sun.",
+      "concepts": [
+        "azhagu"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "civakan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Civakan reaches a shaded madhavi bower in the grove.",
+      "claims": []
+    },
+    "1323": {
+      "reading": "Her array: the ear ornament set at her ears, a cool blue water-lily heavy with pollen in her hand, a ring of pearls like the sea's and a cord of gold on her warm breasts.",
+      "concepts": [
+        "azhagu",
+        "nalam"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": []
+    },
+    "1324": {
+      "reading": "Decked in white flowers that would hide the sky, in a dark grove that hides the eye, the girl with the champak garland stands alone, her fragrant body given over to thought of her beloved.",
+      "concepts": [
+        "ninaivu",
+        "azhagu"
+      ],
+      "nuance": "நினையா can be the verbal participle 'thinking' or the negative 'not thinking'; the reading here takes it as thinking of the friend (நண்பன்), the lover she has met before, but the line is not secure.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "padumai",
+          "form": "கோதை",
+          "line": 3
+        }
+      ],
+      "event": "Padumai stands alone in the dark grove.",
+      "claims": []
+    },
+    "1325": {
+      "reading": "As a flawless sapphire set in fresh milk breaks out in its colour and changes the milk's own nature, so her dark sheen tints the madhavi that hides her, and the noble one sees her with his mind.",
+      "concepts": [
+        "nalam",
+        "azhagu"
+      ],
+      "nuance": "The simile turns concealment into display: the leaves that hide her take on her colour, so he knows her presence before he sees her. சிந்தையின் நோக்கினான் may mean he looked intently, or that he saw her in thought; the reading keeps both.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "civakan",
+          "form": "செல்வனுஞ்",
+          "line": 4
+        }
+      ],
+      "event": "Civakan glimpses Padumai through the madhavi bower.",
+      "claims": []
+    },
+    "1326": {
+      "reading": "Is she the maiden of the mountain, the lady of the curving deep sea's waves, the woman of the honey lotus, or a famed yakshi? Who is this white-bangled one in fragrant array?",
+      "concepts": [
+        "anangu",
+        "kaamam",
+        "manam"
+      ],
+      "nuance": "This is the lover's doubt (ஐயம்) of the Tamil code of secret love: he asks whether she is a goddess before he can approach her. The four candidates, Parvati of the mountain, the sea goddess, Lakshmi of the lotus and a yakshi, are a learned list where the Kural names only a goddess, a peahen or a woman.",
+      "speaker": {
+        "who": "civakan",
+        "form": null,
+        "line": null,
+        "addressee": "padumai"
+      },
+      "agents": [],
+      "event": null,
+      "claims": []
+    },
+    "1327": {
+      "reading": "Her garland has withered, her sword-like eyes blink, her feet touch the earth: the one standing here is Padumai of the milk-sweet speech, with arms like the bamboo of the grove.",
+      "concepts": [
+        "thelivu",
+        "anangu",
+        "nalam"
+      ],
+      "nuance": "The doubt is settled by the three marks a goddess lacks: her garland fades, her eyes blink, her feet rest on the ground. It is the clearing (தெளிவு) that follows the doubt, and it ends with her name, for he has met her before.",
+      "speaker": {
+        "who": "civakan",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "padumai",
+          "form": "பதுமை",
+          "line": 3
+        }
+      ],
+      "event": null,
+      "claims": []
+    },
+    "1328": {
+      "reading": "Because the sweet taste of the sweet verse that the Devar made is the true matter of southern Tamil, he resolves to enter the flowering grove of the girl with tender feet red as the kovam insect.",
+      "concepts": [
+        "thamizh",
+        "kaamam",
+        "kalaviyal"
+      ],
+      "nuance": "The verse grounds the hero's decision in literature: love is the மெய்ப்பொருள், the true subject, of Tamil poetry, so he follows it. தேவர் may be the gods or the poet's own name, Tiruttakkatevar; read as the poet, the line has the epic cite itself as the authority for kalavu. The reading is not secure.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "civakan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Civakan resolves to go into the grove to Padumai.",
+      "claims": []
+    },
+    "1329": {
+      "reading": "Between him and her, who is like the goddess of the lotus, the modesty that had held her fast fell away, and the great awareness of the stone-shouldered man passed its bounds: they were joined, it is said.",
+      "concepts": [
+        "punarchi",
+        "kalaviyal",
+        "naanam"
+      ],
+      "nuance": "The union is told by what gives way, her naanam and his restraint, not by any rite; the father knows nothing of it when he decides on the marriage in 1339.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "civakan",
+          "form": "தோளவன்",
+          "line": 3
+        },
+        {
+          "id": "padumai",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Civakan and Padumai unite in secret in the grove.",
+      "claims": []
+    },
+    "1330": {
+      "reading": "Her eyes grow drunk, her white bangles clink and meet on her swelling bamboo-like arms, her dark sheen and the sprinkled powder are spoiled, and she shines in the flowered silk the saffron has stained.",
+      "concepts": [
+        "punarchi",
+        "nalam"
+      ],
+      "nuance": "A catalogue of the marks union leaves on the woman's body, which in the Tamil code of secret love is what the companions might read.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "padumai",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": null,
+      "claims": []
+    },
+    "1331": {
+      "reading": "Long may you live, red-spotted bees who flit in her hair where the curved earring meets the blue lily: say, has the white, soft-clustered cool jasmine creeper the beauty to put forth teeth as sharp as hers?",
+      "concepts": [
+        "nalam",
+        "azhagu"
+      ],
+      "nuance": "Civakan praises her (நலம் புனைந்துரைத்தல்) by asking the bees, the creatures who know flowers best, to judge whether the mullai can match her teeth.",
+      "speaker": {
+        "who": "civakan",
+        "form": null,
+        "line": null,
+        "addressee": "bees"
+      },
+      "agents": [],
+      "event": null,
+      "claims": []
+    },
+    "1332": {
+      "reading": "The wound her flower eyes cleft in my gold-resting chest, nothing can heal now but the sandal on these young adorned breasts: so he praised the woman's beauty.",
+      "concepts": [
+        "kaamanoy",
+        "marundhu",
+        "nalam",
+        "punarchi"
+      ],
+      "speaker": {
+        "who": "civakan",
+        "form": null,
+        "line": null,
+        "addressee": "padumai"
+      },
+      "agents": [
+        {
+          "id": "civakan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": null,
+      "claims": []
+    },
+    "1333": {
+      "reading": "She sets on the chaplet, dresses her dark hair, binds the coloured garland round the central tuft, wipes away the dust risen on her lovely anklets, and with all her skill gives the lord delight.",
+      "concepts": [
+        "azhagu",
+        "punarchi"
+      ],
+      "nuance": "Putting the hair and anklets right is also hiding the marks of 1330 before her companions return.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "padumai",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Padumai restores her hair and dress after the union and pleases Civakan.",
+      "claims": []
+    },
+    "1334": {
+      "reading": "Settling and making firm that their love is joined as the moon and its mark, he says: your people have come, girl of fragrant shining hair; I will hide here.",
+      "concepts": [
+        "anbu",
+        "kalaviyal",
+        "punarchi"
+      ],
+      "nuance": "The pledge of permanence and the act of hiding come in one breath: secret love is sworn to last at the moment it has to conceal itself from her kin (நுமர், your people).",
+      "speaker": {
+        "who": "civakan",
+        "form": null,
+        "line": null,
+        "addressee": "padumai"
+      },
+      "agents": [
+        {
+          "id": "civakan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Civakan pledges his love to Padumai and, hearing her women come, says he will hide.",
+      "claims": []
+    },
+    "1335": {
+      "reading": "Like a bright lightning that plunges into a cloud, the man of the fine spear plunged into the foliage, and the women with warm breasts that plunge through their jewels plunged through the vazhai trees and appeared.",
+      "concepts": [
+        "kalaviyal"
+      ],
+      "nuance": "The fourfold குளித்து, plunging, binds his vanishing and their arrival into one movement.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "civakan",
+          "form": "வேலினா",
+          "line": 2
+        },
+        {
+          "id": "padumai_thavvai",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "padumai_thozhi",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Civakan hides in the leaves as Padumai's companions come through the trees.",
+      "claims": []
+    },
+    "1336": {
+      "reading": "Like a lightning moving nobly through the flowering grove, putting the swans to shame with her gait, she walked with anklets on her feet, stepping softly on soft flowers, the girl who had laid her goodness with him alone.",
+      "concepts": [
+        "nalam",
+        "kalaviyal"
+      ],
+      "nuance": "நன்னலம் அவற்கே வைத்த, 'who had placed her goodness with him alone', is the narrator's word that the secret union binds her as a wife.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "padumai",
+          "form": "நங்கையே",
+          "line": 4
+        }
+      ],
+      "event": "Padumai walks out to meet her companions.",
+      "claims": []
+    },
+    "1337": {
+      "reading": "Like the stars round the moon, her elder sister and companion reached the girl, and when the company had done service at her feet they sang her excellence out of love.",
+      "concepts": [
+        "sutram",
+        "azhagu"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "padumai_thavvai",
+          "form": "தவ்வையுந்",
+          "line": 2
+        },
+        {
+          "id": "padumai_thozhi",
+          "form": "தோழியு",
+          "line": 2
+        },
+        {
+          "id": "padumai_aayam",
+          "form": "வாய",
+          "line": 3
+        }
+      ],
+      "event": "Padumai's sister, companion and company gather round her and praise her.",
+      "claims": []
+    },
+    "1338": {
+      "reading": "Gathering the leaf skirts, chaplets and cool fragrant garlands they wanted, they went softly away, and the man like a roaring lion in a cave went, as was fitting, to his old friend.",
+      "concepts": [
+        "pazhaimai",
+        "natpu"
+      ],
+      "nuance": "Who the பழைய நண்பன் is the verse does not say; this chapter does not identify him.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "padumai_aayam",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "civakan",
+          "form": "யேறனான்",
+          "line": 3
+        }
+      ],
+      "event": "The women leave the grove, and Civakan goes back to an old friend.",
+      "claims": []
+    },
+    "1339": {
+      "reading": "Since he bears the marks fit to rule the earth and since he is the strong one who brought back my great daughter's life, if this lofty man like the son of the discus-bearer consents, we will give him the girl as is fitting, he said.",
+      "concepts": [
+        "varaivu",
+        "nanri",
+        "arasu"
+      ],
+      "nuance": "The speaker of என்றான் is not named; the story so far makes him Padumai's royal father. He gives two reasons, royal marks on the body and a debt for his daughter's life, and makes the gift wait on the hero's consent. நேமியான் சிறுவன், the son of the discus-bearer, is Kama, Vishnu's son, a figure for beauty.",
+      "speaker": {
+        "who": "padumai_thanthai",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "padumai_thanthai",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Padumai's father resolves to give her to Civakan, if he will accept her.",
+      "claims": []
+    }
+  },
+  "links": [
+    {
+      "a": 1327,
+      "b": 1326,
+      "type": "develops",
+      "note": "The question who she is, goddess or woman, is answered in the next verse by the fading garland, blinking eyes and feet on the ground.",
+      "teaches": "Read together the two verses make the doubt and its clearing a single step of the kalavu sequence, in which the man must establish she is human before he may approach her."
+    },
+    {
+      "a": 1326,
+      "b": "kural:1081",
+      "type": "develops",
+      "note": "Both are the man's first sight of the woman and his doubt whether she is a goddess.",
+      "teaches": "The couplet leaves the heart reeling in doubt, while the epic expands the doubt into a list of named goddesses and settles it in the next verse, so the Kural's moment becomes the first stage of a scene that ends in union.",
+      "gains": {
+        "a": "the epic verse gains the Kural's frame for reading its list of goddesses as the lover's conventional doubt (ஐயம்) and not as worship",
+        "b": "the couplet gains a sequel the Kural never gives: the doubt is resolved by signs of humanity and acted on"
+      }
+    },
+    {
+      "a": 1332,
+      "b": "kural:1102",
+      "type": "develops",
+      "note": "Both say the woman who causes the lover's sickness is its only cure.",
+      "teaches": "The Kural states the paradox as a lover's hope, but the epic puts it after the union and makes the remedy bodily, the sandal on her breasts, so the cure is something already taken.",
+      "gains": {
+        "a": "the epic verse gains the couplet's paradox of cause and cure, which shows its compliment is a set argument of love and not a stray conceit",
+        "b": "the couplet gains a time and a body: the cure it promises is shown applied, after the meeting rather than before it"
+      }
+    },
+    {
+      "a": 1331,
+      "b": "kuruntokai:2",
+      "type": "develops",
+      "note": "In both the man asks bees to judge whether any flower matches the woman, and both name her teeth and hair.",
+      "teaches": "The epic keeps the Kuruntokai's appeal to the bee as the expert in flowers but asks about her teeth against the mullai, and its bees already live in her hair, so the witness the Sangam poem sends out to the flowers has been drawn inside the woman's own beauty.",
+      "gains": {
+        "a": "the epic verse gains a known model, which shows its address to the bees as a learned borrowing of the oldest Tamil praise poem",
+        "b": "the Sangam poem gains a later reading that moves its test from her hair's fragrance to her teeth and puts the bee in her hair"
+      }
+    },
+    {
+      "a": 1334,
+      "b": "kural:1117",
+      "type": "tension",
+      "note": "Both compare a woman and her lover's view of her with the moon and its mark.",
+      "teaches": "The Kural uses the moon's mark as the flaw her face does not have, while Civakan uses it as the figure of a bond that cannot be parted, so one image carries opposite values according to whether the lover is praising her face or swearing to their union.",
+      "gains": {
+        "a": "the epic verse gains the contrast that shows its moon-and-mark pledge reverses the usual praise, making the mark the point and not the blemish",
+        "b": "the couplet gains a counter-use that shows its image of the spot as a flaw is a choice, not the only reading of the moon"
+      }
+    },
+    {
+      "a": 1339,
+      "b": 1329,
+      "type": "develops",
+      "note": "The father decides to give Padumai to Civakan just after the two have united in secret in the grove.",
+      "teaches": "The father's reasons, royal marks and a saved life, lead him to the marriage the secret union already requires, so the kalavu of the grove turns into wedlock without the lovers having to ask or confess."
+    },
+    {
+      "a": 1339,
+      "b": 440,
+      "type": "qualifies",
+      "note": "In both a father gives his daughter to the man who has done a deed for him: Nandagon to whoever recovers the herd, Padumai's father to the man who saved her life.",
+      "teaches": "Nandagon offers his daughter in advance as a public prize for any warrior, but Padumai's father reasons afterwards from the hero's bodily marks and makes the gift wait on his consent, so the epic's brides-for-deeds are not all of one kind."
+    }
+  ],
+  "new_concepts": [],
+  "source_issues": [
+    "1316 line 2: the word run மாதராடாதி divides as மாதராள் தாதி (nurse) or with ஆதி (eldest); the edition's division is unclear.",
+    "1324 line 4: நினையா can be read as 'thinking' or 'not thinking', and the sense of the line turns on it.",
+    "1331 and 1332 are printed with word division (கொடுங் குழை, பொன் துஞ்சு ஆகத்துப்) where the neighbouring verses run the words together in metrical units; the edition's two styles meet here."
+  ]
+}

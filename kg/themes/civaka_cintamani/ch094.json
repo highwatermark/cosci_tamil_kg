@@ -1,0 +1,767 @@
+{
+ "chapter_no": 94,
+ "chapter_theme": "At Govindan's boar contest, staged as a trap for Kattiyangaran, a catalogue of crowned suitors fails one by one, thrown by the machine or shamed by bow and arrow, and after six days Civakan rises, mounts his elephant, terrifies Kattiyangaran, who laments that his victim escaped, and waits a whole day before the machine while the failed kings mock him.",
+ "cast": [
+  {
+   "id": "govindan",
+   "tamil": "கோவிந்தன்",
+   "role": "king of Videha, who holds the boar contest for his daughter (named in 2205)"
+  },
+  {
+   "id": "suitor_kings",
+   "tamil": "மன்னர்",
+   "role": "kings who came seeking the princess"
+  },
+  {
+   "id": "vinithai_vendhan",
+   "tamil": "வினிதை வேந்தன்",
+   "role": "the king of Vinitai, a suitor"
+  },
+  {
+   "id": "hastinapura_king",
+   "tamil": "குஞ்சர நகரத்தார் கோன்",
+   "role": "king of the elephant city, Hastinapuram, a suitor"
+  },
+  {
+   "id": "kampili_king",
+   "tamil": "காம்பிலிக் காவல் மன்னன்",
+   "role": "king of Kampili, a suitor"
+  },
+  {
+   "id": "kosala_king",
+   "tamil": "கோசலத்து இறைவன்",
+   "role": "the lord of Kosala, a suitor"
+  },
+  {
+   "id": "avanti_mannan",
+   "tamil": "அவந்தியன்",
+   "role": "the crowned king of Avanti, a suitor"
+  },
+  {
+   "id": "magadha_rasan",
+   "tamil": "மகத ராசன்",
+   "role": "the king of Magadha, a suitor"
+  },
+  {
+   "id": "kalinga_king",
+   "tamil": "கலிங்கர் கோன்",
+   "role": "the lord of the Kalingas, a suitor"
+  },
+  {
+   "id": "varanavasi_king",
+   "tamil": "வாரண வாசி மன்னன்",
+   "role": "king of Varanavasi, a suitor"
+  },
+  {
+   "id": "pothanapura_vendhan",
+   "tamil": "போதன புரத்து வேந்தன்",
+   "role": "the king of Pothanapuram, a suitor"
+  },
+  {
+   "id": "thennan",
+   "tamil": "தென்னன்",
+   "role": "the southern (Pandya) king, a suitor"
+  },
+  {
+   "id": "visayan_mannan",
+   "tamil": "விசயன்",
+   "role": "a suitor king called Vijayan, famed as a bowman; not Civakan's companion of Hemamapuram"
+  },
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, who comes to the contest to take on his enemy"
+  },
+  {
+   "id": "kattiyangaran",
+   "tamil": "கட்டியங்காரன்",
+   "role": "the usurper of Saccandan's throne, who comes to the contest"
+  },
+  {
+   "id": "nagar_magalir",
+   "tamil": "மடவார்",
+   "role": "the women of the city who hail Civakan"
+  }
+ ],
+ "verses": {
+  "2177": {
+   "reading": "The great king has the drum proclaim that whoever shoots the hard-turning boar will be the husband of his beloved only daughter, a goddess of fortune who lets no man who looks at her go away with his life.",
+   "concepts": [
+    "vendhan",
+    "soozhchi",
+    "kaamam"
+   ],
+   "nuance": "The previous verse (2176) has just said that the Videha king made himself one with Kattiyangaran in friendship so as to take his life by deceit; read after it, the bride-contest is the lure. The king is not named here; he is named கோவிந்தன் in 2205. The daughter is praised, not named.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "govindan",
+     "form": "பெருமகன்",
+     "line": 1
+    }
+   ],
+   "event": "Govindan has the drum proclaim that the man who shoots the revolving boar shall marry his daughter.",
+   "claims": []
+  },
+  "2178": {
+   "reading": "Rutting elephants, sturdy chariots, jewelled horses and gold palanquins crowd together like foam on a flood, and a flood of crowned kings gathers in the fair city as the waters of the world's rain gather in the old town.",
+   "concepts": [
+    "mannar",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suitor_kings",
+     "form": "யரச வெள்ள",
+     "line": 4
+    }
+   ],
+   "event": "Crowned kings with their elephants, chariots, horses and palanquins flood into the city for the contest.",
+   "claims": []
+  },
+  "2179": {
+   "reading": "Drawn by the girl's beauty, the garlanded kings busy themselves: some peer at the bow, some straighten their fierce arrows, some ask when the day to touch the bow is, some loose many shafts, and some fret.",
+   "concepts": [
+    "kaamam",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suitor_kings",
+     "form": "மார்பர்",
+     "line": 1
+    }
+   ],
+   "event": "The suitor kings prepare their bows and arrows and ask when they may try.",
+   "claims": []
+  },
+  "2180": {
+   "reading": "A gold boar with crescent tusks, burning eyes, gaping mouth and thick bristles turns as if it were proclaiming itself on the golden ground, and the kings, each holding one arrow and the bow, look at the machine turning on its wheel and stand shaking their flowered crowns.",
+   "concepts": [
+    "mannar",
+    "acham"
+   ],
+   "nuance": "Each king is allowed one arrow (உறுகணை ஒன்றும் வில்லும்); that is the rule the following verses test, one failure to a verse.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suitor_kings",
+     "form": "மன்ன",
+     "line": 2
+    }
+   ],
+   "event": "The kings stand with bow and one arrow, staring at the boar machine turning on its wheel.",
+   "claims": []
+  },
+  "2181": {
+   "reading": "The king of Vinitai, sandal creepers painted on his chest and gold and jewelled rings flashing at his ears, bends the fierce bow till it slackens and shoots, but only raises the fine dust about the gold boar's forehead.",
+   "concepts": [
+    "maram",
+    "igal"
+   ],
+   "nuance": "நெற்றி அருந்துகள் ஆர்ப்ப may mean the arrow grazed the boar's brow or fell short and kicked up dust; either way the boar is not brought down. The list of failed kings is a comic catalogue, each failure with its own image.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vinithai_vendhan",
+     "form": "வினிதை வேந்தன்",
+     "line": 3
+    }
+   ],
+   "event": "The king of Vinitai shoots and his arrow only stirs the dust at the boar's forehead.",
+   "claims": []
+  },
+  "2182": {
+   "reading": "The lord of the elephant city, his frontlet flashing and his bee-swarmed garland scattering, his jewels sliding off his chest, bends the spreading bow till it sags and shoots, and the boar only shudders.",
+   "concepts": [
+    "maram"
+   ],
+   "nuance": "குஞ்சர நகரம், the elephant city, is taken here as Hastinapura, whose king was among the suitors at Gandharvadattai's contest; the verse does not use that name.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hastinapura_king",
+     "form": "குஞ்சர நகரத் தார்கோன்",
+     "line": 1
+    }
+   ],
+   "event": "The king of the elephant city shoots and makes the boar quiver but does not fell it.",
+   "claims": []
+  },
+  "2183": {
+   "reading": "The open-handed guardian king of Kampili, honeyed garland on his jewelled crown, climbs to shoot the boar, is struck by the machine and falls, to the great laughter of the elephant-riding kings.",
+   "concepts": [
+    "naanam",
+    "maanam"
+   ],
+   "nuance": "To shoot, a king must mount the wheel (ஏறலும்); the machine itself throws the unskilled. The laughter of the other kings makes the contest a public shaming as well as a test.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kampili_king",
+     "form": "காம்பிலிக் காவன் மன்ன",
+     "line": 2
+    }
+   ],
+   "event": "The king of Kampili climbs the machine to shoot, is thrown by it and falls while the other kings laugh.",
+   "claims": []
+  },
+  "2184": {
+   "reading": "The lord of Kosala, his breast-ornaments and pearls torn by the press of embraces, shoots, and his arrow, as if bent on making war on the sky, leaves the bow's curve and rises straight up into the heavens.",
+   "concepts": [
+    "maram",
+    "igal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kosala_king",
+     "form": "கோசலத் திறைவ",
+     "line": 2
+    }
+   ],
+   "event": "The king of Kosala's arrow flies straight up into the sky instead of at the boar.",
+   "claims": []
+  },
+  "2185": {
+   "reading": "The king of Avanti, shoulders like a bolt, cannot bear that the bow, like a sulking woman, will not bend to him; as the people roar he breaks the good bow and stands holding the arrow, wilted, like a man of clay.",
+   "concepts": [
+    "naanam",
+    "vekuli"
+   ],
+   "nuance": "மண்மகன் போல நின்றான் (line 4), 'stood like a man of clay', plays on the section's name, மண்மகள் இலம்பகம். The bow that will not come like a sulking woman (ஊடிய மடந்தை) joins the contest's two prizes, the bow and the bride.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "avanti_mannan",
+     "form": "ளவந்திய",
+     "line": 2
+    }
+   ],
+   "event": "The king of Avanti cannot bend the bow, breaks it in anger and stands holding his arrow.",
+   "claims": []
+  },
+  "2186": {
+   "reading": "As a wise man draws back a heart that has gone out to another man's wife, so the arrow shot by the king of Magadha runs, sniffs at the machine and turns its back.",
+   "concepts": [
+    "piranil",
+    "arivu",
+    "adakkam"
+   ],
+   "nuance": "The simile is double-edged: it gives the retreating arrow the dignity of restraint while it mocks the king whose arrow it is. The rule it assumes is that the heart may go toward another's wife and the wise man's work is to call it back (ஒழித்திடப் பெயர்ந்தது).",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "magadha_rasan",
+     "form": "மகத ராசன்",
+     "line": 3
+    }
+   ],
+   "event": "The king of Magadha's arrow reaches the machine and turns back.",
+   "claims": [
+    {
+     "claim": "a man of understanding withdraws his heart when it goes out toward another man's wife",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "2187": {
+   "reading": "The Kalinga lord, his chest daubed with southern Pothiyil sandal and agil, his jewelled chains flashing like a rainbow, sees the arrow he loosed like lightning swallowed up, and sweating and dismayed he turns back weakened.",
+   "concepts": [
+    "naanam",
+    "melivu"
+   ],
+   "nuance": "What swallows the arrow is not named; it may be the sky or the turning machine.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kalinga_king",
+     "form": "கலிங்கர்கோன்",
+     "line": 4
+    }
+   ],
+   "event": "The Kalinga king's arrow vanishes and he withdraws in dismay.",
+   "claims": []
+  },
+  "2188": {
+   "reading": "The king of Varanavasi, who once lifted the golden hill against the rain of stones and saved the herds and now protects living beings, bends the bow so that his jewels blaze, but his arrow does not reach; ashamed, while all creatures tremble, it enters the earth and hides.",
+   "concepts": [
+    "naanam",
+    "maanam"
+   ],
+   "nuance": "Lines 1 to 2 give this king the deed of lifting the hill to shelter the herds, the deed of the dark god of the cowherds; whether the verse means he is of that line or ironically lends him the god's deed cannot be settled from the verse. It is the arrow, not the king, that is said to hide for shame.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "varanavasi_king",
+     "form": "வாரண வாசி மன்னன்",
+     "line": 2
+    }
+   ],
+   "event": "The Varanavasi king's arrow falls short and buries itself in the ground.",
+   "claims": []
+  },
+  "2189": {
+   "reading": "The king of Pothanapuram, his body smeared all over with shining gold powder and warrior anklets on his strong feet, with difficulty mounts the wheel, spins round, his eyes reeling, and faints and falls crashing on the bare ground like the rayed sun.",
+   "concepts": [
+    "naanam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pothanapura_vendhan",
+     "form": "போதன புரத்து வேந்த",
+     "line": 2
+    }
+   ],
+   "event": "The king of Pothanapuram mounts the wheel, grows dizzy and falls to the ground.",
+   "claims": []
+  },
+  "2190": {
+   "reading": "The southern king, his bow-scarred chest marked with Malaya sandal, sea-conch pearls and the prints of young women's breasts, looks at the jewelled boar, and the arrow he had set to the bow sets its own foot on the earth.",
+   "concepts": [
+    "maram",
+    "kaamam"
+   ],
+   "nuance": "தென்னன் is the usual name of the Pandya; nothing in the verse ties him to any king of the Sangam poems. The chest marked by women's breasts is the courtly lover who fails as an archer, a contrast the catalogue keeps making.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "thennan",
+     "form": "றென்னன்",
+     "line": 3
+    }
+   ],
+   "event": "The southern king's arrow drops to the ground.",
+   "claims": []
+  },
+  "2191": {
+   "reading": "One called Vijayan, mighty with the bow, eyes his fierce arrow, straightens it, rolls it on his hand, comes up to the wheel and sets the star-feathered arrow to his bow, and in the blink of an eye the bow snaps.",
+   "concepts": [
+    "maram"
+   ],
+   "nuance": "This Vijayan, named as a renowned bowman (விற்றிறல் விசயன்), is one of the suitor kings; the verses do not make him the Hemamapuram prince who was Civakan's pupil, and the name is also the epithet of Arjuna. Line 4 விற்றுவின் is obscure.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "visayan_mannan",
+     "form": "விசய னென்பான்",
+     "line": 1
+    }
+   ],
+   "event": "A king named Vijayan readies his arrow at the wheel and his bow breaks.",
+   "claims": []
+  },
+  "2192": {
+   "reading": "His earrings flashing, Vijayan draws the curved bow from its case, mounts with his gold garland and chains glinting, draws the arrow full to the ear, and at that moment the string parts and his swagger is gone.",
+   "concepts": [
+    "naanam",
+    "maanam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "visayan_mannan",
+     "form": "விசயனும்",
+     "line": 4
+    }
+   ],
+   "event": "Vijayan tries again with another bow; the string snaps and he gives up.",
+   "claims": []
+  },
+  "2193": {
+   "reading": "All the bright-crowned kings of the swift chariots, wanting the pleasure of the girl with bangled shoulders, do not understand the greatness of austerity come to fruit; bewildered in their archery, none can bring down the machine, and six days go by.",
+   "concepts": [
+    "thavam",
+    "kaamam",
+    "vinai"
+   ],
+   "nuance": "விளைதவப் பெருமை ஓரார (line 3) is the narrator's explanation of six days of failure: the kings bring desire (போகம் வேண்டி) and the bow, and lack the merit of past austerity that alone wins her. The verse does not name a school; the ripening of past tapas into present fortune is the epic's way of telling Civakan's successes.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suitor_kings",
+     "form": "மன்ன ரெல்லாம்",
+     "line": 1
+    }
+   ],
+   "event": "Six days pass and no king has brought down the boar machine.",
+   "claims": [
+    {
+     "claim": "such a prize is won by the greatness of austerity that has ripened from the past, not by desire and skill at arms",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "2194": {
+   "reading": "While kings with palm-trunked elephants bow so that the bees hum on the garlands of their gold crowns and honey wets the hero's anklets, the son of that anklet-wearer, master of the terrible white spear, rises against the lives of his foes in a way no one could have foreseen.",
+   "concepts": [
+    "maram",
+    "pagai",
+    "vendhan"
+   ],
+   "nuance": "The verse does not name Civakan; the son (சிறுவன்) of the anklet-wearer whom kings bow to is read as Civakan from 2196 to 2202. நேரார் உயிர்மேல் எழுந்தான் makes his rising an attack on his enemies' lives, not a suit for the bride.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan rises to take up the contest against his enemies.",
+   "claims": []
+  },
+  "2195": {
+   "reading": "He mounts the blue elephant that trumpets amid elephants roaring like cloud, chariots roaring like sea, a sea of war-horses, a sea of smoking swords, drums thundering in rhythm and small white conches crying like water.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan mounts a blue elephant amid the din of his army.",
+   "claims": []
+  },
+  "2196": {
+   "reading": "As the hero appears among the kings with their sea of bow-bearing armies, so that men say this is Kama himself with jewelled ornaments on his chest, the base one looks at him with his eyes, cries out like a deer that has seen a tiger, and sits as if his life had left him.",
+   "concepts": [
+    "acham",
+    "pagai",
+    "azhagu"
+   ],
+   "nuance": "புல்லான், 'the base one', is the narrator's name for Kattiyangaran here; the man who once had Civakan led out to be killed now sees him alive. Who says காமன் இவனே is not stated, probably the onlookers.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kattiyangaran",
+     "form": "புல்லான்",
+     "line": 3
+    }
+   ],
+   "event": "Kattiyangaran sees Civakan alive in the assembly and is struck with terror.",
+   "claims": []
+  },
+  "2197": {
+   "reading": "Saying 'the blunder of letting go the tiger I had caught and bound, and the blunder of strong-shouldered Madanan who failed to kill him: this trouble will crush me', he beats the top of the elephant's head with his hand bearing the leaf-patterned bracelet and sits slumped.",
+   "concepts": [
+    "pazhi",
+    "acham",
+    "kedu"
+   ],
+   "nuance": "He names two blunders, his own release of the bound 'tiger' and Madanan's failure, and does not name the deed itself, the order to kill, as his wrong; his regret is that the killing failed. Madanan had reported Civakan killed (1164) and been rewarded for it.",
+   "speaker": {
+    "who": "kattiyangaran",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kattiyangaran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kattiyangaran laments that Civakan escaped him and Madanan, and beats his elephant's head in despair.",
+   "claims": []
+  },
+  "2198": {
+   "reading": "As women with dark rain-cool eyes and deer glances, wearing plucked flower garlands, cry 'take victory', the hero of the flower anklets comes down from the elephant and twangs the string of his crescent-curved, ornamented bow, a nightmare to the days of his enemies.",
+   "concepts": [
+    "maram",
+    "pagai"
+   ],
+   "nuance": "சேரார் நாளுக்கு அனவே, 'a dream to the days of the foes', makes the twang a foreboding of death for Kattiyangaran's side; the bride is not mentioned.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "கழலான்",
+     "line": 3
+    },
+    {
+     "id": "nagar_magalir",
+     "form": "மடவார்",
+     "line": 2
+    }
+   ],
+   "event": "Civakan dismounts and twangs his bowstring while the women hail his victory.",
+   "claims": []
+  },
+  "2199": {
+   "reading": "The kings who came because the girl of fruit-sweet speech troubled their hearts and were beaten by the curved bow are like a grove of blue lilies dripping honey, and the kings who never touched the bow are like a lotus grove sweetly in bloom.",
+   "concepts": [
+    "naanam",
+    "maanam"
+   ],
+   "nuance": "The two groves read the faces: the defeated darkened and drooping like blue lilies, those who stayed out bright like lotuses. Not trying is here safer than trying and failing.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2200": {
+   "reading": "When the three revolving boars come rightly together in the wide sky, the noble one skilled in scattering burning arrows watches for the three to fall together, and studying how to bring them into one, stands a whole day.",
+   "concepts": [
+    "aaraaydhal",
+    "kaalam",
+    "porai"
+   ],
+   "nuance": "பன்றி மூன்று (line 1) and நெடுந்தகை மூன்று are obscure: the machine may carry three boars, or a boar and its images, which must line up for one shot to bring all down. That the waiting archer is Civakan is a reading from நெடுந்தகை and from 2202, where he mounts the wheel.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan studies the turning machine for a whole day, waiting for the moment to shoot.",
+   "claims": []
+  },
+  "2201": {
+   "reading": "Seeing him not yet daring to mount the machine and yet out of pride not going away, but standing leaning his bow on the path, the kings whose jewelled crowns had fallen earlier laugh, 'will the shadowed jewel boar break and fall of itself?', and so kindle a fire that will burn them.",
+   "concepts": [
+    "igal",
+    "pullarivu",
+    "kedu"
+   ],
+   "nuance": "The verse reads as the narrator's irony: the mockers' laughter (நக்கு) is the fire they light against themselves (தீயத் தீ விளைத்துக் கொண்டார்), as 2204 will show. Whether the one who stands is Civakan or another hesitant suitor is not certain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "suitor_kings",
+     "form": "மன்னர்",
+     "line": 4
+    }
+   ],
+   "event": "The kings who failed mock Civakan as he stands waiting by the machine.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 2177,
+   "b": 25,
+   "type": "develops",
+   "note": "The patikam's summary joins the shooting of the boar to the killing of the enemy in one line; Govindan's proclamation starts the scene that keeps that pairing.",
+   "teaches": "Read against the patikam, the bride-contest was never chiefly about a bride: the work announced from its opening that the boar and the death of Civakan's enemy come together."
+  },
+  {
+   "a": 2177,
+   "b": 2204,
+   "type": "develops",
+   "note": "The proclamation that the man who shoots the boar shall marry the princess is fulfilled when Civakan brings down machine and boar together.",
+   "teaches": "The impossible condition set in 2177, tested by a catalogue of failing kings, is what makes Civakan's single shot read as proof of a destined claim rather than mere skill."
+  },
+  {
+   "a": 2186,
+   "b": "kural:148",
+   "type": "qualifies",
+   "note": "The Kural calls not looking at another's wife the great manhood; the epic's simile grants that the heart goes out to her and places virtue in the wise man's recalling it.",
+   "teaches": "Set beside the couplet's ideal of never looking, the simile shows a working form of the virtue the Kural allows only as perfection: the desire arises and understanding turns it back.",
+   "gains": {
+    "a": "the simile gains a fixed ethical rule, so the turning arrow is measured against the standard the Kural names as manhood",
+    "b": "the couplet gains a picture of restraint as a movement out and back, a second chance the couplet's flat 'not looking' leaves out"
+   }
+  },
+  {
+   "a": 2193,
+   "b": "kural:265",
+   "type": "develops",
+   "note": "The Kural says austerity is practised because it brings what is wanted as it is wanted; the narrator explains the kings' six days of failure by their ignorance of the greatness of ripened austerity.",
+   "teaches": "The pair shows the couplet's promise worked out as a plot: what the kings want, they cannot get by wanting, and the one who wins does so by merit of austerity, so tapas becomes the hidden cause of a marriage.",
+   "gains": {
+    "a": "the narrator's aside gains a known maxim behind it, making the failures a lesson rather than a joke",
+    "b": "the couplet's general 'whatever is wanted' gains a concrete case where desire and skill fail and only earlier merit succeeds"
+   }
+  },
+  {
+   "a": 2197,
+   "b": 1164,
+   "type": "tension",
+   "note": "Madanan swore to the king that he had split Civakan's chest and rolled him over; Kattiyangaran now sees Civakan alive and names Madanan's failure as his ruin.",
+   "teaches": "Together the two verses show the usurper undone by his own system of lies: he rewarded a false report of a killing, and the man he believed dead returns to the very contest set as his trap."
+  },
+  {
+   "a": 2196,
+   "b": 1137,
+   "type": "same_image",
+   "note": "In 1137 the soldiers who hem in Civakan scatter like deer that have seen a killing tiger; here Kattiyangaran himself cries out like a deer that has seen a tiger.",
+   "teaches": "The same simile moves up from the king's soldiers to the king: the fear Civakan once struck in the men sent against him now reaches the man who sent them, and his own words in 2197 call Civakan the tiger."
+  },
+  {
+   "a": 2197,
+   "b": 2206,
+   "type": "develops",
+   "note": "Kattiyangaran fears that the escaped 'tiger' will crush him; in 2206 a voice from the sky proclaims that the lion Civakan will swallow the life of the elephant Kattiyangaran.",
+   "teaches": "The usurper's private dread in 2197 is answered by a public sky-voice in 2206 with the same beast imagery, so his fear turns out to be accurate foresight rather than panic."
+  },
+  {
+   "a": 2201,
+   "b": 2204,
+   "type": "tension",
+   "note": "The failed kings laugh, asking whether the boar will break and fall of itself; in 2204 Civakan's shot brings down the machine and the boar together.",
+   "teaches": "The mockers' jibe is answered in a few verses: what they said could not happen without effort happens at one shot, so their laughter becomes the 'fire' 2201 says they lit against themselves."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "2179 to 2201 (all but 2181, 2184 and 2194): stanza printed in eight half-lines; joined into four by the build.",
+  "2181 line 2 செம்போற் is probably செம்பொற்.",
+  "2191 line 2 சோந்தாங் is probably சேர்ந்தாங்; line 4 விற்றுவின் is obscure and may be corrupt.",
+  "2200 line 1 to 2 பன்றி மூன்று and நெடுந்தகை மூன்று are hard to construe; the number three may be a corruption or a detail of the machine not explained in the verse."
+ ]
+}
