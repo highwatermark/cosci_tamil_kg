@@ -406,7 +406,21 @@ POSES = {
 }
 
 
+SPRITE = None   # set by build.py: stage.sprite(kind, pose, anim, s, flip, extra) -> svg or None
+
+
 def keeper(pose='stand', expr='calm', s=1.0, flip=False, hold='', who='keeper', look=0, anim=None, stylus=True):
+    """The keeper: a marble sprite where the pose exists (build.py sets SPRITE), else the vector figure."""
+    if who != 'keeper' or Sc.plain:
+        return _keeper(pose, expr, s, flip, hold, who, look, anim, stylus)
+    if SPRITE and not hold:
+        r = SPRITE('K', pose, anim, s, flip)
+        if r:
+            return r
+    return g(_keeper(pose, expr, s, flip, hold, who, look, anim, stylus), data_chr='1')
+
+
+def _keeper(pose='stand', expr='calm', s=1.0, flip=False, hold='', who='keeper', look=0, anim=None, stylus=True):
     """The keeper (and other people, by `who`). Feet at (0,0), about 380 tall at s=1.
 
     anim: optional list of (t, posename) to animate joints with scroll keyframes.
@@ -590,6 +604,17 @@ def person(who='woman', pose='stand', expr='calm', s=1.0, flip=False, hold='', a
 
 
 def myna(pose='stand', s=1.0, flip=False, say=None, anim=None, extra=''):
+    """The myna: a bronze sprite where the pose exists, else the vector bird."""
+    if Sc.plain:
+        return _myna(pose, s, flip, say, anim, extra)
+    if SPRITE:
+        r = SPRITE('M', pose, anim, s, flip, (say or '') + extra)
+        if r:
+            return r
+    return g(_myna(pose, s, flip, say, anim, extra), data_chr='1')
+
+
+def _myna(pose='stand', s=1.0, flip=False, say=None, anim=None, extra=''):
     """Common myna: brown body (colour), dark head and tail, bare light eye patch, light beak and legs, white wing flash.
     Facing right, feet at (0,0), about 120 long and 118 tall at s=1."""
     if not anim and not Sc.plain:

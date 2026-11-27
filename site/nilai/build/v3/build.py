@@ -16,6 +16,7 @@ NILAI = REPO / 'site' / 'nilai'
 import script_data as SD  # noqa: E402
 import art as AR  # noqa: E402
 import scenes as SCN  # noqa: E402
+import stage as STG  # noqa: E402
 
 FAIL = []
 
@@ -267,6 +268,33 @@ def anchor_html(s):
             % (AR.kf((0, dict(o=0, y=14)), (.15, dict(o=0, y=14)), (.21, 'o', dict(o=1, y=0))), ta, esc(' · '.join(ids)), esc(s['rd'])))
 
 
+def source_html(s):
+    """The scene's sources, shown behind the "source" chip: the Tamil anchor, its reading, and the margin."""
+    n = s['n']
+    parts = []
+    if s['anc']:
+        ids = []
+        for _, rid in s['anc']:
+            if rid not in ids:
+                ids.append(rid)
+        parts.append('<p class="ta">%s</p><p class="aid">%s</p>' % (''.join('<span lang="ta">%s</span>' % esc(t) for t, _ in s['anc']), esc(' · '.join(ids))))
+        if s['rd']:
+            parts.append('<p class="rd">%s</p>' % esc(s['rd']))
+    pen = s['pen'] or {3: 'what if the wrong hands get it?', 21: 'what will creativity be?', 24: 'steer, or be steered?'}.get(n, '')
+    if n == 1:
+        raw = re.search(r'\*(what if everyone.+?)\*', s['margin_raw']).group(1)
+        ws = [w.strip() for w in raw.split(' · ')]
+        parts.append('<p class="mh">margin · 2026 · pencil</p><ul class="five">%s</ul>' % ''.join(
+            '<li>%s%s</li>' % (esc(w), ' <b aria-label="handled">✓</b>' if i < 4 else '') for i, w in enumerate(ws)))
+    elif pen:
+        strike = n != 24 and bool(s['ink'])
+        parts.append('<p class="mh">margin · 2026 · pencil</p><p class="pen">%s</p>' % ('<s>%s</s>' % esc(pen) if strike else esc(pen)))
+    if s['ink']:
+        chip = ' <span class="chip">கற்பனை · imagined</span>' if s['imagined'] else ''
+        parts.append('<p class="mh">margin · hand of %s</p><p class="ink">%s%s</p>' % (s['hand'], esc(s['ink']), chip))
+    return ''.join(parts)
+
+
 LED_SCENE = {}
 
 STYLE_ATTRS = ('fill', 'stroke', 'stroke-width', 'stroke-linecap', 'stroke-linejoin', 'opacity', 'vector-effect', 'stroke-dasharray', 'font-size', 'text-anchor')
@@ -309,6 +337,51 @@ def compress(html):
     return tag_re.sub(rep, html), '\n' + ''.join(rules) + '\n'
 
 
+FWHITE = STG.GRADE_DEFS
+PANEL = ('<aside class="srcp" id="srcPanel" role="dialog" aria-modal="false" aria-labelledby="srcT" hidden>'
+         '<div class="srcin"><div class="srch"><b id="srcT">source</b><button type="button" class="srcx" id="srcX" aria-label="Close the sources">×</button></div>'
+         '<div class="srcb" id="srcB"></div></div></aside>')
+HALO = {}
+SHAPE_RE = re.compile(r'<(path|rect|circle|ellipse|polygon|polyline|line|use|image)\b')
+
+
+def chunks(svg):
+    """Split an SVG fragment into its top-level elements."""
+    out, depth, start = [], 0, 0
+    for m in re.finditer(r'<(/?)([a-zA-Z][\w:.-]*)(?:[^>"]|"[^"]*")*?(/?)>', svg):
+        close, selfc = m.group(1), m.group(3)
+        if close:
+            depth -= 1
+        elif not selfc:
+            depth += 1
+        if depth == 0:
+            out.append(svg[start:m.end()])
+            start = m.end()
+    if svg[start:].strip():
+        out.append(svg[start:])
+    return out
+
+
+def wrap_objects(art, cov, n):
+    """Where a stage plays as an image, the SVG objects give way: every top-level element except the characters
+    and pure text is wrapped in a group whose opacity is 1 - (image coverage)."""
+    out, run = [], []
+    keep_idx = STG.SCENE.get(n, {}).get('keep', ())
+    def flush():
+        if run:
+            out.append('<g class="svgobj" data-k="%s">%s</g>' % (cov, ''.join(run)))
+            run.clear()
+    for i, c in enumerate(chunks(art)):
+        keep = 'data-chr' in c or not SHAPE_RE.search(c) or i in keep_idx
+        if keep:
+            flush()
+            out.append(c)
+        else:
+            run.append(c)
+    flush()
+    return ''.join(out)
+
+
 def build():
     S, LED, PENCIL = SD.parse(NILAI / 'v3_script_final.md')
     # which ledger line each scene carries
@@ -325,29 +398,57 @@ def build():
     prev_pen = ''
     defs_all = []
     gsets, gdefs = {}, []
+    STG.discover()
+    AR.SPRITE = STG.sprite
+    SMAP = STG.stage_map()
+    images_in = {}
     for s, sh in zip(S, pals):
-        sid = '%02d' % s['n']
+        n = s['n']
+        sid = '%02d' % n
         pk = (s['wall'], s['floor'], s['inkc'], s['col'], s['acc'])
         if pk not in gsets:
             gsets[pk] = 'p%d' % len(gsets)
             gdefs.append(AR.grads(gsets[pk], sh))
         AR.Sc.sid = gsets[pk]
+        STG.Ctx.sh, STG.Ctx.sid, STG.Ctx.halo = sh, sid, set()
+        st = STG.stone(sh, n)
+        stage_svg, cov, clip = STG.scene_images(n, sh, st, SMAP[n])
         fn = getattr(SCN, 's' + sid)
         R = fn(s)
+        art_in = R['art']
+        if cov:
+            art_in = stage_svg + wrap_objects(art_in, cov, n)
+            images_in[n] = sorted(set(re.findall(r'data-id="([^"]+)"', stage_svg)))
+        sdefs = ''
+        if STG.Ctx.halo:
+            sdefs = ('<defs><filter id="fh%s" x="-25%%" y="-25%%" width="150%%" height="150%%"><feMorphology in="SourceAlpha" operator="dilate" radius="2.2" result="d"/>'
+                     '<feGaussianBlur in="d" stdDeviation="3.2" result="b"/><feFlood style="flood-color:var(--ink)" flood-opacity=".7"/><feComposite in2="b" operator="in" result="h"/>'
+                     '<feMerge><feMergeNode in="h"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>' % sid)
+            HALO[n] = sorted(STG.Ctx.halo)
+        vclip = ''
+        if clip:
+            x, y, w, h = clip['box']
+            vclip = ('<foreignObject class="vclip" x="%s" y="%s" width="%s" height="%s" data-src="%s" data-keyed="%d" data-win="%s,%s" data-nochk="1"></foreignObject>'
+                     % (AR.n(x), AR.n(y), AR.n(w), AR.n(h), esc(clip['src']), 1 if clip['keyed'] else 0, clip['t0'], clip['t1']))
         style = ';'.join('--%s:%s' % (k, sh[k]) for k in ('wall', 'floor', 'tx', 'ink', 'col', 'acc', 'dk', 'pp', 'strip', 'letters'))
-        art = '<svg class="art" viewBox="0 0 1000 1000" aria-hidden="true" focusable="false">%s</svg>' % R['art']
+        style += ';--noise:%s;--vig:%s' % (st['noise'], st['vig']) + ''.join(';--st-%s:%s' % (k, st[k]) for k in ('Wl', 'Wm', 'Wj', 'Wd', 'Wdd', 'Fl', 'Fm', 'Fj', 'Fd', 'skirt'))
+        art = '<svg class="art" viewBox="0 0 1000 1000" aria-hidden="true" focusable="false">%s%s%s</svg>' % (sdefs, art_in, vclip)
+        arch = STG.arch_svg(n, sh, st)
         led_attr = ''
         if s['n'] in LED_SCENE:
             led_attr = ' data-led="%d" data-ledt="%s"' % (LED_SCENE[s['n']], esc(s['led']))
-        tx = '<div class="tx">%s<p class="sent" id="h%s">%s</p>%s%s</div>' % (R.get('pre', ''), sid, sentence(s['sent']), anchor_html(s), R.get('tx', ''))
-        mar = R.get('mar') if 'mar' in R else margin_html(s, prev_pen)
+        src = source_html(s)
+        chip = ('<button type="button" class="srcchip" data-src="src%s" aria-haspopup="dialog" aria-controls="srcPanel" aria-expanded="false">source <span aria-hidden="true">↗</span></button>' % sid) if src else ''
+        tx = '<div class="tx">%s<p class="sent" id="h%s">%s</p>%s%s</div>' % (R.get('pre', ''), sid, sentence(s['sent']), chip, R.get('tx', ''))
+        tmpl = '<template id="src%s">%s</template>' % (sid, src) if src else ''
         if s['pen']:
             prev_pen = s['pen']
-        out_sc.append('<section class="sc3" id="s%s" data-n="%d" data-dur="%s" data-tr="%s" data-fx="%s" data-fy="%s" data-pu="%s" data-h="%s"%s style="%s" aria-labelledby="h%s">'
-                      '<div class="wall"></div><div class="floor"></div>%s%s%s%s</section>'
-                      % (sid, s['n'], s['dur'], R.get('tr', 'fade'), R.get('fx', 500), R.get('fy', 500), R.get('pu', ''), esc(s['hdr']), led_attr, style, sid,
-                         R.get('under', ''), art, tx, mar + R.get('html', '')))
+        out_sc.append('<section class="sc3 k-%s" id="s%s" data-n="%d" data-dur="%s" data-tr="%s" data-fx="%s" data-fy="%s" data-pu="%s" data-h="%s"%s style="%s" aria-labelledby="h%s">'
+                      '<div class="wall"></div><div class="floor"></div>%s<div class="grainl"></div><div class="vign"></div>%s%s%s%s%s</section>'
+                      % (STG.ARCH[n], sid, s['n'], s['dur'], R.get('tr', 'fade'), R.get('fx', 500), R.get('fy', 500), R.get('pu', ''), esc(s['hdr']), led_attr, style, sid,
+                         arch, R.get('under', ''), art, tx, R.get('html', ''), tmpl))
         out_mk.append('<div class="mk" data-for="s%s"></div>' % sid)
+    FAIL.extend(STG.FAIL)
     # ledger strip
     slots = ''.join('<i class="sl" style="top:%.1f%%"></i>' % (18 + i * 64 / 12) for i in range(13))
     strip = '<div class="strip" id="strip" aria-hidden="true"><div class="leaf"></div><span class="cap">nilai</span>%s</div>' % slots
@@ -356,7 +457,7 @@ def build():
     reel = ('<div class="reel" id="reel" aria-label="Nilai, the reel: the hand of 2526 writes back, in 31 scenes">'
             '<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>%s%s</defs></svg>'
             '<div class="vp" id="vp">%s</div>%s%s<i class="pulli" id="pulli" aria-hidden="true"></i>%s<div class="spacer" id="spacer">%s</div></div>'
-            % (AR.filters() + ''.join(gdefs), AR.symbols(), ''.join(out_sc), strip, card, wipes, ''.join(out_mk)))
+            % (AR.filters() + FWHITE + ''.join(gdefs), AR.symbols(), ''.join(out_sc), strip, card, wipes + PANEL, ''.join(out_mk)))
     # the v2 file tab, carried over unchanged
     v2 = (NILAI / 'v2' / 'index.html').read_text(encoding='utf-8')
     head_end = v2.index('<style>')
@@ -386,9 +487,17 @@ def build():
             print('  ' + f)
         sys.exit(1)
     (NILAI / 'index.html').write_text(page, encoding='utf-8')
+    used = sorted(STG.USED)
+    (HERE / 'published_assets.json').write_text(json.dumps(dict(page='index.html', files=used), indent=1) + '\n', encoding='utf-8')
     kb = len(page.encode('utf-8')) / 1024
     print('wrote site/nilai/index.html  %.0f KB  (%d Tamil lines matched, 31 scenes, colour rules pass)' % (kb, nta))
     sizes = sorted(((len(x.encode('utf-8')) / 1024, x[:60]) for x in out_sc), reverse=True)[:6]
+    print('grading: ' + ' '.join('%s=%s' % (i, STG.material(i)) for i in sorted(STG.AV)))
+    for note in STG.NOTES:
+        print('  ' + note)
+    print('stage images: ' + '; '.join('%02d %s' % (k, ' '.join(v)) for k, v in sorted(images_in.items())))
+    print('halo (image below 3:1 on its wall or floor): ' + '; '.join('%02d %s' % (k, ' '.join(v)) for k, v in sorted(HALO.items())))
+    print('assets referenced (%d, publish beside index.html): %s' % (len(used), ' '.join(used)))
     print('largest scenes: ' + ', '.join('%s %.0fKB' % (re.search(r'id="(s\d+)"', t).group(1), k) for k, t in sizes))
 
 

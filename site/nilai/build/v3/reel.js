@@ -189,8 +189,9 @@ function update(){
   if(tab!=='reel') return;
   if(RM){ rmUpdate(); return; }
   var L=locate(window.scrollY), i=L[0], p=L[1];
-  if(i!==lastHead){ setHead(i); lastHead=i; }
+  if(i!==lastHead){ setHead(i); lastHead=i; hydrate(i); closeSrc(); }
   cur=i; curP=p;
+  clips(i,p);
   var inTr=(i>0&&p<TR);
   for(var k=0;k<NSC;k++){ if(k!==i&&!(inTr&&k===i-1)) vis(k,false); }
   vis(i,true,2); render(ST[i],p);
@@ -219,6 +220,62 @@ function update(){
   strip(i,p);
   pulli(i,p);
 }
+/* images: lazy. A scene's images get their href when it is within one scene of the current one. */
+function hydrateSc(k){
+  var el=SC[k]; if(!el||el._hyd) return; el._hyd=1;
+  [].forEach.call(el.querySelectorAll('[data-href]'),function(im){ im.setAttribute('href',im.getAttribute('data-href')); im.removeAttribute('data-href'); });
+}
+function hydrate(i){ for(var k=i-1;k<=i+2;k++) if(k>=0&&k<NSC) hydrateSc(k); }
+
+/* scroll-scrubbed clips: a muted, inline video whose currentTime follows the scene progress inside its window.
+   A keyed WebM plays with its own alpha; an MP4 on chroma green is keyed into a canvas. If the file is missing
+   or fails, the scene keeps its image and SVG morph. */
+var VC=[].map.call(SC,function(el){
+  var fo=el.querySelector('foreignObject.vclip'); if(!fo) return null;
+  var w=fo.getAttribute('data-win').split(',').map(Number);
+  return {el:el, fo:fo, src:fo.getAttribute('data-src'), keyed:fo.getAttribute('data-keyed')==='1', t0:w[0], t1:w[1], v:null, cv:null, ok:false, dead:false, want:-1, busy:false};
+});
+function clipInit(c){
+  if(c.v||c.dead) return;
+  var v=document.createElement('video');
+  v.muted=true; v.defaultMuted=true; v.playsInline=true; v.setAttribute('playsinline',''); v.setAttribute('muted',''); v.preload='auto';
+  v.setAttribute('aria-hidden','true'); v.tabIndex=-1;
+  v.addEventListener('loadeddata',function(){ c.ok=true; seek(c); });
+  v.addEventListener('seeked',function(){ c.busy=false; draw(c); if(c.want>=0&&Math.abs(v.currentTime-c.want)>.02) seek(c); });
+  v.addEventListener('error',function(){ c.dead=true; c.ok=false; c.el.classList.remove('vplay'); if(c.fo) c.fo.innerHTML=''; });
+  if(c.keyed){ c.fo.appendChild(v); }
+  else { c.cv=document.createElement('canvas'); c.fo.appendChild(c.cv); }
+  v.src=c.src; c.v=v; try{ v.load(); }catch(e){}
+}
+function seek(c){
+  var v=c.v; if(!c.ok||c.want<0||c.busy) return;
+  var t=Math.min(Math.max(c.want,0),Math.max(0,(v.duration||0)-.04));
+  if(Math.abs(v.currentTime-t)<.015){ draw(c); return; }
+  c.busy=true; try{ v.currentTime=t; }catch(e){ c.busy=false; }
+}
+function draw(c){
+  if(c.keyed||!c.cv) return;
+  var v=c.v, vw=v.videoWidth, vh=v.videoHeight; if(!vw) return;
+  var s=Math.min(vw,vh), sx=(vw-s)/2, sy=(vh-s)/2, n=Math.min(s,720), cv=c.cv;
+  if(cv.width!==n){ cv.width=n; cv.height=n; }
+  var g=cv.getContext('2d',{willReadFrequently:true});
+  g.drawImage(v,sx,sy,s,s,0,0,n,n);
+  var im=g.getImageData(0,0,n,n), d=im.data;
+  for(var i=0;i<d.length;i+=4){ var r=d[i],gg=d[i+1],b=d[i+2],m=r>b?r:b, ex=gg-m;
+    if(ex>40){ var a=ex>=110?0:1-(ex-40)/70; d[i+3]=a*255; d[i+1]=m+(gg-m)*0; } else if(ex>0){ d[i+1]=m; } }
+  g.putImageData(im,0,0);
+}
+function clips(i,p){
+  for(var k=0;k<VC.length;k++){
+    var c=VC[k]; if(!c) continue;
+    if(Math.abs(k-i)<=1) clipInit(c);
+    if(k!==i||c.dead){ if(c.el.classList.contains('vplay')) c.el.classList.remove('vplay'); continue; }
+    var inw=p>=c.t0&&p<=c.t1;
+    c.el.classList.toggle('vplay',inw&&c.ok);
+    if(inw&&c.ok){ c.want=(p-c.t0)/(c.t1-c.t0)*(c.v.duration||0); seek(c); }
+  }
+}
+
 /* the wipe props: a rolling mat and a rising leaf */
 var matEl=$('wipeMat'), leafEl=$('wipeLeaf');
 function prop(typ,u){
@@ -269,9 +326,11 @@ function pstep(t){
 function rmUpdate(){
   var y=window.scrollY+innerHeight*.4, i=0;
   for(var k=0;k<NSC;k++){ if(SC[k].offsetTop<=y) i=k; }
-  if(i!==lastHead){ setHead(i); lastHead=i; }
+  if(i!==lastHead){ setHead(i); lastHead=i; closeSrc(); }
 }
-if(RM){ ST.forEach(function(S){ S.el.classList.add('on'); render(S,1); }); }
+if(RM){ ST.forEach(function(S){ S.el.classList.add('on'); render(S,1); });
+  if('IntersectionObserver' in window){ var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting) hydrateSc(SC.indexOf(e.target)); }); },{rootMargin:'100% 0px'}); SC.forEach(function(el){ io.observe(el); }); }
+  else SC.forEach(function(el,k){ hydrateSc(k); }); }
 
 /* frame loop */
 var raf=0;
@@ -362,6 +421,7 @@ document.addEventListener('keydown',function(e){
   if(tab!=='reel'||e.defaultPrevented||e.altKey||e.ctrlKey||e.metaKey) return;
   var t=e.target, tg=t&&t.tagName||'';
   if(/^(INPUT|TEXTAREA|SELECT)$/.test(tg)||(t&&t.isContentEditable)) return;
+  if(srcP&&!srcP.hidden&&srcP.contains(t)&&e.key!=='Escape') return;
   var k=e.key, dir=0;
   if(k==='ArrowDown'||k==='ArrowRight'||k==='PageDown'||(k===' '&&!e.shiftKey)) dir=1;
   else if(k==='ArrowUp'||k==='ArrowLeft'||k==='PageUp'||(k===' '&&e.shiftKey)) dir=-1;
@@ -373,9 +433,29 @@ document.addEventListener('keydown',function(e){
   else { for(i=a.length-1;i>=0&&a[i]>=y-8;i--); glide(i>=0?a[i]:0); }
 });
 
-/* anchors open their reading on wide screens; on phones the reading opens on tap */
-function anc(){ [].forEach.call(document.querySelectorAll('details.anc'),function(d){ if(!phone) d.open=true; else d.open=false; }); }
-anc(); if(phoneMQ.addEventListener) phoneMQ.addEventListener('change',anc);
+/* the source chip: the Tamil anchor, its reading and the margin open in a panel (a bottom sheet on phones) */
+var srcP=$('srcPanel'), srcB=$('srcB'), srcT=$('srcT'), srcX=$('srcX'), srcBtn=null;
+function openSrc(btn){
+  var tp=$(btn.getAttribute('data-src')); if(!tp||!srcP) return;
+  if(srcBtn===btn&&!srcP.hidden){ closeSrc(true); return; }
+  closeSrc(); srcB.innerHTML=''; srcB.appendChild(tp.content.cloneNode(true));
+  var sc=btn.closest('.sc3'); srcT.textContent='source · '+(sc?sc.getAttribute('data-n').padStart(2,'0'):'');
+  srcP.hidden=false; srcBtn=btn; btn.setAttribute('aria-expanded','true'); srcP.scrollTop=0;
+  try{ srcX.focus({preventScroll:true}); }catch(e){ srcX.focus(); }
+}
+function closeSrc(refocus){
+  if(!srcP||srcP.hidden) return;
+  srcP.hidden=true;
+  if(srcBtn){ srcBtn.setAttribute('aria-expanded','false'); if(refocus){ try{ srcBtn.focus({preventScroll:true}); }catch(e){} } }
+  srcBtn=null;
+}
+document.addEventListener('click',function(e){
+  var b=e.target.closest&&e.target.closest('.srcchip');
+  if(b){ e.preventDefault(); stop(); openSrc(b); return; }
+  if(srcP&&!srcP.hidden&&!srcP.contains(e.target)) closeSrc();
+});
+if(srcX) srcX.addEventListener('click',function(){ closeSrc(true); });
+document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&srcP&&!srcP.hidden){ e.preventDefault(); closeSrc(true); } },true);
 
 /* debugging hook: ?s=12&p=.5 jumps to scene 12 at progress .5 */
 function deb(){
@@ -384,7 +464,7 @@ function deb(){
 }
 window.nilaiGo=function(s,p){ var i=clamp(s-1,0,NSC-1); jump(Math.round(offs[i]+hs[i]*p)); update(); return [i+1,p]; };
 
-route(); fit(); deb(); update(); label();
+route(); fit(); deb(); hydrate(Math.max(0,cur)); update(); label();
 
 /* ?check=1: colour self-test against the scene tokens */
 if(CHECK){
@@ -425,7 +505,7 @@ if(CHECK){
       /* art fills and strokes, including gradient stops */
       var seen={};
       [].forEach.call(el.querySelectorAll('svg.art *'),function(t){
-        if(t.closest('.sh,.fx,defs,clipPath,[data-nochk]')||t.tagName==='text'||t.tagName==='tspan'||t.tagName==='g'||t.tagName==='use'||t.tagName==='clipPath') return;
+        if(t.closest('.sh,.fx,defs,clipPath,mask,[data-nochk],[data-stone]')||/^(text|tspan|g|use|clipPath|image|foreignObject)$/.test(t.tagName)) return;
         var st=getComputedStyle(t);
         ['fill','stroke'].forEach(function(pr){
           var v=st[pr]; if(!v||v==='none') return;
@@ -442,6 +522,22 @@ if(CHECK){
           });
         });
       });
+      /* stone: the architecture (and the plinths) is background, so text keeps 4.5 and both art fills keep 3 on every shade */
+      var sseen={};
+      [].forEach.call(el.querySelectorAll('svg.arch *, svg.art [data-stone] *'),function(t){
+        if(t.closest('[data-nochk],defs')&&!t.closest('linearGradient,radialGradient,pattern')) return;
+        if(/^(g|defs|svg|pattern|linearGradient|radialGradient)$/.test(t.tagName)) return;
+        var st=getComputedStyle(t), cols=[];
+        if(t.tagName==='stop'){ if(+st.stopOpacity>.3) cols.push(rgb(st.stopColor)); }
+        else ['fill','stroke'].forEach(function(pr){ var v=st[pr]; if(!v||v==='none'||/url\(/.test(v)) return; cols.push(rgb(v)); });
+        cols.forEach(function(c){ if(!c) return; var key=c.join(','); if(sseen[key]) return; sseen[key]=1;
+          chk(sid,'stone rgb('+key+') text',cr(tok.tx,c),4.5); chk(sid,'stone rgb('+key+') ink',cr(tok.ink,c),3); chk(sid,'stone rgb('+key+') colour',cr(tok.col,c),3); });
+      });
+      /* lighting: the darkest edge of the vignette, with the grain on top, still holds text 4.5 and art 3 on wall and floor */
+      var vig=+cs.getPropertyValue('--vig')||0, noi=+cs.getPropertyValue('--noise')||0;
+      function dk(c,a){ return c.map(function(v){ return v*(1-a); }); }
+      [['wall',tok.wall],['floor',tok.floor]].forEach(function(b){ var c=dk(dk(b[1],vig),noi);
+        chk(sid,'vignette '+b[0]+' text',cr(tok.tx,c),4.5); chk(sid,'vignette '+b[0]+' ink',cr(tok.ink,c),3); chk(sid,'vignette '+b[0]+' colour',cr(tok.col,c),3); });
       if(!wasOn&&!RM) el.classList.remove('on');
     });
     var msg='nilai check: '+n+' ratios, '+fails.length+' below threshold';

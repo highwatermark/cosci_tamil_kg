@@ -32,9 +32,9 @@ def s01(s):
     # the year counter, the headline of the scene (desktop in the art; phone in the text column)
     mono = 'font-family:var(--f-md)'
     yc = _p('<g class="dk-only">',
-            tag('text', 'last touched 27 Nov', x=150, y=118, font_size=42, fill=I, data_bg='wall', style=mono),
-            tag('text', '2026', x=672, y=118, font_size=42, fill=I, data_bg='wall', style=mono + ';font-weight:600', data_n='.47,.6,2026,2527', data_k=kf((0, dict(o=1)), (.62, dict(o=1)), (.625, dict(o=0)))),
-            tag('text', '2526', x=672, y=118, font_size=42, fill=I, data_bg='wall', style=mono + ';font-weight:600', data_k=kf((0, dict(o=0, y=-24)), (.62, dict(o=0, y=-24)), (.67, 'b', dict(o=1, y=0)))),
+            tag('text', 'last touched 27 Nov', x=150, y=30, font_size=42, fill=I, data_bg='wall', style=mono),
+            tag('text', '2026', x=672, y=30, font_size=42, fill=I, data_bg='wall', style=mono + ';font-weight:600', data_n='.47,.6,2026,2527', data_k=kf((0, dict(o=1)), (.62, dict(o=1)), (.625, dict(o=0)))),
+            tag('text', '2526', x=672, y=30, font_size=42, fill=I, data_bg='wall', style=mono + ';font-weight:600', data_k=kf((0, dict(o=0, y=-24)), (.62, dict(o=0, y=-24)), (.67, 'b', dict(o=1, y=0)))),
             '</g>')
     out.append(yc)
     out.append(book_bundle())
@@ -43,7 +43,7 @@ def s01(s):
     out.append(myna_slides_off())
     tx = '<p class="yc ph-only">last touched 27 Nov <span class="yy"><span data-n=".47,.6,2026,2527" data-k="%s">2026</span><span data-k="%s">2526</span></span></p>' % (
         kf((0, dict(o=1)), (.62, dict(o=1)), (.625, dict(o=0))), kf((0, dict(o=0)), (.62, dict(o=0)), (.66, 'b', dict(o=1))))
-    return dict(art=''.join(out), tr='fade', fx=830, fy=540, pu='.47:.72:868:120', pre=tx)
+    return dict(art=''.join(out), tr='fade', fx=830, fy=540, pu='.47:.72:868:32', pre=tx)
 
 
 # ============================================================ 02 · the beam that levels first
