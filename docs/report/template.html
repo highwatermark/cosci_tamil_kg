@@ -1,0 +1,511 @@
+<title>Tamil Corpus Methods</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: one reading column (~65ch) with wide figures that scroll inside their own frames; a slim contents rail on wide screens. */
+:root {
+  --bg: #f5f7f9;
+  --surface: #ffffff;
+  --ink: #18202c;
+  --ink-2: #4a5566;
+  --rule: #d6dce4;
+  --grid: #e3e8ee;
+  --accent: #1e5a7a;
+  --accent-soft: #dbe8f0;
+  --bar: #2b6f93;
+  --bar-low: #9fb3c2;
+  --bar-ctl: #c0883a;
+  --ref: #b0413e;
+  --ln2: #c0883a;
+  --h-none: #eef1f4;
+  --h0: #e6eef3; --h1: #bfd5e2; --h2: #8db6cd; --h3: #3f80a5; --h4: #1d4f6d;
+  --t-lo: #18202c; --t-hi: #ffffff;
+  --code-bg: #eaeef2;
+  --font-body: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
+  --font-display: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --font-tamil: "Noto Sans Tamil", "Tamil Sangam MN", "Latha", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11161d; --surface: #18202a; --ink: #e2e7ee; --ink-2: #a3aebd; --rule: #2c3644; --grid: #243040;
+    --accent: #7fb7d6; --accent-soft: #1d3140; --bar: #5ea3c8; --bar-low: #4a5c6c; --bar-ctl: #d9a35a;
+    --ref: #e57b77; --ln2: #d9a35a; --h-none: #1a222c;
+    --h0: #1c2833; --h1: #23425a; --h2: #2f6282; --h3: #4f93ba; --h4: #8cc4e2;
+    --t-lo: #e2e7ee; --t-hi: #0e141b; --code-bg: #1f2833;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11161d; --surface: #18202a; --ink: #e2e7ee; --ink-2: #a3aebd; --rule: #2c3644; --grid: #243040;
+  --accent: #7fb7d6; --accent-soft: #1d3140; --bar: #5ea3c8; --bar-low: #4a5c6c; --bar-ctl: #d9a35a;
+  --ref: #e57b77; --ln2: #d9a35a; --h-none: #1a222c;
+  --h0: #1c2833; --h1: #23425a; --h2: #2f6282; --h3: #4f93ba; --h4: #8cc4e2;
+  --t-lo: #e2e7ee; --t-hi: #0e141b; --code-bg: #1f2833;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 17px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 2rem 4rem;
+}
+.wrap { max-width: 1060px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr); gap: 2rem; }
+@media (min-width: 980px) { .wrap { grid-template-columns: 200px minmax(0, 1fr); } }
+nav.toc { font-family: var(--font-display); font-size: 0.82rem; }
+@media (min-width: 980px) { nav.toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 1.5rem); align-self: start; } }
+nav.toc ol { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.3rem; counter-reset: s; }
+nav.toc a { color: var(--ink-2); text-decoration: none; }
+nav.toc a:hover, nav.toc a:focus-visible { color: var(--accent); text-decoration: underline; }
+nav.toc .h { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.72rem; color: var(--ink-2); margin-bottom: 0.5rem; }
+main { min-width: 0; }
+main > section { padding-top: 1.8rem; border-top: 1px solid var(--rule); margin-top: 2.2rem; }
+.prose, main p, main ul, main ol, main dl, .lede { max-width: 65ch; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; line-height: 1.2; }
+h1 { font-size: clamp(1.9rem, 4.5vw, 2.6rem); font-weight: 600; margin: 0.2rem 0 0.8rem; letter-spacing: -0.01em; }
+h2 { font-size: 1.45rem; font-weight: 600; margin: 0 0 0.8rem; }
+h2 .no { font-family: var(--font-mono); font-weight: 400; color: var(--accent); font-size: 0.95rem; margin-right: 0.5rem; }
+h3 { font-size: 1.08rem; font-weight: 600; margin: 1.6rem 0 0.5rem; }
+.eyebrow { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.74rem; color: var(--accent); }
+.lede { font-size: 1.12rem; color: var(--ink); }
+.meta { font-family: var(--font-display); font-size: 0.85rem; color: var(--ink-2); }
+a { color: var(--accent); }
+code, .mono { font-family: var(--font-mono); font-size: 0.84em; background: var(--code-bg); padding: 0.05em 0.3em; border-radius: 3px; overflow-wrap: anywhere; }
+pre { font-family: var(--font-mono); font-size: 0.82rem; background: var(--code-bg); padding: 1rem; border-radius: 4px; overflow-x: auto; line-height: 1.5; max-width: 100%; }
+pre code { background: none; padding: 0; }
+.ta { font-family: var(--font-tamil); }
+.kpis { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin: 1.4rem 0; }
+.kpi { background: var(--surface); padding: 0.9rem 1rem; }
+.kpi b { display: block; font-family: var(--font-display); font-size: 1.6rem; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--accent); }
+.kpi span { font-family: var(--font-display); font-size: 0.8rem; color: var(--ink-2); line-height: 1.35; display: block; }
+.findings { display: grid; gap: 0.9rem; padding: 0; list-style: none; counter-reset: f; }
+.findings li { padding-left: 2.2rem; position: relative; }
+.findings li::before { counter-increment: f; content: counter(f); position: absolute; left: 0; top: 0.1rem; width: 1.5rem; height: 1.5rem; border: 1px solid var(--accent); color: var(--accent); font-family: var(--font-mono); font-size: 0.8rem; display: grid; place-items: center; border-radius: 50%; }
+figure { margin: 1.4rem 0; }
+.fig { overflow-x: auto; background: var(--surface); border: 1px solid var(--rule); padding: 1rem; border-radius: 4px; max-width: 100%; }
+.fig svg.diagram { min-width: 760px; width: 100%; height: auto; display: block; }
+.fig svg.chart { display: block; }
+.fig.heat svg { min-width: 680px; }
+figcaption { font-family: var(--font-display); font-size: 0.85rem; color: var(--ink-2); margin-top: 0.5rem; max-width: 70ch; }
+.src { font-family: var(--font-display); font-size: 0.78rem; color: var(--ink-2); margin-top: 0.3rem; }
+.src code { font-size: 0.95em; }
+.tw { overflow-x: auto; max-width: 100%; margin: 1rem 0; }
+table { border-collapse: collapse; font-family: var(--font-display); font-size: 0.88rem; min-width: 100%; }
+th, td { text-align: left; padding: 0.42rem 0.7rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-weight: 600; color: var(--ink-2); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.pill { display: inline-block; font-family: var(--font-display); font-size: 0.72rem; padding: 0.05rem 0.45rem; border-radius: 99px; border: 1px solid currentColor; white-space: nowrap; }
+.pass { color: var(--accent); }
+.fail { color: var(--ref); }
+.exp { color: var(--ink-2); }
+.callout { border-left: 3px solid var(--accent); background: var(--accent-soft); padding: 0.8rem 1rem; max-width: 65ch; margin: 1.2rem 0; }
+.callout p { margin: 0; }
+dl.gloss { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.2rem 1rem; }
+@media (min-width: 640px) { dl.gloss { grid-template-columns: 11rem minmax(0, 1fr); } }
+dl.gloss dt { font-family: var(--font-display); font-weight: 600; }
+dl.gloss dd { margin: 0 0 0.6rem; }
+.timeline { list-style: none; padding: 0; display: grid; gap: 0.5rem; }
+.timeline li { display: grid; grid-template-columns: 6.2rem minmax(0, 1fr); gap: 0.8rem; }
+.timeline time { font-family: var(--font-mono); font-size: 0.82rem; color: var(--accent); padding-top: 0.15rem; }
+/* SVG text and marks */
+svg text { font-family: var(--font-display); }
+svg .lbl { font-size: 13px; fill: var(--ink); }
+svg .tick { font-size: 11.5px; fill: var(--ink-2); font-variant-numeric: tabular-nums; }
+svg .val { font-size: 12.5px; fill: var(--ink); font-variant-numeric: tabular-nums; }
+svg .muted { fill: var(--ink-2); }
+svg .val, svg .tick { paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round; }
+svg .grid { stroke: var(--grid); stroke-width: 1; }
+svg .ref { stroke: var(--ref); stroke-width: 1.5; stroke-dasharray: 4 3; }
+svg .bar { fill: var(--bar); }
+svg .bar-low { fill: var(--bar-low); }
+svg .bar-ctl { fill: var(--bar-ctl); }
+svg .link { stroke: var(--bar-low); stroke-width: 3; }
+svg .dot { fill: var(--surface); stroke: var(--bar); stroke-width: 2; }
+svg .dot-end { fill: var(--bar); }
+svg .ln1 { stroke: var(--bar); stroke-width: 2.5; }
+svg .ln2 { stroke: var(--ln2); stroke-width: 2.5; stroke-dasharray: 5 3; }
+svg .ln1-dot { fill: var(--bar); }
+svg .ln2-dot { fill: var(--ln2); }
+svg .h-none { fill: var(--h-none); }
+svg .h0 { fill: var(--h0); } svg .h1 { fill: var(--h1); } svg .h2 { fill: var(--h2); } svg .h3 { fill: var(--h3); } svg .h4 { fill: var(--h4); }
+svg .diag { stroke: var(--ink); stroke-width: 2; }
+svg .hv { font-size: 15px; font-weight: 600; font-variant-numeric: tabular-nums; }
+svg .hn { font-size: 10.5px; font-variant-numeric: tabular-nums; }
+svg .tlo { fill: var(--t-lo); } svg .thi { fill: var(--t-hi); }
+svg .it { font-style: italic; font-weight: 400; }
+svg .node { fill: var(--surface); stroke: var(--ink-2); stroke-width: 1.2; }
+svg .node.accent { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1.6; }
+svg .nt { font-size: 14px; font-weight: 600; fill: var(--ink); }
+svg .ns { font-size: 11.5px; fill: var(--ink-2); }
+svg .edge { stroke: var(--ink-2); stroke-width: 1.5; fill: none; }
+svg .edge.loop { stroke: var(--accent); stroke-width: 2; stroke-dasharray: 6 4; }
+svg .arrowhead { fill: var(--ink-2); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 560px) { .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } body { font-size: 16px; } .kpi b { font-size: 1.35rem; } }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+Tamil:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+
+<div class="wrap">
+<nav class="toc" aria-label="Contents">
+  <div class="h">Contents</div>
+  <ol>
+    <li><a href="#summary">Executive summary</a></li>
+    <li><a href="#corpus">Corpus</a></li>
+    <li><a href="#pipeline">Pipeline</a></li>
+    <li><a href="#schema">Annotation schema</a></li>
+    <li><a href="#evaluation">Evaluation design</a></li>
+    <li><a href="#results">Results</a></li>
+    <li><a href="#science">Science comparison</a></li>
+    <li><a href="#siddhar">Siddhar layers</a></li>
+    <li><a href="#exploratory">Exploratory census</a></li>
+    <li><a href="#related">Related work</a></li>
+    <li><a href="#timeline">Timeline</a></li>
+    <li><a href="#limits">Limitations</a></li>
+    <li><a href="#repro">Reproduction</a></li>
+    <li><a href="#glossary">Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+<header>
+  <div class="eyebrow">Methodology report · cosci_knowledge_graph · state of 2026-11-27</div>
+  <h1>Marking, grading and bridging 40 classical Tamil books</h1>
+  <p class="lede">This report describes how the project turned the public-domain Tamil text of 40 books into a graded knowledge graph. AI agents mark each chapter against a written brief. Other agents grade every proposed link blind. The lessons from each grading round go back into the briefs. Every number below comes from a file in the repository, named under each figure.</p>
+  <p class="meta">All marking and grading was done by Claude models (Opus and Sonnet). No Tamil scholar has reviewed the results yet.</p>
+</header>
+
+<section id="summary">
+<h2><span class="no">1</span>Executive summary</h2>
+<p>The project built a knowledge graph over 40 classical Tamil books in nine groups. Every verse carries the Tamil original and an agent's own reading in English. Links between verses are proposed during marking, graded blind with hidden calibration links, and kept with their grade. An explorer draws the graph group by group and shows the bridges between groups.</p>
+<div class="kpis">
+  <div class="kpi"><b>40</b><span>books in 9 groups</span></div>
+  <div class="kpi"><b>20,606</b><span>verses or reading units marked</span></div>
+  <div class="kpi"><b>{{links}}</b><span>marking-pass links graded blind (of 6,936)</span></div>
+  <div class="kpi"><b>{{spct}}%</b><span>graded sound (strictest grade kept)</span></div>
+  <div class="kpi"><b>{{kap}}</b><span>inter-grader kappa, sound vs not, on {{pairs}} grade pairs</span></div>
+  <div class="kpi"><b>{{cal}}</b><span>hidden calibration links; graders exact {{calx}}%</span></div>
+</div>
+<p>Three findings stand out.</p>
+<ol class="findings">
+  <li><strong>Lessons fed back into the briefs raise quality, and the effect is measurable.</strong> Akam-to-Kural links rose from {{ak1}}% to {{ak2}}% sound once a rule required the two verses to share the speaker's situation. Agreement on the epics' stance field rose from kappa 0.34–0.39 in the pilot to {{st1}} in wave 5 after the rule for <code>refuted</code> was tightened.</li>
+  <li><strong>Bridges between groups are few, and most of the good ones run through the ethics works.</strong> All bridges together are {{br_p}}% sound against {{within}}% within groups. Akam to ethics and puram to ethics both reach 46%, level with their own baselines.</li>
+  <li><strong>The model matters as much as the method.</strong> Under the same Sonnet grader, Opus-marked Civaka Cintamani chapters were {{op}}% sound and Sonnet-marked chapters {{so}}%. The Sonnet grader was also stricter and less calibrated. The Jain epics finished at 13.5% sound and remain the weakest part of the graph.</li>
+</ol>
+{{SRC_SUMMARY}}
+</section>
+
+<section id="corpus">
+<h2><span class="no">2</span>Corpus</h2>
+<p>The corpus is read in nine groups. Each group has its own core concerns and its own marking frame. Links are graded within a group and between groups separately, so a bridge can be compared with the baseline of the groups it joins.</p>
+<div class="tw"><table>
+<thead><tr><th>Group</th><th>Books</th><th class="n">Verses / units</th><th class="n">Links proposed</th></tr></thead>
+<tbody>
+<tr><td>Ettuthogai, akam</td><td>Natrinai, Kuruntokai, Ainkurunuru, Kalittokai, Akananuru</td><td class="n">1,851</td><td class="n">1,220</td></tr>
+<tr><td>Ettuthogai, puram</td><td>Purananuru, Patitruppattu</td><td class="n">490</td><td class="n">452</td></tr>
+<tr><td>Ettuthogai, devotional</td><td>Paripadal</td><td class="n">146</td><td class="n">144</td></tr>
+<tr><td>Pattupattu</td><td>the ten idylls</td><td class="n">207</td><td class="n">122</td></tr>
+<tr><td>Kilkanakku, ethics</td><td>10 short works, plus the Kural (1,330) and Naladiyar (400) as kept graphs</td><td class="n">1,070 (+1,730)</td><td class="n">1,281</td></tr>
+<tr><td>Kilkanakku, akam</td><td>Kar Narpathu, Ainthinai Aimpathu and Ezhupathu, Thinaimozhi Aimpathu, Thinaimalai Nootraimpathu, Kainnilai, Kalavazhi Narpathu</td><td class="n">463</td><td class="n">327</td></tr>
+<tr><td>Epics, great</td><td>Silappathikaram, Manimekalai, Civaka Cintamani, Valayapathi, Kundalakesi</td><td class="n">3,959</td><td class="n">1,897</td></tr>
+<tr><td>Epics, minor</td><td>Soolamani, Neelakesi, Naga Kumara, Udayana Kumara, Yasodhara Kaviyam</td><td class="n">3,881</td><td class="n">1,493</td></tr>
+<tr><td>Devotional and mystic</td><td>Tirumanthiram 2,783, Thiruppugazh 1,325, Siddhar songs 2,701 (kept graphs)</td><td class="n">6,809</td><td class="n">kept</td></tr>
+<tr><td>Grammar</td><td>Tholkappiyam (1,603 nurpas)</td><td class="n">frame</td><td class="n">none</td></tr>
+</tbody></table></div>
+<p>The explorer holds 14,947 links: 6,936 from the marking pass and 8,011 from the five kept graphs. There are 354 shared concepts, after 12 near-duplicates were merged as aliases.</p>
+{{SRC_CORPUS}}
+
+<h3>Sources and editions</h3>
+<p>Every text comes from Project Madurai e-texts, identified by their <code>pmuni</code> file numbers in <code>docs/ingest/*.md</code>. For the Ettuthogai, each line was aligned with the sangamtamil.com text and every difference was classed as spelling, reading, line break or eye-skip. For Natrinai, Kuruntokai, Ainkurunuru and the Purananuru, readings that differed were arbitrated by the tamilvu.org text (U. V. Swaminatha Aiyar's edition). Where tamilvu agreed with the site, our line was repaired. Where it agreed with ours, ours stayed. Where it agreed with neither, ours stayed and was flagged.</p>
+<div class="tw"><table>
+<thead><tr><th>Book</th><th class="n">Lines changed</th><th class="n">Variants kept and flagged</th></tr></thead>
+<tbody>{{REP_ROWS}}</tbody></table></div>
+<p>That is {{rep_total}} logged repairs, each with its old and new line and its authority. A further {{flags}} text flags (corrupt lines, colophon doubts, cross-check differences) are kept in a shared flags file. Typical repairs restore the lost vowel sign in the <span class="ta">-ஒடு</span> ending, remove encoding leftovers, and supply lines that the base text skipped.</p>
+{{SRC_REPAIRS}}
+
+<h3>Copyright rules</h3>
+<ul>
+  <li>Only the Tamil original is stored, and it is public domain. Readings and notes are the agents' own words.</li>
+  <li>No modern translation or commentary is stored or quoted. The marking check fails a reading that repeats a run of six words from a modern commentary held in the core file.</li>
+  <li>sangamtamil.com's English translations are a translator's modern work. Only the site's Tamil lines and thinai labels were used.</li>
+  <li>Texts still in copyright stay on the owner's machine in <code>data/private/</code>, which git ignores.</li>
+</ul>
+{{SRC_COPY}}
+</section>
+
+<section id="pipeline">
+<h2><span class="no">3</span>Pipeline</h2>
+<p>Each book passes through the same stages. Marking and grading are done by separate agents that see different material. The loop from scoring back to the briefs is the part of the method that changes results.</p>
+<figure>
+<div class="fig">{{PIPE}}</div>
+<figcaption>Accent boxes are where the written briefs live. The dashed arrow is the feedback loop: each grading round ends with a "Lessons" section added to the brief for the next wave.</figcaption>
+</figure>
+<ol>
+  <li><strong>Ingest.</strong> Parse each e-text into records with stable ids such as <code>purananuru:192</code> or <code>pattupattu:1:1-24</code>.</li>
+  <li><strong>Repair.</strong> Diff against sangamtamil.com, arbitrate with tamilvu, log every change.</li>
+  <li><strong>Mark.</strong> An agent marks one chapter at a time by the brief for its field set, and proposes links with a type, a note and a <code>teaches</code> sentence.</li>
+  <li><strong>Check.</strong> <code>scripts/book_marks.py check</code> validates the schema, concept ids, verse ids and copyright rules.</li>
+  <li><strong>Packet.</strong> <code>scripts/make_sangam_packets.py</code> shuffles links into blind packets and hides calibration links of known grade among them.</li>
+  <li><strong>Grade and score.</strong> One grader takes every packet, a second takes a sample. <code>scripts/score_sangam_grades.py</code> computes agreement and calibration. Where graders differ, the strictest grade is kept.</li>
+  <li><strong>Feed back.</strong> Weak link kinds are named and a rule is written into the brief.</li>
+  <li><strong>Build.</strong> <code>scripts/build_group_graphs.py</code> writes the nine group graphs and the bridge matrix. <code>scripts/export_viz.py</code> feeds the explorer.</li>
+</ol>
+</section>
+
+<section id="schema">
+<h2><span class="no">4</span>Annotation schema</h2>
+<p>Every verse gets the house fields: a one-sentence <code>reading</code>, one to four <code>concepts</code>, an optional <code>nuance</code> and an <code>uncertain</code> flag. Each group then adds the fields of its field set. A field is kept only if a second blind reader can reproduce it.</p>
+
+<h3>The Tholkappiyam pilot: which fields are reliable</h3>
+<p>Before the Sangam books were marked, two agents tagged the same 100 verses (20 each from five books) by the Tholkappiyam brief, without seeing each other's tags. Fields with kappa of 0.8 or more were adopted. Fields near 0.5 or below were dropped or recast.</p>
+<figure>
+<div class="fig">{{THOL}}</div>
+<figcaption>Kappa between two blind taggers on 100 verses. Dashed lines mark 0.6 and 0.8. Pale bars did not pass.</figcaption>
+</figure>
+{{SRC_THOL}}
+
+<div class="tw"><table>
+<thead><tr><th>Field set</th><th>Used for</th><th>Main fields</th><th>Reliability</th></tr></thead>
+<tbody>
+<tr><td>Akam</td><td>Ettuthogai akam, Kilkanakku akam</td><td><code>akam_puram</code>, colophon <code>thinai</code>/<code>thurai</code>, inferred thinai with evidence, <code>uri</code>, <code>mutal</code>, <code>karu</code> with role, comparisons, <code>meyppadu</code>, <code>thurai_akam</code> (speaker, addressee)</td><td><span class="pill pass">akam/puram 0.97</span> <span class="pill pass">uri 0.93</span> <span class="pill pass">comparison 0.84</span> <span class="pill exp">thinai 0.72</span> <span class="pill exp">karu recast</span></td></tr>
+<tr><td>Akam, experimental</td><td>same books</td><td><code>ullurai</code> (hidden comparison), <code>iraicchi</code> (sense rising from a thing), each with numbered conditions a second reader can check</td><td>Pilot 0.48 and 0.49. Under the sharper rule, graders vs marker 0.79–0.93 in round 1, falling to 0.30–0.62 in wave 4. <span class="pill exp">kept as experimental</span></td></tr>
+<tr><td>Puram</td><td>Purananuru, Patitruppattu, Pattupattu</td><td>puram thinai and <code>puram_thurai</code>, <code>entities</code> (kings, patrons, battles, towns), <code>meyppadu</code></td><td>Shares the akam frame; the colophon is the fact, the agent's thinai an inference.</td></tr>
+<tr><td>Ethics</td><td>10 Kilkanakku works</td><td><code>items</code> (the counted things), <code>count_word</code>, <code>domain</code> (king, householder, ascetic, all, ritual-conduct), historical <code>norm</code> (caste, purity, gender, diet), <code>pazhamozhi</code> story</td><td><span class="pill pass">domain 0.96–1.00</span> <span class="pill pass">norm 0.78–0.82</span> <span class="pill pass">count word 0.96</span> in the pilot</td></tr>
+<tr><td>Narrative</td><td>Great and minor epics</td><td><code>speaker</code>, <code>agents</code>, <code>event</code>, <code>claims</code> with <code>school</code> and <code>stance</code> (asserted, refuted, reported), <code>echoes</code> of the Kural</td><td><span class="pill pass">school 0.93–0.97</span> <span class="pill fail">stance 0.34–0.39</span> in the pilot; stance rose to 0.76 after the rule change</td></tr>
+<tr><td>Devotional and mystic</td><td>Tirumanthiram, Thiruppugazh, Siddhar songs, Paripadal</td><td>concepts and links by per-book briefs; Siddhar <code>stance</code>, reading layers, cipher lexicon (pilot)</td><td>Layers did not improve links; lexicon 67% accepted. See section 8.</td></tr>
+</tbody></table></div>
+<p>Dropped on purpose for the Sangam books: <code>kurippu</code> (kappa 0.45), the porul 6.12 states, <code>frame_fit</code> and <code>uyir_mey</code>. The last two were designed for the later books, and every Sangam poem is native to the frame.</p>
+{{SRC_SCHEMA}}
+</section>
+
+<section id="evaluation">
+<h2><span class="no">5</span>Evaluation design</h2>
+<div class="callout"><p><strong>Kappa in one sentence:</strong> kappa measures how often two readers agree beyond what they would agree by chance, where 0 is chance and 1 is perfect agreement.</p></div>
+<ul>
+  <li><strong>Blind packets.</strong> A grader sees the Tamil of both verses, the marked readings, the link type, its note and its <code>teaches</code> sentence. The grader does not see who proposed the link and is told that fluent notes are not evidence.</li>
+  <li><strong>Four grades.</strong> <em>Sound</em>: the connection is real and <code>teaches</code> names something neither verse shows alone. <em>Weak</em>: real but thin. <em>Forced</em>: depends on stretching a word or reading. <em>Wrong</em>: misreads a verse.</li>
+  <li><strong>Hidden calibration.</strong> Links whose grade is already settled are shuffled into each packet. Across all runs, {{cal}} calibration links were graded: exact {{calx}}%, stricter {{stricter}} times, more lenient {{lenient}} times.</li>
+  <li><strong>Second graders.</strong> {{twice}} links were graded more than once, giving {{pairs}} grade pairs. Exact agreement was {{exact}}% and kappa on sound against not sound was {{kap}}.</li>
+  <li><strong>Strictest grade wins.</strong> Where graders differ, the lower grade is kept, and every grade is recorded with its run, grader and model.</li>
+  <li><strong>Field re-tags.</strong> Part B of a packet asks the grader to re-tag a field (ullurai, stance, domain) without seeing the marker's tag. That is how field reliability is measured.</li>
+  <li><strong>Controls in the science comparison.</strong> 100 random verse-finding pairs go through the same packets unlabelled, and the threshold for a strong link is set from how they score (section 7).</li>
+</ul>
+{{SRC_EVAL}}
+</section>
+
+<section id="results">
+<h2><span class="no">6</span>Results</h2>
+<p>Of the {{links}} graded links, {{sound}} are sound, {{weak}} weak, {{forced}} forced and {{wrong}} wrong. Few links are wrong. Most failures are links that are real but teach nothing new: <code>teaches</code> failed on {{teaches}} links.</p>
+
+<h3>6.1 Sound links by group</h3>
+<figure>
+<div class="fig">{{BAR_GROUPS}}</div>
+<figcaption>Share of graded links that are sound, by the group of the proposing book. Pale bars are below 20%. The dashed line is the all-books figure.</figcaption>
+</figure>
+<div class="tw"><table>
+<thead><tr><th>Group</th><th class="n">Links</th><th class="n">Sound %</th><th class="n">Kappa (sound)</th><th class="n">Calibration exact %</th></tr></thead>
+<tbody>{{GROUP_ROWS}}</tbody></table></div>
+<p>Agreement is lowest where sound% is most uncertain: Valayapathi kappa 0.04, Soolamani 0.15, Nanmanikkadigai 0.17, Natrinai 0.18.</p>
+{{SRC_GROUPS}}
+
+<h3>6.2 The bridge matrix</h3>
+<p>Each cell is sound links over graded links, in both directions, for a pair of groups. The diagonal is the within-group baseline that a bridge has to beat.</p>
+<figure>
+<div class="fig heat">{{HEAT}}</div>
+<figcaption>Ethics and devotional cells include the five kept graphs, which were graded earlier under their own briefs. That is why the ethics diagonal (72%) and the ethics–devotional cell (59%) are high, and they are not directly comparable with the marking-pass cells.</figcaption>
+</figure>
+<ul>
+  <li>Akam to ethics (229 sound, 46%) and puram to ethics (109 sound, 46%) match or beat the akam (41%) and puram (46%) baselines.</li>
+  <li>The great epics bridge best to puram (44%, above their own 36%).</li>
+  <li>The minor epics bridge to almost nothing: 8% to ethics, 7% to devotional, 0 of 26 to the Sangam groups.</li>
+  <li>Of the four bridges set out to test, only puram giving to the ethics works holds. Akam landscape to mystic inner landscape has only 5 links. Epic karma to the Siddhars and Naladiyar is weak. Murugan across Paripadal, Pattupattu and Thiruppugazh is thin.</li>
+</ul>
+{{SRC_BRIDGES}}
+
+<h3>6.3 Lessons fed back into the briefs</h3>
+<p>After each round the scores name the weak link kinds, and a rule goes into the brief. The chart follows four measures across runs.</p>
+<figure>
+<div class="fig">{{LESSONS}}</div>
+<figcaption>Filled dots are the latest run. Akam-to-ethics links (mostly to the Kural) rose once they had to share the speaker's situation. The ethics <code>list_adds</code> test failed far less once it had to name what the list form adds. Sangam <code>teaches</code> failures fell only slightly. The epic <code>gains</code> test did not improve, and wave 6 (*graded by Sonnet) is the outlier.</figcaption>
+</figure>
+<p>Other measured lessons: <code>parallel_domain</code> links were 14–20% sound in every field set, so the briefs now advise against the type. In Sangam round 1, akam-to-puram links through the same king or place were 80% sound, <code>develops</code> 67% and <code>agrees</code> 39%. The briefs now prefer develops or qualifies when two verses differ in scope.</p>
+{{SRC_LESSONS}}
+
+<h3>6.4 Stance agreement on the epics</h3>
+<p>In the pilot the marker called 47 of 62 claims <code>refuted</code>, and the graders called most of them <code>reported</code>. The rule was changed: <code>refuted</code> only when the work answers the claim. Stance kappa between marker and grader moved from 0.34–0.39 in the pilot to {{st1}} in wave 5.</p>
+<figure>
+<div class="fig">{{STANCE}}</div>
+<figcaption>Kappa on the stance field. In the pilot the two graders already agreed with each other (0.86) but not with the marker. In wave 3 the second grader saw only 40 claims. Wave 6's first grader was Sonnet.</figcaption>
+</figure>
+{{SRC_STANCE}}
+
+<h3>6.5 Opus and Sonnet</h3>
+<p>Wave 6 was paused at Civaka Cintamani chapter 101 to save the usage limit and finished on Sonnet. That split gives a natural comparison.</p>
+<div class="tw"><table>
+<thead><tr><th>Measure</th><th class="n">Opus</th><th class="n">Sonnet</th></tr></thead>
+<tbody>
+<tr><td>Marking: wave 6 links sound, same Sonnet grader</td><td class="n">{{op}}%</td><td class="n">{{so}}%</td></tr>
+<tr><td>Marking: same, strictest grade</td><td class="n">{{ops}}%</td><td class="n">{{sos}}%</td></tr>
+<tr><td>Grading: share of links given sound</td><td class="n">47.1%</td><td class="n">14.9%</td></tr>
+<tr><td>Grading: exact on calibration links</td><td class="n">70.5%</td><td class="n">52.6%</td></tr>
+<tr><td>Grading: g1–g2 kappa (sound)</td><td class="n">0.55–0.79 (other runs)</td><td class="n">0.30 (wave 6)</td></tr>
+</tbody></table></div>
+<p>Both the marker and the grader push wave 6 down. The Sonnet grader was stricter than the known grade 71 times and more lenient 37 times. An Opus spot-check of 4 wave-6 packets gave 16% sound, so the Jain epic links are weak under either grader.</p>
+{{SRC_MODELS}}
+</section>
+
+<section id="science">
+<h2><span class="no">7</span>The science comparison</h2>
+<p>This track pairs claims in the Siddhar songs with current scientific findings and keeps a pair only if it beats random pairings.</p>
+<ol>
+  <li><strong>Findings.</strong> 60 one-sentence paraphrases of peer-reviewed reviews and trials, each with a strength label (established, replicated, contested, speculative). Findings that contradict Siddhar claims, such as mercury toxicity and limits on lifespan, are included on purpose.</li>
+  <li><strong>Scoring.</strong> All 162,060 verse-finding pairs (2,701 × 60) are scored by keyword and concept overlap. The top 300 are selected with caps per finding and per verse.</li>
+  <li><strong>Controls.</strong> 100 negative controls (seed 20261125): a candidate finding with a random verse, or a candidate verse with a random finding.</li>
+  <li><strong>Blind grading.</strong> Two graders score all 400 items 0–3 in shuffled packets, with a direction (supports, contradicts, neither).</li>
+  <li><strong>Threshold from the controls.</strong> A pair is strong only if its mean grade is at least 2, above the 95th percentile of control grades, and its overlap is above the 95th percentile of control overlaps.</li>
+</ol>
+<figure>
+<div class="fig">{{SCI}}</div>
+<figcaption>No control reached a mean grade of 2, so the control false-positive rate is 0. The 95th percentile of control grades was 0.52. 17 candidates reached 2 or more.</figcaption>
+</figure>
+<p>The 17 strong pairs: 8 support, 5 contradict and 4 are neither. Two depend on a cipher reading the Tamil does not fix. Six are about one finding: that mercury becomes gold only by nuclear reaction. Several of those verses themselves mock outward gold-making.</p>
+<div class="tw"><table>
+<thead><tr><th>Finding</th><th class="n">Strong pairs</th></tr></thead>
+<tbody>{{STRONG_ROWS}}</tbody></table></div>
+<div class="callout"><p><strong>Correspondence is not confirmation.</strong> A strong pair means a blind grader judged that the verse makes a specific claim a finding bears on, more clearly than random pairings. It does not mean the Siddhars anticipated the science, that a finding confirms the verse's metaphysics, or that any practice is safe. Medical and alchemical verses are recorded as historical claims, never remedies.</p></div>
+{{SRC_SCI}}
+</section>
+
+<section id="siddhar">
+<h2><span class="no">8</span>Siddhar reading layers and the cipher lexicon</h2>
+<p>The Siddhar songs often carry two senses: a plain one and a coded one about breath, alchemy or consciousness. A pilot on 6 chapters (99 verses, 6 poets) read each verse in five layers (literal, breath, alchemy, consciousness, social), proposed 41 links, and drafted a lexicon of 39 double-reading words such as <span class="ta">வாசி</span>, <span class="ta">மூலநாடி</span> and <span class="ta">வெளி</span>.</p>
+<figure>
+<div class="fig">{{LAYERS}}</div>
+<figcaption>Share of sound grades by the layer a link names, averaged over two graders. The dashed line is the flat marking's rate for links between Siddhar verses.</figcaption>
+</figure>
+<p><strong>A negative result.</strong> The graders rated 46% and 37% of the new links sound, no better than the flat marking's 53%. Both graders said 36 of the 41 links hold without their layer. The layer describes a link more often than it carries it. Consciousness links (17%) and shared-key links (25%) were the least reliable.</p>
+<p><strong>What was kept.</strong></p>
+<ul>
+  <li>The cipher lexicon v0.2: 26 entries accepted by both graders, 10 rejected, 3 disputed. Graders agreed on 92% of entries. The acceptance rate is 67%, against ThinaiKG's 83% from a single reviewer.</li>
+  <li>The stance field. Old links between verses of the same stance were 64% sound, against 48% across stances, and the sound "tension" links were the stance differences.</li>
+  <li>The body-place field, and a rule to hold consciousness and shared-key links to a stricter bar.</li>
+</ul>
+<p>The 2,701 Siddhar verses were not re-marked in layers.</p>
+{{SRC_SIDDHAR}}
+</section>
+
+<section id="exploratory">
+<h2><span class="no">9</span>Exploratory census of the whole Tamil corpus</h2>
+<p>A separate track asks how the texts describe knowing and measuring. It is exploratory and not part of the graded graph.</p>
+<ul>
+  <li><strong>Census.</strong> 41,583 Tamil units in 45 corpus groups were tested against 84 registered comparisons: 3,492,972 pairs. 2,218 pairs in 1,742 units met both vocabulary conditions within three lines. The rule recovered only 1 of the 17 strong science pairs and matched 0 of 100 controls. Vocabulary alone is a poor proxy for a reading.</li>
+  <li><strong>Theme combinations.</strong> Six sets of Tamil search terms were crossed over all 63 subsets. Only 289 units matched two or more. One enrichment (development with ecology, 39 units against 20.43 expected, Holm-adjusted p = 0.0285) vanished when three short ambiguous strings were removed. For example, <span class="ta">கரு</span> also matches the start of the word for sugarcane.</li>
+</ul>
+<p>No combination had corrected evidence in both vocabulary runs. The 289 units are a reading queue, not a result.</p>
+{{SRC_CENSUS}}
+</section>
+
+<section id="related">
+<h2><span class="no">10</span>Related work</h2>
+<h3>ThinaiKG (M.Tech dissertation, 2025–26)</h3>
+<p>ThinaiKG classified 1,891 akam verses into the five thinai using only karu words as features. A lexicon grew from 176 to 417 terms with a human accepting each proposed term (83% accepted). A linear SVM reached macro F1 0.82; IndicBERT peaked at 58.6%. The graph is published at sangamtamil.com.</p>
+<p>What we adopted: domain theory as features, a versioned lexicon with an acceptance loop, and double confirmation before an edge enters the graph. What we treated with caution: the 500 gold labels may be colophon labels, no held-out split is described, and one reviewer accepted the terms. Tholkappiyam lets karu cross landscapes and makes uri decide the thinai, so an entity-only model reads the weakest signal. Our marking tags uri directly.</p>
+<h3>sangamtamil.com</h3>
+<p>A static reading edition of 47 texts. We crawled it at one request per second (453 requests) and used only its Tamil lines and thinai labels: as a line-by-line cross-check of our Ettuthogai text and as a source of native-thing mentions for validation. Its English translations are modern work and were not used.</p>
+<h3>Tamil Research Atlas project report</h3>
+<p>A companion report on the same repository, produced by another tool (<code>output/pdf/Tamil_Research_Atlas_Project_Report.pdf</code>). It covers the five-book literary graph, independent model readings, a prompt trial, hidden-target retrieval and the 41,583-unit census. This report covers what it does not: the 40-book marking and grading pipeline, the field sets and their reliability, the feedback loop, and the bridge matrix.</p>
+{{SRC_RELATED}}
+</section>
+
+<section id="timeline">
+<h2><span class="no">11</span>Timeline</h2>
+<ol class="timeline">
+  <li><time>2026-10-31</time><span>Project Madurai catalog mirrored; Kural chapters marked; first blind readings.</span></li>
+  <li><time>2026-11-02</time><span>The remaining 443 Kural links graded.</span></li>
+  <li><time>2026-11-15</time><span>Kural explorer; link-pass pilot and graded packets.</span></li>
+  <li><time>2026-11-17</time><span>Naladiyar, Thiruppugazh, Tirumanthiram, Purananuru, Siddhar songs and others ingested. Tirumanthiram (693 links) and Thiruppugazh (405) graded.</span></li>
+  <li><time>2026-11-18</time><span>Refinement pass: 2,689 links graded blind.</span></li>
+  <li><time>2026-11-24</time><span>Siddhar pass 1 graded: 419 links.</span></li>
+  <li><time>2026-11-25</time><span>Siddhar graph (1,351 links); science comparison; Tholkappiyam pilot and second tagger; Siddhar layers; Sangam rounds 1 and 2; text repairs; group pilots.</span></li>
+  <li><time>2026-11-26</time><span>Waves 3, 4 and 5 marked and graded.</span></li>
+  <li><time>2026-11-27</time><span>Wave 6 (Jain epics) marked and graded; whole corpus in one graph with the bridge matrix.</span></li>
+</ol>
+<p>The repository has 330 commits in this period.</p>
+{{SRC_TIMELINE}}
+</section>
+
+<section id="limits">
+<h2><span class="no">12</span>Limitations</h2>
+<ul>
+  <li><strong>All graders are AI models.</strong> Markers and graders are Claude agents sharing training. No grader had a Tamil lexicon. Agreement between them is not the same as being right.</li>
+  <li><strong>No Tamil scholar has reviewed anything yet.</strong> The readings, grades, field tags and lexicon are unreviewed.</li>
+  <li><strong>Two grading regimes in one matrix.</strong> The five kept graphs (Kural, Naladiyar, Tirumanthiram, Thiruppugazh, Siddhars) were graded under older link-pass and per-book briefs. The Tirumanthiram's graders ran lenient against calibration. Their cells are not comparable with the marking pass's.</li>
+  <li><strong>Weak Jain epic links.</strong> 303 of 2,242 wave-6 links are sound (13.5%). Soolamani 9%, Udayana Kumara 7%, Naga Kumara 7%. Most of this is the Sonnet marking and grading.</li>
+  <li><strong>20 links never graded</strong>: 8 in Paripadal and 12 in Pattupattu were in no packet.</li>
+  <li><strong>Low agreement on some books</strong>: Valayapathi kappa 0.04, Soolamani 0.15. Their sound% is unsettled.</li>
+  <li><strong>Concept merges are judgment calls.</strong> Four of the twelve aliases join different Tamil words and could be split again.</li>
+  <li><strong>Modern commentary is kept local only.</strong> Copyrighted translations and commentary sit in the git-ignored <code>data/private/</code> and were not used for readings, so the graph lacks the commentary tradition except for the Kural and Naladiyar.</li>
+  <li><strong>Token cost was not recorded</strong> per wave. Only the early Kural link pass has a figure (about 1.2 million tokens per 443 links).</li>
+</ul>
+{{SRC_LIMITS}}
+</section>
+
+<section id="repro">
+<h2><span class="no">13</span>Reproduction</h2>
+<p>All scripts are standard-library Python, run from the repository root with <code>python3 -I</code>.</p>
+<pre><code># Text: parse and repair
+python3 -I scripts/repair_purananuru.py      # parse + repair, logs kg/core/purananuru_repairs.jsonl
+python3 -I scripts/repair_ettuthogai.py      # tamilvu arbitration for three anthologies
+python3 -I scripts/repair_pattupattu.py
+
+# Marking: show and validate a book's chapters
+python3 -I scripts/book_marks.py purananuru show 3
+python3 -I scripts/book_marks.py purananuru check 3
+
+# Grading: packets, then scores
+python3 -I scripts/make_sangam_packets.py
+python3 -I scripts/score_sangam_grades.py
+
+# Merge grades and build the graphs
+python3 -I scripts/merge_sangam_grades.py    # kg/groups/*/link_audit.json, all_link_audit.json
+python3 -I scripts/merge_concepts.py         # kg/themes/concepts.json
+python3 -I scripts/build_group_graphs.py     # nodes, edges, bridges.jsonl, bridges_summary.json
+python3 -I scripts/export_viz.py             # viz/data_*.js
+
+# Side tracks
+python3 -I scripts/tholkappiyam_agreement.py
+python3 -I scripts/siddhar_layers_check.py
+python3 -I scripts/science_pairs.py
+python3 -I scripts/science_threshold.py
+python3 -I scripts/science_census.py
+python3 -I scripts/science_combinations.py
+
+# Explorer
+python3 -I -m http.server 8817 --bind 127.0.0.1 --directory viz</code></pre>
+<p>Script arguments vary by book; each brief in <code>docs/</code> lists the exact commands for its field set.</p>
+</section>
+
+<section id="glossary">
+<h2><span class="no">14</span>Glossary</h2>
+<dl class="gloss">
+  <dt>akam / puram <span class="ta">அகம் / புறம்</span></dt><dd>The inner life of love and the outer life of kings, war, gifts and death: the two halves of Sangam poetry.</dd>
+  <dt>thinai <span class="ta">திணை</span></dt><dd>A poetic landscape and the mode of love or conduct it stands for. Akam has five (kurinji, mullai, marutham, neytal, palai).</dd>
+  <dt>mutal <span class="ta">முதல்</span></dt><dd>The first things of a poem: its land, season and hour.</dd>
+  <dt>karu <span class="ta">கரு</span></dt><dd>The native things of a landscape: its plants, animals, people, gods and tools.</dd>
+  <dt>uri <span class="ta">உரி</span></dt><dd>The human situation proper to a thinai, such as union, separation or waiting. In the Tholkappiyam it settles the thinai.</dd>
+  <dt>thurai <span class="ta">துறை</span></dt><dd>The speech situation of a poem: who speaks, to whom, on what occasion. Usually given in the colophon.</dd>
+  <dt>meyppadu <span class="ta">மெய்ப்பாடு</span></dt><dd>The feeling a verse displays, one of eight, with its cause.</dd>
+  <dt>ullurai <span class="ta">உள்ளுறை</span></dt><dd>A hidden comparison: a scene from the landscape that stands for the human situation without saying so. Experimental field.</dd>
+  <dt>iraicchi <span class="ta">இறைச்சி</span></dt><dd>A sense that rises from a native thing, beyond its literal role. Tagged only when removing the thing would lose that sense. Experimental field.</dd>
+  <dt>kappa</dt><dd>Agreement between two readers beyond chance: 0 is chance, 1 is perfect.</dd>
+  <dt>sound</dt><dd>A real connection with the right type, an accurate note, and a <code>teaches</code> sentence that says something neither verse says alone.</dd>
+  <dt>weak</dt><dd>A real connection that is thin, generic or overstated.</dd>
+  <dt>forced</dt><dd>A connection that depends on stretching a word, a reading or a colophon.</dd>
+  <dt>wrong</dt><dd>A link that misreads a verse or claims something the verses contradict.</dd>
+  <dt>calibration link</dt><dd>A link of settled grade hidden in a packet to check the grader.</dd>
+</dl>
+</section>
+</main>
+</div>

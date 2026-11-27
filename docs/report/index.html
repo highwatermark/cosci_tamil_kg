@@ -1,0 +1,511 @@
+<title>Tamil Corpus Methods</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: one reading column (~65ch) with wide figures that scroll inside their own frames; a slim contents rail on wide screens. */
+:root {
+  --bg: #f5f7f9;
+  --surface: #ffffff;
+  --ink: #18202c;
+  --ink-2: #4a5566;
+  --rule: #d6dce4;
+  --grid: #e3e8ee;
+  --accent: #1e5a7a;
+  --accent-soft: #dbe8f0;
+  --bar: #2b6f93;
+  --bar-low: #9fb3c2;
+  --bar-ctl: #c0883a;
+  --ref: #b0413e;
+  --ln2: #c0883a;
+  --h-none: #eef1f4;
+  --h0: #e6eef3; --h1: #bfd5e2; --h2: #8db6cd; --h3: #3f80a5; --h4: #1d4f6d;
+  --t-lo: #18202c; --t-hi: #ffffff;
+  --code-bg: #eaeef2;
+  --font-body: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
+  --font-display: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --font-tamil: "Noto Sans Tamil", "Tamil Sangam MN", "Latha", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11161d; --surface: #18202a; --ink: #e2e7ee; --ink-2: #a3aebd; --rule: #2c3644; --grid: #243040;
+    --accent: #7fb7d6; --accent-soft: #1d3140; --bar: #5ea3c8; --bar-low: #4a5c6c; --bar-ctl: #d9a35a;
+    --ref: #e57b77; --ln2: #d9a35a; --h-none: #1a222c;
+    --h0: #1c2833; --h1: #23425a; --h2: #2f6282; --h3: #4f93ba; --h4: #8cc4e2;
+    --t-lo: #e2e7ee; --t-hi: #0e141b; --code-bg: #1f2833;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11161d; --surface: #18202a; --ink: #e2e7ee; --ink-2: #a3aebd; --rule: #2c3644; --grid: #243040;
+  --accent: #7fb7d6; --accent-soft: #1d3140; --bar: #5ea3c8; --bar-low: #4a5c6c; --bar-ctl: #d9a35a;
+  --ref: #e57b77; --ln2: #d9a35a; --h-none: #1a222c;
+  --h0: #1c2833; --h1: #23425a; --h2: #2f6282; --h3: #4f93ba; --h4: #8cc4e2;
+  --t-lo: #e2e7ee; --t-hi: #0e141b; --code-bg: #1f2833;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 17px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 2rem 4rem;
+}
+.wrap { max-width: 1060px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr); gap: 2rem; }
+@media (min-width: 980px) { .wrap { grid-template-columns: 200px minmax(0, 1fr); } }
+nav.toc { font-family: var(--font-display); font-size: 0.82rem; }
+@media (min-width: 980px) { nav.toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 1.5rem); align-self: start; } }
+nav.toc ol { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.3rem; counter-reset: s; }
+nav.toc a { color: var(--ink-2); text-decoration: none; }
+nav.toc a:hover, nav.toc a:focus-visible { color: var(--accent); text-decoration: underline; }
+nav.toc .h { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.72rem; color: var(--ink-2); margin-bottom: 0.5rem; }
+main { min-width: 0; }
+main > section { padding-top: 1.8rem; border-top: 1px solid var(--rule); margin-top: 2.2rem; }
+.prose, main p, main ul, main ol, main dl, .lede { max-width: 65ch; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; line-height: 1.2; }
+h1 { font-size: clamp(1.9rem, 4.5vw, 2.6rem); font-weight: 600; margin: 0.2rem 0 0.8rem; letter-spacing: -0.01em; }
+h2 { font-size: 1.45rem; font-weight: 600; margin: 0 0 0.8rem; }
+h2 .no { font-family: var(--font-mono); font-weight: 400; color: var(--accent); font-size: 0.95rem; margin-right: 0.5rem; }
+h3 { font-size: 1.08rem; font-weight: 600; margin: 1.6rem 0 0.5rem; }
+.eyebrow { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.74rem; color: var(--accent); }
+.lede { font-size: 1.12rem; color: var(--ink); }
+.meta { font-family: var(--font-display); font-size: 0.85rem; color: var(--ink-2); }
+a { color: var(--accent); }
+code, .mono { font-family: var(--font-mono); font-size: 0.84em; background: var(--code-bg); padding: 0.05em 0.3em; border-radius: 3px; overflow-wrap: anywhere; }
+pre { font-family: var(--font-mono); font-size: 0.82rem; background: var(--code-bg); padding: 1rem; border-radius: 4px; overflow-x: auto; line-height: 1.5; max-width: 100%; }
+pre code { background: none; padding: 0; }
+.ta { font-family: var(--font-tamil); }
+.kpis { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin: 1.4rem 0; }
+.kpi { background: var(--surface); padding: 0.9rem 1rem; }
+.kpi b { display: block; font-family: var(--font-display); font-size: 1.6rem; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--accent); }
+.kpi span { font-family: var(--font-display); font-size: 0.8rem; color: var(--ink-2); line-height: 1.35; display: block; }
+.findings { display: grid; gap: 0.9rem; padding: 0; list-style: none; counter-reset: f; }
+.findings li { padding-left: 2.2rem; position: relative; }
+.findings li::before { counter-increment: f; content: counter(f); position: absolute; left: 0; top: 0.1rem; width: 1.5rem; height: 1.5rem; border: 1px solid var(--accent); color: var(--accent); font-family: var(--font-mono); font-size: 0.8rem; display: grid; place-items: center; border-radius: 50%; }
+figure { margin: 1.4rem 0; }
+.fig { overflow-x: auto; background: var(--surface); border: 1px solid var(--rule); padding: 1rem; border-radius: 4px; max-width: 100%; }
+.fig svg.diagram { min-width: 760px; width: 100%; height: auto; display: block; }
+.fig svg.chart { display: block; }
+.fig.heat svg { min-width: 680px; }
+figcaption { font-family: var(--font-display); font-size: 0.85rem; color: var(--ink-2); margin-top: 0.5rem; max-width: 70ch; }
+.src { font-family: var(--font-display); font-size: 0.78rem; color: var(--ink-2); margin-top: 0.3rem; }
+.src code { font-size: 0.95em; }
+.tw { overflow-x: auto; max-width: 100%; margin: 1rem 0; }
+table { border-collapse: collapse; font-family: var(--font-display); font-size: 0.88rem; min-width: 100%; }
+th, td { text-align: left; padding: 0.42rem 0.7rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-weight: 600; color: var(--ink-2); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.pill { display: inline-block; font-family: var(--font-display); font-size: 0.72rem; padding: 0.05rem 0.45rem; border-radius: 99px; border: 1px solid currentColor; white-space: nowrap; }
+.pass { color: var(--accent); }
+.fail { color: var(--ref); }
+.exp { color: var(--ink-2); }
+.callout { border-left: 3px solid var(--accent); background: var(--accent-soft); padding: 0.8rem 1rem; max-width: 65ch; margin: 1.2rem 0; }
+.callout p { margin: 0; }
+dl.gloss { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.2rem 1rem; }
+@media (min-width: 640px) { dl.gloss { grid-template-columns: 11rem minmax(0, 1fr); } }
+dl.gloss dt { font-family: var(--font-display); font-weight: 600; }
+dl.gloss dd { margin: 0 0 0.6rem; }
+.timeline { list-style: none; padding: 0; display: grid; gap: 0.5rem; }
+.timeline li { display: grid; grid-template-columns: 6.2rem minmax(0, 1fr); gap: 0.8rem; }
+.timeline time { font-family: var(--font-mono); font-size: 0.82rem; color: var(--accent); padding-top: 0.15rem; }
+/* SVG text and marks */
+svg text { font-family: var(--font-display); }
+svg .lbl { font-size: 13px; fill: var(--ink); }
+svg .tick { font-size: 11.5px; fill: var(--ink-2); font-variant-numeric: tabular-nums; }
+svg .val { font-size: 12.5px; fill: var(--ink); font-variant-numeric: tabular-nums; }
+svg .muted { fill: var(--ink-2); }
+svg .val, svg .tick { paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round; }
+svg .grid { stroke: var(--grid); stroke-width: 1; }
+svg .ref { stroke: var(--ref); stroke-width: 1.5; stroke-dasharray: 4 3; }
+svg .bar { fill: var(--bar); }
+svg .bar-low { fill: var(--bar-low); }
+svg .bar-ctl { fill: var(--bar-ctl); }
+svg .link { stroke: var(--bar-low); stroke-width: 3; }
+svg .dot { fill: var(--surface); stroke: var(--bar); stroke-width: 2; }
+svg .dot-end { fill: var(--bar); }
+svg .ln1 { stroke: var(--bar); stroke-width: 2.5; }
+svg .ln2 { stroke: var(--ln2); stroke-width: 2.5; stroke-dasharray: 5 3; }
+svg .ln1-dot { fill: var(--bar); }
+svg .ln2-dot { fill: var(--ln2); }
+svg .h-none { fill: var(--h-none); }
+svg .h0 { fill: var(--h0); } svg .h1 { fill: var(--h1); } svg .h2 { fill: var(--h2); } svg .h3 { fill: var(--h3); } svg .h4 { fill: var(--h4); }
+svg .diag { stroke: var(--ink); stroke-width: 2; }
+svg .hv { font-size: 15px; font-weight: 600; font-variant-numeric: tabular-nums; }
+svg .hn { font-size: 10.5px; font-variant-numeric: tabular-nums; }
+svg .tlo { fill: var(--t-lo); } svg .thi { fill: var(--t-hi); }
+svg .it { font-style: italic; font-weight: 400; }
+svg .node { fill: var(--surface); stroke: var(--ink-2); stroke-width: 1.2; }
+svg .node.accent { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1.6; }
+svg .nt { font-size: 14px; font-weight: 600; fill: var(--ink); }
+svg .ns { font-size: 11.5px; fill: var(--ink-2); }
+svg .edge { stroke: var(--ink-2); stroke-width: 1.5; fill: none; }
+svg .edge.loop { stroke: var(--accent); stroke-width: 2; stroke-dasharray: 6 4; }
+svg .arrowhead { fill: var(--ink-2); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 560px) { .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } body { font-size: 16px; } .kpi b { font-size: 1.35rem; } }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+Tamil:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+
+<div class="wrap">
+<nav class="toc" aria-label="Contents">
+  <div class="h">Contents</div>
+  <ol>
+    <li><a href="#summary">Executive summary</a></li>
+    <li><a href="#corpus">Corpus</a></li>
+    <li><a href="#pipeline">Pipeline</a></li>
+    <li><a href="#schema">Annotation schema</a></li>
+    <li><a href="#evaluation">Evaluation design</a></li>
+    <li><a href="#results">Results</a></li>
+    <li><a href="#science">Science comparison</a></li>
+    <li><a href="#siddhar">Siddhar layers</a></li>
+    <li><a href="#exploratory">Exploratory census</a></li>
+    <li><a href="#related">Related work</a></li>
+    <li><a href="#timeline">Timeline</a></li>
+    <li><a href="#limits">Limitations</a></li>
+    <li><a href="#repro">Reproduction</a></li>
+    <li><a href="#glossary">Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+<header>
+  <div class="eyebrow">Methodology report · cosci_knowledge_graph · state of 2026-11-27</div>
+  <h1>Marking, grading and bridging 40 classical Tamil books</h1>
+  <p class="lede">This report describes how the project turned the public-domain Tamil text of 40 books into a graded knowledge graph. AI agents mark each chapter against a written brief. Other agents grade every proposed link blind. The lessons from each grading round go back into the briefs. Every number below comes from a file in the repository, named under each figure.</p>
+  <p class="meta">All marking and grading was done by Claude models (Opus and Sonnet). No Tamil scholar has reviewed the results yet.</p>
+</header>
+
+<section id="summary">
+<h2><span class="no">1</span>Executive summary</h2>
+<p>The project built a knowledge graph over 40 classical Tamil books in nine groups. Every verse carries the Tamil original and an agent's own reading in English. Links between verses are proposed during marking, graded blind with hidden calibration links, and kept with their grade. An explorer draws the graph group by group and shows the bridges between groups.</p>
+<div class="kpis">
+  <div class="kpi"><b>40</b><span>books in 9 groups</span></div>
+  <div class="kpi"><b>20,606</b><span>verses or reading units marked</span></div>
+  <div class="kpi"><b>6,916</b><span>marking-pass links graded blind (of 6,936)</span></div>
+  <div class="kpi"><b>33.8%</b><span>graded sound (strictest grade kept)</span></div>
+  <div class="kpi"><b>0.59</b><span>inter-grader kappa, sound vs not, on 2,976 grade pairs</span></div>
+  <div class="kpi"><b>828</b><span>hidden calibration links; graders exact 65.6%</span></div>
+</div>
+<p>Three findings stand out.</p>
+<ol class="findings">
+  <li><strong>Lessons fed back into the briefs raise quality, and the effect is measurable.</strong> Akam-to-Kural links rose from 25.0% to 59.7% sound once a rule required the two verses to share the speaker's situation. Agreement on the epics' stance field rose from kappa 0.34–0.39 in the pilot to 0.76 in wave 5 after the rule for <code>refuted</code> was tightened.</li>
+  <li><strong>Bridges between groups are few, and most of the good ones run through the ethics works.</strong> All bridges together are 37.6% sound against 58.1% within groups. Akam to ethics and puram to ethics both reach 46%, level with their own baselines.</li>
+  <li><strong>The model matters as much as the method.</strong> Under the same Sonnet grader, Opus-marked Civaka Cintamani chapters were 18.9% sound and Sonnet-marked chapters 10.4%. The Sonnet grader was also stricter and less calibrated. The Jain epics finished at 13.5% sound and remain the weakest part of the graph.</li>
+</ol>
+<p class="src">Source: <code>kg/groups/all_link_audit.json</code>, <code>kg/groups/bridges_summary.json</code>, <code>docs/corpus-summary.md</code>, <code>kg/themes/sangam_grading/round1/scores.json</code>, <code>kg/themes/sangam_grading/round2/scores.json</code>, <code>kg/themes/sangam_grading/pilots/scores.json</code>, <code>kg/themes/sangam_grading/wave5/scores.json</code></p>
+</section>
+
+<section id="corpus">
+<h2><span class="no">2</span>Corpus</h2>
+<p>The corpus is read in nine groups. Each group has its own core concerns and its own marking frame. Links are graded within a group and between groups separately, so a bridge can be compared with the baseline of the groups it joins.</p>
+<div class="tw"><table>
+<thead><tr><th>Group</th><th>Books</th><th class="n">Verses / units</th><th class="n">Links proposed</th></tr></thead>
+<tbody>
+<tr><td>Ettuthogai, akam</td><td>Natrinai, Kuruntokai, Ainkurunuru, Kalittokai, Akananuru</td><td class="n">1,851</td><td class="n">1,220</td></tr>
+<tr><td>Ettuthogai, puram</td><td>Purananuru, Patitruppattu</td><td class="n">490</td><td class="n">452</td></tr>
+<tr><td>Ettuthogai, devotional</td><td>Paripadal</td><td class="n">146</td><td class="n">144</td></tr>
+<tr><td>Pattupattu</td><td>the ten idylls</td><td class="n">207</td><td class="n">122</td></tr>
+<tr><td>Kilkanakku, ethics</td><td>10 short works, plus the Kural (1,330) and Naladiyar (400) as kept graphs</td><td class="n">1,070 (+1,730)</td><td class="n">1,281</td></tr>
+<tr><td>Kilkanakku, akam</td><td>Kar Narpathu, Ainthinai Aimpathu and Ezhupathu, Thinaimozhi Aimpathu, Thinaimalai Nootraimpathu, Kainnilai, Kalavazhi Narpathu</td><td class="n">463</td><td class="n">327</td></tr>
+<tr><td>Epics, great</td><td>Silappathikaram, Manimekalai, Civaka Cintamani, Valayapathi, Kundalakesi</td><td class="n">3,959</td><td class="n">1,897</td></tr>
+<tr><td>Epics, minor</td><td>Soolamani, Neelakesi, Naga Kumara, Udayana Kumara, Yasodhara Kaviyam</td><td class="n">3,881</td><td class="n">1,493</td></tr>
+<tr><td>Devotional and mystic</td><td>Tirumanthiram 2,783, Thiruppugazh 1,325, Siddhar songs 2,701 (kept graphs)</td><td class="n">6,809</td><td class="n">kept</td></tr>
+<tr><td>Grammar</td><td>Tholkappiyam (1,603 nurpas)</td><td class="n">frame</td><td class="n">none</td></tr>
+</tbody></table></div>
+<p>The explorer holds 14,947 links: 6,936 from the marking pass and 8,011 from the five kept graphs. There are 354 shared concepts, after 12 near-duplicates were merged as aliases.</p>
+<p class="src">Source: <code>docs/corpus-summary.md</code>, <code>docs/corpus-groups.md</code></p>
+
+<h3>Sources and editions</h3>
+<p>Every text comes from Project Madurai e-texts, identified by their <code>pmuni</code> file numbers in <code>docs/ingest/*.md</code>. For the Ettuthogai, each line was aligned with the sangamtamil.com text and every difference was classed as spelling, reading, line break or eye-skip. For Natrinai, Kuruntokai, Ainkurunuru and the Purananuru, readings that differed were arbitrated by the tamilvu.org text (U. V. Swaminatha Aiyar's edition). Where tamilvu agreed with the site, our line was repaired. Where it agreed with ours, ours stayed. Where it agreed with neither, ours stayed and was flagged.</p>
+<div class="tw"><table>
+<thead><tr><th>Book</th><th class="n">Lines changed</th><th class="n">Variants kept and flagged</th></tr></thead>
+<tbody><tr><td>Natrinai</td><td class="n">11</td><td class="n">0</td></tr><tr><td>Kuruntokai</td><td class="n">49</td><td class="n">3</td></tr><tr><td>Ainkurunuru</td><td class="n">321</td><td class="n">0</td></tr><tr><td>Purananuru</td><td class="n">193</td><td class="n">21</td></tr><tr><td>Pattupattu</td><td class="n">117</td><td class="n">16</td></tr></tbody></table></div>
+<p>That is 691 logged repairs, each with its old and new line and its authority. A further 3,319 text flags (corrupt lines, colophon doubts, cross-check differences) are kept in a shared flags file. Typical repairs restore the lost vowel sign in the <span class="ta">-ஒடு</span> ending, remove encoding leftovers, and supply lines that the base text skipped.</p>
+<p class="src">Source: <code>kg/core/ettuthogai_repairs.jsonl</code>, <code>kg/core/purananuru_repairs.jsonl</code>, <code>kg/core/pattupattu_repairs.jsonl</code>, <code>kg/core/sangam_text_flags.jsonl</code>, <code>docs/ingest/ettuthogai.md</code>, <code>docs/ingest/purananuru.md</code></p>
+
+<h3>Copyright rules</h3>
+<ul>
+  <li>Only the Tamil original is stored, and it is public domain. Readings and notes are the agents' own words.</li>
+  <li>No modern translation or commentary is stored or quoted. The marking check fails a reading that repeats a run of six words from a modern commentary held in the core file.</li>
+  <li>sangamtamil.com's English translations are a translator's modern work. Only the site's Tamil lines and thinai labels were used.</li>
+  <li>Texts still in copyright stay on the owner's machine in <code>data/private/</code>, which git ignores.</li>
+</ul>
+<p class="src">Source: <code>docs/sangam-marking-brief.md (Copyright)</code>, <code>docs/sangamtamil-review.md (Licences and terms)</code>, <code>.gitignore</code></p>
+</section>
+
+<section id="pipeline">
+<h2><span class="no">3</span>Pipeline</h2>
+<p>Each book passes through the same stages. Marking and grading are done by separate agents that see different material. The loop from scoring back to the briefs is the part of the method that changes results.</p>
+<figure>
+<div class="fig"><svg viewBox="0 0 900 400" width="900" role="img" aria-label="Pipeline from ingest to explorer" class="diagram"><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="arrowhead"/></marker></defs><rect x="20" y="30" width="150" height="78" rx="4" class="node"/><text x="95.0" y="52" class="nt" text-anchor="middle">Ingest</text><text x="95.0" y="70" class="ns" text-anchor="middle">Project Madurai e-texts</text><text x="95.0" y="85" class="ns" text-anchor="middle">stable verse ids</text><rect x="196" y="30" width="150" height="78" rx="4" class="node"/><text x="271.0" y="52" class="nt" text-anchor="middle">Repair</text><text x="271.0" y="70" class="ns" text-anchor="middle">sangamtamil.com diff</text><text x="271.0" y="85" class="ns" text-anchor="middle">tamilvu arbitrates</text><rect x="372" y="30" width="150" height="78" rx="4" class="node accent"/><text x="447.0" y="52" class="nt" text-anchor="middle">Chapter marking</text><text x="447.0" y="70" class="ns" text-anchor="middle">one brief per field set</text><text x="447.0" y="85" class="ns" text-anchor="middle">Opus or Sonnet agent</text><rect x="548" y="30" width="150" height="78" rx="4" class="node"/><text x="623.0" y="52" class="nt" text-anchor="middle">Automatic check</text><text x="623.0" y="70" class="ns" text-anchor="middle">book_marks.py check</text><text x="623.0" y="85" class="ns" text-anchor="middle">schema, ids, copyright</text><rect x="724" y="30" width="156" height="78" rx="4" class="node"/><text x="802.0" y="52" class="nt" text-anchor="middle">Blind packets</text><text x="802.0" y="70" class="ns" text-anchor="middle">shuffled links</text><text x="802.0" y="85" class="ns" text-anchor="middle">+ hidden calibration</text><line x1="170" y1="69.0" x2="192" y2="69.0" class="edge" marker-end="url(#arr)"/><line x1="346" y1="69.0" x2="368" y2="69.0" class="edge" marker-end="url(#arr)"/><line x1="522" y1="69.0" x2="544" y2="69.0" class="edge" marker-end="url(#arr)"/><line x1="698" y1="69.0" x2="720" y2="69.0" class="edge" marker-end="url(#arr)"/><rect x="724" y="190" width="156" height="78" rx="4" class="node"/><text x="802.0" y="212" class="nt" text-anchor="middle">Grading</text><text x="802.0" y="230" class="ns" text-anchor="middle">g1 all packets</text><text x="802.0" y="245" class="ns" text-anchor="middle">g2 second grader</text><rect x="548" y="190" width="150" height="78" rx="4" class="node"/><text x="623.0" y="212" class="nt" text-anchor="middle">Scoring</text><text x="623.0" y="230" class="ns" text-anchor="middle">kappa, calibration</text><text x="623.0" y="245" class="ns" text-anchor="middle">strictest grade kept</text><rect x="372" y="190" width="150" height="78" rx="4" class="node accent"/><text x="447.0" y="212" class="nt" text-anchor="middle">Lessons</text><text x="447.0" y="230" class="ns" text-anchor="middle">weak link kinds named</text><text x="447.0" y="245" class="ns" text-anchor="middle">rule added to brief</text><line x1="802" y1="108" x2="802" y2="186" class="edge" marker-end="url(#arr)"/><line x1="724" y1="229.0" x2="702" y2="229.0" class="edge" marker-end="url(#arr)"/><line x1="548" y1="229.0" x2="526" y2="229.0" class="edge" marker-end="url(#arr)"/><path d="M447,190 L447,112" class="edge loop" marker-end="url(#arr)"/><text x="455" y="153.0" class="ns" text-anchor="start">next wave</text><rect x="548" y="300" width="150" height="78" rx="4" class="node"/><text x="623.0" y="322" class="nt" text-anchor="middle">Group graphs</text><text x="623.0" y="340" class="ns" text-anchor="middle">9 groups, nodes + edges</text><text x="623.0" y="355" class="ns" text-anchor="middle">bridges matrix</text><rect x="372" y="300" width="150" height="78" rx="4" class="node"/><text x="447.0" y="322" class="nt" text-anchor="middle">Explorer</text><text x="447.0" y="340" class="ns" text-anchor="middle">viz/index.html</text><text x="447.0" y="355" class="ns" text-anchor="middle">sound links by default</text><path d="M623,268 L623,296" class="edge" marker-end="url(#arr)"/><line x1="548" y1="339.0" x2="526" y2="339.0" class="edge" marker-end="url(#arr)"/><text x="20" y="210" class="ns" text-anchor="start">Side tracks:</text><text x="20" y="228" class="ns" text-anchor="start">Tholkappiyam pilot (field reliability)</text><text x="20" y="246" class="ns" text-anchor="start">Siddhar layers and cipher lexicon</text><text x="20" y="264" class="ns" text-anchor="start">Science pairs with negative controls</text><text x="20" y="282" class="ns" text-anchor="start">Consciousness census (exploratory)</text></svg></div>
+<figcaption>Accent boxes are where the written briefs live. The dashed arrow is the feedback loop: each grading round ends with a "Lessons" section added to the brief for the next wave.</figcaption>
+</figure>
+<ol>
+  <li><strong>Ingest.</strong> Parse each e-text into records with stable ids such as <code>purananuru:192</code> or <code>pattupattu:1:1-24</code>.</li>
+  <li><strong>Repair.</strong> Diff against sangamtamil.com, arbitrate with tamilvu, log every change.</li>
+  <li><strong>Mark.</strong> An agent marks one chapter at a time by the brief for its field set, and proposes links with a type, a note and a <code>teaches</code> sentence.</li>
+  <li><strong>Check.</strong> <code>scripts/book_marks.py check</code> validates the schema, concept ids, verse ids and copyright rules.</li>
+  <li><strong>Packet.</strong> <code>scripts/make_sangam_packets.py</code> shuffles links into blind packets and hides calibration links of known grade among them.</li>
+  <li><strong>Grade and score.</strong> One grader takes every packet, a second takes a sample. <code>scripts/score_sangam_grades.py</code> computes agreement and calibration. Where graders differ, the strictest grade is kept.</li>
+  <li><strong>Feed back.</strong> Weak link kinds are named and a rule is written into the brief.</li>
+  <li><strong>Build.</strong> <code>scripts/build_group_graphs.py</code> writes the nine group graphs and the bridge matrix. <code>scripts/export_viz.py</code> feeds the explorer.</li>
+</ol>
+</section>
+
+<section id="schema">
+<h2><span class="no">4</span>Annotation schema</h2>
+<p>Every verse gets the house fields: a one-sentence <code>reading</code>, one to four <code>concepts</code>, an optional <code>nuance</code> and an <code>uncertain</code> flag. Each group then adds the fields of its field set. A field is kept only if a second blind reader can reproduce it.</p>
+
+<h3>The Tholkappiyam pilot: which fields are reliable</h3>
+<p>Before the Sangam books were marked, two agents tagged the same 100 verses (20 each from five books) by the Tholkappiyam brief, without seeing each other's tags. Fields with kappa of 0.8 or more were adopted. Fields near 0.5 or below were dropped or recast.</p>
+<figure>
+<div class="fig"><svg viewBox="0 0 600 306" width="600" role="img" aria-label="Tholkappiyam pilot: kappa between two blind taggers" class="chart" style="max-width:100%;height:auto"><line x1="150.0" y1="12" x2="150.0" y2="282" class="grid"/><text x="150.0" y="298" class="tick" text-anchor="middle">0.0</text><line x1="228.0" y1="12" x2="228.0" y2="282" class="grid"/><text x="228.0" y="298" class="tick" text-anchor="middle">0.2</text><line x1="306.0" y1="12" x2="306.0" y2="282" class="grid"/><text x="306.0" y="298" class="tick" text-anchor="middle">0.4</text><line x1="384.0" y1="12" x2="384.0" y2="282" class="ref"/><text x="384.0" y="298" class="tick" text-anchor="middle">0.6</text><line x1="462.0" y1="12" x2="462.0" y2="282" class="ref"/><text x="462.0" y="298" class="tick" text-anchor="middle">0.8</text><line x1="540.0" y1="12" x2="540.0" y2="282" class="grid"/><text x="540.0" y="298" class="tick" text-anchor="middle">1.0</text><text x="142" y="30" class="lbl" text-anchor="end">akam / puram</text><rect x="150" y="19" width="378.3" height="16" class="bar"/><text x="534.3" y="31" class="val">0.97</text><text x="142" y="56" class="lbl" text-anchor="end">uri (situation)</text><rect x="150" y="45" width="362.7" height="16" class="bar"/><text x="518.7" y="57" class="val">0.93</text><text x="142" y="82" class="lbl" text-anchor="end">life and body</text><rect x="150" y="71" width="339.3" height="16" class="bar"/><text x="495.3" y="83" class="val">0.87</text><text x="142" y="108" class="lbl" text-anchor="end">comparison present</text><rect x="150" y="97" width="327.6" height="16" class="bar"/><text x="483.6" y="109" class="val">0.84</text><text x="142" y="134" class="lbl" text-anchor="end">frame fit</text><rect x="150" y="123" width="323.7" height="16" class="bar"/><text x="479.7" y="135" class="val">0.83</text><text x="142" y="160" class="lbl" text-anchor="end">thinai</text><rect x="150" y="149" width="280.8" height="16" class="bar"/><text x="436.8" y="161" class="val">0.72</text><text x="142" y="186" class="lbl" text-anchor="end">iraicchi</text><rect x="150" y="175" width="191.1" height="16" class="bar-low"/><text x="347.1" y="187" class="val">0.49</text><text x="142" y="212" class="lbl" text-anchor="end">ullurai</text><rect x="150" y="201" width="187.2" height="16" class="bar-low"/><text x="343.2" y="213" class="val">0.48</text><text x="142" y="238" class="lbl" text-anchor="end">kurippu</text><rect x="150" y="227" width="175.5" height="16" class="bar-low"/><text x="331.5" y="239" class="val">0.45</text><text x="142" y="264" class="lbl" text-anchor="end">karu</text><rect x="150" y="253" width="144.3" height="16" class="bar-low"/><text x="300.3" y="265" class="val">0.37</text></svg></div>
+<figcaption>Kappa between two blind taggers on 100 verses. Dashed lines mark 0.6 and 0.8. Pale bars did not pass.</figcaption>
+</figure>
+<p class="src">Source: <code>kg/themes/tholkappiyam_pilot/findings.md (Agreement with a second, blind tagger)</code></p>
+
+<div class="tw"><table>
+<thead><tr><th>Field set</th><th>Used for</th><th>Main fields</th><th>Reliability</th></tr></thead>
+<tbody>
+<tr><td>Akam</td><td>Ettuthogai akam, Kilkanakku akam</td><td><code>akam_puram</code>, colophon <code>thinai</code>/<code>thurai</code>, inferred thinai with evidence, <code>uri</code>, <code>mutal</code>, <code>karu</code> with role, comparisons, <code>meyppadu</code>, <code>thurai_akam</code> (speaker, addressee)</td><td><span class="pill pass">akam/puram 0.97</span> <span class="pill pass">uri 0.93</span> <span class="pill pass">comparison 0.84</span> <span class="pill exp">thinai 0.72</span> <span class="pill exp">karu recast</span></td></tr>
+<tr><td>Akam, experimental</td><td>same books</td><td><code>ullurai</code> (hidden comparison), <code>iraicchi</code> (sense rising from a thing), each with numbered conditions a second reader can check</td><td>Pilot 0.48 and 0.49. Under the sharper rule, graders vs marker 0.79–0.93 in round 1, falling to 0.30–0.62 in wave 4. <span class="pill exp">kept as experimental</span></td></tr>
+<tr><td>Puram</td><td>Purananuru, Patitruppattu, Pattupattu</td><td>puram thinai and <code>puram_thurai</code>, <code>entities</code> (kings, patrons, battles, towns), <code>meyppadu</code></td><td>Shares the akam frame; the colophon is the fact, the agent's thinai an inference.</td></tr>
+<tr><td>Ethics</td><td>10 Kilkanakku works</td><td><code>items</code> (the counted things), <code>count_word</code>, <code>domain</code> (king, householder, ascetic, all, ritual-conduct), historical <code>norm</code> (caste, purity, gender, diet), <code>pazhamozhi</code> story</td><td><span class="pill pass">domain 0.96–1.00</span> <span class="pill pass">norm 0.78–0.82</span> <span class="pill pass">count word 0.96</span> in the pilot</td></tr>
+<tr><td>Narrative</td><td>Great and minor epics</td><td><code>speaker</code>, <code>agents</code>, <code>event</code>, <code>claims</code> with <code>school</code> and <code>stance</code> (asserted, refuted, reported), <code>echoes</code> of the Kural</td><td><span class="pill pass">school 0.93–0.97</span> <span class="pill fail">stance 0.34–0.39</span> in the pilot; stance rose to 0.76 after the rule change</td></tr>
+<tr><td>Devotional and mystic</td><td>Tirumanthiram, Thiruppugazh, Siddhar songs, Paripadal</td><td>concepts and links by per-book briefs; Siddhar <code>stance</code>, reading layers, cipher lexicon (pilot)</td><td>Layers did not improve links; lexicon 67% accepted. See section 8.</td></tr>
+</tbody></table></div>
+<p>Dropped on purpose for the Sangam books: <code>kurippu</code> (kappa 0.45), the porul 6.12 states, <code>frame_fit</code> and <code>uyir_mey</code>. The last two were designed for the later books, and every Sangam poem is native to the frame.</p>
+<p class="src">Source: <code>docs/sangam-marking-brief.md</code>, <code>docs/ethics-marking-brief.md</code>, <code>docs/epic-marking-brief.md</code>, <code>kg/themes/sangam_grading/*/scores.json (part_b)</code></p>
+</section>
+
+<section id="evaluation">
+<h2><span class="no">5</span>Evaluation design</h2>
+<div class="callout"><p><strong>Kappa in one sentence:</strong> kappa measures how often two readers agree beyond what they would agree by chance, where 0 is chance and 1 is perfect agreement.</p></div>
+<ul>
+  <li><strong>Blind packets.</strong> A grader sees the Tamil of both verses, the marked readings, the link type, its note and its <code>teaches</code> sentence. The grader does not see who proposed the link and is told that fluent notes are not evidence.</li>
+  <li><strong>Four grades.</strong> <em>Sound</em>: the connection is real and <code>teaches</code> names something neither verse shows alone. <em>Weak</em>: real but thin. <em>Forced</em>: depends on stretching a word or reading. <em>Wrong</em>: misreads a verse.</li>
+  <li><strong>Hidden calibration.</strong> Links whose grade is already settled are shuffled into each packet. Across all runs, 828 calibration links were graded: exact 65.6%, stricter 181 times, more lenient 104 times.</li>
+  <li><strong>Second graders.</strong> 1,138 links were graded more than once, giving 2,976 grade pairs. Exact agreement was 72.5% and kappa on sound against not sound was 0.59.</li>
+  <li><strong>Strictest grade wins.</strong> Where graders differ, the lower grade is kept, and every grade is recorded with its run, grader and model.</li>
+  <li><strong>Field re-tags.</strong> Part B of a packet asks the grader to re-tag a field (ullurai, stance, domain) without seeing the marker's tag. That is how field reliability is measured.</li>
+  <li><strong>Controls in the science comparison.</strong> 100 random verse-finding pairs go through the same packets unlabelled, and the threshold for a strong link is set from how they score (section 7).</li>
+</ul>
+<p class="src">Source: <code>docs/sangam-grader-brief.md</code>, <code>kg/groups/all_link_audit.json (summary)</code></p>
+</section>
+
+<section id="results">
+<h2><span class="no">6</span>Results</h2>
+<p>Of the 6,916 graded links, 2,337 are sound, 3,933 weak, 609 forced and 37 wrong. Few links are wrong. Most failures are links that are real but teach nothing new: <code>teaches</code> failed on 3,012 links.</p>
+
+<h3>6.1 Sound links by group</h3>
+<figure>
+<div class="fig"><svg viewBox="0 0 640 304" width="640" role="img" aria-label="Sound percent of graded links by group" class="chart" style="max-width:100%;height:auto"><line x1="150.0" y1="24" x2="150.0" y2="276" class="grid"/><text x="150.0" y="292" class="tick" text-anchor="middle">0%</text><line x1="216.7" y1="24" x2="216.7" y2="276" class="grid"/><text x="216.7" y="292" class="tick" text-anchor="middle">10%</text><line x1="283.3" y1="24" x2="283.3" y2="276" class="grid"/><text x="283.3" y="292" class="tick" text-anchor="middle">20%</text><line x1="350.0" y1="24" x2="350.0" y2="276" class="grid"/><text x="350.0" y="292" class="tick" text-anchor="middle">30%</text><line x1="416.7" y1="24" x2="416.7" y2="276" class="grid"/><text x="416.7" y="292" class="tick" text-anchor="middle">40%</text><line x1="483.3" y1="24" x2="483.3" y2="276" class="grid"/><text x="483.3" y="292" class="tick" text-anchor="middle">50%</text><line x1="550.0" y1="24" x2="550.0" y2="276" class="grid"/><text x="550.0" y="292" class="tick" text-anchor="middle">60%</text><text x="142" y="45" class="lbl" text-anchor="end">Pattupattu</text><rect x="150" y="33" width="345.3" height="18" class="bar"/><text x="501.3" y="46" class="val">51.8%  <tspan class="muted">n=110</tspan></text><text x="142" y="75" class="lbl" text-anchor="end">Ethics (10 works)</text><rect x="150" y="63" width="328.7" height="18" class="bar"/><text x="484.7" y="76" class="val">49.3%  <tspan class="muted">n=1,281</tspan></text><text x="142" y="105" class="lbl" text-anchor="end">Ettuthogai puram</text><rect x="150" y="93" width="287.3" height="18" class="bar"/><text x="443.3" y="106" class="val">43.1%  <tspan class="muted">n=452</tspan></text><text x="142" y="135" class="lbl" text-anchor="end">Ettuthogai akam</text><rect x="150" y="123" width="284.0" height="18" class="bar"/><text x="440.0" y="136" class="val">42.6%  <tspan class="muted">n=1,220</tspan></text><text x="142" y="165" class="lbl" text-anchor="end">Kilkanakku akam</text><rect x="150" y="153" width="222.0" height="18" class="bar"/><text x="378.0" y="166" class="val">33.3%  <tspan class="muted">n=327</tspan></text><text x="142" y="195" class="lbl" text-anchor="end">Paripadal</text><rect x="150" y="183" width="220.7" height="18" class="bar"/><text x="376.7" y="196" class="val">33.1%  <tspan class="muted">n=136</tspan></text><text x="142" y="225" class="lbl" text-anchor="end">Great epics</text><rect x="150" y="213" width="192.0" height="18" class="bar"/><text x="348.0" y="226" class="val">28.8%  <tspan class="muted">n=1,897</tspan></text><text x="142" y="255" class="lbl" text-anchor="end">Minor epics</text><rect x="150" y="243" width="104.0" height="18" class="bar-low"/><text x="260.0" y="256" class="val">15.6%  <tspan class="muted">n=1,493</tspan></text><line x1="375.3" y1="20" x2="375.3" y2="276" class="ref"/><text x="379.3" y="16" class="tick">all books 33.8%</text></svg></div>
+<figcaption>Share of graded links that are sound, by the group of the proposing book. Pale bars are below 20%. The dashed line is the all-books figure.</figcaption>
+</figure>
+<div class="tw"><table>
+<thead><tr><th>Group</th><th class="n">Links</th><th class="n">Sound %</th><th class="n">Kappa (sound)</th><th class="n">Calibration exact %</th></tr></thead>
+<tbody><tr><td>Pattupattu</td><td class="n">110</td><td class="n">51.8</td><td class="n">0.39</td><td class="n">77.8</td></tr><tr><td>Ethics (10 works)</td><td class="n">1,281</td><td class="n">49.3</td><td class="n">0.40</td><td class="n">75.6</td></tr><tr><td>Ettuthogai puram</td><td class="n">452</td><td class="n">43.1</td><td class="n">0.69</td><td class="n">74.6</td></tr><tr><td>Ettuthogai akam</td><td class="n">1,220</td><td class="n">42.6</td><td class="n">0.58</td><td class="n">75.0</td></tr><tr><td>Kilkanakku akam</td><td class="n">327</td><td class="n">33.3</td><td class="n">0.65</td><td class="n">78.6</td></tr><tr><td>Paripadal</td><td class="n">136</td><td class="n">33.1</td><td class="n">0.73</td><td class="n">78.6</td></tr><tr><td>Great epics</td><td class="n">1,897</td><td class="n">28.8</td><td class="n">0.55</td><td class="n">54.6</td></tr><tr><td>Minor epics</td><td class="n">1,493</td><td class="n">15.6</td><td class="n">0.69</td><td class="n">54.3</td></tr></tbody></table></div>
+<p>Agreement is lowest where sound% is most uncertain: Valayapathi kappa 0.04, Soolamani 0.15, Nanmanikkadigai 0.17, Natrinai 0.18.</p>
+<p class="src">Source: <code>kg/groups/all_link_audit.json (by_group, by_book)</code>, <code>docs/corpus-summary.md</code></p>
+
+<h3>6.2 The bridge matrix</h3>
+<p>Each cell is sound links over graded links, in both directions, for a pair of groups. The diagonal is the within-group baseline that a bridge has to beat.</p>
+<figure>
+<div class="fig heat"><svg viewBox="0 0 812 828" width="812" role="img" aria-label="Bridge matrix: sound percent for each pair of groups" class="chart" style="max-width:100%;height:auto"><text transform="translate(133,84) rotate(-40)" class="lbl">Ett. akam</text><text transform="translate(207,84) rotate(-40)" class="lbl">Kil. akam</text><text transform="translate(281,84) rotate(-40)" class="lbl">Ett. puram</text><text transform="translate(355,84) rotate(-40)" class="lbl">Pattupattu</text><text transform="translate(429,84) rotate(-40)" class="lbl">Paripadal</text><text transform="translate(503,84) rotate(-40)" class="lbl">Ethics</text><text transform="translate(577,84) rotate(-40)" class="lbl">Devotional</text><text transform="translate(651,84) rotate(-40)" class="lbl">Great epics</text><text transform="translate(725,84) rotate(-40)" class="lbl">Minor epics</text><text x="88" y="133" class="lbl" text-anchor="end">Ett. akam</text><rect x="97" y="93" width="72" height="72" class="h2 diag"/><text x="133.0" y="127.0" class="hv tlo" text-anchor="middle">41%</text><text x="133.0" y="143.0" class="hn tlo" text-anchor="middle">232/571</text><rect x="171" y="93" width="72" height="72" class="h2"/><text x="207.0" y="127.0" class="hv tlo" text-anchor="middle">32%</text><text x="207.0" y="143.0" class="hn tlo" text-anchor="middle">63/194</text><rect x="245" y="93" width="72" height="72" class="h2"/><text x="281.0" y="127.0" class="hv tlo" text-anchor="middle">38%</text><text x="281.0" y="143.0" class="hn tlo" text-anchor="middle">69/180</text><rect x="319" y="93" width="72" height="72" class="h3"/><text x="355.0" y="127.0" class="hv thi" text-anchor="middle">50%</text><text x="355.0" y="143.0" class="hn thi" text-anchor="middle">12/24</text><rect x="393" y="93" width="72" height="72" class="h1"/><text x="429.0" y="127.0" class="hv tlo" text-anchor="middle">28%</text><text x="429.0" y="143.0" class="hn tlo" text-anchor="middle">8/29</text><rect x="467" y="93" width="72" height="72" class="h3"/><text x="503.0" y="127.0" class="hv thi" text-anchor="middle">46%</text><text x="503.0" y="143.0" class="hn thi" text-anchor="middle">229/503</text><rect x="541" y="93" width="72" height="72" class="h2"/><text x="577.0" y="127.0" class="hv tlo it" text-anchor="middle">40%</text><text x="577.0" y="143.0" class="hn tlo" text-anchor="middle">2/5</text><rect x="615" y="93" width="72" height="72" class="h1"/><text x="651.0" y="127.0" class="hv tlo" text-anchor="middle">24%</text><text x="651.0" y="143.0" class="hn tlo" text-anchor="middle">8/34</text><rect x="689" y="93" width="72" height="72" class="h0"/><text x="725.0" y="127.0" class="hv tlo it" text-anchor="middle">0%</text><text x="725.0" y="143.0" class="hn tlo" text-anchor="middle">0/10</text><text x="88" y="207" class="lbl" text-anchor="end">Kil. akam</text><rect x="97" y="167" width="72" height="72" class="h2"/><text x="133.0" y="201.0" class="hv tlo" text-anchor="middle">32%</text><text x="133.0" y="217.0" class="hn tlo" text-anchor="middle">63/194</text><rect x="171" y="167" width="72" height="72" class="h2 diag"/><text x="207.0" y="201.0" class="hv tlo" text-anchor="middle">36%</text><text x="207.0" y="217.0" class="hn tlo" text-anchor="middle">20/56</text><rect x="245" y="167" width="72" height="72" class="h1"/><text x="281.0" y="201.0" class="hv tlo it" text-anchor="middle">20%</text><text x="281.0" y="217.0" class="hn tlo" text-anchor="middle">2/10</text><rect x="319" y="167" width="72" height="72" class="h4"/><text x="355.0" y="201.0" class="hv thi it" text-anchor="middle">100%</text><text x="355.0" y="217.0" class="hn thi" text-anchor="middle">5/5</text><rect x="393" y="167" width="72" height="72" class="h4"/><text x="429.0" y="201.0" class="hv thi it" text-anchor="middle">100%</text><text x="429.0" y="217.0" class="hn thi" text-anchor="middle">1/1</text><rect x="467" y="167" width="72" height="72" class="h1"/><text x="503.0" y="201.0" class="hv tlo" text-anchor="middle">29%</text><text x="503.0" y="217.0" class="hn tlo" text-anchor="middle">24/84</text><rect x="541" y="167" width="72" height="72" class="h-none"/><text x="577.0" y="207.0" class="hv muted" text-anchor="middle">·</text><rect x="615" y="167" width="72" height="72" class="h0"/><text x="651.0" y="201.0" class="hv tlo it" text-anchor="middle">0%</text><text x="651.0" y="217.0" class="hn tlo" text-anchor="middle">0/5</text><rect x="689" y="167" width="72" height="72" class="h-none"/><text x="725.0" y="207.0" class="hv muted" text-anchor="middle">·</text><text x="88" y="281" class="lbl" text-anchor="end">Ett. puram</text><rect x="97" y="241" width="72" height="72" class="h2"/><text x="133.0" y="275.0" class="hv tlo" text-anchor="middle">38%</text><text x="133.0" y="291.0" class="hn tlo" text-anchor="middle">69/180</text><rect x="171" y="241" width="72" height="72" class="h1"/><text x="207.0" y="275.0" class="hv tlo it" text-anchor="middle">20%</text><text x="207.0" y="291.0" class="hn tlo" text-anchor="middle">2/10</text><rect x="245" y="241" width="72" height="72" class="h3 diag"/><text x="281.0" y="275.0" class="hv thi" text-anchor="middle">46%</text><text x="281.0" y="291.0" class="hn thi" text-anchor="middle">80/175</text><rect x="319" y="241" width="72" height="72" class="h3"/><text x="355.0" y="275.0" class="hv thi" text-anchor="middle">49%</text><text x="355.0" y="291.0" class="hn thi" text-anchor="middle">17/35</text><rect x="393" y="241" width="72" height="72" class="h2"/><text x="429.0" y="275.0" class="hv tlo it" text-anchor="middle">36%</text><text x="429.0" y="291.0" class="hn tlo" text-anchor="middle">4/11</text><rect x="467" y="241" width="72" height="72" class="h3"/><text x="503.0" y="275.0" class="hv thi" text-anchor="middle">46%</text><text x="503.0" y="291.0" class="hn thi" text-anchor="middle">109/238</text><rect x="541" y="241" width="72" height="72" class="h0"/><text x="577.0" y="275.0" class="hv tlo it" text-anchor="middle">0%</text><text x="577.0" y="291.0" class="hn tlo" text-anchor="middle">0/2</text><rect x="615" y="241" width="72" height="72" class="h2"/><text x="651.0" y="275.0" class="hv tlo" text-anchor="middle">44%</text><text x="651.0" y="291.0" class="hn tlo" text-anchor="middle">44/100</text><rect x="689" y="241" width="72" height="72" class="h0"/><text x="725.0" y="275.0" class="hv tlo it" text-anchor="middle">0%</text><text x="725.0" y="291.0" class="hn tlo" text-anchor="middle">0/13</text><text x="88" y="355" class="lbl" text-anchor="end">Pattupattu</text><rect x="97" y="315" width="72" height="72" class="h3"/><text x="133.0" y="349.0" class="hv thi" text-anchor="middle">50%</text><text x="133.0" y="365.0" class="hn thi" text-anchor="middle">12/24</text><rect x="171" y="315" width="72" height="72" class="h4"/><text x="207.0" y="349.0" class="hv thi it" text-anchor="middle">100%</text><text x="207.0" y="365.0" class="hn thi" text-anchor="middle">5/5</text><rect x="245" y="315" width="72" height="72" class="h3"/><text x="281.0" y="349.0" class="hv thi" text-anchor="middle">49%</text><text x="281.0" y="365.0" class="hn thi" text-anchor="middle">17/35</text><rect x="319" y="315" width="72" height="72" class="h2 diag"/><text x="355.0" y="349.0" class="hv tlo it" text-anchor="middle">43%</text><text x="355.0" y="365.0" class="hn tlo" text-anchor="middle">6/14</text><rect x="393" y="315" width="72" height="72" class="h1"/><text x="429.0" y="349.0" class="hv tlo it" text-anchor="middle">27%</text><text x="429.0" y="365.0" class="hn tlo" text-anchor="middle">4/15</text><rect x="467" y="315" width="72" height="72" class="h3"/><text x="503.0" y="349.0" class="hv thi" text-anchor="middle">55%</text><text x="503.0" y="365.0" class="hn thi" text-anchor="middle">21/38</text><rect x="541" y="315" width="72" height="72" class="h4"/><text x="577.0" y="349.0" class="hv thi it" text-anchor="middle">100%</text><text x="577.0" y="365.0" class="hn thi" text-anchor="middle">1/1</text><rect x="615" y="315" width="72" height="72" class="h0"/><text x="651.0" y="349.0" class="hv tlo" text-anchor="middle">9%</text><text x="651.0" y="365.0" class="hn tlo" text-anchor="middle">2/23</text><rect x="689" y="315" width="72" height="72" class="h0"/><text x="725.0" y="349.0" class="hv tlo it" text-anchor="middle">0%</text><text x="725.0" y="365.0" class="hn tlo" text-anchor="middle">0/3</text><text x="88" y="429" class="lbl" text-anchor="end">Paripadal</text><rect x="97" y="389" width="72" height="72" class="h1"/><text x="133.0" y="423.0" class="hv tlo" text-anchor="middle">28%</text><text x="133.0" y="439.0" class="hn tlo" text-anchor="middle">8/29</text><rect x="171" y="389" width="72" height="72" class="h4"/><text x="207.0" y="423.0" class="hv thi it" text-anchor="middle">100%</text><text x="207.0" y="439.0" class="hn thi" text-anchor="middle">1/1</text><rect x="245" y="389" width="72" height="72" class="h2"/><text x="281.0" y="423.0" class="hv tlo it" text-anchor="middle">36%</text><text x="281.0" y="439.0" class="hn tlo" text-anchor="middle">4/11</text><rect x="319" y="389" width="72" height="72" class="h1"/><text x="355.0" y="423.0" class="hv tlo it" text-anchor="middle">27%</text><text x="355.0" y="439.0" class="hn tlo" text-anchor="middle">4/15</text><rect x="393" y="389" width="72" height="72" class="h3 diag"/><text x="429.0" y="423.0" class="hv thi" text-anchor="middle">58%</text><text x="429.0" y="439.0" class="hn thi" text-anchor="middle">14/24</text><rect x="467" y="389" width="72" height="72" class="h1"/><text x="503.0" y="423.0" class="hv tlo" text-anchor="middle">22%</text><text x="503.0" y="439.0" class="hn tlo" text-anchor="middle">10/45</text><rect x="541" y="389" width="72" height="72" class="h2"/><text x="577.0" y="423.0" class="hv tlo it" text-anchor="middle">33%</text><text x="577.0" y="439.0" class="hn tlo" text-anchor="middle">5/15</text><rect x="615" y="389" width="72" height="72" class="h0"/><text x="651.0" y="423.0" class="hv tlo it" text-anchor="middle">0%</text><text x="651.0" y="439.0" class="hn tlo" text-anchor="middle">0/6</text><rect x="689" y="389" width="72" height="72" class="h-none"/><text x="725.0" y="429.0" class="hv muted" text-anchor="middle">·</text><text x="88" y="503" class="lbl" text-anchor="end">Ethics</text><rect x="97" y="463" width="72" height="72" class="h3"/><text x="133.0" y="497.0" class="hv thi" text-anchor="middle">46%</text><text x="133.0" y="513.0" class="hn thi" text-anchor="middle">229/503</text><rect x="171" y="463" width="72" height="72" class="h1"/><text x="207.0" y="497.0" class="hv tlo" text-anchor="middle">29%</text><text x="207.0" y="513.0" class="hn tlo" text-anchor="middle">24/84</text><rect x="245" y="463" width="72" height="72" class="h3"/><text x="281.0" y="497.0" class="hv thi" text-anchor="middle">46%</text><text x="281.0" y="513.0" class="hn thi" text-anchor="middle">109/238</text><rect x="319" y="463" width="72" height="72" class="h3"/><text x="355.0" y="497.0" class="hv thi" text-anchor="middle">55%</text><text x="355.0" y="513.0" class="hn thi" text-anchor="middle">21/38</text><rect x="393" y="463" width="72" height="72" class="h1"/><text x="429.0" y="497.0" class="hv tlo" text-anchor="middle">22%</text><text x="429.0" y="513.0" class="hn tlo" text-anchor="middle">10/45</text><rect x="467" y="463" width="72" height="72" class="h4 diag"/><text x="503.0" y="497.0" class="hv thi" text-anchor="middle">72%</text><text x="503.0" y="513.0" class="hn thi" text-anchor="middle">2,981/4,112</text><rect x="541" y="463" width="72" height="72" class="h3"/><text x="577.0" y="497.0" class="hv thi" text-anchor="middle">59%</text><text x="577.0" y="513.0" class="hn thi" text-anchor="middle">927/1,568</text><rect x="615" y="463" width="72" height="72" class="h1"/><text x="651.0" y="497.0" class="hv tlo" text-anchor="middle">22%</text><text x="651.0" y="513.0" class="hn tlo" text-anchor="middle">156/699</text><rect x="689" y="463" width="72" height="72" class="h0"/><text x="725.0" y="497.0" class="hv tlo" text-anchor="middle">8%</text><text x="725.0" y="513.0" class="hn tlo" text-anchor="middle">47/565</text><text x="88" y="577" class="lbl" text-anchor="end">Devotional</text><rect x="97" y="537" width="72" height="72" class="h2"/><text x="133.0" y="571.0" class="hv tlo it" text-anchor="middle">40%</text><text x="133.0" y="587.0" class="hn tlo" text-anchor="middle">2/5</text><rect x="171" y="537" width="72" height="72" class="h-none"/><text x="207.0" y="577.0" class="hv muted" text-anchor="middle">·</text><rect x="245" y="537" width="72" height="72" class="h0"/><text x="281.0" y="571.0" class="hv tlo it" text-anchor="middle">0%</text><text x="281.0" y="587.0" class="hn tlo" text-anchor="middle">0/2</text><rect x="319" y="537" width="72" height="72" class="h4"/><text x="355.0" y="571.0" class="hv thi it" text-anchor="middle">100%</text><text x="355.0" y="587.0" class="hn thi" text-anchor="middle">1/1</text><rect x="393" y="537" width="72" height="72" class="h2"/><text x="429.0" y="571.0" class="hv tlo it" text-anchor="middle">33%</text><text x="429.0" y="587.0" class="hn tlo" text-anchor="middle">5/15</text><rect x="467" y="537" width="72" height="72" class="h3"/><text x="503.0" y="571.0" class="hv thi" text-anchor="middle">59%</text><text x="503.0" y="587.0" class="hn thi" text-anchor="middle">927/1,568</text><rect x="541" y="537" width="72" height="72" class="h3 diag"/><text x="577.0" y="571.0" class="hv thi" text-anchor="middle">57%</text><text x="577.0" y="587.0" class="hn thi" text-anchor="middle">2,033/3,581</text><rect x="615" y="537" width="72" height="72" class="h0"/><text x="651.0" y="571.0" class="hv tlo" text-anchor="middle">15%</text><text x="651.0" y="587.0" class="hn tlo" text-anchor="middle">22/149</text><rect x="689" y="537" width="72" height="72" class="h0"/><text x="725.0" y="571.0" class="hv tlo" text-anchor="middle">7%</text><text x="725.0" y="587.0" class="hn tlo" text-anchor="middle">11/166</text><text x="88" y="651" class="lbl" text-anchor="end">Great epics</text><rect x="97" y="611" width="72" height="72" class="h1"/><text x="133.0" y="645.0" class="hv tlo" text-anchor="middle">24%</text><text x="133.0" y="661.0" class="hn tlo" text-anchor="middle">8/34</text><rect x="171" y="611" width="72" height="72" class="h0"/><text x="207.0" y="645.0" class="hv tlo it" text-anchor="middle">0%</text><text x="207.0" y="661.0" class="hn tlo" text-anchor="middle">0/5</text><rect x="245" y="611" width="72" height="72" class="h2"/><text x="281.0" y="645.0" class="hv tlo" text-anchor="middle">44%</text><text x="281.0" y="661.0" class="hn tlo" text-anchor="middle">44/100</text><rect x="319" y="611" width="72" height="72" class="h0"/><text x="355.0" y="645.0" class="hv tlo" text-anchor="middle">9%</text><text x="355.0" y="661.0" class="hn tlo" text-anchor="middle">2/23</text><rect x="393" y="611" width="72" height="72" class="h0"/><text x="429.0" y="645.0" class="hv tlo it" text-anchor="middle">0%</text><text x="429.0" y="661.0" class="hn tlo" text-anchor="middle">0/6</text><rect x="467" y="611" width="72" height="72" class="h1"/><text x="503.0" y="645.0" class="hv tlo" text-anchor="middle">22%</text><text x="503.0" y="661.0" class="hn tlo" text-anchor="middle">156/699</text><rect x="541" y="611" width="72" height="72" class="h0"/><text x="577.0" y="645.0" class="hv tlo" text-anchor="middle">15%</text><text x="577.0" y="661.0" class="hn tlo" text-anchor="middle">22/149</text><rect x="615" y="611" width="72" height="72" class="h2 diag"/><text x="651.0" y="645.0" class="hv tlo" text-anchor="middle">36%</text><text x="651.0" y="661.0" class="hn tlo" text-anchor="middle">310/871</text><rect x="689" y="611" width="72" height="72" class="h2"/><text x="725.0" y="645.0" class="hv tlo" text-anchor="middle">32%</text><text x="725.0" y="661.0" class="hn tlo" text-anchor="middle">53/164</text><text x="88" y="725" class="lbl" text-anchor="end">Minor epics</text><rect x="97" y="685" width="72" height="72" class="h0"/><text x="133.0" y="719.0" class="hv tlo it" text-anchor="middle">0%</text><text x="133.0" y="735.0" class="hn tlo" text-anchor="middle">0/10</text><rect x="171" y="685" width="72" height="72" class="h-none"/><text x="207.0" y="725.0" class="hv muted" text-anchor="middle">·</text><rect x="245" y="685" width="72" height="72" class="h0"/><text x="281.0" y="719.0" class="hv tlo it" text-anchor="middle">0%</text><text x="281.0" y="735.0" class="hn tlo" text-anchor="middle">0/13</text><rect x="319" y="685" width="72" height="72" class="h0"/><text x="355.0" y="719.0" class="hv tlo it" text-anchor="middle">0%</text><text x="355.0" y="735.0" class="hn tlo" text-anchor="middle">0/3</text><rect x="393" y="685" width="72" height="72" class="h-none"/><text x="429.0" y="725.0" class="hv muted" text-anchor="middle">·</text><rect x="467" y="685" width="72" height="72" class="h0"/><text x="503.0" y="719.0" class="hv tlo" text-anchor="middle">8%</text><text x="503.0" y="735.0" class="hn tlo" text-anchor="middle">47/565</text><rect x="541" y="685" width="72" height="72" class="h0"/><text x="577.0" y="719.0" class="hv tlo" text-anchor="middle">7%</text><text x="577.0" y="735.0" class="hn tlo" text-anchor="middle">11/166</text><rect x="615" y="685" width="72" height="72" class="h2"/><text x="651.0" y="719.0" class="hv tlo" text-anchor="middle">32%</text><text x="651.0" y="735.0" class="hn tlo" text-anchor="middle">53/164</text><rect x="689" y="685" width="72" height="72" class="h1 diag"/><text x="725.0" y="719.0" class="hv tlo" text-anchor="middle">22%</text><text x="725.0" y="735.0" class="hn tlo" text-anchor="middle">127/583</text><rect x="96" y="778" width="16" height="16" class="h0"/><text x="118" y="791" class="tick">0–15%</text><rect x="206" y="778" width="16" height="16" class="h1"/><text x="228" y="791" class="tick">15–30%</text><rect x="316" y="778" width="16" height="16" class="h2"/><text x="338" y="791" class="tick">30–45%</text><rect x="426" y="778" width="16" height="16" class="h3"/><text x="448" y="791" class="tick">45–60%</text><rect x="536" y="778" width="16" height="16" class="h4"/><text x="558" y="791" class="tick">60+%</text><text x="96" y="814" class="tick">Italic: fewer than 20 graded links (noise). Diagonal outlined: within-group baseline.</text></svg></div>
+<figcaption>Ethics and devotional cells include the five kept graphs, which were graded earlier under their own briefs. That is why the ethics diagonal (72%) and the ethics–devotional cell (59%) are high, and they are not directly comparable with the marking-pass cells.</figcaption>
+</figure>
+<ul>
+  <li>Akam to ethics (229 sound, 46%) and puram to ethics (109 sound, 46%) match or beat the akam (41%) and puram (46%) baselines.</li>
+  <li>The great epics bridge best to puram (44%, above their own 36%).</li>
+  <li>The minor epics bridge to almost nothing: 8% to ethics, 7% to devotional, 0 of 26 to the Sangam groups.</li>
+  <li>Of the four bridges set out to test, only puram giving to the ethics works holds. Akam landscape to mystic inner landscape has only 5 links. Epic karma to the Siddhars and Naladiyar is weak. Murugan across Paripadal, Pattupattu and Thiruppugazh is thin.</li>
+</ul>
+<p class="src">Source: <code>kg/groups/bridges_summary.json (pairs)</code>, <code>docs/corpus-summary.md</code></p>
+
+<h3>6.3 Lessons fed back into the briefs</h3>
+<p>After each round the scores name the weak link kinds, and a rule goes into the brief. The chart follows four measures across runs.</p>
+<figure>
+<div class="fig"><svg viewBox="0 0 660 290" width="660" role="img" aria-label="How four measures moved as lessons were folded into the briefs" class="chart" style="max-width:100%;height:auto"><line x1="190.0" y1="10" x2="190.0" y2="264" class="grid"/><text x="190.0" y="280" class="tick" text-anchor="middle">0%</text><line x1="279.2" y1="10" x2="279.2" y2="264" class="grid"/><text x="279.2" y="280" class="tick" text-anchor="middle">20%</text><line x1="368.4" y1="10" x2="368.4" y2="264" class="grid"/><text x="368.4" y="280" class="tick" text-anchor="middle">40%</text><line x1="457.6" y1="10" x2="457.6" y2="264" class="grid"/><text x="457.6" y="280" class="tick" text-anchor="middle">60%</text><line x1="546.8" y1="10" x2="546.8" y2="264" class="grid"/><text x="546.8" y="280" class="tick" text-anchor="middle">80%</text><line x1="636.0" y1="10" x2="636.0" y2="264" class="grid"/><text x="636.0" y="280" class="tick" text-anchor="middle">100%</text><text x="180" y="36" class="lbl" text-anchor="end">Akam to Kural/ethics sound</text><text x="180" y="51" class="tick" text-anchor="end">higher is better</text><line x1="301.5" y1="38" x2="456.2" y2="38" class="link"/><circle cx="301.5" cy="38" r="4.5" class="dot"/><circle cx="456.2" cy="38" r="6" class="dot-end"/><text x="190" y="60" class="tick">round 1 25%  →  round 2 60%</text><text x="180" y="96" class="lbl" text-anchor="end">Ethics list_adds failed</text><text x="180" y="111" class="tick" text-anchor="end">lower is better</text><line x1="224.1" y1="98" x2="290.9" y2="98" class="link"/><circle cx="290.9" cy="98" r="4.5" class="dot"/><circle cx="275.8" cy="98" r="4.5" class="dot"/><circle cx="224.1" cy="98" r="6" class="dot-end"/><text x="190" y="120" class="tick">pilot 23%  →  wave 3 19%  →  wave 5 8%</text><text x="180" y="156" class="lbl" text-anchor="end">Sangam teaches failed</text><text x="180" y="171" class="tick" text-anchor="end">lower is better</text><line x1="333.2" y1="158" x2="353.3" y2="158" class="link"/><circle cx="353.3" cy="158" r="4.5" class="dot"/><circle cx="352.2" cy="158" r="4.5" class="dot"/><circle cx="333.2" cy="158" r="6" class="dot-end"/><text x="190" y="180" class="tick">round 1 37%  →  round 2 36%  →  wave 4 32%</text><text x="180" y="216" class="lbl" text-anchor="end">Epic gains failed</text><text x="180" y="231" class="tick" text-anchor="end">lower is better</text><line x1="301.5" y1="218" x2="542.9" y2="218" class="link"/><circle cx="346.1" cy="218" r="4.5" class="dot"/><circle cx="301.5" cy="218" r="4.5" class="dot"/><circle cx="389.5" cy="218" r="4.5" class="dot"/><circle cx="542.9" cy="218" r="6" class="dot-end"/><text x="190" y="240" class="tick">pilot 35%  →  wave 3 25%  →  wave 5 45%  →  wave 6* 79%</text></svg></div>
+<figcaption>Filled dots are the latest run. Akam-to-ethics links (mostly to the Kural) rose once they had to share the speaker's situation. The ethics <code>list_adds</code> test failed far less once it had to name what the list form adds. Sangam <code>teaches</code> failures fell only slightly. The epic <code>gains</code> test did not improve, and wave 6 (*graded by Sonnet) is the outlier.</figcaption>
+</figure>
+<p>Other measured lessons: <code>parallel_domain</code> links were 14–20% sound in every field set, so the briefs now advise against the type. In Sangam round 1, akam-to-puram links through the same king or place were 80% sound, <code>develops</code> 67% and <code>agrees</code> 39%. The briefs now prefer develops or qualifies when two verses differ in scope.</p>
+<p class="src">Source: <code>kg/themes/sangam_grading/{round1,round2,wave4,pilots,wave3,wave5,wave6}/scores.json (part_a pooled)</code>, <code>docs/sangam-marking-brief.md, docs/ethics-marking-brief.md, docs/epic-marking-brief.md (Lessons)</code></p>
+
+<h3>6.4 Stance agreement on the epics</h3>
+<p>In the pilot the marker called 47 of 62 claims <code>refuted</code>, and the graders called most of them <code>reported</code>. The rule was changed: <code>refuted</code> only when the work answers the claim. Stance kappa between marker and grader moved from 0.34–0.39 in the pilot to 0.76 in wave 5.</p>
+<figure>
+<div class="fig"><svg viewBox="0 0 600 260" width="600" role="img" aria-label="Stance kappa across epic grading runs" class="chart" style="max-width:100%;height:auto"><line x1="46" y1="220.0" x2="440" y2="220.0" class="grid"/><text x="40" y="224.0" class="tick" text-anchor="end">0.0</text><line x1="46" y1="180.0" x2="440" y2="180.0" class="grid"/><text x="40" y="184.0" class="tick" text-anchor="end">0.2</text><line x1="46" y1="140.0" x2="440" y2="140.0" class="grid"/><text x="40" y="144.0" class="tick" text-anchor="end">0.4</text><line x1="46" y1="100.0" x2="440" y2="100.0" class="grid"/><text x="40" y="104.0" class="tick" text-anchor="end">0.6</text><line x1="46" y1="60.0" x2="440" y2="60.0" class="grid"/><text x="40" y="64.0" class="tick" text-anchor="end">0.8</text><line x1="46" y1="20.0" x2="440" y2="20.0" class="grid"/><text x="40" y="24.0" class="tick" text-anchor="end">1.0</text><text x="46.0" y="246" class="tick" text-anchor="middle">pilot</text><text x="177.3" y="246" class="tick" text-anchor="middle">wave 3</text><text x="308.7" y="246" class="tick" text-anchor="middle">wave 5</text><text x="440.0" y="246" class="tick" text-anchor="middle">wave 6</text><polyline points="46.0,141.9 177.3,152.5 308.7,68.0 440.0,111.5" class="ln1" fill="none"/><circle cx="46.0" cy="141.9" r="4" class="ln1-dot"/><text x="46.0" y="157.9" class="tick" text-anchor="middle">0.39</text><circle cx="177.3" cy="152.5" r="4" class="ln1-dot"/><text x="177.3" y="168.5" class="tick" text-anchor="middle">0.34</text><circle cx="308.7" cy="68.0" r="4" class="ln1-dot"/><text x="308.7" y="84.0" class="tick" text-anchor="middle">0.76</text><circle cx="440.0" cy="111.5" r="4" class="ln1-dot"/><text x="440.0" y="127.5" class="tick" text-anchor="middle">0.54</text><text x="448" y="115.5" class="lbl">marker vs grader 1</text><polyline points="46.0,48.6 177.3,123.8 308.7,56.8 440.0,65.2" class="ln2" fill="none"/><circle cx="46.0" cy="48.6" r="4" class="ln2-dot"/><text x="46.0" y="39.6" class="tick" text-anchor="middle">0.86</text><circle cx="177.3" cy="123.8" r="4" class="ln2-dot"/><text x="177.3" y="114.8" class="tick" text-anchor="middle">0.48</text><circle cx="308.7" cy="56.8" r="4" class="ln2-dot"/><text x="308.7" y="47.8" class="tick" text-anchor="middle">0.82</text><circle cx="440.0" cy="65.2" r="4" class="ln2-dot"/><text x="440.0" y="56.2" class="tick" text-anchor="middle">0.77</text><text x="448" y="69.2" class="lbl">grader 1 vs grader 2</text></svg></div>
+<figcaption>Kappa on the stance field. In the pilot the two graders already agreed with each other (0.86) but not with the marker. In wave 3 the second grader saw only 40 claims. Wave 6's first grader was Sonnet.</figcaption>
+</figure>
+<p class="src">Source: <code>kg/themes/sangam_grading/{pilots,wave3,wave5,wave6}/scores.json (part_b_narrative pairs)</code>, <code>docs/epic-marking-brief.md (Lessons)</code></p>
+
+<h3>6.5 Opus and Sonnet</h3>
+<p>Wave 6 was paused at Civaka Cintamani chapter 101 to save the usage limit and finished on Sonnet. That split gives a natural comparison.</p>
+<div class="tw"><table>
+<thead><tr><th>Measure</th><th class="n">Opus</th><th class="n">Sonnet</th></tr></thead>
+<tbody>
+<tr><td>Marking: wave 6 links sound, same Sonnet grader</td><td class="n">18.9%</td><td class="n">10.4%</td></tr>
+<tr><td>Marking: same, strictest grade</td><td class="n">18.3%</td><td class="n">10.0%</td></tr>
+<tr><td>Grading: share of links given sound</td><td class="n">47.1%</td><td class="n">14.9%</td></tr>
+<tr><td>Grading: exact on calibration links</td><td class="n">70.5%</td><td class="n">52.6%</td></tr>
+<tr><td>Grading: g1–g2 kappa (sound)</td><td class="n">0.55–0.79 (other runs)</td><td class="n">0.30 (wave 6)</td></tr>
+</tbody></table></div>
+<p>Both the marker and the grader push wave 6 down. The Sonnet grader was stricter than the known grade 71 times and more lenient 37 times. An Opus spot-check of 4 wave-6 packets gave 16% sound, so the Jain epic links are weak under either grader.</p>
+<p class="src">Source: <code>kg/groups/all_link_audit.json (by_marker_model_wave6)</code>, <code>docs/corpus-summary.md (Models and cost)</code>, <code>kg/themes/sangam_grading/wave6/scores.json</code></p>
+</section>
+
+<section id="science">
+<h2><span class="no">7</span>The science comparison</h2>
+<p>This track pairs claims in the Siddhar songs with current scientific findings and keeps a pair only if it beats random pairings.</p>
+<ol>
+  <li><strong>Findings.</strong> 60 one-sentence paraphrases of peer-reviewed reviews and trials, each with a strength label (established, replicated, contested, speculative). Findings that contradict Siddhar claims, such as mercury toxicity and limits on lifespan, are included on purpose.</li>
+  <li><strong>Scoring.</strong> All 162,060 verse-finding pairs (2,701 × 60) are scored by keyword and concept overlap. The top 300 are selected with caps per finding and per verse.</li>
+  <li><strong>Controls.</strong> 100 negative controls (seed 20261125): a candidate finding with a random verse, or a candidate verse with a random finding.</li>
+  <li><strong>Blind grading.</strong> Two graders score all 400 items 0–3 in shuffled packets, with a direction (supports, contradicts, neither).</li>
+  <li><strong>Threshold from the controls.</strong> A pair is strong only if its mean grade is at least 2, above the 95th percentile of control grades, and its overlap is above the 95th percentile of control overlaps.</li>
+</ol>
+<figure>
+<div class="fig"><svg viewBox="0 0 600 250" width="600" role="img" aria-label="Mean grade distribution, candidates against controls" class="chart" style="max-width:100%;height:auto"><line x1="46" y1="204.0" x2="580" y2="204.0" class="grid"/><text x="40" y="208.0" class="tick" text-anchor="end">0%</text><line x1="46" y1="161.5" x2="580" y2="161.5" class="grid"/><text x="40" y="165.5" class="tick" text-anchor="end">25%</text><line x1="46" y1="119.0" x2="580" y2="119.0" class="grid"/><text x="40" y="123.0" class="tick" text-anchor="end">50%</text><line x1="46" y1="76.5" x2="580" y2="76.5" class="grid"/><text x="40" y="80.5" class="tick" text-anchor="end">75%</text><line x1="46" y1="34.0" x2="580" y2="34.0" class="grid"/><text x="40" y="38.0" class="tick" text-anchor="end">100%</text><rect x="56.0" y="173.4" width="32.5" height="30.6" class="bar"/><text x="72.2" y="169.4" class="tick" text-anchor="middle">54</text><rect x="90.5" y="45.9" width="32.5" height="158.1" class="bar-ctl"/><text x="106.8" y="41.9" class="tick" text-anchor="middle">93</text><text x="90.5" y="224" class="tick" text-anchor="middle">0.0</text><rect x="145.0" y="190.4" width="32.5" height="13.6" class="bar"/><text x="161.2" y="186.4" class="tick" text-anchor="middle">24</text><rect x="179.5" y="200.6" width="32.5" height="3.4" class="bar-ctl"/><text x="195.8" y="196.6" class="tick" text-anchor="middle">2</text><text x="179.5" y="224" class="tick" text-anchor="middle">0.5</text><rect x="234.0" y="94.1" width="32.5" height="109.9" class="bar"/><text x="250.2" y="90.1" class="tick" text-anchor="middle">194</text><rect x="268.5" y="195.5" width="32.5" height="8.5" class="bar-ctl"/><text x="284.8" y="191.5" class="tick" text-anchor="middle">5</text><text x="268.5" y="224" class="tick" text-anchor="middle">1.0</text><rect x="323.0" y="197.8" width="32.5" height="6.2" class="bar"/><text x="339.2" y="193.8" class="tick" text-anchor="middle">11</text><rect x="357.5" y="204.0" width="32.5" height="0.0" class="bar-ctl"/><text x="373.8" y="200.0" class="tick" text-anchor="middle">0</text><text x="357.5" y="224" class="tick" text-anchor="middle">1.5</text><rect x="412.0" y="195.5" width="32.5" height="8.5" class="bar"/><text x="428.2" y="191.5" class="tick" text-anchor="middle">15</text><rect x="446.5" y="204.0" width="32.5" height="0.0" class="bar-ctl"/><text x="462.8" y="200.0" class="tick" text-anchor="middle">0</text><text x="446.5" y="224" class="tick" text-anchor="middle">2.0</text><rect x="501.0" y="202.9" width="32.5" height="1.1" class="bar"/><text x="517.2" y="198.9" class="tick" text-anchor="middle">2</text><rect x="535.5" y="204.0" width="32.5" height="0.0" class="bar-ctl"/><text x="551.8" y="200.0" class="tick" text-anchor="middle">0</text><text x="535.5" y="224" class="tick" text-anchor="middle">3.0</text><text x="313" y="242" class="tick" text-anchor="middle">mean grade over two graders (0 none … 3 specific, testable)</text><rect x="370" y="6" width="12" height="12" class="bar"/><text x="387" y="16" class="tick">candidates (300)</text><rect x="490" y="6" width="12" height="12" class="bar-ctl"/><text x="507" y="16" class="tick">controls (100)</text></svg></div>
+<figcaption>No control reached a mean grade of 2, so the control false-positive rate is 0. The 95th percentile of control grades was 0.52. 17 candidates reached 2 or more.</figcaption>
+</figure>
+<p>The 17 strong pairs: 8 support, 5 contradict and 4 are neither. Two depend on a cipher reading the Tamil does not fix. Six are about one finding: that mercury becomes gold only by nuclear reaction. Several of those verses themselves mock outward gold-making.</p>
+<div class="tw"><table>
+<thead><tr><th>Finding</th><th class="n">Strong pairs</th></tr></thead>
+<tbody><tr><td><code>nuclear-transmutation</code></td><td class="n">6</td></tr><tr><td><code>caste-genetics</code></td><td class="n">2</td></tr><tr><td><code>aging-hallmarks</code></td><td class="n">2</td></tr><tr><td><code>breath-retention-lifespan</code></td><td class="n">1</td></tr><tr><td><code>mantra-rosary-breath</code></td><td class="n">1</td></tr><tr><td><code>voluntary-autonomic</code></td><td class="n">1</td></tr><tr><td><code>mantra-deactivation</code></td><td class="n">1</td></tr><tr><td><code>unilateral-nostril-lateralization</code></td><td class="n">1</td></tr><tr><td><code>metals-in-indian-medicine</code></td><td class="n">1</td></tr><tr><td><code>ego-dissolution-forms</code></td><td class="n">1</td></tr></tbody></table></div>
+<div class="callout"><p><strong>Correspondence is not confirmation.</strong> A strong pair means a blind grader judged that the verse makes a specific claim a finding bears on, more clearly than random pairings. It does not mean the Siddhars anticipated the science, that a finding confirms the verse's metaphysics, or that any practice is safe. Medical and alchemical verses are recorded as historical claims, never remedies.</p></div>
+<p class="src">Source: <code>kg/science/README.md</code>, <code>kg/science/threshold_summary.json</code>, <code>kg/science/strong_links.jsonl</code></p>
+</section>
+
+<section id="siddhar">
+<h2><span class="no">8</span>Siddhar reading layers and the cipher lexicon</h2>
+<p>The Siddhar songs often carry two senses: a plain one and a coded one about breath, alchemy or consciousness. A pilot on 6 chapters (99 verses, 6 poets) read each verse in five layers (literal, breath, alchemy, consciousness, social), proposed 41 links, and drafted a lexicon of 39 double-reading words such as <span class="ta">வாசி</span>, <span class="ta">மூலநாடி</span> and <span class="ta">வெளி</span>.</p>
+<figure>
+<div class="fig"><svg viewBox="0 0 600 214" width="600" role="img" aria-label="Siddhar layer links: share graded sound" class="chart" style="max-width:100%;height:auto"><line x1="120.0" y1="12" x2="120.0" y2="190" class="grid"/><text x="120.0" y="206" class="tick" text-anchor="middle">0%</text><line x1="192.0" y1="12" x2="192.0" y2="190" class="grid"/><text x="192.0" y="206" class="tick" text-anchor="middle">20%</text><line x1="264.0" y1="12" x2="264.0" y2="190" class="grid"/><text x="264.0" y="206" class="tick" text-anchor="middle">40%</text><line x1="336.0" y1="12" x2="336.0" y2="190" class="grid"/><text x="336.0" y="206" class="tick" text-anchor="middle">60%</text><line x1="408.0" y1="12" x2="408.0" y2="190" class="grid"/><text x="408.0" y="206" class="tick" text-anchor="middle">80%</text><line x1="480.0" y1="12" x2="480.0" y2="190" class="grid"/><text x="480.0" y="206" class="tick" text-anchor="middle">100%</text><text x="112" y="31" class="lbl" text-anchor="end">breath</text><rect x="120" y="19" width="219.6" height="18" class="bar"/><text x="345.6" y="32" class="val">61%  <tspan class="muted">9 links</tspan></text><text x="112" y="59" class="lbl" text-anchor="end">literal</text><rect x="120" y="47" width="158.4" height="18" class="bar"/><text x="284.4" y="60" class="val">44%  <tspan class="muted">17 links</tspan></text><text x="112" y="87" class="lbl" text-anchor="end">social</text><rect x="120" y="75" width="144.0" height="18" class="bar"/><text x="270.0" y="88" class="val">40%  <tspan class="muted">5 links</tspan></text><text x="112" y="115" class="lbl" text-anchor="end">alchemy</text><rect x="120" y="103" width="90.0" height="18" class="bar-low"/><text x="216.0" y="116" class="val">25%  <tspan class="muted">4 links</tspan></text><text x="112" y="143" class="lbl" text-anchor="end">consciousness</text><rect x="120" y="131" width="61.2" height="18" class="bar-low"/><text x="187.2" y="144" class="val">17%  <tspan class="muted">6 links</tspan></text><line x1="310.8" y1="12" x2="310.8" y2="160" class="ref"/><text x="314.8" y="174" class="tick">flat marking, Siddhar to Siddhar: 53%</text></svg></div>
+<figcaption>Share of sound grades by the layer a link names, averaged over two graders. The dashed line is the flat marking's rate for links between Siddhar verses.</figcaption>
+</figure>
+<p><strong>A negative result.</strong> The graders rated 46% and 37% of the new links sound, no better than the flat marking's 53%. Both graders said 36 of the 41 links hold without their layer. The layer describes a link more often than it carries it. Consciousness links (17%) and shared-key links (25%) were the least reliable.</p>
+<p><strong>What was kept.</strong></p>
+<ul>
+  <li>The cipher lexicon v0.2: 26 entries accepted by both graders, 10 rejected, 3 disputed. Graders agreed on 92% of entries. The acceptance rate is 67%, against ThinaiKG's 83% from a single reviewer.</li>
+  <li>The stance field. Old links between verses of the same stance were 64% sound, against 48% across stances, and the sound "tension" links were the stance differences.</li>
+  <li>The body-place field, and a rule to hold consciousness and shared-key links to a stricter bar.</li>
+</ul>
+<p>The 2,701 Siddhar verses were not re-marked in layers.</p>
+<p class="src">Source: <code>kg/themes/siddhar_layers/findings.md</code></p>
+</section>
+
+<section id="exploratory">
+<h2><span class="no">9</span>Exploratory census of the whole Tamil corpus</h2>
+<p>A separate track asks how the texts describe knowing and measuring. It is exploratory and not part of the graded graph.</p>
+<ul>
+  <li><strong>Census.</strong> 41,583 Tamil units in 45 corpus groups were tested against 84 registered comparisons: 3,492,972 pairs. 2,218 pairs in 1,742 units met both vocabulary conditions within three lines. The rule recovered only 1 of the 17 strong science pairs and matched 0 of 100 controls. Vocabulary alone is a poor proxy for a reading.</li>
+  <li><strong>Theme combinations.</strong> Six sets of Tamil search terms were crossed over all 63 subsets. Only 289 units matched two or more. One enrichment (development with ecology, 39 units against 20.43 expected, Holm-adjusted p = 0.0285) vanished when three short ambiguous strings were removed. For example, <span class="ta">கரு</span> also matches the start of the word for sugarcane.</li>
+</ul>
+<p>No combination had corrected evidence in both vocabulary runs. The 289 units are a reading queue, not a result.</p>
+<p class="src">Source: <code>kg/science/consciousness/census.md</code>, <code>kg/science/consciousness/combinations.md</code></p>
+</section>
+
+<section id="related">
+<h2><span class="no">10</span>Related work</h2>
+<h3>ThinaiKG (M.Tech dissertation, 2025–26)</h3>
+<p>ThinaiKG classified 1,891 akam verses into the five thinai using only karu words as features. A lexicon grew from 176 to 417 terms with a human accepting each proposed term (83% accepted). A linear SVM reached macro F1 0.82; IndicBERT peaked at 58.6%. The graph is published at sangamtamil.com.</p>
+<p>What we adopted: domain theory as features, a versioned lexicon with an acceptance loop, and double confirmation before an edge enters the graph. What we treated with caution: the 500 gold labels may be colophon labels, no held-out split is described, and one reviewer accepted the terms. Tholkappiyam lets karu cross landscapes and makes uri decide the thinai, so an entity-only model reads the weakest signal. Our marking tags uri directly.</p>
+<h3>sangamtamil.com</h3>
+<p>A static reading edition of 47 texts. We crawled it at one request per second (453 requests) and used only its Tamil lines and thinai labels: as a line-by-line cross-check of our Ettuthogai text and as a source of native-thing mentions for validation. Its English translations are modern work and were not used.</p>
+<h3>Tamil Research Atlas project report</h3>
+<p>A companion report on the same repository, produced by another tool (<code>output/pdf/Tamil_Research_Atlas_Project_Report.pdf</code>). It covers the five-book literary graph, independent model readings, a prompt trial, hidden-target retrieval and the 41,583-unit census. This report covers what it does not: the 40-book marking and grading pipeline, the field sets and their reliability, the feedback loop, and the bridge matrix.</p>
+<p class="src">Source: <code>docs/methods-review-thinaikg-siddhas.md</code>, <code>docs/sangamtamil-review.md</code>, <code>output/pdf/Tamil_Research_Atlas_Project_Report.pdf</code></p>
+</section>
+
+<section id="timeline">
+<h2><span class="no">11</span>Timeline</h2>
+<ol class="timeline">
+  <li><time>2026-10-31</time><span>Project Madurai catalog mirrored; Kural chapters marked; first blind readings.</span></li>
+  <li><time>2026-11-02</time><span>The remaining 443 Kural links graded.</span></li>
+  <li><time>2026-11-15</time><span>Kural explorer; link-pass pilot and graded packets.</span></li>
+  <li><time>2026-11-17</time><span>Naladiyar, Thiruppugazh, Tirumanthiram, Purananuru, Siddhar songs and others ingested. Tirumanthiram (693 links) and Thiruppugazh (405) graded.</span></li>
+  <li><time>2026-11-18</time><span>Refinement pass: 2,689 links graded blind.</span></li>
+  <li><time>2026-11-24</time><span>Siddhar pass 1 graded: 419 links.</span></li>
+  <li><time>2026-11-25</time><span>Siddhar graph (1,351 links); science comparison; Tholkappiyam pilot and second tagger; Siddhar layers; Sangam rounds 1 and 2; text repairs; group pilots.</span></li>
+  <li><time>2026-11-26</time><span>Waves 3, 4 and 5 marked and graded.</span></li>
+  <li><time>2026-11-27</time><span>Wave 6 (Jain epics) marked and graded; whole corpus in one graph with the bridge matrix.</span></li>
+</ol>
+<p>The repository has 330 commits in this period.</p>
+<p class="src">Source: <code>git log</code></p>
+</section>
+
+<section id="limits">
+<h2><span class="no">12</span>Limitations</h2>
+<ul>
+  <li><strong>All graders are AI models.</strong> Markers and graders are Claude agents sharing training. No grader had a Tamil lexicon. Agreement between them is not the same as being right.</li>
+  <li><strong>No Tamil scholar has reviewed anything yet.</strong> The readings, grades, field tags and lexicon are unreviewed.</li>
+  <li><strong>Two grading regimes in one matrix.</strong> The five kept graphs (Kural, Naladiyar, Tirumanthiram, Thiruppugazh, Siddhars) were graded under older link-pass and per-book briefs. The Tirumanthiram's graders ran lenient against calibration. Their cells are not comparable with the marking pass's.</li>
+  <li><strong>Weak Jain epic links.</strong> 303 of 2,242 wave-6 links are sound (13.5%). Soolamani 9%, Udayana Kumara 7%, Naga Kumara 7%. Most of this is the Sonnet marking and grading.</li>
+  <li><strong>20 links never graded</strong>: 8 in Paripadal and 12 in Pattupattu were in no packet.</li>
+  <li><strong>Low agreement on some books</strong>: Valayapathi kappa 0.04, Soolamani 0.15. Their sound% is unsettled.</li>
+  <li><strong>Concept merges are judgment calls.</strong> Four of the twelve aliases join different Tamil words and could be split again.</li>
+  <li><strong>Modern commentary is kept local only.</strong> Copyrighted translations and commentary sit in the git-ignored <code>data/private/</code> and were not used for readings, so the graph lacks the commentary tradition except for the Kural and Naladiyar.</li>
+  <li><strong>Token cost was not recorded</strong> per wave. Only the early Kural link pass has a figure (about 1.2 million tokens per 443 links).</li>
+</ul>
+<p class="src">Source: <code>docs/corpus-summary.md (Known weak spots, Models and cost)</code>, <code>docs/link-pass-plan.md</code>, <code>.gitignore</code></p>
+</section>
+
+<section id="repro">
+<h2><span class="no">13</span>Reproduction</h2>
+<p>All scripts are standard-library Python, run from the repository root with <code>python3 -I</code>.</p>
+<pre><code># Text: parse and repair
+python3 -I scripts/repair_purananuru.py      # parse + repair, logs kg/core/purananuru_repairs.jsonl
+python3 -I scripts/repair_ettuthogai.py      # tamilvu arbitration for three anthologies
+python3 -I scripts/repair_pattupattu.py
+
+# Marking: show and validate a book's chapters
+python3 -I scripts/book_marks.py purananuru show 3
+python3 -I scripts/book_marks.py purananuru check 3
+
+# Grading: packets, then scores
+python3 -I scripts/make_sangam_packets.py
+python3 -I scripts/score_sangam_grades.py
+
+# Merge grades and build the graphs
+python3 -I scripts/merge_sangam_grades.py    # kg/groups/*/link_audit.json, all_link_audit.json
+python3 -I scripts/merge_concepts.py         # kg/themes/concepts.json
+python3 -I scripts/build_group_graphs.py     # nodes, edges, bridges.jsonl, bridges_summary.json
+python3 -I scripts/export_viz.py             # viz/data_*.js
+
+# Side tracks
+python3 -I scripts/tholkappiyam_agreement.py
+python3 -I scripts/siddhar_layers_check.py
+python3 -I scripts/science_pairs.py
+python3 -I scripts/science_threshold.py
+python3 -I scripts/science_census.py
+python3 -I scripts/science_combinations.py
+
+# Explorer
+python3 -I -m http.server 8817 --bind 127.0.0.1 --directory viz</code></pre>
+<p>Script arguments vary by book; each brief in <code>docs/</code> lists the exact commands for its field set.</p>
+</section>
+
+<section id="glossary">
+<h2><span class="no">14</span>Glossary</h2>
+<dl class="gloss">
+  <dt>akam / puram <span class="ta">அகம் / புறம்</span></dt><dd>The inner life of love and the outer life of kings, war, gifts and death: the two halves of Sangam poetry.</dd>
+  <dt>thinai <span class="ta">திணை</span></dt><dd>A poetic landscape and the mode of love or conduct it stands for. Akam has five (kurinji, mullai, marutham, neytal, palai).</dd>
+  <dt>mutal <span class="ta">முதல்</span></dt><dd>The first things of a poem: its land, season and hour.</dd>
+  <dt>karu <span class="ta">கரு</span></dt><dd>The native things of a landscape: its plants, animals, people, gods and tools.</dd>
+  <dt>uri <span class="ta">உரி</span></dt><dd>The human situation proper to a thinai, such as union, separation or waiting. In the Tholkappiyam it settles the thinai.</dd>
+  <dt>thurai <span class="ta">துறை</span></dt><dd>The speech situation of a poem: who speaks, to whom, on what occasion. Usually given in the colophon.</dd>
+  <dt>meyppadu <span class="ta">மெய்ப்பாடு</span></dt><dd>The feeling a verse displays, one of eight, with its cause.</dd>
+  <dt>ullurai <span class="ta">உள்ளுறை</span></dt><dd>A hidden comparison: a scene from the landscape that stands for the human situation without saying so. Experimental field.</dd>
+  <dt>iraicchi <span class="ta">இறைச்சி</span></dt><dd>A sense that rises from a native thing, beyond its literal role. Tagged only when removing the thing would lose that sense. Experimental field.</dd>
+  <dt>kappa</dt><dd>Agreement between two readers beyond chance: 0 is chance, 1 is perfect.</dd>
+  <dt>sound</dt><dd>A real connection with the right type, an accurate note, and a <code>teaches</code> sentence that says something neither verse says alone.</dd>
+  <dt>weak</dt><dd>A real connection that is thin, generic or overstated.</dd>
+  <dt>forced</dt><dd>A connection that depends on stretching a word, a reading or a colophon.</dd>
+  <dt>wrong</dt><dd>A link that misreads a verse or claims something the verses contradict.</dd>
+  <dt>calibration link</dt><dd>A link of settled grade hidden in a packet to check the grader.</dd>
+</dl>
+</section>
+</main>
+</div>

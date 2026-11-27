@@ -1,0 +1,2327 @@
+{
+  "seed": 20261125,
+  "permutations_per_spec": 3999,
+  "books": 45,
+  "units": 41583,
+  "normalized_input_hash": "07e5c194c461f1abf6930bc086521532eaa71ce1bf140ff37dac52fc7f70b212",
+  "strata": 232,
+  "duplicate_normalized_units": 23,
+  "by_book": {
+    "acharakkovai": 100,
+    "ainkurunuru": 498,
+    "ainthinai_aimpathu": 51,
+    "ainthinai_ezhupathu": 67,
+    "akananuru": 401,
+    "avvaiyar": 274,
+    "civaka_cintamani": 3145,
+    "elathi": 82,
+    "iniyavai_narpathu": 41,
+    "innaa_narpathu": 41,
+    "kainnilai": 60,
+    "kalavazhi_narpathu": 41,
+    "kalittokai": 150,
+    "kar_narpathu": 40,
+    "kundalakesi": 19,
+    "kural": 1330,
+    "kuruntokai": 402,
+    "manimekalai": 288,
+    "muthumozhikkanchi": 100,
+    "naga_kumara_kaviyam": 171,
+    "naladiyar": 400,
+    "nanmanikkadigai": 106,
+    "natrinai": 400,
+    "neelakesi": 885,
+    "paripadal": 35,
+    "patitruppattu": 92,
+    "pattupattu": 217,
+    "pazhamozhi_nanooru": 401,
+    "prabandham": 3961,
+    "purananuru": 398,
+    "siddhar": 2701,
+    "silappathikaram": 434,
+    "sirupanchamoolam": 98,
+    "soolamani": 2128,
+    "thinaimalai_nootraimpathu": 154,
+    "thinaimozhi_aimpathu": 50,
+    "thirikadugam": 101,
+    "thirumurai": 14580,
+    "thiruppugazh": 1325,
+    "tholkappiyam": 1603,
+    "tirumanthiram": 2783,
+    "tiruvasagam": 661,
+    "udayana_kumara_kaviyam": 367,
+    "valayapathi": 72,
+    "yasodhara_kaviyam": 330
+  },
+  "short_seeds_removed": [
+    "அணு",
+    "அண்ட",
+    "கரு"
+  ],
+  "missing_all": 35636,
+  "multi_lens_unit_ids_by_exact_mask": {
+    "3": [
+      "akananuru:237",
+      "manimekalai:27:120-141",
+      "manimekalai:27:142-157",
+      "manimekalai:27:158-180",
+      "manimekalai:27:197-220",
+      "manimekalai:27:237-261",
+      "manimekalai:29:399-414",
+      "pattupattu:10:514-528",
+      "siddhar:arutpulambal-2:0276_01-61",
+      "siddhar:sivavakkiyam:346",
+      "siddhar:kakapusundar-njanam:50",
+      "silappathikaram:15:49-64",
+      "soolamani:853",
+      "thirumurai:9.4.4",
+      "thirumurai:11.11.1.4",
+      "thirumurai:12.6.2.332",
+      "thiruppugazh:504",
+      "thiruppugazh:753",
+      "thiruppugazh:769",
+      "thiruppugazh:777",
+      "thiruppugazh:1124",
+      "thiruppugazh:1210",
+      "tirumanthiram:2501",
+      "tiruvasagam:369"
+    ],
+    "5": [
+      "tirumanthiram:2044",
+      "tiruvasagam:381"
+    ],
+    "6": [
+      "manimekalai:10:1-15",
+      "manimekalai:27:262-275",
+      "manimekalai:30:59-83",
+      "manimekalai:30:84-108",
+      "manimekalai:30:139-154",
+      "manimekalai:30:155-169",
+      "manimekalai:30:198-213",
+      "paripadal:20",
+      "pazhamozhi_nanooru:93",
+      "prabandham:955",
+      "prabandham:1218",
+      "prabandham:1223",
+      "prabandham:1225",
+      "prabandham:2148",
+      "siddhar:koyil-thiruvagaval-1:1",
+      "siddhar:koyil-thiruvagaval-3:1",
+      "sirupanchamoolam:21",
+      "sirupanchamoolam:22",
+      "thirumurai:4.14.11",
+      "thirumurai:6.38.2",
+      "thirumurai:7.58.3",
+      "thirumurai:7.64.1",
+      "thirumurai:7.64.2",
+      "thirumurai:7.64.3",
+      "thirumurai:7.64.4",
+      "thirumurai:7.64.5",
+      "thirumurai:7.64.6",
+      "thirumurai:7.64.7",
+      "thirumurai:7.64.8",
+      "thirumurai:7.64.9",
+      "thirumurai:11.11.3.10",
+      "thirumurai:12.6.1.716",
+      "thirumurai:12.6.1.1249",
+      "thiruppugazh:917",
+      "tiruvasagam:576"
+    ],
+    "10": [
+      "civaka_cintamani:45",
+      "civaka_cintamani:61",
+      "civaka_cintamani:1184",
+      "civaka_cintamani:3042",
+      "naladiyar:367",
+      "natrinai:367",
+      "neelakesi:12",
+      "patitruppattu:58",
+      "patitruppattu:75",
+      "pattupattu:9:234-251",
+      "pazhamozhi_nanooru:97",
+      "prabandham:1234",
+      "prabandham:1534",
+      "prabandham:3231",
+      "prabandham:3308",
+      "purananuru:22",
+      "purananuru:34",
+      "purananuru:324",
+      "silappathikaram:10:99-114",
+      "silappathikaram:10:115-131",
+      "thirumurai:2.53.4",
+      "thirumurai:2.115.3",
+      "thirumurai:7.40.3",
+      "thirumurai:7.58.6",
+      "thirumurai:7.71.7",
+      "thirumurai:7.74.4",
+      "thirumurai:9.2.3",
+      "thirumurai:9.25.10",
+      "thirumurai:11.7.2.2",
+      "thirumurai:11.11.4.76",
+      "thirumurai:12.2.4.13",
+      "thirumurai:12.5.1.6",
+      "thirumurai:12.6.1.153",
+      "thirumurai:12.6.2.11",
+      "tirumanthiram:2878",
+      "udayana_kumara_kaviyam:71"
+    ],
+    "17": [
+      "siddhar:sivavakkiyam:285",
+      "siddhar:kakapusundar-njanam:26",
+      "siddhar:kakapusundar-njanam:77",
+      "siddhar:agasthiyar-njanam:1.8",
+      "thirumurai:6.39.7",
+      "thirumurai:7.70.10",
+      "thirumurai:9.13.6",
+      "thirumurai:11.11.5.9",
+      "thirumurai:12.6.1.1108",
+      "thirumurai:12.6.6.4",
+      "thiruppugazh:106",
+      "tirumanthiram:137"
+    ],
+    "18": [
+      "akananuru:235",
+      "akananuru:265",
+      "akananuru:273",
+      "akananuru:304",
+      "akananuru:345",
+      "civaka_cintamani:239",
+      "civaka_cintamani:290",
+      "civaka_cintamani:2224",
+      "kalittokai:103",
+      "kalittokai:105",
+      "kuruntokai:3",
+      "manimekalai:6:176-187",
+      "manimekalai:24:45-69",
+      "manimekalai:27:54-76",
+      "manimekalai:30:109-124",
+      "natrinai:67",
+      "natrinai:222",
+      "natrinai:329",
+      "paripadal:2",
+      "paripadal:3",
+      "paripadal:12",
+      "paripadal:13",
+      "patitruppattu:17",
+      "patitruppattu:22",
+      "patitruppattu:31",
+      "patitruppattu:74",
+      "patitruppattu:81",
+      "patitruppattu:88",
+      "patitruppattu:fragment:1",
+      "pattupattu:2:95-117",
+      "pattupattu:2:128-144",
+      "pattupattu:4:476-500",
+      "pattupattu:9:218-233",
+      "prabandham:64",
+      "prabandham:190",
+      "prabandham:303",
+      "prabandham:1151",
+      "prabandham:1166",
+      "prabandham:1415",
+      "prabandham:1612",
+      "prabandham:1702",
+      "prabandham:1830",
+      "prabandham:2002",
+      "prabandham:2009",
+      "prabandham:2054",
+      "prabandham:2154",
+      "prabandham:2581",
+      "prabandham:3072",
+      "prabandham:3103",
+      "prabandham:3593",
+      "prabandham:3742",
+      "prabandham:3856",
+      "purananuru:37",
+      "purananuru:129",
+      "purananuru:365",
+      "purananuru:374",
+      "siddhar:meynjanap-pulambal:168",
+      "siddhar:kachchi-thiruvagaval:1",
+      "siddhar:sivavakkiyam:61",
+      "siddhar:sivavakkiyam:125",
+      "siddhar:sivavakkiyam:434",
+      "siddhar:kakapusundar-njanam:2",
+      "siddhar:kakapusundar-njanam:7",
+      "siddhar:kakapusundar-njanam:17",
+      "siddhar:njanak-kummi:24",
+      "silappathikaram:26:107-128",
+      "silappathikaram:30:145-160",
+      "soolamani:689",
+      "thirikadugam:15",
+      "thirumurai:1.53.4",
+      "thirumurai:1.101.9",
+      "thirumurai:2.28.1",
+      "thirumurai:2.61.1",
+      "thirumurai:2.66.10",
+      "thirumurai:3.53.11",
+      "thirumurai:3.55.10",
+      "thirumurai:3.106.11",
+      "thirumurai:3.119.9",
+      "thirumurai:3.120.10",
+      "thirumurai:4.48.4",
+      "thirumurai:4.81.1",
+      "thirumurai:4.88.4",
+      "thirumurai:5.6.3",
+      "thirumurai:5.39.3",
+      "thirumurai:5.93.10",
+      "thirumurai:6.15.7",
+      "thirumurai:6.26.3",
+      "thirumurai:6.26.5",
+      "thirumurai:6.27.2",
+      "thirumurai:6.53.8",
+      "thirumurai:6.70.9",
+      "thirumurai:6.75.2",
+      "thirumurai:6.79.1",
+      "thirumurai:6.80.8",
+      "thirumurai:6.89.2",
+      "thirumurai:7.40.2",
+      "thirumurai:7.100.10",
+      "thirumurai:8.kovai.46",
+      "thirumurai:8.kovai.136",
+      "thirumurai:9.1.3",
+      "thirumurai:9.17.1",
+      "thirumurai:9.17.10",
+      "thirumurai:11.2.4.72",
+      "thirumurai:11.5.5.1",
+      "thirumurai:11.5.8.1",
+      "thirumurai:11.5.9.1",
+      "thirumurai:11.11.1.6",
+      "thirumurai:11.11.1.12",
+      "thirumurai:11.11.1.23",
+      "thirumurai:11.12.9.1",
+      "thirumurai:12.5.1.380",
+      "thirumurai:12.5.6.19",
+      "thirumurai:12.6.1.202",
+      "thirumurai:12.6.1.271",
+      "thirumurai:12.6.1.594",
+      "thirumurai:12.6.1.937",
+      "thirumurai:12.6.1.1085",
+      "thirumurai:12.6.2.84",
+      "thirumurai:12.6.2.331",
+      "thiruppugazh:9",
+      "thiruppugazh:10",
+      "thiruppugazh:27",
+      "thiruppugazh:34",
+      "thiruppugazh:48",
+      "thiruppugazh:75",
+      "thiruppugazh:96",
+      "thiruppugazh:97",
+      "thiruppugazh:132",
+      "thiruppugazh:150",
+      "thiruppugazh:210",
+      "thiruppugazh:362",
+      "thiruppugazh:387",
+      "thiruppugazh:453",
+      "thiruppugazh:511",
+      "thiruppugazh:575",
+      "thiruppugazh:652",
+      "thiruppugazh:739",
+      "thiruppugazh:1067",
+      "thiruppugazh:1163",
+      "tirumanthiram:59",
+      "tirumanthiram:521",
+      "tirumanthiram:1017",
+      "tirumanthiram:1715",
+      "tirumanthiram:2219",
+      "tirumanthiram:2692",
+      "tirumanthiram:2732",
+      "tirumanthiram:2777",
+      "tirumanthiram:3042",
+      "tiruvasagam:162",
+      "tiruvasagam:332",
+      "tiruvasagam:395",
+      "yasodhara_kaviyam:29"
+    ],
+    "20": [
+      "siddhar:sivavakkiyam:60",
+      "siddhar:kakapusundar-njanam:3",
+      "thirumurai:1.128.1",
+      "thirumurai:11.4.1.33",
+      "thirumurai:11.5.4.1",
+      "thirumurai:12.6.2.223",
+      "tirumanthiram:3022"
+    ],
+    "22": [
+      "thirumurai:11.5.6.1",
+      "thirumurai:11.11.1.32",
+      "thirumurai:12.6.4.1"
+    ],
+    "23": [
+      "thirumurai:11.4.3.1",
+      "tiruvasagam:3",
+      "tiruvasagam:4"
+    ],
+    "24": [
+      "patitruppattu:71",
+      "thirumurai:1.71.9"
+    ],
+    "26": [
+      "patitruppattu:30",
+      "prabandham:3787"
+    ],
+    "31": [
+      "thirumurai:11.12.7.1"
+    ],
+    "34": [
+      "prabandham:1604",
+      "siddhar:kanjamalai:15",
+      "siddhar:agasthiyar-njanam:1.7",
+      "thiruppugazh:302",
+      "tiruvasagam:228",
+      "tiruvasagam:236"
+    ],
+    "48": [
+      "siddhar:puranamalai:37",
+      "siddhar:kaduveli-anandakkalippu:10",
+      "siddhar:pambatti:5",
+      "siddhar:valmiki-sutra-njanam:1"
+    ]
+  },
+  "units_by_number_of_registered_lenses": {
+    "0": 35636,
+    "1": 5658,
+    "2": 280,
+    "3": 5,
+    "4": 3,
+    "5": 1,
+    "6": 0
+  },
+  "combinations": [
+    {
+      "mask": 1,
+      "lenses": [
+        "composition"
+      ],
+      "registered": {
+        "inclusive": 180,
+        "exclusive": 138,
+        "by_book": {
+          "akananuru": 3,
+          "avvaiyar": 1,
+          "civaka_cintamani": 7,
+          "kural": 1,
+          "kuruntokai": 1,
+          "manimekalai": 15,
+          "natrinai": 1,
+          "neelakesi": 3,
+          "pattupattu": 2,
+          "prabandham": 12,
+          "purananuru": 2,
+          "siddhar": 21,
+          "silappathikaram": 1,
+          "sirupanchamoolam": 1,
+          "soolamani": 5,
+          "thinaimalai_nootraimpathu": 1,
+          "thirumurai": 54,
+          "thiruppugazh": 14,
+          "tholkappiyam": 2,
+          "tirumanthiram": 28,
+          "tiruvasagam": 5
+        }
+      },
+      "short_seeds_removed": {
+        "inclusive": 46,
+        "exclusive": 40,
+        "by_book": {
+          "akananuru": 3,
+          "avvaiyar": 1,
+          "civaka_cintamani": 6,
+          "kuruntokai": 1,
+          "manimekalai": 7,
+          "natrinai": 1,
+          "neelakesi": 1,
+          "pattupattu": 1,
+          "prabandham": 2,
+          "siddhar": 2,
+          "soolamani": 4,
+          "thirumurai": 11,
+          "thiruppugazh": 4,
+          "tholkappiyam": 1,
+          "tiruvasagam": 1
+        }
+      }
+    },
+    {
+      "mask": 2,
+      "lenses": [
+        "development"
+      ],
+      "registered": {
+        "inclusive": 4763,
+        "exclusive": 4501,
+        "by_book": {
+          "acharakkovai": 7,
+          "ainkurunuru": 30,
+          "ainthinai_aimpathu": 2,
+          "ainthinai_ezhupathu": 4,
+          "akananuru": 73,
+          "avvaiyar": 12,
+          "civaka_cintamani": 280,
+          "elathi": 5,
+          "iniyavai_narpathu": 3,
+          "innaa_narpathu": 5,
+          "kainnilai": 4,
+          "kalavazhi_narpathu": 1,
+          "kalittokai": 25,
+          "kar_narpathu": 8,
+          "kundalakesi": 1,
+          "kural": 31,
+          "kuruntokai": 35,
+          "manimekalai": 77,
+          "naga_kumara_kaviyam": 7,
+          "naladiyar": 43,
+          "nanmanikkadigai": 5,
+          "natrinai": 46,
+          "neelakesi": 67,
+          "paripadal": 15,
+          "patitruppattu": 22,
+          "pattupattu": 69,
+          "pazhamozhi_nanooru": 45,
+          "prabandham": 521,
+          "purananuru": 62,
+          "siddhar": 246,
+          "silappathikaram": 78,
+          "sirupanchamoolam": 10,
+          "soolamani": 237,
+          "thinaimalai_nootraimpathu": 13,
+          "thinaimozhi_aimpathu": 5,
+          "thirikadugam": 6,
+          "thirumurai": 1775,
+          "thiruppugazh": 447,
+          "tholkappiyam": 20,
+          "tirumanthiram": 237,
+          "tiruvasagam": 126,
+          "udayana_kumara_kaviyam": 19,
+          "valayapathi": 2,
+          "yasodhara_kaviyam": 37
+        }
+      },
+      "short_seeds_removed": {
+        "inclusive": 663,
+        "exclusive": 631,
+        "by_book": {
+          "acharakkovai": 2,
+          "ainkurunuru": 3,
+          "akananuru": 11,
+          "avvaiyar": 3,
+          "civaka_cintamani": 50,
+          "iniyavai_narpathu": 1,
+          "innaa_narpathu": 1,
+          "kainnilai": 1,
+          "kalittokai": 10,
+          "kundalakesi": 1,
+          "kural": 4,
+          "kuruntokai": 3,
+          "manimekalai": 14,
+          "naladiyar": 3,
+          "nanmanikkadigai": 2,
+          "natrinai": 4,
+          "neelakesi": 7,
+          "paripadal": 3,
+          "patitruppattu": 5,
+          "pattupattu": 7,
+          "pazhamozhi_nanooru": 7,
+          "prabandham": 52,
+          "purananuru": 9,
+          "siddhar": 55,
+          "silappathikaram": 9,
+          "sirupanchamoolam": 2,
+          "soolamani": 22,
+          "thinaimalai_nootraimpathu": 2,
+          "thirikadugam": 3,
+          "thirumurai": 239,
+          "thiruppugazh": 51,
+          "tirumanthiram": 48,
+          "tiruvasagam": 20,
+          "udayana_kumara_kaviyam": 3,
+          "valayapathi": 1,
+          "yasodhara_kaviyam": 5
+        }
+      }
+    },
+    {
+      "mask": 3,
+      "lenses": [
+        "composition",
+        "development"
+      ],
+      "registered": {
+        "inclusive": 28,
+        "exclusive": 24,
+        "by_book": {
+          "akananuru": 1,
+          "manimekalai": 6,
+          "pattupattu": 1,
+          "siddhar": 3,
+          "silappathikaram": 1,
+          "soolamani": 1,
+          "thirumurai": 5,
+          "thiruppugazh": 6,
+          "tirumanthiram": 1,
+          "tiruvasagam": 3
+        },
+        "expected": 32.6088,
+        "p_enrichment": 0.8555,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 4,
+        "exclusive": 4,
+        "by_book": {
+          "manimekalai": 1,
+          "siddhar": 1,
+          "soolamani": 1,
+          "thiruppugazh": 1
+        },
+        "expected": 1.1174,
+        "p_enrichment": 0.021,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 4,
+      "lenses": [
+        "sensing"
+      ],
+      "registered": {
+        "inclusive": 257,
+        "exclusive": 206,
+        "by_book": {
+          "acharakkovai": 2,
+          "avvaiyar": 1,
+          "civaka_cintamani": 6,
+          "kalittokai": 1,
+          "kural": 2,
+          "manimekalai": 11,
+          "naladiyar": 3,
+          "nanmanikkadigai": 1,
+          "neelakesi": 2,
+          "paripadal": 1,
+          "pattupattu": 1,
+          "pazhamozhi_nanooru": 2,
+          "prabandham": 31,
+          "siddhar": 20,
+          "silappathikaram": 2,
+          "sirupanchamoolam": 2,
+          "thirikadugam": 1,
+          "thirumurai": 120,
+          "thiruppugazh": 6,
+          "tholkappiyam": 7,
+          "tirumanthiram": 23,
+          "tiruvasagam": 12
+        }
+      },
+      "short_seeds_removed": {
+        "inclusive": 257,
+        "exclusive": 240,
+        "by_book": {
+          "acharakkovai": 2,
+          "avvaiyar": 1,
+          "civaka_cintamani": 6,
+          "kalittokai": 1,
+          "kural": 2,
+          "manimekalai": 11,
+          "naladiyar": 3,
+          "nanmanikkadigai": 1,
+          "neelakesi": 2,
+          "paripadal": 1,
+          "pattupattu": 1,
+          "pazhamozhi_nanooru": 2,
+          "prabandham": 31,
+          "siddhar": 20,
+          "silappathikaram": 2,
+          "sirupanchamoolam": 2,
+          "thirikadugam": 1,
+          "thirumurai": 120,
+          "thiruppugazh": 6,
+          "tholkappiyam": 7,
+          "tirumanthiram": 23,
+          "tiruvasagam": 12
+        }
+      }
+    },
+    {
+      "mask": 5,
+      "lenses": [
+        "composition",
+        "sensing"
+      ],
+      "registered": {
+        "inclusive": 6,
+        "exclusive": 2,
+        "by_book": {
+          "thirumurai": 2,
+          "tirumanthiram": 1,
+          "tiruvasagam": 3
+        },
+        "expected": 5.2817,
+        "p_enrichment": 0.4145,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 1,
+        "exclusive": 1,
+        "by_book": {
+          "tiruvasagam": 1
+        },
+        "expected": 0.4867,
+        "p_enrichment": 0.39525,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 6,
+      "lenses": [
+        "development",
+        "sensing"
+      ],
+      "registered": {
+        "inclusive": 42,
+        "exclusive": 35,
+        "by_book": {
+          "manimekalai": 7,
+          "paripadal": 1,
+          "pazhamozhi_nanooru": 1,
+          "prabandham": 5,
+          "siddhar": 2,
+          "sirupanchamoolam": 2,
+          "thirumurai": 20,
+          "thiruppugazh": 1,
+          "tiruvasagam": 3
+        },
+        "expected": 44.311,
+        "p_enrichment": 0.69025,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 13,
+        "exclusive": 9,
+        "by_book": {
+          "manimekalai": 2,
+          "pazhamozhi_nanooru": 1,
+          "prabandham": 1,
+          "siddhar": 1,
+          "sirupanchamoolam": 2,
+          "thirumurai": 4,
+          "tiruvasagam": 2
+        },
+        "expected": 10.7083,
+        "p_enrichment": 0.2405,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 7,
+      "lenses": [
+        "composition",
+        "development",
+        "sensing"
+      ],
+      "registered": {
+        "inclusive": 4,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 2,
+          "tiruvasagam": 2
+        },
+        "expected": 3.6144,
+        "p_enrichment": 0.5235,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0178,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 8,
+      "lenses": [
+        "ecological_dependence"
+      ],
+      "registered": {
+        "inclusive": 124,
+        "exclusive": 83,
+        "by_book": {
+          "ainkurunuru": 4,
+          "akananuru": 5,
+          "civaka_cintamani": 9,
+          "kalittokai": 1,
+          "kuruntokai": 4,
+          "manimekalai": 1,
+          "naladiyar": 2,
+          "natrinai": 4,
+          "neelakesi": 1,
+          "patitruppattu": 4,
+          "pattupattu": 3,
+          "pazhamozhi_nanooru": 1,
+          "prabandham": 15,
+          "purananuru": 10,
+          "silappathikaram": 3,
+          "soolamani": 1,
+          "thinaimalai_nootraimpathu": 1,
+          "thinaimozhi_aimpathu": 2,
+          "thirumurai": 50,
+          "tirumanthiram": 1,
+          "tiruvasagam": 1,
+          "udayana_kumara_kaviyam": 1
+        }
+      },
+      "short_seeds_removed": {
+        "inclusive": 124,
+        "exclusive": 115,
+        "by_book": {
+          "ainkurunuru": 4,
+          "akananuru": 5,
+          "civaka_cintamani": 9,
+          "kalittokai": 1,
+          "kuruntokai": 4,
+          "manimekalai": 1,
+          "naladiyar": 2,
+          "natrinai": 4,
+          "neelakesi": 1,
+          "patitruppattu": 4,
+          "pattupattu": 3,
+          "pazhamozhi_nanooru": 1,
+          "prabandham": 15,
+          "purananuru": 10,
+          "silappathikaram": 3,
+          "soolamani": 1,
+          "thinaimalai_nootraimpathu": 1,
+          "thinaimozhi_aimpathu": 2,
+          "thirumurai": 50,
+          "tirumanthiram": 1,
+          "tiruvasagam": 1,
+          "udayana_kumara_kaviyam": 1
+        }
+      }
+    },
+    {
+      "mask": 9,
+      "lenses": [
+        "composition",
+        "ecological_dependence"
+      ],
+      "registered": {
+        "inclusive": 1,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.9863,
+        "p_enrichment": 0.7055,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.1393,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 10,
+      "lenses": [
+        "development",
+        "ecological_dependence"
+      ],
+      "registered": {
+        "inclusive": 39,
+        "exclusive": 36,
+        "by_book": {
+          "civaka_cintamani": 4,
+          "naladiyar": 1,
+          "natrinai": 1,
+          "neelakesi": 1,
+          "patitruppattu": 3,
+          "pattupattu": 1,
+          "pazhamozhi_nanooru": 1,
+          "prabandham": 5,
+          "purananuru": 3,
+          "silappathikaram": 2,
+          "thirumurai": 15,
+          "tirumanthiram": 1,
+          "udayana_kumara_kaviyam": 1
+        },
+        "expected": 20.4324,
+        "p_enrichment": 0.00025,
+        "p_holm": 0.0285
+      },
+      "short_seeds_removed": {
+        "inclusive": 8,
+        "exclusive": 6,
+        "by_book": {
+          "civaka_cintamani": 1,
+          "naladiyar": 1,
+          "patitruppattu": 2,
+          "thirumurai": 3,
+          "tirumanthiram": 1
+        },
+        "expected": 3.0215,
+        "p_enrichment": 0.01,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 11,
+      "lenses": [
+        "composition",
+        "development",
+        "ecological_dependence"
+      ],
+      "registered": {
+        "inclusive": 1,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.6022,
+        "p_enrichment": 0.562,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0039,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 12,
+      "lenses": [
+        "sensing",
+        "ecological_dependence"
+      ],
+      "registered": {
+        "inclusive": 1,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 1.1705,
+        "p_enrichment": 0.743,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 1,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 1.1705,
+        "p_enrichment": 0.74875,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 13,
+      "lenses": [
+        "composition",
+        "sensing",
+        "ecological_dependence"
+      ],
+      "registered": {
+        "inclusive": 1,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.2543,
+        "p_enrichment": 0.263,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0014,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 14,
+      "lenses": [
+        "development",
+        "sensing",
+        "ecological_dependence"
+      ],
+      "registered": {
+        "inclusive": 1,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.6045,
+        "p_enrichment": 0.551,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 1,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.2648,
+        "p_enrichment": 0.26175,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 15,
+      "lenses": [
+        "composition",
+        "development",
+        "sensing",
+        "ecological_dependence"
+      ],
+      "registered": {
+        "inclusive": 1,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.2509,
+        "p_enrichment": 0.261,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0001,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 16,
+      "lenses": [
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 885,
+        "exclusive": 699,
+        "by_book": {
+          "ainkurunuru": 4,
+          "ainthinai_ezhupathu": 1,
+          "akananuru": 17,
+          "avvaiyar": 1,
+          "civaka_cintamani": 16,
+          "kalittokai": 9,
+          "kural": 3,
+          "kuruntokai": 7,
+          "manimekalai": 11,
+          "nanmanikkadigai": 1,
+          "natrinai": 14,
+          "paripadal": 8,
+          "patitruppattu": 18,
+          "pattupattu": 13,
+          "prabandham": 125,
+          "purananuru": 22,
+          "siddhar": 85,
+          "silappathikaram": 8,
+          "sirupanchamoolam": 1,
+          "soolamani": 25,
+          "thirikadugam": 1,
+          "thirumurai": 335,
+          "thiruppugazh": 59,
+          "tholkappiyam": 1,
+          "tirumanthiram": 86,
+          "tiruvasagam": 13,
+          "yasodhara_kaviyam": 1
+        }
+      },
+      "short_seeds_removed": {
+        "inclusive": 405,
+        "exclusive": 387,
+        "by_book": {
+          "ainkurunuru": 4,
+          "akananuru": 16,
+          "avvaiyar": 1,
+          "civaka_cintamani": 16,
+          "kalittokai": 9,
+          "kural": 3,
+          "kuruntokai": 6,
+          "manimekalai": 10,
+          "nanmanikkadigai": 1,
+          "natrinai": 13,
+          "paripadal": 8,
+          "patitruppattu": 18,
+          "pattupattu": 13,
+          "prabandham": 69,
+          "purananuru": 17,
+          "siddhar": 7,
+          "silappathikaram": 8,
+          "soolamani": 23,
+          "thirikadugam": 1,
+          "thirumurai": 124,
+          "thiruppugazh": 4,
+          "tholkappiyam": 1,
+          "tirumanthiram": 27,
+          "tiruvasagam": 6
+        }
+      }
+    },
+    {
+      "mask": 17,
+      "lenses": [
+        "composition",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 16,
+        "exclusive": 12,
+        "by_book": {
+          "siddhar": 4,
+          "thirumurai": 8,
+          "thiruppugazh": 1,
+          "tirumanthiram": 1,
+          "tiruvasagam": 2
+        },
+        "expected": 10.0966,
+        "p_enrichment": 0.02,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 1,
+        "exclusive": 1,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.6717,
+        "p_enrichment": 0.4845,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 18,
+      "lenses": [
+        "development",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 161,
+        "exclusive": 152,
+        "by_book": {
+          "akananuru": 5,
+          "civaka_cintamani": 3,
+          "kalittokai": 2,
+          "kuruntokai": 1,
+          "manimekalai": 4,
+          "natrinai": 3,
+          "paripadal": 4,
+          "patitruppattu": 8,
+          "pattupattu": 4,
+          "prabandham": 20,
+          "purananuru": 4,
+          "siddhar": 9,
+          "silappathikaram": 2,
+          "soolamani": 1,
+          "thirikadugam": 1,
+          "thirumurai": 55,
+          "thiruppugazh": 20,
+          "tirumanthiram": 9,
+          "tiruvasagam": 5,
+          "yasodhara_kaviyam": 1
+        },
+        "expected": 148.5655,
+        "p_enrichment": 0.119,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 13,
+        "exclusive": 8,
+        "by_book": {
+          "akananuru": 2,
+          "civaka_cintamani": 2,
+          "patitruppattu": 2,
+          "prabandham": 1,
+          "thirumurai": 4,
+          "tiruvasagam": 2
+        },
+        "expected": 15.3503,
+        "p_enrichment": 0.8285,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 19,
+      "lenses": [
+        "composition",
+        "development",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 4,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 2,
+          "tiruvasagam": 2
+        },
+        "expected": 4.9446,
+        "p_enrichment": 0.8875,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0229,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 20,
+      "lenses": [
+        "sensing",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 14,
+        "exclusive": 7,
+        "by_book": {
+          "siddhar": 2,
+          "thirumurai": 9,
+          "tirumanthiram": 1,
+          "tiruvasagam": 2
+        },
+        "expected": 12.1012,
+        "p_enrichment": 0.29,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 7,
+        "exclusive": 3,
+        "by_book": {
+          "thirumurai": 5,
+          "tiruvasagam": 2
+        },
+        "expected": 7.8501,
+        "p_enrichment": 0.75475,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 21,
+      "lenses": [
+        "composition",
+        "sensing",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 4,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 2,
+          "tiruvasagam": 2
+        },
+        "expected": 2.9672,
+        "p_enrichment": 0.22975,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0119,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 22,
+      "lenses": [
+        "development",
+        "sensing",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 7,
+        "exclusive": 3,
+        "by_book": {
+          "thirumurai": 5,
+          "tiruvasagam": 2
+        },
+        "expected": 6.0453,
+        "p_enrichment": 0.35175,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 4,
+        "exclusive": 3,
+        "by_book": {
+          "thirumurai": 2,
+          "tiruvasagam": 2
+        },
+        "expected": 3.4443,
+        "p_enrichment": 0.458,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 23,
+      "lenses": [
+        "composition",
+        "development",
+        "sensing",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 4,
+        "exclusive": 3,
+        "by_book": {
+          "thirumurai": 2,
+          "tiruvasagam": 2
+        },
+        "expected": 2.8441,
+        "p_enrichment": 0.17175,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0005,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 24,
+      "lenses": [
+        "ecological_dependence",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 5,
+        "exclusive": 2,
+        "by_book": {
+          "patitruppattu": 2,
+          "prabandham": 1,
+          "thirumurai": 2
+        },
+        "expected": 5.8445,
+        "p_enrichment": 0.74775,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 3,
+        "exclusive": 1,
+        "by_book": {
+          "patitruppattu": 2,
+          "thirumurai": 1
+        },
+        "expected": 4.7542,
+        "p_enrichment": 0.93075,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 25,
+      "lenses": [
+        "composition",
+        "ecological_dependence",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 1,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.5155,
+        "p_enrichment": 0.52175,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0034,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 26,
+      "lenses": [
+        "development",
+        "ecological_dependence",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 3,
+        "exclusive": 2,
+        "by_book": {
+          "patitruppattu": 1,
+          "prabandham": 1,
+          "thirumurai": 1
+        },
+        "expected": 2.4669,
+        "p_enrichment": 0.44225,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 2,
+        "exclusive": 1,
+        "by_book": {
+          "patitruppattu": 1,
+          "thirumurai": 1
+        },
+        "expected": 0.7333,
+        "p_enrichment": 0.1145,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 27,
+      "lenses": [
+        "composition",
+        "development",
+        "ecological_dependence",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 1,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.5032,
+        "p_enrichment": 0.51325,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0001,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 28,
+      "lenses": [
+        "sensing",
+        "ecological_dependence",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 1,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.5192,
+        "p_enrichment": 0.5095,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 1,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.5095,
+        "p_enrichment": 0.505,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 29,
+      "lenses": [
+        "composition",
+        "sensing",
+        "ecological_dependence",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 1,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.2502,
+        "p_enrichment": 0.25925,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 30,
+      "lenses": [
+        "development",
+        "sensing",
+        "ecological_dependence",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 1,
+        "exclusive": 0,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.5033,
+        "p_enrichment": 0.50375,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 1,
+        "exclusive": 1,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.2503,
+        "p_enrichment": 0.2515,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 31,
+      "lenses": [
+        "composition",
+        "development",
+        "sensing",
+        "ecological_dependence",
+        "cosmic_scale"
+      ],
+      "registered": {
+        "inclusive": 1,
+        "exclusive": 1,
+        "by_book": {
+          "thirumurai": 1
+        },
+        "expected": 0.25,
+        "p_enrichment": 0.25925,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 32,
+      "lenses": [
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 41,
+        "exclusive": 31,
+        "by_book": {
+          "neelakesi": 1,
+          "prabandham": 1,
+          "siddhar": 27,
+          "thirumurai": 3,
+          "thiruppugazh": 4,
+          "tirumanthiram": 3,
+          "tiruvasagam": 2
+        }
+      },
+      "short_seeds_removed": {
+        "inclusive": 41,
+        "exclusive": 41,
+        "by_book": {
+          "neelakesi": 1,
+          "prabandham": 1,
+          "siddhar": 27,
+          "thirumurai": 3,
+          "thiruppugazh": 4,
+          "tirumanthiram": 3,
+          "tiruvasagam": 2
+        }
+      }
+    },
+    {
+      "mask": 33,
+      "lenses": [
+        "composition",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.2592,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.039,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 34,
+      "lenses": [
+        "development",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 6,
+        "exclusive": 6,
+        "by_book": {
+          "prabandham": 1,
+          "siddhar": 2,
+          "thiruppugazh": 1,
+          "tiruvasagam": 2
+        },
+        "expected": 4.7077,
+        "p_enrichment": 0.32275,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.8707,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 35,
+      "lenses": [
+        "composition",
+        "development",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.044,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0011,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 36,
+      "lenses": [
+        "sensing",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.2694,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.2694,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 37,
+      "lenses": [
+        "composition",
+        "sensing",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0018,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0003,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 38,
+      "lenses": [
+        "development",
+        "sensing",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0348,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0061,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 39,
+      "lenses": [
+        "composition",
+        "development",
+        "sensing",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0003,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 40,
+      "lenses": [
+        "ecological_dependence",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0159,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0159,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 41,
+      "lenses": [
+        "composition",
+        "ecological_dependence",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0001,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 42,
+      "lenses": [
+        "development",
+        "ecological_dependence",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0021,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0003,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 43,
+      "lenses": [
+        "composition",
+        "development",
+        "ecological_dependence",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 44,
+      "lenses": [
+        "sensing",
+        "ecological_dependence",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0001,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0001,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 45,
+      "lenses": [
+        "composition",
+        "sensing",
+        "ecological_dependence",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 46,
+      "lenses": [
+        "development",
+        "sensing",
+        "ecological_dependence",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 47,
+      "lenses": [
+        "composition",
+        "development",
+        "sensing",
+        "ecological_dependence",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 48,
+      "lenses": [
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 4,
+        "exclusive": 4,
+        "by_book": {
+          "siddhar": 4
+        },
+        "expected": 1.1155,
+        "p_enrichment": 0.02775,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.1732,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 49,
+      "lenses": [
+        "composition",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0131,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0001,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 50,
+      "lenses": [
+        "development",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.1837,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0033,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 51,
+      "lenses": [
+        "composition",
+        "development",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0028,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 52,
+      "lenses": [
+        "sensing",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.008,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0014,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 53,
+      "lenses": [
+        "composition",
+        "sensing",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0001,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 54,
+      "lenses": [
+        "development",
+        "sensing",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0012,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 55,
+      "lenses": [
+        "composition",
+        "development",
+        "sensing",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 56,
+      "lenses": [
+        "ecological_dependence",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0004,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0002,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 57,
+      "lenses": [
+        "composition",
+        "ecological_dependence",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 58,
+      "lenses": [
+        "development",
+        "ecological_dependence",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0001,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 59,
+      "lenses": [
+        "composition",
+        "development",
+        "ecological_dependence",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 60,
+      "lenses": [
+        "sensing",
+        "ecological_dependence",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 61,
+      "lenses": [
+        "composition",
+        "sensing",
+        "ecological_dependence",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 62,
+      "lenses": [
+        "development",
+        "sensing",
+        "ecological_dependence",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    },
+    {
+      "mask": 63,
+      "lenses": [
+        "composition",
+        "development",
+        "sensing",
+        "ecological_dependence",
+        "cosmic_scale",
+        "pervasion_and_self"
+      ],
+      "registered": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      },
+      "short_seeds_removed": {
+        "inclusive": 0,
+        "exclusive": 0,
+        "by_book": {},
+        "expected": 0.0,
+        "p_enrichment": 1.0,
+        "p_holm": 1
+      }
+    }
+  ]
+}

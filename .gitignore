@@ -35,3 +35,11 @@ data/raw/pdf/pm0518.pdf
 data/raw/pdf/pm0778.pdf
 data/raw/pdf/pm0774.pdf
 data/raw/pdf/pm0777.pdf
+
+# Local tool folders and caches
+__pycache__/
+.DS_Store
+.codex/
+# The research atlas reader keeps its own git repository
+research-atlas/
+nilai-inquiry/
