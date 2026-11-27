@@ -4,18 +4,20 @@ A mirror of the [Project Madurai list of works](https://www.projectmadurai.org/p
 prepared for text mining and knowledge graph construction. Crawled 2026-10-31; the list
 was last updated by the site on 20 May 2026.
 
-## Terms of use
+## Terms of use & corpus setup
 
-The texts belong to Project Madurai and its contributors. They are not relicensed here.
+This public repository contains the **crawler/extraction scripts, catalog metadata, knowledge graph (`kg/`), and Nilai bilingual explorer (`site/`)**, which reference and link across works using brief verbatim quotes.
 
-- Each text says: "You are welcome to freely distribute this file, provided this header
-  page is kept intact." `data/raw/` is unmodified, and `data/text/` keeps the header above
-  the `=== BODY ===` marker. Keep it when you redistribute these files.
-- The FAQ says works are either public domain or included "with due consent from the
-  respective authors". That consent was given to Project Madurai, and some translations
-  state their own copyright, such as "All rights reserved". Check those before publishing
-  or redistributing them.
-- Keep this repository private until those checks are done.
+Full source texts (`data/raw/`, `data/text/`, and `data/pdf_text/`) are intentionally **excluded and gitignored** here because Project Madurai includes both public-domain classical works and modern contributions/translations hosted with author consent given specifically to Project Madurai.
+
+To rebuild the local text corpus yourself:
+
+```bash
+python3 scripts/crawl.py
+python3 scripts/extract.py
+```
+
+When working with crawled texts locally, preserve Project Madurai's header pages intact and check individual copyright/translation notices before redistributing any full text.
 
 ## Copyright
 

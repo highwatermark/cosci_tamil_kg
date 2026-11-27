@@ -43,3 +43,7 @@ __pycache__/
 # The research atlas reader keeps its own git repository
 research-atlas/
 nilai-inquiry/
+# Source text mirrors (users run scripts/crawl.py and scripts/extract.py locally)
+data/raw/
+data/text/
+data/pdf_text/
