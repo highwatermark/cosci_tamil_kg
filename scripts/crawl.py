@@ -267,6 +267,8 @@ def main():
             url, referrer = queue[position]
             position += 1
             previous = done.get(url)
+            if previous and previous["ok"] and previous.get("path") and not (ROOT / previous["path"]).exists():
+                previous = None  # recorded but not on disk (e.g. untracked in git): fetch it again
             if previous and (previous["ok"] or not args.retry_failed):
                 if previous["ok"] and previous.get("path"):
                     for link in discover_links(url, (ROOT / previous["path"]).read_bytes()):

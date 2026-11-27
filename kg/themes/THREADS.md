@@ -56,7 +56,7 @@ All entries are proposed. `text` means the verse says it directly, `commentator`
   - Those in high place who aren't high are not high; those in low place who aren't low are not low. (`text`)
 - **திருக்குறள் 972, மணக்குடவர் உரை** — எல்லா வுயிர்க்கும் பிறப்பால் ஒரு வேறுபாடில்லை
   - Manakkudavar: no difference among beings by birth. (`commentator`)
-- **கலைஞர் உரை, பிற்சேர்க்கைப் பாடல்** — பிறவிவழியாம் வருணத்துக் கொருநீதி
+- **கலைஞர் உரை, பிற்சேர்க்கைப் பாடல்** — [quotation omitted: in copyright]
   - A poem in Kalaignar's book says Valluvar rejected Manu's separate justice for each birth-based varna. (`commentator`)
 - **புறநானூறு 192** — யாதும் ஊரே ; யாவரும் கேளிர் ;
   - Every town is ours and everyone our kin. (`text`)
@@ -70,7 +70,7 @@ All entries are proposed. `text` means the verse says it directly, `commentator`
   - No one scorns the ferryman as lowest by old caste rule; take the learned as a guide likewise. (`text`)
 - **நாலடியார் 142** — வான்றோய் குடிப்பிறந்தார்க் கல்லது - வான்றோயும்
   - Excellence, gentleness and good conduct belong only to the high-born, even if others gain great wealth. (`text`)
-- **திருக்குறள் 972, கலைஞர் உரை** — செய்யும் தொழிலில் காட்டுகிற திறமையில் மட்டுமே வேறுபாடு காண முடியும்.
+- **திருக்குறள் 972, கலைஞர் உரை** — [quotation omitted: in copyright]
   - In his comment on the verse, Kalaignar says difference lies only in the skill shown in one's work. (`commentator`)
 
 ### How they relate
@@ -158,19 +158,19 @@ All entries are proposed. `text` means the verse says it directly, `commentator`
 
 - **திருக்குறள் 380, பரிமேலழகர் உரை** — எல்லாம் வழியாக வருதலுடைமையின், ஊழே வலியது என்பதாம்.
   - Parimelazhagar: everything can become fate's route, so fate is the stronger. (`commentator`)
-- **திருக்குறள் 380, கலைஞர் உரை** — இயற்கை நிலையே முதன்மையாக வந்து நிற்பதால்
+- **திருக்குறள் 380, கலைஞர் உரை** — [quotation omitted: in copyright]
   - Kalaignar: the natural state reasserts itself over artificial arrangements. Fate is not mentioned. (`commentator`)
 - **திருக்குறள் 38, பரிமேலழகர் உரை** — அச்செயல் அவன் யாக்கையோடு கூடும் நாள் வரும் வழியை வாராமல் அடைக்குங் கல்லாம்.
   - Parimelazhagar: good deeds are a stone blocking the way by which the soul rejoins a body. (`commentator`)
-- **திருக்குறள் 38, கலைஞர் உரை** — வாழ்க்கைப் பாதையைச் சீராக்கி அமைத்துத் தரும் கல்லாக
+- **திருக்குறள் 38, கலைஞர் உரை** — [quotation omitted: in copyright]
   - Kalaignar: good deeds are a stone that paves the path of this life. (`commentator`)
 - **திருக்குறள் 37, பரிமேலழகர் உரை** — சிவிகை பொறுத்தானோடு ஊர்ந்தான் இடை-சிவிகையைக் காவுவானோடு செலுத்துவானிடைக் காட்சியளவை தன்னானே உணரப்படும்.
   - Parimelazhagar: virtue's fruit can be seen directly between the palanquin's bearer and rider. (`commentator`)
-- **திருக்குறள் 37, கலைஞர் உரை** — பல்லக்கில் உட்கார்ந்து செல்பவர்களைப் போல
+- **திருக்குறள் 37, கலைஞர் உரை** — [quotation omitted: in copyright]
   - Kalaignar: rider and bearer are similes for how the virtuous and the wicked carry life's joys and sorrows. (`commentator`)
-- **திருக்குறள் 398, கலைஞர் உரை** — ஏழேழு தலைமுறைக்கும் பாதுகாப்பாக அமையும்.
+- **திருக்குறள் 398, கலைஞர் உரை** — [quotation omitted: in copyright]
   - Kalaignar: learning protects through seven generations, not seven births of one person. (`commentator`)
-- **திருக்குறள் 373, கலைஞர் உரை** — அவரது இயற்கை அறிவே மேலோங்கி நிற்கும்.
+- **திருக்குறள் 373, கலைஞர் உரை** — [quotation omitted: in copyright]
   - Kalaignar: natural intelligence prevails over study, in a verse from the chapter on fate. (`commentator`)
 
 ### How they relate

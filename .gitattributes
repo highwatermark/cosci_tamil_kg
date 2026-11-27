@@ -1,0 +1,15 @@
+# Files that quote modern, in-copyright commentaries (Kalaignar, Mudaliar, Sundara Shanmuganar).
+# The clean filter blanks those quotations in what git commits; the working copy keeps them.
+# One-time setup per clone: see README.md, "Copyright".
+kg/core/commentaries.jsonl filter=strip-modern
+kg/core/naladiyar.jsonl filter=strip-modern
+kg/core/avvaiyar.jsonl filter=strip-modern
+kg/core/thirumurai.jsonl filter=strip-modern
+kg/kural/edges.jsonl filter=strip-modern
+kg/naladiyar/edges.jsonl filter=strip-modern
+kg/themes/kural/*.json filter=strip-modern
+kg/themes/naladiyar/*.json filter=strip-modern
+kg/themes/audit_sample.json filter=strip-modern
+kg/themes/pilot_source.json filter=strip-modern
+kg/themes/nodes.jsonl filter=strip-modern
+kg/themes/THREADS.md filter=strip-modern

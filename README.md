@@ -17,6 +17,41 @@ The texts belong to Project Madurai and its contributors. They are not relicense
   or redistributing them.
 - Keep this repository private until those checks are done.
 
+## Copyright
+
+Modern commentaries are in copyright, so the repository does not carry them: Kalaignar
+(M. Karunanidhi) on the Kural, and V. Mahadeva Mudaliar and Sundara Shanmuganar on the
+Naladiyar, Nalvazhi and Thirumurugaatruppadai. Parimelazhagar, Manakkudavar, Arumuga Navalar
+and Pope are public domain and stay.
+
+- **Source files** (`pmuni0612`, `0518`, `0774`, `0777`, `0778` in `data/raw/utf8/`,
+  `data/text/` and `data/raw/pdf/`) are listed in `.gitignore` and live only on this machine.
+  A fresh clone lacks them; `crawl.py` fetches any file its log records but the disk lacks,
+  and `extract.py` rebuilds the text:
+
+  ```bash
+  python3 -I scripts/crawl.py --extras
+  python3 -I scripts/extract.py
+  ```
+
+  The parsers that read them (`parse_naladiyar.py`, `parse_avvaiyar.py`,
+  `parse_thirumurai.py`, `align_commentaries.py`, `build_kural_graph.py`) need them back
+  before they are rerun.
+- **Derived files** that quote these commentaries (listed in `.gitattributes`) go through a
+  git clean filter, `scripts/git_strip_modern_commentary.py`. The committed copy has the
+  quotations blanked; the working copy keeps them. Run this once in every clone, before the
+  first `git add`, or git commits the full text:
+
+  ```bash
+  git config filter.strip-modern.clean "python3 -I scripts/git_strip_modern_commentary.py"
+  git config filter.strip-modern.smudge cat
+  git config filter.strip-modern.required false
+  ```
+
+  A fresh clone checks out the blanked copies, so the builders there see empty quotations
+  for these commentators until they are rebuilt from the re-fetched sources.
+- Earlier commits still contain these texts; history has not been rewritten.
+
 ## Layout
 
 | Path | Contents |
