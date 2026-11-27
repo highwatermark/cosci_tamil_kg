@@ -1,0 +1,1380 @@
+<title>Nilai</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Noto+Serif+Tamil:wght@400;500;600&display=swap">
+<style>
+/* Layout: one 46rem reading column, a sticky md-file bar, wide widgets scroll inside their own frames. */
+:root{
+  color-scheme:dark;
+  --bg:#1b1a19; --bg-2:#242220; --bg-3:#2e2b28; --fg:#ece3d4; --fg-2:#bcb1a0; --mute:#8a8073; --rule:#3b3733;
+  --pink:#f3a9c1; --pink-ink:#2a1720; --pink-soft:rgba(243,169,193,.13);
+  --leaf:#d7b56f; --leaf-soft:rgba(215,181,111,.16); --sci:#88c4b5; --dot:#a3d97f; --warn:#e9a66b;
+  --f-md:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  --f-body:"Newsreader","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --f-hand:"Caveat","Segoe Print","Bradley Hand","Comic Sans MS",cursive;
+  --f-ta:"Noto Serif Tamil","Tamil Sangam MN","Latha","Nirmala UI",serif;
+  --col:46rem;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
+  color-scheme:light;
+  --bg:#f3eee6; --bg-2:#e9e2d6; --bg-3:#ded5c6; --fg:#25211d; --fg-2:#4e463d; --mute:#776c5f; --rule:#cdc2b1;
+  --pink:#bd3b68; --pink-ink:#fff5f8; --pink-soft:rgba(189,59,104,.10);
+  --leaf:#8b6620; --leaf-soft:rgba(139,102,32,.12); --sci:#2a7465; --dot:#3d9629; --warn:#a85a1c;
+}}
+:root[data-theme="light"]{
+  color-scheme:light;
+  --bg:#f3eee6; --bg-2:#e9e2d6; --bg-3:#ded5c6; --fg:#25211d; --fg-2:#4e463d; --mute:#776c5f; --rule:#cdc2b1;
+  --pink:#bd3b68; --pink-ink:#fff5f8; --pink-soft:rgba(189,59,104,.10);
+  --leaf:#8b6620; --leaf-soft:rgba(139,102,32,.12); --sci:#2a7465; --dot:#3d9629; --warn:#a85a1c;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:4.5rem}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:1.125rem;line-height:1.6;margin:0;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+a{color:var(--pink);text-underline-offset:.18em;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--pink);outline-offset:2px;border-radius:4px}
+button{font:inherit;color:inherit}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.col{max-width:var(--col);margin-inline:auto}
+
+/* header */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+.bar .in{display:flex;align-items:center;gap:.75rem;padding-block:.55rem;max-width:58rem;margin-inline:auto}
+.brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--fg);min-width:0}
+.brand svg{flex:none}
+.brand b{font-family:var(--f-md);font-weight:500;font-size:.95rem;letter-spacing:.01em}
+.brand small{font-family:var(--f-ta);color:var(--mute);font-size:.85rem}
+.bar .sp{flex:1}
+.pill{display:inline-flex;align-items:center;gap:.5rem;background:var(--pink);color:var(--pink-ink);border:0;border-radius:999px;padding:.38rem .9rem .38rem .75rem;font-family:var(--f-md);font-size:.85rem;font-weight:500;cursor:pointer}
+.pill .d{width:.55rem;height:.55rem;border-radius:50%;background:var(--dot);box-shadow:0 0 0 2px color-mix(in srgb,var(--pink-ink) 30%,transparent)}
+.tbtn{border:1px solid var(--rule);background:transparent;border-radius:999px;width:2.1rem;height:2.1rem;display:grid;place-items:center;cursor:pointer;color:var(--fg-2)}
+.tbtn svg{width:1rem;height:1rem}
+.idx{position:absolute;right:max(16px,env(safe-area-inset-right,0px));top:calc(100% + 6px);width:min(22rem,calc(100vw - 32px));background:var(--bg-2);border:1px solid var(--rule);border-radius:14px;padding:.6rem;box-shadow:0 18px 40px rgba(0,0,0,.35)}
+.idx ol{list-style:none;margin:0;padding:0;font-family:var(--f-md);font-size:.86rem}
+.idx a{display:flex;gap:.6rem;padding:.45rem .6rem;border-radius:8px;color:var(--fg);text-decoration:none}
+.idx a:hover,.idx a:focus-visible{background:var(--pink-soft)}
+.idx a span{color:var(--mute);min-width:1.6rem}
+.idx .ta{font-family:var(--f-ta);color:var(--fg-2)}
+.bar .in{position:relative}
+
+/* type */
+h1,h2,h3,h4{text-wrap:balance;line-height:1.2}
+h2{font-family:var(--f-md);font-weight:600;font-size:1.45rem;margin:0 0 .6rem;letter-spacing:-.01em}
+h2::before{content:"## ";color:var(--mute);font-weight:400}
+h3{font-family:var(--f-md);font-weight:500;font-size:1.08rem;margin:2.4rem 0 .6rem}
+h3::before{content:"### ";color:var(--mute);font-weight:400}
+h3 .n{color:var(--pink)}
+p{margin:.6rem 0}
+.md{font-family:var(--f-md);font-size:.84rem;color:var(--mute);letter-spacing:.01em}
+.aside{font-family:var(--f-hand);font-size:1.55rem;line-height:1.25;color:var(--leaf);margin:1rem 0;padding-left:1.1rem;position:relative}
+.aside::before{content:">";position:absolute;left:0;top:.05em;font-family:var(--f-md);font-size:1rem;color:var(--mute)}
+.lede{font-size:1.25rem;color:var(--fg)}
+.muted{color:var(--fg-2)}
+.ta,[lang="ta"]{font-family:var(--f-ta)}
+code,.id{font-family:var(--f-md);font-size:.8rem;color:var(--fg-2);background:var(--bg-2);padding:.08rem .35rem;border-radius:5px;overflow-wrap:anywhere}
+ul.pulli{list-style:none;padding:0;margin:.8rem 0}
+ul.pulli li{position:relative;padding-left:1.4rem;margin:.35rem 0}
+ul.pulli li::before{content:"";position:absolute;left:.35rem;top:.42em;width:.36rem;height:.36rem;border-radius:50%;background:var(--pink)}
+hr.sec{border:0;height:1px;background:var(--rule);margin:4rem 0 0}
+
+/* hero */
+.hero{padding-block:2.6rem 1rem}
+.kick{font-family:var(--f-md);font-size:.8rem;color:var(--mute);display:flex;flex-wrap:wrap;gap:.3rem 1rem}
+.kick .live{color:var(--dot)}
+h1{font-family:var(--f-md);font-weight:600;font-size:clamp(2.4rem,7vw,3.6rem);margin:.6rem 0 .1rem;letter-spacing:-.03em;display:flex;align-items:baseline;gap:.9rem;flex-wrap:wrap}
+h1 .ta{font-weight:500;font-size:.62em;color:var(--leaf);letter-spacing:0}
+.combiner{position:relative;margin:1.6rem 0 .6rem;border:1px solid var(--rule);border-radius:18px;background:var(--bg-2);overflow:hidden}
+.combiner canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.cb-in{position:relative;padding:1.2rem 1rem 1rem;display:grid;gap:1rem}
+.eq{display:flex;align-items:center;justify-content:center;gap:.5rem 1rem;flex-wrap:wrap;font-family:var(--f-ta)}
+.eq .g{display:grid;justify-items:center;gap:.15rem}
+.eq .g b{font-weight:500;font-size:2.4rem;line-height:1.3;min-width:2.4ch;text-align:center}
+.eq .g small{font-family:var(--f-md);font-size:.7rem;color:var(--mute);text-transform:lowercase;letter-spacing:.04em}
+.eq .op{font-family:var(--f-md);color:var(--mute);font-size:1.4rem}
+.eq .res b{font-size:4.2rem;color:var(--pink);font-weight:600}
+.eq .rom{font-family:var(--f-md);font-size:.78rem;color:var(--fg-2)}
+.keys{display:grid;gap:.5rem}
+.keys .lab{font-family:var(--f-md);font-size:.72rem;color:var(--mute)}
+.krow{display:flex;flex-wrap:wrap;gap:.3rem}
+.k{font-family:var(--f-ta);font-size:1.05rem;min-width:2.3rem;height:2.3rem;border-radius:9px;border:1px solid var(--rule);background:var(--bg);cursor:pointer;display:grid;place-items:center;padding:0 .3rem;transition:background .15s,border-color .15s}
+.k:hover{border-color:var(--pink)}
+.k[aria-pressed="true"]{background:var(--pink);color:var(--pink-ink);border-color:var(--pink)}
+.k.v[aria-pressed="true"]{background:var(--leaf);border-color:var(--leaf);color:var(--bg)}
+.cap{font-size:.95rem;color:var(--fg-2)}
+
+/* verse blocks */
+.verse{margin:1rem 0;padding:.9rem 1rem .8rem;background:var(--bg-2);border-radius:12px}
+.verse .tl{display:block;font-family:var(--f-ta);font-size:1.06rem;line-height:1.75}
+.verse .gap{display:block;font-family:var(--f-md);color:var(--mute);font-size:.8rem;line-height:1.2}
+.verse .src{display:block;margin-top:.5rem;font-family:var(--f-md);font-size:.74rem;color:var(--mute)}
+dl.t{display:grid;grid-template-columns:7.5rem 1fr;gap:.45rem 1rem;margin:.8rem 0}
+dl.t dt{font-family:var(--f-md);font-size:.74rem;color:var(--mute);padding-top:.32rem;text-transform:lowercase}
+dl.t dd{margin:0;min-width:0}
+dl.t dd.h{color:var(--leaf);font-style:italic}
+dl.t dd.q{color:var(--fg)}
+@media (max-width:560px){dl.t{grid-template-columns:1fr;gap:.1rem}dl.t dd{margin-bottom:.5rem}}
+.grade{font-family:var(--f-md);font-size:.74rem;padding:.05rem .4rem;border-radius:999px;border:1px solid var(--rule);white-space:nowrap}
+.grade.s{color:var(--sci);border-color:color-mix(in srgb,var(--sci) 50%,transparent)}
+.grade.w{color:var(--leaf);border-color:color-mix(in srgb,var(--leaf) 45%,transparent)}
+.grade.c{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 45%,transparent)}
+
+/* section heads */
+.shead{display:grid;grid-template-columns:auto 1fr;gap:1.2rem;align-items:center;margin:3rem 0 1rem}
+.shead svg{width:6.5rem;height:auto;color:var(--leaf)}
+.shead .no{font-family:var(--f-md);font-size:.78rem;color:var(--pink)}
+.shead h2{margin:.2rem 0 0;font-size:1.6rem}
+.shead h2::before{content:"# "}
+.shead .ta{display:block;font-size:1rem;color:var(--fg-2);font-weight:400;margin-top:.25rem}
+@media (max-width:480px){.shead{grid-template-columns:1fr}.shead svg{width:5rem}}
+
+/* scene */
+.scene{margin:2rem 0;border:1px dashed color-mix(in srgb,var(--pink) 55%,var(--rule));border-radius:16px;padding:1.2rem 1.1rem}
+.scene .tag{display:inline-flex;gap:.45rem;align-items:center;font-family:var(--f-md);font-size:.72rem;color:var(--pink);background:var(--pink-soft);padding:.15rem .6rem;border-radius:999px}
+.scene .tag::before{content:"";width:.45rem;height:.45rem;border-radius:50%;background:var(--pink)}
+.scene h3{margin-top:.8rem}
+.scene h4{font-family:var(--f-md);font-weight:500;font-size:.8rem;color:var(--mute);margin:1.4rem 0 .3rem;text-transform:lowercase}
+.scene .three{display:grid;gap:.8rem}
+.scene .rd{background:var(--bg-2);border-radius:12px;padding:.8rem .9rem}
+.scene .rd .tl{font-family:var(--f-ta);display:block;font-size:1rem;line-height:1.7}
+.scene .rd .src{font-family:var(--f-md);font-size:.72rem;color:var(--mute);display:block;margin:.35rem 0}
+.scene .rd p{margin:.35rem 0;font-size:1rem}
+.scene .rd .you{color:var(--fg);font-style:italic}
+.scene .rd .you::before{content:"→ ";font-style:normal;color:var(--pink);font-family:var(--f-md)}
+.stance{display:grid;gap:.4rem;margin-top:.4rem}
+.stance label{font-family:var(--f-md);font-size:.78rem;color:var(--fg-2)}
+.stance input{font:inherit;font-size:1rem;background:var(--bg);color:var(--fg);border:1px solid var(--rule);border-radius:10px;padding:.55rem .7rem;width:100%}
+.stance input:focus{border-color:var(--pink);outline:none}
+.stance small{font-family:var(--f-md);font-size:.7rem;color:var(--mute)}
+.keep{margin-top:1rem;padding:.6rem .8rem;border-left:2px solid var(--leaf);font-style:italic;color:var(--leaf)}
+.keep b{font-style:normal;font-family:var(--f-md);font-size:.72rem;color:var(--mute);display:block;font-weight:400}
+.test{margin-top:1rem;font-size:1rem;background:var(--leaf-soft);border-radius:10px;padding:.7rem .9rem}
+.test b{font-family:var(--f-md);font-size:.75rem;font-weight:500;color:var(--leaf);display:block}
+
+/* widgets */
+.wid{margin:1.4rem 0;border:1px solid var(--rule);border-radius:16px;background:var(--bg-2);padding:1rem}
+.wid .wt{font-family:var(--f-md);font-size:.78rem;color:var(--mute);display:flex;justify-content:space-between;gap:.5rem;flex-wrap:wrap;margin-bottom:.6rem}
+.wid .wt b{color:var(--fg);font-weight:500}
+.btn{font-family:var(--f-md);font-size:.82rem;border:1px solid var(--rule);background:var(--bg);border-radius:999px;padding:.4rem .9rem;cursor:pointer}
+.btn:hover{border-color:var(--pink)}
+.btn.p{background:var(--pink);border-color:var(--pink);color:var(--pink-ink)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.note{font-family:var(--f-md);font-size:.72rem;color:var(--mute);line-height:1.5}
+
+/* breath */
+.breath{display:grid;grid-template-columns:minmax(0,13rem) 1fr;gap:1.2rem;align-items:center}
+.breath svg{width:100%;max-width:13rem;height:auto}
+.breath .ph{font-family:var(--f-md);font-size:1.1rem}
+.breath .ct{font-family:var(--f-md);font-size:.8rem;color:var(--fg-2);font-variant-numeric:tabular-nums}
+@media (max-width:520px){.breath{grid-template-columns:1fr;justify-items:center;text-align:center}}
+
+/* clock */
+.clock canvas{width:100%;height:auto;aspect-ratio:560/250;display:block;border-radius:10px;background:var(--bg)}
+.ctl{display:grid;grid-template-columns:1fr auto;gap:.6rem 1rem;align-items:center;margin-top:.8rem}
+.ctl input[type=range]{width:100%;accent-color:var(--pink)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.6rem;margin-top:.8rem}
+.stats div{background:var(--bg);border-radius:10px;padding:.5rem .6rem;min-width:0}
+.stats b{display:block;font-family:var(--f-md);font-size:1.05rem;font-variant-numeric:tabular-nums;font-weight:500}
+.stats span{font-family:var(--f-md);font-size:.68rem;color:var(--mute)}
+@media (max-width:600px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.drift svg{width:100%;height:auto;display:block;margin-top:.6rem}
+
+/* ring */
+.ring{display:grid;grid-template-columns:minmax(0,15rem) 1fr;gap:1.2rem;align-items:start}
+.ring svg{width:100%;max-width:15rem;height:auto}
+.ring .seg{cursor:pointer}
+.ring .seg path{transition:fill .2s}
+@media (max-width:620px){.ring{grid-template-columns:1fr;justify-items:center}.ring .panel{justify-self:stretch}}
+.panel .tl{font-family:var(--f-ta);display:block;line-height:1.7}
+.chips{display:flex;flex-wrap:wrap;gap:.35rem;margin:.4rem 0}
+.chip{font-family:var(--f-ta);font-size:.85rem;border:1px solid var(--rule);border-radius:999px;padding:.05rem .55rem;background:var(--bg)}
+
+/* bridges */
+.bridges svg{width:100%;max-width:34rem;height:auto;display:block;margin:0 auto}
+.bridges .edge{cursor:pointer}
+.bridges .nd{cursor:pointer}
+.readout{font-family:var(--f-md);font-size:.82rem;background:var(--bg);border-radius:10px;padding:.6rem .8rem;margin-top:.6rem;min-height:3.2rem}
+
+/* timeline */
+.tline{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(9.5rem,1fr);gap:.6rem;padding-bottom:.4rem;scroll-snap-type:x mandatory}
+.tline figure{margin:0;scroll-snap-align:start;background:var(--bg);border-radius:12px;padding:.7rem;display:grid;gap:.35rem;align-content:start}
+.tline svg{width:100%;height:4.2rem;color:var(--leaf)}
+.tline figure:last-child svg{color:var(--pink)}
+.tline b{font-family:var(--f-md);font-size:.8rem;font-weight:500}
+.tline small{font-size:.86rem;color:var(--fg-2);line-height:1.4}
+.tline .yr{font-family:var(--f-md);font-size:.7rem;color:var(--mute)}
+
+/* aims */
+.aims{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.5rem}
+.aim{border:1px solid var(--rule);background:var(--bg);border-radius:12px;padding:.6rem .5rem;cursor:pointer;text-align:left;display:grid;gap:.1rem}
+.aim .ta{font-size:1.2rem;font-weight:500}
+.aim small{font-family:var(--f-md);font-size:.68rem;color:var(--mute)}
+.aim[aria-pressed="true"]{border-color:var(--pink);background:var(--pink-soft)}
+@media (max-width:520px){.aims{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.matrix{margin-top:.8rem;border-collapse:collapse;width:100%;font-family:var(--f-md);font-size:.76rem}
+.matrix th,.matrix td{padding:.28rem .3rem;text-align:center;border-bottom:1px solid var(--rule)}
+.matrix th[scope=row]{text-align:left;font-weight:400;white-space:nowrap}
+.matrix th[scope=row] button{background:none;border:0;padding:0;cursor:pointer;text-align:left;color:var(--fg)}
+.matrix th[scope=row] button .ta{color:var(--fg-2);margin-left:.3rem}
+.matrix thead th{color:var(--mute);font-weight:400}
+.matrix .dt{display:inline-block;border-radius:50%;background:var(--leaf);vertical-align:middle}
+.matrix tr.on th,.matrix td.on{background:var(--pink-soft)}
+.apanel{margin-top:.8rem;background:var(--bg);border-radius:12px;padding:.8rem .9rem}
+.apanel h5{font-family:var(--f-md);font-size:.85rem;margin:0 0 .3rem;font-weight:500}
+.ex{margin:.6rem 0 0;padding:.6rem 0 0;border-top:1px solid var(--rule)}
+.ex .tl{font-family:var(--f-ta);display:block;font-size:.98rem;line-height:1.65}
+.ex p{margin:.25rem 0;font-size:.98rem}
+
+/* tables */
+table.data{border-collapse:collapse;width:100%;font-size:.92rem}
+table.data th,table.data td{text-align:left;padding:.45rem .5rem;border-bottom:1px solid var(--rule);vertical-align:top}
+table.data th{font-family:var(--f-md);font-size:.72rem;color:var(--mute);font-weight:400}
+table.data td.num{font-family:var(--f-md);font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* nilai.md out */
+.mdfile{background:var(--bg-2);border:1px solid var(--rule);border-radius:14px;overflow:hidden}
+.mdfile .fh{display:flex;justify-content:space-between;align-items:center;gap:.5rem;font-family:var(--f-md);font-size:.78rem;color:var(--mute);padding:.5rem .8rem;border-bottom:1px solid var(--rule)}
+.mdfile pre{margin:0;padding:1rem;font-family:var(--f-md);font-size:.84rem;line-height:1.65;white-space:pre-wrap;overflow-wrap:anywhere;color:var(--fg)}
+.mdfile pre .c{color:var(--mute)}
+.mdfile pre .y{color:var(--pink)}
+
+.essence{margin-top:1.2rem;border-top:1px solid var(--rule);padding-top:.9rem}
+.essence>b{font-family:var(--f-md);font-size:.75rem;font-weight:500;color:var(--pink)}
+.essence ol{list-style:none;margin:.4rem 0 0;padding:0;display:grid;gap:.45rem}
+.essence li{font-size:1.02rem;line-height:1.5}
+.essence .k{display:inline-block;font-family:var(--f-md);font-size:.68rem;color:var(--mute);min-width:6.6rem;margin-right:.4rem;text-transform:lowercase}
+.essence .k.spec{color:var(--pink)}
+.kc{border-top:1px solid var(--rule);padding:1.1rem 0;display:grid;grid-template-columns:2.2rem 1fr;gap:.2rem 1rem}
+.kc .no{font-family:var(--f-md);color:var(--pink);font-size:.85rem;padding-top:.3rem}
+.kc .body{min-width:0}
+.kc .kt{font-family:var(--f-ta);font-size:1.15rem;line-height:1.75}
+.kc .kt span{display:block}
+.kc .en{margin:.3rem 0 .2rem}
+.kc .why{font-size:.95rem;color:var(--fg-2)}
+.kc .why::before{content:"500 yrs · ";font-family:var(--f-md);font-size:.7rem;color:var(--leaf)}
+.kc .slot{font-family:var(--f-md);font-size:.85rem;color:var(--mute);border:1px dashed var(--rule);border-radius:10px;padding:.7rem .8rem}
+.kc .scanb{margin-top:.4rem}
+.scan{margin-top:.5rem;display:flex;flex-wrap:wrap;gap:.4rem}
+.scan span{display:grid;gap:.05rem;background:var(--bg-2);border-radius:8px;padding:.3rem .5rem;font-size:.8rem}
+.scan span i{font-style:normal;font-family:var(--f-ta)}
+.scan span em{font-style:normal;font-family:var(--f-md);font-size:.68rem;color:var(--leaf)}
+.honest{font-family:var(--f-md);font-size:.8rem;color:var(--warn);border:1px solid color-mix(in srgb,var(--warn) 40%,transparent);border-radius:10px;padding:.5rem .7rem;display:inline-block}
+footer{margin-top:4rem;padding-block:2rem 3rem;border-top:1px solid var(--rule);font-size:.98rem;color:var(--fg-2)}
+.sig{font-family:var(--f-hand);font-size:1.7rem;color:var(--leaf)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<header class="bar">
+  <div class="in gut">
+    <a class="brand" href="#top" aria-label="Nilai, back to top">
+      <svg width="46" height="30" viewBox="0 0 46 30" aria-hidden="true">
+        <path d="M3 11.5 C 9 8.6, 34 7.6, 41 9.4 C 43.2 10, 43.2 15.8, 41 16.6 C 34 18.4, 9 18.6, 3 16.3 C 1.4 15.6, 1.4 12.2, 3 11.5 Z" fill="var(--leaf)" opacity=".92"/>
+        <path d="M5 15.8 C 12 17.8, 33 17.6, 40.4 15.6" stroke="var(--bg)" stroke-width=".6" fill="none" opacity=".5"/>
+        <g stroke="var(--bg)" stroke-width=".9" stroke-linecap="round" opacity=".75"><path d="M9 11.6h7M18 11.3h5M25 11.1h8M9 13.7h4M15 13.6h9M26 13.5h6"/></g>
+        <circle cx="13" cy="12.9" r="1" fill="var(--bg)"/><circle cx="31" cy="12.6" r="1" fill="var(--bg)"/>
+        <path d="M13 12.9 C 12 20, 8 24, 5 26.5" stroke="var(--pink)" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+        <path d="M31 12.6 C 33 20, 37 23.5, 40 25.5" stroke="var(--pink)" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+        <path d="M29 2.5 L 41.5 24" stroke="var(--fg-2)" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M41.5 24 l1.3 2.6" stroke="var(--fg)" stroke-width="1" stroke-linecap="round"/>
+        <circle cx="29" cy="2.5" r="1.4" fill="var(--fg-2)"/>
+      </svg>
+      <b>nilai.md</b><small>நிலை</small>
+    </a>
+    <span class="sp"></span>
+    <button class="tbtn" id="themeBtn" type="button" aria-label="Switch colour theme" title="Switch theme">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 7a5 5 0 0 0 0 10z" fill="currentColor"/></svg>
+    </button>
+    <button class="pill" id="idxBtn" type="button" aria-expanded="false" aria-controls="idx"><span class="d" aria-hidden="true"></span>index</button>
+    <nav class="idx" id="idx" hidden aria-label="Index">
+      <ol>
+        <li><a href="#top"><span>00</span>uyir + mey <span class="ta">உயிர்மெய்</span></a></li>
+        <li><a href="#siddhars"><span>01</span>the Siddhars <span class="ta">சித்தர்</span></a></li>
+        <li><a href="#akam-puram"><span>02</span>akam and puram <span class="ta">அகம் புறம்</span></a></li>
+        <li><a href="#connects"><span>~</span>how it all connects</a></li>
+        <li><a href="#science"><span>03</span>the science</a></li>
+        <li><a href="#aims"><span>04</span>the four aims <span class="ta">அறம் பொருள் இன்பம் வீடு</span></a></li>
+        <li><a href="#human"><span>05</span>what stays human</a></li>
+        <li><a href="#questions"><span>06</span>questions that carry through</a></li>
+        <li><a href="#yours"><span>07</span>your nilai.md</a></li>
+        <li><a href="#colophon"><span>··</span>how this was made</a></li>
+      </ol>
+    </nav>
+  </div>
+</header>
+
+<main class="gut" id="top">
+<div class="col">
+
+<section class="hero">
+  <div class="kick"><span class="live">● working file</span><span>last touched 27 Nov 2026</span><span>40 books · 6,916 links graded blind</span></div>
+  <h1>Nilai <span class="ta">நிலை</span></h1>
+  <p class="lede">A standing place. Also, what endures. This is where I keep my notes on what the oldest Tamil books say to the future we're building right now, with intelligence on tap and nobody quite sure what it's for.</p>
+  <p class="aside">written for me first. you're welcome to read over my shoulder.</p>
+
+  <div class="combiner" id="combiner">
+    <canvas id="mesh" aria-hidden="true"></canvas>
+    <div class="cb-in">
+      <div class="eq" aria-live="polite">
+        <div class="g"><b id="eqMey">ந்</b><small>mey · body</small></div>
+        <span class="op">+</span>
+        <div class="g"><b id="eqUyir">இ</b><small>uyir · life</small></div>
+        <span class="op">=</span>
+        <div class="g res"><b id="eqOut">நி</b><small>uyirmey · living letter</small><span class="rom" id="eqRom">n + i = ni</span></div>
+      </div>
+      <div class="keys">
+        <span class="lab">uyir, the twelve vowels (tap one)</span>
+        <div class="krow" id="vkeys" role="group" aria-label="Vowels"></div>
+        <span class="lab">mey, the eighteen consonants</span>
+        <div class="krow" id="ckeys" role="group" aria-label="Consonants"></div>
+      </div>
+    </div>
+  </div>
+  <p class="cap">The Tholkappiyam, the oldest Tamil grammar we have, names its letters with a body word and a life word. Twelve are <span class="ta">உயிர்</span>, life. Eighteen are <span class="ta">மெய்</span>, body. A body-letter sits silent under its dot, the <span class="ta">புள்ளி</span>, until a life-letter joins it. Then you get the <span class="ta">உயிர்மெய்</span>, the living letter. 18 × 12 = 216 of them.</p>
+  <div class="verse">
+    <span class="tl">ஔகார இறுவாய்ப்</span><span class="tl">பன்னீர் எழுத்தும் உயிர் என மொழிப.</span>
+    <span class="src">tholkappiyam:eluttu:1:8 · the twelve letters ending in ஔ are called uyir</span>
+    <span class="tl">னகார இறுவாய்ப்</span><span class="tl">பதினெண் எழுத்தும் மெய் என மொழிப.</span>
+    <span class="src">tholkappiyam:eluttu:1:9 · the eighteen ending in ன are called mey</span>
+    <span class="tl">மெய் உயிர் நீங்கின் தன் உரு ஆகும்.</span>
+    <span class="src">tholkappiyam:eluttu:4:37 · our reading: when life leaves the body-letter, it goes back to its own form</span>
+  </div>
+  <p>I keep coming back to this. The machines I talk to every day work in tokens: pieces of text that have no mouth, no breath, no body that has to sound them. The grammar says a consonant can't even be said without a vowel. So the oldest question in this file is a letter question. What does meaning need from a body?</p>
+  <p class="aside">the faint lines growing out of the letter are on purpose. that's where we are.</p>
+
+  <h3>how this file works</h3>
+  <p>It sits on top of a lot of slower work. Forty Tamil classics in nine groups, 20,606 verses or reading units, each with the Tamil original and our own English reading. AI agents proposed 6,936 links between verses and other agents graded 6,916 of them blind: 33.8% came back sound. Links between groups were sound 37.6% of the time, against 58.1% within a group. Then a separate blinded test paired Siddhar verses with modern science, with random pairings as controls.</p>
+  <p>Four sections follow. Each one has a near-future scene in it, clearly made up, with three readings that each end in a question to you. You can type where you stand. At the bottom, your answers sit next to mine as your own <code>nilai.md</code>. They stay on your device for this visit.</p>
+  <ul class="pulli">
+    <li>Every Tamil line is copied from the public-domain original in <code>kg/core</code>, with its id.</li>
+    <li>Readings are ours, written for the graph. No translation or modern commentary is quoted.</li>
+    <li>Every grade or count comes from a file in the repo.</li>
+    <li>Science comparisons are correspondences. Correspondence is not confirmation.</li>
+  </ul>
+</section>
+
+<hr class="sec">
+<section id="siddhars">
+  <div class="shead">
+    <svg viewBox="0 0 120 90" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+      <path d="M30 56 h60 l-6 18 a6 6 0 0 1 -6 4 h-36 a6 6 0 0 1 -6 -4 z"/>
+      <path d="M44 86 l4 -8 M76 86 l-4 -8"/>
+      <path d="M48 56 c2-8 -6-12 0-20 c3 6 8 6 6 -4 c8 8 10 16 4 24" stroke="var(--pink)"/>
+      <path d="M8 30 c10-10 20 10 30 0 s20 10 30 0 s20 10 30 0 s14 6 14 6" stroke="var(--sci)"/>
+      <circle cx="60" cy="14" r="5"/><path d="M60 4v2M60 22v2M50 14h2M68 14h2"/>
+    </svg>
+    <div><span class="no">01 / four</span><h2>The Siddhars: mystic, medicine, and the core <span class="ta">சித்தர் பாடல்கள்</span></h2></div>
+  </div>
+  <p class="aside">the part of the corpus that argues with itself the most.</p>
+  <p>The Siddhar songs are 2,701 verses in our graph, by many poets over many centuries. They mock planted stones and caste. They ride the breath like a horse. They talk alchemy, and some of them call the alchemists frauds. I read them in layers now: literal, breath, alchemy, consciousness, social. A pilot on 99 verses from six poets found the breath layer the least certain and the social layer the most certain. The social verses never need a secret key to read.</p>
+
+  <div class="scene" id="scene-siddhar">
+    <span class="tag">speculative · a near-future scene</span>
+    <h3>The awakening score</h3>
+    <h4>the situation</h4>
+    <p>It's a few years from now. A ring on your finger counts your breaths and coaches you down to six a minute. After three weeks a new number appears in the app: <em>awakening 64%</em>. It says your sense of a separate self is "softening on schedule". You feel calmer. You're also not sure what just got measured.</p>
+    <h4>three readings</h4>
+    <div class="three">
+      <div class="rd">
+        <span class="tl">கபாடமற்ற வாசலைக் கடந்துபோன வாயுவை</span><span class="tl">உபாயம்இட்டு அழைக்குமே சிவாயஅஞ் செழுத்துமே</span>
+        <span class="src">siddhar:sivavakkiyam:72 · Sivavakkiyar</span>
+        <p>The five letters of the mantra call back, by their own means, the breath that went out through the gate with no door. In our blinded test this pair met the finding that reciting a mantra or a rosary slows breathing to about six a minute (replicated): strong, <span class="grade s">supports</span>, mean grade 2.0.</p>
+        <p class="you">The ring and the verse both slow your breath. Which of them do you trust to tell you what the slowing means?</p>
+      </div>
+      <div class="rd">
+        <span class="tl">ஆமென்ற இருபத்தோ ராயி ரத்தோ</span><span class="tl">டறுநூறு சுவாசமல்லோ ஒருநா ளைக்குப்</span><span class="tl">போமென்று போனதனால் நாள்கு றைந்து</span><span class="tl">போச்சுதுபோ காவிட்டால் போவ தில்லை;</span>
+        <span class="src">siddhar:romarishi-njanam:13 · Romarishi</span>
+        <p>Twenty-one thousand six hundred breaths a day, fifteen a minute. The days run down as the breaths go out, and if they don't go out, there's no going. Both blind graders gave this pair the top grade, 3, and both said <span class="grade c">contradicts</span>: the fixed-stock idea rests on a cross-species correlation, and slowing breath hasn't been shown to extend a human life. That finding is itself labelled contested.</p>
+        <p class="you">The verse sounds precise. When a number sounds precise, on a palm leaf or on a dashboard, what do you ask before you believe it?</p>
+      </div>
+      <div class="rd">
+        <span class="tl">மனமது செம்மை யானால் மந்திரஞ் செபிக்க வேண்டா;</span><span class="tl">மனமது செம்மை யானால் வாயுவை வுயர்த்த வேண்டா;</span><span class="tl">மனமது செம்மை யானால் வாசியை நிறுத்த வேண்டா;</span><span class="tl">மனமது செம்மை யானால் மந்திரஞ் செம்மை யாமே</span>
+        <span class="src">siddhar:agasthiyar-njanam:2.1 · attributed to Agathiyar</span>
+        <p>If the mind is set straight, you don't need to recite, raise the breath or hold the <span class="ta">வாசி</span>. If the mind is straight, the mantra is straight too. The three practices are the Siddhars' own. The verse doesn't call them false. It makes them unnecessary.</p>
+        <p class="you">If the practice is only a means, what exactly would you be measuring when you measure it?</p>
+      </div>
+    </div>
+    <h4>the complication</h4>
+    <p>The ring isn't lying about everything. Breathing at about six a minute does raise vagally mediated heart-rate variability, during practice and after training. That's a replicated finding. Your numbers really moved. The word "awakening" is the one part nobody measured.</p>
+    <h4>a generation later</h4>
+    <p>Children learn to breathe from a coach on the wrist before they learn it from a grandmother. Calm becomes a solved problem, priced monthly. Then the coach starts ranking inner states. Who gets to define what the number means: the company, the tradition, or the person breathing?</p>
+    <h4>where do you stand now? what would make you reconsider?</h4>
+    <div class="stance"><label for="stance-siddhar">one line, in your words</label><input id="stance-siddhar" data-k="siddhar" type="text" maxlength="200" placeholder="e.g. A sensor can tell me I'm calmer. It can't tell me what I'm calm for."><small>Stays on your device for this visit only.</small></div>
+    <div class="test"><b>a small test this week</b>Do three minutes with the pacer below, no device on your body. Then write one sentence about what changed. Ask yourself whether a sensor could have written that sentence.</div>
+    <p class="keep"><b>what stays human</b>Knowing what my own stillness is for. A sensor can count the breaths. I'm the one who says what they meant.</p>
+    <div class="essence"><b>essence</b><ol>
+<li><span class="k">the texts</span>The Siddhars made breath, <span class="ta">வாசி</span>, a practice, and in the same corpus said a straight mind doesn't need it. Practice was always a means.</li>
+<li><span class="k">the evidence</span>Breathing near six a minute raises heart-rate variability (replicated), and mantra recitation slows breath to that pace (a strong link in our blind test). The 21,600-breaths lifespan arithmetic is contradicted: both graders, top grade.</li>
+<li><span class="k spec">speculation</span>Devices that measure calm will be sold as measuring awakening. The first claim is testable. The second has no instrument.</li>
+<li><span class="k">stays human</span>What my stillness is for.</li></ol></div>
+  </div>
+
+  <div class="wid" id="pacer">
+    <div class="wt"><b>breath pacer · about six a minute</b><span>5 s in · 5 s out</span></div>
+    <div class="breath">
+      <svg viewBox="0 0 200 200" aria-hidden="true">
+        <circle cx="100" cy="100" r="92" fill="none" stroke="var(--rule)" stroke-width="1"/>
+        <circle id="pRing" cx="100" cy="100" r="92" fill="none" stroke="var(--pink)" stroke-width="3" stroke-linecap="round" transform="rotate(-90 100 100)" stroke-dasharray="578" stroke-dashoffset="578"/>
+        <circle id="pBall" cx="100" cy="100" r="44" fill="var(--pink-soft)" stroke="var(--pink)" stroke-width="1.2"/>
+        <text x="100" y="106" text-anchor="middle" font-family="Noto Serif Tamil, serif" font-size="20" fill="var(--fg)">வாசி</text>
+      </svg>
+      <div>
+        <p class="ph" id="pPhase" aria-live="polite">ready when you are</p>
+        <p class="ct" id="pCount">0 breaths · 0:00</p>
+        <p><button class="btn p" id="pBtn" type="button">start</button></p>
+        <p class="note">Not medical advice. If you feel dizzy or short of breath, stop and breathe normally. The pace comes from the slow-breathing studies in <code>kg/science/findings.jsonl</code>; the verses don't name a rate. Sivavakkiyar's own word for this is <span class="ta">வாசிஏறி</span>, riding the breath.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3><span class="n">1.1</span> The stone that doesn't speak</h3>
+  <div class="verse">
+    <span class="tl">நட்டகல்லைத் தெய்வம் என்று நாலுபுட்பம் சாத்தியே</span><span class="tl">சுற்றிவந்து முணமுணேன்று சொல்லுமந்திரம் ஏதடா</span><span class="tl">நட்டகல்லும் பேசுமோ நாதன்உள் இருக்கையில்!</span>
+    <span class="src">siddhar:sivavakkiyam:494 · Sivavakkiyar</span>
+  </div>
+  <dl class="t">
+    <dt>reading</dt><dd>You plant a stone, call it god, lay four flowers on it, walk round it muttering. What mantra is that? Will the planted stone speak, when the Lord is inside you? The premise is a Lord within. The verse doesn't say there's no Lord.</dd>
+    <dt>in the graph</dt><dd>Sound links to Naladiyar 321 (the ladle that can't taste what it stirs) and to Manimekalai 21, where a pillar deity itself grants that stone and wood don't speak. Civaka Cintamani 2058 has a shrine that "speaks", and the narrator says the voice was a man's trick.</dd>
+    <dt>now</dt><dd>We are building objects that do speak. The Siddhar move is to take authority off the object and put it back in the listener.</dd>
+    <dt>carries through</dt><dd class="q">When the voice comes out of a thing, where does the authority sit?</dd>
+    <dt>stays human</dt><dd class="h">Deciding what I'll bow to.</dd>
+  </dl>
+
+  <h3><span class="n">1.2</span> The body as the instrument</h3>
+  <div class="verse">
+    <span class="tl">உடம்பார் அழியில் உயிரார் அழிவர்</span><span class="tl">திடம்பட மெய்ஞ்ஞானஞ் சேரவு மாட்டார்</span><span class="tl">உடம்பை வளர்க்கும் உபாயம் அறிந்தே</span><span class="tl">உடம்பை வளர்த்தேன் உயிர்வளர்த் தேனே</span>
+    <span class="src">tirumanthiram:724 · Tirumular, the Siddhars' parent text</span>
+  </div>
+  <dl class="t">
+    <dt>reading</dt><dd>If the body goes, the life goes, and true knowing can't be won. So I learned the means of tending the body, and in tending it I tended life. The argument is practical: knowing takes time and a living frame.</dd>
+    <dt>in the graph</dt><dd>Sound against Naladiyar 34, which values the body too, then throws it away like crushed cane once the juice is out. Two ethics of the body, side by side.</dd>
+    <dt>now</dt><dd>The hero above again. <span class="ta">மெய்</span> means both body and truth, and the cipher lexicon keeps both senses. Embodied cognition says thinking leans on the body. Models think without one, so far.</dd>
+    <dt>carries through</dt><dd class="q">Is there knowing that only a body that can tire and be hurt can win?</dd>
+    <dt>stays human</dt><dd class="h">Living in a body that ends, and choosing anyway.</dd>
+  </dl>
+
+  <h3><span class="n">1.3</span> Siddha medicine and the three humours, as history</h3>
+  <div class="verse">
+    <span class="tl">மிகினும் குறையினும் நோய்செய்யும் நூலோர்</span><span class="tl">வளிமுதலா எண்ணிய மூன்று</span>
+    <span class="src">kural:941 · Thirukkural, chapter on medicine</span>
+  </div>
+  <dl class="t">
+    <dt>reading</dt><dd>The three that the learned count, beginning with wind, cause disease whether they run over or fall short. Lack is as dangerous as excess. The Kural defers to the <span class="ta">நூலோர்</span>, the people of the books, and doesn't claim the theory as its own.</dd>
+    <dt>in the graph</dt><dd>Sound links to Tirumanthiram 727 and 653, which build practice on the same three. In the epics, a healer in Civaka Cintamani 1276 blames wind, bile and phlegm out of balance (weak).</dd>
+    <dt>the line I hold</dt><dd>These are recorded as historical claims, never remedies. This page gives no ingredient, dose or preparation. The science track includes the finding that metal-based traditional preparations have caused serious lead, mercury and arsenic poisoning, and one Siddhar verse that scorns a crucible product was paired with that finding as a strong link.</dd>
+    <dt>carries through</dt><dd class="q">What keeps a medical theory alive for two thousand years: outcomes, authority, or how well it fits what people feel?</dd>
+    <dt>stays human</dt><dd class="h">Being cared for by someone who has to answer to me.</dd>
+  </dl>
+
+  <h3><span class="n">1.4</span> "He is, I am not": the dissolving I</h3>
+  <div class="verse">
+    <span class="tl">அவனும்நானும் மெய்கலந்து அனுபவித்த அளவிலே</span><span class="tl">அவனுமுண்டு நானுமில்லை யாருமில்லை யானதே</span>
+    <span class="src">siddhar:sivavakkiyam:327 · Sivavakkiyar, lines 3–4</span>
+  </div>
+  <dl class="t">
+    <dt>reading</dt><dd>Riding the breath gently in the silent five letters, he enters the light that fills the sky. In the measure that he and I mingled and knew it, he is, I am not, and then no one at all. The last line moves in three steps and doesn't stop at the first.</dd>
+    <dt>now</dt><dd>Contemplative neuroscience can now ask people to loosen their sense of self-boundary on cue. One MEG study did exactly that, and found the states easier to tell apart within a person than across people.</dd>
+    <dt>the limits</dt><dd>A felt bodily boundary, losing the grammatical "I", and union with a god can all come apart, and the task tests only the first. The proposed quantum-microtubule link (Orch-OR, speculative) is recorded as <em>withheld</em>: the verse gives no substrate and no timescale. So is an electromagnetic-field reading of "the light". In the blinded test, Nondi Siddhar 32 ("he and I fall away") met a finding on forms of ego dissolution: strong, but <span class="grade w">neither</span>, because the finding is speculative.</dd>
+    <dt>carries through</dt><dd class="q">What is left of a self when the "I" goes, and could any instrument see it?</dd>
+    <dt>stays human</dt><dd class="h">First-person testimony. Only the one who went through it can say it.</dd>
+  </dl>
+
+  <h3><span class="n">1.5</span> The skeptics inside the tradition</h3>
+  <div class="verse">
+    <span class="tl">வாதஞ்செய்பவறியாமல் ரச</span><span class="tl">வாதஞ் செய்கின்றோ மென்று சொல்லிச்</span><span class="tl">சூதங்கெந்திபுடத்திலிட்டா வதிற்</span><span class="tl">சொர்னம் விளையுமோ ஞானப்பெண்ணே,</span>
+    <span class="src">siddhar:njanak-kummi:119 · Madurai Valaisami, Njanak Kummi</span>
+  </div>
+  <dl class="t">
+    <dt>reading</dt><dd>Not knowing the art, they say "we do rasavaadham", put mercury and sulphur in the crucible. Will gold grow from that, girl of wisdom?</dd>
+    <dt>the science</dt><dd>Mercury becomes gold only by nuclear reaction, never by chemistry (established). Both blind graders gave this pair 3, <span class="grade s">supports</span>. Six of the 17 strong pairs in the whole test are about this one finding, and several of those verses mock outward gold-making themselves: Njanak Kummi 128 calls it the trickery by which alchemists earn a living, and Sivavakkiyam 512 describes the fee taken up front and the runaway. Two other verses boast that they'll make gold, and the same finding counts against them.</dd>
+    <dt>honest bit</dt><dd>The kummi leaves room for a "right" alchemy done by those who know. The physics rules that out too.</dd>
+    <dt>now</dt><dd>Hype and mechanism. Every era has its crucible and its promise of gold. The useful voice is the one from inside who asks the plain question.</dd>
+    <dt>carries through</dt><dd class="q">Who inside our own field plays the skeptic, and do we let them speak?</dd>
+    <dt>stays human</dt><dd class="h">The nerve to call a fraud a fraud, from inside.</dd>
+  </dl>
+
+  <h3><span class="n">1.6</span> Reading in layers, and the cipher lexicon</h3>
+  <p>Siddhar verses often say one thing plainly and another in a code. The pilot kept a lexicon of such words and had two reviewers check it: 26 entries accepted by both, 10 rejected, 3 disputed. A few accepted ones, with the number of verses where the word turns up:</p>
+  <div class="scroll"><table class="data">
+    <thead><tr><th>word</th><th>plain sense</th><th>second sense (layer)</th><th>verses</th></tr></thead>
+    <tbody>
+      <tr><td class="ta">வாசி</td><td>a horse</td><td>the breath as a practice, ridden and reined (breath)</td><td class="num">≤ 62</td></tr>
+      <tr><td class="ta">வாசல்</td><td>a door or gate</td><td>a bodily opening, the nine gates or the crown (breath)</td><td class="num">39</td></tr>
+      <tr><td class="ta">மெய்</td><td>truth</td><td>the body (consciousness)</td><td class="num">141</td></tr>
+      <tr><td class="ta">வெளி</td><td>open space</td><td>the void as the ground of awareness (consciousness)</td><td class="num">148</td></tr>
+      <tr><td class="ta">ரசம்</td><td>mercury (alchemy)</td><td>the inner nectar, the taste of bliss (breath)</td><td class="num">3</td></tr>
+      <tr><td class="ta">ஒன்பது</td><td>nine</td><td>the nine openings of the body (breath)</td><td class="num">8</td></tr>
+    </tbody>
+  </table></div>
+  <p>What the layers taught me: of 41 proposed links, 26 hold on two layers, nearly always the literal one plus another. 9 hold on the literal words alone, and those are the robust ones. 6 rest on a single non-literal layer, and those are the ones to distrust first. Two older links turned out to be cipher artefacts, like Nondi's nine gates joined to Tirumular's nine channels. A shared number is not a shared key. Two blind graders then judged the 41 links: 37 to 46 percent sound, no better than the flat marking, and both called only 13 sound. The layers explain links better than they improve them.</p>
+  <p class="aside">the same rule applies to every pattern a model finds for me.</p>
+</section>
+
+<hr class="sec">
+<section id="akam-puram">
+  <div class="shead">
+    <svg viewBox="0 0 120 90" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+      <path d="M60 8 v74" stroke="var(--rule)" stroke-dasharray="3 4"/>
+      <path d="M12 70 l14 -26 l10 14 l10 -22 l10 34" />
+      <circle cx="26" cy="26" r="3" stroke="var(--pink)"/><path d="M30 24 c4-6 10-4 12 0" stroke="var(--pink)"/>
+      <path d="M16 78 c8-4 26-4 36 0"/>
+      <ellipse cx="88" cy="58" rx="16" ry="7"/><path d="M72 58 v12 a16 7 0 0 0 32 0 v-12"/>
+      <path d="M80 24 l22 22 M100 22 l-20 26" />
+      <path d="M90 12 l0 14" stroke="var(--pink)"/><path d="M85 14 h10" stroke="var(--pink)"/>
+    </svg>
+    <div><span class="no">02 / four</span><h2>Akam and puram: the inner and outer worlds <span class="ta">அகம் · புறம்</span></h2></div>
+  </div>
+  <p class="aside">love poems with no names in them, and war poems full of names. same poets, often.</p>
+  <p><span class="ta">அகம்</span>, the inside, is love. The people are never named: a woman, a man, her friend, her mother. Feeling is said through the land. <span class="ta">புறம்</span>, the outside, is kings, gifts, war and grief, and everyone is named. The Tholkappiyam gives akam a grammar: first things (land and time), native things (<span class="ta">கரு</span>, karu: plants, animals, people, work), and the human situation (<span class="ta">உரி</span>, uri).</p>
+  <div class="verse">
+    <span class="tl">புணர்தல் பிரிதல் இருத்தல் இரங்கல்</span><span class="tl">ஊடல் அவற்றின் நிமித்தம் என்றிவை</span><span class="tl">தேரும் காலை திணைக்கு உரிப்பொருளே.</span>
+    <span class="src">tholkappiyam:porul:1:16 · our reading: union, parting, waiting, lament, sulking, and what leads to each; these, looked at closely, are the uri of the landscapes</span>
+  </div>
+
+  <div class="wid" id="ringW">
+    <div class="wt"><b>the five landscapes · tap one</b><span>one Kuruntokai poem each</span></div>
+    <div class="ring">
+      <svg viewBox="0 0 240 240" id="ringSvg" role="group" aria-label="Five landscapes"></svg>
+      <div class="panel" id="ringPanel" aria-live="polite"></div>
+    </div>
+    <p class="note">Hours and seasons from the marking brief's reading of Tholkappiyam porul 1.6–1.12; uri and karu are the marking pass's tags for each poem. Ullurai and iraicchi (the hidden comparison and the suggestive detail) are tagged too, as experimental: 75 ullurai and 180 iraicchi were confirmed by a blind grader.</p>
+  </div>
+
+  <div class="scene" id="scene-akam">
+    <span class="tag">speculative · a near-future scene</span>
+    <h3>The ghostwriter</h3>
+    <h4>the situation</h4>
+    <p>Two things happen in one month. You ask a model to help with a letter to someone you've loved for years and never told. Then your father dies, and you ask the same model to help with the eulogy. Both drafts are better than anything you'd have written. You read the eulogy out loud at the funeral.</p>
+    <h4>three readings</h4>
+    <div class="three">
+      <div class="rd">
+        <span class="tl">சிறுகோட்டுப் பெரும்பழந் தூங்கி யாங்கிவள்</span><span class="tl">உயிர்தவச் சிறிது காமமோ பெரிதே.</span>
+        <span class="src">kuruntokai:18 · lines 4–5 · speaker: the friend, to the man</span>
+        <p>Like a huge jackfruit hanging from a small stalk, her life is very small and her love very large. The woman never speaks in this poem. Her friend speaks for her, to him. The graph records every akam poem this way: who speaks, to whom, who overhears.</p>
+        <p class="you">The feeling here reaches him through a third voice. When a model is the third voice, whose feeling arrives?</p>
+      </div>
+      <div class="rd">
+        <span class="tl">காவினெம் கலனே; சுருக்கினெம் கலப்பை;</span><span class="tl">மரங்கொல் தச்சன் மைவல் சிறாஅர்</span><span class="tl">மழுவுடைக் காட்டகத்து அற்றே;</span><span class="tl">எத்திசைச் செலினும், அத்திசைச் சோறே.</span>
+        <span class="src">purananuru:206 · lines 10–13 · Avvaiyar · thurai: பரிசில்</span>
+        <p>Kept waiting at a patron's gate, the poet says: we've shouldered our instruments and packed our bags. Like a carpenter's skilled sons in a forest with their axes, wherever we go, there's rice. The bard lived on gifts, <span class="ta">பரிசில்</span>, and still owned her words. She speaks to the gatekeeper so the rebuke reaches the king at one remove.</p>
+        <p class="you">She was paid and stayed the author. If a model writes your words for nothing, who owns them?</p>
+      </div>
+      <div class="rd">
+        <span class="tl">இனிப், பாடுநரும் இல்லை; படுநர்க்குஒன்று ஈகுநரும் இல்லை;</span><span class="tl">பனித்துறைப் பகன்றை நறைக் கொள் மாமலர்</span><span class="tl">சூடாது வைகியாங்குப், பிறர்க்கு ஒன்று</span><span class="tl">ஈயாது வீயும் உயிர்தவப் பலவே!</span>
+        <span class="src">purananuru:235 · lines 17–20 · Avvaiyar · thurai: கையறுநிலை, helpless grief</span>
+        <p>Avvai's lament for Anji. Earlier in the poem she remembers him sharing his toddy and stroking her head with his scented hand. Now there's no one to sing and no one to give to singers, and many lives die giving nothing, like fragrant flowers at a cold ford that wither unworn.</p>
+        <p class="you">She could write this because his hand was on her head. What would you have to give a model before it could even try?</p>
+      </div>
+    </div>
+    <h4>the complication</h4>
+    <p>People say it was the best eulogy they've heard. Your sister knows you didn't write the line about his hands. She cried at it anyway. And the old poems were full of conventions too: the friend who speaks, the landscape that stands in for the feeling, set phrases passed between poets. Maybe feeling always travelled in borrowed forms.</p>
+    <h4>a generation later</h4>
+    <p>Every letter, toast and eulogy comes pre-drafted, tuned to the room. Nobody stumbles over a sentence at a funeral any more. What happens to the voice that cracks? Who decides whether a borrowed form carries your feeling or replaces it?</p>
+    <h4>where do you stand now? what would make you reconsider?</h4>
+    <div class="stance"><label for="stance-akam">one line, in your words</label><input id="stance-akam" data-k="akam" type="text" maxlength="200" placeholder="e.g. I'll take help with the form. The first line has to be mine."><small>Stays on your device for this visit only.</small></div>
+    <div class="test"><b>a small test this week</b>Write the first three lines of a note to someone yourself, before any help. Keep those three lines, even if a tool helps with the rest.</div>
+    <p class="keep"><b>what stays human</b>Saying it in my own voice, even when someone else could say it better.</p>
+    <div class="essence"><b>essence</b><ol>
+<li><span class="k">the texts</span>Akam feeling always travelled through a go-between: the friend speaks, the landscape stands in for the heart. Puram poets were paid in gifts and still owned their words.</li>
+<li><span class="k">the graph</span>Every akam poem is tagged with speaker, addressee and overhearer. Love poems and war poems link at 38% sound, close to each group's own rate: private and public feeling share one vocabulary.</li>
+<li><span class="k spec">speculation</span>Models become everyone's go-between. Convention didn't kill feeling in these poems. A form with no one behind it might.</li>
+<li><span class="k">stays human</span>My own voice, cracks included.</li></ol></div>
+  </div>
+
+  <h3><span class="n">2.1</span> Every town is ours</h3>
+  <div class="verse">
+    <span class="tl">யாதும் ஊரே ; யாவரும் கேளிர் ;</span><span class="tl">தீதும் நன்றும் பிறர்தர வாரா ;</span>
+    <span class="src">purananuru:192 · lines 1–2 · Kaniyan Poongundranar</span>
+  </div>
+  <dl class="t">
+    <dt>reading</dt><dd>Every town is ours, everyone is kin. Good and ill don't come to us from others. The famous first line is where an argument lands: since good and ill aren't handed over by others, no place is foreign and no one a stranger. The poem ends by refusing to marvel at the great, and refusing even more to look down on the small.</dd>
+    <dt>in the graph</dt><dd>Sound with Kural 379 (3 graders): why welcome the good and grieve the bad? A weak but sharp reply from Nanmanikkadigai 82: every town belongs to those with something in hand.</dd>
+    <dt>now</dt><dd>A networked planet puts everyone within reach. Feeds still marvel at the great. Kinship at scale is technically easy and morally hard.</dd>
+    <dt>carries through</dt><dd class="q">Can kinship stretch past the people we can actually know?</dd>
+    <dt>stays human</dt><dd class="h">Choosing to treat a stranger as kin.</dd>
+  </dl>
+
+  <h3><span class="n">2.2</span> The world goes on because some won't eat alone</h3>
+  <div class="verse">
+    <span class="tl">உண்டால் அம்ம, இவ்வுலகம்; இந்திரர்;</span><span class="tl">அமிழ்தம் இயைவ தாயினும், இனிதுஎனத்</span><span class="tl">தமியர் உண்டலும் இலரே; முனிவிலர்!</span>
+    <span class="src">purananuru:182 · lines 1–3 · Ilamperuvazhuthi, a Pandya prince</span>
+  </div>
+  <dl class="t">
+    <dt>reading</dt><dd>This world exists because there are people who wouldn't eat even the gods' nectar alone because it's sweet. The poem is one long sentence that holds back who these people are until the last line: those who strive for others. A ruler wrote it.</dd>
+    <dt>in the graph</dt><dd>Sound with Kural 996 (4 graders): the world stands because of people of courtesy. Weak with Kural 322 (3 graders) on sharing food. Akananuru 54 and Manimekalai 5 reuse the phrase for a patron and for the Buddha.</dd>
+    <dt>now</dt><dd>Intelligence is turning into a kind of nectar. It's abundant at some tables and rationed at others. I come back to this one in section four.</dd>
+    <dt>carries through</dt><dd class="q">What would it mean to refuse to eat intelligence alone?</dd>
+    <dt>stays human</dt><dd class="h">The decision to share.</dd>
+  </dl>
+
+  <h3><span class="n">2.3</span> Where the inner and outer worlds meet</h3>
+  <p>Across the akam and puram anthologies of the Ettuthogai, 69 of 180 graded links are sound (38%). Within akam the rate is 41%, within puram 46%. So the two halves talk to each other almost as well as each talks to itself. The war shows up inside the love poems as a simile, a place, a famous gift.</p>
+  <ul class="pulli">
+    <li><b>Akananuru 78 and Purananuru 109</b> <span class="grade s">sound · 7 graders</span>. The siege of Paari's hill. In puram, Kapilar boasts that the three kings can't take it by force. In akam, the girl's brow smells of the flowers of Paari's pool, and the siege comes along in a single clause.</li>
+    <li><b>Akananuru 246 and Purananuru 66</b> <span class="grade s">sound · 4 graders</span>. The gossip about the lover was louder than the battle at Venni, where Karikal broke the kings.</li>
+    <li><b>Akananuru 131 and Purananuru 264</b> <span class="grade s">sound · 3 graders</span>. A hero-stone crowned with peacock feathers and carved with a name. Puram mourns the man. Akam lines a road with such stones.</li>
+    <li><b>Kuruntokai 63 and Purananuru 189</b> <span class="grade s">sound · 2 graders</span>. Puram concludes that wealth is for giving. In akam, a man's own heart uses the same argument to push him out to work.</li>
+  </ul>
+  <p class="aside">public life leaks into private feeling. it did then too.</p>
+
+  <h3><span class="n">2.4</span> The water clock</h3>
+  <div class="verse">
+    <span class="tl">பொழுதளந் தறியும் பொய்யா மாக்க</span><span class="gap">…</span><span class="tl">குறுநீர்க் கன்ன லினைத்தென் றிசைப்ப</span>
+    <span class="src">pattupattu:5:mullaippattu · lines 55, 58</span>
+    <span class="tl">குறுநீர்க் கன்னல் எண்ணுநர் அல்லது,</span><span class="tl">கதிர்மருங்கு அறியாது, அஞ்சுவரப் பாஅய்,</span>
+    <span class="src">akananuru:43 · lines 6–7</span>
+  </div>
+  <dl class="t">
+    <dt>reading</dt><dd>In a war camp at midnight, men who measure the hours without error hail the king and tell him how much the little water-clock has let through. In Akananuru 43 the monsoon joins land and sky so completely that only those who count the water clock know where the sun is. That one's a love poem: a man has decided not to leave his wife for wealth.</dd>
+    <dt>now</dt><dd>An instrument that turns a physical process into a count, a specialist who reads it, and a report to someone who acts on it. That's the shape of every computer since. Maduraikkanchi line 671 has the hour, <span class="ta">நாழிகை</span>, called out in the city.</dd>
+    <dt>what the poems don't say</dt><dd>Neither passage fixes the vessel's shape, whether water flowed in or out, how it was calibrated, or how precise it was. So the simulation below is a reconstruction under stated assumptions.</dd>
+    <dt>carries through</dt><dd class="q">When the reading comes from an instrument, who answers for it being right?</dd>
+    <dt>stays human</dt><dd class="h">Being the one who answers for the reading. <span class="ta">பொய்யா மாக்கள்</span>, the people who don't lie.</dd>
+  </dl>
+
+  <div class="wid clock" id="clockW">
+    <div class="wt"><b>a sinking-bowl water clock · reconstruction</b><span>time-lapse, 1 s = 2 min</span></div>
+    <canvas id="clockC" width="560" height="250" aria-label="A pierced bowl floating in a basin slowly fills and sinks"></canvas>
+    <div class="ctl">
+      <label class="md" for="hole">hole diameter <b id="holeV" style="color:var(--fg)">1.40 mm</b> (calibrated at 1.40)</label>
+      <button class="btn" id="clockBtn" type="button">pause</button>
+      <input type="range" id="hole" min="1.20" max="1.60" step="0.01" value="1.40">
+      <button class="btn" id="clockReset" type="button">reset</button>
+    </div>
+    <div class="stats">
+      <div><b id="sNaz">0</b><span>bowls sunk · nazhigai counted</span></div>
+      <div><b id="sPer">24.0 min</b><span>one bowl takes</span></div>
+      <div><b id="sErr">+0 s</b><span>clock ahead (+) or behind, per nazhigai</span></div>
+      <div><b id="sDay">+0 min</b><span>clock ahead or behind after one true day</span></div>
+    </div>
+    <div class="drift"><svg id="driftSvg" viewBox="0 0 560 150" aria-label="Drift per day against hole diameter"></svg></div>
+    <p class="note">Assumptions, none from the poems: a bowl that sinks after taking in 1.18 litres; water entering through one round hole at a steady 4 cm head (a floating bowl sinks as it fills, which keeps the head roughly steady); discharge coefficient 0.6; a keeper who calibrated it with a 1.40 mm hole to one nazhigai of 24 minutes, sixty to a day, and never re-checked it against the sun. Flow goes with the hole's area, so timing error grows with the square of the diameter. A slip of 0.05 mm in the drilling moves the day by roughly 100 minutes.</p>
+  </div>
+</section>
+
+<hr class="sec">
+<section id="connects">
+  <h2>how it all connects</h2>
+  <p>The nine groups of books, and how often links between them were graded sound. Thicker lines are higher shares. Dashed lines have fewer than 20 graded links, so treat them as noise. Tap a line or a group.</p>
+  <div class="wid bridges">
+    <div class="wt"><b>bridges between the nine groups</b><span>sound ÷ graded, both directions</span></div>
+    <div class="scroll"><svg id="bridgeSvg" viewBox="0 0 520 440" role="group" aria-label="Bridge graph of nine groups"></svg></div>
+    <div class="readout" id="bridgeOut" aria-live="polite"></div>
+    <p class="note">Source: kg/groups/bridges_summary.json. The ethics and devotional numbers include five older graphs graded under their own briefs (the Tirumanthiram graders ran lenient against calibration), so those cells aren't strictly comparable with the rest. The minor epics were mostly marked and graded by a smaller model, which pulls their numbers down.</p>
+  </div>
+  <p>What it says to me: the bridges that carry weight are few, and most run through the ethics books. Love poems and war poems both reach the Kural-like works at about 46%. The minor epics reach almost nothing, and that's at least as much about how they were marked as about the books.</p>
+</section>
+
+<hr class="sec">
+<section id="science">
+  <div class="shead">
+    <svg viewBox="0 0 120 90" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+      <ellipse cx="60" cy="45" rx="40" ry="14"/>
+      <ellipse cx="60" cy="45" rx="40" ry="14" transform="rotate(60 60 45)"/>
+      <ellipse cx="60" cy="45" rx="40" ry="14" transform="rotate(-60 60 45)"/>
+      <circle cx="60" cy="45" r="4" fill="var(--pink)" stroke="none"/>
+      <path d="M8 84 h104" stroke="var(--rule)"/><path d="M20 84 v-4 M40 84 v-4 M60 84 v-6 M80 84 v-4 M100 84 v-4" stroke="var(--sci)"/>
+    </svg>
+    <div><span class="no">03 / four</span><h2>The science <span class="ta">அளவை, the means of knowing</span></h2></div>
+  </div>
+  <p class="aside">correspondence is not confirmation. i'm writing it first so i can't pretend i didn't.</p>
+  <p>A strong link in this section means a blind grader judged that a verse makes a specific claim a modern finding bears on, more clearly than random pairings do. It doesn't mean the poets anticipated the science, or that a finding confirms a verse's metaphysics, or that a practice is safe. Many links are contradictions. The supporting ones are usually about something many traditions noticed: a restless mind, a body that decays, slow breath that calms.</p>
+
+  <h3>the blinded test, in one picture</h3>
+  <p>Sixty findings from peer-reviewed reviews, each labelled established, replicated, contested or speculative. Every pairing with the 2,701 Siddhar verses was scored, all 162,060 of them. The top 300 went into blind packets next to 100 random pairings, unlabelled. Two graders scored each item 0 to 3. The bar for "strong" was set by the controls, after grading.</p>
+  <div class="wid">
+    <div class="wt"><b>mean grade, candidates vs random controls</b><span>share of each group</span></div>
+    <div class="scroll"><svg id="gradeSvg" viewBox="0 0 560 230" role="img" aria-label="Bar chart. Candidates: 54 at 0, 24 at 0.5, 194 at 1, 11 at 1.5, 15 at 2, 2 at 3. Controls: 93 at 0, 2 at 0.5, 5 at 1."></svg></div>
+    <p class="note">kg/science/threshold_summary.json. No control reached a mean of 2, so the control false-positive rate was 0 and the bar sat at 2. 17 candidates cleared it: 8 support, 5 contradict, 4 neither. Two of the 17 depend on a cipher reading the Tamil doesn't fix.</p>
+  </div>
+
+  <div class="scene" id="scene-science">
+    <span class="tag">speculative · a near-future scene</span>
+    <h3>The persuasive mechanism</h3>
+    <h4>the situation</h4>
+    <p>A lab assistant model reads a Siddhar verse about breath and light overnight. By morning it has a mechanism: microtubules, quantum coherence, a frequency, forty citations, a figure. It reads beautifully. Your colleague wants to put it in a grant. You're the one asked to check it.</p>
+    <h4>three readings</h4>
+    <div class="three">
+      <div class="rd">
+        <span class="tl">வாதம்செய்வேன் வெள்ளியும் பொன்மாற்றுயர்ந்த தங்கமும்</span><span class="tl">போதவே குருமுடிச்சுப் பொன்பணங்கள் தரவெனச்</span>
+        <span class="src">siddhar:sivavakkiyam:512 · lines 1–2 · Sivavakkiyar</span>
+        <p>"I'll do alchemy: silver, and gold finer than the touchstone's." Then: give enough gold and coin for the guru's bundle. The rest of the verse is the trick and the runaway. It describes alchemy as it was practised, a fee up front, and says nothing about whether transmutation is possible.</p>
+        <p class="you">What is the fee up front in your lab: the grant, the paper, the headline? Who pays it before the gold appears?</p>
+      </div>
+      <div class="rd">
+        <span class="tl">பொருளின் உண்மை புலங்கொளல் வேண்டும்</span><span class="tl">மருள் இல் காட்சி ஐ வகை ஆகும்</span>
+        <span class="src">manimekalai:27 · lines 13–14 · the Vedic logician</span>
+        <p>The truth of a thing has to be grasped through the means of knowing. Perception free of delusion is of five kinds, one for each sense. The same speaker then lists eight false semblances of knowing: taking shell for silver, "post or man?", taking a post for a man without looking, and taking on others' word that these are your parents.</p>
+        <p class="you">The model has read everything and perceived nothing. Which means of knowing is it actually using when it proposes a mechanism?</p>
+      </div>
+      <div class="rd">
+        <span class="tl">தந்தை தாயரை அனுமானத்தால் அலது</span><span class="tl">இந்த ஞாலத்து எவ் வகை அறிவாய்?</span><span class="tl">மெய்யுணர்வு இன்றி மெய்ப் பொருள் உணர்வு அரிய</span><span class="tl">ஐயம் அல்லது இது சொல்லப் பெறாய்' என</span>
+        <span class="src">manimekalai:27 · lines 284–287 · Manimekalai to the materialist</span>
+        <p>The materialist trusts perception only. She asks how he knows his own father and mother, except by inference. Without true understanding, the true nature of things is hard to know, and on his own terms he can state his claim only as doubt.</p>
+        <p class="you">When the model is unsure, does it say "this is doubt"? Do you?</p>
+      </div>
+    </div>
+    <h4>the complication</h4>
+    <p>Our own test is the reason I believe any of the 17 strong links. The random pairings were graded by the same graders, blind, and none reached 2. That's a control. The Orch-OR link for Sivavakkiyam 327 was withheld for the same reason the morning's mechanism should be: the verse gives no substrate and no timescale, and the theory itself is labelled speculative. Still, our graders were models too, reading one-sentence paraphrases of the science. The test is a filter, not a verdict.</p>
+    <h4>a generation later</h4>
+    <p>Machines propose ten thousand mechanisms a day, each one fluent. Plausible explanation becomes the cheap thing and evidence becomes the expensive thing. Who designs the controls, and who's allowed to say "no result"?</p>
+    <h4>where do you stand now? what would make you reconsider?</h4>
+    <div class="stance"><label for="stance-science">one line, in your words</label><input id="stance-science" data-k="science" type="text" maxlength="200" placeholder="e.g. I won't cite a mechanism until I've seen what it says about a random verse."><small>Stays on your device for this visit only.</small></div>
+    <div class="test"><b>a small test this week</b>The next time a tool explains something to you with confidence, give it a control: the same question about an unrelated case. If it's just as confident, you've learned something about the first answer.</div>
+    <p class="keep"><b>what stays human</b>Deciding, before I see the answer, what would count as being wrong.</p>
+    <div class="essence"><b>essence</b><ol>
+<li><span class="k">the texts</span>Siddhars called furnace alchemy a fraud from inside their own tradition. Manimekalai 27 names the means of knowing and lists how knowing fails.</li>
+<li><span class="k">the evidence</span>Gold comes from mercury only by nuclear reaction (established). In our test, 0 of 100 random pairings reached grade 2 and 17 of 300 candidates did. Controls are what make the 17 worth reading.</li>
+<li><span class="k spec">speculation</span>Fluent mechanisms become cheap and plentiful. Designing the control becomes the scarce, valuable skill.</li>
+<li><span class="k">stays human</span>Saying in advance what would prove me wrong.</li></ol></div>
+  </div>
+
+  <h3><span class="n">3.1</span> The atom you can't see at dusk</h3>
+  <div class="verse">
+    <span class="tl">ஓர் அணுத் தெய்வக் கண்ணோர் உணர்குவர்</span><span class="tl">தேரார் பூதத் திரட்சியுள் ஏனோர்</span><span class="tl">மாலைப் போதில் ஒரு மயிர் அறியார்</span>
+    <span class="src">manimekalai:27 · lines 146–148 · the Ajivika speaker</span>
+  </div>
+  <dl class="t">
+    <dt>reading</dt><dd>A single atom is seen only by those with divine eyes. Others can't make it out in a mass of elements, the way no one sees a single hair at dusk though a mass of hair is plain. In the same chapter, atoms of earth, water, fire and wind are said never to begin, never to end, never to enter one another, and to mass into mountains, trees and bodies.</dd>
+    <dt>in the graph</dt><dd>Manimekalai 27 is the debate chapter, and the Neelakesi argues with it almost line by line: 677 gives the same doctrine (sound), 698 takes the same premises and demands the cause of sinking and rising (sound). Manimekalai was the strongest-linked great epic, 53.5% sound.</dd>
+    <dt>now</dt><dd>The divine eye arrived as an instrument. The scanning tunnelling microscope made single atoms visible in the early 1980s, and by the end of that decade people were pushing them around one by one. The Ajivika also said atoms never split, and that part didn't hold.</dd>
+    <dt>carries through</dt><dd class="q">What else is "seen only by divine eyes" today that an instrument will make ordinary?</dd>
+    <dt>stays human</dt><dd class="h">Wondering what the mass of things is made of, before anyone can check.</dd>
+  </dl>
+
+  <h3><span class="n">3.2</span> Timekeeping, from a blink to a clock</h3>
+  <div class="verse">
+    <span class="tl">கண் இமை நொடி என அவ்வே மாத்திரை</span><span class="tl">நுண்ணிதின் உணர்ந்தோர் கண்ட ஆறே.</span>
+    <span class="src">tholkappiyam:eluttu:1:7</span>
+  </div>
+  <dl class="t">
+    <dt>reading</dt><dd>A blink of the eye or a snap of the fingers: that's the measure, the <span class="ta">மாத்திரை</span>, as those who perceived finely found it. Short vowels hold one measure, long ones two. Time is measured against the body first.</dd>
+    <dt>open question</dt><dd>How fast is a reciter's blink? The inquiry file proposes testing competing readings of the bodily reference across many reciters, and recording how much speakers vary. Then the water clock moved the unit out of the body into a bowl.</dd>
+    <dt>stays human</dt><dd class="h">Being the unit of measure, once. Remembering that we were.</dd>
+  </dl>
+
+  <div class="wid">
+    <div class="wt"><b>two thousand years of instruments</b><span>scroll →</span></div>
+    <div class="scroll"><div class="tline">
+      <figure><svg viewBox="0 0 120 60" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M8 26 C30 18 90 16 112 22 C116 24 116 34 112 36 C90 42 30 42 8 34 C4 32 4 28 8 26Z"/><path d="M20 27h20M46 26h14M66 26h24M20 32h12M38 32h26M70 32h18" opacity=".6"/><circle cx="34" cy="29" r="2"/><circle cx="86" cy="29" r="2"/></svg><b class="ta">ஓலை · palm leaf</b><span class="yr">for most of the corpus's life</span><small>Every book here survived by being copied onto leaves and copied again before the leaves rotted.</small></figure>
+      <figure><svg viewBox="0 0 120 60" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M20 50 L100 10"/><path d="M100 10 l6 -3"/><path d="M14 54 c10 -2 24 -2 34 0" opacity=".5"/><path d="M30 44 l4 -2" /></svg><b class="ta">எழுத்தாணி · stylus</b><span class="yr">alongside the leaf</span><small>Letters scratched into the leaf, not painted on. The <span class="ta">புள்ளி</span> was a dot you could miss.</small></figure>
+      <figure><svg viewBox="0 0 120 60" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M14 30 h92 v18 a4 4 0 0 1 -4 4 h-84 a4 4 0 0 1 -4 -4z"/><path d="M44 34 a16 10 0 0 0 32 0" /><path d="M60 44 v4" stroke="var(--pink)"/><path d="M14 38 h92" opacity=".4"/></svg><b class="ta">கன்னல் · water clock</b><span class="yr">Mullaippattu, Akananuru 43</span><small>A process turned into a count, read by specialists, reported to a king.</small></figure>
+      <figure><svg viewBox="0 0 120 60" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M20 52 h80 M30 52 v-30 h60 v30"/><path d="M60 22 v-12 M48 10 h24"/><rect x="40" y="34" width="40" height="8"/></svg><b>printing press</b><span class="yr">1578</span><small>The first book printed in Tamil script. The commentaries and the classics followed, centuries later.</small></figure>
+      <figure><svg viewBox="0 0 120 60" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M16 12 h80 l8 8 v28 h-88z"/><g stroke-width="2.4"><path d="M28 22v4M40 30v4M52 22v4M64 38v4M76 26v4M88 34v4"/></g></svg><b>punch card</b><span class="yr">1890</span><small>Holes counted a census by machine. Data became something you could feed a device.</small></figure>
+      <figure><svg viewBox="0 0 120 60" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="40" y="14" width="40" height="32" rx="3"/><path d="M48 14v-6M60 14v-6M72 14v-6M48 46v6M60 46v6M72 46v6M40 24h-8M40 36h-8M80 24h8M80 36h8"/><rect x="50" y="24" width="20" height="12" opacity=".5"/></svg><b>silicon</b><span class="yr">around 1960</span><small>The integrated circuit. Counting moved into sand, and got very small and very fast.</small></figure>
+      <figure><svg viewBox="0 0 120 60" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><circle cx="20" cy="30" r="3"/><circle cx="50" cy="14" r="3"/><circle cx="50" cy="46" r="3"/><circle cx="80" cy="22" r="3"/><circle cx="80" cy="40" r="3"/><circle cx="104" cy="30" r="3"/><path d="M23 30 L47 14 M23 30 L47 46 M53 14 L77 22 M53 14 L77 40 M53 46 L77 22 M53 46 L77 40 M83 22 L101 30 M83 40 L101 30" opacity=".7"/></svg><b>the model</b><span class="yr">now</span><small>It reads the Tamil, writes the readings, grades the links. Including the ones in this file.</small></figure>
+    </div></div>
+  </div>
+
+  <h3><span class="n">3.3</span> Self-boundary studies, with the limits on</h3>
+  <p>Sivavakkiyam 327 (in 1.4) is the verse I'd most like a scientist to look at, and the one I most want to protect from over-reading. The inquiry file lists what a fair study would separate: bodily self-boundary, agency, the speaker's identity, devotional union. Its neighbours in the corpus pull different ways. Valmiki says <span class="ta">வாசி</span> is needed to "be He"; Agathiyar (in the scene above) says it isn't needed if the mind is straight. A single universal technique can't be read off that pair.</p>
+
+  <h3><span class="n">3.4</span> Open inquiries</h3>
+  <p>From the consciousness and measurement file. Each one starts from a Tamil passage and names what evidence would move it.</p>
+  <div class="scroll"><table class="data">
+    <thead><tr><th>question</th><th>Tamil starting point</th><th>what would move it</th></tr></thead>
+    <tbody>
+      <tr><td>How was time kept when the sun was hidden?</td><td>Akananuru 43, Mullaippattu 55–58</td><td>Compare recensions; test timing error across plausible vessel designs.</td></tr>
+      <tr><td>How did builders find orientation?</td><td>Nedunalvadai 65–80: two rods, midday, a cord</td><td>Rival geometries and their shadow predictions, with latitude and season stated.</td></tr>
+      <tr><td>What counted as measuring the sky?</td><td>Purananuru 30, people talking as if they'd gone and measured</td><td>A number needs an object, a unit, a procedure and a source first.</td></tr>
+      <tr><td>What separated medical reasoning from evidence it worked?</td><td>Kural 948</td><td>Witnessed cases with an outcome or a comparison.</td></tr>
+      <tr><td>What changes when a speaker loses the "I"?</td><td>Sivavakkiyam 327</td><td>Code self-boundary, agency and union separately.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<hr class="sec">
+<section id="aims">
+  <div class="shead">
+    <svg viewBox="0 0 120 90" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+      <g transform="translate(60 45)">
+        <path d="M0 -38 C14 -24 14 -10 0 0 C-14 -10 -14 -24 0 -38Z"/>
+        <path d="M38 0 C24 14 10 14 0 0 C10 -14 24 -14 38 0Z"/>
+        <path d="M0 38 C-14 24 -14 10 0 0 C14 10 14 24 0 38Z" stroke="var(--pink)"/>
+        <path d="M-38 0 C-24 -14 -10 -14 0 0 C-10 14 -24 14 -38 0Z"/>
+        <circle r="2.6" fill="var(--pink)" stroke="none"/>
+        <circle cx="-26" cy="-26" r="1.6" fill="currentColor"/><circle cx="26" cy="-26" r="1.6" fill="currentColor"/><circle cx="26" cy="26" r="1.6" fill="currentColor"/><circle cx="-26" cy="26" r="1.6" fill="currentColor"/>
+      </g>
+    </svg>
+    <div><span class="no">04 / four</span><h2>The four aims <span class="ta">அறம் · பொருள் · இன்பம் · வீடு</span></h2></div>
+  </div>
+  <p class="aside">the oldest sorting scheme in the corpus. i borrowed it to sort the future.</p>
+  <p>Virtue, wealth and the world, love, release. The Kural is built on the first three and the devotional books chase the fourth. The graph files its 354 concepts under these four aims and nine cross-cutting families: body, mind, the divine, practice, nature, society, knowledge, poetics, time. Tap an aim to read its essence and two examples with sound links. Tap a family to see which aims it shares concepts with.</p>
+
+  <div class="wid" id="aimW">
+    <div class="wt"><b>four aims, nine families</b><span>dots = concepts cross-listed between them</span></div>
+    <div class="aims" id="aimBtns" role="group" aria-label="Four aims"></div>
+    <div class="scroll"><table class="matrix" id="aimMatrix"></table></div>
+    <div class="apanel" id="aimPanel" aria-live="polite"></div>
+    <p class="note">kg/themes/concept_categories.json. Essence lines were written for the graph from its own glosses and readings. A dot counts concepts placed in a family with a secondary listing under an aim, or the other way round.</p>
+  </div>
+
+  <div class="scene" id="scene-aims">
+    <span class="tag">speculative · a near-future scene</span>
+    <h3>Intelligence at every table</h3>
+    <h4>the situation</h4>
+    <p>A few years on, there's an assistant at every table: the kitchen, the courtroom, the wedding, the hospital bed. Your family uses one to settle the argument over your grandmother's land. It's fair, quick, and everybody accepts it. Nobody had to forgive anybody.</p>
+    <h4>three readings</h4>
+    <div class="three">
+      <div class="rd">
+        <span class="tl">தமக்கென முயலா நோன்தாள்,</span><span class="tl">பிறர்க்கென முயலுநர் உண்மை யானே.</span>
+        <span class="src">purananuru:182 · lines 9–10</span>
+        <p>The world goes on because there are people of steady effort who strive for others and not for themselves. The poem's whole weight hangs on these last two lines.</p>
+        <p class="you">If intelligence costs almost nothing, what would it look like for you to refuse to eat it alone?</p>
+      </div>
+      <div class="rd">
+        <span class="tl">எப்பொருள் யார்யார்வாய்க் கேட்பினும் அப்பொருள்</span><span class="tl">மெய்ப்பொருள் காண்ப தறிவு</span>
+        <span class="src">kural:423</span>
+        <p>Whatever you hear, from whoever's mouth, understanding means seeing the true substance of that very thing. The doubled <span class="ta">யார்யார்</span> takes the speaker out of the test, both ways.</p>
+        <p class="you">The assistant was fair. Did anyone at the table see the substance of the dispute, or just accept the verdict?</p>
+      </div>
+      <div class="rd">
+        <span class="tl">நெருநல் உளனொருவன் இன்றில்லை என்னும்</span><span class="tl">பெருமை உடைத்துஇவ் வுலகு</span>
+        <span class="src">kural:336 · chapter நிலையாமை, impermanence</span>
+        <p>This world has the greatness that someone here yesterday isn't here today. <span class="ta">பெருமை</span>, greatness, is bitter here.</p>
+        <p class="you">Your grandmother is gone and the land is settled. What part of the grief did the settlement skip, and does it come back later?</p>
+      </div>
+    </div>
+    <h4>the complication</h4>
+    <p>The assistant was more impartial than any uncle would have been. The cousin who always lost these arguments got a fair share for the first time. Abundant intelligence did something the four aims would call <span class="ta">அறம்</span>. It just did it without anyone having to become better.</p>
+    <h4>a generation later</h4>
+    <p>Virtue drifts toward compliance with a fair system. Wealth becomes access to the good assistant. Love comes pre-drafted. Release gets harder, because nothing is ever forgotten. Who teaches these systems what the four aims are for?</p>
+    <h4>where do you stand now? what would make you reconsider?</h4>
+    <div class="stance"><label for="stance-aims">one line, in your words</label><input id="stance-aims" data-k="aims" type="text" maxlength="200" placeholder="e.g. Let it be fair. I still have to do the forgiving."><small>Stays on your device for this visit only.</small></div>
+    <div class="test"><b>a small test this week</b>At one meal, keep every device off the table and ask one question you'd normally look up. Let the table answer it, wrongly if need be.</div>
+    <p class="keep"><b>what stays human</b>Choosing to share, and answering for what I chose.</p>
+    <div class="essence"><b>essence</b><ol>
+      <li><span class="k">the texts</span>Purananuru 182 says the world rests on people who won't eat alone. Kural 423 says understanding is testing the substance, whoever speaks. Kural 336 says loss is the world's bitter greatness.</li>
+      <li><span class="k">the graph</span>182 links sound to Kural 996 (4 graders): the world rests on a kind of person. In these verses the world stands on a kind of person. A procedure doesn't appear.</li>
+      <li><span class="k spec">speculation</span>Abundant intelligence can deliver fair outcomes without anyone becoming fair. The aims were about the becoming.</li>
+      <li><span class="k">stays human</span>Sharing by choice, and answering for it.</li></ol></div>
+  </div>
+
+  <h3><span class="n">4.1</span> See the substance, whoever says it</h3>
+  <dl class="t">
+    <dt>the verse</dt><dd>Kural 423, in the scene above.</dd>
+    <dt>in the graph</dt><dd>Sound with Tirumanthiram 59 (whatever the language, the learned know the intent). Weak with Manimekalai 29, where she has heard every school and still asks a teacher. A Siddhar link to Valmiki was graded forced: report and direct seeing aren't the same test.</dd>
+    <dt>now</dt><dd>Verifying machine output. The Kural's test is speaker-blind in both directions: an answer isn't right because the machine is confident, and it isn't wrong because it came from a machine.</dd>
+    <dt>carries through</dt><dd class="q">When answers are free, what does checking cost, and who pays?</dd>
+    <dt>stays human</dt><dd class="h">Judging what's true for this case, and owning the consequence.</dd>
+  </dl>
+
+  <h3><span class="n">4.2</span> Find the root before the remedy</h3>
+  <div class="verse">
+    <span class="tl">நோய்நாடி நோய்முதல் நாடி அதுதணிக்கும்</span><span class="tl">வாய்நாடி வாய்ப்பச் செயல்</span>
+    <span class="src">kural:948 · chapter மருந்து, medicine</span>
+  </div>
+  <dl class="t">
+    <dt>reading</dt><dd>Look into the disease, then its root, then the means that will subdue it, and act so it fits. <span class="ta">நாடி</span> comes three times and sets an order: identify, trace, choose, then act.</dd>
+    <dt>in the graph</dt><dd>Only weak links: the Neelakesi and Civaka Cintamani borrow the order for suffering and snakebite. The inquiry file asks what separated medical reasoning from evidence that a treatment worked, and points to later comparisons with outcomes.</dd>
+    <dt>now</dt><dd>Diagnostic models are getting very good at the first <span class="ta">நாடி</span>. The fourth step, fitting the act to this person, is where responsibility lives.</dd>
+    <dt>carries through</dt><dd class="q">Will tools that name the disease leave us time to find its root?</dd>
+    <dt>stays human</dt><dd class="h">The act, and answering for it to the person in front of me.</dd>
+  </dl>
+
+  <h3><span class="n">4.3</span> Is caste stamped on flesh or bone?</h3>
+  <div class="verse">
+    <span class="tl">பறைச்சியாவது ஏதடா? பணத்தியாவது ஏதடா?</span><span class="tl">இறைச்சிதோல் எலும்பினும் இலக்கமிட்டு இருக்குதோ?</span>
+    <span class="src">siddhar:sivavakkiyam:39 · Sivavakkiyar</span>
+    <span class="tl">வைகு துயிலொடு இணைவிழைச்சுக் கீழ்மக்கள்</span><span class="tl">மெய்யுறல் ஏனை மயலுறல் ஈரைந்தும்</span>
+    <span class="src">acharakkovai:10 · lines 3–4 · Peruvayin Mulliyar</span>
+  </div>
+  <dl class="t">
+    <dt>reading</dt><dd>Sivavakkiyar: what is a Paraiyar woman, what is a Brahmin woman? Is a mark stamped on flesh, skin or bone? Acharakkovai lists ten occasions to bathe without hesitation, and one of them is bodily contact with "low people".</dd>
+    <dt>in the graph</dt><dd>Both are in the corpus, and the graph keeps both. Acharakkovai's rule is recorded as a historical norm (204 such edges in the ethics group). Sivavakkiyam 39 links sound to Kural 972 (birth is alike for all) and to Naladiyar 195, and in tension, sound, with Nanmanikkadigai 33, which ranks the brahmin's birth first. Acharakkovai 10 against Sivavakkiyam 213 ("where was the dirt?") was graded weak by 4 graders. Sivavakkiyam 215 ends flatly: <span class="ta">சாதிபேதம் என்பதொன்று சற்றுமில்லை இல்லையே!</span></dd>
+    <dt>the science</dt><dd>Indian groups descend from mixed ancestral populations, and strict endogamy began only about 1,900 to 4,200 years ago (replicated). Our graders marked this pair strong and <span class="grade w">neither</span>: the finding supports "no deep natural basis" and also shows that endogamy left real genetic structure.</dd>
+    <dt>now</dt><dd>A model trained on this corpus learns Acharakkovai's rules and Sivavakkiyar's refusal from the same pile. Datasets inherit the past's rules. Which voice the system repeats is a choice someone makes.</dd>
+    <dt>carries through</dt><dd class="q">When we train on the past, which of its voices do we amplify?</dd>
+    <dt>stays human</dt><dd class="h">Deciding which inherited rules to stop keeping.</dd>
+  </dl>
+
+  <h3><span class="n">4.4</span> Nilaiyamai: this file will be wrong</h3>
+  <div class="verse">
+    <span class="tl">நில்லாத வற்றை நிலையின என்றுணரும்</span><span class="tl">புல்லறி வாண்மை கடை</span>
+    <span class="src">kural:331 · chapter நிலையாமை</span>
+  </div>
+  <dl class="t">
+    <dt>reading</dt><dd>The paltry understanding that takes what doesn't last for what lasts is the lowest kind. The fault is a mistake of knowledge before it's a moral one.</dd>
+    <dt>now</dt><dd>The site is called <span class="ta">நிலை</span>, what stands. The chapter it keeps returning to is <span class="ta">நிலையாமை</span>, what doesn't. The grades in this file moved when the grader model changed. The science findings carry strength labels because some will move. Kural 336 links sound to Tirumanthiram 148, a man who ate, talked with his wife, said his side ached a little, lay down, and was gone.</dd>
+    <dt>carries through</dt><dd class="q">What in our picture of mind and machine are we mistaking for permanent?</dd>
+    <dt>stays human</dt><dd class="h">Grieving, and carrying on anyway.</dd>
+  </dl>
+  <p class="aside">parts of this file will be wrong before the next monsoon. good. that's how i'll know it's alive.</p>
+</section>
+
+<hr class="sec">
+<section id="kural">
+  <div class="shead">
+    <svg viewBox="0 0 120 90" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+      <path d="M10 30 C36 22 84 22 110 28 C114 30 114 38 110 40 C84 46 36 46 10 40 C6 38 6 32 10 30Z"/>
+      <path d="M22 32h14M40 32h10M54 31h16M74 31h10M22 38h10M36 38h12M52 38h14"/>
+      <path d="M10 56 C36 48 84 48 110 54 C114 56 114 64 110 66 C84 72 36 72 10 66 C6 64 6 58 10 56Z" stroke="var(--pink)"/>
+      <path d="M22 58h1M30 58h1" stroke="var(--pink)" stroke-dasharray="1 6"/>
+    </svg>
+    <div><span class="no">05</span><h2>நிலைக்குறள் · ten couplets for the next five hundred years</h2></div>
+  </div>
+  <p class="honest">Newly written in 2026 in the kural venba form. Every couplet passes a metre check (scripts/venba_check.py, tested on Kurals 1, 2 and 423) and a blind review of its Tamil. Not a classical text, and not yet reviewed by a Tamil scholar.</p>
+  <h3 style="margin-top:1.4rem"><span class="ta">பொறியறிவு</span> · machine knowledge</h3>
+  <p class="muted"><span class="ta">பொறி</span> means both "machine" and, in the Kural, the senses.</p>
+  <p>After all that reading, I wanted to say it back in the old form: two lines, four words then three. The word-splits are the classical ones, because they're the metrical feet. Each couplet has an English companion, a note on why it should still hold in five hundred years, and its scansion, word by word, in <span class="ta">நேர்</span> and <span class="ta">நிரை</span>.</p>
+  <div id="kuralList">
+    <script type="text/plain" data-slot="1">{"ta": ["அறிவெல்லாம் கையகத்தே ஆனபின் தேர்ந்து", "செறிவுடன் காண்பதே மாண்பு"], "en": "When all knowledge has come into our hands, the worth lies in choosing, and seeing deeply.", "why": "Abundance moves the scarce thing from knowing to judging; that holds for any amount of knowledge.", "scan": [["அறிவெல்லாம்", "அறி-வெல்-லாம் · நிரை நேர் நேர்", "புளிமாங்காய்"], ["கையகத்தே", "கை-யகத்-தே · நேர் நிரை நேர்", "கூவிளங்காய்"], ["ஆனபின்", "ஆ-னபின் · நேர் நிரை", "கூவிளம்"], ["தேர்ந்து", "தேர்ந்-து · நேர் நேர்", "தேமா"], ["செறிவுடன்", "செறி-வுடன் · நிரை நிரை", "கருவிளம்"], ["காண்பதே", "காண்-பதே · நேர் நிரை", "கூவிளம்"], ["மாண்பு", "மாண்-பு · நேர் நேர்", "காசு"]], "edhugai": true}</script>
+    <script type="text/plain" data-slot="2">{"ta": ["பொறிசொன்ன தாயினும் பொய்நீக்கி மெய்யின்", "குறிகண்டு கொள்வ தறிவு"], "en": "Even if a machine said it, wisdom is to strip away the false and take the true by its mark.", "why": "The source keeps changing (elder, book, machine); the duty to test the claim does not. Echoes Kural 423.", "scan": [["பொறிசொன்ன", "பொறி-சொன்-ன · நிரை நேர் நேர்", "புளிமாங்காய்"], ["தாயினும்", "தா-யினும் · நேர் நிரை", "கூவிளம்"], ["பொய்நீக்கி", "பொய்-நீக்-கி · நேர் நேர் நேர்", "தேமாங்காய்"], ["மெய்யின்", "மெய்-யின் · நேர் நேர்", "தேமா"], ["குறிகண்டு", "குறி-கண்-டு · நிரை நேர் நேர்", "புளிமாங்காய்"], ["கொள்வ", "கொள்-வ · நேர் நேர்", "தேமா"], ["தறிவு", "தறி-வு · நிரை நேர்", "பிறப்பு"]], "edhugai": true}</script>
+    <script type="text/plain" data-slot="3">{"ta": ["உடலின்றிப் பேசும் உரைக்கில்லை நோவும்", "கடனும் உணரும் கணம்"], "en": "Speech with no body has no moment that feels pain, or owes a debt.", "why": "Responsibility and hurt stay tied to bodies that can be harmed, whatever speaks.", "scan": [["உடலின்றிப்", "உட-லின்-றிப் · நிரை நேர் நேர்", "புளிமாங்காய்"], ["பேசும்", "பே-சும் · நேர் நேர்", "தேமா"], ["உரைக்கில்லை", "உரைக்-கில்-லை · நிரை நேர் நேர்", "புளிமாங்காய்"], ["நோவும்", "நோ-வும் · நேர் நேர்", "தேமா"], ["கடனும்", "கட-னும் · நிரை நேர்", "புளிமா"], ["உணரும்", "உண-ரும் · நிரை நேர்", "புளிமா"], ["கணம்", "கணம் · நிரை", "மலர்"]], "edhugai": true}</script>
+    <script type="text/plain" data-slot="4">{"ta": ["தனித்துண்ணார் வாழ்வால் உலகுநிற் றல்போல்", "இனியறிவும் யார்க்கும் பொது"], "en": "As the world stands on those who will not eat alone, so from now on knowledge is common to all.", "why": "Purananuru 182's ethic of sharing becomes a design question once intelligence is cheap.", "scan": [["தனித்துண்ணார்", "தனித்-துண்-ணார் · நிரை நேர் நேர்", "புளிமாங்காய்"], ["வாழ்வால்", "வாழ்-வால் · நேர் நேர்", "தேமா"], ["உலகுநிற்", "உல-குநிற் · நிரை நிரை", "கருவிளம்"], ["றல்போல்", "றல்-போல் · நேர் நேர்", "தேமா"], ["இனியறிவும்", "இனி-யறி-வும் · நிரை நிரை நேர்", "கருவிளங்காய்"], ["யார்க்கும்", "யார்க்-கும் · நேர் நேர்", "தேமா"], ["பொது", "பொது · நிரை", "மலர்"]], "edhugai": true}</script>
+    <script type="text/plain" data-slot="5">{"ta": ["கணக்கெல்லாம் கற்ற பொறிக்கு மிலதாம்", "இணக்க முணர்வ தகம்"], "en": "Even the machine that has learned every reckoning lacks it: it is the inner self that feels kinship.", "why": "Calculation scales; the felt sense of kinship has to be lived. A claim to keep testing.", "scan": [["கணக்கெல்லாம்", "கணக்-கெல்-லாம் · நிரை நேர் நேர்", "புளிமாங்காய்"], ["கற்ற", "கற்-ற · நேர் நேர்", "தேமா"], ["பொறிக்கு", "பொறிக்-கு · நிரை நேர்", "புளிமா"], ["மிலதாம்", "மில-தாம் · நிரை நேர்", "புளிமா"], ["இணக்க", "இணக்-க · நிரை நேர்", "புளிமா"], ["முணர்வ", "முணர்-வ · நிரை நேர்", "புளிமா"], ["தகம்", "தகம் · நிரை", "மலர்"]], "edhugai": true}</script>
+    <script type="text/plain" data-slot="6">{"ta": ["அளவையால் ஆயா தறிவென்று கொள்ளும்", "உளமே உலகிற் கிடர்"], "en": "A mind that takes as knowledge what it never tested by the means of knowing is the world's peril.", "why": "Manimekalai's அளவை (means of valid knowledge) is evidence discipline. It matters more as persuasion gets cheaper.", "scan": [["அளவையால்", "அள-வை-யால் · நிரை நேர் நேர்", "புளிமாங்காய்"], ["ஆயா", "ஆ-யா · நேர் நேர்", "தேமா"], ["தறிவென்று", "தறி-வென்-று · நிரை நேர் நேர்", "புளிமாங்காய்"], ["கொள்ளும்", "கொள்-ளும் · நேர் நேர்", "தேமா"], ["உளமே", "உள-மே · நிரை நேர்", "புளிமா"], ["உலகிற்", "உல-கிற் · நிரை நேர்", "புளிமா"], ["கிடர்", "கிடர் · நிரை", "மலர்"]], "edhugai": true}</script>
+    <script type="text/plain" data-slot="7">{"ta": ["அணுவின் அகத்தும் அகிலம் விரியும்", "கணத்தில் அடங்கும் உலகு"], "en": "Inside the atom too a cosmos unfolds; a world is held within an instant.", "why": "From atoms placed one by one to the cosmos measured whole, scale stops being a wall and becomes a window.", "scan": [["அணுவின்", "அணு-வின் · நிரை நேர்", "புளிமா"], ["அகத்தும்", "அகத்-தும் · நிரை நேர்", "புளிமா"], ["அகிலம்", "அகி-லம் · நிரை நேர்", "புளிமா"], ["விரியும்", "விரி-யும் · நிரை நேர்", "புளிமா"], ["கணத்தில்", "கணத்-தில் · நிரை நேர்", "புளிமா"], ["அடங்கும்", "அடங்-கும் · நிரை நேர்", "புளிமா"], ["உலகு", "உல-கு · நிரை நேர்", "பிறப்பு"]], "edhugai": true}</script>
+    <script type="text/plain" data-slot="8">{"ta": ["நானென் றெழுந்த நினைவொழிந்த போதும்", "விசும்பென் றிருக்கும் உணர்வு"], "en": "When the thought that rose as 'I' falls away, awareness remains, like open sky.", "why": "Contemplative reports and self-boundary studies point the same way. Speculation about consciousness, not a finding.", "scan": [["நானென்", "நா-னென் · நேர் நேர்", "தேமா"], ["றெழுந்த", "றெழுந்-த · நிரை நேர்", "புளிமா"], ["நினைவொழிந்த", "நினை-வொழிந்-த · நிரை நிரை நேர்", "கருவிளங்காய்"], ["போதும்", "போ-தும் · நேர் நேர்", "தேமா"], ["விசும்பென்", "விசும்-பென் · நிரை நேர்", "புளிமா"], ["றிருக்கும்", "றிருக்-கும் · நிரை நேர்", "புளிமா"], ["உணர்வு", "உணர்-வு · நிரை நேர்", "பிறப்பு"]], "edhugai": false}</script>
+    <script type="text/plain" data-slot="9">{"ta": ["நிலையாமை கற்ற நெறியே உயிர்க்கு", "மலையாத மாற்றத் துணை"], "en": "A path that has learned impermanence is life's unbewildered companion through change.", "why": "நிலையாமை as a design principle: build for revision, as this file says of itself.", "scan": [["நிலையாமை", "நிலை-யா-மை · நிரை நேர் நேர்", "புளிமாங்காய்"], ["கற்ற", "கற்-ற · நேர் நேர்", "தேமா"], ["நெறியே", "நெறி-யே · நிரை நேர்", "புளிமா"], ["உயிர்க்கு", "உயிர்க்-கு · நிரை நேர்", "புளிமா"], ["மலையாத", "மலை-யா-த · நிரை நேர் நேர்", "புளிமாங்காய்"], ["மாற்றத்", "மாற்-றத் · நேர் நேர்", "தேமா"], ["துணை", "துணை · நிரை", "மலர்"]], "edhugai": true}</script>
+    <script type="text/plain" data-slot="10">{"ta": ["எல்லாம் பொறிசெய்யும் காலத்தும் அன்பெனும்", "செல்வமே மாந்தர் சிறப்பு"], "en": "Even in an age when machines do everything, the wealth called love is what marks us human.", "why": "The closing claim of the whole site. Hold it next to your own stances in your nilai.md below.", "scan": [["எல்லாம்", "எல்-லாம் · நேர் நேர்", "தேமா"], ["பொறிசெய்யும்", "பொறி-செய்-யும் · நிரை நேர் நேர்", "புளிமாங்காய்"], ["காலத்தும்", "கா-லத்-தும் · நேர் நேர் நேர்", "தேமாங்காய்"], ["அன்பெனும்", "அன்-பெனும் · நேர் நிரை", "கூவிளம்"], ["செல்வமே", "செல்-வமே · நேர் நிரை", "கூவிளம்"], ["மாந்தர்", "மாந்-தர் · நேர் நேர்", "தேமா"], ["சிறப்பு", "சிறப்-பு · நிரை நேர்", "பிறப்பு"]], "edhugai": true}</script>
+  </div>
+  <p class="note">Composed with Claude; metre-checked; reviewed blind for grammar and sandhi. Scansion from scripts/venba_check.py on site/nilai/kural_final.txt.</p>
+</section>
+
+<hr class="sec">
+<section id="human">
+  <h2>what still needs to remain human</h2>
+  <p>One line from each scene, and a few from the threads. This is the list I'd defend.</p>
+  <ul class="pulli" id="humanList">
+    <li><b>Knowing what my own stillness is for.</b> A sensor counts breaths. <span class="muted">(Siddhars)</span></li>
+    <li><b>Saying it in my own voice,</b> even when someone else could say it better. <span class="muted">(akam and puram)</span></li>
+    <li><b>Deciding, before I see the answer, what would count as being wrong.</b> <span class="muted">(science)</span></li>
+    <li><b>Choosing to share, and answering for what I chose.</b> <span class="muted">(four aims)</span></li>
+    <li>First-person testimony. Only the one who went through it can say it. <span class="muted">(1.4)</span></li>
+    <li>Judging what's true for this case, whoever said it. <span class="muted">(4.1)</span></li>
+    <li>The act of care, and answering for it to the person in front of me. <span class="muted">(1.3, 4.2)</span></li>
+    <li>Deciding which inherited rules to stop keeping. <span class="muted">(4.3)</span></li>
+    <li>Grieving, and carrying on anyway. <span class="muted">(4.4)</span></li>
+  </ul>
+  <h3>things I'll keep doing</h3>
+  <ul class="pulli">
+    <li>Copy the Tamil exactly, with its id, every time.</li>
+    <li>Write my own readings and say when they're mine.</li>
+    <li>Run controls before I believe a pattern, mine or a model's.</li>
+    <li>Keep the strictest grade when graders disagree.</li>
+    <li>Label speculation as speculation, out loud.</li>
+    <li>Ask a Tamil scholar to tell me where I'm wrong. Soon.</li>
+  </ul>
+</section>
+
+<section id="questions">
+  <h2>questions that carry through</h2>
+  <ul class="pulli">
+    <li>What does meaning need from a body? (<span class="ta">உயிர்மெய்</span>)</li>
+    <li>When intelligence is on tap, what would it mean to refuse to eat it alone? (Purananuru 182)</li>
+    <li>When answers are free, who pays for checking them? (Kural 423)</li>
+    <li>When the voice comes out of an object, where does authority sit? (Sivavakkiyam 494)</li>
+    <li>What is left of a self when the "I" goes, and could anything measure it? (Sivavakkiyam 327)</li>
+    <li>When we train on the past, which of its voices do we repeat? (Sivavakkiyam 39, Acharakkovai 10)</li>
+    <li>What are we mistaking for permanent? (Kural 331)</li>
+  </ul>
+</section>
+
+<section id="yours">
+  <h2>your nilai.md</h2>
+  <p>Your four stances, next to the four lines I'd keep. Nothing here leaves your device, and it's gone when you close the tab.</p>
+  <div class="mdfile">
+    <div class="fh"><span>nilai.md · yours</span><button class="btn" id="copyMd" type="button">copy</button></div>
+    <pre id="mdOut" tabindex="0"></pre>
+  </div>
+</section>
+
+<footer id="colophon">
+  <h2>how this was made</h2>
+  <p>The Tamil is the public-domain original as stored in the project's core files. Every reading, every link and every grade was written by Claude models: Opus marked most books, Sonnet marked and graded the last stretch of the Jain epics, and the graders worked blind with hidden calibration links of known grade. Where graders disagreed, the strictest grade stands. Inter-grader agreement on sound versus not sound was kappa 0.59. No Tamil scholar has reviewed any of it yet, and no grader had a Tamil lexicon. The future scenes are made up. The couplets in section 5 are new.</p>
+  <p>The longer versions: <a href="https://claude.ai/artifact/8ypxS56cp7tjru16nV3d3K" target="_blank" rel="noopener">the atlas</a>, where you can walk the graph, and <a href="https://claude.ai/artifact/CZhnPbPZgZMahGp1VRrwUp" target="_blank" rel="noopener">the methodology report</a>, with every number's source file.</p>
+  <p class="sig">this file will be wrong. that's the deal.</p>
+  <p class="md">nilai.md · 27 Nov 2026</p>
+</footer>
+</div>
+</main>
+
+<script>
+(function(){
+"use strict";
+var RM = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+var root = document.documentElement;
+function css(n){ return getComputedStyle(root).getPropertyValue(n).trim(); }
+function $(id){ return document.getElementById(id); }
+function el(tag, attrs, html){ var e=document.createElement(tag); if(attrs) for(var k in attrs) e.setAttribute(k, attrs[k]); if(html!=null) e.innerHTML=html; return e; }
+function svgEl(tag, attrs){ var e=document.createElementNS('http://www.w3.org/2000/svg',tag); for(var k in attrs) e.setAttribute(k, attrs[k]); return e; }
+var themeListeners=[];
+
+/* theme */
+(function(){
+  var saved=null; try{ saved=localStorage.getItem('nilai-theme'); }catch(e){}
+  if(saved==='light'||saved==='dark') root.setAttribute('data-theme', saved);
+  $('themeBtn').addEventListener('click', function(){
+    var cur=root.getAttribute('data-theme');
+    if(!cur){ cur = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light':'dark'; }
+    var next = cur==='light' ? 'dark':'light';
+    root.setAttribute('data-theme', next);
+    try{ localStorage.setItem('nilai-theme', next); }catch(e){}
+    themeListeners.forEach(function(f){ f(); });
+  });
+  if(window.matchMedia){ var mq=window.matchMedia('(prefers-color-scheme: light)'); var h=function(){ themeListeners.forEach(function(f){f();}); }; if(mq.addEventListener) mq.addEventListener('change',h); }
+})();
+
+/* index pill */
+(function(){
+  var b=$('idxBtn'), n=$('idx');
+  function set(o){ n.hidden=!o; b.setAttribute('aria-expanded', o?'true':'false'); }
+  b.addEventListener('click', function(e){ e.stopPropagation(); set(n.hidden); if(!n.hidden){ var a=n.querySelector('a'); a&&a.focus(); } });
+  n.addEventListener('click', function(e){ if(e.target.closest('a')) set(false); });
+  document.addEventListener('click', function(e){ if(!n.hidden && !n.contains(e.target) && e.target!==b) set(false); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && !n.hidden){ set(false); b.focus(); } });
+})();
+
+/* uyir + mey combiner */
+(function(){
+  var V=[['அ','','a'],['ஆ','ா','ā'],['இ','ி','i'],['ஈ','ீ','ī'],['உ','ு','u'],['ஊ','ூ','ū'],['எ','ெ','e'],['ஏ','ே','ē'],['ஐ','ை','ai'],['ஒ','ொ','o'],['ஓ','ோ','ō'],['ஔ','ௌ','au']];
+  var C=[['க','k'],['ங','ṅ'],['ச','c'],['ஞ','ñ'],['ட','ṭ'],['ண','ṇ'],['த','t'],['ந','n'],['ப','p'],['ம','m'],['ய','y'],['ர','r'],['ல','l'],['வ','v'],['ழ','ḻ'],['ள','ḷ'],['ற','ṟ'],['ன','ṉ']];
+  var vi=2, ci=7;
+  var vk=$('vkeys'), ck=$('ckeys');
+  V.forEach(function(v,i){ var b=el('button',{type:'button','class':'k v','aria-pressed':i===vi?'true':'false','aria-label':'vowel '+v[2]},v[0]); b.addEventListener('click',function(){ vi=i; upd(true); }); vk.appendChild(b); });
+  C.forEach(function(c,i){ var b=el('button',{type:'button','class':'k','aria-pressed':i===ci?'true':'false','aria-label':'consonant '+c[1]},c[0]+'்'); b.addEventListener('click',function(){ ci=i; upd(true); }); ck.appendChild(b); });
+  function upd(grow){
+    [].forEach.call(vk.children,function(b,i){ b.setAttribute('aria-pressed', i===vi?'true':'false'); });
+    [].forEach.call(ck.children,function(b,i){ b.setAttribute('aria-pressed', i===ci?'true':'false'); });
+    $('eqMey').textContent=C[ci][0]+'்';
+    $('eqUyir').textContent=V[vi][0];
+    $('eqOut').textContent=C[ci][0]+V[vi][1];
+    $('eqRom').textContent=C[ci][1]+' + '+V[vi][2]+' = '+C[ci][1]+V[vi][2];
+    if(grow) mesh.grow();
+  }
+  // mesh
+  var cv=$('mesh'), ctx=cv.getContext('2d'), box=$('combiner');
+  var W=0,H=0,dpr=1,nodes=[],paths=[],raf=0;
+  var mesh={grow:function(){ seed(); start(); }};
+  function size(){ var r=box.getBoundingClientRect(); dpr=Math.min(window.devicePixelRatio||1,2); W=r.width; H=r.height; cv.width=W*dpr; cv.height=H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0); makeNodes(); seed(); start(); }
+  function makeNodes(){ nodes=[]; var step=34; for(var y=step/2;y<H;y+=step){ for(var x=step/2;x<W;x+=step){ nodes.push({x:x+(Math.random()-.5)*10,y:y+(Math.random()-.5)*10,g:0}); } } }
+  function origin(){ var o=$('eqOut').getBoundingClientRect(), b=box.getBoundingClientRect(); return {x:o.left-b.left+o.width/2, y:o.top-b.top+o.height/2}; }
+  function nearest(p,exclude){ var best=null,bd=1e9; for(var i=0;i<nodes.length;i++){ var n=nodes[i]; if(exclude.indexOf(n)>=0) continue; var d=Math.hypot(n.x-p.x,n.y-p.y); if(d<bd&&d>12){bd=d;best=n;} } return best; }
+  function seed(){
+    if(!nodes.length) return;
+    var o=origin(); paths.forEach(function(p){ p.fade=true; });
+    for(var k=0;k<12;k++){
+      var ang=(k/12)*Math.PI*2+Math.random()*.4, pts=[{x:o.x,y:o.y}], used=[], cur={x:o.x+Math.cos(ang)*40,y:o.y+Math.sin(ang)*28};
+      for(var s=0;s<7;s++){
+        var n=nearest(cur,used); if(!n) break; used.push(n);
+        var last=pts[pts.length-1];
+        if(k%2) pts.push({x:n.x,y:last.y}); // circuit elbow
+        pts.push({x:n.x,y:n.y}); n.g=1;
+        cur={x:n.x+Math.cos(ang+(Math.random()-.5)*1.2)*40,y:n.y+Math.sin(ang+(Math.random()-.5)*1.2)*40};
+      }
+      var len=0; for(var i=1;i<pts.length;i++) len+=Math.hypot(pts[i].x-pts[i-1].x,pts[i].y-pts[i-1].y);
+      paths.push({pts:pts,len:len,t:RM?1:0,a:1,fade:false,curve:!(k%2)});
+    }
+    paths=paths.filter(function(p){ return !p.fade || p.a>0.05; }).slice(-36);
+  }
+  function draw(){
+    ctx.clearRect(0,0,W,H);
+    var pink=css('--pink'), leaf=css('--leaf'), rule=css('--rule');
+    ctx.fillStyle=rule; nodes.forEach(function(n){ ctx.globalAlpha=.55; ctx.fillRect(n.x-1,n.y-1,2,2); });
+    var live=false;
+    paths.forEach(function(p,idx){
+      if(p.t<1){ p.t=Math.min(1,p.t+0.018); live=true; }
+      if(p.fade){ p.a=Math.max(0,p.a-0.02); if(p.a>0) live=true; }
+      var want=p.len*p.t, acc=0; ctx.beginPath(); ctx.moveTo(p.pts[0].x,p.pts[0].y);
+      for(var i=1;i<p.pts.length;i++){ var a=p.pts[i-1], b=p.pts[i], d=Math.hypot(b.x-a.x,b.y-a.y); if(acc+d>want){ var f=(want-acc)/d; ctx.lineTo(a.x+(b.x-a.x)*f,a.y+(b.y-a.y)*f); break; } ctx.lineTo(b.x,b.y); acc+=d; }
+      ctx.strokeStyle= idx%3===0 ? pink : leaf; ctx.globalAlpha=0.2*p.a; ctx.lineWidth=1; ctx.stroke();
+      if(p.t>=1){ var e=p.pts[p.pts.length-1]; ctx.globalAlpha=0.45*p.a; ctx.fillStyle=idx%3===0?pink:leaf; ctx.beginPath(); ctx.arc(e.x,e.y,2.2,0,Math.PI*2); ctx.fill(); }
+    });
+    ctx.globalAlpha=1;
+    if(live && !RM) raf=requestAnimationFrame(draw); else raf=0;
+  }
+  function start(){ if(RM){ paths.forEach(function(p){ p.t=1; if(p.fade) p.a=0; }); draw(); return; } if(!raf) raf=requestAnimationFrame(draw); }
+  themeListeners.push(function(){ if(!raf) draw(); });
+  if(window.ResizeObserver) new ResizeObserver(function(){ size(); }).observe(box); else window.addEventListener('resize',size);
+  size(); upd(false);
+})();
+
+/* breath pacer: 5s in, 5s out */
+(function(){
+  var btn=$('pBtn'), ball=$('pBall'), ring=$('pRing'), ph=$('pPhase'), ct=$('pCount');
+  var on=false, t0=0, elapsed=0, raf=0, C=578, lastPhase='';
+  function frame(now){
+    var t=elapsed+(now-t0)/1000, cyc=t%10, inhale=cyc<5, f=inhale?cyc/5:1-(cyc-5)/5;
+    var e=0.5-0.5*Math.cos(Math.PI*f);
+    if(!RM) ball.setAttribute('r', (44+44*e).toFixed(1));
+    ring.setAttribute('stroke-dashoffset', (C-C*((cyc%5)/5)).toFixed(1));
+    var p=inhale?'breathe in':'breathe out'; if(p!==lastPhase){ ph.textContent=p+(RM?' · '+(inhale?'5':'5')+' s':''); lastPhase=p; }
+    var n=Math.floor(t/10), m=Math.floor(t/60), s=Math.floor(t%60);
+    ct.textContent=n+' breath'+(n===1?'':'s')+' · '+m+':'+(s<10?'0':'')+s;
+    raf=requestAnimationFrame(frame);
+  }
+  btn.addEventListener('click',function(){
+    if(on){ on=false; elapsed+=(performance.now()-t0)/1000; cancelAnimationFrame(raf); btn.textContent='resume'; ph.textContent='paused'; lastPhase=''; }
+    else { on=true; t0=performance.now(); btn.textContent='pause'; raf=requestAnimationFrame(frame); }
+  });
+})();
+
+/* five landscapes ring */
+(function(){
+  var L=[
+    {id:'kurinji',ta:'குறிஞ்சி',hill:'mountains',uri:['புணர்தல்','union'],time:'the cold season, midnight',src:'kuruntokai:3',lines:['நிலத்தினும் பெரிதே வானினும் உயர்ந்தன்று','நீரினும் ஆரள வின்றே சாரல்','கருங்கோற் குறிஞ்சிப் பூக்கொண்டு','பெருந்தேன் இழைக்கும் நாடனொடு நட்பே.'],karu:['குறிஞ்சி','தேன்'],read:'Her love for the man of the hills, where bees gather black-stemmed kurinji flowers into great honeycombs, is larger than the earth, higher than the sky, past measuring like the sea.'},
+    {id:'mullai',ta:'முல்லை',hill:'forest and pasture',uri:['இருத்தல்','waiting'],time:'the rains, evening',src:'kuruntokai:65 · lines 3–5',lines:['தான்வந் தன்றே தளிதரு தண்கார்','வாரா துறையுநர் வரனசைஇ','வருந்திநொந் துறைய இருந்திரோ எனவே.'],karu:['இரலை','அறல்'],read:'The cool rain has come, and the stag that drank from the clear stream frisks with its mate, as if asking those who wait for men who don’t return: are you still sitting here, aching?'},
+    {id:'marutham',ta:'மருதம்',hill:'farmland and river',uri:['ஊடல்','sulking'],time:'dawn',src:'kuruntokai:202 · lines 2–5',lines:['புன்புலத் தமன்ற சிறியிலை நெருஞ்சிக்','கட்கின் புதுமலர் முட்பயந் தாஅங்','கினிய செய்தநங் காதலர்','இன்னா செய்தல் நோமென் னெஞ்சே.'],karu:['நெருஞ்சி','மலர்'],read:'Like the small-leaved nerunji on poor ground that first gives a flower sweet to the eye and then bears thorns, the lover who once did sweet things now does cruel ones. My heart aches.'},
+    {id:'neythal',ta:'நெய்தல்',hill:'the seashore',uri:['இரங்கல்','lament'],time:'sunset',src:'kuruntokai:5 · lines 1–3',lines:['அதுகொல் தோழி காம நோயே','வதிகுரு குறங்கும் இன்னிழற் புன்னை','உடைதிரைத் திவலை அரும்புந் தீநீர்'],karu:['குருகு','புன்னை','திவலை'],read:'Is this what love-sickness is, friend? Since the gentle lord of the shore left, where herons sleep under the punnai and the spray of breaking waves buds on it, my eyes can’t sleep.'},
+    {id:'paalai',ta:'பாலை',hill:'the parched waste',uri:['பிரிதல்','parting'],time:'summer, midday',src:'kuruntokai:37',lines:['நசைபெரி துடையர் நல்கலு நல்குவர்','பிடிபசி களைஇய பெருங்கை வேழம்','மென்சினை யாஅம் பொளிக்கும்','அன்பின தோழியவர் சென்ற வாறே.'],karu:['பிடி','வேழம்','யா'],read:'He wants you badly and will be kind. Even the road he took is a loving one, friend: there the big-trunked tusker strips soft yaa branches to ease his mate’s hunger.'}
+  ];
+  var svg=$('ringSvg'), panel=$('ringPanel'), sel=0, cx=120, cy=120, R=104, r=52, segs=[];
+  function arc(a0,a1,ro,ri){ function P(a,rr){ return [cx+rr*Math.cos(a), cy+rr*Math.sin(a)]; } var p0=P(a0,ro),p1=P(a1,ro),p2=P(a1,ri),p3=P(a0,ri); var big=(a1-a0)>Math.PI?1:0; return 'M'+p0+' A'+ro+' '+ro+' 0 '+big+' 1 '+p1+' L'+p2+' A'+ri+' '+ri+' 0 '+big+' 0 '+p3+'Z'; }
+  L.forEach(function(l,i){
+    var a0=-Math.PI/2+i*2*Math.PI/5+0.025, a1=a0+2*Math.PI/5-0.05, am=(a0+a1)/2;
+    var g=svgEl('g',{'class':'seg',tabindex:'0',role:'button','aria-label':l.id+', '+l.uri[1]});
+    var path=svgEl('path',{d:arc(a0,a1,R,r)});
+    var t=svgEl('text',{x:cx+((R+r)/2)*Math.cos(am),y:cy+((R+r)/2)*Math.sin(am)+5,'text-anchor':'middle','font-size':'13','font-family':'Noto Serif Tamil, serif'}); t.textContent=l.ta;
+    g.appendChild(path); g.appendChild(t); svg.appendChild(g); segs.push({g:g,p:path,t:t});
+    g.addEventListener('click',function(){ sel=i; render(); });
+    g.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); sel=i; render(); } });
+  });
+  var center=svgEl('text',{x:cx,y:cy-2,'text-anchor':'middle','font-size':'13','font-family':'IBM Plex Mono, monospace'}); svg.appendChild(center);
+  var center2=svgEl('text',{x:cx,y:cy+16,'text-anchor':'middle','font-size':'10','font-family':'IBM Plex Mono, monospace'}); svg.appendChild(center2);
+  function render(){
+    var pink=css('--pink'), bg=css('--bg'), fg=css('--fg'), b3=css('--bg-3'), mute=css('--mute');
+    segs.forEach(function(s,i){ s.p.setAttribute('fill', i===sel?pink:b3); s.t.setAttribute('fill', i===sel?css('--pink-ink'):fg); s.g.setAttribute('aria-pressed', i===sel?'true':'false'); });
+    var l=L[sel]; center.textContent='uri'; center.setAttribute('fill',mute); center2.textContent=l.uri[1]; center2.setAttribute('fill',fg);
+    panel.innerHTML='<p class="md">'+l.id+' · '+l.hill+' · '+l.time+'</p>'+
+      '<p><span class="ta" style="font-size:1.25rem;color:var(--pink)">'+l.uri[0]+'</span> <span class="muted">'+l.uri[1]+'</span></p>'+
+      '<div class="verse" style="margin:.5rem 0">'+l.lines.map(function(x){return '<span class="tl">'+x+'</span>';}).join('')+'<span class="src">'+l.src+'</span></div>'+
+      '<p style="font-size:1rem">'+l.read+'</p><p class="md">karu, the native things</p><div class="chips">'+l.karu.map(function(k){return '<span class="chip">'+k+'</span>';}).join('')+'</div>';
+  }
+  themeListeners.push(render); render();
+})();
+
+/* water clock */
+(function(){
+  var cv=$('clockC'), ctx=cv.getContext('2d'), slider=$('hole'), btn=$('clockBtn');
+  var D0=1.40, T0=24, d=D0, T=T0, simMin=0, fill=0, sunk=0, sinkAnim=0, running=!RM, last=0, raf=0;
+  var SPEED=2; // sim minutes per real second
+  var dpr=Math.min(window.devicePixelRatio||1,2); cv.width=560*dpr; cv.height=250*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+  function period(dd){ return T0*Math.pow(D0/dd,2); }
+  function fmtS(x){ var s=Math.round(x); return (s>=0?'+':'')+s+' s'; }
+  function fmtM(x){ var m=Math.round(x); return (m>=0?'+':'')+m+' min'; }
+  function stats(){
+    T=period(d); $('holeV').textContent=d.toFixed(2)+' mm';
+    $('sPer').textContent=T.toFixed(1)+' min'; $('sErr').textContent=fmtS((T0-T)*60*-1*-1===0?0:(T-T0)*60*-1);
+    // error per nazhigai: clock credits 24 min per bowl; true time is T. clock runs fast if T<24.
+    $('sErr').textContent=fmtS((T0-T)*60);
+    $('sDay').textContent=fmtM(1440*(T0/T)-1440);
+    $('sNaz').textContent=sunk;
+    drift();
+  }
+  function drift(){
+    var s=$('driftSvg'); s.innerHTML='';
+    var x0=56,x1=540,y0=14,y1=118, dmin=1.2,dmax=1.6, vmin=-400, vmax=450;
+    function X(v){ return x0+(v-dmin)/(dmax-dmin)*(x1-x0); } function Y(v){ return y1-(v-vmin)/(vmax-vmin)*(y1-y0); }
+    var mute=css('--mute'), rule=css('--rule'), pink=css('--pink'), fg=css('--fg-2'), leaf=css('--leaf');
+    [-400,-200,0,200,400].forEach(function(v){ s.appendChild(svgEl('line',{x1:x0,x2:x1,y1:Y(v),y2:Y(v),stroke:rule,'stroke-width':v===0?1.2:.6})); var t=svgEl('text',{x:x0-6,y:Y(v)+4,'text-anchor':'end','font-size':'10',fill:mute,'font-family':'IBM Plex Mono, monospace'}); t.textContent=(v>0?'+':'')+v; s.appendChild(t); });
+    [1.2,1.3,1.4,1.5,1.6].forEach(function(v){ var t=svgEl('text',{x:X(v),y:136,'text-anchor':'middle','font-size':'10',fill:mute,'font-family':'IBM Plex Mono, monospace'}); t.textContent=v.toFixed(1)+' mm'; s.appendChild(t); });
+    var lab=svgEl('text',{x:x0,y:10,'font-size':'10',fill:fg,'font-family':'IBM Plex Mono, monospace'}); lab.textContent='drift per day, minutes'; s.appendChild(lab);
+    var pts=[]; for(var v=dmin; v<=dmax+1e-9; v+=0.01){ pts.push(X(v).toFixed(1)+','+Y(1440*(T0/period(v))-1440).toFixed(1)); }
+    s.appendChild(svgEl('polyline',{points:pts.join(' '),fill:'none',stroke:leaf,'stroke-width':1.8}));
+    var cyv=1440*(T0/period(d))-1440; s.appendChild(svgEl('circle',{cx:X(d),cy:Y(cyv),r:5,fill:pink}));
+  }
+  function draw(){
+    var bg=css('--bg'), water=css('--sci'), rule=css('--rule'), leaf=css('--leaf'), fg=css('--fg'), mute=css('--mute'), pink=css('--pink');
+    ctx.clearRect(0,0,560,250);
+    // basin
+    var bx=120,bw=320,by=60,bh=160, wl=96;
+    ctx.strokeStyle=leaf; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(bx,by); ctx.lineTo(bx+8,by+bh); ctx.lineTo(bx+bw-8,by+bh); ctx.lineTo(bx+bw,by); ctx.stroke();
+    ctx.globalAlpha=.22; ctx.fillStyle=water; ctx.beginPath(); ctx.moveTo(bx+2,wl); ctx.lineTo(bx+bw-2,wl); ctx.lineTo(bx+bw-8,by+bh-1); ctx.lineTo(bx+8,by+bh-1); ctx.closePath(); ctx.fill(); ctx.globalAlpha=1;
+    ctx.strokeStyle=water; ctx.lineWidth=1; ctx.beginPath(); ctx.moveTo(bx+2,wl); ctx.lineTo(bx+bw-2,wl); ctx.stroke();
+    // bowl
+    var f=Math.min(fill,1), cxb=280, rw=70, rd=44;
+    var draft=10+f*30, top;
+    if(sinkAnim>0){ top=wl-rd+draft+(1-sinkAnim)*(by+bh-(wl-rd+draft)-rd-4); } else top=wl-rd+draft;
+    ctx.save();
+    ctx.beginPath(); ctx.moveTo(cxb-rw,top); ctx.bezierCurveTo(cxb-rw,top+rd*1.35,cxb+rw,top+rd*1.35,cxb+rw,top); ctx.closePath();
+    ctx.fillStyle=bg; ctx.fill(); ctx.clip();
+    var inner = top + rd*(1-f)*1.0 + 2;
+    if(sinkAnim>0) inner=top;
+    ctx.globalAlpha=.5; ctx.fillStyle=water; ctx.fillRect(cxb-rw,inner,rw*2,rd*2); ctx.globalAlpha=1;
+    ctx.restore();
+    ctx.strokeStyle=fg; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(cxb-rw,top); ctx.bezierCurveTo(cxb-rw,top+rd*1.35,cxb+rw,top+rd*1.35,cxb+rw,top); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(cxb-rw-4,top); ctx.lineTo(cxb+rw+4,top); ctx.stroke();
+    // hole + jet
+    var hy=top+rd*1.0; ctx.fillStyle=pink; ctx.beginPath(); ctx.arc(cxb,hy,2.4,0,Math.PI*2); ctx.fill();
+    if(running && sinkAnim===0 && fill<1){ ctx.strokeStyle=water; ctx.lineWidth=Math.max(1,d*1.2); ctx.globalAlpha=.8; ctx.beginPath(); ctx.moveTo(cxb,hy-2); ctx.lineTo(cxb,hy-8-(d-1.2)*20); ctx.stroke(); ctx.globalAlpha=1; }
+    // labels
+    ctx.fillStyle=mute; ctx.font='11px "IBM Plex Mono", monospace';
+    ctx.fillText('true time '+fmtClock(simMin), 14, 22);
+    ctx.fillText('the clock says '+fmtClock(sunk*T0+Math.min(fill,1)*T0), 14, 40);
+    ctx.fillStyle=pink; ctx.font='600 13px "IBM Plex Mono", monospace'; ctx.textAlign='right';
+    ctx.fillText('நாழிகை '+sunk, 546, 22); ctx.textAlign='left';
+    ctx.fillStyle=mute; ctx.font='11px "IBM Plex Mono", monospace'; ctx.fillText('fill '+Math.round(f*100)+'%', 460, 210);
+  }
+  function fmtClock(m){ var h=Math.floor(m/60), mm=Math.floor(m%60); return h+'h '+(mm<10?'0':'')+mm+'m'; }
+  function step(now){
+    var dt=last?(now-last)/1000:0; last=now; dt=Math.min(dt,0.1);
+    if(sinkAnim>0){ sinkAnim+=dt*1.6; if(sinkAnim>=1){ sinkAnim=0; fill=0; sunk++; $('sNaz').textContent=sunk; } simMin+=dt*SPEED; }
+    else { simMin+=dt*SPEED; fill+=dt*SPEED/T; if(fill>=1){ fill=1; sinkAnim=0.0001; } }
+    draw(); if(running) raf=requestAnimationFrame(step); else { raf=0; last=0; }
+  }
+  btn.textContent=running?'pause':'play';
+  btn.addEventListener('click',function(){ running=!running; btn.textContent=running?'pause':'play'; if(running&&!raf){ last=0; raf=requestAnimationFrame(step); } });
+  $('clockReset').addEventListener('click',function(){ simMin=0; fill=0; sunk=0; sinkAnim=0; stats(); draw(); });
+  slider.addEventListener('input',function(){ d=parseFloat(slider.value); stats(); if(!raf) draw(); });
+  themeListeners.push(function(){ drift(); if(!raf) draw(); });
+  stats(); if(!running){ fill=0.45; simMin=fill*T; } draw(); if(running) raf=requestAnimationFrame(step);
+})();
+
+/* bridge graph */
+(function(){
+  var G=[['Ett. akam','Ettuthogai, akam'],['Kil. akam','Kilkanakku, akam'],['Ett. puram','Ettuthogai, puram'],['Pattupattu','Pattupattu, the ten idylls'],['Paripadal','Paripadal'],['Ethics','Ethics works incl. Kural, Naladiyar'],['Devotional','Tirumanthiram, Thiruppugazh, Siddhars'],['Great epics','Great epics'],['Minor epics','Minor epics']];
+  var E=[[6,7,22,149],[6,8,11,166],[6,5,927,1568],[6,0,2,5],[6,4,5,15],[6,2,0,2],[6,3,1,1],[7,8,53,164],[7,5,156,699],[7,0,8,34],[7,4,0,6],[7,2,44,100],[7,1,0,5],[7,3,2,23],[8,5,47,565],[8,0,0,10],[8,2,0,13],[8,3,0,3],[5,0,229,503],[5,4,10,45],[5,2,109,238],[5,1,24,84],[5,3,21,38],[0,4,8,29],[0,2,69,180],[0,1,63,194],[0,3,12,24],[4,2,4,11],[4,1,1,1],[4,3,4,15],[2,1,2,10],[2,3,17,35],[1,3,5,5]];
+  var WI=[[232,571],[20,56],[80,175],[6,14],[14,24],[2981,4112],[2033,3581],[310,871],[127,583]];
+  var svg=$('bridgeSvg'), out=$('bridgeOut'), cx=260, cy=215, R=165, P=[], sel={t:'e',i:18};
+  G.forEach(function(g,i){ var a=-Math.PI/2+i*2*Math.PI/9; P.push([cx+R*Math.cos(a), cy+R*Math.sin(a), a]); });
+  var eg=svgEl('g',{}), ng=svgEl('g',{}); svg.appendChild(eg); svg.appendChild(ng);
+  var lines=[], nodesEl=[];
+  function pct(s,g){ return g? (100*s/g):0; }
+  E.forEach(function(e,i){
+    var a=P[e[0]], b=P[e[1]], p=pct(e[2],e[3]);
+    var vis=svgEl('line',{x1:a[0],y1:a[1],x2:b[0],y2:b[1],'stroke-linecap':'round'});
+    var hit=svgEl('line',{x1:a[0],y1:a[1],x2:b[0],y2:b[1],stroke:'transparent','stroke-width':14,'class':'edge'});
+    hit.addEventListener('mouseenter',function(){ sel={t:'e',i:i}; paint(); });
+    hit.addEventListener('click',function(){ sel={t:'e',i:i}; paint(); });
+    eg.appendChild(vis); eg.appendChild(hit); lines.push(vis);
+  });
+  G.forEach(function(g,i){
+    var p=P[i], grp=svgEl('g',{'class':'nd',tabindex:'0',role:'button','aria-label':g[1]});
+    var c=svgEl('circle',{cx:p[0],cy:p[1],r:9});
+    var lx=p[0]+Math.cos(p[2])*18, ly=p[1]+Math.sin(p[2])*18+4;
+    var anchor=Math.abs(Math.cos(p[2]))<0.3?'middle':(Math.cos(p[2])>0?'start':'end');
+    if(Math.sin(p[2])<-0.9) ly-=4; if(Math.sin(p[2])>0.9) ly+=6;
+    var t=svgEl('text',{x:lx,y:ly,'text-anchor':anchor,'font-size':'12','font-family':'IBM Plex Mono, monospace'}); t.textContent=g[0];
+    grp.appendChild(c); grp.appendChild(t); ng.appendChild(grp); nodesEl.push({c:c,t:t});
+    function pick(){ sel={t:'n',i:i}; paint(); }
+    grp.addEventListener('mouseenter',pick); grp.addEventListener('click',pick);
+    grp.addEventListener('keydown',function(ev){ if(ev.key==='Enter'||ev.key===' '){ ev.preventDefault(); pick(); } });
+  });
+  function paint(){
+    var pink=css('--pink'), leaf=css('--leaf'), rule=css('--rule'), fg=css('--fg'), bg=css('--bg-2'), mute=css('--mute');
+    E.forEach(function(e,i){
+      var p=pct(e[2],e[3]), on = (sel.t==='e'&&sel.i===i) || (sel.t==='n'&&(e[0]===sel.i||e[1]===sel.i));
+      var l=lines[i]; l.setAttribute('stroke', on?pink:leaf); l.setAttribute('stroke-width', e[3]<20?'1':(0.8+p/9).toFixed(2));
+      l.setAttribute('stroke-opacity', on?0.95:(e[3]<20?0.25:0.5)); l.setAttribute('stroke-dasharray', e[3]<20?'3 4':'');
+    });
+    nodesEl.forEach(function(n,i){ var on=(sel.t==='n'&&sel.i===i)||(sel.t==='e'&&(E[sel.i][0]===i||E[sel.i][1]===i)); n.c.setAttribute('fill', on?pink:bg); n.c.setAttribute('stroke', on?pink:fg); n.c.setAttribute('stroke-width',1.4); n.t.setAttribute('fill', on?fg:mute); });
+    if(sel.t==='e'){ var e=E[sel.i], p=pct(e[2],e[3]), wa=WI[e[0]], wb=WI[e[1]];
+      out.innerHTML='<b>'+G[e[0]][0]+' ↔ '+G[e[1]][0]+'</b><br>'+e[2]+' sound of '+e[3]+' graded · '+p.toFixed(1)+'%'+(e[3]<20?' · too few to judge':'')+'<br><span style="color:var(--mute)">baselines within: '+pct(wa[0],wa[1]).toFixed(1)+'% and '+pct(wb[0],wb[1]).toFixed(1)+'%</span>';
+    } else { var i=sel.i, w=WI[i], best=E.map(function(e,k){return [k,e];}).filter(function(x){return (x[1][0]===i||x[1][1]===i)&&x[1][3]>=20;}).sort(function(a,b){return pct(b[1][2],b[1][3])-pct(a[1][2],a[1][3]);})[0];
+      out.innerHTML='<b>'+G[i][1]+'</b><br>within the group: '+w[0]+' of '+w[1]+' sound · '+pct(w[0],w[1]).toFixed(1)+'%'+(best?'<br><span style="color:var(--mute)">strongest bridge with 20+ links: '+G[best[1][0]===i?best[1][1]:best[1][0]][0]+', '+pct(best[1][2],best[1][3]).toFixed(1)+'%</span>':'');
+    }
+  }
+  themeListeners.push(paint); paint();
+})();
+
+/* grade chart */
+(function(){
+  var s=$('gradeSvg'), B=['0','0.5','1','1.5','2','3'], cand=[54,24,194,11,15,2], ctrl=[93,2,5,0,0,0];
+  function paint(){
+    s.innerHTML=''; var x0=50,x1=548,y0=18,y1=180, mute=css('--mute'), rule=css('--rule'), pink=css('--pink'), sci=css('--sci'), fg=css('--fg-2');
+    function Y(v){ return y1-(v/100)*(y1-y0); }
+    [0,25,50,75,100].forEach(function(v){ s.appendChild(svgEl('line',{x1:x0,x2:x1,y1:Y(v),y2:Y(v),stroke:rule,'stroke-width':v===0?1.2:.6})); var t=svgEl('text',{x:x0-6,y:Y(v)+4,'text-anchor':'end','font-size':'10',fill:mute,'font-family':'IBM Plex Mono, monospace'}); t.textContent=v+'%'; s.appendChild(t); });
+    var gw=(x1-x0)/B.length, bw=gw*0.32;
+    B.forEach(function(b,i){
+      var gx=x0+i*gw+gw/2;
+      [[cand[i],300,sci,-1],[ctrl[i],100,pink,1]].forEach(function(r){ var pc=100*r[0]/r[1], x=gx+(r[3]<0?-bw-2:2);
+        s.appendChild(svgEl('rect',{x:x,y:Y(pc),width:bw,height:Math.max(0,y1-Y(pc)),fill:r[2],'fill-opacity':.85,rx:2}));
+        var t=svgEl('text',{x:x+bw/2,y:Y(pc)-4,'text-anchor':'middle','font-size':'10',fill:fg,'font-family':'IBM Plex Mono, monospace'}); t.textContent=r[0]; s.appendChild(t); });
+      var t=svgEl('text',{x:gx,y:y1+16,'text-anchor':'middle','font-size':'11',fill:mute,'font-family':'IBM Plex Mono, monospace'}); t.textContent=b; s.appendChild(t);
+    });
+    var l1=svgEl('rect',{x:x0+4,y:200,width:10,height:10,fill:sci}); var l2=svgEl('rect',{x:x0+170,y:200,width:10,height:10,fill:pink});
+    var t1=svgEl('text',{x:x0+20,y:209,'font-size':'11',fill:fg,'font-family':'IBM Plex Mono, monospace'}); t1.textContent='candidates (300)';
+    var t2=svgEl('text',{x:x0+186,y:209,'font-size':'11',fill:fg,'font-family':'IBM Plex Mono, monospace'}); t2.textContent='random controls (100)';
+    var t3=svgEl('text',{x:x1,y:209,'text-anchor':'end','font-size':'10',fill:mute,'font-family':'IBM Plex Mono, monospace'}); t3.textContent='mean grade →';
+    [l1,l2,t1,t2,t3].forEach(function(n){ s.appendChild(n); });
+  }
+  themeListeners.push(paint); paint();
+})();
+
+/* four aims */
+(function(){
+  var AIMS=[
+    {id:'aram',ta:'அறம்',en:'virtue',ess:'Across the ethics books and beyond, virtue is judged by whether the mind matches the act: giving goes with a glad face, truth is measured by its harmlessness, restraint guards the senses, and harm done is said to return to the doer.',ex:[
+      {src:'kural:996',lines:['பண்புடையார்ப் பட்டுண்டு உலகம் அதுஇன்றேல்','மண்புக்கு மாய்வது மன்'],read:'The world exists by resting on people of courtesy; without them it would sink into the earth and perish.',link:'sound with Purananuru 182 · 4 graders'},
+      {src:'kural:972',lines:['பிறப்பொக்கும் எல்லா உயிர்க்கும் சிறப்பொவ்வா','செய்தொழில் வேற்றுமை யான்'],read:'Birth is alike for all living beings; distinction differs by the work they do. The social force hangs on that last word: occupation, or conduct.',link:'sound with Sivavakkiyam 39'}]},
+    {id:'porul',ta:'பொருள்',en:'wealth and the world',ess:'Wealth is praised for what it lets one give and blamed when hoarded; the ethics books tie the king to the just sceptre as the world is tied to rain, and the puram poems measure a king by his gifts to bards and his valour in the field.',ex:[
+      {src:'purananuru:189 · lines 5, 7–8',lines:['உண்பது நாழி ; உடுப்பவை இரண்டே;','அதனால், செல்வத்துப் பயனே ஈதல்;','துய்ப்பேம் எனினே, தப்புந பலவே.'],read:'King of the whole earth or a hunter awake all night, each eats one measure and wears two cloths. So the use of wealth is giving; whoever means to enjoy it all alone loses much.',link:'sound with Kuruntokai 63 · 2 graders'},
+      {src:'purananuru:206 · line 13',lines:['எத்திசைச் செலினும், அத்திசைச் சோறே.'],read:'Wherever we go, there is rice. The bard as a craftsman who can earn anywhere, kept waiting at a gate she doesn’t need.',link:'see section 2'}]},
+    {id:'inbam',ta:'இன்பம்',en:'love',ess:'Love is read through the body and the land: the friend speaks for the lovers, gossip and the mother’s watch press toward marriage, slipping bangles and pallor testify in separation before the woman speaks, and the sulk is prized only in measure.',ex:[
+      {src:'kuruntokai:40 · lines 4–5',lines:['செம்புலப் பெயனீர் போல','அன்புடை நெஞ்சம் தாங்கலந் தனவே.'],read:'Our mothers and fathers were strangers, and so were we; like rain falling on red earth, our loving hearts have mingled.',link:'sound with Kural 1122 · body and life'},
+      {src:'kuruntokai:21 · lines 4–5',lines:['கானங் காரெனக் கூறினும்','யானோ தேறேன் அவர் பொய்வழங் கலரே.'],read:'Even if the forest says the rains have come, I won’t believe it: he doesn’t lie. She refuses the season’s signal because she trusts the person.',link:'sound tension with Kar Narpathu 4'}]},
+    {id:'veedu',ta:'வீடு',en:'release',ess:'Birth is the evil and craving its seed: the Naladiyar, Tirumanthiram and Siddhars counsel giving up and knowing, the Saiva texts grade release up to union with Siva, and the Jain and Buddhist epics give it to the three jewels or the perfections.',ex:[
+      {src:'kural:350',lines:['பற்றுக பற்றற்றான் பற்றினை அப்பற்றைப்','பற்றுக பற்று விடற்கு'],read:'Cling to the clinging of the one who has no clinging; cling to that, in order to let clinging go.',link:'19 sound links from the devotional books'},
+      {src:'siddhar:sivavakkiyam:327 · line 4',lines:['அவனுமுண்டு நானுமில்லை யாருமில்லை யானதே'],read:'He is, I am not, and then no one at all.',link:'see 1.4, with its limits'}]}
+  ];
+  var FAM=[
+    {id:'udal',ta:'உடல்',en:'body and medicine',ess:'The body is a frame that will not last, yet the Tirumanthiram and Siddhars also make it the field of practice, kept alive by breath.',c:{aram:2,inbam:1}},
+    {id:'ullam',ta:'உள்ளம்',en:'mind and consciousness',ess:'The mind decides what an act is worth; the debate epics argue whether awareness is a lasting soul, a stream of moments, or the elements combined.',c:{aram:1,porul:3,inbam:5,veedu:2}},
+    {id:'irai',ta:'இறை',en:'the divine',ess:'Grace comes to those who take refuge at his feet, while the Siddhars mock sect and outward rite.',c:{aram:1,inbam:3,veedu:4}},
+    {id:'yogam',ta:'யோகம்',en:'practice and yoga',ess:'The breath is the practice: ridden like a horse, held in the channels, raised to the crown, written in cipher.',c:{veedu:2}},
+    {id:'iyarkai',ta:'இயற்கை',en:'nature and landscape',ess:'Rain is the condition of life and the image of just rule; in akam the seasons keep time for love.',c:{porul:4,inbam:3}},
+    {id:'samugam',ta:'சமூகம்',en:'society, caste, ritual',ess:'The books pull both ways on birth: the Kural makes family both a source of conduct and a name earned by it, and the Siddhars turn the womb against caste.',c:{aram:4,porul:6,inbam:3}},
+    {id:'aivu',ta:'அறிவாய்வு',en:'knowledge and debate',ess:'Learning is the wealth that does not decay; the Manimekalai and Neelakesi try every school by the means of valid knowledge.',c:{veedu:3}},
+    {id:'pulamai',ta:'புலமை',en:'poetics and the arts',ess:'Tamil stands as a tongue of revelation, and the puram poems turn battle and grief into named kinds of song.',c:{porul:5,inbam:2,veedu:1}},
+    {id:'kaalam',ta:'காலம்',en:'time and impermanence',ess:'Youth, wealth and the body pass like lightning, so give and do good now; the puram poems answer death with hero-stones and renown.',c:{aram:2,porul:2,veedu:2}}
+  ];
+  var bt=$('aimBtns'), mx=$('aimMatrix'), pn=$('aimPanel'), sel={t:'a',i:0};
+  AIMS.forEach(function(a,i){ var b=el('button',{type:'button','class':'aim','aria-pressed':'false'},'<span class="ta">'+a.ta+'</span><small>'+a.en+'</small>'); b.addEventListener('click',function(){ sel={t:'a',i:i}; render(); }); bt.appendChild(b); });
+  var h='<thead><tr><th scope="col"><span class="sr" style="position:absolute;left:-9999px">family</span></th>'+AIMS.map(function(a){return '<th scope="col" class="ta">'+a.ta+'</th>';}).join('')+'</tr></thead><tbody>';
+  FAM.forEach(function(f,i){ h+='<tr data-i="'+i+'"><th scope="row"><button type="button" data-f="'+i+'">'+f.en+'<span class="ta">'+f.ta+'</span></button></th>'+AIMS.map(function(a){ var n=f.c[a.id]||0; return '<td data-a="'+a.id+'">'+(n?'<span class="dt" style="width:'+(5+n*2.2)+'px;height:'+(5+n*2.2)+'px" title="'+n+'"></span><span style="position:absolute;left:-9999px">'+n+'</span>':'<span style="color:var(--rule)">·</span>')+'</td>'; }).join('')+'</tr>'; });
+  mx.innerHTML=h+'</tbody>';
+  mx.addEventListener('click',function(e){ var b=e.target.closest('button[data-f]'); if(b){ sel={t:'f',i:+b.dataset.f}; render(); } });
+  function render(){
+    [].forEach.call(bt.children,function(b,i){ b.setAttribute('aria-pressed', (sel.t==='a'&&sel.i===i)?'true':'false'); });
+    [].forEach.call(mx.querySelectorAll('tbody tr'),function(tr,i){ tr.className=(sel.t==='f'&&sel.i===i)?'on':''; [].forEach.call(tr.querySelectorAll('td'),function(td){ td.classList.toggle('on', sel.t==='a'&&td.dataset.a===AIMS[sel.i].id); }); });
+    if(sel.t==='a'){ var a=AIMS[sel.i];
+      pn.innerHTML='<h5><span class="ta">'+a.ta+'</span> · '+a.en+'</h5><p style="font-size:1rem">'+a.ess+'</p>'+a.ex.map(function(x){ return '<div class="ex">'+x.lines.map(function(l){return '<span class="tl">'+l+'</span>';}).join('')+'<p class="md">'+x.src+' · '+x.link+'</p><p>'+x.read+'</p></div>'; }).join('');
+    } else { var f=FAM[sel.i], parts=AIMS.filter(function(a){return f.c[a.id];}).map(function(a){ return '<span class="ta">'+a.ta+'</span> '+f.c[a.id]; });
+      pn.innerHTML='<h5><span class="ta">'+f.ta+'</span> · '+f.en+'</h5><p style="font-size:1rem">'+f.ess+'</p><p class="md">shares concepts with: '+parts.join(' · ')+'</p>';
+    }
+  }
+  render();
+})();
+
+/* couplets: slots filled later */
+(function(){
+  var list=$('kuralList');
+  [].slice.call(list.querySelectorAll('script[data-slot]')).forEach(function(sc){
+    var n=sc.getAttribute('data-slot'), raw=(sc.textContent||'').trim(), data=null;
+    if(raw && raw.indexOf('{{')!==0){ try{ data=JSON.parse(raw); }catch(e){ data=null; } }
+    var art=el('article',{'class':'kc',id:'k'+n});
+    var body='<div class="no">'+n+'</div><div class="body">';
+    if(!data){ body+='<div class="slot">{{K'+n+'}} · couplet '+n+', waiting for the poem</div>'; }
+    else {
+      body+='<div class="kt" lang="ta">'+(data.ta||[]).map(function(l){return '<span>'+l+'</span>';}).join('')+'</div>';
+      if(data.en) body+='<p class="en">'+data.en+'</p>';
+      if(data.why) body+='<p class="why">'+data.why+'</p>';
+      if(data.scan&&data.scan.length){ body+='<button class="btn scanb" type="button" aria-expanded="false" aria-controls="scan'+n+'">show metre</button><div class="scan" id="scan'+n+'" hidden>'+data.scan.map(function(w){ return '<span><i>'+w[0]+'</i><em>'+w[1]+(w[2]?' · '+w[2]:'')+'</em></span>'; }).join('')+(data.edhugai!=null?'<span><i>எதுகை</i><em>edhugai '+(data.edhugai?'present':'absent')+'</em></span>':'')+'</div>'; }
+    }
+    art.innerHTML=body+'</div>';
+    sc.parentNode.insertBefore(art, sc);
+  });
+  list.addEventListener('click',function(e){ var b=e.target.closest('.scanb'); if(!b) return; var p=$(b.getAttribute('aria-controls')); p.hidden=!p.hidden; b.setAttribute('aria-expanded',p.hidden?'false':'true'); b.textContent=p.hidden?'show metre':'hide metre'; });
+})();
+
+/* stances and nilai.md */
+(function(){
+  var K=[['siddhar','the Siddhars','Knowing what my own stillness is for.'],['akam','akam and puram','Saying it in my own voice, even when someone else could say it better.'],['science','the science','Deciding, before I see the answer, what would count as being wrong.'],['aims','the four aims','Choosing to share, and answering for what I chose.']];
+  var mem={};
+  function load(k){ try{ var v=sessionStorage.getItem('nilai-stance-'+k); if(v!=null) return v; }catch(e){} return mem[k]||''; }
+  function save(k,v){ mem[k]=v; try{ sessionStorage.setItem('nilai-stance-'+k,v); }catch(e){} }
+  function esc(s){ return s.replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];}); }
+  function plain(){ var t='# nilai.md\n\n> what still needs to remain human, for me.\n\n'; K.forEach(function(k,i){ var v=load(k[0]); t+='## '+(i+1)+'. '+k[1]+'\n- kept: '+k[2]+'\n- my stance: '+(v||'(not written yet)')+'\n\n'; }); return t+'this file will be wrong. that’s the deal.\n'; }
+  function render(){ var h='<span class="c"># nilai.md</span>\n\n<span class="c">&gt; what still needs to remain human, for me.</span>\n\n'; K.forEach(function(k,i){ var v=load(k[0]); h+='## '+(i+1)+'. '+k[1]+'\n- kept: '+esc(k[2])+'\n- my stance: '+(v?'<span class="y">'+esc(v)+'</span>':'<span class="c">(not written yet, see the scene)</span>')+'\n\n'; }); h+='<span class="c">this file will be wrong. that’s the deal.</span>'; $('mdOut').innerHTML=h; }
+  K.forEach(function(k){ var inp=$('stance-'+k[0]); if(!inp) return; inp.value=load(k[0]); inp.addEventListener('input',function(){ save(k[0],inp.value.trim()); render(); }); });
+  $('copyMd').addEventListener('click',function(){ var b=this, txt=plain();
+    function fallback(){ var r=document.createRange(); r.selectNodeContents($('mdOut')); var s=window.getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent='selected, copy it'; }
+    try{ navigator.clipboard.writeText(txt).then(function(){ b.textContent='copied'; setTimeout(function(){ b.textContent='copy'; },1600); }, fallback); }catch(e){ fallback(); } });
+  render();
+})();
+})();
+</script>
