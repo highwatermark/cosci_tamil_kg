@@ -1,0 +1,766 @@
+{
+ "chapter_no": 9,
+ "chapter_theme": "The king and his mother, dying in attachment, are reborn as peacock and dog, then boar and snake, then fish and crocodile, each birth ending in a violent death at the other's hands, with the poet naming deed as the cause.",
+ "cast": [
+  {
+   "id": "yasodharan",
+   "tamil": "மன்னன்",
+   "role": "the former king, now reborn as peacock, boar and fish"
+  },
+  {
+   "id": "chandramathi",
+   "tamil": "சந்திரமதி",
+   "role": "the king's mother, reborn as dog, snake and crocodile"
+  },
+  {
+   "id": "yasomathi",
+   "tamil": "இசோமதி",
+   "role": "the son, now king, who receives the peacock and dog"
+  },
+  {
+   "id": "amirthamathi",
+   "tamil": "அமிர்தமதி",
+   "role": "the former queen, read from 172 as the woman with Ashtavakran"
+  },
+  {
+   "id": "ashtavakran",
+   "tamil": "அட்டபங்கன்",
+   "role": "the hunchbacked elephant-keeper"
+  },
+  {
+   "id": "hunter_chief",
+   "tamil": "விந்த மன்னவன்",
+   "role": "the Vindhya hunter who shoots the peahen"
+  },
+  {
+   "id": "hunter_woman",
+   "tamil": "புளிஞிகை",
+   "role": "the hunter woman who rears the egg"
+  },
+  {
+   "id": "hunter_folk",
+   "tamil": "புளிஞர்",
+   "role": "the hunters who give the animals to the king"
+  },
+  {
+   "id": "hunchback_woman",
+   "tamil": "கூனி",
+   "role": "a dancing hunchback seized by the crocodile"
+  },
+  {
+   "id": "fishers",
+   "tamil": "வலையின் வாழ்நர்",
+   "role": "the net-people who catch the crocodile"
+  }
+ ],
+ "verses": {
+  "161": {
+   "reading": "The poet says that the king and Chandramathi died still bound by attachment, and that what follows is the account of their many births.",
+   "concepts": [
+    "piravi",
+    "vinai",
+    "pattru"
+   ],
+   "nuance": "'Mathi' in line 1 is the edition's clipped form of Chandramathi, the king's mother, whom the next verses make the dog; the verse sets out the plan of the whole section on births, as 147 foresaw it.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "those who die in attachment go on to many births",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "162": {
+   "reading": "A chief of the Vindhya hills, coming with a dog, shoots a great peahen that carries an egg in her belly.",
+   "concepts": [
+    "kollaamai",
+    "vinai"
+   ],
+   "nuance": "The verse names only 'the king of the hill called Vindhya' and a cruel hunter; that the egg holds the former king is learned from verse 172 on.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hunter_chief",
+     "form": "மன்னவன்",
+     "line": 1
+    }
+   ],
+   "event": "A Vindhya hunter shoots a pregnant peahen.",
+   "claims": []
+  },
+  "163": {
+   "reading": "The man takes the egg that the arrow's mouth has spilled, sets it among a wild fowl's eggs and gives it to a loving hunter woman to rear.",
+   "concepts": [
+    "arul",
+    "vinai"
+   ],
+   "nuance": "The same hand that kills the mother-bird saves the egg; the verse gives no reason, and the later births show the lives it leads to.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hunter_chief",
+     "form": "மெடுத்தவன்",
+     "line": 1
+    },
+    {
+     "id": "hunter_woman",
+     "form": "புளிஞிகை",
+     "line": 4
+    }
+   ],
+   "event": "The hunter hands the rescued egg to a hunter woman to be reared.",
+   "claims": []
+  },
+  "164": {
+   "reading": "Chandramathi, the king's mother, comes to the lane outside the great city by her earlier deed and is born a dog with sprouting fangs.",
+   "concepts": [
+    "vinai",
+    "piravi",
+    "oozh"
+   ],
+   "nuance": "'The deed done before' (முந்து செய்வினை) is left unnamed here; the reader supplies the urging of a blood-offering and the poisoning from the earlier chapters.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "chandramathi",
+     "form": "சந்திரம்மதி",
+     "line": 1
+    }
+   ],
+   "event": "Chandramathi is reborn as a dog in the outcaste lane outside the city.",
+   "claims": [
+    {
+     "claim": "a former deed drives the soul into its next birth",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "165": {
+   "reading": "When the peacock and the dog have grown, the hunters give them to the king as a fitting gift, and they come to the palace of Yasomathi, the king.",
+   "concepts": [
+    "vinai",
+    "piravi"
+   ],
+   "nuance": "வயிரியாகும் in line 3 may mean one who will be their enemy; the sense is not fixed. The two gift animals are the father and the grandmother of the king who receives them.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hunter_folk",
+     "form": "கொடுத்தனர்",
+     "line": 2
+    },
+    {
+     "id": "yasomathi",
+     "form": "மிசோமதி",
+     "line": 3
+    }
+   ],
+   "event": "The hunters present the grown peacock and dog to King Yasomathi, and they enter his palace.",
+   "claims": []
+  },
+  "166": {
+   "reading": "The peacock that was a king does not rise before those who rise before him, is startled even at his own body, and grows up in the palace in fear.",
+   "concepts": [
+    "piravi",
+    "nilaiyaamai",
+    "acham"
+   ],
+   "nuance": "Where in his man's life all rose before him, the bird shrinks from those who rise. The poet does not say the fear is remembered; that the bird is the king comes from line 1.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": "மன்ன",
+     "line": 1
+    }
+   ],
+   "event": "The bird that was once king lives timid in the palace.",
+   "claims": []
+  },
+  "167": {
+   "reading": "Women stroke the feet of the sleeping king on his soft bed, and the peacock with its tail moves timidly on the ground.",
+   "concepts": [
+    "nilaiyaamai",
+    "piravi"
+   ],
+   "nuance": "The couch the women tend is the very bed from which the same soul once rose; the verse sets the sleeper at ease and the bird in fear.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": "மாமயிற்",
+     "line": 3
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "168": {
+   "reading": "The king eats sweet food from a gold dish in the company of women, while the bird that was a king waits outside the hall for scraps.",
+   "concepts": [
+    "pasi",
+    "nilaiyaamai",
+    "piravi"
+   ],
+   "nuance": "அரையன் in line 3 is the king at table, Yasomathi; the same word is used of the peacock in line 3, so 'the lord' belongs to the bird only as what he once was.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": "மாமயி",
+     "line": 3
+    },
+    {
+     "id": "yasomathi",
+     "form": "அரையன்",
+     "line": 3
+    }
+   ],
+   "event": "The former king, now a peacock, waits outside the bed hall for food as the new king dines.",
+   "claims": []
+  },
+  "169": {
+   "reading": "The dog, once Chandramathi, eats the sweepings of the dung-heap, grabs the leavings and grows weak in the yard.",
+   "concepts": [
+    "pasi",
+    "piravi",
+    "vinai"
+   ],
+   "nuance": "A queen mother who once dined in her palace is now at the refuse; verse 168 had the peacock waiting outside the hall in the same way.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "chandramathi",
+     "form": "சந்தி",
+     "line": 4
+    }
+   ],
+   "event": "The dog scavenges scraps and grows weak.",
+   "claims": []
+  },
+  "170": {
+   "reading": "The poet says that those who did not hold to the good vow and the way of virtue came into great suffering that could not be borne, by the cruelty they had done before, and that the fruit of deed is hard to overcome.",
+   "concepts": [
+    "vinai",
+    "oozh",
+    "aram"
+   ],
+   "nuance": "The only verse in this run to state the rule outright; it comes after both the peacock's and the dog's lowered state is shown. 'Vow' (வதம்) is the Jain term, so the school tag follows the word.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "deeds of cruelty done before bear unbearable suffering as their fruit",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    },
+    {
+     "claim": "the fruit of deed cannot be overcome",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "171": {
+   "reading": "One day the peacock sees, by the side of the jewelled hall, the woman with full breasts embracing the hunchback Ashtavakran after a great feast.",
+   "concepts": [
+    "kaamam",
+    "karpu",
+    "vinai"
+   ],
+   "nuance": "The verse does not name the woman; that she is the former queen is inferred from verse 172, which calls her the bird's beloved of the earlier birth.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "amirthamathi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "ashtavakran",
+     "form": "தட்டபங்",
+     "line": 2
+    }
+   ],
+   "event": "The peacock sees the woman embracing Ashtavakran by the hall.",
+   "claims": []
+  },
+  "172": {
+   "reading": "Recalling, after it understood, the peerless deed of its beloved of the earlier birth, the bird pecks out the guiltless lover's bright eyes.",
+   "concepts": [
+    "vinai",
+    "kaamam",
+    "piravi"
+   ],
+   "nuance": "The bird that remembers an earlier birth is the one thing in the chapter so far that does remember; it answers with its beak what the king had stopped his sword from doing.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "ashtavakran",
+     "form": "சாரனொண்",
+     "line": 3
+    }
+   ],
+   "event": "The peacock pecks out Ashtavakran's eyes.",
+   "claims": []
+  },
+  "173": {
+   "reading": "The woman, enraged, flings a handful of stones from her hand; they strike the bird's head and it falls to the ground.",
+   "concepts": [
+    "vekuli",
+    "kodungol",
+    "vinai"
+   ],
+   "nuance": "'She of the pearl-white smile' (முத்த வாள்நகையாள்) is the woman of 171, here seen in anger.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "amirthamathi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The woman hurls stones and knocks the peacock down.",
+   "claims": []
+  },
+  "174": {
+   "reading": "The dog, the mother born again, runs behind and bites; the peacock dies in her mouth, and the poet says this is how harmful deeds come to their fruit.",
+   "concepts": [
+    "vinai",
+    "kootru",
+    "piravi"
+   ],
+   "nuance": "The mother who once urged the son to a blood-offering kills him, a bird, in her mouth; neither knows the other. The verse says deed bears fruit but not whose deed it is here.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "chandramathi",
+     "form": "நாய்",
+     "line": 2
+    },
+    {
+     "id": "yasodharan",
+     "form": "மஞ்ஞை",
+     "line": 3
+    }
+   ],
+   "event": "The dog seizes the peacock and kills it.",
+   "claims": [
+    {
+     "claim": "harmful deeds return as just such harm",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "175": {
+   "reading": "Thinking that the dear life of the peacock trembling in the dog's mouth had left, a woman says so; and Yasomathi, not understanding, beats the dog with a board.",
+   "concepts": [
+    "vekuli",
+    "vinai",
+    "kollaamai"
+   ],
+   "nuance": "The beater is the dead bird's son and the dog's grandson; he acts without knowing it, so the harm done is the work of ignorance not of choice.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasomathi",
+     "form": "விசோமதி",
+     "line": 3
+    }
+   ],
+   "event": "Yasomathi strikes the dog with a board, not knowing who she is.",
+   "claims": []
+  },
+  "176": {
+   "reading": "The king that was a peacock is born in the Vindhya hills as a boar with bristles like thorns and brings pain to others; the poet calls this the fruit of a hard deed.",
+   "concepts": [
+    "piravi",
+    "vinai",
+    "oozh"
+   ],
+   "nuance": "The poet moves the soul on at once: the one who was in 175 beaten for its sake is not heard of again.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": "ரேனம",
+     "line": 3
+    }
+   ],
+   "event": "The former king is reborn as a boar in the Vindhya woods.",
+   "claims": [
+    {
+     "claim": "a hard deed brings its fruit in a new birth",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "177": {
+   "reading": "The dog too comes to the hillside, as a black snake, and coils; the boar's bowels burn and his hunger leaves him.",
+   "concepts": [
+    "piravi",
+    "vinai",
+    "pasi"
+   ],
+   "nuance": "'Hunger left the boar' may mean the snake swallowed him or that he died; the sense turns on a rare phrase. Verse 178 calls this boar the one that killed the mother, so the two kill each other.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "chandramathi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "yasodharan",
+     "form": "பன்றி",
+     "line": 4
+    }
+   ],
+   "event": "The dog is reborn as a black snake and attacks the boar.",
+   "claims": []
+  },
+  "178": {
+   "reading": "As the boar that killed its mother wearies, a fierce bear charges it like a lion; it falls tormented and dies.",
+   "concepts": [
+    "kootru",
+    "vinai",
+    "piravi"
+   ],
+   "nuance": "The verse calls the boar 'the mother-killing boar' (தாய்கொல் பன்றி), so by the poem's count the boar had killed the snake that was Chandramathi; a bear, with no part in the story, ends him.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "A bear attacks the boar and kills it.",
+   "claims": [
+    {
+     "claim": "the one who killed pays with his own life",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "179": {
+   "reading": "The soul that was king and boar becomes a fish named Lohita in the river Shiprai, whose waters bring pain.",
+   "concepts": [
+    "piravi",
+    "vinai",
+    "nilaiyaamai"
+   ],
+   "nuance": "The fish's name (உலோகித) is given only here; the birth takes the soul from the land to the water.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": "மீனின்",
+     "line": 4
+    }
+   ],
+   "event": "The former king is reborn as the fish Lohita in the river Shiprai.",
+   "claims": []
+  },
+  "180": {
+   "reading": "The dog, as black snake, goes before and becomes a crocodile, and burning with heat it strains to swallow the fish.",
+   "concepts": [
+    "piravi",
+    "vinai",
+    "pasi"
+   ],
+   "nuance": "The mother has been dog, snake and now crocodile, each time moving to meet the son in his next form; the poem does not say she knows him.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "chandramathi",
+     "form": "முதலைய",
+     "line": 2
+    }
+   ],
+   "event": "The former snake is reborn as a crocodile and tries to swallow the fish.",
+   "claims": []
+  },
+  "181": {
+   "reading": "A hunchback woman dances in the air; the crocodile seizes her in its mouth, and the king orders the crocodile given to killers to be killed.",
+   "concepts": [
+    "vekuli",
+    "kolai",
+    "vinai"
+   ],
+   "nuance": "கொல்கராத்தந்து is unclear in the edition; the reading takes கொல்க as the order to kill. The king who gives the order is the crocodile's own grandson.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hunchback_woman",
+     "form": "கூனி",
+     "line": 1
+    },
+    {
+     "id": "yasomathi",
+     "form": "மன்னவன்",
+     "line": 4
+    }
+   ],
+   "event": "Yasomathi orders the crocodile that took the hunchback killed.",
+   "claims": []
+  },
+  "182": {
+   "reading": "The fishers catch the crocodile in a net and drag it by ropes, heat skewers and surround it, and the killers cut and tear it; the poet says many tormented it and who can tell it all.",
+   "concepts": [
+    "kolai",
+    "vinai",
+    "kodungol"
+   ],
+   "nuance": "The poet turns away from the telling ('who can tell it'), as he does not at the beast's earlier deaths; the verse gives the cruelty its own weight.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "fishers",
+     "form": "வாழ்நரின்",
+     "line": 1
+    }
+   ],
+   "event": "Fishers and killers capture the crocodile and cut it to pieces.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 161,
+   "b": 147,
+   "type": "develops",
+   "note": "The king's cry at 147 that his deed calls him into a garland of births is answered here: the garland is now told birth by birth.",
+   "teaches": "The lament and the account together show that the foreseen chain was real and also how it runs, which the foreboding alone does not."
+  },
+  {
+   "a": 170,
+   "b": "tirumanthiram:120",
+   "type": "tension",
+   "note": "The Jain epic says the fruit of deed cannot be overcome; Tirumular says a teacher's fire makes deed-seeds that do not sprout into births.",
+   "teaches": "Set together they show the epic's karma as a debt that must be lived through, against the Tirumanthiram's karma that grace can scorch before it grows.",
+   "gains": {
+    "a": "the epic's rule that deed's fruit cannot be beaten meets a rival school that says it can be burned",
+    "b": "Tirumular's seeds that will not sprout gain the stubborn picture of a fruit that must be eaten, which his claim opposes"
+   }
+  },
+  {
+   "a": 166,
+   "b": "naladiyar:3",
+   "type": "qualifies",
+   "note": "The quatrain says kings under the umbrella fall when their deeds turn; the epic shows the fall as the same soul living on as a timid bird in his son's house.",
+   "teaches": "The couplet's fall of kings is made concrete: the king does not end, he is reborn lower, and at his own son's door.",
+   "gains": {
+    "a": "the frightened bird gains a general rule that explains why the great fall",
+    "b": "the quatrain's fall gains an afterlife it only hints at, the same soul continuing in the palace"
+   }
+  },
+  {
+   "a": 172,
+   "b": 123,
+   "type": "tension",
+   "note": "At 123 the king in human form held a sword and let it fall; the bird, with only a beak, strikes the lover's eyes.",
+   "teaches": "The restraint of the man and the blow of the bird together show that the epic does not make the king's patience a trait of his soul but of that one body."
+  },
+  {
+   "a": 174,
+   "b": "naladiyar:101",
+   "type": "develops",
+   "note": "A calf finds its mother among many cows as an old deed finds its doer; here the mother, now a dog, finds the son in a bird's body and kills him.",
+   "teaches": "The quatrain's mother-finding image is turned over: the deed that finds the doer wears the face of a mother meeting her child.",
+   "gains": {
+    "a": "the dog's attack is shown as the finding of a doer by an old deed, not a chance of the hunt",
+    "b": "the quatrain's calf-and-mother simile gains a case where the finder and the found are in fact mother and son"
+   }
+  },
+  {
+   "a": 175,
+   "b": 139,
+   "type": "tension",
+   "note": "The king at 139 refused to end one life to save another; his son, not knowing, beats the dog who is his grandmother.",
+   "teaches": "The father's vow against taking life does not pass to the son, so harm continues through ignorance, not malice."
+  },
+  {
+   "a": 180,
+   "b": "kural:208",
+   "type": "develops",
+   "note": "The kural's evil that follows the doer like a shadow that never leaves is shown in the snake who becomes a crocodile and follows the fish into the river.",
+   "teaches": "The pursuit shows that the shadow of deed can pass through the animal births, which the couplet's one life does not show.",
+   "gains": {
+    "a": "the mother's following through snake and crocodile is seen as deed's shadow, not mere hatred",
+    "b": "the couplet's shadow gains a path across several births and species"
+   }
+  },
+  {
+   "a": 182,
+   "b": 137,
+   "type": "develops",
+   "note": "Chandramathi urged her son to cut down a kid to the goddess; the crocodile that was she is now cut and torn by killers.",
+   "teaches": "The cutting that she asked of the king is returned on her own body, so the offering she urged is the cost she herself pays."
+  },
+  {
+   "a": 182,
+   "b": "kural:320",
+   "type": "qualifies",
+   "note": "The couplet says pains rest on those who caused pains; here the crocodile's pain comes but at the hands of men who themselves do harm.",
+   "teaches": "The epic shows deed's return working through the very cruelty of new doers, so the rule is true but puts another debt on those who carry it out.",
+   "gains": {
+    "a": "the crocodile's torn body gains the rule that explains why it suffers",
+    "b": "the couplet's rule gains the complication that the one who punishes is himself adding to his own account"
+   }
+  },
+  {
+   "a": 181,
+   "b": 139,
+   "type": "tension",
+   "note": "The grandson king orders the crocodile killed, while his father at 139 would not take one life even to save his own.",
+   "teaches": "The son does the very thing the father's last words forbade, which shows how a vow dies when its meaning is not handed down."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 161 line 1 has the clipped form 'மதிமதி' for Chandramathi.",
+  "Verse 166 line 1 has 'மாமயின்' for 'மாமயில்'.",
+  "Verses 177, 178 and 181 are partly obscure; who kills whom in 177-178 and the sense of கொல்கராத்தந்து in 181 are inferred."
+ ]
+}

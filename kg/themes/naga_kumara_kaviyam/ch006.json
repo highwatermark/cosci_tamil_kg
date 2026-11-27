@@ -1,0 +1,544 @@
+{
+ "chapter_no": 6,
+ "chapter_theme": "The prince beats the vina-skilled princess Tribhuvanarati, worships at a Jain shrine, frees a hunter's wife from a demon, gains gifts and the service of a yakshi, marries the daughter of Vanaraja and wins him a city, and the section ends on the king Somaprabha who loses his land and takes up the ascetic's yoga to end his deeds.",
+ "cast": [
+  {
+   "id": "nagakumaran",
+   "tamil": "நாககுமாரன்",
+   "role": "the hero, a prince, called குமரன் in the verses"
+  },
+  {
+   "id": "viyalan",
+   "tamil": "வியாளன்",
+   "role": "the prince's friend and companion"
+  },
+  {
+   "id": "tribhuvanarati",
+   "tamil": "திரிபுவனாரதி",
+   "role": "princess of Kampiram, skilled at the vina, won by the prince"
+  },
+  {
+   "id": "veenai_learners",
+   "tamil": "வீணைகற்பவர்",
+   "role": "the vina-learners who tell the prince about the princess"
+  },
+  {
+   "id": "vanigan",
+   "tamil": "வணிகன்",
+   "role": "a merchant who tells the prince of a marvel"
+  },
+  {
+   "id": "vedan",
+   "tamil": "வேடன்",
+   "role": "the hunter whose wife was taken to the cave"
+  },
+  {
+   "id": "athibhima",
+   "tamil": "அதிபீமன்",
+   "role": "the demon who seized the hunter's wife"
+  },
+  {
+   "id": "viyantara_deva",
+   "tamil": "வியந்தரதேவன்",
+   "role": "a vyantara god who gives the prince gifts"
+  },
+  {
+   "id": "iyakki",
+   "tamil": "இயக்கி",
+   "role": "a yakshi of the Hiranya cave who offers her servants"
+  },
+  {
+   "id": "vanasaran",
+   "tamil": "வனசரன்",
+   "role": "a forest dweller (the hunter) who tells of marvels"
+  },
+  {
+   "id": "viyantaran",
+   "tamil": "வியந்தரன்",
+   "role": "a vyantara standing guard"
+  },
+  {
+   "id": "vanaraja",
+   "tamil": "வனராசன்",
+   "role": "king of Giripuram"
+  },
+  {
+   "id": "vanamalai",
+   "tamil": "வனமாலை",
+   "role": "Vanaraja's queen"
+  },
+  {
+   "id": "somaprabha",
+   "tamil": "சோமபிரபன்",
+   "role": "a king who lost his land and became an ascetic"
+  }
+ ],
+ "verses": {
+  "88": {
+   "reading": "Questions are put to the newcomers about where they live, who they are and where they are going, and one who knows them names their town and the names of their father and mother, saying they are learners of the vina.",
+   "concepts": [
+    "kurippu",
+    "kalvi"
+   ],
+   "nuance": "The speakers of the question and of the answer are not named and the grammar of lines 2-4 is loose, so who answers and who is called vina-learners is a guess from the next verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Strangers are asked who they are and one answers for them, naming their home and parents.",
+   "claims": []
+  },
+  "89": {
+   "reading": "The speakers say they come from the city Kampiram in the land Nandu-Kampira, whose king Nandana has a queen named Tharani and a daughter Tribhuvanarati, and that they and their kin have come to their own town because the princess's vina skill is boasted of.",
+   "concepts": [
+    "kalvi",
+    "kudi"
+   ],
+   "nuance": "Lines 3-4 are hard to construe (கந்தமார்... தோற்று); the sense that the princess is a vina champion whom others come to try is taken from verse 90, which has the prince defeat her on the vina.",
+   "uncertain": true,
+   "speaker": {
+    "who": "veenai_learners",
+    "form": null,
+    "line": null,
+    "addressee": "nagakumaran"
+   },
+   "agents": [
+    {
+     "id": "veenai_learners",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The vina-learners tell the prince that the princess Tribhuvanarati of Kampiram is famed for her vina and that they went to her town.",
+   "claims": []
+  },
+  "90": {
+   "reading": "The prince hears this, goes with Viyalan, beats the bow-browed princess at the vina and wins her, and while he swims in the sea of love with her he meets a merchant and asks about a wonder the man has seen.",
+   "concepts": [
+    "kalvi",
+    "kaamam",
+    "karpu"
+   ],
+   "nuance": "The wager of the vina-contest is not stated in the verse; that defeat wins her is taken from வென்று கொண்டு.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": "குமரன்",
+     "line": 1
+    },
+    {
+     "id": "viyalan",
+     "form": "வியாளனுந்",
+     "line": 1
+    },
+    {
+     "id": "tribhuvanarati",
+     "form": "விற்புரு வதனத் தாளை",
+     "line": 2
+    }
+   ],
+   "event": "Naga Kumara and Viyalan win Tribhuvanarati by defeating her at the vina, and Kumara then questions a merchant about a marvel.",
+   "claims": []
+  },
+  "91": {
+   "reading": "At noon, before the Jain temple named Thilaka, a man with a ringing voice stands crying out, and the arm-braceleted one says he does not know the cause.",
+   "concepts": [
+    "kurippu"
+   ],
+   "nuance": "The speaker of line 4 is probably the merchant of 90, since he is the one asked about a wonder, but the verse does not say so.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vanigan",
+    "form": null,
+    "line": null,
+    "addressee": "nagakumaran"
+   },
+   "agents": [
+    {
+     "id": "vanigan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A man is heard crying at the Jain shrine at noon and the merchant says he does not know why.",
+   "claims": []
+  },
+  "92": {
+   "reading": "Hearing it, the broad-shouldered prince goes into the shrine, bows to the Jina, praises the pure victor and sits at ease with a bright face in the front hall.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "nuance": "Lines 3-4 give the prince's worship as an act, not an argument; the claim is the worship's premise.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": "குமரனுங்",
+     "line": 1
+    }
+   ],
+   "event": "Naga Kumara enters the Jain temple, worships the Jina and sits in its mandapa.",
+   "claims": [
+    {
+     "claim": "the Jina, the victor, who is free of stain, is worthy of praise and worship",
+     "school": "jain",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "nagakumaran"
+    }
+   ]
+  },
+  "93": {
+   "reading": "As a man cries out, the prince asks who he is, and the man says that the great demon Athibhima has seized his wife and shut her in a cave of burning mountain rock too awful to describe.",
+   "concepts": [
+    "ivaral",
+    "kolai"
+   ],
+   "nuance": "ஆசை in line 3 may be the wife's name or the word for desire; verse 94 resolves who speaks.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vedan",
+    "form": null,
+    "line": null,
+    "addressee": "nagakumaran"
+   },
+   "agents": [
+    {
+     "id": "vedan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "nagakumaran",
+     "form": "குமரன்",
+     "line": 1
+    },
+    {
+     "id": "athibhima",
+     "form": "வசுரன்",
+     "line": 3
+    }
+   ],
+   "event": "A husband begs help because the demon Athibhima holds his wife in a mountain cave.",
+   "claims": []
+  },
+  "94": {
+   "reading": "The man says he lives in the forest as the hunter Rammiya, and at his sorrowful word the prince asks to be shown the cave and, when the hunter has led him, rejoices at the cave mouth.",
+   "concepts": [
+    "arul",
+    "anbu"
+   ],
+   "nuance": "The hunter's name is split across the line breaks of the edition; the reading Rammiya is from இரம்மிய வேட னன்பேன்.",
+   "speaker": {
+    "who": "vedan",
+    "form": "வேட",
+    "line": 1,
+    "addressee": "nagakumaran"
+   },
+   "agents": [
+    {
+     "id": "vedan",
+     "form": "வேட",
+     "line": 1
+    },
+    {
+     "id": "nagakumaran",
+     "form": "வீரன",
+     "line": 2
+    }
+   ],
+   "event": "The hunter leads Naga Kumara to the cave where his wife is held.",
+   "claims": []
+  },
+  "95": {
+   "reading": "A vyantara god comes and worships, the hunter's wife is freed, and the god gives the prince the Chandrakanti sword, a magical couch and a casket called Kamam.",
+   "concepts": [
+    "arul",
+    "eegai"
+   ],
+   "nuance": "Whether the god or the prince defeats Athibhima is not said; the demon is not named after 93 and the god's gift follows the release.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "viyantara_deva",
+     "form": "வியந்தர தேவன்",
+     "line": 1
+    },
+    {
+     "id": "nagakumaran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The vyantara god frees the hunter's wife and gives Naga Kumara a sword, a magic couch and a casket.",
+   "claims": []
+  },
+  "96": {
+   "reading": "As the prince goes on and asks about further marvels, the hunter says a Hiranya cave lies in the hill nearby, and the saffron-chested prince goes there, where a yakshi comes, bows at his feet and speaks sweetly.",
+   "concepts": [
+    "arul",
+    "kurippu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": "குமரன்",
+     "line": 3
+    },
+    {
+     "id": "vedan",
+     "form": "வேடன்",
+     "line": 1
+    },
+    {
+     "id": "iyakki",
+     "form": "யியக்கி",
+     "line": 4
+    }
+   ],
+   "event": "Naga Kumara goes to the Hiranya cave and a yakshi greets him.",
+   "claims": []
+  },
+  "97": {
+   "reading": "The yakshi says that four thousand attendants are now at his service, he agrees and says he will think of her when there is a task and she is to come then, and he leaves and asks a forester to tell him of marvels.",
+   "concepts": [
+    "ookkam",
+    "adimai"
+   ],
+   "nuance": "ஈரிரண் டாயிரவர் is read as four thousand; the words ஈரிரண்டாயிரவர் could also be two thousands twice over, the same total, and the speaker of lines 2-3 is Kumara.",
+   "uncertain": true,
+   "speaker": {
+    "who": "iyakki",
+    "form": null,
+    "line": null,
+    "addressee": "nagakumaran"
+   },
+   "agents": [
+    {
+     "id": "iyakki",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "nagakumaran",
+     "form": "குமரன்",
+     "line": 3
+    }
+   ],
+   "event": "The yakshi offers Naga Kumara her four thousand servants and he promises to call them when needed.",
+   "claims": []
+  },
+  "98": {
+   "reading": "A forester tells of a vyantara who stands whirling a sword; the prince, dragged by the foot, sees great treasure and a god set there as guard, then goes through the temple with his strong-armed friend to Giripuram.",
+   "concepts": [
+    "selvam",
+    "kurippu"
+   ],
+   "nuance": "Who is pulled by the foot, and by whom, is not clear from the lines; the vyantara may be the treasure's guard or the tale told to the prince.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vanasaran",
+    "form": null,
+    "line": null,
+    "addressee": "nagakumaran"
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "viyantaran",
+     "form": "வியந்தர",
+     "line": 1
+    },
+    {
+     "id": "viyalan",
+     "form": "தோழன்",
+     "line": 4
+    }
+   ],
+   "event": "Naga Kumara finds a treasure guarded by a vyantara and then travels with his friend to the old city Giripuram.",
+   "claims": []
+  },
+  "99": {
+   "reading": "The king of that city, Vanaraja, and his queen Vanamalai gave their daughter of the arrow-like eyes to Naga Kumara through a great sacrifice.",
+   "concepts": [
+    "ilvaazhkkai",
+    "aram"
+   ],
+   "nuance": "The daughter's name seems lost from line 2, where வனமாலை is the mother's name and மகள் நன்னாமம் is not followed by a name; the sacrifice (வேள்வி) is named as the means of the gift without comment.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vanaraja",
+     "form": "வனராசன்",
+     "line": 1
+    },
+    {
+     "id": "vanamalai",
+     "form": "வனமாலை",
+     "line": 2
+    }
+   ],
+   "event": "Vanaraja gives his daughter in marriage to Naga Kumara at a sacrifice.",
+   "claims": []
+  },
+  "100": {
+   "reading": "Naga Kumara, with his friend and his uncle, defeats a kinsman of Vanaraja and wins the city Pundarapuram, which he gives to Vanaraja.",
+   "concepts": [
+    "vendhan",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "viyalan",
+     "form": "றோழன்",
+     "line": 2
+    },
+    {
+     "id": "vanaraja",
+     "form": "வனரா சற்கு",
+     "line": 4
+    }
+   ],
+   "event": "Naga Kumara conquers Pundarapuram from Vanaraja's rival kinsman and hands it to Vanaraja.",
+   "claims": []
+  },
+  "101": {
+   "reading": "Somaprabha loses his land, bows to the feet of a Jain teacher called Yamadhara, becomes a sage of great mercy and austerity, and stands guarding his yoga so that his old deeds may end.",
+   "concepts": [
+    "thuravu",
+    "thavam",
+    "vinai",
+    "yogam"
+   ],
+   "nuance": "The verse puts loss of the kingdom and the turn to renunciation side by side but does not say the loss caused the vow; that the vows end vinai is the narrator's own statement.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "somaprabha",
+     "form": "சோமநற் பிரபன்",
+     "line": 1
+    }
+   ],
+   "event": "Somaprabha, who lost his kingdom, takes up the ascetic's life under a Jain teacher.",
+   "claims": [
+    {
+     "claim": "deeds accumulated in the past are made to end by austerity and yoga",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    },
+    {
+     "claim": "the ascetic who has lost his throne turns to a teacher's feet for release",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": 95,
+   "b": 93,
+   "type": "develops",
+   "note": "The hunter's cry and his wife's imprisonment in 93 are met in 95 by her release.",
+   "teaches": "The prince's help answers the plea at once, so 93 and 95 show the hero's mercy as action rather than promise."
+  },
+  {
+   "a": 100,
+   "b": 99,
+   "type": "develops",
+   "note": "The city given by Vanaraja's sacrifice-gift of his daughter in 99 is repaid in 100 by the prince winning back a city for Vanaraja.",
+   "teaches": "The marriage in 99 is returned by a kingdom in 100, so the gift of a wife is shown as an obligation the husband repays in arms."
+  },
+  {
+   "a": 90,
+   "b": "civaka_cintamani:628",
+   "type": "same_image",
+   "note": "The prince wins a princess by defeating her at the vina; in the Cintamani the girl goes out to break her opponents with the yaazh.",
+   "teaches": "Both epics make the vina contest the means by which a king's son wins his bride, so the motif is a standard marriage test rather than one poet's invention."
+  },
+  {
+   "a": 101,
+   "b": "kural:261",
+   "type": "qualifies",
+   "note": "The Kural defines தவம் as enduring pain and not harming; 101 gives a king who loses his land and then takes up yoga to end old deeds.",
+   "teaches": "The verse shows tavam taken up after loss and aimed at ending vinai, which the Kural's definition of endurance and non-harm does not say.",
+   "gains": {
+    "a": "the Kural fixes what the sage's austerity must mean, an endurance of pain without harming",
+    "b": "the couplet gets a worked case in which a man chooses austerity after losing a throne"
+   }
+  },
+  {
+   "a": 101,
+   "b": "tirumanthiram:122",
+   "type": "tension",
+   "note": "Tirumular's Siva-yoga ends in the Lord's abode, given by Nandi; Somaprabha guards his yoga so that his own deeds end, with no god named.",
+   "teaches": "The two texts use the word yoga for a discipline of release but one gives the release to the Lord's grace and the other to the ascetic's own guarding, so grace and effort part on the same practice.",
+   "gains": {
+    "a": "the epic's yoga is set beside a text where the same practice is a gift of grace, showing what the Jain ascetic does not invoke",
+    "b": "the Tirumanthiram's grace claim meets a case where the same discipline of release is held up without a god"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "The verse lines carry edition-specific spellings and unclear word division (e.g. வனராசன், இரம்மிய வேட னன்பேன்), and the daughter's name in 99 does not appear in the lines."
+ ]
+}

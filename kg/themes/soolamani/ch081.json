@@ -1,0 +1,641 @@
+{
+ "chapter_no": 81,
+ "chapter_theme": "The king orders a drum proclaimed for a festival of the Lord at his golden temple under the Ashoka tree; the poet promises merit and a heavenly body to those who watch, the city and its folk dress and throng the streets, and the king rides out in full royal state while the poet says the onlookers' deeds died.",
+ "cast": [
+  {
+   "id": "payapati",
+   "tamil": "பயாபதி",
+   "role": "the king of Podanam who orders the festival, unnamed in these verses"
+  },
+  {
+   "id": "veerar",
+   "tamil": "வீரர்",
+   "role": "the heroes whose words ease the king's mind in 1863"
+  },
+  {
+   "id": "townsfolk",
+   "tamil": "நகர மாந்தர்",
+   "role": "the people of the city who come out for the festival"
+  },
+  {
+   "id": "brahmins",
+   "tamil": "வேதியர்",
+   "role": "the brahmins who carry flower offerings in the procession"
+  },
+  {
+   "id": "festival_throng",
+   "tamil": "கண்ணியர்",
+   "role": "the garlanded and gold-adorned folk of the procession"
+  },
+  {
+   "id": "attendant_women",
+   "tamil": "கண்ணியர்",
+   "role": "the women who wave the fly-whisks for the king"
+  }
+ ],
+ "verses": {
+  "1863": {
+   "reading": "As the heroes speak, like a wick trimmed in a burning lamp of ghee, the king grows light of mind, free of the grief that weighed on him, and sits wet with the rain of honey from his garland.",
+   "concepts": [
+    "thuravu",
+    "manam",
+    "arasu"
+   ],
+   "nuance": "The name in line 2, விசோதி, is not clear as written; it may be a name or a corrupt word, so who is likened to whom is not fixed. The lamp-wick simile makes the heroes' words the stirring that raises the king's flame; the verse does not say what they said.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "veerar",
+     "form": "வீரர்",
+     "line": 2
+    },
+    {
+     "id": "payapati",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The learned heroes speak and the king's mind is eased of its sorrow.",
+   "claims": []
+  },
+  "1864": {
+   "reading": "The king, whose chest is thick with garlands and the dark eyes of women, orders a drum to be proclaimed for a festival in the lord's adorned golden temple under the Ashoka tree.",
+   "concepts": [
+    "vazhipaadu",
+    "arasu",
+    "iraivan"
+   ],
+   "nuance": "The speaker is taken to be the king of the previous verses because no other is named; the verse itself gives only 'he said'. The Ashoka shade names the Jina's tree, so the temple is the Arhat's, and the festival is a Jain royal act, though the verse does not say Jain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "payapati",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "payapati",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king commands that a drum proclaim a festival at the Lord's golden temple under the Ashoka tree.",
+   "claims": []
+  },
+  "1865": {
+   "reading": "The poet praises the Lord as the radiant one hidden in the world, gracious to living beings, holder of the wheel, easy for his servants to reach, and says those most gladdened at the festival made for him will wear the golden crown.",
+   "concepts": [
+    "iraivan",
+    "vazhipaadu",
+    "arul"
+   ],
+   "nuance": "The Lord is praised in the vocabulary of a world-ruler (the wheel, the hidden light) and the reward promised is kingship, so devotion is paid for in the coin the king already holds.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "those who rejoice at the festival of the Lord are reborn to wear a king's crown",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "1866": {
+   "reading": "The Lord, the fire of grace and the beginning-less one, is the enemy of the deeds that bring delusion and showed the wide way that does not enter the dark world; whoever sees the festival made for him sees the world of merit.",
+   "concepts": [
+    "iraivan",
+    "vinai",
+    "vazhipaadu",
+    "aram"
+   ],
+   "nuance": "The way out of the dark world is placed with the Lord, who is called beginning-less, but the verse does not say a maker: he shows the path, he does not grant release. The promise of merit's world for the onlooker sits beside the claim that he is the foe of deeds, so the festival is presented as a good deed done to one who stands against deeds.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Lord is the opponent of deluding deeds and taught the way that avoids rebirth in the dark world",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    },
+    {
+     "claim": "beholding the festival of the Lord brings the sight of the world of merit",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "1867": {
+   "reading": "Those who have rejoiced at the Lord's rich festival, bathed in the golden powder called the dust of merit and drinking the beauty of the sweet-voiced women with their dark eyes, will gain a celestial form and shine.",
+   "concepts": [
+    "vazhipaadu",
+    "aram",
+    "inbam"
+   ],
+   "nuance": "The powder is called merit's dust (புண்ணியத் துகள்) and is literally the festival's gold; the gaze on women is part of the pleasure that earns heaven, which the epic voices without reproof here, though the same sarukkam turns to renunciation.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "townsfolk",
+     "form": "மாந்தர்",
+     "line": 1
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "rejoicing at the Lord's festival earns a heavenly body",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "1868": {
+   "reading": "At the proclamation by the great drum the city rejoices as though the sky-world had fallen to earth: people with jasmine garlands and smiling jewels fill every street, and the festival chariots go through every lane.",
+   "concepts": [
+    "vazhipaadu",
+    "arasu",
+    "naadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "townsfolk",
+     "form": "நகரங்",
+     "line": 2
+    }
+   ],
+   "event": "The drum is sounded and the whole city comes out adorned for the Lord's festival.",
+   "claims": []
+  },
+  "1869": {
+   "reading": "Hearing the sweet drum, the people of the city say that their long lives are secure and bless their lord, and with flowers, sandal, powder and incense rising they seem to have gained heaven.",
+   "concepts": [
+    "arasu",
+    "vazhipaadu",
+    "selvam"
+   ],
+   "nuance": "Whether நம் இறைவன் (our lord) is the king or the Jina is not fixed by the verse; both are possible, and the blessing's wish for long life reads with a sharp irony, since the king is moving toward renunciation.",
+   "uncertain": true,
+   "speaker": {
+    "who": "townsfolk",
+    "form": "மாந்தர்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "townsfolk",
+     "form": "மாந்தர்",
+     "line": 4
+    }
+   ],
+   "event": "The townspeople bless their lord on hearing the drum.",
+   "claims": []
+  },
+  "1870": {
+   "reading": "Golden festoons hung with full jars were raised, white banners pressed together, and the sound of drums and conches silenced the roar of the cloud-dark sea.",
+   "concepts": [
+    "vazhipaadu",
+    "naadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1871": {
+   "reading": "The streets, plastered with fragrance, are strewn with pearls and gems, and the bright city is like the golden world fallen to earth.",
+   "concepts": [
+    "selvam",
+    "vazhipaadu"
+   ],
+   "nuance": "The second and third lines are corrupt as printed (சிந்தினார் யினா லென்னையவ் ...), so who strews, and with what, is a reading from the first and last lines only.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "townsfolk",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The people strew pearls and gems on the festival streets.",
+   "claims": []
+  },
+  "1872": {
+   "reading": "The smoke of thick aloe rising over the jewelled mansions looks like young clouds resting on a bright hill.",
+   "concepts": [
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1873": {
+   "reading": "The people dress in white cloth, smear their bodies with white sandal, wear garlands of jasmine, and carry pearls, diamonds and other ornaments as their festival finery.",
+   "concepts": [
+    "selvam",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "townsfolk",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The townsfolk put on white clothes and ornaments for the festival.",
+   "claims": []
+  },
+  "1874": {
+   "reading": "Elephants with two white tusks carry lotus-flower offerings that dazzle the eye and rival the sky, and brahmins bearing them stand in order in a way that perplexes the earth.",
+   "concepts": [
+    "vazhipaadu",
+    "selvam"
+   ],
+   "nuance": "Lines 2 to 4 are hard to construe; brahmins here take part in a Jain-framed festival as bearers of offerings, a detail the verse states without comment.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "brahmins",
+     "form": "வேதியர்",
+     "line": 3
+    }
+   ],
+   "event": "Brahmins carry flower offerings on elephants in the procession.",
+   "claims": []
+  },
+  "1875": {
+   "reading": "Garlanded folk with red-flowered chaplets and gold necklaces, with sandal ground with saffron and bracelets flashing on their hands, wearing body-flowers and finery, become kings.",
+   "concepts": [
+    "selvam",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "festival_throng",
+     "form": "கண்ணியர்",
+     "line": 1
+    }
+   ],
+   "event": "The adorned throng stand dressed like kings.",
+   "claims": []
+  },
+  "1876": {
+   "reading": "People with blue-lily crowns and red robes of the same colour, their bodies red, appear on elephants mingled with flowers in their hands.",
+   "concepts": [
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "festival_throng",
+     "form": "சூட்டினர்",
+     "line": 1
+    }
+   ],
+   "event": "Crowned riders appear on elephants.",
+   "claims": []
+  },
+  "1877": {
+   "reading": "Folk in golden garlands scatter gold powder that gleams on their lightning-bright bodies, and the lords of the two treasures come in with soft flowers and ornaments.",
+   "concepts": [
+    "selvam",
+    "vazhipaadu"
+   ],
+   "nuance": "The 'lords of the two treasures' (இருநிதிக் கிழவர்) is taken as a title of the wealthy; the verse does not say whom it names.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "festival_throng",
+     "form": "கண்ணியர்",
+     "line": 1
+    },
+    {
+     "id": "festival_throng",
+     "form": "கிழவரீண்டினார்",
+     "line": 4
+    }
+   ],
+   "event": "The throng and the lords of the two treasures gather.",
+   "claims": []
+  },
+  "1878": {
+   "reading": "Wearers of yellow robes with bright golden jewels, carrying flower offerings, file on war-elephants with the women of full breasts, as they say.",
+   "concepts": [
+    "selvam",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "festival_throng",
+     "form": "வுடையர்",
+     "line": 1
+    }
+   ],
+   "event": "Yellow-robed men on war-elephants process with women.",
+   "claims": []
+  },
+  "1879": {
+   "reading": "As the city rises in uproar, with the conch and the drum sounding louder than the dark sea, the lord of the great army appears on a mountain-like elephant.",
+   "concepts": [
+    "arasu",
+    "padai",
+    "perumai"
+   ],
+   "nuance": "The rider is called செல்வன் without a name; he is taken as the king who ordered the festival in 1864.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "payapati",
+     "form": "செல்வன்",
+     "line": 4
+    }
+   ],
+   "event": "The king rides out on a great elephant at the head of his army.",
+   "claims": []
+  },
+  "1880": {
+   "reading": "Women with spear-bright eyes wave white chauris, and the king, in the shade of an umbrella with coral shaft and lord of the sea-girt earth, appears like a sea of horses surrounding him.",
+   "concepts": [
+    "arasu",
+    "selvam"
+   ],
+   "nuance": "The umbrella, chauris and army are the insignia of kingship, set out at full height here.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "attendant_women",
+     "form": "கண்ணியர்",
+     "line": 1
+    },
+    {
+     "id": "payapati",
+     "form": "காவலன்",
+     "line": 3
+    }
+   ],
+   "event": "The king appears under the white umbrella with fly-whisks waving.",
+   "claims": []
+  },
+  "1881": {
+   "reading": "The horses spread in all directions, and many rutting elephants with diamond tusks, spouting a rain of rut and blowing out the fire of anger, press together in many kinds.",
+   "concepts": [
+    "padai",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1882": {
+   "reading": "The instruments sounded, the elephants trumpeted, the chariots rolled, the many living things were covered by banners and the shower of flowers, and, they say, their deeds sweated and died.",
+   "concepts": [
+    "vinai",
+    "vazhipaadu",
+    "padai"
+   ],
+   "nuance": "The close reading of 'deeds sweated and perished' (வினைகள் வேர்த்தன விளிந்தன) is a figure of exhaustion and death; the verse puts it in the hearsay form என்ப, so the poet reports the claim without vouching for it in his own voice, and it turns on a rare word.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the sight of the Lord's festival and procession wears away the deeds of those who watch",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "1883": {
+   "reading": "On every side umbrellas of silver spread, and the fly-whisks waving in all directions look like the foam of the wide Milk Ocean rising in waves.",
+   "concepts": [
+    "selvam",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1884": {
+   "reading": "Fans of peacock feather and rounded screens hide the radiant one as they are set up, and the crowd finds no room to walk.",
+   "concepts": [
+    "arasu",
+    "selvam"
+   ],
+   "nuance": "The radiant one (ஒளியவன்) is taken as the sun, as the umbrellas and fans cover the sky; 1865 uses the same word for the Lord, so the pun may be intended or the reading may be wrong.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1885": {
+   "reading": "Fragrant sandal fills the censers and cool scent the incense boxes, and the flower-heaped baskets press close, one upon another.",
+   "concepts": [
+    "selvam",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1864,
+   "b": 1868,
+   "type": "develops",
+   "note": "1864 gives the order to sound the drum for the festival; 1868 shows the drum sounded and the whole city rising in joy.",
+   "teaches": "The order and its carrying out show a king's single word turning a whole city to festival, so his authority is shown at its greatest before the sarukkam's later turning away."
+  },
+  {
+   "a": 1867,
+   "b": 1882,
+   "type": "develops",
+   "note": "1867 promises the festival-goers a celestial form; 1882 shows the procession wearing their deeds away.",
+   "teaches": "The promised heaven of 1867 is fed by the dying of deeds in 1882, so the festival works as a means of release in the ledger of karma, not a mere celebration."
+  },
+  {
+   "a": 1869,
+   "b": "naladiyar:23",
+   "type": "qualifies",
+   "note": "1869's people hear the drum as the sign of a long life and a blessing; Naladiyar 23's wedding drums turn to funeral drums the same day.",
+   "teaches": "The same drum is a promise of long life in the epic's crowd and a warning of death in the quatrain, and the pair shows how a listener's state decides what it announces.",
+   "gains": {
+    "a": "The citizens' blessing gains a shadow of death that they do not see but the king, who has just asked whether anything beats Death, does.",
+    "b": "The quatrain gains a case in which the drum's joy is not reversed into mourning but turned to a king's resolve to leave."
+   }
+  },
+  {
+   "a": 1870,
+   "b": "kural:34",
+   "type": "qualifies",
+   "note": "1870 piles up festoons, banners, drums and conches that drown the sea; Kural 34 calls virtue the mind's spotlessness and the rest a noise (ஆகுலம்).",
+   "teaches": "The epic lingers on the din of worship while the couplet measures a rite by the mind within, so the pair asks whether the festival is aram or only clamour.",
+   "gains": {
+    "a": "The festival's din gains a standard the poet does not apply in this passage: the mind of the worshipper.",
+    "b": "The couplet gains a full, glittering example of outward worship against which its charge of mere noise can be tried."
+   }
+  },
+  {
+   "a": 1866,
+   "b": "kural:5",
+   "type": "qualifies",
+   "note": "1866 makes the Lord the foe of deluding deeds and rewards the festival's onlooker with the world of merit; Kural 5 says both kinds of deed do not cling to those who praise the Lord.",
+   "teaches": "The epic ends in merit's world, a reward the couplet's two-fold deeds would also refuse to cling to, so the pair shows two ways of reading what freedom from deeds amounts to.",
+   "gains": {
+    "a": "The promise of a world of merit gains the couplet's reminder that good deeds too are bonds to be shed.",
+    "b": "The couplet gains a public act, the royal festival, through which a community pays the Lord's praise."
+   }
+  },
+  {
+   "a": 1880,
+   "b": "naladiyar:3",
+   "type": "qualifies",
+   "note": "1880 sets the king under his umbrella with fly-whisks at the head of his army; Naladiyar 3 says those who rode in such state fall when deeds turn.",
+   "teaches": "The quatrain's fall of the umbrella-borne is forced by deeds, while the epic king's glittering display is the height from which he will walk away by choice.",
+   "gains": {
+    "a": "The parade gains the quatrain's warning that its splendour is borrowed from deeds that can turn.",
+    "b": "The quatrain gains a king whose descent is not a loss to enemies but a renunciation he has already chosen."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 1864 to 1867 were printed in eight half-lines and 1868 and 1869 likewise, and repaired into four lines by the build; read as four.",
+  "1871 lines 2 and 3 are corrupt as printed (சிந்தினார் யினா லென்னையவ் ...).",
+  "1863 line 2 names விசோதி, which is unclear as written.",
+  "1874, 1879 and 1882 carried a pulli after a vowel sign, repaired by the build."
+ ]
+}

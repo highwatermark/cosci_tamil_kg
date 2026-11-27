@@ -1,0 +1,819 @@
+{
+ "chapter_no": 84,
+ "chapter_theme": "The sage, answering King Payapati's turn to renunciation, describes the hells in detail: the matched tortures of adulterers, meat-eaters, slanderers and oppressors, then the doubling of pain, size and life span down the layers, and then who falls there.",
+ "cast": [
+  {
+   "id": "sage",
+   "tamil": "முனிவர்",
+   "role": "the sage who tells King Payapati of the hells, named only by his speech; the text of these verses gives no name"
+  },
+  {
+   "id": "hell_wardens",
+   "tamil": "நரகக் காவலர்",
+   "role": "the wardens of hell who inflict the torments, not named in the verses"
+  },
+  {
+   "id": "hell_dwellers",
+   "tamil": "நரகர்",
+   "role": "the beings suffering in hell"
+  },
+  {
+   "id": "payapati",
+   "tamil": "பயாபதி",
+   "role": "King Payapati, the sage's hearer, addressed by vocatives such as 'one with the jasmine garland'"
+  }
+ ],
+ "verses": {
+  "1932": {
+   "reading": "In the dark of night the guilty went to a neighbour's house and took pleasure there; in hell the wardens say 'see, this is she' and make them embrace figures of blazing fire set in copper heated to the red of coals.",
+   "concepts": [
+    "naragam",
+    "piranil",
+    "vinai"
+   ],
+   "nuance": "The punishment answers the offence in kind: the secret night-visit becomes a forced embrace, and the wardens' mocking 'see, this is she' repeats the lover's own pleasure back to him.",
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hell_wardens",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Hell's wardens make adulterers embrace fiery copper figures of women.",
+   "claims": [
+    {
+     "claim": "adultery with a neighbour's wife is repaid in hell by a matching embrace of fire",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1933": {
+   "reading": "Dogs the wardens have raised in cages for this purpose, with sharp claws and huge gaping mouths, tear at the victims, who scream and try to climb a tree built of thorns.",
+   "concepts": [
+    "naragam",
+    "vinai"
+   ],
+   "nuance": "The dogs are reared for the task, so the torment is an orderly institution, not the chance cruelty of passing demons.",
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hell_wardens",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Hell's dogs seize the victims, who flee up a thorn tree.",
+   "claims": []
+  },
+  "1934": {
+   "reading": "The wardens show the victims great lumps of flesh as the food they craved and, saying 'look at these', pour into their open mouths masses of copper that has drunk fire.",
+   "concepts": [
+    "naragam",
+    "pulaal",
+    "kollaamai"
+   ],
+   "nuance": "The offered 'flesh' is the bait the offender once craved, which makes the metal a grim parody of the meal.",
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hell_wardens",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Wardens force molten copper into the mouths of those who ate flesh.",
+   "claims": [
+    {
+     "claim": "those who killed and ate fish and flesh are made to swallow molten metal in hell",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1935": {
+   "reading": "Those who killed many deer and fawns and ate the meat are cut limb by limb and fed their own limbs by the wardens, in one quarter of hell.",
+   "concepts": [
+    "naragam",
+    "pulaal",
+    "kollaamai"
+   ],
+   "nuance": "The penalty reverses the act exactly: the eater becomes the carved animal and the food together.",
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hell_wardens",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Wardens carve meat-eaters limb by limb and feed them the pieces.",
+   "claims": [
+    {
+     "claim": "killing animals for meat is punished in hell by being carved and fed one's own flesh",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1936": {
+   "reading": "Those who used many words against the weak and, wanting their goods, punished them are beaten on their foul bodies with thorn clubs and tremble and roll, as the fruit of that wrong.",
+   "concepts": [
+    "naragam",
+    "vinai",
+    "kodungol"
+   ],
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hell_wardens",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Wardens beat with thorn clubs those who wronged the weak for their property.",
+   "claims": [
+    {
+     "claim": "robbing and oppressing the weak for their wealth is repaid with beating in hell",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1937": {
+   "reading": "Those who did hateful things and spoke slander against their betters have the tongue torn out with pincers, and diamond-hard thorns are driven under the nails of some.",
+   "concepts": [
+    "naragam",
+    "purangooral",
+    "nindhai"
+   ],
+   "nuance": "The word the verse uses for the slander (குறிப்பு) is a hint or insinuation, so even veiled speech is punished with the tongue.",
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hell_wardens",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Wardens pull out slanderers' tongues and drive thorns under their nails.",
+   "claims": [
+    {
+     "claim": "slandering those above one is repaid by tearing out the tongue",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1938": {
+   "reading": "Wardens roast the imprisoned in blazing fire, boil them in heated caustic, make many turn inside an oil-press mortar and flay the body, in one quarter of hell.",
+   "concepts": [
+    "naragam",
+    "kolai",
+    "vinai"
+   ],
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hell_wardens",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Wardens roast, boil, press and flay the hell-beings.",
+   "claims": []
+  },
+  "1939": {
+   "reading": "Wardens seize and tear, split chests with axes and impale on stakes quickly, and the sage tells the king, wearing great ornaments, that this is the fruit of their deeds.",
+   "concepts": [
+    "naragam",
+    "vinai",
+    "oozh"
+   ],
+   "nuance": "The last line turns a catalogue of cruelties into a verdict: no judge is named, only vinai ripening.",
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [
+    {
+     "id": "hell_wardens",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Wardens tear, split and impale the hell-beings while the sage names it the ripening of deeds.",
+   "claims": [
+    {
+     "claim": "the torments of hell are the ripening of the sufferers' own deeds",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1940": {
+   "reading": "Wardens seize the hands, cut off the fingers, scrape the body, crush the bones so that they fall apart, and hurl others down from a mountain.",
+   "concepts": [
+    "naragam",
+    "kolai"
+   ],
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hell_wardens",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Wardens maim the hell-beings and throw them from a mountain.",
+   "claims": []
+  },
+  "1941": {
+   "reading": "Hell-beings tortured by a terrible thirst cry for water; the wardens show them pools of rare poison, and they rush, drink, and cry out with rotting tongues.",
+   "concepts": [
+    "naragam",
+    "pasi",
+    "vinai"
+   ],
+   "nuance": "The relief offered is itself the harm: the pools are the form their thirst takes.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hell_wardens",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "hell_dwellers",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Wardens show poison pools to the thirsty, who drink and cry out.",
+   "claims": []
+  },
+  "1942": {
+   "reading": "Unable to bear the heat they run, and entering a long grove thinking it shade, fire-wind pours on their heads and they fall down burning.",
+   "concepts": [
+    "naragam",
+    "vinai"
+   ],
+   "nuance": "Shade is another false relief, like the pools of the previous verse.",
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hell_dwellers",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The hell-beings flee into a grove that burns them.",
+   "claims": []
+  },
+  "1943": {
+   "reading": "The sage tells the king, wearing a garland of jasmine buds, that in the first layer there are thousands of crores of sorrows, and that each lower layer holds twice that unbounded pain.",
+   "concepts": [
+    "naragam",
+    "vinai",
+    "marumai"
+   ],
+   "nuance": "The first-person 'I told' in the next verse shows that the whole description of the hells since 1932 is the sage's speech to the king.",
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [
+    {
+     "id": "sage",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sage tells Payapati that the pain of hell doubles with each lower layer.",
+   "claims": [
+    {
+     "claim": "the sorrows of hell double in each lower layer",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1944": {
+   "reading": "He says that he has told the span of the sufferers' fall, their order and other matters, doubling in each lower layer, leaving aside the one thing he calls shining knowledge.",
+   "concepts": [
+    "naragam",
+    "gnaanam"
+   ],
+   "nuance": "The last line seems to set aside a knowledge that only a knower can tell, but the grammar is doubtful.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sage",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the pain of the hells grows twofold in each lower layer",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1945": {
+   "reading": "The poison that is not rained, the great pits of fire, the pits no one dug and the ponds of foul water make such a stench that no other living thing survives within a yojana of the hell.",
+   "concepts": [
+    "naragam"
+   ],
+   "nuance": "The stench is described as a force that kills outsiders, which marks hell as a sealed region.",
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the stench of hell kills other living beings within a yojana around it",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1946": {
+   "reading": "The first layer's beings are given a measure in bows, cubits and fingers, and the beings of the lower layers grow larger without limit, to a size stated in yojanas and kavatams.",
+   "concepts": [
+    "naragam",
+    "yaakkai"
+   ],
+   "nuance": "The measures are stated in units whose reading is hard to fix.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the bodies of hell-beings are larger in each lower layer",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1947": {
+   "reading": "The lowest life span is ten thousand years, the longest life is the measure of the sea, and the life spans increase going down; the least in each lower layer is the greatest of the one above.",
+   "concepts": [
+    "naragam",
+    "aayul",
+    "kaalam"
+   ],
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the life span of hell-beings rises in each lower layer, each layer's minimum equalling the layer above's maximum",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1948": {
+   "reading": "The life spans are listed in sea-measures: three, seven, ten, seventeen, twenty-two and thirty-three, rising down the layers.",
+   "concepts": [
+    "naragam",
+    "aayul",
+    "kaalam"
+   ],
+   "nuance": "The list gives six figures, with the first layer's one sea measure implied.",
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "hell life spans rise by fixed sea-measures down the seven layers",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1949": {
+   "reading": "The foul-eared, bright-toothed wicked ones eat poison, and the others of the hell, kindling a fight for them to watch, crowd in, fall and suffer great pain.",
+   "concepts": [
+    "naragam",
+    "vinai"
+   ],
+   "nuance": "Some words (உடையந்தலி) are corrupt, so the exact sense of the first two lines is uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hell_wardens",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Hell's inhabitants are set to fight while others watch, and suffer.",
+   "claims": []
+  },
+  "1950": {
+   "reading": "They are cooked in fire but do not die, they lie in the mire and do not perish, they wander in smoke without rest, and their pitiable pain would make even a hunter with arrow and bow feel pity.",
+   "concepts": [
+    "naragam",
+    "vinai"
+   ],
+   "nuance": "The hunter who would pity is the very kind of killer that earlier verses of the list put in hell.",
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "hell-beings suffer without dying",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1951": {
+   "reading": "Asking who falls into the deep sorrow of that place, the sage answers the king, wearing a fresh garland, that it is those who give up their own wives and lie with other men's women with flowered hair.",
+   "concepts": [
+    "naragam",
+    "piranil",
+    "vinai"
+   ],
+   "nuance": "From here the sage turns from the torments to the sins that earn them.",
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [
+    {
+     "id": "sage",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "those who abandon their wives for other men's wives fall into hell",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1952": {
+   "reading": "Cruel-hearted people who love killing, and those with a cruel nature who take others' goods, will reach hell, the sage says to the king who struck down his foes.",
+   "concepts": [
+    "naragam",
+    "kolai",
+    "kalavu"
+   ],
+   "nuance": "The address to the king as one who felled enemies leaves open that the sage may point at the king's own acts.",
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [
+    {
+     "id": "sage",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "killing and taking others' property lead to hell",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1953": {
+   "reading": "Those who scorn good dharma, gather wealth with toil, and die hard-fisted without doing householder's dharma, and those who revile poets who do not take up petty dharma and do wrong from ignorance, are also in the list.",
+   "concepts": [
+    "naragam",
+    "eegai",
+    "aram"
+   ],
+   "nuance": "Householder's dharma is here a duty whose neglect is punished, not a lesser way next to renunciation.",
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sage",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "hoarding wealth without householder's giving leads to hell",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    },
+    {
+     "claim": "reviling poets and doing wrong through ignorance leads to hell",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  },
+  "1954": {
+   "reading": "The sage says the king has joined to the list the sea-dwelling fishers with boats and rafts who take life for bait, and those the king himself had punished.",
+   "concepts": [
+    "naragam",
+    "kolai",
+    "vinai"
+   ],
+   "nuance": "The last line may say that the king has already put such people in the same company as those he punished; it is unclear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sage",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [
+    {
+     "id": "sage",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "those who kill living beings for food from the sea fall into hell",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sage"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": 1939,
+   "b": 1851,
+   "type": "develops",
+   "note": "1851 says those who did evil take its seed and sow it and die wanting pleasure; 1939 shows the harvest as impalement and splitting, named the fruit of deeds.",
+   "teaches": "The king's earlier fear of sowing evil gets its full price here, where the sage's list shows what the sown seed becomes."
+  },
+  {
+   "a": 1939,
+   "b": "tirumanthiram:2544",
+   "type": "tension",
+   "note": "1939 gives hell as the ripening of the sufferers' own deeds with no one allotting it; Tirumanthiram 2544 says the Lord set hell and heaven for souls by grace.",
+   "teaches": "The same pain is explained once by deeds ripening and once by a lord's grace, which marks where the Jain and Saiva accounts of hell part.",
+   "gains": {
+    "a": "The sage's verdict gains a rival answer to who stands behind the ripening, which its last line leaves unnamed.",
+    "b": "The Tirumanthiram verse gains a picture of what hell contains and a cause in the sufferer's own deed, neither of which it gives."
+   }
+  },
+  {
+   "a": 1932,
+   "b": "civaka_cintamani:2769",
+   "type": "same_image",
+   "note": "Both make the adulterer embrace a figure of red-hot copper in hell.",
+   "teaches": "Two Jain epics share the same matched punishment, but only 1932 begins from the secret night-visit and the wardens' mocking words."
+  },
+  {
+   "a": 1932,
+   "b": "siddhar:450",
+   "type": "qualifies",
+   "note": "1932 stages lust's punishment as a forced embrace of fire; Siddhar 450 has the pit of hell say it will eat the lustful and the loins say they will ruin him.",
+   "teaches": "A Siddhar's warning in the speaker's own body becomes in the epic a scene of wardens and figures, so the same fear is placed inside and outside the sinner.",
+   "gains": {
+    "a": "The embrace of fire gains an inner meaning, that desire itself is what the pit feeds on.",
+    "b": "The Siddhar's threat gains a literal staging, in which the loins' ruin is acted out as an embrace."
+   }
+  },
+  {
+   "a": 1933,
+   "b": "civaka_cintamani:2767",
+   "type": "same_image",
+   "note": "Both set hell's dogs on the victims; 1933 adds that the wardens raised them in cages and that the victims flee up a tree of thorns.",
+   "teaches": "The dog and the thorn tree recur as fixed parts of the Jain hell, while 1933 shows the dogs as reared for the work."
+  },
+  {
+   "a": 1934,
+   "b": "civaka_cintamani:2768",
+   "type": "same_image",
+   "note": "Both feed flesh-eaters molten metal; the Cintamani calls them to come, 1934 shows them the 'flesh' first.",
+   "teaches": "The shared molten-metal meal marks flesh-eating as a fixed offence of the Jain hell, with 1934 adding the mocking offer of food."
+  },
+  {
+   "a": 1935,
+   "b": "kural:255",
+   "type": "develops",
+   "note": "1935 carves and feeds back to meat-eaters their own limbs; Kural 255 ties eating flesh to hell.",
+   "teaches": "The Kural's single claim about meat and hell becomes a punishment that mirrors the meal, limb for limb.",
+   "gains": {
+    "a": "The carved-and-fed vision gains a general rule that makes meat itself, not cruelty only, the ground of the penalty.",
+    "b": "The couplet gains a concrete form of the hell it names, in which the eater's own body becomes the dish."
+   }
+  },
+  {
+   "a": 1937,
+   "b": "kural:183",
+   "type": "develops",
+   "note": "1937 tears out the tongue of those who slander their betters; Kural 183 says death is better than living by backbiting and falsehood.",
+   "teaches": "The couplet's preference for dying over slander assumes death ends the matter; the epic says it does not and takes the tongue after death.",
+   "gains": {
+    "a": "The torn tongue gains an ethical comparison that sets the slanderer's life against death before any hell is shown.",
+    "b": "The couplet gains an afterlife in which the death it prefers is not an escape."
+   }
+  },
+  {
+   "a": 1941,
+   "b": "civaka_cintamani:2772",
+   "type": "same_image",
+   "note": "Both give the thirsty a false drink: poison pools here, water that turns to pus in the Cintamani.",
+   "teaches": "Relief that destroys the sufferer is a standing device of the Jain hell, shown with different liquids in each epic."
+  },
+  {
+   "a": 1946,
+   "b": "neelakesi:92",
+   "type": "agrees",
+   "note": "1946 gives the hell-beings' body size in a measure of bows and cubits; Neelakesi 92 gives the dark hells' beings as five hundred bows.",
+   "teaches": "Two Jain epics share a table of hell body-sizes, so 1946's hard measures may be read against the Neelakesi's figure."
+  },
+  {
+   "a": 1951,
+   "b": "naladiyar:84",
+   "type": "develops",
+   "note": "1951 names those who leave their wives for others' as falling into deep sorrow; Naladiyar 84 lists disgrace, a cut leg and long suffering in hell for the adulterer.",
+   "teaches": "Naladiyar counts the worldly penalties before hell; the epic puts only hell and gives the torment in detail.",
+   "gains": {
+    "a": "The adulterer's fate gains the earthly costs of disgrace and mutilation that the sage's hell leaves out.",
+    "b": "The quatrain gains the long torment that it names only as hell, shown in the verses before."
+   }
+  },
+  {
+   "a": 1951,
+   "b": "tirumanthiram:165",
+   "type": "tension",
+   "note": "1951 and the following verses give conduct as the ground of hell; Tirumanthiram 165 puts those who do not worship the Lord's form in the seventh hell.",
+   "teaches": "The sage's list of sins contains no failure of worship while Tirumular's contains little else, so the two define the sinner differently.",
+   "gains": {
+    "a": "The sage's conduct list gains a contrast in which hell's gate is worship, which none of its sins names.",
+    "b": "The Tirumanthiram verse gains a list of acts of harm and greed that earn hell without any lack of worship."
+   }
+  },
+  {
+   "a": 1953,
+   "b": "naladiyar:273",
+   "type": "develops",
+   "note": "1953 puts those who hoard without householder's dharma and die hard-fisted in hell; Naladiyar 273 says the hoarder is laughed at by his own wealth.",
+   "teaches": "The miser is mocked in life by the wealth he stored and punished after death for it, two sanctions for one fault.",
+   "gains": {
+    "a": "The hell verse gains the earthly shame of the miser, which it omits.",
+    "b": "The quatrain gains the afterlife penalty it does not mention."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "1941 line 1 has an unclear bracketed ending in பெரிது.",
+  "1946 line 1 (எழுவின்) and line 4 (முக்காவதமே) are hard to read, so the size figures are uncertain.",
+  "1949 lines 1-2 contain words that look corrupt (உடையந்தலி).",
+  "1954 lines 3-4 are hard to construe.",
+  "The speaker is not named in these verses: the sage's identity and the start of his speech come from the earlier verses, which are not in this chapter."
+ ]
+}

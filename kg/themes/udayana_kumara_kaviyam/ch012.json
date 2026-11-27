@@ -1,0 +1,688 @@
+{
+ "chapter_no": 12,
+ "chapter_theme": "Udayanan rewards his ministers, receives Pradyotan's letter owning the snare and asking pardon, sends Yugi to Ujjain where he is honoured and married to two brides, and returns to watch a ball-play at court.",
+ "cast": [
+  {
+   "id": "udayanan",
+   "tamil": "உதயணன்",
+   "role": "the king of Vatsa"
+  },
+  {
+   "id": "vasavadatta",
+   "tamil": "வாசவதத்தை",
+   "role": "Pradyotan's daughter and Udayanan's queen"
+  },
+  {
+   "id": "yugi",
+   "tamil": "யூகி",
+   "role": "Udayanan's chief minister"
+  },
+  {
+   "id": "urumannuvan",
+   "tamil": "உருமண்ணு",
+   "role": "Udayanan's minister, given the army"
+  },
+  {
+   "id": "pradyotan",
+   "tamil": "பிரச்சோதனன்",
+   "role": "the king of Ujjain"
+  },
+  {
+   "id": "pradyotan_thoothar",
+   "tamil": "தூதர்",
+   "role": "the envoys who bring Pradyotan's letter"
+  },
+  {
+   "id": "pradyotan_aal",
+   "tamil": "காவலர்",
+   "role": "the guards who took Udayanan"
+  },
+  {
+   "id": "salankayan",
+   "tamil": "சாலங்காயன்",
+   "role": "Pradyotan's minister"
+  },
+  {
+   "id": "ujjai_people",
+   "tamil": "நகரத்தார்",
+   "role": "the people of Ujjain who hear the drum"
+  },
+  {
+   "id": "chitra_pavai",
+   "tamil": "சித்திரப் பாவை மார்கள்",
+   "role": "ladies of Udayanan's court"
+  },
+  {
+   "id": "vanapirasanai",
+   "tamil": "வனப்பிராசனை",
+   "role": "Padumai's friend who plays at ball"
+  },
+  {
+   "id": "kanchanamalai",
+   "tamil": "காஞ்சன மாலை",
+   "role": "a lady who arrives after the ball-play"
+  }
+ ],
+ "verses": {
+  "205": {
+   "reading": "Wreaths and perfumed powder fall in disorder as Udayanan, steeped in love, holds Vasavadatta close and, kind and faultless, governs with a straight sceptre.",
+   "concepts": [
+    "kaamam",
+    "sengol",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vasavadatta",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Udayanan lives in love with Vasavadatta and rules justly.",
+   "claims": []
+  },
+  "206": {
+   "reading": "The king gives a ring bearing his own name and the post of army chief to Urumannuvan, and gives a woman named in the verse in marriage at a fair sacrifice; the last line is hard to read.",
+   "concepts": [
+    "eegai",
+    "vendhan",
+    "padai"
+   ],
+   "nuance": "The woman given in marriage in line 4 is named only by a word the verse does not make clear, and the giver of the bride may be Padumai's friend named in line 3.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "urumannuvan",
+     "form": "னுருமண்ணு",
+     "line": 2
+    }
+   ],
+   "event": "Udayanan rewards Urumannuvan with a ring and the command of the army.",
+   "claims": []
+  },
+  "207": {
+   "reading": "Udayanan gives the cities Jayanti and Ilavanam, the rich land round Pushpakam and fifty more, and eighteen towns to Vayantakan.",
+   "concepts": [
+    "eegai",
+    "vendhan",
+    "nanri"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Udayanan rewards Vayantakan and others with towns and lands.",
+   "claims": []
+  },
+  "208": {
+   "reading": "He gives the Cheti country, once set by his uncle as a tribute-paying land, to Yugi, and with clever counsel leaves the other towns free and sits in glory.",
+   "concepts": [
+    "eegai",
+    "arasu",
+    "soozhchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "yugi",
+     "form": "யூகிக்",
+     "line": 2
+    }
+   ],
+   "event": "Udayanan gives the Cheti country to Yugi and rules in peace.",
+   "claims": []
+  },
+  "209": {
+   "reading": "Envoys of the great Pradyotan arrive and show his letter; Udayanan, glad, asks that the message be read, with Vasavadatta and his ministers beside him.",
+   "concepts": [
+    "thoothu",
+    "amaichu",
+    "kelvi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pradyotan_thoothar",
+     "form": "சோதனன்",
+     "line": 1
+    },
+    {
+     "id": "udayanan",
+     "form": "வந்தவன்",
+     "line": 2
+    },
+    {
+     "id": "vasavadatta",
+     "form": "வாசவ",
+     "line": 3
+    }
+   ],
+   "event": "Pradyotan's envoys bring a letter, and Udayanan has it read before Vasavadatta and his ministers.",
+   "claims": []
+  },
+  "210": {
+   "reading": "The letter, in Pradyotan's name, greets the king and says that, wishing to win the generosity of the Kuru line, he had set a cunning elephant in the mountain forest.",
+   "concepts": [
+    "vanjam",
+    "thoothu",
+    "mannar"
+   ],
+   "nuance": "Here the king of Ujjain himself owns to the trick that Yugi's counsel had once matched with a false elephant of its own; the letter treats it as a way of winning a worthy man.",
+   "speaker": {
+    "who": "pradyotan",
+    "form": "பிரச்சோத னன்றா",
+    "line": 1,
+    "addressee": "udayanan"
+   },
+   "agents": [
+    {
+     "id": "pradyotan",
+     "form": "பிரச்சோத னன்றா",
+     "line": 1
+    }
+   ],
+   "event": "Pradyotan's letter admits that the elephant in the forest was his snare.",
+   "claims": []
+  },
+  "211": {
+   "reading": "The letter goes on: the guards who came to see the thing seized you with spider's thread like a lion, set you on a chariot and shut you in the prison; pardon the fault.",
+   "concepts": [
+    "vanjam",
+    "thoothu",
+    "panivu"
+   ],
+   "nuance": "The speaker is carried on from verse 210; the verse itself does not name him.",
+   "speaker": {
+    "who": "pradyotan",
+    "form": null,
+    "line": null,
+    "addressee": "udayanan"
+   },
+   "agents": [
+    {
+     "id": "pradyotan_aal",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The letter admits Udayanan's seizure and imprisonment and asks pardon.",
+   "claims": []
+  },
+  "212": {
+   "reading": "The letter asks to be taken as lord, pleads the tie of uncle and nephew, asks that Yugi be sent so that the writer may see him, and Udayanan hears the sealed message.",
+   "concepts": [
+    "natpu",
+    "sutram",
+    "thoothu"
+   ],
+   "nuance": "The first line is hard to construe, and it is not clear whether the writer asks to be taken as king or as kin.",
+   "uncertain": true,
+   "speaker": {
+    "who": "pradyotan",
+    "form": null,
+    "line": null,
+    "addressee": "udayanan"
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Udayanan hears the end of the letter, which asks him to send Yugi.",
+   "claims": []
+  },
+  "213": {
+   "reading": "At the king's sending Yugi goes to Ujjain and bows to its king; the king nods his crowned head, looks long at the minister and speaks words of joy.",
+   "concepts": [
+    "thoothu",
+    "amaichu",
+    "panivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "மன்னவ",
+     "line": 1
+    },
+    {
+     "id": "yugi",
+     "form": "யூகி",
+     "line": 1
+    },
+    {
+     "id": "pradyotan",
+     "form": "மன்னனு",
+     "line": 3
+    }
+   ],
+   "event": "Yugi, sent by Udayanan, goes to Ujjain and is greeted gladly by Pradyotan.",
+   "claims": []
+  },
+  "214": {
+   "reading": "The king bids a drum be sounded through the city: Ujjain and Kausambi are two cities of one earth and he wants no distinction made between them.",
+   "concepts": [
+    "arasu",
+    "natpu",
+    "samanilai"
+   ],
+   "speaker": {
+    "who": "pradyotan",
+    "form": "வேந்தன்",
+    "line": 4,
+    "addressee": "ujjai_people"
+   },
+   "agents": [
+    {
+     "id": "pradyotan",
+     "form": "வேந்தன்",
+     "line": 4
+    }
+   ],
+   "event": "Pradyotan has it proclaimed by drum that Ujjain and Kausambi are not to be distinguished.",
+   "claims": []
+  },
+  "215": {
+   "reading": "Yugi speaks lovingly of dharma texts with Salankayan; the king, finding such a man hard to get, rejoices in the minister.",
+   "concepts": [
+    "kalvi",
+    "amaichu",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": "யூகி",
+     "line": 2
+    },
+    {
+     "id": "salankayan",
+     "form": "சாலங் காயனோ",
+     "line": 1
+    },
+    {
+     "id": "pradyotan",
+     "form": "வேந்தனும்",
+     "line": 3
+    }
+   ],
+   "event": "Yugi and Salankayan talk of dharma texts and Pradyotan is pleased with Yugi.",
+   "claims": []
+  },
+  "216": {
+   "reading": "The king declares that Yugi's breadth, his pleasant look, his subtle counsel and the firmness of his word are such that no other man can match him, and his virtue has no bound.",
+   "concepts": [
+    "amaichu",
+    "arivu",
+    "pugazh"
+   ],
+   "speaker": {
+    "who": "pradyotan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pradyotan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Pradyotan praises Yugi as unmatched among men.",
+   "claims": []
+  },
+  "217": {
+   "reading": "The king, pleased, speaks of the rule fit for those who have such a man and adds that without such men there is no kingship.",
+   "concepts": [
+    "arasu",
+    "amaichu",
+    "thunai"
+   ],
+   "nuance": "The king who says this had been the captor of Yugi's lord, and the work lets him say it as praise of the man who has just outwitted him.",
+   "speaker": {
+    "who": "pradyotan",
+    "form": "மன்னவ",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pradyotan",
+     "form": "மன்னவ",
+     "line": 4
+    }
+   ],
+   "event": "Pradyotan tells Yugi that a king's rule rests on ministers like him.",
+   "claims": [
+    {
+     "claim": "a kingdom cannot stand without able counsellors",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "pradyotan"
+    }
+   ]
+  },
+  "218": {
+   "reading": "The verse names Salankayan's sister, a woman with a crescent brow, spear-sharp eyes and fine teeth, called Aappi, as one of the brides; the grammar runs into the next verse.",
+   "concepts": [
+    "azhagu",
+    "sutram",
+    "ilvaazhkkai"
+   ],
+   "nuance": "The sentence is not complete until verse 219, and her name is not certain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Salankayan's sister is named as one of the brides to be given to Yugi.",
+   "claims": []
+  },
+  "219": {
+   "reading": "The king gives Yugi in marriage Tilakasenai, sister of Paratakan, praised through the land, together with Salankayan's sister, in a wedding the wide earth hears of.",
+   "concepts": [
+    "ilvaazhkkai",
+    "eegai",
+    "natpu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pradyotan",
+     "form": "கரசன்",
+     "line": 4
+    },
+    {
+     "id": "yugi",
+     "form": "யூகிக்",
+     "line": 4
+    }
+   ],
+   "event": "Pradyotan gives two brides to Yugi in marriage.",
+   "claims": []
+  },
+  "220": {
+   "reading": "The king bids him go and walk the old city first and sends him off; the many people praise and bow, and Yugi goes and sees his king.",
+   "concepts": [
+    "panivu",
+    "amaichu",
+    "pugazh"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pradyotan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "yugi",
+     "form": "யூகி",
+     "line": 4
+    }
+   ],
+   "event": "Pradyotan lets Yugi go, and Yugi returns to Udayanan.",
+   "claims": []
+  },
+  "221": {
+   "reading": "Yugi bows to the prince's feet and tells him his uncle's fitting words, and as the king sits glad the picture-like ladies bow before him and are about to speak.",
+   "concepts": [
+    "panivu",
+    "amaichu",
+    "anbu"
+   ],
+   "nuance": "The e-text prints this verse without its number.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": "மைச்சன்",
+     "line": 1
+    },
+    {
+     "id": "udayanan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "chitra_pavai",
+     "form": "சித்திரப் பாவை மார்கள்",
+     "line": 4
+    }
+   ],
+   "event": "Yugi reports Pradyotan's words to Udayanan, and the court ladies come to him.",
+   "claims": []
+  },
+  "222": {
+   "reading": "The king, glad, mounts an elephant to watch the ball-play and the ball contest while the ladies stand round him, and Vanapirasanai, Padumai's friend, comes.",
+   "concepts": [
+    "kalai",
+    "inbam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "பார்த்திப",
+     "line": 1
+    },
+    {
+     "id": "chitra_pavai",
+     "form": "மாதர்",
+     "line": 3
+    },
+    {
+     "id": "vanapirasanai",
+     "form": "வனப்பிரா சனை",
+     "line": 4
+    }
+   ],
+   "event": "Udayanan watches ball-play, and Vanapirasanai arrives.",
+   "claims": []
+  },
+  "223": {
+   "reading": "She keeps seven balls going, each thrown up in turn, while dust rises, ornaments ring and her thousand strokes end; then Kanchanamalai, dark of hair, comes.",
+   "concepts": [
+    "kalai",
+    "azhagu",
+    "inbam"
+   ],
+   "nuance": "Line 3 is hard, and it is not sure whether she or her hands stop the play before Kanchanamalai steps in.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vanapirasanai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kanchanamalai",
+     "form": "காஞ்சன மாலை",
+     "line": 4
+    }
+   ],
+   "event": "Vanapirasanai plays with seven balls, and Kanchanamalai arrives to take her turn.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 210,
+   "b": 39,
+   "type": "develops",
+   "note": "The letter owns the elephant that Pradyotan's side made in verse 39.",
+   "teaches": "Pradyotan's own letter turns the trap of verse 39 into an offer of kinship, which shows how a captor explains his trick afterwards."
+  },
+  {
+   "a": 211,
+   "b": 60,
+   "type": "same_image",
+   "note": "Both verses use the lion bound in a spider's thread for Udayanan's capture.",
+   "teaches": "The image first comes in Vayantakan's report of the capture and returns in the captor's own letter, so the same fall is told once by the losers and once by the winner."
+  },
+  {
+   "a": 211,
+   "b": 57,
+   "type": "develops",
+   "note": "The letter looks back at the seizure of the garlanded king in verse 57.",
+   "teaches": "The capture shown in battle is later acknowledged as a fault to be pardoned, which is not said in the fight itself."
+  },
+  {
+   "a": 219,
+   "b": 66,
+   "type": "tension",
+   "note": "Yugi swore in verse 66 to destroy Ujjain, and in this verse its king gives him two brides.",
+   "teaches": "The vow of vengeance ends in a marriage gift from the enemy, so the plan to destroy is replaced by a bond of kin."
+  },
+  {
+   "a": 215,
+   "b": 41,
+   "type": "develops",
+   "note": "Salankayan, who showed the false elephant in verse 41, now speaks of dharma texts with Yugi.",
+   "teaches": "The minister who ran the trap is now Yugi's friend in learning, so the quarrel is shown to end between ministers before it ends between kings."
+  },
+  {
+   "a": 207,
+   "b": "kural:385",
+   "type": "develops",
+   "note": "Udayanan divides towns among those who served him; the couplet names apportioning as one of a king's tasks.",
+   "teaches": "The poem shows apportioning as reward to friends who risked themselves for the king, which the couplet names without saying to whom the share goes.",
+   "gains": {
+    "a": "the grants of towns are seen as the king's last duty of rule and not as favour alone",
+    "b": "the couplet's word for apportioning gets a scene where the shares go to those who served in the captivity"
+   }
+  },
+  {
+   "a": 211,
+   "b": "kural:685",
+   "type": "qualifies",
+   "note": "The letter softens the wrong of the seizure with words of pardon; the couplet asks the envoy to remove what offends.",
+   "teaches": "A letter that must confess a seizure can keep to the couplet's rule of avoiding offence only by naming the fault and asking for pardon in the same breath.",
+   "gains": {
+    "a": "the letter's gentle admission of fault is seen as the envoy's craft of removing offence",
+    "b": "the couplet is tried against a message that carries a fault of the sender, where removing offence is hard"
+   }
+  },
+  {
+   "a": 212,
+   "b": "kural:698",
+   "type": "qualifies",
+   "note": "Pradyotan pleads the tie of uncle and nephew; the couplet tells a man not to presume on kin degree with a king.",
+   "teaches": "Here the stronger party pleads kinship and not the lesser, which shows the couplet's warning running the other way once the king has wronged his kinsman.",
+   "gains": {
+    "a": "the plea of kin is seen as a way to cover a wrong and not as a sign of equal standing",
+    "b": "the couplet is tested where the one pressing kin degree is the king himself"
+   }
+  },
+  {
+   "a": 217,
+   "b": "kural:445",
+   "type": "qualifies",
+   "note": "The king says that without such counsellors there is no kingship; the couplet makes counsellors the king's eyes.",
+   "teaches": "The couplet asks the king to choose counsellors after counsel, but the verse shows a king recognising the worth of a minister who had worked against him.",
+   "gains": {
+    "a": "the king's praise of Yugi gets a rule that counsellors are his eyes, which makes the praise a statement of need",
+    "b": "the couplet gets a case where the counsellor praised belongs to the other side and has beaten the praiser"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 221: the e-text prints the verse without its number; it stands between 220 and 222.",
+  "Verse 206 line 4: the bride's name and who gives her are not clear.",
+  "Verse 212 line 1: the sense of கோடல் is doubtful.",
+  "Verse 218: the sister's name is doubtful and the sentence runs into verse 219.",
+  "Verse 223 line 3: hard to read."
+ ]
+}

@@ -1,0 +1,595 @@
+{
+ "chapter_no": 88,
+ "chapter_theme": "In the Renunciation sarukkam the teacher tells the king of the land of enjoyment where twin children grow, meet, unite and rise to heaven after their span, and then lists the four orders of gods: Bhavana, Vyantara, Jyotishka and the kalpa heavens.",
+ "cast": [
+  {
+   "id": "sage_teacher",
+   "tamil": "முனிவர்",
+   "role": "the unnamed teacher who speaks of the lands of enjoyment and the orders of gods to the king"
+  },
+  {
+   "id": "payapati",
+   "tamil": "பயாபதி",
+   "role": "King Payapati, the addressee of the teaching (வேலோய்)"
+  },
+  {
+   "id": "maiden_pair",
+   "tamil": "கன்னி",
+   "role": "the girl born in the enjoyment land"
+  },
+  {
+   "id": "youth_pair",
+   "tamil": "காளை",
+   "role": "the boy born with her in the enjoyment land"
+  }
+ ],
+ "verses": {
+  "2024": {
+   "reading": "The teacher tells the spear-bearing king that the best, the middle and the lowest ranks of beings are three, and that each one's way of life follows the fruit of the good deeds it did.",
+   "concepts": [
+    "vinai",
+    "perumai"
+   ],
+   "nuance": "Line 3 names some tenfold deed or tree (பத்துவகை பாதவம்) whose fruit sets the rank; the sense of 'ten kinds of tree' is not fixed, so the reading keeps only that rank follows earlier merit.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the three ranks of beings, best, middle and lowest, are the fruit of the good done before",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sage_teacher"
+    }
+   ]
+  },
+  "2025": {
+   "reading": "The teacher says that to tell the ways of the pair of couples there, the king should think of the two pairs here, who with their parents are raised by two gods.",
+   "concepts": [
+    "makkal",
+    "vinai"
+   ],
+   "nuance": "The grouping of the 'two pairs', the 'parents' and the 'two gods' (lines 3-4) cannot be fixed from this verse alone; it opens the account of birth in the land of enjoyment.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2026": {
+   "reading": "When the forty-nine days of the laughing infant stage are complete, the pair become bright-bodied and reach the proper youth.",
+   "concepts": [
+    "ilamai",
+    "kaalam"
+   ],
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": "The twin children of the enjoyment land pass their forty-nine days of infancy and reach youth.",
+   "claims": []
+  },
+  "2027": {
+   "reading": "The girl grows into full maidenhood: slender waist swaying, breasts swelling, coral-red lips and bright teeth.",
+   "concepts": [
+    "azhagu",
+    "ilamai"
+   ],
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [
+    {
+     "id": "maiden_pair",
+     "form": "மேனியவள்",
+     "line": 4
+    }
+   ],
+   "event": "The girl of the enjoyment land reaches full maidenhood.",
+   "claims": []
+  },
+  "2028": {
+   "reading": "The boy likewise comes into his fullness: dark hair, a lotus face, and a body like a jewelled mountain smeared with saffron.",
+   "concepts": [
+    "azhagu",
+    "ilamai"
+   ],
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [
+    {
+     "id": "youth_pair",
+     "form": "காளை",
+     "line": 4
+    }
+   ],
+   "event": "The boy of the enjoyment land reaches full youth.",
+   "claims": []
+  },
+  "2029": {
+   "reading": "Adorned with flowers and wishing-tree shoots, her gold ear-coils flashing, the girl enters the flowering garden.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [
+    {
+     "id": "maiden_pair",
+     "form": "கோதையவள்",
+     "line": 4
+    }
+   ],
+   "event": "The girl, adorned, enters the flowering garden.",
+   "claims": []
+  },
+  "2030": {
+   "reading": "The lord, shoulders like coral hills and ornaments gleaming, comes into the same garden like a rutting elephant.",
+   "concepts": [
+    "azhagu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [
+    {
+     "id": "youth_pair",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The young man comes into the garden where the girl is.",
+   "claims": []
+  },
+  "2031": {
+   "reading": "The young man's eyes and the girl's eyes, like lotus-petal and dark water-lily, come together and press against each other.",
+   "concepts": [
+    "kaamam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [
+    {
+     "id": "youth_pair",
+     "form": "காளை",
+     "line": 1
+    },
+    {
+     "id": "maiden_pair",
+     "form": "கன்னியவள்",
+     "line": 1
+    }
+   ],
+   "event": "The eyes of the youth and the maiden meet.",
+   "claims": []
+  },
+  "2032": {
+   "reading": "The girl's four womanly qualities and the youth's four manly qualities fall away at once; the two draw near and melt together, which the teacher calls the way of fate.",
+   "concepts": [
+    "kaamam",
+    "oozh"
+   ],
+   "nuance": "The 'four qualities' of each are not listed here, but their loss is the reason for the union; fate (விதி) is given as the cause, not choice or marriage.",
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [
+    {
+     "id": "maiden_pair",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "youth_pair",
+     "form": "காளையிவன்",
+     "line": 2
+    }
+   ],
+   "event": "The pair lose their reserve and unite.",
+   "claims": [
+    {
+     "claim": "the union of the pair follows the course of fate",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage_teacher"
+    }
+   ]
+  },
+  "2033": {
+   "reading": "From that day on, for three palla spans of life, they enjoy desire without a break like the gods, and this the teacher says is the whole of the life the shadow of which is their merit.",
+   "concepts": [
+    "inbam",
+    "kaamam"
+   ],
+   "nuance": "Lines 3-4 are hard to construe; the verse says only that the long pleasure is a standing life 'like a shadow' of their earlier deed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [
+    {
+     "id": "maiden_pair",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "youth_pair",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The pair enjoy unbroken pleasure for their life span.",
+   "claims": []
+  },
+  "2034": {
+   "reading": "There is no night, no quarrel, no suffering for them; the pleasure they eat through their days is the fruit of what they gave to austere kings.",
+   "concepts": [
+    "inbam",
+    "thavam"
+   ],
+   "nuance": "Gift to ascetic kings (தவத்தரசர்க்கு ஈந்த) is named as the cause of the enjoyment-land birth, so the pleasure is itself a reward for renunciation's patrons.",
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "what is given to ascetics bears the fruit of painless pleasure in the next birth",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage_teacher"
+    }
+   ]
+  },
+  "2035": {
+   "reading": "After enjoying the pleasures and completing the three palla spans, they look upon their descendants and rise to the heavenly world.",
+   "concepts": [
+    "kootru",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": "The pair complete their span, look at their children, and go up to the world of the gods.",
+   "claims": [
+    {
+     "claim": "the pair of the enjoyment land end their life and rise to heaven",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage_teacher"
+    }
+   ]
+  },
+  "2036": {
+   "reading": "The teacher lists how those of one, two and three palla portions, in order, go to the lands, times and heights they have earned, and says the whole account is too long to give.",
+   "concepts": [
+    "kaalam",
+    "vinai"
+   ],
+   "nuance": "The terms palla and the numbered portions (lines 1-2) are rare technical words; the sense is that the length of life and the later rise are graded by merit.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2037": {
+   "reading": "Their bodies are like red coral, white crystal and green sprout, and their scent is like the scent of champak, jasmine and kongu blossoms.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2038": {
+   "reading": "Beasts and birds born in the enjoyment land, when they leave their bodies, also rise to the kalpa world of the gods.",
+   "concepts": [
+    "vinai",
+    "piravi"
+   ],
+   "nuance": "Even animals are drawn into the ladder of merit, which differs from the Naladiyar's picture where a beast's birth is a mark of fall.",
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": "Animals of the enjoyment land die and rise to the kalpa heaven.",
+   "claims": [
+    {
+     "claim": "beasts and birds born in the enjoyment land also rise to heaven",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage_teacher"
+    }
+   ]
+  },
+  "2039": {
+   "reading": "The teacher says that the gods' ways are hard to tell even for gods, but he will speak them briefly, since they spread out in four kinds.",
+   "concepts": [
+    "kaalam"
+   ],
+   "nuance": "The speaker marks his own account as a short one of something hard to say, and opens the list of the gods.",
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the gods are of four kinds",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sage_teacher"
+    }
+   ]
+  },
+  "2040": {
+   "reading": "He names the four orders of gods: the ten Bhavanas, the eight Vyantaras, the five Jyotishkas and the sixteen kalpa gods, who are without end in this world.",
+   "concepts": [
+    "perumai"
+   ],
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the gods are ten Bhavana, eight Vyantara, five Jyotishka and sixteen kalpa",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "sage_teacher"
+    }
+   ]
+  },
+  "2041": {
+   "reading": "Above those he names are nine and nine upper gods, and above them eight kinds, and the teacher says they have no sickness, anger or enmity.",
+   "concepts": [
+    "perumai",
+    "thavam"
+   ],
+   "nuance": "The tally of the upper ranks (lines 1-3) is hard to fix; the verse stands as a rough ladder of higher heavens.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the upper gods are free of sickness, anger and enmity",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sage_teacher"
+    }
+   ]
+  },
+  "2042": {
+   "reading": "The ten Bhavana lords wear crowns of a thousand hoods set with jewels, some with flaming hair, and live in dwellings of gem-bright halls.",
+   "concepts": [
+    "azhagu",
+    "perumai"
+   ],
+   "nuance": "A word in line 3 (கெளாண்) looks corrupt and the sentence is left loosely read.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2043": {
+   "reading": "Of the Vyantaras, beginning with the Kinnaras, some live in the world of men, hear the sound of soft strings, watch the god-possession rites, and bow to kings.",
+   "concepts": [
+    "kurippu"
+   ],
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2044": {
+   "reading": "The Vyantaras show themselves or hide, dwell in mountains, groves, tanks, islands, seas and cities, and are many.",
+   "concepts": [
+    "idam"
+   ],
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2045": {
+   "reading": "The Jyotishkas are the moons and suns, the stars and constellations and the fierce planets, who circle Mount Meru in the sky, some moving and some fixed.",
+   "concepts": [
+    "aakaasam",
+    "kaalam"
+   ],
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2046": {
+   "reading": "The three kinds of gods with their wives lit the lamp of right faith; those who do not reach it do not, but those who kept good vows shine in the company.",
+   "concepts": [
+    "thavam",
+    "aram"
+   ],
+   "nuance": "The first lines name the gods only as 'three' and the second half is hard to attach, so the reading is tentative.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sage_teacher",
+    "form": null,
+    "line": null,
+    "addressee": "payapati"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "right faith and good vows lead to merit and a place among the gods",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sage_teacher"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": "2024",
+   "b": "kural:37",
+   "type": "develops",
+   "note": "2024 ranks beings best, middle and lowest by the fruit of earlier good deeds; Kural 37 points to the bearer and the rider of a palanquin as the visible proof of virtue's fruit.",
+   "teaches": "Rank that Kural 37 reads from one palanquin is stretched in 2024 into a ladder of births, so one visible difference becomes a whole order of worlds.",
+   "gains": {
+    "a": "The ranking of beings gets a plain proof from daily sight, the palanquin, in place of a bare claim about the fruit of deeds.",
+    "b": "The couplet gains a longer horizon: the difference it sees between rider and bearer is only the near end of a graded series of births."
+   }
+  },
+  {
+   "a": "2031",
+   "b": "kural:1082",
+   "type": "same_image",
+   "note": "2031 has the youth's lotus-like eyes and the girl's blue-lily eyes meet and press; Kural 1082 has the girl's answering look strike like an army.",
+   "teaches": "The same meeting of eyes is a fated, gentle union in the enjoyment land but a conquest in the Kural's world of passion.",
+   "gains": {
+    "a": "The meeting look gains the sense of an attack that ends the other's resistance, which the epic's soft image of lilies leaves out.",
+    "b": "The couplet gains a setting where the look leads to fulfilment with no cost and no shame, unlike the pain the Kural's lover goes on to feel."
+   }
+  },
+  {
+   "a": "2033",
+   "b": "naladiyar:16",
+   "type": "tension",
+   "note": "2033 gives the pair unbroken pleasure for their whole span; Naladiyar 16 says the joy of youth is fleeting like the lamb eating the garland before the slaughter.",
+   "teaches": "The epic can promise pleasure that lasts a full span only by moving it out of this world, which is exactly what the Naladiyar's warning denies is possible here.",
+   "gains": {
+    "a": "The long pleasure gains a warning that without a world apart it would end as the lamb's does, which the verse's calm account does not say.",
+    "b": "The quatrain gains a counter-picture: a place where youth's joy is not a trap, though it too ends in the next verses with the pair's rise."
+   }
+  },
+  {
+   "a": "2034",
+   "b": "kural:42",
+   "type": "develops",
+   "note": "2034 says the painless pleasure is the fruit of what was given to austere kings; Kural 42 makes the householder the support of those who have let go.",
+   "teaches": "A householder's gift to renouncers, a duty in the Kural, is shown in the epic as the cause of a later birth in a land of ease.",
+   "gains": {
+    "a": "The pleasure gains a stated cause in an act of giving that any householder can do now, not only in a distant rank of merit.",
+    "b": "The couplet gains a reward beyond the support of the renouncer: the giver's next birth, which the couplet leaves unsaid."
+   }
+  },
+  {
+   "a": "2038",
+   "b": "2035",
+   "type": "develops",
+   "note": "2035 has the human pair rise to heaven after their span; 2038 says the beasts and birds of the same land rise to the kalpa world as well.",
+   "teaches": "The rise of the pair is not a human privilege: the land's own merit carries even its animals up, so the climb belongs to the place."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 2024 to 2046 carry no build flags; 2033, 2036, 2041 and 2042 turn on rare technical words (palla) or a likely corrupt word (கெளாண் in 2042 line 3) and are marked uncertain.",
+  "The speaker, a teacher addressing the king (வேலோய், 2024 and 2036), is not named in these verses; the 'sage_teacher' is inferred from the closing of the previous chapter's call to seek the sages."
+ ]
+}

@@ -1,0 +1,726 @@
+{
+ "chapter_no": 7,
+ "chapter_theme": "The sage's prophecy to Jayavarma that his sons will serve another comes true when they leave home and join Naga Kumara, who then wins a bride, Gunavati, by relieving her father's city, and, going to the hill of the Vamana temple, sings a hymn that sets out the rewards of worship in rule, Indra's rank and release; a messenger from Kausambi then arrives with a letter and the names of the king's daughters.",
+ "cast": [
+  {
+   "id": "jayavarman",
+   "tamil": "செயவர்ம ராசன்",
+   "role": "king of Subhrathishta, who asks the sage about his sons and then gives up his kingdom"
+  },
+  {
+   "id": "jayavarman_sons",
+   "tamil": "செயவர்மன் மக்கள்",
+   "role": "Jayavarma's two sons, who become Naga Kumara's servants"
+  },
+  {
+   "id": "paramamunivar",
+   "tamil": "பரம முனிவரர்",
+   "role": "the supreme ascetic who foretells the sons' future"
+  },
+  {
+   "id": "somaprabhar",
+   "tamil": "சோமப் பிரபர்",
+   "role": "the great ascetic who settles in the grove with other sages"
+  },
+  {
+   "id": "nagakumaran",
+   "tamil": "நாகநற் குமரன்",
+   "role": "the hero, Naga Kumara"
+  },
+  {
+   "id": "five_hundred",
+   "tamil": "அஞ்சுநூற்றுவர்",
+   "role": "the five hundred men who take Naga Kumara as lord"
+  },
+  {
+   "id": "harivaran",
+   "tamil": "அரிவரன்",
+   "role": "king of the hill city Kirinagar, whose daughter Naga Kumara wins"
+  },
+  {
+   "id": "gunavathi",
+   "tamil": "குணவதி",
+   "role": "Harivara's daughter, who becomes Naga Kumara's wife"
+  },
+  {
+   "id": "pirathisothanan",
+   "tamil": "பிரவிச்சோதனன்",
+   "role": "the king who besieges Harivara's city for Gunavati"
+  },
+  {
+   "id": "vamanar",
+   "tamil": "வாமனார்",
+   "role": "the lord of the Vamana temple on Urjayanta, praised in Naga Kumara's hymn"
+  },
+  {
+   "id": "thoothan",
+   "tamil": "தூதன்",
+   "role": "the archer-messenger who brings a letter from Kausambi"
+  }
+ ],
+ "verses": {
+  "102": {
+   "reading": "The poet introduces Subhrathishta's ruler Jayavarma and his wife Jayavati, whose beauty is likened to a painted figure.",
+   "concepts": [
+    "arasu",
+    "vendhan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "103": {
+   "reading": "Jayavarma, living in great prosperity with his children, bows to a supreme ascetic of strict vows.",
+   "concepts": [
+    "arasu",
+    "thavam",
+    "panivu"
+   ],
+   "nuance": "Line 1 (மக்கட் சேத்திய பேத்திய ரென்றிவர்) is obscure in the printed text; that the king's household and children are meant is inferred from the next verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "jayavarman",
+     "form": "ராசன்",
+     "line": 4
+    },
+    {
+     "id": "paramamunivar",
+     "form": "பரம முனிவரர்",
+     "line": 3
+    }
+   ],
+   "event": "Jayavarma bows low before a supreme ascetic.",
+   "claims": []
+  },
+  "104": {
+   "reading": "The king asks the sage whether his two sons will hold and rule his kingdom or serve another, and the sage answers that he will tell it.",
+   "concepts": [
+    "oozh",
+    "arasu",
+    "makkal"
+   ],
+   "nuance": "The first three lines are the king's question; the last line gives the ascetic's reply in the poet's voice. The question treats the sons' future as something an ascetic's sight can read.",
+   "speaker": {
+    "who": "jayavarman",
+    "form": null,
+    "line": null,
+    "addressee": "paramamunivar"
+   },
+   "agents": [
+    {
+     "id": "jayavarman",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "paramamunivar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Jayavarma asks the ascetic whether his two sons will rule his kingdom or serve another, and the ascetic agrees to say.",
+   "claims": []
+  },
+  "105": {
+   "reading": "After the ascetic has spoken, the poet reports its sense: the sons will come to serve the protector who overthrows and drives out the ruler of Pundra.",
+   "concepts": [
+    "oozh",
+    "arasu"
+   ],
+   "nuance": "The prediction is given in reported speech, not in the sage's own words, and the line naming who will serve whom is hard (கண்டிறந் துந்திடுங் காவலன்); that the conqueror is Naga Kumara is not said here and is known from the story.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "paramamunivar",
+     "form": "தவத்தவர்",
+     "line": 4
+    }
+   ],
+   "event": "The ascetic foretells that the king's sons will become servants of the king who defeats the ruler of Pundra.",
+   "claims": []
+  },
+  "106": {
+   "reading": "The king sets the land on his sons and stands to be rid of his remaining karma while the worthy sons take up the rule.",
+   "concepts": [
+    "thuravu",
+    "vinai",
+    "arasu"
+   ],
+   "nuance": "The abdication follows the prophecy, so the father leaves the sons to the fate the sage read and does not fight it. The words நிற்கும் செவ்வினை நீங்க நின்றனர் are the poet's only statement of why he leaves; செவ்வினை (here read as the deeds still to bear fruit) and the subject of நின்றனர் (the king, or king and queen) are not fixed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "jayavarman",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "jayavarman_sons",
+     "form": "புத்திரர்",
+     "line": 4
+    }
+   ],
+   "event": "Jayavarma hands his kingdom to his sons and takes up the ascetic's life to wear away his karma, and the sons rule.",
+   "claims": [
+    {
+     "claim": "the karma that still remains is removed by giving up rule and standing in penance",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "107": {
+   "reading": "The great ascetic Somaprabha and endless virtuous sages settle in the fine grove of Subhrathishta.",
+   "concepts": [
+    "thavam",
+    "samayam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "somaprabhar",
+     "form": "சோமப் பிரபரும்",
+     "line": 1
+    }
+   ],
+   "event": "Somaprabha and other sages take up residence in the grove of Subhrathishta.",
+   "claims": []
+  },
+  "108": {
+   "reading": "Jayavarma's sons bow at the sages' feet and say that this sage gave up the world because of the anger of Jayandhara's son.",
+   "concepts": [
+    "thuravu",
+    "pirivu"
+   ],
+   "nuance": "It is not clear whether lines 3 and 4 are the princes' question (why did this sage renounce?) or an answer given to them, and who the Jayandhara's son is is not told in the verse. The story of the sage's loss is told elsewhere.",
+   "uncertain": true,
+   "speaker": {
+    "who": "jayavarman_sons",
+    "form": "செயவர் மன்சுதர்",
+    "line": 1,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "jayavarman_sons",
+     "form": "செயவர் மன்சுதர்",
+     "line": 1
+    }
+   ],
+   "event": "The princes bow to the sages and give anger of Jayandhara's son as the cause of the sage's renunciation.",
+   "claims": []
+  },
+  "109": {
+   "reading": "Having heard that account, the two brothers leave, go to Naga Kumara, bow, and say they are now his servants, which he accepts as he settles in the hill-ringed forest.",
+   "concepts": [
+    "oozh",
+    "panivu",
+    "arasu"
+   ],
+   "nuance": "This is the story's fulfilment of the prophecy of verses 104 and 105: the sons who might have ruled serve the conqueror. The word துறந்து (leaving) is read here as leaving their home and kingdom, not necessarily taking up a monk's life.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "jayavarman_sons",
+     "form": "இருவருந்",
+     "line": 1
+    },
+    {
+     "id": "nagakumaran",
+     "form": "குமரன்",
+     "line": 2
+    }
+   ],
+   "event": "The two princes go to Naga Kumara and become his servants, as the ascetic had foretold.",
+   "claims": []
+  },
+  "110": {
+   "reading": "The princes stay at the tree's foot, never leaving its shade, and guard the prince, eating the fruits of the trees with admiration while he rests in the flowery grove.",
+   "concepts": [
+    "thunai",
+    "panivu"
+   ],
+   "nuance": "விடமரப் பழங்கள் (fruit of poison trees?) is a doubtful reading; if it is right, the verse marks the princes' ease in eating fruit others would avoid.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "jayavarman_sons",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "nagakumaran",
+     "form": "கோமக",
+     "line": 4
+    }
+   ],
+   "event": "The two princes stay beside Naga Kumara in a grove and guard him, living on the fruit.",
+   "claims": []
+  },
+  "111": {
+   "reading": "Five hundred men come, bow, and say that an ascetic told them the sign, that they have lived in the forest, and that they see his sign and take him as their lord.",
+   "concepts": [
+    "panivu",
+    "arasu",
+    "oozh"
+   ],
+   "nuance": "The verse's last two lines are hard; the sense that the sage's sign (குறி) points to Naga Kumara as the lord they were promised is inferred.",
+   "uncertain": true,
+   "speaker": {
+    "who": "five_hundred",
+    "form": "அஞ்சுநூற் றுவர்கள்",
+    "line": 1,
+    "addressee": "nagakumaran"
+   },
+   "agents": [
+    {
+     "id": "five_hundred",
+     "form": "அஞ்சுநூற் றுவர்கள்",
+     "line": 1
+    }
+   ],
+   "event": "Five hundred men come to Naga Kumara, accept him as their lord, and say a sage had told them his sign.",
+   "claims": []
+  },
+  "112": {
+   "reading": "Naga Kumara rises gladly with his people on hearing of the hill city, goes to it, and is received by Harivara and enters his house.",
+   "concepts": [
+    "natpu",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "harivaran",
+     "form": "அரிவர னெதிர்க்",
+     "line": 4
+    }
+   ],
+   "event": "Naga Kumara goes to the hill city, and its king Harivara receives him at his house.",
+   "claims": []
+  },
+  "113": {
+   "reading": "Harivara's queen Mrigalochana, whose chastity was like Arundhati's, has a daughter Gunavati, and Pravichotana, desiring her, besieges the great city.",
+   "concepts": [
+    "karpu",
+    "kaamam",
+    "padai"
+   ],
+   "nuance": "The queen's chastity is compared to the star Arundhati (the Cintamani uses the same measure at 327); the verse gives the comparison as an ornament and does not argue it. The desire (இச்சித்து) that drives the siege is the poem's cause of war.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pirathisothanan",
+     "form": "பிரவிச் சோதன",
+     "line": 4
+    }
+   ],
+   "event": "Pravichotana, desiring Harivara's daughter Gunavati, surrounds his city with an army.",
+   "claims": []
+  },
+  "114": {
+   "reading": "Naga Kumara hears of it, marches with his four-fold army, wins the battle, routs the besieger, enters the city on an elephant, and the king gives him Gunavati.",
+   "concepts": [
+    "padai",
+    "kaamam",
+    "arasu"
+   ],
+   "nuance": "A guest repays the host's welcome of verse 112 by war, and the bride comes as the reward, not as a wooing.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": "நாகநற் குமரன்",
+     "line": 1
+    },
+    {
+     "id": "harivaran",
+     "form": "புரவலன்",
+     "line": 4
+    }
+   ],
+   "event": "Naga Kumara defeats Pravichotana and drives him off, and Harivara gives him his daughter Gunavati.",
+   "claims": []
+  },
+  "115": {
+   "reading": "He takes the nectar-eyed girl in the marriage rite and, like Kama and Rati, they enjoy together the pleasures that the rules of the text allow, her anklets sounding.",
+   "concepts": [
+    "kaamam",
+    "vaazhkkaithunai"
+   ],
+   "nuance": "நூனெறி (the way of the text) sets the limit on pleasure even as the verse compares the pair with the god of love; the verse does not say which text is meant.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "gunavathi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Naga Kumara marries Gunavati and they live in pleasure.",
+   "claims": [
+    {
+     "claim": "pleasure is to be enjoyed within the way set out by the text",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "116": {
+   "reading": "The pair are never apart by night or day and enjoy life by the proper way, until the strong, unfailing prince goes to the hill of Urjayanta.",
+   "concepts": [
+    "kaamam",
+    "pirivu",
+    "samayam"
+   ],
+   "nuance": "The hill is named only as ஊர்ச்சயந்த கிரி; that this is the sacred Jain hill and the 'Vamanar' of the next verse is Neminatha is the tradition's identification, not stated in these lines. The words உறுவலி ஈயான் (line 4) are unclear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "gunavathi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "After days of constant union Naga Kumara goes to Urjayanta hill.",
+   "claims": []
+  },
+  "117": {
+   "reading": "He circles the Vamana temple three times, enters, bows, worships well under the three umbrellas, and begins to praise the lord on the lion throne.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan",
+    "paththi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": "மார்பன்",
+     "line": 2
+    }
+   ],
+   "event": "Naga Kumara worships at the Vamana temple on Urjayanta and begins a hymn to its lord.",
+   "claims": []
+  },
+  "118": {
+   "reading": "Those who bow with victory at the feet of the lord under the pearl umbrellas will rule the heaven, then rule all this earth on a great elephant under a white umbrella.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan",
+    "marumai"
+   ],
+   "nuance": "The promised fruit is rule, in heaven and then on earth, and not release; the hymn builds up in these three verses from kingship (118) to Indra-rank (119) to release (120).",
+   "speaker": {
+    "who": "nagakumaran",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "worship of the feet of the lord under three umbrellas is repaid by rule of heaven and then of earth",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "nagakumaran"
+    }
+   ]
+  },
+  "119": {
+   "reading": "Those who worship in love the golden feet of the lord who sits on a lotus will go to the gods' world as Indras and be worshipped by the gods.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan",
+    "marumai"
+   ],
+   "nuance": "The lotus on which the lord sits (கமல மலர் மீதுறையும்) is the verse's one image, and the tirthankara is not named.",
+   "speaker": {
+    "who": "nagakumaran",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "loving worship of the lord's feet is repaid by the rank of Indra in heaven",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "nagakumaran"
+    }
+   ]
+  },
+  "120": {
+   "reading": "Those who bow and praise the lord on the lion throne will be gods above gods, worshipped by the three worlds, and reach sweet release with the soul shining.",
+   "concepts": [
+    "veedu",
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "nuance": "The worshipper's own soul shines in release (எரிபொன் உயிர் விளங்கி) and the verse does not say the lord gives it by grace; the worshipper's bowing is the stated cause.",
+   "speaker": {
+    "who": "nagakumaran",
+    "form": null,
+    "line": null,
+    "addressee": "vamanar"
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "those who worship the lord on the lion throne become gods and then reach release with the soul shining",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "nagakumaran"
+    }
+   ]
+  },
+  "121": {
+   "reading": "After praising the lord, Naga Kumara sits with his friends, and an archer sets a letter before him, joins his hands, bows, and speaks.",
+   "concepts": [
+    "thoothu",
+    "natpu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "thoothan",
+     "form": "பிடித்தொருவன்",
+     "line": 3
+    },
+    {
+     "id": "nagakumaran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "An archer brings a letter to Naga Kumara, bows, and begins to speak.",
+   "claims": []
+  },
+  "122": {
+   "reading": "The messenger names Kausambi in Vatsa country, its king Subhachandra, fiercer than foes, and his queen Sukavati, chaste like a mountain.",
+   "concepts": [
+    "arasu",
+    "karpu"
+   ],
+   "nuance": "The messenger's account runs across the verses 122 to 123 and goes on after; the speaker is known from 121.",
+   "speaker": {
+    "who": "thoothan",
+    "form": null,
+    "line": null,
+    "addressee": "nagakumaran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "123": {
+   "reading": "The king and queen's seven daughters are named: Suyambhiraba, Nagasubhaprabha, Inbaprabha, Sornamalai, Padumai and Nagadattai.",
+   "concepts": [
+    "makkal",
+    "vaazhkkaithunai"
+   ],
+   "nuance": "The verse says seven daughters but names six; the seventh is lost or named in the next verse.",
+   "speaker": {
+    "who": "thoothan",
+    "form": null,
+    "line": null,
+    "addressee": "nagakumaran"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "104",
+   "b": "109",
+   "type": "develops",
+   "note": "The king asks whether his two sons will rule or serve; at 109 the two come to Naga Kumara and become his servants.",
+   "teaches": "The ascetic's foresight is shown to be exact, so the story makes the sons' loss of the kingdom a matter of fate that no choice of the king's undoes."
+  },
+  {
+   "a": "118",
+   "b": "120",
+   "type": "develops",
+   "note": "The hymn's three verses promise rule on earth and in heaven (118), Indra's rank (119), and release (120).",
+   "teaches": "The hymn arranges worship's rewards as a ladder, so release comes as the last step above the worldly kingship the prince himself holds."
+  },
+  {
+   "a": "106",
+   "b": "naladiyar:21",
+   "type": "qualifies",
+   "note": "Naladiyar says even kings on elephants under the moon-bright umbrella are carried off and spoken of as dead; Jayavarma lays down his kingdom while living.",
+   "teaches": "A king's leaving rule by his own act, before it is taken from him, is the story's answer to the impermanence the Naladiyar says no king escapes.",
+   "gains": {
+    "a": "the abdication is seen as a chosen answer to the loss of rule that the Naladiyar says death forces on every king",
+    "b": "the Naladiyar's lament over fallen kings is given a king who acts on the lesson while still ruling"
+   }
+  },
+  {
+   "a": "119",
+   "b": "kural:3",
+   "type": "same_image",
+   "note": "Kural 3 places the god on a flower and says those who reach his feet live long on the earth; the hymn has the lord seated on a lotus and promises Indra's rank to those who worship his feet.",
+   "teaches": "Both couplet and hymn set the god on a flower and promise a reward for reaching the feet, but the hymn's reward is rank in heaven while the couplet's is long life on earth.",
+   "gains": {
+    "a": "the hymn's lotus-seated lord is seen as a Jain case of the flower-borne god of the Kural's opening",
+    "b": "the couplet's reward of long life on earth is set beside a hymn that pays in heaven's rank"
+   }
+  },
+  {
+   "a": "120",
+   "b": "kural:10",
+   "type": "qualifies",
+   "note": "Kural 10 says only those at the Lord's feet cross the sea of births; the hymn says those who bow to the lord on the lion throne become gods and then reach release.",
+   "teaches": "The hymn makes the crossing of births a graded gain, gods first and release after, where the couplet states it only as a crossing for those who reach the feet.",
+   "gains": {
+    "a": "the hymn's promise of release is read as the Kural's crossing of births with a stage of divine rank before it",
+    "b": "the couplet's one-step crossing is given a sequence of worlds the worshipper passes through"
+   }
+  },
+  {
+   "a": "113",
+   "b": "civaka_cintamani:327",
+   "type": "same_image",
+   "note": "Both name the star Arundhati as the measure of a woman's chastity: Mrigalochana is like her, and in the Cintamani a woman is said to put her aside.",
+   "teaches": "Two Jain epics use the same star as the yardstick of wifely chastity, one saying a queen is equal to it and the other that a woman surpasses it."
+  },
+  {
+   "a": "105",
+   "b": "soolamani:109",
+   "type": "agrees",
+   "note": "In both a sage's saying about who will rule or serve is fixed as a prophecy: here the sons will serve the conqueror, there the hearers affirm the prophecy that one will protect the world under one umbrella.",
+   "teaches": "Jain epics let a sage's sight settle a future rule and the later scene confirm it, so succession is told as fate foreseen, not as a contest."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 123 says seven daughters but names six.",
+  "Verse 105 and verse 116 have lines that are unclear in the printed text.",
+  "Verse 103 line 1 is obscure."
+ ]
+}

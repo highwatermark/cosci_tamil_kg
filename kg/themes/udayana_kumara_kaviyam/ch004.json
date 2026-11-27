@@ -1,0 +1,716 @@
+{
+ "chapter_no": 4,
+ "chapter_theme": "The capture and its answer: Udayanan's sword wins in the fighting until an elephant's tusk breaks it and he is seized; the dream of Vasavadatta foretells a taker, and Yugi, hearing of the capture, plans a rescue by guile, spreading news of his own death and entering the enemy's city disguised as a madman.",
+ "cast": [
+  {
+   "id": "udayanan",
+   "tamil": "உதயணன்",
+   "role": "the hero, king of Vatsa, called வத்தவன் in verse 53, who is captured"
+  },
+  {
+   "id": "salankayanan",
+   "tamil": "சாலங்காயன்",
+   "role": "the minister whose four-fold army surrounds Udayanan"
+  },
+  {
+   "id": "pradyotanan",
+   "tamil": "பிரச்சோதனன்",
+   "role": "king of Ujjain, Vasavadatta's father"
+  },
+  {
+   "id": "vasavadatta",
+   "tamil": "வாசவதத்தை",
+   "role": "Pradyotanan's daughter, who has the dream"
+  },
+  {
+   "id": "vayanthakan",
+   "tamil": "வயந்தகன்",
+   "role": "Udayanan's companion who writes the letter and carries it to Yugi"
+  },
+  {
+   "id": "yugi",
+   "tamil": "யூகி",
+   "role": "Udayanan's chief minister, who plots his rescue"
+  },
+  {
+   "id": "pradyotanar_aal",
+   "tamil": "வெஞ்சொன் மாந்தர்",
+   "role": "the harsh-spoken men who seize the king, Pradyotanan's side by the context"
+  },
+  {
+   "id": "nool_arintavar",
+   "tamil": "நூலினறிந்தவர்",
+   "role": "the readers of the book of dreams who interpret Vasavadatta's dream"
+  }
+ ],
+ "verses": {
+  "52": {
+   "reading": "Salankayan, enraged, closes in with the four-fold army, which rises up and ringed the king from all four quarters while his eyes redden like Death's.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "salankayanan",
+     "form": "சாலங் காயனுஞ்",
+     "line": 1
+    }
+   ],
+   "event": "Salankayan's four-fold army surrounds the king from the four quarters.",
+   "claims": []
+  },
+  "53": {
+   "reading": "Like a tiger in a herd of deer, the sword-wielding king of Vatsa makes the bowmen fall and feeds Death a feast, giving the blade its food.",
+   "concepts": [
+    "maram",
+    "vendhan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "வத்தவன்",
+     "line": 4
+    }
+   ],
+   "event": "Udayanan cuts down the bowmen who ring him.",
+   "claims": []
+  },
+  "54": {
+   "reading": "As blood runs like a river and the men standing about flee, the furious Salankayan comes on, and the king sets his sword on his head.",
+   "concepts": [
+    "maram",
+    "vendhan"
+   ],
+   "nuance": "The word மன்றன் in line 4 is not a clear word for king, so the verse does not name who lays the sword; the next verse, which has the king spare the man, is what fixes the reading.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "salankayanan",
+     "form": "சாலங் காயனு",
+     "line": 3
+    },
+    {
+     "id": "udayanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Udayanan overpowers Salankayan and lays his sword on his head.",
+   "claims": []
+  },
+  "55": {
+   "reading": "Kings do not put ministers to death, so the king, heeding the words of the wise, does not press down his sword and lets that minister go in affection.",
+   "concepts": [
+    "amaichu",
+    "aram",
+    "arasu"
+   ],
+   "nuance": "The sparing is given as a rule of kings and as the advice of the learned, not as the king's own softness. In this chapter the same king is soon taken captive by men who show him no such restraint.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "செல்வனும்",
+     "line": 3
+    }
+   ],
+   "event": "Udayanan spares the minister Salankayan and sets him free.",
+   "claims": [
+    {
+     "claim": "kings do not slay ministers",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "56": {
+   "reading": "Elephants in a mass close in, and the war-elephants fall like hills, the rows of jewelled chariots roll on the ground and horses surge and fall on the earth.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "nuance": "The verse is one long clause with four falling things and no finite verb; verse 57 supplies the sentence, so read the two together.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "A battle of elephants, chariots and horses brings down the combatants; the verse has no main verb and runs on into the next.",
+   "claims": []
+  },
+  "57": {
+   "reading": "As the king's rage cuts through another rank and his sword snaps on an elephant's tusk, harsh-speaking men seize the garlanded king, left without refuge.",
+   "concepts": [
+    "maram",
+    "vendhan",
+    "nilaiyaamai"
+   ],
+   "nuance": "The captors are called only harsh-spoken men; that they are the Ujjain king's people follows from the letter and the dream of the verses that come after.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "வேந்தனை",
+     "line": 3
+    },
+    {
+     "id": "pradyotanar_aal",
+     "form": "வெஞ்சொன் மாந்தர்",
+     "line": 4
+    }
+   ],
+   "event": "Udayanan's sword breaks on an elephant's tusk and Pradyotanan's men seize him.",
+   "claims": []
+  },
+  "58": {
+   "reading": "A catalogue of what the captive's hand used to do for women: set fresh flowers in their hair, draw the moon-like mark on their brow, smear saffron on their breasts and fit anklets on their lotus feet.",
+   "concepts": [
+    "kaamam",
+    "vendhan"
+   ],
+   "nuance": "The verse never names a hand's owner. It sets four tender acts of the hand beside the fact, told in the next verse, that the same hand is now tied.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "59": {
+   "reading": "The hand that plays the lute, daubs scented paste and gives to those who ask, the hand of my faultless crowned king, is bound with white cloth for all outside to see.",
+   "concepts": [
+    "eegai",
+    "nilaiyaamai",
+    "vendhan"
+   ],
+   "nuance": "The speaker says என்முடி மன்னன் ('my crowned king') and is not named, so he may be a lamenting follower or the poet in a follower's voice; the reading keeps the speaker open. The giving hand is the one that is bound: the verse links his generosity to his helplessness.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pradyotanar_aal",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Udayanan's hands are bound with white cloth while the onlookers outside cry out.",
+   "claims": []
+  },
+  "60": {
+   "reading": "Vayanthakan writes a palm-leaf letter to the loving Yugi, as one binds a fine lion in a spider's thread, and hands it over with his own fair hand.",
+   "concepts": [
+    "amaichu",
+    "natpu"
+   ],
+   "nuance": "The simile means the lion is held by a thread that would be nothing if he were free; it puts the captivity as a binding by guile more than by strength.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vayanthakan",
+     "form": "வயந்தகன்",
+     "line": 3
+    }
+   ],
+   "event": "Vayanthakan writes a letter to Yugi telling of the king's capture and gives it to him.",
+   "claims": []
+  },
+  "61": {
+   "reading": "As the king is carried under guard on a bright chariot, Vasavadatta, the beloved daughter of the great Pradyotanan, in a dream of her own sees something that is worked out in the next verses.",
+   "concepts": [
+    "kanavu",
+    "kaamam"
+   ],
+   "nuance": "The verse is one unfinished clause: the guarded chariot and the dream are put side by side with no main verb. That the passenger is the captive king is read from the context of verses 57-60.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pradyotanan",
+     "form": "பிரச் சோதனன்",
+     "line": 2
+    },
+    {
+     "id": "vasavadatta",
+     "form": "வாசவதத்தை",
+     "line": 4
+    }
+   ],
+   "event": "The captive king is taken to Ujjain while Vasavadatta has a dream.",
+   "claims": []
+  },
+  "62": {
+   "reading": "In bed as the young sun rose she dreamed that someone clasped her breasts and carried her off with him; she told it to her good father, who asked those who knew the book of dreams.",
+   "concepts": [
+    "kanavu",
+    "kaamam"
+   ],
+   "nuance": "The dream is told in the narrator's voice without naming the man who takes her; the reading of verse 63 is what turns it into a prophecy.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vasavadatta",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "pradyotanan",
+     "form": "நற் றாதைக்",
+     "line": 3
+    }
+   ],
+   "event": "Vasavadatta tells her father her dream and he asks the dream-readers about it.",
+   "claims": []
+  },
+  "63": {
+   "reading": "The readers tell that a bridegroom will come and take her away, touching her young breasts, and when her father hears the dream he is glad, and a lord arrives on a garlanded chariot.",
+   "concepts": [
+    "kanavu",
+    "kaamam",
+    "oozh"
+   ],
+   "nuance": "The speech of lines 1-2 is assigned to the readers of verse 62 and is not marked off as speech; the odd wording இவண்முலைக்கியைந்த makes its parse uncertain. The father's gladness follows from the foretelling and the captive is the one said to be arriving, so the verse sets prophecy and arrival side by side.",
+   "uncertain": true,
+   "speaker": {
+    "who": "nool_arintavar",
+    "form": null,
+    "line": null,
+    "addressee": "pradyotanan"
+   },
+   "agents": [
+    {
+     "id": "nool_arintavar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "pradyotanan",
+     "form": "டண்ண லும்",
+     "line": 3
+    },
+    {
+     "id": "udayanan",
+     "form": "செம்மல்",
+     "line": 4
+    }
+   ],
+   "event": "The dream-readers tell Pradyotanan that a bridegroom will come and take Vasavadatta, and the captive king arrives.",
+   "claims": [
+    {
+     "claim": "a dream read by the learned foretells a coming marriage",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "nool_arintavar"
+    }
+   ]
+  },
+  "64": {
+   "reading": "With the king pitied and the great city weeping, an old deed driving him into the fierce prison-house, Vayanthakan goes to Yugi and shows him the letter.",
+   "concepts": [
+    "oozh",
+    "vinai",
+    "amaichu"
+   ],
+   "nuance": "Line 2 puts the captivity in an old deed (தொல்வினை); nothing in the verse says the king's own folly or the enemy's guile as its cause, though the poet's account of the battle shows both.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vayanthakan",
+     "form": "யந்த கனு",
+     "line": 3
+    },
+    {
+     "id": "yugi",
+     "form": "யூகி",
+     "line": 4
+    }
+   ],
+   "event": "Vayanthakan brings the letter to Yugi and shows it.",
+   "claims": [
+    {
+     "claim": "a deed of a former birth drives the king into prison",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "65": {
+   "reading": "Cries ring out in every palace and eyes stream, and Yugi, hearing the message of his lord's letter, falls broken like one struck on a wound by a spear.",
+   "concepts": [
+    "pirivu",
+    "amaichu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": "யூகி",
+     "line": 3
+    }
+   ],
+   "event": "Yugi hears the letter's news and collapses.",
+   "claims": []
+  },
+  "66": {
+   "reading": "Rising steadied, Yugi says: the wicked showed a false elephant and took our king; we shall destroy their city with fierce elephants and recover the king along with the famed king's daughter.",
+   "concepts": [
+    "amaichu",
+    "vanjam",
+    "maram"
+   ],
+   "nuance": "The words that name the trap, கள்ள யானை, tell the reader that the capture was by a decoy elephant; verse 57 shows only the seizure. The vow also takes in the king's daughter, which makes the rescue a winning of a bride as well.",
+   "uncertain": true,
+   "speaker": {
+    "who": "yugi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Yugi recovers and resolves to take the king back and destroy Ujjain.",
+   "claims": []
+  },
+  "67": {
+   "reading": "Resolving that they would all return, and that those who had passed through the sword's edge would be met with guile, he took the king's kin and wives out of danger and set them in Pushpakam.",
+   "concepts": [
+    "vanjam",
+    "amaichu",
+    "natpu"
+   ],
+   "nuance": "The resolve is Yugi's thought in the narrator's frame, and the work does not say here whether guile is right in itself, only that it is his answer.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Yugi moves the king's kin and women from the battlefield to Pushpakam.",
+   "claims": [
+    {
+     "claim": "those who have crossed the sword may be answered with deceit",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "yugi"
+    }
+   ]
+  },
+  "68": {
+   "reading": "With Urumannuvan, Idabakan and Jayanti kept safe in prosperous Pushpakam, he gives the rule lovingly to Pingala and Kadaka, bidding them reign.",
+   "concepts": [
+    "arasu",
+    "amaichu"
+   ],
+   "nuance": "பெருமகன்கணிகைமைந்தர் can be read as the sons of a courtesan or as parts of names; the reading takes the two named rulers and leaves their parentage open.",
+   "uncertain": true,
+   "speaker": {
+    "who": "yugi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Yugi appoints Pingala and Kadaka to rule Pushpakam and keeps Urumannuvan and others there.",
+   "claims": []
+  },
+  "69": {
+   "reading": "Pitying the king, Yugi has the news of his own death spread everywhere and, thinking of a corpse that matches his own, burns it in a bright fire of forest wood.",
+   "concepts": [
+    "vanjam",
+    "amaichu",
+    "nilaiyaamai"
+   ],
+   "nuance": "The false death serves the plan of getting to the captive king unwatched; it costs him the loyalty of the realm that verse 70 states.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": "யூகி",
+     "line": 4
+    }
+   ],
+   "event": "Yugi has it said that he is dead and burns a body made to pass as his.",
+   "claims": []
+  },
+  "70": {
+   "reading": "Hearing that his own city is crying out and enemy kings, thinking him hidden, have seized the high lands, Yugi decides to go and see the king in prison and sets out to that country.",
+   "concepts": [
+    "amaichu",
+    "arasu",
+    "vanjam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": "யூகியு",
+     "line": 3
+    }
+   ],
+   "event": "Yugi hears that his lands are taken and sets out for the prison to see the king.",
+   "claims": []
+  },
+  "71": {
+   "reading": "Through wild forest, old hills, their slopes, fields of ripening red rice, lush streams and settled lands, the good minister goes on with his army toward the splendid city of banners.",
+   "concepts": [
+    "amaichu",
+    "padai"
+   ],
+   "nuance": "Most of the verse is a catalogue of the land he passes; the one event is his march, and it adds the army to the picture of the lone disguised man in the verses that follow.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": "மைச்சன்",
+     "line": 4
+    }
+   ],
+   "event": "Yugi crosses forest, hills and farmland with his army toward the city.",
+   "claims": []
+  },
+  "72": {
+   "reading": "He leaves his strong army hidden behind the wall of a crowded settlement at the shining Tiger-face gate, a place loud as the roaring sea.",
+   "concepts": [
+    "padai",
+    "vanjam"
+   ],
+   "nuance": "புலிமுகவாயில் is read as the name of a gate or place; the verse does not say whose city it is, so only the army's hiding is stated.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Yugi lodges his army in hiding at the Tiger-face gate settlement.",
+   "claims": []
+  },
+  "73": {
+   "reading": "Drilling in the words that would draw out each question and its answer, speech of feigned madness that the king would know, he takes a fixed disguise and walks into the middle of the city street.",
+   "concepts": [
+    "vesham",
+    "otru",
+    "vanjam"
+   ],
+   "nuance": "மருளுரை is read as speech that bewilders others but carries a sense the king would recognise; the verse makes the king, not the onlookers, the speech's real hearer.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Yugi prepares coded mad talk, puts on a disguise and enters the city's main street.",
+   "claims": []
+  },
+  "74": {
+   "reading": "He scatters his dark hair so that it falls loose, winds on a garland that bewilders, rubs coloured powder over his body and fixes a mark in the right place.",
+   "concepts": [
+    "vesham",
+    "otru"
+   ],
+   "nuance": "The verse is one unfinished list of acts of dress, with no main verb; line 4 is obscure and the reading takes it as a forehead mark.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Yugi dresses himself as a madman with loose hair, garland and powder.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 57,
+   "b": "naladiyar:21",
+   "type": "qualifies",
+   "note": "The Naladiyar gives it as a rule that kings who rode in state are carried off and spoken of as dead; here a king's sword snaps and he is seized, but he is afterwards to be rescued.",
+   "teaches": "The Naladiyar's rule of the ruined proud king is true of the captive here, but the epic makes the ruin a seizure to be undone by a minister, not a final end.",
+   "gains": {
+    "a": "The epic scene gains a general statement that kings in elephant-borne state are carried off, so the seizure reads as one case of the rule.",
+    "b": "The quatrain gains a named king whose fall is not final, which the quatrain's claim that none are left over does not show."
+   }
+  },
+  {
+   "a": 66,
+   "b": "kural:597",
+   "type": "develops",
+   "note": "Yugi falls as if speared (65) and then rises and sets his plan; the couplet's strong in mind who do not give way where things fall apart.",
+   "teaches": "The couplet's firm elephant is a person who stays upright; Yugi shows the other half, a man who is struck down and then gets up to act.",
+   "gains": {
+    "a": "The epic verse gains a measure for Yugi's rising: not stoicism but the strong mind that recovers and acts.",
+    "b": "The couplet gains a case in which firmness does not mean never falling, since its elephant stands under arrows and Yugi first collapses."
+   }
+  },
+  {
+   "a": 67,
+   "b": "kural:633",
+   "type": "develops",
+   "note": "Yugi removes the king's kin to safety, appoints rulers and plans to answer force with guile, which are three of the minister's skills in the couplet: dividing, holding his own side close, bringing back those who left.",
+   "teaches": "Kural 633 lists a minister's skills as bare terms; this verse shows one minister doing them in order at a moment of loss.",
+   "gains": {
+    "a": "The epic verse gains the Kural's name for what Yugi is doing, a set of skills and not one clever act.",
+    "b": "The couplet gains a minister at work in a defeat, which its three terms give no scene for."
+   }
+  },
+  {
+   "a": 70,
+   "b": 69,
+   "type": "qualifies",
+   "note": "The false death that frees Yugi to act (69) leaves his own lands to be taken once they think him hidden or dead.",
+   "teaches": "Guile that saves the plan has a price paid by the realm, which verse 69 alone does not count."
+  },
+  {
+   "a": 73,
+   "b": "kural:585",
+   "type": "qualifies",
+   "note": "The couplet wants a spy in a guise that raises no suspicion; Yugi's mad guise draws every eye but carries speech meant for one hearer, the king.",
+   "teaches": "A disguise can be conspicuous to everyone and still be a secret to all but one, which the couplet's rule of unsuspected appearance does not allow.",
+   "gains": {
+    "a": "The epic verse gains the Kural's test of a disguise as one that does not draw suspicion, so Yugi's loud madness stands out as a deliberate exception.",
+    "b": "The couplet gains a case where the disguise is meant to be seen, because the message is in the madman's talk and not in being unseen."
+   }
+  },
+  {
+   "a": 63,
+   "b": "silappathikaram:9:45-54",
+   "type": "same_image",
+   "note": "Vasavadatta's dream foretells a taking-away by a man, read by experts as a marriage; Kannaki's dream foretells the carrying off of her husband and a false charge.",
+   "teaches": "A dream in these epics gives the story's course in advance, but the same image foretells a bridegroom in one poem and a ruin in the other.",
+   "gains": {
+    "a": "The Udayana verse gains a contrast in which a dream's reading is joyful and its reader is an expert, as against Kannaki's dread.",
+    "b": "The Silappathikaram passage gains a second story where the dream is read by others and comes true, so its dread is one case of a convention."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 54 line 4 reads மன்றன் where மன்னன் is expected; the subject of the sword is inferred from verse 55.",
+  "Verses 56, 61 and 74 are unfinished clauses with no main verb and run on into the next; verse 68 line 3 பெருமகன்கணிகைமைந்தர் is hard to parse; verse 63 lines 1-2 are speech not marked as speech."
+ ]
+}

@@ -1,0 +1,634 @@
+{
+ "chapter_no": 60,
+ "chapter_theme": "The great battle with the Vidyadharas: they are shamed back into the fight, Sri Sena and Sripala join it, a fall of the Vidyadhara king's crown breaks his army, and Kanaka Chitran taunts the kings who flee from fated men.",
+ "cast": [
+  {
+   "id": "vidyadharas",
+   "tamil": "விஞ்சையர்",
+   "role": "the Vidyadhara warriors and kings of the mountain, one side of the battle"
+  },
+  {
+   "id": "vidyadhara_chief",
+   "tamil": "சுடர்வேலினான்",
+   "role": "the bright-spear Vidyadhara leader who rallies the men"
+  },
+  {
+   "id": "vidyadha_king",
+   "tamil": "விஞ்சையன்",
+   "role": "the Vidyadhara king whose crown falls"
+  },
+  {
+   "id": "sri_senan",
+   "tamil": "சிரீசேனன்",
+   "role": "a warrior of good conduct who enters the fight like Death"
+  },
+  {
+   "id": "sripalan",
+   "tamil": "சிரீபாலன்",
+   "role": "the hero who joins the fight and mounts the horse"
+  },
+  {
+   "id": "kanaka_chitran",
+   "tamil": "கனகசித்திரன்",
+   "role": "son of the discus-holder, who steps in when the kings break"
+  }
+ ],
+ "verses": {
+  "1357": {
+   "reading": "A voice taunts the men who run, saying that flight to save a body costs the jewel of honour, and that a forest awaits those who fear.",
+   "concepts": [
+    "maanam",
+    "anjaamai"
+   ],
+   "nuance": "The second half (lines 3-4) is obscure and the speaker is not named; the reading holds only line 1-2 firmly, and 1358 suggests the words are a rally to men who had begun to flee.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vidyadhara_chief",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "A speaker shames the fleeing Vidyadharas for abandoning honour to save their lives.",
+   "claims": [
+    {
+     "claim": "a warrior who flees to save his life throws away his honour",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "vidyadhara_chief"
+    }
+   ]
+  },
+  "1358": {
+   "reading": "At these words the Vidyadharas turn back and take up the fight, and the bright-spear leader urges them on.",
+   "concepts": [
+    "padai",
+    "maanam"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vidyadharas",
+     "form": "விஞ்சைய",
+     "line": 2
+    },
+    {
+     "id": "vidyadhara_chief",
+     "form": "சுடர்வேலினான்",
+     "line": 4
+    }
+   ],
+   "event": "The Vidyadharas rally and return to the battle at their leader's urging.",
+   "claims": []
+  },
+  "1359": {
+   "reading": "The sword-bearing Vidyadharas crowd in against the enemy and the warriors are cut to pieces at the neck and the body.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vidyadharas",
+     "form": "விஞ்சையர்",
+     "line": 1
+    }
+   ],
+   "event": "Vidyadharas and the enemy's swordsmen close and cut each other down.",
+   "claims": []
+  },
+  "1360": {
+   "reading": "Pieces of horses, saddle-gear and cut flanks lie mixed over the whole battlefield.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1361": {
+   "reading": "Sparks fly from the clashing swords like fire, and tusked elephants fall like mountains.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Elephants fall as swords clash.",
+   "claims": []
+  },
+  "1362": {
+   "reading": "Men sink into mud made of gore, the tracks of the field fill with blood, and the fronts of golden chariots are broken.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "nuance": "Word division is broken in lines 1-3; the picture of the chariot-front shattered in blood is firm, the rest is held loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1363": {
+   "reading": "Sri Sena, a man of good conduct, comes into the sword fight like Death himself.",
+   "concepts": [
+    "maram",
+    "kootru"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sri_senan",
+     "form": "சிரீ சேனனே",
+     "line": 4
+    }
+   ],
+   "event": "Sri Sena enters the battle.",
+   "claims": []
+  },
+  "1364": {
+   "reading": "A boast that the speaker can fight those who live on earth and those who live in the sky alike.",
+   "concepts": [
+    "maram",
+    "anjaamai"
+   ],
+   "nuance": "No line names the speaker; I take it as Sri Sena because 1363 has just introduced him, and the sky-dwellers are the flying Vidyadharas.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sri_senan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "A fighter boasts of fighting both earthly and sky-dwelling foes.",
+   "claims": []
+  },
+  "1365": {
+   "reading": "Hearing the angry challenge to take up weapons if they can fight this kind of war, Sripala comes in.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sripalan",
+     "form": "சிரீ பாலனே",
+     "line": 4
+    }
+   ],
+   "event": "Sripala, hearing the challenge, joins the fight.",
+   "claims": []
+  },
+  "1366": {
+   "reading": "The chief mounts a horse decked with whisks that rises like a wave of the sea, and frightens everyone.",
+   "concepts": [
+    "maram",
+    "anjaamai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sripalan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The hero mounts his horse and terrifies the enemy.",
+   "claims": []
+  },
+  "1367": {
+   "reading": "Horses wheel and rise in their circling and the bow-and-arrow kings are bewildered in the fight.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vidyadharas",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The horses wheel and the opposing kings lose their order.",
+   "claims": []
+  },
+  "1368": {
+   "reading": "Bow, sword and spear are laid aside as if by a word, and the combatants begin a fight without limit.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The fighters give up weapons and begin close combat.",
+   "claims": []
+  },
+  "1369": {
+   "reading": "The victorious Vidyadhara, broad-chested, breaks the other's bow and hurled spear with ease.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vidyadha_king",
+     "form": "விஞ்சையன்",
+     "line": 1
+    }
+   ],
+   "event": "The Vidyadhara breaks his opponent's bow and spear.",
+   "claims": []
+  },
+  "1370": {
+   "reading": "With his spear broken the enemy cuts it down and strikes with a victorious sword at the king.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "nuance": "The word division is very broken and who strikes whom cannot be fixed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "A sword stroke is aimed at the king.",
+   "claims": []
+  },
+  "1371": {
+   "reading": "The sword strikes a shining shoulder and the wounded man stretches himself out.",
+   "concepts": [
+    "maram"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "A sword wounds a shoulder.",
+   "claims": []
+  },
+  "1372": {
+   "reading": "A wound made by the sword is said to be washed bright and clear in a garlanded man's honey-smelling flowers.",
+   "concepts": [
+    "maram"
+   ],
+   "nuance": "The verse is built on rhyming forms in -ளித and is very hard to parse; the reading is a guess at its main sense.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1373": {
+   "reading": "After the laid-on sword has cut, the garlanded man urges his unruly horse not to go on.",
+   "concepts": [
+    "maram"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "A rider drives his horse away from the fight.",
+   "claims": []
+  },
+  "1374": {
+   "reading": "He who let his horse run over the swift mount thinks of harming the other's shining crown.",
+   "concepts": [
+    "maram",
+    "pagai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "A rider plans to strike at the enemy's crown.",
+   "claims": []
+  },
+  "1375": {
+   "reading": "He thinks of cutting the crown, and the leap that follows is greater than any on earth or in the sky.",
+   "concepts": [
+    "maram"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The rider leaps up to strike the crown.",
+   "claims": []
+  },
+  "1376": {
+   "reading": "At the sign of his own sword he flies up on his course, through the sky, and reaches the world's edge.",
+   "concepts": [
+    "maram"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The rider flies up through the sky.",
+   "claims": []
+  },
+  "1377": {
+   "reading": "The great gem-crown of the flying Vidyadhara falls like a star at the other king's weapon.",
+   "concepts": [
+    "maram",
+    "maanam"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vidyadha_king",
+     "form": "விஞ்சையன்",
+     "line": 1
+    }
+   ],
+   "event": "The Vidyadhara king's crown is struck down by his rival.",
+   "claims": []
+  },
+  "1378": {
+   "reading": "As the lord's bright crown falls, the mountain-folk's army gives up the fight and turns its back.",
+   "concepts": [
+    "padai",
+    "vendhan"
+   ],
+   "nuance": "The verse shows that an army stands or falls with its king's crown; it is the narrator's picture, not a stated rule.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vidyadharas",
+     "form": "பரவைத் தானையே",
+     "line": 4
+    }
+   ],
+   "event": "The Vidyadhara army breaks and flees when the crown falls.",
+   "claims": []
+  },
+  "1379": {
+   "reading": "As the mountain kings break, Kanaka Chitran, the discus-holder's son, angry at heart, steps in and speaks.",
+   "concepts": [
+    "vendhan",
+    "maram"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kanaka_chitran",
+     "form": "கனக சித்திரன்",
+     "line": 3
+    }
+   ],
+   "event": "Kanaka Chitran enters the fight and speaks.",
+   "claims": []
+  },
+  "1380": {
+   "reading": "A speaker says that a man with drawn sword and girded belt who runs in fear of one man shows a manliness that is to be despised.",
+   "concepts": [
+    "maanam",
+    "anjaamai"
+   ],
+   "nuance": "1379 says Kanaka Chitran spoke; I take this as his speech, but the verse itself names nobody.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kanaka_chitran",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Kanaka Chitran taunts the fleeing kings for their cowardice.",
+   "claims": [
+    {
+     "claim": "a man with a sword in hand who flees from one man has a loathsome manliness",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "kanaka_chitran"
+    }
+   ]
+  },
+  "1381": {
+   "reading": "The Vidyadharas of the high mountain turn back in fear of men whom fate has marked, and the fanged youth laughs in wonder.",
+   "concepts": [
+    "oozh",
+    "anjaamai"
+   ],
+   "nuance": "விதிபடு is read as 'fate-marked'; the identity of the laughing youth is not named and may be Kanaka Chitran or Sripala.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vidyadharas",
+     "form": "விஞ்சையர்",
+     "line": 1
+    },
+    {
+     "id": "kanaka_chitran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The Vidyadhara kings retreat; a fanged young man laughs at the marvel.",
+   "claims": [
+    {
+     "claim": "men whom fate favours cannot be faced even by the strong Vidyadharas",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "narrator"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": 1357,
+   "b": 1380,
+   "type": "develops",
+   "note": "1357 shames men who run to save life; 1380 calls a swordsman who runs from one man loathsome.",
+   "teaches": "The rally and the taunt are one argument in two voices: flight is judged first as lost honour, then as disgusting manhood."
+  },
+  {
+   "a": 1366,
+   "b": 1381,
+   "type": "develops",
+   "note": "1366 shows the hero mounted and frightening all; 1381 shows the enemy kings turning back in fear.",
+   "teaches": "The terror one rider causes at the start is what finally sends the whole Vidyadhara line home."
+  },
+  {
+   "a": 1377,
+   "b": 1378,
+   "type": "develops",
+   "note": "The falling crown of 1377 is followed at once by the army's flight in 1378.",
+   "teaches": "The crown's fall is shown as the cause of the rout, not merely its sign."
+  },
+  {
+   "a": 1378,
+   "b": "kural:770",
+   "type": "qualifies",
+   "note": "1378 shows an army breaking at the sight of its king's fallen crown; the Kural says an army needs leaders.",
+   "teaches": "A fallen crown scatters an army that Kural 770 would call leaderless, showing the leader's role as a matter of sight as much as of command.",
+   "gains": {
+    "a": "The rout gains a general rule: the army broke because it had no head to keep it together.",
+    "b": "The couplet gains a scene in which the leader's loss is not death but a crown struck off, and the effect is instant."
+   }
+  },
+  {
+   "a": 1380,
+   "b": "kural:775",
+   "type": "develops",
+   "note": "1380 calls flight from one man loathsome; Kural 775 says even a blink at a hurled spear is flight.",
+   "teaches": "The two texts set the line of disgrace at different places: the epic at running away, the Kural already at the flinch.",
+   "gains": {
+    "a": "The taunt gains a stricter test: by Kural 775 the Vidyadharas' shame began before they turned.",
+    "b": "The couplet gains a speaker who shames living men in front of their army, not a rule stated apart."
+   }
+  },
+  {
+   "a": 1380,
+   "b": "purananuru:278",
+   "type": "develops",
+   "note": "1380 condemns a fleeing swordsman; Purananuru 278 gives a mother's vow to cut her breast when told her son fled.",
+   "teaches": "The Sangam poem shows what the epic's taunt costs the one who runs: the family's shame, not only his own.",
+   "gains": {
+    "a": "The taunt gains a household that would mourn and punish the runaway.",
+    "b": "The Sangam poem gains a Jain-epic scene where the same charge of fleeing is thrown at kings in the middle of a battle."
+   }
+  },
+  {
+   "a": 1381,
+   "b": "kural:380",
+   "type": "qualifies",
+   "note": "1381 says the mountain Vidyadharas fled from men whom fate has marked; Kural 380 asks what is stronger than fate.",
+   "teaches": "The epic gives fate as the one reason a strong flying army can be turned by men with no such powers.",
+   "gains": {
+    "a": "The Vidyadhara retreat gains a cause beyond skill or number: the opponents are fated to win.",
+    "b": "The couplet gains a battlefield instance in which fate beats a stronger force without any scheme being named."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 1362, 1370-1377 have broken word division and several readings are held loosely.",
+  "Verse 1376 has a stray full stop at the end of line 3.",
+  "Who fights whom in 1369-1377 cannot be fixed from the Tamil alone."
+ ]
+}

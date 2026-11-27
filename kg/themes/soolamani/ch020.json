@@ -1,0 +1,632 @@
+{
+ "chapter_no": 20,
+ "chapter_theme": "The Vidyadhara king's astrologer foretells that Tivittan will split a lion and that the king will gain both rows of the ridge by giving his daughter; the king tells his queen, the queen answers, the ministers choose Marusi as envoy, and Marusi flies to the grove outside Tivittan's city.",
+ "cast": [
+  {
+   "id": "vinjaiyar_vendhan",
+   "tamil": "விஞ்சையர் வேந்தன்",
+   "role": "king of the Vidyadharas of the southern ridge, father of the girl"
+  },
+  {
+   "id": "vinjaiyar_nimittikan",
+   "tamil": "நிமித்திகன்",
+   "role": "the Vidyadhara king's astrologer, who foretells Tivittan's deed and the marriage"
+  },
+  {
+   "id": "vayuvekai",
+   "tamil": "வாயு வேகை",
+   "role": "the Vidyadhara king's queen, mother of the girl"
+  },
+  {
+   "id": "purohitan",
+   "tamil": "புரோகிதன்",
+   "role": "the priest whose word the king reports"
+  },
+  {
+   "id": "amaichar",
+   "tamil": "தாரவர்",
+   "role": "the king's ministers"
+  },
+  {
+   "id": "maruci",
+   "tamil": "மருசி",
+   "role": "the learned envoy sent with the letter"
+  }
+ ],
+ "verses": {
+  "407": {
+   "reading": "The speaker says that the woman is fit to come and rest on the breast of the god-like lord who guards the sea-girt earth in a human body, wearing a honeyed garland.",
+   "concepts": [
+    "oozh",
+    "kanavu"
+   ],
+   "nuance": "The grammar is clipped and the speaker is not named here; line 410 calls the whole run the astrologer's words, which is the basis for the speaker given.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vinjaiyar_nimittikan",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "408": {
+   "reading": "After the girl is given to the discus-bearer, the speaker says, one daughter goes to him and the two Vidyadhara rows of the ridge, with their wealth, come to the king; at this word the king swells with joy and becomes sovereign.",
+   "concepts": [
+    "oozh",
+    "arasu",
+    "selvam"
+   ],
+   "nuance": "The wording of line 2 is compressed; the sense that one is given to the lord and two rows come to the king is the likely one.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vinjaiyar_nimittikan",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar_vendhan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The Vidyadhara king, told that giving his daughter wins him both rows of the ridge, is filled with joy.",
+   "claims": []
+  },
+  "409": {
+   "reading": "The speaker says that the sign taken about the garlanded one needs nothing more than this: within a month's days Tivittan will split a lion's mouth.",
+   "concepts": [
+    "kurippu",
+    "oozh",
+    "kaalam"
+   ],
+   "speaker": {
+    "who": "vinjaiyar_nimittikan",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [],
+   "event": "The astrologer foretells that Tivittan will tear open a lion within a month.",
+   "claims": []
+  },
+  "410": {
+   "reading": "The astrologer's words sink the radiant king in a joy beyond bearing; he does not blink for a long while and lifts his crowned head so that it blazes.",
+   "concepts": [
+    "kurippu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar_vendhan",
+     "form": "சோதியான்",
+     "line": 1
+    }
+   ],
+   "event": "The Vidyadhara king receives the astrologer's word with joy.",
+   "claims": []
+  },
+  "411": {
+   "reading": "The king gives the learned astrologer a golden rain of treasure and a bright garland, speaking of Jyotimalai, so that he might rule his land with the rare wealth.",
+   "concepts": [
+    "eegai",
+    "selvam",
+    "kalvi"
+   ],
+   "nuance": "Lines 1 to 3 are hard to construe. It is not certain whether Jyotimalai is the daughter's name or a garland of light, whether the astrologer or another man receives the gift, or who rules the land.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar_vendhan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king rewards the astrologer with wealth.",
+   "claims": []
+  },
+  "412": {
+   "reading": "The king goes to Vayuvegai's golden city as the day wears on and tells her, so that she of the swan gait will know, the girl's greatness and the plan to be carried out.",
+   "concepts": [
+    "soozhchi",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar_vendhan",
+     "form": "மன்னவன்",
+     "line": 1
+    }
+   ],
+   "event": "The Vidyadhara king travels to Vayuvegai's city and tells her of the girl's greatness and the plan.",
+   "claims": []
+  },
+  "413": {
+   "reading": "The king says that a house without children is like a grove with no blossom, a pool with no young lotus, and an evening with no crescent moon.",
+   "concepts": [
+    "makkal",
+    "ilvaazhkkai"
+   ],
+   "speaker": {
+    "who": "vinjaiyar_vendhan",
+    "form": null,
+    "line": null,
+    "addressee": "vayuvekai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a house without children is empty, like a grove without flowers",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "vinjaiyar_vendhan"
+    }
+   ]
+  },
+  "414": {
+   "reading": "The king says that when a first daughter is born, wives become the branches, children the flower clusters and elders the honey of the wishing-tree of the family, which then stands cool and fair.",
+   "concepts": [
+    "makkal",
+    "kudi"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "vinjaiyar_vendhan",
+    "form": null,
+    "line": null,
+    "addressee": "vayuvekai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a house is made whole by wives, children and elders together",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "vinjaiyar_vendhan"
+    }
+   ]
+  },
+  "415": {
+   "reading": "The king says that for women, bearing children is harder to gain in this sea-girt world than elephants with trunks or gold and gems.",
+   "concepts": [
+    "makkal",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "vinjaiyar_vendhan",
+    "form": null,
+    "line": null,
+    "addressee": "vayuvekai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "bearing children is rarer for women than wealth",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "vinjaiyar_vendhan"
+    }
+   ]
+  },
+  "416": {
+   "reading": "The king says that as a lamp in a dark place makes the cave shine, so the daughter now shines in every direction, and he calls her mother, rich in jewels, to see it.",
+   "concepts": [
+    "makkal",
+    "oli",
+    "azhagu"
+   ],
+   "nuance": "Lines 1 and 2 are corrupt or lean in their word division; the lamp comparison is the likely sense.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vinjaiyar_vendhan",
+    "form": null,
+    "line": null,
+    "addressee": "vayuvekai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "417": {
+   "reading": "The king calls the daughter born to her, like a gem from a right-whorled conch, a pure and flowering creeper who will be the glory of the whole family that bears her.",
+   "concepts": [
+    "makkal",
+    "kudi",
+    "azhagu"
+   ],
+   "nuance": "Line 2 is unclear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vinjaiyar_vendhan",
+    "form": null,
+    "line": null,
+    "addressee": "vayuvekai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "418": {
+   "reading": "The king reminds her of the saying that the childless are like trees, and says she has now gained a wealth like the red evening sky of the waxing crescent.",
+   "concepts": [
+    "makkal",
+    "selvam",
+    "kurippu"
+   ],
+   "nuance": "The king gives the saying as a common one and does not argue for it; he uses it to praise what she has gained.",
+   "speaker": {
+    "who": "vinjaiyar_vendhan",
+    "form": null,
+    "line": null,
+    "addressee": "vayuvekai"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the childless are like trees",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "vinjaiyar_vendhan"
+    }
+   ]
+  },
+  "419": {
+   "reading": "The king tells her that the priest, learned in lore, said that her daughter, with a look that dazzles deer, will be the lotus-goddess to the god, a nectar to him.",
+   "concepts": [
+    "oozh",
+    "amudham",
+    "kurippu"
+   ],
+   "nuance": "The priest here is reported by the king; he does not speak in the scene.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vinjaiyar_vendhan",
+    "form": null,
+    "line": null,
+    "addressee": "vayuvekai"
+   },
+   "agents": [
+    {
+     "id": "purohitan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The priest, in the king's report, declares that the daughter is destined for Tivittan.",
+   "claims": []
+  },
+  "420": {
+   "reading": "At the king's words the queen hides her wide smile in great joy and speaks, bowing with garlanded hair.",
+   "concepts": [
+    "inbam",
+    "panivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vayuvekai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The queen suppresses a smile and bows to answer the king.",
+   "claims": []
+  },
+  "421": {
+   "reading": "The queen tells the king of kings that the girl was valued through his grace, and that if kings are without grace, children have no worth among later folk.",
+   "concepts": [
+    "arul",
+    "makkal",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "vayuvekai",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "children win worth only through the grace of kings",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "vayuvekai"
+    }
+   ]
+  },
+  "422": {
+   "reading": "The queen says that by the grace of the feet of the elephant-riding kings, whose crowns bear the bees of strewn flowers, the girl gained her beauty and fair hair.",
+   "concepts": [
+    "arul",
+    "azhagu",
+    "arasu"
+   ],
+   "nuance": "Which kings the grace belongs to is not stated; the sense is that the match with a king's son is what gives the girl standing.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vayuvekai",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "423": {
+   "reading": "The king, pleased at the queen's few sweet words, lies with her until his jewelled garland is crushed against her breast.",
+   "concepts": [
+    "inbam",
+    "ilvaazhkkai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar_vendhan",
+     "form": "மகிழ்ந்து",
+     "line": 2
+    },
+    {
+     "id": "vayuvekai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king and queen lie together, pleased with each other.",
+   "claims": []
+  },
+  "424": {
+   "reading": "The next day the king calls his son and his ministers, tells them his plan and tells the tale of the learned astrologer.",
+   "concepts": [
+    "soozhchi",
+    "amaichu",
+    "kalvi"
+   ],
+   "nuance": "The king's agent form here is pointing to the ministers; no word names him on the line, so he is marked unnamed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar_vendhan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king summons his son and ministers and recounts the astrologer's prophecy.",
+   "claims": []
+  },
+  "425": {
+   "reading": "When the king speaks of the girl's wealth and the lord's due, the garlanded ministers, joyful, understand it and answer him.",
+   "concepts": [
+    "amaichu",
+    "soozhchi",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "amaichar",
+    "form": "தாரவர்",
+    "line": 3,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "amaichar",
+     "form": "தாரவர்",
+     "line": 3
+    }
+   ],
+   "event": "The ministers, once told the plan, reply with joy.",
+   "claims": []
+  },
+  "426": {
+   "reading": "The ministers tell the king that doubt about the girl's marriage is gone and that a messenger should now be sent to Tivittan's father, the king of the burning spear.",
+   "concepts": [
+    "amaichu",
+    "thoothu",
+    "soozhchi"
+   ],
+   "speaker": {
+    "who": "amaichar",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [],
+   "event": "The ministers advise sending an envoy to Tivittan's father.",
+   "claims": []
+  },
+  "427": {
+   "reading": "The ministers name Marusi, a learned man who can carry what he has been taught and say what is fit, as the one to send, since he can put kin and the matter in words.",
+   "concepts": [
+    "thoothu",
+    "kalvi",
+    "solvanmai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "amaichar",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "an envoy should be learned and able to speak both of kin and of the business",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "amaichar"
+    }
+   ]
+  },
+  "428": {
+   "reading": "When the ministers have spoken the king calls Marusi and gives him a fine letter with honour; Marusi blesses the king's feet.",
+   "concepts": [
+    "thoothu",
+    "arasu",
+    "panivu"
+   ],
+   "nuance": "The Vidyadhara king, as the passage's one king, is understood to be the giver of the letter; the verse does not name Marusi by the word at line 4.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar_vendhan",
+     "form": "காவலன்",
+     "line": 1
+    },
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king gives Marusi a letter for Tivittan's father, and Marusi blesses him.",
+   "claims": []
+  },
+  "429": {
+   "reading": "At the king's order Marusi crosses the sky, past the roaring clouds, and reaches the edge of a grove outside the golden city of the Surumai land.",
+   "concepts": [
+    "thoothu",
+    "naadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": "மருசி",
+     "line": 1
+    }
+   ],
+   "event": "Marusi flies to the land of Surumai and reaches a grove beside its golden city.",
+   "claims": []
+  },
+  "430": {
+   "reading": "The poet describes the grove, Pushpakarandam, where bees murmur and drip honey and pair with fresh blossoms.",
+   "concepts": [
+    "naadu",
+    "azhagu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 409,
+   "b": 2,
+   "type": "develops",
+   "note": "Verse 2 promises the lion Tivittan tore open; verse 409 is the first time the story itself foretells it, a month away.",
+   "teaches": "The opening's promise is tied to a named date inside the story, so the lion's killing is something the plot is steered toward, not only the poet's announcement."
+  },
+  {
+   "a": 408,
+   "b": 107,
+   "type": "agrees",
+   "note": "Verse 107 has Podanam's astrologer read a dream that a Vidyadhara king will come and give a daughter; here the Vidyadhara king's own astrologer reads the same match from the ridge and adds what the king gains by it.",
+   "teaches": "Two astrologers on two sides of the sky foretell the same match, and only the ridge's gives the giver's reason, two rows of the ridge."
+  },
+  {
+   "a": 430,
+   "b": 108,
+   "type": "develops",
+   "note": "Verse 108 says a man able to speak well will come with a letter into the garden Pushpakarandam; verses 429 and 430 bring Marusi to a grove with that name.",
+   "teaches": "The astrologer's date is kept by the story's own messenger, so the plot is built on a promised arrival rather than chance."
+  },
+  {
+   "a": 418,
+   "b": "kural:61",
+   "type": "qualifies",
+   "note": "Verse 418 gives the saying that the childless are like trees and the queen's joy at a daughter; Kural 61 holds children valuable only when they come to know what should be known.",
+   "teaches": "The Kural makes the worth of a child depend on understanding, where the epic king's praise rests only on having a child at all and on her marriage prospect.",
+   "gains": {
+    "a": "A measure of children's worth beyond the bare fact of having them, which the verse does not state.",
+    "b": "A scene where a child is prized for the marriage she will make, which tests the couplet's call for children who know what should be known."
+   }
+  },
+  {
+   "a": 427,
+   "b": "kural:686",
+   "type": "develops",
+   "note": "Verse 427 chooses Marusi as envoy because he is learned and can put kin and affairs into words; Kural 686 names learning, fearlessness and sense of the time as the envoy's marks.",
+   "teaches": "The ministers' test for an envoy stops at learning and speech, where the Kural adds fearlessness before hostile eyes and a sense of the moment, so the gaps show what the court has not yet asked of Marusi.",
+   "gains": {
+    "a": "Two further qualities, fearlessness and sense of time, that the verse's choice does not name.",
+    "b": "A court that picks an envoy by the stated learning and speech, which shows how a rule is applied in practice."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 407, 408, 411, 414, 416, 417, 419, 422, 424, 427, 428: several lines are hard to construe because of the edition's word division and compressed grammar; flagged uncertain.",
+  "Verses 413 to 419: the speaker is taken to be the king speaking to Vayuvegai on the strength of 412 and 420; the verses do not say so."
+ ]
+}

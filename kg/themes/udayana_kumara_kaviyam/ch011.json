@@ -1,0 +1,665 @@
+{
+ "chapter_no": 11,
+ "chapter_theme": "Udayanan, back among his people, rules with gifts, is told by sages that Vasavadatta lives and will bear a world-ruling son, welcomes Urumannuvan and then Vasavadatta and Yugi, hears Yugi's confession of his plot, and, after a sulk, reconciles with Vasavadatta.",
+ "cast": [
+  {
+   "id": "udayanan",
+   "tamil": "உதயணன்",
+   "role": "the Vatsa king"
+  },
+  {
+   "id": "thoothar",
+   "tamil": "தூதர்",
+   "role": "envoys of hostile kings who bring tribute"
+  },
+  {
+   "id": "anthanar_vina",
+   "tamil": "அந்தணன்",
+   "role": "a brahmin who finds the king's lute and brings it back"
+  },
+  {
+   "id": "padumai",
+   "tamil": "பதுமை",
+   "role": "Padumai, the Magadha king's sister, the king's wife"
+  },
+  {
+   "id": "deyvam_kanavu",
+   "tamil": "தெய்வம்",
+   "role": "the goddess who gives the lotus in the king's dream"
+  },
+  {
+   "id": "tavamikkor",
+   "tamil": "மிக்கோர்",
+   "role": "the great sages and ascetics who read the dream"
+  },
+  {
+   "id": "urumannuvan",
+   "tamil": "உருமண்ணுவா",
+   "role": "the king's minister, freed by the Magadha men"
+  },
+  {
+   "id": "vasavadatta",
+   "tamil": "வாசவதத்தை",
+   "role": "the king's wife, Ujjain's princess"
+  },
+  {
+   "id": "yugi",
+   "tamil": "யூகி",
+   "role": "the king's minister who planned the escape"
+  },
+  {
+   "id": "vayantakan",
+   "tamil": "வயந்தகன்",
+   "role": "the king's friend"
+  },
+  {
+   "id": "madhar_paricharikai",
+   "tamil": "மாதர்",
+   "role": "the women attending the king's bath"
+  },
+  {
+   "id": "kaman",
+   "tamil": "மதன்",
+   "role": "the bodiless god of love"
+  }
+ ],
+ "verses": {
+  "186": {
+   "reading": "The king sits enthroned in glory, his feet bowed to by armies and fanned with golden whisks, under a white pearl umbrella.",
+   "concepts": [
+    "vendhan",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "வேந்தன்",
+     "line": 4
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "187": {
+   "reading": "Envoys of hostile kings come and stand with the tribute they owe; the king gives them gold and cloth, spreads wealth among his people, and rules by the sceptre without lack.",
+   "concepts": [
+    "arasu",
+    "eegai",
+    "sengol"
+   ],
+   "nuance": "The king answers tribute with gifts; the verse sets his giving beside his ruling by the sceptre as one habit.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "thoothar",
+     "form": "தூதர்",
+     "line": 1
+    },
+    {
+     "id": "udayanan",
+     "form": "மன்னன்",
+     "line": 4
+    }
+   ],
+   "event": "Envoys of enemy kings bring tribute, and Udayanan rewards them and gives wealth to all his people.",
+   "claims": []
+  },
+  "188": {
+   "reading": "As the king lies with Padumai, the Magadha king's sister, he builds a pavilion and a town where the elephant fell in the forest, and puts up an image beside it.",
+   "concepts": [
+    "kaamam",
+    "vendhan"
+   ],
+   "nuance": "The verse joins the king's love for Padumai with the marking of the place where the elephant died; whether the image is of the elephant is not said.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "பார்த்திபன்",
+     "line": 2
+    }
+   ],
+   "event": "Udayanan builds a pavilion, a town and an image where the elephant fell, while he is with Padumai.",
+   "claims": []
+  },
+  "189": {
+   "reading": "A brahmin learned in the rare Veda, going from Unjai to Kausambi, finds the Vatsa king's lute on the bamboo along the road and brings it to the king.",
+   "concepts": [
+    "kalai",
+    "eegai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "anthanar_vina",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A brahmin finds Udayanan's lute on a bamboo by the road and brings it to the king.",
+   "claims": []
+  },
+  "190": {
+   "reading": "Padumai comes to the king and begs that he teach her the lute as he taught Vasavadatta with his own generous hand.",
+   "concepts": [
+    "kalvi",
+    "kaamam"
+   ],
+   "nuance": "She names Vasavadatta, her rival, as the measure of what she asks for.",
+   "speaker": {
+    "who": "padumai",
+    "form": "பதுமை",
+    "line": 2,
+    "addressee": "udayanan"
+   },
+   "agents": [
+    {
+     "id": "padumai",
+     "form": "பதுமை",
+     "line": 2
+    }
+   ],
+   "event": "Padumai asks Udayanan to teach her the lute as he taught Vasavadatta.",
+   "claims": []
+  },
+  "191": {
+   "reading": "The king, angered and melting in grief, falls asleep thinking of Thattai and sees in a dream a goddess bring the white lotus of the white bull.",
+   "concepts": [
+    "kanavu",
+    "pirivu",
+    "anbu"
+   ],
+   "nuance": "The verse does not say whom he is angry at; it may be Padumai's request, which names Vasavadatta, or his own grief.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "மன்னன்",
+     "line": 1
+    },
+    {
+     "id": "deyvam_kanavu",
+     "form": "தெய்வங்",
+     "line": 4
+    }
+   ],
+   "event": "Udayanan sleeps thinking of Vasavadatta and dreams a goddess brings him a white lotus.",
+   "claims": []
+  },
+  "192": {
+   "reading": "At dawn he asks the sages what the god gave him, and they say the fish-eyed lady did not die in the fire, that he will find joy by bringing her back, and that she will bear a fair son who rules the whole world.",
+   "concepts": [
+    "kanavu",
+    "oozh",
+    "pirivu"
+   ],
+   "nuance": "The verse's first reading line carries a corrupt mark, repaired by the editor; the sages speak of the lady only in images.",
+   "uncertain": true,
+   "speaker": {
+    "who": "tavamikkor",
+    "form": "மிக்கோர்",
+    "line": 1,
+    "addressee": "udayanan"
+   },
+   "agents": [
+    {
+     "id": "tavamikkor",
+     "form": "மிக்கோர்",
+     "line": 1
+    }
+   ],
+   "event": "Sages read Udayanan's dream and tell him Vasavadatta is alive and will bear a son who rules the world.",
+   "claims": [
+    {
+     "claim": "the dream is a sign that the lost wife lives and will be won back",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "tavamikkor"
+    }
+   ]
+  },
+  "193": {
+   "reading": "The great ascetics tell that the Vidyadharas of the silver mountain will take the whole world under a bright wheel, and the generous king listens gladly and nods his head.",
+   "concepts": [
+    "oozh",
+    "thavam",
+    "kanavu"
+   ],
+   "nuance": "Only the Vidyadharas' rule is named; that this refers to Udayanan's son is carried over from the previous verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tavamikkor",
+     "form": "மிக்கோ",
+     "line": 3
+    },
+    {
+     "id": "udayanan",
+     "form": "வள்ளலு",
+     "line": 4
+    }
+   ],
+   "event": "Ascetics foretell that the Vidyadharas will rule the world under a bright wheel, and Udayanan gladly accepts it.",
+   "claims": [
+    {
+     "claim": "the son to be born will rule the world as lord of the Vidyadharas",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "tavamikkor"
+    }
+   ]
+  },
+  "194": {
+   "reading": "He bows to their feet, returns to his palace and joins Padumai in joy; at that time Urumannuvan has already been freed by the Magadha king's men.",
+   "concepts": [
+    "oozh",
+    "natpu",
+    "kaamam"
+   ],
+   "nuance": "The second half turns suddenly to Urumannuvan's release, which the verse does not explain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Udayanan bows to the sages and goes to Padumai, while Urumannuvan has been released by the Magadha men.",
+   "claims": []
+  },
+  "195": {
+   "reading": "Urumannuvan returns, enters the city and bows to the king, who embraces him as one come back from the dead, greets him with due honour and ends his loneliness with rejoicing.",
+   "concepts": [
+    "natpu",
+    "pirivu",
+    "amaichu"
+   ],
+   "nuance": "The word read here as the king's name for him, காண்டறிவாளன், is uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "urumannuvan",
+     "form": "மீண்டவன்",
+     "line": 1
+    },
+    {
+     "id": "udayanan",
+     "form": "காவலன்",
+     "line": 2
+    }
+   ],
+   "event": "Urumannuvan returns and Udayanan embraces him and welcomes him.",
+   "claims": []
+  },
+  "196": {
+   "reading": "Vasavadatta, Yugi and the others leave Jayanti and come into the flower grove near Kausambi.",
+   "concepts": [
+    "pirivu",
+    "thunai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vasavadatta",
+     "form": "வாசவ தத்தை",
+     "line": 1
+    },
+    {
+     "id": "yugi",
+     "form": "யூகியு",
+     "line": 2
+    }
+   ],
+   "event": "Vasavadatta, Yugi and their company leave Jayanti and enter a grove by Kausambi.",
+   "claims": []
+  },
+  "197": {
+   "reading": "Vayantakan tells the king, who comes to the grove; they fall at his feet, he embraces them kindly and asks in wonder why they hid themselves.",
+   "concepts": [
+    "natpu",
+    "amaichu",
+    "pirivu"
+   ],
+   "nuance": "The question is asked of the group; the next verse answers it in one man's voice.",
+   "speaker": {
+    "who": "udayanan",
+    "form": null,
+    "line": null,
+    "addressee": "yugi"
+   },
+   "agents": [
+    {
+     "id": "vayantakan",
+     "form": "வயந்தக",
+     "line": 2
+    },
+    {
+     "id": "udayanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Udayanan is told by Vayantakan, comes to the grove, embraces the fugitives and asks why they hid.",
+   "claims": []
+  },
+  "198": {
+   "reading": "The speaker says that though earth and sky may all unite sweetly, nothing is done without the kings, and so he left the way of the treatises and plotted by force, and asks pardon; the king is glad.",
+   "concepts": [
+    "soozhchi",
+    "porai",
+    "amaichu"
+   ],
+   "nuance": "The speaker is taken to be Yugi from the answer to the question in verse 197; the second line is hard to construe.",
+   "uncertain": true,
+   "speaker": {
+    "who": "yugi",
+    "form": null,
+    "line": null,
+    "addressee": "udayanan"
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "ரசனு",
+     "line": 4
+    }
+   ],
+   "event": "A minister confesses that he used a plot against the treatises' way and asks pardon, and Udayanan is pleased.",
+   "claims": [
+    {
+     "claim": "a plot done by force departs from the way of the treatise and needs the king's pardon",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "yugi"
+    }
+   ]
+  },
+  "199": {
+   "reading": "With fond and wondrous words the king goes into the house with his queen, anoints himself with fragrant oil and bathes, while fair-jewelled women attend.",
+   "concepts": [
+    "kaamam",
+    "inbam"
+   ],
+   "nuance": "The queen meant is not named and could be Vasavadatta or Padumai.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "மன்ன",
+     "line": 4
+    },
+    {
+     "id": "madhar_paricharikai",
+     "form": "மாதர்",
+     "line": 4
+    }
+   ],
+   "event": "Udayanan and his queen go into the house, where the king is anointed and bathes.",
+   "claims": []
+  },
+  "200": {
+   "reading": "Yugi bathes and eats his meal; as the king sits in happy company, Padumai tells him to go to the house of the other lady.",
+   "concepts": [
+    "natpu",
+    "kaamam",
+    "porai"
+   ],
+   "nuance": "Where she sends him, and the word செவ்வித் தந்தை, are not clear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "padumai",
+    "form": "பதுமையு",
+    "line": 3,
+    "addressee": "udayanan"
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": "யூகியு",
+     "line": 1
+    },
+    {
+     "id": "padumai",
+     "form": "பதுமையு",
+     "line": 3
+    }
+   ],
+   "event": "Yugi bathes and eats, and Padumai bids Udayanan go.",
+   "claims": []
+  },
+  "201": {
+   "reading": "As the king sits in the other lady's house, she angrily tells him that her fierce desire is no longer wanted and he should go.",
+   "concepts": [
+    "oodal",
+    "kaamam"
+   ],
+   "nuance": "She is not named; she is taken to be Vasavadatta because the next verse calls her the sulking queen.",
+   "speaker": {
+    "who": "vasavadatta",
+    "form": "கண்ணி னாளும்",
+    "line": 3,
+    "addressee": "udayanan"
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "மன்னன்",
+     "line": 1
+    }
+   ],
+   "event": "Vasavadatta, angry, tells Udayanan to leave.",
+   "claims": []
+  },
+  "202": {
+   "reading": "The king, who has just been with Padumai, tells the sulking queen that on searching her qualities by feeling and by light, the other is not her equal.",
+   "concepts": [
+    "oodal",
+    "natpu"
+   ],
+   "nuance": "The second half of the speech is obscure.",
+   "uncertain": true,
+   "speaker": {
+    "who": "udayanan",
+    "form": null,
+    "line": null,
+    "addressee": "vasavadatta"
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "மன்னன்",
+     "line": 1
+    },
+    {
+     "id": "vasavadatta",
+     "form": "தேவி",
+     "line": 3
+    }
+   ],
+   "event": "Udayanan tells the angry queen that Padumai is not her equal.",
+   "claims": []
+  },
+  "203": {
+   "reading": "He praises her beauty, wins her out of her sulk, and, like a rutting elephant with its mate, embraces her till the scented paste on her breasts is rubbed away.",
+   "concepts": [
+    "oodal",
+    "punarchi",
+    "kaamam"
+   ],
+   "nuance": "The reconciliation works by praise first and the embrace after.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "காளை",
+     "line": 4
+    }
+   ],
+   "event": "Udayanan praises Vasavadatta, ends her sulk and embraces her.",
+   "claims": []
+  },
+  "204": {
+   "reading": "Under the arrows of bodiless Madan the two drink the sweet nectar of each other's lips, their long eyes redden, anklets sound, bees fly off and the hair comes loose.",
+   "concepts": [
+    "kaamam",
+    "punarchi",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kaman",
+     "form": "மதன்",
+     "line": 1
+    },
+    {
+     "id": "udayanan",
+     "form": "இருவரும்",
+     "line": 2
+    },
+    {
+     "id": "vasavadatta",
+     "form": "இருவரும்",
+     "line": 2
+    }
+   ],
+   "event": "Udayanan and Vasavadatta unite in love.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 190,
+   "b": 103,
+   "type": "develops",
+   "note": "Padumai asks for the lute lessons that verse 103 gave Vasavadatta.",
+   "teaches": "The lute lessons that began Vasavadatta's tie to Udayanan are now claimed by a second wife, so the same craft becomes a place where two wives are measured."
+  },
+  {
+   "a": 192,
+   "b": 63,
+   "type": "same_image",
+   "note": "Both verses have a dream read by the wise as a promise of union.",
+   "teaches": "In each, the dream is read aloud by experts and then fulfilled, but here the reader names the lady's survival while verse 63 names a groom to come."
+  },
+  {
+   "a": 196,
+   "b": 192,
+   "type": "develops",
+   "note": "Vasavadatta arrives at Kausambi as the sages in verse 192 foretold.",
+   "teaches": "The sages' reading is shown to be true when the lady the king thought dead walks into the grove."
+  },
+  {
+   "a": 196,
+   "b": 120,
+   "type": "develops",
+   "note": "They leave Jayanti, the refuge reached in verse 120, for Kausambi.",
+   "teaches": "The safe city reached at the end of the flight is only a stage; the return to the king's own capital is what completes it."
+  },
+  {
+   "a": 198,
+   "b": 109,
+   "type": "develops",
+   "note": "The plot confessed here is the trick of Yugi set out in verse 109.",
+   "teaches": "The trick is described in its working in verse 109, but only here does its author call it a departure from the treatises and ask pardon."
+  },
+  {
+   "a": 203,
+   "b": "kural:1303",
+   "type": "develops",
+   "note": "The king ends his queen's sulk by praise and an embrace, which is what the couplet urges for a sulker.",
+   "teaches": "The couplet says not to leave the sulker unembraced, while the scene adds that he first praises her beauty and wins her mind.",
+   "gains": {
+    "a": "the verse gains a rule that makes the embrace more than lust, an answer owed to someone already hurt",
+    "b": "the couplet gains a concrete order of acts: praise first, then the embrace, with a king as the one who must yield"
+   }
+  },
+  {
+   "a": 204,
+   "b": "kural:1109",
+   "type": "develops",
+   "note": "Quarrel (201-202), making up (203) and union (204) run in the order the couplet gives.",
+   "teaches": "The couplet lists the three as a gain of love, and the run of verses shows them as one evening in a king's house.",
+   "gains": {
+    "a": "the verse gains a naming of its sequence as love's reward, not merely a king's pleasure",
+    "b": "the couplet gains a plot in which the quarrel is caused by a second wife and made up by flattery"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 192, line 2: a pulli after a vowel sign was removed by the repair pass.",
+  "Verses 194, 199, 200: several words and the identities of the people they name are unclear."
+ ]
+}

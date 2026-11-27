@@ -1,0 +1,811 @@
+{
+  "chapter_no": 18,
+  "chapter_theme": "The elephant, calmed by a sage's dharma, comes to Udayanan; the king hears the Jain teaching, learns the elephant was a brahmin ruined by lust and drink, and starts to hear of his own former birth as Gomukan.",
+  "cast": [
+    {
+      "id": "udayanan",
+      "tamil": "உதயணன்",
+      "role": "the king of Vatsa, who rides the elephant and hears the sage"
+    },
+    {
+      "id": "yugi",
+      "tamil": "யூகி",
+      "role": "Udayanan's minister who reads the elephant's calm"
+    },
+    {
+      "id": "muni",
+      "tamil": "முனிவன்",
+      "role": "the sage who teaches dharma and tells the elephant's story"
+    },
+    {
+      "id": "yanai",
+      "tamil": "யானை",
+      "role": "the elephant that listens to the sage and comes to the king"
+    },
+    {
+      "id": "kaavalar",
+      "tamil": "காவலாளர்",
+      "role": "the gate guards and doorkeepers"
+    },
+    {
+      "id": "pagar",
+      "tamil": "பாகர்",
+      "role": "the elephant keepers"
+    },
+    {
+      "id": "vidapakan",
+      "tamil": "விடபகன்",
+      "role": "the brahmin of Kadakam who in the sage's tale became the elephant"
+    },
+    {
+      "id": "janaki",
+      "tamil": "சானகி",
+      "role": "Vidapakan's wife"
+    },
+    {
+      "id": "ayanthan_wife",
+      "tamil": "குலாங்கனை",
+      "role": "the noble wife who bears Gomukan"
+    },
+    {
+      "id": "gomukan",
+      "tamil": "கோமுகன்",
+      "role": "Udayanan's former self, born in Sugandhi"
+    },
+    {
+      "id": "vijayan",
+      "tamil": "விசையன்",
+      "role": "Gomukan's friend, son of the spear-king"
+    }
+  ],
+  "verses": {
+    "325": {
+      "reading": "The elephant that had risen in a death-like rage hears the sage's dharma, bows its ears to it and understands its own unavoidable birth.",
+      "concepts": [
+        "vinai",
+        "piravi",
+        "arivu"
+      ],
+      "nuance": "Line 4 turns on a hard form (மறித்து உணர்ந்தது); that the elephant knows its former birth is the likely sense, and verses 336 to 339 bear it out.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "yanai",
+          "form": "கரி",
+          "line": 1
+        },
+        {
+          "id": "muni",
+          "form": "முனி",
+          "line": 2
+        }
+      ],
+      "event": "The enraged elephant is calmed by the sage's teaching and recalls its former birth.",
+      "claims": [
+        {
+          "claim": "Even an animal that hears the dharma can come to know the birth it has passed through",
+          "school": "general",
+          "line": 3,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "326": {
+      "reading": "The sage teaches that the deed of killing, which makes blood run in streams, drives the killer to terrible sorrow, to animal births and then down into hard hell.",
+      "concepts": [
+        "vinai",
+        "naragam",
+        "kollaamai",
+        "piravi"
+      ],
+      "nuance": "The verse is the sermon the elephant heard in 325; the sage speaks to the whole assembly and the elephant is the one who takes it in.",
+      "speaker": {
+        "who": "muni",
+        "form": null,
+        "line": null,
+        "addressee": "yanai"
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "Killing living beings brings sorrow, animal birth and hell as its fruit",
+          "school": "general",
+          "line": 1,
+          "stance": "asserted",
+          "voiced_by": "muni"
+        }
+      ]
+    },
+    "327": {
+      "reading": "With tears running and its mind pained, the elephant that had grown wise thinks of the king and comes to the gate of the city rampart.",
+      "concepts": [
+        "anbu",
+        "arivu",
+        "vinai"
+      ],
+      "nuance": "Line 3 is hard (கோன கருன்னி); read here as the king's city and the elephant thinking of it.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "yanai",
+          "form": "குஞ்சரம்",
+          "line": 3
+        }
+      ],
+      "event": "The elephant weeps and goes to the rampart gate of the king's city.",
+      "claims": []
+    },
+    "328": {
+      "reading": "The gate guards open the doors, the elephant walks through the city to the palace and stands like a mountain, and the doorkeepers tell the king, who comes out.",
+      "concepts": [
+        "vendhan",
+        "anbu"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "kaavalar",
+          "form": "காவலாளர்",
+          "line": 1
+        },
+        {
+          "id": "yanai",
+          "form": null,
+          "line": 1
+        },
+        {
+          "id": "udayanan",
+          "form": "பெருமக",
+          "line": 4
+        }
+      ],
+      "event": "The elephant reaches the palace gate; the doorkeepers report it and Udayanan comes out.",
+      "claims": []
+    },
+    "329": {
+      "reading": "Seeing the great elephant standing, the king looks kindly at his ministers, and Yugi says it has surely heard dharma from a great ascetic and bids the king mount it.",
+      "concepts": [
+        "arivu",
+        "vendhan",
+        "aram"
+      ],
+      "nuance": "Yugi infers the sermon only from the elephant's bearing; the sage himself has not yet been named in this chapter.",
+      "speaker": {
+        "who": "yugi",
+        "form": "யூகி",
+        "line": 3,
+        "addressee": "udayanan"
+      },
+      "agents": [
+        {
+          "id": "udayanan",
+          "form": "மன்னவ",
+          "line": 2
+        },
+        {
+          "id": "yugi",
+          "form": "யூகி",
+          "line": 3
+        }
+      ],
+      "event": "Yugi reads the elephant's calm as the sign of a sage's teaching and urges Udayanan to ride it.",
+      "claims": []
+    },
+    "330": {
+      "reading": "The king mounts the elephant by its tusk, rides round the garden of fresh shoots, and gets down at the sage's place.",
+      "concepts": [
+        "vendhan",
+        "panivu"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "udayanan",
+          "form": "வேந்தன",
+          "line": 1
+        }
+      ],
+      "event": "Udayanan rides the elephant round the grove and dismounts.",
+      "claims": []
+    },
+    "331": {
+      "reading": "The king takes flowers, water and fruit with his people, bows to the sage's feet in good humour, is told to sit and hears the dharma.",
+      "concepts": [
+        "panivu",
+        "vazhipaadu",
+        "aram",
+        "guru"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "udayanan",
+          "form": "பார்த்திப",
+          "line": 2
+        },
+        {
+          "id": "muni",
+          "form": "மாதவ",
+          "line": 3
+        }
+      ],
+      "event": "Udayanan honours the sage with offerings, sits at his bidding and listens to his teaching.",
+      "claims": []
+    },
+    "332": {
+      "reading": "The sage begins his teaching: the six substances to be understood, the five that occupy space, and the seven truths, in order.",
+      "concepts": [
+        "thaththuvam",
+        "aram",
+        "arivu"
+      ],
+      "nuance": "The six substances and the pancastikaya are the Jain categories; the verse only names them and does not define them.",
+      "uncertain": true,
+      "speaker": {
+        "who": "muni",
+        "form": "முனிவன்",
+        "line": 1,
+        "addressee": "udayanan"
+      },
+      "agents": [
+        {
+          "id": "muni",
+          "form": "முனிவன்",
+          "line": 1
+        },
+        {
+          "id": "udayanan",
+          "form": "வரசன",
+          "line": 1
+        }
+      ],
+      "event": "The sage lays out the Jain categories of substances and truths.",
+      "claims": [
+        {
+          "claim": "Reality is known by six substances, five space-occupying extents (astikaya) and seven truths",
+          "school": "jain",
+          "line": 3,
+          "stance": "asserted",
+          "voiced_by": "muni"
+        }
+      ]
+    },
+    "333": {
+      "reading": "The sage goes on to nine categories, six bodily classes, restraint of the six powers, ten virtues and twelve contemplations, and says the noble know, believe, and then walk the way that follows.",
+      "concepts": [
+        "thaththuvam",
+        "ozhukkam",
+        "aram"
+      ],
+      "nuance": "Lines 1 to 3 are a list of Jain headings (navapadartha, the six kayas, ten dharmas, twelve anuprekshas); the verse gives names, not their sense.",
+      "speaker": {
+        "who": "muni",
+        "form": null,
+        "line": null,
+        "addressee": "udayanan"
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "Right knowledge and trust come first, and right conduct follows from them",
+          "school": "jain",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "muni"
+        },
+        {
+          "claim": "Restraint of the six senses, ten virtues and twelve contemplations belong to the path",
+          "school": "jain",
+          "line": 2,
+          "stance": "asserted",
+          "voiced_by": "muni"
+        }
+      ]
+    },
+    "334": {
+      "reading": "Those who honour the great teachers, reach the end of true learning by the beloved books and give gifts to the ascetics are freed from endless birth and sink in the old sea of joy.",
+      "concepts": [
+        "eegai",
+        "thavam",
+        "veedu",
+        "piravi"
+      ],
+      "nuance": "The reward is release; a gift here is a step on the road to freedom, not only a duty to the poor.",
+      "speaker": {
+        "who": "muni",
+        "form": null,
+        "line": null,
+        "addressee": "udayanan"
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "Giving to ascetics, with learning, ends rebirth and leads to bliss",
+          "school": "general",
+          "line": 3,
+          "stance": "asserted",
+          "voiced_by": "muni"
+        }
+      ]
+    },
+    "335": {
+      "reading": "As the sage teaches dharma the king bows again, and the sight of dharma is said to be the chief light that shakes off the stain of heavy deeds.",
+      "concepts": [
+        "vinai",
+        "aram",
+        "panivu",
+        "veedu"
+      ],
+      "nuance": "Here deeds are shed by sight and understanding, not by worship of a god.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "muni",
+          "form": "தருமவீரர்",
+          "line": 1
+        },
+        {
+          "id": "udayanan",
+          "form": "மன்னனும்",
+          "line": 2
+        }
+      ],
+      "event": "The king bows after the sermon; the narrator names right vision as the means of shedding strong karma.",
+      "claims": [
+        {
+          "claim": "Right vision (darsana) shakes off the stain of heavy deeds",
+          "school": "jain",
+          "line": 3,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    },
+    "336": {
+      "reading": "The king asks the sage what is behind the elephant's rage, and the sage begins at a town of brahmins in the flower-grove country of Sali.",
+      "concepts": [
+        "vinai",
+        "kudi"
+      ],
+      "nuance": "Lines 3 and 4 are the sage's own words, set in the narrator's frame.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "udayanan",
+          "form": "மன்னன்",
+          "line": 1
+        },
+        {
+          "id": "muni",
+          "form": "யெதிவ",
+          "line": 2
+        }
+      ],
+      "event": "Udayanan asks the cause of the elephant's fury; the sage starts his answer.",
+      "claims": []
+    },
+    "337": {
+      "reading": "A brahmin of the village of Kadakam called Vidapakan lives with his wife Janaki in boundless desire.",
+      "concepts": [
+        "kaamam",
+        "kudi"
+      ],
+      "speaker": {
+        "who": "muni",
+        "form": null,
+        "line": null,
+        "addressee": "udayanan"
+      },
+      "agents": [
+        {
+          "id": "vidapakan",
+          "form": "விடபகன்",
+          "line": 2
+        },
+        {
+          "id": "janaki",
+          "form": "சானகி",
+          "line": 3
+        }
+      ],
+      "event": "Vidapakan and his wife live in endless passion.",
+      "claims": []
+    },
+    "338": {
+      "reading": "Vidapakan falls for the courtesan Amari, and in his longing neglects the rites and conduct of his religion and has no fear of sin.",
+      "concepts": [
+        "kaamam",
+        "varaivinmagalir",
+        "ozhukkam",
+        "acham"
+      ],
+      "nuance": "The sage does not blame the courtesan; the fault is placed on the man's neglect of duty and absence of fear.",
+      "speaker": {
+        "who": "muni",
+        "form": null,
+        "line": null,
+        "addressee": "udayanan"
+      },
+      "agents": [
+        {
+          "id": "vidapakan",
+          "form": null,
+          "line": 2
+        }
+      ],
+      "event": "Vidapakan leaves his wife's side for the courtesan and drops his duties.",
+      "claims": [
+        {
+          "claim": "One who gives himself to lust and neglects duty without fear of sin brings ruin on himself",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "muni"
+        }
+      ]
+    },
+    "339": {
+      "reading": "Drunk with desire and with liquor, never letting go, a woman beside him, he knew neither night nor day, and after his death he became this elephant.",
+      "concepts": [
+        "kal",
+        "kaamam",
+        "piravi",
+        "vinai"
+      ],
+      "nuance": "This is the sage's answer to the question of 336: the raging elephant is the brahmin who lived without restraint.",
+      "speaker": {
+        "who": "muni",
+        "form": null,
+        "line": null,
+        "addressee": "udayanan"
+      },
+      "agents": [
+        {
+          "id": "vidapakan",
+          "form": null,
+          "line": 1
+        }
+      ],
+      "event": "Vidapakan lives drunk and dies, and is reborn as the elephant.",
+      "claims": [
+        {
+          "claim": "A life of lust and drink leads to rebirth as an animal",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "muni"
+        }
+      ]
+    },
+    "340": {
+      "reading": "Hearing that the elephant has grown calm, the king tells the keepers to bathe it in pure water and feed it rice and milk-ghee with love.",
+      "concepts": [
+        "anbu",
+        "eegai",
+        "vendhan"
+      ],
+      "nuance": "Line 1 is said by the report-bearers; the order follows in the king's words.",
+      "speaker": {
+        "who": "udayanan",
+        "form": "மன்னன்",
+        "line": 2,
+        "addressee": "pagar"
+      },
+      "agents": [
+        {
+          "id": "udayanan",
+          "form": "மன்னன்",
+          "line": 2
+        },
+        {
+          "id": "pagar",
+          "form": "பாகர்",
+          "line": 2
+        }
+      ],
+      "event": "Udayanan orders the elephant bathed and tenderly fed.",
+      "claims": []
+    },
+    "341": {
+      "reading": "The king orders daily feeding, bows his crowned head at the sage's feet, goes to him and asks him one more thing.",
+      "concepts": [
+        "anbu",
+        "panivu",
+        "guru"
+      ],
+      "speaker": {
+        "who": "udayanan",
+        "form": "காவலன்",
+        "line": 1,
+        "addressee": "pagar"
+      },
+      "agents": [
+        {
+          "id": "udayanan",
+          "form": "காவலன்",
+          "line": 1
+        },
+        {
+          "id": "pagar",
+          "form": null,
+          "line": 1
+        },
+        {
+          "id": "muni",
+          "form": "பண்ணவர்",
+          "line": 2
+        }
+      ],
+      "event": "Udayanan orders the daily feed, bows, and puts a further question to the sage.",
+      "claims": []
+    },
+    "342": {
+      "reading": "The king asks what causes his own lasting love for the rutting elephant, and the sage says to hear it, for those of flawless sight and conduct hold no pride.",
+      "concepts": [
+        "anbu",
+        "vinai",
+        "arivu"
+      ],
+      "nuance": "Lines 1 and 2 are the king's question and lines 3 and 4 the sage's reply; the speaker is given as the king.",
+      "speaker": {
+        "who": "udayanan",
+        "form": null,
+        "line": null,
+        "addressee": "muni"
+      },
+      "agents": [
+        {
+          "id": "udayanan",
+          "form": null,
+          "line": 1
+        },
+        {
+          "id": "muni",
+          "form": "மாட்சியர்",
+          "line": 4
+        }
+      ],
+      "event": "Udayanan asks why he loves the elephant; the sage tells him to listen.",
+      "claims": []
+    },
+    "343": {
+      "reading": "The sage begins his account on the silver mountain's northern range, in the middle country with the lord's pond.",
+      "concepts": [
+        "vinai",
+        "piravi"
+      ],
+      "nuance": "The place is Vijayardha's northern range (வெள்ளியம்மலை), a Vidyadhara country; line 4 is hard to place.",
+      "uncertain": true,
+      "speaker": {
+        "who": "muni",
+        "form": "நற்றவ",
+        "line": 1,
+        "addressee": "udayanan"
+      },
+      "agents": [
+        {
+          "id": "muni",
+          "form": "நற்றவ",
+          "line": 1
+        }
+      ],
+      "event": "The sage begins the tale of Udayanan's former birth.",
+      "claims": []
+    },
+    "344": {
+      "reading": "In the city of Sugandhi, a lord of famed word and clear mind named Ayanthan has a noble wife who gladly bears him a son named Gomukan.",
+      "concepts": [
+        "kudi",
+        "vendhan",
+        "piravi"
+      ],
+      "nuance": "Whether மாதவன் and அயந்தன் name one man or two is not settled here; they are taken as one.",
+      "uncertain": true,
+      "speaker": {
+        "who": "muni",
+        "form": null,
+        "line": null,
+        "addressee": "udayanan"
+      },
+      "agents": [
+        {
+          "id": "ayanthan_wife",
+          "form": "குலாங்கனை",
+          "line": 3
+        }
+      ],
+      "event": "Gomukan is born in Sugandhi.",
+      "claims": []
+    },
+    "345": {
+      "reading": "The youth called Kaman, whose nurse is Somasundari, and Vijayan, son of the famed spear-king, become close friends.",
+      "concepts": [
+        "natpu",
+        "anbu",
+        "kudi"
+      ],
+      "nuance": "Kaman is taken to be another name for Gomukan, since 346 goes on with Gomukan; this is not stated.",
+      "uncertain": true,
+      "speaker": {
+        "who": "muni",
+        "form": null,
+        "line": null,
+        "addressee": "udayanan"
+      },
+      "agents": [
+        {
+          "id": "gomukan",
+          "form": "காளை",
+          "line": 1
+        },
+        {
+          "id": "vijayan",
+          "form": "விசையன",
+          "line": 3
+        }
+      ],
+      "event": "Gomukan and Vijayan become close friends.",
+      "claims": []
+    },
+    "346": {
+      "reading": "Gomukan enjoyed pleasures in love without limit, and when he died the good soul rose and you became.",
+      "concepts": [
+        "piravi",
+        "inbam",
+        "vinai"
+      ],
+      "nuance": "The verse leaves the elephant's tie to Gomukan for the verses that follow; it only says the king was Gomukan.",
+      "speaker": {
+        "who": "muni",
+        "form": null,
+        "line": null,
+        "addressee": "udayanan"
+      },
+      "agents": [
+        {
+          "id": "gomukan",
+          "form": "கோமுகன்",
+          "line": 3
+        }
+      ],
+      "event": "The sage tells the king he was Gomukan in a former birth.",
+      "claims": [
+        {
+          "claim": "At death the soul passes on and is born again as another",
+          "school": "general",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "muni"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "a": 326,
+      "b": 4,
+      "type": "develops",
+      "note": "Verse 4 states in the abstract that a deed binds and ripens; verse 326 gives a case, killing and its fruit.",
+      "teaches": "The opening claim about deeds that ripen is given a concrete case here: a named deed, its sorrow and its hell."
+    },
+    {
+      "a": 346,
+      "b": 342,
+      "type": "develops",
+      "note": "The king's question in verse 342 about his love for the elephant is answered by a past birth in verse 346.",
+      "teaches": "The king's love for the elephant is answered by a birth he cannot recall, not by anything in the elephant."
+    },
+    {
+      "a": 326,
+      "b": "kural:255",
+      "type": "develops",
+      "note": "Both give hell as the fruit of the deed; the verse adds animal rebirth to it.",
+      "teaches": "The epic widens the couplet's hell into an order of fruits that includes animal birth, which the couplet does not name.",
+      "gains": {
+        "a": "the sermon's hell is borne out by an old rule that links it to killing for food",
+        "b": "the couplet's hell gets a longer road of sorrow and animal birth before it"
+      }
+    },
+    {
+      "a": 339,
+      "b": "kural:920",
+      "type": "qualifies",
+      "note": "Both warn that women and liquor ruin a man; the verse follows the ruin past this life.",
+      "teaches": "The couplet counts the loss in fortune; the story counts the loss in the next birth, so the harm reaches beyond this life.",
+      "gains": {
+        "a": "the brahmin's fall gets a rule that names his company as the mark of a man whom fortune has left",
+        "b": "the couplet's ruin gets a case in which the cost is a birth as an elephant"
+      }
+    },
+    {
+      "a": 334,
+      "b": "kural:222",
+      "type": "tension",
+      "note": "The verse promises release for gifts to ascetics; the couplet says giving is good even if there is no higher world.",
+      "teaches": "The verse pays giving in release, while the couplet holds that giving is good without any reward, so the two differ on why one gives.",
+      "gains": {
+        "a": "the promise of release for giving is tested by a rule that gives without any reward",
+        "b": "the couplet's giving for its own sake meets a doctrine that fixes a reward"
+      }
+    },
+    {
+      "a": 335,
+      "b": "tirumanthiram:219",
+      "type": "tension",
+      "note": "The verse sheds heavy deeds by right vision; Tirumular burns the many ills of deeds by worship of the fire.",
+      "teaches": "The deed is shed by sight and understanding in one and burnt away by worship in the other, so the means of release is what they dispute.",
+      "gains": {
+        "a": "the shedding of deeds by sight gets a rival that burns them by rite",
+        "b": "Tirumular's fire gets a rival in which no worship is needed and sight alone is enough"
+      }
+    },
+    {
+      "a": 339,
+      "b": "siddhar:50",
+      "type": "qualifies",
+      "note": "The Siddhar asks when darkness will leave births as grass, beast and worm; the verse shows one man made a beast.",
+      "teaches": "The Siddhar names the beast-births without saying why; the verse supplies a cause in a life of drink and lust.",
+      "gains": {
+        "a": "the elephant's rebirth gets the Siddhar's longing to escape every such birth",
+        "b": "the Siddhar's list of births gets a case with a stated cause"
+      }
+    },
+    {
+      "a": 333,
+      "b": "soolamani:201",
+      "type": "agrees",
+      "note": "Both set knowledge and trust before conduct in the sage's teaching.",
+      "teaches": "Both Jain sages put conduct after discernment of true things, though the Soolamani gives it as three steps and this verse buries it in a long list."
+    }
+  ],
+  "new_concepts": [],
+  "source_issues": [
+    "Verse 325 line 4: the form மறித்து is hard.",
+    "Verse 327 line 3: கோன கருன்னி is hard to read.",
+    "Verses 332 line 1 and 343 line 4 are hard to parse.",
+    "Verses 344 and 345: the names மாதவன், அயந்தன் and காமன் may name one person each or two; taken as one.",
+    "Verse 336 lines 3 and 4 are the sage's words in the narrator's frame."
+  ]
+}

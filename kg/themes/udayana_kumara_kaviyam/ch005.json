@@ -1,0 +1,763 @@
+{
+ "chapter_no": 5,
+ "chapter_theme": "Yugi, disguised as a mad performer, signals Udayanan in prison through music, rouses the king's elephant, which wrecks Ujjain; the ministers advise freeing the captive, and the vina of Udayanan brings the elephant to bow.",
+ "cast": [
+  {
+   "id": "yugi",
+   "tamil": "யூகி",
+   "role": "Udayanan's minister, who comes disguised to free him"
+  },
+  {
+   "id": "udayanan",
+   "tamil": "வத்தவன்",
+   "role": "the Vatsa king, held captive in Ujjain"
+  },
+  {
+   "id": "vayanthakan",
+   "tamil": "வயந்தகன்",
+   "role": "Yugi's friend and helper"
+  },
+  {
+   "id": "ujjai_king",
+   "tamil": "வேந்தன்",
+   "role": "the king of Ujjain, who holds Udayanan"
+  },
+  {
+   "id": "ujjai_ministers",
+   "tamil": "அமைச்சர்",
+   "role": "the Ujjain king's counsellors"
+  },
+  {
+   "id": "ujjai_soldiers",
+   "tamil": "சேனை",
+   "role": "the king's guards and soldiers"
+  },
+  {
+   "id": "ujjai_people",
+   "tamil": "நகரத்தார்",
+   "role": "the people of Ujjain"
+  },
+  {
+   "id": "elephant",
+   "tamil": "யானை",
+   "role": "the king's war elephant, set loose against the city"
+  },
+  {
+   "id": "elephant_keepers",
+   "tamil": "பாகர்",
+   "role": "the mahouts who try to hold the elephant"
+  },
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the speaker of verse 95; name unexplained in the verse"
+  }
+ ],
+ "verses": {
+  "75": {
+   "reading": "A figure is described in costume: a golden band on the brow, sandal paste on the chest, a golden girdle at the waist and a garment slit with arrows.",
+   "concepts": [
+    "azhagu",
+    "soozhchi"
+   ],
+   "nuance": "The verse never names the wearer; that this is the disguised Yugi is known only from verse 81, where the king knows him by his music.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "76": {
+   "reading": "The same figure is dressed in a garland and upper cloth, earrings, anklet bells, a dried waist-cloth, a playing flute and a water pot carried on the head.",
+   "concepts": [
+    "azhagu",
+    "soozhchi"
+   ],
+   "nuance": "A strange mixed costume that suits a mad entertainer; the verse leaves the guise unnamed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "77": {
+   "reading": "The figure appears in the middle of the flag-hung old city's fine street, dancing, passes through the steps of the dance and comes along sweetly, roaring like thunder.",
+   "concepts": [
+    "kalai",
+    "soozhchi"
+   ],
+   "nuance": "Yugi is not named; the entry as a public performer is the first stage of the rescue plan.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A dancing, thundering stranger comes down the main street of the city.",
+   "claims": []
+  },
+  "78": {
+   "reading": "The figure cries out that Indra has left Indra's world and come, that he sits in the sky and has come in love, and that he is lord of the sons who are Indra's lord, in words whose last two lines are broken.",
+   "concepts": [
+    "soozhchi",
+    "vanjam"
+   ],
+   "nuance": "The claim to be Indra is part of a mad-man's act, not a belief of the poem; lines 3-4 are too broken to parse with confidence.",
+   "uncertain": true,
+   "speaker": {
+    "who": "yugi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The disguised man proclaims himself Indra come down.",
+   "claims": []
+  },
+  "79": {
+   "reading": "The speaker says a five-headed snake with spotted stripes was caught from its anthill and put, held, inside this city's prison, and that they showed it so that it should be known everywhere.",
+   "concepts": [
+    "soozhchi",
+    "vanjam"
+   ],
+   "nuance": "The snake is most likely a veiled name for the imprisoned Udayanan, so a madman's babble tells the crowd what the guards cannot take as news; the verse itself does not say so.",
+   "uncertain": true,
+   "speaker": {
+    "who": "yugi",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The disguised man speaks in riddling words of a captured snake kept in the city's prison.",
+   "claims": []
+  },
+  "80": {
+   "reading": "After teaching bewilderment and clarity without measure, with crowds gathering around him, he leaves the great streets behind and comes to the hard prison hall.",
+   "concepts": [
+    "soozhchi",
+    "kalai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The disguised man draws a crowd, then reaches the prison.",
+   "claims": []
+  },
+  "81": {
+   "reading": "Two kinsmen's song learned on the strings is played on the flute he enjoys for the chained king to hear; the king hears the song of his own mind, knows that it is Yugi and rejoices, casts off every care, and Yugi, having told the king, leaves.",
+   "concepts": [
+    "natpu",
+    "soozhchi",
+    "kalai"
+   ],
+   "nuance": "The tune is the secret message: the guards hear a mad piper, the king hears his minister. Line 1, 'two of the kin', is unclear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": "யூகி",
+     "line": 3
+    },
+    {
+     "id": "udayanan",
+     "form": "மன்னன்",
+     "line": 2
+    }
+   ],
+   "event": "Yugi plays music at the prison so that the captive Udayanan knows him and takes heart.",
+   "claims": []
+  },
+  "82": {
+   "reading": "The king's soldiers come through many gates to see the fine form of the man and, from his head to his feet, look him over as he goes; the line about the ornament on his chest and the cloth over it is broken.",
+   "concepts": [
+    "soozhchi",
+    "padai"
+   ],
+   "nuance": "Line 2 and the word வடுவ்வை in line 3 read as corrupt; only the sense that he was looked over and passed is secure.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ujjai_soldiers",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "yugi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king's men examine the strange performer and let him go.",
+   "claims": []
+  },
+  "83": {
+   "reading": "They tell the great king that the man is a ghost-possessed madman; hearing it, the king bids his victorious army to keep the cruel prison still, while Yugi goes to the village and that night sets about rousing the elephant's rage.",
+   "concepts": [
+    "soozhchi",
+    "padai",
+    "vanjam"
+   ],
+   "nuance": "The guise works: the king's caution falls on the prison guard, not on the stranger.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ujjai_soldiers",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "ujjai_king",
+     "form": "வென்றான்",
+     "line": 2
+    },
+    {
+     "id": "yugi",
+     "form": "யூகி",
+     "line": 3
+    }
+   ],
+   "event": "The guards dismiss the stranger as mad; Yugi that night sets out to enrage the elephant.",
+   "claims": []
+  },
+  "84": {
+   "reading": "With sword and bow in hand he reckons with Vayanthakan, his arm-like friend, that the hour is right for the fumigating materials, and by cunning he takes hold of a rope and goes down, by skill, onto the elephant's mass.",
+   "concepts": [
+    "soozhchi",
+    "kaalam",
+    "natpu"
+   ],
+   "nuance": "The words after the rope in lines 3-4 are hard; whether he drops onto the elephant's back or its legs is not clear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vayanthakan",
+     "form": "வயந்தகன்",
+     "line": 1
+    }
+   ],
+   "event": "Yugi and Vayanthakan choose the hour and go down a rope to the elephant.",
+   "claims": []
+  },
+  "85": {
+   "reading": "He sees the elephant's place, makes aguru smoke rise, and, telling the beast that it should destroy the army and the city and that freeing the captive is its task, the wise Yugi whispers a mantra into its ear, and in its maddened rut the elephant shakes off its heavy chain.",
+   "concepts": [
+    "soozhchi",
+    "maram",
+    "vanjam"
+   ],
+   "nuance": "The elephant, the king's weapon, becomes the means of the captive's rescue; this is the stratagem the whole sequence turns on.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": "யூகி",
+     "line": 3
+    },
+    {
+     "id": "elephant",
+     "form": "யானை",
+     "line": 3
+    }
+   ],
+   "event": "Yugi smokes the elephant, whispers a mantra into its ear and the elephant breaks its chain.",
+   "claims": []
+  },
+  "86": {
+   "reading": "Thinking this the way to leave, Yugi climbs the standing wall and goes; in the thick darkness the elephant whirls and runs, and when the mahouts try to enclose it, it roars like a bursting cloud, tears loose and kills them with its trunk.",
+   "concepts": [
+    "maram",
+    "kolai",
+    "soozhchi"
+   ],
+   "nuance": "The keepers die at the hand of the beast they were set to guard, the cost of the stratagem falling first on men who did nothing.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "elephant",
+     "form": "ஆங்கது",
+     "line": 4
+    },
+    {
+     "id": "elephant_keepers",
+     "form": "பாகர்",
+     "line": 2
+    }
+   ],
+   "event": "The freed elephant kills the mahouts who try to enclose it.",
+   "claims": []
+  },
+  "87": {
+   "reading": "The elephant runs in rut, the king hears, rises and, with his full-breasted women, climbs a jewelled mansion to watch the hunt, looking on without a tremor.",
+   "concepts": [
+    "arasu",
+    "soozhchi"
+   ],
+   "nuance": "The king watches it as a spectacle; the next verses show how soon his own city pays for it.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ujjai_king",
+     "form": "வேந்தன்",
+     "line": 1
+    }
+   ],
+   "event": "The Ujjain king climbs a mansion to watch the elephant he thinks he controls.",
+   "claims": []
+  },
+  "88": {
+   "reading": "The elephant gores the storeyed halls and golden mansions and walls and pulls them down as it passes, while men gather, run, hold spears and staffs and strike it, standing around it on all four sides.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "elephant",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "ujjai_people",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The elephant batters the city's mansions while men try to surround it.",
+   "claims": []
+  },
+  "89": {
+   "reading": "In the shape of death, its tusks hung with entrails, it roars like the wind and kills forty-eight men with its trunk, splits the crowd through its middle and runs outside the wall to the unconquerable fort gate.",
+   "concepts": [
+    "kolai",
+    "maram",
+    "kootru"
+   ],
+   "nuance": "The words கண்டமாந்தரை... தரைதத்ன் in line 2 look corrupt and the sense is partly guessed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "elephant",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The elephant kills forty-eight and breaks out toward the fort gate.",
+   "claims": []
+  },
+  "90": {
+   "reading": "By its tusks the great elephant ruins the great city: so many streets of the six hundred and fifty, the seven hundred, the four wards and the fragrant gardens are wrecked.",
+   "concepts": [
+    "maram",
+    "kedu"
+   ],
+   "nuance": "The numerals of lines 1-2 are garbled in the edition and cannot be added up.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "elephant",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The elephant's tusks wreck streets, wards and gardens.",
+   "claims": []
+  },
+  "91": {
+   "reading": "The singing women stop their song and run crying, the dancers leave the dance and wander off, the couples scatter, and many take shelter on the upper floors of the golden mansions.",
+   "concepts": [
+    "acham",
+    "soozhchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ujjai_people",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Singers, dancers and couples flee to the upper storeys.",
+   "claims": []
+  },
+  "92": {
+   "reading": "The townspeople, churned like the sea by a churning stick, ask the king; the ministers consider and say the disaster of this city can not be turned aside, that it lies in Vatsa's hand, and the king hears the explanation.",
+   "concepts": [
+    "amaichu",
+    "arasu",
+    "soozhchi"
+   ],
+   "nuance": "The ministers' point turns the captive into the only remedy of the harm; whether they know of Yugi's scheme is not said.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ujjai_people",
+     "form": "நகரத் தாரும்",
+     "line": 1
+    },
+    {
+     "id": "ujjai_ministers",
+     "form": "ரமைச்",
+     "line": 2
+    },
+    {
+     "id": "ujjai_king",
+     "form": "மன்னன்",
+     "line": 4
+    }
+   ],
+   "event": "The citizens question the king and his ministers say only Udayanan can stop the elephant.",
+   "claims": []
+  },
+  "93": {
+   "reading": "The king says he could not stand against him in battle, brought the son by a lie, took his glory and held him in prison, and that sending him before the thundering elephant would bring a great stain; the ministers then answer.",
+   "concepts": [
+    "pazhi",
+    "arasu",
+    "vanjam"
+   ],
+   "nuance": "The king admits that the capture was by a lie and that war had been beyond him; his fear is of blame, not of the wrong.",
+   "speaker": {
+    "who": "ujjai_king",
+    "form": "வேந்தன்",
+    "line": 4,
+    "addressee": "ujjai_ministers"
+   },
+   "agents": [
+    {
+     "id": "ujjai_king",
+     "form": "வேந்தன்",
+     "line": 4
+    },
+    {
+     "id": "ujjai_ministers",
+     "form": "லமைச்சர்",
+     "line": 4
+    }
+   ],
+   "event": "The king hesitates to send his captive before the elephant, and the ministers reply.",
+   "claims": [
+    {
+     "claim": "a king who sends a captive taken by deceit before a raging elephant earns great blame",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "ujjai_king"
+    }
+   ]
+  },
+  "94": {
+   "reading": "The ministers say that Indra's own elephant does not go beyond the sound of this man's lute, and that if it hears it goes but seven steps, so this tusked elephant cannot pass the king's vina; hearing the mantra-knowers' words, the king does as they say.",
+   "concepts": [
+    "amaichu",
+    "kalai",
+    "soozhchi"
+   ],
+   "nuance": "The ministers' claim of the vina's mastery over elephants is a promise whose test comes in verse 97.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ujjai_ministers",
+     "form": "மந்திரத்தவர்",
+     "line": 4
+    },
+    {
+     "id": "ujjai_king",
+     "form": "மன்னனப்",
+     "line": 4
+    }
+   ],
+   "event": "On the ministers' advice the king sends for Udayanan to play against the elephant.",
+   "claims": []
+  },
+  "95": {
+   "reading": "Civakan tells Vatsa straightly that this city's distress is seen and that to end it is his duty, that to go to his own land is the guardian's duty, and praising him as one that the flower-hand has spoken, he frees him from the prison.",
+   "concepts": [
+    "aram",
+    "arasu",
+    "eegai"
+   ],
+   "nuance": "Civakan, the name Jivaka of the Cintamani, appears here with no explanation; the form may be an editor's slip or a second name of the Ujjain king, so the speaker is held with doubt.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": "சீவகன்",
+    "line": 1,
+    "addressee": "udayanan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "சீவகன்",
+     "line": 1
+    },
+    {
+     "id": "udayanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The speaker frees Udayanan after asking him to end the city's distress.",
+   "claims": [
+    {
+     "claim": "a king's duty is to relieve a city's distress and to go back to his own land",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "96": {
+   "reading": "The king takes a bodied palanquin to the palace, oils his hair, bathes with care, puts on silk and a fine jewel, and enters the street gleaming while the great city rejoices.",
+   "concepts": [
+    "azhagu",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "மன்னன்",
+     "line": 1
+    }
+   ],
+   "event": "Udayanan is freed, bathed and dressed, and rides into the street.",
+   "claims": []
+  },
+  "97": {
+   "reading": "With hawks following, elephants and birds around, the honoured prince appears in the middle of the great street, singing with his great hand on the vina, and the rutting elephant, hearing, comes and bows at his feet.",
+   "concepts": [
+    "kalai",
+    "maram",
+    "kalai"
+   ],
+   "nuance": "The vina does what the mantra started and the guards could not undo; the claim of verse 94 holds.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "குமரன்",
+     "line": 2
+    },
+    {
+     "id": "elephant",
+     "form": "களிறுங்",
+     "line": 4
+    }
+   ],
+   "event": "Udayanan plays the vina and the raging elephant comes and bows at his feet.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 94,
+   "b": 97,
+   "type": "develops",
+   "note": "The ministers say the elephant cannot pass the king's vina; verse 97 shows it coming and bowing at his feet.",
+   "teaches": "The poem lets the ministers' claim of music's power be tested by what the elephant does in front of the crowd."
+  },
+  {
+   "a": 85,
+   "b": 86,
+   "type": "develops",
+   "note": "The mantra and smoke that free the elephant at the post become its killing run through the keepers.",
+   "teaches": "What looked like a rescuer's stratagem shows its cost at once, on men who were only keepers."
+  },
+  {
+   "a": 85,
+   "b": "kural:678",
+   "type": "qualifies",
+   "note": "Yugi uses the king's own rutting elephant to break the king's hold, as the couplet binds a rutting elephant with another.",
+   "teaches": "The Kural's image of one task serving another is shown as a plan that also costs lives.",
+   "gains": {
+    "a": "the stratagem is named as a type: a means turned on its owner, with a price the couplet does not state",
+    "b": "the couplet's image of an elephant bound by an elephant is acted out with a real elephant and a real rescue"
+   }
+  },
+  {
+   "a": 86,
+   "b": "naladiyar:213",
+   "type": "qualifies",
+   "note": "The freed elephant kills the keepers who try to enclose it, as the quatrain says an elephant may kill even its keeper.",
+   "teaches": "The epic shows the quatrain's keeper-killer elephant as a weapon someone else has deliberately loosed.",
+   "gains": {
+    "a": "the keepers' deaths read as a known risk of the beast, not as an accident of the rescue",
+    "b": "the quatrain's general warning is given a scene where the elephant is not merely ungrateful but sent"
+   }
+  },
+  {
+   "a": 84,
+   "b": "kural:483",
+   "type": "qualifies",
+   "note": "Yugi and Vayanthakan wait for the right hour and rope, as the couplet says nothing is hard for one who knows time and means.",
+   "teaches": "The rescue is built on the couplet's rule, but at the cost of others, which the couplet does not weigh.",
+   "gains": {
+    "a": "the choice of hour and means is shown as the rule that makes a prison break possible",
+    "b": "the couplet's claim is tested by a case in which the same skill harms the innocent"
+   }
+  },
+  {
+   "a": 93,
+   "b": "kural:652",
+   "type": "qualifies",
+   "note": "The king fears the blame of sending a captive before an elephant but admits the capture was by a lie.",
+   "teaches": "The king dreads the stain of one act and ignores the one before it, which the couplet's test of fame would catch.",
+   "gains": {
+    "a": "the king's fear of blame is shown to cover only the last act, not the deceit that made it needed",
+    "b": "the couplet's warning against acts that win neither renown nor good is shown failing to bind a king who counts only visible blame"
+   }
+  },
+  {
+   "a": 97,
+   "b": "tirumanthiram:977",
+   "type": "same_image",
+   "note": "The rutting elephant is stilled by the vina's song; Tirumular's five elephants are held by the goad of five letters.",
+   "teaches": "The same picture of a raging elephant brought to rest differs in who tames it, music held by a captive or a mantra held by the self.",
+   "gains": {
+    "a": "the elephant's bow reads as a taming of the passions in the bystander's eye, not only a feat of music",
+    "b": "the inward elephants of the verse get an outward counterpart, a beast whose rage is visible to a city"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 75-76 do not name the figure described; identification with Yugi rests on verse 81.",
+  "Verse 82 line 2-3 (நாகத்தின் கோடு பாய்ந்த... வடுவ்வை) is corrupt.",
+  "Verse 89 line 2 (கண்டமாந்தரை தரைதத்ன்) looks corrupt.",
+  "Verse 90 numerals in lines 1-2 are garbled.",
+  "Verse 95: சீவகன் appears with no explanation; may be a scribal intrusion."
+ ]
+}

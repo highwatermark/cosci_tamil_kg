@@ -1,0 +1,739 @@
+{
+ "chapter_no": 2,
+ "chapter_theme": "The king of Magadha, having praised the lord and bowed to Gautama, asks for the Sri Panchami tale; Gautama begins it in Kanakapura, where King Jayandhara falls for a painted woman and marries Prithidevi, who fears the senior queen's envy, takes refuge in the lord of non-killing and is promised a virtuous son.",
+ "cast": [
+  {
+   "id": "magadha_king",
+   "tamil": "மன்னன்",
+   "role": "the king of the frame who hears the Sri Panchami tale from Gautama"
+  },
+  {
+   "id": "magadha_queen",
+   "tamil": "மாதர்",
+   "role": "the queen who listens with him"
+  },
+  {
+   "id": "vardhamana",
+   "tamil": "சிரீவர்த்த மானன்",
+   "role": "the lord the king praises in verse 20"
+  },
+  {
+   "id": "gautama",
+   "tamil": "கௌதமர்",
+   "role": "the chief disciple (ganadhara) who tells the tale"
+  },
+  {
+   "id": "jayandhara",
+   "tamil": "சயந்தரன்",
+   "role": "king of Kanakapura in Magadha, in the tale"
+  },
+  {
+   "id": "visalanetrai",
+   "tamil": "விசாலநேத்திரை",
+   "role": "Jayandhara's senior queen"
+  },
+  {
+   "id": "queens",
+   "tamil": "மன்னு மாதர்கள்",
+   "role": "the king's other consorts, as a group"
+  },
+  {
+   "id": "vasavan",
+   "tamil": "வாசவன்",
+   "role": "the merchant who shows the portrait and describes Prithidevi"
+  },
+  {
+   "id": "prithidevi",
+   "tamil": "பிரிதிதேவி",
+   "role": "daughter of Srivarman of Parangiri, Jayandhara's new chief queen"
+  },
+  {
+   "id": "dhathi",
+   "tamil": "தாதி",
+   "role": "Prithidevi's nurse, who answers the woman at the elephant"
+  },
+  {
+   "id": "muni",
+   "tamil": "மாதவன்",
+   "role": "the sage Prithidevi worships at the temple"
+  }
+ ],
+ "verses": {
+  "20": {
+   "reading": "The speaker addresses the lord again and again as 'you': you set out the good way of the nine categories, you spoke the five unequalled ranks, you declared the two deeds that make up becoming, you are the radiant one standing as bliss and the pure ford called Vardhamana.",
+   "concepts": [
+    "iraivan",
+    "vinai",
+    "piravi",
+    "thiruvadi"
+   ],
+   "nuance": "The verse was printed in eight half-lines and the edition's join into four is the text used. சிவமயமாய் here describes the lord as made of auspiciousness or release, not the Saiva god. The speaker is not named in the verse; the next verse says the king did 'praises' and then went on, so the king is the likely voice.",
+   "uncertain": true,
+   "speaker": {
+    "who": "magadha_king",
+    "form": null,
+    "line": null,
+    "addressee": "vardhamana"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the lord taught the way of the nine categories, the five ranks and the two deeds from which becoming is made",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "magadha_king"
+    }
+   ]
+  },
+  "21": {
+   "reading": "After his praises the king, whose long arms are like two treasures, bows with a settled mind toward the pure jewelled ground and goes into the holy place of the lord of ascetics.",
+   "concepts": [
+    "panivu",
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "nuance": "Line 4 reads பாவலன் புக்கதே; the sense of பாவலன் (poet, or an epithet of the king) and the object of the entry are not fixed by the verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "magadha_king",
+     "form": "தோளினான்",
+     "line": 3
+    }
+   ],
+   "event": "The king, after praising the lord, bows and enters the place where the lord's teacher sits.",
+   "claims": []
+  },
+  "22": {
+   "reading": "The teacher of the assembly takes in the lord's good word and, seated, pours the rain of dharma on living beings; the king bows at the pure feet of that renunciant.",
+   "concepts": [
+    "aram",
+    "thuravu",
+    "panivu"
+   ],
+   "nuance": "The teaching is handed on in two steps, lord to ganadhara to hearers, and the verse makes the teacher the one who rains it; the verse does not name him, and 23 names Gautama.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gautama",
+     "form": "கணதரர்",
+     "line": 1
+    },
+    {
+     "id": "magadha_king",
+     "form": "னிறைஞ்சினான்",
+     "line": 4
+    }
+   ],
+   "event": "The ganadhara expounds the lord's word to living beings and the king bows to his feet.",
+   "claims": [
+    {
+     "claim": "the teacher takes in the lord's word and sends down dharma on living beings like rain",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "23": {
+   "reading": "The king, having reached the flower-like feet of the great sage, bows at the victorious feet of Gautama, chief of good ascetics.",
+   "concepts": [
+    "panivu",
+    "thavam",
+    "thuravu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "magadha_king",
+     "form": "வேந்த னிறைஞ்சினான்",
+     "line": 4
+    }
+   ],
+   "event": "The king bows at Gautama's feet.",
+   "claims": []
+  },
+  "24": {
+   "reading": "The king and his queen, who bow with both hands, listen with joy to Gautama's teaching of the nature of dharma, and when they have heard it,",
+   "concepts": [
+    "aram",
+    "panivu",
+    "karpu"
+   ],
+   "nuance": "The verse is an unfinished sentence and the next verse supplies its main clause; the claim is thin because the content of the teaching is not given here.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "magadha_king",
+     "form": "மன்னனும்",
+     "line": 1
+    },
+    {
+     "id": "magadha_queen",
+     "form": "மாதரும்",
+     "line": 2
+    },
+    {
+     "id": "gautama",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king and queen hear Gautama teach the true nature of dharma.",
+   "claims": [
+    {
+     "claim": "dharma has a real nature (tattva) that a teacher can set out for lay hearers",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "25": {
+   "reading": "The king asks that the story of Sri Panchami be told, and the teacher, who dwells in knowledge, vision and conduct, takes his sign and begins to speak.",
+   "concepts": [
+    "aram",
+    "kalvi",
+    "vazhipaadu"
+   ],
+   "nuance": "அறிவு காட்சி ஒழுக்கம் are the three jewels of the Jain path as the verse names them together; the verse does not call them that. The frame sets up everything after it as Gautama's telling of an earlier birth story.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "magadha_king",
+     "form": "மன்னன்",
+     "line": 2
+    },
+    {
+     "id": "gautama",
+     "form": "யமர்ந்தொழுக் கத்தவர்",
+     "line": 3
+    }
+   ],
+   "event": "The king asks Gautama to tell the Sri Panchami story and Gautama begins.",
+   "claims": [
+    {
+     "claim": "the ascetic's life is built on knowledge, right vision and conduct",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "26": {
+   "reading": "In the Bharata land of the island of Jambu lies Magadha with its fine cities; Kanakapura, ringed with koel-filled groves, is in it.",
+   "concepts": [
+    "naadu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "27": {
+   "reading": "The lord of that city is Jayandhara, whose good wife is Visalanetrai; the verse goes on to name a son, Sridhara, and Nayandhara, with the sense of 'good minister' attached to one of them.",
+   "concepts": [
+    "vendhan",
+    "kudi",
+    "makkal"
+   ],
+   "nuance": "The last two lines run names together (மதுத்தாரணி, சீதரன், நயந்தரன்), so which name belongs to the son and which to the minister cannot be fixed from the Tamil; I read சுதன் as 'son' and நன்கமைச்சன் as the minister.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "jayandhara",
+     "form": "சயந்தரன்",
+     "line": 1
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "28": {
+   "reading": "While the king enjoys his eight thousand queens, a merchant shows him the form of a woman painted on a gold vessel among his many wares.",
+   "concepts": [
+    "kaamam",
+    "azhagu",
+    "selvam"
+   ],
+   "nuance": "The king is unmoved by thousands of wives until a picture arrives; the story starts from a want that none of the existing queens meet.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vasavan",
+     "form": "வாணிகன்",
+     "line": 3
+    },
+    {
+     "id": "jayandhara",
+     "form": "வெற்றி வேந்தன்",
+     "line": 2
+    }
+   ],
+   "event": "A merchant shows King Jayandhara a portrait of a woman on a gold vessel.",
+   "claims": []
+  },
+  "29": {
+   "reading": "The king, struck and delighted by the picture, asks whether such a form is of a kinnari, a yogini or a dark woman, and Vasavan the merchant begins to answer.",
+   "concepts": [
+    "kaamam",
+    "mayal",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "jayandhara",
+     "form": "மன்ன னோக்கி",
+     "line": 1
+    },
+    {
+     "id": "vasavan",
+     "form": "வாசவன்",
+     "line": 4
+    }
+   ],
+   "event": "The king, bewildered by the picture, asks who she is, and the merchant Vasavan replies.",
+   "claims": []
+  },
+  "30": {
+   "reading": "The merchant says: in the land of Surashtra, in the populous Parangiri, lives Srivarman, whose wife Srimati bears a daughter named Prithidevi.",
+   "concepts": [
+    "kudi",
+    "makkal",
+    "azhagu"
+   ],
+   "nuance": "The speaker is read from the previous verse; the verse itself does not name him.",
+   "speaker": {
+    "who": "vasavan",
+    "form": null,
+    "line": null,
+    "addressee": "jayandhara"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "31": {
+   "reading": "The merchant tells of her rightly; the king calls her and, in a rite before the sacred fire, unites with her.",
+   "concepts": [
+    "kaamam",
+    "ilvaazhkkai",
+    "vazhipaadu"
+   ],
+   "nuance": "தெய்வ வேள்வி is a rite of the sacred fire, and the verse does not say whether it is a wedding in a Jain form; the epic's affiliation is by tradition only.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vasavan",
+     "form": "அவ்வ ணிகன",
+     "line": 1
+    },
+    {
+     "id": "jayandhara",
+     "form": "மன்னனும்",
+     "line": 2
+    }
+   ],
+   "event": "Jayandhara has Prithidevi brought and marries her before the sacred fire.",
+   "claims": []
+  },
+  "32": {
+   "reading": "The king, pleased, gives her the rank of chief queen, and when the other wives come to bow to her, they go on in this way.",
+   "concepts": [
+    "ilvaazhkkai",
+    "arasu",
+    "kaamam"
+   ],
+   "nuance": "The verse ends on 'ones who go on together', a clause the next verse finishes.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "jayandhara",
+     "form": "மன்ன னின்புற்று",
+     "line": 1
+    },
+    {
+     "id": "queens",
+     "form": "மாதர்கள்",
+     "line": 3
+    }
+   ],
+   "event": "Jayandhara makes Prithidevi chief queen and the other consorts come to honour her.",
+   "claims": []
+  },
+  "33": {
+   "reading": "For the spring game the king and his women go happily to a flower garden, and Prithidevi leaves in a palanquin to watch the water-sport of an elephant.",
+   "concepts": [
+    "kaamam",
+    "azhagu",
+    "ilvaazhkkai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "jayandhara",
+     "form": "மன்னனு",
+     "line": 1
+    },
+    {
+     "id": "prithidevi",
+     "form": "பிரிதிதேவி",
+     "line": 3
+    }
+   ],
+   "event": "The court goes to the garden and Prithidevi rides out to see the elephant's bathing.",
+   "claims": []
+  },
+  "34": {
+   "reading": "A woman standing in the road before the elephant asks who the lady with the belted breasts is, and the nurse answers that she is the king's chief queen.",
+   "concepts": [
+    "ilvaazhkkai",
+    "kudi",
+    "pirivu"
+   ],
+   "nuance": "That the woman at the elephant is Visalanetrai is read from the next verse, not stated here; who asks and to whom the nurse speaks is not fixed by the Tamil.",
+   "uncertain": true,
+   "speaker": {
+    "who": "dhathi",
+    "form": "றாதி",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "visalanetrai",
+     "form": "நின்றவள்",
+     "line": 1
+    },
+    {
+     "id": "dhathi",
+     "form": "றாதி",
+     "line": 4
+    }
+   ],
+   "event": "A woman before the elephant asks about Prithidevi and the nurse says she is the king's chief queen.",
+   "claims": []
+  },
+  "35": {
+   "reading": "The spear-eyed woman hears this and thinks that Visalanetrai stands there to see her fall at the elephant's foot, then goes to the temple and bows to the feet of the lord whose word is scripture.",
+   "concepts": [
+    "acham",
+    "vazhipaadu",
+    "azhukkaaru"
+   ],
+   "nuance": "The fear is the new queen's own supposition and the verse never shows Visalanetrai doing or wishing anything; only the suspicion of rivalry and the turn to the god are given. The reading 'to fall at its feet' (கான்மிசை வீழ) is mine and the elephant is not named in the verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "prithidevi",
+     "form": "வேல்விழி மாது",
+     "line": 1
+    }
+   ],
+   "event": "Prithidevi, fearing the senior queen means her harm, goes to the temple and bows to the lord.",
+   "claims": []
+  },
+  "36": {
+   "reading": "Praising the lord who keeps the vow of not killing, she says that those who bow to him cut off the evil birth and reach release easily, and she bids the sage who binds all deeds to teach her.",
+   "concepts": [
+    "kollaamai",
+    "vinai",
+    "veedu",
+    "iraivan"
+   ],
+   "nuance": "The god is defined by a vow, not a gift: what he gives is the example; the verse does not say whether the worship or the vow does the cutting. இயன்முனி in line 4 may be a different person from the lord, and the verse does not say.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "prithidevi",
+     "form": "சேயிழையாள்",
+     "line": 3
+    }
+   ],
+   "event": "Prithidevi praises the lord of non-killing and asks the sage to teach her.",
+   "claims": [
+    {
+     "claim": "those who worship the lord of the vow of not killing cut off an evil birth and reach release easily",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "prithidevi"
+    },
+    {
+     "claim": "the sage's discipline holds back all deeds",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "37": {
+   "reading": "As she bows, the sage blesses her and she asks whether good penance can be hers; he tells her that she will get a son of countless virtues, with fame.",
+   "concepts": [
+    "makkal",
+    "thavam",
+    "pugazh"
+   ],
+   "nuance": "She asks about tapas and he answers with a son, so the answer is to a different question or the question means 'will my wish for a worthy end be met'; the sense of நற்றவம் ஆமோ is open.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "prithidevi",
+     "form": "பணிபவட்கு",
+     "line": 1
+    },
+    {
+     "id": "muni",
+     "form": "மாதவனுந்",
+     "line": 4
+    }
+   ],
+   "event": "The sage blesses Prithidevi and foretells a famous, virtuous son.",
+   "claims": []
+  },
+  "38": {
+   "reading": "She goes on with her people, takes up the penance and hears the teaching of dharma with joy, bows without stain at the feet of the lord who conquered fate, and is glad as if a son were already born.",
+   "concepts": [
+    "thavam",
+    "vinai",
+    "aram",
+    "makkal"
+   ],
+   "nuance": "விதி here is the deed-fate the lord has won over, not an outside power; the verse says tavam is entered but does not say what vow, and 'took penance' may only mean she kept a lay observance.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "prithidevi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Prithidevi takes penance, hears dharma and bows to the lord, delighted as if her son were born.",
+   "claims": [
+    {
+     "claim": "the supreme one has conquered fate, the sum of deeds",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "39": {
+   "reading": "Hearing the good ascetic's words, the garlanded woman understands them with attachment and, with her women, bows in triumph at his feet, returns to her great house and sits.",
+   "concepts": [
+    "aram",
+    "panivu",
+    "ilvaazhkkai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "prithidevi",
+     "form": "நறுமலர்க் கோதை",
+     "line": 1
+    },
+    {
+     "id": "muni",
+     "form": "நற்றவ னுரைத்த",
+     "line": 1
+    }
+   ],
+   "event": "Prithidevi hears the sage, bows with her women and goes home.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "20",
+   "b": "kural:5",
+   "type": "qualifies",
+   "note": "Both name two kinds of deed; the Kural says they do not cling to those devoted to the Lord's praise, the verse names the two as what makes becoming, as something the lord taught.",
+   "teaches": "The Kural states that the two deeds fall away from the devoted, and the Jain verse says it is the lord's own teaching of them that frees.",
+   "gains": {
+    "a": "the 'two deeds' are put in the Tamil devotional frame where deeds both good and bad are what binds, a reach the verse's own wording does not state",
+    "b": "the lord's praise gets a content: in the epic it is the lord's naming of the two deeds that the devotee takes up"
+   }
+  },
+  {
+   "a": "28",
+   "b": "manimekalai:5:1-17",
+   "type": "tension",
+   "note": "Jayandhara falls in love with a painted woman who is real elsewhere; the Manimekalai prince sees the living girl as a painted image.",
+   "teaches": "The two works run the same trope in opposite directions, so a reader sees that the poets use the picture to say a desire is shaped by a seen form before the person is known."
+  },
+  {
+   "a": "35",
+   "b": "silappathikaram:21:17-39",
+   "type": "tension",
+   "note": "Prithidevi fears her senior co-wife will let her fall; the Silappathikaram lists a woman who reared her co-wife's child as her own as a type of pathini.",
+   "teaches": "The epic sets the co-wife's presumed envy beside the Tamil ideal of the co-wife who cares, so the new queen's fear is read as a convention the other works already know and answer."
+  },
+  {
+   "a": "35",
+   "b": "kural:168",
+   "type": "qualifies",
+   "note": "The Kural says envy ruins fortune and leads one to a bad place; the verse shows only a new wife's fear of envy and the retreat to the temple.",
+   "teaches": "The Kural describes envy's results, and the verse shows how its mere expectation sends a wife to the god instead of to the rival.",
+   "gains": {
+    "a": "the fear in the verse gets a name and a moral cost from the Kural's chapter on envy, which the verse leaves unsaid",
+    "b": "the Kural's abstract envy is given a household: a co-wife whose envy is presumed and never shown"
+   }
+  },
+  {
+   "a": "36",
+   "b": "kural:321",
+   "type": "qualifies",
+   "note": "The Kural makes not killing the whole of virtuous action; the verse makes a lord of that vow the one whose worship cuts the evil birth.",
+   "teaches": "The Kural sets non-killing as the rule, and the verse makes it the lord's own vow, so worship of him is worship of the rule kept to its end.",
+   "gains": {
+    "a": "the vow is set in the Tamil rule that killing brings all other deeds, so what the god is praised for has a reason",
+    "b": "the rule is made a person: the lord who kept it all the way and is the end of its path"
+   }
+  },
+  {
+   "a": "36",
+   "b": "tirumanthiram:200",
+   "type": "tension",
+   "note": "Tirumanthiram 200 has those who give up killing, theft, lust and lying reach Siva's feet; the verse has worshippers of a lord who has kept non-killing reach release.",
+   "teaches": "Both name feet and release for those who keep the vow, but the Saiva verse makes the worshipper the keeper of the vow and the Jain verse makes the lord the keeper.",
+   "gains": {
+    "a": "the worshipper's gain is set against a Saiva account where one's own giving up of killing is what earns the feet",
+    "b": "the Saiva list is shown to have a Jain counterpart in which the god, not the worshipper, is the one who has kept the vow"
+   }
+  },
+  {
+   "a": "36",
+   "b": "soolamani:1",
+   "type": "agrees",
+   "note": "Soolamani 1 praises the one who conquered the sum of deeds, whose worshippers are freed; the verse praises the lord of non-killing whose worshippers cut off the evil birth.",
+   "teaches": "Two Jain epics open with the same promise of release through the conqueror but name his victory differently, over deeds in one and in vow of non-killing in the other."
+  },
+  {
+   "a": "37",
+   "b": "kural:70",
+   "type": "qualifies",
+   "note": "The Kural has the son's merit read back as the father's tapas; the verse has the sage promise a virtuous son when the queen asks for tapas.",
+   "teaches": "The Kural reads a son as the proof of a parent's penance and the verse reverses it, making the promised son the answer to a request for penance.",
+   "gains": {
+    "a": "the sage's answer gets an ordinary Tamil frame in which a son is a fruit of tapas, which clears the odd turn from tapas to son",
+    "b": "the couplet's 'what penance did his father do' is given a scene in which the penance is asked for and a son promised"
+   }
+  },
+  {
+   "a": "38",
+   "b": "kural:380",
+   "type": "tension",
+   "note": "The Kural says nothing is stronger than fate, which arrives first even when one plans against it; the verse bows to a lord who has conquered fate.",
+   "teaches": "The Kural makes fate the strongest force and the Jain verse puts one who has beaten it in front of the worshipper, so release means the end of the thing the Kural says cannot be passed.",
+   "gains": {
+    "a": "the lord's conquest of fate is weighed against a Tamil saying that nothing is stronger than it",
+    "b": "the couplet's claim that fate cannot be beaten is shown to have a Jain exception, and the exception is the god"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 20 is printed in eight half-lines and the build joined them into four lines.",
+  "Verse 27's last two lines run together four names (மதுத்தாரணி, சீதரன், நயந்தரன்) so the roles cannot be fixed.",
+  "Verses 21, 29 and 34 contain words with stray spacing or typos (பாவலன் புக்கதே; கின்னரி யோகிளர்; வாரணி கொங்கை) and the sense there is read, not certain."
+ ]
+}

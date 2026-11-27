@@ -1,0 +1,792 @@
+{
+ "chapter_no": 19,
+ "chapter_theme": "The sage explains the elephant's former birth and its seven days; after its death in samadhi the king crowns Gomukhan, takes initiation with his queens and ministers, and on a hill burns the two deeds and reaches perfection while the others are reborn as gods.",
+ "cast": [
+  {
+   "id": "munivar",
+   "tamil": "முனி",
+   "role": "the sage who explains the elephant's former birth and later teaches the king; 358 calls him அருண் முனிவர், and whether it is one sage is not said"
+  },
+  {
+   "id": "visaiyan",
+   "tamil": "விசையன்",
+   "role": "the man whose former birth the elephant is"
+  },
+  {
+   "id": "udhayanan",
+   "tamil": "உதயணன்",
+   "role": "the Vatsa king, now ready to renounce"
+  },
+  {
+   "id": "uzhaiyar",
+   "tamil": "உழையர்",
+   "role": "the king's messengers who bring news of the elephant"
+  },
+  {
+   "id": "kalirru",
+   "tamil": "களிறு",
+   "role": "the elephant whose past life the sage tells"
+  },
+  {
+   "id": "nemiyan",
+   "tamil": "நேமியன்",
+   "role": "the son the king summons; whether he is Naravahanan of the earlier chapters is not said"
+  },
+  {
+   "id": "komukan",
+   "tamil": "கோமுகன்",
+   "role": "the man crowned lord of the Vatsa land"
+  },
+  {
+   "id": "queens",
+   "tamil": "மாதரும்",
+   "role": "the king's wives who choose to go with him"
+  },
+  {
+   "id": "yugi",
+   "tamil": "யூகி",
+   "role": "the king's minister and friend"
+  },
+  {
+   "id": "vayantakan",
+   "tamil": "வயந்தகன்",
+   "role": "the king's minister and friend"
+  },
+  {
+   "id": "udhayanan_amaichar",
+   "tamil": "அமைச்சர்",
+   "role": "the ministers (Urumannuvan, Vidapakan, Yugi, Vayantakan) who take the vow"
+  }
+ ],
+ "verses": {
+  "347": {
+   "reading": "The sage says the elephant was once Vijayan, who died deluded by lust and was reborn here as an elephant.",
+   "concepts": [
+    "piravi",
+    "vinai",
+    "kaamam"
+   ],
+   "nuance": "Lines 1 and 4 are corrupt in the edition: the words for the brahmin birth and for what the elephant eats do not parse cleanly, and the sense of இசையினால் (fame, music or sound) is open.",
+   "uncertain": true,
+   "speaker": {
+    "who": "munivar",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "visaiyan",
+     "form": "விசையன்",
+     "line": 1
+    }
+   ],
+   "event": "The sage explains that the elephant was Vijayan in a former life, reborn as a beast after dying in lustful delusion.",
+   "claims": [
+    {
+     "claim": "a death in lustful delusion brings rebirth in an animal body",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "munivar"
+    }
+   ]
+  },
+  "348": {
+   "reading": "The sages tell the king that his love for this elephant comes from an old tie to a friend, and that the elephant has seven days of life left.",
+   "concepts": [
+    "piravi",
+    "nilaiyaamai",
+    "natpu"
+   ],
+   "nuance": "The first line (மித்திரன் முன்பு வீறுநற காதலால்) is unclear; it is read as an old bond with a friend named Mitran, not as a claim about hell.",
+   "uncertain": true,
+   "speaker": {
+    "who": "munivar",
+    "form": "நாளென்றார்",
+    "line": 4,
+    "addressee": "udhayanan"
+   },
+   "agents": [
+    {
+     "id": "munivar",
+     "form": "நாளென்றார்",
+     "line": 4
+    }
+   ],
+   "event": "The sages tell the king the elephant's remaining span is seven days.",
+   "claims": [
+    {
+     "claim": "affection felt in one birth comes from a bond of an earlier birth",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "munivar"
+    }
+   ]
+  },
+  "349": {
+   "reading": "Having listened to the sage's wise words, the king is grieved and goes to the elephant to speak to it in melting love.",
+   "concepts": [
+    "piravi",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udhayanan",
+     "form": "புரவலன்",
+     "line": 2
+    }
+   ],
+   "event": "The king, grieved by the sage's word, goes to the elephant and speaks to it.",
+   "claims": []
+  },
+  "350": {
+   "reading": "The elephant is bound with a cord, a sharp thorn is driven in and its legs are shackled, with the words that it should bear it.",
+   "concepts": [
+    "nilaiyaamai",
+    "kodungol"
+   ],
+   "nuance": "Who binds the elephant is not said in the verse; it is read as the king's men acting for the king, who is addressing the elephant in the last line.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udhayanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The elephant is tied, pricked with a thorn and shackled, and told to endure.",
+   "claims": []
+  },
+  "351": {
+   "reading": "The king strokes the beloved elephant, which bows low to him, and asks the keepers to tell the nature of such strong elephants.",
+   "concepts": [
+    "anbu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udhayanan",
+     "form": "புரவலன்",
+     "line": 2
+    }
+   ],
+   "event": "The king touches the elephant, it bows, and he asks about the elephant's nature.",
+   "claims": []
+  },
+  "352": {
+   "reading": "The king tells the elephant-keepers what he wants, worships the sages' feet in love, and goes home with his army about him.",
+   "concepts": [
+    "vazhipaadu",
+    "aram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udhayanan",
+     "form": "மன்னவன்",
+     "line": 1
+    }
+   ],
+   "event": "The king instructs the keepers, worships the sages and returns to his palace.",
+   "claims": []
+  },
+  "353": {
+   "reading": "Messengers come in the morning to report the elephant's good character and wellbeing; the king worships the Arugan in the temple, eats milk-rice with ghee and passes the days.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "nuance": "The elephant's fitness is said to include sheela, virtue, and plenty (சீலமும் வளங்களும்), the word used for conduct in Jain ethics.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "uzhaiyar",
+     "form": "ழையர்வந்து",
+     "line": 2
+    },
+    {
+     "id": "udhayanan",
+     "form": "மன்னனும்",
+     "line": 2
+    }
+   ],
+   "event": "Messengers bring news of the elephant, and the king worships in the temple before his meal.",
+   "claims": []
+  },
+  "354": {
+   "reading": "The elephant meets death in samadhi and is reborn a god in a good heaven; the king, hearing of it, sees that his kingdom and its pleasures will not last and calls his son.",
+   "concepts": [
+    "nilaiyaamai",
+    "samaadhi",
+    "veedu"
+   ],
+   "nuance": "Line 1 (சல்லகீணை, a lute) and the clause on the elephant 'doing its due' (முறை செய்ய) are unclear, so the order of the elephant's death and the god's rebirth is read loosely. The lute is the king's way of reaching the elephant in earlier verses, so it may only recall that.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kalirru",
+     "form": "நாகமுறை",
+     "line": 2
+    },
+    {
+     "id": "udhayanan",
+     "form": "வேந்தனுஞ்",
+     "line": 3
+    },
+    {
+     "id": "nemiyan",
+     "form": "னேமியனைவா",
+     "line": 4
+    }
+   ],
+   "event": "The elephant dies in samadhi and becomes a god; the king, hearing this, resolves to give up his rule and summons his son.",
+   "claims": [
+    {
+     "claim": "a creature that dies in samadhi is reborn as a god",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    },
+    {
+     "claim": "the king's rule and the enjoyments of the earth do not last",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "udhayanan"
+    }
+   ]
+  },
+  "355": {
+   "reading": "The son bows to his father's feet; the king tells him to live as lord of the earth, and he asks what use a matchless kingdom is to him.",
+   "concepts": [
+    "thuravu",
+    "arasu"
+   ],
+   "nuance": "The son's words in lines 3 and 4 are broken: they are read as a refusal of the rule for the sake of austerity, not as an acceptance.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nemiyan",
+     "form": "அவனும்",
+     "line": 1
+    },
+    {
+     "id": "udhayanan",
+     "form": "மன்னன்",
+     "line": 2
+    }
+   ],
+   "event": "The king offers the earth to his son, who refuses the matchless kingdom.",
+   "claims": []
+  },
+  "356": {
+   "reading": "The king crowns Gomukhan with the victor's jewelled crown as lord of the Vatsa land, tells him to rule the world well, then turns to his wives.",
+   "concepts": [
+    "arasu",
+    "thuravu"
+   ],
+   "nuance": "The crown goes to Gomukhan and not to the son called in 354; whether he is the son or a minister-friend of that name is not said here.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udhayanan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "komukan",
+     "form": "முகனுக்கு",
+     "line": 1
+    }
+   ],
+   "event": "The king crowns Gomukhan king of the Vatsa land and addresses his queens.",
+   "claims": []
+  },
+  "357": {
+   "reading": "The king asks his wives to say what they wish, since he will leave the house for austerity; they answer that going is what they too want, and they will bear the faultless tapas with him.",
+   "concepts": [
+    "thuravu",
+    "thavam",
+    "ilvaazhkkai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udhayanan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "queens",
+     "form": "மாதரும்",
+     "line": 2
+    }
+   ],
+   "event": "The king announces that he will leave home for austerity, and his wives choose to go with him.",
+   "claims": [
+    {
+     "claim": "the wives' place is with the husband, in austerity as in the household",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "queens"
+    }
+   ]
+  },
+  "358": {
+   "reading": "The ministers Urumannuvan, Vidapakan, Yugi and Vayantakan, the king and the queens walk round the flowering grove and bow in love at the sage's feet.",
+   "concepts": [
+    "vazhipaadu",
+    "thuravu"
+   ],
+   "nuance": "The sage here (அருண் முனிவர்) is not named; he may be the sage of 347 to 349 or another.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udhayanan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "queens",
+     "form": "மாதரும்",
+     "line": 2
+    },
+    {
+     "id": "yugi",
+     "form": "யூகிநல்",
+     "line": 1
+    },
+    {
+     "id": "vayantakan",
+     "form": "வயந்தகன்",
+     "line": 1
+    }
+   ],
+   "event": "The king, his queens and his four ministers go round the grove and bow at the sage's feet.",
+   "claims": []
+  },
+  "359": {
+   "reading": "The king praises the sage with hymns, listens in joy to the teaching of dharma, and asks the sage to give them the tapas worth praising.",
+   "concepts": [
+    "vazhipaadu",
+    "aram",
+    "thavam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udhayanan",
+     "form": "மன்னனு",
+     "line": 1
+    }
+   ],
+   "event": "The king hymns the sage, hears the dharma and asks for initiation.",
+   "claims": []
+  },
+  "360": {
+   "reading": "The sage, finding the time right, gives right view, knowledge and conduct; then they pull out their hair and take up austerity.",
+   "concepts": [
+    "thuravu",
+    "thavam",
+    "gnaanam",
+    "ozhukkam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "munivar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "udhayanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sage instructs them and they take the vows, shedding their hair.",
+   "claims": [
+    {
+     "claim": "right view, knowledge and conduct together make the path of the ascetic",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "361": {
+   "reading": "They protect the six classes of living bodies with compassion, hold the senses in the mind, undertake the vows that give merit, and, knowing fasting to be hard, practise a faultless meditation that clears the mind.",
+   "concepts": [
+    "kollaamai",
+    "adakkam",
+    "thiyaanam"
+   ],
+   "nuance": "Line 3 (அறிகுறி அநசனம் ஆற்றுதற்கு அரிது) is read as a remark that fasting is hard to keep; the wording is dense.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udhayanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the six classes of bodied beings are to be protected with compassion",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    },
+    {
+     "claim": "the senses are to be held in the mind",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "362": {
+   "reading": "Giving up the pull of enjoyment outside and within, they guard life with compassion, learn the regulated conduct and the restraint of thought, and enter meditation.",
+   "concepts": [
+    "thuravu",
+    "kollaamai",
+    "adakkam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udhayanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "leaving all outer and inner attachment to enjoyment, with compassion for life, is the way of the ascetic",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "363": {
+   "reading": "A numbered scheme of the ascetic's discipline: one kind of mind, two kinds of renunciation, three restraints, four instincts overcome, the five senses held, and further groups of six and seven.",
+   "concepts": [
+    "adakkam",
+    "thuravu"
+   ],
+   "nuance": "Lines 3 and 4 (the six, the two kinds of nurse, the seven) are corrupt or use technical terms the Tamil alone does not explain, so only the first lines are read with confidence.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udhayanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the ascetic keeps the three restraints, overcomes the four instincts and holds the five senses",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "364": {
+   "reading": "The list continues in numbers, eight purities, nine, ten, eleven limbs, twelve, thirteen actions and fourteen, all of which they learn together.",
+   "concepts": [
+    "thavam",
+    "ozhukkam"
+   ],
+   "nuance": "The verse is a string of numbers whose terms the Tamil does not name (only 'purities', 'limbs' and 'actions' are plain); the numbered list is recorded, not decoded.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udhayanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "365": {
+   "reading": "The sage Udayanan on a great hill, with a glad heart, burns the two deeds in meditation, reaches perfection and sits in supreme bliss.",
+   "concepts": [
+    "vinai",
+    "thiyaanam",
+    "veedu"
+   ],
+   "nuance": "The verse has five lines in the edition.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udhayanan",
+     "form": "உதயண",
+     "line": 1
+    }
+   ],
+   "event": "Udayanan, now a sage, burns the two kinds of deed in meditation on a hill and attains perfection.",
+   "claims": [
+    {
+     "claim": "meditation burns both good and bad deeds and brings perfected, supreme bliss",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "366": {
+   "reading": "The ministers and the queens, keeping the vow and dying in samadhi, are reborn as gods who enjoy bliss in heavens as their merit allows.",
+   "concepts": [
+    "samaadhi",
+    "vinai",
+    "inbam"
+   ],
+   "nuance": "The ministers and queens are tied to a heaven in a level lower than the king's final state in 365: he reaches perfection, they a heaven of limited joy.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udhayanan_amaichar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "queens",
+     "form": "மாதரும்",
+     "line": 1
+    }
+   ],
+   "event": "The ministers and the queens die in samadhi after their vow and are reborn as gods.",
+   "claims": [
+    {
+     "claim": "death in samadhi after the vow brings a heaven in proportion to what was done",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "367": {
+   "reading": "The great ascetics, skilled in the way, enjoyed the bliss they wanted, which the verse sets beside the joys of embrace, touch, wonder and sweet words, thought rare to find.",
+   "concepts": [
+    "veedu",
+    "inbam",
+    "kaamam"
+   ],
+   "nuance": "The verse does not say whether the sages enjoy a heaven or the final state, and the comparison with the senses' pleasures is read loosely; it closes the work.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "munivar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 354,
+   "b": 114,
+   "type": "same_image",
+   "note": "The she-elephant that falls bleeding in 114 becomes a god at the king's mantra, and the elephant of 354 becomes a god through its own samadhi.",
+   "teaches": "An elephant's rebirth as a god is first something the king does for it in a crisis, and in 354 something its own discipline wins for it, so the king learns to treat release as a person's own work."
+  },
+  {
+   "a": 354,
+   "b": "naladiyar:4",
+   "type": "develops",
+   "note": "Naladiyar tells the listener to do what good he can at once, because Death comes; the king acts at once on the news of the elephant.",
+   "teaches": "Naladiyar's warning comes with no figure to act on it; the king gives up a throne, a wife-court and his lands within a verse of the warning, so the rule is shown at its full price.",
+   "gains": {
+    "a": "the king's turn gets a general rule behind it, that what seems to stand does not, and that good must be done before Death",
+    "b": "the quatrain gets someone who pays a kingdom's worth for it at once, instead of only urging it"
+   }
+  },
+  {
+   "a": 356,
+   "b": "naga_kumara_kaviyam:162",
+   "type": "qualifies",
+   "note": "Naga Kumara's king crowns the young prince and rises to austerity; Udayanan crowns Gomukhan, not the son he has just called.",
+   "teaches": "In the Naga Kumara story the crown goes down the family line, and here it goes outside it, so Udayanan's renunciation is not a settling of an heir but a handing of the realm to whoever can rule it."
+  },
+  {
+   "a": 357,
+   "b": "kural:46",
+   "type": "tension",
+   "note": "Kural 46 asks what one gains by going outside if the household is led in virtue; the king takes his queens and ministers with him.",
+   "teaches": "The Kural weighs the household against leaving it, while the king's whole household leaves together, which tests whether renunciation is abandoning dependants.",
+   "gains": {
+    "a": "the king's exit gets a standard, that a virtuous household needs no leaving, against which it must justify itself",
+    "b": "the couplet gets a case in which the household itself, and not one man, chooses the outside way"
+   }
+  },
+  {
+   "a": 363,
+   "b": "kural:126",
+   "type": "develops",
+   "note": "Kural 126 praises drawing in the five senses like a tortoise; the verse lists holding the five senses as one item of a numbered discipline.",
+   "teaches": "The couplet states restraint as a single act with a reward over seven births, and the verse sets it as one part of a long catalogue, so restraint becomes one limb of a trained life.",
+   "gains": {
+    "a": "the catalogue gets a single plain image and a reward for restraint, which a bare list of numbers does not give",
+    "b": "the couplet gets the full scheme in which restraint is one of many practices, not a stand-alone virtue"
+   }
+  },
+  {
+   "a": 365,
+   "b": "naga_kumara_kaviyam:165",
+   "type": "agrees",
+   "note": "Both works end by saying the sage overcomes the two deeds by meditation and reaches liberation.",
+   "teaches": "Two Jain epics close on the same formula, the two deeds overcome by meditation, and so show it as the fixed ending of a Jain life-story and not a feature of one work."
+  },
+  {
+   "a": 365,
+   "b": "kural:5",
+   "type": "qualifies",
+   "note": "Kural 5 says the two deeds do not cling to those devoted to the Lord's praise; the verse says they are burned in meditation.",
+   "teaches": "The couplet makes freedom from the two deeds a gift of praise, and the verse makes it the fruit of effort, so the cause of release differs while the word for the two deeds is shared.",
+   "gains": {
+    "a": "the verse gets an older line that the two deeds can be shed, so its claim is not a private doctrine",
+    "b": "the couplet gets a story of how the deeds actually end, by burning in meditation and not by devotion"
+   }
+  },
+  {
+   "a": 365,
+   "b": "tirumanthiram:219",
+   "type": "tension",
+   "note": "Tirumanthiram 219 says the fire worshipped and risen burns the deeds of ages; the verse says meditation burns them.",
+   "teaches": "Both texts burn the deeds with fire, but in one the fire is the Lord's, worshipped, and in the other it is the sage's own meditation, which shows where Jain and Saiva release part ways.",
+   "gains": {
+    "a": "the verse gets a Saiva statement that deeds can be burned by fire, which shows its own fire is the sage's meditation and no god's gift",
+    "b": "the Tirumanthiram verse gets a case where the same burning is done by the sage alone and no deity helps"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 347, 348, 350, 355 and 361 to 364 have corrupt or dense lines in the edition, so some sense is partly inferred.",
+  "Verse 365 has five lines; verse 359 has one line repaired in the edition (pulli after a vowel sign).",
+  "Whether the sage of 347 to 349 is the sage of 358 is not said, and whether the son called in 354 is Naravahanan is not said."
+ ]
+}

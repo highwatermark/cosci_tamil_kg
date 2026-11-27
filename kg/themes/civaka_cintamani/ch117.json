@@ -1,0 +1,918 @@
+{
+ "chapter_no": 117,
+ "chapter_theme": "Civakan, moved by a monkey quarrel over fruit, sees his own history in it and turns from his wives and pleasures; after one last day of bath, meal and adornment he goes with them to the Jina's temple, hears hymns of praise, asks a Charana sage for grace, and the sage prepares to teach him dharma.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, now an old king"
+  },
+  {
+   "id": "civakan_manaiviyar",
+   "tamil": "மனைவியர்",
+   "role": "Civakan's eight wives, who renounce with him"
+  },
+  {
+   "id": "kattiyangaran",
+   "tamil": "கட்டியங்காரன்",
+   "role": "the usurper who overthrew Saccandan"
+  },
+  {
+   "id": "mandhi",
+   "tamil": "மந்தி",
+   "role": "the she-monkey of the scene Civakan watches"
+  },
+  {
+   "id": "kaduvan",
+   "tamil": "கடுவன்",
+   "role": "the male monkey, her mate"
+  },
+  {
+   "id": "cilathan",
+   "tamil": "சிலதன்",
+   "role": "the servant monkey who takes the fruit"
+  },
+  {
+   "id": "saranar_nathan",
+   "tamil": "சாரணர் நாதன்",
+   "role": "the lord of the Charana sages, the ascetic seated under the asoka who is to preach to Civakan (also called மாதவன்)"
+  },
+  {
+   "id": "madaiyan",
+   "tamil": "மடையன்",
+   "role": "the royal cook"
+  }
+ ],
+ "verses": {
+  "2724": {
+   "reading": "A she-monkey who had scorned her mate for his fault, won back when he soothed her, calls herself the servant who erred and in great joy divides the sweet jackfruit segments by hand so that they may eat together.",
+   "concepts": [
+    "kaamam",
+    "anbu"
+   ],
+   "nuance": "This opens the three-verse monkey scene that turns Civakan from his pleasures; the verse names no onlooker, and the she-monkey's self-blame echoes 2723 (not yet marked), where she embraces her mate and reproaches herself.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "mandhi",
+     "form": "மந்தி",
+     "line": 2
+    }
+   ],
+   "event": "A she-monkey, reconciled with her mate, hand-divides a jackfruit for them to share.",
+   "claims": []
+  },
+  "2725": {
+   "reading": "A she-monkey takes the sweet fruit and drives her old mate away while a servant monkey eats some of it; the spear-king looking on is sickened of the desire woven into his bones, as if he had himself seen his loving wife joined to another.",
+   "concepts": [
+    "kaamam",
+    "thuravu"
+   ],
+   "nuance": "The Tamil in line 2 runs the words together (நச்சுவேன்மன்னன்); it is read here as நச்சுவேல் மன்னன், the spear-king Civakan, and சிலதன் as a second male monkey. The turn from the mate in 2724 to the rival here is why the scene reads as a woman's faithlessness, which is the monkeys' story and Civakan's reading of it, not a claim the verse argues.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "mandhi",
+     "form": "மந்தி",
+     "line": 1
+    },
+    {
+     "id": "kaduvan",
+     "form": "கடுவனோ",
+     "line": 1
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan, watching a she-monkey turn from her mate to another male, is disgusted with desire.",
+   "claims": []
+  },
+  "2726": {
+   "reading": "The she-monkey who has lost the fruit from her hand is matched with Kattiyangaran who seized a kingdom, and the servant monkey who snatched the fruit is matched with Civakan himself; he says that today's fruit going is like the going of enjoyment, and so true insight rises in him.",
+   "concepts": [
+    "nilaiyaamai",
+    "thuravu",
+    "arivu"
+   ],
+   "nuance": "The matching of the three monkeys to Kattiyangaran, Civakan and the lost fruit is as the Tamil is cut; who stands for whom is not fully fixed by the words. The insight is given as sight (மெய்ப்பட வுணர்வு), not as a teacher's argument.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "mandhi",
+     "form": "மந்தி",
+     "line": 1
+    },
+    {
+     "id": "cilathan",
+     "form": "சிலதனு",
+     "line": 2
+    }
+   ],
+   "event": "Civakan reads the fruit fight as the story of his own throne and concludes that pleasure is as passing as the fruit.",
+   "claims": [
+    {
+     "claim": "sensual pleasure, like a fruit taken and lost, does not last",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "2727": {
+   "reading": "Civakan reflects that wealth won by the weak is uprooted and seized by the strong who then break every limit, that birth is a strife-filled age (kali), and that to subdue oneself in time, do penance and reach a world without affliction is better.",
+   "concepts": [
+    "nilaiyaamai",
+    "thavam",
+    "veedu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan resolves that penance leading to a world without suffering is the better course.",
+   "claims": [
+    {
+     "claim": "in this strife-filled birth the strong seize the wealth the weak have won",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    },
+    {
+     "claim": "self-restraint and penance in good time lead to a world free of affliction",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "2728": {
+   "reading": "Civakan says that good deed is a golden wishing-tree bearing women as fruit and children as hanging garlands, which the wind of sin will bring down, and so he says let this union end.",
+   "concepts": [
+    "vinai",
+    "ilvaazhkkai",
+    "nilaiyaamai"
+   ],
+   "nuance": "The verse treats the family as a result of earlier merit that will be spent, not as a sin; the wish to end the union is the first step toward his departure.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan names his wives and sons the fruit of earlier merit and asks that the bond end.",
+   "claims": [
+    {
+     "claim": "wives and sons are the fruit of earlier good deeds and are lost when evil deeds ripen",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "2729": {
+   "reading": "Civakan says he drank the fierce toddy of desire on the tongue of longing and was confused with no virtue at all, and calls those who showed the lamp to remove his darkness gods; then he turns back like a rutting elephant brought round by the goad.",
+   "concepts": [
+    "kaamam",
+    "kal",
+    "arivu"
+   ],
+   "nuance": "Who 'showed the lamp' is not named in the verse; the monkeys of 2724-2726 or his teachers are both possible, so the verse is read as thanks to whoever gave him sight.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan, sobered, turns back from desire.",
+   "claims": [
+    {
+     "claim": "desire is an intoxicant that clouds the mind of one who drinks it",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "2730": {
+   "reading": "Civakan, spear in hand, with jewelled earrings swinging, dark bees buzzing and fresh-leaf whisks waving, stands rejoicing in his way, like Kama in the spring, in a fragrant crown and garland.",
+   "concepts": [
+    "inbam",
+    "selvam"
+   ],
+   "nuance": "The phrase மெய்ந்நெறி can mean the true path or the way of the body; the verse sets the royal splendour that follows his resolve in 2729 against it without commenting.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "2731": {
+   "reading": "Women lay Civakan on a golden couch, sing to him and light incense while jewelled lutes sound, and he is like a saffron hill covered in flowering creepers.",
+   "concepts": [
+    "inbam",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "His wives seat him on a golden couch and sing to him.",
+   "claims": []
+  },
+  "2732": {
+   "reading": "With slow brows, sidelong looks, a gleam of teeth and smiles as go-betweens, the women make desire ripen as they gather it up, but the king in his flower garland grew hard as a thunderbolt in mind.",
+   "concepts": [
+    "kaamam",
+    "manam",
+    "thuravu"
+   ],
+   "nuance": "This is the turning point inside the sequence of pleasures: the same delights that fill 2730-2737 are shown to have lost their hold. The verse says he became hard-minded; it does not say here what he resolved.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "His wives rouse desire in him but he stays unmoved.",
+   "claims": []
+  },
+  "2733": {
+   "reading": "When told that hours had passed to the king like a killing elephant, skilled attendants take hold of him and bathe him in fragrant water while the women with pearl-hung breasts and the broad-chested king sit together.",
+   "concepts": [
+    "inbam",
+    "selvam"
+   ],
+   "nuance": "கலைமுக மல்லர் (line 4) is hard to fix; it is taken as skilled attendants, wrestler-like, not as a named group.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Attendants bathe Civakan.",
+   "claims": []
+  },
+  "2734": {
+   "reading": "Women with lily eyes put on him white cloth, garland and sandal and fine ornaments in due order, and as they praise him in all directions he climbs happily into the pavilion hung with pearls and cloth.",
+   "concepts": [
+    "inbam",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan is dressed and mounts the pearl-hung hall.",
+   "claims": []
+  },
+  "2735": {
+   "reading": "A cook as skilful as one of the Five serves rice cooked in ghee with fine side dishes and spiced sauces, and the king in his dark garland eats the food of heaven.",
+   "concepts": [
+    "inbam",
+    "undi"
+   ],
+   "nuance": "'One of the Five' (ஐவருளொருவன்) is taken as the Pandava famed for cooking; the verse does not name him.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "madaiyan",
+     "form": "மடைய",
+     "line": 3
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A cook serves Civakan's meal and he eats it.",
+   "claims": []
+  },
+  "2736": {
+   "reading": "After attendants hold out fragrant powder and perfumed water, and women offer jewelled caskets of five scents for his mouth, Civakan says let them rise and worship the shrine of the supreme ones.",
+   "concepts": [
+    "vazhipaadu",
+    "inbam"
+   ],
+   "nuance": "ஒப்புடை யுறுவர் is read as the Jinas, those who have reached the likeness of the perfected; the sense is the shrine named in 2738.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan proposes that the household go to worship at the Jina's shrine.",
+   "claims": []
+  },
+  "2737": {
+   "reading": "The women anoint themselves with a fragrant butter that, put on one day, keeps its scent a year like the friendship of great men, steam themselves with aloe smoke and put on rich clothes and ornaments.",
+   "concepts": [
+    "inbam",
+    "natpu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": "ரிவையர்",
+     "line": 3
+    }
+   ],
+   "event": "The wives scent and dress themselves for the visit to the shrine.",
+   "claims": []
+  },
+  "2738": {
+   "reading": "Like Lakshmi on her golden lotus seeking heroes of good penance, the wives, their crests bright with pearls, bow to the king and go to the Jina's temple, and he follows gladly and nods his jewelled crown.",
+   "concepts": [
+    "vazhipaadu",
+    "thavam"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": "கொம்பனார்",
+     "line": 3
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The royal party goes to the Jina's temple.",
+   "claims": []
+  },
+  "2739": {
+   "reading": "Who are those that wear on their heads the lotus-flowers of the feet of the god of the fragrant asoka? They will come to the world, the world praising them and scattering flowers at their feet.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "nuance": "These three verses (2739-2741) are a question-and-answer hymn with the answer in the last words; the voice is the poet's or a choir's, and the verses are read as the hymn the party sings at the shrine, which the Tamil does not say.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "those who wear the Jina's feet on their heads are themselves praised and honoured by the world",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "2740": {
+   "reading": "Who bow daily, with devotion, at the feet of the god beneath the triple pearl umbrella? Those who will not leave the white pearl umbrella above the elephant's neck.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "nuance": "The reward named is worldly sovereignty, not release; the verse sets that apart from the aim of the sermon that follows.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "daily devotion to the Jina leads to kingship under a white umbrella",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "2741": {
+   "reading": "Who praise the red-lotus feet of the Lord who crossed the sea of karma by the power of his hand? The lords of the wheel under the three pearl umbrellas who touch the sky.",
+   "concepts": [
+    "vinai",
+    "iraivan",
+    "vazhipaadu"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "one who has crossed the sea of karma is worthy of praise, and his praisers become world-rulers",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "2742": {
+   "reading": "One worshipped the Lord's feet with flowers, powders, saffron and incense, longing for the pleasure of the sky.",
+   "concepts": [
+    "vazhipaadu",
+    "inbam"
+   ],
+   "nuance": "The verse does not name the worshipper; it may be Civakan, the party, or a type, and the worship is for heaven's pleasure, not release.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A worshipper honours the Lord's feet.",
+   "claims": []
+  },
+  "2743": {
+   "reading": "Civakan, bright with saffron on his chest, circles the shrine of the lord of the Charana sages and, seeing him on the stone under the asoka's shade, praises him.",
+   "concepts": [
+    "vazhipaadu",
+    "thavam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "saranar_nathan",
+     "form": "சாரணர் நாதன்",
+     "line": 2
+    }
+   ],
+   "event": "Civakan circles the shrine, sees the Charana lord seated and praises him.",
+   "claims": []
+  },
+  "2744": {
+   "reading": "Civakan with his wives circles it and bows, then, as the sage sits, the great king praises him greatly, saying that for those who do penance there is pleasure in both worlds.",
+   "concepts": [
+    "thavam",
+    "inbam"
+   ],
+   "nuance": "Line 3 is hard to construe (இருநிலம்மனற்கு); it is read as pleasure for both worlds. The 'great king' of line 4 is taken as Civakan, though the sage himself is not excluded.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan_manaiviyar",
+     "form": "உரிமை",
+     "line": 1
+    }
+   ],
+   "event": "Civakan and his wives circle the shrine, bow and praise the ascetic.",
+   "claims": [
+    {
+     "claim": "those who do penance gain joy in this world and the next",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "2745": {
+   "reading": "Civakan, free of the confusion that clouded him, begs the revered one to let his grace, like a tall flame, drive off the darkness called the evil deed he ignorantly did.",
+   "concepts": [
+    "vinai",
+    "arul",
+    "thavam"
+   ],
+   "nuance": "The Jain teacher is asked for arul, grace; the work does not say here whether the deed is worn away by the sage's grace or by the hearer's own effort, a point that the sermon after 2748 would settle.",
+   "speaker": {
+    "who": "civakan",
+    "form": "மன்னர் மன்னனே",
+    "line": 4,
+    "addressee": "saranar_nathan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "மன்னர் மன்னனே",
+     "line": 4
+    }
+   ],
+   "event": "Civakan asks the ascetic's grace to remove his evil karma.",
+   "claims": [
+    {
+     "claim": "the grace of a holy teacher can clear the darkness of one's own evil deeds as a flame clears darkness",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "2746": {
+   "reading": "The poet says that, like the cool moon of the milk sea pouring beyond the sea, the great ascetic will tell the king the good dharma, for the ascetic's duty is the book and the king's duty is the sceptre.",
+   "concepts": [
+    "aram",
+    "sengol",
+    "thavam"
+   ],
+   "nuance": "The verse puts two duties side by side, scripture for the ascetic and rule for the king, without ranking them.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "saranar_nathan",
+     "form": "மாதவ",
+     "line": 3
+    }
+   ],
+   "event": "The poet announces that the sage will teach the king dharma.",
+   "claims": [
+    {
+     "claim": "the ascetic's duty is to tell dharma to the king, whose own duty is the sceptre",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "2747": {
+   "reading": "Words sweet as honey and ghee, like gems, that lead to the sky and give the best state, that the wise drink as nectar: the gem-coloured one resolved to speak them.",
+   "concepts": [
+    "aram",
+    "veedu"
+   ],
+   "nuance": "The last line has a doubtful word (உவலிய, perhaps நுவலிய 'tell') and 'the gem-coloured one' is taken as the Charana lord, not Civakan.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "saranar_nathan",
+     "form": "மணிவண்ண",
+     "line": 4
+    }
+   ],
+   "event": "The sage begins to speak.",
+   "claims": [
+    {
+     "claim": "the sage's teaching gives the highest state",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "2748": {
+   "reading": "The sage says that he will speak, and the king should listen, of the body so hard to gain and its ending, the pain of leaving the splendid body, the firm grasp of the clear truths, the state of virtues and the fruit of giving, with release.",
+   "concepts": [
+    "yaakkai",
+    "veedu",
+    "nilaiyaamai"
+   ],
+   "nuance": "The verse names the themes and gives no teaching yet; the claims follow in later verses.",
+   "speaker": {
+    "who": "saranar_nathan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "saranar_nathan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sage announces the topics of his sermon to Civakan.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 2726,
+   "b": 2614,
+   "type": "develops",
+   "note": "2614 tells in Vijayai's words how Kattiyangaran conquered the kings and sent her off by the peacock machine; in 2726 Civakan sets him beside the monkey who seized the fruit and himself beside the one who lost it.",
+   "teaches": "The old usurpation, told as injury in the mother's tale, becomes in the monkey scene an instance of seizing and losing that teaches the hero how little taking or holding is worth."
+  },
+  {
+   "a": 2727,
+   "b": "kural:250",
+   "type": "qualifies",
+   "note": "The Kural warns one who is about to oppress the weak to think how he stands before the stronger; Civakan sees that the strong seize the weak's wealth and draws not a rule for the strong but a reason to leave.",
+   "teaches": "The warning that assumes a ruler who will listen is answered by a ruler who, having seen the same fact, withdraws from rule altogether.",
+   "gains": {
+    "a": "the verse's remark on the strong and weak gets a moral measure it lacks, a rule against oppressing the weak, so Civakan's renunciation reads as a response to a recognised wrong",
+    "b": "the couplet's appeal to a fear of the stronger is tested against a hero who owns power and finds that no fear or fairness but only leaving settles the matter"
+   }
+  },
+  {
+   "a": 2728,
+   "b": 213,
+   "type": "develops",
+   "note": "In 213 the king says that pleasures and days of life are measured out for those who guarded penance; in 2728 Civakan names wives and children as the fruit of that merit and says the wind of sin will bring the tree down.",
+   "teaches": "The earlier remark that pleasure is a measured ration of merit becomes here a reason to give it up before it runs out."
+  },
+  {
+   "a": 2728,
+   "b": "naladiyar:130",
+   "type": "qualifies",
+   "note": "Naladiyar 130 tells the heart that attachment to home and children is idle since nothing but good done goes with it; 2728 names the family itself as the fruit of that good and says it will be lost.",
+   "teaches": "The quatrain makes the family a hindrance beside merit, while the verse makes the family a result of merit, so the reader sees that giving up the fruit and keeping the merit are different acts.",
+   "gains": {
+    "a": "the verse's tree of good deed, which only reports loss, gains the quatrain's directive that the heart should stop clinging and put its hope in good done",
+    "b": "the quatrain's contrast of home against good deed gains a case in which the home is itself the earlier good deed's yield, so renouncing it is spending, not rejecting, merit"
+   }
+  },
+  {
+   "a": 2729,
+   "b": 233,
+   "type": "same_image",
+   "note": "In 233 the king's wisdom rebukes him for bathing in the liquor of lust and losing his senses; in 2729 Civakan names desire as toddy drunk on the tongue and turns back like an elephant to the goad.",
+   "teaches": "The same intoxication that unmade Saccandan and cost him his throne is seen by his son in time to leave it by choice, which sets father and son side by side."
+  },
+  {
+   "a": 2739,
+   "b": 1245,
+   "type": "develops",
+   "note": "In 1245 the hymn asks who rose to the summit of the worlds and answers that it is the Lord; in 2739 the question is turned on the worshippers, who are those that wear his feet, and the answer is the honour they receive.",
+   "teaches": "The question-and-answer form that named the Lord in the young Civakan's hymn is now used to name the reward of devotion, so the hymn teaches why one worships and not only whom."
+  },
+  {
+   "a": 2741,
+   "b": "kural:10",
+   "type": "qualifies",
+   "note": "Kural 10 says that those who reach the Lord's feet swim the sea of births; 2741 praises the Lord who crossed the sea of karma and makes his praisers lords of the wheel under the three umbrellas.",
+   "teaches": "The couplet promises crossing the sea of births, while the verse promises kingship to the worshippers of a crosser, so the two disagree about what a follower gains.",
+   "gains": {
+    "a": "the verse's reward of sovereignty is set against the couplet's promise of escape from birth, which shows that the hymn's worldly reward is short of the end that the sermon later takes up",
+    "b": "the couplet's Lord, whom the Kural leaves unnamed, gets a form here, a crosser of karma under three parasols, and a stated fruit for those who praise him"
+   }
+  },
+  {
+   "a": 2743,
+   "b": 1240,
+   "type": "develops",
+   "note": "In 1240 the young Civakan goes round the temple of the god who cut the ghati karmas and passes on; in 2743 he circles the Charana lord's shrine as an old king and stays to be taught.",
+   "teaches": "The circling that was a stop on a road is here the last one, and what it leads to is a teaching and not a journey."
+  },
+  {
+   "a": 2745,
+   "b": 1247,
+   "type": "develops",
+   "note": "1247 praises the god of the asoka as the one who ended karma that cannot be ended; 2745 asks the ascetic's grace to end the darkness of the karma Civakan himself did.",
+   "teaches": "The hymn's praise of a Lord who ended karma becomes Civakan's own request to have his karma ended, so doctrine turns into a personal petition."
+  },
+  {
+   "a": 2745,
+   "b": "naladiyar:51",
+   "type": "qualifies",
+   "note": "Naladiyar 51 says that sin cannot stand before austerity as darkness dies when a lamp comes, and returns when the oil runs out; 2745 asks for grace as a flame that will clear the darkness of the evil deed.",
+   "teaches": "The quatrain gives the lamp's work a limit, since the dark returns, which raises the question whether the grace Civakan asks is a lasting cure.",
+   "gains": {
+    "a": "the verse's flame of grace gains the quatrain's warning that a lamp clears darkness only while it burns, which makes the plea more urgent",
+    "b": "the quatrain's lamp of austerity is put into the mouth of a king asking for it, and is thus a gift sought from another and not only a thing one earns"
+   }
+  },
+  {
+   "a": 2745,
+   "b": "tirumanthiram:114",
+   "type": "tension",
+   "note": "Tirumanthiram 114 has Nandi cut away the tarnish and open the eye of grace so that a light shows that nothing can darken; 2745 asks a Jain ascetic's grace to clear the darkness of karma.",
+   "teaches": "Both ask a teacher's grace to clear a stain, but Nandi gives it as a lord who acts on the soul, while the Jain sage is only asked and is a teacher, not a god.",
+   "gains": {
+    "a": "the verse's plea, which does not say how the darkness goes, is given the Saiva picture of a god who cuts the tarnish, against which the sage's role looks much smaller",
+    "b": "the verse's image of Nandi's gift is set against a request made of a man who is no god, so grace is shown there as something that a teacher can only point toward"
+   }
+  },
+  {
+   "a": 2746,
+   "b": "kural:543",
+   "type": "qualifies",
+   "note": "Kural 543 makes the king's sceptre the origin of the books of the learned and of virtue; 2746 gives the ascetic the duty of telling the king dharma and leaves the king with the sceptre.",
+   "teaches": "Where the couplet makes dharma depend on the king, the verse has the king come to the ascetic to hear it, so the two disagree about which gives the other its authority.",
+   "gains": {
+    "a": "the verse's two duties, scripture and sceptre, are put against a couplet that derives the first from the second, which exposes the ranking that the verse leaves open",
+    "b": "the couplet's claim that the sceptre is the source of dharma gains a story in which the sceptre's holder goes to be taught and leaves the sceptre"
+   }
+  },
+  {
+   "a": 2748,
+   "b": 2616,
+   "type": "develops",
+   "note": "In 2616 Vijayai tells Civakan in a few lines that we are born not knowing our days and that the past cannot be recalled; in 2748 the sage lists the rare body, its end, the pain of leaving and the release as the subjects of a full teaching.",
+   "teaches": "What the mother says as a warning is turned into the heads of a doctrine, so the reader sees which of her points the sermon will take up."
+  },
+  {
+   "a": 2748,
+   "b": "tirumanthiram:307",
+   "type": "qualifies",
+   "note": "Tirumanthiram 307 calls life and body a close support and the mind on Siva's feet the firm support that ends birth; 2748 lists the body hard to gain and its destruction among the sermon's topics, with release.",
+   "teaches": "Both begin from the body, which the Saiva verse treats as a support to be used, while the Jain sage announces it as a thing that is rare and must end.",
+   "gains": {
+    "a": "the announced sermon gains a Saiva view in which the body is a means that is used on the way and not merely lost",
+    "b": "the Tirumanthiram verse's body-as-support is set against a view that treats it as hard to get and bound to end, which adds the Jain sense of its loss to the claim"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 2724, 2726-2738 are printed in eight half-lines and joined into four (FLAG repaired); the joins read correctly.",
+  "2725 line 2 runs words together (நச்சுவேன்மன்னன், read நச்சுவேல் மன்னன்) and 2745 line 1 has தெருளலேன் (read 'I who did not understand').",
+  "2744 line 3 (இருநிலம்மனற்கு) and 2747 line 4 (உவலிய) are doubtful readings; 2733 கலைமுக மல்லர் is hard to fix.",
+  "2724-2726 are the second part of a scene begun in 2720-2723 and are read here without the earlier verses marked."
+ ]
+}

@@ -1,0 +1,508 @@
+{
+ "chapter_no": 5,
+ "chapter_theme": "The story turns to Uttara Madurai: its king, told by a sage that his sons will serve another, gives them the crown and takes to the forest. The sons reach Pataliputra, marry there, meet Naga Kumara, and Vyala defeats an army sent against him. A minister ends Sridharan's anger, and the prince settles in Vyala's city.",
+ "cast": [
+  {
+   "id": "nagakumaran",
+   "tamil": "நாகநற் குமரன்",
+   "role": "the prince, hero of the poem"
+  },
+  {
+   "id": "jayavar",
+   "tamil": "செயவர்",
+   "role": "king of Uttara Madurai, father of Vyala and Mahavyala"
+  },
+  {
+   "id": "dhumasenar",
+   "tamil": "தூம சேனர்",
+   "role": "the sage who foretells the sons' future"
+  },
+  {
+   "id": "vyalan",
+   "tamil": "வியாளன்",
+   "role": "one of the king's two sons, who befriends Naga Kumara"
+  },
+  {
+   "id": "mavyalan",
+   "tamil": "மாவியாளன்",
+   "role": "the other son, named with Vyala as வியாளமா வியாளர்"
+  },
+  {
+   "id": "srivarman",
+   "tamil": "சிரீவர்மன்",
+   "role": "king of Pataliputra"
+  },
+  {
+   "id": "sridharan",
+   "tamil": "சிரீதரன்",
+   "role": "an adversary whose army attacks Naga Kumara"
+  },
+  {
+   "id": "nayantaran",
+   "tamil": "நயந்தரன்",
+   "role": "a minister who carries the king's words"
+  },
+  {
+   "id": "thozhan",
+   "tamil": "தோழன்",
+   "role": "Naga Kumara's friend"
+  }
+ ],
+ "verses": {
+  "74": {
+   "reading": "The poet says the prince, bound to his pleasures with women, wanders happily from garden to garden, and then turns to tell what his companion brought to him.",
+   "concepts": [
+    "kaamam",
+    "thunai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": "குமரன்",
+     "line": 1
+    }
+   ],
+   "event": "Naga Kumara spends his days in pleasure gardens with women until his friend comes with news.",
+   "claims": []
+  },
+  "75": {
+   "reading": "The story shifts to Uttara Madurai in the Surasena land, where the king's queen is named Jayavathi.",
+   "concepts": [
+    "naadu",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "76": {
+   "reading": "Two sons, Vyala and Mahavyala, are born to the queen, and when the sage Dhumasena comes the king bows and puts a question to him.",
+   "concepts": [
+    "makkal",
+    "thavam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "jayavar",
+     "form": "வேந்தன்",
+     "line": 4
+    },
+    {
+     "id": "dhumasenar",
+     "form": "தூம சேனர்",
+     "line": 3
+    }
+   ],
+   "event": "The sage Dhumasena visits the king of Uttara Madurai, who bows and asks him a question.",
+   "claims": []
+  },
+  "77": {
+   "reading": "The king asks the sage whether his sons will rule or serve another, hears that they will serve one man, and gives them the crown.",
+   "concepts": [
+    "arasu",
+    "makkal",
+    "soozhchi"
+   ],
+   "nuance": "The sage's answer is told only in outline; the verse does not name the man the sons will serve, so the prophecy is open until later verses.",
+   "speaker": {
+    "who": "jayavar",
+    "form": null,
+    "line": null,
+    "addressee": "dhumasenar"
+   },
+   "agents": [
+    {
+     "id": "jayavar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "dhumasenar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Told by the sage that his sons will serve one man, the king crowns his sons.",
+   "claims": [
+    {
+     "claim": "a sage's sign tells what will befall a king's sons",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "dhumasenar"
+    }
+   ]
+  },
+  "78": {
+   "reading": "The king goes to the forest and stands as a great ascetic, while the sons leave the land's burden with a minister and go seeking a lord of their own at Pataliputra.",
+   "concepts": [
+    "thuravu",
+    "thavam",
+    "arasu"
+   ],
+   "nuance": "The king leaves only after he has put the crown on his sons, so renunciation follows the duty of rule rather than replacing it; the sons in turn hand the rule to a minister, and the verse does not say whether the leaving is by choice or by the sage's word.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "jayavar",
+     "form": "மன்னன்",
+     "line": 1
+    },
+    {
+     "id": "vyalan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "mavyalan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king becomes a forest ascetic and his sons leave the realm to a minister and travel to Pataliputra.",
+   "claims": [
+    {
+     "claim": "a king who has settled the succession should leave the throne for forest austerity",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ],
+   "uncertain": true
+  },
+  "79": {
+   "reading": "Pataliputra's king is Srivarman, his queen Srimathi and his daughter Kenikasundari, and the two brothers arrive there like gods from heaven.",
+   "concepts": [
+    "arasu",
+    "naadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vyalan",
+     "form": "வியாளமா வியாளர்",
+     "line": 4
+    },
+    {
+     "id": "mavyalan",
+     "form": "வியாளமா வியாளர்",
+     "line": 4
+    }
+   ],
+   "event": "Vyala and Mahavyala reach Pataliputra, whose royal family is introduced.",
+   "claims": []
+  },
+  "80": {
+   "reading": "The king of Pataliputra, seeing the brother's worth, gives his daughter to one and a maid's daughter Sundari to Vyala, so both kings are glad.",
+   "concepts": [
+    "perumai",
+    "oppuravu",
+    "inbam"
+   ],
+   "nuance": "Who receives whom turns on the words தானவற்கு and தாதி துன்னிய மகள், which are not clear in the line; the reading follows the plain order and is not firm.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "srivarman",
+     "form": "மன்னனைக்",
+     "line": 1
+    }
+   ],
+   "event": "Srivarman gives his daughter to Mahavyala and the maid's daughter Sundari to Vyala.",
+   "claims": [],
+   "uncertain": true
+  },
+  "81": {
+   "reading": "After a few days Vyala sees Naga Kumara and the small eye on his forehead is hidden, and he declares himself the lesser man, which pleases the prince.",
+   "concepts": [
+    "panivu",
+    "perumai"
+   ],
+   "nuance": "Whether the hidden forehead eye is a mark Vyala recognises, and who says சிறியன் யான், depend on a few ambiguous words; the reading gives Vyala the speech.",
+   "speaker": {
+    "who": "vyalan",
+    "form": null,
+    "line": null,
+    "addressee": "nagakumaran"
+   },
+   "agents": [
+    {
+     "id": "vyalan",
+     "form": "வியாளன்",
+     "line": 1
+    },
+    {
+     "id": "nagakumaran",
+     "form": "நாகநற் குமரற்",
+     "line": 2
+    }
+   ],
+   "event": "Vyala meets Naga Kumara, sees the mark on his forehead and calls himself small, and the prince is glad.",
+   "claims": [],
+   "uncertain": true
+  },
+  "82": {
+   "reading": "Sridharan's soldiers come to kill the lord and surround the house, and Vyala asks why they came and strikes them with an elephant-post.",
+   "concepts": [
+    "kolai",
+    "padai",
+    "aanmai"
+   ],
+   "nuance": "The killing is done by one who guards a guest and the narrator calls Vyala well-mannered, so the slaughter is praised as loyalty rather than faulted as violence.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridharan",
+     "form": "சிரீதரன்",
+     "line": 1
+    },
+    {
+     "id": "vyalan",
+     "form": "வியாளன்",
+     "line": 2
+    }
+   ],
+   "event": "Sridharan's army surrounds the house to kill Naga Kumara and Vyala destroys it with an elephant tether-post.",
+   "claims": []
+  },
+  "83": {
+   "reading": "Hearing of his army's death Sridharan comes in anger, but when the prince appears before him on an elephant the king's minister is sent and the killing stops.",
+   "concepts": [
+    "vekuli",
+    "kolai",
+    "amaichu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sridharan",
+     "form": "சிரீதரன்",
+     "line": 1
+    },
+    {
+     "id": "nagakumaran",
+     "form": "குமரன்",
+     "line": 2
+    },
+    {
+     "id": "srivarman",
+     "form": "மன்னன்",
+     "line": 3
+    }
+   ],
+   "event": "Sridharan attacks in anger; Naga Kumara faces him on an elephant and the king sends a minister to end the fighting.",
+   "claims": [],
+   "uncertain": true
+  },
+  "84": {
+   "reading": "The minister Nayantaran gently tells the prince that the angry hero has come to his house and that the king wishes him to leave the land, and the prince says he will do to him as before if he meets him.",
+   "concepts": [
+    "amaichu",
+    "maanam",
+    "anjaamai"
+   ],
+   "nuance": "Whose command to leave, and who the angry hero is, depend on loose pronouns in lines 2 to 4; the verse leaves the prince's answer ambiguous.",
+   "speaker": {
+    "who": "nayantaran",
+    "form": "நயந்தர",
+    "line": 1,
+    "addressee": "nagakumaran"
+   },
+   "agents": [
+    {
+     "id": "nayantaran",
+     "form": "நயந்தர",
+     "line": 1
+    },
+    {
+     "id": "nagakumaran",
+     "form": "குமரற்",
+     "line": 1
+    }
+   ],
+   "event": "Nayantaran warns Naga Kumara to leave and the prince refuses to avoid a fight.",
+   "claims": [],
+   "uncertain": true
+  },
+  "85": {
+   "reading": "Nayantaran tells the enemy that he lacks sense, having seen his army killed by one man and still not understood, and bids him go home, so he goes frightened with his troops.",
+   "concepts": [
+    "arivu",
+    "acham",
+    "pedhaimai"
+   ],
+   "nuance": "The advice is a minister's face-saving retreat for a defeated lord, framed as a rebuke; the verse does not say the lord is wrong to feel shamed.",
+   "speaker": {
+    "who": "nayantaran",
+    "form": "நயந்தரன்",
+    "line": 1,
+    "addressee": "sridharan"
+   },
+   "agents": [
+    {
+     "id": "nayantaran",
+     "form": "நயந்தரன்",
+     "line": 1
+    },
+    {
+     "id": "sridharan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Nayantaran sends Sridharan home with a rebuke and Sridharan withdraws with his army.",
+   "claims": [
+    {
+     "claim": "one who does not learn from seeing a rival's strength is without good sense",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "nayantaran"
+    }
+   ]
+  },
+  "86": {
+   "reading": "On the minister's word from the father, the prince tells his mother, rides an elephant with the women and his friend, and settles happily in Vyala's Madurai.",
+   "concepts": [
+    "inbam",
+    "thunai",
+    "naadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": "தானுந்",
+     "line": 1
+    },
+    {
+     "id": "thozhan",
+     "form": "தோழனுந்",
+     "line": 2
+    }
+   ],
+   "event": "Naga Kumara tells his mother and travels with friend and women to Vyala's city, where they live in joy.",
+   "claims": []
+  },
+  "87": {
+   "reading": "The prince, the king and the friend go to play outside the city and come upon five hundred young men with veenas, and the prince speaks to them.",
+   "concepts": [
+    "inbam",
+    "natpu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": "குமரனு",
+     "line": 1
+    },
+    {
+     "id": "thozhan",
+     "form": "தோழனும்",
+     "line": 1
+    }
+   ],
+   "event": "Naga Kumara's party meets five hundred veena-playing youths outside the city.",
+   "claims": [],
+   "uncertain": true
+  }
+ },
+ "links": [
+  {
+   "a": "77",
+   "b": 81,
+   "type": "develops",
+   "note": "The sage tells the king that his sons will serve one man; in 81 Vyala meets Naga Kumara and calls himself the small one.",
+   "teaches": "The prophecy names no master, so Vyala's self-lowering at first sight shows the foretold service beginning as a choice of bearing and not a forced bond."
+  },
+  {
+   "a": "83",
+   "b": 85,
+   "type": "develops",
+   "note": "Sridharan arrives in anger and meets the prince in 83, and in 85 he is rebuked and withdraws in fear.",
+   "teaches": "The threat built in 83 is ended not by a battle but by a minister's speech, so the epic makes counsel the thing that turns the king back."
+  },
+  {
+   "a": "78",
+   "b": "kural:46",
+   "type": "qualifies",
+   "note": "The king in 78 leaves for forest austerity after crowning his sons, the move Kural 46 asks the householder to question.",
+   "teaches": "The epic shows leaving for the outside way as a late step after the duty of rule is done, which narrows how far the Kural's rhetorical question reaches.",
+   "gains": {
+    "a": "The king's departure gains a test: it is not flight from household duty but follows its completion.",
+    "b": "The couplet gains a case of a ruler who goes outside the household way and loses nothing it names as virtue."
+   }
+  },
+  {
+   "a": "78",
+   "b": "naladiyar:21",
+   "type": "qualifies",
+   "note": "Naladiyar 21 says kings under umbrellas were carried off and called dead; in 78 the king leaves the throne alive and by his own act.",
+   "teaches": "The same fall of royal pomp appears as chosen renunciation rather than death, showing impermanence can be met before it arrives.",
+   "gains": {
+    "a": "The king's retreat gains the Naladiyar's reason for giving up rank, impermanence, which the verse leaves unspoken.",
+    "b": "The quatrain gains a king who acts on its warning instead of only being its example."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "80: the line 2-3 sense of தானவற்கு and தாதி is unclear and the allocation of brides is read by plain order.",
+  "76: the metre and a stray word அதிக in line 3 are normal, but the cast name செயவர் is read from 75.3 as a name."
+ ]
+}

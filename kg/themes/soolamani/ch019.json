@@ -1,0 +1,753 @@
+{
+ "chapter_no": 19,
+ "chapter_theme": "A teacher tells the king the woman's fortune by reciting the ancient purana: the middle world, the ages, the first lord and the wheel-king Bharata, then the lord's foretelling to Bharata of the line of great persons down to the Kesava Marici, who is the younger prince of the court.",
+ "cast": [
+  {
+   "id": "aariyan",
+   "tamil": "ஆரியன்",
+   "role": "the noble teacher who tells the king the woman's fortune and recites the purana"
+  },
+  {
+   "id": "arasan",
+   "tamil": "மன்னன்",
+   "role": "the king the teacher addresses; not named in these verses"
+  },
+  {
+   "id": "vinjaiyar_makal",
+   "tamil": "விஞ்சையர் மகள்",
+   "role": "the Vidyadhara king's daughter, unnamed in the verse"
+  },
+  {
+   "id": "adinatha",
+   "tamil": "இறைவன்",
+   "role": "the first lord, who speaks to Bharata in the purana"
+  },
+  {
+   "id": "bharata",
+   "tamil": "பரதன்",
+   "role": "Adinatha's son, the first wheel-king, to whom the lord speaks"
+  },
+  {
+   "id": "marici",
+   "tamil": "மரிசி",
+   "role": "Bharata's son, foretold as the first Kesava"
+  },
+  {
+   "id": "tivittan",
+   "tamil": "திவிட்டன்",
+   "role": "the younger prince of Podanapura, the Kesava of the purana"
+  }
+ ],
+ "verses": {
+  "383": {
+   "reading": "A woman shining like a garland spread out as moonlight, her eyes unlike any other, walks round the king in the street and reaches him, as fortune was meant to meet him.",
+   "concepts": [
+    "kurippu",
+    "arasu"
+   ],
+   "nuance": "Lines 3-4 are compressed; the verse does not name the woman, and she is taken here to be the Vidyadhara king's daughter of the opening verses.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar_makal",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The woman circles the king in the street and comes before him.",
+   "claims": []
+  },
+  "384": {
+   "reading": "A speaker says he cannot tell in words the beauty of the slender woman with golden jewels, and addresses a king whose sword gleams widely.",
+   "concepts": [
+    "azhagu",
+    "arasu"
+   ],
+   "nuance": "The speaker is not named in the verse; the teacher of verse 386 is taken as the voice, and the one addressed as a king by the sword epithet.",
+   "uncertain": true,
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "385": {
+   "reading": "The speaker says that what shines forth will make clear the holy word of the light who once bore the wheel of dharma, and calls the youth the rightful lord of the woman's breasts.",
+   "concepts": [
+    "iraivan",
+    "aram",
+    "aazhi"
+   ],
+   "nuance": "Who is called மைந்தன் (youth or hero) is not fixed; he may be the king's son whom the woman is meant for.",
+   "uncertain": true,
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the first lord's word, borne with the wheel of dharma, makes clear what is to come",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "aariyan"
+    }
+   ]
+  },
+  "386": {
+   "reading": "Hearing the noble teacher's account of the woman's fortune, the king, whose fame has no falsehood in it, shone with the radiance of one who had seen the truth.",
+   "concepts": [
+    "pugazh",
+    "arul"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "aariyan",
+     "form": "னாரியன்",
+     "line": 1
+    },
+    {
+     "id": "arasan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king hears the teacher's account of the woman's fortune and is lit with joy.",
+   "claims": []
+  },
+  "387": {
+   "reading": "When the king asks how the woman's lot spreads in the holy word of the one who sent his eyes over the whole world, the teacher recites the ancient great purana to him.",
+   "concepts": [
+    "puraanam",
+    "iraivan"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arasan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "aariyan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king asks how the woman's fortune lies in the lord's word, and the teacher answers with the old purana.",
+   "claims": []
+  },
+  "388": {
+   "reading": "The purana begins with the shape of the middle world: a continent in the great sea and a ring of ocean around it, each double the last, in numbers past counting.",
+   "concepts": [
+    "kaalam",
+    "aram"
+   ],
+   "nuance": "The verse gives measures only as doubling; no figure is stated, so the structure is all it teaches.",
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the middle world is a continent ringed by oceans and further rings, each twice the width of the one before",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "aariyan"
+    }
+   ]
+  },
+  "389": {
+   "reading": "At the centre stands the long mountain Mandara, ringed by a fair terrace; the great jambu tree stands in the midst of the earth-disc, which hangs in the air.",
+   "concepts": [
+    "kurippu",
+    "andam"
+   ],
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the earth is a disc hung in the air with Mandara at its centre and the jambu tree on it",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "aariyan"
+    }
+   ]
+  },
+  "390": {
+   "reading": "The disc is told as six great mountains, seven lands and fourteen rivers, a world ringed by the sea's nets of waves.",
+   "concepts": [
+    "kurippu",
+    "naadu"
+   ],
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the disc has six mountain ranges, seven lands and fourteen rivers",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "aariyan"
+    }
+   ]
+  },
+  "391": {
+   "reading": "In this disc, by the turning of ages, two lands rise and fall; of the two, the southern one is Bharata-khanda.",
+   "concepts": [
+    "kaalam",
+    "naadu"
+   ],
+   "nuance": "The turning ages are only named by ஊழி here; the doctrine of a rising and a falling half-cycle is read from line 2 and the later verses.",
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "ages turn so that a land rises and falls in them",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "aariyan"
+    }
+   ]
+  },
+  "392": {
+   "reading": "That southern land, jewelled and with wish-giving trees and golden groves, was an enjoyment land for three ages, and in the following age the first patriarchs were born.",
+   "concepts": [
+    "kaalam",
+    "naadu"
+   ],
+   "nuance": "பிரமர் is read here as the patriarchs of the following age; the word is not glossed in the verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": "In the age after the three enjoyment ages, the first patriarchs are born.",
+   "claims": [
+    {
+     "claim": "the land passed through three ages of effortless enjoyment before the patriarchs came",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "aariyan"
+    }
+   ]
+  },
+  "393": {
+   "reading": "The patriarchs began the sun, the cool moon's ring and the other things the age lacked; so the enjoyment age ended.",
+   "concepts": [
+    "kaalam",
+    "andam"
+   ],
+   "nuance": "Line 3 says these ones 'made' (படைத்தனர்); whether the sun and moon were newly set or newly seen is not decided by the Tamil.",
+   "uncertain": true,
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": "The patriarchs appear and set up the sun, moon and other things of the new age.",
+   "claims": []
+  },
+  "394": {
+   "reading": "When the third age ended, the lord appeared as a form of light to end the many sorrows of living beings, to be praised by the seven worlds.",
+   "concepts": [
+    "iraivan",
+    "kaalam",
+    "arul"
+   ],
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "adinatha",
+     "form": "மடிக",
+     "line": 4
+    }
+   ],
+   "event": "At the end of the third age the first lord is born to end beings' sorrow.",
+   "claims": [
+    {
+     "claim": "a lord appears to remove the sorrows of living beings and is praised by all worlds",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "aariyan"
+    }
+   ]
+  },
+  "395": {
+   "reading": "The first lord's red feet drove out the dark, and the world took refuge in his grace as the eyes opened.",
+   "concepts": [
+    "thiruvadi",
+    "arul",
+    "iraivan"
+   ],
+   "nuance": "The verse uses the wheel's name ஆழி for the first lord's emblem; the dark is darkness of the eyes, and the eyes' opening is the gain.",
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "refuge at the first lord's feet and grace ends the darkness of beings",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "aariyan"
+    }
+   ]
+  },
+  "396": {
+   "reading": "The lord, free of the senses' enjoyment and full of merit, opened the doors that ease the hunger of the afflicted, and set up the orders of men and their qualities.",
+   "concepts": [
+    "arul",
+    "eegai",
+    "aram"
+   ],
+   "nuance": "The verse is cautious: it closes with 'they say', so the account is given as a received tradition, not as the poet's own report.",
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "adinatha",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The first lord ends the hunger of the afflicted and establishes the orders and qualities of men.",
+   "claims": [
+    {
+     "claim": "the one who has no taste of the senses is the giver who ends the hunger of the afflicted",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "aariyan"
+    },
+    {
+     "claim": "the lord set up the orders of people and their qualities",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "aariyan"
+    }
+   ]
+  },
+  "397": {
+   "reading": "By that lord's grace a king of the sea-bound earth, with a single great umbrella, became Bharata, the king of the spear.",
+   "concepts": [
+    "arasu",
+    "vendhan",
+    "arul"
+   ],
+   "nuance": "The verse closes with 'they say', so the sovereignty is told as received tradition.",
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "bharata",
+     "form": "பரத",
+     "line": 4
+    }
+   ],
+   "event": "By the first lord's grace Bharata becomes the sole king of the earth.",
+   "claims": [
+    {
+     "claim": "a king's sole sovereignty arises by the grace of the first lord",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "aariyan"
+    }
+   ]
+  },
+  "398": {
+   "reading": "Bharata, who bowed the earth with his wheel and ruled it, one day came to the first lord's feet, worshipped and praised them.",
+   "concepts": [
+    "vazhipaadu",
+    "vendhan",
+    "aazhi"
+   ],
+   "nuance": "Bharata rules by a discus of war yet bows at the feet of the lord of the dharma-wheel; the verse sets the two wheels side by side without comment.",
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "bharata",
+     "form": "பரத",
+     "line": 2
+    },
+    {
+     "id": "adinatha",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Bharata, ruler by the wheel, worships and praises the first lord.",
+   "claims": []
+  },
+  "399": {
+   "reading": "Bharata bowed his crowned head and asked what lay ahead; the lord answered, his voice like thunder that sheds nectar rain from a rain-heavy cloud.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "bharata",
+     "form": "காவலன்",
+     "line": 1
+    },
+    {
+     "id": "adinatha",
+     "form": "னிறைவன்",
+     "line": 2
+    }
+   ],
+   "event": "Bharata asks the lord what is to come, and the lord answers.",
+   "claims": []
+  },
+  "400": {
+   "reading": "The lord tells him the count: twenty-four lords beginning with himself, twelve wheel-kings beginning with Bharata, and nine each of the Kesavas and their rivals.",
+   "concepts": [
+    "kurippu",
+    "kaalam"
+   ],
+   "nuance": "The verse lists three classes of great persons (lord, wheel-king, Kesava with rival); the text only names them in the classes and counts, not by name.",
+   "speaker": {
+    "who": "adinatha",
+    "form": null,
+    "line": null,
+    "addressee": "bharata"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "each age holds twenty-four lords, twelve wheel-kings, nine Kesavas and nine rivals",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "adinatha"
+    }
+   ]
+  },
+  "401": {
+   "reading": "The lord says to the king that his son Marici will be born in the family of the hero of the golden anklet and be the first of the Kesavas.",
+   "concepts": [
+    "oozh",
+    "kurippu",
+    "arasu"
+   ],
+   "nuance": "The identification of Marici's line with Podanapura is not in this verse; read with 406.",
+   "uncertain": true,
+   "speaker": {
+    "who": "adinatha",
+    "form": null,
+    "line": null,
+    "addressee": "bharata"
+   },
+   "agents": [
+    {
+     "id": "marici",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The lord foretells that Bharata's son Marici will be born as the first of the Kesavas.",
+   "claims": [
+    {
+     "claim": "the line of great persons is foretold, and a particular man's birth as a Kesava is fixed beforehand",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "adinatha"
+    }
+   ]
+  },
+  "402": {
+   "reading": "Telling of that Kesava: the lord says that because of a girl of silver-hill beauty he will take the life and the discus of Ashvagriva.",
+   "concepts": [
+    "oozh",
+    "kurippu",
+    "aazhi"
+   ],
+   "nuance": "Line 3's spelling of the rival's name is corrupt (ஆசரவச்சுவக்கிரீவன்); it is read as Ashvagriva.",
+   "uncertain": true,
+   "speaker": {
+    "who": "adinatha",
+    "form": null,
+    "line": null,
+    "addressee": "bharata"
+   },
+   "agents": [],
+   "event": "The lord foretells that the Kesava will take Ashvagriva's life and discus.",
+   "claims": [
+    {
+     "claim": "a future hero's victory over his rival is foretold",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "adinatha"
+    }
+   ]
+  },
+  "403": {
+   "reading": "The lord says that the Kesava, going afterwards with his sea of an army, will become the lord of the wheel and conquer.",
+   "concepts": [
+    "arasu",
+    "aazhi",
+    "kurippu"
+   ],
+   "nuance": "The verse does not name the Kesava; the vocative பரத makes the lord's address to Bharata plain, and line 4's final word is read as a closing epithet.",
+   "uncertain": true,
+   "speaker": {
+    "who": "adinatha",
+    "form": null,
+    "line": null,
+    "addressee": "bharata"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The lord foretells the Kesava's march with his army and his lordship of the discus.",
+   "claims": []
+  },
+  "404": {
+   "reading": "The lord says that beginning, end and middle are theirs, the sea-ringed world's right; the king of kings rejoiced, and the teacher closes: such is the way of the purana.",
+   "concepts": [
+    "kaalam",
+    "arasu",
+    "puraanam"
+   ],
+   "nuance": "Lines 1-2 read as the lord's words; line 3 narrates Bharata's joy; line 4 is the teacher closing the story to his own king. The break between voices is uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "adinatha",
+    "form": null,
+    "line": null,
+    "addressee": "bharata"
+   },
+   "agents": [
+    {
+     "id": "bharata",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Bharata rejoices at the lord's words about the sea-ringed world.",
+   "claims": []
+  },
+  "405": {
+   "reading": "So, as the purana's book tells, the bull-armed hero came down from the shining sky and was born on the earth ringed by the swelling sea.",
+   "concepts": [
+    "piravi",
+    "puraanam"
+   ],
+   "nuance": "The hero is not named; he is taken as Tivittan whose rise Marici's line foretold in verses 401-403.",
+   "uncertain": true,
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The purana's hero descends from the sky and is born on earth.",
+   "claims": [
+    {
+     "claim": "a being descends from heaven and takes birth on earth as the purana foretold",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "aariyan"
+    }
+   ]
+  },
+  "406": {
+   "reading": "Of the two sons, born in golden Podanapura of Surama land, the younger is the youth, named Nambi, whom the teacher has been describing.",
+   "concepts": [
+    "piravi",
+    "arasu"
+   ],
+   "nuance": "This verse ties the purana to the two princes of earlier chapters: the elder is Vijayan and the younger Tivittan, who bears the discus marks of verse 78.",
+   "uncertain": true,
+   "speaker": {
+    "who": "aariyan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "நம்பியே",
+     "line": 4
+    }
+   ],
+   "event": "The teacher names the younger of the king's two sons as the hero of the purana.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 385,
+   "b": "kural:8",
+   "type": "same_image",
+   "note": "Verse 385 names the first lord as the light who bore the wheel of dharma (அறக்கதிர் ஆழி); Kural 8 calls the god அறவாழி அந்தணன், where ஆழி can be taken as sea or as wheel.",
+   "teaches": "A Jain epic uses the words aram and aazhi for a god where the Kural's phrase leaves open sea or wheel, so the same wording is read two ways across the corpus.",
+   "gains": {
+    "a": "A much older Tamil praise-phrase for a god, which shows its wording is not a coinage but a shared devotional idiom.",
+    "b": "A second reading of ஆழி, the wheel an epic plainly bears, which the couplet's own words do not decide."
+   }
+  },
+  {
+   "a": 395,
+   "b": "tirumanthiram:349",
+   "type": "tension",
+   "note": "Verse 395 has the world take refuge in the grace of the first lord who bears the wheel; Tirumanthiram 349 says the bright-flamed First gave the discus to Achyuta.",
+   "teaches": "Both texts make the wheel the sign of a first lord, but one makes it his own dharma-wheel and the other a gift he hands to a lesser god, so the wheel's source is claimed for two rival firsts.",
+   "gains": {
+    "a": "A rival claim, in which the discus is given and not borne, against which its own claim that the first lord holds the wheel stands out.",
+    "b": "A Jain account in which the wheel belongs to the first lord and is not passed to any god, against which its gift of the discus reads as a Saiva claim."
+   }
+  },
+  {
+   "a": 396,
+   "b": "kural:225",
+   "type": "qualifies",
+   "note": "Verse 396 gives the lord who has no taste of the senses the work of opening doors that end hunger; Kural 225 ranks the strength of those who endure hunger behind that of those who remove it.",
+   "teaches": "The epic's lord is at once the senses' renouncer and the hunger-remover, so he fills both places the couplet sets in rank order.",
+   "gains": {
+    "a": "A test of its claim, since the couplet ranks the ascetic's strength below the giver's, which the epic's lord meets by being both.",
+    "b": "A figure in whom the ranking does not split, a renouncer who is also the giver the couplet places higher."
+   }
+  },
+  {
+   "a": 402,
+   "b": "soolamani:114",
+   "type": "develops",
+   "note": "Verse 402 has the lord foretell that the Kesava will take Ashvagriva's discus; verse 114 has the ministers say the young lord will hold the discus weapon in his hand.",
+   "teaches": "The ministers' reading of the palm marks is borne out by the lord's own foretelling, which names the discus's source as a rival's own."
+  },
+  {
+   "a": 406,
+   "b": "soolamani:78",
+   "type": "same_image",
+   "note": "Verse 406 names the younger of two sons as the purana's hero; verse 78 describes the younger prince as bearing the conch and discus marks on his palm.",
+   "teaches": "The marks of verse 78 and the purana's foretelling in this chapter are two proofs that the younger prince is the hero, one of the body and one of the story."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "puraanam",
+   "tamil": "புராணம்",
+   "gloss": "the old account of the world and its great persons, told by a teacher",
+   "label_source": "the verses use புராண (387, 404, 405)"
+  },
+  {
+   "id": "aazhi",
+   "tamil": "ஆழி",
+   "gloss": "the wheel or discus that marks a lord of the world, the dharma-wheel or the king's weapon",
+   "label_source": "the verses use ஆழி (385, 395, 398)"
+  }
+ ],
+ "source_issues": [
+  "Verse 402 line 3: the rival's name (ஆசரவச்சுவக்கிரீவன்) is corrupt in the edition; read as Ashvagriva.",
+  "Verses 383-387: the speaker and addressee are not named, so the teacher and the king are taken from verse 386.",
+  "Verse 398 line 3 and verse 394 line 3 carry stray spaces in the word division (ஊ ழியா, தோ ன்றினாய்)."
+ ]
+}

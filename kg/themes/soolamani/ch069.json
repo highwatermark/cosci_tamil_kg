@@ -1,0 +1,686 @@
+{
+ "chapter_no": 69,
+ "chapter_theme": "In the grove, Tivittan and the jester walk past fruit, shade and flowers; the jester is afraid of dark, of thieves and of petals, the king teaches him the grove's blooms and cures, the jester jokes about the queen's foot and is struck by a flower, then flees from a spirit that proves to be his own shadow, before the queen arrives.",
+ "cast": [
+  {
+   "id": "tivittan",
+   "tamil": "இளையவன்",
+   "role": "Tivittan, the king, called the sea-hued one"
+  },
+  {
+   "id": "vidushakan",
+   "tamil": "விதூடகன்",
+   "role": "the brahmin jester Madhavan, the king's companion"
+  },
+  {
+   "id": "chief_queen",
+   "tamil": "தேவி",
+   "role": "the king's chief queen, named only by her rank"
+  },
+  {
+   "id": "maidens",
+   "tamil": "கன்னியர்",
+   "role": "the maidens who attend the queen"
+  }
+ ],
+ "verses": {
+  "1579": {
+   "reading": "Seeing the ripe fruit on the grove's mango trees, with the madhavi creeper growing over them, the speaker says they will run and pick them.",
+   "concepts": [
+    "azhagu",
+    "avaa"
+   ],
+   "nuance": "The speaker is not named; the greed for fruit fits the jester of the previous chapter, but only the story so far says so.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vidushakan",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "vidushakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The jester sees the ripe fruit and proposes to run and take it.",
+   "claims": []
+  },
+  "1580": {
+   "reading": "Where bees swarm in the cool grove, fruit lies spilled on one side, and the dull-minded man who ran up to it grows angry.",
+   "concepts": [
+    "avaa",
+    "azhagu"
+   ],
+   "nuance": "மூடு கொண்ட மதியன் is taken as a gibe at the jester; the Tamil does not name him.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vidushakan",
+     "form": "மதியன்",
+     "line": 4
+    }
+   ],
+   "event": "The jester, running to the fallen fruit, finds it spoiled by bees and is angered.",
+   "claims": []
+  },
+  "1581": {
+   "reading": "Speaking to the lord, the jester says that this grove, which even the sun does not think to enter, has not the least guard.",
+   "concepts": [
+    "aran",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "vidushakan",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "vidushakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The jester tells the king the grove is unguarded.",
+   "claims": []
+  },
+  "1582": {
+   "reading": "The spear-bearing king answers that many warriors guard the golden wall, so he asks how the grove can be said to lack guards.",
+   "concepts": [
+    "aran",
+    "padai"
+   ],
+   "speaker": {
+    "who": "tivittan",
+    "form": "வேலோன்",
+    "line": 4,
+    "addressee": "vidushakan"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "வேலோன்",
+     "line": 4
+    }
+   ],
+   "event": "The king denies that the grove is unguarded and says warriors keep the wall.",
+   "claims": []
+  },
+  "1583": {
+   "reading": "The speaker says that the guards of the rare fruit are the fierce-eyed, black-faced ones who shake the fruit down and come, so the grove is guarded after its own kind.",
+   "concepts": [
+    "kalavu",
+    "aran"
+   ],
+   "nuance": "The black-faced, fierce-eyed guards look like the monkeys that 1584 names; the verse itself does not say so, and the lines are hard to construe.",
+   "uncertain": true,
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": "vidushakan"
+   },
+   "agents": [],
+   "event": "The king explains who guards the fruit.",
+   "claims": []
+  },
+  "1584": {
+   "reading": "As a langur of the grove shows its tricks, the jester says that all of them are thieves, so they should go on to the queen's grove.",
+   "concepts": [
+    "kalavu",
+    "aran"
+   ],
+   "nuance": "The joke turns on the king's own claim of guards (1582-1583): the guards are the thieves.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vidushakan",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "vidushakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The jester calls the grove's monkeys thieves and proposes that they move to the queen's grove.",
+   "claims": []
+  },
+  "1585": {
+   "reading": "The sea-hued king hears the jester's remark that thieves are many, with a laugh hidden in his own words, and the jester, shrinking, looks to both sides and walks close to him.",
+   "concepts": [
+    "acham",
+    "natpu"
+   ],
+   "nuance": "Who is ashamed (வெள்கி) is not fixed by the verse; it is read here as the jester.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "கடல் வண்ணன்",
+     "line": 1
+    },
+    {
+     "id": "vidushakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king laughs inwardly at the jester's remark, and the frightened jester walks close beside him.",
+   "claims": []
+  },
+  "1586": {
+   "reading": "In the tamala avenue, where hanging shoots shade the path, the jester takes the shade for darkness and is afraid, and the garlanded king removes his fear.",
+   "concepts": [
+    "acham",
+    "azhagu"
+   ],
+   "nuance": "The quoted words சால காண் are hard to construe; the reading follows the sentence's frame.",
+   "uncertain": true,
+   "speaker": {
+    "who": "tivittan",
+    "form": "வீழிணர்க் கண்ணியான்",
+    "line": 4,
+    "addressee": "vidushakan"
+   },
+   "agents": [
+    {
+     "id": "vidushakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "tivittan",
+     "form": "வீழிணர்க் கண்ணியான்",
+     "line": 4
+    }
+   ],
+   "event": "The jester takes shade for darkness and trembles; the king calms him.",
+   "claims": []
+  },
+  "1587": {
+   "reading": "The jester, seeing fallen petals at the foot of a bakula tree, asks the sea-hued king in fear whether the grove too will begin a war.",
+   "concepts": [
+    "acham",
+    "kaamam"
+   ],
+   "nuance": "The word சாலிகை is rare; the sense of the question is taken from the reply in 1588, which says there is no war here.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vidushakan",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "vidushakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Frightened, the jester asks if fallen petals mean a fight is starting.",
+   "claims": []
+  },
+  "1588": {
+   "reading": "The king tells him not to fear, since there is no battle here, and says the bakula's longing is cured when women's coral mouths spill the five-taste liquor on it.",
+   "concepts": [
+    "kaamam",
+    "azhagu"
+   ],
+   "nuance": "The verse gives the bakula a longing (வயவு நோய்), cured by the women's mouth-wine; it treats the tree as a lover, with no claim beyond the poem's own image.",
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": "vidushakan"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king explains that the bakula blooms when women pour liquor on it.",
+   "claims": []
+  },
+  "1589": {
+   "reading": "Calling the jester a man of great learning, the king explains that bees do not rise from the flowers' scent but have swarmed at the foot of the tree.",
+   "concepts": [
+    "azhagu",
+    "kelvi"
+   ],
+   "nuance": "ஓங்கிய கேள்வியாய் is likely ironic, since the king is teaching the jester.",
+   "speaker": {
+    "who": "tivittan",
+    "form": "வீங்கிய கழலவன்",
+    "line": 4,
+    "addressee": "vidushakan"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "வீங்கிய கழலவன்",
+     "line": 4
+    }
+   ],
+   "event": "The king explains why the bees gather at the tree's foot.",
+   "claims": []
+  },
+  "1590": {
+   "reading": "The king also tells him plainly that the jasmine rising among thorny stems has petals shaped like blood and will open on its own day.",
+   "concepts": [
+    "azhagu",
+    "kaalam"
+   ],
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": "vidushakan"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king explains the jasmine to the jester.",
+   "claims": []
+  },
+  "1591": {
+   "reading": "The jester asks the banner-armed king what the asoka is, which bears fresh shoots at its foot, when other branches carry them at the tip.",
+   "concepts": [
+    "azhagu",
+    "kelvi"
+   ],
+   "speaker": {
+    "who": "vidushakan",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "vidushakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The jester asks about the asoka's shoots at its foot.",
+   "claims": []
+  },
+  "1592": {
+   "reading": "The king shows him that these are no leaves but the lac stains of dancing women's feet, laid there to cure the tree's longing.",
+   "concepts": [
+    "azhagu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": "vidushakan"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king explains that the red at the foot is women's lac-footprints.",
+   "claims": []
+  },
+  "1593": {
+   "reading": "The jester teases that when the dark-eyed queen puts her small foot to the king's head, he blooms at once, so the asoka's way is his.",
+   "concepts": [
+    "kaamam",
+    "penvazhi"
+   ],
+   "nuance": "The joke reverses the 'longing' of 1588-1592: the lord of sixteen thousand wives is the one cured by his wife's foot.",
+   "speaker": {
+    "who": "vidushakan",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "vidushakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The jester jokes that the king, like the asoka, blooms at the queen's foot.",
+   "claims": []
+  },
+  "1594": {
+   "reading": "After the jester has spoken, the king strikes him with a flower, and the jester says he will tell the queen of the wrong done him for the sake of a stranger.",
+   "concepts": [
+    "kaamam",
+    "kuri"
+   ],
+   "nuance": "The grammar of ஏதிலாள் ஒருத்திக்கா is unclear; the sense is read as the jester's complaint that he is struck for the king's own failing.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vidushakan",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "vidushakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king strikes the jester with a flower, and the jester threatens to tell the queen.",
+   "claims": []
+  },
+  "1595": {
+   "reading": "The king takes his hand, says he will do nothing like it again, and climbs a gem-set rock platform.",
+   "concepts": [
+    "natpu",
+    "panivu"
+   ],
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": "vidushakan"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king seizes the jester's hand, promises not to repeat the blow, and goes up on the rock seat.",
+   "claims": []
+  },
+  "1596": {
+   "reading": "The jester, who sits beside him on the bright stone, looks around, is afraid, and with trembling body and hair on end steps back.",
+   "concepts": [
+    "acham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vidushakan",
+     "form": "றந்தண னமர்ந்து",
+     "line": 2
+    },
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The jester, seated on the stone, is seized by fear and draws back.",
+   "claims": []
+  },
+  "1597": {
+   "reading": "Asked what he has seen, the brahmin cries out that a spirit lives in this place which strikes and eats, so they must leave quickly.",
+   "concepts": [
+    "acham",
+    "pedhaimai"
+   ],
+   "nuance": "The brahmin's words are a report of his fear, not a doctrinal claim; the story soon shows the spirit to be his own shadow.",
+   "speaker": {
+    "who": "vidushakan",
+    "form": "றந்தணன்",
+    "line": 4,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "vidushakan",
+     "form": "றந்தணன்",
+     "line": 4
+    },
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The jester answers the king's question by claiming that a spirit lives in the stone and eats those who stay.",
+   "claims": []
+  },
+  "1598": {
+   "reading": "Asked for its form, the jester describes it: a golden ear-leaf, bright gem earrings, ears and eyes rolling, a hand gesture, and a swollen belly.",
+   "concepts": [
+    "acham",
+    "pedhaimai"
+   ],
+   "nuance": "Every feature he lists is a feature of a man with ear-ornaments, which sets up the king's answer in 1599.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vidushakan",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "vidushakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The jester describes the spirit he thinks he has seen.",
+   "claims": []
+  },
+  "1599": {
+   "reading": "With a quiet laugh the bright-jewelled king says that it is not his own shadow but the jester's, so let it stand, since his shadow goes with him and cannot be seen inside rock.",
+   "concepts": [
+    "pedhaimai",
+    "arivu"
+   ],
+   "nuance": "The king's words are cryptic in the first lines; the reading follows the next verse, where the jester is told to see his own deeds in the shadow.",
+   "speaker": {
+    "who": "tivittan",
+    "form": "மின்னிழற் பூணவன்",
+    "line": 1,
+    "addressee": "vidushakan"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "மின்னிழற் பூணவன்",
+     "line": 1
+    }
+   ],
+   "event": "The king laughs and begins to show the jester that the spirit is his own shadow.",
+   "claims": []
+  },
+  "1600": {
+   "reading": "The jester is told to look at the shadow and see his own acts in it; he bows, sees it doing what he does, understands, and sits quietly in the cool shade.",
+   "concepts": [
+    "arivu",
+    "thelivu"
+   ],
+   "nuance": "The jester is called இலங்கு நூலினான், the one with the shining thread or learning: the learned brahmin is cured by looking.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vidushakan",
+     "form": "நூலினான்",
+     "line": 4
+    },
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king makes the jester watch his shadow copy him, and the jester's fear ends.",
+   "claims": []
+  },
+  "1601": {
+   "reading": "The king says that while the queen is on her way they will sit on this gem stone and look at the beauty of the grove, and the two sit contentedly.",
+   "concepts": [
+    "azhagu",
+    "natpu"
+   ],
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": "vidushakan"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vidushakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king proposes that they wait on the stone, and the two sit down.",
+   "claims": []
+  },
+  "1602": {
+   "reading": "With her girdle ringing and her anklets sounding, the queen comes into the grove like a swan, ringed by maidens and guards.",
+   "concepts": [
+    "azhagu",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "chief_queen",
+     "form": "வந்தரசி",
+     "line": 4
+    },
+    {
+     "id": "maidens",
+     "form": "கன்னியர்",
+     "line": 3
+    }
+   ],
+   "event": "The chief queen arrives at the grove with her maidens and guards.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1581,
+   "b": 1582,
+   "type": "tension",
+   "note": "1581 has the jester say the grove has no guard at all; 1582 has the king answer that many warriors keep the wall, so the two contradict each other on the same grove.",
+   "teaches": "The dispute is settled only in 1583-1584, where the guards turn out to be the monkeys the jester then calls thieves, so the question of who guards is itself the joke."
+  },
+  {
+   "a": 1591,
+   "b": 1592,
+   "type": "develops",
+   "note": "1591 has the jester ask why the asoka bears red shoots at its foot; 1592 has the king show that they are women's lac-stained footprints.",
+   "teaches": "The jester's puzzlement is the setting for the king to show how the grove's flowering is linked to women's feet, which 1593 then turns on the king himself."
+  },
+  {
+   "a": 1592,
+   "b": 1593,
+   "type": "develops",
+   "note": "1592 shows the asoka cured of longing by women's feet; 1593 has the jester say the king too blooms when the queen's foot touches his head.",
+   "teaches": "The grove lesson becomes a jibe at the king, who is made the asoka's counterpart in his need of a woman's foot."
+  },
+  {
+   "a": 1594,
+   "b": 1595,
+   "type": "develops",
+   "note": "1594 has the king strike the jester and the jester threaten to tell the queen; 1595 has the king take his hand and promise never to do it again.",
+   "teaches": "The jester's threat of the queen's knowledge is enough to make the king, lord of the world, give way, which shows who rules in the household."
+  },
+  {
+   "a": 1597,
+   "b": 1600,
+   "type": "tension",
+   "note": "1597 has the jester claim that a man-eating spirit lives in the stone; 1600 has him see that his own shadow imitates his acts, and he is calmed.",
+   "teaches": "The claim in 1597 is made through the scene itself, not by argument, and the later verse answers it by showing the fear to have no source outside him."
+  },
+  {
+   "a": 1600,
+   "b": "kural:208",
+   "type": "qualifies",
+   "note": "1600 has the jester shown his own acts in his shadow, which does what he does; Kural 208 compares the ruin that follows evil deeds to a shadow that stays at the foot.",
+   "teaches": "The shadow that is a comic false spirit here is the same thing the Kural uses as a sign that a person's deeds follow them, so the pairing shows the image in two uses.",
+   "gains": {
+    "a": "The scene gains a moral dimension: the shadow that copies the jester is the image the Kural uses for a deed's consequence, and the king's order to see his acts in it points that way.",
+    "b": "The couplet gains a case in which the shadow is an object of comic fear, which shows how readily people fear what is only their own doing."
+   }
+  },
+  {
+   "a": 1597,
+   "b": "kural:428",
+   "type": "qualifies",
+   "note": "1597 has the jester fear a spirit that is not there; Kural 428 says the knowing fear what should be feared while the fool does not fear it.",
+   "teaches": "The couplet names the fool who feels no fear where it is due, and the scene shows the other fault, a fear aimed at something unreal.",
+   "gains": {
+    "a": "The jester's panic gains a name: a failure to judge what is truly to be feared, not simple cowardice.",
+    "b": "The couplet gains a counterpart it does not state, in which fear is misplaced on an empty object."
+   }
+  },
+  {
+   "a": 1601,
+   "b": 1602,
+   "type": "develops",
+   "note": "1601 has the king say they will sit and wait for the queen; 1602 has her enter the grove with her maidens.",
+   "teaches": "The waiting on the stone is a brief pause that gives the jester's fright its place before the queen enters."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "1583 is hard to construe; the guards (கருமுகத்தர்) are read as the grove's monkeys by 1584.",
+  "1587 சாலிகை is a rare word; the verse is read from the reply in 1588.",
+  "1594 ஏதிலாள் ஒருத்திக்கா is unclear; speaker and sense are uncertain.",
+  "1586 சால காண் is hard to construe."
+ ]
+}

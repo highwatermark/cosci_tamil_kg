@@ -1,0 +1,720 @@
+{
+  "chapter_no": 70,
+  "chapter_theme": "The queen overhears the king praise a stranger's footprint, storms out and is won back by the king's bow and embrace; the jester is hunted down, bound in garlands and let loose to sing yamaka songs about fruit; the couple then begin the wedding of the parijata and the Kama creeper and the king is caught again in women's glances.",
+  "cast": [
+    {
+      "id": "tivittan",
+      "tamil": "மணிவண்ணன்",
+      "role": "Tivittan, called the gem-hued lord, the king"
+    },
+    {
+      "id": "chief_queen",
+      "tamil": "தேவி",
+      "role": "the king's chief queen, named only by her rank"
+    },
+    {
+      "id": "vidushakan",
+      "tamil": "மாதவன்",
+      "role": "the brahmin jester Madhavan, the king's companion"
+    },
+    {
+      "id": "vidyadhara_maiden",
+      "tamil": "விஞ்சையன் மடந்தை",
+      "role": "the Vidyadhara's daughter whose footprint is read"
+    },
+    {
+      "id": "attendants",
+      "tamil": "உழையோர்",
+      "role": "the queen's attendants who fetch Madhavan"
+    },
+    {
+      "id": "queens",
+      "tamil": "தேவிமார்",
+      "role": "the king's other queens"
+    },
+    {
+      "id": "queen_women",
+      "tamil": "மங்கையர்",
+      "role": "the women of the queen's following"
+    }
+  ],
+  "verses": {
+    "1603": {
+      "reading": "A woman, hidden by her magic craft in a fragrant grove and longing for play, stands in worship like a peahen.",
+      "concepts": [
+        "kaamam",
+        "azhagu"
+      ],
+      "nuance": "The woman is not named in the verse; she is read as the Vidyadhara maiden of the next verses (விஞ்சையன் மடந்தை, 1607) and the verse itself does not say whom she worships.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "vidyadhara_maiden",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "A woman hidden in the grove by magic stands in worship.",
+      "claims": []
+    },
+    "1604": {
+      "reading": "The rain-hued king sits at ease on a soft couch inside the glow of his gem-circle while Madhavan keeps him amused.",
+      "concepts": [
+        "arasu",
+        "inbam"
+      ],
+      "nuance": "மருட்ட is read as 'amuse, bewilder'; the verse does not say with what Madhavan holds the king.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "tivittan",
+          "form": "வண்ணன்",
+          "line": 1
+        },
+        {
+          "id": "vidushakan",
+          "form": "மாதவன்",
+          "line": 1
+        }
+      ],
+      "event": "Tivittan sits on a soft couch with Madhavan beguiling him.",
+      "claims": []
+    },
+    "1605": {
+      "reading": "As a soft-fingered woman with muffled anklets draws near, the king, thrown off, puts one nectar-sweet question to the brahmin.",
+      "concepts": [
+        "kaamam",
+        "kurippu"
+      ],
+      "nuance": "The grammar leaves open who asks and who is asked; the next verse gives the question in the king's voice, so he is read as the asker.",
+      "uncertain": true,
+      "speaker": {
+        "who": "tivittan",
+        "form": null,
+        "line": null,
+        "addressee": "vidushakan"
+      },
+      "agents": [
+        {
+          "id": "vidyadhara_maiden",
+          "form": "மெல்விரலி",
+          "line": 1
+        }
+      ],
+      "event": "The woman approaches and the bewildered king questions the brahmin.",
+      "claims": []
+    },
+    "1606": {
+      "reading": "The king asks whether the one whose red-dyed footprint is under the asoka is of the earth or of the great mountain.",
+      "concepts": [
+        "kurippu",
+        "azhagu"
+      ],
+      "nuance": "The king asks about her from her footprint alone, before he has seen her; this is what the queen overhears in 1608.",
+      "speaker": {
+        "who": "tivittan",
+        "form": "மணி வண்ணன்",
+        "line": 4,
+        "addressee": "vidushakan"
+      },
+      "agents": [],
+      "event": null,
+      "claims": []
+    },
+    "1607": {
+      "reading": "The truthful brahmin reads the red, round-fingered, fleshy footprint and says she is a Vidyadhara's daughter, fit for the world's lord.",
+      "concepts": [
+        "azhagu",
+        "kurippu"
+      ],
+      "nuance": "The speaker is the one questioned in 1605, called அறிவன் here; his reading from the foot is what sets off the queen's anger.",
+      "uncertain": true,
+      "speaker": {
+        "who": "vidushakan",
+        "form": null,
+        "line": null,
+        "addressee": "tivittan"
+      },
+      "agents": [],
+      "event": "Madhavan names her a Vidyadhara maiden from her footprint.",
+      "claims": [
+        {
+          "claim": "a woman's rank and kind can be read from the beauty of her footprint",
+          "school": "general",
+          "line": 2,
+          "stance": "reported",
+          "voiced_by": "vidushakan"
+        }
+      ]
+    },
+    "1608": {
+      "reading": "At his word the queen's lily-dark eyes redden, she breaks into sweat, and burning with anger she steps out in front of the king.",
+      "concepts": [
+        "vekuli",
+        "kaamam"
+      ],
+      "nuance": "The scene turns on the verse before: praise given to a stranger's foot is what she takes as the wrong.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "chief_queen",
+          "form": "தேவி",
+          "line": 4
+        }
+      ],
+      "event": "The queen, who had overheard, steps forward in anger.",
+      "claims": []
+    },
+    "1609": {
+      "reading": "Madhavan, shaking, slips away into the garden, and the king, forgetting the speech meant to answer her, stands asking what harm will now follow.",
+      "concepts": [
+        "acham",
+        "ilvaazhkkai"
+      ],
+      "nuance": "The jester who read the footprint is the first to flee; the king is left to face the queen alone.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "vidushakan",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "tivittan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Madhavan hides in the grove and the king stands at a loss.",
+      "claims": []
+    },
+    "1610": {
+      "reading": "The king pleads that he is no wrongdoer, calling her king's daughter and sweeter than nectar, but with her brows knitted she grows angrier.",
+      "concepts": [
+        "oodal",
+        "anbu"
+      ],
+      "speaker": {
+        "who": "tivittan",
+        "form": null,
+        "line": null,
+        "addressee": "chief_queen"
+      },
+      "agents": [
+        {
+          "id": "chief_queen",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The king tries to soothe her and she grows more angry.",
+      "claims": []
+    },
+    "1611": {
+      "reading": "The queen says she will go to her own palace and he may play with that woman; the king rises and lays his crown on her small feet.",
+      "concepts": [
+        "oodal",
+        "panivu"
+      ],
+      "nuance": "The great crown that all kings bow to is here laid at his own wife's feet; the bow ends the quarrel's first round and the next verse is his speech while bowing.",
+      "speaker": {
+        "who": "chief_queen",
+        "form": null,
+        "line": null,
+        "addressee": "tivittan"
+      },
+      "agents": [
+        {
+          "id": "chief_queen",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "tivittan",
+          "form": "மணி வண்ணன்",
+          "line": 3
+        }
+      ],
+      "event": "The queen turns to leave and the king lays his crown at her feet.",
+      "claims": []
+    },
+    "1612": {
+      "reading": "As the crowned head bows, the king tells her she has learned much craft, and asks her to hear out any fault of his and give judgement.",
+      "concepts": [
+        "oodal",
+        "panivu"
+      ],
+      "nuance": "கைதவம் is read as the queen's feigned anger, said in jest; the sense is a little uncertain.",
+      "speaker": {
+        "who": "tivittan",
+        "form": null,
+        "line": null,
+        "addressee": "chief_queen"
+      },
+      "agents": [
+        {
+          "id": "tivittan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The king, bowing, asks her to judge whether he is at fault.",
+      "claims": []
+    },
+    "1613": {
+      "reading": "She tells her people that the king has done no wrong and orders them to seek Madhavan and bring him; they find him in the grove and drag him back by his cloth.",
+      "concepts": [
+        "oodal",
+        "kurippu"
+      ],
+      "nuance": "The speaker of the order is not named; the queen is read as the speaker because the next verse shows her still giving commands.",
+      "uncertain": true,
+      "speaker": {
+        "who": "chief_queen",
+        "form": null,
+        "line": null,
+        "addressee": "attendants"
+      },
+      "agents": [
+        {
+          "id": "attendants",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Attendants hunt Madhavan down in the grove and bring him by his garment.",
+      "claims": []
+    },
+    "1614": {
+      "reading": "With a smile on her gem-like mouth she looks at the cowering Madhavan and orders him tied with garlands and brought, then goes to the flowering garden.",
+      "concepts": [
+        "oodal",
+        "inbam"
+      ],
+      "nuance": "Her anger turns into a game here: the penalty falls on the jester, in flowers, and not on her husband.",
+      "speaker": {
+        "who": "chief_queen",
+        "form": null,
+        "line": null,
+        "addressee": "attendants"
+      },
+      "agents": [
+        {
+          "id": "vidushakan",
+          "form": "மாதவனை",
+          "line": 2
+        },
+        {
+          "id": "chief_queen",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The queen smiles and has Madhavan bound with garlands.",
+      "claims": []
+    },
+    "1615": {
+      "reading": "The king, delighted, folds the soft-voiced queen to his breast, the smile at her mouth shining, and says he has now received her grace.",
+      "concepts": [
+        "punarchi",
+        "kaamam"
+      ],
+      "speaker": {
+        "who": "tivittan",
+        "form": null,
+        "line": null,
+        "addressee": "chief_queen"
+      },
+      "agents": [
+        {
+          "id": "tivittan",
+          "form": "மன்னவன்",
+          "line": 1
+        },
+        {
+          "id": "chief_queen",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The king embraces the queen in reconciliation.",
+      "claims": []
+    },
+    "1616": {
+      "reading": "Pressing her in a close embrace as their garlands crush together, the king persuades her to give up her fault-finding, since Madhavan is faultless.",
+      "concepts": [
+        "punarchi",
+        "oodal"
+      ],
+      "nuance": "The king settles the matter by the embrace and by clearing his companion; he does not answer why he asked about the footprint.",
+      "speaker": {
+        "who": "tivittan",
+        "form": "காதலன்",
+        "line": 2,
+        "addressee": "chief_queen"
+      },
+      "agents": [
+        {
+          "id": "tivittan",
+          "form": "காதலன்",
+          "line": 2
+        },
+        {
+          "id": "chief_queen",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The king embraces the queen and calms her anger.",
+      "claims": [
+        {
+          "claim": "one who is without fault should not be met with harsh anger",
+          "school": "general",
+          "line": 3,
+          "stance": "reported",
+          "voiced_by": "tivittan"
+        }
+      ]
+    },
+    "1617": {
+      "reading": "Freed of the garland bonds from his shoulders, Madhavan puts on a loving manner and sings many songs and dances many dances.",
+      "concepts": [
+        "vesham",
+        "inbam"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "vidushakan",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "Madhavan, released, sings and dances for the couple.",
+      "claims": []
+    },
+    "1618": {
+      "reading": "The jester's first song says that at the sight of fruits in the grove his heart runs, runs, and asks the garland-wearer whether it will gather together.",
+      "concepts": [
+        "avaa",
+        "undi"
+      ],
+      "nuance": "Each verse is a yamaka song in which the last foot repeats the first; the sound play is the point and the sense is slight. The addressee is feminine (கோதையாய்), so the queen.",
+      "uncertain": true,
+      "speaker": {
+        "who": "vidushakan",
+        "form": null,
+        "line": null,
+        "addressee": "chief_queen"
+      },
+      "agents": [],
+      "event": null,
+      "claims": []
+    },
+    "1619": {
+      "reading": "The second song says that at the sight of fruits in the mud his teeth water, and calls to the woman of the spreading garland.",
+      "concepts": [
+        "avaa",
+        "undi"
+      ],
+      "nuance": "A yamaka song again, in which the last foot repeats the first; the fruit lies in mud (சேறு), where the first song had it in the wood (காடு).",
+      "uncertain": true,
+      "speaker": {
+        "who": "vidushakan",
+        "form": null,
+        "line": null,
+        "addressee": "chief_queen"
+      },
+      "agents": [],
+      "event": null,
+      "claims": []
+    },
+    "1620": {
+      "reading": "The third song says that at the sight of long mango fruit his heart wants, wants, and addresses the golden-chested one.",
+      "concepts": [
+        "avaa",
+        "undi"
+      ],
+      "nuance": "The address here is masculine (மார்பினாய்), so the song turns from the queen to the king.",
+      "uncertain": true,
+      "speaker": {
+        "who": "vidushakan",
+        "form": null,
+        "line": null,
+        "addressee": "tivittan"
+      },
+      "agents": [],
+      "event": null,
+      "claims": []
+    },
+    "1621": {
+      "reading": "After singing and dancing they call for many sweet fruits, feed the elder one until he is full, then set the parijata as bridegroom and begin the wedding rites of the maiden creeper.",
+      "concepts": [
+        "ilvaazhkkai",
+        "kaamam"
+      ],
+      "nuance": "The wedding of the tree and the creeper that the queen resolved on in 1561 is now carried out; the jester's hunger is fed first.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "vidushakan",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "tivittan",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "chief_queen",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "They feed the jester, set the parijata as bridegroom and start the wedding of the Kama creeper.",
+      "claims": []
+    },
+    "1622": {
+      "reading": "The king in his gold crown and the queen with the long eyes enter a bower of gem-flowering shoots, with the parijata on its jewelled altar.",
+      "concepts": [
+        "arasu",
+        "azhagu"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "tivittan",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "chief_queen",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The king and queen enter the garden bower.",
+      "claims": []
+    },
+    "1623": {
+      "reading": "With conches sounding and drums beating through the golden grove, the king's queens, knowing the will of the branch-like one, become her attendants.",
+      "concepts": [
+        "arasu",
+        "inbam"
+      ],
+      "nuance": "Whose will the queens learn (உருவளர் கொம்பரன்னாள்) is read as the chief queen's.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "tivittan",
+          "form": "செங்கணான்",
+          "line": 3
+        },
+        {
+          "id": "queens",
+          "form": "றேவி மார்கள்",
+          "line": 3
+        }
+      ],
+      "event": "The other queens come to wait on the chief queen as the drums sound.",
+      "claims": []
+    },
+    "1624": {
+      "reading": "Seeing the beauty of the women who have joined the queen, the dark-hued king is pleased, and the arrows of their long eyes pierce him, bent with the bows of their brows.",
+      "concepts": [
+        "kaamam",
+        "azhagu"
+      ],
+      "nuance": "The poet says the king 'was pressed' by the arrows, as in the net of 1556; the pleasure in women's eyes that the queen's anger was about is fully back.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "tivittan",
+          "form": "மணிவண்ணன்",
+          "line": 2
+        },
+        {
+          "id": "queen_women",
+          "form": "மங்கையர்",
+          "line": 2
+        }
+      ],
+      "event": "The women's glances pierce the pleased king.",
+      "claims": []
+    },
+    "1625": {
+      "reading": "Ringed by women whose red-streaked eyes outdo the deer's and press into the dark of the kohl, the king sits like Indra.",
+      "concepts": [
+        "azhagu",
+        "kaamam"
+      ],
+      "nuance": "The simile gives the king the place of Indra among heavenly women; it is praise of his pleasure, not a judgement of it.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "queen_women",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": null,
+      "claims": []
+    },
+    "1626": {
+      "reading": "Looking at the parijata's season-wrought splendour in the grove, the king in his shining ornaments tells his people to dress the pair in fitting finery.",
+      "concepts": [
+        "arasu",
+        "ilvaazhkkai"
+      ],
+      "nuance": "The command begins the wedding adornments of the tree and creeper whose rites were opened in 1621.",
+      "speaker": {
+        "who": "tivittan",
+        "form": "பூணான்",
+        "line": 4,
+        "addressee": "attendants"
+      },
+      "agents": [
+        {
+          "id": "tivittan",
+          "form": "பூணான்",
+          "line": 4
+        }
+      ],
+      "event": "The king orders the plant bridal pair to be decked.",
+      "claims": []
+    }
+  },
+  "links": [
+    {
+      "a": 1621,
+      "b": 1561,
+      "type": "develops",
+      "note": "1561 has the queen resolve to see the parijata and the Kama creeper wed; 1621 sets the tree as bridegroom and starts the rites.",
+      "teaches": "The queen's wish is carried out only after a quarrel and its mending, so the wedding is the end of an unplanned scene."
+    },
+    {
+      "a": 1609,
+      "b": 1613,
+      "type": "develops",
+      "note": "In 1609 Madhavan slips away from the angry queen; in 1613 her people trace him into the grove and bring him back by his cloth.",
+      "teaches": "The jester's flight is undone by the queen's command, which shows who in the household has power over the king's companion."
+    },
+    {
+      "a": 1618,
+      "b": 1576,
+      "type": "develops",
+      "note": "1576 has the jester's mouth water at the fruit and him call the king to eat; 1618-1620 turn that greed into songs on the fruits of the grove.",
+      "teaches": "The jester's appetite from the arrival in the grove is now his act for the couple, so his greed is what pays for his pardon."
+    },
+    {
+      "a": 1624,
+      "b": 1556,
+      "type": "develops",
+      "note": "1556 says the king who has set the world under his umbrella is caught in a net of deer-eyed women; 1624 shows the net at work, with arrows from the women's brows.",
+      "teaches": "The poem's opening image of the netted king becomes a scene in which the quarrel's cause returns at once."
+    },
+    {
+      "a": 1608,
+      "b": "kural:1313",
+      "type": "qualifies",
+      "note": "1608 has the queen burn with anger at the king's praise of a stranger's footprint; Kural 1313 has a woman angry at a wreath she says was worn for another woman.",
+      "teaches": "The epic gives the wife a real occasion where the couplet's wife sulks on a pretext, and shows the husband pleading as the couplet's man does.",
+      "gains": {
+        "a": "The queen's anger gains a measure: the Kural treats the jealousy of love as sulking even when nothing was done, and here something was.",
+        "b": "The couplet gains a case where the husband did give cause by speaking of another woman, so its jest has a dark side."
+      }
+    },
+    {
+      "a": 1616,
+      "b": "kural:1304",
+      "type": "develops",
+      "note": "1616 has the king end the quarrel by embrace and plea; Kural 1304 says that not reconciling those who sulk is like cutting a withered creeper at its root.",
+      "teaches": "The king's embrace shows what the couplet's warning needs: the sulk is healed by the one who gave cause, and the quarrel comes to an end in a wedding scene.",
+      "gains": {
+        "a": "The scene gains a rule behind the king's acts: the Kural says a sulk left unreconciled kills love, so his bow and embrace are what love needs.",
+        "b": "The couplet gains a king with a crown at his wife's feet, a case where reconciling costs a ruler his dignity."
+      }
+    },
+    {
+      "a": 1614,
+      "b": "naladiyar:384",
+      "type": "qualifies",
+      "note": "1614 has the queen, once the king has bowed, smile and turn her anger into a game on the jester; Naladiyar 384 praises the wife who knows when to sulk and relents sweetly.",
+      "teaches": "The queen relents by moving her anger on to the jester in garlands, which the quatrain's wife does not do.",
+      "gains": {
+        "a": "The queen's smile gains a standard: a wife is praised who sulks at the right time and gives way sweetly, and she does so at once.",
+        "b": "The quatrain gains a wife who is also a queen, whose sulk is ended in a public game that costs a third person."
+      }
+    },
+    {
+      "a": 1611,
+      "b": "kural:1302",
+      "type": "qualifies",
+      "note": "1611 has the queen turn to leave and the king bow with his crown at her feet; Kural 1302 says sulking is like salt in right measure and a little more ruins it.",
+      "teaches": "The king's bow comes before the sulk can become too much, so the scene shows the couplet's measure kept.",
+      "gains": {
+        "a": "The quarrel gains a gauge: the Kural's salt means the queen's anger is a proper amount of love's seasoning, which the king answers at once.",
+        "b": "The couplet gains a ruler for whom the cost of ending the sulk is a bowed crown, making the measure a matter of rank."
+      }
+    }
+  ],
+  "new_concepts": [],
+  "source_issues": [
+    "Verse 1624 was printed in eight half-lines and repaired into four lines by the build; read as four.",
+    "1618-1620 are yamaka songs in a short metre whose last foot repeats the first; the sense is thin and marked uncertain.",
+    "The woman of 1603 and the footprint of 1606-1607 follow chapter 69 (1578-1602), which is not yet marked; her identity is read from 1607."
+  ]
+}

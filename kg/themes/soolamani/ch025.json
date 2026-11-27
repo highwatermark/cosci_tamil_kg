@@ -1,0 +1,782 @@
+{
+ "chapter_no": 25,
+ "chapter_theme": "Prajapati meets the envoy's claim with the saying that earlier deeds alone decide a man's wealth; Marusi, abashed, answers the doubt that Vidyadharas and men do not marry by saying they are all men, names himself, and tells the story of Nami of Kasi, who sang to a yogi, was given the Vidyadhara lore and the silver mountain by Dharanan, and from whom the Vidyadhara king descends.",
+ "cast": [
+  {
+   "id": "arasan",
+   "tamil": "பூபன்",
+   "role": "the king of Podanam who receives the envoy; Prajapati by tradition, unnamed in these verses"
+  },
+  {
+   "id": "maruci",
+   "tamil": "மருசி",
+   "role": "the Vidyadhara king's envoy"
+  },
+  {
+   "id": "nami",
+   "tamil": "நமி",
+   "role": "the prince of Kasi who sings to the yogi"
+  },
+  {
+   "id": "adinatha",
+   "tamil": "நாதன்",
+   "role": "the yogi in meditation and the first lord of the lineages; by tradition Adinatha, unnamed in these verses"
+  },
+  {
+   "id": "dharanan",
+   "tamil": "பணதரன்",
+   "role": "the thousand-hooded king of the serpent lords who gives Nami his wish"
+  },
+  {
+   "id": "creatures",
+   "tamil": "விலங்கு சாதி",
+   "role": "the beasts and birds that bow to Nami's song"
+  }
+ ],
+ "verses": {
+  "527": {
+   "reading": "The king says that only the strong deeds a man did in an earlier birth strive to bring each person his lot, and asks whether one born later could by his own doing gain what is not due to him.",
+   "concepts": [
+    "oozh",
+    "vinai",
+    "muyarchi"
+   ],
+   "nuance": "The king's use of karma here is a way to hold the Vidyadharas' wealth out of reach of men; Marusi gives way in 529, and then argues in 531 that Vidyadharas are men, so the objection is met by another route and not by denying karma. Speaker taken from 529, which names the king's words; lines 3 and 4 are hard to construe.",
+   "uncertain": true,
+   "speaker": {
+    "who": "arasan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": "The king answers Marusi by saying that earlier deeds alone decide what each man reaches.",
+   "claims": [
+    {
+     "claim": "the deeds of a former birth alone work out what each person gains, and effort in the later birth does not bring what they have not earned",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "arasan"
+    }
+   ]
+  },
+  "528": {
+   "reading": "The king says that the high-state wealth of the Vidyadhara quarter belongs to those who understood the truth and practised higher austerity, that no effort of ours could reach it, and that Marusi had said so himself earlier.",
+   "concepts": [
+    "thavam",
+    "oozh",
+    "selvam"
+   ],
+   "nuance": "The reference to Marusi's own earlier words points to verses before this chapter's first; they are not in this chapter, so what he said is not checked here. The word எங்களுக்கு is read as men in general.",
+   "uncertain": true,
+   "speaker": {
+    "who": "arasan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the great wealth of the high state falls to those who earlier practised austerity and cannot be won by later effort",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "arasan"
+    }
+   ]
+  },
+  "529": {
+   "reading": "Hearing the king's words, Marusi is ashamed that he spoke unfit words without grasping the king's mind, calls the king great in forbearance and himself small, and his anger dies down.",
+   "concepts": [
+    "porai",
+    "naanam",
+    "panivu"
+   ],
+   "nuance": "Who it is that is angry and whose words are called unfit are not stated outright, and the sentence in lines 1 to 2 is compressed; the reading follows 527 and 528 as the king's rebuke and Marusi's yielding.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi, abashed by the king's reply, gives up his anger.",
+   "claims": [
+    {
+     "claim": "a king is made great by forbearance",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "530": {
+   "reading": "The doubt is stated that Vidyadharas of shining bodies and the ornamented men of the earth do not join in marriage, and that this doubt be removed for the one of unmeasured glory; Marusi, stirring his understanding, sets out to answer.",
+   "concepts": [
+    "therithal",
+    "thelivu",
+    "thoothu"
+   ],
+   "nuance": "The claim is put in order to be answered, and 531 answers it by saying that Vidyadharas are men. The verse does not say who holds the doubt; the king is the likely holder, since it is he who must be won over.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The objection that Vidyadharas and men do not marry is raised, and Marusi begins his reply.",
+   "claims": [
+    {
+     "claim": "Vidyadharas and men of the earth do not join in marriage",
+     "school": "general",
+     "line": 2,
+     "stance": "refuted",
+     "voiced_by": "arasan"
+    }
+   ]
+  },
+  "531": {
+   "reading": "Marusi tells the fearless king that the Vidyadharas of the jewelled mountain are excellent only by their lore, and are otherwise just men, so that there is no difference between them and the king's people.",
+   "concepts": [
+    "kalvi",
+    "samanilai",
+    "pirappu"
+   ],
+   "nuance": "The verse says where the difference lies, in lore, and that lore is not a difference of birth; it does not say what makes the claim true beyond Marusi's word, and the work later has the marriage go forward.",
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi answers the doubt by saying Vidyadharas are men, set apart only by their learning.",
+   "claims": [
+    {
+     "claim": "Vidyadharas are not a different kind from men, and differ only in their lore",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "532": {
+   "reading": "Marusi begins to name his own king's house: the lord of the drum-sounding, water-ringed city of Pavapuram, his queen and a woman of dazzling beauty whose name is given as Vayuvegai.",
+   "concepts": [
+    "thoothu",
+    "kudi"
+   ],
+   "nuance": "The word division makes it unclear which name belongs to the king, which to the queen and which to the daughter; the same name Vayuvegai is the queen's in the earlier chapters.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi introduces the Vidyadhara king's city and royal house.",
+   "claims": []
+  },
+  "533": {
+   "reading": "Marusi says that he came with her, gives his name, his learned father Anjuman and his mother Arusimalai, and says that by the great lord's grace the books he learned are many.",
+   "concepts": [
+    "thoothu",
+    "kalvi",
+    "kudi"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": "மருசி",
+    "line": 1,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": "மருசி",
+     "line": 1
+    }
+   ],
+   "event": "Marusi names himself and his parents to the king.",
+   "claims": []
+  },
+  "534": {
+   "reading": "Marusi says he has read in many world-books the whole succession of kings of the earliest times, and asks the crowned king to hear it.",
+   "concepts": [
+    "kalvi",
+    "thoothu"
+   ],
+   "nuance": "The account that follows is his own recital of what books tell, so its traditions are reported through him.",
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi announces that he will recount the descent of kings from the books he has studied.",
+   "claims": []
+  },
+  "535": {
+   "reading": "Marusi says that in the first days the first lord set up the five great royal lineages, made known their conduct and occupations, then went to the feet of the faultless lord and guarded the world by the book of justice.",
+   "concepts": [
+    "kudi",
+    "ozhukkam",
+    "arasu"
+   ],
+   "nuance": "The verse does not name the first lord; it is taken as the same figure the earlier chapter calls the first lord, and the sentence does not make clear whether the faultless lord to whom he goes is the same person or another.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "adinatha",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The first king establishes the five lineages, with their conduct and occupations, and then rules justly.",
+   "claims": [
+    {
+     "claim": "the first lord ordained the five royal lineages together with their conduct and occupations",
+     "school": "jain",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    },
+    {
+     "claim": "a king guards the world by the book of justice",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "536": {
+   "reading": "Marusi names Kachchan, the Kasi king of the just sceptre, whose queen is Suthanjanai of the jewelled ornaments.",
+   "concepts": [
+    "kudi",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": "Marusi names the king of Kasi and his queen.",
+   "claims": []
+  },
+  "537": {
+   "reading": "Marusi says that their son was Nami, a prince of the Nandaka-sword line, excelling in goodness.",
+   "concepts": [
+    "kudi",
+    "perumai"
+   ],
+   "nuance": "The phrase நாந்தகக் கிழவர் is read as the swordsmen's line; the sense is clear but the epithet is rare.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": "Marusi names Nami as the son of the king of Kasi.",
+   "claims": []
+  },
+  "538": {
+   "reading": "There Nami, who is said not to want a kingdom, bowed his head in the pure supreme yogi's steady meditation, joined his broad hands and, swelling with love, sang, being rich in learning.",
+   "concepts": [
+    "vazhipaadu",
+    "panivu",
+    "thiyaanam"
+   ],
+   "nuance": "The line அரசு வேண்டான் says he did not want a kingdom, yet in 547 he asks for wealth; either the first words mean he did not ask the kingdom of the yogi, or the line is not sound. The yogi is not named.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "nami",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Nami bows before the meditating yogi and sings to him.",
+   "claims": []
+  },
+  "539": {
+   "reading": "Nami sings that the Lord took in the whole world within his unlimited knowledge, hid it and is its guardian and protector, eyes to all lives, and that he is the king of dharma.",
+   "concepts": [
+    "iraivan",
+    "arivu",
+    "vazhipaadu"
+   ],
+   "nuance": "The hymn's refrain is நீயே, you yourself; its second and third lines repeat each other's words.",
+   "speaker": {
+    "who": "nami",
+    "form": null,
+    "line": null,
+    "addressee": "adinatha"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Lord holds the whole world within his unbounded knowledge and guards it as the king of dharma",
+     "school": "jain",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "nami"
+    }
+   ]
+  },
+  "540": {
+   "reading": "Nami sings that the Lord stood so that the hot-rayed sun was put to shame, that he has gone to the limit of all things and conquered, and that he is Tirumal.",
+   "concepts": [
+    "iraivan",
+    "vazhipaadu"
+   ],
+   "nuance": "The name Tirumal is used in praise of the Jain Lord, as the epic uses it for Tivittan elsewhere; the verse does not equate the two. Line 1 is hard to construe.",
+   "uncertain": true,
+   "speaker": {
+    "who": "nami",
+    "form": null,
+    "line": null,
+    "addressee": "adinatha"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Lord has conquered and reached the limit of all things",
+     "school": "jain",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "nami"
+    }
+   ]
+  },
+  "541": {
+   "reading": "Nami sings to the one of full kevala knowledge that he gives his servants unfailing bliss, and that he put away and cast off the cruel spear and every desire.",
+   "concepts": [
+    "iraivan",
+    "inbam",
+    "thuravu"
+   ],
+   "nuance": "The Lord is praised as having no wish and yet as the giver, which Kural 4 does not allow its lord; the phrase எங்குற்றவேல் in line 3 is obscure.",
+   "uncertain": true,
+   "speaker": {
+    "who": "nami",
+    "form": null,
+    "line": null,
+    "addressee": "adinatha"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Lord gives unfailing bliss to those who serve his feet",
+     "school": "jain",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "nami"
+    }
+   ]
+  },
+  "542": {
+   "reading": "At Nami's singing the hills bowed, the animals and birds and the Kinnaras and gods gathered and bent, but the victor in meditation was not at all astonished.",
+   "concepts": [
+    "thiyaanam",
+    "vazhipaadu"
+   ],
+   "nuance": "The yogi does not answer the song; the reply to Nami comes from Dharanan, the serpent king, in the verses that follow.",
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "creatures",
+     "form": "விலங்கு",
+     "line": 2
+    },
+    {
+     "id": "adinatha",
+     "form": "வென்றவன்",
+     "line": 4
+    }
+   ],
+   "event": "All creatures and the gods bow to Nami's song, while the yogi stays in meditation unmoved.",
+   "claims": [
+    {
+     "claim": "the one who has conquered is not moved by praise",
+     "school": "jain",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "543": {
+   "reading": "On hearing the song of Nami to the lord of the world, Dharanan, the king of the serpent lords, came with his thousand hoods in a gleaming row.",
+   "concepts": [
+    "vazhipaadu",
+    "perumai"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "dharanan",
+     "form": "பணதர",
+     "line": 4
+    }
+   ],
+   "event": "Dharanan, drawn by the song, comes in with his thousand hoods.",
+   "claims": []
+  },
+  "544": {
+   "reading": "Dharanan, ruler of the serpent world, of body like fresh gold and with a crest of diamond and gems, circled the Lord's feet to the right and made his reverence, saying that he took the Lord as his refuge.",
+   "concepts": [
+    "vazhipaadu",
+    "panivu"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "dharanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Dharanan circles the Lord's feet to the right and bows.",
+   "claims": []
+  },
+  "545": {
+   "reading": "Dharanan says to Nami that his song to the lord of the gods, in the strings' divine voice, set the kalpa heaven shaking, and calls him the king who by his spear cast down the pride of kings who did not worship.",
+   "concepts": [
+    "vazhipaadu",
+    "perumai",
+    "vendhan"
+   ],
+   "nuance": "The lines are difficult; it is not certain that Dharanan is speaking or that the vocative at the end is Nami, though 546 and 547 make this the likelier reading.",
+   "uncertain": true,
+   "speaker": {
+    "who": "dharanan",
+    "form": null,
+    "line": null,
+    "addressee": "nami"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "546": {
+   "reading": "Dharanan asks Nami what he wants, having come and done service at the Lord's feet, like a flame that shakes in meditation.",
+   "concepts": [
+    "arul",
+    "therithal"
+   ],
+   "nuance": "The first two lines are obscure, and the simile of the lamp may describe Nami's meditation or his song.",
+   "uncertain": true,
+   "speaker": {
+    "who": "dharanan",
+    "form": null,
+    "line": null,
+    "addressee": "nami"
+   },
+   "agents": [
+    {
+     "id": "dharanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Dharanan asks Nami what he wishes.",
+   "claims": []
+  },
+  "547": {
+   "reading": "Nami bows to Dharanan and says that what is in his mind is to obtain on the earth the wealth that gives every wish, as the dwellers in the sky have it.",
+   "concepts": [
+    "avaa",
+    "selvam"
+   ],
+   "nuance": "Nami asks the serpent king, not the yogi he has praised, and asks for wealth rather than release; the verse offers no judgment of the wish.",
+   "speaker": {
+    "who": "nami",
+    "form": null,
+    "line": null,
+    "addressee": "dharanan"
+   },
+   "agents": [
+    {
+     "id": "nami",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Nami asks the serpent king for wealth that grants every wish.",
+   "claims": []
+  },
+  "548": {
+   "reading": "Hearing his wish, Dharanan gives him the sky-going lore, a companion and the silver mountain, tells him to be king always, sets him there and goes down to the fearless world below the earth.",
+   "concepts": [
+    "eegai",
+    "arasu",
+    "selvam"
+   ],
+   "nuance": "The word துணை is read as a companion, who is not named; the silver mountain is taken as the ridge on which the Vidyadharas live, as in earlier chapters.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "dharanan",
+     "form": "பணத்தின",
+     "line": 4
+    }
+   ],
+   "event": "Dharanan gives Nami the lore of the sky-dwellers, a companion and the silver mountain, and returns below the earth.",
+   "claims": []
+  },
+  "549": {
+   "reading": "Marusi closes: the one of Nami's line is our overlord, and for the king, of high lineage and wealth like his, a matter that joins the two houses will be like pure ghee and sweet milk poured together.",
+   "concepts": [
+    "kudi",
+    "thoothu",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi ends by saying the Vidyadhara king descends from Nami and that a union of the two houses would suit them.",
+   "claims": [
+    {
+     "claim": "houses equal in lineage and wealth should be joined in marriage",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "maruci"
+    },
+    {
+     "claim": "the Vidyadhara king descends from Nami, son of the king of Kasi",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": 527,
+   "b": "kural:377",
+   "type": "qualifies",
+   "note": "Kural 377 says that even those who amass millions enjoy them only as the apportioner has apportioned; verse 527 has the king say that only former deeds strive and later effort does not win what is not due.",
+   "teaches": "The epic gives the couplet's unnamed apportioner a face, the person's own earlier deeds, and uses it to settle who may marry whom, where the couplet only consoles about wealth.",
+   "gains": {
+    "a": "A statement that a lot is fixed by something other than present effort, which the king asserts without a general rule.",
+    "b": "A case where the rule is used as an argument across a divide of rank, not as comfort about wealth."
+   }
+  },
+  {
+   "a": 528,
+   "b": "naladiyar:265",
+   "type": "qualifies",
+   "note": "Verse 528 reads the Vidyadharas' high wealth as the fruit of earlier austerity; Naladiyar 265 reads the wealth of the unjust as the fruit of old deeds.",
+   "teaches": "The same rule that makes the Vidyadhara's wealth a sign of past austerity makes a rich man's wealth no sign of present merit, so the epic's reasoning holds only for those of known past.",
+   "gains": {
+    "a": "A warning that wealth is a poor sign of present worth, which the king does not consider.",
+    "b": "A group, the Vidyadharas, for whom wealth is taken as proof of earned austerity, which the quatrain gives to no one."
+   }
+  },
+  {
+   "a": 529,
+   "b": "naladiyar:72",
+   "type": "qualifies",
+   "note": "Naladiyar 72 says to bear in silence the unfit words of those who are not one's equals; verse 529 has Marusi ashamed because the king bore his unfit words.",
+   "teaches": "The quatrain shows forbearance as the superior's duty, and the epic shows what it does to the one borne with: shame and a calmed anger rather than a grudge.",
+   "gains": {
+    "a": "A rule that explains why the king's patience is praised and why Marusi feels small.",
+    "b": "An effect of silent forbearance on the speaker who was borne with, which the quatrain does not show."
+   }
+  },
+  {
+   "a": 529,
+   "b": 427,
+   "type": "qualifies",
+   "note": "Verse 427 chooses Marusi as one who can say what is fit; in 529 his first words are called unfit and he is ashamed.",
+   "teaches": "The minister's praise of Marusi's speech is tested at once by a slip, so his later success in 531 is recovery from a fault and not ease."
+  },
+  {
+   "a": 530,
+   "b": 107,
+   "type": "qualifies",
+   "note": "Verse 107 has the astrologer say a Vidyadhara king will come and give a daughter to the young lord; verse 530 raises the doubt that Vidyadharas and men do not marry.",
+   "teaches": "The prophecy skips the custom against such a match, and Marusi's reply is the story's way of making what was foretold pass through argument before it can happen."
+  },
+  {
+   "a": 531,
+   "b": "kural:972",
+   "type": "develops",
+   "note": "Kural 972 says birth is alike for all and distinction comes from work; verse 531 says Vidyadharas are men, distinguished only by their lore.",
+   "teaches": "The couplet is turned from a general saying into the reason a marriage across a supposed divide may go ahead.",
+   "gains": {
+    "a": "A principle that makes sameness of birth the ground, so that the Vidyadharas' lore becomes a difference of work and not of kind.",
+    "b": "A use of the principle to open a marriage across a boundary of rank, a case the couplet does not take up."
+   }
+  },
+  {
+   "a": 535,
+   "b": "kural:133",
+   "type": "qualifies",
+   "note": "Kural 133 says that conduct is nobility of birth; verse 535 has the first lord make the five royal lineages and teach each its conduct and occupation.",
+   "teaches": "In the epic, lineage is a thing made, with conduct as one of its parts, so the couplet's identity of conduct and birth is the made thing's own mark.",
+   "gains": {
+    "a": "A sense that a lineage's standing rests on its conduct, so that it is not simply handed down.",
+    "b": "An origin story in which lineages are set up by an act of the first king together with their occupations."
+   }
+  },
+  {
+   "a": 541,
+   "b": "kural:4",
+   "type": "qualifies",
+   "note": "Kural 4 says those who reach the feet of the one without liking or aversion have no suffering; verse 541 sings of the Lord as one who put away every desire and yet gives his servants unfailing bliss.",
+   "teaches": "The hymn lets the desireless Lord be a giver, which the couplet avoids by saying only that no suffering reaches those at his feet.",
+   "gains": {
+    "a": "A statement of what the desireless one does for his servants, which the verse puts as a gift.",
+    "b": "A hymn in which the desireless one is nevertheless the one who gives, a tension the couplet does not face."
+   }
+  },
+  {
+   "a": 547,
+   "b": "tirumanthiram:1626",
+   "type": "qualifies",
+   "note": "Tirumanthiram 1626 says that people who ask for many things get their wealth, but those who do great tapas win the end of birth; verse 547 has Nami ask a god's servant for wealth.",
+   "teaches": "Nami stands as a case of the first sort, asking for wealth at the feet of a yogi, and the Tirumanthiram supplies a rank by which his wish is lower than release.",
+   "gains": {
+    "a": "A standard by which Nami's request looks lesser than a request for release, a judgment the epic does not make.",
+    "b": "A named person who asks for wealth in the presence of a yogi and gets it, which makes the verse's contrast concrete."
+   }
+  },
+  {
+   "a": 548,
+   "b": "tirumanthiram:670",
+   "type": "qualifies",
+   "note": "Tirumanthiram 670 says siddhis come through eightfold yoga and Shakti's grace; verse 548 has Dharanan hand Nami the sky-going lore and a mountain for the asking.",
+   "teaches": "In the epic, powers are a gift passed through a go-between to a man who asks for wealth, where the Tirumanthiram sets them at the end of discipline and grace.",
+   "gains": {
+    "a": "A contrast showing that a power may be had by asking when it is not had by yoga.",
+    "b": "A case in which the powers called siddhis go to someone who has done no yoga and wanted only wealth."
+   }
+  },
+  {
+   "a": 548,
+   "b": 408,
+   "type": "develops",
+   "note": "Verse 408 has the astrologer say that the marriage will bring the king both rows of the ridge; verse 548 tells that the silver mountain was first given to Nami, a man of Kasi.",
+   "teaches": "The ridge the astrologer promises is shown to have begun as a gift to a man, which supports Marusi's claim that the Vidyadharas are men."
+  },
+  {
+   "a": 549,
+   "b": "naladiyar:195",
+   "type": "tension",
+   "note": "Verse 549 judges the match fit because both houses have high lineage and wealth; Naladiyar 195 says high and low caste are only words and that austerity, learning and effort, not famous wealth, make a lineage.",
+   "teaches": "The two disagree about what equality of houses rests on: the epic points to descent and riches, the quatrain to conduct and learning, and the clash holds only if lineage in 549 means inherited standing.",
+   "gains": {
+    "a": "A test of the match by learning and conduct, which Marusi does not apply.",
+    "b": "A case of a match argued from descent and riches, the very ground the quatrain calls empty."
+   }
+  },
+  {
+   "a": 549,
+   "b": 427,
+   "type": "develops",
+   "note": "Verse 427 chooses Marusi to put kin and the matter in words; verse 549 is where he does so, naming the line the two houses share.",
+   "teaches": "The envoy's task of setting out kin is carried out in this closing, where the shared descent from Nami is the reason offered for the marriage."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 527, 528, 529, 530, 532, 535, 537, 538, 540, 541, 545, 546, 548: word division and compressed grammar leave lines hard to construe; flagged uncertain.",
+  "Verse 538: அரசு வேண்டான் conflicts with Nami's request for wealth in 547; both readings noted in the verse.",
+  "Verses 527 to 531: the king and Marusi are not named in the verses, and who speaks is taken from 529 and 531; the earlier words that angered the king lie before this chapter."
+ ]
+}

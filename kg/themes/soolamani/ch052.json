@@ -1,0 +1,880 @@
+{
+ "chapter_no": 52,
+ "chapter_theme": "In the council of the angry king, whose rage over a rumoured pledge of the Rathanupura maid to a human sets the court to talk of war, the soldiers, kin and ministers speak in turn, some urging war and some counselling scheming or restraint.",
+ "cast": [
+  {
+   "id": "folk",
+   "tamil": "உலகோர்",
+   "role": "the frightened people of the city who talk of the end of the world"
+  },
+  {
+   "id": "asvagriva",
+   "tamil": "அச்சுவக்கிரீவன்",
+   "role": "the angry king of the strong rutting elephant (கச்சையங் களிநல் யானைக் காவலன்) in 1157, taken as Asvagriva; not named in this chapter"
+  },
+  {
+   "id": "assembled_kings",
+   "tamil": "அரைசர்கள்",
+   "role": "the kings of the court who roar in answer to the king's rage"
+  },
+  {
+   "id": "soldiers",
+   "tamil": "படைவீரர்",
+   "role": "the soldiers who speak as 'those who say' in 1160 to 1163"
+  },
+  {
+   "id": "spy",
+   "tamil": "ஒற்றன்",
+   "role": "the unnamed man who brings back the report of the council, in the first person in 1174; taken as a spy"
+  },
+  {
+   "id": "unnamed_warrior",
+   "tamil": "ஒருவன்",
+   "role": "an unnamed warrior who speaks in council in 1165 to 1169, 1172, 1178 and 1179; may be several voices"
+  },
+  {
+   "id": "kanaka_chitran",
+   "tamil": "கனகசித்திரன்",
+   "role": "the warrior Kanakachitran who speaks in council"
+  },
+  {
+   "id": "vayirakandan",
+   "tamil": "வயிரகண்டன்",
+   "role": "the king's younger brother Vajrakandan, in the Tamil வச்சிர கண்டன்"
+  },
+  {
+   "id": "kin",
+   "tamil": "தமர்",
+   "role": "the king's brothers and sons who cool his anger"
+  },
+  {
+   "id": "arimanju",
+   "tamil": "அரிமஞ்சு",
+   "role": "the minister Arimanju who asks the king what he intends"
+  },
+  {
+   "id": "dhumakethu",
+   "tamil": "தூமகேது",
+   "role": "the ruler of Megakuta who speaks in council"
+  },
+  {
+   "id": "angaravegan",
+   "tamil": "அங்காரவேகன்",
+   "role": "the king of a fire-mountain city who speaks in council"
+  },
+  {
+   "id": "arisenan",
+   "tamil": "அரிசேனன்",
+   "role": "the king's dear friend Arisenan, a spear-bearing warrior"
+  }
+ ],
+ "verses": {
+  "1156": {
+   "reading": "The people first say the world is broken, the quarters burned and the ocean dried, then fall silent: what is coming cannot be known and they will learn it when it arrives.",
+   "concepts": [
+    "acham",
+    "kaalam"
+   ],
+   "nuance": "The verse closes the run of crowd dread that begins at 1153; the speakers are the frightened citizens, not the war party.",
+   "speaker": {
+    "who": "folk",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "folk",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The people of the city, dreading the king's rage, trail off into silence.",
+   "claims": []
+  },
+  "1157": {
+   "reading": "Some say the world will be lost in fear and the quarters tremble at his poison-laughter; at these thoughts the lord of the strong rutting elephant burns and speaks.",
+   "concepts": [
+    "vekuli",
+    "arasu"
+   ],
+   "nuance": "The king is named only by his epithet (the lord of the elephant); the story so far makes him the discus-lord Asvagriva, so the cast takes that name.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "asvagriva",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The elephant-lord king, in a rage, begins to speak to the court.",
+   "claims": []
+  },
+  "1158": {
+   "reading": "What the king says in anger is that the ruler of Rathanupuram has deceived him and, it is said, has promised his daughter to a human; he repeats the news as it was brought, and his fire of wrath cannot be quenched.",
+   "concepts": [
+    "vekuli",
+    "kaamam"
+   ],
+   "nuance": "The verse reports a rumour (போலும் என்ற உரை) that the king repeats as fact, so his rage rests on hearsay.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "asvagriva",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king repeats the report that the Rathanupura ruler has given his daughter to a human.",
+   "claims": []
+  },
+  "1159": {
+   "reading": "The king's angry words roar like a drum in a cave; the kings who hear them rise in a loud cry asking whether he should be so angry over this.",
+   "concepts": [
+    "vekuli",
+    "mannar"
+   ],
+   "nuance": "The assembled kings' cry reads as a question put to him, but its tone (protest or agreement) is not fixed by the Tamil.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "asvagriva",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "assembled_kings",
+     "form": "அரைசர்க",
+     "line": 3
+    }
+   ],
+   "event": "The assembled kings answer the king's rage with a roar of protest.",
+   "claims": []
+  },
+  "1160": {
+   "reading": "Soldiers say: why carry these strong arms idle when the king spits fire; if we do not win on the field like eagles and plant the banners, we shall be a feast for the sky-dwellers.",
+   "concepts": [
+    "padai",
+    "maanam"
+   ],
+   "speaker": {
+    "who": "soldiers",
+    "form": "மென்பார்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "soldiers",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The soldiers urge going to war and say they will win or die.",
+   "claims": [
+    {
+     "claim": "a soldier who carries arms must win on the field or die as a feast for the gods",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "soldiers"
+    }
+   ]
+  },
+  "1161": {
+   "reading": "Other men, who live doing the king's bidding, ask what is left for them if kings live by tormenting others: their life is bound to death, so is austerity the only resort, or is it ruin?",
+   "concepts": [
+    "thavam",
+    "arasu"
+   ],
+   "nuance": "தவம் here is austerity as the only alternative to dying in the king's cause; the verse does not endorse it as a path, only lets the soldiers name it.",
+   "speaker": {
+    "who": "soldiers",
+    "form": "தென்பார்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "soldiers",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Some of the king's men voice doubt about being ruled by the king's anger.",
+   "claims": [
+    {
+     "claim": "men who live by a king's command are left only with austerity or death when the king torments others",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "soldiers"
+    }
+   ]
+  },
+  "1162": {
+   "reading": "The soldiers say that after idle boasts before women and kin their heroism will be empty unless the work of men now comes; they look at their own shoulders, restless for war.",
+   "concepts": [
+    "maanam",
+    "naanam"
+   ],
+   "speaker": {
+    "who": "soldiers",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "soldiers",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The soldiers, shamed by their boasts, look to their shoulders and long for battle.",
+   "claims": []
+  },
+  "1163": {
+   "reading": "The soldiers say that the king who guarded them must not have his fame wounded, and that those who delighted in the maid will hear the din of the youth's kin tomorrow.",
+   "concepts": [
+    "pugazh",
+    "aanmai"
+   ],
+   "nuance": "Line 1 to 2 are hard to read in the word division, so the sense that the king's fame must not take a scar is held loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "soldiers",
+    "form": "யென்பார்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "soldiers",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The soldiers pledge themselves to protect the king's fame and promise a clash tomorrow.",
+   "claims": [
+    {
+     "claim": "men who were guarded by a king owe him the protection of his fame",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "soldiers"
+    }
+   ]
+  },
+  "1164": {
+   "reading": "The speaker, turning to the sun-spear lord he addresses, says the kings say: why stay, go and fight, bring the head of the offending king, seize the maid; many such words came from the mountain kings.",
+   "concepts": [
+    "padai",
+    "pagai"
+   ],
+   "nuance": "Here the speaker first addresses a listener (பரிதி வேலோய்); the chapter ends with a first-person line (போந்தேன், 1174), so from here the verses are read as a report brought back to the listener, a reading not fixed in the Tamil.",
+   "speaker": {
+    "who": "spy",
+    "form": "பரிதி வேலோய்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "assembled_kings",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The speaker relays the kings' calls to fight and to seize the girl.",
+   "claims": []
+  },
+  "1165": {
+   "reading": "One born of the fire called anger, whose pride feeds on blood, looks at his diamond sword and speaks: pride feeds on the heart and the sword thirsts for blood.",
+   "concepts": [
+    "vekuli",
+    "maanam"
+   ],
+   "nuance": "சினம் is made the source of செருக்கு, so pride is presented as anger's offspring; the warrior does not condemn either.",
+   "speaker": {
+    "who": "unnamed_warrior",
+    "form": "தொருவன்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "unnamed_warrior",
+     "form": "தொருவன்",
+     "line": 4
+    }
+   ],
+   "event": "An angry warrior speaks of his sword and pride.",
+   "claims": [
+    {
+     "claim": "pride is born of the fire of anger and feeds on the heart's food",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "unnamed_warrior"
+    }
+   ]
+  },
+  "1166": {
+   "reading": "He claps his shoulders, wipes his sword and says anyone can prepare for war, but to bear the fierce war whose sparks scorch the foot is hard.",
+   "concepts": [
+    "padai",
+    "vali"
+   ],
+   "speaker": {
+    "who": "unnamed_warrior",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "unnamed_warrior",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The warrior boasts of the hardship of war and his readiness to bear it.",
+   "claims": [
+    {
+     "claim": "preparing for war is easy for anyone, bearing it is hard",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "unnamed_warrior"
+    }
+   ]
+  },
+  "1167": {
+   "reading": "He swears that unless this war is won, even gods and earth-dwellers will come to the king's gate and sleep in shame, which he will show them.",
+   "concepts": [
+    "padai",
+    "maanam"
+   ],
+   "speaker": {
+    "who": "unnamed_warrior",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "unnamed_warrior",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The warrior vows to make both gods and humans sleep in disgrace if he does not win.",
+   "claims": []
+  },
+  "1168": {
+   "reading": "Whether by sword, by trick or by shoulder, he says, let all talk end: he will bring the maid together with the youth's life and lay her at the king's feet, and only then should the king's anger cease.",
+   "concepts": [
+    "padai",
+    "kodungol"
+   ],
+   "nuance": "The warrior offers any means (sword, trick or shoulder) to win; he places no limit on method.",
+   "speaker": {
+    "who": "unnamed_warrior",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "unnamed_warrior",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The warrior offers to bring the maid and the youth's life to the king's feet.",
+   "claims": [
+    {
+     "claim": "a king's anger may end only when the youth's life and the maid are laid at his feet",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "unnamed_warrior"
+    }
+   ]
+  },
+  "1169": {
+   "reading": "A speaker says: if a little jackal, with no understanding, rose in rage against lions, such as we would be laughed at daily, O lord of kings of shining crowns.",
+   "concepts": [
+    "sirumai",
+    "perumai"
+   ],
+   "nuance": "The comparison (lions and jackal) assumes the foe is low; the story's later battles test that assumption.",
+   "speaker": {
+    "who": "unnamed_warrior",
+    "form": null,
+    "line": null,
+    "addressee": "asvagriva"
+   },
+   "agents": [
+    {
+     "id": "unnamed_warrior",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The speaker warns that anger against a lowly foe will make the great a laughing-stock.",
+   "claims": [
+    {
+     "claim": "great kings make themselves ridiculous by raging against lowly foes",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "unnamed_warrior"
+    }
+   ]
+  },
+  "1170": {
+   "reading": "Kanakachitran, who loves the king, says that since they cannot guard against it there is nothing for them but to fight; on hearing it the king is like a summer hill after rain.",
+   "concepts": [
+    "padai",
+    "vekuli"
+   ],
+   "nuance": "The words of the two clauses are hard to join (ஆலங்காவது ஒன்றில்லை), and whether the rain-cooled hill means the king's anger is cooled or his wrath is fed is not clear in the Tamil.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kanaka_chitran",
+    "form": "கனக சித்திரன்",
+    "line": 3,
+    "addressee": "asvagriva"
+   },
+   "agents": [
+    {
+     "id": "kanaka_chitran",
+     "form": "கனக சித்திரன்",
+     "line": 3
+    }
+   ],
+   "event": "Kanakachitran urges fighting and the king's rage cools.",
+   "claims": []
+  },
+  "1171": {
+   "reading": "Vajrakandan, the king's younger brother, red-eyed, says that their manhood is broken and they themselves stand lowered now that a foe has risen against them.",
+   "concepts": [
+    "maanam",
+    "padai"
+   ],
+   "nuance": "Line 3 is hard to read, so the specific cause of the lowered manhood is held loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vayirakandan",
+    "form": "வச்சிர",
+    "line": 1,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vayirakandan",
+     "form": "வச்சிர",
+     "line": 1
+    }
+   ],
+   "event": "Vajrakandan, in anger, says the foe has lowered their manhood.",
+   "claims": []
+  },
+  "1172": {
+   "reading": "One tries to put out the fire like rain: a small pond does not take the great sea's young, so, if this war is not against demons, the king of great elephants should not march on lowly foes.",
+   "concepts": [
+    "perumai",
+    "sirumai"
+   ],
+   "nuance": "The speaker of 1172 is not named; it follows Vajrakandan's speech but may be another voice.",
+   "uncertain": true,
+   "speaker": {
+    "who": "unnamed_warrior",
+    "form": null,
+    "line": null,
+    "addressee": "asvagriva"
+   },
+   "agents": [
+    {
+     "id": "unnamed_warrior",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A speaker argues that a great king should not fight lowly men.",
+   "claims": [
+    {
+     "claim": "a great king should not march against lowly foes unless it is a war with demons",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "unnamed_warrior"
+    }
+   ]
+  },
+  "1173": {
+   "reading": "His brothers and sons say such things, and at their words the roaring fire seems to die: he cooled, and what can be done, such is his nature.",
+   "concepts": [
+    "vekuli",
+    "sutram"
+   ],
+   "nuance": "The verse has three lines instead of four and the first word is damaged, so the sense that the king cools on his kin's words is held loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "asvagriva",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kin",
+     "form": "மாரு",
+     "line": 1
+    }
+   ],
+   "event": "The king's kin speak and his anger dies down.",
+   "claims": []
+  },
+  "1174": {
+   "reading": "The king says, 'Look, by the way of kings we are without fault,' thunders his answer and goes into the council hall; the speaker says he came away having learned the counsel made there.",
+   "concepts": [
+    "arasu",
+    "soozhchi"
+   ],
+   "nuance": "The last line is in the first person (போந்தேன்), the only mark in the chapter that the narration is a report from a speaker who was present.",
+   "speaker": {
+    "who": "spy",
+    "form": "போந்தேன்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "asvagriva",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king thunders that he is without fault and enters the council hall; the speaker returns with what was planned.",
+   "claims": [
+    {
+     "claim": "kings by their way are without fault",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "asvagriva"
+    }
+   ]
+  },
+  "1175": {
+   "reading": "The king burns with anger over the maid; the minister Arimanju asks him what he now thinks, a man whose understanding, eye and arm other ministers cannot match.",
+   "concepts": [
+    "amaichu",
+    "vekuli"
+   ],
+   "speaker": {
+    "who": "arimanju",
+    "form": "மஞ்சு",
+    "line": 4,
+    "addressee": "asvagriva"
+   },
+   "agents": [
+    {
+     "id": "arimanju",
+     "form": "மஞ்சு",
+     "line": 4
+    },
+    {
+     "id": "asvagriva",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Arimanju asks the angry king what he plans.",
+   "claims": []
+  },
+  "1176": {
+   "reading": "Dhumakethu, who rules the city of Megakuta and dares hard deeds, says: the rare jewels born of the gem mountains, who but those who bow to the king of kings will gain them, tell me.",
+   "concepts": [
+    "arasu",
+    "vali"
+   ],
+   "nuance": "The jewel image is probably the maid and the speaker's point that only those who bow to the overlord deserve her, but the Tamil does not say so.",
+   "uncertain": true,
+   "speaker": {
+    "who": "dhumakethu",
+    "form": "றூம",
+    "line": 2,
+    "addressee": "asvagriva"
+   },
+   "agents": [
+    {
+     "id": "dhumakethu",
+     "form": "றூம",
+     "line": 2
+    }
+   ],
+   "event": "Dhumakethu speaks in council about who deserves rare jewels.",
+   "claims": []
+  },
+  "1177": {
+   "reading": "Angaravegan, ruler of a city in a fire-capped mountain, says that the ruler of Rathanupuram has slighted them and that they will drive the kin of the man who fought them to the sea shore.",
+   "concepts": [
+    "pagai",
+    "padai"
+   ],
+   "speaker": {
+    "who": "angaravegan",
+    "form": "கார",
+    "line": 2,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "angaravegan",
+     "form": "கார",
+     "line": 2
+    }
+   ],
+   "event": "Angaravegan proposes to drive the foe's kin from his land.",
+   "claims": [
+    {
+     "claim": "a king who has been slighted may drive the offender's kin from their land",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "angaravegan"
+    }
+   ]
+  },
+  "1178": {
+   "reading": "A warrior says: if we can win by hidden words, tell me; if we can win with bow and army by valour, let me go and fight.",
+   "concepts": [
+    "soozhchi",
+    "padai"
+   ],
+   "speaker": {
+    "who": "unnamed_warrior",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "unnamed_warrior",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A warrior asks whether to win by words or by war and offers to fight.",
+   "claims": []
+  },
+  "1179": {
+   "reading": "One says there is no need to fight even a flower; kings' justice is to look closely at scheming and see what can be gained, which is taught constantly for those who fear death and lack worth.",
+   "concepts": [
+    "soozhchi",
+    "arasu"
+   ],
+   "nuance": "நீதி here is the rule of statecraft, not justice in the sense of a fair verdict.",
+   "speaker": {
+    "who": "unnamed_warrior",
+    "form": "கொருவ",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "unnamed_warrior",
+     "form": "கொருவ",
+     "line": 4
+    }
+   ],
+   "event": "A counsellor argues for scheming over open war.",
+   "claims": [
+    {
+     "claim": "it is a king's justice to weigh scheming over fighting and see what can be gained",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "unnamed_warrior"
+    }
+   ]
+  },
+  "1180": {
+   "reading": "Arisenan, the king's dear friend and bright-spear warrior, listens to the king's angry words and calls him a man of army's might who should leave behind the great blame.",
+   "concepts": [
+    "padai",
+    "pugazh"
+   ],
+   "nuance": "Line 3 ends in a full stop, the verse is hard to read and the sense of the last line is held loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "arisenan",
+    "form": "சேன",
+    "line": 1,
+    "addressee": "asvagriva"
+   },
+   "agents": [
+    {
+     "id": "arisenan",
+     "form": "சேன",
+     "line": 1
+    }
+   ],
+   "event": "Arisenan answers the king's rage by speaking of his army's might.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1156,
+   "b": 1153,
+   "type": "develops",
+   "note": "1153 asks what is the root of the king's anger; 1156 has the people stop guessing and fall silent.",
+   "teaches": "The frightened crowd moves from asking the cause to waiting without words, so the dread grows as the cause stays unknown."
+  },
+  {
+   "a": 1158,
+   "b": 1155,
+   "type": "develops",
+   "note": "1155 asks who would anger a king no demon can match; 1158 gives the cause, a rumoured pledge of a daughter to a human.",
+   "teaches": "The court's puzzle in 1155 is answered by a rumour the king repeats as fact."
+  },
+  {
+   "a": 1172,
+   "b": 1181,
+   "type": "develops",
+   "note": "1172 warns that a great king should not march against lowly foes; 1181 has the king ask what kind of war this is.",
+   "teaches": "The king answers the warning by asking whether this war is human, divine or both."
+  },
+  {
+   "a": 1157,
+   "b": "siddhar:2055",
+   "type": "same_image",
+   "note": "The king is lord of a rutting war elephant and in rage; the Siddhar song kills anger as a mad elephant's rut with the goad of reasoning.",
+   "teaches": "Anger as a rutting elephant is a royal fact in the epic and a figure in the Siddhar, which shows what the goad of reason would have to stop.",
+   "gains": {
+    "a": "The epic's king has a real elephant and a real rage but nothing that checks the rage, which the Siddhar's goad of reason supplies.",
+    "b": "The Siddhar's elephant of anger lacks a king who actually rides one, which the epic gives."
+   }
+  },
+  {
+   "a": 1160,
+   "b": "siddhar:883",
+   "type": "qualifies",
+   "note": "The soldiers eager to carry arms and win; the Siddhar says horses, elephants and infantry shine under the parasol and are nothing without the ash.",
+   "teaches": "The soldiers' pride in their strong shoulders is set beside a verse that says armies are worth nothing without the right mark, so the epic's boasts are weighed against a Siddhar's measure.",
+   "gains": {
+    "a": "The soldiers' boasts lack any measure of what an army is worth beyond winning, which the Siddhar sets in grace.",
+    "b": "The Siddhar's list of horses, elephants and chariots lacks men who speak, which the epic gives by letting soldiers boast."
+   }
+  },
+  {
+   "a": 1165,
+   "b": "kural:306",
+   "type": "tension",
+   "note": "1165 calls anger a fire that gives birth to pride and a sword thirsty for blood; Kural 306 calls anger a fire that burns even one's own safe raft of kin.",
+   "teaches": "The warrior prizes anger as the fuel of his sword, while the Kural counts the same anger as what burns one's own people.",
+   "gains": {
+    "a": "The warrior's praise of anger names no cost, which the Kural states as the burning of one's own kin.",
+    "b": "The Kural's rule has no one who values anger as martial fuel, which the epic supplies by letting a warrior praise it."
+   }
+  },
+  {
+   "a": 1165,
+   "b": "tirumanthiram:266",
+   "type": "qualifies",
+   "note": "1165 makes pride the child of anger's fire; Tirumanthiram 266 says the swollen-headed die without support, fallen into withering anger.",
+   "teaches": "Pride that grows from anger in the epic is shown by Tirumular to end in a death without any support.",
+   "gains": {
+    "a": "The warrior's anger-born pride has no account of its end, which Tirumular gives as dying unsupported.",
+    "b": "Tirumular's proud man has no face or voice, which the epic gives in a swordsman boasting of his anger."
+   }
+  },
+  {
+   "a": 1169,
+   "b": "kural:500",
+   "type": "tension",
+   "note": "1169 says a lowly jackal rising against lions would only be laughed at; Kural 500 says a jackal can kill an unflinching elephant in mud where its feet sink.",
+   "teaches": "The speaker assumes the lowly cannot beat the great, while the Kural says the ground can let a jackal beat an elephant.",
+   "gains": {
+    "a": "The speaker's scorn for the jackal ignores the place of battle, which the Kural makes the deciding thing.",
+    "b": "The Kural's jackal and elephant have no council that dismisses the jackal, which the epic supplies."
+   }
+  },
+  {
+   "a": 1173,
+   "b": "naladiyar:68",
+   "type": "qualifies",
+   "note": "1173 has the king's anger die at his kin's words; Naladiyar 68 says the worthy's anger cools of itself like boiled water.",
+   "teaches": "The king's anger dies at others' words rather than by itself, so the epic shows a cooling the quatrain says only the worthy manage unaided.",
+   "gains": {
+    "a": "The epic king's anger cools only after his kin speak, which the quatrain says the worthy do alone.",
+    "b": "The quatrain's worthy cooling has no scene of a king and his kin, which the epic gives."
+   }
+  },
+  {
+   "a": 1174,
+   "b": "kural:568",
+   "type": "develops",
+   "note": "1174 has the king thunder that he is faultless and then go to the council hall; Kural 568 says a king who lashes out in anger without thinking with his circle loses fortune.",
+   "teaches": "The king rages first and consults after, so the epic shows the order that the Kural warns against, though it ends in council.",
+   "gains": {
+    "a": "The thundering king in 1174 shows no sign that the council will check him, which the Kural gives as the test of a king's anger.",
+    "b": "The Kural's circle that must be consulted is only a principle, and the epic shows a king who enters the hall after his rage has begun."
+   }
+  },
+  {
+   "a": 1175,
+   "b": "kural:445",
+   "type": "develops",
+   "note": "1175 has the minister Arimanju ask the angry king what he now thinks; Kural 445 says a king must take counsel as the counsellors are his eyes.",
+   "teaches": "The minister's question is the counsel the Kural asks of a king, asked after the king has already raged.",
+   "gains": {
+    "a": "The minister's question is put to a king already set on war, which tests whether counsel can still act as the king's eyes.",
+    "b": "The Kural's counsellor as the king's eyes has no scene, and the epic gives a minister putting the first question."
+   }
+  },
+  {
+   "a": 1179,
+   "b": "kural:546",
+   "type": "tension",
+   "note": "1179 says a king's justice is to prefer scheming to fighting and see what can be got; Kural 546 says victory comes not from the spear but from the unbent sceptre.",
+   "teaches": "The counsellor rests victory on scheming and the Kural on the king's justice, so the two name different grounds for winning.",
+   "gains": {
+    "a": "The counsellor's rule asks only what can be gained, which the Kural answers with the question of whether the king's sceptre is just.",
+    "b": "The Kural's sceptre has no scheming rival, which the epic supplies in a council voice that puts craft first."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 1173 has three lines instead of four and its first word is damaged.",
+  "Verses 1157, 1158, 1159, 1166, 1174, 1177, 1178, 1179 and 1180 had a line repaired from eight half-lines or a stray pulli.",
+  "Verse 1180 line 3 ends in a full stop that cuts the sense; verses 1163, 1170, 1171 and 1176 have word division that makes the sense uncertain."
+ ]
+}

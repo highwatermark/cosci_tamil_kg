@@ -1,0 +1,771 @@
+{
+ "chapter_no": 63,
+ "chapter_theme": "Tivittan's duel with Asvagriva: the hostile missile's deity shrinks before him, Garuda becomes his mount, the discus king boasts and is answered, and the two answer each other's divine weapons, naga with Garuda, fire with water, sleep with waking.",
+ "cast": [
+  {
+   "id": "tivittan",
+   "tamil": "இருங்கடல் வண்ணன்",
+   "role": "Tivittan, the sea-dark hero whose bow and Garuda come to him"
+  },
+  {
+   "id": "asvagriva",
+   "tamil": "மாற்று வேந்தன்",
+   "role": "the opposing discus-king, read as Asvagriva"
+  },
+  {
+   "id": "arukkan",
+   "tamil": "அருக்கன்",
+   "role": "a companion named only by this word, who warns of the missile"
+  },
+  {
+   "id": "rival_army",
+   "tamil": "தானை",
+   "role": "the host that breaks in 1432-1433"
+  },
+  {
+   "id": "kings",
+   "tamil": "அரசர்",
+   "role": "the kings and their host in 1442"
+  },
+  {
+   "id": "chalam_deity",
+   "tamil": "சலம்புரி தெய்வம்",
+   "role": "the deity of the hostile missile"
+  },
+  {
+   "id": "garuda",
+   "tamil": "கருடன்",
+   "role": "Garuda, who becomes Tivittan's mount"
+  },
+  {
+   "id": "garuda_astra",
+   "tamil": "உவணப் புள்",
+   "role": "the divine weapon shaped like Garuda in 1452"
+  }
+ ],
+ "verses": {
+  "1432": {
+   "reading": "The sky is covered as if a great black stone had spread over it, the world goes dark, and the quarrelsome kings' host sees no way out.",
+   "concepts": [
+    "padai",
+    "acham"
+   ],
+   "nuance": "Lines 1-2 are hard (what 'joins the flanks' and what the black stone is are not stated); the reading holds the darkening and the host trapped.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "rival_army",
+     "form": "தானை",
+     "line": 4
+    }
+   ],
+   "event": "Darkness closes over the sky and the rival army finds no way to retreat.",
+   "claims": []
+  },
+  "1433": {
+   "reading": "Sword on sword, shoulder on shoulder, head on head, the lord's host breaks with a roar and scatters its bright ornaments.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "nuance": "'ஆளுடை அரசன்' is not named; it is read as the king whose army was shown trapped in 1432, but the verse does not fix which side.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "rival_army",
+     "form": "றானை",
+     "line": 4
+    }
+   ],
+   "event": "A host breaks in close fighting, with weapons and ornaments flying.",
+   "claims": []
+  },
+  "1434": {
+   "reading": "Asked by the sea-dark one what has happened, a companion answers that the angry foe has loosed a missile named Chanda Vegai which will come and drink the lives of the living.",
+   "concepts": [
+    "padai",
+    "acham"
+   ],
+   "nuance": "The questioner is the sea-dark one (Tivittan, 'இருங்கடல் வண்ணன்'); the one addressed by the odd name 'அருக்கன்' is not otherwise identified, so the speaker is a guess from the word order.",
+   "uncertain": true,
+   "speaker": {
+    "who": "arukkan",
+    "form": "னருக்கனை",
+    "line": 1,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "வண்ணன்",
+     "line": 2
+    },
+    {
+     "id": "arukkan",
+     "form": "னருக்கனை",
+     "line": 1
+    }
+   ],
+   "event": "Tivittan asks what is happening and is warned that the enemy's Chanda Vegai missile is coming.",
+   "claims": []
+  },
+  "1435": {
+   "reading": "The warning goes on: once sent in hate the missile does not turn back until it has killed, and no one can turn it; the sea-dark one asks its nature and teases the spearman for seeming afraid.",
+   "concepts": [
+    "padai",
+    "anjaamai",
+    "acham"
+   ],
+   "nuance": "The claim is answered when the missile's own deity shrinks in 1439-1440. The last words ('you seem afraid') may be Tivittan's teasing; the verse does not mark the change of speaker.",
+   "uncertain": true,
+   "speaker": {
+    "who": "arukkan",
+    "form": "யஞ்சினை",
+    "line": 4,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "வண்ண",
+     "line": 3
+    }
+   ],
+   "event": "The companion says the missile cannot be turned back, and Tivittan twits him for fear.",
+   "claims": [
+    {
+     "claim": "a missile loosed in hatred must kill and no one can turn it back",
+     "school": "general",
+     "line": 2,
+     "stance": "refuted",
+     "voiced_by": "arukkan"
+    }
+   ]
+  },
+  "1436": {
+   "reading": "Answering that the missile will 'come spitting fire' he calls the speaker very gentle, and grows in anger and flame, taking a form that frightens even the sky.",
+   "concepts": [
+    "vekuli",
+    "perumai"
+   ],
+   "nuance": "'நெடியவன்' (the tall one) is the sea-dark one, as in the earlier verses; 'வள்ளல்' (the generous one) as he grows reads as an epithet, not a change of subject.",
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": "arukkan"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "நெடியவன்",
+     "line": 2
+    }
+   ],
+   "event": "Tivittan mocks the warning and swells in size and fire.",
+   "claims": []
+  },
+  "1437": {
+   "reading": "Like a good friend won in a former life, a vajra bow comes into his hand at the moment of need.",
+   "concepts": [
+    "vinai",
+    "thunai"
+   ],
+   "nuance": "The simile ('நலம்புரி செய்கை மேனாட் பெற்ற நற்றோழன்') pictures help as the return of earlier good deeds, but the narrator uses it as a comparison, not as a statement of doctrine.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A diamond bow and its gem-set ornaments come into Tivittan's hands.",
+   "claims": []
+  },
+  "1438": {
+   "reading": "He stands with a conch in one hand and the long bow in the other, his dark body shining like a new rain cloud with a rainbow beside the moon.",
+   "concepts": [
+    "azhagu",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1439": {
+   "reading": "He sets the conch to his mouth and sounds it, bends the bow and fits a ring on his finger and urges on his weapon; the deity of the hostile missile is frightened and returns to its own shape.",
+   "concepts": [
+    "padai",
+    "acham",
+    "maram"
+   ],
+   "nuance": "'சலம்' can be anger, deceit or water; the deity is read as that of the missile from 1434-1435, which is why it is said to turn back.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "chalam_deity",
+     "form": "தெய்வ",
+     "line": 4
+    }
+   ],
+   "event": "Tivittan sounds the conch and shoots; the missile's deity shrinks back in fear.",
+   "claims": []
+  },
+  "1440": {
+   "reading": "The deity, tall as the sky, breathes hard with gaping fangs, then trembles and shrinks.",
+   "concepts": [
+    "acham",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "chalam_deity",
+     "form": "தெய்வந்",
+     "line": 4
+    }
+   ],
+   "event": "The deity trembles and shrinks away.",
+   "claims": []
+  },
+  "1441": {
+   "reading": "The rival king sees the deity retreat into the sky with its weapon, strikes his hands, glares and bites his lip, and orders the young elephant brought.",
+   "concepts": [
+    "vekuli",
+    "vendhan"
+   ],
+   "nuance": "'மாற்று வேந்தன்' (the opposing king) is read as Asvagriva, the discus-holder.",
+   "speaker": {
+    "who": "asvagriva",
+    "form": "மாற்று வேந்தன்",
+    "line": 2,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "asvagriva",
+     "form": "மாற்று வேந்தன்",
+     "line": 2
+    }
+   ],
+   "event": "Seeing his missile fail, Asvagriva rages and calls for his elephant.",
+   "claims": []
+  },
+  "1442": {
+   "reading": "His elephant is driven in, the kings' host breaks before the spear, and the dark-gem-hill one looks on angrily and takes up the long bow.",
+   "concepts": [
+    "padai",
+    "maram",
+    "vekuli"
+   ],
+   "nuance": "Whose host breaks is not said; the reading takes it as the host in the path of the charge.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "asvagriva",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "tivittan",
+     "form": "நீலமா மணிக்குன்",
+     "line": 4
+    },
+    {
+     "id": "kings",
+     "form": "தானை",
+     "line": 2
+    }
+   ],
+   "event": "The enemy charges on an elephant; a host breaks; Tivittan takes the bow again.",
+   "claims": []
+  },
+  "1443": {
+   "reading": "Garuda, bright-eyed with winged diamond beak, comes down from the sky and stands at the side of the one with the fire-arrow.",
+   "concepts": [
+    "thunai",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "garuda",
+     "form": "கருடனு",
+     "line": 4
+    }
+   ],
+   "event": "Garuda descends and attends Tivittan.",
+   "claims": []
+  },
+  "1444": {
+   "reading": "Tivittan mounts Garuda and rises with the bow to meet the sea-coloured foe; the discus king, black with rage, begins to speak boasts of no worth.",
+   "concepts": [
+    "perumai",
+    "maanam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "asvagriva",
+     "form": "வேந்தன்",
+     "line": 3
+    }
+   ],
+   "event": "Tivittan rides Garuda into the sky; Asvagriva starts to boast.",
+   "claims": []
+  },
+  "1445": {
+   "reading": "Asvagriva boasts that the Danavas who were not like Tivittan fell weeping or bowed and lived, that gods hide in the sky from him, and that Tivittan alone has chosen to lose his life.",
+   "concepts": [
+    "perumai",
+    "sirumai"
+   ],
+   "nuance": "The boast is the foe's; the story soon shows its weakness in 1448 and in the failing weapons of 1451-1456.",
+   "speaker": {
+    "who": "asvagriva",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "asvagriva",
+     "form": "ஊனவர்",
+     "line": 4
+    }
+   ],
+   "event": "Asvagriva claims the gods and Danavas fear him and that Tivittan is a fool to face him.",
+   "claims": [
+    {
+     "claim": "a lord whom gods hide from and foes bow to is not to be faced by one who wants to live",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "asvagriva"
+    }
+   ]
+  },
+  "1446": {
+   "reading": "Like winged termites rising when their days are counted, you have come against my spear on Garuda as its prey.",
+   "concepts": [
+    "sirumai",
+    "kedu"
+   ],
+   "speaker": {
+    "who": "asvagriva",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "asvagriva",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Asvagriva calls Tivittan a termite flying to its death.",
+   "claims": []
+  },
+  "1447": {
+   "reading": "Asvagriva says he left off anger at men on hearing that even the discus-lord rose against them, but that Tivittan's ear-burning words prove he is pitiless, and so he is moved to wrath.",
+   "concepts": [
+    "vekuli",
+    "sol"
+   ],
+   "nuance": "Lines 1-3 are tangled; the reading keeps only what is clear, that he answers insult with threat.",
+   "uncertain": true,
+   "speaker": {
+    "who": "asvagriva",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "asvagriva",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Asvagriva justifies his anger by Tivittan's words.",
+   "claims": []
+  },
+  "1448": {
+   "reading": "The sea-dark one says: good, good, you speak well, but this is what you say among your own band from a hilltop; can it be what you really mean to say to my face?",
+   "concepts": [
+    "sol",
+    "maram",
+    "perumai"
+   ],
+   "speaker": {
+    "who": "tivittan",
+    "form": "வண்ண",
+    "line": 1,
+    "addressee": "asvagriva"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "வண்ண",
+     "line": 1
+    }
+   ],
+   "event": "Tivittan answers that boasting among one's own band is not the same as facing the foe.",
+   "claims": [
+    {
+     "claim": "brave talk to one's own men from a safe height is worth nothing in front of the foe",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "tivittan"
+    }
+   ]
+  },
+  "1449": {
+   "reading": "Asvagriva, hearing the small man's words burn his ears, vows to wipe out his name from the earth, draws the strong bow on his elephant and pours arrows.",
+   "concepts": [
+    "vekuli",
+    "sirumai",
+    "padai"
+   ],
+   "speaker": {
+    "who": "asvagriva",
+    "form": "யானை மேலான்",
+    "line": 4,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "asvagriva",
+     "form": "யானை மேலான்",
+     "line": 4
+    }
+   ],
+   "event": "Enraged, Asvagriva shoots a rain of arrows at Tivittan.",
+   "claims": [
+    {
+     "claim": "a lord must wipe out the name of one who insults him",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "asvagriva"
+    }
+   ]
+  },
+  "1450": {
+   "reading": "The arrows fall from Garuda's wing-beats; seeing them scattered, the bow-skilled one turns his mind to hostile divine weapons.",
+   "concepts": [
+    "padai",
+    "vekuli"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "garuda",
+     "form": "கருடன்",
+     "line": 1
+    },
+    {
+     "id": "asvagriva",
+     "form": "படைத்திறலாளன்",
+     "line": 4
+    }
+   ],
+   "event": "Garuda's wings beat the arrows aside; Asvagriva turns to divine weapons.",
+   "claims": []
+  },
+  "1451": {
+   "reading": "The foe shoots a weapon in the form of a thousand-hooded jewelled cobra at the dark-gem one, and fire sparks run from it.",
+   "concepts": [
+    "padai",
+    "acham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "asvagriva",
+     "form": "வெய்யோன்",
+     "line": 1
+    }
+   ],
+   "event": "Asvagriva looses a naga weapon at Tivittan.",
+   "claims": []
+  },
+  "1452": {
+   "reading": "Tivittan sees it, takes a divine arrow in Garuda's form, and when it is shot the bird cuts the cobra to pieces with its beak.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "வண்ணன்",
+     "line": 1
+    },
+    {
+     "id": "garuda_astra",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Tivittan's Garuda weapon tears apart the naga weapon.",
+   "claims": []
+  },
+  "1453": {
+   "reading": "The enraged discus-holder joins fire to the string and shoots a fire weapon that scorches the mountains and the sky and goes against Tivittan.",
+   "concepts": [
+    "padai",
+    "vekuli"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "asvagriva",
+     "form": "வேந்தன்",
+     "line": 1
+    }
+   ],
+   "event": "Asvagriva looses a fire weapon.",
+   "claims": []
+  },
+  "1454": {
+   "reading": "Tivittan draws the Varuna arrow; at its flight the sky, earth and quarters darken and rain falls in streams, putting out the fire.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "வண்ணன்",
+     "line": 1
+    }
+   ],
+   "event": "Tivittan's Varuna arrow drowns the fire weapon in rain.",
+   "claims": []
+  },
+  "1455": {
+   "reading": "The sun-hot one shoots a sleep arrow; creatures fall asleep, trees bend, and it enters the army's front.",
+   "concepts": [
+    "padai",
+    "acham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "asvagriva",
+     "form": "வெய்யவன்",
+     "line": 1
+    }
+   ],
+   "event": "Asvagriva looses a weapon that puts living things to sleep.",
+   "claims": []
+  },
+  "1456": {
+   "reading": "Knowing it, the one with the fire-spear shoots an awakening arrow whose light drives off the dark and wakes the world, which understands what has happened.",
+   "concepts": [
+    "padai",
+    "arivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "வேலோ",
+     "line": 1
+    }
+   ],
+   "event": "Tivittan wakes the sleepers with his counter-weapon.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1435,
+   "b": 1439,
+   "type": "tension",
+   "note": "1435 says the missile cannot be turned back; 1439 shows its deity frightened and returned to its own shape.",
+   "teaches": "The warning rests on a rule about hate-loosed weapons that the scene then breaks, so a claim of certainty is answered by the hero's greater strength."
+  },
+  {
+   "a": 1445,
+   "b": 1448,
+   "type": "develops",
+   "note": "1445 is a boast of what the speaker is; 1448 answers that this is talk among his own band.",
+   "teaches": "Boast and reply are a pair: the boast is judged by where it is spoken, not what it says."
+  },
+  {
+   "a": 1443,
+   "b": 1452,
+   "type": "same_image",
+   "note": "Garuda comes as Tivittan's mount in 1443 and as his weapon in the same shape in 1452.",
+   "teaches": "The bird changes from a helper that arrives to a weapon that is released, showing it as a power he can both ride and shoot."
+  },
+  {
+   "a": 1451,
+   "b": 1452,
+   "type": "develops",
+   "note": "The naga weapon of 1451 is cut down by the Garuda weapon of 1452.",
+   "teaches": "The duel runs by counters, each weapon answered by its natural enemy, not by greater force."
+  },
+  {
+   "a": 1453,
+   "b": 1454,
+   "type": "develops",
+   "note": "Fire of 1453 is put out by the Varuna arrow of 1454.",
+   "teaches": "Again the answer is the opposed element, which makes the fight a sequence of matched counters."
+  },
+  {
+   "a": 1455,
+   "b": 1456,
+   "type": "develops",
+   "note": "The sleep arrow of 1455 is undone by the awakening arrow of 1456.",
+   "teaches": "The last pair completes the pattern: each of Asvagriva's divine weapons has its answer, so none is decisive."
+  },
+  {
+   "a": 1448,
+   "b": "kural:664",
+   "type": "develops",
+   "note": "1448 sets brave speech among one's own against facing the foe; Kural 664 says speaking is easy and doing as one has said is hard.",
+   "teaches": "The epic gives the Kural's remark a speaker and a test: the hilltop boaster must now act, which the next verses show.",
+   "gains": {
+    "a": "The rebuke gains a general rule that talk is cheap, so it reads as a measure of action and not only a sneer.",
+    "b": "The couplet gains a scene where the bragger is made to act within a few verses and his weapons fail."
+   }
+  },
+  {
+   "a": 1449,
+   "b": "kural:305",
+   "type": "qualifies",
+   "note": "1449 shows anger rising at insult and arrows poured out; Kural 305 says to guard against anger or it kills the one who has it.",
+   "teaches": "The arrows are beaten away in 1450, so the epic shows the Kural's warning working out in the battle rather than as a rule.",
+   "gains": {
+    "a": "The rage gains a cost: the arrows turn back on the shooter's hopes, as the next verse shows.",
+    "b": "The couplet gains a king with an army whose anger leads him to weapon after weapon that fails."
+   }
+  },
+  {
+   "a": 1437,
+   "b": "naladiyar:101",
+   "type": "develops",
+   "note": "1437 compares the bow's arrival to a friend won in a former life; Naladiyar 101 says an old deed seeks out its doer like a calf its mother.",
+   "teaches": "The simile gives the old deed a good side: what returns can be a helper in need, not only a penalty.",
+   "gains": {
+    "a": "The bow gains a possible source in former good deeds, which the narrator only hints.",
+    "b": "The quatrain gains a case where the old deed returns as a weapon in a fight, not as suffering."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Stanzas 1432-1443 and 1450-1456 were printed in half-lines and joined by the build; 1444 had a pulli removed.",
+  "1432-1433 and 1442 are obscure on whose host is in trouble.",
+  "The name 'அருக்கன்' (1434) is not identified in the verses and so is cast by the word alone."
+ ]
+}

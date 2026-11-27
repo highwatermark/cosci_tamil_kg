@@ -1,0 +1,602 @@
+{
+ "chapter_no": 61,
+ "chapter_theme": "The battle with the Vidyadharas continues: Kanaka Chitran taunts the foe and enters the fight, his kin's host rises, and the field fills with the wreck of men, horses and elephants described in a long run of similes.",
+ "cast": [
+  {
+   "id": "kanaka_chitran",
+   "tamil": "கனகசித்திரன்",
+   "role": "son of the discus-holder, who steps in when the kings break and fights in these verses"
+  },
+  {
+   "id": "enemy_host",
+   "tamil": "மாற்றலர்",
+   "role": "the enemy host the hero fights; side not named in the verse"
+  },
+  {
+   "id": "kanaka_chitran_kin",
+   "tamil": "கேளவர்",
+   "role": "Kanaka Chitran's kinsmen who say he has entered the fight"
+  },
+  {
+   "id": "grivan_brothers",
+   "tamil": "கிரீவன் தம்பிமார்",
+   "role": "Grivan's younger brothers whose host rises"
+  },
+  {
+   "id": "charioteers",
+   "tamil": "பாகர்",
+   "role": "the charioteers who drive the chariots"
+  }
+ ],
+ "verses": {
+  "1382": {
+   "reading": "A taunt that once glances of women have pierced the broken-hearted, men who have joined the heroes' company have no cause to dread the killing weapons.",
+   "concepts": [
+    "maanam",
+    "anjaamai"
+   ],
+   "nuance": "Lines 1-2 are cryptic (the women's quick glances as a piercing of hearts); the verse reads as the start of the speech announced in 1379, but the speaker is not named here.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kanaka_chitran",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1383": {
+   "reading": "The speaker calls shameless men to witness that a warrior's strength stands praised with the sky even when the body is born, and asks whether the flesh body must be broken for the sake of taking human lives.",
+   "concepts": [
+    "maanam",
+    "yaakkai"
+   ],
+   "nuance": "The last two lines can be read either as a challenge to the cowards or as doubt about the body's use; the sense turns on a rare construction.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kanaka_chitran",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a warrior's prowess, not his flesh body, is what stands in praise",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "kanaka_chitran"
+    }
+   ]
+  },
+  "1384": {
+   "reading": "The speaker mocks the enemy lords, saying they have come as if to take balls of food in the same hands that dropped their bright oiled swords in fear in the fierce fight.",
+   "concepts": [
+    "anjaamai",
+    "padai"
+   ],
+   "nuance": "The speaker is read from 1379; no word here names him.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kanaka_chitran",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kanaka_chitran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Kanaka Chitran mocks the enemy lords for dropping their swords in fear.",
+   "claims": []
+  },
+  "1385": {
+   "reading": "Having spoken, the hero stands against the enemy's sea-like host and appears in the press with the sword, strong-armed, while the foe's broken pieces follow him.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kanaka_chitran",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "enemy_host",
+     "form": "மாற்றலர்",
+     "line": 1
+    }
+   ],
+   "event": "The hero faces the enemy host and cuts into it with his sword.",
+   "claims": []
+  },
+  "1386": {
+   "reading": "Thinking that to press on against foes dismayed, pushing aside the slanting spears, is honour, he walks the field with anklets sounding and bears the whole weight of the fight.",
+   "concepts": [
+    "maanam",
+    "maram"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kanaka_chitran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The hero advances through the spears and sustains the battle.",
+   "claims": [
+    {
+     "claim": "going forward against the enemy's spears is what honour is",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "1387": {
+   "reading": "The youth appears in battle dress, with ear ornaments, a garland of gold, a gem-linked girdle, a wreath of the war-band and a cluster of locks, and every side sees him.",
+   "concepts": [
+    "maram",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kanaka_chitran",
+     "form": "காளை",
+     "line": 4
+    }
+   ],
+   "event": "The hero shows himself in the battle in full ornament.",
+   "claims": []
+  },
+  "1388": {
+   "reading": "Horses cut in two and fallen gold chariots litter the field and elephants are left without their posts, yet the youth's sword is not wearied of the hot smell of flesh.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kanaka_chitran",
+     "form": "காளை",
+     "line": 3
+    }
+   ],
+   "event": "Horses, chariots and elephants fall before the hero's sword.",
+   "claims": []
+  },
+  "1389": {
+   "reading": "Seeing the long-haired kings who stood against him bathe in streaming blood, the youth appears like a cloud-borne thunder and asks who now will face him.",
+   "concepts": [
+    "maram",
+    "vekuli"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kanaka_chitran",
+     "form": "காளை",
+     "line": 4
+    }
+   ],
+   "event": "The hero, after the kings are slain, appears like thunder and challenges the rest.",
+   "claims": []
+  },
+  "1390": {
+   "reading": "On his kin saying that their bull-like Kanaka Chitran has pressed into the sword-fight, the brothers of Grivan rise in anger with the sea-like host.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "nuance": "Which side Grivan's brothers belong to is not said; they are taken as Kanaka Chitran's side because they rise at the news of him.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kanaka_chitran_kin",
+     "form": "கேளவர்",
+     "line": 3
+    },
+    {
+     "id": "grivan_brothers",
+     "form": "கிரீவன்",
+     "line": 3
+    }
+   ],
+   "event": "News that Kanaka Chitran is in the fight brings his kin's host out in anger.",
+   "claims": []
+  },
+  "1391": {
+   "reading": "The foe that broke and withdrew earlier comes back to the field, and when the army's flood joins them it is like waves tossing on a roaring sea.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "nuance": "The simile (the army like the ocean's waves) is clear; who 'fled' and who 'returns' in line 1 is not.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "enemy_host",
+     "form": "வேற்றவர்",
+     "line": 1
+    }
+   ],
+   "event": "The enemy that had broken returns to the fight and the armies surge together.",
+   "claims": []
+  },
+  "1392": {
+   "reading": "The king's younger brothers, strong as diamond mountains, and the kings with their spear forces join, set on giving the foe grief, and burn into a hard battle.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "grivan_brothers",
+     "form": "கிளையவர்",
+     "line": 1
+    }
+   ],
+   "event": "The king's younger brothers and the kings join the battle in anger.",
+   "claims": []
+  },
+  "1393": {
+   "reading": "With eyes red the warriors point and rage and drive their elephants on, so that no space is left in the press and the armies stand mingled everywhere.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The two armies close and mingle with no space left between them.",
+   "claims": []
+  },
+  "1394": {
+   "reading": "Arrows go astray as feathers, bows as shafts, and the roaring chariot bands go astray like mountains while the elephants' great heads rock.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1395": {
+   "reading": "Jewelled shoulders snap, tusks are crushed, faces and many heads fall, the fearless run, and a flood of blood runs down.",
+   "concepts": [
+    "maram",
+    "saakkaadu"
+   ],
+   "nuance": "The carnage is set out as a spectacle; no one grieves it here, unlike Purananuru 62, where both armies die and nothing is left to win.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1396": {
+   "reading": "Yak-hair whisks float, white umbrellas roll like waves and rise like foam, and the elephants' trunks lie like banks along the flood.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1397": {
+   "reading": "Raw flesh rising in the blood and the mire sinks and the riders' rays of crowns show above it, so that the battlefield looks like an anthill.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "nuance": "Lines 2-3 are crowded with rare words and the exact picture is not certain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1398": {
+   "reading": "When warriors come and strike the backs of the riders with diamond clubs, the elephants' tusks break and fall like heaps of thorny screwpine petals.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Warriors strike down the riders with diamond clubs and the elephants' tusks fall.",
+   "claims": []
+  },
+  "1399": {
+   "reading": "Kings' jewelled arms hurl at the elephants, and the weapons vanish into their wide-eared faces like the moon going into a rain-cloud.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Kings strike the elephants with thrown weapons.",
+   "claims": []
+  },
+  "1400": {
+   "reading": "Among the kings' armies the shoulder-mountains, like peacocks entering a mountain pass, enter the elephants' great faces, the bundle of the dart.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "nuance": "The simile in lines 2-4 is hard and the last word is uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1401": {
+   "reading": "The kings twist their arms and the arrows flying at the elephants are like stars of the sky falling on the heads of tall mountains.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1402": {
+   "reading": "The heads of the elephant-drivers fall cut off with their hair and cords, like bees' honey comb and flowers tumbling on mountain flanks.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "nuance": "The reading of the second half rests on rare words.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1403": {
+   "reading": "The chariot-borne princes, with the charioteers driving by reins and goads and the shafts as bar, run the bright chariots through the sea of blood.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "charioteers",
+     "form": "பாகரா",
+     "line": 2
+    }
+   ],
+   "event": "Charioteers drive the chariots through the sea of blood.",
+   "claims": []
+  },
+  "1404": {
+   "reading": "Shields heaped up like crocodile backs in the blood water, with banners and poles, look like lotus stalks and the fish that gather round them.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1405": {
+   "reading": "Elephants fallen with arrows through their trunks lie in rows over the ground, like wounded mountains struck at the foot.",
+   "concepts": [
+    "maram",
+    "saakkaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1406": {
+   "reading": "Gold-braceleted arms with shields fall scattered in every direction, like the shaken moon dropping from a serpent's grasp.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1382,
+   "b": 1379,
+   "type": "develops",
+   "note": "1382 begins the speech that 1379 announces when Kanaka Chitran steps in and speaks.",
+   "teaches": "The announcement of a speech in 1379 only becomes a taunt of fear and manhood in the verses after it."
+  },
+  {
+   "a": 1387,
+   "b": 1390,
+   "type": "develops",
+   "note": "1387 shows an unnamed youth in ornaments; 1390 gives his name and sets his kin's host moving.",
+   "teaches": "The description of the youth and the report of his name together show that one hero is both the sight and the cause of the army's rising."
+  },
+  {
+   "a": 1390,
+   "b": 1392,
+   "type": "develops",
+   "note": "1390 raises the brothers' host; 1392 shows the younger brothers and kings joining the press.",
+   "teaches": "One hero's entry draws in kin after kin, so the battle spreads by loyalty rather than by order."
+  },
+  {
+   "a": 1383,
+   "b": "kural:969",
+   "type": "qualifies",
+   "note": "1383 asks whether the flesh body must break for honour's sake; Kural 969 says the honourable give up life when honour is lost.",
+   "teaches": "The epic's taunt tests the Kural's rule on men who run, showing it as a shaming speech to the living where the couplet states a private resolve.",
+   "gains": {
+    "a": "gains a measure for its taunt: honour is set above life as a standard",
+    "b": "gains a spoken use in battle, where the rule becomes a challenge hurled at cowards"
+   }
+  },
+  {
+   "a": 1386,
+   "b": "kural:774",
+   "type": "qualifies",
+   "note": "1386 has the hero push through slanting spears for honour; Kural 774 has the soldier laugh as he pulls a spear from his own body.",
+   "teaches": "Both link honour to the warrior's joy in danger, but the epic gives the motive as honour itself and the couplet as the pleasure of the wound.",
+   "gains": {
+    "a": "gains the wound-joy of the couplet, which its hero does not show: he is only seen advancing",
+    "b": "gains a stated motive, honour, which the couplet leaves unnamed"
+   }
+  },
+  {
+   "a": 1395,
+   "b": "purananuru:62",
+   "type": "tension",
+   "note": "1395 shows the flood of blood and broken tusks as a spectacle; Purananuru 62 asks what victory there can be when both armies have died.",
+   "teaches": "Set side by side, the epic dwells on the field's carnage without cost where the Sangam poem measures it by the widows and the empty claim to victory.",
+   "gains": {
+    "a": "gains the question it never asks: what is won when the field is full of the dead",
+    "b": "gains the epic's long image of the carnage, which the poem only sketches"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Many lines are corrupt or use rare words (1382-1384, 1397, 1400, 1402, 1404): the readings of these are hedged.",
+  "Verse 1395 has a stray comma in the first line."
+ ]
+}

@@ -1,0 +1,723 @@
+{
+ "chapter_no": 129,
+ "chapter_theme": "Civakan, having praised the Jina, strips off his ornaments and plucks his hair in the grove, the gods carry the hair to the milk sea, the god Sutanjanan praises him, his followers take the ascetic's vows, and the narrative turns to the Magadha king Senikan, who prepares to feast the Jina's feet.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, now renouncing"
+  },
+  {
+   "id": "devar",
+   "tamil": "தேவர்",
+   "role": "the gods who attend the Jina and carry off the hair"
+  },
+  {
+   "id": "bees",
+   "tamil": "சுரும்பினம்",
+   "role": "the bees of the grove, who speak after the tonsure"
+  },
+  {
+   "id": "sudanjanan",
+   "tamil": "சுதஞ்சணன்",
+   "role": "the god who was once the dog Civakan helped"
+  },
+  {
+   "id": "civakan_kin",
+   "tamil": "எல்லாரும்",
+   "role": "Civakan's kin and followers who renounce with him, as the story has it"
+  },
+  {
+   "id": "senikan",
+   "tamil": "சேணிகன்",
+   "role": "king of Magadha at Rajagriha who prepares a feast for the Jina's feet"
+  }
+ ],
+ "verses": {
+  "3024": {
+   "reading": "Having praised the Jina, a sea of virtues and the limit of all joy, Civakan rises from his seat resolved to renounce.",
+   "concepts": [
+    "thuravu",
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan hymns and bows to the Jina and rises, resolved to renounce.",
+   "claims": []
+  },
+  "3025": {
+   "reading": "Gods with crowns and women bow around the sage, and his golden city blooms like wishing trees tangled with love-vines.",
+   "concepts": [
+    "azhagu",
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "nuance": "The two kinds of onlooker, gods and women, are the verse's only actors; they bow and do nothing else, so it is scene-setting for the renunciation.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "devar",
+     "form": "யமரரு",
+     "line": 1
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "3026": {
+   "reading": "Circling the glorious golden city of the wise Jina, Civakan goes on to the painted grove like a mass of hair.",
+   "concepts": [
+    "vazhipaadu",
+    "azhagu",
+    "thuravu"
+   ],
+   "nuance": "'செல்வன்' as Civakan is read from the story; the verse names no one, and the hair simile in line 3 is hard to place.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "செல்வ",
+     "line": 4
+    }
+   ],
+   "event": "Civakan circles the Jina's city and reaches the pleasure grove where he will cast off his state.",
+   "claims": []
+  },
+  "3027": {
+   "reading": "Counting the sea-ringed world as a mere drop of milk, the spear-bearing king puts off his fine ornaments and fragrant garlands, as if Kama were stripping off his gear.",
+   "concepts": [
+    "thuravu",
+    "selvam",
+    "pattru"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "னரபதி",
+     "line": 2
+    }
+   ],
+   "event": "Civakan strips off his jewels and garlands.",
+   "claims": [
+    {
+     "claim": "the whole world is as nothing beside renunciation",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "3028": {
+   "reading": "He takes off the silk of royal state like a gem from its sheath, and stands like the sun risen from the milk sea, an earthly tilaka.",
+   "concepts": [
+    "thuravu",
+    "azhagu",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan removes his royal garments.",
+   "claims": []
+  },
+  "3029": {
+   "reading": "He puts off garlands, coloured cloth and gem-set ornaments as burdens he was tired of carrying, and shines like a wishing tree.",
+   "concepts": [
+    "thuravu",
+    "pattru",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan lays aside the last garlands and ornaments.",
+   "claims": [
+    {
+     "claim": "royal ornaments are burdens to the one who would renounce",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "3030": {
+   "reading": "Facing east, bright-chested, he seems a roaring lion shaking off its mane as he tears out his hair.",
+   "concepts": [
+    "thuravu",
+    "thavam",
+    "azhagu"
+   ],
+   "nuance": "The plucking of the hair (the Jain way of tonsure) is put by simile alone; the verb 'துறப்பது' carries both leaving and shedding.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan faces east and pulls out his hair.",
+   "claims": []
+  },
+  "3031": {
+   "reading": "Prince Civakan lets the plucked hair fall from his lotus hand into a white tray, like pouring dark rays into the moon.",
+   "concepts": [
+    "thuravu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "குமர",
+     "line": 2
+    }
+   ],
+   "event": "Civakan drops his plucked hair into a white tray.",
+   "claims": []
+  },
+  "3032": {
+   "reading": "The hair set aside, the bees of the grove, like a kalpaka tree dropping jewelled leaves at dawn, bow to the king and speak.",
+   "concepts": [
+    "thuravu",
+    "vazhipaadu",
+    "azhagu"
+   ],
+   "nuance": "Lines 1 to 3 are hard to parse; the bees as speakers are what the last line gives.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "bees",
+     "form": "சுரும்பினந்",
+     "line": 4
+    },
+    {
+     "id": "civakan",
+     "form": "காவலன்",
+     "line": 2
+    }
+   ],
+   "event": "The bees of the grove bow to the king after his tonsure and speak.",
+   "claims": []
+  },
+  "3033": {
+   "reading": "The bees complain that he has cut off his hair and garland, which they lived by, and ask where they are to go now.",
+   "concepts": [
+    "thuravu",
+    "pattru",
+    "yaakkai"
+   ],
+   "nuance": "The bees' lament is a poet's device for what the lord's former life lost; the verse does not argue against renunciation.",
+   "uncertain": true,
+   "speaker": {
+    "who": "bees",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "renunciation leaves behind those who lived by one's body and ornament",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "bees"
+    }
+   ]
+  },
+  "3034": {
+   "reading": "The bees, grieving, go with the garland's swarm and, bowing to the king's golden hair, circle it and depart.",
+   "concepts": [
+    "thuravu",
+    "vazhipaadu",
+    "azhagu"
+   ],
+   "nuance": "The sense of 'என்றன தேனினம்' and the second line is uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "bees",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The bees circle the cast-off hair and leave.",
+   "claims": []
+  },
+  "3035": {
+   "reading": "Gods lift the golden tray with its kalpaka-garland, cry 'homage to him who crossed the four seas,' and let it fall like the moon into the milk sea.",
+   "concepts": [
+    "thuravu",
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "nuance": "The cry 'நமோ' is the homage-word of the Jain mantra; the verse does not itself say which.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "devar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The gods carry off Civakan's hair, cry homage, and lay it in the milk sea.",
+   "claims": []
+  },
+  "3036": {
+   "reading": "Whoever whispers these unstrung-gem words into the ears of the dying becomes, at that hour, a deathless god adorned with pearls.",
+   "concepts": [
+    "mandhiram",
+    "piravi",
+    "vinai"
+   ],
+   "nuance": "'ஏவா இருந்த அடிகள்' is hard to place and the speaker may be a charge from the god Sutanjanan; the claim recalls verse 945, where Civakan gave the dog the mantra.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the mantra heard at the hour of death brings birth among the gods",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "3037": {
+   "reading": "The god, having praised Civakan the crest-jewel of an old line at his feet, enters his own shrine.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan",
+    "azhagu"
+   ],
+   "nuance": "The subject 'புக்கானே' is read as Sutanjanan from the next verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sudanjanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sutanjanan, after praising Civakan's feet, goes into his own palace.",
+   "claims": []
+  },
+  "3038": {
+   "reading": "Sutanjanan enters with his consorts like a crowd of golden lotus maidens, and sings and dances the virtue of the lord until his palace overflows like a sea of sweet milk.",
+   "concepts": [
+    "vazhipaadu",
+    "azhagu",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sudanjanan",
+     "form": "சுதஞ்சணனும்",
+     "line": 1
+    }
+   ],
+   "event": "Sutanjanan and his women sing and dance in praise of Civakan's virtue.",
+   "claims": []
+  },
+  "3039": {
+   "reading": "All of them, dropping attachment and hatred like a snake's skin, become ascetics, shed the milk of kindness on every life, and set a gem lamp so that darkness does not reach the mind.",
+   "concepts": [
+    "thuravu",
+    "arul",
+    "kollaamai",
+    "thavam"
+   ],
+   "nuance": "'எல்லாரும்' is the queens, kin and followers by the story; the verse does not list them.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_kin",
+     "form": "யெல்லாரு",
+     "line": 2
+    }
+   ],
+   "event": "Civakan's kin and followers renounce and become ascetics.",
+   "claims": [
+    {
+     "claim": "giving up attachment and hatred wholly makes the ascetic, whose kindness shields the mind from darkness",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "3040": {
+   "reading": "Following the lord like elephants, they reach the Jina's temple, praise his feet, bathe in the sea of virtue and enter like a right-turned conch among ordinary shells.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan",
+    "thavam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_kin",
+     "form": "தாமார்ந்த",
+     "line": 3
+    }
+   ],
+   "event": "They worship at the Jina's feet and enter the order.",
+   "claims": []
+  },
+  "3041": {
+   "reading": "As the lotus feet of the lord of the flowering pindi tree shine like a sun on thick dark, the poet turns to praise what then happened.",
+   "concepts": [
+    "iraivan",
+    "vazhipaadu",
+    "veedu"
+   ],
+   "nuance": "A link verse that turns from Civakan's renunciation to the closing account of the work.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "3042": {
+   "reading": "A land called Magadha lies where fish leap, mullai groves bloom and deer graze by paddy fields and cane.",
+   "concepts": [
+    "selvam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "3043": {
+   "reading": "Its chief city, Rajagriha, with rutting elephants, flag-hung mansions and bright streets, is said to be a match for the city of the king of the gods.",
+   "concepts": [
+    "selvam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "3044": {
+   "reading": "Senikan, whose crown and garlands flash like fire, orders the drum beaten for a feast in honour of the Jina's feet while kings throng.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan",
+    "vendhan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "senikan",
+     "form": "சேணிக",
+     "line": 2
+    }
+   ],
+   "event": "King Senikan has the drum proclaim a feast for the feet of the Jina, lord of the pindi tree.",
+   "claims": []
+  },
+  "3045": {
+   "reading": "The king, having cleaned his mouth with scented water, spits it out before going to worship.",
+   "concepts": [
+    "vazhipaadu",
+    "vendhan"
+   ],
+   "nuance": "The first two lines are corrupt as printed and cannot be parsed; the sense of rinsing the mouth rests on line 3 alone.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "senikan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Senikan rinses his mouth with scented water.",
+   "claims": []
+  },
+  "3046": {
+   "reading": "Dressed in milk-white silk, sandalled, garlanded and with his hair bound, he mounts a white elephant like a lotus mountain.",
+   "concepts": [
+    "vazhipaadu",
+    "vendhan",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "senikan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Senikan dresses and mounts his elephant to go to the Jina.",
+   "claims": []
+  },
+  "3047": {
+   "reading": "Caskets of fragrant flower-dust, loaded with bees, are carried as offerings, each like a wave of the clear sea.",
+   "concepts": [
+    "vazhipaadu",
+    "selvam",
+    "azhagu"
+   ],
+   "nuance": "The verse is a list of offerings carried; line 3's 'தலைபணித்தஞ்சும்' is hard to place.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "3048": {
+   "reading": "Caskets of sandal paste and ivory, as many as the stars in the sky, are likewise carried.",
+   "concepts": [
+    "vazhipaadu",
+    "selvam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 3036,
+   "b": 945,
+   "type": "develops",
+   "note": "3036 says the mantra heard at the hour of death brings birth among the gods; 945 shows Civakan whispering it to a dying dog.",
+   "teaches": "The general rule of 3036 and the dog's rebirth in 945 together show the mantra's promise kept, since the dog returns as Sutanjanan who here praises the one who gave it."
+  },
+  {
+   "a": 3037,
+   "b": 945,
+   "type": "develops",
+   "note": "In 3037 the god Sutanjanan praises Civakan's feet, whom in 945 he met as the dying dog taught the five mantras.",
+   "teaches": "The god's praise repays a debt the dog could not repay: what Civakan gave a dying animal returns as a god's worship."
+  },
+  {
+   "a": 3027,
+   "b": "kural:345",
+   "type": "qualifies",
+   "note": "3027 has the king take off jewels and garlands because the world is a drop of milk; Kural 345 says that for those cutting off births even the body is excess.",
+   "teaches": "The epic stages the stripping as a royal act step by step, while the Kural makes the body itself the last thing to be let go.",
+   "gains": {
+    "a": "the king's removal of ornaments is shown to be the first step of a series that reaches the body",
+    "b": "the Kural's rule that even the body is excess gets a worked case of a king who has things to lose"
+   }
+  },
+  {
+   "a": 3030,
+   "b": "naladiyar:53",
+   "type": "agrees",
+   "note": "3030 has Civakan pluck his hair like a lion shedding its mane; Naladiyar 53 says the best renounce home, youth, wealth and strength at once because none lasts.",
+   "teaches": "The epic does what the quatrain counsels with the same word for leaving, but shows a king with all of them to give up.",
+   "gains": {
+    "a": "the verse's act of tonsure gets the reason the Naladiyar gives, that none of these things lasts",
+    "b": "the quatrain's advice to renounce without delay gets a worked case at the height of a king's power"
+   }
+  },
+  {
+   "a": 3033,
+   "b": "siddhar:329",
+   "type": "tension",
+   "note": "In 3033 the bees mourn the cast-off hair and garland; Siddhar 329 lists a loincloth, a porch and leaves to eat as all one needs once ornament is gone.",
+   "teaches": "The Jain epic gives the loss of ornament a lament by those who lived on it, while the Siddhar counts it as pure gain.",
+   "gains": {
+    "a": "the bees' lament shows the cost of renunciation that the king's calm stripping leaves out",
+    "b": "the Siddhar's cheerful poverty is tested against those who lose by it"
+   }
+  },
+  {
+   "a": 3039,
+   "b": "kural:30",
+   "type": "agrees",
+   "note": "3039 has the ascetics shed the milk of kindness on every life; Kural 30 names the virtuous, clothed in cool kindness to every being, as the true brahmins.",
+   "teaches": "Both define the ascetic by his kindness to all lives, not by any robe or rite.",
+   "gains": {
+    "a": "the verse's milk of kindness gets a name for the sage whom it makes",
+    "b": "the Kural's kindness to every living thing gets the practice of an order that has put away hatred"
+   }
+  },
+  {
+   "a": 3039,
+   "b": "tirumanthiram:497",
+   "type": "tension",
+   "note": "3039 has the freed ascetic reach it by wholly dropping attachment and hatred; Tirumanthiram 497 has the siddhas free of the bonds by becoming Siva and destroying the five malas.",
+   "teaches": "The Jain epic makes release the result of the ascetic's own dropping of passions; the Saiva text has it come by becoming Siva.",
+   "gains": {
+    "a": "the verse's self-made release is set against a release by becoming the Lord",
+    "b": "the Tirumanthiram's grace-based freedom meets a school that gives no role to a god"
+   }
+  },
+  {
+   "a": 3044,
+   "b": "purananuru:134",
+   "type": "qualifies",
+   "note": "3044 has King Senikan call for a feast to the Jina's feet with kings gathered; Purananuru 134 has a patron who does not give to buy merit for the next birth.",
+   "teaches": "The king's feast here is made an act of worship whose fruit the next lines of the work will tell, and so the poem's patron who gives without bargaining is set against it.",
+   "gains": {
+    "a": "the king's feast to the Jina gets a foil in a patron who refuses to give for reward",
+    "b": "the poem's refusal of trade-giving meets a king whose gift is plainly an act of worship"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 3024, 3042-3044 and 3047-3048 were printed in eight half-lines and joined into four (FLAG repaired); the joins read correctly.",
+  "3045 lines 1-2 are corrupt as printed and cannot be parsed.",
+  "3032-3034 and 3036 are hard to parse in places; marked uncertain."
+ ]
+}

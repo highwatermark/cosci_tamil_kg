@@ -1,0 +1,780 @@
+{
+ "chapter_no": 59,
+ "chapter_theme": "The duel of Devasenan and Thazhalvegan ends in Suvarnaketu's arrival, a challenge to single combat, a shower of arrows and illusions, the fall of the golden-banner king, and Srisena's speech urging the kings not to flee.",
+ "cast": [
+  {
+   "id": "devasenan",
+   "tamil": "தேவசேனன்",
+   "role": "the king with the single sceptre who kills Thazhalvegan in 1332-1335"
+  },
+  {
+   "id": "thazhalvegan",
+   "tamil": "தழல்வேகன்",
+   "role": "the foe who falls to Devasenan's sword in 1335"
+  },
+  {
+   "id": "angaravegan",
+   "tamil": "அங்காரவேகன்",
+   "role": "an ally of Suvarnaketu who has died by a sword before 1336"
+  },
+  {
+   "id": "suvanakethu",
+   "tamil": "சுவணகேது",
+   "role": "the golden-banner king who arrives in 1335 and falls in 1350-1351"
+  },
+  {
+   "id": "srisenan",
+   "tamil": "சிரீசேனன்",
+   "role": "the warrior who laughs and advances in 1352 and is taken to speak 1354-1356"
+  },
+  {
+   "id": "uvana_bearer",
+   "tamil": "உவணமேந்தினான்",
+   "role": "the one who bears the Garuda banner and puts the challenge of 1339"
+  },
+  {
+   "id": "olimudiyan",
+   "tamil": "ஒளிமுடியான்",
+   "role": "the shining-crowned one who answers the challenge in 1340"
+  },
+  {
+   "id": "armies",
+   "tamil": "தானை",
+   "role": "the armies that clash in 1337-1338"
+  },
+  {
+   "id": "elephants",
+   "tamil": "யானை",
+   "role": "the two war elephants that fight in 1348"
+  },
+  {
+   "id": "spear_warrior",
+   "tamil": "வேற்படை வீரன்",
+   "role": "the spearman taken prisoner in 1353"
+  },
+  {
+   "id": "vidyadhara_kings",
+   "tamil": "விஞ்சை வேந்தர்",
+   "role": "the Vidyadhara kings mocked and addressed in 1354-1356"
+  }
+ ],
+ "verses": {
+  "1332": {
+   "reading": "Seeing the foe stand against him and fix his long spear on the hill-like mass, the champion hurls his own spear to destroy it; the fierce Vegan roars, and the warrior's sword cuts him down, so that he falls blazing.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "nuance": "Who throws the first spear and who is struck cannot be fixed from the verse; the next verses name Devasenan as the warrior and Thazhalvegan as the one who falls.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "devasenan",
+     "form": "மறவோன்",
+     "line": 2
+    }
+   ],
+   "event": "A spear is hurled and answered; the warrior's sword fells Vegan in the duel.",
+   "claims": []
+  },
+  "1333": {
+   "reading": "The warrior cuts away the shaft that is thrown at him, waits without throwing, and when the other raises a ghee-tempered spear and charges like thunder, he lops off the raised shoulder together with its spear.",
+   "concepts": [
+    "maram",
+    "anjaamai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "devasenan",
+     "form": "மறவோன்",
+     "line": 4
+    }
+   ],
+   "event": "The warrior cuts down the spear and the arm that raised it.",
+   "claims": []
+  },
+  "1334": {
+   "reading": "With the spear and one arm already fallen, the foe fights on with the other; the warrior, calling out that he does not mind what is in the enemy's hand, cuts him down and takes his life.",
+   "concepts": [
+    "maram",
+    "anjaamai"
+   ],
+   "nuance": "The speech is given as Devasenan's own words; the one who falls is named only in 1335.",
+   "speaker": {
+    "who": "devasenan",
+    "form": "தேவ சேனன்",
+    "line": 2,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "devasenan",
+     "form": "தேவ சேனன்",
+     "line": 2
+    },
+    {
+     "id": "thazhalvegan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Devasenan answers the one-armed foe's attack with his sword and kills him.",
+   "claims": []
+  },
+  "1335": {
+   "reading": "By the sword of Devasenan, the king of the single sceptre and kinsman of the Aimpal land, the dark Thazhalvegan falls; at that moment Suvarnaketu, his hair fragrant with incense, appears.",
+   "concepts": [
+    "sengol",
+    "maram"
+   ],
+   "nuance": "The verse names the sceptre of Devasenan as the cause of the kill, so the royal sceptre stands behind the sword.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "devasenan",
+     "form": "றேவ சேனன்",
+     "line": 2
+    },
+    {
+     "id": "thazhalvegan",
+     "form": "றழல்வேகன்",
+     "line": 3
+    },
+    {
+     "id": "suvanakethu",
+     "form": "சுவண கேது",
+     "line": 4
+    }
+   ],
+   "event": "Devasenan kills Thazhalvegan, and Suvarnaketu comes onto the field.",
+   "claims": []
+  },
+  "1336": {
+   "reading": "A speaker cries that Angaravegan has died by a bright sword and vows to make the hill and earth his own, or else, if he fails, to rule the world of the gods: one of the two is sure.",
+   "concepts": [
+    "maram",
+    "pugazh"
+   ],
+   "nuance": "The speaker is not named; Suvarnaketu is inferred from his arrival in 1335. The vow of earth or heaven is a warrior's vow, not a school's doctrine.",
+   "uncertain": true,
+   "speaker": {
+    "who": "suvanakethu",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "angaravegan",
+     "form": "வேக",
+     "line": 1
+    }
+   ],
+   "event": "A vow of victory or heaven is made over a fallen ally.",
+   "claims": [
+    {
+     "claim": "a warrior who falls or wins in battle gains either the earth or the world of the gods",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "suvanakethu"
+    }
+   ]
+  },
+  "1337": {
+   "reading": "On both sides elephants, golden chariots and horses crowd in until the earth groans, and the sea-coloured one's uncle, seeing the champion come before the host, flies into rage and goes forward.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "nuance": "Whether the sea-coloured one is Thivittan and the uncle Devasenan, or the reverse, is not fixed by the verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suvanakethu",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "devasenan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The armies close and the uncle of the sea-coloured one charges.",
+   "claims": []
+  },
+  "1338": {
+   "reading": "Horses meet horses, elephants meet elephants, chariots meet chariots, and the armies strike each other with young fighters against young fighters.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "nuance": "Pure battle description built on pairing like with like.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "armies",
+     "form": "தானை",
+     "line": 4
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1339": {
+   "reading": "A speaker tells the lord of a noble line that no army fights with elders; if one comes forward and another stands aside, can that be courage, he asks.",
+   "concepts": [
+    "maram",
+    "aram"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "uvana_bearer",
+    "form": "னுவண மேந்தினான்",
+    "line": 4,
+    "addressee": "suvanakethu"
+   },
+   "agents": [],
+   "event": "A challenge to settle the battle by one man against one is put.",
+   "claims": [
+    {
+     "claim": "it is not courage for one to stand aside while another comes forward to fight",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "uvana_bearer"
+    }
+   ]
+  },
+  "1340": {
+   "reading": "The shining-crowned one answers: even with the title of elder, those who fight will fight anyone who wants the earth; he asks which of the two of them such an act of standing aside suits.",
+   "concepts": [
+    "maram",
+    "vendhan"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "olimudiyan",
+    "form": "னொளிமுடியான்",
+    "line": 4,
+    "addressee": "uvana_bearer"
+   },
+   "agents": [],
+   "event": "A reply to the challenge, asking which of the two should fight.",
+   "claims": [
+    {
+     "claim": "those who fight for land fight anyone, elder or not",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "olimudiyan"
+    }
+   ]
+  },
+  "1341": {
+   "reading": "Agreeing that this should be the king's custom, he storms that he will fight, takes a bow in his left hand, drives his elephant forward, twangs the string and begins to shower arrows that make the whole sky tremble, like a cloud.",
+   "concepts": [
+    "maram",
+    "padai",
+    "arasu"
+   ],
+   "nuance": "The rule of the duel is called அரச நீதி; the verse treats it as a king's custom, not as a doctrine.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suvanakethu",
+     "form": "மழைபோல்வான்",
+     "line": 4
+    }
+   ],
+   "event": "The duel is accepted and the arrow-storm begins.",
+   "claims": [
+    {
+     "claim": "the king's custom permits settling by single fight",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "suvanakethu"
+    }
+   ]
+  },
+  "1342": {
+   "reading": "Arrows loosed from the string draw close, one hand to the ear, the other bent; no more is seen than this, for the sky is dark with arrows and the round earth is thick with them with no gap.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suvanakethu",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A dense shower of arrows fills the sky and earth.",
+   "claims": []
+  },
+  "1343": {
+   "reading": "The golden-banner king, famed in word, pours arrows like a shower of stones, and his bows form a great round shield on all sides, covering the spearman as a canopy.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "nuance": "The verse says the arrow-shower becomes a shield for the spear-bearer; who the spearman is must be taken from the next verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suvanakethu",
+     "form": "சுவண கேது",
+     "line": 1
+    }
+   ],
+   "event": "Suvarnaketu's arrows form a canopy over the spearman.",
+   "claims": []
+  },
+  "1344": {
+   "reading": "The wide round of bows turns the shower of arrows aside, they scatter to all quarters and fall; when the quiver is empty, the poet says, he turns to magic and makes ready to fight the strong-armed one with an illusion.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suvanakethu",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The arrows are turned aside and the quiver runs dry; magic begins.",
+   "claims": []
+  },
+  "1345": {
+   "reading": "The magic, bow and stand shrunk, and counting his remaining arrows, what did the king do? He calls out that the foe is wearied by the mad elephant and shoots the arrow named Naama.",
+   "concepts": [
+    "padai",
+    "vendhan"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "devasenan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king counts his arrows and shoots the arrow named Naama.",
+   "claims": []
+  },
+  "1346": {
+   "reading": "The arrow cuts down the bow, arrows and the illusion in the foe's hand, flies past as kings scatter, plunges in and hides in the earth with no feather showing.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suvanakethu",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The shot arrow cuts the bow and the illusion, then buries itself in the earth.",
+   "claims": []
+  },
+  "1347": {
+   "reading": "With his arrows, bow and illusion cut, the scorching foe, his mind in a rage, thinks to hurl rings, javelins, and golden discs at the champion all at once.",
+   "concepts": [
+    "maram",
+    "padai",
+    "vekuli"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suvanakethu",
+     "form": "வெய்யோன்",
+     "line": 2
+    }
+   ],
+   "event": "The foe, his magic cut, resolves to use rings, javelins and discs.",
+   "claims": []
+  },
+  "1348": {
+   "reading": "While these two fight, the two elephants charge each other, lift with their trunks, lock tusks, rain sparks from their eyes, gore and pull aside, and in earnest lift and strike one another.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "elephants",
+     "form": "யானை",
+     "line": 1
+    }
+   ],
+   "event": "Two elephants fight, goring and flinging each other.",
+   "claims": []
+  },
+  "1349": {
+   "reading": "The one with the swift Garuda banner, an elephant and a gleaming crown, rides in through a white-lotus pack of elephants, and as he passes, a man with sword and shield leaps at him; the brave king sees him and shoots arrows.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "nuance": "The one with the Garuda banner and the sword-bearer are not named; the elements follow the verse's own epithets.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "devasenan",
+     "form": "வயவேந்தன்",
+     "line": 4
+    },
+    {
+     "id": "suvanakethu",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A sword-and-shield man leaps at the Garuda-banner king, who shoots him.",
+   "claims": []
+  },
+  "1350": {
+   "reading": "The arrow passes through the sword, shield, armour, eye and chest as if driven in; the shining-speared one falls, his jewels, chain and wreath of flowers spilling.",
+   "concepts": [
+    "maram",
+    "kolai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suvanakethu",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The arrow pierces the warrior, who falls with his ornaments scattering.",
+   "claims": []
+  },
+  "1351": {
+   "reading": "As the golden-banner king falls, the great sea of the army, left without him, breaks off the fight and is crushed.",
+   "concepts": [
+    "maram",
+    "padai",
+    "kedu"
+   ],
+   "nuance": "The verse is in a short four-line form with half-lines, unlike the long lines before it.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "suvanakethu",
+     "form": "சுவண",
+     "line": 1
+    }
+   ],
+   "event": "With Suvarnaketu fallen, his army breaks and is routed.",
+   "claims": []
+  },
+  "1352": {
+   "reading": "On hearing the word that the victors stand and the others are down, Srisena, saying well, well and laughing, goes forward.",
+   "concepts": [
+    "maram",
+    "anjaamai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "srisenan",
+     "form": "சிரீசேனனே",
+     "line": 4
+    }
+   ],
+   "event": "Srisena laughs at the report and advances.",
+   "claims": []
+  },
+  "1353": {
+   "reading": "Like a churned dark sea mixing, the sword army broke, and the spear-bearing champion became a prisoner in the flood.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "nuance": "The verse is obscure; the water image and the captivity may belong to one figure or to two.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "spear_warrior",
+     "form": "வீரனே",
+     "line": 4
+    }
+   ],
+   "event": "The sword army is broken and a spearman is taken prisoner.",
+   "claims": []
+  },
+  "1354": {
+   "reading": "Saying that the Vidyadhara kings are the ones who fear, he laughs at the poisonous ones and speaks some small words.",
+   "concepts": [
+    "maram",
+    "nindhai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "srisenan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "A speaker mocks the Vidyadhara kings.",
+   "claims": []
+  },
+  "1355": {
+   "reading": "If sword-bearing warriors, with anklets tied on their feet, break and run, tomorrow the shamefaced women will not be ashamed to embrace their shoulders.",
+   "concepts": [
+    "naanam",
+    "maanam",
+    "maram"
+   ],
+   "nuance": "The speaker is taken to be Srisena from 1352 and 1354; the verse is a warrior's rebuke, which this chapter does not set against any school.",
+   "uncertain": true,
+   "speaker": {
+    "who": "srisenan",
+    "form": null,
+    "line": null,
+    "addressee": "vidyadhara_kings"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a warrior who flees brings shame so that even women shrink from him",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "srisenan"
+    }
+   ]
+  },
+  "1356": {
+   "reading": "The speaker tells the kings who fight beneath the umbrella on the hill that this body perishes for the sake of fame that stands for ever; do not turn away today.",
+   "concepts": [
+    "pugazh",
+    "nilaiyaamai",
+    "yaakkai"
+   ],
+   "nuance": "Spoken as a rebuke to the fleeing kings and not as a renunciant's teaching on the body; the body is spent for fame, not freed from.",
+   "uncertain": true,
+   "speaker": {
+    "who": "srisenan",
+    "form": null,
+    "line": null,
+    "addressee": "vidyadhara_kings"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the body perishes but fame stands for ever",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "srisenan"
+    },
+    {
+     "claim": "a warrior should give up the body for lasting fame rather than flee",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "srisenan"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": 1336,
+   "b": 1350,
+   "type": "develops",
+   "note": "The vow of 1336 to take the earth or the world of the gods is met when the arrow fells Suvarnaketu in 1350.",
+   "teaches": "The vow of earth or heaven is ended not by either prize but by an arrow, so the warrior's two-sided promise leaves out the third outcome of defeat."
+  },
+  {
+   "a": 1339,
+   "b": 1341,
+   "type": "develops",
+   "note": "1339 asks whether one may stand aside while another fights; 1341 takes the single fight as the king's custom.",
+   "teaches": "The duel is argued as a question of courage first and accepted as royal custom second, so the rule is made by the debate and not given in advance."
+  },
+  {
+   "a": 1345,
+   "b": 1346,
+   "type": "develops",
+   "note": "1345 names the arrow Naama; 1346 shows it cutting bow, arrows and illusion.",
+   "teaches": "The poet shows the arrow's effect on the magic itself, so the king's last arrow answers the illusion that had outlasted every earlier shot."
+  },
+  {
+   "a": 1350,
+   "b": 1351,
+   "type": "develops",
+   "note": "The fall of the spear-bearer in 1350 is followed by the fall of the golden banner and the rout in 1351.",
+   "teaches": "The army breaks at the moment its banner-holder falls, so the poet makes the champion's body the whole army's footing."
+  },
+  {
+   "a": 1355,
+   "b": "purananuru:278",
+   "type": "qualifies",
+   "note": "1355 warns that fleeing warriors will be shunned by women; Purananuru 278 shows a mother who swears to cut off the breast that fed a son she thinks has fled.",
+   "teaches": "The shame of flight is placed in the women's mouths in both, but the epic's speaker uses it to threaten, while the Sangam mother tests the rumour before she acts.",
+   "gains": {
+    "a": "The verse gains a case where the shame of flight is acted on by a woman with a sword, not left as a threat.",
+    "b": "The poem gains a speaker who turns the same dread of women's contempt into a rebuke before battle, not after it."
+   }
+  },
+  {
+   "a": 1356,
+   "b": "kural:233",
+   "type": "qualifies",
+   "note": "1356 spends the perishing body for fame that stands for ever; Kural 233 holds that nothing in the world stands undying except renown.",
+   "teaches": "The epic's call to a warrior to give up his body for fame puts into action the couplet's claim, and shows who is asked to pay for it.",
+   "gains": {
+    "a": "The verse gains the couplet's flat claim that only renown does not die, which it uses as its reason.",
+    "b": "The couplet gains a scene where the price of that renown is a warrior's body in the heat of a rout."
+   }
+  },
+  {
+   "a": 1356,
+   "b": "kural:780",
+   "type": "develops",
+   "note": "1356 asks warriors to stay and die for fame; Kural 780 calls such a death worth asking for if those who sustained one weep for it.",
+   "teaches": "The couplet makes the dead man's supporters the judge of the death, which the epic speaker, urging flight not to be done, leaves out.",
+   "gains": {
+    "a": "The verse gains the test that the death should be one whose supporters mourn it, not one spent for its own show.",
+    "b": "The couplet gains a speaker who uses the worth of such a death as a reason to stop a rout."
+   }
+  },
+  {
+   "a": 1349,
+   "b": "kural:774",
+   "type": "same_image",
+   "note": "In 1349-1350 the arrow goes through shield and chest and the warrior falls; Kural 774 has a warrior laugh as he pulls a spear from his own body.",
+   "teaches": "The couplet shows the wound as a thing a brave man shrugs off, and the epic shows the same pierced body falling, so wound-laughter and wound-falling mark two ends of one warrior ideal.",
+   "gains": {
+    "a": "The verse gains a standard by which the fall is read: a warrior is judged by how he takes the wound.",
+    "b": "The couplet gains a body that does fall, the other end of the laughing warrior."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 1332 to 1350 are printed in eight half-lines and were joined into four lines; verse 1341 had a stray pulli removed from line 4.",
+  "Verses 1351 to 1356 are short four-line verses in a different metre from those before them.",
+  "Speakers and the identity of the combatants are uncertain in 1336 to 1347 and 1349 to 1356, since the verses give epithets, not names."
+ ]
+}

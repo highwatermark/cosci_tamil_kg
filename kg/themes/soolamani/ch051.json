@@ -1,0 +1,874 @@
+{
+ "chapter_no": 51,
+ "chapter_theme": "The spy's news reaches Acuvakandan, the discus-lord of the Vidyadhara world, that Tivittan has killed the lion and that the maiden has gone to earth as wed; his rage breaks a diamond pillar and ends in boasts, and he summons his kings, who arrive trembling and wonder at whom the anger is aimed.",
+ "cast": [
+  {
+   "id": "otran",
+   "tamil": "ஒற்றன்",
+   "role": "the spy who comes down from the sky to the Vidyadhara king on earth"
+  },
+  {
+   "id": "vidyadhara_king",
+   "tamil": "விஞ்சை மன்னன்",
+   "role": "the Vidyadhara king on earth, the bride's father, addressed as lord of the chariot"
+  },
+  {
+   "id": "acuvakanthan",
+   "tamil": "அச்சுவ கண்டன்",
+   "role": "the rival discus-lord of the Vidyadhara world, whose rage fills the chapter"
+  },
+  {
+   "id": "arikethu",
+   "tamil": "அரிகேது",
+   "role": "the Vidyadhara who took the lion's shape and now reports the lion's death to the king"
+  },
+  {
+   "id": "arimanju",
+   "tamil": "மஞ்சு",
+   "role": "the minister who hides the news and sends Arikethu to tell it"
+  },
+  {
+   "id": "vidyadharas",
+   "tamil": "விஞ்சையர்",
+   "role": "the Vidyadharas of the sky and of the king's court"
+  },
+  {
+   "id": "kings_court",
+   "tamil": "அரசர்கள்",
+   "role": "the kings seated around Acuvakandan when Arikethu tells his tale"
+  },
+  {
+   "id": "kinsman",
+   "tamil": "தமருள் ஒருவன்",
+   "role": "one of the king's own people who brings word of the maiden and of Chakravalam"
+  },
+  {
+   "id": "heralds",
+   "tamil": "அறைந்தனர்",
+   "role": "the messengers sent with drums to summon the kings, named only by a plural verb"
+  },
+  {
+   "id": "summoned_kings",
+   "tamil": "அரசரெல்லாம்",
+   "role": "the kings called in by drum, who arrive and wonder at his anger"
+  }
+ ],
+ "verses": {
+  "1131": {
+   "reading": "The poet opens the sarukkam by saying he will tell how the lady of the lotus, Fortune, came to enter the lord who has both the woman who rules his life and Fortune on his mountain-broad chest.",
+   "concepts": [
+    "arasu",
+    "selvam"
+   ],
+   "nuance": "The sentence is compressed: இருவராவான் can mean the lord of two consorts or one who becomes a pair with Fortune, and the lord is not named in the verse; Tivittan is the natural reading from the story so far.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1132": {
+   "reading": "A spy comes down from the sky and bows to the Vidyadhara king who sits on earth, and his harsh word falls on the king's joy as a drop of poison leaps into one drinking from a sea.",
+   "concepts": [
+    "otru",
+    "thoothu"
+   ],
+   "nuance": "The first half-line (கண்மிசை கனிந்த) does not parse cleanly after the repair of the eight half-lines; the simile of the poison in the sea of joy is clear.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "otran",
+     "form": "ஒற்றன்",
+     "line": 1
+    },
+    {
+     "id": "vidyadhara_king",
+     "form": "மன்னனை",
+     "line": 4
+    }
+   ],
+   "event": "A spy descends from the sky and, after bowing, tells the Vidyadhara king on earth bad news.",
+   "claims": []
+  },
+  "1133": {
+   "reading": "The spy tells the lord of the chariot that the kings who rule the Vidyadhara world, with the discus-lord Acuvakandan, mean to come upon them as the seven seas would break over their shores.",
+   "concepts": [
+    "otru",
+    "pagai",
+    "padai"
+   ],
+   "speaker": {
+    "who": "otran",
+    "form": null,
+    "line": null,
+    "addressee": "vidyadhara_king"
+   },
+   "agents": [
+    {
+     "id": "otran",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "acuvakanthan",
+     "form": "அச்சுவ கண்டனோடும்",
+     "line": 2
+    }
+   ],
+   "event": "The spy reports that Acuvakandan and the Vidyadhara kings are planning to march against Tivittan's side.",
+   "claims": []
+  },
+  "1134": {
+   "reading": "The king answers that the kings may come or go, he knew it long ago, from the day the dark-hued one destroyed the mountain lion, and the spy begins to tell what befell the Vidyadhara world.",
+   "concepts": [
+    "arasu",
+    "kurippu",
+    "veruvu"
+   ],
+   "nuance": "The first three lines are the king's words and the fourth is the poet's; மணிவண்ணன் (the jewel-hued one) is taken as Tivittan, who is called dark-hued elsewhere.",
+   "speaker": {
+    "who": "vidyadhara_king",
+    "form": null,
+    "line": null,
+    "addressee": "otran"
+   },
+   "agents": [
+    {
+     "id": "vidyadhara_king",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "otran",
+     "form": "மொற்றனு",
+     "line": 4
+    }
+   ],
+   "event": "The Vidyadhara king shrugs off the threat, saying he foresaw it from the lion's death, and the spy starts his account.",
+   "claims": []
+  },
+  "1135": {
+   "reading": "The spy bids the lord hear how, when one man told the word that the younger bull had split the lion's mouth, the sky-dwellers were so frightened that their whole bodies shook.",
+   "concepts": [
+    "veruvu",
+    "vali"
+   ],
+   "speaker": {
+    "who": "otran",
+    "form": null,
+    "line": null,
+    "addressee": "vidyadhara_king"
+   },
+   "agents": [
+    {
+     "id": "vidyadharas",
+     "form": "சேணில் வாழ்வார்",
+     "line": 3
+    }
+   ],
+   "event": "The Vidyadharas of the sky tremble on hearing that Tivittan has split the lion's mouth.",
+   "claims": []
+  },
+  "1136": {
+   "reading": "The news of the lion's death spreads and scorches the whole Vidyadhara world; the minister Arimanju fears it, hides it for some days, then calls the one who had become the cunning lion and has him tell it to the glorious king.",
+   "concepts": [
+    "amaichu",
+    "soozhchi",
+    "veruvu"
+   ],
+   "nuance": "The voice may still be the spy's report. வஞ்சனைச் சீயம் is taken as Arikethu, who took the lion's shape at 696 and 697; 1137 names him.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arimanju",
+     "form": "மஞ்சு வென்பான்",
+     "line": 2
+    },
+    {
+     "id": "arikethu",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Arimanju, after hiding the news, calls Arikethu to report the lion's death to Acuvakandan.",
+   "claims": []
+  },
+  "1137": {
+   "reading": "While the discus-lord sits happily among kings in diamond jewels, Arikethu says he has something rare to tell and reports that a great marvel has befallen.",
+   "concepts": [
+    "arasu",
+    "otru",
+    "thoothu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": "ராழி யாள்வா",
+     "line": 2
+    },
+    {
+     "id": "arikethu",
+     "form": "வரிகேது",
+     "line": 3
+    },
+    {
+     "id": "kings_court",
+     "form": "ணரசர்கள்",
+     "line": 1
+    }
+   ],
+   "event": "Arikethu reports the lion's death to Acuvakandan before his kings.",
+   "claims": []
+  },
+  "1138": {
+   "reading": "As Arikethu tells of the black lion with curved white fangs, like a dark cloud gripping two crescents, Acuvakandan's tawny round eyes spit fire in answer.",
+   "concepts": [
+    "vekuli",
+    "maram"
+   ],
+   "nuance": "Line 3 is broken (அரியதங் கென்னை யென்னை) and may be Arikethu's cry of wonder; the sense of line 4, the king's fiery eyes, is clear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arikethu",
+     "form": "கேது",
+     "line": 3
+    },
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Acuvakandan's eyes blaze as Arikethu describes the lion and its end.",
+   "claims": []
+  },
+  "1139": {
+   "reading": "With his lip folded over his fangs he strikes a diamond pillar beside him, and like a thunderbolt on a great mountain the thick pillar's head shatters and dust rises as the earth shakes.",
+   "concepts": [
+    "vekuli",
+    "vali"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Acuvakandan smashes a diamond pillar with a blow.",
+   "claims": []
+  },
+  "1140": {
+   "reading": "The Vidyadharas see the pillar broken and shudder with bristling hair; the king, blazing again, turns on the Vidyadhara and says that he who calls treacherous men strong is greatly afraid.",
+   "concepts": [
+    "maanam",
+    "pagai",
+    "veruvu"
+   ],
+   "speaker": {
+    "who": "acuvakanthan",
+    "form": "னசனி யொப்பான்",
+    "line": 4,
+    "addressee": "arikethu"
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": "னசனி யொப்பான்",
+     "line": 4
+    },
+    {
+     "id": "vidyadharas",
+     "form": "விஞ்சைய ரதனை",
+     "line": 1
+    },
+    {
+     "id": "arikethu",
+     "form": "விஞ்சைய னவனை",
+     "line": 2
+    }
+   ],
+   "event": "Acuvakandan taunts Arikethu for fearing men.",
+   "claims": [
+    {
+     "claim": "men of deceitful mind are not truly strong, and calling them so is cowardice",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "acuvakanthan"
+    }
+   ]
+  },
+  "1141": {
+   "reading": "Acuvakandan says the strength of men on earth swells to a mountain only for the timid, and that to his own kind it counts for not even a leaf, his curved fangs flashing like two moons broken out of a pit.",
+   "concepts": [
+    "maanam",
+    "vali",
+    "pagai"
+   ],
+   "nuance": "The claim is the rival king's pride; the lion's death just told is already the evidence against it, but this verse itself does not answer it.",
+   "speaker": {
+    "who": "acuvakanthan",
+    "form": null,
+    "line": null,
+    "addressee": "arikethu"
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Acuvakandan scorns the strength of earth-men.",
+   "claims": [
+    {
+     "claim": "the strength of earth-dwelling men looks mountain-large only to the fearful and is nothing to the strong",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "acuvakanthan"
+    }
+   ]
+  },
+  "1142": {
+   "reading": "At his bracelet-bright hand the stones fall in a heap and a flame of victory-wrath flashes, he reddens and roars, the Vidyadharas lose heart, and Arikethu in his wet-flower garland is left with a mind that has taken on a smile.",
+   "concepts": [
+    "vekuli",
+    "veruvu",
+    "vali"
+   ],
+   "nuance": "Line 4 gives no reason for Arikethu's smile: forced courtesy, inward scorn or relief are all open.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vidyadharas",
+     "form": "விஞ்சைய ரஞ்ச",
+     "line": 3
+    },
+    {
+     "id": "arikethu",
+     "form": "கேது",
+     "line": 4
+    }
+   ],
+   "event": "Acuvakandan roars and breaks the stones while the Vidyadharas fear and Arikethu smiles inwardly.",
+   "claims": []
+  },
+  "1143": {
+   "reading": "Arikethu, mountain-shouldered, marvels within himself that the youth who tore the roaring lion-king in a snap, as one tears a lotus stalk, is the truly great one.",
+   "concepts": [
+    "perumai",
+    "maram",
+    "aanmai"
+   ],
+   "nuance": "The verse does not name who marvels; 1142 ends on Arikethu and 1144 has him join his hands, so he is read as the one thinking.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arikethu",
+     "form": "தோளான்",
+     "line": 4
+    }
+   ],
+   "event": "Arikethu privately admires Tivittan's feat.",
+   "claims": []
+  },
+  "1144": {
+   "reading": "He thinks there is no use standing against the king as he blazes today, since the king will understand only when he has seen the youth's strength himself; so he speaks fitting courtesies and stands before the lord of the hill with joined hands.",
+   "concepts": [
+    "panivu",
+    "adakkam",
+    "vekuli"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arikethu",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Arikethu holds back, flatters and stands with folded hands before Acuvakandan.",
+   "claims": []
+  },
+  "1145": {
+   "reading": "As Acuvakandan finishes his harsh command that the prince be brought with a shout even if war breaks out, a man of his own people comes and, trembling, tells of their state in Chakravalam and that the maiden has gone.",
+   "concepts": [
+    "otru",
+    "arasu",
+    "kaamam"
+   ],
+   "nuance": "நமரது நிலை (the state of our people) is left vague, and நங்கை போந்தது is read with the next verse as the maiden's going to Tivittan.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kinsman",
+     "form": "கொருவன்",
+     "line": 3
+    }
+   ],
+   "event": "A kinsman interrupts Acuvakandan's command to report the maiden's departure and the state of Chakravalam.",
+   "claims": []
+  },
+  "1146": {
+   "reading": "A man who has seen it says the maiden has come down to this earth as one wed; the king, crying that these burning words must stop, stops both ears, shakes his crown and settles on his anger.",
+   "concepts": [
+    "kaamam",
+    "vekuli",
+    "pochchaappu"
+   ],
+   "nuance": "The wording of the news (மணங்கோடு ஒப்பாள், கடிவினை நிலையும்) is compressed; the sense that the rival has the girl he once sought is taken from 306 and 348.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kinsman",
+    "form": "தொருவன்",
+    "line": 2,
+    "addressee": "acuvakanthan"
+   },
+   "agents": [
+    {
+     "id": "kinsman",
+     "form": "தொருவன்",
+     "line": 2
+    },
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Acuvakandan, told that the maiden is wedded on earth, stops his ears and resolves on wrath.",
+   "claims": []
+  },
+  "1147": {
+   "reading": "His rage swells: red fire seems to be born in his eyes, water streams from every hair-pore, he twists his fangs, bites his red lip and looks round so that all near him tremble, laughing like fire.",
+   "concepts": [
+    "vekuli",
+    "vali"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Acuvakandan's rage shows in his body.",
+   "claims": []
+  },
+  "1148": {
+   "reading": "He boasts that he might turn the mountains over and cast them into the sea to make it something else, or roll the world in his palm like a ball and set it beneath his much-adorned maiden.",
+   "concepts": [
+    "vali",
+    "perumai",
+    "maanam"
+   ],
+   "nuance": "Who the 'many-adorned maiden' is, the girl he wanted or another, is not stated.",
+   "speaker": {
+    "who": "acuvakanthan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Acuvakandan voices boasts of overturning mountains and rolling the world.",
+   "claims": []
+  },
+  "1149": {
+   "reading": "Still blazing, he says that if the kings' wrong is to be taken to heart he will gather the people of the gem-mountain world and only then decide what fits; the angry king glows like Death angry at another Death.",
+   "concepts": [
+    "vekuli",
+    "soozhchi",
+    "arasu"
+   ],
+   "nuance": "Which kings' wrong is meant by அரசர் தீமை is not fixed; it is read as the rival side's.",
+   "uncertain": true,
+   "speaker": {
+    "who": "acuvakanthan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Acuvakandan decides to assemble his people before deciding his course.",
+   "claims": []
+  },
+  "1150": {
+   "reading": "Blazing like fire, he sends messengers to every quarter; they proclaim the call by drum, and the kings, as if the world and the quarters had vanished, fly in with the sea-armies they have spread to cover the sky.",
+   "concepts": [
+    "thoothu",
+    "padai",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "heralds",
+     "form": "அறைந்தனர்",
+     "line": 2
+    },
+    {
+     "id": "summoned_kings",
+     "form": "மரச ரெல்லாம்",
+     "line": 2
+    }
+   ],
+   "event": "Acuvakandan's heralds summon the kings, who arrive with their armies.",
+   "claims": []
+  },
+  "1151": {
+   "reading": "The arrived kings bow at the sun-like lord's flower feet, and as they look at how the angry one sits, how his red eyes spat fire and how the struck diamond pillar lies burned, their hearts shake.",
+   "concepts": [
+    "veruvu",
+    "vekuli",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "summoned_kings",
+     "form": "மற்றவ ரடைந்து",
+     "line": 1
+    }
+   ],
+   "event": "The summoned kings see Acuvakandan's rage and the ruined pillar and tremble.",
+   "claims": []
+  },
+  "1152": {
+   "reading": "Seeing his red eyes spit fire and his brows knotted like lightning in a black cloud, never loosed from wrath like a fanged lion, the kings ask who the wretches are who are to die in the fire.",
+   "concepts": [
+    "vekuli",
+    "veruvu",
+    "kootru"
+   ],
+   "speaker": {
+    "who": "summoned_kings",
+    "form": "ரென்பார்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "summoned_kings",
+     "form": "ரென்பார்",
+     "line": 4
+    }
+   ],
+   "event": "The kings murmur about whom his anger will burn.",
+   "claims": []
+  },
+  "1153": {
+   "reading": "They ask whether he is enraged at Death, who roams the earth making creatures tremble, or at those who rule through the ages and who he thinks are above him, and what the root of this anger is in the sea-girt world.",
+   "concepts": [
+    "kootru",
+    "vekuli",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "summoned_kings",
+    "form": "னென்பார்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "summoned_kings",
+     "form": "னென்பார்",
+     "line": 4
+    }
+   ],
+   "event": "The kings guess whether his anger is aimed at Death or at the lords of the ages.",
+   "claims": []
+  },
+  "1154": {
+   "reading": "They ask whether he has begun to move the ages, make the world something else and sweep all living things into the churned sea, and whether the discus-lord's anger has any prey worth so great an end.",
+   "concepts": [
+    "kootru",
+    "vekuli",
+    "vali"
+   ],
+   "nuance": "Line 1 has a stray pulli repaired; the kings' picture of an age-ending flood is their guess, not the poet's.",
+   "speaker": {
+    "who": "summoned_kings",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "summoned_kings",
+     "form": "தென்பார்",
+     "line": 4
+    }
+   ],
+   "event": "The kings fear his anger portends the world's end.",
+   "claims": []
+  },
+  "1155": {
+   "reading": "They say the danavas and rakshasas have long been his refuge, flesh-eating men on earth are not even dust to him, the gods are not worth counting as his rivals, and ask who else he can be angry with.",
+   "concepts": [
+    "perumai",
+    "vali",
+    "vekuli"
+   ],
+   "nuance": "The courtiers' flattery is the rival camp's picture of him, set in the story before the war that tests it.",
+   "speaker": {
+    "who": "summoned_kings",
+    "form": "னென்பார்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "summoned_kings",
+     "form": "னென்பார்",
+     "line": 4
+    }
+   ],
+   "event": "The kings fail to find any rival for his anger.",
+   "claims": [
+    {
+     "claim": "no god, demon or man can stand against the discus-lord's might",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "summoned_kings"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": 1135,
+   "b": 707,
+   "type": "develops",
+   "note": "In 707 the prince swears to split the lion's mouth; in 1135 the spy tells that the younger bull has split it and the sky-dwellers shake.",
+   "teaches": "The vow's keeping is told from the enemy's side, where it is felt as terror rather than triumph."
+  },
+  {
+   "a": 1141,
+   "b": 704,
+   "type": "tension",
+   "note": "In 704 the envoys carry Acuvakandan's word that the little one cannot kill the lion if he knows his strength; in 1141 he says men's strength is only fear's exaggeration.",
+   "teaches": "The king's contempt for the prince is stated twice, once before the lion's death and once after, and the death in between has not moved it."
+  },
+  {
+   "a": 1147,
+   "b": 681,
+   "type": "same_image",
+   "note": "In 681 the prince's long-held anger kindles like a fire at the word tribute; in 1147 fire is born in Acuvakandan's eyes at the news of the marriage.",
+   "teaches": "The two rivals are drawn with the same image of rage as fire, so the coming war reads as two fires meeting."
+  },
+  {
+   "a": 1155,
+   "b": 770,
+   "type": "same_image",
+   "note": "In 770 a speaker says the lion was beyond even the gods and only Tivittan could destroy it; in 1155 the kings say no god or man can match Acuvakandan.",
+   "teaches": "Each side's champion is raised above the gods in speech, and the story means to test the two claims against one another."
+  },
+  {
+   "a": 1149,
+   "b": 620,
+   "type": "qualifies",
+   "note": "In 620 the poet says the king destroys in anger without weighing a matter; in 1149 he says he will gather his people and then decide.",
+   "teaches": "The king who was drawn as acting without thought now says he will consult, but only after his anger has already taken form."
+  },
+  {
+   "a": 1146,
+   "b": 306,
+   "type": "develops",
+   "note": "In 306 the counsellor argues that the girl is fit for Asvagriva, whose mind is set and whom the Vidyadharas fear; in 1146 the girl has gone down to earth as wed to another.",
+   "teaches": "The rejected suit explains why a marriage far away becomes a cause of war against the whole discus-lord's host."
+  },
+  {
+   "a": 1151,
+   "b": 1139,
+   "type": "develops",
+   "note": "In 1139 Acuvakandan shatters a diamond pillar with a blow; in 1151 the arriving kings see it lying burned and tremble.",
+   "teaches": "The broken pillar is left standing as the proof of rage that the summoned kings read before he speaks."
+  },
+  {
+   "a": 1136,
+   "b": 695,
+   "type": "develops",
+   "note": "In 695 the minister plans to enrage the prince into running into a lion; in 1136 the same minister hides the lion's death and has the cunning lion himself tell it.",
+   "teaches": "The minister who used the king's pride against the prince now shelters the king from news that wounds it."
+  },
+  {
+   "a": 1143,
+   "b": 723,
+   "type": "develops",
+   "note": "In 723 the prince seizes the lion by its fangs and tears it to strips; in 1143 Arikethu, who was set to play the lion at 697, marvels at that tearing.",
+   "teaches": "The one man in the rival court who has played the lion's part is the first to admire the youth who killed the real one."
+  },
+  {
+   "a": 1139,
+   "b": "kural:307",
+   "type": "qualifies",
+   "note": "1139 shows a king's blow breaking a diamond pillar; the couplet says the ruin of one who prizes anger is sure as a hand that strikes the ground.",
+   "teaches": "The blow succeeds first, so the couplet's ruin is shown as not yet in sight and the story has to come back to it.",
+   "gains": {
+    "a": "the epic's king strikes stone and the stone breaks, which shows how anger can seem to succeed before any cost appears",
+    "b": "the couplet's ground that never misses gets a case where the blow visibly lands and the ruin it promises is still withheld"
+   }
+  },
+  {
+   "a": 1136,
+   "b": "kural:389",
+   "type": "develops",
+   "note": "1136 shows a minister hiding the lion's death for days; the couplet says the world rests under a king who can bear a bitter word.",
+   "teaches": "The cost of a king who cannot bear bitter words falls first on his ministers, who delay the news and arrange who tells it.",
+   "gains": {
+    "a": "the epic gives a concrete delay and a go-between, where its king has only been called proud",
+    "b": "the couplet gets a named cost of an intolerant king, the stage-managed late report, which it states only as the world's shelter lost"
+   }
+  },
+  {
+   "a": 1144,
+   "b": "kural:691",
+   "type": "develops",
+   "note": "1144 shows Arikethu holding back his own view and speaking courtesies at the angry king's feet; the couplet says to stay neither far from nor near a quarrelsome king, as with a fire.",
+   "teaches": "A courtier's distance from an angry king can be a matter of what he withholds, not where he stands.",
+   "gains": {
+    "a": "the epic shows how a counsellor keeps from the fire by silence and flattery while holding his own admiration of the enemy",
+    "b": "the couplet's fire is made literal in a king whose eyes spit flame, and its measure of distance is shown to be one of speech"
+   }
+  },
+  {
+   "a": 1149,
+   "b": "kural:568",
+   "type": "qualifies",
+   "note": "1149 has Acuvakandan rage and boast, then say he will gather his people before deciding; the couplet faults a king who does not think with his circle and then lashes out.",
+   "teaches": "Consulting after the rage has set may offer none of the couplet's protection, because the order of anger and counsel is reversed.",
+   "gains": {
+    "a": "the epic's king says he will consult yet has already boasted and resolved, so counsel is shown arriving after the anger",
+    "b": "the couplet gets a case where consulting follows the outburst, which it does not consider"
+   }
+  },
+  {
+   "a": 1153,
+   "b": "naladiyar:21",
+   "type": "qualifies",
+   "note": "In 1153 the kings wonder whether the king rages at Death or at those who rule through the ages; Naladiyar 21 says even kings under umbrellas on elephants are carried off as dead.",
+   "teaches": "The courtiers imagine his anger reaching Death himself, the very pride the quatrain says Death gathers in.",
+   "gains": {
+    "a": "the epic's courtiers show how far a king's pride can be imagined to extend, to Death himself",
+    "b": "the quatrain's anonymous fallen kings get a living counterpart whose court takes him to be above their end"
+   }
+  },
+  {
+   "a": 1148,
+   "b": "tirumanthiram:1686",
+   "type": "develops",
+   "note": "In 1148 Acuvakandan boasts of turning mountains and rolling the world; Tirumanthiram 1686 lists burning with anger and boasting of greatness among what is not the nature of one near the Lord.",
+   "teaches": "The Saiva list names as marks of the unripe what the epic's rival king shows as his great-hearted rage.",
+   "gains": {
+    "a": "the epic's boast is classed by a Saiva text among the faults that mark a man far from the Lord, a reading the Jain narrator never states",
+    "b": "the list of faults gets a king in whom anger, scheming and boasting of greatness all appear together"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 1132, 1135, 1138, 1145, 1147, 1150 and 1152 were printed as eight half-lines and repaired to four lines.",
+  "Verse 1154 had a stray pulli after a vowel sign removed in line 1.",
+  "Verse 1138 line 3 and verse 1143 are broken or leave the subject unnamed; verse 1148 does not say who the adorned maiden is.",
+  "Verse 1136 may still be the spy's report rather than the poet's own voice."
+ ]
+}

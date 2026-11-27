@@ -1,0 +1,790 @@
+{
+ "chapter_no": 10,
+ "chapter_theme": "The queen mother and the king, reborn as a goat and a fish, are taken for the rite of the dead by the brahmins and by the king who is their son; the brahmins bless the dead with heaven as they eat him, and the kid, hearing it, recalls his birth, names his city and wealth as the fruit of his deed, and dies into another birth.",
+ "cast": [
+  {
+   "id": "chandramathi",
+   "tamil": "சந்திர மதி",
+   "role": "Asokan's queen and Yasodharan's mother, now reborn as a goat"
+  },
+  {
+   "id": "yasodharan",
+   "tamil": "யசோதரன்",
+   "role": "the dead king, reborn through peacock, boar, fish and ram-kid"
+  },
+  {
+   "id": "yasomathi",
+   "tamil": "இசோமதி",
+   "role": "his son, the king of Ujjayini, who hunts and orders the rite"
+  },
+  {
+   "id": "andanar",
+   "tamil": "அந்தணர்",
+   "role": "the brahmins who claim the flesh for the rite of the dead and bless it"
+  },
+  {
+   "id": "neethiyor",
+   "tamil": "சிலர்",
+   "role": "some who recite rules after the buffalo is given"
+  },
+  {
+   "id": "otrar",
+   "tamil": "ஒற்றர்",
+   "role": "the king's spies sent to fetch the kid"
+  },
+  {
+   "id": "rival_ram",
+   "tamil": "வன்றகர்",
+   "role": "a strong ram that kills the mating kid"
+  }
+ ],
+ "verses": {
+  "183": {
+   "reading": "The mother, once Chandramathi, passes through the births of a dog, a black snake and a crocodile caught in a long net, and after that death comes as a young female goat to the hamlet of the outcaste people.",
+   "concepts": [
+    "piravi",
+    "vinai",
+    "yaakkai"
+   ],
+   "nuance": "The verse puts a queen's soul in a string of animal births and ends in the lowest settlement; it gives no reason for the order of births here, and the earlier chapters' account of her deed is not repeated.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "chandramathi",
+     "form": "சந்தி ரம்மதி",
+     "line": 1
+    }
+   ],
+   "event": "Chandramathi, reborn as a dog, a snake and a crocodile, dies in a fisher's net and is born as a young goat in an outcaste hamlet.",
+   "claims": []
+  },
+  "184": {
+   "reading": "The other fish, the one that was once the king, is also caught in a long net, and the brahmins who came that day see it and tell the king it is a fit thing for the rite due to his kin.",
+   "concepts": [
+    "pulaal",
+    "aasaaram",
+    "vinai"
+   ],
+   "nuance": "The fish is Yasodharan, though the verse says only 'the other fish' (மற்றை மீன்); the reader has to carry the identity from the births in the earlier verses.",
+   "speaker": {
+    "who": "andanar",
+    "form": "மந்தணர்",
+    "line": 2,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "andanar",
+     "form": "மந்தணர்",
+     "line": 2
+    }
+   ],
+   "event": "Brahmins see a netted fish and tell King Yasomathi it suits the rite for his lineage.",
+   "claims": [
+    {
+     "claim": "a fish taken for the kin's rite is a fitting thing for the king to use",
+     "school": "vedic",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "andanar"
+    }
+   ]
+  },
+  "185": {
+   "reading": "The brahmins, whom the poet calls doers of evil, tell Yasomathi to eat one limb of the cut fish so that Yasodharan may prosper in heaven, which is hard to die into, and so that he may guard the earth.",
+   "concepts": [
+    "siraaththam",
+    "pulaal",
+    "marumai"
+   ],
+   "nuance": "The word தீவினையாளர் is the poet's own verdict on the speakers, set into the narration, not something the brahmins say of themselves; the work answers the claim through what the father is, not in this verse (see 196-197).",
+   "speaker": {
+    "who": "andanar",
+    "form": "தீவினை யாளரே",
+    "line": 4,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "andanar",
+     "form": "தீவினை யாளரே",
+     "line": 4
+    }
+   ],
+   "event": "The brahmins bid Yasomathi eat a piece of the fish to raise his dead father in heaven.",
+   "claims": [
+    {
+     "claim": "a son who eats the flesh given in the rite raises the dead father to prosper in heaven",
+     "school": "vedic",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "andanar"
+    }
+   ]
+  },
+  "186": {
+   "reading": "The life standing in the fish's throat departs; it understood the birth it had come from and, with the thought that eating after eating sets one up in heaven, it wasted away and died saying 'good, good'.",
+   "concepts": [
+    "piravi",
+    "yaakkai",
+    "thelivu"
+   ],
+   "nuance": "Lines 3 and 4 are hard: 'eating and eating to set one in heaven, good, good' can be the dying creature's bitter echo of the brahmins, or a mere report of what they said; I read it as the fish's own bitter echo, and the reading is provisional.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The fish remembers its former birth and dies as the rite proceeds.",
+   "claims": []
+  },
+  "187": {
+   "reading": "The king, after the births of peacock, boar and fish, ends in the womb of the goat of before, takes the form of a male, and when grown falls upon the very mother who bore him.",
+   "concepts": [
+    "piravi",
+    "vinai",
+    "kaamam"
+   ],
+   "nuance": "The verse says the birth ended in the womb of 'the goat of before' (முன்னை ஆடு); that this goat is Chandramathi of 183 is the reader's inference. The poet states the union flatly and does not comment on it; the work's own sin-and-fruit line is carried by the verses around it.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": "மன்னன்",
+     "line": 1
+    }
+   ],
+   "event": "Yasodharan, reborn as a ram-kid from the goat who was once his mother, grows and mates with her.",
+   "claims": []
+  },
+  "188": {
+   "reading": "While he enjoys the goodness of his mother, a strong ram, angered, charges at him; he runs, writhes and loses life, and joins the womb of the same mother through the seed.",
+   "concepts": [
+    "piravi",
+    "yaakkai",
+    "kaamam"
+   ],
+   "nuance": "'ஒரு வன்றகர்' is read as 'a certain strong ram'; if the edition's word division is 'ஒருவன் தகர்' (a man's ram) the sense is the same. How the dead creature 'joins' (சார்ந்தது) the womb is told in a word and not explained.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "rival_ram",
+     "form": "வன்றகர்",
+     "line": 2
+    }
+   ],
+   "event": "A rival ram attacks Yasodharan as he mates; he dies and enters his mother's womb again.",
+   "claims": []
+  },
+  "189": {
+   "reading": "The soul becomes a young kid in its mother's womb; when it has grown, the flower-crowned king, wishing to hunt, kills the mother goat with an arrow on his way back.",
+   "concepts": [
+    "kolai",
+    "piravi",
+    "vinai"
+   ],
+   "nuance": "Read with 183 and 187, the doe is Chandramathi, the king's own grandmother, and the kid is his own father; the verse itself names neither, and the hunting king does not know.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasomathi",
+     "form": "மன்னவன்",
+     "line": 2
+    }
+   ],
+   "event": "King Yasomathi, back from the hunt, shoots the pregnant goat dead.",
+   "claims": []
+  },
+  "190": {
+   "reading": "The lion-strong king takes pity on the kid that falls from the arrow, and orders the outcaste man to raise it and spare its feet hardship.",
+   "concepts": [
+    "arul",
+    "piravi",
+    "oozh"
+   ],
+   "nuance": "The kindness comes at the moment he has killed its mother, and the closing என்பவே marks it as the poet's report.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasomathi",
+     "form": "ஆளி மொய்ம்ப",
+     "line": 4
+    }
+   ],
+   "event": "The king has the orphaned kid saved and raised by an outcaste man.",
+   "claims": []
+  },
+  "191": {
+   "reading": "On another day, by his usual custom, the king goes on a great hunt, kills the many creatures that come to hand, and brings them back to offer, with a buffalo as the chief offering, to the goddess of war.",
+   "concepts": [
+    "kolai",
+    "bali",
+    "vazhipaadu"
+   ],
+   "nuance": "The poem calls the buffalo the king's victorious offering (கொற்றமிக்கு) in plain description; the reader sets it against what the king's father refused at 139.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasomathi",
+     "form": "மன்னவன்",
+     "line": 1
+    }
+   ],
+   "event": "King Yasomathi kills many animals in a hunt and offers a buffalo to the goddess.",
+   "claims": [
+    {
+     "claim": "a king may offer many killed creatures and a buffalo to the war goddess",
+     "school": "vedic",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "yasomathi"
+    }
+   ]
+  },
+  "192": {
+   "reading": "The brahmins say that the buffalo killed today would be good if it could be eaten in the rite for the dead, and the king gives it to them; then some others stand up and recite rules.",
+   "concepts": [
+    "siraaththam",
+    "pulaal",
+    "aasaaram"
+   ],
+   "nuance": "The rite is named சிராத்தம். The speaker of the rules (சிலர்) at line 4 is different from the brahmins who claimed the flesh.",
+   "speaker": {
+    "who": "andanar",
+    "form": "ரந்தணர்",
+    "line": 3,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "andanar",
+     "form": "ரந்தணர்",
+     "line": 3
+    },
+    {
+     "id": "yasomathi",
+     "form": "நல்கினான்",
+     "line": 3
+    }
+   ],
+   "event": "The brahmins claim the fresh buffalo for the rite and the king gives it; others begin to cite rules.",
+   "claims": [
+    {
+     "claim": "flesh of an animal killed today is good for the rite of the dead",
+     "school": "vedic",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "andanar"
+    }
+   ]
+  },
+  "193": {
+   "reading": "Some say that since the buffalo has dried in the sun and crows may have seized it, it is no good for the rite, and add that there is still another way.",
+   "concepts": [
+    "siraaththam",
+    "pulaal",
+    "aasaaram"
+   ],
+   "nuance": "Lines 1 and 2 are broken by the edition's word division; the sense 'dried in the sun, crows may have taken it' is a provisional reading.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neethiyor",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "neethiyor",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Rule-reciters object that the sun-dried flesh may be spoiled and offer another way.",
+   "claims": [
+    {
+     "claim": "flesh dried in the sun and open to crows is unfit for the rite",
+     "school": "vedic",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "neethiyor"
+    }
+   ]
+  },
+  "194": {
+   "reading": "They go on that even flesh named bad may be judged by choice, and that if good cooked rice is set before the ram's face the books of merit count it as proper; the rest of the line is obscure.",
+   "concepts": [
+    "siraaththam",
+    "pulaal",
+    "aasaaram"
+   ],
+   "nuance": "Lines 3 and 4 are very hard (பூதம், நாதனார், அத்துராதிகள்); what is firm is that the ram is chosen, and that is the turn to the kid of 190. The rest is a provisional reading.",
+   "uncertain": true,
+   "speaker": {
+    "who": "neethiyor",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "neethiyor",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The rule-reciters name the ram as the right victim, with rice laid before its face.",
+   "claims": [
+    {
+     "claim": "the ram, with rice set before its face, is the right offering by the books of merit",
+     "school": "vedic",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "neethiyor"
+    }
+   ]
+  },
+  "195": {
+   "reading": "On hearing this, the king says the kid they once sent off to be reared is the very thing, and sends spies to fetch it; the brahmins approve it as good.",
+   "concepts": [
+    "vinai",
+    "pulaal",
+    "oozh"
+   ],
+   "nuance": "The decisive moment is the king's own choice of the animal he had saved; the father is brought to the rite by the son's order, with no word of knowing.",
+   "speaker": {
+    "who": "yasomathi",
+    "form": "மன்னவன்",
+    "line": 1,
+    "addressee": "otrar"
+   },
+   "agents": [
+    {
+     "id": "yasomathi",
+     "form": "மன்னவன்",
+     "line": 1
+    },
+    {
+     "id": "otrar",
+     "form": "ரொற்றர்",
+     "line": 3
+    },
+    {
+     "id": "andanar",
+     "form": "ரந்தணர்",
+     "line": 4
+    }
+   ],
+   "event": "The king sends spies to bring back the reared ram-kid for the rite, and the brahmins approve.",
+   "claims": []
+  },
+  "196": {
+   "reading": "They eat what was brought, and the brahmins, learned in the four Vedas, bless the dead King Yasodharan to live in the world above together with his mother.",
+   "concepts": [
+    "siraaththam",
+    "pulaal",
+    "marumai"
+   ],
+   "nuance": "The claim is stated as the brahmins' belief and is turned in the next verse, where the eaten kid recognises himself as the blessed man; the verse itself does not mark the irony.",
+   "speaker": {
+    "who": "andanar",
+    "form": "நான்மறை யாளரே",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "andanar",
+     "form": "நான்மறை யாளரே",
+     "line": 4
+    }
+   ],
+   "event": "The brahmins eat the kid's flesh and bless the dead Yasodharan and his mother with life in heaven.",
+   "claims": [
+    {
+     "claim": "the rite of eating flesh sends the dead king and his mother to a good world",
+     "school": "vedic",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "andanar"
+    }
+   ]
+  },
+  "197": {
+   "reading": "Having heard that, the goat of that place remembers its birth and, grieving, understands that the one who rules here, King Yasomathi with his rutting elephant, is its own son.",
+   "concepts": [
+    "piravi",
+    "ninaivu",
+    "thelivu"
+   ],
+   "nuance": "The eaten animal recovers its memory of the former birth only as the rite is spoken over it; the Jain epic presents memory of births as a gift of understanding, not a punishment.",
+   "speaker": {
+    "who": "yasodharan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": "தக ராங்கது",
+     "line": 1
+    }
+   ],
+   "event": "Hearing the blessing, the kid recalls its birth and knows the king as its son.",
+   "claims": []
+  },
+  "198": {
+   "reading": "It sees that this is its own great city of Ujjayini, this its palace and treasure, these its servants, and that this is how it has come to be.",
+   "concepts": [
+    "nilaiyaamai",
+    "selvam",
+    "piravi"
+   ],
+   "nuance": "The repeated 'this is mine' (இது என்) in every line is the king's old claim of ownership, now said by a goat.",
+   "speaker": {
+    "who": "yasodharan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The kid surveys what was once its city, palace and servants.",
+   "claims": []
+  },
+  "199": {
+   "reading": "It says that these heaps of wealth it made, these rutting elephants it reared, these fine horses it bred, are what the deed it produced has now ripened into.",
+   "concepts": [
+    "vinai",
+    "oozh",
+    "selvam"
+   ],
+   "nuance": "The line is open: 'what I made is the fruit of the deed I produced' may mean the wealth was the fruit, or that the fallen state is; the verse sets both against each other. The voice is a kid's, and the work lets it stand.",
+   "uncertain": true,
+   "speaker": {
+    "who": "yasodharan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The kid names the wealth, elephants and horses it once made as the fruit of its own deed.",
+   "claims": [
+    {
+     "claim": "one's own deed, produced in a former birth, ripens into one's present state",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "yasodharan"
+    }
+   ]
+  },
+  "200": {
+   "reading": "It adds that these men are its gate guards, its army chiefs, its singers and dancers, its own attendants.",
+   "concepts": [
+    "selvam",
+    "nilaiyaamai",
+    "perumai"
+   ],
+   "speaker": {
+    "who": "yasodharan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "201": {
+   "reading": "It wonders what the poison-giving queen Amirthamathi, who gave it this end, is doing, whether she lives on with the hidden lover, and what became of her, since she is not here.",
+   "concepts": [
+    "vanjam",
+    "kaamam",
+    "vinai"
+   ],
+   "nuance": "Lines 3 and 4 are obscure; 'her lasting hidden one' (தன் மறையான்) is read as the secret lover of ch. 6 and the last clause is a provisional reading.",
+   "uncertain": true,
+   "speaker": {
+    "who": "yasodharan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The kid wonders what became of the wife who poisoned it.",
+   "claims": []
+  },
+  "202": {
+   "reading": "It asks whether this blamed king, with flesh-eaters such as these, who has made me suffer without cause, can send me to the heaven he wishes.",
+   "concepts": [
+    "siraaththam",
+    "pulaal",
+    "marumai"
+   ],
+   "nuance": "The claim is put as a doubtful question by the eaten man himself, who is the dead one the rite claims to lift; it answers the brahmins' claim of 185 and 196 from inside the story. The grammar of lines 1 to 3 is hard.",
+   "uncertain": true,
+   "speaker": {
+    "who": "yasodharan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a rite carried out with flesh-eaters does not lift the dead to heaven",
+     "school": "vedic",
+     "line": 3,
+     "stance": "refuted",
+     "voiced_by": "yasodharan"
+    }
+   ]
+  },
+  "203": {
+   "reading": "With what the foolish woman's poison left of him gone from this earth and city, he asks what he did and what he will do, and says he knows nothing.",
+   "concepts": [
+    "vinai",
+    "nilaiyaamai",
+    "piravi"
+   ],
+   "nuance": "The grief is without a way out; he does not yet link his state to the Jain account of deeds that the youths gave at 34 and 35.",
+   "speaker": {
+    "who": "yasodharan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "204": {
+   "reading": "As such thoughts rise, the great pain made by countless deeds presses on him; before he can look at his son's palace, the kid's life leaves and goes to be born again as an embryo.",
+   "concepts": [
+    "vinai",
+    "piravi",
+    "saakkaadu"
+   ],
+   "nuance": "The poet carries the claim by naming the pain as 'made by deeds' (வினையினாகிய); the next birth is stated in 'சினை' (an embryo or egg) and the shape it takes is left to the next verse.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The kid dies and is born again.",
+   "claims": [
+    {
+     "claim": "deeds without number make sharp suffering",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": "187",
+   "b": "183",
+   "type": "develops",
+   "note": "The goat born to the outcaste hamlet in 183 becomes the womb in which the king is reborn as her son.",
+   "teaches": "Reading 183 and 187 together shows that the doe of the births is the mother and the new kid her own husband's former son, a link neither verse states."
+  },
+  {
+   "a": "191",
+   "b": "139",
+   "type": "tension",
+   "note": "The son kills a buffalo as an offering to the goddess; the father refused to take one life to save his own.",
+   "teaches": "Setting the son's offering against the father's refusal shows that the king's act in 191 undoes the very standard his father kept at 139."
+  },
+  {
+   "a": "196",
+   "b": "139",
+   "type": "tension",
+   "note": "The kid eaten for the sake of heaven is the father who would not kill a kid even to save himself.",
+   "teaches": "The father who would not purchase his safety with a kid's life is bought into 'heaven' by his son as that kid, so the rite of 196 turns his own refusal into its victim."
+  },
+  {
+   "a": "196",
+   "b": "197",
+   "type": "tension",
+   "note": "The brahmins' blessing on the dead king is answered by the eaten animal's recognition of its own son and city.",
+   "teaches": "The pair shows the rite's claim failing in its own scene: the one blessed is the one eaten, and he knows it in 197."
+  },
+  {
+   "a": "196",
+   "b": "kural:259",
+   "type": "qualifies",
+   "note": "The couplet ranks not killing and eating above a thousand sacrifices; the epic's rite of the dead is a sacrifice whose flesh is the dead man.",
+   "teaches": "The couplet states the rule; the epic's story shows its cost to the rite's own beneficiaries, so that the rule is tested by a case where the dead eat the dead.",
+   "gains": {
+    "a": "The rite of 196 gets a stated standard against which a brahmin's flesh offering is shown to be worse than none.",
+    "b": "The couplet's contrast of ritual and abstention gets a story in which the sacrifice's own beneficiary is the victim."
+   }
+  },
+  {
+   "a": "192",
+   "b": "tirumanthiram:199",
+   "type": "tension",
+   "note": "The brahmins here claim a fresh-killed buffalo for the rite and eat it as holy; Tirumular names flesh-eaters as vile ones seized by Yama's messengers.",
+   "teaches": "The two texts judge the same act in opposite voices, one by merit and the other by hell, so the reader sees that the epic leaves the verdict to the story and not to a threat.",
+   "gains": {
+    "a": "The brahmins' claim of merit meets a Saiva text that calls the same eating base and punishable.",
+    "b": "The Tirumanthiram's threat of hell meets a case where the eaters think they earn heaven for the dead."
+   }
+  },
+  {
+   "a": "197",
+   "b": "siddhar:15",
+   "type": "develops",
+   "note": "The Siddhar wishes to see the lives he might kill as his own life; the kid in 197 is, literally, the king's own father.",
+   "teaches": "The Siddhar's stance of 'thinking of them as my own life' is a wish; the epic gives it a literal case, where the creature eaten is the eater's kin.",
+   "gains": {
+    "a": "The recognition in 197 gets a Siddhar's name for the habit of mind that would have stopped the rite.",
+    "b": "The Siddhar's 'as my own life' gets a story where it is literally true of the victim."
+   }
+  },
+  {
+   "a": "197",
+   "b": "naladiyar:16",
+   "type": "qualifies",
+   "note": "The lamb in the slaughter ground nibbles the garland unaware; the kid in 197 knows its fate and its son.",
+   "teaches": "The Naladiyar's lamb stands for the heedless; the epic sets beside it a lamb that knows, so the reader sees what the heedless have lost.",
+   "gains": {
+    "a": "The kid's awareness of 197 gets an older picture of the slaughter-ground lamb that is unaware.",
+    "b": "The lamb of the quatrain gets a counter-case in which the victim recollects who it was."
+   }
+  },
+  {
+   "a": "199",
+   "b": "naladiyar:101",
+   "type": "develops",
+   "note": "The quatrain says an old deed seeks out its doer as a calf seeks its mother; the kid in 199 is a king found by his own deeds.",
+   "teaches": "The quatrain gives the mechanism and the epic gives the case: the doer is found even across births and in a lower body, and still hears the deed named as its own.",
+   "gains": {
+    "a": "The kid's line 'the fruit of the deed I produced' gets an image for how the fruit finds the doer.",
+    "b": "The calf-and-mother image gets a doer who is a king reborn as a kid under his own son."
+   }
+  },
+  {
+   "a": "199",
+   "b": "35",
+   "type": "develops",
+   "note": "The youth at 35 describes beings spun by their deeds through births without number; the kid in 199 speaks from one of those births.",
+   "teaches": "The doctrine told by the youths in 35 is borne out in the king's own case, so that the reader sees it as lived and not as preached."
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "siraaththam",
+   "tamil": "சிராத்தம்",
+   "gloss": "the rite of feeding brahmins for the sake of the dead ancestors",
+   "label_source": "verses 192 and 193 use the word சிராத்தம்"
+  },
+  {
+   "id": "bali",
+   "tamil": "பலி",
+   "gloss": "an offering, especially of a life, made to a deity",
+   "label_source": "verse 191 uses the word பலி"
+  }
+ ],
+ "source_issues": [
+  "Verse 183 line 1 splits the name as 'சந்தி ரம்மதி' in the edition.",
+  "Verse 188 line 2 'ஒரு வன்றகர்' may be a different word division (ஒருவன் தகர்).",
+  "Verses 193 and 194 are obscure in lines 1-2 and 3-4; the sense is a provisional reading.",
+  "Verse 201 lines 3-4 and verse 202 are partly obscure.",
+  "Verse 204's சினை could be an embryo or an egg; the edition's division is kept."
+ ]
+}

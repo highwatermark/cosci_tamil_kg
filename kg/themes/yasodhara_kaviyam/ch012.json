@@ -1,0 +1,735 @@
+{
+ "chapter_no": 12,
+ "chapter_theme": "King Yasomathi sits in his garden among dancers, and his executioner Chandakarman meets the ascetic Akampanan, to whom he says he cut thieves and never found a soul; the sage answers with fire in wood and a conch's sound, names the final state of the soul, and gives the man of the world knowledge, faith and the vows as his way.",
+ "cast": [
+  {
+   "id": "yasomathi",
+   "tamil": "இசோமதி",
+   "role": "the king, here sitting in his garden"
+  },
+  {
+   "id": "pushpavali",
+   "tamil": "புட்பாவலி",
+   "role": "the king's queen"
+  },
+  {
+   "id": "dancers",
+   "tamil": "நாடக மகளிர்",
+   "role": "dancing women who play before the king"
+  },
+  {
+   "id": "chandakarman",
+   "tamil": "சண்டகருமன்",
+   "role": "the king's executioner of thieves, who questions the sage"
+  },
+  {
+   "id": "akampanan",
+   "tamil": "அகம்பனன்",
+   "role": "the ascetic who meditates in the grove and answers him"
+  }
+ ],
+ "verses": {
+  "227": {
+   "reading": "The king Yasomathi sits happily on a seat laid with young asoka blossoms in his garden, with his queen Pushpavali beside him, the creeper-like wife who clings to him.",
+   "concepts": [
+    "arasu",
+    "azhagu",
+    "inbam"
+   ],
+   "nuance": "The king's name is spelled விசோமதி with an initial வி in the edition; it is read as the Yasomathi of the earlier chapters (இசோமதி).",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasomathi",
+     "form": "விசோமதி",
+     "line": 1
+    },
+    {
+     "id": "pushpavali",
+     "form": "புட்பா வலி",
+     "line": 2
+    }
+   ],
+   "event": "King Yasomathi sits in his flower garden with Queen Pushpavali.",
+   "claims": []
+  },
+  "228": {
+   "reading": "Dancing women with ringed ankles and bangled arms bow and sway into view and dance, and the king, glad, drinks in their sweet song as though it were nectar.",
+   "concepts": [
+    "inbam",
+    "kaamam",
+    "azhagu"
+   ],
+   "nuance": "The scene is the pleasure of a king at ease; the next verse breaks it with the arrival of the ascetic's finder.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "dancers",
+     "form": "நாடக மகளி",
+     "line": 3
+    },
+    {
+     "id": "yasomathi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Dancers perform before the king, who delights in their song.",
+   "claims": []
+  },
+  "229": {
+   "reading": "While the king sits happy among his women, the king's punisher Chandakarman, who rids the land of thieves and such people, goes into the flowery grove and stands with folded hands before one he takes for a god.",
+   "concepts": [
+    "kolai",
+    "vazhipaadu",
+    "panivu"
+   ],
+   "nuance": "Chandakarman's office, one who removes the evil sort of people, is implied by the words அனைய சாதி களைபவன், which the verse does not explain; he is the king's executioner of thieves in the verses that follow.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "chandakarman",
+     "form": "சண்டமுற் கருமன்",
+     "line": 2
+    }
+   ],
+   "event": "Chandakarman goes into a flowering grove, sees a holy man and stands before him with folded hands.",
+   "claims": []
+  },
+  "230": {
+   "reading": "There sits alone to one side under an asoka tree the ascetic Akampanan, who has gone beyond himself in deep concentration and is now returning from it, and Chandakarman watches.",
+   "concepts": [
+    "thavam",
+    "yogam",
+    "thiyaanam"
+   ],
+   "nuance": "Lines 3 and 4 are hard: 'went beyond his own measure' and 'turned away his former thought and came back' are taken as the coming out of trance, which the Tamil does not say outright.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "akampanan",
+     "form": "கம்பன",
+     "line": 1
+    },
+    {
+     "id": "chandakarman",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Chandakarman sees the ascetic Akampanan rise out of deep meditation beneath an asoka tree.",
+   "claims": []
+  },
+  "231": {
+   "reading": "Chandakarman bows at the sage's feet, praises him, sits long with a quiet mind and asks him what final object it is that he has been fixing in his heart.",
+   "concepts": [
+    "panivu",
+    "thavam",
+    "arivu"
+   ],
+   "nuance": "Chandakarman is called the one with the sharp arrow (வடிநுனைப் பகழியான்), a hunter or killer by trade, who asks like a pupil.",
+   "speaker": {
+    "who": "chandakarman",
+    "form": "என்றான்",
+    "line": 4,
+    "addressee": "akampanan"
+   },
+   "agents": [
+    {
+     "id": "chandakarman",
+     "form": "வணங்கி",
+     "line": 1
+    }
+   ],
+   "event": "Chandakarman bows to Akampanan and asks what the sage's meditation was aimed at.",
+   "claims": []
+  },
+  "232": {
+   "reading": "The sage looks at him, judges him fit to grow in grace, and answers that the keen-witted point to the soul, whole in great knowledge, by the mind.",
+   "concepts": [
+    "uyir",
+    "arivu",
+    "manam"
+   ],
+   "nuance": "Whether the quoted words begin at line 2 or line 3 is not fixed by the edition; the sage's answer is taken from the closing lines.",
+   "uncertain": true,
+   "speaker": {
+    "who": "akampanan",
+    "form": "முனி",
+    "line": 1,
+    "addressee": "chandakarman"
+   },
+   "agents": [
+    {
+     "id": "akampanan",
+     "form": "முனி",
+     "line": 1
+    }
+   ],
+   "event": "Akampanan looks at Chandakarman and begins to teach him about the soul.",
+   "claims": [
+    {
+     "claim": "the soul is a being of great undivided knowledge, grasped by the mind",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "akampanan"
+    }
+   ]
+  },
+  "233": {
+   "reading": "The sage says that the freed soul has endless knowledge, vision, strength and bliss among its eight qualities, is eternal and without stain, and stands for ever at the top of the three worlds; that is the soul's own nature.",
+   "concepts": [
+    "veedu",
+    "uyir",
+    "aram"
+   ],
+   "nuance": "The verse names only the first four of the eight qualities. Nothing in it makes this state the gift of a god; the soul has it as its own nature once the stain is gone. The words திருமல நித்த மாகி are not sure.",
+   "uncertain": true,
+   "speaker": {
+    "who": "akampanan",
+    "form": "யென்றான்",
+    "line": 4,
+    "addressee": "chandakarman"
+   },
+   "agents": [
+    {
+     "id": "akampanan",
+     "form": "யென்றான்",
+     "line": 4
+    }
+   ],
+   "event": "Akampanan tells Chandakarman what the final state of the soul is.",
+   "claims": [
+    {
+     "claim": "the freed soul has eight qualities, among them endless knowledge, vision, strength and bliss, and is eternal",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "akampanan"
+    },
+    {
+     "claim": "the freed soul stands for ever at the top of the three worlds, free of anger and the like",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "akampanan"
+    }
+   ]
+  },
+  "234": {
+   "reading": "Chandakarman tells the sage that he has cut thieves in two by the king's order and nowhere found a life in them, which he takes for a great cheat.",
+   "concepts": [
+    "uyir",
+    "kolai",
+    "kalavu"
+   ],
+   "nuance": "No school is named here; the claim is the materialist one that what cannot be seen on cutting does not exist, put by a man whose trade is killing. The sage answers it in verses 236 to 238.",
+   "speaker": {
+    "who": "chandakarman",
+    "form": "மென்றான்",
+    "line": 4,
+    "addressee": "akampanan"
+   },
+   "agents": [
+    {
+     "id": "chandakarman",
+     "form": "கருமனு",
+     "line": 1
+    }
+   ],
+   "event": "Chandakarman tells of cutting condemned thieves in two and finding no soul.",
+   "claims": [
+    {
+     "claim": "a body cut in two shows no life, so no soul is to be found",
+     "school": "lokayata",
+     "line": 3,
+     "stance": "refuted",
+     "voiced_by": "chandakarman"
+    }
+   ]
+  },
+  "235": {
+   "reading": "He adds that he weighed another thief before and after killing and saw no difference, and that when a man was shut in a pit for some days to die he saw no way by which a life went out.",
+   "concepts": [
+    "uyir",
+    "kolai",
+    "aaraaydhal"
+   ],
+   "nuance": "The speaker is known from verse 234. The two tests are the man's own, the first by scale and the second by sealing; the sage's reply in 237 takes up the breath and the conch.",
+   "speaker": {
+    "who": "chandakarman",
+    "form": null,
+    "line": null,
+    "addressee": "akampanan"
+   },
+   "agents": [
+    {
+     "id": "chandakarman",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Chandakarman describes weighing a thief before and after killing him, and burying another in a pit.",
+   "claims": [
+    {
+     "claim": "the body weighs the same after death, so nothing has left it",
+     "school": "lokayata",
+     "line": 2,
+     "stance": "refuted",
+     "voiced_by": "chandakarman"
+    },
+    {
+     "claim": "a man shut in a pit shows no exit for a soul at death",
+     "school": "lokayata",
+     "line": 4,
+     "stance": "refuted",
+     "voiced_by": "chandakarman"
+    }
+   ]
+  },
+  "236": {
+   "reading": "The sage asks whether anyone ever found fire in a log by cutting it up, and says that when wood is rubbed on wood the fire appears and burns the wood; so what is real can show itself without being found by cutting.",
+   "concepts": [
+    "uyir",
+    "aaraaydhal",
+    "soozhchi"
+   ],
+   "nuance": "This is the first reply to 234. It argues from analogy and does not prove the soul, only that failure to find it by cutting proves nothing. Line 1 is hard.",
+   "uncertain": true,
+   "speaker": {
+    "who": "akampanan",
+    "form": null,
+    "line": null,
+    "addressee": "chandakarman"
+   },
+   "agents": [
+    {
+     "id": "akampanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Akampanan answers Chandakarman with the fire hidden in wood.",
+   "claims": [
+    {
+     "claim": "a thing absent from the cut pieces may still be real, as fire is in wood that shows it only when rubbed",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "akampanan"
+    }
+   ]
+  },
+  "237": {
+   "reading": "The sage says that when breath is blown into a conch and then gone, the one who blew it is as the blown breath was, and asks from where the sound that rang through the mansion came, when no cutting of the conch will show it.",
+   "concepts": [
+    "uyir",
+    "aaraaydhal",
+    "naadham"
+   ],
+   "nuance": "The second reply to 234 and 235. Lines 1 to 3 are corrupt or very compressed and the exact comparison is not fixed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "akampanan",
+    "form": null,
+    "line": null,
+    "addressee": "chandakarman"
+   },
+   "agents": [
+    {
+     "id": "akampanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Akampanan answers the weighing and the pit with the sound of a conch.",
+   "claims": [
+    {
+     "claim": "the weight of breath is not seen in the empty conch, so absence of a weight does not show that nothing left",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "akampanan"
+    }
+   ]
+  },
+  "238": {
+   "reading": "The sage ends that the soul has a nature of its own, distinct from the body, which because of cruel deeds sinks in suffering through the four states of rebirth; this is what those of right faith, knowledge and conduct know.",
+   "concepts": [
+    "uyir",
+    "vinai",
+    "piravi",
+    "thelivu"
+   ],
+   "nuance": "The earlier chapter gave the same teaching to the young ascetics at the place of killing (verses 49 and 50); here a murderer of thieves is the pupil.",
+   "speaker": {
+    "who": "akampanan",
+    "form": null,
+    "line": null,
+    "addressee": "chandakarman"
+   },
+   "agents": [
+    {
+     "id": "akampanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Akampanan concludes his answer on the soul.",
+   "claims": [
+    {
+     "claim": "the soul is by nature other than the body",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "akampanan"
+    },
+    {
+     "claim": "through evil deeds the soul is bound and wanders through the four states of birth",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "akampanan"
+    },
+    {
+     "claim": "the soul is known by those who hold right faith, knowledge and conduct",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "akampanan"
+    }
+   ]
+  },
+  "239": {
+   "reading": "Chandakarman says that the Agamas are great and hard for people like him, though easy for those lords of single mind, and asks what will serve for the final good of those who follow the stream of enjoyment.",
+   "concepts": [
+    "arivu",
+    "aram",
+    "payan"
+   ],
+   "nuance": "Chandakarman is called a man of mixed mind; his question is why the work gives a further, lighter way for householders in 240 to 244.",
+   "speaker": {
+    "who": "chandakarman",
+    "form": "என்றான்",
+    "line": 4,
+    "addressee": "akampanan"
+   },
+   "agents": [
+    {
+     "id": "chandakarman",
+     "form": "என்றான்",
+     "line": 4
+    }
+   ],
+   "event": "Chandakarman asks for a way to the final good that a man of the world can follow.",
+   "claims": [
+    {
+     "claim": "the scriptural way is hard for those who live by enjoyment and easy for single-minded ascetics",
+     "school": "jain",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "chandakarman"
+    }
+   ]
+  },
+  "240": {
+   "reading": "The sage says that for those who hold faultless knowledge, rare vision and rare conduct, all three, the fruit is heavenly joy, lordship in this world and the release named before.",
+   "concepts": [
+    "arivu",
+    "thelivu",
+    "ozhukkam",
+    "veedu"
+   ],
+   "nuance": "The three are not named in the verse by their later names; அறிவு, காட்சி and ஒழுக்கம் are 'knowledge', 'vision' and 'conduct'. Heaven and earthly power are given as by-fruits, with release the end.",
+   "speaker": {
+    "who": "akampanan",
+    "form": "யென்றான்",
+    "line": 4,
+    "addressee": "chandakarman"
+   },
+   "agents": [
+    {
+     "id": "akampanan",
+     "form": "யென்றான்",
+     "line": 4
+    }
+   ],
+   "event": "Akampanan names the three that lead to the final good.",
+   "claims": [
+    {
+     "claim": "right knowledge, faith and conduct together bring heaven, rule on earth and release",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "akampanan"
+    }
+   ]
+  },
+  "241": {
+   "reading": "The sage defines knowledge as knowing real things as they are, vision as the clarity and purity that rises within, and the third as firm joy in the great dharma of the Lord of the asoka.",
+   "concepts": [
+    "arivu",
+    "thelivu",
+    "meyyunarvu"
+   ],
+   "nuance": "The verse says 'these are its parts' of the third, joy in the Jina's dharma; knowledge and vision are given first. Lines 3 and 4 may name the same thing as faith or as a part of it.",
+   "uncertain": true,
+   "speaker": {
+    "who": "akampanan",
+    "form": "மென்றான்",
+    "line": 4,
+    "addressee": "chandakarman"
+   },
+   "agents": [
+    {
+     "id": "akampanan",
+     "form": "மென்றான்",
+     "line": 4
+    }
+   ],
+   "event": "Akampanan defines the first two of the three.",
+   "claims": [
+    {
+     "claim": "right knowledge is to know things as they are, and right faith is inner clarity and joy in the Jina's dharma",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "akampanan"
+    }
+   ]
+  },
+  "242": {
+   "reading": "The sage says that conduct is turning the mind away from killing, lying, stealing, going unthinkingly to another's wife and tight clinging to wealth, together with giving up flesh, honey and toddy.",
+   "concepts": [
+    "ozhukkam",
+    "kollaamai",
+    "pulaal",
+    "kal"
+   ],
+   "nuance": "புலைசு தேன்கள் is read as flesh, honey and toddy; the first word is odd.",
+   "uncertain": true,
+   "speaker": {
+    "who": "akampanan",
+    "form": "மென்றான்",
+    "line": 4,
+    "addressee": "chandakarman"
+   },
+   "agents": [
+    {
+     "id": "akampanan",
+     "form": "மென்றான்",
+     "line": 4
+    }
+   ],
+   "event": "Akampanan lists the five vows and three abstentions that make up conduct.",
+   "claims": [
+    {
+     "claim": "conduct is giving up killing, lying, stealing, desire for another's wife and clinging to wealth",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "akampanan"
+    },
+    {
+     "claim": "a follower also gives up flesh, honey and toddy",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "akampanan"
+    }
+   ]
+  },
+  "243": {
+   "reading": "The sage says what each vow yields: not killing brings lordship, truth a respected word, giving up theft great and priceless grace and standing.",
+   "concepts": [
+    "kollaamai",
+    "vaaimai",
+    "kalavu",
+    "payan"
+   ],
+   "nuance": "These are worldly rewards put to a man who has just said he cannot follow the ascetic's road; they are offered to him as householder fruit. Lines 3 and 4 are obscure.",
+   "uncertain": true,
+   "speaker": {
+    "who": "akampanan",
+    "form": null,
+    "line": null,
+    "addressee": "chandakarman"
+   },
+   "agents": [
+    {
+     "id": "akampanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Akampanan lists the rewards of the first three vows.",
+   "claims": [
+    {
+     "claim": "each vow brings its own worldly fruit: lordship for not killing, trusted speech for truth, great standing for not stealing",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "akampanan"
+    }
+   ]
+  },
+  "244": {
+   "reading": "The sage ends with the rest: wealth of clear mind and freedom from clinging to wealth, and giving up flesh, honey and toddy, which together bring radiance, beauty, victory, good birth and pleasure.",
+   "concepts": [
+    "ozhukkam",
+    "payan",
+    "selvam"
+   ],
+   "nuance": "The lines 1 and 2 do not say clearly which vow brings which fruit.",
+   "uncertain": true,
+   "speaker": {
+    "who": "akampanan",
+    "form": null,
+    "line": null,
+    "addressee": "chandakarman"
+   },
+   "agents": [
+    {
+     "id": "akampanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Akampanan lists the remaining rewards of the vows.",
+   "claims": [
+    {
+     "claim": "clear mind, non-clinging and abstaining from flesh, honey and toddy bring beauty, victory and good birth",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "akampanan"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": "236",
+   "b": "234",
+   "type": "tension",
+   "note": "The sage's rubbed-wood fire answers the executioner's claim that a cut body shows no life.",
+   "teaches": "The story gives the materialist test and the Jain reply side by side, so the reader sees the argument as one of method: whether failing to see a thing on cutting shows that it is absent."
+  },
+  {
+   "a": "237",
+   "b": "235",
+   "type": "qualifies",
+   "note": "The conch and its sound answer the weighing and the sealed pit that Chandakarman offered as proof.",
+   "teaches": "The reply meets each of his tests by name, so the reader sees that his proof depends on the soul being a thing that could be weighed or seen leaving."
+  },
+  {
+   "a": "238",
+   "b": "50",
+   "type": "develops",
+   "note": "Verse 50 gave the youths' knowledge of the soul as other than the body; verse 238 gives it to the man who denied it.",
+   "teaches": "The same doctrine, first held by ascetics going to their death, is now put as the answer to a man's disproof, so the reader learns it was framed to meet doubt as well as to console."
+  },
+  {
+   "a": "242",
+   "b": "54",
+   "type": "develops",
+   "note": "The fivefold conduct the first teachers spread in verse 54 is here set out as the five vows and three abstentions.",
+   "teaches": "The earlier verse only names the fivefold conduct, and this one says what the five are."
+  },
+  {
+   "a": "240",
+   "b": "neelakesi:116",
+   "type": "qualifies",
+   "note": "Both give knowledge, faith and conduct as the triple discipline; Neelakesi makes it a medicine against rebirth.",
+   "teaches": "Neelakesi's frame of birth as a disease for which the three are the cure is not in the Yasodhara, which rather lists their by-fruits of heaven and rule beside release."
+  },
+  {
+   "a": "241",
+   "b": "neelakesi:121",
+   "type": "qualifies",
+   "note": "Right faith as clarity and joy in the Jina's dharma here, against right faith as eight limbs and longing for the one with eight excellent things in Neelakesi.",
+   "teaches": "The two Jain epics define the same faith differently, one by an inward state and one by a list of acts and freedoms, so the reader sees how a school could teach one term more than one way."
+  },
+  {
+   "a": "242",
+   "b": "manimekalai:24:123-140",
+   "type": "qualifies",
+   "note": "The Jain five vows and flesh, honey and toddy against the Buddhist ten evil deeds of body, tongue and mind.",
+   "teaches": "The two lists overlap on killing, theft and lust and differ on the rest, so the reader sees which wrongs the two faiths treat as common ground and which they do not."
+  },
+  {
+   "a": "243",
+   "b": "kural:323",
+   "type": "develops",
+   "note": "Verse 243 puts truth after not killing and gives each its fruit, as the couplet puts not lying second to not killing.",
+   "teaches": "The couplet only names the order of the two virtues, and the verse adds what each is said to yield.",
+   "gains": {
+    "a": "A ranking that puts not killing before truth, which the verse's list of five leaves unspoken.",
+    "b": "A fruit in this life for each of the two virtues, which the couplet leaves out."
+   }
+  },
+  {
+   "a": "244",
+   "b": "kural:255",
+   "type": "qualifies",
+   "note": "The couplet says a life lives on not eating flesh and keeps hell closed; the verse adds worldly beauty, victory and birth.",
+   "teaches": "The couplet gives the reason for not eating flesh as fear of hell, and the verse gives a gain in this life, so the reader sees two arguments for one abstention.",
+   "gains": {
+    "a": "A reason for the flesh ban drawn from the Kural's own side, the closing of hell, which the verse lacks as it offers only rewards.",
+    "b": "A reward in this life, of radiance, beauty and victory, which the couplet lacks as it argues from fear of hell."
+   }
+  },
+  {
+   "a": "233",
+   "b": "tirumanthiram:444",
+   "type": "tension",
+   "note": "Both speak of eight qualities, here a freed soul's own, there the Lord's.",
+   "teaches": "The Jain verse makes the eight the property of any soul that is freed, and the Saiva verse makes them the Lord's, so the reader sees where the two schools put the one list.",
+   "gains": {
+    "a": "A rival owner of the eight qualities, a god, against which its claim that the freed soul has them unaided can be seen.",
+    "b": "A school that gives the eight to a freed soul with no god, which tests the Saiva claim that they are the Lord's."
+   }
+  },
+  {
+   "a": "237",
+   "b": "kural:340",
+   "type": "qualifies",
+   "note": "The couplet pictures the life as a lodger in the body; the verse argues it by the conch's sound.",
+   "teaches": "The couplet takes the soul's separateness for granted and the verse offers a reason for it, so the reader sees what the couplet's picture assumed.",
+   "gains": {
+    "a": "A figure, the lodger in a body, for the thing that the cut and weighed body fails to show.",
+    "b": "A reason for the lodger's separateness, which the couplet only assumes."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 227 spells the king's name விசோமதி; it is read as Yasomathi (இசோமதி) of chapter 5.",
+  "Verse 228 line 4 had a pulli after a vowel sign, repaired by the build.",
+  "Lines of 230 and 232 to 238 are obscure or compressed; speakers are taken from 231, 234 and 239.",
+  "Verse 242 and 244 give புலைசு தேன்கள் for the abstentions, read as flesh, honey and toddy."
+ ]
+}

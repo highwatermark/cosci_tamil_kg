@@ -1,0 +1,677 @@
+{
+ "chapter_no": 26,
+ "chapter_theme": "At the court of Podanam, the priest answers the Vidyadhara envoy's recital of his king's clan with the Podanam line, telling of the first lord's grace, of the ancestor who gave rule to his son and stood in meditation until anthills and creepers grew round him, and of the kevala he gained; then the king praises Marusi, names the envoy as the king's mouth, defers to the Vidyadhara king's wish, honours him and sends him back.",
+ "cast": [
+  {
+   "id": "purohitan",
+   "tamil": "புரோகிதன்",
+   "role": "the Podanam king's priest, who recites his lord's line"
+  },
+  {
+   "id": "maruci",
+   "tamil": "மருசி",
+   "role": "the learned Vidyadhara envoy, also called Kesaran"
+  },
+  {
+   "id": "pirasapathi",
+   "tamil": "மன்னவன்",
+   "role": "the Podanam king, father of the princes, who receives the envoy"
+  },
+  {
+   "id": "tolvali",
+   "tamil": "தோள்வலி",
+   "role": "the ancestor of the line who gave his rule to his son and stood in austerity on Kailasa"
+  },
+  {
+   "id": "mannar",
+   "tamil": "வேந்தர்",
+   "role": "the kings seated at the court who hear the two recitals"
+  }
+ ],
+ "verses": {
+  "550": {
+   "reading": "When the envoy has finished telling the line of his own king, the priest says he will give the line of his own lord in the same manner and begins.",
+   "concepts": [
+    "kudi",
+    "thoothu"
+   ],
+   "nuance": "The exchange of clan recitals before any message is delivered is the epic's way of staging the envoy's first test; the priest speaks 551 to 561.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "purohitan",
+     "form": "புரோகிதன்",
+     "line": 4
+    }
+   ],
+   "event": "Marusi ends the recital of his own clan, and the priest of Podanam begins to recite his king's clan in return.",
+   "claims": []
+  },
+  "551": {
+   "reading": "The speaker asks in a run of questions by whom the world was ordered, whom the gods bowed to, and whose is the whole world, leading into the account of the clan's first lord.",
+   "concepts": [
+    "iraivan",
+    "kudi"
+   ],
+   "nuance": "The verb for what the first lord did is 'created' (படைக்கப்பட்டது), but the lines are a rhetorical build-up and the next verse names only a descendant by his grace; the Jain tradition's first lord is a founder of the order of life, not a creator, and the verse does not decide this.",
+   "uncertain": true,
+   "speaker": {
+    "who": "purohitan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "552": {
+   "reading": "By the first lord's grace there came one named Tolvali, like an emerald hill, whose guarding of the world is the reason the learned still study the books of protection.",
+   "concepts": [
+    "arasu",
+    "kalvi",
+    "kudi"
+   ],
+   "nuance": "The verse names only 'arm-strength' (தோள்வலி); the traditional identification with Bahubali, the Podanam king of the old line, is not in the Tamil here.",
+   "speaker": {
+    "who": "purohitan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [
+    {
+     "id": "tolvali",
+     "form": "தோள்வலி",
+     "line": 2
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the books of protection are studied because kings must guard the world",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "purohitan"
+    }
+   ]
+  },
+  "553": {
+   "reading": "A king of the line gives the work of rule to his son, while kings crowd at his feet, and sets his mind on the sage's way.",
+   "concepts": [
+    "thuravu",
+    "arasu",
+    "thavam"
+   ],
+   "nuance": "Nothing in the line says the king of 553 is the same as Tolvali of 552, but 554 to 560 run on as one life and are read so.",
+   "speaker": {
+    "who": "purohitan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [
+    {
+     "id": "tolvali",
+     "form": "தோளான்",
+     "line": 1
+    }
+   ],
+   "event": "The king hands the kingship to his son and goes out to renounce.",
+   "claims": [
+    {
+     "claim": "a king may hand his rule to his son and leave for austerity",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "purohitan"
+    }
+   ]
+  },
+  "554": {
+   "reading": "On the Kailasa hill's brow the holy king puts off his gold ornaments and stands, his firm meditation shining as a red flame.",
+   "concepts": [
+    "thavam",
+    "thiyaanam",
+    "thuravu"
+   ],
+   "nuance": "Meditation is imaged as a fire, so the ornaments left behind and the flame within are set against each other.",
+   "speaker": {
+    "who": "purohitan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [
+    {
+     "id": "tolvali",
+     "form": "கிழவன்",
+     "line": 3
+    }
+   ],
+   "event": "The king strips off his ornaments and stands in meditation on Kailasa.",
+   "claims": []
+  },
+  "555": {
+   "reading": "As he stands, serpents rise from the anthills round his feet, creepers cover the earth-lord's body, and flocks of small birds nest in his hair.",
+   "concepts": [
+    "thavam",
+    "thiyaanam"
+   ],
+   "nuance": "The stillness is shown by what the forest does to the standing man; the verse says nothing of his pain.",
+   "speaker": {
+    "who": "purohitan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "556": {
+   "reading": "The speaker says that kings bow to his feet with snakes crawling over them, the vines clasp his arms as women would, and the forest birds sing for him, so that his state cannot be known.",
+   "concepts": [
+    "thavam",
+    "panivu",
+    "vazhipaadu"
+   ],
+   "nuance": "The kings who bow are the rank he left; the verse sets their worship beside creeper and serpent.",
+   "speaker": {
+    "who": "purohitan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the ascetic's state is beyond the understanding of the people who bow",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "purohitan"
+    }
+   ]
+  },
+  "557": {
+   "reading": "In the same tableau the garlands of bowing kings drip honey on his feet, and the speaker says that what is thought of those who watch this is hard to say.",
+   "concepts": [
+    "panivu",
+    "thavam"
+   ],
+   "nuance": "Line 3 reads the serpents as moving over the feet already crowded by kings' crowns, so the passage presses worship and the wild together.",
+   "speaker": {
+    "who": "purohitan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "558": {
+   "reading": "A king reclines, his chest fanned by women of fish-like eyes and red lips and bound by their flowered arms, in the setting of a garland-wearing sensual life.",
+   "concepts": [
+    "kaamam",
+    "pattru"
+   ],
+   "nuance": "Whether this describes the same king before he renounced or a separate sensual figure set beside the ascetic is not fixed by the Tamil.",
+   "uncertain": true,
+   "speaker": {
+    "who": "purohitan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "559": {
+   "reading": "The women free the king's chest of the garlands they had tied in love's quarrel, but the king's mind cannot let go of the vines of a girl called Madhavi.",
+   "concepts": [
+    "pattru",
+    "kaamam"
+   ],
+   "nuance": "The word மாதவி may be a flower (the madhavi creeper) or a girl's name; both readings keep the picture of a mind that will not release its hold, set against the clasp of 556.",
+   "uncertain": true,
+   "speaker": {
+    "who": "purohitan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "560": {
+   "reading": "He wears a set of jewels called his unfailing virtues, and when the gods of all the worlds hold a rich wedding he takes the lady called Kevala, the woman of rising light, into his soul and then becomes rare even to the gods.",
+   "concepts": [
+    "veedu",
+    "thuravu",
+    "arivu"
+   ],
+   "nuance": "The ornaments are his own virtues and the bride his own full knowledge; the marriage image of the poem is turned inward.",
+   "uncertain": true,
+   "speaker": {
+    "who": "purohitan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [
+    {
+     "id": "tolvali",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king takes in the maiden Kevala, whom the gods wed to him, and rises above the gods.",
+   "claims": [
+    {
+     "claim": "kevala, the soul's full knowledge, is gained by the renouncer and puts him above the gods",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "purohitan"
+    }
+   ]
+  },
+  "561": {
+   "reading": "The speaker says that the line of high clan guarded the world so that no reproach ever came on it, and that the man who stands honoured among them now carries the same greatness.",
+   "concepts": [
+    "kudi",
+    "arasu",
+    "pazhi"
+   ],
+   "nuance": "It is the priest's own king who is praised through descent; the unit is the end of his recital.",
+   "speaker": {
+    "who": "purohitan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "kings of the high line guard the world without a word of reproach",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "purohitan"
+    }
+   ]
+  },
+  "562": {
+   "reading": "Hearing both lines recited, the seated kings weep and praise them, and Marusi, called Kesaran, speaks before the moment fades.",
+   "concepts": [
+    "kudi",
+    "thoothu"
+   ],
+   "nuance": "The envoy is named Kesaran, the sky-goer, here, and Marusi elsewhere; the same man is meant.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "mannar",
+     "form": "வேந்தர்",
+     "line": 2
+    },
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The kings who hear the two clan recitals weep and praise them, and Marusi answers.",
+   "claims": []
+  },
+  "563": {
+   "reading": "The envoy says that so old a bond must be fitting, that the lord who did those rare deeds is the king of his own people and the grandson of Kacchan with the red spear, and that the old purana tells it.",
+   "concepts": [
+    "kudi",
+    "thoothu"
+   ],
+   "nuance": "Kacchan's name is traditionally that of the father of Nami and Vinami, the Vidyadhara line's founders; the verse itself gives only the name and the purana as authority.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Vidyadhara king descends from Kacchan and shares an old kinship with the Podanam line",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "564": {
+   "reading": "The king worships the lord, turns to the envoy and says no one is like him in knowing the world's books, the clans and the right order.",
+   "concepts": [
+    "thoothu",
+    "kalvi",
+    "kudi"
+   ],
+   "nuance": "This praise follows the recitals just given, so the praise is of his measured performance there.",
+   "speaker": {
+    "who": "pirasapathi",
+    "form": "மன்னவன்",
+    "line": 1,
+    "addressee": "maruci"
+   },
+   "agents": [
+    {
+     "id": "pirasapathi",
+     "form": "மன்னவன்",
+     "line": 1
+    }
+   ],
+   "event": "The king worships the Arhat and then praises the envoy's learning.",
+   "claims": []
+  },
+  "565": {
+   "reading": "The king says that ministers are his eyes, children his feet, strong shoulders his friends, spies his ears, and the book of knowledge his sense, and that for the voice of this machine called king the envoys are made.",
+   "concepts": [
+    "thoothu",
+    "arasu",
+    "amaichu"
+   ],
+   "nuance": "The king is called a machine (எந்திரம்); the limbs of the state are its parts, and the envoy is the mouth.",
+   "speaker": {
+    "who": "pirasapathi",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a king sees through ministers, hears through spies and speaks through envoys",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "pirasapathi"
+    }
+   ]
+  },
+  "566": {
+   "reading": "The king says the envoy has all the virtues the old book gives for ministers, that nothing in policy lies beyond the envoy's speech, and bids him show faultless virtues in sifted words when such a matter comes.",
+   "concepts": [
+    "thoothu",
+    "solvanmai",
+    "kalvi"
+   ],
+   "speaker": {
+    "who": "pirasapathi",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "no matter of policy is beyond what an envoy can say",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "pirasapathi"
+    }
+   ]
+  },
+  "567": {
+   "reading": "The king says that the Vidyadhara king, who has such a man, needs no other text, and that sending him as envoy shows that king counted Podanam as kin, so that the birth's fruit has been gained.",
+   "concepts": [
+    "thoothu",
+    "sutram",
+    "natpu"
+   ],
+   "nuance": "Line 1 to 2 can be read two ways, as praise of Marusi's king for owning him or as the Podanam king's own claim; the first is taken.",
+   "uncertain": true,
+   "speaker": {
+    "who": "pirasapathi",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "568": {
+   "reading": "The king says that with the envoy before him he needs no further words, that Marusi should speak what must be said, and that he has no thought but to live with the Vidyadhara king as his own eye.",
+   "concepts": [
+    "thoothu",
+    "natpu"
+   ],
+   "nuance": "The king puts himself in the Vidyadhara king's care in a way that reads as consent, but he does not yet name the girl or the match.",
+   "uncertain": true,
+   "speaker": {
+    "who": "pirasapathi",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "569": {
+   "reading": "The king says that if this is the Vidyadhara king's wish, the lord of the flower garland will know and grant it, since he himself has no standing to speak to that king.",
+   "concepts": [
+    "arasu",
+    "panivu"
+   ],
+   "nuance": "The king answers the envoy as if he were a servant of the Vidyadhara king, and the verse stops short of saying yes.",
+   "uncertain": true,
+   "speaker": {
+    "who": "pirasapathi",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "570": {
+   "reading": "Hearing this, the envoy bows at his feet and says he will walk round the feet of the king of the faultless sceptre and fame, and the garlanded king rewards him with a gold ornament and great honour.",
+   "concepts": [
+    "panivu",
+    "eegai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": "தூதன்",
+     "line": 1
+    },
+    {
+     "id": "pirasapathi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi bows and offers to circle the king's feet, and the king honours him with an ornament and gifts.",
+   "claims": []
+  },
+  "571": {
+   "reading": "The king keeps him there for the day, speaks to please him of the city's wealth, shows him the court plays, and orders that he be sent on next day with the elders, and Marusi bows and goes.",
+   "concepts": [
+    "virundhu",
+    "thoothu",
+    "selvam"
+   ],
+   "nuance": "The lines on the city and the plays are compressed; the guest-rite of a day's welcome is the likely sense.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pirasapathi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "maruci",
+     "form": "மருசி",
+     "line": 4
+    }
+   ],
+   "event": "The king detains Marusi a day with talk of the city and plays, arranges his sending off, and Marusi leaves.",
+   "claims": []
+  },
+  "572": {
+   "reading": "Marusi reaches the old, crowded city of a lotus-eyed king whose strong arms and war-elephants are praised, the city where those like the king live.",
+   "concepts": [
+    "thoothu",
+    "naadu"
+   ],
+   "nuance": "Lines 1 to 2 are garbled, so which city and which king are meant is a guess; it is read as the Vidyadhara king's city.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi arrives at the old city.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 565,
+   "b": 108,
+   "type": "develops",
+   "note": "Verse 108 foretells a man who can speak well coming down with a letter; here the Podanam king defines such a man as the voice of the king's body.",
+   "teaches": "The foretold messenger is received as a part of the other king's body, which the astrologer's foretelling alone does not say."
+  },
+  {
+   "a": 560,
+   "b": 354,
+   "type": "qualifies",
+   "note": "Verse 354 foretells that a youth who gives up rule will reach Indra's world for seventeen oceans of time; verse 560 has an ancestor who gives up rule take kevala and become rare even to the gods.",
+   "teaches": "The renunciations in the story do not end alike: one ancestor goes past the gods, while the foretold youth first holds a god's seat."
+  },
+  {
+   "a": 560,
+   "b": "tirumanthiram:494",
+   "type": "tension",
+   "note": "Verse 560 makes kevala the bride whom the renouncer takes and by which he rises above the gods; Tirumanthiram 494 calls those who have left the kevala state the Vijnanars, so the same word marks the state to be left.",
+   "teaches": "The same word names the goal in one text and the soul's first bound state in the other, so the two cannot be read on the same ladder.",
+   "gains": {
+    "a": "The epic's kevala gets a rival ranking in which the same name is the bottom, which the Jain verse does not know.",
+    "b": "The Tirumanthiram's kevala gains a case where the word is the highest prize, showing that the term's rank turns on the school."
+   }
+  },
+  {
+   "a": 556,
+   "b": "kural:268",
+   "type": "qualifies",
+   "note": "Verse 268 says all living beings worship the one who has gained his own self; verse 556 has kings bow at the feet of a man who left a throne and let creepers climb him.",
+   "teaches": "The beings who worship the self-conquered man in the story are kings and serpents together, as the couplet does not say.",
+   "gains": {
+    "a": "The scene gets a stated reason why even kings bow, which is his gaining of himself.",
+    "b": "The couplet gets a picture in which the worshippers are those whose rank he gave up."
+   }
+  },
+  {
+   "a": 561,
+   "b": "kural:388",
+   "type": "qualifies",
+   "note": "Kural 388 gives the title of lord to the king who guards by justice; verse 561 claims the title by a line of kings who never drew reproach.",
+   "teaches": "A clan's boast of blamelessness is a debt to be repaid in each reign, which the couplet makes clear and the priest's speech blurs.",
+   "gains": {
+    "a": "The priest's descent claim gets a test: the line holds only while each king keeps the guarding that the couplet names.",
+    "b": "The couplet gets a case where the title is claimed through ancestors, and its test then falls on the heir."
+   }
+  },
+  {
+   "a": 561,
+   "b": "naladiyar:195",
+   "type": "tension",
+   "note": "Verse 561 presents the king's greatness as coming from a high clan; Naladiyar 195 says good and bad caste are words and that austerity, learning and effort make a lineage, which holds if 'clan' is taken to mean birth alone.",
+   "teaches": "The priest's boast of birth is checked by the poem's own ancestor, who gained his rank by renouncing, which is the test the Naladiyar sets.",
+   "gains": {
+    "a": "The epic's clan pride gets a standard it passes only because its founder earned his place by austerity.",
+    "b": "The quatrain gets an example where a king's lineage is named as the cause of greatness, so its claim is against a living boast."
+   }
+  },
+  {
+   "a": 564,
+   "b": "kural:681",
+   "type": "develops",
+   "note": "Kural 681 names birth in an honourable family among the first qualities of an envoy; verse 564 comes after the two clan recitals and praises the envoy's knowledge of clans and customs.",
+   "teaches": "Family is not a bare boast but a thing the host tests by having the envoy recite and understand it.",
+   "gains": {
+    "a": "The recital of clans gets a reason: the envoy's family is a qualification the host checks before the message.",
+    "b": "The couplet gets a scene where family is spoken aloud and judged against the host's own."
+   }
+  },
+  {
+   "a": 566,
+   "b": "kural:685",
+   "type": "develops",
+   "note": "Kural 685 asks the envoy to speak in brief, remove offence and gain the good; verse 566 has the king bid the envoy show faultless virtues in sifted words.",
+   "teaches": "The host asks for the craft the couplet describes and does not simply receive it, so the envoy's skill is put on trial at the host's court.",
+   "gains": {
+    "a": "The king's bidding gets a named standard of speech: brief, free of offence and sifted.",
+    "b": "The couplet gets a scene where the host himself demands what it asks of the envoy."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "552, line 4: கற்ப தெல்ல்லம் has a doubled ல்; read as கற்பதெல்லாம்.",
+  "554, line 4: செங்சுடர் stands for செஞ்சுடர்.",
+  "564, line 2: ரன்னை stands for தன்னை.",
+  "572, lines 1 to 2: உலனல ... சலநல சடி என்பேர் is garbled and probably hides a name; the unit is flagged uncertain.",
+  "550 to 572: the speakers of 563 to 569 are fixed from the surrounding verses (549, 562, 564, 570), not from any line that names them."
+ ]
+}

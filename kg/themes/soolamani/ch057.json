@@ -1,0 +1,778 @@
+{
+ "chapter_no": 57,
+ "chapter_theme": "A field battle of champions in the political sarukkam: Arisenan challenges and is cut down, Gunasenan and Indiran fight and Gunasenan falls, then the archers Varasenan and Kamukan meet.",
+ "cast": [
+  {
+   "id": "arisenan",
+   "tamil": "அரிசேனன்",
+   "role": "the king's friend who proclaims his name and challenges the foe, and is cut down in a duel"
+  },
+  {
+   "id": "puli_ther_peyaran",
+   "tamil": "புலித்தேர்ப்பெயரன்",
+   "role": "the grandson of the tiger-chariot, who takes up Arisenan's challenge"
+  },
+  {
+   "id": "warriors",
+   "tamil": "வீரர்",
+   "role": "the fighters of both sides"
+  },
+  {
+   "id": "younger_youth",
+   "tamil": "மாற்கு இளைய காளை",
+   "role": "the younger youth who hews Arisenan"
+  },
+  {
+   "id": "azhalan_kin",
+   "tamil": "அழலான் மைத்துனன்",
+   "role": "the kinsman of Azhalan who strikes Arisenan"
+  },
+  {
+   "id": "gunasenan",
+   "tamil": "குணசேனன்",
+   "role": "the warrior who praises the discus-king and falls in the duel"
+  },
+  {
+   "id": "gunasenan_or_other",
+   "tamil": "அறியப்படாத வீரன்",
+   "role": "the unnamed warrior who rushes in after Arisenan's fall"
+  },
+  {
+   "id": "arukkakirthi",
+   "tamil": "அருக்ககீர்த்தி",
+   "role": "the king whose champions fight"
+  },
+  {
+   "id": "friend_of_king",
+   "tamil": "மன்னன் தோழன்",
+   "role": "a sword-bearing friend of the king, a golden-mountain figure"
+  },
+  {
+   "id": "indiran",
+   "tamil": "இந்திரன்",
+   "role": "a fighter by name Indiran"
+  },
+  {
+   "id": "onlookers",
+   "tamil": "அருகு நின்றவர்",
+   "role": "those standing near who flee"
+  },
+  {
+   "id": "varasenan",
+   "tamil": "வரசேனன்",
+   "role": "the archer of the opposing army who takes his bow after Gunasenan falls"
+  },
+  {
+   "id": "kamukan",
+   "tamil": "காமுகன்",
+   "role": "the learned archer who comes in answer to Varasenan"
+  }
+ ],
+ "verses": {
+  "1281": {
+   "reading": "Arrows lodged deep in their chests, the men pull them out by the root and read the lines written on the shafts, and some wander about asking who the named youth is, meaning to meet him.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "nuance": "The sense of the first half rests on a stanza that needed repair, and who is searched for is never named here.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "warriors",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Wounded men read the inscribed arrows and some go about searching for the archer.",
+   "claims": []
+  },
+  "1282": {
+   "reading": "A youth bearing a shield on the left and a bright sword on the right, with ornaments, garland and war-wreath, thrusts through the enemy ranks and comes on hard.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "nuance": "He is not named in the verse; 1283 gives the name Arisenan, and the identification is the next verse's.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arisenan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A shield-and-sword fighter forces his way through the enemy ranks.",
+   "claims": []
+  },
+  "1283": {
+   "reading": "The king's friend names himself Arisenan and calls on the enemy to meet him, saying that any who want to live should turn back rather than face his sword.",
+   "concepts": [
+    "maram",
+    "manam",
+    "pugazh"
+   ],
+   "nuance": "Line 3 is damaged (வல்லிருளிராயின்); the offer of retreat is read from the last line.",
+   "uncertain": true,
+   "speaker": {
+    "who": "arisenan",
+    "form": "வரி சேனனென",
+    "line": 2,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arisenan",
+     "form": "வரி சேனனென",
+     "line": 2
+    }
+   ],
+   "event": "Arisenan proclaims his name and challenges the foe to fight him or retreat.",
+   "claims": []
+  },
+  "1284": {
+   "reading": "Hearing his words, a rival lets the arrow he had chosen go back and, saying this one is no match for a mighty man, comes forward himself to fight, the grandson of the tiger-chariot.",
+   "concepts": [
+    "maram",
+    "maanam"
+   ],
+   "nuance": "The man called அருக்கன் in line 1 is hard to place; he may be the grandson himself or his charioteer, and the verse does not decide.",
+   "uncertain": true,
+   "speaker": {
+    "who": "puli_ther_peyaran",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "puli_ther_peyaran",
+     "form": "புலித்தேர்ப்பெயரன்",
+     "line": 4
+    }
+   ],
+   "event": "The tiger-chariot's grandson answers Arisenan's challenge and comes to fight him.",
+   "claims": []
+  },
+  "1285": {
+   "reading": "Taking up a gold-adorned shield and flashing his sword, he tells the newcomer that he has come where those who knew him not have fled, and warns him to turn back if he knows who he faces.",
+   "concepts": [
+    "maram",
+    "perumai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "puli_ther_peyaran",
+    "form": null,
+    "line": null,
+    "addressee": "arisenan"
+   },
+   "agents": [
+    {
+     "id": "puli_ther_peyaran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The challenged fighter takes up shield and sword and warns Arisenan off.",
+   "claims": []
+  },
+  "1286": {
+   "reading": "The answerer laughs that he knows him well, a man who stood gorging in a mansion while another youth won a maiden who was his by right, and asks whether any news is left that is still new.",
+   "concepts": [
+    "maram",
+    "kaamam",
+    "pugazh"
+   ],
+   "nuance": "The taunt turns the fight on a marriage, but which maiden is meant is not told here.",
+   "uncertain": true,
+   "speaker": {
+    "who": "arisenan",
+    "form": null,
+    "line": null,
+    "addressee": "puli_ther_peyaran"
+   },
+   "agents": [
+    {
+     "id": "arisenan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "One fighter mocks the other with the loss of a bride.",
+   "claims": []
+  },
+  "1287": {
+   "reading": "He goes on that maidens follow the way of whoever wins them, as the poets' treatise has it, and that a man ignorant of this is a fool, so ignorance of him is still his rival's fault.",
+   "concepts": [
+    "maram",
+    "pugazh",
+    "kaamam"
+   ],
+   "nuance": "The claim is a taunting speaker's, not a doctrine of the work. The word ஏடர் is hard and the sense of the last two lines is held loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "arisenan",
+    "form": null,
+    "line": null,
+    "addressee": "puli_ther_peyaran"
+   },
+   "agents": [
+    {
+     "id": "arisenan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The taunt is carried on: a maiden goes the way of the winner.",
+   "claims": [
+    {
+     "claim": "a maiden's inclination follows the youth who wins her, as the poets' treatises lay down",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "arisenan"
+    }
+   ]
+  },
+  "1288": {
+   "reading": "Rather than trade words, the warriors resolve to settle it by the light of their swords, glare with burning eyes, exult, and leap up and fight in the wide sky.",
+   "concepts": [
+    "maram",
+    "vekuli"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "warriors",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The two sides give up words, glare and spring into the air to fight.",
+   "claims": []
+  },
+  "1289": {
+   "reading": "Holding their gleaming jewelled shields and the others' red hair-crested ones, the fighters in the sky look like moon and sun in conjunction and like the moving spears.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "nuance": "The likeness to moon and sun is the poet's, and the last line leaves it unclear whether spears or men are compared.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "warriors",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The fighters hold shields aloft and fight in the sky.",
+   "claims": []
+  },
+  "1290": {
+   "reading": "With pearl strings and gems flashing, swords and shields throwing shadow, they wheel in circling steps like a wheel turning on water.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "warriors",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The fighters circle one another with swords and shields.",
+   "claims": []
+  },
+  "1291": {
+   "reading": "One thrusts with a spear while the other parries and turns back on his guard; since the onlookers see only the result and not the mind behind it, the poet asks what use is saying more.",
+   "concepts": [
+    "maram",
+    "kaalam"
+   ],
+   "nuance": "The poet breaks off the description and says it cannot be told fully.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "warriors",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "One fighter thrusts a spear and the other parries and recovers.",
+   "claims": []
+  },
+  "1292": {
+   "reading": "The clash of iron makes a smithy of the field, sparks scatter like rain of vengai flowers on the ground, and fiery flecks of blades flung at each other fill every quarter.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "warriors",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sparks fly from the clashing blades in every direction.",
+   "claims": []
+  },
+  "1293": {
+   "reading": "Arisenan, whose strength is crushing, sees the sword thrown at him from his foe's shoulder and covers his body with his jewelled shield like the cool moon seized by a planet.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arisenan",
+     "form": "வரி சேனன்",
+     "line": 1
+    }
+   ],
+   "event": "Arisenan guards himself with his shield against the thrown sword.",
+   "claims": []
+  },
+  "1294": {
+   "reading": "As Arisenan strikes first and draws back, a younger youth hews his garlanded chest in two, and the watchers in the sky carry him off and hide him.",
+   "concepts": [
+    "maram",
+    "kolai",
+    "kedu"
+   ],
+   "nuance": "The man who hits Arisenan is called only the younger one of the Mal (மாற்கு இளைய காளை); the verse gives no name.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arisenan",
+     "form": "வரி சேனன்",
+     "line": 1
+    },
+    {
+     "id": "younger_youth",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A younger youth cuts Arisenan down after Arisenan has struck and drawn back.",
+   "claims": []
+  },
+  "1295": {
+   "reading": "A kinsman of one called Azhalan strikes Arisenan, the army cries out, some are burnt, some flee and many are crushed, and the others rush up with raised spears and are cut down.",
+   "concepts": [
+    "maram",
+    "kolai",
+    "padai"
+   ],
+   "nuance": "The stanza was printed in eight half-lines and joined; the identity of the striker is not clear from the Tamil.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "azhalan_kin",
+     "form": "அழலான்பெய ரவன்",
+     "line": 1
+    },
+    {
+     "id": "warriors",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A kinsman of Azhalan strikes Arisenan and the armies clash, with many killed.",
+   "claims": []
+  },
+  "1296": {
+   "reading": "Seeing Arisenan fall, a warrior with swinging shield and flashing sword comes whirling, cuts through horses and elephants and chariots alike, and the poet asks whether any can match such circling skill.",
+   "concepts": [
+    "maram",
+    "padai",
+    "perumai"
+   ],
+   "nuance": "He is not named; line 4 is a rhetorical question on his skill, and the sense is held loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunasenan_or_other",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A warrior rushes in after Arisenan's fall and slays the cavalry and elephants.",
+   "claims": []
+  },
+  "1297": {
+   "reading": "Gunasenan, praising the discus-king's strength and wishing it to flourish, wears a mountain-tall crown and bright earrings and roams like a thundering cloud and a rutting elephant and a tiger.",
+   "concepts": [
+    "maram",
+    "pugazh",
+    "vendhan"
+   ],
+   "nuance": "The discus-king is Arukkakirthi in the verses that follow; here he is named only by the discus.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunasenan",
+     "form": "குணசேனனும்",
+     "line": 3
+    }
+   ],
+   "event": "Gunasenan goes about the field praising his king and fighting.",
+   "claims": []
+  },
+  "1298": {
+   "reading": "The spear-bearer who praises Arukkakirthi's greatness has a strength that burns the foe.",
+   "concepts": [
+    "maram",
+    "pugazh",
+    "vendhan"
+   ],
+   "nuance": "The warrior is not named in these four short lines; he is read as Gunasenan from the verse before.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunasenan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "arukkakirthi",
+     "form": "அருக்க கீர்த்தி",
+     "line": 1
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1299": {
+   "reading": "One like a golden mountain, bright sword in hand, the king's friend, comes thinking of the fight.",
+   "concepts": [
+    "maram",
+    "padai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "friend_of_king",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A sword-bearing friend of a king comes to fight.",
+   "claims": []
+  },
+  "1300": {
+   "reading": "The newcomer's name is Indiran, a rutting elephant in his drive and like Kaman in beauty.",
+   "concepts": [
+    "maram",
+    "azhagu"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "indiran",
+     "form": "ரிந்தி ரன்",
+     "line": 2
+    }
+   ],
+   "event": "The newcomer is named Indiran.",
+   "claims": []
+  },
+  "1301": {
+   "reading": "As the two meet to fight, those standing near fear and run away.",
+   "concepts": [
+    "maram",
+    "acham"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunasenan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "indiran",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "onlookers",
+     "form": "அருகு நின்றவர்",
+     "line": 3
+    }
+   ],
+   "event": "The two fighters face each other and the bystanders flee.",
+   "claims": []
+  },
+  "1302": {
+   "reading": "One strikes off one of the other's shoulders with a sword, and the other with his remaining shoulder hurls his sword back.",
+   "concepts": [
+    "maram",
+    "kolai"
+   ],
+   "nuance": "The four short lines do not say which of the two loses the shoulder.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "gunasenan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "indiran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "One fighter loses a shoulder to the sword and the other throws his sword in return.",
+   "claims": []
+  },
+  "1304": {
+   "reading": "On seeing Gunasenan fall, Varasenan, fiercer than Death and delighted at the word of his comrade, takes up his bow and arrows and stands taunting, bidding the foe to come and match him.",
+   "concepts": [
+    "maram",
+    "vekuli",
+    "pagai"
+   ],
+   "nuance": "Who is addressed by வருக is not named in this verse; the next verse gives the answering archer.",
+   "uncertain": true,
+   "speaker": {
+    "who": "varasenan",
+    "form": null,
+    "line": null,
+    "addressee": "kamukan"
+   },
+   "agents": [
+    {
+     "id": "varasenan",
+     "form": "வரசேனன்",
+     "line": 4
+    }
+   ],
+   "event": "Varasenan, seeing Gunasenan fall, takes his bow and challenges the enemy.",
+   "claims": []
+  },
+  "1305": {
+   "reading": "Hearing of him, Kamukan, a youth like a rutting elephant who has learned all the arts, praises the king Arukkakirthi's qualities and comes up bearing bow and arrow.",
+   "concepts": [
+    "maram",
+    "kalvi",
+    "vendhan"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kamukan",
+     "form": "காமுக னென்னும்",
+     "line": 3
+    },
+    {
+     "id": "arukkakirthi",
+     "form": "னருக்க கீர்த்தி",
+     "line": 2
+    }
+   ],
+   "event": "Kamukan arrives with bow and arrow to meet Varasenan.",
+   "claims": []
+  },
+  "1306": {
+   "reading": "One draws his bow and showers arrows like rain, the strong youth wards them off before they reach him, and with an arrow of his own makes the archer reel and fall.",
+   "concepts": [
+    "maram",
+    "padai",
+    "kalvi"
+   ],
+   "nuance": "Which side falls is not named; it is read from 'the youth turned his arrows' that Kamukan wards off Varasenan's shafts.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "varasenan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kamukan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "An archer's volley is turned aside and the archer is shot down.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1283,
+   "b": 1294,
+   "type": "tension",
+   "note": "1283 has Arisenan boast that none can stand against his sword; 1294 has a younger youth cut him in two as he draws back.",
+   "teaches": "The poet puts the boast and the death a few verses apart, so a name proclaimed before the fight is shown to guarantee nothing in it."
+  },
+  {
+   "a": 1297,
+   "b": 1304,
+   "type": "tension",
+   "note": "1297 shows Gunasenan roaming like a rutting elephant and tiger; 1304 opens on his falling.",
+   "teaches": "The praise of Gunasenan's strength is cancelled by his own fall, which turns the new champion's boast into the next test."
+  },
+  {
+   "a": 1305,
+   "b": 1306,
+   "type": "develops",
+   "note": "1305 brings Kamukan, learned in all arts, with bow and arrow; 1306 shows him ward off the volley and shoot his foe.",
+   "teaches": "The note that he had learned all the arts is made good in the next verse, so the learning is shown as a fighter's skill."
+  },
+  {
+   "a": 1283,
+   "b": "kural:777",
+   "type": "qualifies",
+   "note": "Arisenan names himself and offers the foe the choice to flee; Kural 777 calls the war-anklet an adornment for those who value fame above life.",
+   "teaches": "The epic shows the cost of the bold stance the couplet praises: the one who proclaims it is among the first to fall in 1294.",
+   "gains": {
+    "a": "The boast of 1283 is read against a standard of honour, so the proclamation becomes a claim to fame and not mere bravado.",
+    "b": "The couplet, which gives no outcome for the bold man, is given a case where the fame-seeker is cut down at once."
+   }
+  },
+  {
+   "a": 1305,
+   "b": "naladiyar:386",
+   "type": "develops",
+   "note": "1305 sets Kamukan, learned in the arts, with his bow; Naladiyar 386 likens a modest woman's beauty to a sharp sword in a clear-minded hero's hand.",
+   "teaches": "The epic shows the learned hero whose skill the quatrain only uses as a simile, so a warrior's mind and weapon are tied.",
+   "gains": {
+    "a": "The learned bowman is placed in a stock of images where skill governs the weapon, which the verse alone does not state.",
+    "b": "The comparison gets a concrete clear-minded hero who actually wields the weapon in the next verse."
+   }
+  },
+  {
+   "a": 1286,
+   "b": "civaka_cintamani:769",
+   "type": "same_image",
+   "note": "1286 taunts a rival with a bride won by another; Cintamani 769 taunts rivals with their wives' sulking looks lost after the battle.",
+   "teaches": "Both epics make a pre-battle taunt turn on the rival's wife or bride, so the insult reaches his private stake and not his strength."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 1303 is absent from the verse numbering (1302 is followed by 1304); the core file has 25 verses for 1281 to 1306.",
+  "Verses 1298 to 1302 were printed two short lines to a line and were split into four lines.",
+  "Verses 1295, 1304, 1305 and 1306 were printed in eight half-lines and were joined into four.",
+  "Verses 1281 to 1306 have many broken words and stray pulli repairs, so most readings are held loosely and the names of speakers and combatants are uncertain."
+ ]
+}

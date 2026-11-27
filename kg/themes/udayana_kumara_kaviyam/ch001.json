@@ -1,0 +1,165 @@
+{
+ "chapter_no": 1,
+ "chapter_theme": "The poet's opening: he worships the tirthankara under the pindi tree and Vani, bows to the lord on the lion throne and announces the tale of Udayanan, apologises for his poor words with the image of a gem wrapped in cloth, and ends on the ripening and shedding of karma.",
+ "cast": [
+  {
+   "id": "nemisar",
+   "tamil": "நேமீசர்",
+   "role": "the tirthankara Nemi, seated under the pindi tree, whose feet the poet worships"
+  }
+ ],
+ "verses": {
+  "1": {
+   "reading": "The poet joins his hands over his head and worships the feet of Lord Nemi, seated under the pindi tree beneath the three jewelled umbrellas, and the feet of Vani and the gods.",
+   "concepts": [
+    "iraivan",
+    "thiruvadi",
+    "vazhipaadu"
+   ],
+   "nuance": "The Jain invocation names a tirthankara, Nemi, and not a creator; the worship asks for no boon here.",
+   "speaker": {
+    "who": "narrator",
+    "form": "தொழுது",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "narrator",
+     "form": "தொழுது",
+     "line": 4
+    }
+   ],
+   "event": "The poet raises his joined hands and worships the lord's feet.",
+   "claims": []
+  },
+  "2": {
+   "reading": "The poet worships the feet of the lord enthroned on the lion seat in the shrine beneath the asoka tree within a golden rampart, and says he will spread out the tale of the great Udayanan.",
+   "concepts": [
+    "iraivan",
+    "vazhipaadu",
+    "pugazh"
+   ],
+   "nuance": "The lord here, named only வாமன், is probably the same tirthankara as in verse 1, but the verse does not say so.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": "வாழ்த்தி",
+    "line": 3,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "narrator",
+     "form": "வாழ்த்தி",
+     "line": 3
+    }
+   ],
+   "event": "The poet bows to the lord and declares he will tell Udayanan's story.",
+   "claims": []
+  },
+  "3": {
+   "reading": "The poet says that as people keep a gem-filled cloth bundle safe with the gem, and take even a humble word as an ornament when it holds pure meaning, so he asks that his own flawed words be received with pity.",
+   "concepts": [
+    "sol",
+    "kutram",
+    "payan"
+   ],
+   "nuance": "The apology rests on the worth of meaning over the poverty of words; the cloth that carries the gem is the poem's plain language.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a humble word that carries pure meaning is to be valued as an ornament",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "4": {
+   "reading": "The poet speaks of the deed that comes on like a rising fire and binds the self, and of the fine law by which, before wealth is reached, the opposing deed is shed in order, and asks whether the nature of its ripening can be told.",
+   "concepts": [
+    "vinai",
+    "oozh",
+    "thuravu"
+   ],
+   "nuance": "The sense is held loosely: the ripening and the orderly shedding of deeds is the Jain account of karma, but the last two lines are hard to parse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "deeds that ripen bind the self, and they can be shed in due order",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": 1,
+   "b": "kural:4",
+   "type": "qualifies",
+   "note": "The poet bows to a named tirthankara; the couplet praises the feet of one free of liking and aversion without naming him.",
+   "teaches": "The Jain epic gives a name and a seat under the pindi tree to the one the Kural leaves unnamed, so the same freedom from liking and aversion can be read as a particular lord.",
+   "gains": {
+    "a": "the invocation gets a stated quality of the one worshipped, freedom from liking and aversion, which the verse leaves unsaid",
+    "b": "the couplet gets a named, seated figure that it never gives"
+   }
+  },
+  {
+   "a": 3,
+   "b": "civaka_cintamani:4",
+   "type": "same_image",
+   "note": "Both poets ask the learned to take a flawed work for its worth, using a gem as the image.",
+   "teaches": "A gem image serves the Jain poets as a standing apology, one for flaws washed off and the other for plain wrapping carrying value."
+  },
+  {
+   "a": 3,
+   "b": "naga_kumara_kaviyam:3",
+   "type": "agrees",
+   "note": "The Naga poet's lamp kept despite its smoke is the same plea for lenient reading.",
+   "teaches": "The minor epics repeat the formula of asking that a work's worth outweigh its faults, each choosing a different household object."
+  },
+  {
+   "a": 4,
+   "b": "naga_kumara_kaviyam:4",
+   "type": "develops",
+   "note": "Both open with the shedding of former deeds; this verse adds the order and ripening.",
+   "teaches": "The Jain account of karma shedding that the Naga poem states in a line is here set out as an ordered ripening."
+  },
+  {
+   "a": 4,
+   "b": "kural:380",
+   "type": "qualifies",
+   "note": "The verse allows deeds to be shed in order, where the couplet says fate gets there first whatever one devises.",
+   "teaches": "The Jain verse leaves room for undoing deeds that the Kural's fate overrides, though the dispute is over what one can do to a deed.",
+   "gains": {
+    "a": "the shedding of deeds is set against a strong claim of fate that it must answer",
+    "b": "the couplet gets a doctrine on which fate can be worn down"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 4 lines 3-4 are hard to parse; the reading is provisional.",
+  "Verse 2 வாமன் is not clearly the same lord as verse 1."
+ ]
+}

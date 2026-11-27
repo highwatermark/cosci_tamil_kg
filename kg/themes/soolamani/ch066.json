@@ -1,0 +1,688 @@
+{
+ "chapter_no": 66,
+ "chapter_theme": "After the poets' chronicle of the discus-lords, the hero lifts the great gem mountain Kotisilai with his arms while kings and gods acclaim him, then returns in procession to Pothanam, where the city's women come out to him.",
+ "cast": [
+  {
+   "id": "tivittan",
+   "tamil": "இளையவன்",
+   "role": "Tivittan, the dark-hued hero who lifts the mountain and is hailed as lord"
+  },
+  {
+   "id": "pulavar",
+   "tamil": "புலவர்",
+   "role": "the poets who recite the chronicles of kingship"
+  },
+  {
+   "id": "mannar",
+   "tamil": "அரசர்",
+   "role": "the kings who praise and bow to the hero"
+  },
+  {
+   "id": "women_of_city",
+   "tamil": "மெல்லியலார்",
+   "role": "the women of the city who sing, rejoice and open their doors"
+  },
+  {
+   "id": "consorts",
+   "tamil": "சேயிழையாளும்",
+   "role": "the two women who enter the city with the hero"
+  },
+  {
+   "id": "townsfolk",
+   "tamil": "நகரார்",
+   "role": "the people of Pothanam who welcome the lord"
+  }
+ ],
+ "verses": {
+  "1506": {
+   "reading": "The king of the war-drum and great host sits enthroned, and the poets then recite to this guardian of the sea-bounded land the old chronicles that teach kingship.",
+   "concepts": [
+    "arasu",
+    "vendhan",
+    "kalvi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pulavar",
+     "form": "புலவ",
+     "line": 4
+    }
+   ],
+   "event": "Poets recite the chronicles of kingship to the newly enthroned king.",
+   "claims": []
+  },
+  "1507": {
+   "reading": "The poets set out the ancient code of royal conduct, and a few faultless deeds of the discus-lords are told on it.",
+   "concepts": [
+    "arasu",
+    "aram",
+    "kalvi"
+   ],
+   "nuance": "திகிரியஞ் செல்வர், lords of the discus, are universal emperors; the verse sets the hero's coming feat inside that line of kings.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pulavar",
+     "form": "புலவர்க",
+     "line": 2
+    }
+   ],
+   "event": "Poets recount the old code of kings and some deeds of the discus-lords.",
+   "claims": [
+    {
+     "claim": "the way a king must rule is an ancient norm that learned poets hand down",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "1508": {
+   "reading": "The poets list what a discus-lord has: seven rare jewels, two great treasures, sixteen thousand lands, festive cities and assemblies of kings.",
+   "concepts": [
+    "selvam",
+    "arasu",
+    "perumai"
+   ],
+   "nuance": "Line 4 is hard (எழுவின முரைப்பின் ... எண்ண என்பவே); the sense that these are the things to be counted is held loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1509": {
+   "reading": "The old-story poets tell that such a lord went with many mighty gods, killed his foes, and then lifted a mountain.",
+   "concepts": [
+    "vali",
+    "perumai",
+    "vendhan"
+   ],
+   "nuance": "The mountain-lift is first told as the deed of earlier lords; the hero repeats it in the following verses.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pulavar",
+     "form": "புலவ",
+     "line": 4
+    }
+   ],
+   "event": "Poets recall an earlier lord who slew foes with the gods and lifted a mountain.",
+   "claims": []
+  },
+  "1510": {
+   "reading": "Hearing this, the hero, without swelling pride, thinks that those who came before were as many as the sands of flowing water.",
+   "concepts": [
+    "panivu",
+    "aanmai",
+    "perumai"
+   ],
+   "nuance": "He answers the list of earlier feats with a thought of their number, not of his own power; line 2 is hard, so the sense is held loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The hero hears the old feats and is not puffed up.",
+   "claims": []
+  },
+  "1511": {
+   "reading": "On the word of those who know, the hero, his mind full of fitting wealth, rises with his sea of an army and reaches the hill Kotisilai.",
+   "concepts": [
+    "padai",
+    "vendhan",
+    "muyarchi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The hero marches with his army to the Kotisilai mountain.",
+   "claims": []
+  },
+  "1512": {
+   "reading": "The lord of the shining crown thrusts both bracelet-bright arms down beneath the great gem mountain, making the earth a pit, and lifts it.",
+   "concepts": [
+    "vali",
+    "aanmai",
+    "perumai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "செல்வ",
+     "line": 4
+    }
+   ],
+   "event": "The hero thrusts his arms under Kotisilai and lifts it.",
+   "claims": []
+  },
+  "1513": {
+   "reading": "As he thrusts in his hand and lifts, the dark mountain rolls with a crash, and the red hollow it leaves rings as if the ground opened its mouth and called.",
+   "concepts": [
+    "vali",
+    "perumai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The mountain tilts as he lifts it and the hollow echoes.",
+   "claims": []
+  },
+  "1514": {
+   "reading": "The tails of great snakes that lived in the hollows hang down as the garlanded one lifts, like bright roots of the torn-up hill.",
+   "concepts": [
+    "perumai",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1515": {
+   "reading": "Water from the blue-lily pools and streams falls from the lifted mountain, as if the dark hill wept at leaving the land.",
+   "concepts": [
+    "pirivu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1516": {
+   "reading": "Clouds slip from the broad slopes and fall, like the red cloth the mountain wore sliding off as it moves.",
+   "concepts": [
+    "azhagu",
+    "kurippu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1517": {
+   "reading": "He sets one thigh firm and holds the bright mountain high in one hand, a blue-gem hill carrying another hill.",
+   "concepts": [
+    "vali",
+    "perumai",
+    "aanmai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "னெடியவ",
+     "line": 3
+    }
+   ],
+   "event": "The hero stands holding the mountain aloft in one hand.",
+   "claims": []
+  },
+  "1518": {
+   "reading": "While spear-kings praise him and flowers rain and the world of the gods cheers, the lord of gem-dark hue stands proud, the black mountain in one hand.",
+   "concepts": [
+    "pugazh",
+    "perumai",
+    "vendhan"
+   ],
+   "nuance": "He is named by his hue and the Tirumal-like epithet திருமா மணிவண்ணன்; the verse gives no proper name.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "மணிவண்ணன்",
+     "line": 4
+    },
+    {
+     "id": "mannar",
+     "form": "வேலரசர்",
+     "line": 1
+    }
+   ],
+   "event": "Kings praise and the gods cheer while the hero holds the mountain.",
+   "claims": []
+  },
+  "1519": {
+   "reading": "The verse pictures the hero's anklets and crest-jewel light and the gem-streamed mountain that rests on the hand of the garland-wearer.",
+   "concepts": [
+    "perumai",
+    "azhagu"
+   ],
+   "nuance": "Line 3 turns on கைத்தலத்தது அன்று, and the sense of the negative is not fixed; the reading is a cautious one.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1520": {
+   "reading": "He lifts the mountain with his ruby-bright arm and stands, not even looking up as if he merely lifted it, and the garlanded kings, afraid, bow their gold crowns.",
+   "concepts": [
+    "vali",
+    "panivu",
+    "acham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "mannar",
+     "form": "வேந்த",
+     "line": 3
+    }
+   ],
+   "event": "Frightened kings bow their crowns to the hero as he stands holding the mountain.",
+   "claims": []
+  },
+  "1521": {
+   "reading": "The verse says the hero returns the great hill and that the king like the hill mounts the fierce elephant and calms it.",
+   "concepts": [
+    "vali",
+    "aanmai"
+   ],
+   "nuance": "The verse turns on a yamaka of கோடிக் குன்றம் and the sense of the last line is uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The hero puts the mountain back and mounts and calms a killer elephant.",
+   "claims": []
+  },
+  "1522": {
+   "reading": "After crossing the lotus-pooled moat and reaching the good watered land, fair women sing the cool fame of the hero and are honoured.",
+   "concepts": [
+    "pugazh",
+    "naadu"
+   ],
+   "nuance": "The verse is a யமகம் on தாமரை தங்கும் தண்புனல்; who crosses and who is honoured is not fixed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "women_of_city",
+     "form": "நல்லார்",
+     "line": 3
+    }
+   ],
+   "event": "Women of the land sing the hero's fame as he reaches it.",
+   "claims": []
+  },
+  "1523": {
+   "reading": "Under his pearl parasol, bright as a moon, the people of the watered land rejoice, and the sea-ringed world comes under it.",
+   "concepts": [
+    "arasu",
+    "vendhan",
+    "perumai"
+   ],
+   "nuance": "The verse is a yamaka on மாலைத் தண்கேழ்; the last clause is read loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1524": {
+   "reading": "When the lord of the pond-rich land reaches the palace yard, the women of dark eyes are glad at his coming.",
+   "concepts": [
+    "kaamam",
+    "azhagu"
+   ],
+   "nuance": "The yamaka on மையார் makes the exact words of their joy unclear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "women_of_city",
+     "form": "கண்ணி",
+     "line": 3
+    }
+   ],
+   "event": "The women of the mansions rejoice as the lord arrives.",
+   "claims": []
+  },
+  "1525": {
+   "reading": "Red-lipped women shower flowers and, in their joy, lay aside their modesty as the famed king enters the city.",
+   "concepts": [
+    "naanam",
+    "kaamam",
+    "pugazh"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "women_of_city",
+     "form": "வாயா",
+     "line": 1
+    },
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "He enters the city while women throw flowers and drop their shyness.",
+   "claims": []
+  },
+  "1526": {
+   "reading": "With whisks waving and gold ear-rings flashing, the hero and the two women with him enter the flower-fenced city of Pothanam.",
+   "concepts": [
+    "arasu",
+    "pugazh"
+   ],
+   "nuance": "The hero is named by the epithet திருமால், and the two women are known only by epithets, the lotus-lady and the bright-jewelled one.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "திருமாலும்",
+     "line": 3
+    },
+    {
+     "id": "consorts",
+     "form": "சேயிழை",
+     "line": 3
+    }
+   ],
+   "event": "The hero and his two consorts enter the city of Pothanam.",
+   "claims": []
+  },
+  "1527": {
+   "reading": "Bees hum, incense and sandal scent the street, and the townsfolk welcome the lord as he enters decked in jasmine and ring-crest.",
+   "concepts": [
+    "arasu",
+    "vendhan",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "townsfolk",
+     "form": "வெழினகரா",
+     "line": 4
+    },
+    {
+     "id": "tivittan",
+     "form": "விறைவன்",
+     "line": 4
+    }
+   ],
+   "event": "The townsfolk receive the lord as he enters the city.",
+   "claims": []
+  },
+  "1529": {
+   "reading": "Passing the gate and circling the cool city, the umbrella-lord goes down the street, and the slender women run out, clashing their anklets, and open their jewelled doors and the bolts of their minds as well.",
+   "concepts": [
+    "kaamam",
+    "nirai",
+    "azhagu"
+   ],
+   "nuance": "தாழ் is bolt: the women open the door-bolt and, the verse says, the bolt of the mind; the epic makes desire the thing that opens their reserve.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "குடையோன்",
+     "line": 1
+    },
+    {
+     "id": "women_of_city",
+     "form": "மெல்லியலார்",
+     "line": 4
+    }
+   ],
+   "event": "The women of the mansions open their doors as he passes in procession.",
+   "claims": []
+  },
+  "1530": {
+   "reading": "Kings on war-elephants hail him, drums sound like storm-cloud, and a voice bids the onlookers see with full eyes the cloud-hued bearer of the discus who comes under the pearl parasol.",
+   "concepts": [
+    "pugazh",
+    "arasu",
+    "vendhan"
+   ],
+   "nuance": "The last line is a speech bidding the onlookers to look; who speaks it is not named, so narrator is a placeholder.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": "townsfolk"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "கார்மேக வண்ணனிவன்",
+     "line": 4
+    },
+    {
+     "id": "mannar",
+     "form": "மேலரசர்",
+     "line": 1
+    }
+   ],
+   "event": "Kings hail him and drums sound as he approaches in procession.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1512,
+   "b": 303,
+   "type": "develops",
+   "note": "1512 shows the hero lifting a gem mountain with both arms; 303 shows him as a youth rolling a rock heap that two hundred elephants might raise.",
+   "teaches": "The boyhood feat of 303 is the first form of the strength that lifts Kotisilai, so the mountain is the proof of something already known."
+  },
+  {
+   "a": 1517,
+   "b": 273,
+   "type": "qualifies",
+   "note": "1517 shows the hero holding a mountain in one hand; 273 says even a man who could carry a diamond hill finds austerity and rule heavier.",
+   "teaches": "The hero's lift is the lighter of the burdens that 273 weighs, and rule, not strength, is what he must still carry."
+  },
+  {
+   "a": 1517,
+   "b": "tirumanthiram:350",
+   "type": "qualifies",
+   "note": "1517 praises a mountain-lifter whom kings and gods hail; Tirumanthiram 350 tells of a lifter of the great mountain who was crushed by the Lord and then given grace.",
+   "teaches": "The epic stops at homage to the lifter, while the Saiva verse asks what becomes of that strength before God.",
+   "gains": {
+    "a": "the epic scene lacks any verdict on mountain-lifting strength beyond the kings' homage, and gains a measure from the lifter who is crushed",
+    "b": "the Tirumanthiram verse lacks a lifter honoured and unpunished, and gains one whose feat is a king's proof, not an offence against a god"
+   }
+  },
+  {
+   "a": 1510,
+   "b": "kural:979",
+   "type": "qualifies",
+   "note": "1510 has the hero without swelling pride at the moment feats are listed; Kural 979 calls greatness the absence of pride.",
+   "teaches": "The epic shows modesty arising from counting those who came before, a source the couplet does not name.",
+   "gains": {
+    "a": "the epic verse lacks a name for the hero's lack of pride, and gains the couplet's term for it as greatness",
+    "b": "the couplet lacks an occasion in which pride is tempted by lists of earlier deeds, and gains one"
+   }
+  },
+  {
+   "a": 1523,
+   "b": "kural:389",
+   "type": "qualifies",
+   "note": "1523 shows the pearl parasol bringing joy to the people and the sea-ringed world; Kural 389 says the world rests under the parasol of a king who bears bitter words.",
+   "teaches": "The epic's parasol is the sign of conquest, while the couplet makes shelter depend on a king's patience with harsh speech.",
+   "gains": {
+    "a": "the epic verse lacks any condition on the parasol's shelter, and gains the couplet's test of hearing bitter words",
+    "b": "the couplet lacks a visible sign of sovereignty, and gains the pearl parasol of a triumphant king"
+   }
+  },
+  {
+   "a": 1508,
+   "b": "kural:381",
+   "type": "qualifies",
+   "note": "1508 counts a discus-lord's wealth in jewels, treasures, lands, cities and gatherings of kings; Kural 381 counts a king's parts as army, people, resources, ministers, allies and fort.",
+   "teaches": "The epic's list is of things owned and has no ministers or fort, while the couplet's list names the organs a state cannot do without.",
+   "gains": {
+    "a": "the epic list lacks counsellors and defences, and gains the couplet's organs of a state",
+    "b": "the couplet lacks the epic's treasures and festive cities, and gains a picture of imperial wealth"
+   }
+  },
+  {
+   "a": 1530,
+   "b": 1520,
+   "type": "develops",
+   "note": "1520 has the kings bow their crowns in fear as the hero holds the mountain; 1530 has kings hail him from their war-elephants as he enters the city.",
+   "teaches": "The fear before the mountain becomes open praise in the city, so the feat is turned into public kingship."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 1527, 1529 and 1530 print as eight half-lines; the tool joined them into four lines.",
+  "There is no verse numbered 1528 in the text; the chapter runs 1527 to 1529.",
+  "Verses 1521 to 1525 are yamaka and several readings are held loosely."
+ ]
+}

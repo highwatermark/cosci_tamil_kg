@@ -1,0 +1,158 @@
+{
+ "chapter_no": 1,
+ "chapter_theme": "The poet invokes the omniscient lord, dates his tale in a tirtha lord's age, apologises for flaws with the lamp-and-smoke image and states the plan of the poem as a showing of karma's fruit.",
+ "cast": [
+  {
+   "id": "yasodharan",
+   "tamil": "யசோதரன்",
+   "role": "the hero of the tale, named in the proem as one who attained something in the tirtha age"
+  }
+ ],
+ "verses": {
+  "1": {
+   "reading": "The poet opens by saying he will praise the red lotus feet of the one who knows all three worlds at once through unique omniscience and is an ocean of endless virtues, so that release may be taught through leaving cruel deeds behind.",
+   "concepts": [
+    "iraivan",
+    "thiruvadi",
+    "vinai",
+    "veedu"
+   ],
+   "nuance": "The word for omniscience (கேவலம்) is the Jain term for the knowledge of the liberated; the invocation names no god and gives no act of grace, only the one who knows and teaches release.",
+   "speaker": {
+    "who": "narrator",
+    "form": "யேத்துவாம்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "narrator",
+     "form": "யேத்துவாம்",
+     "line": 4
+    }
+   ],
+   "event": "The poet offers praise to the omniscient lord's feet.",
+   "claims": [
+    {
+     "claim": "the lord has perfect omniscience of the three worlds and endless qualities",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    },
+    {
+     "claim": "release comes by leaving cruel deeds behind, and it is this that the lord's feet are praised in order to teach",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "2": {
+   "reading": "The poet places his tale in the sacred age of a tirtha lord and says Yasodharan reached something in it, so that his own mind becomes single and fixed; the sentence is hard to parse.",
+   "concepts": [
+    "iraivan",
+    "kaalam",
+    "manam"
+   ],
+   "nuance": "The first two lines seem to date the tale by a tirthankara's age (நாதன் … முனி சுவ்வதன் … தீர்த்தம்); the syntax of the middle lines is unclear and the object of எய்திய is not given plainly.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "3": {
+   "reading": "The poet says that people do not scorn a lamp because of its smoke, and that those who ponder the matter within will take up his words as fit to be spoken.",
+   "concepts": [
+    "kutram",
+    "sol",
+    "saandror"
+   ],
+   "nuance": "The lamp-and-smoke image is the convention of apology: the flaw is conceded, and the poem's worth is rested on the meaning that careful hearers weigh.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "4": {
+   "reading": "The poet says his poem will show how cruel deeds that cling are turned back, how incomparable merit and enjoyment come together, and what fearful fruit deeds bring.",
+   "concepts": [
+    "vinai",
+    "oozh",
+    "aram"
+   ],
+   "nuance": "This is a statement of the poem's plan: the story is to be an exhibit of karma's fruit, good and bad, not only a tale of a king.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "merit joins with enjoyment as its fruit, and cruel deeds have a fearful fruit",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": 1,
+   "b": "naga_kumara_kaviyam:17",
+   "type": "develops",
+   "note": "The Yasodhara's opening praises the omniscient lord whose feet teach release by leaving karma; the Naga hymn praises him as all-knowing and as the one who burned every old deed.",
+   "teaches": "The Jain epics' praise of the lord is the same act twice, here as a promise of teaching and there as a list of what the lord has already done to his own karma."
+  },
+  {
+   "a": 1,
+   "b": "tirumanthiram:117",
+   "type": "tension",
+   "note": "Verse 1 says release is taught by leaving cruel deeds behind; Tirumanthiram 117 says the malas burn only when the sun-like Lord appears, as the sunstone burns cotton.",
+   "teaches": "Whether release is something the one freed does by shedding deeds or something the Lord does by his presence is the exact point where the Jain and Saiva ways part.",
+   "gains": {
+    "a": "the Jain opening gains a rival account of what burns away karma, which it states without answering",
+    "b": "the Tirumanthiram image gains a contrast, a teaching in which the omniscient lord is only the one who shows the way and does not burn anything"
+   }
+  },
+  {
+   "a": 3,
+   "b": "naga_kumara_kaviyam:3",
+   "type": "same_image",
+   "note": "Both poets answer the flaw in their verse with the lamp and its smoke, and ask hearers who grasp the matter to accept the work.",
+   "teaches": "The Jain epics share an apology formula in which the poem's worth lies in its meaning, and each poet hangs a different request on it."
+  },
+  {
+   "a": 4,
+   "b": "kural:5",
+   "type": "qualifies",
+   "note": "The Kural says the two deeds do not cling to those who praise the Lord's true fame; verse 4 promises a poem that shows the fruit of deeds, good and bad, as they actually ripen.",
+   "teaches": "A story shows karma bearing fruit in merit and fear, which limits the couplet's picture of deeds that simply do not cling to the devout.",
+   "gains": {
+    "a": "the Yasodhara plan gains a Tamil ethical text which holds that devotion keeps deeds from clinging",
+    "b": "the Kural couplet gains a case where deeds do bear fruit in birth after birth for those not freed, which the couplet's statement leaves unshown"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": []
+}

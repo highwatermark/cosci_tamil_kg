@@ -1,0 +1,539 @@
+{
+ "chapter_no": 8,
+ "chapter_theme": "Yugi's false fire is played out: the king believes the queen has burned, mourns and wishes to die, is turned by his ministers, and sets out for the Magadha sage on Vayantakan's advice.",
+ "cast": [
+  {
+   "id": "udayanan",
+   "tamil": "உதயண",
+   "role": "the king of Vatsa, mourning the queen he believes dead"
+  },
+  {
+   "id": "yugi",
+   "tamil": "யூகி",
+   "role": "Udayanan's minister who arranged the false fire"
+  },
+  {
+   "id": "vayantakan",
+   "tamil": "வயந்தகன்",
+   "role": "Udayanan's friend and counsellor"
+  },
+  {
+   "id": "vasavadatta",
+   "tamil": "வாசவதத்தை",
+   "role": "the queen, hidden in the minister's house"
+  },
+  {
+   "id": "sankiyai",
+   "tamil": "சாங்கி",
+   "role": "the Sankhya woman who brings the queen through the tunnel"
+  },
+  {
+   "id": "hidden_men",
+   "tamil": "மறைந்தவர்",
+   "role": "the men hidden in the king's house who set it on fire"
+  },
+  {
+   "id": "savarar",
+   "tamil": "சவரர்",
+   "role": "the hunters said to have fired the house"
+  },
+  {
+   "id": "ministers_vatsa",
+   "tamil": "அமைச்சர்",
+   "role": "the king's ministers who restrain and advise him"
+  },
+  {
+   "id": "guards",
+   "tamil": "காவலர்",
+   "role": "the guards who search for the body"
+  }
+ ],
+ "verses": {
+  "136": {
+   "reading": "Those hidden in the king's house are told to stay together, and having made an underground tunnel from the king's house to the queen's, they set the whole house on fire.",
+   "concepts": [
+    "vanjam",
+    "soozhchi",
+    "thunai"
+   ],
+   "nuance": "Who gives the order and who the hidden men are is not said; the verse gives only the tunnel and the fire, which prepare the false death in the next verses.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "hidden_men",
+     "form": "மறைந்தவர்",
+     "line": 4
+    }
+   ],
+   "event": "The men hidden in the king's house, who have a tunnel dug below, set it alight.",
+   "claims": []
+  },
+  "137": {
+   "reading": "Through the underground passage the Sankhya woman brings the just king's queen, finely adorned, to the minister's house, and the minister bows at her feet and speaks gently.",
+   "concepts": [
+    "vanjam",
+    "thunai",
+    "panivu"
+   ],
+   "nuance": "The minister is not named; the story so far makes him Yugi, but the verse does not say so.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sankiyai",
+     "form": "சாங்கி",
+     "line": 2
+    },
+    {
+     "id": "yugi",
+     "form": "னமைச்சன்",
+     "line": 3
+    }
+   ],
+   "event": "The Sankhya woman brings the queen through the tunnel to the minister's house; the minister bows to her and speaks kindly.",
+   "claims": []
+  },
+  "138": {
+   "reading": "The minister calls her his own good mother and asks a boon: her king will be away from her only some days, and without it the land will not be theirs; she agrees and he hides her as the case requires.",
+   "concepts": [
+    "vanjam",
+    "soozhchi",
+    "panivu"
+   ],
+   "nuance": "Both speaker and addressee are known only from the story; line 2 may also be read as the minister speaking for the queen to the Sankhya woman.",
+   "uncertain": true,
+   "speaker": {
+    "who": "yugi",
+    "form": null,
+    "line": null,
+    "addressee": "vasavadatta"
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vasavadatta",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The minister asks the queen to bear a short parting and she agrees, and he hides her.",
+   "claims": []
+  },
+  "139": {
+   "reading": "On the hunters' fire seeming to be their own deed, the king sees evil omens, learns that the queen is hurt, and falls down, grieving and shaken, when the minister tells what has happened.",
+   "concepts": [
+    "kaamam",
+    "vanjam",
+    "alar"
+   ],
+   "nuance": "Line 1 puts the burning on the hunters; the verse does not say who tells the king that it was they, only that he is told.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "savarar",
+     "form": "சவரர்",
+     "line": 1
+    }
+   ],
+   "event": "The king, told that the queen is lost in the fire, collapses in grief.",
+   "claims": []
+  },
+  "140": {
+   "reading": "The king rolls on the ground and rises saying he will die with the dead queen, and the tall ministers hold him and beg him; he asks to be shown her burnt body.",
+   "concepts": [
+    "kaamam",
+    "anbu",
+    "pirivu"
+   ],
+   "nuance": "The line 2 words are the king's, but the verse gives only the report and not the speech itself.",
+   "uncertain": true,
+   "speaker": {
+    "who": "udayanan",
+    "form": "னானென்றான்",
+    "line": 2,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "பூண்டமார்ப",
+     "line": 1
+    },
+    {
+     "id": "ministers_vatsa",
+     "form": "ளமைச்சரு",
+     "line": 3
+    }
+   ],
+   "event": "Udayanan resolves to die with the queen; ministers restrain him, and he asks to see the burnt body.",
+   "claims": []
+  },
+  "141": {
+   "reading": "When the guards say the charred body cannot be found, the ornaments of burnt gold are set before him, and he, thinking she fell in the fire and that it is no trick, cries out for her.",
+   "concepts": [
+    "kaamam",
+    "vanjam",
+    "alar"
+   ],
+   "nuance": "The ornaments are the proof the plan lets the king have, and the verse tells us he reads the lack of a body as the fire's work, not a ruse.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "guards",
+     "form": "காவலர்க",
+     "line": 1
+    },
+    {
+     "id": "udayanan",
+     "form": "வேந்தன்",
+     "line": 4
+    }
+   ],
+   "event": "Guards bring burnt ornaments in place of a body; the king, believing she died in the fire, laments.",
+   "claims": []
+  },
+  "142": {
+   "reading": "The king, grieving over her, calls her the lamp of the earth who came as a boon and a lamp among women hard to win, the light of his eyes.",
+   "concepts": [
+    "kaamam",
+    "anbu",
+    "pirivu"
+   ],
+   "speaker": {
+    "who": "udayanan",
+    "form": "மன்னவன்",
+    "line": 4,
+    "addressee": "vasavadatta"
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "மன்னவன்",
+     "line": 4
+    }
+   ],
+   "event": "The king laments, calling the queen the lamp of the world and of his eyes.",
+   "claims": []
+  },
+  "143": {
+   "reading": "He calls her a deer, a peacock, a lotus-borne Lakshmi, a honey, a creeper, and one born of great penance, and asks whether it is right that she died and he suffers.",
+   "concepts": [
+    "kaamam",
+    "anbu",
+    "alar"
+   ],
+   "nuance": "Pure lament; the praise names the queen by images only (deer, peacock, creeper) and gives no new fact.",
+   "speaker": {
+    "who": "udayanan",
+    "form": null,
+    "line": null,
+    "addressee": "vasavadatta"
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "நானிடர்ப்",
+     "line": 4
+    }
+   ],
+   "event": "The king addresses the dead queen with a list of comparisons and asks if his grief is justified.",
+   "claims": []
+  },
+  "144": {
+   "reading": "The king laments her breasts, her hair, her face as a golden ear-ring, her ornament, and her cool moon-like face as he cries out.",
+   "concepts": [
+    "kaamam",
+    "pirivu",
+    "alar"
+   ],
+   "nuance": "Several words in line 3 and 4 (சிங்கார முனதுரையும், பொங்காரம்) are hard to take and the sense is only approximate.",
+   "uncertain": true,
+   "speaker": {
+    "who": "udayanan",
+    "form": "புரவலன்",
+    "line": 4,
+    "addressee": "vasavadatta"
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "புரவலன்",
+     "line": 4
+    }
+   ],
+   "event": "The king mourns the queen, naming her features.",
+   "claims": []
+  },
+  "145": {
+   "reading": "He calls her the lute-mistress, the wise one, the doll of modesty and the shining gem, and cries that she should come to his sight and show her face.",
+   "concepts": [
+    "kaamam",
+    "pirivu",
+    "alar"
+   ],
+   "speaker": {
+    "who": "udayanan",
+    "form": null,
+    "line": null,
+    "addressee": "vasavadatta"
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king cries to the dead queen to appear and show her face.",
+   "claims": []
+  },
+  "146": {
+   "reading": "As the sorrow swells beyond words, the good ministers say that to put aside love for the queen is wiser, and the king listens, leaves his weeping and turns from her as a loving husband would.",
+   "concepts": [
+    "amaichu",
+    "nilaiyaamai",
+    "kaamam"
+   ],
+   "nuance": "The advice is sound in the ministers' eyes and the king takes it, but the queen is alive, so the counsel rests on a false fact only Yugi's side knows.",
+   "speaker": {
+    "who": "ministers_vatsa",
+    "form": "மமைச்சர்",
+    "line": 3,
+    "addressee": "udayanan"
+   },
+   "agents": [
+    {
+     "id": "ministers_vatsa",
+     "form": "மமைச்சர்",
+     "line": 3
+    },
+    {
+     "id": "udayanan",
+     "form": "நரபதியுங்",
+     "line": 3
+    }
+   ],
+   "event": "The ministers advise the king to give up his lament; he agrees and withdraws from it.",
+   "claims": [
+    {
+     "claim": "a king is wiser to put aside grief for a dead wife than to go on weeping",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "ministers_vatsa"
+    }
+   ]
+  },
+  "147": {
+   "reading": "Yugi, knowing the king's state, says the work is firm and the course good, tells Vayantakan to do again at the king's side what they had in mind.",
+   "concepts": [
+    "soozhchi",
+    "amaichu",
+    "thunai"
+   ],
+   "nuance": "Lines 2 to 4 are damaged and the sense of the verse is a probable one; the text was repaired at line 2 by the build.",
+   "uncertain": true,
+   "speaker": {
+    "who": "yugi",
+    "form": "யூகியும்",
+    "line": 1,
+    "addressee": "vayantakan"
+   },
+   "agents": [
+    {
+     "id": "yugi",
+     "form": "யூகியும்",
+     "line": 1
+    },
+    {
+     "id": "vayantakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Yugi tells Vayantakan to carry on the plan beside the king.",
+   "claims": []
+  },
+  "148": {
+   "reading": "Vayantakan, wise in true knowledge and skilled in hard counsel, bows at the king's golden feet and speaks again of what is best for him, while the king listens.",
+   "concepts": [
+    "amaichu",
+    "gnaanam",
+    "panivu"
+   ],
+   "nuance": "The verse only opens the speech that fills the next one.",
+   "speaker": {
+    "who": "vayantakan",
+    "form": null,
+    "line": null,
+    "addressee": "udayanan"
+   },
+   "agents": [
+    {
+     "id": "vayantakan",
+     "form": "வயந்தகன்",
+     "line": 2
+    },
+    {
+     "id": "udayanan",
+     "form": "புரவலன்",
+     "line": 4
+    }
+   ],
+   "event": "Vayantakan bows to the king and begins to advise him.",
+   "claims": []
+  },
+  "149": {
+   "reading": "Vayantakan says that in the land of the Magadha king there is a learned sage who shows the dead their fate and sees the truth by sight and knowledge, and urges they go to him.",
+   "concepts": [
+    "gnaanam",
+    "amaichu",
+    "thaththuvam"
+   ],
+   "nuance": "Line 2 (இற்றவர்க் காட்டும் இயல்பினன்) is hard; it may be that the sage shows the dead, or shows the way to those who are gone, and the reading is not fixed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vayantakan",
+    "form": null,
+    "line": null,
+    "addressee": "udayanan"
+   },
+   "agents": [
+    {
+     "id": "vayantakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Vayantakan tells the king of a sage in Magadha and proposes going there.",
+   "claims": [
+    {
+     "claim": "a learned sage with direct sight can show the fate of the dead",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "vayantakan"
+    }
+   ]
+  },
+  "150": {
+   "reading": "The king hears Vayantakan, agrees gladly to go that way, and sets out with the four-fold army, white umbrella and fans.",
+   "concepts": [
+    "vendhan",
+    "amaichu",
+    "padai"
+   ],
+   "speaker": {
+    "who": "udayanan",
+    "form": "வத்தவ குமரன்",
+    "line": 1,
+    "addressee": "vayantakan"
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "உதயண குமரன்",
+     "line": 4
+    }
+   ],
+   "event": "Udayanan agrees to Vayantakan's plan and sets out with his army.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 139,
+   "b": 136,
+   "type": "develops",
+   "note": "The fire set in verse 136 has its effect in the king's collapse in 139.",
+   "teaches": "The tunnel and fire are not an end: their purpose is the king's belief, and verse 139 shows him believing it."
+  },
+  {
+   "a": 138,
+   "b": 137,
+   "type": "develops",
+   "note": "The minister's hidden guest of 137 is the one he asks a boon of in 138.",
+   "teaches": "The reader sees that the queen is brought to the minister not by chance but to be asked for her consent to the parting."
+  },
+  {
+   "a": 141,
+   "b": 110,
+   "type": "same_image",
+   "note": "The fire in the town of verse 110 is again a fire here, now a stage prop.",
+   "teaches": "The same device of fire serves Yugi twice: first to free the fugitives, now to fake a death, so it is his habit and not a one-off."
+  },
+  {
+   "a": 146,
+   "b": 140,
+   "type": "qualifies",
+   "note": "The king's vow to die in 140 is turned aside by counsel in 146.",
+   "teaches": "A king's wish to die with his queen is checked by minister's counsel, which is the work of a minister in the epic's picture of rule."
+  },
+  {
+   "a": 150,
+   "b": 149,
+   "type": "develops",
+   "note": "The journey in 150 carries out the plan Vayantakan puts in 149.",
+   "teaches": "The reader learns that the long mourning ends with an act, as the king follows the counsel and sets out."
+  },
+  {
+   "a": 146,
+   "b": "kural:638",
+   "type": "qualifies",
+   "note": "The ministers' counsel to a grieving king meets Kural 638 on a minister's duty to speak to a king who will not listen.",
+   "teaches": "The Kural rule covers a king who destroys good counsel, but the epic shows a king who accepts counsel and is still deceived because the advisers' facts are false.",
+   "gains": {
+    "a": "the ministers' speech gains a named duty, so that their advice reads as a minister's task and not only comfort",
+    "b": "the couplet gains a case in which good counsel is taken and yet rests on a false premise, a test the couplet does not make"
+   }
+  },
+  {
+   "a": 141,
+   "b": "tirumanthiram:145",
+   "type": "qualifies",
+   "note": "The king mourning a body that was never found is set against the town that wails, buries and forgets in Tirumanthiram 145.",
+   "teaches": "One poem shows grief for a real death that is quickly ended, the other grief for a false death that the king cannot end, so lament is shown to follow belief and not fact.",
+   "gains": {
+    "a": "the king's lament gains the ordinary course of mourning the song describes, against which his unfinished grief over a lie stands out",
+    "b": "the song gains a case of mourning for someone not dead, showing that a staged death can draw the same grief as a real one"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 147 line 2 had a pulli after a vowel sign, repaired by the build; the verse is hard to read.",
+  "Verses 137 to 139: who is the minister, who brings the news and who the savarar are is not stated; read from the story.",
+  "Verse 144 lines 3 and 4 and verse 149 line 2 are hard to read."
+ ]
+}

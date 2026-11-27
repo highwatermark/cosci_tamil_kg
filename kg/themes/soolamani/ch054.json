@@ -1,0 +1,676 @@
+{
+ "chapter_no": 54,
+ "chapter_theme": "The envoys' insult burns Tivittan, who lets them go by custom and sets a worship-or-die choice; omens and divine word promise his win, and both hosts, the foe's Vidyadhara army, gather with drums and weapons.",
+ "cast": [
+  {
+   "id": "podanam_kings",
+   "tamil": "வீர வேந்தர்கள்",
+   "role": "the warrior kings who rise with a roar to answer the archer"
+  },
+  {
+   "id": "tivittan",
+   "tamil": "இளையவன்",
+   "role": "Tivittan, the hero"
+  },
+  {
+   "id": "devas",
+   "tamil": "அமரர்",
+   "role": "the gods of the sky who watch"
+  },
+  {
+   "id": "acuvakanthan",
+   "tamil": "அச்சுவ கண்டன்",
+   "role": "the rival discus-lord whose envoys carried the demand"
+  },
+  {
+   "id": "vinjaiyar",
+   "tamil": "விஞ்சையர்",
+   "role": "the Vidyadhara host of the discus-lord"
+  },
+  {
+   "id": "thoothar",
+   "tamil": "தூதுவர்",
+   "role": "the envoys of the discus-bearer"
+  }
+ ],
+ "verses": {
+  "1206": {
+   "reading": "The hero, his eyes spitting fire and his body beading with sweat like pearls, is scorched by the envoys' petty words, which stab like spears into wounds, and his anger heats the very heavens.",
+   "concepts": [
+    "vekuli",
+    "thoothu",
+    "maanam"
+   ],
+   "nuance": "The verse names the hero only as வீரன், and who is scorched by the words is read from the sequence of the embassy; the tense of வெதுப்பினன் could also make the hero the one who scorches the heavens.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "வீர னென்பவே",
+     "line": 4
+    }
+   ],
+   "event": "Tivittan blazes with anger at the insulting words the envoys have brought.",
+   "claims": []
+  },
+  "1207": {
+   "reading": "As he laughs his anger-fire rises, fine drops of sweat fall, hot steam breathes from the pores, and the ears burn at the petty words, until he lifts his rage to the sky for all to see.",
+   "concepts": [
+    "vekuli",
+    "kurippu"
+   ],
+   "nuance": "Anger is told wholly through the body (laughter, sweat, steam, burning ears), and it is not yet answered in speech, which the next verses hold back.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "நிமிர்ந்து காட்டினான்",
+     "line": 4
+    }
+   ],
+   "event": "Tivittan's anger shows in his body as he hears the envoys' words.",
+   "claims": []
+  },
+  "1208": {
+   "reading": "His look and his shining form change into an unlike, widespread brightness; he gives up speaking, and the divine youth shows what the goodness of a man is.",
+   "concepts": [
+    "vekuli",
+    "azhagu",
+    "perumai"
+   ],
+   "nuance": "The phrase மனித்தன் நன்மையைத் தேற்றினன் is hard to fix: it can mean that his silence shows the restraint of a man, or that he declares a man's worth. Held loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "தெய்வக் காளையே",
+     "line": 4
+    }
+   ],
+   "event": "Tivittan's form changes and he falls silent.",
+   "claims": []
+  },
+  "1209": {
+   "reading": "The foes' days are ended; the Earth-goddess has come to take her pleasure with him, and the gods gather in the sky saying they will see this youth's first battle.",
+   "concepts": [
+    "padai",
+    "oozh",
+    "maram"
+   ],
+   "nuance": "The gods and the Earth treat his victory as already settled before the fighting starts, which prepares the divine word of 1216.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "devas",
+     "form": "ஈண்டினர்",
+     "line": 4
+    }
+   ],
+   "event": "The gods gather to watch the youth's first war.",
+   "claims": []
+  },
+  "1210": {
+   "reading": "A speaker bids the envoys be sent away: by old custom envoys come and go unharmed, though they have brought evil words that burned the ears; the fault of these fools is to be borne, and their going is the point.",
+   "concepts": [
+    "thoothu",
+    "porai",
+    "aram"
+   ],
+   "nuance": "The speaker is not named; the verse follows the hero's silence in 1208, so I read it as Tivittan, but a counsellor is possible.",
+   "uncertain": true,
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": "thoothar"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "envoys must not be harmed, and their offence is to be borne, by ancient custom",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "tivittan"
+    }
+   ]
+  },
+  "1211": {
+   "reading": "When the archer has spoken, the warrior kings rise with a roar and answer in a rage, each saying briefly that they have said these things with the great mountain in mind.",
+   "concepts": [
+    "vendhan",
+    "maram",
+    "sol"
+   ],
+   "nuance": "Line 4 is hard to construe (சொல்லிய தனெச்சிலர்), and who the kings are, the hero's allies or the foe's, is read from 1210.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "podanam_kings",
+     "form": "வீர வேந்தர்கள்",
+     "line": 1
+    }
+   ],
+   "event": "The kings roar and answer after the archer's speech.",
+   "claims": []
+  },
+  "1212": {
+   "reading": "The kings say that the broad-shouldered one, taking the discus and the wide fortune from the rival, will by his words know both the girl and themselves; they are likened in worth to diamond set on a plantain.",
+   "concepts": [
+    "padai",
+    "arasu",
+    "maram"
+   ],
+   "nuance": "The simile of diamond on a plantain stem is unclear in force; the construction of lines 1 to 3 is also uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "podanam_kings",
+     "form": "மென்றனர்",
+     "line": 3
+    }
+   ],
+   "event": "The kings declare the rival's discus and fortune will be taken.",
+   "claims": []
+  },
+  "1213": {
+   "reading": "A verse on the terms of a message: what is to be said is said with a gleaming smile, and what comes after is to be weighed only once the foe has come within seeing range.",
+   "concepts": [
+    "thoothu",
+    "sol",
+    "kurippu"
+   ],
+   "nuance": "The syntax is badly broken and I cannot fix the sense; read only as a remark on speech and sight before a fight.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1214": {
+   "reading": "The maid's sweet words, heard against the youth's garlanded chest, are set beside the feats of the bow-shouldered hero, who from a mountain-top speaks truly of what he can do.",
+   "concepts": [
+    "kaamam",
+    "maram"
+   ],
+   "nuance": "The lines mix the maid's love and the hero's deeds without a clear join; held as uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "சிலைமிசைத் தோளினான்",
+     "line": 4
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1215": {
+   "reading": "A voice puts the foes a choice: if he comes close and worships this hero's feet, his life is his own; if not, it is not his; will lives please them or is honour wanted, let them think what pleases my lord and come.",
+   "concepts": [
+    "arasu",
+    "maanam",
+    "saakkaadu"
+   ],
+   "nuance": "The speaker is read as the hero's side speaking to the departing envoys (1216 begins with them replying), not named in the verse; it ends in a question whether life or honour will weigh more.",
+   "uncertain": true,
+   "speaker": {
+    "who": "podanam_kings",
+    "form": null,
+    "line": null,
+    "addressee": "thoothar"
+   },
+   "agents": [],
+   "event": "The hero's side sets the envoys' king the terms: worship or lose his life.",
+   "claims": [
+    {
+     "claim": "a king's life remains his only if he bows to the overlord's feet",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "podanam_kings"
+    }
+   ]
+  },
+  "1216": {
+   "reading": "When they have spoken the envoys rise and go; at that point a divine word stands that this youth will win and reign, and the Earth-goddess puts away her sorrow.",
+   "concepts": [
+    "oozh",
+    "arasu",
+    "padai"
+   ],
+   "nuance": "தெய்வ வாய்மொழி may refer back to an earlier prophecy or to a new divine voice here; the verse does not say which.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "thoothar",
+     "form": "தூதுவர்",
+     "line": 1
+    }
+   ],
+   "event": "The envoys leave; a divine word of victory is voiced and the Earth is relieved.",
+   "claims": [
+    {
+     "claim": "a divine word has fixed that the hero will win and reign",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "1217": {
+   "reading": "Shell bangles of the women sound, divine war-drums circulate and beat, red eyes burn, the bows of warriors' brows bend and break, and without pause the hero's camp stands ringed for war.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Drums sound and the camp of the host is readied for war.",
+   "claims": []
+  },
+  "1218": {
+   "reading": "The lion-like hero's gold body glows with long light, women's shoulders and the warriors' eyes throb with omens, the swords in warriors' hands seem to flower, and every heart opens.",
+   "concepts": [
+    "maram",
+    "kurippu",
+    "azhagu"
+   ],
+   "nuance": "Throbbing shoulders and eyes are read as omens of battle; the verse does not say whose omen is good.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "ஆளியே றனையவ",
+     "line": 1
+    }
+   ],
+   "event": "The hero's body shines and omens throb as the host rises.",
+   "claims": []
+  },
+  "1219": {
+   "reading": "Honey-like streams of ghee and honeycomb are poured over rows of pearl-hung umbrellas and the drums that strike down the foe-prince, so that the arms seem to be bathed in fat.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "nuance": "The syntax of 2 to 4 is broken; a ritual anointing of drums and umbrellas before battle is the likeliest sense.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1220": {
+   "reading": "Crows scream facing the jewelled chariots' tops, the burning quarters pour a fresh rain of blood, and headless trunks rise and dance on the field.",
+   "concepts": [
+    "maram",
+    "saakkaadu"
+   ],
+   "nuance": "The verse reads as battle seen in advance or the field of the first clash; it does not name the side whose chariots are meant.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1221": {
+   "reading": "The delicate and the unwilling change their ways and fall out with their women; sapphire beauties of the soft women turn dark as those who cling to them fall in ruin.",
+   "concepts": [
+    "maram",
+    "pirivu"
+   ],
+   "nuance": "Line 1 and line 4 are corrupt, and no firm reading is possible.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1222": {
+   "reading": "Crowns and helmeted brows fall apart, the lustre of the victorious spears is dulled, and the war-hardened men's bows break and they fall.",
+   "concepts": [
+    "maram",
+    "saakkaadu"
+   ],
+   "nuance": "The verse is one of a series of battle pictures and does not say which side falls.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1223": {
+   "reading": "The women's flames-scorched bodies, garlands, burned eyes and their cruel, flower-petal eyes all throb at the left or right as their men go to war.",
+   "concepts": [
+    "kurippu",
+    "pirivu",
+    "kaamam"
+   ],
+   "nuance": "Left and right throbbing of the women's eyes reads as omen; the lines are partly corrupt and the left or right meaning is uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1224": {
+   "reading": "The foe-kings, though they know that to fall in the thick of their host in the blood will bring ruin, will not let pride go, for they are kings of rage.",
+   "concepts": [
+    "maanam",
+    "maram",
+    "vendhan"
+   ],
+   "nuance": "Which kings are named is read from the opening அரசர்-run; மானம் here is the pride that keeps them from submission, answering the choice of 1215.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "podanam_kings",
+     "form": "மறங்கொண் மன்னரே",
+     "line": 4
+    }
+   ],
+   "event": "The enemy kings hold to their pride though they sense defeat.",
+   "claims": [
+    {
+     "claim": "a warrior king's pride (maanam) holds him to battle though he knows it brings his ruin",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "1225": {
+   "reading": "The envoys who had gone return with the gold-shining discus and give the word to their lord, and when they speak he laughs like venom thrown by an angry cobra.",
+   "concepts": [
+    "thoothu",
+    "vekuli",
+    "pagai"
+   ],
+   "nuance": "Laughter returns as the sign of anger, as in 1207; here it is the foe's laugh.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "thoothar",
+     "form": "தூதுவர்",
+     "line": 1
+    },
+    {
+     "id": "acuvakanthan",
+     "form": "நக்கான்",
+     "line": 4
+    }
+   ],
+   "event": "The envoys report the answer to their king, who laughs a venomous laugh.",
+   "claims": []
+  },
+  "1226": {
+   "reading": "The foe speaks: having slain kings of the vast earth with her father and seized their lives and boasted of his fierce strength, he and the great elephant too are taken together; hurry.",
+   "concepts": [
+    "maram",
+    "pagai",
+    "padai"
+   ],
+   "nuance": "The antecedent of 'he' in 2 to 3 is not clear and the verse is partly corrupt; held as uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "acuvakanthan",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1227": {
+   "reading": "When the discus-lord has said this, those who live on the great mountain say 'long may you live' and ready elephants, horses and many chariots and rise.",
+   "concepts": [
+    "padai",
+    "mannar"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar",
+     "form": "மால்வரை வாழ்பவர்",
+     "line": 2
+    }
+   ],
+   "event": "The hill-dwellers arm their elephants, horses and chariots and rise.",
+   "claims": []
+  },
+  "1228": {
+   "reading": "Cloud-dark drums are beaten, water-bright conches fill the line, fierce parai drums resound, the garland-hung host sounds, and the war-arrayed Vidyadharas bow over the earth.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar",
+     "form": "விஞ்சையர்",
+     "line": 4
+    }
+   ],
+   "event": "The Vidyadhara host sounds drums and conches.",
+   "claims": []
+  },
+  "1229": {
+   "reading": "Umbrellas, flags, cool chowries, weapons, crowns and many insignia press together, middle and sides and both flanks, so that the rank cannot be told from the weapon.",
+   "concepts": [
+    "padai",
+    "vendhan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1230": {
+   "reading": "Gold-gleaming chariots, noisy horses and elephants stand with no gap, and the sword-army cry rings to the great directions.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "nuance": "A closing verse of massed description; the host is read as the foe's.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1206,
+   "b": 681,
+   "type": "develops",
+   "note": "681 lights Tivittan with anger on hearing the word tribute; 1206 to 1207 show the same anger spreading through his body at the envoys' second round of words.",
+   "teaches": "The poet lets the first anger be inward at the demand and the second visible at the insult, so the hero grows from controlled to burning as the embassies go on."
+  },
+  {
+   "a": 1210,
+   "b": 690,
+   "type": "develops",
+   "note": "690 sends the envoys back with a defiant word; 1210 again lets them go unharmed, now by naming the custom that protects envoys.",
+   "teaches": "The hero's first dismissal is only defiance; the second gives the reason, that the envoy is not the one at fault, so he is shown as a lawful and not merely angry fighter."
+  },
+  {
+   "a": 1216,
+   "b": 402,
+   "type": "develops",
+   "note": "402 foretells that the Kesava will take the discus and the life of Asvagriva; 1216 sets a divine word that this youth will win and reign.",
+   "teaches": "The prophecy of the lord's word is echoed as a divine pledge at the moment of the first war-answer, so the battle is told as the keeping of an old promise."
+  },
+  {
+   "a": 1225,
+   "b": 686,
+   "type": "same_image",
+   "note": "686 calls the tribute-seeker a fool who would take the jewel from a venomous cobra's hood; 1225 gives the cobra's venom to the foe's laugh.",
+   "teaches": "The cobra moves from the hero's image of the danger the foe courts to the foe's own laughing venom, so the image of the poisonous snake cuts both ways."
+  },
+  {
+   "a": 1215,
+   "b": 1224,
+   "type": "develops",
+   "note": "1215 asks whether lives or honour weigh more with the enemy kings; 1224 answers that they keep pride though they feel ruin near.",
+   "teaches": "The ultimatum's question is answered by the kings' choice, which shows honour overriding fear of death in those the poet says were told to bow."
+  },
+  {
+   "a": 1210,
+   "b": "kural:685",
+   "type": "qualifies",
+   "note": "1210 sends away envoys who brought evil words that burned the ears; Kural 685 says an envoy should remove what would offend.",
+   "teaches": "The envoys fail the Kural's standard of speech and are still protected, so the immunity of an envoy is shown to stand apart from how well he speaks.",
+   "gains": {
+    "a": "The epic scene gains a measure by which the envoys' evil words count as a failure of the office, not just of manners.",
+    "b": "The couplet gains the case of an envoy who offends and yet may not be harmed, which the couplet's ideal of inoffensive speech does not reach."
+   }
+  },
+  {
+   "a": 1224,
+   "b": "kural:969",
+   "type": "qualifies",
+   "note": "1224 shows enemy kings holding to pride though they know it brings ruin; Kural 969 praises those who give up life when honour is at stake.",
+   "teaches": "The couplet's honour is tested on the wrong side of a war the poem says is already decided, so pride that kills is shown as heroic and also as futile.",
+   "gains": {
+    "a": "The epic verse gains a named value, honour as a reason to die, for conduct it only calls rage.",
+    "b": "The couplet gains a case where those who would die for honour serve an unjust demand, which the couplet's praise does not distinguish."
+   }
+  },
+  {
+   "a": 1207,
+   "b": "purananuru:72",
+   "type": "qualifies",
+   "note": "1207 shows the hero's anger at petty words in his body; Purananuru 72 turns Neduncheliyan's rage at kings who mocked him as young into a vow with named forfeits.",
+   "teaches": "The Sangam king binds himself in public speech to avenge a taunt, while the epic hero is let burn first and be confirmed by gods afterwards, so anger at a taunt is lawful in both but sanctioned differently.",
+   "gains": {
+    "a": "The epic hero's anger gains a Sangam precedent of a king answering mockery of his youth, which marks it as a king's duty and not temper.",
+    "b": "The Sangam vow gains a view of the same rage seen from the body and the heavens, and of a hero left to stand on others' pledge, which the vow has not."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 1213, 1214, 1219, 1221 and 1223 have broken syntax or corrupt lines and are held uncertain.",
+  "Verse 1221 line 1 has a stray 'திரிந்' fragment and line 4 a stray quote mark.",
+  "The speaker and the side of many verses (1210 to 1216) are inferred from the order of the embassy, not named."
+ ]
+}

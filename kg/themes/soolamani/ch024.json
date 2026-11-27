@@ -1,0 +1,767 @@
+{
+ "chapter_no": 24,
+ "chapter_theme": "Tivittan and Vijayan ride with the Vidyadhara envoy into Podanam; in the hall the envoy's letter offering a daughter to the younger prince is read, and when the king sits silent the envoy argues angrily that men of the earth cannot win what is above them, until the king answers that he cannot frame a reply and takes it all as a dream.",
+ "cast": [
+  {
+   "id": "arasan",
+   "tamil": "வேந்தன்",
+   "role": "King Payapati of Podanam, who receives the letter"
+  },
+  {
+   "id": "maruci",
+   "tamil": "விஞ்சையன்",
+   "role": "the Vidyadhara envoy carrying the letter, read as Marusi of 427 to 429"
+  },
+  {
+   "id": "vinjaiyar_vendhan",
+   "tamil": "விஞ்சையர் வேந்தன்",
+   "role": "the Vidyadhara king whose letter is read"
+  },
+  {
+   "id": "mathiravan",
+   "tamil": "மதிரவன்",
+   "role": "the learned counsellor who takes the letter and reads it"
+  },
+  {
+   "id": "tivittan",
+   "tamil": "திவிட்டன்",
+   "role": "the younger prince, to whom the girl is offered"
+  },
+  {
+   "id": "vijayan",
+   "tamil": "விசயன்",
+   "role": "Tivittan's elder brother"
+  },
+  {
+   "id": "town_women",
+   "tamil": "மாதர்",
+   "role": "the women of the city who welcome the princes"
+  },
+  {
+   "id": "vayilorr",
+   "tamil": "வாயிலோர்",
+   "role": "the gatekeepers who announce the arrivals"
+  }
+ ],
+ "verses": {
+  "503": {
+   "reading": "The two princes, with the Vidyadhara beside them, ride the neck of a rutting elephant in a flood of splendour that holds every eye, and shine like gods.",
+   "concepts": [
+    "selvam",
+    "azhagu"
+   ],
+   "nuance": "Who sits where on the elephant turns on a compressed second line, so the sense is the likely one only.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vijayan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "maruci",
+     "form": "விஞ்சையாளன்",
+     "line": 2
+    }
+   ],
+   "event": "Tivittan and Vijayan ride a rutting elephant with the Vidyadhara envoy toward Podanam.",
+   "claims": []
+  },
+  "504": {
+   "reading": "The city has been decked with gates, plantain-flags, gold-topped mansions that rub the moon, and the women meet the princes with pearls, gold vessels and flowers as they enter.",
+   "concepts": [
+    "azhagu",
+    "virundhu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vijayan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "town_women",
+     "form": "மாத",
+     "line": 4
+    }
+   ],
+   "event": "The princes enter the decked city while women welcome them with pearls, gold vessels and flowers.",
+   "claims": []
+  },
+  "505": {
+   "reading": "With the one who travels the sky, the sons of the kings, broad-chested and garlanded, take on a radiance that spreads like the bright season of the rising moon and the rows of clouds.",
+   "concepts": [
+    "azhagu",
+    "selvam"
+   ],
+   "nuance": "The comparison in the last two lines is compressed and its season-words are hard to fix.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "குமரச் செல்வர்",
+     "line": 2
+    },
+    {
+     "id": "vijayan",
+     "form": "குமரச் செல்வர்",
+     "line": 2
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "506": {
+   "reading": "The princes pass down the broad street where incense smoke from women's bowls and drops of honey from garlands soaked in perfume make the air as dark as a gathering cloud.",
+   "concepts": [
+    "azhagu",
+    "virundhu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vijayan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The princes ride down the wide street through incense smoke and dripping garlands.",
+   "claims": []
+  },
+  "507": {
+   "reading": "Over pearl sand, gold powder, flowers and sandal strewn by bright-toothed women, they come close to the great gate of the palace, which is hung with cool pearl garlands.",
+   "concepts": [
+    "azhagu",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vijayan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The princes reach the palace's great gate.",
+   "claims": []
+  },
+  "508": {
+   "reading": "When the gatekeepers announce them, the king, like a jewelled mountain crowned with a falling stream, goes in with strands of pearl lying over his gold crown and sits in the golden hall.",
+   "concepts": [
+    "arasu",
+    "avai"
+   ],
+   "nuance": "The king is not named here; he is read as Payapati from 509's 'king who gave kindness to the world' and the sarukkam's earlier verses.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vayilorr",
+     "form": "வாயிலோ",
+     "line": 1
+    },
+    {
+     "id": "arasan",
+     "form": "கொற்றவ",
+     "line": 2
+    }
+   ],
+   "event": "The gatekeepers announce the arrivals and the king takes his seat in the golden hall.",
+   "claims": []
+  },
+  "509": {
+   "reading": "The Vidyadhara, glad, enters with the princes at the right moment and bows at the king's feet, and the king graciously gives them places to sit.",
+   "concepts": [
+    "panivu",
+    "virundhu",
+    "vendhan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": "விஞ்சைய",
+     "line": 1
+    },
+    {
+     "id": "arasan",
+     "form": "வேந்த",
+     "line": 2
+    }
+   ],
+   "event": "The envoy bows to the king, who offers seats to the envoy and the princes.",
+   "claims": []
+  },
+  "510": {
+   "reading": "The king shows himself with the brave princes, the Vidyadhara and his counsellors around him, as the moon gleams among stars on the top of the jewelled seat.",
+   "concepts": [
+    "arasu",
+    "azhagu"
+   ],
+   "nuance": "The simile of line 4 makes the king the moon; the rest of the verse is a compressed list of those who sit around him.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arasan",
+     "form": "சந்திர சவிய",
+     "line": 4
+    }
+   ],
+   "event": "The king takes his place among princes, envoy and counsellors.",
+   "claims": []
+  },
+  "511": {
+   "reading": "The king, looking at the sky-goer, speaks the courtesies that fit the occasion, and the bracelet-armed envoy sits in joy as the grove of the hall fills with his presence.",
+   "concepts": [
+    "virundhu",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arasan",
+     "form": "வேந்த",
+     "line": 1
+    },
+    {
+     "id": "maruci",
+     "form": "னம்பர சரனை",
+     "line": 1
+    }
+   ],
+   "event": "The king greets the envoy with courtesies and the envoy sits pleased.",
+   "claims": []
+  },
+  "512": {
+   "reading": "The envoy rises, faces his own lord's ridge, folds his hands and shows the letter laid in a lac seal; reading the prince's sign, a learned counsellor takes it from his hand.",
+   "concepts": [
+    "thoothu",
+    "kurippu"
+   ],
+   "nuance": "Whether 'the lord's son' of line 3 is Tivittan, whose sign the counsellor reads, or another prince is not fixed by the verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": "விஞ்சைய",
+     "line": 1
+    },
+    {
+     "id": "mathiravan",
+     "form": "மதிரவன்",
+     "line": 4
+    }
+   ],
+   "event": "The envoy shows the sealed letter and the counsellor Mathiravan takes it.",
+   "claims": []
+  },
+  "513": {
+   "reading": "The counsellor studies the ink-written words from the jewelled casket, lines that are fair, unmatched and unbroken by creases, and then reads them aloud.",
+   "concepts": [
+    "thoothu",
+    "kalvi"
+   ],
+   "nuance": "Lines 1 and 2 are hard to construe; the description of the leaf and the casket is the likely sense.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "mathiravan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Mathiravan examines the letter's writing and begins to read it aloud.",
+   "claims": []
+  },
+  "514": {
+   "reading": "The letter of the king who rules Rathanupura addresses the lord of Podanam, and sends for the one of the warrior anklets food and ointment and the rest, free of harm, as his protection for the journey.",
+   "concepts": [
+    "thoothu",
+    "virundhu"
+   ],
+   "nuance": "The name of the writer in line 2 and the sense of line 4 are doubtful; the verse is read as the opening of the letter's words.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vinjaiyar_vendhan",
+    "form": "மன்ன",
+    "line": 2,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar_vendhan",
+     "form": "மன்ன",
+     "line": 2
+    }
+   ],
+   "event": "The Vidyadhara king's letter, read aloud, greets the lord of Podanam and sends gifts.",
+   "claims": []
+  },
+  "515": {
+   "reading": "The letter says that the girl is given as the younger prince's own and asks the strong-chested king to call her his daughter-in-law and take her, wishing him and his garland long life.",
+   "concepts": [
+    "makkal",
+    "kudi",
+    "arasu"
+   ],
+   "nuance": "The offer is in the letter's voice, and the letter is the speech of the absent Vidyadhara king; who 'gives' and who 'takes' in line 4 is not made plain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vinjaiyar_vendhan",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar_vendhan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The letter offers the Vidyadhara king's daughter to the younger prince.",
+   "claims": []
+  },
+  "516": {
+   "reading": "The reading done, the king, thinking that Vidyadharas are greater than his own kind, wonders what lies behind this message and sits unable to say a word.",
+   "concepts": [
+    "maanam",
+    "thelivu",
+    "perumai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "mathiravan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "arasan",
+     "form": "னிறைவன்",
+     "line": 1
+    }
+   ],
+   "event": "The king, puzzled, sits silent after the letter is read.",
+   "claims": [
+    {
+     "claim": "Vidyadharas are greater than men of the earth",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "arasan"
+    }
+   ]
+  },
+  "517": {
+   "reading": "Seeing the king sit sighing without a reply, the envoy, unstoppable in his anger, begins to say that he cannot see why a letter of his unquenchable lord is not honoured.",
+   "concepts": [
+    "vekuli",
+    "thoothu"
+   ],
+   "nuance": "The envoy is named by the sky-goer's title; the identification with Marusi rests on 427 to 429 and on the envoy's arrival at 505 and not on a name in this verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": "கேசர",
+    "line": 4,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": "கேசர",
+     "line": 4
+    },
+    {
+     "id": "arasan",
+     "form": "கோமான்",
+     "line": 1
+    }
+   ],
+   "event": "The envoy angrily asks the silent king why he does not honour his lord's letter.",
+   "claims": []
+  },
+  "518": {
+   "reading": "The envoy says that the world's saying is shown true in the king: when a man speaks wanting something, whoever he may be, he is slighted.",
+   "concepts": [
+    "sol",
+    "pazhi"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "one who comes asking for something is slighted, whoever he is",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "519": {
+   "reading": "He adds that even gods, once they fall and a few days pass, are looked on and scorned like anyone, and calls this the way of men.",
+   "concepts": [
+    "nilaiyaamai",
+    "manam"
+   ],
+   "nuance": "Line 2's wording is hard, so the sense of falling and slighting is the likely one; the envoy speaks this as an accusation of the king's manner, not as a rule he lays down.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "even gods, when they fall, are scorned like anyone; this is human nature",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "520": {
+   "reading": "The envoy asks whether a man sick with disease can taste the sweet milk-nectar, or men whose body is a frothy hollow can enjoy the wealth of the Vidyadharas.",
+   "concepts": [
+    "yaakkai",
+    "selvam",
+    "perumai"
+   ],
+   "nuance": "The body-as-froth image is the one the Naladiyar uses to teach detachment; here it is used as an insult in a rank argument, and no doctrine of release is stated.",
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the Vidyadharas' wealth cannot be enjoyed by men, whose bodies are frothy hollows",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "521": {
+   "reading": "He asks whether those who lack a mind of dharma and are bent on wasting can reach the great state of insight that cuts birth, and whether Vidyadharas' place can be told to men living in forgetfulness.",
+   "concepts": [
+    "piravi",
+    "aram",
+    "sirumai"
+   ],
+   "nuance": "The birth-cutting vision is used only as an analogy for what men cannot reach; the verse does not say which school's insight it means, and it is spoken by a Vidyadhara in an argument about rank.",
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the great state of insight that cuts birth cannot be won by those without a mind of dharma",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "522": {
+   "reading": "He asks whether a young elephant that lives by eating trees can be set beside the strength of a rutting elephant, and whether men of this earth, of a pitiable small life, can win by waiting the greatness of his people.",
+   "concepts": [
+    "sirumai",
+    "perumai",
+    "padai"
+   ],
+   "nuance": "The word in line 2 for the animal is not clear (களபக்கு); the comparison is the likely sense.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "men of this earth, of a small life, cannot win the greatness of the Vidyadharas by waiting for a boon",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "523": {
+   "reading": "He says that men who live on earth, even the clever, seem not to know what is fitting, and rebukes the king for not giving even a word of answer after his lord on the silver ridge sent the letter.",
+   "concepts": [
+    "pedhaimai",
+    "sirumai",
+    "sol"
+   ],
+   "nuance": "Lines 3 and 4 are compressed; the rebuke is for the king's silence.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "men on earth, even the clever, do not know what is fitting",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "524": {
+   "reading": "The king, hearing him, turns to the sky-goer and asks him not to speak in anger, saying that he has stayed here because he cannot say what a fitting reply to so grand a letter would be.",
+   "concepts": [
+    "vekuli",
+    "panivu",
+    "sol"
+   ],
+   "nuance": "The speaker is not named in the verse; the diamond-ornamented man of line 4 is read as the king whose silence is the cause of 516 and 517.",
+   "uncertain": true,
+   "speaker": {
+    "who": "arasan",
+    "form": "வயிரப் பூணான்",
+    "line": 4,
+    "addressee": "maruci"
+   },
+   "agents": [
+    {
+     "id": "arasan",
+     "form": "வயிரப் பூணான்",
+     "line": 4
+    }
+   ],
+   "event": "The king asks the envoy not to be angry and says he cannot frame a fitting reply.",
+   "claims": []
+  },
+  "525": {
+   "reading": "The king says that the Vidyadharas are fiery, great, and no less than gods when examined, so that for men who live under the clouds on the earth a bond and joy with them is hard to gain.",
+   "concepts": [
+    "perumai",
+    "sirumai",
+    "samanilai"
+   ],
+   "nuance": "The king grants the premise of the envoy's pride without agreeing to the match; the work leaves the claim unanswered here.",
+   "speaker": {
+    "who": "arasan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a bond with Vidyadharas, who are god-like, is hard for men of the earth to gain",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "arasan"
+    }
+   ]
+  },
+  "526": {
+   "reading": "The king says that this body made of flesh is as it is, and that he would take all that the envoy has said, showing the letter of the garlanded king, to be a dream, since he cannot rightly marvel at it and speak it out as true.",
+   "concepts": [
+    "kanavu",
+    "manam",
+    "thelivu"
+   ],
+   "nuance": "The dream is used for what is too good to be believed, though the court has just treated a dream as a true sign (106 to 112).",
+   "uncertain": true,
+   "speaker": {
+    "who": "arasan",
+    "form": null,
+    "line": null,
+    "addressee": "maruci"
+   },
+   "agents": [],
+   "event": "The king tells the envoy he can only take the offer as a dream.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 514,
+   "b": 108,
+   "type": "develops",
+   "note": "Verse 108 foretells that a man good at speaking will come down with a letter into the garden Pushpakarandam; here the letter is read in the king's hall.",
+   "teaches": "The astrologer's forecast of a letter is now met by its words, which turn out to be the offer of a bride that the dream was read to promise."
+  },
+  {
+   "a": 515,
+   "b": 107,
+   "type": "develops",
+   "note": "Verse 107 reads the dream as a Vidyadhara king who will come and give a daughter; the letter in 515 gives her as the younger prince's through an envoy, not in person.",
+   "teaches": "The dream's promise returns as a formal proposal sent by letter, so the prophecy opens a scene of answering and choosing rather than ending in a bare fact."
+  },
+  {
+   "a": 526,
+   "b": 106,
+   "type": "tension",
+   "note": "Verse 106 tells a night dream that the court takes as a true sign of this match; in 526 the king says that he can take the offer only as a dream. This holds if 526's dream means a thing not to be trusted.",
+   "teaches": "The same word, dream, stands for a sure sign in the court's mouth and for something too good to be believed in the king's, and the plot rides on that gap."
+  },
+  {
+   "a": 517,
+   "b": 427,
+   "type": "qualifies",
+   "note": "Verse 427 names Marusi because he can say what is fit; in 517 the same envoy answers the king's silence with anger and a rebuke.",
+   "teaches": "The ministers chose a speaker for fitting words, and the scene tests that skill when he is met by silence and shows how quickly it turns to pride."
+  },
+  {
+   "a": 523,
+   "b": "kural:685",
+   "type": "tension",
+   "note": "Kural 685 asks an envoy to speak briefly, to leave out what offends and to say it so that it wins a smile; Marusi's words in 518 to 523 offend the king and end by calling men of the earth unable to know what is fitting.",
+   "teaches": "A couplet of what an envoy should do is seen broken in a scene where the envoy's anger grows from the court's silence rather than from ill will.",
+   "gains": {
+    "a": "523 gains a standard against which the envoy's pride reads as a failure of his office, not just a mood",
+    "b": "685 gains a case where the pressure on the envoy comes from a silent king, so softening speech means bearing silence as well as choosing words"
+   }
+  },
+  {
+   "a": 518,
+   "b": "naladiyar:115",
+   "type": "qualifies",
+   "note": "Naladiyar 115 says the words of the poor glance off while the rich are heard; Marusi says that anyone who speaks wanting something is slighted, even when he speaks for the stronger lord.",
+   "teaches": "The Naladiyar finds the cause of being ignored in the speaker's poverty, while Marusi finds it in the act of asking, so a rich lord's messenger can be slighted too.",
+   "gains": {
+    "a": "518 gains the rule it assumes, that how a man is heard follows his standing, which shows Marusi's complaint to be about rank",
+    "b": "115 gains a case where the unheard speaker comes from the richer side, so need rather than poverty may be what silences him"
+   }
+  },
+  {
+   "a": 520,
+   "b": "naladiyar:27",
+   "type": "same_image",
+   "note": "Naladiyar 27 sets the body as a bubble in pelting rain; 520 calls the human body a frothy hollow. The first uses it to urge ending the cycle of births, the second to bar men from a Vidyadhara's wealth.",
+   "teaches": "One image of the body as foam serves a teacher of release and an envoy's claim of rank, so the image shows weakness only and takes its direction from who uses it.",
+   "gains": {
+    "a": "520 gains the sense that its froth-body is a commonplace of teaching on impermanence, so using it as an insult turns a lesson into a boast",
+    "b": "27 gains a use of the bubble-body to exclude rather than free, showing that the image alone does not call for renunciation"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 503, 505, 510, 512, 513, 514, 515, 519, 522, 523, 524, 526: several lines are compressed or hard to construe; flagged uncertain.",
+  "Verse 514 line 2: the name written as the writer of the letter reads like a corrupt word; read as the Vidyadhara king who rules Rathanupura.",
+  "Verse 522 line 2: the word களபக்கு for the animal is unclear.",
+  "Verses 518 to 523: the speaker is taken to be the envoy of 517; 524 to 526 are taken to be the king, on the strength of 516 and 524 line 4."
+ ]
+}

@@ -1,0 +1,753 @@
+{
+ "chapter_no": 46,
+ "chapter_theme": "A woman shows the young lord a painting of the Vidyadhara king's daughter, Kaman shoots him with love and he burns for the picture, then a long evening scene is drawn and the maiden goes to worship at the Jina's temple.",
+ "cast": [
+  {
+   "id": "woman",
+   "tamil": "மைப்புடை நெடுங்கணாள்",
+   "role": "the dark-eyed woman who shows the maiden's picture and speaks of her birth; unnamed"
+  },
+  {
+   "id": "kaalai",
+   "tamil": "அரச நம்பி",
+   "role": "the young lord who sees the picture and falls in love; the epithets அரச நம்பி, காளை and வில்வலான் are taken to name him"
+  },
+  {
+   "id": "kaman",
+   "tamil": "காமன்",
+   "role": "the god of love, who strings his bow at the youth"
+  },
+  {
+   "id": "sun",
+   "tamil": "வெய்யோன்",
+   "role": "the sun, set as a figure that goes down in the west"
+  },
+  {
+   "id": "maiden",
+   "tamil": "மடமா மகள்",
+   "role": "the Vidyadhara king's daughter of the portrait, who goes to the Jina's temple; unnamed"
+  },
+  {
+   "id": "birds",
+   "tamil": "புள்",
+   "role": "the birds that return to their nests at dusk"
+  },
+  {
+   "id": "lotuses",
+   "tamil": "தாமரை",
+   "role": "the pond lotuses that close at sunset, likened to chaste women"
+  },
+  {
+   "id": "lilies",
+   "tamil": "வெள்ளாம்பல்",
+   "role": "the white lilies that open at moonrise"
+  },
+  {
+   "id": "women",
+   "tamil": "மடவார்",
+   "role": "the women of the towers who set lamps and sing in the evening"
+  }
+ ],
+ "verses": {
+  "1016": {
+   "reading": "The young lord agrees to look, the dark-eyed woman sends away those standing near and shows him the maiden's likeness painted on a board, and he, taken with the sight, cannot take in the rest of her body.",
+   "concepts": [
+    "azhagu",
+    "kaamam",
+    "kalaviyal"
+   ],
+   "nuance": "The opening words 'if so, let us see by mother' have no named speaker or antecedent in this chapter, and the phrase for the second half, 'he could not make out the flank of the body', is taken to say that the picture fills his mind so that he cannot judge it; one reading only.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "woman",
+     "form": "மைப்புடை",
+     "line": 2
+    },
+    {
+     "id": "kaalai",
+     "form": "நம்பி",
+     "line": 1
+    }
+   ],
+   "event": "The dark-eyed woman clears the room and shows the youth the maiden's portrait, and he is struck.",
+   "claims": []
+  },
+  "1017": {
+   "reading": "The woman asks whether the girl in the picture is a goddess's daughter, a Vidyadhara woman or one of earth, says she is surely not an earthly daughter, and bids the spear-bearing youth work out the answer by thought.",
+   "concepts": [
+    "azhagu",
+    "aakaasam",
+    "kurippu"
+   ],
+   "nuance": "The shape of the question, a goddess or a heavenly woman or one of earth, is the same shape in which the Kural's lover first wonders at a woman; here it is asked to place her birth, not only to praise her.",
+   "uncertain": true,
+   "speaker": {
+    "who": "woman",
+    "form": "கென்றாள்",
+    "line": 4,
+    "addressee": "kaalai"
+   },
+   "agents": [
+    {
+     "id": "woman",
+     "form": "மானிவர் நோக்கி",
+     "line": 3
+    }
+   ],
+   "event": "The woman poses the three-way question about the maiden's birth and invites the youth to judge.",
+   "claims": []
+  },
+  "1018": {
+   "reading": "The woman says no women on earth have a form like this, and that, if she is not a sky woman, then it must be the Vidyadhara king's beloved daughter's likeness; that is what she answered as he came near to count.",
+   "concepts": [
+    "azhagu",
+    "aakaasam"
+   ],
+   "nuance": "Line 3 'கண்மிசை நவிலுங் காதற் கன்னிய துருவம்' is read as the king's own dear maiden-form, but the grammar of lines 3 and 4 is loose and the sentence boundary of the speech is not fixed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "woman",
+    "form": "சொன்னாள்",
+    "line": 4,
+    "addressee": "kaalai"
+   },
+   "agents": [
+    {
+     "id": "woman",
+     "form": "சொன்னாள்",
+     "line": 4
+    }
+   ],
+   "event": "The woman names the Vidyadhara king's daughter as the girl of the picture.",
+   "claims": []
+  },
+  "1019": {
+   "reading": "As the youth looks at the maiden's picture, Kaman strung with golden anklet and flower garland looks at his bow, his flowered arrow and the hour, and begins to loose the burning shaft at him.",
+   "concepts": [
+    "kaamam",
+    "kaamanoy",
+    "azhagu"
+   ],
+   "nuance": "The poet makes love's onset an act of Kaman's, done with care for bow, arrow and hour; the picture is the occasion, the god is the doer.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kaalai",
+     "form": "காளை",
+     "line": 1
+    },
+    {
+     "id": "kaman",
+     "form": "காமன்",
+     "line": 1
+    }
+   ],
+   "event": "Kaman takes up his bow and begins to shoot at the youth as he sees the picture.",
+   "claims": []
+  },
+  "1020": {
+   "reading": "Though the whole earth bows to him in joy, the handsome youth has no joy within; seeing the picture of the one he loves, he is like a hill of butter in fire.",
+   "concepts": [
+    "kaamanoy",
+    "azhagu",
+    "kan"
+   ],
+   "nuance": "The earth's homage (line 1) is set against his emptiness (line 2); his rank and the world's worship cannot answer a desire stirred by a mere likeness.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kaalai",
+     "form": "காளை",
+     "line": 2
+    }
+   ],
+   "event": "The youth sees the picture's form and melts with desire.",
+   "claims": []
+  },
+  "1021": {
+   "reading": "The youth takes the moon-faced girl into his mind, looks again at the beauty of her forehead, and slowly lets his longing for the one whose waist shakes the cobra grow great.",
+   "concepts": [
+    "kaamam",
+    "kaamanoy",
+    "ninaivu"
+   ],
+   "nuance": "The epithet வில்வலான் (skilled with the bow) is taken to be the youth himself, not Kaman, whose bow was the subject of verse 1019; it could also point to Kaman.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kaalai",
+     "form": "வில்வலான்",
+     "line": 4
+    }
+   ],
+   "event": "The skilled archer-youth cherishes the picture in his heart and lets his desire grow.",
+   "claims": []
+  },
+  "1022": {
+   "reading": "The youth thinks that if she signalled he would arrange her hair and set a garland on it, and that she might open her lisping mouth to say a word; her long glance like a shadowy arrow, he fears, will kill him as in a fire.",
+   "concepts": [
+    "kaamam",
+    "ninaivu",
+    "kan"
+   ],
+   "nuance": "The quoted wishes end in 'என்னும்' in each verse; these are the youth's own thoughts, given by the narrator.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kaalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The youth imagines tending her hair and her speaking to him, and fears her glance.",
+   "claims": []
+  },
+  "1023": {
+   "reading": "He thinks he would set her anklets on her small feet, seat her on his lap, and with his hand part her long hair on a flowered garland, and his mind longs to do this elsewhere.",
+   "concepts": [
+    "kaamam",
+    "ninaivu",
+    "kaamanoy"
+   ],
+   "nuance": "'வேறிடத் துருவல் செய்ய' (to do this at another place) is unclear; it is read as a wish to take the wooing elsewhere than the picture.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kaalai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The youth fancies arranging her anklets and hair in a lover's service.",
+   "claims": []
+  },
+  "1024": {
+   "reading": "He imagines a fine cloth slipping from her hand and jewels touching her soft green-leaf body, and as he kindles the hot fire of desire for the red-jewelled girl the skilled archer wastes away.",
+   "concepts": [
+    "kaamanoy",
+    "kaamam",
+    "ninaivu"
+   ],
+   "nuance": "Desire is a fire he lights himself ('கனல மூட்டி'), not only a wound dealt by Kaman as in 1019; both pictures stand side by side in this run.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kaalai",
+     "form": "வில்வலான்",
+     "line": 4
+    }
+   ],
+   "event": "The youth dwells on the picture's body and wastes away with desire.",
+   "claims": []
+  },
+  "1025": {
+   "reading": "He says that when the wedding business begins he will take counsel with his kin the next day and know; thus the fierce sun, going the youth's way, reached the red-gold western hill crowned with falling streams.",
+   "concepts": [
+    "kaamam",
+    "kaalam",
+    "azhagu"
+   ],
+   "nuance": "The verse joins his promise to his kin with sunset by one sentence; the words 'காளைபாற் பட்டு' (taken to the youth's side) are not clear, and the addressee is guessed from the scene.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kaalai",
+    "form": null,
+    "line": null,
+    "addressee": "woman"
+   },
+   "agents": [
+    {
+     "id": "sun",
+     "form": "வெய்யோன்",
+     "line": 3
+    }
+   ],
+   "event": "The youth defers the matter of marriage to the next day, and the sun reaches the western hill.",
+   "claims": []
+  },
+  "1026": {
+   "reading": "The sun comes down from the sky's road, leaning his forehead on the beams like a hand against a hill, lets go of the treetops he held by their tips, and changing his form slips quietly out of sight.",
+   "concepts": [
+    "aakaasam",
+    "oli",
+    "azhagu"
+   ],
+   "nuance": "Line 1 reads 'இழிந் வெய்யோன்', a short word probably for இழிந்து; the verse treats the sunset as a figure getting down from a high place.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sun",
+     "form": "வெய்யோன்",
+     "line": 1
+    }
+   ],
+   "event": "The sun sets by the hill and the trees.",
+   "claims": []
+  },
+  "1027": {
+   "reading": "Scorched by the red fire of the sun the directions turn dark as if smeared with black, and in the west a red form rises, like fire rekindled over a burnt pile.",
+   "concepts": [
+    "oli",
+    "aakaasam",
+    "azhagu"
+   ],
+   "nuance": "The dark east is set against the red west; fire and smearing images carry the whole verse and no person acts.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The sky darkens as dusk falls and the western sky reddens.",
+   "claims": []
+  },
+  "1028": {
+   "reading": "Evening settles in: birds leave the toddy-scented fields with small fish in their cheeks and settle in their nests to feed their young, and pair with their mates in joy, while to the generous king's mind it comes like a spear.",
+   "concepts": [
+    "maalai",
+    "kaamanoy",
+    "inbam"
+   ],
+   "nuance": "Joy of the paired birds is set against the lover's pain in line 4; 'வள்ளலார்' is a general praise word for the youth, so whose mind is meant is a matter of reading.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "birds",
+     "form": "புள்ளெலாங்",
+     "line": 2
+    }
+   ],
+   "event": "Birds return to their nests and mates at dusk while the lover feels the evening as a spear.",
+   "claims": []
+  },
+  "1029": {
+   "reading": "As the sun that wheels above goes out of sight, the lotuses in the pond close and lose their glow like chaste women when their beloved leaves, while the small white lilies laugh open and rise in pride.",
+   "concepts": [
+    "maalai",
+    "karpu",
+    "azhagu"
+   ],
+   "nuance": "The lotus is the faithful wife, the lily the one who laughs at her; the poet gives the faithful wife the lotus and does not apply the simile to the lily.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "lotuses",
+     "form": "தாமரை",
+     "line": 2
+    },
+    {
+     "id": "lilies",
+     "form": "வெள்ளாம்பல்",
+     "line": 3
+    }
+   ],
+   "event": "At sunset the lotuses close and the night lilies open.",
+   "claims": []
+  },
+  "1030": {
+   "reading": "The red water of sunset has spread and cleared into a jewelled pool of blue sky, in the mud of dark night the lotus stalks of the young moon's beams shoot up like stems and rings.",
+   "concepts": [
+    "oli",
+    "aakaasam",
+    "azhagu"
+   ],
+   "nuance": "The whole sky is made a pond: red as its water, blue as the pond, night as its mud, moonbeams as its lotus stems.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Evening red passes and moonbeams rise in the dark sky like lotus stalks.",
+   "claims": []
+  },
+  "1031": {
+   "reading": "The young moon, rising in the evening sky, drinks its sweet beams like nectar and the white lilies open while the lotuses close; the poet asks where there is anyone who is sweet to the whole world as one.",
+   "concepts": [
+    "maalai",
+    "oli",
+    "naduvu"
+   ],
+   "nuance": "Line 4 is short of a clear grammar and reads as a rhetorical question; the moon is the case, a lotus the loser.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The moon rises, lilies open and lotuses close, and the poet asks who is pleasing to all.",
+   "claims": [
+    {
+     "claim": "no one is agreeable to everyone: what delights one flower closes another",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "1032": {
+   "reading": "The evening carries jasmine honey, the early-moon's beams on forest jasmine petals, bee-hum, the dust of the lotus grove and a wind that stirs the dark blue lilies, and the poet says evening has this one thing in addition.",
+   "concepts": [
+    "maalai",
+    "azhagu",
+    "oli"
+   ],
+   "nuance": "A catalogue of evening's senses in one sentence; the verse ends with 'மாலை' as its subject.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Evening is described by its scents, moonbeams and breeze.",
+   "claims": []
+  },
+  "1033": {
+   "reading": "As women with kohl-dark eyes set lamps on their jewelled towers and the smoke of aloe enters between them, as cobras spit out their gems to feed, the evening comes like fire to those who suffer the desire that grows in them.",
+   "concepts": [
+    "maalai",
+    "kaamanoy",
+    "azhagu"
+   ],
+   "nuance": "The last line puts the pain in those who have desire: evening is gentle in itself, and burns only 'for those who have' the sickness.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "women",
+     "form": "நெடுங்கண்ணார்",
+     "line": 1
+    }
+   ],
+   "event": "Lamps are lit in the towers and evening comes as fire to the lovesick.",
+   "claims": []
+  },
+  "1034": {
+   "reading": "Parrots perched on women's wrists sing in the evening mode in answer to the women's own singing, and the doves at each beam coo at their own necks, as the evening kindles desire in those who are parted.",
+   "concepts": [
+    "maalai",
+    "kaamam",
+    "inbam"
+   ],
+   "nuance": "The verse is as much about the birds' songs as about the women; the sense of line 4 is held loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "women",
+     "form": "மடவார்தங்",
+     "line": 1
+    }
+   ],
+   "event": "Parrots and doves call in the evening where women sing, and the hour stirs desire.",
+   "claims": []
+  },
+  "1035": {
+   "reading": "The poet tells those who ask what happened to the young lord's pining and where the Vidyadhara girl was that, praised by the women of the court, she came at dusk to the Jina's holy temple.",
+   "concepts": [
+    "aakaasam",
+    "vazhipaadu",
+    "maalai"
+   ],
+   "nuance": "The poet turns from the youth to the maiden and answers a question put to the audience; line 2 ('யன்மடமா மகணிலையா தனெவினவில்') is corrupt and the identification of the girl with the portrait is by context.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maiden",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The Vidyadhara maiden arrives at the Jina's temple at dusk.",
+   "claims": []
+  },
+  "1036": {
+   "reading": "She opens the firm jewelled doors, sets the bright lamps shining, makes aloe and fragrant smoke fill the sky, and carrying garlands, flowers, powder and sandal, praises the Lord with the music of strings.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan",
+    "ozhukkam"
+   ],
+   "nuance": "The ritual items are given as acts of love and skill, with music; no doctrine is stated, and the word பரமன் (the Supreme) here names the Jina of the preceding verse.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maiden",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The maiden lights lamps, offers incense and flowers, and sings to the Jina in the temple.",
+   "claims": []
+  },
+  "1037": {
+   "reading": "If the lotuses, bubbling honey, bloom in drinking the beauty of the maiden's red feet, then those who bow at the Jina's feet may well bloom in light and joy and lose their reason in delight.",
+   "concepts": [
+    "vazhipaadu",
+    "thiruvadi",
+    "azhagu"
+   ],
+   "nuance": "Lines 2 and 3 repeat each other nearly word for word in this edition, probably an editorial doubling; the feet are named in the surrounding verses as the Jina's, but the line 2 phrase 'அணங்கிவர் சேவடி' could first read as the maiden's.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The poet compares the opening lotus to the worshippers who bow at the Jina's feet.",
+   "claims": [
+    {
+     "claim": "those who bow at the Jina's feet bloom in light and joy, beyond reason",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "1038": {
+   "reading": "If the bud-bearing lotuses, bees humming 'we have reached the shade of the knower's feet', are proud and tremble with light, then it is no wonder that those who bow in love lose themselves in swoon and joy.",
+   "concepts": [
+    "vazhipaadu",
+    "thiruvadi",
+    "anbu"
+   ],
+   "nuance": "Lines 2 and 3 are near duplicates of each other as in 1037; the line 1 'அறிவரன' (the knower, the Jina) is the name that makes it a Jain worship verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The poet says that bees sing at the lotus as worshippers bow in joy at the Jina's feet.",
+   "claims": [
+    {
+     "claim": "worshippers of the Jina's feet lose themselves in joy and are glad",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": 1018,
+   "b": 1017,
+   "type": "develops",
+   "note": "Verse 1017 asks whose daughter the picture shows; 1018 answers that she is no earth-woman and so the Vidyadhara king's daughter.",
+   "teaches": "The answer is reached by elimination from the picture's beauty, not from any name, so the maiden's identity rests only on how she looks."
+  },
+  {
+   "a": 1019,
+   "b": 1016,
+   "type": "develops",
+   "note": "Verse 1016 puts the portrait before the youth; 1019 shows love begin as soon as he looks, with Kaman taking aim.",
+   "teaches": "The poet makes the painted likeness itself the occasion of love, so no meeting has taken place when the wound is given."
+  },
+  {
+   "a": 1021,
+   "b": 1019,
+   "type": "develops",
+   "note": "Kaman's shaft of 1019 has landed by 1021, where the youth himself lets desire swell slowly.",
+   "teaches": "Love enters by a god's act but is then fed by the lover himself, so the verses show both cause and indulgence in one fall."
+  },
+  {
+   "a": 1035,
+   "b": 1020,
+   "type": "qualifies",
+   "note": "While the youth in 1020 burns for the maiden's picture, 1035 shows her elsewhere, praised by women, going to worship at dusk.",
+   "teaches": "The reader sees the youth's fire for a girl who is far away and busy with prayer, so his longing has no answer from her yet."
+  },
+  {
+   "a": 1038,
+   "b": 1037,
+   "type": "develops",
+   "note": "Verse 1037 sets the lotus drinking the feet's glow beside the worshippers; 1038 repeats the figure with bees singing.",
+   "teaches": "The second verse adds the bees' sound to the lotus image, so the worshippers' bloom is also heard as a hymn."
+  },
+  {
+   "a": 1017,
+   "b": "kural:1081",
+   "type": "qualifies",
+   "note": "Both ask whether a woman is a goddess, a rare bird or a human, but in verse 1017 the question is asked about a painted likeness and answered by reasoning.",
+   "teaches": "The question that Kural 1081 puts as a lover's reeling is here a calm puzzle about a portrait, so the same three-way wonder can come from sight alone.",
+   "gains": {
+    "a": "The verse lacks the lover's own giddy heart, which the couplet puts first and which the woman's reasoned question leaves out.",
+    "b": "The couplet lacks any sense that the wonder can be a deliberate question put to another person about a likeness."
+   }
+  },
+  {
+   "a": 1020,
+   "b": "kural:1171",
+   "type": "qualifies",
+   "note": "Kural 1171's woman blames her eyes for showing her the man; verse 1020's youth melts as his eyes take in only a picture.",
+   "teaches": "Love through the eyes does not need the person present, so the eyes' guilt in the couplet is wider than a meeting.",
+   "gains": {
+    "a": "The verse lacks the couplet's turn on the eyes themselves as the cause of sorrow, which names an instrument for the fire.",
+    "b": "The couplet lacks any case where the eyes meet only a painted form and still bring the sickness."
+   }
+  },
+  {
+   "a": 1033,
+   "b": "kural:1224",
+   "type": "qualifies",
+   "note": "Kural 1224's parted wife meets evening as enemies at a killing ground; verse 1033 gives a lit, scented evening that burns only those who carry desire.",
+   "teaches": "The epic locates the pain in the viewer's state ('for those who have it'), while the couplet makes evening itself the attacker.",
+   "gains": {
+    "a": "The verse lacks the couplet's starkness, in which evening is a force with an army, not a charming hour.",
+    "b": "The couplet lacks the verse's detail of lamps, smoke and birds, which show evening pleasant in itself before it hurts."
+   }
+  },
+  {
+   "a": 1028,
+   "b": "natrinai:69",
+   "type": "same_image",
+   "note": "Both verses show evening birds going to their nests and young while one who is away or lovesick suffers.",
+   "teaches": "Pairing the two shows that the happy birds are used as the measure of the lover's loneliness in both, only here the sufferer is a youth and there it is a wife.",
+   "gains": {
+    "a": "The verse lacks the akam frame of a wife whose husband is on his work, which Natrinai 69 supplies and which gives the birds' return a cause for grief.",
+    "b": "The Sangam poem lacks the wide epic eye that lists the fields, the fish-carrying birds and a generous man's spear-like feeling in one evening."
+   }
+  },
+  {
+   "a": 1029,
+   "b": "akananuru:71",
+   "type": "same_image",
+   "note": "Verse 1029 compares closing lotuses to chaste women whose beloved has left; Akananuru 71 compares bees leaving pool flowers for branch flowers to graceless men.",
+   "teaches": "The same evening scene casts the flower as a faithful wife and the bee as a leaving man, so each poet gives the figure a different party to blame.",
+   "gains": {
+    "a": "The verse lacks the blame that Akananuru puts on the one who leaves, since its simile is only a praise of women's constancy.",
+    "b": "The Sangam poem lacks the picture of the wife as the shut lotus, which turns the flower into the one who stays loyal."
+   }
+  },
+  {
+   "a": 1036,
+   "b": "tirumanthiram:1005",
+   "type": "qualifies",
+   "note": "Verse 1036 gives a woman setting lamps, incense, flowers and music before the Jina; Tirumanthiram 1005 sets golden lamps and incense in every direction and promises release.",
+   "teaches": "A Jain maiden's temple rite and a Saiva verse use the same lamp-and-incense offering, though only the Tirumanthiram names its fruit.",
+   "gains": {
+    "a": "The verse lacks any statement of what the offering brings, which the Saiva verse gives as release.",
+    "b": "The Tirumanthiram lacks a person doing the rite, with her doors, garlands and strings, which the epic shows in motion."
+   }
+  },
+  {
+   "a": 1024,
+   "b": "tirumanthiram:204",
+   "type": "tension",
+   "note": "Verse 1024 narrates the youth's heart burning for a woman's body as the natural course of love; Tirumanthiram 204 tells the heart to turn away from such burning.",
+   "teaches": "What the epic narrates as an unfolding desire, the Siddhar-side verse treats as a trap, so the two disagree about what the heart should do with beauty.",
+   "gains": {
+    "a": "The verse lacks any judgment on the burning, which the Tirumanthiram supplies as a warning.",
+    "b": "The Tirumanthiram lacks the felt scene of a young man wasting with desire, which shows why the warning is needed."
+   }
+  },
+  {
+   "a": 1037,
+   "b": "kural:3",
+   "type": "qualifies",
+   "note": "Verse 1037 shows lotuses opening in the glow of the feet and worshippers blooming at the Jina's feet; Kural 3 promises long life to those who reach the feet of the one on the flower.",
+   "teaches": "Both join feet and flowers, but the epic gives the bloom as the worshipper's own joy while the couplet gives a lasting earthly life.",
+   "gains": {
+    "a": "The verse lacks a stated reward for reaching the feet, which the couplet names as long life.",
+    "b": "The couplet lacks the verse's picture of the flower opening in the feet's light, which the worshipper's joy is likened to."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 1020, 1032 to 1038: the printed stanza ran into eight half-lines and was repaired to four lines; the word division stays broken in places.",
+  "Verse 1024: a pulli after a vowel sign was removed in line 2.",
+  "Verse 1026: line 1 'இழிந் வெய்யோன்' appears to drop a letter (இழிந்து).",
+  "Verse 1035: line 2 ('விஞ்சையரை யன்மடமா மகணிலையா தனெவினவில்') is garbled; the sense is read from context.",
+  "Verses 1037 and 1038: lines 2 and 3 are near duplicates of one another, probably a doubled line in the edition.",
+  "Verses 1016 to 1018: the speakers are not named; the woman and the youth are taken from the verbs and the scene."
+ ]
+}

@@ -1,0 +1,728 @@
+{
+ "chapter_no": 45,
+ "chapter_theme": "The queen's party is sent to see the bride, and Madhavasenai, who studies the girl in the bride's palace, paints her portrait from memory, wins the queen's gift and praise, and carries it to the dark-hued youth as a rare jewel.",
+ "cast": [
+  {
+   "id": "madhavasenai",
+   "tamil": "மாதவ சேனை",
+   "role": "the court-trained woman who leads the party, studies the bride and paints her portrait"
+  },
+  {
+   "id": "tivittan_mother",
+   "tamil": "தேவி",
+   "role": "the queen who bore Tivittan, sender of the party and Madhavasenai's patron"
+  },
+  {
+   "id": "tivittan",
+   "tamil": "இளையவன்",
+   "role": "Tivittan, the dark-hued youth for whom the bride is intended, named by epithet here"
+  },
+  {
+   "id": "maiden",
+   "tamil": "நங்கை",
+   "role": "the Vidyadhara king's daughter, the bride, unnamed here"
+  },
+  {
+   "id": "amirtha_mapirapai",
+   "tamil": "யமிமுதமா பிரபை",
+   "role": "the bride's auspicious friend who speaks for her"
+  },
+  {
+   "id": "young_women",
+   "tamil": "இளமையார்",
+   "role": "the thousand and eight young women of the visiting party"
+  },
+  {
+   "id": "sent_women",
+   "tamil": "விடுக்கப் பட்டார்",
+   "role": "the women sent by the queen to see the bride"
+  },
+  {
+   "id": "maiden_kin",
+   "tamil": "தமர்",
+   "role": "the bride's kinswomen who wake her to the visitors"
+  },
+  {
+   "id": "vidyadhara_king",
+   "tamil": "மன்னன்",
+   "role": "the bride's father, bowed to by the visitors"
+  }
+ ],
+ "verses": {
+  "993": {
+   "reading": "The poet says that, once the bride has been made a king's daughter, women are sent at the order of the king's queen to see the girl who will lie on the dark-hued youth's chest.",
+   "concepts": [
+    "sutram",
+    "kurippu"
+   ],
+   "nuance": "The first line is hard: it is not clear whether the girl has become the king's daughter by birth, by adoption or by the wedding settlement; the tradition is that she is the Vidyadhara king's daughter promised to Tivittan, and the verse itself gives no name.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan_mother",
+     "form": "றேவி",
+     "line": 2
+    },
+    {
+     "id": "sent_women",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The queen of the lord of the earth sends women to go and see the bride.",
+   "claims": []
+  },
+  "994": {
+   "reading": "A thousand and eight young women, named from Madhukari and Vasantasena on, bound with flower-creepers and carrying auspicious things on shining jewels, gather round in the bride's welcome.",
+   "concepts": [
+    "azhagu",
+    "sutram"
+   ],
+   "nuance": "The poet gives two names (மதுகரி, வயந்த சேனை) and 'and others' for a company of 1008; the number is the sort of round number the epic uses for an escort, not a count.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "young_women",
+     "form": "மிளமை",
+     "line": 4
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "995": {
+   "reading": "The highest-born women of the party, headed by Madhavasenai and skilled in every art the world knows, wear garlands, ear-ornaments and pearl strings and come to the palace of the bride's father.",
+   "concepts": [
+    "kalvi",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "madhavasenai",
+     "form": "மாதவ சேனை",
+     "line": 1
+    },
+    {
+     "id": "young_women",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Madhavasenai and the other women come before the bride's father's golden palace.",
+   "claims": []
+  },
+  "996": {
+   "reading": "The women, with the mothers of the youth, get down from their golden-browed elephants, chariots and carts, bow to the king and, with his leave, come to the girl's palace where women singing sweetly receive them.",
+   "concepts": [
+    "panivu",
+    "sutram"
+   ],
+   "nuance": "நம்பி தாயர் (the youth's mothers) is plural; whether it means both princes' mothers or the poet's loose plural for the one mother who sent the party in 993 is not clear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "young_women",
+     "form": "நன்னுத லவரு",
+     "line": 1
+    },
+    {
+     "id": "tivittan_mother",
+     "form": "நம்பி தாயரு",
+     "line": 1
+    },
+    {
+     "id": "vidyadhara_king",
+     "form": "மன்னனை",
+     "line": 3
+    }
+   ],
+   "event": "The visiting women dismount, bow to the king and are welcomed by singing women at the bride's palace.",
+   "claims": []
+  },
+  "997": {
+   "reading": "The bride, seated in comfort on a golden couch with her women fanning her with chowries, is told by her kin to rise and sees the visitors.",
+   "concepts": [
+    "azhagu",
+    "sutram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maiden",
+     "form": "நங்கை",
+     "line": 3
+    },
+    {
+     "id": "maiden_kin",
+     "form": "தமர்",
+     "line": 4
+    }
+   ],
+   "event": "Her kinswomen bow and wake the bride to the visitors' arrival.",
+   "claims": []
+  },
+  "998": {
+   "reading": "The bride's friends bow and bless the visitors, who come in, and the bride, thinking them the queen's maids, hides a smile and crushes and smells a flower to guard her feeling.",
+   "concepts": [
+    "naanam",
+    "kurippu"
+   ],
+   "nuance": "The flower crushed and smelt is a covering gesture, the poet's chosen sign for a shy girl who does not want her pleasure seen; the verse puts the visitors' rank as a thought ('maids of the diamond-armed one'), not a fact.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maiden",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "young_women",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The visitors enter, and the bride, taking them for the groom's household, crushes a flower to hide her smile.",
+   "claims": []
+  },
+  "999": {
+   "reading": "The poet says the bride has so much light, from her brow, her body and her sweet voice, that the visitors' eyes cannot take her in.",
+   "concepts": [
+    "azhagu",
+    "kan"
+   ],
+   "nuance": "The praise runs in three steps of light, brow to body to voice, and ends in the girl being 'hard to see'; the verse itself says nothing of how long such beauty lasts.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maiden",
+     "form": "பாவையை",
+     "line": 3
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1000": {
+   "reading": "The bride's gold anklet rings and her rainbow-bright form on the soft couch, like lightning among clouds, make the visitors forget themselves.",
+   "concepts": [
+    "azhagu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maiden",
+     "form": "பாவை",
+     "line": 1
+    },
+    {
+     "id": "young_women",
+     "form": "படியி னார்த",
+     "line": 4
+    }
+   ],
+   "event": "The bride's radiance dazes the visiting women.",
+   "claims": []
+  },
+  "1001": {
+   "reading": "As she sees the girl, Madhavasenai fixes her form in her heart as if drawing it on the bright crystal wall, then takes up another board and begins to draw it.",
+   "concepts": [
+    "kalvi",
+    "azhagu"
+   ],
+   "nuance": "She holds the likeness in her heart and only then paints it, so the portrait is made from memory in the bride's own chamber; the poet makes the crystal wall the mirror of what she keeps inside.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "madhavasenai",
+     "form": "மாதவ சேனை",
+     "line": 1
+    }
+   ],
+   "event": "Madhavasenai memorises the bride's form and begins to paint it on a board.",
+   "claims": []
+  },
+  "1002": {
+   "reading": "Madhavasenai tells the bride's friends that the groom's mother, famed for her wealth, had said: see the girl whose looks outshine women's, as one who drinks her in with eyes made our eyes.",
+   "concepts": [
+    "sutram",
+    "kan"
+   ],
+   "nuance": "The speaker is taken to be Madhavasenai from 1003, where she is named for the first time as the one who speaks; 'your mother-in-law' (நும் மாமியார்) is the groom's mother, so the bride is already addressed as kin.",
+   "uncertain": true,
+   "speaker": {
+    "who": "madhavasenai",
+    "form": null,
+    "line": null,
+    "addressee": "maiden"
+   },
+   "agents": [
+    {
+     "id": "madhavasenai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Madhavasenai passes on the groom's mother's words of greeting and praise.",
+   "claims": []
+  },
+  "1003": {
+   "reading": "Madhavasenai asks the bride to give some reply for the groom's mother, saying there is no harm in speaking before them, and the bride, delicate as a creeper, only smiles.",
+   "concepts": [
+    "naanam",
+    "sol"
+   ],
+   "nuance": "The bride gives no word: her smile is the answer, and the next verse shows her friend reading it.",
+   "speaker": {
+    "who": "madhavasenai",
+    "form": "மாதவ சேனை",
+    "line": 2,
+    "addressee": "maiden"
+   },
+   "agents": [
+    {
+     "id": "madhavasenai",
+     "form": "மாதவ சேனை",
+     "line": 2
+    },
+    {
+     "id": "maiden",
+     "form": "குணக்கொம்",
+     "line": 4
+    }
+   ],
+   "event": "Madhavasenai asks the bride for a reply and the bride answers with a faint smile.",
+   "claims": []
+  },
+  "1004": {
+   "reading": "The auspicious friend Amirthamapirapai, taking the bride's hint, says to bow at the groom's mother's feet as if it were their own act.",
+   "concepts": [
+    "kurippu",
+    "panivu"
+   ],
+   "nuance": "The bride does not speak; the friend reads her sign (குறிப்பு) and gives it words, which keeps the bride's modesty whole while the greeting is returned. The name is printed as one run, அமிமுதமா பிரபை, and may be Amirtha Maprabha.",
+   "uncertain": true,
+   "speaker": {
+    "who": "amirtha_mapirapai",
+    "form": "யமிமுதமா பிரபை",
+    "line": 1,
+    "addressee": "madhavasenai"
+   },
+   "agents": [
+    {
+     "id": "amirtha_mapirapai",
+     "form": "யமிமுதமா பிரபை",
+     "line": 1
+    }
+   ],
+   "event": "The bride's friend reads her smile and speaks for her, sending a bow to the groom's mother.",
+   "claims": []
+  },
+  "1005": {
+   "reading": "Madhavasenai bows to the bride, tells her that she will carry the sweet gift to the king's chief queen, and goes.",
+   "concepts": [
+    "panivu",
+    "thoothu"
+   ],
+   "nuance": "The word பண்ணிகாரம் (a sweet offering) is read as the gift or token that goes with the greeting; its sense is held loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "madhavasenai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Madhavasenai takes leave of the bride and takes the greeting to the queen.",
+   "claims": []
+  },
+  "1006": {
+   "reading": "Madhavasenai paints the bride's form clearly on a crystal board, covers it with a red cloth, and carries it to the temple-palace of the queen who bore the dark-hued youth.",
+   "concepts": [
+    "kalvi",
+    "azhagu"
+   ],
+   "nuance": "This is the only verse that names the finished act: the likeness made from memory in 1001 is now a thing carried, wrapped like a gift.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "madhavasenai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "tivittan_mother",
+     "form": "தேவி",
+     "line": 3
+    }
+   ],
+   "event": "Madhavasenai finishes the portrait, wraps it and brings it to the groom's mother.",
+   "claims": []
+  },
+  "1007": {
+   "reading": "Madhavasenai bows at the queen's feet, the queen draws her near with joy and asks what she holds, and Madhavasenai says it is the maiden's form.",
+   "concepts": [
+    "panivu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "madhavasenai",
+     "form": "மாதவ சேனை",
+     "line": 1
+    },
+    {
+     "id": "tivittan_mother",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Madhavasenai shows the queen the portrait, and the queen asks what it is.",
+   "claims": []
+  },
+  "1008": {
+   "reading": "The queen takes off her jewels and gives them to Madhavasenai for the likeness, then asks to see the girl's form on the board.",
+   "concepts": [
+    "eegai",
+    "azhagu"
+   ],
+   "nuance": "She pays before she looks, so the reward comes for the act of bringing the image; the gift is also a courtesy that accepts the bride on her kin's word.",
+   "speaker": {
+    "who": "tivittan_mother",
+    "form": null,
+    "line": null,
+    "addressee": "madhavasenai"
+   },
+   "agents": [
+    {
+     "id": "tivittan_mother",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "madhavasenai",
+     "form": "மாதவ சேனைக்",
+     "line": 2
+    }
+   ],
+   "event": "The queen gives her own ornaments to Madhavasenai and asks to see the portrait.",
+   "claims": []
+  },
+  "1009": {
+   "reading": "Looking at the colours and brushwork, the queen asks whether the glow belongs to the jewels or the form, and says it is a sight past judging that robs the eye.",
+   "concepts": [
+    "azhagu",
+    "kalvi"
+   ],
+   "nuance": "The queen's praise turns on a doubt: she cannot tell whether the glow comes from the painted ornaments or from the form itself; the painting is praised as matching the original.",
+   "speaker": {
+    "who": "tivittan_mother",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan_mother",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1010": {
+   "reading": "Madhavasenai answers that no painting can show such a form, and that she dared to draw it only because the queen's raised hand had given her the courage.",
+   "concepts": [
+    "kalvi",
+    "panivu"
+   ],
+   "nuance": "The painter says the original is beyond any likeness, which is both modesty and a way to praise the bride; she places her skill below the queen's grace.",
+   "speaker": {
+    "who": "madhavasenai",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan_mother"
+   },
+   "agents": [
+    {
+     "id": "madhavasenai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Madhavasenai credits the queen's grace for her daring to paint what no art can match.",
+   "claims": []
+  },
+  "1011": {
+   "reading": "Madhavasenai adds that the bride's friend spoke a word for her, asking her to carry to the groom's mother their bow by right of kinship.",
+   "concepts": [
+    "thoothu",
+    "sutram"
+   ],
+   "nuance": "The bride's word reaches the queen at second hand, through her friend and then Madhavasenai; the bow claims kinship before the marriage.",
+   "speaker": {
+    "who": "madhavasenai",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan_mother"
+   },
+   "agents": [
+    {
+     "id": "madhavasenai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "maiden",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Madhavasenai delivers the bride's greeting to the groom's mother.",
+   "claims": []
+  },
+  "1012": {
+   "reading": "The queen embraces the painted girl, says the fruit of their long austerities has ripened together today, and glows with new light.",
+   "concepts": [
+    "vinai",
+    "thavam",
+    "kaamam"
+   ],
+   "nuance": "The queen reads the match as ripened tavam, a pleasant side of the karma the epic mostly shows as burden; she holds it, the verse does not weigh it.",
+   "speaker": {
+    "who": "tivittan_mother",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan_mother",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The queen embraces the portrait and counts the match a reward for past austerity.",
+   "claims": [
+    {
+     "claim": "the merit of earlier penance ripens together in a good marriage",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "tivittan_mother"
+    }
+   ]
+  },
+  "1013": {
+   "reading": "The queen asks Madhavasenai whether she can show the bright form to Manivannan, and Madhavasenai answers that it is for the lady to say, since she herself would only follow.",
+   "concepts": [
+    "thoothu",
+    "kurippu"
+   ],
+   "nuance": "The last two lines are close to unreadable as set: who says 'it is the lady's to tell' and who 'will follow' is open, and the reading is held loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan_mother",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "madhavasenai",
+     "form": "மாதவ சேனை",
+     "line": 3
+    }
+   ],
+   "event": "The queen asks Madhavasenai to show the portrait to her son, and Madhavasenai defers to the queen.",
+   "claims": []
+  },
+  "1014": {
+   "reading": "Madhavasenai bows, goes to the gem-bright door of the dark-hued youth's palace, enters and folds her hands, and when he asks why she has come, begins to answer.",
+   "concepts": [
+    "thoothu",
+    "panivu"
+   ],
+   "nuance": "The youth is named only by epithets (மணிவண்ணன், இளையவன்); that he is Tivittan comes from the earlier chapters, where the maiden is promised to him.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "madhavasenai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "tivittan",
+     "form": "கிளையவன்",
+     "line": 3
+    }
+   ],
+   "event": "Madhavasenai goes to Tivittan, who asks why she has come, and she begins her reply.",
+   "claims": []
+  },
+  "1015": {
+   "reading": "Madhavasenai tells the youth that rare jewels belong only to the highest kings and cannot be told of to others, and that she has come, thinking of him, with a form drawn on a bright board.",
+   "concepts": [
+    "thoothu",
+    "azhagu"
+   ],
+   "nuance": "She calls the portrait an அருங்கலம், a jewel that only a king may own; the reader is to take the girl's likeness as a king's possession, which is how she gains Tivittan's ear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "madhavasenai",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "madhavasenai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Madhavasenai presents the portrait to Tivittan as a rare jewel fit for a king.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1010,
+   "b": 1001,
+   "type": "develops",
+   "note": "1001 has Madhavasenai fix the bride's form in her heart and begin to paint; 1010 has her tell the queen the form was beyond any painting and that her hand was steadied by the queen's grace.",
+   "teaches": "The painter's pride in the likeness turns into modesty when it is presented, so the portrait serves as praise of the bride and of the queen."
+  },
+  {
+   "a": 1012,
+   "b": 829,
+   "type": "develops",
+   "note": "In 829 the bride's father judges the girl fit only for the lion-killer and begins the wedding rites; in 1012 the groom's mother, seeing only the portrait, welcomes the match as ripened merit.",
+   "teaches": "The match made by the fathers is accepted by the groom's mother through a painted likeness, so the women make the bride a member of the family before she is seen by the groom."
+  },
+  {
+   "a": 1015,
+   "b": 445,
+   "type": "develops",
+   "note": "In 445 the keeper reports the priest's word that a Vidyadhara lord would come seeking a bride for the king's son; 1015 is the girl's portrait brought to that son.",
+   "teaches": "A foretold match is finished not by the prophecy itself but by a go-between's practical acts, here a painter carrying a likeness to the groom."
+  },
+  {
+   "a": 1004,
+   "b": "kural:1274",
+   "type": "qualifies",
+   "note": "Kural 1274 says something lies within the bud of the girl's smile like scent within a bud; in 1004 the friend reads the bride's silent smile and gives it words.",
+   "teaches": "The couplet's hidden meaning in a smile is shown here as read and spoken for her by a friend, which makes private signal into public courtesy.",
+   "gains": {
+    "a": "The verse lacks the couplet's picture of a smile whose meaning is real but unseen, as scent is in a closed bud.",
+    "b": "The couplet lacks the case where the smile is read aloud by a third person who then acts on what it says."
+   }
+  },
+  {
+   "a": 1011,
+   "b": "kural:685",
+   "type": "qualifies",
+   "note": "Kural 685 describes the envoy who speaks briefly, removes what would offend, and brings a smile; in 1011 Madhavasenai carries the bride's greeting to the groom's mother as a go-between.",
+   "teaches": "The same tact of an envoy is shown in a domestic errand between two households, where the greeting claims kinship before the wedding.",
+   "gains": {
+    "a": "The verse lacks a stated measure of what makes a message-bearer good, which the couplet gives.",
+    "b": "The couplet lacks a case of such tact used between a bride's house and a groom's, not between kings."
+   }
+  },
+  {
+   "a": 999,
+   "b": "naladiyar:53",
+   "type": "qualifies",
+   "note": "Naladiyar 53 lists beauty among the things that fail to last, which the best renounce; 999 praises the bride's beauty as so bright she cannot be looked at, and says nothing of its end.",
+   "teaches": "The poet gives full praise to beauty that his school's moral verse calls perishable, so the reader sees the praise and the warning side by side without either answering the other.",
+   "gains": {
+    "a": "The verse lacks any limit on the beauty it praises, which the Naladiyar supplies by naming it as one of the things that go.",
+    "b": "The quatrain lacks a concrete case of the beauty it says does not last, set in the full pride of its glow."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 993 line 2: a pulli after a vowel sign was removed in the repaired text.",
+  "Verse 998: the printed stanza ran into eight half-lines and was joined into four lines.",
+  "Verse 1006 line 3: a pulli after a vowel sign was removed in the repaired text.",
+  "Verses 1002, 1005, 1013: the speakers and sense turn on clipped or rare phrases and are held loosely."
+ ]
+}

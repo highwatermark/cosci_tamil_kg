@@ -1,0 +1,711 @@
+{
+ "chapter_no": 28,
+ "chapter_theme": "The Vidyadhara envoy praises the princes and the match before the Podanam king, who rewards him, sends him off and, on his counsellors' word of the month-end prophecy, resolves to send a learned man in return; the poet then turns to the rival king Acuvakanthan, wholly given to pleasure.",
+ "cast": [
+  {
+   "id": "maruci",
+   "tamil": "மருசி",
+   "role": "the learned Vidyadhara envoy, taken as the speaker of 597 to 604"
+  },
+  {
+   "id": "pirasapathi",
+   "tamil": "வேக யானையான்",
+   "role": "the king of Podanam, called by the epithet of the swift elephants"
+  },
+  {
+   "id": "amaichar",
+   "tamil": "மந்திரக் கிழவர்",
+   "role": "the king's counsellors"
+  },
+  {
+   "id": "princes",
+   "tamil": "குமரர்",
+   "role": "the two princes, Vijayan and Tivittan"
+  },
+  {
+   "id": "princess",
+   "tamil": "மங்கை",
+   "role": "the Vidyadhara king's daughter, unnamed here"
+  },
+  {
+   "id": "acuvakanthan",
+   "tamil": "அச்சுவ கண்டன்",
+   "role": "the rival king of the discus, named only at the close"
+  }
+ ],
+ "verses": {
+  "597": {
+   "reading": "The speaker says that among children of faultless clans none counts as a stranger, so kin and others alike have no fault in them.",
+   "concepts": [
+    "sutram",
+    "kudi"
+   ],
+   "nuance": "The compressed grammar and the doubled word for children make the sense uncertain; the speaker is taken to be the envoy opening his address to the king.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "pirasapathi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "598": {
+   "reading": "The speaker tells the king that when the world is glad the king is glad, and when something harsh touches it he too suffers, as the lord of the garland's grace shows.",
+   "concepts": [
+    "arasu",
+    "arul"
+   ],
+   "nuance": "The last two lines are clipped and the speaker is not named; the envoy is assumed from 604 and 605.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "pirasapathi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a king shares the joy and the pain of the people he rules",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "599": {
+   "reading": "The speaker says that because kings are the life of those who live within the sea's fence, the king of kings with the great army cannot sleep, wondering whether protection will fail.",
+   "concepts": [
+    "arasu",
+    "sengol"
+   ],
+   "nuance": "Set against verses 611 to 619, where the rival king sleeps and wakes in the women's company, this verse gives the standard those verses fall short of.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "pirasapathi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a king's life is the guarding of his people, and the duty costs him his sleep",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "600": {
+   "reading": "The speaker says the king, generous as rain-cloud and fond of his sons, is the sort who would tell of them as a lion among deer before the other kings.",
+   "concepts": [
+    "makkal",
+    "pugazh"
+   ],
+   "nuance": "Whether the verse asks the king to speak of his sons or says that he will is not settled by the grammar.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "pirasapathi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "601": {
+   "reading": "The speaker says the love-god's bow has shown itself in the two bodies and that the sons of the world's ruler, bright with long anklets, are the beauty of their line.",
+   "concepts": [
+    "azhagu",
+    "makkal"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "pirasapathi"
+   },
+   "agents": [
+    {
+     "id": "princes",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "602": {
+   "reading": "The speaker says the conch-hued elder and the younger, dark as a swelling cloud, bear the auspicious mark set for ruling this world, which the king may see for himself.",
+   "concepts": [
+    "azhagu",
+    "kurippu",
+    "arasu"
+   ],
+   "nuance": "The mark is read as a sign of rule over the world; the verse gives no other detail.",
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "pirasapathi"
+   },
+   "agents": [
+    {
+     "id": "princes",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "603": {
+   "reading": "The speaker asks what austerity the vine-slender woman did to be joined with the red-eyed one on whose divine breast the lotus-lady already rests.",
+   "concepts": [
+    "thavam",
+    "azhagu",
+    "oozh"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "pirasapathi"
+   },
+   "agents": [
+    {
+     "id": "princess",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a union so fitting must have been earned by austerity in a former life",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "604": {
+   "reading": "The speaker says the woman equals the lord in beauty, that nothing is wanting between them, and that their growing merit joined them, so the king should marvel.",
+   "concepts": [
+    "vinai",
+    "oozh",
+    "azhagu"
+   ],
+   "nuance": "The verse says merit joined them but not the kind of former birth; the Jain frame is the work's, not stated here.",
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "pirasapathi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the merit of former deeds is what joins this pair",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "605": {
+   "reading": "On hearing this the crowned king of the swift elephants graciously gives the speaker a flood of shining wealth.",
+   "concepts": [
+    "eegai",
+    "selvam"
+   ],
+   "nuance": "The king is named by the epithet for swift elephants; he is taken to be the same Prajapati who sits on the throne in the earlier chapters.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pirasapathi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The Podanam king rewards the envoy with great wealth after the praise of his sons.",
+   "claims": []
+  },
+  "606": {
+   "reading": "The king sends the envoy off to his house and, with the counsellors who have joined him, asks what is now to be done.",
+   "concepts": [
+    "amaichu",
+    "soozhchi",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pirasapathi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "amaichar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king sends the envoy to rest and asks his counsellors what to do next.",
+   "claims": []
+  },
+  "607": {
+   "reading": "The speaker, calling the king lord of the red-eyed crown, reminds him that the astrologer said earlier that within a month Tivittan would split a lion's mouth.",
+   "concepts": [
+    "oozh",
+    "kaalam",
+    "kurippu"
+   ],
+   "nuance": "The verse names the reporter only as one of settled learning; whether the counsellors or the astrologer speak is not shown, and the counsellors are taken for the speaker.",
+   "uncertain": true,
+   "speaker": {
+    "who": "amaichar",
+    "form": null,
+    "line": null,
+    "addressee": "pirasapathi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "608": {
+   "reading": "Therefore, the speakers said, it is right to send a man of learned excellence who knows the matter, and the king is told so.",
+   "concepts": [
+    "thoothu",
+    "amaichu",
+    "soozhchi"
+   ],
+   "nuance": "The reply envoy is not named here; the verse says only that one is to be sent to the Vidyadhara king.",
+   "uncertain": true,
+   "speaker": {
+    "who": "amaichar",
+    "form": null,
+    "line": null,
+    "addressee": "pirasapathi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a learned man of knowledge is the proper one to send as envoy",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "amaichar"
+    }
+   ]
+  },
+  "609": {
+   "reading": "The king, who rested his trust on spies and on the counsel thoughtful men had given, accepts it and rejoices with his kin.",
+   "concepts": [
+    "arasu",
+    "otru",
+    "sutram"
+   ],
+   "nuance": "The wording that makes the king one trusting spies rests on a compressed line and may be read otherwise.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pirasapathi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king accepts the counsel and rejoices with his kin.",
+   "claims": []
+  },
+  "610": {
+   "reading": "The poet says that as days go on thus, the feared discus-bearer stays in the other quarter, and he now turns to tell of the fierce one set first before them.",
+   "concepts": [
+    "soozhchi",
+    "arasu"
+   ],
+   "nuance": "The verse moves the telling from Podanam to the rival king without naming him; only verse 619 gives his name.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "611": {
+   "reading": "The ruler who could not bear to tread on cotton bed for the coolness of it is shown lying on the breasts of delicate women, so absorbed in them that he never wearies.",
+   "concepts": [
+    "kaamam",
+    "inbam",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The ruler spends his hours lying with women of the palace.",
+   "claims": []
+  },
+  "612": {
+   "reading": "The ruler holds in his mouth the red-coral-like lips and the sweet nectar of the women, and sinks into their hearts.",
+   "concepts": [
+    "kaamam",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The ruler takes the women's lips and sinks into love with them.",
+   "claims": []
+  },
+  "613": {
+   "reading": "When the garlanded man and the women mingle, the garlands and breasts strike one another and the bees on them hum together.",
+   "concepts": [
+    "kaamam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "614": {
+   "reading": "The women gather honey from the garlands and offer it, and the ruler takes it and also enjoys the sweetness of the lips of the red fruit.",
+   "concepts": [
+    "kaamam",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The women give the ruler honey and he drinks it with the taste of their lips.",
+   "claims": []
+  },
+  "615": {
+   "reading": "The women's flower-hung hair and eyes are the honey-drenched lilies, desire is the toddy they offer, and the ruler is lost in it through day and night.",
+   "concepts": [
+    "kaamam",
+    "kal"
+   ],
+   "nuance": "The poet makes desire the drink, and so turns the women's eyes into the cup; the verse reports it without comment.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The ruler, drunk on desire, loses track of day and night.",
+   "claims": []
+  },
+  "616": {
+   "reading": "Whether he is plunged in the women's soft clothes or called awake by a sage, he never, at any other hour, behaves as a king.",
+   "concepts": [
+    "arasu",
+    "kaamam",
+    "pochchaappu"
+   ],
+   "nuance": "The first lines of the verse are hard to read, and the sage's part is uncertain; the sense taken is that his only role is as lover.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a king who gives all his hours to pleasure no longer rules",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "617": {
+   "reading": "He takes his pleasure in the women's dance on the drum-filled floor, in their song of sweet notes, and he longs to be in heaven's company.",
+   "concepts": [
+    "kaamam",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The ruler takes pleasure in dance and song.",
+   "claims": []
+  },
+  "618": {
+   "reading": "He takes his play in pools, wine-halls, gardens, peacock hills, white sand and water-sport.",
+   "concepts": [
+    "inbam",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The ruler spends his time in pleasure grounds and water-play.",
+   "claims": []
+  },
+  "619": {
+   "reading": "He is so given over that he knows neither the sun's heat nor the moon's cool, and the verse names him Acuvakanthan.",
+   "concepts": [
+    "kaamam",
+    "pochchaappu",
+    "arasu"
+   ],
+   "nuance": "Only here is the rival king named; the earlier verses of the chapter, about a discus-bearer, are read as his.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": "கண்டனே",
+     "line": 4
+    }
+   ],
+   "event": "Acuvakanthan loses all awareness in pleasure.",
+   "claims": [
+    {
+     "claim": "pleasure that blots out awareness is a king's blindness",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "narrator"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": 598,
+   "b": "kural:542",
+   "type": "qualifies",
+   "note": "Kural 542 has the people looking to the sceptre as the world looks to the sky; verse 598 runs it the other way, with the king glad or hurt as the world is.",
+   "teaches": "The pair shows rule as a two-way dependence, where the couplet states only the people's need of the king.",
+   "gains": {
+    "a": "The verse lacks a picture of the people's side of the bond, which the sky and sceptre image supplies.",
+    "b": "The couplet lacks the king's felt share in his people's fortune, which the verse adds."
+   }
+  },
+  {
+   "a": 599,
+   "b": "kural:549",
+   "type": "develops",
+   "note": "Kural 549 says guarding and caring for the people is the king's work and no stain; verse 599 shows that work as sleeplessness.",
+   "teaches": "What the Kural calls work, the verse shows as a worry that costs a king his sleep.",
+   "gains": {
+    "a": "The verse lacks a rule saying the guarding is his own task rather than a burden laid on him.",
+    "b": "The couplet lacks the felt cost of that work, which the verse gives."
+   }
+  },
+  {
+   "a": 599,
+   "b": "soolamani:53",
+   "type": "tension",
+   "note": "Verse 53 shows Payapati's land troubled only by Kama's arrows; 599 holds up a king who cannot sleep for fear of failing his people.",
+   "teaches": "The envoy's praise of the king's sleepless care sits beside the poet's own earlier description of him, whose days were spent among queens."
+  },
+  {
+   "a": 603,
+   "b": "soolamani:407",
+   "type": "same_image",
+   "note": "In 407 the astrologer says the girl is fit to rest on the lord's breast; in 603 the envoy asks what austerity earned that seat.",
+   "teaches": "The woman on the lord's breast first comes as a forecast, then as something already earned, so the prophecy turns into a reward."
+  },
+  {
+   "a": 604,
+   "b": "naladiyar:101",
+   "type": "develops",
+   "note": "Naladiyar 101 says an old deed finds its doer like a calf its mother; verse 604 says merit joined this pair.",
+   "teaches": "The Naladiyar's law of the old deed is shown working for good here, where its examples elsewhere fall on the wicked.",
+   "gains": {
+    "a": "The verse lacks the idea that the old deed seeks out its own doer, which gives its merit a mechanism.",
+    "b": "The quatrain lacks a joyful instance, since its law is usually shown on sinners."
+   }
+  },
+  {
+   "a": 605,
+   "b": "soolamani:108",
+   "type": "develops",
+   "note": "Verse 108 foretold a man of good speech coming with a letter; in 605 the envoy has come and is paid for his words.",
+   "teaches": "The astrologer's forecast is kept to the letter, the envoy's reward being the fruit of the arrival it named."
+  },
+  {
+   "a": 607,
+   "b": "soolamani:409",
+   "type": "agrees",
+   "note": "Verse 409 has the Vidyadhara astrologer give the month's limit for the lion; 607 has a counsellor give it again to the Podanam king.",
+   "teaches": "Two courts, with the same date in each, act on one word, so the lion-killing is a shared fate rather than one court's hope."
+  },
+  {
+   "a": 608,
+   "b": "soolamani:427",
+   "type": "develops",
+   "note": "In 427 the Vidyadhara ministers choose the learned Marusi to carry the letter; in 608 Podanam's ministers choose a learned man to answer.",
+   "teaches": "Both courts treat the embassy as the work of learning, so the exchange between them is a matching of one practice on each side."
+  },
+  {
+   "a": 615,
+   "b": "kural:920",
+   "type": "qualifies",
+   "note": "Kural 920 puts double-minded women, liquor and dice together as the company of the man Fortune has left; verse 615 makes desire itself the liquor.",
+   "teaches": "The verse folds two of the Kural's three vices into one, so the women's eyes are the cup.",
+   "gains": {
+    "a": "The verse lacks a verdict on the man who loses day and night, which the couplet supplies.",
+    "b": "The couplet lacks an account of how women and drink become one vice, which the verse gives."
+   }
+  },
+  {
+   "a": 619,
+   "b": "soolamani:402",
+   "type": "develops",
+   "note": "Verse 402 says Tivittan will take the life and discus of Ashvagriva; 619 shows Acuvakanthan at his ease, unaware of heat or cool.",
+   "teaches": "The telling that the rival's life will end is set against a scene of his ease, so the reader looks on his pleasure knowing its end."
+  },
+  {
+   "a": 619,
+   "b": "naladiyar:60",
+   "type": "develops",
+   "note": "Naladiyar 60 says fools long for pleasure though suffering mounts, and the higher look to the pain in it; 619 shows a king past all noticing.",
+   "teaches": "A verse of ethics gets a king's case, where the cost is a realm and not one man's comfort.",
+   "gains": {
+    "a": "The verse lacks the judgment that pleasure holds its own pain, which it only implies.",
+    "b": "The quatrain lacks an example from the seat of power, where the fool's pleasure ruins others."
+   }
+  },
+  {
+   "a": 619,
+   "b": "kural:539",
+   "type": "develops",
+   "note": "Kural 539 bids one swollen with joy think of those ruined by negligence; verse 619 shows Acuvakanthan so swollen.",
+   "teaches": "The couplet's advice is the thing Acuvakanthan does not heed, so the story reads as its example.",
+   "gains": {
+    "a": "The verse lacks the explicit warning that joy breeds negligence, which the couplet states.",
+    "b": "The couplet lacks a named man to stand for the ruined, which the verse supplies."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 597 to 600, 607 to 610 and 616: the word division and compressed grammar leave the sense uncertain; flagged.",
+  "Verses 597 to 604: the speaker is the envoy only by inference from 604 and 605; the verses do not name him.",
+  "Verse 610: the rival is not named until 619; verses 611 to 618 are taken as his."
+ ]
+}

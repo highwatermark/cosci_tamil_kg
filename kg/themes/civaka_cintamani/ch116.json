@@ -1,0 +1,732 @@
+{
+ "chapter_no": 116,
+ "chapter_theme": "Civakan's last pleasures: women playing in paddy and wine, the birth, naming and schooling of eight sons, the spring outing, and a male monkey's secret tryst, his mate's rebuke and their making up.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, the king, at the last of his pleasures"
+  },
+  {
+   "id": "civakan_manaiviyar",
+   "tamil": "மனைவியர்",
+   "role": "Civakan's wives and women, who play with him in garden and field"
+  },
+  {
+   "id": "sons_rearers",
+   "tamil": "வளர்ப்பார்",
+   "role": "the nurses and carers who shape the infants (not named in the verse)"
+  },
+  {
+   "id": "sudanjanan",
+   "tamil": "சுதஞ்சணன்",
+   "role": "the god, once the dying dog Civakan helped, who comes as the king's divine friend"
+  },
+  {
+   "id": "garland_woman",
+   "tamil": "மல்லிகை மாலை",
+   "role": "the woman with a jasmine garland who brings the spring's tribute"
+  },
+  {
+   "id": "kanniyar_kaaval",
+   "tamil": "கன்னியர்",
+   "role": "the maidens who guard the king in the garden with raised blades"
+  },
+  {
+   "id": "kaduvan_monkey",
+   "tamil": "கடுகன்",
+   "role": "the male monkey of the jackfruit grove"
+  },
+  {
+   "id": "kaadhal_manthi",
+   "tamil": "மந்தி",
+   "role": "the male monkey's own mate, who sees him with another female"
+  }
+ ],
+ "verses": {
+  "2699": {
+   "reading": "The king and his bright-eyed women, drunk on one another's beauty like a bee on a red lotus, ride she-elephants, wear sprays of ripe paddy and play in the fields until they stop to praise one another.",
+   "concepts": [
+    "inbam",
+    "azhagu"
+   ],
+   "nuance": "Nothing names the king; he is the lord of the preceding verses (the wives' pleasure outing of the closing ilampakam) and is known only from the story so far.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": "மழைக்கண்ணார்",
+     "line": 2
+    }
+   ],
+   "event": "Civakan and his women play in the paddy fields and halt there, praising each other.",
+   "claims": []
+  },
+  "2700": {
+   "reading": "The women, in saffron paste and musk water, take a cup of honey wine the king holds out in a jewelled bowl, then tear and smell the red water-lily garlands with soft fingers.",
+   "concepts": [
+    "kaamam",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": "கனிவாயார்",
+     "line": 4
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king hands his women wine in a jewelled cup, and they drink and tear flower garlands.",
+   "claims": []
+  },
+  "2701": {
+   "reading": "After play on the young king's chest, the women's red lips pale, their shoulders thin and their breasts darken as they sink wearily onto the cotton bed.",
+   "concepts": [
+    "kaamam",
+    "yaakkai"
+   ],
+   "nuance": "Line 2 repeats the second line of 2700 word for word, a sign the refrain has been copied across, or a deliberate echo.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": "கொடியன்னார்",
+     "line": 4
+    }
+   ],
+   "event": "The women, worn out from love, lie down on the soft bed.",
+   "claims": []
+  },
+  "2702": {
+   "reading": "The wives bear sons, and at every gate of the city war-drums are struck; the king, glad, pours out gold like rain for the world to take.",
+   "concepts": [
+    "makkal",
+    "eegai",
+    "sengol"
+   ],
+   "nuance": "The only 'king' named is the one with the sole bright sceptre; the verse links the gold to his joy rather than to any rule of giving.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "மன்னன்",
+     "line": 3
+    },
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The queens bear sons and the king scatters gold throughout the city in joy.",
+   "claims": []
+  },
+  "2703": {
+   "reading": "Those who tend the infants rub them with fermented rice-water, herb juice, gem-paste and ghee, trim the nails, and press the mouth, eyes and nose with honey and long pepper so they will grow fair.",
+   "concepts": [
+    "makkal",
+    "azhagu"
+   ],
+   "nuance": "The subject is never named; I take it to be nurses and mothers, which the verse does not fix.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sons_rearers",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sons' carers bathe and shape the infants with oils, juices and honey.",
+   "claims": []
+  },
+  "2704": {
+   "reading": "As lute, flute and drum sound everywhere, a divine friend appears to the king, dances a dance never before shown, and sends out a gladness that reaches the Silver Mountain and the kings' cities, so that all rejoice as if they had won heaven.",
+   "concepts": [
+    "inbam",
+    "makkal"
+   ],
+   "nuance": "The god is not named; the book's earlier verses show Civakan's divine friend, and I take him for that god. Who 'let go' the joy in line 4 (the god or the king) is not fixed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sudanjanan",
+     "form": "தோழன்",
+     "line": 2
+    }
+   ],
+   "event": "A heavenly friend of the king appears and dances, and the festival of the births spreads over the Vidyadhara mountain and the kings' cities.",
+   "claims": []
+  },
+  "2705": {
+   "reading": "After fixing the sons' birth-places, the highs and lows of their charts, their friendships and enmities, and drawing up their horoscopes, the elders name the eight: Sachchandan, Sudanjanan, Dharani, Kandukkadan, Vijayan, Dattan, Bharatan and Govindan.",
+   "concepts": [
+    "makkal",
+    "kaalam"
+   ],
+   "nuance": "The names reuse those of the hero's father, his helping god, his foster father and his uncle, so the line keeps the hero's own kin alive in the next generation.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "The elders cast the horoscopes and give the eight sons their names.",
+   "claims": []
+  },
+  "2706": {
+   "reading": "At five the sons learn the arts and weapons and ride fierce horses without fear, and for the garlanded king thirty years have now filled.",
+   "concepts": [
+    "makkal",
+    "kalvi",
+    "kaalam"
+   ],
+   "nuance": "'ஐயாண்டு' (five years) and the thirty of line 4 can be read as the sons' and the king's ages, but the sentence joins them loosely; I take 'thirty' as the king's years.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sons grow, learn the arts and arms and ride horses, as the king's age reaches thirty.",
+   "claims": []
+  },
+  "2707": {
+   "reading": "While the queens and the king sit together, a woman with a jasmine garland, wrapping her flower-basket in clean cloth, blesses them and begins to speak.",
+   "concepts": [
+    "inbam",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "garland_woman",
+     "form": "மல்லிகை மாலை",
+     "line": 4
+    }
+   ],
+   "event": "A garland-woman brings spring blossoms in a covered basket, blesses the royal couple and begins to speak.",
+   "claims": []
+  },
+  "2708": {
+   "reading": "The woman, her breasts pressed into the sandal on her chest, offers a tribute of flowers and says that the Spring King has come and that the king should see his place; the king bids them rise.",
+   "concepts": [
+    "kaamam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "garland_woman",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "garland_woman",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The woman announces spring and invites the king to see its seat, and Civakan tells them to go.",
+   "claims": []
+  },
+  "2709": {
+   "reading": "The king enters the garden, his chest lit by jewels, in the middle of young women who praise him and of maidens who guard him with raised blades, like a lion with a voice of thunder.",
+   "concepts": [
+    "azhagu",
+    "perumai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kanniyar_kaaval",
+     "form": "கன்னியர்",
+     "line": 3
+    }
+   ],
+   "event": "Civakan enters the spring garden, praised and guarded by young women.",
+   "claims": []
+  },
+  "2710": {
+   "reading": "The grove, shining like the gold garden of Indra's own pleasure, delights the king and the golden-bough women, who play in it as in a celestial park.",
+   "concepts": [
+    "azhagu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan and his women play in the brightly lit garden.",
+   "claims": []
+  },
+  "2711": {
+   "reading": "The grove is compared to a woman's loosened hair strewn with flowers when koels scatter pollen, and to a gold blanket where the fallen blossoms spread like a lovers' bed.",
+   "concepts": [
+    "azhagu"
+   ],
+   "nuance": "The comparison does not have a plot; it only makes the grove a bed.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2712": {
+   "reading": "Scattered petals look like blanket-threads shed by the bed, where bees drink and sleep, peacocks rest and swans, with wings like cloth, scatter as the women come near.",
+   "concepts": [
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2713": {
+   "reading": "The king, whose rule stands fast in justice, tells his sweet-voiced women to see every place they love in the grove, which he likens to the trees of the first age of the god who cut away the harming karmas and knows the world.",
+   "concepts": [
+    "kaamam",
+    "azhagu"
+   ],
+   "nuance": "The simile of 'the trees of the age of the first god' (the wish-fulfilling trees of the Jain golden age) and the Jina who destroyed the 'ghati' karmas is a Jain frame placed inside a pleasure scene; the grammar of the comparison is hard to settle.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_manaiviyar"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan bids the women explore the whole garden.",
+   "claims": []
+  },
+  "2714": {
+   "reading": "The royal women swing on long ropes like celestial women, pick fine flowers like forest-women, climb the honey-hung hills and call to answer the echo, scattered like peafowl in the woods.",
+   "concepts": [
+    "inbam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": "மகளிர்",
+     "line": 4
+    }
+   ],
+   "event": "The royal women swing, gather flowers, climb the hills and call into the echoes.",
+   "claims": []
+  },
+  "2715": {
+   "reading": "Bathed in the waterfall under sandal groves, a great bull elephant stands while a she-elephant fans him with a tender branch and bees follow his rut; the bright-eyed women watch it and turn, glad, to the king.",
+   "concepts": [
+    "azhagu",
+    "kaamam"
+   ],
+   "nuance": "The bull-and-cow pair is set up for the women to read their own king and themselves in it; the verse does not say so.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The women stop to watch an elephant pair and then turn to Civakan.",
+   "claims": []
+  },
+  "2716": {
+   "reading": "Women stand with tender plantain-leaf rolls and young creepers, marking their breasts with a nail as if painting, and look like heavenly women.",
+   "concepts": [
+    "azhagu",
+    "kaamam"
+   ],
+   "nuance": "What the nail picks and places in line 3 is not stated; I read it as some leaf or flower design on the breast.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": "நின்றார்",
+     "line": 4
+    }
+   ],
+   "event": "The women adorn themselves and stand before the king like celestial women.",
+   "claims": []
+  },
+  "2717": {
+   "reading": "Women who stood watching a calf suck a long-haired cow, while the milk-churning sound goes on, cannot bear the weight of their own full breasts and look longingly at a swan's fine gait.",
+   "concepts": [
+    "makkal",
+    "kaamam"
+   ],
+   "nuance": "The word that makes them envy a gait in line 4 is hard (நடைமெரிந்து இகலி); the milk-and-breast image is clear, the longing less so.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The women watch a calf suckling and long for the grace they see.",
+   "claims": []
+  },
+  "2718": {
+   "reading": "The women, playing a lute that cries 'Come here, king,' send amorous messages and, as the king hurries, seek out a flowering bower for love.",
+   "concepts": [
+    "kaamam",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "civakan_manaiviyar",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": "மகளிர்",
+     "line": 4
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The women call Civakan with song and lute and he goes quickly to their bower.",
+   "claims": []
+  },
+  "2719": {
+   "reading": "In the bower the king embraces the women until their beauty wilts, sets garlands on them and honey drips on the ground; the women are like flowers, the king like a joyous bee.",
+   "concepts": [
+    "kaamam",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan embraces the women and garlands them in the bower.",
+   "claims": []
+  },
+  "2720": {
+   "reading": "The king, his garments loosened after taking their beauty, leaves like a bull from a herd and sits in the shade of a honey-dripping jackfruit tree, where a lusting male monkey calls another female monkey to him.",
+   "concepts": [
+    "kaamam",
+    "pirivu"
+   ],
+   "nuance": "The male monkey is 'கடுகன்' in the text, probably a form of கடுவன்.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kaduvan_monkey",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan leaves the women and sits under a jackfruit tree, where a male monkey calls another female.",
+   "claims": []
+  },
+  "2721": {
+   "reading": "The male monkey holds the young female close, hides with her in a thicket and takes his joy; when he comes out the two troops meet, and his own mate sees the joined pair.",
+   "concepts": [
+    "kaamam",
+    "parathai"
+   ],
+   "nuance": "In the line the pair is 'தம்மின் இரண்டும் சேர்ந்த களித்தலைக் கூட்டம்', and the mate sees it; which two joined is not wholly clear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kaduvan_monkey",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kaadhal_manthi",
+     "form": "மந்தி",
+     "line": 4
+    }
+   ],
+   "event": "The male monkey takes a young female into a thicket and his mate sees them.",
+   "claims": []
+  },
+  "2722": {
+   "reading": "His mate says that wives do not touch a chest that has lain with courtesans, that she cannot take a bath of 'clear water' as he bids, and asks who would eat bitter strychnine and neem after tasting the mountain honey.",
+   "concepts": [
+    "karpu",
+    "parathai",
+    "oodal"
+   ],
+   "nuance": "The speaker is a monkey and the 'bath' offered in line 2 is never explained; the verse sets a wife's refusal in an animal's mouth and the work leaves it unanswered here.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kaadhal_manthi",
+    "form": null,
+    "line": null,
+    "addressee": "kaduvan_monkey"
+   },
+   "agents": [
+    {
+     "id": "kaadhal_manthi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The wronged mate rebukes the male monkey and refuses him.",
+   "claims": [
+    {
+     "claim": "a chaste wife will not touch a chest that has lain with courtesans",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "kaadhal_manthi"
+    }
+   ]
+  },
+  "2723": {
+   "reading": "The pair are caught in a dispute of life and death: he asks what she will do now, says his life is spent and that she will see it if she waits, and the she-monkey, swaying, cries 'I, the slave, did this', clasps him and blames herself.",
+   "concepts": [
+    "oodal",
+    "kaamam",
+    "pirivu"
+   ],
+   "nuance": "Who says the first lines and who says 'தொழுத்தையேன்' (a feminine word) is not fixed; I take the first speaker as the male and the self-blamer as the female.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kaduvan_monkey",
+    "form": null,
+    "line": null,
+    "addressee": "kaadhal_manthi"
+   },
+   "agents": [
+    {
+     "id": "kaadhal_manthi",
+     "form": "மந்தி",
+     "line": 3
+    },
+    {
+     "id": "kaduvan_monkey",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A reconciliation scene in which a monkey clasps its mate and blames itself.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 2701,
+   "b": "naladiyar:17",
+   "type": "qualifies",
+   "note": "The women of the verse are worn and pale from love itself; Naladiyar 17 tells a man not to crave a woman's spear-like eyes, since age will bend her.",
+   "teaches": "The Naladiyar waits for age to wear a woman's beauty, but the epic shows love's own use wearing it at the bed, long before old age.",
+   "gains": {
+    "a": "The wan lips and thin shoulders read as the body's early decline, not just tiredness after love.",
+    "b": "A young case of the wearing it foretells, where no staff or grey hair is needed to show the same loss."
+   }
+  },
+  {
+   "a": 2706,
+   "b": "kural:61",
+   "type": "qualifies",
+   "note": "The sons learn arts, weapons and horse-riding at five; Kural 61 prizes children who come to know what should be known.",
+   "teaches": "The couplet names knowing as the child's worth, while the epic's lesson is the skills of a warrior's house, so what is 'known' differs.",
+   "gains": {
+    "a": "A measure that asks whether the princes' skill in arms and arts is the knowing a father should prize.",
+    "b": "A concrete household where the child's gain is skill at arms, which tests whether the couplet means moral knowing only."
+   }
+  },
+  {
+   "a": 2721,
+   "b": 1435,
+   "type": "same_image",
+   "note": "1435 tells the listener not to gaze on pleasure like a sick old monkey; here a lusting monkey stands in an actual grove.",
+   "teaches": "The sermon's monkey of appetite becomes a scene a king may watch, so the lesson reaches him as sight, not speech."
+  },
+  {
+   "a": 2722,
+   "b": 2721,
+   "type": "develops",
+   "note": "The mate who saw the pair in 2721 now speaks, rebuking the male and refusing his chest.",
+   "teaches": "The tryst of 2721 is answered here, so the wrong and its rebuke are told in two steps, and the injured mate's voice is heard."
+  },
+  {
+   "a": 2722,
+   "b": "kural:1311",
+   "type": "qualifies",
+   "note": "The mate refuses a chest that has lain with courtesans; Kural 1311 has a woman refuse a husband's chest, calling him a philanderer.",
+   "teaches": "The Kural's refusal rests on a seen glance, while the monkey's rests on a proved infidelity, so the sulk is shown with a real cause.",
+   "gains": {
+    "a": "A named, human form of the refusal that makes the monkey's speech a wife's quarrel rather than animal noise.",
+    "b": "A case where the fault is real, which tests the couplet's sulk against a cause beyond being looked at."
+   }
+  },
+  {
+   "a": 2722,
+   "b": "tirumanthiram:207",
+   "type": "same_image",
+   "note": "The mate asks who would take bitter neem after mountain honey; Tirumanthiram 207 says the sweet of young women turns to neem within the body.",
+   "teaches": "The same pair of sweet and bitter serves a wife's refusal and a sage's warning, showing the image works both for pride and for renunciation.",
+   "gains": {
+    "a": "The honey-and-neem pair gains a second use, as the ascetic's verdict on pleasure, behind the wife's refusal.",
+    "b": "A lived case of the image, in a quarrel where bitterness is what the mate will not accept, not the end of pleasure."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "2699-2709 and 2711-2723 were printed in eight half-lines and joined into four (FLAG repaired); the joins read correctly.",
+  "2719 line 2 has a stray space in 'சு ரும்புண' (for சுரும்புண).",
+  "2701 line 2 repeats 2700 line 2 word for word.",
+  "2720 'கடுகன்' is probably கடுவன் (male monkey); 2722-2723 speakers are not marked in the text."
+ ]
+}

@@ -1,0 +1,546 @@
+{
+  "chapter_no": 9,
+  "chapter_theme": "The sage tells the hero his past birth as the merchant's son Nagadattan, who took the fast unto death and was reborn a god and then a king; the hero takes the same vow, goes to his father, and the father crowns him and leaves the world.",
+  "cast": [
+    {
+      "id": "nagakumaran",
+      "tamil": "நாகநற்குமரன்",
+      "role": "the hero, the former Nagadattan"
+    },
+    {
+      "id": "charana_munivar",
+      "tamil": "சாரணர்",
+      "role": "the sage who tells the hero his past birth"
+    },
+    {
+      "id": "dhanadattai",
+      "tamil": "தனதத்தை",
+      "role": "Dhanadattan's wife, mother of Nagadattan"
+    },
+    {
+      "id": "nagadattan",
+      "tamil": "நாகதத்தன்",
+      "role": "merchant's son of the past birth, who fasts unto death"
+    },
+    {
+      "id": "nagavasu",
+      "tamil": "நாகவசு",
+      "role": "the merchant's daughter, Nagadattan's wife"
+    },
+    {
+      "id": "datta_muni",
+      "tamil": "தத்த",
+      "role": "the ascetic who receives Nagadattan's vow"
+    },
+    {
+      "id": "nayantaran",
+      "tamil": "நயந்தரன்",
+      "role": "the minister who carries the father's summons"
+    },
+    {
+      "id": "jayantaran",
+      "tamil": "செயந்தரன்",
+      "role": "the hero's father, the king"
+    },
+    {
+      "id": "salalakshana",
+      "tamil": "சாலலக்கணை",
+      "role": "the hero's wife"
+    }
+  ],
+  "verses": {
+    "145": {
+      "reading": "The telling of an earlier birth begins in a city of Jambudvipa, where a merchant named Dhanadattan lives.",
+      "concepts": [
+        "kudi",
+        "marumai"
+      ],
+      "nuance": "The third line (காவிநன் விழிமா தற்குக் காமன்விக் கிரம ராசன்) is not clear: it may name the merchant's wife or give a second name or title, and the city's name is split across lines. The sage is the speaker only because the story is later said (150) to be told by an ascetic; this verse does not say so.",
+      "uncertain": true,
+      "speaker": {
+        "who": "charana_munivar",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": []
+    },
+    "146": {
+      "reading": "Dhanadattan and his wife Dhanadattai have a son, Nagadattan, and another merchant and his wife Vasumati have a daughter, Nagavasu.",
+      "concepts": [
+        "kudi",
+        "makkal"
+      ],
+      "nuance": "Nagadattan is, by the sage's own account in 149 and 150, an earlier birth of the hero; the hero is not named in this verse, so the identification is read from 150.",
+      "speaker": {
+        "who": "charana_munivar",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "dhanadattai",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "A son is born to the merchant couple, and the daughter Nagavasu is named in another merchant's house.",
+      "claims": []
+    },
+    "147": {
+      "reading": "Nagadattan marries Nagavasu and goes with her, and a great ascetic named Datta arrives in the king's temple grounds.",
+      "concepts": [
+        "kaamam",
+        "thavam"
+      ],
+      "nuance": "வேள்வி (line 2) is read as the marriage rite; the word could also mean a sacrifice, but no sacrifice follows.",
+      "speaker": {
+        "who": "charana_munivar",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "nagadattan",
+          "form": "நாக தத்த",
+          "line": 1
+        },
+        {
+          "id": "datta_muni",
+          "form": "தத்த",
+          "line": 3
+        }
+      ],
+      "event": "Nagadattan, married to Nagavasu, meets the ascetic Datta who has come to the temple.",
+      "claims": []
+    },
+    "148": {
+      "reading": "Nagadattan takes refuge with the sage, hears the dharma and takes the fast unto death on the fifth day, when hunger and pain come.",
+      "concepts": [
+        "thavam",
+        "nonbu",
+        "vinai"
+      ],
+      "nuance": "Line 4 (ஏகனற் றினத்தி னன்று) is unclear; it is read as the day on which the pain of hunger came. The sage's teaching is not summarised, only its effect.",
+      "uncertain": true,
+      "speaker": {
+        "who": "charana_munivar",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "nagadattan",
+          "form": "நாகதத்தன்",
+          "line": 1
+        },
+        {
+          "id": "datta_muni",
+          "form": "முனி",
+          "line": 1
+        }
+      ],
+      "event": "Nagadattan goes to the sage, hears the teaching and undertakes the fast unto death (அனசன நோன்பு).",
+      "claims": [
+        {
+          "claim": "a fast unto death taken in the sage's presence is the proper close of a householder's life",
+          "school": "jain",
+          "line": 2,
+          "stance": "asserted",
+          "voiced_by": "charana_munivar"
+        }
+      ]
+    },
+    "149": {
+      "reading": "By dharma meditation he leaves his body, is born as a god in the Asodhama heaven, and Nagavasu also becomes a consort of a god.",
+      "concepts": [
+        "marumai",
+        "piravi",
+        "thavam"
+      ],
+      "nuance": "The heaven is named அசோதமம்; the name is not found in the earlier verses, and the spelling may be corrupt.",
+      "speaker": {
+        "who": "charana_munivar",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "nagavasu",
+          "form": "நாக வசுவும்",
+          "line": 3
+        }
+      ],
+      "event": "Nagadattan dies in meditation and is reborn as a god; Nagavasu is reborn as a god's consort.",
+      "claims": [
+        {
+          "claim": "meditation in the fast carries the soul to a heaven after death",
+          "school": "jain",
+          "line": 1,
+          "stance": "asserted",
+          "voiced_by": "charana_munivar"
+        },
+        {
+          "claim": "a wife who shares the husband's vow shares his heavenly birth",
+          "school": "jain",
+          "line": 3,
+          "stance": "asserted",
+          "voiced_by": "charana_munivar"
+        }
+      ]
+    },
+    "150": {
+      "reading": "The sage tells the hero that after five palyas as a god he came here as king and that the goddess is now his wife, and the hero asks him to give that vow to them.",
+      "concepts": [
+        "oozh",
+        "vinai",
+        "thavam",
+        "marumai"
+      ],
+      "nuance": "Here the work gives the hero's good fortune a cause in his own past conduct, not in grace or chance. The sentence runs from the sage's words into the hero's request, so the speaker is not one voice throughout; the speech is the sage's up to line 3 and the narrator reports the request.",
+      "speaker": {
+        "who": "charana_munivar",
+        "form": "தவமுனி",
+        "line": 3,
+        "addressee": "nagakumaran"
+      },
+      "agents": [
+        {
+          "id": "nagakumaran",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "charana_munivar",
+          "form": "தவமுனி",
+          "line": 3
+        }
+      ],
+      "event": "The sage explains the hero's present kingship and marriage as the fruit of his earlier vow, and the hero asks for the vow.",
+      "claims": [
+        {
+          "claim": "the fruit of a vow kept in one birth is enjoyed as rank and a wife in a later birth",
+          "school": "jain",
+          "line": 2,
+          "stance": "asserted",
+          "voiced_by": "charana_munivar"
+        }
+      ]
+    },
+    "151": {
+      "reading": "The vow is set out: taken on the fifth day of the bright fortnight in certain months, kept for five years and five months.",
+      "concepts": [
+        "nonbu",
+        "thavam"
+      ],
+      "nuance": "The list of months in lines 1 and 2 is hard to take apart (the words ஆதல், ஆடி, பங்குனி, கார்த்திகை run into a rule whose exact calendar is unclear). The sense of a fixed periodic fast is clear; the exact schedule is not.",
+      "uncertain": true,
+      "speaker": {
+        "who": "charana_munivar",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "nagakumaran",
+          "form": null,
+          "line": null
+        }
+      ],
+      "event": "The sage fixes the days and the length of the vow.",
+      "claims": [
+        {
+          "claim": "the vow of fasting is kept on a fixed fifth day of a bright fortnight over five years and five months",
+          "school": "jain",
+          "line": 3,
+          "stance": "asserted",
+          "voiced_by": "charana_munivar"
+        }
+      ]
+    },
+    "152": {
+      "reading": "Keeping the fast in this order, worshipping the arhats and giving to ascetics, one reaches Indra's station, then kingship, conquers the binding deed and reaches the fifth state.",
+      "concepts": [
+        "thavam",
+        "eegai",
+        "veedu",
+        "vinai"
+      ],
+      "nuance": "The release promised is reached through kingship and gifts: the householder's path is placed before the ascetic's, as the fast and the giving come first and the end of deeds last.",
+      "speaker": {
+        "who": "charana_munivar",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [],
+      "event": null,
+      "claims": [
+        {
+          "claim": "the fast, worship of the arhats and gifts to ascetics bring the rank of Indra, then kingship",
+          "school": "jain",
+          "line": 2,
+          "stance": "asserted",
+          "voiced_by": "charana_munivar"
+        },
+        {
+          "claim": "the soul can conquer the binding deeds by vow and reach the final state (பஞ்சம கதி)",
+          "school": "jain",
+          "line": 4,
+          "stance": "asserted",
+          "voiced_by": "charana_munivar"
+        }
+      ]
+    },
+    "153": {
+      "reading": "The hero accepts the vow and enters his palace with his wife; Nayantaran then bows and tells him his father calls him.",
+      "concepts": [
+        "thavam",
+        "arasu"
+      ],
+      "nuance": "Lines 3-4 report Nayantaran's words; the speech is not set off by a closing particle, so it could be taken as narrator's paraphrase.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "nagakumaran",
+          "form": "மன்னன்",
+          "line": 2
+        },
+        {
+          "id": "nayantaran",
+          "form": "யந்தரன்",
+          "line": 3
+        }
+      ],
+      "event": "The hero takes the vow home; the minister Nayantaran summons him to his father.",
+      "claims": []
+    },
+    "154": {
+      "reading": "Hearing the minister, the hero rides out on an elephant with his army, his wife Salalakshana and his friends, like Indra's lord.",
+      "concepts": [
+        "arasu",
+        "padai"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "nagakumaran",
+          "form": "யருமணி மார்பன்",
+          "line": 1
+        },
+        {
+          "id": "salalakshana",
+          "form": "சாலலக் கணை",
+          "line": 2
+        }
+      ],
+      "event": "The hero sets out in state, with his army, wife and friends, to join his father.",
+      "claims": []
+    },
+    "155": {
+      "reading": "The father comes to meet him; the hero bows at his feet, the father lifts and embraces him, and they go home and live happily.",
+      "concepts": [
+        "makkal",
+        "anbu"
+      ],
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "nagakumaran",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "jayantaran",
+          "form": "தாதை",
+          "line": 1
+        }
+      ],
+      "event": "Father and son meet, embrace and go home.",
+      "claims": []
+    },
+    "156": {
+      "reading": "The women he married with the rite are called to him; he stays with them, and the father, free of attachment, sets the son on the throne.",
+      "concepts": [
+        "kaamam",
+        "arasu"
+      ],
+      "nuance": "Line 4 (பற்றறச் செயந்தரனும் பார்மகன் வைத்தான்) is read as the father, without attachment, setting up the son as king; the subject is uncertain, and the order of 156 and 157 overlaps.",
+      "uncertain": true,
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "nagakumaran",
+          "form": null,
+          "line": null
+        },
+        {
+          "id": "jayantaran",
+          "form": "செயந்தரனும்",
+          "line": 4
+        }
+      ],
+      "event": "The brides are brought to the hero, and his father arranges to hand over the kingdom.",
+      "claims": []
+    },
+    "157": {
+      "reading": "The father crowns Naga Kumara, leaves his pleasures, bows at the sage's feet and, one-pointed in mind, takes the form of the Lord.",
+      "concepts": [
+        "thuravu",
+        "arasu",
+        "veedu"
+      ],
+      "nuance": "The father takes the way the sage's prophecy (verse 44) had promised for the son. For the son the prophecy of austerity and release is left open here, since he is crowned.",
+      "speaker": {
+        "who": "narrator",
+        "form": null,
+        "line": null,
+        "addressee": null
+      },
+      "agents": [
+        {
+          "id": "jayantaran",
+          "form": "புரவலனும்",
+          "line": 2
+        },
+        {
+          "id": "nagakumaran",
+          "form": "நாககும ரன்",
+          "line": 1
+        }
+      ],
+      "event": "The king crowns his son, leaves the throne and takes up the ascetic's life under a sage.",
+      "claims": [
+        {
+          "claim": "a king should leave pleasures and take the ascetic form once his heir is crowned",
+          "school": "jain",
+          "line": 2,
+          "stance": "asserted",
+          "voiced_by": "narrator"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "a": "148",
+      "b": "kural:345",
+      "type": "develops",
+      "note": "The couplet calls even the body excess for those who would cut off births; Nagadattan lets go of the body by fasting.",
+      "teaches": "The couplet calls the body surplus for one bent on ending births, and the story shows that a householder who lets the body go by fasting is rewarded with a god's birth, so the Jain fast does not by itself end births.",
+      "gains": {
+        "a": "the fast is read as the couplet's 'body is excess' acted to the end",
+        "b": "the couplet's claim gets an actual practice, and a limit: the first reward is a heaven, not the end of births"
+      }
+    },
+    {
+      "a": "148",
+      "b": "naladiyar:57",
+      "type": "qualifies",
+      "note": "The quatrain praises those who hold their vows through unbearable trouble; here the trouble of hunger is the vow itself.",
+      "teaches": "The quatrain sets trouble as the test of a vow, but the fast makes the trouble a part of the vow, so holding firm means keeping a hunger that ends the keeper's life.",
+      "gains": {
+        "a": "the hunger of the fast is seen as the very trouble the vow-keeper is told to bear",
+        "b": "the quatrain's trial is given an extreme case in which holding on ends in death"
+      }
+    },
+    {
+      "a": "149",
+      "b": "kural:339",
+      "type": "develops",
+      "note": "The couplet likens death to sleep and birth to waking; here the death by fast is followed at once by waking as a god.",
+      "teaches": "The couplet's sleep-and-waking comparison is made literal, and the waking place depends on how the sleeper died.",
+      "gains": {
+        "a": "the death in meditation is read as a sleep that ends in a chosen waking",
+        "b": "the couplet's comparison is shown with a destination fixed by the way of dying"
+      }
+    },
+    {
+      "a": "150",
+      "b": "silappathikaram:9:55-66",
+      "type": "same_image",
+      "note": "In both works a former birth's vow explains what happens in this one: a broken vow there, a kept vow here.",
+      "teaches": "The same cause by a vow of a past birth explains a loss in one work and a gain in the other, so the epics do not tie past deeds to suffering alone."
+    },
+    {
+      "a": "152",
+      "b": "tirumanthiram:432",
+      "type": "tension",
+      "note": "The verse says a vow, worship and gifts conquer the binding deed; the Tirumanthiram says the Lord made the bond that fastens the soul to what went before.",
+      "teaches": "One text lets the soul loosen its own bond by vow and giving, while the other makes the bond the Lord's work, so the question of who can undo the bond divides them.",
+      "gains": {
+        "a": "the vow-and-gift path to conquering the bond is set against a view in which the bond is not the soul's own doing",
+        "b": "the Saiva verse's bond meets a rival claim that effort alone can undo it"
+      }
+    },
+    {
+      "a": "152",
+      "b": "tirumanthiram:144",
+      "type": "qualifies",
+      "note": "The Tirumanthiram says only the vows kept and the knowledge gained go with the dead; the verse lists what the vow buys after death.",
+      "teaches": "The Tirumanthiram names the vow as what travels past death, and the epic adds a ledger of what it buys: Indra's rank, kingship, then the end of deeds.",
+      "gains": {
+        "a": "the vow's journey after death gets a stated ladder of rewards",
+        "b": "the Tirumanthiram's bare claim is given a worked sequence that the Jain epic fills in"
+      }
+    },
+    {
+      "a": "157",
+      "b": "kural:342",
+      "type": "develops",
+      "note": "The couplet says to renounce while there is time; the king crowns his son first and then renounces.",
+      "teaches": "The couplet gives only the timing, and the story adds that a king's renouncing in time includes installing his heir first.",
+      "gains": {
+        "a": "the king's exit is read as renunciation in time, with the succession first",
+        "b": "the couplet's time gets a king's duty: the throne is handed on before it is left"
+      }
+    },
+    {
+      "a": "157",
+      "b": 44,
+      "type": "qualifies",
+      "note": "The sage foretold that the son would bear austerity and reach release; here the father renounces and the son is crowned.",
+      "teaches": "The prophecy of the son's austerity is not yet kept; the father takes the sage's way first, so the work leaves the son's renunciation for later."
+    }
+  ],
+  "new_concepts": [
+    {
+      "id": "nonbu",
+      "tamil": "நோன்பு",
+      "gloss": "the vow; a religious observance or discipline undertaken",
+      "label_source": "verses 148 and 151 use நோன்பு"
+    }
+  ],
+  "source_issues": [
+    "Verse 145 line 3 and verse 148 line 4 are unclear; the merchant's second name and the day named in 148 cannot be fixed.",
+    "Verse 151 gives a calendar of months and days that cannot be taken apart with certainty.",
+    "Verses 156 and 157 overlap: both end with the father's handing on the throne and leaving."
+  ]
+}

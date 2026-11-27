@@ -1,0 +1,676 @@
+{
+ "chapter_no": 13,
+ "chapter_theme": "In the second half of the sage's reply to Yasomathi, the king's claim that life cannot go on without killing is answered by compassion and by the story of his father and grandmother, who suffered in every birth for killing a flour cock and who now sit as cocks in a cage beside him; they take the vow, are killed by his arrow and pass into human birth, and the chapter ends with Pushpavali's three children and the youngest prince's schooling.",
+ "cast": [
+  {
+   "id": "yasomathi",
+   "tamil": "இசோமதி",
+   "role": "the king of Ujjayini, son of Yasodharan; speaks to the sage in this chapter"
+  },
+  {
+   "id": "muni",
+   "tamil": "கடவுள்",
+   "role": "the sage who answers Yasomathi and tells him who the cocks are; unnamed in this chapter"
+  },
+  {
+   "id": "kozhikal",
+   "tamil": "கோழிகள்",
+   "role": "the two cocks in the cage beside the king, who are his father and grandmother reborn"
+  },
+  {
+   "id": "yasodharan",
+   "tamil": "யசோதரன்",
+   "role": "Yasomathi's father, who with his mother killed a flour cock"
+  },
+  {
+   "id": "chandramathi",
+   "tamil": "சந்திரமதி",
+   "role": "Yasomathi's grandmother, the king's mother in the earlier chapters"
+  },
+  {
+   "id": "pushpavali",
+   "tamil": "புட்பாவலி",
+   "role": "Yasomathi's queen, who bears the twins and a third son"
+  },
+  {
+   "id": "isodharan",
+   "tamil": "இசோதரன்",
+   "role": "the youngest son of Yasomathi, named like his grandfather"
+  }
+ ],
+ "verses": {
+  "245": {
+   "reading": "Bowing, the king answers the sage's teaching by saying he has taken in all he was told but cannot give up killing, since life would fall apart if the harassing stopped; the second line may still be the sage's words that he quotes.",
+   "concepts": [
+    "kollaamai",
+    "aram"
+   ],
+   "nuance": "The speaking voices are tangled: line 1 and the start of line 2 address a 'diamond-shouldered' hearer and may be quoted from the sage, and the next verse's opening (என்றடி பணிந்து) shows that all of this is the king's answer. The sage's reply in 246 and 252 is what answers the claim here.",
+   "uncertain": true,
+   "speaker": {
+    "who": "yasomathi",
+    "form": null,
+    "line": null,
+    "addressee": "muni"
+   },
+   "agents": [
+    {
+     "id": "yasomathi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Yasomathi replies to the sage that he has accepted the teaching but not the giving up of killing.",
+   "claims": [
+    {
+     "claim": "life and rule cannot go on if harming living things is given up",
+     "school": "general",
+     "line": 4,
+     "stance": "refuted",
+     "voiced_by": "yasomathi"
+    }
+   ]
+  },
+  "246": {
+   "reading": "The sage, hearing him, says he has not understood well: a man deaf and dumb cannot get the nectar of music or a good lute, and what the king has said is just that.",
+   "concepts": [
+    "kollaamai",
+    "arivu"
+   ],
+   "speaker": {
+    "who": "muni",
+    "form": "கடவுள்",
+    "line": 1,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "yasomathi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "muni",
+     "form": "கடவுள்",
+     "line": 1
+    }
+   ],
+   "event": "The sage tells Yasomathi he has not truly understood and says more remains to be heard.",
+   "claims": [
+    {
+     "claim": "assent to the teaching while still killing is not understanding it",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "muni"
+    }
+   ]
+  },
+  "247": {
+   "reading": "When one sees a living being's distress, the sage says, to melt and waste away in the heart as though the life were one's own is the support the king-vow of non-killing needs, with restraint and compassion as its companions.",
+   "concepts": [
+    "arul",
+    "kollaamai",
+    "aram"
+   ],
+   "nuance": "Line 3 reads 'among the sea-like vows, the kingly vow'; I take 'அரச நல் வதம்' as the chief of vows (non-killing) and 'அதற்கே' as pointing back to it, which the following verses support.",
+   "speaker": {
+    "who": "muni",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "muni",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sage names compassion for a creature's pain, felt as one's own, as the base of the chief vow.",
+   "claims": [
+    {
+     "claim": "pity that feels another's pain as one's own, with restraint, upholds the chief vow of not killing",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "muni"
+    }
+   ]
+  },
+  "248": {
+   "reading": "The sage tells the king that, lacking pity, he cruelly drained and took life from a cock, swelling karma, and that the great suffering he gets in birth after birth could end by no means except good dharma.",
+   "concepts": [
+    "vinai",
+    "piravi",
+    "aram"
+   ],
+   "nuance": "Lines 1 and 2 are hard (the 'day that is gone' and the milking-and-eating image); the sage seems to be speaking of the earlier killing of the flour cock, and the reading rests on 250 and 251.",
+   "uncertain": true,
+   "speaker": {
+    "who": "muni",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "muni",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sage tells Yasomathi that a killing without pity has made karma swell and that only dharma can end its fruit.",
+   "claims": [
+    {
+     "claim": "killing without pity swells karma, and the suffering it brings in later births ends only through good dharma",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "muni"
+    }
+   ]
+  },
+  "249": {
+   "reading": "Even kings who live by killing, thinking to keep this impermanent body long, have stood only a few days, the sage says, and they sink in the sea of rebirth for endless time.",
+   "concepts": [
+    "nilaiyaamai",
+    "piravi",
+    "kolai",
+    "yaakkai"
+   ],
+   "nuance": "The argument is that killing to prolong life defeats itself because the body does not last and the killing makes the next birth worse; it answers the king's claim in 245 from the body's brief span.",
+   "speaker": {
+    "who": "muni",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "muni",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sage says that kings who kill to keep the body last only a few days and then sink in rebirth.",
+   "claims": [
+    {
+     "claim": "the body does not last, so killing to prolong life is futile and leads to endless rebirth",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "muni"
+    }
+   ]
+  },
+  "250": {
+   "reading": "Listen further, the sage says: the king who was Yasomathi's father, together with his mother, killed a cock of flour with a sword and then suffered in every birth a pain worse than the cruelty of the killing, which cannot be told.",
+   "concepts": [
+    "vinai",
+    "piravi",
+    "kolai"
+   ],
+   "nuance": "The cock was of flour (மாவினால்), not a living bird; the sage counts the intent of killing as the deed (see 252). The king named here is Yasodharan of the earlier chapters and the mother Chandramathi.",
+   "speaker": {
+    "who": "muni",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": "மன்னவ",
+     "line": 2
+    },
+    {
+     "id": "chandramathi",
+     "form": "னன்னை",
+     "line": 2
+    }
+   ],
+   "event": "The sage tells Yasomathi that his father and grandmother, who killed the flour cock, have suffered in every birth since.",
+   "claims": [
+    {
+     "claim": "a killing, even of a lifeless likeness, brings suffering in every following birth",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "muni"
+    }
+   ]
+  },
+  "251": {
+   "reading": "Swollen by their karma, they bore fearful pain and wore down in birth and death, going into animal births; the sage says they are the cocks sitting in the cage near the king.",
+   "concepts": [
+    "vinai",
+    "piravi",
+    "uyir"
+   ],
+   "speaker": {
+    "who": "muni",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "muni",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The sage tells Yasomathi that the two cocks in the cage beside him are his father and grandmother reborn.",
+   "claims": [
+    {
+     "claim": "deeds that cannot be turned aside drive beings through births, including animal births",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "muni"
+    }
+   ]
+  },
+  "252": {
+   "reading": "Although the flour cock held no life, the sage says, the thought of killing a life made these deluded ones suffer in every birth, and those who killed without pity for life have no refuge but the fierce hell.",
+   "concepts": [
+    "kollaamai",
+    "naragam",
+    "manam"
+   ],
+   "nuance": "Intent is made the measure of the deed: no life was taken, yet the fruit is as if one had been. This is the sage's final answer to the king's claim in 245.",
+   "speaker": {
+    "who": "muni",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "muni",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the intent to kill, even where no life is taken, bears the fruit of killing",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "muni"
+    },
+    {
+     "claim": "those who kill without pity for life go to hell",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "muni"
+    }
+   ]
+  },
+  "253": {
+   "reading": "Hearing this, Yasomathi is shaken and grieves, puts away his hatred and anger, loves the clear holy dharma, takes the vows told before, and leaves saying he has won great fruit from the lords.",
+   "concepts": [
+    "aram",
+    "vekuli",
+    "arul"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "muni",
+     "form": "மற்றவன்",
+     "line": 1
+    },
+    {
+     "id": "yasomathi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Yasomathi gives up anger, takes the vows and leaves, grateful to the sage.",
+   "claims": []
+  },
+  "254": {
+   "reading": "The cocks in the cage, hearing the words that came from the lord's mouth, learn of their births and take up the vows in anger left behind; the sentence is left open for the next verse.",
+   "concepts": [
+    "piravi",
+    "ninaivu",
+    "aram"
+   ],
+   "nuance": "The verse ends mid-sentence (the last line of 254 is its own clause that is closed in 255).",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "muni",
+     "form": "மடிகள்",
+     "line": 1
+    },
+    {
+     "id": "kozhikal",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The two cocks hear the sage and, learning of their births, take the vows.",
+   "claims": []
+  },
+  "255": {
+   "reading": "All their births pass through their hearts, once clouded by forgetfulness; going near, they say that by the lord of dharma they have been given the nectar of dharma and have escaped the hot disease of rebirth.",
+   "concepts": [
+    "piravi",
+    "aram",
+    "noy"
+   ],
+   "nuance": "That the cocks speak is my reading of lines 3 and 4 (அறவுமிர்தாரப் பெற்றேம், 'we have received'), which could also be the poet's voice for them.",
+   "uncertain": true,
+   "speaker": {
+    "who": "kozhikal",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kozhikal",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The two cocks recall their past births and give thanks for the teaching that frees them from rebirth.",
+   "claims": [
+    {
+     "claim": "the nectar of dharma from the teacher frees from the fever of rebirth",
+     "school": "jain",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "kozhikal"
+    }
+   ]
+  },
+  "256": {
+   "reading": "Having bathed in the sage's feet, the cocks drink the full nectar of dharma and crow gladly in the grove, and the king, hearing it, bends a bow with a face that smiles beside the faces of fair women.",
+   "concepts": [
+    "aram",
+    "inbam"
+   ],
+   "nuance": "The last line is obscure (the bow bent 'with the face of fair women') and leaves it unclear whom the king aims at.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kozhikal",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "yasomathi",
+     "form": "மன்னன்",
+     "line": 3
+    }
+   ],
+   "event": "The cocks crow in the garden and the king bends his bow.",
+   "claims": []
+  },
+  "257": {
+   "reading": "The king takes the knowing arrow and looses it, and the good birds shake and fall; yet by the greatness of the holy dharma their small karmas hide away and they pass into human birth.",
+   "concepts": [
+    "kolai",
+    "vinai",
+    "piravi"
+   ],
+   "nuance": "The poem does not explain how Yasomathi, who has just taken the vows in 253, looses the arrow; the verse stresses that the dharma the cocks took turns the killing into a rebirth as human beings. The verse ends without a full stop in the edition.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasomathi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kozhikal",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Yasomathi's arrow strikes the cocks, which die and are reborn as humans.",
+   "claims": [
+    {
+     "claim": "the greatness of dharma hides even a being's small karmas and carries it into a human birth",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "258": {
+   "reading": "The king goes through the scented grove, then back into the palace to the sound of drums, and sinks into untellable delight among women with fragrant hair.",
+   "concepts": [
+    "inbam",
+    "selvam",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasomathi",
+     "form": "அரசனு",
+     "line": 2
+    }
+   ],
+   "event": "Yasomathi returns to his palace and gives himself to pleasure.",
+   "claims": []
+  },
+  "259": {
+   "reading": "As Yasomathi lives on in royal wealth, Pushpavali bears twins and, after a few days, another son.",
+   "concepts": [
+    "makkal",
+    "arasu",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasomathi",
+     "form": "திசோமதி",
+     "line": 1
+    },
+    {
+     "id": "pushpavali",
+     "form": "புட்பா வலி",
+     "line": 2
+    }
+   ],
+   "event": "Pushpavali bears Yasomathi twins and then a third son.",
+   "claims": []
+  },
+  "260": {
+   "reading": "Of the twins, the boy is Abhayaruchi and the girl is Abhayamati, and the son born after them is named Yasodharan.",
+   "concepts": [
+    "makkal",
+    "piravi"
+   ],
+   "nuance": "The verse does not say that the twins are the cocks reborn; that follows from 257 and from the youth's own words (73), which this link rests on. The younger brother bears the name of his grandfather the king.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "261": {
+   "reading": "The young prince grows up and learns the arts of horse, chariot and elephant and the work fit for kings, together with the sciences, and the poet says he will tell what came next.",
+   "concepts": [
+    "kalvi",
+    "makkal",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "isodharan",
+     "form": "அரசிளங் குமரன்",
+     "line": 4
+    }
+   ],
+   "event": "The youngest prince is trained in arms and learning.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "245",
+   "b": "252",
+   "type": "tension",
+   "note": "The king says life would fall apart if harming stopped; the sage answers that even a killing in intent alone sends the killers to hell.",
+   "teaches": "The pair puts the king's claim that rule needs killing beside the sage's reply that killing costs the killer more than it gives, which neither verse shows alone."
+  },
+  {
+   "a": "250",
+   "b": "139",
+   "type": "tension",
+   "note": "In 139 Yasodharan refuses to kill a living thing even to save his own life; here he and his mother are said to have killed a cock of flour with a sword.",
+   "teaches": "Set side by side, they show a stated rule and the later act that breaks it, with 250 giving the cost that carries through every birth."
+  },
+  {
+   "a": "257",
+   "b": "255",
+   "type": "develops",
+   "note": "The cocks take the vow and the nectar of dharma, and in 257 the arrow that kills them still sends them into human birth.",
+   "teaches": "The vow in 255 is what makes 257 a rebirth and not a fall, and the arrow shows how far the vow's protection reaches."
+  },
+  {
+   "a": "260",
+   "b": "73",
+   "type": "develops",
+   "note": "The twins are born to Yasomathi after the cocks' death; the youth in chapter 4 says his sight of dharma came from knowing his own births.",
+   "teaches": "Read together, they let the reader see that the cocks of this chapter are the youth who is telling the story, an inference the poem does not state outright."
+  },
+  {
+   "a": "249",
+   "b": "kural:327",
+   "type": "develops",
+   "note": "The sage says kings who kill to keep the body last only a few days and then sink in rebirth; the couplet forbids taking a life even to save one's own.",
+   "teaches": "The couplet gives a bare ban; the sage supplies the reason that the life one kills to save is brief and the killing makes the next birth worse.",
+   "gains": {
+    "a": "The verse finds in the couplet the absolute rule its argument from the body's brevity is trying to reach.",
+    "b": "The couplet gets a reason against killing to save oneself that it does not itself give."
+   }
+  },
+  {
+   "a": "250",
+   "b": "kural:320",
+   "type": "develops",
+   "note": "The couplet says all pains rest on those who caused pain; the sage says the pain of killing returns to the killers birth after birth.",
+   "teaches": "The couplet states the return of pain as a rule; the verse shows it falling across births on two named kin who thought their killing was only a rite.",
+   "gains": {
+    "a": "The verse gets a general rule that makes the long suffering of the king and his mother a law and not a freak.",
+    "b": "The couplet gets the cases of kin reborn as birds, which show how far its rule is meant to reach."
+   }
+  },
+  {
+   "a": "249",
+   "b": "naladiyar:21",
+   "type": "develops",
+   "note": "Naladiyar says even kings who rode elephants under the white umbrella have been carried off and no one is left over; the verse says kings who kill to last also die and then sink in rebirth.",
+   "teaches": "The quatrain ends at death; the verse adds that for a king who killed to last, the end is only a sinking into more births.",
+   "gains": {
+    "a": "The verse gets the common picture of kings carried off as a witness that the body's span cannot be bought by killing.",
+    "b": "The quatrain gets a destination after death and the cause that sends a king there."
+   }
+  },
+  {
+   "a": "247",
+   "b": "siddhar:15",
+   "type": "develops",
+   "note": "The sage makes feeling another's pain as one's own the base of the chief vow; the Siddhar wishes to think of the lives he would kill and eat as his own life.",
+   "teaches": "The Siddhar offers this as a wish on the way to completing his tapas, while the verse makes it the support without which the vow of not killing cannot stand.",
+   "gains": {
+    "a": "The verse gets a voice from a different tradition that reaches the same rule and ties it to a seeker's tapas.",
+    "b": "The Siddhar's wish gets a Jain statement that names the pity that must come first and the restraint beside it."
+   }
+  },
+  {
+   "a": "251",
+   "b": "siddhar:130",
+   "type": "qualifies",
+   "note": "The sage says the king's father and mother went into animal births because of their deeds; the Siddhar asks when he will say enough to the births he has had as stone, tree, fish, bird and grass.",
+   "teaches": "The Siddhar mourns the animal births without naming a cause; the epic traces the animal birth to a particular killing and makes it the fruit of a deed.",
+   "gains": {
+    "a": "The verse gets from the Siddhar the weariness of the rebirth it only reports as a fact.",
+    "b": "The Siddhar's lament gets a case in which an animal birth is the named fruit of a killing and not simply a stage to be escaped."
+   }
+  },
+  {
+   "a": "255",
+   "b": "tirumanthiram:120",
+   "type": "qualifies",
+   "note": "The cocks say that the teacher's dharma has freed them from the fever of rebirth; Tirumular's guru makes the deeds into burnt seeds that will not sprout into seven births.",
+   "teaches": "Both free through a teacher, but in the epic the cocks' own vow and memory do the work while in Tirumular it is the guru's act that burns the seed, and no god is named in the epic's verse.",
+   "gains": {
+    "a": "The verse gets a Saiva picture of how a teacher's act ends rebirth, which it only reports as a result.",
+    "b": "Tirumular gets a case of a being freed by teaching and its own vow, without a god's act."
+   }
+  },
+  {
+   "a": "248",
+   "b": "tirumanthiram:258",
+   "type": "qualifies",
+   "note": "The sage says the suffering of births ends only by good dharma; Tirumular names austerity and virtue the boat across the sea of deeds, which the Lord makes fruitful.",
+   "teaches": "The Jain verse makes dharma sufficient to end the fruit of deeds; Tirumular makes the Lord's act the thing that gives austerity and virtue their effect.",
+   "gains": {
+    "a": "The verse gets a rival account in which dharma needs a god's act to bear fruit.",
+    "b": "Tirumular gets a Jain case where dharma alone is said to end a deed's fruit, which tests his added condition."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 254 and 257 end without a full stop in the edition, and 254's last line runs into 255.",
+  "246 line 1 reads 'சண்ட இசைத்தது' (probably 'சண்டன் இசைத்தது'), apparently a name for the king, which does not appear elsewhere in this chapter.",
+  "The speakers of 245 and 255 are not marked by the text; the readings are inferred from 246 and from the cocks' crowing in 256."
+ ]
+}

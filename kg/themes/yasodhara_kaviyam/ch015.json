@@ -1,0 +1,882 @@
+{
+ "chapter_no": 15,
+ "chapter_theme": "The muni Sudattan tells the king the fruits of deeds: Asokan in a god's world, the poisoner Amritamati tortured through the hells and eating her own flesh, and Yasodharan and his mother through beast births to birth as the king's own twin children; the twins remember their births, the king weeps for what his deeds have done and the muni bids him not fear.",
+ "cast": [
+  {
+   "id": "sudattan",
+   "tamil": "சுதத்தன்",
+   "role": "the muni who tells the king the fruit of the births; named in verse 283, unnamed here"
+  },
+  {
+   "id": "yasomathi",
+   "tamil": "இசோமதி",
+   "role": "the king the muni addresses; read as Yasomati, father of the twins, unnamed in this chapter"
+  },
+  {
+   "id": "asokan",
+   "tamil": "அசோகன்",
+   "role": "the king's grandfather, now a god, who renounced in chapter 5"
+  },
+  {
+   "id": "amirthamathi",
+   "tamil": "அமிர்தமதி",
+   "role": "the queen who plotted to poison the king, now in hell"
+  },
+  {
+   "id": "chandramathi",
+   "tamil": "சந்திர மதி",
+   "role": "the old mother, born as animals and now as the king's daughter"
+  },
+  {
+   "id": "yasodharan",
+   "tamil": "இசோதரன்",
+   "role": "the former king, born as animals and now as the king's son"
+  },
+  {
+   "id": "narakar",
+   "tamil": "நரகர்",
+   "role": "the beings of hell who torment the fallen"
+  },
+  {
+   "id": "abhayaruchi",
+   "tamil": "அபயருசி",
+   "role": "the twin brother, the former Yasodharan"
+  },
+  {
+   "id": "abhayamati",
+   "tamil": "அபயமதி",
+   "role": "the twin sister, the former Chandramathi"
+  },
+  {
+   "id": "ilainjar",
+   "tamil": "இளைஞர்",
+   "role": "the twins speaking together"
+  },
+  {
+   "id": "sandan",
+   "tamil": "சண்டன்",
+   "role": "the man the king sends to fetch the twins"
+  }
+ ],
+ "verses": {
+  "285": {
+   "reading": "The muni says that the king's father, Asokan, is now a god shining like a rare gem in Brahma's world, glad among divine women for more than ten oceans of years.",
+   "concepts": [
+    "thavam",
+    "marumai"
+   ],
+   "nuance": "The verse says only 'he'; the father is read from verse 284, where Asokan reaches a world of the gods. The muni speaking, and the king he addresses as 'you', are not named in this chapter: Sudattan is the muni of verse 283 and the king is read as Yasomati, since verses 298 and 299 call the twins his son and daughter.",
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "asokan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Asokan, who took renunciation, enjoys a god's life in Brahma's world.",
+   "claims": [
+    {
+     "claim": "austerity taken at the white hair ripens into a long life among the gods",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sudattan"
+    }
+   ]
+  },
+  "286": {
+   "reading": "The muni says that the queen Amritamati, who with the old mother plotted by guile to kill the king with poison, became wholly a leper and fell into dire hell, her deeds like poison consuming her.",
+   "concepts": [
+    "vanjam",
+    "vinai",
+    "naragam",
+    "noy"
+   ],
+   "nuance": "The verse shows the punishment answering the crime: she planned his death by poison and her deeds are called 'poison-like' that wear her down.",
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "amirthamathi",
+     "form": "யமிர்தமதி",
+     "line": 3
+    },
+    {
+     "id": "chandramathi",
+     "form": null,
+     "line": 1
+    }
+   ],
+   "event": "Amritamati, who plotted the king's poisoning with his mother, is struck with leprosy and falls into hell.",
+   "claims": [
+    {
+     "claim": "the wife who plots her husband's death is repaid in disease and hell",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sudattan"
+    }
+   ]
+  },
+  "287": {
+   "reading": "The muni lists the seven pits of hell by their grounds: the darkness of darkness, darkness, smoke, mire, sand and gravel, each place bringing the pain its deeds earn.",
+   "concepts": [
+    "naragam",
+    "vinai"
+   ],
+   "nuance": "Only six grounds can be read in the lines; the seventh name is not clear in the edition.",
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "deeds ripen in hells of seven kinds, each named for its ground and its pain",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sudattan"
+    }
+   ]
+  },
+  "288": {
+   "reading": "The muni says five of the hells have ground that would melt even Mount Meru as hot and cold water, and that Amritamati fell into the smoke hell, where she has no helper and no dharma.",
+   "concepts": [
+    "naragam",
+    "vinai"
+   ],
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "amirthamathi",
+     "form": "ளமிர்தமதி",
+     "line": 4
+    }
+   ],
+   "event": "Amritamati falls and melts into the smoke hell.",
+   "claims": [
+    {
+     "claim": "in hell neither any companion nor dharma stands by the sufferer",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sudattan"
+    }
+   ]
+  },
+  "289": {
+   "reading": "Hell's dwellers run up as she falls into the pit, set her in smoke and fire, burn and split her and grind her bleeding wounds; the verse asks whether any who face a deed's wrath would not themselves be wrathful.",
+   "concepts": [
+    "naragam",
+    "vinai"
+   ],
+   "nuance": "Line 4 is hard to construe. 'If the sunk deed is angry, are there any who are not angry' may mean that no one can be gentle toward her when her own deed is angry with her.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "narakar",
+     "form": "தருநரக",
+     "line": 1
+    }
+   ],
+   "event": "The beings of hell burn, split and grind the fallen Amritamati.",
+   "claims": []
+  },
+  "290": {
+   "reading": "Hell's keepers cry that she had eaten cooked flesh before and now force molten copper into her mouth until her face melts and runs.",
+   "concepts": [
+    "pulaal",
+    "naragam",
+    "vinai"
+   ],
+   "nuance": "The reproach 'you ate' is voiced by the tormentors; it is the muni's account, which the work holds, that makes the punishment the answer to the deed. The word இந்திரர்கள் here names the tormentors, as written.",
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "narakar",
+     "form": "னிந்திரர்கள்",
+     "line": 3
+    }
+   ],
+   "event": "The keepers of hell pour molten copper into Amritamati's mouth, reproaching her for eating flesh.",
+   "claims": [
+    {
+     "claim": "eating the flesh of living beings is repaid in hell by being made to swallow what burns",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "sudattan"
+    }
+   ]
+  },
+  "291": {
+   "reading": "She is burnt to crisp, and a fair image is heated in the fire; they say 'this is very sweet', bid her embrace it, and she cries out as her whole body crumbles to powder.",
+   "concepts": [
+    "kaamam",
+    "naragam"
+   ],
+   "nuance": "The scorching image set against her love is not spelled out as the elephant-keeper, and the speaker of 'this is very sweet' is not named.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "amirthamathi",
+     "form": null,
+     "line": 1
+    }
+   ],
+   "event": "Amritamati is made to embrace a heated image and her body crumbles.",
+   "claims": []
+  },
+  "292": {
+   "reading": "They pour poison down her until her tongue rots, and she melts in her thirst but cannot die; in a land where blameless deeds bear no fruit, nothing sweet can grow.",
+   "concepts": [
+    "naragam",
+    "kootru",
+    "vinai"
+   ],
+   "nuance": "The poison she had prepared for the king is returned to her mouth.",
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "narakar",
+     "form": null,
+     "line": 1
+    }
+   ],
+   "event": "The tormentors force poison on Amritamati, who burns without dying.",
+   "claims": [
+    {
+     "claim": "in hell the sufferer cannot die, however the body melts",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sudattan"
+    }
+   ]
+  },
+  "293": {
+   "reading": "They tell her that she did not shun the flesh her kin once gave, and now bid her eat her own limbs; they cut them off and call her glutton as she wanders in pain.",
+   "concepts": [
+    "pulaal",
+    "vinai",
+    "naragam"
+   ],
+   "nuance": "The reproach names flesh eaten from 'your kin' of an earlier birth, so the verse joins eating flesh with the earlier life's deeds.",
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "narakar",
+     "form": null,
+     "line": 3
+    },
+    {
+     "id": "amirthamathi",
+     "form": null,
+     "line": 3
+    }
+   ],
+   "event": "The tormentors cut off Amritamati's limbs and make her eat them.",
+   "claims": [
+    {
+     "claim": "flesh eaten from others is paid back by eating one's own flesh",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sudattan"
+    }
+   ]
+  },
+  "294": {
+   "reading": "They press her in a sesame mill, roast her on the fire of the furnace, set her on the killing stake and shake and crush her; the muni says the pain of the furnace cannot be told.",
+   "concepts": [
+    "naragam",
+    "idumbai"
+   ],
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "narakar",
+     "form": null,
+     "line": 1
+    }
+   ],
+   "event": "The tormentors mill, roast and impale Amritamati.",
+   "claims": []
+  },
+  "295": {
+   "reading": "The muni reckons that the smoke hell's torments, placed over ten and twenty-five and beyond, fall on her for ten and seven oceans of years.",
+   "concepts": [
+    "naragam",
+    "kaalam"
+   ],
+   "nuance": "The arithmetic of lines 1 to 3 is hard to resolve; line 4 gives the term as ten and seven oceans. Set against the ten oceans of Asokan's heaven in verse 285, the wife's term is longer.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the term of hell is measured in oceans of years",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sudattan"
+    }
+   ]
+  },
+  "296": {
+   "reading": "The muni says that Amritamati has not yet suffered all: an old deed stands and burns her in that hell, with other pains besides, and one tongue cannot tell them in one telling.",
+   "concepts": [
+    "vinai",
+    "naragam",
+    "oozh"
+   ],
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "an old deed stays and burns in hell until it is spent",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "sudattan"
+    }
+   ]
+  },
+  "297": {
+   "reading": "The muni turns to Yasodharan and his mother: through the cruelty of their earlier deed of taking life they fell into animal births and long trembling pain, and he begins to name them.",
+   "concepts": [
+    "kollaamai",
+    "vinai",
+    "piravi"
+   ],
+   "nuance": "The verse names the cause as உயிர்க்கொலை வினைக்கொடுமை but not the act itself; the earlier chapters of the story supply it.",
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": "லிசோதரனொ",
+     "line": 1
+    },
+    {
+     "id": "chandramathi",
+     "form": "டன்னையிவர்",
+     "line": 1
+    }
+   ],
+   "event": "Yasodharan and his mother pass into animal births in return for killing.",
+   "claims": [
+    {
+     "claim": "the killing of living beings brings the killer into animal births with long pain",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "sudattan"
+    }
+   ]
+  },
+  "298": {
+   "reading": "The muni says the former king became a peacock, a thorn-toothed beast, a fish and twice a goat, then a caged cock that took the vow, and now grows up as the king's own son Abhaya.",
+   "concepts": [
+    "piravi",
+    "vatham",
+    "vinai"
+   ],
+   "nuance": "The first beasts are hard to name: மயிரி and முள்ளெயின are rare words. The speaker is told 'your son Abhaya', so the king addressed is the twins' father.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "yasodharan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Yasodharan is named through his animal births up to birth as Abhaya.",
+   "claims": [
+    {
+     "claim": "a vow taken even in an animal's body leads to a human birth",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sudattan"
+    }
+   ]
+  },
+  "299": {
+   "reading": "The muni says the mother took the forms of a dog, a snake, a crocodile, a goat, a buffalo and a cock, and when her old deeds loosened and she took the vow the muni taught, she grows as the king's daughter Abhayamati.",
+   "concepts": [
+    "piravi",
+    "vatham",
+    "vinai"
+   ],
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "yasomathi"
+   },
+   "agents": [
+    {
+     "id": "chandramathi",
+     "form": "சந்திரமுன்",
+     "line": 1
+    }
+   ],
+   "event": "Chandramathi is named through her animal births up to birth as Abhayamati.",
+   "claims": [
+    {
+     "claim": "old deeds loosen when the vow taught by the muni is taken",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sudattan"
+    }
+   ]
+  },
+  "300": {
+   "reading": "As the muni tells that this is the fruit of his kin's deeds, the king weighs each point, his mind melts and he is bewildered.",
+   "concepts": [
+    "vinai",
+    "manam",
+    "piravi"
+   ],
+   "nuance": "Lines 1 to 3 are partly obscure in the edition; the king's state at line 4 is clear.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasomathi",
+     "form": "மன்னவன்",
+     "line": 4
+    }
+   ],
+   "event": "The king, hearing the muni's account of his kin's births, is bewildered.",
+   "claims": []
+  },
+  "301": {
+   "reading": "The king, having heard the muni, sends the man at his side to fetch Abhayaruchi and Abhayamati, and they come and bow at the feet of the gracious guru.",
+   "concepts": [
+    "guru",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "yasomathi",
+     "form": "மன்னன்",
+     "line": 1
+    },
+    {
+     "id": "sandan",
+     "form": "சண்டனை",
+     "line": 2
+    },
+    {
+     "id": "abhayaruchi",
+     "form": "மன்னபய",
+     "line": 3
+    },
+    {
+     "id": "abhayamati",
+     "form": "மதியவளும்",
+     "line": 3
+    }
+   ],
+   "event": "The king sends for the twins, who come and bow to the muni.",
+   "claims": []
+  },
+  "302": {
+   "reading": "Abhayaruchi and Abhayamati stand unable to bear it, and by a king's grace they remember and understand the births they had left behind; who else can tell what grief they bear.",
+   "concepts": [
+    "piravi",
+    "ninaivu",
+    "vinai"
+   ],
+   "nuance": "Whose grace gives the memory (அரசன் அருளால்) is not clear: the king, or the muni spoken of as a lord of ascetics.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "abhayaruchi",
+     "form": "வுருசியுட",
+     "line": 1
+    },
+    {
+     "id": "abhayamati",
+     "form": "னபயமதி",
+     "line": 1
+    }
+   ],
+   "event": "The twins recall their past births.",
+   "claims": []
+  },
+  "303": {
+   "reading": "The twins say that, born as a pair among men, they have understood the fruit of their former evil deed, that they gave up the dharma that was their companion while enduring pain, and ask what they should do for the birth to come.",
+   "concepts": [
+    "piravi",
+    "vinai",
+    "thuravu"
+   ],
+   "nuance": "The twins speak together; the word ஐய addresses the muni.",
+   "speaker": {
+    "who": "ilainjar",
+    "form": null,
+    "line": null,
+    "addressee": "sudattan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the fruit of a former evil deed follows through births",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "ilainjar"
+    }
+   ]
+  },
+  "304": {
+   "reading": "The father, the mother, the loved son and the daughter have turned in the stream of births; the twins brood on this and weep, and the king, seeing them lament, is as one fallen in blazing fire.",
+   "concepts": [
+    "piravi",
+    "sutram",
+    "nilaiyaamai"
+   ],
+   "nuance": "The relations named (father, mother, son, daughter) are those the earlier verses give to Yasodharan, Chandramathi and the king's children.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "abhayaruchi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "abhayamati",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "yasomathi",
+     "form": "மன்னன்",
+     "line": 4
+    }
+   ],
+   "event": "The twins weep over the kin they have been to one another, and the king is struck.",
+   "claims": []
+  },
+  "305": {
+   "reading": "The king cries that in every birth his father and mother reached he gave them hard pain, that he has done deeds that cast life after life into hell, and asks what he is to do.",
+   "concepts": [
+    "vinai",
+    "naragam",
+    "piravi"
+   ],
+   "speaker": {
+    "who": "yasomathi",
+    "form": null,
+    "line": null,
+    "addressee": "sudattan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "deeds that wear down living beings cast the doer into hell",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "yasomathi"
+    }
+   ]
+  },
+  "306": {
+   "reading": "The king laments that he took life with no mercy, followed wealth and pleasure, understood nothing even about those with a merciful form, and asks what he is to do.",
+   "concepts": [
+    "arul",
+    "vinai",
+    "kollaamai"
+   ],
+   "nuance": "The phrase அருளொடு படர்தல் செய்யாது, 'going forth without mercy', names the lack as mercy rather than ignorance.",
+   "speaker": {
+    "who": "yasomathi",
+    "form": null,
+    "line": null,
+    "addressee": "sudattan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "wealth and pleasure sought without mercy, at the cost of lives, bring ruin",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "yasomathi"
+    }
+   ]
+  },
+  "307": {
+   "reading": "Saying that if those who killed a form of flour fare so, he too, who feared nothing, must have an end, the king begs protection and falls trembling; the great ascetic tells him to fear not and goes on with his teaching.",
+   "concepts": [
+    "acham",
+    "arul",
+    "vinai"
+   ],
+   "nuance": "மாவியல் வடிவு, read as a form made of flour, recalls the offering of the dough figure; it is not said in these lines whose death it was.",
+   "uncertain": true,
+   "speaker": {
+    "who": "yasomathi",
+    "form": "னரசன்",
+    "line": 3,
+    "addressee": "sudattan"
+   },
+   "agents": [
+    {
+     "id": "yasomathi",
+     "form": "னரசன்",
+     "line": 3
+    },
+    {
+     "id": "sudattan",
+     "form": "மாதவ",
+     "line": 4
+    }
+   ],
+   "event": "The king falls trembling and begs protection, and the muni bids him not fear and continues.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "295",
+   "b": "285",
+   "type": "tension",
+   "note": "The wife's hell is reckoned at ten and seven oceans, the father's heaven at ten.",
+   "teaches": "Counting both fates in oceans of years shows one standard measuring the reward and the punishment, with the wife's term the longer."
+  },
+  {
+   "a": "286",
+   "b": "122",
+   "type": "develops",
+   "note": "The queen who offered the low man her whole love is the woman who plots with the old mother to poison the king.",
+   "teaches": "The poisoning and hell here are the fruit of the passion the earlier verse shows only beginning."
+  },
+  {
+   "a": "297",
+   "b": "63",
+   "type": "develops",
+   "note": "The youth said that harm to living bodies brought them birth after birth of pain; here the muni names the first harm and the beasts.",
+   "teaches": "The muni's account gives the cause the youth's earlier remark leaves unnamed: a single killing carried through many beast births."
+  },
+  {
+   "a": "297",
+   "b": "139",
+   "type": "tension",
+   "note": "The king who refuses to take a kid's life to save his own is the same Yasodharan that the muni names as caught in beast births for killing.",
+   "teaches": "The refusal in verse 139 does not hold in the story's end; the reader sees that a good stand can still be overturned and then paid for."
+  },
+  {
+   "a": "292",
+   "b": "286",
+   "type": "develops",
+   "note": "The poison she meant for the king is poured back into her mouth in hell.",
+   "teaches": "The punishment copies the crime, so the reader sees the hell as the working out of her own deed."
+  },
+  {
+   "a": "293",
+   "b": "naladiyar:123",
+   "type": "develops",
+   "note": "In both, the flesh the eater took from another is answered in the eater's own body: the crab-eater's fingers rot, the queen's limbs are cut off for her to eat.",
+   "teaches": "Together they show the deed answering in kind, once in a diseased human body and once in a hell where the body will not die.",
+   "gains": {
+    "a": "The epic shows the same retribution in a hell with a tormentor's speech, where the quatrain gives only a result on earth.",
+    "b": "The quatrain gains a longer, harsher case in which the eater is made to eat herself, not merely lose a limb."
+   }
+  },
+  {
+   "a": "290",
+   "b": "kural:255",
+   "type": "develops",
+   "note": "The Kural says that for the flesh-eater hell does not open its mouth; here the flesh-eater is told 'you ate' and hot copper is forced into her mouth.",
+   "teaches": "The couplet's closed mouth of hell becomes a scene in which hell feeds the eater, and the penalty is shown to match the eating.",
+   "gains": {
+    "a": "The epic gives the couplet's warning a named sufferer and a tormentor's reproach.",
+    "b": "The couplet gets a mechanism: the penalty copies the meal rather than being a general threat."
+   }
+  },
+  {
+   "a": "289",
+   "b": "tirumanthiram:199",
+   "type": "qualifies",
+   "note": "Tirumanthiram has Yama's messengers seize the flesh-eaters and break them in fire-mouthed hell; here the dwellers of hell burn and split her with no god's order named.",
+   "teaches": "Both fill hell with fire and breaking, but only the epic leaves the tormentors without a lord, which shows how little each needs a judge.",
+   "gains": {
+    "a": "The epic's hell has no named judge or messenger, only its own dwellers.",
+    "b": "The Saiva verse's Yama's servants stand out as one way of staffing hell, not a necessity."
+   }
+  },
+  {
+   "a": "296",
+   "b": "naladiyar:101",
+   "type": "develops",
+   "note": "The quatrain says an old deed seeks out its doer as a calf finds its mother; here the old deed 'stands and burns' the queen in hell.",
+   "teaches": "The calf's search takes the deed to its doer, and the epic shows what the deed then does once it has arrived.",
+   "gains": {
+    "a": "The epic shows the deed after it has found the doer, still burning her.",
+    "b": "The quatrain gains a case where the deed, once arrived, does not leave until spent."
+   }
+  },
+  {
+   "a": "298",
+   "b": "tirumanthiram:2133",
+   "type": "qualifies",
+   "note": "Tirumanthiram has old deeds following the subtle body into a new body; the muni gives the bodies one by one for the king's father, with a vow taken in the cock's body turning the chain upward.",
+   "teaches": "The epic shows that the following deed can be altered by a vow made in a beast's body, which the Saiva line says nothing of.",
+   "gains": {
+    "a": "The epic names each body and the vow that changed the course.",
+    "b": "The Saiva verse's general passing of the old deed gains a concrete life, a beast birth by beast birth."
+   }
+  },
+  {
+   "a": "304",
+   "b": "naladiyar:15",
+   "type": "develops",
+   "note": "The quatrain has mother seeking mother through the world; here father, mother, son and daughter change places among themselves across births.",
+   "teaches": "One shows kin passing the world on, the other shows kin turning into each other, so grief for kin has no fixed object.",
+   "gains": {
+    "a": "The epic's twins and king have actually been one another's father, mother and children.",
+    "b": "The quatrain's general chain of mothers gets a family that names its members."
+   }
+  },
+  {
+   "a": "305",
+   "b": "kural:320",
+   "type": "develops",
+   "note": "The Kural says all pain falls on those who caused pain; the king reads his own life as a ripening of the pain he gave his father and mother in their births.",
+   "teaches": "The couplet's rule becomes a confession in which the doer sees the pain return across several births.",
+   "gains": {
+    "a": "The king applies the rule to himself and to kin in earlier births.",
+    "b": "The couplet gets a speaker who feels the rule falling on him."
+   }
+  },
+  {
+   "a": "306",
+   "b": "kural:321",
+   "type": "qualifies",
+   "note": "The Kural names not killing as the chief virtue; the king names the lack of mercy joined to seeking wealth and pleasure as his fault.",
+   "teaches": "The king adds the motive of wealth and pleasure to the couplet's plain count of killing, so greed becomes part of the fault.",
+   "gains": {
+    "a": "The king's lament names the greed that drives the killing.",
+    "b": "The couplet gains a cause for the killing it forbids."
+   }
+  }
+ ],
+ "new_concepts": [
+  {
+   "id": "vatham",
+   "tamil": "வதம்",
+   "gloss": "the vow of restraint taken from a teacher",
+   "label_source": "verses 298 and 299 use the word வதம்"
+  }
+ ],
+ "source_issues": [
+  "Verse 285 says only 'he'; the father Asokan is read from verse 284.",
+  "The muni and the king are not named in this chapter; Sudattan (verse 283) and Yasomati are inferred from the story and from 'your son' in verses 298 and 299.",
+  "Verse 287 gives six names of the seven hells; verses 289 and 295 are partly obscure.",
+  "Verse 300 lines 1 to 3 are partly obscure and spaced oddly in the edition; verses 303 to 306 are spaced as a different edition would be.",
+  "Verse 279 line 4 and verse 300 line 4 lack their closing marks as in the edition; the verse boundaries are the edition's."
+ ]
+}

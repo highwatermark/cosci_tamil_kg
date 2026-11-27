@@ -1,0 +1,685 @@
+{
+ "chapter_no": 2,
+ "chapter_theme": "The poet places the story in Bharata and the city of Rajapuram, where King Maridattan, bewildered by wealth, takes the townspeople's fear of the goddess Chandamari for a duty, goes to her shrine, gathers pairs of animals and resolves to offer a pair of human children; the ascetic Sudattan arrives with his company, and the brother and sister Abhayaruchi and Abhayamati, sent on their round, enter the city in ascetic dress.",
+ "cast": [
+  {
+   "id": "maridattan",
+   "tamil": "மாரிதத்தன்",
+   "role": "the generous king of Rajapuram who resolves to offer humans to the goddess"
+  },
+  {
+   "id": "nagar_makkal",
+   "tamil": "நகர மாந்தர்",
+   "role": "the townspeople who urge the king to honour the goddess"
+  },
+  {
+   "id": "chandamari",
+   "tamil": "சண்டமாரி",
+   "role": "the goddess of the shrine south of the city, whose image the narrator calls a form of sin"
+  },
+  {
+   "id": "chandakarman",
+   "tamil": "சண்டகரும",
+   "role": "the man the king commands to bring the twin children"
+  },
+  {
+   "id": "sudattan",
+   "tamil": "சுதத்தன்",
+   "role": "the chief of ascetics who comes with five hundred ascetics and a lay company"
+  },
+  {
+   "id": "upasakar",
+   "tamil": "உபாசகர்",
+   "role": "the lay followers in Sudattan's company"
+  },
+  {
+   "id": "abhayaruchi",
+   "tamil": "அபயருசி",
+   "role": "the youth among the lay followers, brother of Abhayamati"
+  },
+  {
+   "id": "abhayamati",
+   "tamil": "அபயமதி",
+   "role": "the maiden, Abhayaruchi's younger sister"
+  }
+ ],
+ "verses": {
+  "5": {
+   "reading": "The poet places the story in Bharata, in the land of the golden jambu groves, a watered country whose high gardens wear the great clouds as crests and which he says has no equal here.",
+   "concepts": [
+    "naadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "6": {
+   "reading": "In that land stands Rajapuram, a faultless city of renown and wealth that only Alakapuri, the city of the gods' pleasures, could rival.",
+   "concepts": [
+    "naadu",
+    "pugazh"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "7": {
+   "reading": "The city's rampart reaches the clouds, its mansions wear the moon, and the song and dance of its sweet-voiced women surpass the world of the Vidyadharas.",
+   "concepts": [
+    "naadu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "8": {
+   "reading": "The poet introduces Maridattan, the generous king of that city, under a white umbrella and a garland.",
+   "concepts": [
+    "vendhan",
+    "eegai"
+   ],
+   "nuance": "His name is spelled with a word break in the edition (மாரி தத்தன்); the king is introduced here and acts from verse 13.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "9": {
+   "reading": "The king and the people of his city, bewildered by wealth, discerned nothing of the gods' pleasure or of the road to release.",
+   "concepts": [
+    "selvam",
+    "veedu",
+    "arasu"
+   ],
+   "nuance": "The poet states the fault before the story starts: the king and the city are first shown as well-off and ignorant of the way to release (veedu), which prepares the sacrifice that follows.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "wealth bewilders a man so that he does not look for release",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "10": {
+   "reading": "While the king lives surrounded by women whose love knows no bar, the young spring season comes.",
+   "concepts": [
+    "kaalam",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Young spring arrives while the king dwells among his women.",
+   "claims": []
+  },
+  "11": {
+   "reading": "In the spring the kongu tree holds up golden umbrellas, the vakai tree bends and sways like fly-whisks, and cuckoos and bees sing as if in concert.",
+   "concepts": [
+    "kaalam",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "12": {
+   "reading": "Women play in the flowering groves, bending low, while the mango trees clasp their tender leaves as if showing mutual love.",
+   "concepts": [
+    "kaalam",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "13": {
+   "reading": "The groves greet the season like a king, and the kings and the townspeople resolve to take up the spring games.",
+   "concepts": [
+    "kaalam",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagar_makkal",
+     "form": "மாந்தரும்",
+     "line": 3
+    }
+   ],
+   "event": "The kings and townspeople prepare to play the spring games.",
+   "claims": []
+  },
+  "14": {
+   "reading": "As they wish to go to the forest park and gardens to play, the townspeople bow to the king and speak.",
+   "concepts": [
+    "arasu",
+    "kaalam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagar_makkal",
+     "form": "மாந்தர்",
+     "line": 4
+    }
+   ],
+   "event": "The townspeople bow to the king and address him.",
+   "claims": []
+  },
+  "15": {
+   "reading": "The townspeople tell the king that they have always honoured the goddess at this season and in the month of Aippasi, that this time they have not done so, and that ill will now come upon them.",
+   "concepts": [
+    "vazhipaadu",
+    "kaalam"
+   ],
+   "nuance": "Line 3 (ஒன்றும் ஓரலமாயினம்) is hard: it is read here as 'we have done none of it'. The edition ties the rite to this season and to Aippasi together, and the verse does not explain the pairing.",
+   "uncertain": true,
+   "speaker": {
+    "who": "nagar_makkal",
+    "form": null,
+    "line": null,
+    "addressee": "maridattan"
+   },
+   "agents": [
+    {
+     "id": "nagar_makkal",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The townspeople remind the king of the goddess's yearly worship, which they have not done.",
+   "claims": [
+    {
+     "claim": "failing to honour the goddess in her season brings misfortune on the people",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "nagar_makkal"
+    }
+   ]
+  },
+  "16": {
+   "reading": "They warn that an angered goddess brings painful diseases, takes lives and does other evil, and urge the king to rise quickly and protect them.",
+   "concepts": [
+    "vazhipaadu",
+    "noy",
+    "kootru"
+   ],
+   "nuance": "The people do not ask the king to give up the spring games; they ask him to protect the town from the goddess, a duty that puts the sacrifice that follows in the king's hands.",
+   "speaker": {
+    "who": "nagar_makkal",
+    "form": null,
+    "line": null,
+    "addressee": "maridattan"
+   },
+   "agents": [
+    {
+     "id": "nagar_makkal",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The townspeople warn the king that the goddess's anger will bring disease and death, and call on him to act.",
+   "claims": [
+    {
+     "claim": "a goddess who is angered sends disease and takes lives",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "nagar_makkal"
+    }
+   ]
+  },
+  "17": {
+   "reading": "Hearing this, the king, who has no clear grasp of true dharma, finds no fault in it, judges it good and goes in state to the south outside the city.",
+   "concepts": [
+    "aram",
+    "arasu",
+    "thelivu"
+   ],
+   "nuance": "The narrator, not a character, gives the reason for the king's choice: lack of clarity (தெளிவின்மை) in dharma, which the story treats as a fault of understanding rather than cruelty.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maridattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king accepts the townspeople's advice and sets out in state for the goddess's shrine south of the city.",
+   "claims": [
+    {
+     "claim": "a king without clarity about right dharma takes a harmful rite to be good",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "18": {
+   "reading": "The king reaches the place of the goddess Chandamari, worshipped by devotees whom the poet calls lacking in learning and keen understanding.",
+   "concepts": [
+    "vazhipaadu",
+    "kallaamai"
+   ],
+   "nuance": "The poet's verdict on the devotees is his own and is not put in any speaker's mouth. Line 1 (சண்ட கோபி தகவிளல் தத்துவம்) is garbled and its sense is not recovered.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maridattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king arrives at Chandamari's shrine.",
+   "claims": []
+  },
+  "19": {
+   "reading": "At the shrine whose image the poet calls a form of sin, the king circles the goddess, bows and prays that she scatter their distress.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "nuance": "'Form of sin' (பாவ மூர்த்தி) is the narrator's phrase for the image, so the poet gives his judgment even as the king worships.",
+   "speaker": {
+    "who": "maridattan",
+    "form": "மாவலோன்",
+    "line": 3,
+    "addressee": "chandamari"
+   },
+   "agents": [
+    {
+     "id": "maridattan",
+     "form": "மாவலோன்",
+     "line": 3
+    }
+   ],
+   "event": "The king circles Chandamari's image, bows and prays her to remove their distress.",
+   "claims": [
+    {
+     "claim": "worship can move the goddess to remove the city's distress",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "maridattan"
+    }
+   ]
+  },
+  "20": {
+   "reading": "At the king's order pairs of peacocks, cocks, pigs, goats and buffaloes are brought together and he sees them gathered.",
+   "concepts": [
+    "kolai",
+    "vazhipaadu"
+   ],
+   "nuance": "The animals are collected as victims, and the next verse shows the king looking beyond them to human victims.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maridattan",
+     "form": "மன்னன்",
+     "line": 1
+    }
+   ],
+   "event": "Pairs of each kind of animal are brought together at the king's order.",
+   "claims": []
+  },
+  "21": {
+   "reading": "The king says he will offer a faultless pair of humans with his sword, so that other people will then worship the goddess with animals.",
+   "concepts": [
+    "kolai",
+    "vazhipaadu",
+    "arasu"
+   ],
+   "nuance": "The work does not answer the claim here; verse 17 has already set it down to the king's lack of clarity in dharma. The speaker is inferred from யான் and the sword, since no one is named in the verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maridattan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maridattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king resolves to offer a pair of humans to the goddess with his own sword.",
+   "claims": [
+    {
+     "claim": "the goddess is rightly worshipped by killing living pairs, with humans the greatest offering",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "maridattan"
+    }
+   ]
+  },
+  "22": {
+   "reading": "The king calls to Chandakarma to bring the unblemished twin children, and the man runs into the city to find them.",
+   "concepts": [
+    "kolai",
+    "arasu"
+   ],
+   "nuance": "The first two lines, praising the twins' faultlessness, are read as the king's demand for a spotless victim; the verse does not say who first names the twins.",
+   "speaker": {
+    "who": "maridattan",
+    "form": null,
+    "line": null,
+    "addressee": "chandakarman"
+   },
+   "agents": [
+    {
+     "id": "chandakarman",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king orders Chandakarma to bring the twin children, and the man runs into the city to seek them.",
+   "claims": []
+  },
+  "23": {
+   "reading": "The lord of ascetics Sudattan, a mountain of virtue, arrives with five hundred great ascetics and a throng of lay followers on his way to worship at a holy place.",
+   "concepts": [
+    "thavam",
+    "thuravu",
+    "vazhipaadu"
+   ],
+   "nuance": "தீர்த்த வந்தனை (line 3) could mean worship at a holy place or of the teachers; the verse leaves the object open.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sudattan",
+     "form": "சுதத்த",
+     "line": 1
+    },
+    {
+     "id": "upasakar",
+     "form": "உபாசகர்",
+     "line": 2
+    }
+   ],
+   "event": "Sudattan comes with five hundred ascetics and the lay company, going to worship at a tirtha.",
+   "claims": []
+  },
+  "24": {
+   "reading": "He halts in a flower garden outside the city, keeps the vow that clears the road of evil in his mind, takes his seat and settles into the penance of fasting with his company.",
+   "concepts": [
+    "thavam",
+    "aasanam"
+   ],
+   "nuance": "The garden is outside the city, and so is the goddess's shrine, so the ascetics and the king's party are near each other without meeting.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sudattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sudattan and his company stop in a garden outside the city and he begins a fast.",
+   "claims": []
+  },
+  "25": {
+   "reading": "Among the lay company are Abhayaruchi and his younger sister Abhayamati, unshaken in mind, who bow and stand before the teacher.",
+   "concepts": [
+    "thavam",
+    "vazhipaadu"
+   ],
+   "nuance": "The brother's name in line 2 (அபயமுன் னுருசி) is irregular in the edition; it is taken as Abhayaruchi because the next line makes the woman his sister Abhayamati.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "abhayaruchi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "abhayamati",
+     "form": "பயமா",
+     "line": 3
+    }
+   ],
+   "event": "The brother and sister among the lay followers bow and stand before Sudattan.",
+   "claims": []
+  },
+  "26": {
+   "reading": "The teacher, gracious toward them, tells the two, weakened by hunger, to go on the day's alms round and then come to him; they bow to the ascetic and go.",
+   "concepts": [
+    "arul",
+    "pasi",
+    "thavam"
+   ],
+   "nuance": "The sense of lines 2 to 3 (உண்டி மாற்றாது, சரிதை போகி) turns on உண்டி மாற்றாது, rendered here as the day's food and round; the exact instruction is not certain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sudattan",
+    "form": null,
+    "line": null,
+    "addressee": "abhayaruchi"
+   },
+   "agents": [
+    {
+     "id": "sudattan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "abhayaruchi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "abhayamati",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sudattan bids the pair go on their round and return, and they bow and depart.",
+   "claims": []
+  },
+  "27": {
+   "reading": "Without flowers, sandal paste or jewels, in a single white cloth and in the form of those who have conquered, wearing the cap of a disguise, the youth and the maiden enter the city.",
+   "concepts": [
+    "thuravu",
+    "vesham"
+   ],
+   "nuance": "The pair is identified as the brother and sister of verse 25 from the story so far; the verse names them only as the generous one and the maiden, so the king's search in verse 22 and their entry are linked by the story and not by the words.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "abhayaruchi",
+     "form": "வள்ளலு",
+     "line": 4
+    },
+    {
+     "id": "abhayamati",
+     "form": "மடந்தை",
+     "line": 4
+    }
+   ],
+   "event": "The youth and the maiden, dressed as ascetics, enter the city.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "9",
+   "b": "naladiyar:331",
+   "type": "same_image",
+   "note": "The turtle in the heated pot plays on unaware of its end, as the king and city sit in wealth without seeing release.",
+   "teaches": "Both place the danger in comfort that blinds, but the Naladiyar names death as the one waiting, while the epic leaves the danger as the loss of the road to release.",
+   "gains": {
+    "a": "the king's ease is shown as a dangerous state like the turtle's warm water, not a harmless background",
+    "b": "the turtle's image is given a named case, a whole city and king, and a consequence in a scene that follows"
+   }
+  },
+  {
+   "a": "16",
+   "b": "siddhar:1473",
+   "type": "tension",
+   "note": "The townspeople tie sickness to the goddess's anger and ask for worship to prevent it; the Siddhar says the offering of goat and cock at the shrine does not stop the sickness and the family deity is not its cause.",
+   "teaches": "The two disagree on whether a deity's anger causes disease, so the epic's chain from the goddess's anger to the king's sacrifice rests on a belief the Siddhar rejects.",
+   "gains": {
+    "a": "the people's fear is seen as a belief another voice in Tamil rejected, so it is not simply the setting",
+    "b": "the Siddhar's mockery of the goat and cock offering gets a case where the same belief ends in a human sacrifice"
+   }
+  },
+  {
+   "a": "17",
+   "b": "tirumanthiram:238",
+   "type": "develops",
+   "note": "Tirumular says an unlearned king blind to dharma says 'kill'; the king here, without clarity in dharma, takes the people's advice and goes to the goddess's shrine.",
+   "teaches": "The epic shows how the unlearned king's killing begins: he is led by piety and the people's fear rather than by anger, so the rule applies to a devout king too.",
+   "gains": {
+    "a": "the king's choice is read as the failure of learning that Tirumular names, not as cruelty",
+    "b": "the rule gets a king who kills out of religious duty and not out of tyranny"
+   }
+  },
+  {
+   "a": "20",
+   "b": "naladiyar:16",
+   "type": "same_image",
+   "note": "The Naladiyar's lamb nibbles the garland in the slaughter ground; here pairs of animals are brought together at the shrine as victims.",
+   "teaches": "The quatrain uses the victim's unawareness as an image for the thoughtless, and the epic shows the gathered victims themselves, so the image can be read back onto the sacrifice.",
+   "gains": {
+    "a": "the gathered animals are seen as victims who do not know their end, which the verse does not say",
+    "b": "the lamb's image is tied to an actual rite and its scale: pairs of five kinds, then humans"
+   }
+  },
+  {
+   "a": "21",
+   "b": "kural:259",
+   "type": "tension",
+   "note": "The king holds that worship of the goddess is rightly done by killing, beginning with humans; the Kural says refraining from killing and eating one creature is better than a thousand sacrifices.",
+   "teaches": "The two rank sacrifice and non-killing in opposite orders, and if the Kural is read as applying to blood offering as well as to oblations, the king's rite is the very thing the couplet ranks lowest.",
+   "gains": {
+    "a": "the king's claim is set against a Tamil rule that puts non-killing above every rite",
+    "b": "the couplet's comparison of sacrifices with non-killing gets a case where the sacrifice is of humans"
+   }
+  },
+  {
+   "a": "22",
+   "b": "kural:327",
+   "type": "qualifies",
+   "note": "The king orders a pair of human children brought for sacrifice to avert the goddess's anger; the Kural says not to do a deed that takes another's life even if one's own life be lost.",
+   "teaches": "The king takes lives to avert harm to his city, whereas the Kural allows no exception even for the life of the one who decides, so the scene tests the rule against the case of a ruler who thinks he acts for his people.",
+   "gains": {
+    "a": "the order is seen as the act the Kural forbids even to save oneself, and here is done to save a city",
+    "b": "the couplet's absolute rule is tested against a ruler's duty to protect, which it does not mention"
+   }
+  },
+  {
+   "a": "22",
+   "b": "27",
+   "type": "develops",
+   "note": "The king sends Chandakarma into the city to seek the twin children, and the youth and maiden in ascetic dress enter that city.",
+   "teaches": "The search for victims and the entry of the pair meet in the city, so the dress of renunciation, put on in verse 27, is what brings them into the king's hands."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 18, line 1 (சண்ட கோபி தகவிளல் தத்துவம்) is garbled; its sense is not recovered.",
+  "Verse 25, line 2: the name 'அபயமுன் னுருசி' is irregular in the edition and is read as Abhayaruchi.",
+  "Verse 15, line 3: ஒன்றும் ஓரலமாயினம் is obscure."
+ ]
+}

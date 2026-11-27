@@ -1,0 +1,556 @@
+{
+ "chapter_no": 3,
+ "chapter_theme": "The queen's temple visit and her dream of a bull and a young sun are read by a sage as the coming of a son who will rule, take up austerity and end his karma; the boy is born, the temple doors open at his foot and a serpent holds him safe in the pond, so he is named Naga Kumaran, and the chapter closes on a courtesan's daughters offered to him.",
+ "cast": [
+  {
+   "id": "arasan",
+   "tamil": "மன்னன்",
+   "role": "the king of the city, Naga Kumara's father"
+  },
+  {
+   "id": "pirithivi_devi",
+   "tamil": "பிரிதிவிழ் தேவி",
+   "role": "the chief queen, the prince's mother"
+  },
+  {
+   "id": "muni",
+   "tamil": "முனி",
+   "role": "the sage at the Jina temple who reads the dream"
+  },
+  {
+   "id": "thikambara_muni",
+   "tamil": "திகம்பரன்",
+   "role": "the naked sage who gives the signs"
+  },
+  {
+   "id": "naga_kumaran",
+   "tamil": "நாககுமரன்",
+   "role": "the prince, born in this chapter"
+  },
+  {
+   "id": "ganikai_thaai",
+   "tamil": "கெணிகை",
+   "role": "the mother of the courtesan girls"
+  },
+  {
+   "id": "kinnari_manokari",
+   "tamil": "கன்னிமார்",
+   "role": "the courtesan girls Kinnari and Manokari"
+  }
+ ],
+ "verses": {
+  "40": {
+   "reading": "Back from sporting in the forest, the king enters his house and the queen, loving, is asked to say what matter is lost for want of water-play; she will speak while he listens.",
+   "concepts": [
+    "kaamam",
+    "inbam"
+   ],
+   "nuance": "Lines 3-4 are hard to construe: who asks and what 'the matter that goes' (போம்பொருள்) is are not fixed, and the verse only says the queen will speak.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arasan",
+     "form": "மன்னன்",
+     "line": 1
+    },
+    {
+     "id": "pirithivi_devi",
+     "form": "கோதை",
+     "line": 2
+    }
+   ],
+   "event": "The king returns from forest play to the queen's house, and the queen is about to tell him something.",
+   "claims": []
+  },
+  "41": {
+   "reading": "The queen says she went to the god's temple, bowed to the Jina and to the stainless sage, heard pure teaching of virtue, and the king, glad at hearing it, sinks with her into a sea of delight.",
+   "concepts": [
+    "vazhipaadu",
+    "aram",
+    "inbam"
+   ],
+   "nuance": "The teaching is called அறவுரை but its content is not given; the verse joins temple worship and household pleasure in one scene.",
+   "speaker": {
+    "who": "pirithivi_devi",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "pirithivi_devi",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "arasan",
+     "form": "வரசன்கேட்",
+     "line": 3
+    }
+   ],
+   "event": "The queen reports her visit to the temple and the sage's sermon; the king rejoices.",
+   "claims": []
+  },
+  "42": {
+   "reading": "After shared pleasure the couple sleep, and in the night's watch the queen sees in a dream a bull and a young sun and wakes the king to tell him.",
+   "concepts": [
+    "kanavu",
+    "kurippu"
+   ],
+   "nuance": "The verse names the omens but not what they mean; the answer waits in verse 44.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pirithivi_devi",
+     "form": "பொருவிலாட்",
+     "line": 4
+    },
+    {
+     "id": "arasan",
+     "form": "புரவலர்க்கு",
+     "line": 4
+    }
+   ],
+   "event": "The queen dreams of a bull and a young sun and wakes the king to tell him.",
+   "claims": []
+  },
+  "43": {
+   "reading": "The pleased king goes to the temple, bows to the Lord under the red-leaved pindi tree and the sage, and asks for the fruit of the dream, which the queen and he hear with joy.",
+   "concepts": [
+    "vazhipaadu",
+    "kanavu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arasan",
+     "form": "வேந்தன்",
+     "line": 1
+    },
+    {
+     "id": "pirithivi_devi",
+     "form": "முலையி னாளு",
+     "line": 4
+    }
+   ],
+   "event": "The king takes the dream to the sage at the temple and asks its meaning.",
+   "claims": []
+  },
+  "44": {
+   "reading": "The sage tells them that the dream means a son will be born to both, who will guard the whole earth, bear great austerity, cut away his heated deeds and reach release.",
+   "concepts": [
+    "vinai",
+    "thavam",
+    "veedu",
+    "makkal"
+   ],
+   "nuance": "The sage gives the son two lives, the protector of lands and the ascetic who ends karma; the prophecy sets both before the story of the prince's marriages and later renunciation begins. The word வினை here is the deeds that burn away through his own tapas, not a grace from another.",
+   "speaker": {
+    "who": "muni",
+    "form": "அம்முனி",
+    "line": 1,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "muni",
+     "form": "அம்முனி",
+     "line": 1
+    }
+   ],
+   "event": "The sage reads the dream: a son will be born who will rule, take up austerity and end his karma in release.",
+   "claims": [
+    {
+     "claim": "austerity cuts off the fierce deeds of past births and so wins final release",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "muni"
+    }
+   ]
+  },
+  "45": {
+   "reading": "The king asks whether there are signs after the son is born, and a naked sage, free of the smallest attachment, says that he will tell them if they listen with honesty.",
+   "concepts": [
+    "kurippu",
+    "thuravu"
+   ],
+   "nuance": "திகம்பரன் (sky-clad) is the sage's own title, so the speaker here may be a different monk from the one in 44; the verse does not say.",
+   "speaker": {
+    "who": "thikambara_muni",
+    "form": "திகம்பர",
+    "line": 4,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "arasan",
+     "form": "புரவலன்",
+     "line": 2
+    },
+    {
+     "id": "thikambara_muni",
+     "form": "திகம்பர",
+     "line": 4
+    }
+   ],
+   "event": "The king asks for signs of the son's coming; a Digambara sage agrees to name them.",
+   "claims": []
+  },
+  "46": {
+   "reading": "The sage gives the signs: the doors of the golden-walled Jina's temple will open at the touch of the son's foot, he will rise from the pond of nagas, and with the king of nagas he will curb pride.",
+   "concepts": [
+    "kurippu",
+    "iraivan"
+   ],
+   "nuance": "Lines 3-4 are obscure (நன்னாக வாவிதனில் அழுவப் பதமுண்டாம், மன்னாக மாவினொடு மதமடக்கி): whether the nagas are the pond's serpents or a naga king, and whose pride is curbed, is not fixed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "thikambara_muni",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [],
+   "event": "The sage lists signs by which the son will be known.",
+   "claims": []
+  },
+  "47": {
+   "reading": "The king and queen bow and praise the sage, return to their fine house and live happily on the bed in the upper hall.",
+   "concepts": [
+    "inbam",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arasan",
+     "form": "வரசன்றன்",
+     "line": 1
+    },
+    {
+     "id": "pirithivi_devi",
+     "form": "றேவிதன்னோ",
+     "line": 1
+    }
+   ],
+   "event": "The royal couple leave the temple and return to their palace.",
+   "claims": []
+  },
+  "48": {
+   "reading": "The queen, in the first mark of pregnancy, longs to eat earth, and the verse says the son will rule the world, with some words of the rest too damaged to read.",
+   "concepts": [
+    "makkal",
+    "kaamam"
+   ],
+   "nuance": "The verse is badly corrupt after line 2; only the craving for earth (மண்ணினிது உண்ண) and the son who will rule the world are clear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pirithivi_devi",
+     "form": "கோதை",
+     "line": 1
+    }
+   ],
+   "event": "The queen shows the craving of pregnancy and the child's rule is foretold.",
+   "claims": []
+  },
+  "49": {
+   "reading": "In the ninth month the son is born on a good day, the king opens his golden store and scatters wealth over the land, and the boy is named Pirathapan.",
+   "concepts": [
+    "makkal",
+    "eegai",
+    "selvam"
+   ],
+   "nuance": "The child is named Pirathapan (சீர்பிரதாபந்தன்) here, and only after the pond is he called Naga Kumaran in 53.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arasan",
+     "form": "மன்னன்",
+     "line": 2
+    }
+   ],
+   "event": "The son is born, the king gives out gold and names him Pirathapan.",
+   "claims": []
+  },
+  "50": {
+   "reading": "One day the queen and the chief queens decide to go to the Lord's temple, take flowers and sandal and the child with them, and set out.",
+   "concepts": [
+    "vazhipaadu",
+    "makkal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pirithivi_devi",
+     "form": "பிரிதிவிழ் தேவி",
+     "line": 1
+    }
+   ],
+   "event": "The queens carry offerings and the baby to the temple.",
+   "claims": []
+  },
+  "51": {
+   "reading": "As the child's foot touches it, the Jina temple's doors swing open; the queen leaves the child and goes in, and the boy falls into the flower pond, at which the mother, unable to bear it, plunges in after him.",
+   "concepts": [
+    "makkal",
+    "anbu",
+    "kurippu"
+   ],
+   "nuance": "The sage's sign in 46 (doors opening, the pond) is fulfilled; a mother's loving leap into water is given as plain feeling, with no comment on it.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pirithivi_devi",
+     "form": "றாதி",
+     "line": 2
+    },
+    {
+     "id": "naga_kumaran",
+     "form": "சிறுவன்",
+     "line": 1
+    }
+   ],
+   "event": "The temple doors open at the infant's touch, he falls into the pond, and his mother leaps in after him.",
+   "claims": []
+  },
+  "52": {
+   "reading": "Seeing the queen standing in the water and the child lying safe on the serpent's hood, the people carry him out to the sound of drums, bow to the Lord and go home.",
+   "concepts": [
+    "makkal",
+    "iraivan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pirithivi_devi",
+     "form": "காரிகை",
+     "line": 1
+    },
+    {
+     "id": "arasan",
+     "form": "இறைவனை",
+     "line": 4
+    }
+   ],
+   "event": "The child is found on a serpent's hood and brought out with drums and worship.",
+   "claims": []
+  },
+  "53": {
+   "reading": "Thinking him held kindly on the serpent's head, the king names him Nagakumaran; the Naga-chested one joins him with Lakshmi and lives like Nagendra, and then comes the day of the next episode.",
+   "concepts": [
+    "makkal",
+    "arasu",
+    "selvam"
+   ],
+   "nuance": "Line 3 is obscure about who is joined with Nāmakal (நாமகள், the goddess of learning); the king's act of naming is plain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arasan",
+     "form": "நரபதி",
+     "line": 2
+    }
+   ],
+   "event": "The king renames the child Naga Kumaran because the serpent held him.",
+   "claims": []
+  },
+  "54": {
+   "reading": "The courtesan girls Kinnari and Manokari and their mother come to the king and she asks him to hear her daughters' music, which he agrees to hear.",
+   "concepts": [
+    "kalai",
+    "inbam"
+   ],
+   "nuance": "Whether கின்னரி and மனோகரி name two girls or a girl and her mother is not clear from the verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "ganikai_thaai",
+    "form": "என்றவள்",
+    "line": 4,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "ganikai_thaai",
+     "form": "அன்னவர் தாயும்",
+     "line": 2
+    },
+    {
+     "id": "kinnari_manokari",
+     "form": "கன்னி",
+     "line": 1
+    },
+    {
+     "id": "arasan",
+     "form": "யரசனைக்",
+     "line": 2
+    }
+   ],
+   "event": "The courtesans and their mother present their daughters' song before the king and the prince.",
+   "claims": []
+  },
+  "55": {
+   "reading": "The music-knowing prince finds the younger girl's song good, and the king, astonished, asks him which of the two is the elder, the answer given that Manokari looked at the elder without fault.",
+   "concepts": [
+    "kalai",
+    "kaamam"
+   ],
+   "nuance": "Lines 3-4 give the speakers' turns without marks; who says 'I saw Manokari look at the elder' is a guess.",
+   "uncertain": true,
+   "speaker": {
+    "who": "naga_kumaran",
+    "form": null,
+    "line": null,
+    "addressee": "arasan"
+   },
+   "agents": [
+    {
+     "id": "naga_kumaran",
+     "form": "குமரன்",
+     "line": 1
+    },
+    {
+     "id": "arasan",
+     "form": "மன்னன்",
+     "line": 2
+    }
+   ],
+   "event": "The prince praises the younger singer; the king asks him about the elder.",
+   "claims": []
+  },
+  "56": {
+   "reading": "The mother gives her daughters to the pure-gemmed prince, and he and the women together sink into a sea of pleasure that fills the senses.",
+   "concepts": [
+    "kaamam",
+    "inbam"
+   ],
+   "nuance": "பஞ்சநற் சுகந்தன் is taken as the mother's name or title; the verse does not gloss it.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ganikai_thaai",
+     "form": "பஞ்சநற் சுகந்த",
+     "line": 1
+    },
+    {
+     "id": "naga_kumaran",
+     "form": "குமரன்",
+     "line": 3
+    }
+   ],
+   "event": "The mother gives her daughters to Naga Kumaran, and they enjoy pleasure together.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 44,
+   "b": "naladiyar:51",
+   "type": "qualifies",
+   "note": "The sage says austerity will cut away the prince's heated deeds so that he reaches release; the quatrain says austerity drives sin out as a lamp drives darkness, and that evil settles in again when the good deeds that feed it run out.",
+   "teaches": "The sage's promise of a final release by tapas is answered by a warning that austerity burns sin only while its good is kept up, so the prophecy needs the prince's own lasting effort.",
+   "gains": {
+    "a": "a limit on the prophecy: release by tapas has to be kept up and is not given once",
+    "b": "a story in which a lamp-like tapas is foretold of one person, with the end of deeds as its goal"
+   }
+  },
+  {
+   "a": 44,
+   "b": "tirumanthiram:258",
+   "type": "tension",
+   "note": "The Jain sage says the son's own austerity will cut his deeds and end birth; Tirumular says austerity and virtue are a boat across the sea of deeds only because the Lord makes them fruitful.",
+   "teaches": "The same word, tapas, ends karma by the doer's effort in the sage's mouth and by the Lord's grace in Tirumular's, so the release the two promise rests on opposite sources.",
+   "gains": {
+    "a": "a rival account in which release is not won by the ascetic's effort alone but by the Lord's help",
+    "b": "a case of austerity credited with ending karma with no god at all in the account"
+   }
+  },
+  {
+   "a": 42,
+   "b": 44,
+   "type": "develops",
+   "note": "The queen's dream of a bull and a young sun is told as an omen with no meaning given; the sage's reading in 44 turns it into a son who is king, ascetic and freed.",
+   "teaches": "The dream is not left as an omen: the sage's reading supplies its meaning, and the prince's whole later life is fixed in it before his birth."
+  },
+  {
+   "a": 46,
+   "b": 51,
+   "type": "develops",
+   "note": "The sage names the temple doors opening at the son's foot and a pond among the signs; verse 51 shows the doors swing open at the child's foot-touch and the boy fall into the pond.",
+   "teaches": "The sign comes true as an ordinary accident of an outing, so the story shows the prophecy fulfilling itself without anyone seeking it."
+  },
+  {
+   "a": 53,
+   "b": 49,
+   "type": "qualifies",
+   "note": "The prince is named Pirathapan at birth; after he is found on the serpent's head the king gives him a second name, Naga Kumaran, which becomes the poem's title.",
+   "teaches": "The infant's first name is replaced by one taken from the miracle, so the name the book carries marks what the serpent did, not what the king first chose."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "49 line 2 was printed with a stray pulli (FLAG repaired); the repair reads correctly.",
+  "46 lines 3-4, 48 lines 3-4 and 53 line 3 are obscure or damaged; readings of them are marked uncertain.",
+  "55 lines 3-4 give the exchange between king and prince with no marks of speech."
+ ]
+}

@@ -1,0 +1,618 @@
+{
+ "chapter_no": 1,
+ "chapter_theme": "The poet invokes the tirthankaras and Vani, apologises for his flawed verse and says his tale comes from the Jain Anga texts; he then places the story in Magadha under King Shrenika, who goes with army and queen to the hill where the lord has come and ends with a hymn praising the lord for conquering karma.",
+ "cast": [
+  {
+   "id": "sirenikan",
+   "tamil": "சிரேணிகன்",
+   "role": "King of Magadha at Rajamagiri, who goes to worship the tirthankara and praises him"
+  },
+  {
+   "id": "vanapalan",
+   "tamil": "வனபாலன்",
+   "role": "the forest-keeper who reports the wonders of the hill to the king"
+  },
+  {
+   "id": "mahavirar",
+   "tamil": "வரவீர நாதர்",
+   "role": "the tirthankara who comes to the hill Vipula; praised as Sri Vardhamanan"
+  },
+  {
+   "id": "chalini",
+   "tamil": "சாலினி",
+   "role": "the king's chief queen"
+  },
+  {
+   "id": "nemisar",
+   "tamil": "நேமீசர்",
+   "role": "the lord Nemi, to whose feet the poet bows in the invocation"
+  }
+ ],
+ "verses": {
+  "0": {
+   "reading": "The poet opens by joining his hands over his head and worshipping the feet of Lord Nemi, seated under the flowering pindi tree beneath the three umbrellas, and the feet of Vani.",
+   "concepts": [
+    "iraivan",
+    "thiruvadi",
+    "vazhipaadu"
+   ],
+   "nuance": "The invocation is not part of the traditional count of 170 and is kept as verse 0. It names Nemi, while the hymn at verses 16-19 praises Sri Vardhamanan; the poem addresses two tirthankaras. Vani is the goddess of speech, named after the lord.",
+   "speaker": {
+    "who": "narrator",
+    "form": "தொழுது",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "narrator",
+     "form": "தொழுது",
+     "line": 4
+    }
+   ],
+   "event": "The poet raises his joined hands and worships the lord's feet.",
+   "claims": []
+  },
+  "1": {
+   "reading": "The poet says he will spread out the tale of the Naga prince, the king who wears blossoms, in the age of the tirtha-lord who sat under the pindi tree.",
+   "concepts": [
+    "iraivan",
+    "aagamam"
+   ],
+   "nuance": "The tale is dated by the presence of a tirthankara, which sets the whole story inside the Jain teaching age.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2": {
+   "reading": "The poet says his poem rose from the words of compassionate ascetics who keep twelve-month yoga and have clearly learned the Anga and Purva texts.",
+   "concepts": [
+    "aagamam",
+    "thavam",
+    "arivu"
+   ],
+   "nuance": "The poem takes its authority from named Jain scripture and from ascetics' speech, not from its own invention.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": "நூலு",
+    "line": 2,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "3": {
+   "reading": "The poet argues that people do not discard a bright lamp because of its smoke, so those who grasp the worth of a thing will keep his words in mind.",
+   "concepts": [
+    "kutram",
+    "sol",
+    "saandror"
+   ],
+   "nuance": "The lamp-and-soot image is the apology convention of the epics; here the flaw is conceded, not denied.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "4": {
+   "reading": "The poet says that deeds seized earlier can be shed in an instant, and that he tells this sweetly to those who discern it.",
+   "concepts": [
+    "vinai",
+    "oozh"
+   ],
+   "nuance": "This verse, unlike the Naladiyar's, says old deeds can be dropped rather than only borne; the first two lines are hard to parse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "deeds already gathered can fall away in a moment",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "5": {
+   "reading": "Bharata land, the Dharma-earth, is a ninetieth part of Jambudvipa, and in it lies the country of Magadha with cloud-wrapped groves.",
+   "concepts": [
+    "naadu",
+    "aram"
+   ],
+   "nuance": "Dharma-land (தரும பூமி) is the Jain geography: only here can karma be earned and ended.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "6": {
+   "reading": "In Magadha, where Lakshmi dwells in all directions, stands the city Rajamagiri, rivalling the heavens with its flower groves.",
+   "concepts": [
+    "naadu",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "7": {
+   "reading": "The city's towers, raised above its moat, crowned with moon and cloud, are full of singing and dancing women whose joy rivals that of the gods.",
+   "concepts": [
+    "naadu",
+    "azhagu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "8": {
+   "reading": "The ruler of this land is Shrenika, of the golden umbrella and the generous hand, guarding all who are his.",
+   "concepts": [
+    "vendhan",
+    "arasu",
+    "eegai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": "சிரேணிக ராசனாமே",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sirenikan",
+     "form": "சிரேணிக",
+     "line": 4
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "9": {
+   "reading": "Chalini, his chief queen, is described as a woman of steady chastity whose face is like the moon.",
+   "concepts": [
+    "karpu",
+    "azhagu"
+   ],
+   "nuance": "The virtue named is the ordinary wifely karpu, praised as rare (பெறற்கரும்).",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "chalini",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "10": {
+   "reading": "Besides the queen, eight thousand beloved wives share his pleasures, and he destroys his foes and rules by the straight sceptre.",
+   "concepts": [
+    "sengol",
+    "arasu",
+    "kaamam"
+   ],
+   "nuance": "Pleasure and just rule are given together as the king's glory, as the epic's first picture of a good king.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sirenikan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king enjoys his women and destroys his enemies while ruling.",
+   "claims": []
+  },
+  "11": {
+   "reading": "On the hill Vipula, west of the walled city, Lord Vira comes, and gods and heavenly women gather round the assembly hall of three walls and seven levels.",
+   "concepts": [
+    "iraivan",
+    "aram"
+   ],
+   "nuance": "The hall of three walls is the samavasarana, the Jain preaching-hall of a tirthankara.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "mahavirar",
+     "form": "வரவீர",
+     "line": 2
+    }
+   ],
+   "event": "The lord Vira arrives on Vipula hill and the gods assemble.",
+   "claims": []
+  },
+  "12": {
+   "reading": "The forest-keeper sees the wonders of the wood, brings flowers to the king, bows, and reports; the king rejoices and has the great drum beaten.",
+   "concepts": [
+    "arasu",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vanapalan",
+     "form": "வனபாலன்",
+     "line": 1
+    },
+    {
+     "id": "sirenikan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The forest-keeper reports the wonders to the king, who has the drum sounded.",
+   "claims": []
+  },
+  "13": {
+   "reading": "At the thunder of the drum the army of elephants, chariots, horses and swords gathers, and the king sets out with his queen to the golden walls.",
+   "concepts": [
+    "arasu",
+    "vazhipaadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sirenikan",
+     "form": "காவலன்",
+     "line": 3
+    }
+   ],
+   "event": "The king sets out with his army and queen to the golden walls.",
+   "claims": []
+  },
+  "14": {
+   "reading": "The king enters the golden wall, shows the queens the wonders there, circles the lord's hall and bows.",
+   "concepts": [
+    "vazhipaadu",
+    "iraivan"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sirenikan",
+     "form": "நரபதி",
+     "line": 2
+    }
+   ],
+   "event": "The king enters, shows the queens the wonders, circles the hall and worships the lord.",
+   "claims": []
+  },
+  "15": {
+   "reading": "The king falls to the earth, rises, and, welling up like the sea, begins many hymns, gazing on the lord's face with one mind.",
+   "concepts": [
+    "vazhipaadu",
+    "thiruvadi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sirenikan",
+     "form": "மார்பன்",
+     "line": 2
+    }
+   ],
+   "event": "The king bows, rises and begins to praise the lord.",
+   "claims": []
+  },
+  "16": {
+   "reading": "The king praises the lord as the one who conquered hard deeds with the senses, who sits under the pindi tree, who left Kama, and who now rules the city of release as Sri Vardhamanan.",
+   "concepts": [
+    "iraivan",
+    "vinai",
+    "veedu"
+   ],
+   "nuance": "The first of four hymn verses ending with the refrain on Sri Vardhamanan; the printed eight half-lines were joined into four.",
+   "speaker": {
+    "who": "sirenikan",
+    "form": null,
+    "line": null,
+    "addressee": "mahavirar"
+   },
+   "agents": [
+    {
+     "id": "sirenikan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king hymns the lord's victory over karma and his seat under the pindi tree.",
+   "claims": [
+    {
+     "claim": "the tirthankara won over the senses and hard karma",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "sirenikan"
+    },
+    {
+     "claim": "he ended the pull of desire in Kama and rules the city of release",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sirenikan"
+    }
+   ]
+  },
+  "17": {
+   "reading": "The king praises the lord for all-knowing in three times, for burning all old deeds, for teaching the five categories, and for placing the tongue under speech.",
+   "concepts": [
+    "iraivan",
+    "vinai",
+    "thuravu"
+   ],
+   "nuance": "Karma here is burned by the lord's own renunciation; in the Saiva books it is burned by grace.",
+   "uncertain": true,
+   "speaker": {
+    "who": "sirenikan",
+    "form": null,
+    "line": null,
+    "addressee": "mahavirar"
+   },
+   "agents": [
+    {
+     "id": "sirenikan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king continues the hymn.",
+   "claims": [
+    {
+     "claim": "the lord knows the three times and burned all old deeds",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sirenikan"
+    },
+    {
+     "claim": "he taught the five categories and said the supreme state is one",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "sirenikan"
+    }
+   ]
+  },
+  "18": {
+   "reading": "The king calls him righteous, spotless, ageless, endless, god of gods, the lord of eight qualities, worshipped by the three worlds.",
+   "concepts": [
+    "iraivan",
+    "aram",
+    "mukkunam"
+   ],
+   "nuance": "The eight qualities are named only as a number here; the verse does not list them.",
+   "speaker": {
+    "who": "sirenikan",
+    "form": null,
+    "line": null,
+    "addressee": "mahavirar"
+   },
+   "agents": [
+    {
+     "id": "sirenikan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king continues the hymn.",
+   "claims": [
+    {
+     "claim": "the liberated lord has eight qualities",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "sirenikan"
+    }
+   ]
+  },
+  "19": {
+   "reading": "The king ends the hymn praising the lord as free of anger and of birth, old age and death, who taught the six substances and sits under the three umbrellas.",
+   "concepts": [
+    "iraivan",
+    "piravi",
+    "veedu"
+   ],
+   "speaker": {
+    "who": "sirenikan",
+    "form": null,
+    "line": null,
+    "addressee": "mahavirar"
+   },
+   "agents": [
+    {
+     "id": "sirenikan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king ends his hymn to the lord.",
+   "claims": [
+    {
+     "claim": "the lord has ended birth, old age and death",
+     "school": "jain",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "sirenikan"
+    },
+    {
+     "claim": "he taught the six substances",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "sirenikan"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": "0",
+   "b": "civaka_cintamani:1",
+   "type": "same_image",
+   "note": "Both epics open by going for refuge to the feet of the tirthankara: the Cintamani's red feet, this poem's feet of Nemi under the pindi.",
+   "teaches": "Two Jain epics begin with the same act of going to the feet but name different lords, so the invocation is a convention and the chosen tirthankara tells which tradition the poem draws on."
+  },
+  {
+   "a": "3",
+   "b": "civaka_cintamani:4",
+   "type": "same_image",
+   "note": "Both poets defend flaws in speech by an image, the Cintamani's unwashed gem and this poem's lamp with smoke.",
+   "teaches": "The apology for a flawed poem is a set piece of the Jain epics, but this poem argues from the lamp's worth and the Cintamani from the washing that cures the flaw."
+  },
+  {
+   "a": "3",
+   "b": "neelakesi:6",
+   "type": "same_image",
+   "note": "The Neelakesi excuses its flaws with the moon's spot and this poem with the lamp's smoke, both asking the learned to keep the work.",
+   "teaches": "The lamp is smoky yet bright and the moon spotted yet loved: the two images make the same plea for a work of mixed quality, which shows it was a stock gesture of the Jain poets."
+  },
+  {
+   "a": "3",
+   "b": "naladiyar:151",
+   "type": "qualifies",
+   "note": "The Naladiyar says the noble cannot bear one stain as the moon bears its spot; the poet asks that one smoky flaw not make the lamp be thrown away.",
+   "teaches": "The ethics book sets the noble above forgiveness of their stain, while the poet, claiming no such standard, pleads that a stained thing still be kept.",
+   "gains": {
+    "a": "the poet's plea is seen to relax the Naladiyar's strict standard of stainlessness",
+    "b": "the quatrain's rule is shown to be a standard for character, which a poem may leave aside"
+   }
+  },
+  {
+   "a": "4",
+   "b": "naladiyar:101",
+   "type": "qualifies",
+   "note": "The Naladiyar says an old deed seeks out its doer like a calf its mother; this verse says deeds already gathered can be shed in a moment.",
+   "teaches": "The Tamil ethics book makes old deeds unavoidable, while the Jain epic's poet leaves a way to drop them at once, so karma is binding in one book and removable in the other.",
+   "gains": {
+    "a": "the Jain poem's claim is set against the stricter view that old deeds always find their doer",
+    "b": "the calf-and-mother image is shown to have an exit in the Jain account of karma"
+   }
+  },
+  {
+   "a": "16",
+   "b": "kural:5",
+   "type": "qualifies",
+   "note": "Both make the god the one to whom deeds do not cling; the king praises a lord who himself defeated hard deeds.",
+   "teaches": "The Kural says worshippers are freed from deeds by praise, while the Jain king hymns a lord who won against deeds by his own conquest, so the same praise stands on different grounds.",
+   "gains": {
+    "a": "the king's hymn is seen to give a conquering lord, not a pure being to be reached, as the one praised",
+    "b": "the couplet's lord is shown to be read in a Jain way as one who defeated karma"
+   }
+  },
+  {
+   "a": "17",
+   "b": "tirumanthiram:117",
+   "type": "tension",
+   "note": "This verse praises the lord who burned all old deeds by his own renunciation; Tirumular's sunstone burns the malas only when the Lord's sun appears.",
+   "teaches": "Jain deliverance burns karma by the liberated one's own effort without a god, while the Saiva text burns it by presence and grace, so the two disagree on whether anything outside the soul does the burning.",
+   "gains": {
+    "a": "the Jain hymn is shown to stand against the Saiva view that grace is needed to burn deeds",
+    "b": "the Saiva image of grace burning bond is shown to be one answer to a question the Jain poet answers by effort"
+   }
+  },
+  {
+   "a": "18",
+   "b": "kural:9",
+   "type": "same_image",
+   "note": "The Kural's எண்குணத்தான் (one of eight qualities) and the verse's இருநான்கு குணமுடைய இறைவன் (the lord with twice four qualities) are the same number.",
+   "teaches": "The Kural's unlisted eight is matched by a Jain count of eight qualities, so a Jain poet can read the couplet as meaning his own liberated lord.",
+   "gains": {
+    "a": "the Jain poem is shown to use the eight-quality formula the Kural already uses",
+    "b": "the couplet's unlisted eight is given a Jain reading by a poet who also leaves the eight unlisted"
+   }
+  },
+  {
+   "a": "19",
+   "b": "kural:10",
+   "type": "develops",
+   "note": "The Kural says those who reach the Lord's feet swim the great sea of births; the verse says the lord has ended birth, old age and death.",
+   "teaches": "The couplet makes ending birth the reward of reaching the feet, and this verse names the three things the lord himself has ended, so the poem tells what is meant by crossing the sea.",
+   "gains": {
+    "a": "the epic's hymn is shown to say what the crossing of the sea of births consists of",
+    "b": "the couplet's promise is shown to be read as freedom from birth, old age and death"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 0 is the invocation before verse 1 and is kept as number 0; the traditional count is 170.",
+  "Verse 9, line 3: 'சாலி னீதா' appears to carry the queen's name Chalini in broken word division.",
+  "Verses 16 to 19 print eight half-lines each; joined into four lines."
+ ]
+}

@@ -1,0 +1,860 @@
+{
+ "chapter_no": 112,
+ "chapter_theme": "The last ilampakam opens with a Jina temple and festival; Vijayai repays those who helped her in her wretchedness, receives the eight wives, and then retells the old king's fall through pleasure and warns her son, in a run of exhortations, that life is short and giving and penance must come first.",
+ "cast": [
+  {
+   "id": "vijayai",
+   "tamil": "விசயை",
+   "role": "Saccandan's queen and Civakan's mother"
+  },
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, now an old king"
+  },
+  {
+   "id": "sunandai",
+   "tamil": "சுநந்தை",
+   "role": "Kandukkatan's wife, Civakan's foster mother"
+  },
+  {
+   "id": "govindan",
+   "tamil": "மாமன்",
+   "role": "Civakan's maternal uncle, king of Videham"
+  },
+  {
+   "id": "civakan_manaiviyar",
+   "tamil": "மனைவியர்",
+   "role": "Civakan's eight wives, who renounce with him"
+  },
+  {
+   "id": "saccandan",
+   "tamil": "சச்சந்தன்",
+   "role": "Civakan's father, the old king who fell to the usurper"
+  },
+  {
+   "id": "saccandan_amaichar",
+   "tamil": "அமைச்சர்",
+   "role": "the old king's ministers who failed to rouse him"
+  },
+  {
+   "id": "kattiyangaran",
+   "tamil": "கட்டியங்காரன்",
+   "role": "the usurper who overthrew Saccandan"
+  },
+  {
+   "id": "nagar_makkal",
+   "tamil": "நெடுங்கண்ணார்",
+   "role": "the townspeople, women among them, who hold the festival"
+  }
+ ],
+ "verses": {
+  "2599": {
+   "reading": "The poet opens the last ilampakam: the king of the famed spear, with war-drums booming and gold ornaments scattered in gifts, goes about the earth, and what befell on one of those days is now to be told.",
+   "concepts": [
+    "vendhan",
+    "selvam"
+   ],
+   "nuance": "The verse names no one; that the spear-bearing king is Civakan is taken from the chapter's place at the end of the work.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The poet announces the closing episode of Civakan's reign.",
+   "claims": []
+  },
+  "2600": {
+   "reading": "A temple rises for the one who has gone beyond the eight qualities, set in a grove of asoka trees where striped bees and honey-bees sing, its towers touching the sky.",
+   "concepts": [
+    "iraivan",
+    "vazhipaadu"
+   ],
+   "nuance": "The asoka (பிண்டி) grove marks the Jina's temple, as elsewhere in the epic; the eight qualities are named only as 'eight' (எண்பால்).",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2601": {
+   "reading": "The townsfolk, after washing the feasting vessels, hold a festival in a town ringed by watered fields, with women's dance and song arranged.",
+   "concepts": [
+    "virundhu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagar_makkal",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The townspeople hold a festival with dance and song.",
+   "claims": []
+  },
+  "2602": {
+   "reading": "Vijayai, the archer-king's lady, gives every delight to those who relieved her woe with lily seeds, wild fruit and roots, saying that no return could ever repay them.",
+   "concepts": [
+    "nanri",
+    "eegai",
+    "arul"
+   ],
+   "nuance": "The helpers are not named; the foods (lily stamens, wild fruit, roots) are those of a woman living rough, so the verse looks back to her days in the burning ground and the forest.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": "விசயை",
+     "line": 4
+    }
+   ],
+   "event": "Vijayai rewards with every pleasure those who sustained her in her distress.",
+   "claims": [
+    {
+     "claim": "a kindness done in distress can never be fully repaid",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "vijayai"
+    }
+   ]
+  },
+  "2603": {
+   "reading": "Vijayai grants a lovely town to the sweet-voiced woman who sheltered her when she fell alone in the burning ground and gives her peacock-machine its due, and has the scene painted on her high mansion so she can always see it.",
+   "concepts": [
+    "nanri",
+    "arul",
+    "saakkaadu"
+   ],
+   "nuance": "The text does not name the 'fruit-voiced one'; the foster mother Sunandai is the likeliest, but the verse leaves it open. Reading of 'மயிற்கு' as the peacock machine is a guess.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Vijayai gives a town to her rescuer and has the story of her rescue painted on a mansion wall.",
+   "claims": []
+  },
+  "2604": {
+   "reading": "Vijayai recalls how the hero, once born, was reared: five hundred nurses gave him milk and Govindan had butter melted and poured out like a flood to feed him, and she, who had borne the garlanded king, lost her grief.",
+   "concepts": [
+    "anbu",
+    "eegai",
+    "makkal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "govindan",
+     "form": "கோவிந்தன்",
+     "line": 2
+    },
+    {
+     "id": "vijayai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Govindan has Civakan fed with melted butter in a flood while five hundred nurses suckle him.",
+   "claims": []
+  },
+  "2605": {
+   "reading": "Sunandai comes and worships; Vijayai embraces her, saying she has borne the great boy, and with many shaming words of praise makes the woman who lit the Kuru line shine in her turn.",
+   "concepts": [
+    "nanri",
+    "anbu"
+   ],
+   "nuance": "'Shame-making words' (நாண மொழிகள்) are words of praise too large for her to accept.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "sunandai",
+     "form": "சுநந்தை",
+     "line": 1
+    },
+    {
+     "id": "vijayai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sunandai worships Vijayai, who embraces and praises her.",
+   "claims": []
+  },
+  "2606": {
+   "reading": "The eight wives, eyes long and wide as an axe, fall at the lady's feet; she lifts and embraces them and tells them that, as mothers of the sons who will rule the world, they should trust the king.",
+   "concepts": [
+    "anbu",
+    "ilvaazhkkai",
+    "makkal"
+   ],
+   "nuance": "The speaker is Vijayai by the story, not by a word naming her in these lines.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_manaiviyar"
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vijayai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The eight queens bow to Vijayai, who embraces them and urges them to trust their lord.",
+   "claims": []
+  },
+  "2607": {
+   "reading": "Vijayai tells them they came into the night's dream as a crown of eight garlands on the king's jewelled crown and begs them never to part; then, eyes wide, she bids the king come.",
+   "concepts": [
+    "kanavu",
+    "anbu"
+   ],
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_manaiviyar"
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Vijayai tells the queens of her dream of the eight garlands and calls Civakan to come.",
+   "claims": []
+  },
+  "2608": {
+   "reading": "Civakan, walking like a lion, has flowers strewn and many bless him; he marks his lord-mother's feet on his head, asks what she commands without fear, and sits on the seat set for him, like a bull in battle.",
+   "concepts": [
+    "panivu",
+    "anbu",
+    "aanmai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan comes, worships his mother, and sits at her bidding.",
+   "claims": []
+  },
+  "2609": {
+   "reading": "Vijayai turns to her son and says that if he has learned his king's fault from others, she will tell it herself: it is the one who slew his foes with the five-pointed spear, Civaka Swami.",
+   "concepts": [
+    "arasu",
+    "pazhi",
+    "kootru"
+   ],
+   "nuance": "The pronouns are ambiguous: 'your king' (நுங்கோ) may be Saccandan, and the closing address to Civaka Swami may be the poet's or hers. The sense is taken as the opening of a retelling.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayai",
+    "form": "கொற்றவி",
+    "line": 1,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": "கொற்றவி",
+     "line": 1
+    }
+   ],
+   "event": "Vijayai begins to tell her son the story of his father's fall.",
+   "claims": []
+  },
+  "2610": {
+   "reading": "Swallowed by pleasure as the shining moon-god is swallowed by the serpent, the old king would not come out, was not ashamed of base talk, and, when his ministers pressed him with fine counsel, he rose up like an elephant that will not be mastered by its drivers.",
+   "concepts": [
+    "kaamam",
+    "pazhi",
+    "amaichu"
+   ],
+   "nuance": "Saccandan is not named here; the identification rests on the earlier telling of his fall in 261.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king, sunk in pleasure, brushes off his ministers' counsel.",
+   "claims": [
+    {
+     "claim": "a king sunk in pleasure ruins himself by ignoring wise counsel",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "vijayai"
+    }
+   ]
+  },
+  "2611": {
+   "reading": "Once caught in the net of slender-waisted women's eyes, a man is like one with a deadly snake; the wise count womanhood no womanhood, and the ministers gave up trying to rouse the lord.",
+   "concepts": [
+    "kaamam",
+    "amaichu",
+    "pirivu"
+   ],
+   "nuance": "Line 2 is closed with a full stop in the print; the sense carries to line 3, whose meaning ('the wise do not call womanhood womanhood') is hard.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "saccandan_amaichar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The ministers fail to rouse the king and leave him.",
+   "claims": [
+    {
+     "claim": "a man caught by a woman's eyes is in the grip of a deadly danger",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "vijayai"
+    }
+   ]
+  },
+  "2612": {
+   "reading": "As flood breaks the stone dam into the sea, the king breaks the dam of the learned men's words, cannot bear to leave the breasts of his queen, and, caught in the prison of her spear-bent brows, leaves land and city unguarded.",
+   "concepts": [
+    "kaamam",
+    "arasu",
+    "kalvi"
+   ],
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king abandons the guard of the land to stay with his queen.",
+   "claims": [
+    {
+     "claim": "a king's desire can break the restraint of learned counsel and lose the kingdom",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "vijayai"
+    }
+   ]
+  },
+  "2613": {
+   "reading": "The great lord of the roaring drum and army, seeking to save himself, crumbles like a quid spat by an elephant, and when all his kin have broken away he stands alone; sowing the seed late cannot bring a diamond.",
+   "concepts": [
+    "pagai",
+    "sutram",
+    "nilaiyaamai"
+   ],
+   "nuance": "'வெளிறு முன் வித்தி' in line 4 is obscure; the sense of a late remedy is a reading, not fixed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king is left alone when his kin and army break away.",
+   "claims": [
+    {
+     "claim": "remedy sought after ruin has begun is useless, as it is to plant seed after the crop is lost",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "vijayai"
+    }
+   ]
+  },
+  "2614": {
+   "reading": "The speaker, in the king's own words, says that the potter-like Kattiyangaran conquered the kings and, roaring like thunder, sent her away by the deed-peacock machine while he himself went up to the sky; the king fell swooning as he called 'I go, protect'.",
+   "concepts": [
+    "vinai",
+    "pirivu",
+    "idumbai"
+   ],
+   "nuance": "The calling of the usurper 'one who makes pots' and the order of speakers are uncertain; the line 3 phrase வினைமயில் (deed's peacock) may be an image for the machine as fate's instrument.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "saccandan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "kattiyangaran",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The king sends the queen away on the peacock machine and falls fainting as he takes leave.",
+   "claims": [
+    {
+     "claim": "fate, as a deed's working, carried the king away from her",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "vijayai"
+    }
+   ]
+  },
+  "2615": {
+   "reading": "Women sprinkle cold water and fan him with sandal; he rises like a growing lion, flowers and ornaments slipping, and asks what it was that had been said; she tells him all.",
+   "concepts": [
+    "anbu",
+    "idumbai",
+    "kaamam"
+   ],
+   "nuance": "The women who fan him are not named; the speaker of the last line is taken as Vijayai.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan, roused from a faint by his women, asks to be told and Vijayai tells him.",
+   "claims": []
+  },
+  "2616": {
+   "reading": "Vijayai says that we are born without even knowing how many days we have and sink in the longing to live; only when the cow is milked do we cover our eyes and weep, but who can bring back the days that are gone?",
+   "concepts": [
+    "nilaiyaamai",
+    "avaa",
+    "kootru"
+   ],
+   "nuance": "Her speech is a mother's urging to renounce; the milked cow stands for life being drawn off while one weeps only at the end.",
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the span of life is unknown and passes unrecoverably; hope to live on blinds one to this",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "vijayai"
+    }
+   ]
+  },
+  "2617": {
+   "reading": "The days fixed for us are a serpent swallowing us like sweet curd-sprinkled rice; we die with no wink of the eye, but we are glad of an itch scratched when we blink, as if we had gained a great gift.",
+   "concepts": [
+    "nilaiyaamai",
+    "kootru",
+    "inbam"
+   ],
+   "nuance": "Line 1 first half and line 4 (the itch and the blink) are hard; the translation of the closing image is tentative.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "days measured out to the living are devouring them, and small pleasures hide this",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "vijayai"
+    }
+   ]
+  },
+  "2618": {
+   "reading": "As clouds struck by a hard wind are scattered in all directions, so we, struck by the force of deeds, are parted, and have no lasting companionship; she says to give up love for the 'aththai', since love has a flaw.",
+   "concepts": [
+    "vinai",
+    "pirivu",
+    "piravi",
+    "sutram"
+   ],
+   "nuance": "The word 'அத்தை' in line 3 may be a form of address ('father'/'dear') or the sense of 'those who are with us'; it is not fixed. The school tag 'jain' is given because the claim states the deed's force parting people, in the work's own frame, not because the verse names a school.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayai",
+    "form": "மாபெருந்தேவி",
+    "line": 4,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "vijayai",
+     "form": "மாபெருந்தேவி",
+     "line": 4
+    }
+   ],
+   "event": "The great queen tells her son that kin are scattered by the force of deeds and bids him give up attachment.",
+   "claims": [
+    {
+     "claim": "kin are parted by the working of deeds and no companionship is lasting",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "vijayai"
+    },
+    {
+     "claim": "attachment to kin brings pain, so it should be given up",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "vijayai"
+    }
+   ]
+  },
+  "2619": {
+   "reading": "Before bright-toothed youth in the women's street drinks the toddy of youth without seeing its lapse, before black heads turn white, she says, do hard penance and give.",
+   "concepts": [
+    "ilamai",
+    "thavam",
+    "eegai"
+   ],
+   "nuance": "From here the addressees broaden from her son to all who listen, and it is unclear whether the speaker is still Vijayai.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "one must do penance and give before youth passes into age",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "vijayai"
+    }
+   ]
+  },
+  "2620": {
+   "reading": "The fire of disease burns the body, with life poured in as ghee and awareness as oil; before Death, who drinks us up, leaves the house, she says to give, eat and do good.",
+   "concepts": [
+    "yaakkai",
+    "kootru",
+    "eegai"
+   ],
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the body is consumed by disease and Death, so one must give and do good while it lasts",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "vijayai"
+    }
+   ]
+  },
+  "2621": {
+   "reading": "Many who could not teach themselves to drive the cart of the word of the Buddha-wise were lost; before that cart's axle breaks and it sinks in the river of sorrow, drivers, take good conduct as fare and drive it.",
+   "concepts": [
+    "ozhukkam",
+    "idumbai",
+    "aram"
+   ],
+   "nuance": "'புத்தச் சொன்று' in line 1 is obscure and may not name the Buddha at all; no school is given from it.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "good conduct (சீலம்) is the fare that carries one across the river of sorrow",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "vijayai"
+    }
+   ]
+  },
+  "2622": {
+   "reading": "All who are born are greedy and great; they give up and never seek fame, and they never give a handful to the poor; she says that if people know nothing about virtue being hard and far, then let go of the empty wealth.",
+   "concepts": [
+    "aram",
+    "thuravu",
+    "selvam",
+    "eegai"
+   ],
+   "nuance": "Lines 2-3 are tangled; 'துற்ற விழு மீயார்' is taken as 'those who do not give a handful'.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "those who give nothing and lack virtue should let go of their empty wealth",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "vijayai"
+    }
+   ]
+  },
+  "2623": {
+   "reading": "Seeing those who eat sweet milk-rice, served by women in gold bowls, she says do not pity those who starve and do not think we are rich: think of austerity, which alone is what we have done.",
+   "concepts": [
+    "thavam",
+    "eegai",
+    "selvam",
+    "nilaiyaamai"
+   ],
+   "nuance": "Line 3 'அடகிடுமின்' and 'ஓட்டகத்து' are hard; the meaning of feeding the poor rather than rich diners is a reading.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayai",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "one should think of austerity and not rely on riches",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "vijayai"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": 2602,
+   "b": "kural:101",
+   "type": "develops",
+   "note": "Vijayai says that no return can match those who ended her distress and gives them every delight; the Kural says that help given when none was given before cannot be paid back even by earth and sky.",
+   "teaches": "The Kural states that such help is beyond repayment, and the epic shows what a queen does about it: she gives all she has and still says the debt remains.",
+   "gains": {
+    "a": "the verse's claim that there is no requital is shown as an ideal measure, with the Kural giving the rule that explains why gratitude must outrun the gift",
+    "b": "the Kural's rule for gifts in need is tested against a person with a whole kingdom's power to repay, who still declares it not enough"
+   }
+  },
+  {
+   "a": 2603,
+   "b": 302,
+   "type": "develops",
+   "note": "In 302 Vijayai grieves alone in the burning ground and has no fear; in 2603 she turns the place of her fall and rescue into a painted memorial on her mansion, with a town granted to her rescuer.",
+   "teaches": "The burning ground that was her lowest place is made at the end into a thing gratefully remembered, so the reader sees grief turned into a debt honoured."
+  },
+  {
+   "a": 2607,
+   "b": 223,
+   "type": "develops",
+   "note": "In 223 Vijayai dreamed of a tree falling and a shoot growing with a crown for eight pearl garlands; in 2607 she tells the eight queens they came as that eight-garland crown in her dream and begs them never to part.",
+   "teaches": "The dream of the shoot and the crown is shown fulfilled in the eight wives, and the reader sees that the dream's fruit is the Cintamani's marriage-chain, now held together by the mother who dreamed it."
+  },
+  {
+   "a": 2610,
+   "b": 261,
+   "type": "develops",
+   "note": "In 261 the usurper planned to kill the king who was sunk in pleasure with his queen; in 2610 Vijayai tells her son that the king was swallowed by pleasure as the moon by the serpent and would not take counsel.",
+   "teaches": "The ruin that the poet told as a plot is retold by the survivor as the king's own failing, so the reader sees that the epic gives both the plotter's cunning and the king's desire as the cause."
+  },
+  {
+   "a": 2614,
+   "b": 299,
+   "type": "same_image",
+   "note": "In 299 the queen, riding the peacock machine, faints like a struck doe as the usurper's drum sounds; in 2614 the same machine is called the deed's peacock (வினைமயில்) that sent her away while he went to the sky.",
+   "teaches": "The carpenter's flying peacock of 235-239 is named here as fate's instrument, so what was a clever device comes to be read as the working of deeds."
+  },
+  {
+   "a": 2616,
+   "b": "kural:335",
+   "type": "qualifies",
+   "note": "Vijayai says no one knows how many days are given and that the dead cannot be recalled; the Kural says good must be done before the hiccup rises and stops the tongue.",
+   "teaches": "The Kural's urgency is made a mother's plea to a king at the height of pleasure, showing the rule's cost: it must be heard just when it is least welcome.",
+   "gains": {
+    "a": "the verse's general lament about the span of life gets a concrete deadline of the final hiccup",
+    "b": "the Kural's call to hurry is placed in a scene where the one urged is a king surrounded by wives and enjoyment"
+   }
+  },
+  {
+   "a": 2618,
+   "b": "naladiyar:30",
+   "type": "qualifies",
+   "note": "Vijayai says deed's force scatters us like clouds and there is no lasting fellowship; the Naladiyar says kin arrive unasked and leave wordless, leaving the body as a bird leaves its nest.",
+   "teaches": "The Naladiyar says parting happens at death; Vijayai says it is the working of deeds even in life, which is why she can ask her son to loosen his own attachments now.",
+   "gains": {
+    "a": "the verse's cloud image of scattering gets the further picture of the bird leaving the body",
+    "b": "the Naladiyar's kin-leaving is given a cause in deeds, which it itself leaves unstated"
+   }
+  },
+  {
+   "a": 2619,
+   "b": "naladiyar:11",
+   "type": "agrees",
+   "note": "Vijayai urges penance and giving before black hair turns white; the Naladiyar says the wise renounced in childhood, knowing grey hair would come, and the youth-lovers later lean on a staff.",
+   "teaches": "The pairing shows that the call to act before age is made both to a king in his prime by his mother and as a general rule, so the epic's mother is speaking the Naladiyar's counsel in her own household.",
+   "gains": {
+    "a": "the verse's address to the young gets the image of the staff in old age that makes the urgency felt",
+    "b": "the Naladiyar's general advice is given a speaker who has lost a husband and knows how fast it comes"
+   }
+  },
+  {
+   "a": 2620,
+   "b": "tirumanthiram:193",
+   "type": "develops",
+   "note": "Vijayai says the body is a fire of disease with life as ghee, and urges giving and good before Death leaves; Tirumular says give out the rice before the pot burns near, since the days slip away.",
+   "teaches": "Both turn the household fire and the measure of rice into a warning that gifts must go out now; the epic frames it as the end of a king's pleasure, the Saiva verse as ordinary housekeeping.",
+   "gains": {
+    "a": "the verse's body-as-fire gets a plain rice-pot image for what is given up first",
+    "b": "the Tirumanthiram's counsel to give is placed under a Death who drinks the household, with the Jain epic's warning of disease and awareness as fuel"
+   }
+  },
+  {
+   "a": 2623,
+   "b": "naladiyar:273",
+   "type": "qualifies",
+   "note": "Vijayai tells diners to think of austerity, not riches, as they eat milk-rice from gold bowls; the Naladiyar says the fool who hoards his wealth and dies is laughed at by the wealth itself.",
+   "teaches": "The epic says wealth is not a thing to rely on at the table; the Naladiyar says what wealth does to the hoarder, and together they show that gifts and penance are what the dying keep.",
+   "gains": {
+    "a": "the verse's call to austerity gets a figure of wealth laughing at its owner",
+    "b": "the Naladiyar's hoarder is set at a banquet table in a king's palace, where the temptation is not stinginess but ease"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 2602, 2604-2607, 2609-2618 and 2623 were printed in eight half-lines and joined into four (FLAG repaired); the joins read correctly.",
+  "2611 line 2 ends with a full stop in the print, though its sentence runs on into line 3.",
+  "2603, 2609, 2613, 2614, 2617, 2618 and 2621-2623 are hard to construe in places (see their nuance); the speaker of 2609-2614 is taken as Vijayai without any word naming her after 2609 line 1.",
+  "Verses 2621 line 1 புத்தச்சொன்று and 2618 line 3 அத்தை are uncertain readings."
+ ]
+}

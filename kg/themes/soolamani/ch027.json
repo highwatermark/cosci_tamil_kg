@@ -1,0 +1,726 @@
+{
+ "chapter_no": 27,
+ "chapter_theme": "Marusi returns to the Vidyadhara king, who reads the success of the embassy in his face, and reports in order what he saw in Prajapati's grove, palace and court, how the match was settled and what manner of king the host is.",
+ "cast": [
+  {
+   "id": "maruci",
+   "tamil": "மருசி",
+   "role": "the learned envoy returned from Tivittan's father"
+  },
+  {
+   "id": "vinjaiyar_vendhan",
+   "tamil": "விஞ்சையர் வேந்தன்",
+   "role": "king of the Vidyadharas of the southern ridge, who sent the envoy"
+  },
+  {
+   "id": "pirasapathi",
+   "tamil": "பிரசாபதி",
+   "role": "the king of the city of Podanam, father of the two princes and host of the embassy"
+  },
+  {
+   "id": "vijayan",
+   "tamil": "விசயன்",
+   "role": "the elder prince, the moon-hued one"
+  },
+  {
+   "id": "tivittan",
+   "tamil": "செங்கண் ணெடியான்",
+   "role": "the younger prince, the sea-hued one, who is to wed the Vidyadhara girl"
+  },
+  {
+   "id": "turumakanthan",
+   "tamil": "துரும காந்தன்",
+   "role": "the guard posted in the garden, the likely man who met the envoy"
+  },
+  {
+   "id": "host_women",
+   "tamil": "கொம்பனார்",
+   "role": "the women the host king sends to serve the envoy a meal"
+  }
+ ],
+ "verses": {
+  "573": {
+   "reading": "After Marusi has entered the great city he passes the three outer gates of the spear-bearing king's palace and comes close to the king, worshipping at his anklets.",
+   "concepts": [
+    "thoothu",
+    "arasu"
+   ],
+   "nuance": "The word before the last in line 4 reads as எழுது in the text; தொழுது (worshipping) is the likely sense, and the palace is the Vidyadhara king's because verse 577 has Marusi report his errand done.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": "மருசி",
+     "line": 1
+    }
+   ],
+   "event": "Marusi returns to the Vidyadhara palace and approaches the king.",
+   "claims": []
+  },
+  "574": {
+   "reading": "The king, with swaying earrings, gem-set bracelets and a garlanded spear, directs with his hand that Marusi sit on the broad floor.",
+   "concepts": [
+    "arasu",
+    "thoothu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar_vendhan",
+     "form": "வேலினா",
+     "line": 3
+    }
+   ],
+   "event": "The Vidyadhara king bids the returned envoy sit.",
+   "claims": []
+  },
+  "575": {
+   "reading": "Marusi sits composed on the gem floor the king has laid out, and the king reads from his face how the errand ended.",
+   "concepts": [
+    "kurippu",
+    "thoothu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": "தூதன்",
+     "line": 1
+    },
+    {
+     "id": "vinjaiyar_vendhan",
+     "form": "மன்னவன்",
+     "line": 1
+    }
+   ],
+   "event": "The king reads the outcome of the embassy from the envoy's face before he speaks.",
+   "claims": []
+  },
+  "576": {
+   "reading": "From the brightness of the envoy's face the king grasps, like a sage, that the task is done, and the faultlessly learned Marusi bows and speaks.",
+   "concepts": [
+    "kurippu",
+    "kelvi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar_vendhan",
+     "form": "வேலினான்",
+     "line": 2
+    },
+    {
+     "id": "maruci",
+     "form": "கேள்வியான்",
+     "line": 4
+    }
+   ],
+   "event": "Seeing success in Marusi's face, the king waits as Marusi bows and begins his report.",
+   "claims": []
+  },
+  "577": {
+   "reading": "Marusi greets the king, wishing his victorious anklets to live, evil to leave and his fame to grow, and says he has finished the king's errand and returned.",
+   "concepts": [
+    "thoothu",
+    "pugazh"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi announces that the errand is done.",
+   "claims": []
+  },
+  "578": {
+   "reading": "Marusi promises to tell the circumstances of his descent from here, how he came before the king there, and the words the army-bearing king spoke.",
+   "concepts": [
+    "thoothu",
+    "sol"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi undertakes a full report of the embassy.",
+   "claims": []
+  },
+  "579": {
+   "reading": "Marusi tells how he entered the grove of jackfruit whose ripe, thorny fruit split and let their juice and honey run.",
+   "concepts": [
+    "azhagu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi enters the grove outside the city.",
+   "claims": []
+  },
+  "580": {
+   "reading": "Marusi tells how he came to a pool where bees swarm the lotuses and flocks of birds hunt the water.",
+   "concepts": [
+    "azhagu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi reaches the pool in the grove.",
+   "claims": []
+  },
+  "581": {
+   "reading": "Marusi tells how he saw an asoka tree set about with jewelled and silver-patterned platforms, looking like the love-god's own weapon.",
+   "concepts": [
+    "azhagu",
+    "kaamam"
+   ],
+   "nuance": "The asoka's flower is one of the love-god's arrows, which is why the tree is called his weapon.",
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi sees the asoka tree.",
+   "claims": []
+  },
+  "582": {
+   "reading": "Marusi tells of a white stone slab ringed by gold that shines of itself, and of the sight it made to the eye.",
+   "concepts": [
+    "azhagu",
+    "selvam"
+   ],
+   "nuance": "The word division of lines 1 to 3 is run together and the construction is hard, so the sense of the slab's light is only the likely one.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi sees the stone slab in the grove.",
+   "claims": []
+  },
+  "583": {
+   "reading": "Marusi tells how a man with curled forelock, shining body, blazing ornaments and a tight girdle came while the bees scattered, and bade him climb up.",
+   "concepts": [
+    "thoothu",
+    "kurippu"
+   ],
+   "nuance": "The man is not named. Verse 116 posted Turumakanthan as guard in this garden for the day the astrologer named, and he is the likely figure.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "turumakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A man of the garden comes to Marusi and bids him come up.",
+   "claims": []
+  },
+  "584": {
+   "reading": "Marusi tells what was said to him there, and how at the king's sending some women with auspicious vessels finished serving him a meal.",
+   "concepts": [
+    "virundhu",
+    "thoothu"
+   ],
+   "nuance": "The king named is the host, Tivittan's father, taken from the sending of the envoy in verses 426-428.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "pirasapathi",
+     "form": "கொற்ற",
+     "line": 2
+    },
+    {
+     "id": "host_women",
+     "form": "கொம்ப னார்",
+     "line": 2
+    }
+   ],
+   "event": "The host king sends women who serve the envoy a meal.",
+   "claims": []
+  },
+  "585": {
+   "reading": "Marusi tells how the moon-hued prince with red lotus eyes and the sea-hued prince in long golden earrings came there, and what they said.",
+   "concepts": [
+    "thoothu",
+    "sol"
+   ],
+   "nuance": "The princes are named by colour only; moon-hued is taken as Vijayan and sea-hued as Tivittan, the two sons of Pirasapathi.",
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "vijayan",
+     "form": "திங்கள் வண்ணனுஞ்",
+     "line": 2
+    },
+    {
+     "id": "tivittan",
+     "form": "புணரி வண்ணனும்",
+     "line": 3
+    }
+   ],
+   "event": "The two princes come to the envoy and speak with him.",
+   "claims": []
+  },
+  "586": {
+   "reading": "Marusi tells of the host king's court, with the great elephants and the roaring army drawn up outside, and how the others came to the assembly.",
+   "concepts": [
+    "arasu",
+    "padai"
+   ],
+   "nuance": "Line 1 and 2 are compressed and the number in the first line is hard to place, so only the general picture of the court is safe.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "pirasapathi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi enters the host king's crowded assembly.",
+   "claims": []
+  },
+  "587": {
+   "reading": "Marusi tells how he bowed at the king's anklets, received a seat through the younger prince, and how the horoscope with its golden marks was praised and the letter taken with reverence.",
+   "concepts": [
+    "thoothu",
+    "kurippu"
+   ],
+   "nuance": "Whose hand takes the letter is not stated; the king is the likely receiver.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "pirasapathi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Marusi bows to the host king, is seated at the younger prince's word, and the horoscope and letter are received.",
+   "claims": []
+  },
+  "588": {
+   "reading": "Marusi tells how the king, hearing the letter of the lord of the army, was struck with wonder and sat silent, giving no other word.",
+   "concepts": [
+    "arasu",
+    "manam"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "pirasapathi",
+     "form": "மன்னவன்",
+     "line": 2
+    }
+   ],
+   "event": "The host king hears the letter and falls silent without replying.",
+   "claims": []
+  },
+  "589": {
+   "reading": "Marusi tells of words raised against the seated king, of how someone grieved and refused, of what the old clan said, and of the rare kinship that was finally joined.",
+   "concepts": [
+    "kudi",
+    "sutram"
+   ],
+   "nuance": "The speakers of the objection and the refusal are not named and the grammar of all four lines is compressed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "pirasapathi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "An objection to the match is raised and answered and the kinship is settled.",
+   "claims": []
+  },
+  "590": {
+   "reading": "Marusi tells how the king then spoke kind words, became kin, and bestowed gifts and honours as the gold-adorned clans looked on.",
+   "concepts": [
+    "sutram",
+    "eegai"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "pirasapathi",
+     "form": "மன்னவன்",
+     "line": 1
+    }
+   ],
+   "event": "The host king accepts the match and gives gifts.",
+   "claims": []
+  },
+  "591": {
+   "reading": "Marusi tells what the king's queens and great kin saw as they came forward and what the others said, and then, bowing, goes on to speak further.",
+   "concepts": [
+    "sutram",
+    "sol"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "maruci",
+     "form": "கேள்வியான்",
+     "line": 4
+    }
+   ],
+   "event": "Marusi finishes his account of the court and bows to add a further word.",
+   "claims": []
+  },
+  "592": {
+   "reading": "Marusi says that beyond all that has been told there is one more thing: he has gladly seen many kings and none is of such a nature.",
+   "concepts": [
+    "arasu",
+    "pugazh"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "593": {
+   "reading": "Marusi says that all the books the king has learned stand against those learned by others and are complete beyond them, so that the books he has gained are the measure of his character.",
+   "concepts": [
+    "kalvi",
+    "arasu"
+   ],
+   "nuance": "The clauses of lines 1 and 2 are hard to divide and the comparison is read as the king's learning outstripping all others.",
+   "uncertain": true,
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a king's worth shows in a learning that takes in and surpasses the learning of others",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "594": {
+   "reading": "Marusi describes the king as fiery in command and cool in giving, great by nature yet modest in friendship, hard for kings to reach, easy for those who serve him.",
+   "concepts": [
+    "arasu",
+    "eegai",
+    "panpu"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a ruler should be fierce in command yet cool in giving, great in nature yet modest with friends",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "595": {
+   "reading": "Marusi says that if the king's gentle grace were absent the world itself would be absent, so good is he.",
+   "concepts": [
+    "arul",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the world stands only because of a king's gentle grace",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  },
+  "596": {
+   "reading": "Marusi says that those who live in the shade of the king's umbrella are men of learning joined by love who give their lives when the time comes.",
+   "concepts": [
+    "kalvi",
+    "natpu"
+   ],
+   "speaker": {
+    "who": "maruci",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a king's learned retainers, bound to him by love, give their lives when need comes",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "maruci"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": 578,
+   "b": 427,
+   "type": "develops",
+   "note": "Verse 427 chooses Marusi because he can put the kin and the matter in words; here he opens his report by promising the descent, the entry and the host's words, in that order.",
+   "teaches": "The ministers' reason for choosing him is tested by his first act on return, which is to set out his account in the order it happened."
+  },
+  {
+   "a": 583,
+   "b": 116,
+   "type": "develops",
+   "note": "Verse 116 has the ministers post Turumakanthan as guard in the garden for the day the astrologer named; Marusi recalls a bright man with a tight girdle who met him there and bade him come up.",
+   "teaches": "The ministers' preparation is confirmed from the envoy's own side, which shows the plan worked."
+  },
+  {
+   "a": 590,
+   "b": 426,
+   "type": "develops",
+   "note": "Verse 426 resolves to send a messenger to Tivittan's father to settle the match; verse 590 recalls that father speaking kindly, becoming kin and giving gifts.",
+   "teaches": "The embassy's aim is reached only after a silence and an objection in 588 and 589, so the match is won and not simply given."
+  },
+  {
+   "a": 575,
+   "b": "kural:706",
+   "type": "develops",
+   "note": "The king reads the outcome of the errand from the envoy's face before he speaks, as Kural 706 says the face shows what the heart holds strongest.",
+   "teaches": "The epic extends the couplet from a feeling to a piece of news, so a returning envoy's face can carry the result of a mission before his words do.",
+   "gains": {
+    "a": "The verse lacks the reason a king can read success unspoken, which the couplet gives: the face shows what is strongest in the heart.",
+    "b": "The couplet lacks a case where what the face shows is the end of a mission, not a mood, and this verse supplies it."
+   }
+  },
+  {
+   "a": 592,
+   "b": "kural:688",
+   "type": "qualifies",
+   "note": "Marusi adds, beyond his message, his own eye-witness judgement that no other king he has seen equals the host; Kural 688 asks of an envoy purity, support, resolve and truthfulness in delivering the message.",
+   "teaches": "The envoy's truthfulness here covers a judgement of the other king that the message does not carry, which is more than the couplet's duty of faithful relay.",
+   "gains": {
+    "a": "The verse lacks a standard to test the praise against: the couplet's truthfulness makes the eulogy a testimony that can be trusted or doubted.",
+    "b": "The couplet lacks the case of an envoy who adds his own appraisal of the other king, which stretches truthfulness from relaying words to judging men."
+   }
+  },
+  {
+   "a": 594,
+   "b": "kural:390",
+   "type": "develops",
+   "note": "Marusi's pairs, fire in command and cool in giving, name two of the four things Kural 390 calls the light of kings: giving and a straight sceptre.",
+   "teaches": "The envoy's pairs put two marks of the Kural's ideal king into the temperature of one man, so command and giving are shown as tempers, not as separate duties.",
+   "gains": {
+    "a": "The verse lacks the standard that makes its pairs more than ornament: the four marks the couplet calls the light of kings.",
+    "b": "The couplet lacks a picture of how command and giving sit together in one king, which the fire and cool pairs give."
+   }
+  },
+  {
+   "a": 594,
+   "b": "kural:386",
+   "type": "qualifies",
+   "note": "Marusi calls the king hard for kings to reach yet easy for his own servants; Kural 386 praises a king who is easy to see.",
+   "teaches": "The epic limits the couplet's easy access: it is a favour kept for a king's own men and withheld from rival kings.",
+   "gains": {
+    "a": "The verse lacks the named virtue behind its claim, easy access, which the couplet makes a ground of a land's praise.",
+    "b": "The couplet lacks the limit that a king may be easy to some and closed to others, which the verse shows."
+   }
+  },
+  {
+   "a": 595,
+   "b": "kural:544",
+   "type": "develops",
+   "note": "Marusi says the world would not be without the king's gentle grace; Kural 544 says the world clings to the feet of the king who embraces his people with the sceptre.",
+   "teaches": "The envoy states the Kural's idea of the world's dependence on the king's grace as a bare condition for existence, and in the mouth of a rival's envoy.",
+   "gains": {
+    "a": "The verse lacks a mark of how the grace works, which the couplet gives as the king first embracing his people.",
+    "b": "The couplet lacks the strong form of the dependence, that without the king's grace there is no world, which the verse speaks."
+   }
+  },
+  {
+   "a": 596,
+   "b": "kural:389",
+   "type": "qualifies",
+   "note": "Marusi describes those under the king's umbrella as learned men bound by love who give their lives; Kural 389 says the world dwells under the umbrella of the king who bears bitter words.",
+   "teaches": "The umbrella's shelter is filled by learned retainers who die for the king, and the couplet shows what keeps them there: a king who can bear their bitter words.",
+   "gains": {
+    "a": "The verse lacks the quality that holds the retainers, which the couplet supplies as a king's patience with bitter words.",
+    "b": "The couplet lacks a picture of who stands under the umbrella and what they give back, which the verse supplies."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verses 573, 582, 583, 584, 586, 587, 589, 593: the word division and compressed grammar make some lines hard to construe, and 573 reads எழுது where தொழுது is likely; flagged uncertain.",
+  "Verses 578 to 591: the speaker is Marusi, taken from 577 (he says he has returned) and from 591 line 4; the verses between do not name him."
+ ]
+}

@@ -1,0 +1,806 @@
+{
+ "chapter_no": 17,
+ "chapter_theme": "The Thuravu Kandam opens: Udayanan, after a life of friendship, love and conquest recalled in verse, turns to a vow and is tempted by women; the passage then breaks into an elephant's rampage in the city and the arrival of wandering Charana ascetics who preach that life is a fearful bondage.",
+ "cast": [
+  {
+   "id": "udayanan",
+   "tamil": "உதயணன்",
+   "role": "the king of Vatsa who turns to a vow"
+  },
+  {
+   "id": "vatsa_wives",
+   "tamil": "கற்பினார்",
+   "role": "the king's chaste wives"
+  },
+  {
+   "id": "naravahanan",
+   "tamil": "நரவாகன்",
+   "role": "Udayanan's son"
+  },
+  {
+   "id": "kanti_vamanan",
+   "tamil": "காந்தி வாமன்",
+   "role": "the teacher the king goes to worship; identity not given beyond the name"
+  },
+  {
+   "id": "kamam_women",
+   "tamil": "மாதர்கள்",
+   "role": "the women who show the king forms of desire"
+  },
+  {
+   "id": "elephant",
+   "tamil": "வேழம்",
+   "role": "the elephant in rut that rampages through the city"
+  },
+  {
+   "id": "elephant_keepers",
+   "tamil": "பாகர்",
+   "role": "the mahouts"
+  },
+  {
+   "id": "soldiers",
+   "tamil": "ஆயுதர்",
+   "role": "the armed men who go out"
+  },
+  {
+   "id": "townspeople",
+   "tamil": "நகர மாந்தர்",
+   "role": "the people of the city"
+  },
+  {
+   "id": "king_city",
+   "tamil": "அரசன்",
+   "role": "the king of the city, probably Udayanan"
+  },
+  {
+   "id": "munivar",
+   "tamil": "மாதவர்",
+   "role": "the great ascetics who arrive at the grove"
+  },
+  {
+   "id": "charanar",
+   "tamil": "சாரணர்",
+   "role": "the Charana ascetics with the power of going through the air"
+  },
+  {
+   "id": "muni",
+   "tamil": "மாமுனி",
+   "role": "the sage on a fortnightly fast"
+  },
+  {
+   "id": "dharma_leader",
+   "tamil": "தருமவீரர் தலைவன்",
+   "role": "the leader of the Dharma-heroes who preaches"
+  },
+  {
+   "id": "audience",
+   "tamil": "யாவரும்",
+   "role": "those who came to hear him"
+  },
+  {
+   "id": "birds",
+   "tamil": "புள்ளுகள்",
+   "role": "the birds that feed on the slain"
+  }
+ ],
+ "verses": {
+  "303": {
+   "reading": "The verse speaks of the Vatsa king's lasting love for his wives, who are chaste in mind, swan-like, parrot-voiced and sweet of speech, but the closing words are obscure.",
+   "concepts": [
+    "karpu",
+    "kaamam",
+    "azhagu"
+   ],
+   "nuance": "The last line (திருமின் போர்மின்) cannot be parsed with any confidence; the verse is read only as a portrait of the wives that opens the kandam.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vatsa_wives",
+     "form": "கற்பி",
+     "line": 2
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "304": {
+   "reading": "Having lived with his queen, the king, because merit done in earlier days now lends its help and all he planned has gone well, turns his mind to taking up a vow of merit.",
+   "concepts": [
+    "vinai",
+    "thavam",
+    "oozh",
+    "thuravu"
+   ],
+   "nuance": "The renunciation is framed as the fruit of earlier merit, so the turn from the world is itself given a cause in karma; the verse does not name any birth.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "மன்னன்",
+     "line": 1
+    }
+   ],
+   "event": "Udayanan, his affairs prospering, resolves to take up a vow of merit.",
+   "claims": [
+    {
+     "claim": "merit done in earlier days helps in the present and brings plans to success",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "305": {
+   "reading": "A speaking 'I' lists what his friend Yugi, his wife Vasavadatta and the child she bore had done for him.",
+   "concepts": [
+    "natpu",
+    "vaazhkkaithunai",
+    "makkal"
+   ],
+   "nuance": "The first person (என்றனக்கு, 'to me') shows the voice is the king's own recollection; the unit does not say it is a speech to anyone.",
+   "uncertain": true,
+   "speaker": {
+    "who": "udayanan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "306": {
+   "reading": "The recollection goes on: the son is named Naravahana, the Danava land on the mountain is brought under the discus, and rival kings come to praise.",
+   "concepts": [
+    "makkal",
+    "vendhan",
+    "padai"
+   ],
+   "nuance": "Only line 1 names Naravahana; the subjects of lines 2 to 4 are not named, and the discus is read from அங்கரண நேமி (அரண நேமி in the edition's division).",
+   "uncertain": true,
+   "speaker": {
+    "who": "udayanan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "naravahanan",
+     "form": "நரவாக",
+     "line": 1
+    }
+   ],
+   "event": "The son Naravahana is named; the Danavas' land is brought under the discus; kings come to praise.",
+   "claims": []
+  },
+  "307": {
+   "reading": "The recollection reaches Indra's sending and the son's reaching a high state, with the gods gathered, as the lord departs at that moment.",
+   "concepts": [
+    "makkal",
+    "vendhan",
+    "oozh"
+   ],
+   "nuance": "The subjects are unnamed and the verse is a list of items without verbs of its own, so what is sent, and who rises, is uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "udayanan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "Indra's sending, the son's rise and the gods' gathering are recalled; the lord departs.",
+   "claims": []
+  },
+  "308": {
+   "reading": "Coming back to his incomparable pleasures, the king thinks they are the fruit of his earlier penance, grows weary of them and of women, and goes to see and bow at the feet of the radiant Vamana.",
+   "concepts": [
+    "thuravu",
+    "thavam",
+    "kaamam",
+    "vinai"
+   ],
+   "nuance": "The thought that pleasure is the harvest of past penance becomes the reason to give pleasure up: the fruit is spent, so he seeks the penance again.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "வேந்த",
+     "line": 3
+    },
+    {
+     "id": "kanti_vamanan",
+     "form": "வாமனை",
+     "line": 4
+    }
+   ],
+   "event": "Udayanan, disgusted with pleasure, goes to see and worship the teacher Kanti Vamanan.",
+   "claims": [
+    {
+     "claim": "present enjoyment is the fruit of earlier austerity",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "udayanan"
+    }
+   ]
+  },
+  "309": {
+   "reading": "As the great man's vow of merit begins, women with spear-bright eyes show him the forms of desire to feed on his mind.",
+   "concepts": [
+    "kaamam",
+    "thavam",
+    "nirai"
+   ],
+   "nuance": "The temptation arrives at the moment the vow starts, as a trial rather than a lapse.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "kamam_women",
+     "form": "மாதர்கள்",
+     "line": 3
+    }
+   ],
+   "event": "Women tempt the king with forms of desire as his vow begins.",
+   "claims": []
+  },
+  "310": {
+   "reading": "The verse sets the king's crossing of the sea of delusion for loving women beside an elephant that shows its threefold rut and shakes off the fetter on its foot.",
+   "concepts": [
+    "kaamam",
+    "maram",
+    "thuravu"
+   ],
+   "nuance": "Whether the elephant is a simile for the king's shedding of his bonds or the literal start of the rampage that the next verses describe is not settled by the Tamil; the verse reads as both.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "elephant",
+     "form": "வேழமும்",
+     "line": 3
+    }
+   ],
+   "event": "An elephant in rut shakes off its foot-fetter.",
+   "claims": []
+  },
+  "311": {
+   "reading": "The elephant, angry and as hot as Death, leaps on the mahouts and many people, grinds them down, and spits fire with its feet and its searching eyes.",
+   "concepts": [
+    "maram",
+    "kootru",
+    "vekuli"
+   ],
+   "nuance": "The brief comparison to Death (காலன்) is the poem's own and no doctrine is claimed.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "elephant",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "elephant_keepers",
+     "form": "பாகரை",
+     "line": 2
+    }
+   ],
+   "event": "The elephant rushes on mahouts and people and crushes them.",
+   "claims": []
+  },
+  "312": {
+   "reading": "The march is described in sound: thunder-like blasts, flags and walls cracking, and tusks cutting as the going continues.",
+   "concepts": [
+    "padai",
+    "maram"
+   ],
+   "nuance": "The verse is pure description; who marches and what is cut is not named.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "313": {
+   "reading": "Soldiers go out as drums and big drums crash, and the townspeople shake.",
+   "concepts": [
+    "padai",
+    "acham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "soldiers",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "townspeople",
+     "form": "மாந்தரே",
+     "line": 4
+    }
+   ],
+   "event": "Soldiers go out to the beat of drums while the townspeople tremble.",
+   "claims": []
+  },
+  "314": {
+   "reading": "The elephant tears open the few mahouts, wears their entrails as garlands on its tusks, and grinds the divine elephant under foot, and the hurt elephant runs.",
+   "concepts": [
+    "maram",
+    "kolai",
+    "acham"
+   ],
+   "nuance": "Which elephant is the 'divine elephant' (கடவுள் யானை) and which the hurt one is not clear from the verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "elephant",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "elephant_keepers",
+     "form": "பாகரை",
+     "line": 1
+    }
+   ],
+   "event": "The elephant kills its mahouts and grinds another elephant down, then a hurt elephant runs off.",
+   "claims": []
+  },
+  "315": {
+   "reading": "The frightened townspeople go to the king and say the elephant has killed many; he tells them to go and stay in the high mansions near the water.",
+   "concepts": [
+    "arasu",
+    "acham",
+    "kolai"
+   ],
+   "nuance": "The king is named only by a title, so the verse does not show which king; the context points to Udayanan's own city.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "townspeople",
+     "form": "மாந்தர்க",
+     "line": 1
+    },
+    {
+     "id": "king_city",
+     "form": "ரசற்கு",
+     "line": 2
+    }
+   ],
+   "event": "The townspeople report the elephant's killings to the king, who tells them to take shelter on the high mansions.",
+   "claims": []
+  },
+  "316": {
+   "reading": "The verse repeats verse 313 word for word: soldiers go out, drums crash and the townspeople shake.",
+   "concepts": [
+    "padai",
+    "acham"
+   ],
+   "nuance": "An exact repeat of verse 313, probably a copyist's doubling.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "soldiers",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "townspeople",
+     "form": "மாந்தரே",
+     "line": 4
+    }
+   ],
+   "event": "Soldiers go out to the beat of drums while the townspeople tremble.",
+   "claims": []
+  },
+  "317": {
+   "reading": "On the day when this elephant tears open travellers' chests and wrecks groves and pools, great ascetics come to the grove.",
+   "concepts": [
+    "maram",
+    "thavam",
+    "thuravu"
+   ],
+   "nuance": "The verse sets the elephant's violence and the ascetics' arrival side by side without saying whether the one answers the other.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "elephant",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "munivar",
+     "form": "மாதவர்",
+     "line": 4
+    }
+   ],
+   "event": "Great ascetics arrive in the grove on the day of the elephant's ravages.",
+   "claims": []
+  },
+  "318": {
+   "reading": "The ascetics who expound the four Vedas and make their deeds vanish come on a pilgrimage and settle in the grove.",
+   "concepts": [
+    "thavam",
+    "vinai",
+    "kalvi"
+   ],
+   "nuance": "The verse calls the four things they expound வேதம்; whether this means the Jain fourfold teaching or the Vedas is not stated and nothing here decides it.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "munivar",
+     "form": "மாதவர்",
+     "line": 2
+    }
+   ],
+   "event": "Ascetics expound their four texts and settle in the grove.",
+   "claims": [
+    {
+     "claim": "ascetics make their deeds (vinai) vanish",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "319": {
+   "reading": "Charana ascetics who move over flowers, over waves and over fruit and leaves, and others who go over learned books, are listed.",
+   "concepts": [
+    "thavam",
+    "thuravu"
+   ],
+   "nuance": "The Charanas are ascetics with the power of going through the air; the listing is a catalogue of their powers and makes no claim.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "charanar",
+     "form": "சாரணர்",
+     "line": 3
+    }
+   ],
+   "event": "Charana ascetics who travel over flowers, water and fruit are listed.",
+   "claims": []
+  },
+  "320": {
+   "reading": "Some Charanas go on mountain tops, in the sky, a finger above the ground, or a span above the ground, in the power of their vow.",
+   "concepts": [
+    "thavam",
+    "thuravu"
+   ],
+   "nuance": "The listing continues from verse 319 and keeps the same powers.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "charanar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Charana ascetics go through the sky and above the ground by their power.",
+   "claims": []
+  },
+  "321": {
+   "reading": "Great sages hidden in mountain caves, freed of impurity, send down a rain of virtue that ends the world's distress.",
+   "concepts": [
+    "thavam",
+    "aram",
+    "mazhai",
+    "arul"
+   ],
+   "nuance": "அறமழை could be a literal rain given by ascetic power or the shower of teaching; the verse does not decide.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "munivar",
+     "form": "முனிவரும்",
+     "line": 4
+    }
+   ],
+   "event": "Sages in the caves send rain that relieves the world's distress.",
+   "claims": [
+    {
+     "claim": "freed ascetics relieve the world's distress with a rain of virtue",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "322": {
+   "reading": "A great sage keeping a fortnight's fast comes at noon to take food from his palm, and the virtue of such worthy ones is hard to tell.",
+   "concepts": [
+    "thavam",
+    "thuravu",
+    "adakkam"
+   ],
+   "nuance": "Food taken from the palm is a mark of strict ascetic practice; the verse praises by the discipline itself.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "muni",
+     "form": "மாமுனி",
+     "line": 1
+    }
+   ],
+   "event": "A sage on a fortnightly fast goes at noon to eat food from his palm.",
+   "claims": []
+  },
+  "323": {
+   "reading": "The leader of the Dharma-heroes speaks of the fearful bondage of suffering that is life, and all who have come hear his holy word with attention.",
+   "concepts": [
+    "thuravu",
+    "aram",
+    "yaakkai",
+    "nilaiyaamai"
+   ],
+   "nuance": "விலங்கும் may mean a fetter, binding, or the animals; the first sense fits the ascetic teaching, but the reading is not fixed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "dharma_leader",
+    "form": "டலைவன்பால்",
+    "line": 1,
+    "addressee": "audience"
+   },
+   "agents": [
+    {
+     "id": "dharma_leader",
+     "form": "டலைவன்பால்",
+     "line": 1
+    },
+    {
+     "id": "audience",
+     "form": "யாவரும்",
+     "line": 3
+    }
+   ],
+   "event": "The leader of the Dharma-heroes preaches and the gathered hear him.",
+   "claims": [
+    {
+     "claim": "worldly life is a fearful bondage of suffering",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "dharma_leader"
+    }
+   ]
+  },
+  "324": {
+   "reading": "Hawks and other birds, drawn by the wish to feed, crowd the sky above and below and the kites go before and behind, for the elephant has left a feast.",
+   "concepts": [
+    "maram",
+    "kolai",
+    "kootru"
+   ],
+   "nuance": "The verse returns to the elephant's ravages after the ascetic verses, so the order of 317 to 324 may be disturbed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "elephant",
+     "form": "யானையே",
+     "line": 4
+    },
+    {
+     "id": "birds",
+     "form": "புள்ளுகள்",
+     "line": 1
+    }
+   ],
+   "event": "Birds gather to feed on what the elephant has left.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 308,
+   "b": 304,
+   "type": "develops",
+   "note": "Verse 308 gives the reflection behind the turn verse 304 announces.",
+   "teaches": "The earlier verse only says the vow is taken; the later one shows the king's disgust with pleasure and his seeking out the teacher as how it comes about."
+  },
+  {
+   "a": 309,
+   "b": 304,
+   "type": "develops",
+   "note": "The women's show of desire comes as the vow of verse 304 begins.",
+   "teaches": "A vow is tested at once by the thing it gives up, so the renunciation is shown to cost the king something."
+  },
+  {
+   "a": 310,
+   "b": 309,
+   "type": "develops",
+   "note": "The elephant shaking off its foot-fetter may picture the king shedding the delusion the women offer.",
+   "teaches": "If the elephant is read as the king's image, the same verse turns a rampage into a picture of release, which neither verse says plainly."
+  },
+  {
+   "a": 323,
+   "b": 318,
+   "type": "develops",
+   "note": "The teaching the ascetics arrive to give in 318 is heard in 323.",
+   "teaches": "Verse 318 only names the ascetics' skills and arrival; verse 323 shows what their teaching says, that life is a fearful bondage."
+  },
+  {
+   "a": 324,
+   "b": 314,
+   "type": "develops",
+   "note": "Verse 324 shows the feast of birds that the killings of 314 leave.",
+   "teaches": "The elephant's violence in 314 is followed by its leaving a feast, so its cost is seen in what scavengers gain."
+  },
+  {
+   "a": 308,
+   "b": "civaka_cintamani:27",
+   "type": "qualifies",
+   "note": "Udayanan turns from pleasure after reflecting on past penance; Civakan turns from kingship after hearing the dharma.",
+   "teaches": "The two epics give a king's renunciation different starting points, one from his own reflection and one from a sermon, and this shows how the Jain epics motivate it."
+  },
+  {
+   "a": 319,
+   "b": "civaka_cintamani:1177",
+   "type": "same_image",
+   "note": "Both name the Charanas as a class of ascetics, one by their powers of flight and one at the mountain where they wash away karma.",
+   "teaches": "The class appears with its powers in one epic and its purpose, washing karma away, in the other."
+  },
+  {
+   "a": 320,
+   "b": "silappathikaram:10:156-169",
+   "type": "same_image",
+   "note": "The Charana appears as a teacher who reads the travellers' minds in the Silappathikaram and as a flier in Udayana.",
+   "teaches": "One epic shows the Charana's mind-reading and the other his flight, so the powers attributed to him go beyond either."
+  },
+  {
+   "a": 304,
+   "b": "kural:262",
+   "type": "qualifies",
+   "note": "The king's vow follows earlier merit, as the couplet says austerity comes only to those who already have it.",
+   "teaches": "The couplet's circular rule is shown working in a life, with the vow following earlier merit.",
+   "gains": {
+    "a": "the king's turn to a vow gets a ground in earlier merit rather than seeming sudden",
+    "b": "the couplet's circular rule gets a story in which it works"
+   }
+  },
+  {
+   "a": 308,
+   "b": "kural:46",
+   "type": "qualifies",
+   "note": "A king of full worldly success leaves pleasure behind, which tests the couplet's question about going outside.",
+   "teaches": "The couplet asks what is gained by leaving the household that keeps virtue, and the story answers with a king who leaves out of disgust at its pleasures, not out of failure.",
+   "gains": {
+    "a": "the king's turn gets a standard against which his leaving can be judged",
+    "b": "the couplet's question gets a case of a successful householder who leaves"
+   }
+  },
+  {
+   "a": 321,
+   "b": "kural:19",
+   "type": "qualifies",
+   "note": "The couplet makes austerity and giving depend on the sky's rain; here the ascetics themselves send the rain.",
+   "teaches": "The dependence of austerity on rain in the couplet is reversed in the unit, where the austere supply the rain.",
+   "gains": {
+    "a": "the sages' power is placed within the dependence of giving on rain, so the rain relieves the very distress that would stop giving",
+    "b": "the couplet's one-way dependence on the sky meets a case where austerity feeds the sky"
+   }
+  },
+  {
+   "a": 323,
+   "b": "naladiyar:27",
+   "type": "qualifies",
+   "note": "The quatrain praises those who see the body as a bubble and resolve to end wandering; the unit shows a sermon only heard.",
+   "teaches": "Hearing a sermon on suffering is not yet the resolve the quatrain praises, so the unit stops short of its conclusion.",
+   "gains": {
+    "a": "the sermon's claim that life is a bondage of suffering gets an image, the body as a bubble that forms and bursts",
+    "b": "the quatrain's resolve gets a scene of its audience hearing the teaching, though not yet acting"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 316 repeats verse 313 word for word (flagged duplicate).",
+  "Verses 305 to 307 are lists of items without verbs; their subjects are unnamed.",
+  "Verses 310 to 316 and 324 describe an elephant's rampage between the king's vow and the ascetics' arrival, an order that may be disturbed.",
+  "Verse 303 line 4 (திருமின் போர்மின்) is unparsed."
+ ]
+}

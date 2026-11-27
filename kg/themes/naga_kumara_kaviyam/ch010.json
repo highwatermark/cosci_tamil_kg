@@ -1,0 +1,566 @@
+{
+ "chapter_no": 10,
+ "chapter_theme": "The hero crowns his son and takes the monk's form, conquers his karma and reaches liberation after teaching as a kevali, his companions and wives follow, and the poet closes with a promise to those who hear the tale and a sermon that nothing helps the soul but virtue.",
+ "cast": [
+  {
+   "id": "nagakumaran",
+   "tamil": "நாகநற்குமரன்",
+   "role": "the hero, king who becomes a monk and a kevali"
+  },
+  {
+   "id": "arasan",
+   "tamil": "இருவினை கெடுத்தவன்",
+   "role": "the king named only by his destroyed karma (the earlier king, from verse 158)"
+  },
+  {
+   "id": "pirithivi_devi",
+   "tamil": "பிரிதிவிதேவி",
+   "role": "the queen who leaves her son and takes austerity"
+  },
+  {
+   "id": "vyalan",
+   "tamil": "வியாளன்",
+   "role": "the hero's brother or companion who receives half the kingdom"
+  },
+  {
+   "id": "mavyalan",
+   "tamil": "மாவியாளன்",
+   "role": "the hero's brother or companion, who reaches liberation with Vyalan"
+  },
+  {
+   "id": "ilakkanai",
+   "tamil": "இலக்கணை",
+   "role": "the chief queen who takes austerity"
+  },
+  {
+   "id": "devakumaran",
+   "tamil": "தேவகுமாரன்",
+   "role": "Ilakkanai's son, crowned king"
+  },
+  {
+   "id": "amalamathi_kevali",
+   "tamil": "அமலமதி கேவலி",
+   "role": "the kevali before whom the king takes the monk's form"
+  },
+  {
+   "id": "pathumai",
+   "tamil": "பதுமை",
+   "role": "the nun at whose feet Ilakkanai bows"
+  },
+  {
+   "id": "devas",
+   "tamil": "தேவர்",
+   "role": "the gods who praise and worship the liberated brothers"
+  },
+  {
+   "id": "ulaga_makkal",
+   "tamil": "உலகத்தீர்",
+   "role": "the world addressed in the closing sermon"
+  }
+ ],
+ "verses": {
+  "158": {
+   "reading": "The one who destroyed the two deeds reaches the world of bliss, and Prithivi Devi, leaving her great son and bowing at the feet of the sage Sirimati, takes up hard austerity and reaches the Achyuta heaven.",
+   "concepts": [
+    "veedu",
+    "thavam",
+    "thuravu",
+    "vinai"
+   ],
+   "nuance": "The first line gives the fruit (the world of bliss) for one who has destroyed both karmas, but the verse does not name him; the earlier verses make the king the likeliest, which is read here, not stated. The queen's reward is a heaven (அச்சுதம்), a lesser end than the first line's.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arasan",
+     "form": "இருவினை கெடுத்தவனு",
+     "line": 1
+    },
+    {
+     "id": "pirithivi_devi",
+     "form": "பிரிதிவிநற் றேவியு",
+     "line": 2
+    }
+   ],
+   "event": "Prithivi Devi leaves her son, bows to the nun Sirimati, takes austerity and reaches the Achyuta heaven; the earlier king, who has destroyed his karmas, reaches the world of bliss.",
+   "claims": [
+    {
+     "claim": "one who destroys the two kinds of deed reaches the world of bliss",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "159": {
+   "reading": "The king gives half his kingdom to Vyalan, gives gifts to his many friends, and firmly sets Ilakkanai, chief of his wives, in the rank of chief queen.",
+   "concepts": [
+    "vendhan",
+    "eegai",
+    "ilvaazhkkai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": "வேந்தன",
+     "line": 1
+    }
+   ],
+   "event": "Naga Kumara gives half the kingdom to Vyalan, rewards his companions and installs Ilakkanai as chief queen.",
+   "claims": []
+  },
+  "160": {
+   "reading": "A good son named Devakumaran is born to Ilakkanai, learns the arts and the bow, and daily goes out with the chariot and elephant.",
+   "concepts": [
+    "makkal",
+    "kalvi",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "devakumaran",
+     "form": "மிகுதேவ குமாரன்",
+     "line": 2
+    }
+   ],
+   "event": "Ilakkanai bears a son, Devakumaran, who is trained in the arts, the bow, chariot and elephant.",
+   "claims": []
+  },
+  "161": {
+   "reading": "The lord, seated on a fine throne in his hall, attended by eight thousand bright-crowned kings and two fly-whisks, sits in splendour.",
+   "concepts": [
+    "arasu",
+    "vendhan",
+    "selvam"
+   ],
+   "nuance": "The splendour here is drawn at full height, just before the next verse turns it to renunciation.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": "லண்ணல்",
+     "line": 2
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "162": {
+   "reading": "While the king sits at ease, a cloud that has gathered dissolves, and with dispassion arising he crowns the young prince and rises gladly to take up the hard austerity.",
+   "concepts": [
+    "thuravu",
+    "arasu",
+    "nilaiyaamai",
+    "thavam"
+   ],
+   "nuance": "The text names the vanishing cloud as the moment of the turn but does not say it is the cause; the verse leaves a quick reader to supply the lesson of impermanence. The crowning of the son comes before the going forth, so the king's duty is discharged first.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": "பார்த்திபன்",
+     "line": 2
+    },
+    {
+     "id": "devakumaran",
+     "form": "குமரன்",
+     "line": 3
+    }
+   ],
+   "event": "Seeing a cloud vanish, the king grows dispassionate, crowns his son Devakumaran and leaves to take austerity.",
+   "claims": [
+    {
+     "claim": "the sight of a passing thing turns a king from rule to renunciation",
+     "school": "general",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "163": {
+   "reading": "The king bows at the feet of the stainless Amalamati, the kevali, and with many kings looking on takes the form of the faultless one, and Ilakkanai and the other wives bow at the feet of the nun Pathumai.",
+   "concepts": [
+    "thuravu",
+    "guru",
+    "vesham"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": "வணங்கி",
+     "line": 1
+    },
+    {
+     "id": "ilakkanai",
+     "form": null,
+     "line": 3
+    },
+    {
+     "id": "pathumai",
+     "form": "பதுமையெனுந்",
+     "line": 4
+    }
+   ],
+   "event": "Naga Kumara bows to the kevali Amalamati and takes the monk's form before many kings; Ilakkanai bows to the nun Pathumai.",
+   "claims": [],
+   "uncertain": true
+  },
+  "164": {
+   "reading": "Ilakkanai and her companions take up hard austerity and go on gladly, and in those days the faultless sage Naga Kumara, having overcome the binding deeds, reaches the final perfection.",
+   "concepts": [
+    "thavam",
+    "veedu",
+    "vinai",
+    "siththi"
+   ],
+   "nuance": "The verse gives the king's end as the conquest of karma (வினைகள் வென்று), not as a gift of any god; the women's austerity is told but their end is not said here.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ilakkanai",
+     "form": "லிலக்க ணையு",
+     "line": 1
+    },
+    {
+     "id": "nagakumaran",
+     "form": "முனிவ னாய",
+     "line": 3
+    }
+   ],
+   "event": "Ilakkanai and the women take austerity; the monk Naga Kumara conquers his harsh deeds and reaches siddhi.",
+   "claims": [
+    {
+     "claim": "austerity overcomes the binding deeds and brings final perfection",
+     "school": "jain",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "165": {
+   "reading": "Vyalan and Mavyalan, through meditation on the soul and the supreme austerity, overcome the two deeds, are praised and worshipped by the gods, and reach liberation with no more death or birth.",
+   "concepts": [
+    "veedu",
+    "thiyaanam",
+    "vinai",
+    "thavam"
+   ],
+   "nuance": "Meditation on the soul (உயிர் தியானம்) is the named means; no grace or god is given a part, which is the point the Jain account would press against a path of release by a Lord's favour.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vyalan",
+     "form": "வியாளமா",
+     "line": 1
+    },
+    {
+     "id": "mavyalan",
+     "form": "வியாளர்",
+     "line": 1
+    },
+    {
+     "id": "devas",
+     "form": "தேவர்",
+     "line": 3
+    }
+   ],
+   "event": "Vyalan and Mavyalan conquer their karmas by meditation, are praised by the gods and reach liberation.",
+   "claims": [
+    {
+     "claim": "meditation on the soul destroys both kinds of deed and ends birth and death",
+     "school": "jain",
+     "line": 2,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "166": {
+   "reading": "By hard yoga these indivisible and unbreakable ones overcame the two deeds and reached the joyful perfection, and all the others too, through firm austerity, enjoyed the bliss of heaven.",
+   "concepts": [
+    "yogam",
+    "thavam",
+    "siththi",
+    "vinai"
+   ],
+   "nuance": "Two ends are set side by side: those who conquer both deeds reach perfection (சித்தி), while the others by austerity go to a heaven of enjoyment, so austerity alone does not give the same fruit to all.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vyalan",
+     "form": "லச்சேத்",
+     "line": 1
+    }
+   ],
+   "event": "The two brothers reach siddhi by yoga; the rest, by austerity, reach heavenly bliss.",
+   "claims": [
+    {
+     "claim": "austerity and yoga conquer both deeds and bring perfection, and lesser austerity brings heavenly joy",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ],
+   "uncertain": true
+  },
+  "167": {
+   "reading": "The verse counts the years of Naga Kumara's life as the years of youth, of rule in the earthly land and of austerity, which together come to a long span.",
+   "concepts": [
+    "aayul",
+    "kaalam",
+    "kurippu"
+   ],
+   "nuance": "The numbers in the Tamil (the first lines are broken into words and units) cannot be fixed cleanly, so the arithmetic is not relied on.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [],
+   "uncertain": true
+  },
+  "168": {
+   "reading": "Having moved on as a kevali through both lands he had given to the faultless wives and the great sages, he poured out a rain of dharma for sixty-six years with sages and gods in four groups around him.",
+   "concepts": [
+    "aram",
+    "guru",
+    "arul"
+   ],
+   "nuance": "Dharma is figured as rain falling on the lands, a teacher's giving without return, and the teacher is already liberated in knowledge before he is freed from the body.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nagakumaran",
+     "form": "கேவலியாய்",
+     "line": 2
+    }
+   ],
+   "event": "As a kevali Naga Kumara teaches dharma for sixty-six years among sages and gods.",
+   "claims": [],
+   "uncertain": true
+  },
+  "169": {
+   "reading": "Those who write and recite this story and those who hear it with joy will gain sons and wealth, live like Indra, shed anger and sorrow, hold right faith and knowledge, and reach the heavens.",
+   "concepts": [
+    "aram",
+    "payan",
+    "kalvi"
+   ],
+   "nuance": "This is the usual promise at a poem's close: reward comes from hearing and copying the tale, which is put alongside conduct rather than in place of it.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "hearing and copying this story brings children, wealth and heaven",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  },
+  "170": {
+   "reading": "Apart from virtue nothing else helps the soul, and nothing else harms it as vice does; knowing this and fearing rebirth in a bad state, the world is told to leave vice and live in virtue.",
+   "concepts": [
+    "aram",
+    "maram",
+    "naragam",
+    "piravi"
+   ],
+   "nuance": "The closing sermon is a rule, not an event: it puts the whole story's moral in two statements, one about what supports the soul and one about what harms it. Fear of an evil birth is the stated motive, not love of virtue for itself.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": "ulaga_makkal"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "nothing helps the soul but virtue and nothing harms it but vice",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    },
+    {
+     "claim": "fear of an evil rebirth should lead one to leave vice and live by virtue",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "narrator"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": "158",
+   "b": "kural:46",
+   "type": "qualifies",
+   "note": "A queen leaves her son for the nun's life and is rewarded in heaven, while the couplet asks what a householder gains by going to the outside way.",
+   "teaches": "The story answers the Kural's question by showing a woman rewarded for leaving, so the couplet's praise of the householder is met by a Jain ideal that holds the opposite.",
+   "gains": {
+    "a": "the queen's leaving is set against a rule that makes the home the greater path",
+    "b": "the couplet's challenge is met by a case where leaving is rewarded, not wasted"
+   }
+  },
+  {
+   "a": "162",
+   "b": "naladiyar:53",
+   "type": "develops",
+   "note": "A king on his throne turns from rule at the sight of a vanishing cloud, as the quatrain's best of people see home, youth and wealth fail and renounce.",
+   "teaches": "The quatrain gives renunciation as a conclusion of reasoning; the story shows the same turn as a sudden sight on a throne after the heir is crowned.",
+   "gains": {
+    "a": "the king's turn is shown as the reasoned choice of the best the quatrain names",
+    "b": "the quatrain's argument gets a figure who acts on it at the height of his splendour"
+   }
+  },
+  {
+   "a": "162",
+   "b": "kural:342",
+   "type": "agrees",
+   "note": "The king gives up kingship at the height of his state and takes austerity, as the couplet urges renouncing while there is time.",
+   "teaches": "The couplet urges haste in the abstract; the king's act shows what haste costs, a throne handed to a son, and what it is paid for.",
+   "gains": {
+    "a": "the king's going forth is shown as renouncing in time, not in old age",
+    "b": "the couplet gains a prince who leaves a throne, a cost it does not state"
+   }
+  },
+  {
+   "a": "164",
+   "b": "144",
+   "type": "develops",
+   "note": "The hero asked the sage about his pleasure and heard dharma; here he follows that teaching to its end, by conquering karma and reaching siddhi.",
+   "teaches": "What the hero hears in the earlier grove scene is the cause of the choices he makes here, which shows the poem's plan: hearing dharma comes before renouncing."
+  },
+  {
+   "a": "164",
+   "b": "kural:5",
+   "type": "qualifies",
+   "note": "The monk conquers both deeds by his own austerity, where the couplet says the two deeds do not cling to those who praise the Lord.",
+   "teaches": "The couplet places freedom from both deeds in devotion to a Lord; the story gives the same freedom through a man's own austerity and no god, so the same result has two causes.",
+   "gains": {
+    "a": "the hero's liberation is set against a rule that places it in devotion",
+    "b": "the couplet's route is shown to have a Jain rival that reaches the same end by effort alone"
+   }
+  },
+  {
+   "a": "165",
+   "b": "tirumanthiram:219",
+   "type": "tension",
+   "note": "The brothers destroy both deeds by meditating on the soul, where Tirumular says the worshipped fire burns up deeds.",
+   "teaches": "The two accounts reach the same freedom from deeds by different agents, the practitioner's own meditation against a fire that burns them, so the dispute is over who does the burning.",
+   "gains": {
+    "a": "the brothers' liberation is set against a view that gives the work to a worshipped fire",
+    "b": "Tirumular's fire is shown to have a rival account in which no fire is needed"
+   }
+  },
+  {
+   "a": "166",
+   "b": "tirumanthiram:258",
+   "type": "develops",
+   "note": "Austerity and yoga bring the brothers perfection and the rest heaven, as Tirumular says austerity and virtue together are a boat over the sea of deeds.",
+   "teaches": "The story shows austerity giving two different ends for two sets of people, which the single boat in Tirumular's line does not.",
+   "gains": {
+    "a": "the story's two ends are seen as a way to read the one boat of the verse",
+    "b": "the verse's boat gains a case where the same austerity reaches two shores"
+   }
+  },
+  {
+   "a": "170",
+   "b": "kural:32",
+   "type": "develops",
+   "note": "The closing sermon says nothing helps the soul but virtue and nothing harms it but vice; the couplet says no gain surpasses virtue and no ruin surpasses forgetting it.",
+   "teaches": "The couplet's ruin is forgetting virtue, while the sermon's is positive vice (maram), so the story hardens the Kural's lapse into a deed that harms the soul.",
+   "gains": {
+    "a": "the sermon's rule is seen as a hard form of a rule the Tamil tradition already held",
+    "b": "the couplet's ruin of forgetting is made sharper by a vice that actively harms"
+   }
+  },
+  {
+   "a": "170",
+   "b": "naladiyar:85",
+   "type": "develops",
+   "note": "The sermon says to fear a bad rebirth and leave vice; the quatrain gives the bad rebirth as the fruit of wronging others' wives.",
+   "teaches": "The sermon names fear of an evil birth without a case, and the quatrain supplies one, so the fear gets a concrete deed and fruit.",
+   "gains": {
+    "a": "the sermon's fear of an evil birth is given a concrete deed behind it",
+    "b": "the quatrain's penalty is shown as the ground of a whole poem's moral"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 167 has broken word division in its number-words, so the years cannot be read with confidence.",
+  "Verse 158 does not name the one who destroyed the two deeds in line 1, and the story's earlier king is assumed.",
+  "Verse 164 line 4 and verse 166 line 1 have word-divisions the build could not clean (அச்சேத்தியபேத்தியர்)."
+ ]
+}

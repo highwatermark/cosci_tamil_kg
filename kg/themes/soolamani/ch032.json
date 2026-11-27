@@ -1,0 +1,730 @@
+{
+ "chapter_no": 32,
+ "chapter_theme": "Acuvakanthan's envoys return from the princes, and his minister conjures a magic lion to rouse and ruin the prince; the envoys then taunt Tivittan with the lion, and he vows to split its mouth and goes out alone with Vijayan.",
+ "cast": [
+  {
+   "id": "tivittan",
+   "tamil": "செங்கண் ணெடியான்",
+   "role": "the red-eyed tall one, hero of the tale; the younger prince, called sea-hued"
+  },
+  {
+   "id": "vijayan",
+   "tamil": "விசயன்",
+   "role": "the elder prince, called conch-hued"
+  },
+  {
+   "id": "princes",
+   "tamil": "குமரர்",
+   "role": "the two princes, together"
+  },
+  {
+   "id": "acuvakanthan",
+   "tamil": "அச்சுவ கண்டன்",
+   "role": "the rival king of the discus, who laughs at the prince's refusal"
+  },
+  {
+   "id": "acuvakanthan_envoys",
+   "tamil": "தூதர்",
+   "role": "the envoys the rival king sends to demand tribute and, later, to taunt the prince"
+  },
+  {
+   "id": "arimanjulavan",
+   "tamil": "அரிமஞ்சு",
+   "role": "the rival king's minister who plans the trap (Arimanjulavan, taken as a name)"
+  },
+  {
+   "id": "arikethu",
+   "tamil": "அரிகேது",
+   "role": "the Vidyadhara commissioned to take the shape of a lion"
+  }
+ ],
+ "verses": {
+  "689": {
+   "reading": "The speaker tells the tribute-seeker that nothing is to be gained from coming to the mountain, since the arrows of victory will fall to fill his heart.",
+   "concepts": [
+    "maram",
+    "pagai"
+   ],
+   "nuance": "The grammar is clipped and the opening word may turn the verse into a conditional; it is read as the prince's defiance continuing the speech begun at 683, with the speaker inferred, not named.",
+   "uncertain": true,
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": "acuvakanthan_envoys"
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "690": {
+   "reading": "The speaker bids the envoys go and tell their lord that, if a rule exists for dealing with those who refuse tribute, he may try it, and that he need not be scolded as women scold.",
+   "concepts": [
+    "thoothu",
+    "maram",
+    "sol"
+   ],
+   "nuance": "The speech is the prince's open invitation to a test; the next scenes show the minister taking it up by a trick.",
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": "acuvakanthan_envoys"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Tivittan sends the envoys back with a defiant message for their king.",
+   "claims": []
+  },
+  "691": {
+   "reading": "After the threat, the envoys are given gold and a company of fragrant-garlanded women, and, ashamed and shaken, leave thinking the foe too strong for their king.",
+   "concepts": [
+    "thoothu",
+    "naadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan_envoys",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The envoys receive gold and women, then depart in fear of the strong enemy.",
+   "claims": []
+  },
+  "692": {
+   "reading": "The envoys, afraid of what their king's rising anger will bring, find the minister and report both what was said and the women and wealth they were given.",
+   "concepts": [
+    "thoothu",
+    "amaichu"
+   ],
+   "nuance": "Whether அரிமஞ்சுலவன் is a name or a title is not fixed by the verse; it is taken as the minister's name because 693 and 700 call the hearer the minister.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan_envoys",
+     "form": "தூதர்",
+     "line": 1
+    },
+    {
+     "id": "arimanjulavan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The envoys report to the minister Arimanjulavan.",
+   "claims": []
+  },
+  "693": {
+   "reading": "The envoys repeat to the minister everything the red-hued princes had told them, and the verse gives the princes' laughter and fiery looks.",
+   "concepts": [
+    "thoothu",
+    "amaichu"
+   ],
+   "nuance": "The syntax of lines 2 to 3 is tangled; it is read as the envoys reporting the princes' mocking reply.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan_envoys",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "arimanjulavan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The envoys tell the minister the princes' words.",
+   "claims": []
+  },
+  "694": {
+   "reading": "The wise minister, hearing of the great quarrel, thinks that his king will not bear it for a moment and turns his mind to a way of turning the quarrel aside.",
+   "concepts": [
+    "soozhchi",
+    "amaichu",
+    "arivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arimanjulavan",
+     "form": "செல்வ னரிமஞ்சு",
+     "line": 1
+    }
+   ],
+   "event": "The minister weighs how to meet the quarrel.",
+   "claims": []
+  },
+  "695": {
+   "reading": "The minister, judging the young prince not yet schooled to tell good from ill, resolves to show him a trick that will enrage him and drive him to run into a lion on the mountain.",
+   "concepts": [
+    "soozhchi",
+    "vanjam",
+    "arivu"
+   ],
+   "nuance": "The minister's judgement of Tivittan is his own and is not confirmed by the verse; the story goes on to test it.",
+   "speaker": {
+    "who": "arimanjulavan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arimanjulavan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The minister plans to lure Tivittan into the path of a conjured lion.",
+   "claims": [
+    {
+     "claim": "a youth who has not learned to tell good from ill can be undone by a trick",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "arimanjulavan"
+    }
+   ]
+  },
+  "696": {
+   "reading": "The minister calls the Vidyadhara Arikethu, shows him the task and commissions him to take the form of a lasting magic lion.",
+   "concepts": [
+    "soozhchi",
+    "maayai",
+    "amaichu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arimanjulavan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "arikethu",
+     "form": "கேது",
+     "line": 1
+    }
+   ],
+   "event": "The minister commissions Arikethu to turn himself into a magic lion.",
+   "claims": []
+  },
+  "697": {
+   "reading": "The commissioned man takes the shape of a lion whose claws split mountains and whose fiery eyes and gaping mouth thunder.",
+   "concepts": [
+    "maayai",
+    "maram"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arikethu",
+     "form": "கொடியவன்",
+     "line": 4
+    }
+   ],
+   "event": "Arikethu takes on the fierce form of a lion.",
+   "claims": []
+  },
+  "698": {
+   "reading": "The lion-shape goes to the Himalaya and the land of the Sindhu people and roars until mountains split, the ocean churns and the sky echoes.",
+   "concepts": [
+    "maayai",
+    "naadu",
+    "veruvu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arikethu",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The false lion roars over the Himalaya and Sindhu land.",
+   "claims": []
+  },
+  "699": {
+   "reading": "The roar flattens the forest, makes elephants cry out with their mates, sends boulders rolling and leaves people clenched and fainting.",
+   "concepts": [
+    "veruvu",
+    "maayai",
+    "naadu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arikethu",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The lion's roar spreads terror among animals and people.",
+   "claims": []
+  },
+  "700": {
+   "reading": "When the lion has been made ready, the minister recalls the envoys with a message and sets them to inflame the battle-trained youth.",
+   "concepts": [
+    "soozhchi",
+    "thoothu",
+    "amaichu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arimanjulavan",
+     "form": "னமைச்ச னாங்கண்",
+     "line": 1
+    },
+    {
+     "id": "acuvakanthan_envoys",
+     "form": "தூதுவ",
+     "line": 2
+    }
+   ],
+   "event": "The minister sends the envoys back to enrage Tivittan.",
+   "claims": []
+  },
+  "701": {
+   "reading": "The envoys descend by the river's path and tell their message to the sons of the Podanam king, where they walk with their host.",
+   "concepts": [
+    "thoothu",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan_envoys",
+     "form": "தூதுவ",
+     "line": 1
+    },
+    {
+     "id": "princes",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The envoys reach the princes and deliver their message.",
+   "claims": []
+  },
+  "702": {
+   "reading": "The envoys tell the prince that when they reported the tribute word, the refusal and his message, their king, fragrant-haired, said 'good, good' and laughed.",
+   "concepts": [
+    "thoothu",
+    "arasu",
+    "pagai"
+   ],
+   "nuance": "The envoys, not the narrator, say the king laughed; the laugh is their report of his contempt.",
+   "speaker": {
+    "who": "acuvakanthan_envoys",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "acuvakanthan_envoys",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Acuvakanthan laughs on hearing the prince's refusal.",
+   "claims": []
+  },
+  "703": {
+   "reading": "The envoys say that when their king heard from their mouths that the prince had called him young, he did not weigh his own light and strength, called it the talk of a child of grace, and sat unangered.",
+   "concepts": [
+    "arasu",
+    "vekuli",
+    "ilamai"
+   ],
+   "nuance": "Line 2 reads விளையை, taken as a misprint for இளையை. The king's calm is belittlement of the prince, not the self-command the Naladiyar praises.",
+   "uncertain": true,
+   "speaker": {
+    "who": "acuvakanthan_envoys",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Acuvakanthan, told he has been called young, shrugs the word off.",
+   "claims": []
+  },
+  "704": {
+   "reading": "The envoys carry their king's word: the proud little one who set out to take tribute and land cannot kill the thunder-voiced lion in the cave, if he knows his strength.",
+   "concepts": [
+    "thoothu",
+    "maanam",
+    "sirumai"
+   ],
+   "nuance": "The words are the enemy king's own, put in his envoys' mouth; the reader knows from 696 to 699 that the lion is a magic shape sent for the purpose.",
+   "uncertain": true,
+   "speaker": {
+    "who": "acuvakanthan_envoys",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The envoys relay the king's taunt about the lion.",
+   "claims": []
+  },
+  "705": {
+   "reading": "The envoys end their report, and the younger prince asks in astonishment whether a lion in the land's mountain peak kills its creatures with a roar that splits the hills.",
+   "concepts": [
+    "thoothu",
+    "maram",
+    "veruvu"
+   ],
+   "nuance": "Line 1 is the envoys' own closing words; lines 2 to 4 are the prince's question, which the verse frames in the narrator's voice.",
+   "uncertain": true,
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": "acuvakanthan_envoys"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "மிளையவ னென்னே",
+     "line": 2
+    }
+   ],
+   "event": "Tivittan hears of the lion and questions the envoys.",
+   "claims": []
+  },
+  "706": {
+   "reading": "The envoys answer that in the prince's own Sindhu land the lion cannot be removed by anyone, and that it lives in a long cave of the gem hill, drinking life with its thunder.",
+   "concepts": [
+    "thoothu",
+    "veruvu",
+    "naadu"
+   ],
+   "speaker": {
+    "who": "acuvakanthan_envoys",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan_envoys",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The envoys confirm to Tivittan that a lion terrorises the land.",
+   "claims": []
+  },
+  "707": {
+   "reading": "The prince answers that he will split the lion's mouth and tear its body in two, and that if he fails the king is a child who talked like a ghost; he sets out.",
+   "concepts": [
+    "maram",
+    "aanmai",
+    "pagai"
+   ],
+   "nuance": "The vow is conditional: Tivittan stakes the king's reproach as a child on his failure, and turns the insult of 703 back on him.",
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": "acuvakanthan_envoys"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Tivittan vows to kill the lion and leaves.",
+   "claims": [
+    {
+     "claim": "a boast that is not made good shames the one who made it",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "tivittan"
+    }
+   ]
+  },
+  "708": {
+   "reading": "The prince swears that the tusked elephants should return to their stalls and the fire-eyed warriors who ply weapons should hold back from the fight.",
+   "concepts": [
+    "maram",
+    "aanmai",
+    "padai"
+   ],
+   "nuance": "The second half of line 3 is obscure and the sense of the oath is taken from the narrator's closing word.",
+   "uncertain": true,
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Tivittan swears the elephants and armed men must stay.",
+   "claims": []
+  },
+  "709": {
+   "reading": "The prince adds that the chariots, horses and foot soldiers should also stay in camp, and none may come with him.",
+   "concepts": [
+    "maram",
+    "aanmai",
+    "padai"
+   ],
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "நீர்வண்ண னுழையவ",
+     "line": 4
+    }
+   ],
+   "event": "Tivittan orders the chariots, horses and foot to stay behind.",
+   "claims": []
+  },
+  "710": {
+   "reading": "After the city's noise is hushed, the sea-hued prince goes forth, and the conch-hued prince resolves to go with him.",
+   "concepts": [
+    "anbu",
+    "aanmai",
+    "maram"
+   ],
+   "nuance": "Lines 2 and 3 are hard to construe; the two princes are read from the epithets sea-hued and conch-hued.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vijayan",
+     "form": "வளைவண்ன னுடன்செல",
+     "line": 4
+    }
+   ],
+   "event": "Tivittan sets out and Vijayan resolves to go with him.",
+   "claims": []
+  },
+  "711": {
+   "reading": "The two reach the haunt where the lion kills, with the fiery dust of the hill path settling on the trodden path of the elephant-necked riders' feet.",
+   "concepts": [
+    "maram",
+    "veruvu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "vijayan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The princes reach the place where the lion kills.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 690,
+   "b": "soolamani:304",
+   "type": "tension",
+   "note": "In 304 the kings of the sea-girt earth pay Acuvakanthan tribute for fear of his anger; in 690 the prince says tribute refused has only a trial of force to answer it.",
+   "teaches": "The prince's refusal reads as a break from the fear that made every other king pay."
+  },
+  {
+   "a": 695,
+   "b": 690,
+   "type": "develops",
+   "note": "The minister's trick answers the prince's offer of a method against those who refuse tribute: it will enrage him and make him run to the lion.",
+   "teaches": "The prince's challenge is turned into the trap that the minister builds in reply."
+  },
+  {
+   "a": 695,
+   "b": "kural:636",
+   "type": "qualifies",
+   "note": "Kural 636 says no over-subtle scheme stands before keen native wit joined with learning; verse 695 rests the scheme on the target's lacking the sense to tell good from bad.",
+   "teaches": "A scheme's success is shown to depend on how the target is judged, which the couplet alone does not say.",
+   "gains": {
+    "a": "The verse lacks a standard by which the minister's contempt for the prince's judgement can later be tested.",
+    "b": "The couplet lacks a schemer who bets openly on his target's inexperience."
+   }
+  },
+  {
+   "a": 696,
+   "b": 695,
+   "type": "develops",
+   "note": "In 695 the minister says he will show a magic and set a lion on the youth; in 696 he calls Arikethu and commissions the magic lion.",
+   "teaches": "The plan of 695 becomes an order, and the instrument is named."
+  },
+  {
+   "a": 703,
+   "b": "kural:698",
+   "type": "qualifies",
+   "note": "Kural 698 warns against belittling a ruler as young; in 703 Acuvakanthan waves off the prince as a child and the story then lets the prince take up his challenge.",
+   "teaches": "The verse shows the belittling the couplet warns against and what it provokes, a prince who vows rather than withdraws.",
+   "gains": {
+    "a": "The verse lacks a measure that names Acuvakanthan's dismissal of youth as the fault it is.",
+    "b": "The couplet lacks a case where the belittled youth answers with a vow, not submission."
+   }
+  },
+  {
+   "a": 704,
+   "b": "kural:685",
+   "type": "qualifies",
+   "note": "Kural 685 asks an envoy to speak so as to bring a smile and remove what would offend; here the envoys carry the king's taunt whole, because the minister of 700 wants the youth angered.",
+   "teaches": "The envoys' offence is the lord's chosen means, a purpose the rule for envoys does not allow for.",
+   "gains": {
+    "a": "The verse lacks the standard that shows the envoys' unsoftened message as a choice of policy.",
+    "b": "The couplet lacks the case where giving offence is exactly the work the lord sends an envoy to do."
+   }
+  },
+  {
+   "a": 706,
+   "b": 698,
+   "type": "develops",
+   "note": "In 698 the roar of the made lion fills the Himalaya and Sindhu land; in 706 the envoys, who do not say so, describe it as a lion of the gem hill.",
+   "teaches": "The envoys repeat the false lion as a fact, so the reader sees the trick work on the very messengers."
+  },
+  {
+   "a": 707,
+   "b": "soolamani:409",
+   "type": "develops",
+   "note": "In 409 the speaker says within a month Tivittan will split a lion's mouth; in 707 he swears to split the lion's mouth, on the minister's bait.",
+   "teaches": "The enemy's trap supplies the occasion on which the earlier sign is to be met."
+  },
+  {
+   "a": 707,
+   "b": 703,
+   "type": "tension",
+   "note": "In 703 Acuvakanthan calls the prince a child; in 707 the prince says the king is a child if the lion is not killed.",
+   "teaches": "The same insult is thrown back, with the prince staking his word where the king staked nothing."
+  },
+  {
+   "a": 708,
+   "b": "kural:471",
+   "type": "qualifies",
+   "note": "Kural 471 says weigh the work, one's own strength, the foe's and the allies' before acting; in 708 and 709 the prince sends away his elephants, chariots and men and goes with no allies.",
+   "teaches": "The prince's vow sets aside the allies' strength that the couplet counts, leaving the outcome to his own strength.",
+   "gains": {
+    "a": "The verse lacks a standard that names the dismissal of the host as the risk it is.",
+    "b": "The couplet lacks a hero who deliberately gives up the allies' strength to keep his word."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 689: the opening word leaves open whether the verse is a conditional; the speaker is inferred from 683 to 688.",
+  "Verse 692 and elsewhere: அரிமஞ்சு ல வன் is split by the word division and taken as one name.",
+  "Verse 703: line 2 reads விளையை; taken as a misprint for இளையை.",
+  "Verses 708 and 710: line 3 is obscure; the sense is taken loosely."
+ ]
+}

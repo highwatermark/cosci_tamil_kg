@@ -1,0 +1,875 @@
+{
+ "chapter_no": 124,
+ "chapter_theme": "Civakan offers the kingdom to Nandan, who refuses even heaven and release for his brother's feet; the king then instructs his eldest son on rule, crowns his heirs and gives away treasure, and goes to his women, who wither when they read that he means to leave.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, now the old king, who makes over the kingdom"
+  },
+  {
+   "id": "nandattan",
+   "tamil": "நந்தட்டன்",
+   "role": "Civakan's younger brother (நந்தன்), who refuses the throne"
+  },
+  {
+   "id": "tattai_magan",
+   "tamil": "தத்தைநாட் பயந்த நம்பி",
+   "role": "the eldest of the young princes, Gandharvadattai's son, whom the king instructs"
+  },
+  {
+   "id": "yuvaraja_kaalai",
+   "tamil": "காளை",
+   "role": "the youth, a lady's son, whom the king makes crown prince in 2912"
+  },
+  {
+   "id": "ilakkanai_magan",
+   "tamil": "சிறுவன்",
+   "role": "Ilakkanai's son, the lion-like boy decreed great lord"
+  },
+  {
+   "id": "civakan_manaiviyar",
+   "tamil": "மனைவியர்",
+   "role": "Civakan's wives, brought to hear his intent"
+  }
+ ],
+ "verses": {
+  "2899": {
+   "reading": "Civakan sends for the lord of the drum-sounding army, and Nandan, in a wreath of wet flowers, bows and comes up to him.",
+   "concepts": [
+    "arasu",
+    "panivu",
+    "sutram"
+   ],
+   "nuance": "The verb 'said' has no named subject and 'the lord of the army' is not named; Civakan and Nandan are read from 2903, where the younger brother is called Nandan.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "nandattan",
+     "form": "நந்தனுந்",
+     "line": 4
+    }
+   ],
+   "event": "Civakan orders Nandan to be brought, and Nandan bows and approaches.",
+   "claims": []
+  },
+  "2900": {
+   "reading": "Nandan, bowing at his feet, begs him to be gracious as king of kings, and his voice is likened to thunder that shames the drum and makes the angry cobra's hood shake.",
+   "concepts": [
+    "panivu",
+    "anbu",
+    "arasu"
+   ],
+   "nuance": "Lines 2-3 are a simile of a loud voice that the cobra and the drum cannot match; the grammar linking the cobra clause to the speech is loose.",
+   "uncertain": true,
+   "speaker": {
+    "who": "nandattan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "nandattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Nandan bows at Civakan's feet and asks for his grace.",
+   "claims": []
+  },
+  "2901": {
+   "reading": "Civakan tells Nandan to sit enthroned and rule the inheritance of the spear-crowded army, in a land where creatures sleep on the ears of red rice.",
+   "concepts": [
+    "arasu",
+    "naadu",
+    "uzhavu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "nandattan"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan offers Nandan the kingdom.",
+   "claims": []
+  },
+  "2902": {
+   "reading": "Nandan turns down the rich land of cane fields, the heaven of the bee-haunted gods and release alike, and asks whether his life is not to live worshipping the lotus-like feet he loves.",
+   "concepts": [
+    "anbu",
+    "veedu",
+    "panivu",
+    "thuravu"
+   ],
+   "nuance": "Naming வீடு beside country and heaven makes the refusal total. The verse does not name whose feet are meant; the context of the offer in 2901 reads them as Civakan's.",
+   "speaker": {
+    "who": "nandattan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan"
+   },
+   "agents": [
+    {
+     "id": "nandattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Nandan refuses the kingdom and says he wants only to serve his brother.",
+   "claims": [
+    {
+     "claim": "serving the beloved elder brother's feet is a worthier life than kingdom, heaven or release",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "nandattan"
+    }
+   ]
+  },
+  "2903": {
+   "reading": "The younger brother, shoulders like a bright blue lily, wants no kingdom at all and asks only for what delights him.",
+   "concepts": [
+    "thuravu",
+    "arasu",
+    "anbu"
+   ],
+   "nuance": "What 'delights' him is left open; read after 2902 it is the service of his brother.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "nandattan",
+     "form": "நம்பி",
+     "line": 2
+    }
+   ],
+   "event": "Nandan declines any kingdom.",
+   "claims": []
+  },
+  "2904": {
+   "reading": "Reasoning that the body, however handsome, is hollow, Civakan tells his men to bring the youth who will guard the world, as an elephant lays its trunk on nothing but its strong tusk.",
+   "concepts": [
+    "yaakkai",
+    "nilaiyaamai",
+    "arasu",
+    "thuravu"
+   ],
+   "nuance": "Opening on the body's hollowness before naming an heir makes the choice of successor follow from seeing the body as unreliable. Lines 2-3 (the elephant's trunk resting on its tusk, thunder not falling to earth) are two obscure similes; I take them to mean resting weight on a sound support.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan orders the youth who will protect the world to be brought.",
+   "claims": [
+    {
+     "claim": "the body, though handsome, is hollow and cannot be relied on",
+     "school": "jain",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "2905": {
+   "reading": "The king seats the eldest of the young princes, the jewelled son of Gandharvadattai, and instructs him by rule.",
+   "concepts": [
+    "makkal",
+    "arasu",
+    "kalvi"
+   ],
+   "nuance": "Gandharvadattai is the Tattai of line 3, as in the earlier ilampakams; 2906-2911 read as the instruction that begins here.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "tattai_magan",
+     "form": "நம்பி",
+     "line": 3
+    }
+   ],
+   "event": "Civakan seats his eldest son and begins to instruct him.",
+   "claims": []
+  },
+  "2906": {
+   "reading": "Civakan tells the heir that if he guards the sea-ringed earth under his umbrella with the sceptre unbent and keeps dharma with poets whose fine words are ripe as treatises, a king has no higher joy.",
+   "concepts": [
+    "aram",
+    "sengol",
+    "arasu",
+    "kalvi"
+   ],
+   "nuance": "The joy of kingship is ranked highest by a king who is about to give it up; the claim is for the heir, not for Civakan's own last aim.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "tattai_magan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a king who guards the earth with an unbent sceptre and keeps dharma with the learned has no higher joy",
+     "school": "general",
+     "line": 4,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "2907": {
+   "reading": "A ruler who takes his revenue in measure, as an elephant is fed balls of ripe paddy cut each day, loses nothing, whereas the elephant that grazes the field itself perishes; the land he has watered then pours out wealth.",
+   "concepts": [
+    "arasu",
+    "kodungol",
+    "selvam",
+    "uzhavu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "tattai_magan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a king who takes revenue in measure keeps the treasure flowing, while one who grabs ruins the field",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "2908": {
+   "reading": "Of rice and water, both called the life of men, he says the king with blazing spear, white umbrella and elephants is the good life of the earth that people dread.",
+   "concepts": [
+    "arasu",
+    "uyir",
+    "vendhan",
+    "naadu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "tattai_magan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "the king is the life of the world, as rice and water are the life of men",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "2909": {
+   "reading": "A driver who knows his chariot can run it long on a ploughed field, but if he drives without learning the ground it breaks and falls; kings are the same, he warns.",
+   "concepts": [
+    "arasu",
+    "arivu",
+    "aalvinai"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "tattai_magan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a king must know the land he governs as a charioteer knows the ground",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "2910": {
+   "reading": "Like an elephant that holds a hurled stone in its cheek, learned kings put away anger with mercy and keep what they desire hidden, which he calls the real wealth, addressing the heir as a bull among swordsmen.",
+   "concepts": [
+    "arivu",
+    "vekuli",
+    "arul",
+    "arasu"
+   ],
+   "nuance": "நாந்தக உழவர் is read as the warriors of the nandaka sword; the compound is rare.",
+   "uncertain": true,
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "tattai_magan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "wise kings put away anger with mercy and do not show what they desire",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "2911": {
+   "reading": "If he guards his people from blame, other kings will follow his path; fearing the loss of fame he should not speak even one false syllable, and he should give to those who have crossed the arts and raised their banner.",
+   "concepts": [
+    "vaaimai",
+    "pugazh",
+    "arasu",
+    "kalvi"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "tattai_magan"
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a king who keeps his people from blame is followed by other kings",
+     "school": "general",
+     "line": 1,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    },
+    {
+     "claim": "a king must not speak even one false syllable, for fear of losing fame",
+     "school": "general",
+     "line": 3,
+     "stance": "asserted",
+     "voiced_by": "civakan"
+    }
+   ]
+  },
+  "2912": {
+   "reading": "The king himself dresses a youth, son of a doe-eyed lady and splendid as a forest of deer-drawn chariots, and makes him crown prince like himself.",
+   "concepts": [
+    "arasu",
+    "makkal"
+   ],
+   "nuance": "The verse does not say whether this youth is the prince of 2905 or another son.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "yuvaraja_kaalai",
+     "form": "காளையை",
+     "line": 3
+    }
+   ],
+   "event": "Civakan makes a youth crown prince.",
+   "claims": []
+  },
+  "2913": {
+   "reading": "He decrees that the lion-like boy whom Ilakkanai bore, in a gold garland, shall become the great lord while a shower of gold is announced for the world to enjoy.",
+   "concepts": [
+    "arasu",
+    "eegai",
+    "makkal"
+   ],
+   "nuance": "பொன் மாரி is a lavish public gift; the golden shower comes from the king's treasure, not from the heavens.",
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "ilakkanai_magan",
+     "form": "சிறுவனை",
+     "line": 3
+    }
+   ],
+   "event": "Civakan orders his son by Ilakkanai made great lord and a golden shower proclaimed.",
+   "claims": []
+  },
+  "2914": {
+   "reading": "The younger of golden form, whom kings who never worshipped his anklets raised aloft, hands over the boy, honours him, crowns him with a lightning-bright crown and sets him on the throne among elephants massed like hills.",
+   "concepts": [
+    "arasu",
+    "vendhan",
+    "makkal"
+   ],
+   "nuance": "Who is the 'younger' of golden form is not stated. Nandan, who has just refused the kingdom, is the likelier giver and Civakan the one who crowns, but the verse does not separate them.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "nandattan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The boy is given over, honoured, crowned and enthroned.",
+   "claims": []
+  },
+  "2915": {
+   "reading": "The king, whose shoulders are like two diamond hills, gives all the princes of the line elephants whose tusks bear pearls, and the treasure and the country.",
+   "concepts": [
+    "eegai",
+    "selvam",
+    "arasu",
+    "makkal"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan gives treasure, country and elephants to the princes.",
+   "claims": []
+  },
+  "2916": {
+   "reading": "He sets the learned and blameless sons of his bowman comrades as the eyes of the young lord who will guard the four-sea earth.",
+   "concepts": [
+    "kalvi",
+    "thunai",
+    "amaichu",
+    "arasu"
+   ],
+   "nuance": "'Eyes' for counsellors is an old figure for a king's advisers; the comrades' sons inherit their fathers' place beside the throne.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan appoints his comrades' sons as the young king's counsellors.",
+   "claims": []
+  },
+  "2917": {
+   "reading": "The king, who ploughed the field of kings' chests and reaped elephants, enters the palace to release his women, whose right eyes begin to throb.",
+   "concepts": [
+    "pirivu",
+    "thuravu",
+    "kaamam"
+   ],
+   "nuance": "The throbbing of the right eye is told as an omen; the verse does not call it ill, and the closing phrase of line 4 is obscure.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan goes to the women's palace to release them, and their right eyes throb.",
+   "claims": []
+  },
+  "2918": {
+   "reading": "In a mansion roofed with gold and jewels whose peak the sun's fire grazes, the king tells his people to bring the gold-doll women.",
+   "concepts": [
+    "arasu",
+    "pirivu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan orders his wives brought to the mansion.",
+   "claims": []
+  },
+  "2919": {
+   "reading": "Garlands are listed one after another, of crystal, strung flowers, fragrant flowers, gold, pearls and jewels, hanging in masses.",
+   "concepts": [
+    "azhagu",
+    "selvam"
+   ],
+   "nuance": "The verse is a list with no verb; it runs into 2920.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2920": {
+   "reading": "Among long garlands, in incense smoke rising like foam, the women whose breasts could buy three worlds lie on soft beds laid in jewelled rooms.",
+   "concepts": [
+    "kaamam",
+    "azhagu",
+    "selvam"
+   ],
+   "nuance": "The picture of luxury is set just before the women are told of the king's intent.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "2921": {
+   "reading": "As the young women hail it as grace, bees hum, slim waists ache under shining girdles and gold anklets ring, the women stand before the king, bow at his feet and cry 'live long'.",
+   "concepts": [
+    "panivu",
+    "azhagu",
+    "arasu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": "நின்றார்",
+     "line": 4
+    }
+   ],
+   "event": "The women come before Civakan and bow at his feet.",
+   "claims": []
+  },
+  "2922": {
+   "reading": "Civakan addresses the women, with hair like peacock tails and moon-bright girdles, and bids them hold the wandering mind steady and hear the lasting good, which he calls nectar.",
+   "concepts": [
+    "thuravu",
+    "manam",
+    "thelivu"
+   ],
+   "speaker": {
+    "who": "civakan",
+    "form": null,
+    "line": null,
+    "addressee": "civakan_manaiviyar"
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan asks his wives to listen to what is lastingly good.",
+   "claims": []
+  },
+  "2923": {
+   "reading": "Reading the wheel-king's sign, the garlanded women lose their old beauty and fade like kalpaka garlands laid on a vine of burning fire.",
+   "concepts": [
+    "pirivu",
+    "nilaiyaamai",
+    "azhagu"
+   ],
+   "nuance": "வாயழல் உயிர்க்கும் may be the women's hot sighs or a figure for the king's wheel; I take it as sighs, which makes the simile one of grief.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan_manaiviyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The women read Civakan's intent and wither.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 2902,
+   "b": 2901,
+   "type": "tension",
+   "note": "2901 gives Nandan the heritage of the army; 2902 declines it together with heaven and release.",
+   "teaches": "Nandan answers a plain offer of a throne by ranking his brother's feet above every prize the work weighs elsewhere."
+  },
+  {
+   "a": 2902,
+   "b": "tirumanthiram:284",
+   "type": "tension",
+   "note": "2902 has Nandan turn away from release to worship a brother's feet; Tirumanthiram 284 has devotees who bow in devotion given release in return.",
+   "teaches": "One text makes devotion the door to release, the other makes devotion a choice that outweighs release.",
+   "gains": {
+    "a": "the verse's refusal of release reads as a break with the devotional bargain, which gives the refusal weight it lacks alone",
+    "b": "the Tirumanthiram claim that devotion earns release meets a devotee who does not ask for the reward"
+   }
+  },
+  {
+   "a": 2904,
+   "b": "naladiyar:42",
+   "type": "develops",
+   "note": "2904 calls the handsome body hollow and moves at once to choose an heir; Naladiyar 42 asks the viewer to look at a body whose skin hides its openings as a bag turned inside out.",
+   "teaches": "The quatrain teaches the contemplation and the verse shows it driving an abdication.",
+   "gains": {
+    "a": "the verse's bare word 'hollow' gets a concrete picture of what lies under the handsome surface",
+    "b": "the Naladiyar's meditation on the body gets a king who acts on it by giving up his throne"
+   }
+  },
+  {
+   "a": 2904,
+   "b": "siddhar:642",
+   "type": "qualifies",
+   "note": "2904 has Civakan act on the body's hollowness by handing on the realm; Siddhar 642 warns the heart that Yama takes the body from a golden throne and the gold stays behind.",
+   "teaches": "The Siddhar only warns that the throne cannot be carried away, while the epic king acts on the warning and descends from it.",
+   "gains": {
+    "a": "the verse's choice of an heir is shown as an answer to the death the Siddhar says takes the throne's owner",
+    "b": "the Siddhar's warning to the heart meets a ruler who actually leaves the gold throne before Yama comes"
+   }
+  },
+  {
+   "a": 2906,
+   "b": "kural:546",
+   "type": "develops",
+   "note": "2906 tells the heir to guard the earth with the sceptre unbent and calls the guarding of dharma a king's highest joy; Kural 546 says the unbent sceptre, not the spear, wins victory.",
+   "teaches": "The Kural says the straight sceptre wins, and the epic gives the heir a motive beyond winning, that it is the best joy a king can have.",
+   "gains": {
+    "a": "the verse's unbent sceptre gets a stated effect, victory, that it does not name",
+    "b": "the Kural's unbent sceptre gets a motive from inside the king's own heart, a joy of keeping dharma"
+   }
+  },
+  {
+   "a": 2907,
+   "b": "purananuru:184",
+   "type": "same_image",
+   "note": "2907 sets the elephant fed balls of ripe paddy against the elephant that grazes the field and perishes; Purananuru 184 uses the same two elephants for a king who takes his due against one who grabs.",
+   "teaches": "Both poets reach for the fed and the loose elephant, and the epic puts the old Sangam figure in the mouth of a king handing on power.",
+   "gains": {
+    "a": "the verse's image is shown to be an older figure of the taxing king, not the poet's own",
+    "b": "the Sangam poem's counsel to a king gets a speaker who is himself a king instructing his successor"
+   }
+  },
+  {
+   "a": 2907,
+   "b": "kural:552",
+   "type": "qualifies",
+   "note": "2907 says a king who takes revenue in measure keeps the treasure flowing; Kural 552 says a sceptred king's asking is like a robber's demand at spear-point.",
+   "teaches": "The Kural condemns heavy taking as robbery, and the epic gives a prudent reason for lightness: the field that is grazed bare yields nothing.",
+   "gains": {
+    "a": "the verse's advice to take in measure gains a moral name for the opposite, robbery under a sceptre",
+    "b": "the Kural's charge of robbery gains a worldly argument that the grabbing king ruins his own treasury"
+   }
+  },
+  {
+   "a": 2908,
+   "b": "purananuru:186",
+   "type": "develops",
+   "note": "2908 says that of rice and water, both life, the king is the world's good life; Purananuru 186 says neither rice nor water is life, the wide world lives by its king.",
+   "teaches": "The poem makes the king life by denying that rice and water are, while the epic keeps them as lives and adds the king beside them.",
+   "gains": {
+    "a": "the verse's ranking of the king above rice and water is shown as a traditional claim",
+    "b": "the Sangam poem's flat denial that rice or water is life gets a gentler form in which they remain lives and the king is a further one"
+   }
+  },
+  {
+   "a": 2909,
+   "b": "purananuru:185",
+   "type": "same_image",
+   "note": "2909 compares a king to a driver who must know the ground his chariot runs on; Purananuru 185 compares the realm to a cart that sinks if its driver cannot steer.",
+   "teaches": "Both set a skilled driver against one who does not know the way, and the epic ties the skill to knowing the land.",
+   "gains": {
+    "a": "the verse's chariot is shown to belong to an old comparison of kingship with driving",
+    "b": "the Sangam poem's cart gains the condition that the driver must know the ground, not only steer"
+   }
+  },
+  {
+   "a": 2910,
+   "b": "kural:590",
+   "type": "develops",
+   "note": "2910 says learned kings put away anger with mercy and keep what they desire hidden; Kural 590 says a king who honours a spy openly lets out his own secret.",
+   "teaches": "The Kural treats concealment as a rule of spycraft, and the epic treats it as a trained temper in which anger is put away and wishes are kept back.",
+   "gains": {
+    "a": "the verse's hiding of desire gains a working case in which showing favour betrays a secret",
+    "b": "the Kural's rule gains a temperament behind it, mercy that has put anger aside"
+   }
+  },
+  {
+   "a": 2911,
+   "b": "kural:292",
+   "type": "tension",
+   "note": "2911 forbids a king even one false syllable for fear of losing fame; Kural 292 allows falsehood to stand as truth if it yields good free of fault.",
+   "teaches": "One text bars all falsehood from the king, the other lets a blameless good justify it.",
+   "gains": {
+    "a": "the verse's total ban is shown to be stricter than the Kural's exception allows",
+    "b": "the Kural's exception gains a counter-case in which a king's word is watched by all and cannot be bent"
+   }
+  },
+  {
+   "a": 2912,
+   "b": 2904,
+   "type": "develops",
+   "note": "2904 orders the youth who will guard the world brought; 2912 shows the king dressing a youth and making him crown prince.",
+   "teaches": "The call for a successor is answered by the king's own hands adorning him."
+  },
+  {
+   "a": 2914,
+   "b": 2913,
+   "type": "develops",
+   "note": "2913 decrees that the boy become the great lord; 2914 crowns him and seats him among elephants.",
+   "teaches": "The decree is kept in a crowning that shows the whole court's weight behind the boy."
+  },
+  {
+   "a": 2916,
+   "b": 2906,
+   "type": "develops",
+   "note": "2906 tells the heir to keep dharma with learned poets; 2916 sets the learned, blameless sons of his father's comrades beside him.",
+   "teaches": "The advice to rule with the learned is carried out by the old king before he leaves."
+  },
+  {
+   "a": 2922,
+   "b": 2906,
+   "type": "qualifies",
+   "note": "2906 calls guarding dharma the king's highest joy; 2922 turns to the women and asks them to hear the lasting good.",
+   "teaches": "The same speaker ranks the joy of ruling highest for the heir and then offers a different good to those he leaves."
+  },
+  {
+   "a": 2923,
+   "b": 2918,
+   "type": "develops",
+   "note": "2918 orders the women brought without saying why; 2923 shows them fading once they read the king's intent.",
+   "teaches": "The summons hides its purpose, and the women's withering shows that his intent is a farewell."
+  },
+  {
+   "a": 2923,
+   "b": "naladiyar:392",
+   "type": "develops",
+   "note": "2923 has the women wither like garlands on a burning vine when they read the king's intent; Naladiyar 392 has women without their companions hear the rain's thunder as a funeral drum.",
+   "teaches": "The Naladiyar's grief comes after the absence, while the epic's grief comes before it, from the husband's choice.",
+   "gains": {
+    "a": "the verse's withering is shown as the same grief of parting that the Naladiyar describes, felt in advance",
+    "b": "the Naladiyar's sorrow of parting gains a case in which the man leaves by choice and is not away by chance"
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "2899, 2901-2908, 2910-2916, 2918 and 2923 are printed in eight half-lines in the source and were joined into four lines; the line splits are the editor's.",
+  "2900 (the cobra and drum simile), 2904 lines 2-3, 2910 (நாந்தக உழவர்), 2917 line 4 and 2920 line 3 are obscure or loosely constructed.",
+  "2912 and 2914 do not name the youth crowned or the giver; the identities here are inferred from 2905 and 2913."
+ ]
+}

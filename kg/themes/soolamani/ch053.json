@@ -1,0 +1,849 @@
+{
+ "chapter_no": 53,
+ "chapter_theme": "Under the threat of the discus-lord's army, the Vidyadhara king's council debates what kind of war to fight and the warriors boast in turn; Tivittan takes the war on himself, is given the last art, and receives the envoys' ultimatum for the maid.",
+ "cast": [
+  {
+   "id": "vinjaiyar_vendhan",
+   "tamil": "விஞ்சையர் வேந்தன்",
+   "role": "king of the Vidyadharas, here named by his banner"
+  },
+  {
+   "id": "amaichar",
+   "tamil": "மந்திரக் கிழவர்",
+   "role": "the council of counsellors"
+  },
+  {
+   "id": "srisenan",
+   "tamil": "சிரீசேனன்",
+   "role": "Srisenan, ruler of Tirunilai, the counsellor who speaks of the kinds of war"
+  },
+  {
+   "id": "southern_kings",
+   "tamil": "தென்மலை யரசர்",
+   "role": "the kings of the southern hills who march against the city"
+  },
+  {
+   "id": "otran",
+   "tamil": "ஒற்றன்",
+   "role": "the spy whose report is repeated"
+  },
+  {
+   "id": "vidyadhara_warriors",
+   "tamil": "அரசர்",
+   "role": "the unnamed warriors and kings of the council who boast in turn"
+  },
+  {
+   "id": "maindhar",
+   "tamil": "மைந்தர்",
+   "role": "the young warriors of the host"
+  },
+  {
+   "id": "acuvakanthan",
+   "tamil": "அச்சுவக் கிரீவன்",
+   "role": "Asvagriva, the discus-lord whose army is feared"
+  },
+  {
+   "id": "arukkakirthi",
+   "tamil": "அருக்கன்",
+   "role": "Arkakirti, who speaks to his bow ('red-ray namesake')"
+  },
+  {
+   "id": "vijayan",
+   "tamil": "விசயன்",
+   "role": "Vijayan, the plough-bearing elder brother of the dark-hued Tivittan"
+  },
+  {
+   "id": "tivittan",
+   "tamil": "இளையவன்",
+   "role": "Tivittan, the king's son-in-law and the young hero"
+  },
+  {
+   "id": "vidyadhara_king",
+   "tamil": "மன்னன்",
+   "role": "the Vidyadhara king, Tivittan's father-in-law"
+  },
+  {
+   "id": "devas",
+   "tamil": "தெய்வம்",
+   "role": "the gods of the air called by the mantra"
+  },
+  {
+   "id": "thoothar",
+   "tamil": "தூதுவர்",
+   "role": "the two envoys who arrive"
+  },
+  {
+   "id": "asvagriva_envoys",
+   "tamil": "தமரம்",
+   "role": "the envoys of the golden-discus king"
+  }
+ ],
+ "verses": {
+  "1181": {
+   "reading": "The king whose banner bears the great bird asks his council whether the coming fight should be a war of men, a war of gods, or one of both kinds, and what they resolve.",
+   "concepts": [
+    "padai",
+    "soozhchi",
+    "avai"
+   ],
+   "nuance": "The speaker is named only by his banner (the line-4 epithet), so the identification with the Vidyadhara king rests on the council scene of the preceding verses.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vinjaiyar_vendhan",
+    "form": "கொடியினானே",
+    "line": 4,
+    "addressee": "amaichar"
+   },
+   "agents": [
+    {
+     "id": "vinjaiyar_vendhan",
+     "form": "கொடியினானே",
+     "line": 4
+    }
+   ],
+   "event": "The Vidyadhara king puts to his council the question of what kind of war to wage against the discus-lord.",
+   "claims": []
+  },
+  "1182": {
+   "reading": "Hearing the king's question, the ruler of Tirunilai, named Srisenan, says that he will set out what the wise have laid down and then lays out the army's state in order.",
+   "concepts": [
+    "amaichu",
+    "avai",
+    "padai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "srisenan",
+     "form": "சேன னென்பான்",
+     "line": 1
+    }
+   ],
+   "event": "Srisenan rises to answer the king's question about the kind of war.",
+   "claims": []
+  },
+  "1183": {
+   "reading": "Srisenan divides the forces and the work of war into three, human, divine and both, and says the host and its kinds follow from this.",
+   "concepts": [
+    "padai",
+    "soozhchi"
+   ],
+   "nuance": "Lines 3 and 4 are hard to construe (the counting of 'four' and the leftover 'two forces'); the sense of a threefold division is firm, the further split is held loosely.",
+   "uncertain": true,
+   "speaker": {
+    "who": "srisenan",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "srisenan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Srisenan classes war and armies into human, divine and mixed kinds.",
+   "claims": []
+  },
+  "1184": {
+   "reading": "Of the four kinds of vidya (art), beginning with the missile art, he says there are two, a blazing flame and a bright sword, and that the last of what was set down is the great illusion.",
+   "concepts": [
+    "kalvi",
+    "padai"
+   ],
+   "nuance": "The list is compressed and the words for the arts are partly obscure; only the opening and the closing 'great illusion' (பரம மாயை) are clear.",
+   "uncertain": true,
+   "speaker": {
+    "who": "srisenan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "srisenan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Srisenan lists the arts of the Vidyadhara war: missile, flame, sword and illusion.",
+   "claims": []
+  },
+  "1185": {
+   "reading": "Srisenan breaks off the long account of weapons and war's kinds, since telling it all would run on, and says that what will happen is man against man, which is the better course, and that outside matters can be told later.",
+   "concepts": [
+    "padai",
+    "soozhchi"
+   ],
+   "speaker": {
+    "who": "srisenan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "srisenan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Srisenan cuts short his lecture and settles on a war of men against men.",
+   "claims": []
+  },
+  "1186": {
+   "reading": "The plan stated is that if the Vidyadharas fight with their arts, men will fight them with theirs; but men will fight men, with no trickery, and the king is told to carry this to the enemy and decide.",
+   "concepts": [
+    "aram",
+    "soozhchi",
+    "padai"
+   ],
+   "nuance": "Whether the 'telling' of line 4 is the king's message to the enemy or the council's advice to the king depends on a doubtful word at the end of line 4.",
+   "uncertain": true,
+   "speaker": {
+    "who": "srisenan",
+    "form": null,
+    "line": null,
+    "addressee": "vinjaiyar_vendhan"
+   },
+   "agents": [
+    {
+     "id": "srisenan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "A war of men without deceit is proposed and the king is asked to decide.",
+   "claims": [
+    {
+     "claim": "men who fight men should do so without trickery",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "srisenan"
+    }
+   ]
+  },
+  "1187": {
+   "reading": "A report reaches the city that the southern-hill kings, having gathered with their allies at the cool foot of the mountain, mean to burn the city, while the other kings are resolved to march.",
+   "concepts": [
+    "pagai",
+    "padai"
+   ],
+   "nuance": "The enemy's decision is told in indirect speech as an envoy's report, as the next verse confirms.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "southern_kings",
+     "form": "தென்மலை யரசர்",
+     "line": 3
+    }
+   ],
+   "event": "Enemy kings gather and set out to burn the Vidyadhara city.",
+   "claims": []
+  },
+  "1188": {
+   "reading": "After the spy's report the Vidyadhara king calls his kinsmen, the kings of the sea-ringed country and their sons, and lays the report before them as it was given.",
+   "concepts": [
+    "otru",
+    "amaichu",
+    "avai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "otran",
+     "form": "ஒற்றனாங்",
+     "line": 1
+    },
+    {
+     "id": "vinjaiyar_vendhan",
+     "form": "கோவே",
+     "line": 4
+    }
+   ],
+   "event": "The king summons his allies and repeats the spy's report.",
+   "claims": []
+  },
+  "1189": {
+   "reading": "A voice among the council says that if Asvagriva and the other kings, proud of their arts, arms, elephants and cavalry, march in anger to war, nothing could be better than that.",
+   "concepts": [
+    "maram",
+    "padai",
+    "vali"
+   ],
+   "nuance": "Unnamed speaker; the 'it is good' of line 4 is bravado, answered by the fearful voices in the verses that follow.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vidyadhara_warriors",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "acuvakanthan",
+     "form": "அச்சுவக் கிரீவ",
+     "line": 3
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a warrior welcomes the enemy's attack because it gives the fight he wants",
+     "school": "general",
+     "line": 4,
+     "stance": "reported",
+     "voiced_by": "vidyadhara_warriors"
+    }
+   ]
+  },
+  "1190": {
+   "reading": "Some soldiers say that the enemy's fierce forms, with fire-like hair, dark bodies and white fangs, are the shape of demons and that onlookers will flee at the sight of them.",
+   "concepts": [
+    "acham",
+    "padai",
+    "pagai"
+   ],
+   "nuance": "The sense of the last line (that even the Vidyadhara allies will recoil) is read loosely; the speakers are the council's soldiers speaking in turn, marked by என்பார்.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vidyadhara_warriors",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1191": {
+   "reading": "Others reply that they will glare, grin and charge in a rage, and that when the fight begins they will show that the foe's great frames hide small hearts.",
+   "concepts": [
+    "maram",
+    "acham",
+    "padai"
+   ],
+   "speaker": {
+    "who": "vidyadhara_warriors",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vidyadhara_warriors",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": null,
+   "claims": [
+    {
+     "claim": "a large body hides a small spirit that battle exposes",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "vidyadhara_warriors"
+    }
+   ]
+  },
+  "1192": {
+   "reading": "Even if the king of the gods himself came to fight them, they say, the fear is needless since it is their duty, and they bid those who tremble at the thought of enemies to say how short the work of arm and sword would be.",
+   "concepts": [
+    "maram",
+    "padai",
+    "anjaamai"
+   ],
+   "speaker": {
+    "who": "vidyadhara_warriors",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": [
+    {
+     "claim": "it is a warrior's duty to fight any enemy, god or man, without fear",
+     "school": "general",
+     "line": 2,
+     "stance": "reported",
+     "voiced_by": "vidyadhara_warriors"
+    }
+   ]
+  },
+  "1193": {
+   "reading": "The young warriors say their red swords, bathed in the foe's broad chests and thirsting like women's eyes, will drink the blood of the demons today and still their hunger.",
+   "concepts": [
+    "maram",
+    "padai",
+    "pasi"
+   ],
+   "nuance": "The simile of the sword's longing against that of the women's eyes (line 1) joins love and war images, as the poet does elsewhere in the epic.",
+   "speaker": {
+    "who": "maindhar",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "maindhar",
+     "form": "மைந்தர்",
+     "line": 1
+    }
+   ],
+   "event": null,
+   "claims": []
+  },
+  "1194": {
+   "reading": "In a long figure the speaker says that the army of Asvagriva will pour down like the stream called Wealth from his mountain-like brow and fall as a flood into the dark sea of the gem-blue lord's broad chest.",
+   "concepts": [
+    "padai",
+    "vali",
+    "selvam"
+   ],
+   "nuance": "The comparison is difficult: the 'stream' is the host streaming out of its chief and the 'sea' is the chest of the dark-hued lord Tivittan, but the grammar of lines 3 and 4 allows another reading.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vidyadhara_warriors",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1195": {
+   "reading": "Therefore, the speakers say, they will take the peacock-banner as a raft, bind the two rafts of the enemy kings, and with the fierce fire of wrath roaring over the flood will reap the fruit with their loved ones' eyes blooming.",
+   "concepts": [
+    "padai",
+    "vekuli",
+    "maram"
+   ],
+   "nuance": "The mixed images of raft, flood and fire in a kind of ferry-crossing are hard to unpick; the sense of rage as the fuel of war is firm.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vidyadhara_warriors",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "1196": {
+   "reading": "Looking at the spotless bow that guards the world, which he prizes above his life and strings with a bowstring named for shame, Arkakirti speaks.",
+   "concepts": [
+    "maanam",
+    "naanam",
+    "maram"
+   ],
+   "nuance": "நாண் is both the bowstring and the shame that guards honour, and the verse plays on the two.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "arukkakirthi",
+     "form": "செங்கதிர்ப் பெயரன்",
+     "line": 4
+    }
+   ],
+   "event": "Arkakirti addresses his bow before the war.",
+   "claims": [
+    {
+     "claim": "honour (shame at disgrace) is dearer than life to the warrior",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "arukkakirthi"
+    }
+   ]
+  },
+  "1197": {
+   "reading": "He says the clouds of wrath, with the bows bent as rainbows, will rain streams of arrows until flood-waters of blood run and the enemy kings tremble, and the kings will know.",
+   "concepts": [
+    "vekuli",
+    "maram",
+    "padai"
+   ],
+   "nuance": "His speech is a boast in the poet's war style; the poet does not say whether it comes true here.",
+   "speaker": {
+    "who": "arukkakirthi",
+    "form": null,
+    "line": null,
+    "addressee": "vidyadhara_warriors"
+   },
+   "agents": [
+    {
+     "id": "arukkakirthi",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Arkakirti boasts that his arrow-rain will drive the enemy to trembling.",
+   "claims": [
+    {
+     "claim": "rage in a warrior's heart gives force to the arrow-rain that wins",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "arukkakirthi"
+    }
+   ]
+  },
+  "1198": {
+   "reading": "The elder brother of the sea-hued lord, with a smile that shines like the sun, says that if the enemies are not gods, they are only mountain-worms before them and will stand in their way.",
+   "concepts": [
+    "maram",
+    "padai",
+    "perumai"
+   ],
+   "nuance": "The elder brother of the dark-hued one is Vijayan, by the epic's story (Tivittan's elder brother), and not named here.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayan",
+    "form": null,
+    "line": null,
+    "addressee": "vidyadhara_warriors"
+   },
+   "agents": [
+    {
+     "id": "vijayan",
+     "form": "வண்ணன்",
+     "line": 1
+    }
+   ],
+   "event": "Vijayan treats the enemies as worms and promises to meet them.",
+   "claims": []
+  },
+  "1199": {
+   "reading": "Vijayan says that, with the gods looking on in amazement, he will take his plough, cut furrows through the enemy chests as fields, work the blood into mud, sow victory in it and reap far-heard fame.",
+   "concepts": [
+    "maram",
+    "padai",
+    "pugazh"
+   ],
+   "nuance": "The farming image gives war as a harvest of fame, the same trope that makes the plough Vijayan's weapon.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vijayan",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "vijayan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Vijayan describes battle as ploughing and sowing in the enemy's blood.",
+   "claims": []
+  },
+  "1200": {
+   "reading": "As the other kings speak, the king's son worships his maternal uncle's feet and says that the matter rests with him, since whatever comes next will be settled between him and the enemy.",
+   "concepts": [
+    "maram",
+    "panivu",
+    "aalvinai"
+   ],
+   "nuance": "The 'king's son' and 'uncle' are read from the wedding and the family of the preceding chapters; the verse names neither.",
+   "uncertain": true,
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": "vidyadhara_king"
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": "மன்னவ குமரன்",
+     "line": 2
+    },
+    {
+     "id": "vidyadhara_king",
+     "form": "மாமன்",
+     "line": 2
+    }
+   ],
+   "event": "Tivittan bows to his father-in-law and takes the war as his own.",
+   "claims": []
+  },
+  "1201": {
+   "reading": "The Vidyadhara king answers that this is enough, but that the prince should still learn some high art held back for him, and the prince worships the king and takes it.",
+   "concepts": [
+    "kalvi",
+    "guru",
+    "panivu"
+   ],
+   "nuance": "The tutor and pupil roles come from the context: the king gives and the man who worships and takes is the prince.",
+   "uncertain": true,
+   "speaker": {
+    "who": "vidyadhara_king",
+    "form": null,
+    "line": null,
+    "addressee": "tivittan"
+   },
+   "agents": [
+    {
+     "id": "vidyadhara_king",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The Vidyadhara king gives the prince the remaining vidya, and he accepts it.",
+   "claims": []
+  },
+  "1202": {
+   "reading": "When the spell's letters are fixed in the prince's mind, gods of the air come to him asking what to do, and he honours them as the great art requires and bids them look to him when their work begins.",
+   "concepts": [
+    "kalvi",
+    "mandhiram",
+    "vazhipaadu"
+   ],
+   "nuance": "The mantra's power is reported as the story's marvel and is not argued as doctrine.",
+   "speaker": {
+    "who": "tivittan",
+    "form": null,
+    "line": null,
+    "addressee": "devas"
+   },
+   "agents": [
+    {
+     "id": "devas",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The vidya works and the gods appear before the prince.",
+   "claims": [
+    {
+     "claim": "a mastered mantra commands the gods who answer to it",
+     "school": "general",
+     "line": 1,
+     "stance": "reported",
+     "voiced_by": "tivittan"
+    }
+   ]
+  },
+  "1203": {
+   "reading": "As the art ripens and he stays like a part of the world that outlasts the ages, two envoys, with bags of arrows that burn the ear, come before him like the horizon bowed down.",
+   "concepts": [
+    "thoothu",
+    "padai"
+   ],
+   "nuance": "'Envoys' (தூதுவர்) are those of the discus-king who demands the girl in the next verse; the verse describes their manner more than their errand.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "thoothar",
+     "form": "தூதுவ",
+     "line": 3
+    }
+   ],
+   "event": "Two envoys arrive at the prince's presence.",
+   "claims": []
+  },
+  "1204": {
+   "reading": "The envoys, naming themselves as the men of the golden-discus king, offer a choice, to give up the maid or give up the life of the youth who loves her, and say one of the two must be named.",
+   "concepts": [
+    "thoothu",
+    "kaamam",
+    "aram"
+   ],
+   "nuance": "The ultimatum is the envoy's message as the sender's, and the poet does not endorse the claim.",
+   "speaker": {
+    "who": "asvagriva_envoys",
+    "form": null,
+    "line": null,
+    "addressee": "vidyadhara_warriors"
+   },
+   "agents": [
+    {
+     "id": "asvagriva_envoys",
+     "form": "றமரம்",
+     "line": 2
+    }
+   ],
+   "event": "The envoys put an ultimatum: the maid or the youth's life.",
+   "claims": [
+    {
+     "claim": "a king may demand a girl or the life of the man who loves her",
+     "school": "general",
+     "line": 3,
+     "stance": "reported",
+     "voiced_by": "asvagriva_envoys"
+    }
+   ]
+  },
+  "1205": {
+   "reading": "At the words about the maid, the hearers' eyes grow red and smoke and sparks pour out, and a fire that takes the life is said to have caught in the prince's heart.",
+   "concepts": [
+    "vekuli",
+    "kaamam",
+    "maram"
+   ],
+   "nuance": "The verse has only four lines of three-footed length (it ends without the usual fourth full line) and the ending 'என்பவே' reports what is said of the prince's heart.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tivittan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The prince flares into rage at the ultimatum.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 1181,
+   "b": 1200,
+   "type": "develops",
+   "note": "1181 asks which kind of war to fight; 1200 has the prince take the war upon himself.",
+   "teaches": "The council's question about the kind of war is answered when the prince claims the fight as his own, after the lords' boasts."
+  },
+  {
+   "a": 1183,
+   "b": 1185,
+   "type": "develops",
+   "note": "1183 sorts war into human, divine and mixed; 1185 lets the lecture go and settles on men against men.",
+   "teaches": "The long taxonomy of war is dropped for a single practical choice, so the lecture serves the decision."
+  },
+  {
+   "a": 1193,
+   "b": 1199,
+   "type": "same_image",
+   "note": "Both make a weapon a feeder: the sword drinks demons' blood to still its hunger, the plough turns blood into a sown field.",
+   "teaches": "Two boasts turn the same thing, blood, from a loss into food or seed, which shows how the council's talk makes killing a work of cultivation."
+  },
+  {
+   "a": 1204,
+   "b": 1205,
+   "type": "develops",
+   "note": "1204 puts the ultimatum; 1205 shows the prince's heart catching fire at it.",
+   "teaches": "The envoy's two options provoke an anger the verse shows as fire, so the ultimatum cannot be accepted."
+  },
+  {
+   "a": 1181,
+   "b": "kural:471",
+   "type": "develops",
+   "note": "The king asks which kind of war to fight; the couplet says weigh the work, one's own strength, the foe's and the allies' before acting.",
+   "teaches": "The Kural states the weighing as a rule; the epic shows a council doing it by splitting war into human, divine and mixed kinds.",
+   "gains": {
+    "a": "The council's question gains a stated rule behind its caution: the choice of war is a weighing and not a taste.",
+    "b": "The couplet gains a concrete case where the foe's strength includes divine arts, which its list of four strengths does not foresee."
+   }
+  },
+  {
+   "a": 1188,
+   "b": "kural:583",
+   "type": "develops",
+   "note": "The king gathers allies after the spy's report; the couplet says a king who does not gather through spies and judge has no victory ready.",
+   "teaches": "The epic shows a spy's report prompting a council, which is what the couplet calls the ground of victory.",
+   "gains": {
+    "a": "The scene gains a reason why the spy's word is repeated before the whole council: the report is the first step in the war.",
+    "b": "The couplet gains the next step it leaves out, what the ruler does with the report once he has it: he convenes allies."
+   }
+  },
+  {
+   "a": 1186,
+   "b": "purananuru:9",
+   "type": "qualifies",
+   "note": "A war of men without trickery is proposed; the Pandya Kudumi proclaims dharma to the weak before battle.",
+   "teaches": "Both limit war, one by limiting means, the other by sparing those who cannot fight.",
+   "gains": {
+    "a": "The proposal gains a second sort of limit, protection of non-combatants, which it does not name.",
+    "b": "The poem gains a limit on means, no trickery between combatants, beside its limit on who may be harmed."
+   }
+  },
+  {
+   "a": 1196,
+   "b": "kural:969",
+   "type": "qualifies",
+   "note": "Arkakirti's bowstring is named for shame (நாண்) and he prizes the bow above life; the couplet says the honourable give up life when honour is lost.",
+   "teaches": "The epic gives the hero's honour a physical thing, the string, that the couplet only states as a rule.",
+   "gains": {
+    "a": "The verse gains a statement of the stake: shame at disgrace outweighs life, with the bowstring as its image.",
+    "b": "The couplet gains an image of honour as something one wears and draws, the warrior's bowstring, instead of the yak's hair."
+   }
+  },
+  {
+   "a": 1197,
+   "b": "kural:305",
+   "type": "tension",
+   "note": "Arkakirti's wrath rains arrows and blood; the couplet says to guard against anger, which kills the one who does not.",
+   "teaches": "A speech that glories in wrath as war's fuel meets a rule that says it destroys its own bearer.",
+   "gains": {
+    "a": "The boast gains a warning it does not hear: the wrath that drives the arrows can also destroy the archer.",
+    "b": "The couplet gains a counter-case where anger is praised as a duty, so its advice is tested against the warrior's ethic."
+   }
+  },
+  {
+   "a": 1204,
+   "b": "kural:685",
+   "type": "qualifies",
+   "note": "The envoys give an ultimatum with no softening; the couplet says an envoy speaks briefly, removes offence and gets the good done.",
+   "teaches": "The envoys act as the opposite of the couplet's envoy, brief but offering only two harsh options, and it shows the rule's cost.",
+   "gains": {
+    "a": "The verse gains a measure by which the envoys' manner reads as a failure of diplomacy, not strength.",
+    "b": "The couplet gains an example where the envoy's brevity serves the sender's pride and brings about war instead of a good result."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Many verses (1181, 1182, 1185, 1191, 1196, 1197, 1201, 1202, 1204) were printed in eight half-lines and repaired into four.",
+  "Verses 1186, 1188, 1198 and 1199 had a stray pulli repaired.",
+  "Verse 1205 has a short last line pattern (about three feet), and verses 1183 and 1184 are compressed and loosely read.",
+  "Speakers of 1189 to 1195 are unnamed groups of warriors marked only by என்பார்."
+ ]
+}

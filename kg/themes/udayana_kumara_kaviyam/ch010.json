@@ -1,0 +1,632 @@
+{
+ "chapter_no": 10,
+ "chapter_theme": "Udayanan wins the war for Tharusakan of Magadha, is given Padumai and a dowry of troops, then wins the Panchala war, enters his city in honour and heals the fallen.",
+ "cast": [
+  {
+   "id": "udayanan",
+   "tamil": "உதயணன்",
+   "role": "the Vatsa king, called also the lord of the lute"
+  },
+  {
+   "id": "tharusakan",
+   "tamil": "தருசகன்",
+   "role": "king of Magadha, who gives his sister to Udayanan"
+  },
+  {
+   "id": "padumai",
+   "tamil": "பதுமை",
+   "role": "Tharusakan's sister, Udayanan's new bride"
+  },
+  {
+   "id": "urumannuvan",
+   "tamil": "உருமண்ணுவன்",
+   "role": "a minister of Udayanan"
+  },
+  {
+   "id": "magadha_spies",
+   "tamil": "ஒற்றர்",
+   "role": "the spies who report to the king"
+  },
+  {
+   "id": "varudakaran",
+   "tamil": "வருடகாரன்",
+   "role": "Udayanan's minister sent to the Panchala king"
+  },
+  {
+   "id": "panchala_king",
+   "tamil": "பாஞ்சாலன்",
+   "role": "the Panchala king, Udayanan's enemy"
+  },
+  {
+   "id": "pingalan_kadakan",
+   "tamil": "பிங்கலன் கடகன்",
+   "role": "two princes who join Udayanan with an army"
+  },
+  {
+   "id": "enemy_kings",
+   "tamil": "அரசர்",
+   "role": "the kings who bow to Udayanan"
+  },
+  {
+   "id": "city_women",
+   "tamil": "மங்கையர்",
+   "role": "the women of the city who bless the king"
+  },
+  {
+   "id": "bards",
+   "tamil": "பாடலவர்",
+   "role": "the bards who sing at the king's return"
+  }
+ ],
+ "verses": {
+  "169": {
+   "reading": "Spies report to the king what the men who camped by night did, how they went off and then gathered and came back and let go, and the king, hearing it, calls it the work of 'kar'.",
+   "concepts": [
+    "otru",
+    "arasu",
+    "soozhchi"
+   ],
+   "nuance": "The verse leaves out who the campers are and what was let go; the king's remark is a single word of judgment, and the reader must take the rest from the next verses.",
+   "uncertain": true,
+   "speaker": {
+    "who": "tharusakan",
+    "form": "அரசன்",
+    "line": 4,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "magadha_spies",
+     "form": "யொற்றர்கள்",
+     "line": 3
+    },
+    {
+     "id": "tharusakan",
+     "form": "அரசன்",
+     "line": 4
+    }
+   ],
+   "event": "Spies tell the king of the night-campers' doing, and the king names it a 'kar' deed.",
+   "claims": []
+  },
+  "170": {
+   "reading": "The minister Urumannuvan tells the fair-armoured kings the doings of the Vatsa lord, and the earth-king is glad in himself.",
+   "concepts": [
+    "amaichu",
+    "otru",
+    "inbam"
+   ],
+   "nuance": "The name is run together with a following word in the edition and the telling may be the spies' or the minister's; what is sure is that a report of Udayanan's deed makes the king glad.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "urumannuvan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "tharusakan",
+     "form": "தாரணி மன்னன்",
+     "line": 4
+    }
+   ],
+   "event": "Urumannuvan reports Udayanan's deed to the king, who rejoices.",
+   "claims": []
+  },
+  "171": {
+   "reading": "Full of unending joy, the king goes out to meet the lord of the sweet lute, embraces him in honour and vows to drive out the foes who will not come to terms.",
+   "concepts": [
+    "natpu",
+    "arasu",
+    "aanmai"
+   ],
+   "speaker": {
+    "who": "tharusakan",
+    "form": "நீக்குவ னென்றான்",
+    "line": 4,
+    "addressee": "udayanan"
+   },
+   "agents": [
+    {
+     "id": "tharusakan",
+     "form": "யரசனும்",
+     "line": 1
+    },
+    {
+     "id": "udayanan",
+     "form": "யாழ்ப் பெருமகன்",
+     "line": 2
+    }
+   ],
+   "event": "The king meets Udayanan, embraces him and promises to remove their enemies.",
+   "claims": []
+  },
+  "172": {
+   "reading": "Udayanan with his four-fold army marches and destroys the enemy force in battle, and the king returns with tribute.",
+   "concepts": [
+    "padai",
+    "maram",
+    "aanmai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "யுதயண குமரனும்",
+     "line": 1
+    },
+    {
+     "id": "tharusakan",
+     "form": "னரபதியு",
+     "line": 4
+    }
+   ],
+   "event": "Udayanan wins the battle and the king comes home with tribute.",
+   "claims": []
+  },
+  "173": {
+   "reading": "The king of Magadha, Tharusakan, welcomes the victorious Vatsa lord to his house and gives his sister, the lady Padumai, to him in the rite of the sacrifice.",
+   "concepts": [
+    "vaazhkkaithunai",
+    "natpu",
+    "eegai"
+   ],
+   "nuance": "The wedding is made by a sacrifice (வேள்வி), a rite the Jain poet narrates without comment; the marriage is also the reward for the victory of the last verse.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tharusakan",
+     "form": "தருசகனெ",
+     "line": 2
+    },
+    {
+     "id": "padumai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Tharusakan welcomes Udayanan and gives him his sister Padumai in marriage by the sacred fire.",
+   "claims": []
+  },
+  "174": {
+   "reading": "After the wedding adornments are made, the king gives a dowry of a thousand rutting elephants, two thousand horses and twelve hundred chariots.",
+   "concepts": [
+    "selvam",
+    "eegai",
+    "padai"
+   ],
+   "nuance": "The gift is counted in fighting strength; nothing in it is domestic wealth.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tharusakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Tharusakan gives the bridal gift of elephants, horses and chariots.",
+   "claims": []
+  },
+  "175": {
+   "reading": "The dowry goes on with sixty-eight thousand soldiers and a body of fragrant-garlanded women, and the king names Varudakari, Sakthi and Dharmadattan to go with it.",
+   "concepts": [
+    "selvam",
+    "padai",
+    "amaichu"
+   ],
+   "nuance": "The number of the women is given in a tangled phrase and I take it only as a few hundred.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tharusakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Tharusakan adds soldiers, women and three named men to the dowry.",
+   "claims": []
+  },
+  "176": {
+   "reading": "With Satyakayan and the ministers added, the king tells the four-fold force to follow Udayanan, and gives the bride's gift with a glad face and sends them off in good order.",
+   "concepts": [
+    "amaichu",
+    "padai",
+    "eegai"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tharusakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Tharusakan sends ministers and army with Udayanan and sets the bridal party on its way.",
+   "claims": []
+  },
+  "177": {
+   "reading": "The king speaks some gentle words in friendship, sends the lord off, and as the Vatsa king reaches his own land his younger brothers come to him.",
+   "concepts": [
+    "natpu",
+    "sutram",
+    "arasu"
+   ],
+   "nuance": "Line 1 is damaged, so who speaks the gentle words, and to whom, is read from the sense.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "tharusakan",
+     "form": "வேந்தனன்",
+     "line": 1
+    },
+    {
+     "id": "udayanan",
+     "form": "போந்தனன்",
+     "line": 3
+    }
+   ],
+   "event": "Tharusakan takes leave of Udayanan with kind words, and Udayanan reaches his border.",
+   "claims": []
+  },
+  "178": {
+   "reading": "Pingalan and Kadakan, two princes with twelve thousand brave troops, come to the lord, bow at his feet and join him, and the army is set in the field outside Kausambi.",
+   "concepts": [
+    "sutram",
+    "padai",
+    "panivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "pingalan_kadakan",
+     "form": "குமரரும்",
+     "line": 1
+    }
+   ],
+   "event": "Pingalan and Kadakan arrive with their army and join Udayanan before Kausambi.",
+   "claims": []
+  },
+  "179": {
+   "reading": "Udayanan calls Varudakaran and tells him to go to the Panchala king, who holds a proud army, and drive the crowned kings away by skill; when he goes with wealth they begin the war.",
+   "concepts": [
+    "amaichu",
+    "soozhchi",
+    "padai"
+   ],
+   "nuance": "Whether the 'strategy' is a bribe, or a stratagem, turns on the word பொருளின் in line 4; 'wealth' is the likelier use.",
+   "uncertain": true,
+   "speaker": {
+    "who": "udayanan",
+    "form": "னியம்புமிப்",
+    "line": 1,
+    "addressee": "varudakaran"
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "வத்தவ",
+     "line": 1
+    },
+    {
+     "id": "varudakaran",
+     "form": "வருடகா ரனை",
+     "line": 1
+    }
+   ],
+   "event": "Udayanan sends Varudakaran with wealth to the Panchala king to break the other kings, and the fighting starts.",
+   "claims": []
+  },
+  "180": {
+   "reading": "The minister goes and drives the kings off in battle, but the Panchala king comes against him with a four-fold force, and arrows from both bows shut out the sun.",
+   "concepts": [
+    "maram",
+    "padai",
+    "amaichu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "varudakaran",
+     "form": "அமைச்சனுஞ்",
+     "line": 1
+    },
+    {
+     "id": "panchala_king",
+     "form": "சாலனும்",
+     "line": 2
+    }
+   ],
+   "event": "Varudakaran drives off the kings; the Panchala king counterattacks and the arrows fly thick.",
+   "claims": []
+  },
+  "181": {
+   "reading": "The field is shown as a scene of ruin: white umbrellas fall, kings rise to heaven, ghouls dance, jackals feed, headless trunks dance, and the king's eyes grow red.",
+   "concepts": [
+    "maram",
+    "kootru",
+    "padai"
+   ],
+   "nuance": "The verse sets the dancing ghouls and feeding jackals beside the kings' ascent to heaven, so the carnage is told as a feast and a glory together; the poet gives no word of pity.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "மன்னவன்",
+     "line": 4
+    }
+   ],
+   "event": "The battle reaches its height, with corpses and scavengers filling the field.",
+   "claims": []
+  },
+  "182": {
+   "reading": "When the enemy army breaks and the Vatsa army roars, the beaten king comes forward again, and Udayanan, with his sword, feeds him to Death.",
+   "concepts": [
+    "maram",
+    "kootru",
+    "aanmai"
+   ],
+   "nuance": "Line 2's 'தோற்ற மன்னன்' is read as the beaten king; the verse does not say outright that he is the Panchala king.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "panchala_king",
+     "form": "மன்னன்",
+     "line": 2
+    },
+    {
+     "id": "udayanan",
+     "form": "வத்தவ ராசனே",
+     "line": 4
+    }
+   ],
+   "event": "Udayanan kills the Panchala king in single combat after his army is broken.",
+   "claims": []
+  },
+  "183": {
+   "reading": "Having cut down the foes and ordered the fighting to stop, the king looks over the field, sets out for the town with his old army about him, and comes smiling into the streets.",
+   "concepts": [
+    "arasu",
+    "padai",
+    "aanmai"
+   ],
+   "speaker": {
+    "who": "udayanan",
+    "form": "தவிர்கென",
+    "line": 1,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": "மார்பனு",
+     "line": 4
+    }
+   ],
+   "event": "Udayanan halts the war, inspects the field and rides back toward the city.",
+   "claims": []
+  },
+  "184": {
+   "reading": "Women climb up on the mansions on both sides to bless the king, bards sing, and he enters the golden palace among the banners.",
+   "concepts": [
+    "pugazh",
+    "arasu",
+    "inbam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "city_women",
+     "form": "மங்கையரு",
+     "line": 1
+    },
+    {
+     "id": "bards",
+     "form": "பாடலவர்",
+     "line": 3
+    },
+    {
+     "id": "udayanan",
+     "form": "யரசனும்",
+     "line": 4
+    }
+   ],
+   "event": "The townswomen and bards honour Udayanan and he enters his palace.",
+   "claims": []
+  },
+  "185": {
+   "reading": "The king has the fallen on the field smeared with oil and medicine and given wealth, the kings come and bow at his feet, and he wears the crown and rules in joy.",
+   "concepts": [
+    "arul",
+    "marundhu",
+    "sengol"
+   ],
+   "nuance": "The care for the wounded comes after the victory has been told as a feast of scavengers; both appear in the same chapter.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "udayanan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "enemy_kings",
+     "form": "லரசர்கள்",
+     "line": 3
+    }
+   ],
+   "event": "Udayanan tends the wounded and rewards them, kings submit, and he takes the crown.",
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": "169",
+   "b": "170",
+   "type": "develops",
+   "note": "The spies' bare report in 169 is followed in 170 by the minister's own telling of Udayanan's deed.",
+   "teaches": "The king's judgment in 169 rests on spies alone, and the minister's account in 170 is what turns it into joy."
+  },
+  {
+   "a": "171",
+   "b": "172",
+   "type": "develops",
+   "note": "The king's vow in 171 to remove the foes is carried out in 172 by Udayanan's army.",
+   "teaches": "The vow is kept by the guest and not by the host, so the alliance in this chapter runs on Udayanan's arms."
+  },
+  {
+   "a": "172",
+   "b": "173",
+   "type": "develops",
+   "note": "The victory in 172 is repaid in 173 with the king's sister as bride.",
+   "teaches": "The marriage reads as the price of the war: the bride is paid for the battle won."
+  },
+  {
+   "a": "173",
+   "b": "naga_kumara_kaviyam:114",
+   "type": "same_image",
+   "note": "In both epics a prince wins a battle for a king and the king rewards him with a bride (Gunavati there, Padumai here).",
+   "teaches": "The reward-bride after a won battle is a pattern the Jain kavyas share, which marks the match as a convention and not one king's habit."
+  },
+  {
+   "a": "176",
+   "b": "kural:381",
+   "type": "develops",
+   "note": "The ministers, army and friend the king adds to the dowry in 176 are the same things the Kural counts among a state's six parts.",
+   "teaches": "A king who has lost a state can rebuild its parts by marriage, which the Kural's list of parts does not say.",
+   "gains": {
+    "a": "The bride's gift reads as the means by which the exiled Udayanan regains the army and ministers of a ruler.",
+    "b": "The list of six parts gets a case in which allies and ministers are acquired by a marriage gift and not by long building."
+   }
+  },
+  {
+   "a": "170",
+   "b": "kural:588",
+   "type": "qualifies",
+   "note": "The spies' report in 169 is confirmed in 170 by a second voice, the minister's.",
+   "teaches": "The king rejoices only once a second voice agrees, which suggests the second confirmation is a habit of a court and not only a rule.",
+   "gains": {
+    "a": "The shift from spy to minister shows how a second source is found at a court, which the verse alone does not name.",
+    "b": "The rule of confirming a spy's finding gets an instance in which the second source is a friendly minister, not another spy."
+   }
+  },
+  {
+   "a": "179",
+   "b": "180",
+   "type": "develops",
+   "note": "The errand to the Panchala king in 179 is carried out in 180, where the kings are driven off and the Panchala army comes on.",
+   "teaches": "The errand is meant as stratagem and ends in open battle, which shows the plan did not remove the war."
+  },
+  {
+   "a": "180",
+   "b": "181",
+   "type": "develops",
+   "note": "The mounting arrows of 180 end in the ruin of 181.",
+   "teaches": "The sky-darkening arrow exchange is the cause of the field's ruin, so 181 reads as the cost of the fight in 180."
+  },
+  {
+   "a": "181",
+   "b": "siddhar:354",
+   "type": "same_image",
+   "note": "The jackals and ghouls feeding on the slain in 181 are the carrion eaters the Siddhar names when each claims the body as its own.",
+   "teaches": "A battle's bodies are the same flesh the Siddhar tells us is only meat for jackals and kites, so the glory of the field is also the end of the body.",
+   "gains": {
+    "a": "The field's feast of jackals is read as the fate of every body, not only of the slain king's soldiers.",
+    "b": "The Siddhar's abstract claim that the body is prey gets a scene in which the body is the price of a king's glory."
+   }
+  },
+  {
+   "a": "182",
+   "b": "183",
+   "type": "develops",
+   "note": "The killing of the beaten king in 182 is followed in 183 by the order to stop the war.",
+   "teaches": "The order to stop comes only after the enemy king is dead, so the killing ends the war and not the king's mercy."
+  },
+  {
+   "a": "185",
+   "b": "kural:546",
+   "type": "qualifies",
+   "note": "After the victory by arms, the king in 185 tends the wounded and rewards them, which is the work of a ruler's rule and not of the spear.",
+   "teaches": "The epic shows victory first by the sword and then by care, so the Kural's claim is borne out only in the part after the battle.",
+   "gains": {
+    "a": "The healing and gifts after the battle are given a name as the sceptre's work, which the verse does not claim.",
+    "b": "The couplet's contrast of spear and sceptre gets a case in which both are used one after the other."
+   }
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "Verse 173: the e-text prints this verse without its number; it stands between 172 and 174.",
+  "Verse 177, line 1: the phrase 'வெல்லுமண்ணலை ம்மிக' is damaged; the sense is taken from the rest of the verse.",
+  "Verse 170, line 2: the minister's name is run together with the next word.",
+  "Verse 175: the count of women is garbled in the edition."
+ ]
+}

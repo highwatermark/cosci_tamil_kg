@@ -1,0 +1,693 @@
+{
+ "chapter_no": 107,
+ "chapter_theme": "The wedding of Civakan and Ilakkanai: the bride is fanned and arrayed, her ornaments jest at the groom, the pavilion and emblems are set out, Civakan and the bride sit together, the groomer is introduced and shaves Civakan, and the pair bathe and dress.",
+ "cast": [
+  {
+   "id": "civakan",
+   "tamil": "சீவகன்",
+   "role": "the hero, now being wed to his maternal uncle's daughter"
+  },
+  {
+   "id": "ilakkanai",
+   "tamil": "இலக்கணை",
+   "role": "Govindan's daughter, the bride"
+  },
+  {
+   "id": "ilakkanai_thozhiyar",
+   "tamil": "மகளிர்",
+   "role": "the women appointed to attend and fan the bride and to sing for her"
+  },
+  {
+   "id": "ilakkanai_ani",
+   "tamil": "கிண்கிணி",
+   "role": "the bride's anklet, girdle and bells, personified as complainants"
+  },
+  {
+   "id": "mandapa_thozhilar",
+   "tamil": "விரித்தார்",
+   "role": "the workmen and men who raise the pavilion and set out the offerings"
+  },
+  {
+   "id": "marriage_women",
+   "tamil": "அரிவையர்கள்",
+   "role": "the women who stand at the corners of the pavilion with the auspicious emblems and swords"
+  },
+  {
+   "id": "navidhan",
+   "tamil": "வித்தகன்",
+   "role": "the skilled groomer who shaves and trims Civakan (his trade is not named in the verses)"
+  },
+  {
+   "id": "civakan_mannar",
+   "tamil": "மன்னர்",
+   "role": "the allied kings who attend and pour the bathing water"
+  }
+ ],
+ "verses": {
+  "2478": {
+   "reading": "The women appointed for the task fan the bride, the living doll, with sandal-wood palm fans framed in coral and pearl and edged with gold, and so cool her.",
+   "concepts": [
+    "azhagu",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ilakkanai_thozhiyar",
+     "form": "மகளிர்",
+     "line": 4
+    }
+   ],
+   "event": "Appointed women fan the bride to cool her.",
+   "claims": []
+  },
+  "2479": {
+   "reading": "Her lotus-red eyes and breasts are painted and sandal is smoothed over her, fine flowers are chosen to crown her, and he joins his hands to her in salutation.",
+   "concepts": [
+    "varaivu",
+    "azhagu"
+   ],
+   "nuance": "The verse names no one but the pronoun in 'அவன் அஞ்சலி செய்தான்'; that he is the groom, and that the painted figure is the bride and not an image, is read from the scene around it.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The bride is painted with sandal and crowned with flowers, and the groom salutes her.",
+   "claims": []
+  },
+  "2480": {
+   "reading": "The bride drinks in the song the garlanded women sing to the jewelled lute, the soft flute and the drum, and looks like a coral creeper that has blossomed in gems and pearls.",
+   "concepts": [
+    "azhagu",
+    "kaamam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ilakkanai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "ilakkanai_thozhiyar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The bride listens to the women's songs and music.",
+   "claims": []
+  },
+  "2481": {
+   "reading": "Her water-ringing anklet, her girdle and the croaking little bells together raise a clamour, as if crying that the girl has sown distress among the women.",
+   "concepts": [
+    "azhagu",
+    "kaamam"
+   ],
+   "nuance": "The ornaments are given a voice as petitioners; the verse leaves the 'women' of line 2 unspecified, so the complaint is a conceit about the bride's rivals or her own band.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ilakkanai_ani",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Her anklet, girdle and bells jangle together as if in complaint.",
+   "claims": []
+  },
+  "2482": {
+   "reading": "The ornaments fall silent once the sandal-breasted bride embraces the groom, saying that the king of kings has turned cruel-sceptred and will not even look into, or heed, the clamour they raised together.",
+   "concepts": [
+    "kodungol",
+    "arasu",
+    "punarchi"
+   ],
+   "nuance": "A lovers' jest cast in the language of petition and a bent sceptre (கொடுங்கோல்); the 'cruel king' is the bridegroom whose embrace silences the complaint, and no real injustice is told.",
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ilakkanai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": "வேந்தர் வேந்தன்",
+     "line": 2
+    },
+    {
+     "id": "ilakkanai_ani",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The bride embraces Civakan, and her jangling ornaments fall silent.",
+   "claims": []
+  },
+  "2483": {
+   "reading": "The narrator announces that he will now tell how the groom, whose mountain-like chest is hung with garlands and who sports with his garlanded bride as people sport in a world full of bliss, has the grown hair removed.",
+   "concepts": [
+    "varaivu",
+    "veedu"
+   ],
+   "nuance": "வீடுமலி உலகினவர் is read as the dwellers of a world rich in bliss, to which the sport of the pair is likened; whether வீடு means the Jain release or the heaven of the gods is not settled by the verse.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2484": {
+   "reading": "Workmen mark out and raise tall, mature, solid pillars, then spread over them an embroidered canopy like the serpent-world of the poison-jewelled nagas.",
+   "concepts": [
+    "varaivu",
+    "azhagu"
+   ],
+   "nuance": "The first two lines are hard to construe; the pillars are an inference from உயர்திண்காழ் and ஊன்றி.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "mandapa_thozhilar",
+     "form": "விரித்தார்",
+     "line": 4
+    }
+   ],
+   "event": "Workmen raise pillars and spread a canopy over the wedding pavilion.",
+   "claims": []
+  },
+  "2485": {
+   "reading": "They lay out the pavilion floor eight arm-lengths across with figures of tusker-heads and of the goddess of fortune, and complete the pattern with threads of fine gold dust.",
+   "concepts": [
+    "varaivu",
+    "selvam"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "mandapa_thozhilar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Workmen draw the auspicious figures on the pavilion floor.",
+   "claims": []
+  },
+  "2486": {
+   "reading": "Spear-bearing men set out, in the proper way, offerings of black gram, green gram, rice-cakes and pastries, fill a thousand measures with red rice, and trim the tender tips of arugu grass.",
+   "concepts": [
+    "varaivu",
+    "undi"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "mandapa_thozhilar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Men prepare the food offerings and the grass tips for the rite.",
+   "claims": []
+  },
+  "2487": {
+   "reading": "Fine-eyed women stand in the south-east holding, set in gems, the eight auspicious emblems: the pair of red fish, the sign of fortune, lamps, mirror, banner, drum, goad and pot.",
+   "concepts": [
+    "varaivu",
+    "azhagu"
+   ],
+   "nuance": "The list is read from the compressed words of lines 1 to 3 and the identification of each emblem is partly inferred; the verse itself says only that the eight are held.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "marriage_women",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Women stand in the south-east holding the eight auspicious emblems.",
+   "claims": []
+  },
+  "2488": {
+   "reading": "Two women stand in the north-east with drawn swords bright as lightning, while garlanded women in the south-west, their hearts melting as they gaze, hold up vessels of black gram and stand with joined hands.",
+   "concepts": [
+    "varaivu",
+    "vazhipaadu"
+   ],
+   "nuance": "உழுத்தகலும் is read as a vessel of gram; the reading is uncertain.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "marriage_women",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Sword-bearing women and hand-joined women take their places at two corners of the pavilion.",
+   "claims": []
+  },
+  "2489": {
+   "reading": "In the west stand gem plates brimming with hill-rice flowers, water and arugu grass hung with pearl strings; in the north, cotton and the instruments lie ready in proper turn.",
+   "concepts": [
+    "varaivu",
+    "selvam"
+   ],
+   "nuance": "Lines 2 and 3 (இருந்தவலிர் பஞ்சி, திருநோக்கும் வார முறைக் கருவி) are obscure; the cotton and instruments are inferred.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  },
+  "2490": {
+   "reading": "Civakan, great king beneath the sky-high umbrella, sits gently beside the spear-eyed bride on the couch, like the sun come to rest with the moon, their rays scattering.",
+   "concepts": [
+    "varaivu",
+    "punarchi",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": "மன்னர்",
+     "line": 4
+    },
+    {
+     "id": "ilakkanai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "Civakan and the bride sit together on the wedding couch.",
+   "claims": []
+  },
+  "2491": {
+   "reading": "The poet turns to a man who lived in a forest of fruit-groves and mango-boughs with a matted-haired sage, and who, leaving that kin, became by a rising curse a being in his own right.",
+   "concepts": [
+    "thavam"
+   ],
+   "nuance": "ஆவிதன் is the doubtful word; the verse is read as the origin of the groomer who appears from 2492, but it does not name his trade.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": "A sage's curse sends a man away from his kin in the forest.",
+   "claims": []
+  },
+  "2492": {
+   "reading": "Born in the line that sprouted from the sage's foot, he learned deeply, showed his skill in adornment, was given by the king the honour of riding an elephant to town, and was fit for the great palanquin.",
+   "concepts": [
+    "kelvi",
+    "kalvi",
+    "pugazh"
+   ],
+   "nuance": "கால்முளை (the foot's sprout) is the only mark of his caste; the verse does not call him a barber, and the king here is the unnamed ruler of the city.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "navidhan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan_mannar",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The groomer is honoured by the king with an elephant ride and a palanquin.",
+   "claims": []
+  },
+  "2493": {
+   "reading": "Hung with pearl strings and ornaments, his ear-rings swinging like golden swings, the skilled man has a doll-like woman pour water from a pitcher, anoints himself and bows to the white-speared king.",
+   "concepts": [
+    "varaivu",
+    "azhagu"
+   ],
+   "nuance": "The king is not named; he is taken as the king who presides at the wedding.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "navidhan",
+     "form": "வித்தகன்",
+     "line": 4
+    }
+   ],
+   "event": "The groomer is poured water, anoints himself and bows to the king before his work.",
+   "claims": []
+  },
+  "2494": {
+   "reading": "With Vajravannan as guard, the skilled man glares until the kings tremble, wishes the king life for ages, sprinkles water at the feet and loosens the groom's shining hair-knot.",
+   "concepts": [
+    "varaivu"
+   ],
+   "nuance": "Line 1 reads as the end of the sentence that line 4 begins; the verse is out of order or corrupt here and its sense is partly guessed.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "navidhan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The groomer loosens the groom's hair-knot after wishing the king long life.",
+   "claims": []
+  },
+  "2495": {
+   "reading": "At the auspicious moment the lord takes the golden razor by rule, presses the groom's right cheek without so much as a glance at the fragrant-haired bride, and then presses his left.",
+   "concepts": [
+    "varaivu",
+    "kaalam"
+   ],
+   "nuance": "The 'lord' of line 2 is the groom being shaved; the pressing of the cheek is the shaver's hand on it.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "navidhan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The groomer begins to shave Civakan, right cheek first, then left.",
+   "claims": []
+  },
+  "2496": {
+   "reading": "He sets down the golden razor, whets another on the stone, wipes it clean on his cloth, lays the gold-corded thing across his thigh, and takes the groom's hand with a turning grip.",
+   "concepts": [
+    "varaivu"
+   ],
+   "nuance": "The thigh-laid gold cord (பொன்ஞாண்) is hard to place; the verse is read as the razor's preparation.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "navidhan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The groomer whets and wipes the razor and takes up his work.",
+   "claims": []
+  },
+  "2497": {
+   "reading": "Working up and down and pressing in between, as one applies sandal, he dresses the face, which shines like the red sun rising out of the sea.",
+   "concepts": [
+    "varaivu",
+    "azhagu"
+   ],
+   "nuance": "கூற்றனான் முகம் is hard to read and is left out of the sense given here.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "navidhan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The groomer trims the groom's face until it shines.",
+   "claims": []
+  },
+  "2498": {
+   "reading": "Weighed down by the garland, held back by her shyness and by the shame of looking at the face of a man new to her, the bride, eyes on his feet, slowly and without fault lifts her moon-face.",
+   "concepts": [
+    "naanam",
+    "varaivu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "ilakkanai",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The bride lifts her face slowly to look at the groom.",
+   "claims": []
+  },
+  "2499": {
+   "reading": "As he shapes the brows into a rainbow, the twin fish-red eyes seem frightened birds about to flee into the sky.",
+   "concepts": [
+    "azhagu"
+   ],
+   "nuance": "The eyes belong to the groom under the razor, though the simile of frightened fish and birds could also be taken of the bride's glance.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "navidhan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The groomer trims the groom's brows.",
+   "claims": []
+  },
+  "2500": {
+   "reading": "Having removed the hair and finished the fine scissor-work, washed in water, the garlanded man praises the feet and withdraws.",
+   "concepts": [
+    "varaivu"
+   ],
+   "nuance": "The garlanded man (தாரன் மாலைக் கண்ணியான்) may be the groomer or the groom; I take him as the groomer.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "navidhan",
+     "form": null,
+     "line": null
+    }
+   ],
+   "event": "The groomer finishes, washes, praises the feet and withdraws.",
+   "claims": []
+  },
+  "2501": {
+   "reading": "The swan-gaited bride and the spear-bearing warrior, whose garland makes kings' umbrellas tremble, bathe from shining gem pitchers lifted by kings and dress in flowers, cloth and sandal.",
+   "concepts": [
+    "varaivu",
+    "azhagu"
+   ],
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [
+    {
+     "id": "civakan",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "ilakkanai",
+     "form": null,
+     "line": null
+    },
+    {
+     "id": "civakan_mannar",
+     "form": "வேந்த",
+     "line": 3
+    }
+   ],
+   "event": "Civakan and the bride bathe in water poured by kings and dress.",
+   "claims": []
+  },
+  "2502": {
+   "reading": "The pearl necklace that took over her whole body, heedless of its own kin, lived under her breasts and dried up (grew limp) where it touched the waist's bodice, and so adorned the spear-eyed doll.",
+   "concepts": [
+    "azhagu",
+    "kaamam"
+   ],
+   "nuance": "The conceit gives the necklace a will and a family; the grammar of lines 2 and 3 is hard.",
+   "uncertain": true,
+   "speaker": {
+    "who": "narrator",
+    "form": null,
+    "line": null,
+    "addressee": null
+   },
+   "agents": [],
+   "event": null,
+   "claims": []
+  }
+ },
+ "links": [
+  {
+   "a": 2482,
+   "b": "kural:553",
+   "type": "tension",
+   "note": "The bride's ornaments protest that the 'king of kings' turned cruel-sceptred will not look into or hear their clamour (ஆய்ந்து கேட்டு மருளான்); the couplet says the ruler who does not examine daily and do justice loses his land.",
+   "teaches": "The poet borrows the courtroom picture of the deaf king who spurns a plaint to make a lovers' jest, which shows how familiar the Kural's failed-hearing image was as a figure.",
+   "gains": {
+    "a": "the jest gets its edge from a standard of judging that the verse never states and the couplet supplies",
+    "b": "the couplet is shown being used by a poet to joke about, not to condemn, the king who will not hear, which its own grave tone cannot show"
+   }
+  },
+  {
+   "a": 2502,
+   "b": "naladiyar:120",
+   "type": "tension",
+   "note": "The wedding dresses the bride in a necklace that seems to own her body; the quatrain says nothing goes with a person but their deeds, and the body they guarded and adorned is no use when Death seizes it.",
+   "teaches": "Set beside the quatrain's warning, the wedding's lavish adornment of a body reads as the thing the Jain moral is aimed at, which the festive verse itself does not say.",
+   "gains": {
+    "a": "the adornment gains a counter-voice that questions what the necklace and razor-work are for",
+    "b": "the quatrain gains a concrete, joyous scene of body-adorning to push against, where it only names the body in general"
+   }
+  },
+  {
+   "a": 2490,
+   "b": 26,
+   "type": "develops",
+   "note": "The patikam promises that Civakan wins the maternal uncle's red-eyed daughter; here he sits beside the spear-eyed bride on the wedding couch.",
+   "teaches": "The patikam's one-line promise is cashed here as a full wedding in which the groom is shaved, bathed and seated, so the reader sees what 'winning her' came to in rite."
+  },
+  {
+   "a": 2502,
+   "b": 27,
+   "type": "tension",
+   "note": "The wedding spends its verses on adorning the body and delights of marriage; the patikam says that Civakan, afraid of kingship, hears dharma and renounces at the Knower's feet.",
+   "teaches": "The lavish bodily pleasure of this marriage is the very life that the patikam says Civakan will at the end put down, so each wedding adds weight to the later renunciation."
+  }
+ ],
+ "new_concepts": [],
+ "source_issues": [
+  "2478-2481 are fine, but 2491, 2492, 2493, 2494, 2495, 2496, 2501 and 2502 were printed in eight half-lines and joined into four (FLAG repaired); the joins read correctly except 2494.",
+  "2494 line 1 (நச்செயிற் றரவி னோக்கின் யொளிமுடிச் சிதறி னானே) reads as the end of the sentence that line 4 begins; lines are out of order or corrupt.",
+  "2489 lines 2-3 (இருந்தவலிர் பஞ்சி; திருநோக்கும் வார முறைக் கருவி) are obscure.",
+  "2491 ஆவிதன் and 2497 கூற்றனான் are doubtful words.",
+  "2478-2502 contain no verse that names the groomer's trade; he is inferred from the scene."
+ ]
+}
