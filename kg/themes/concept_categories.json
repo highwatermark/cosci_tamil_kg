@@ -1,0 +1,3315 @@
+{
+ "about": "Two-level taxonomy of the explorer's concepts: the four classical aims (aram, porul, inbam, veedu) and nine cross-cutting families. Every concept has one primary subtheme ('concepts') and may be listed as secondary ('also') elsewhere. Glosses and essence lines are written for this graph from its own concept glosses and verse readings; no translation or commentary text. 'keywords' are extra search words (Sanskrit or English equivalents, and the concept list's aliases).",
+ "categories": [
+  {
+   "id": "aram",
+   "tamil": "அறம்",
+   "name": "Virtue and conduct",
+   "gloss": "The first aim: right conduct, character, and the duties of the household and of friendship.",
+   "gloss_ta": "அறம்: ஒழுக்கம், பண்பு, இல்லறக் கடமை, நட்பு",
+   "essence": "Across the ethics books and beyond, virtue is judged by whether the mind matches the act: giving goes with a glad face, truth is measured by its harmlessness, restraint guards the senses, and harm done is said to return to the doer.",
+   "subthemes": [
+    {
+     "id": "aram.order",
+     "tamil": "அறநெறி",
+     "name": "Virtue as order",
+     "gloss": "Virtue named as the order of life: conduct, rule, fairness, measure and purity of means.",
+     "concepts": [
+      "aram",
+      "ozhukkam",
+      "aasaaram",
+      "nayan",
+      "naduvu",
+      "alavu",
+      "thooimai",
+      "payan"
+     ],
+     "also": []
+    },
+    {
+     "id": "aram.character",
+     "tamil": "பண்பு",
+     "name": "Character and its marks",
+     "gloss": "What makes a person great or small: worth, honour, shame, renown and blame.",
+     "concepts": [
+      "panpu",
+      "perumai",
+      "sirumai",
+      "saandraanmai",
+      "saandror",
+      "kayamai",
+      "kutram",
+      "maanam",
+      "naanam",
+      "pugazh",
+      "pazhi",
+      "aanmai"
+     ],
+     "also": [
+      "kudi"
+     ]
+    },
+    {
+     "id": "aram.restraint",
+     "tamil": "அடக்கம்",
+     "name": "Restraint and the vices",
+     "gloss": "Self-restraint and forbearance set against anger, envy, craving, pride and the vices of liquor and dice.",
+     "concepts": [
+      "adakkam",
+      "porai",
+      "panivu",
+      "vekuli",
+      "azhukkaaru",
+      "vehkaamai",
+      "avaa",
+      "ivaral",
+      "kal",
+      "soodhu",
+      "piranil"
+     ],
+     "also": [
+      "agandhai",
+      "pattru"
+     ]
+    },
+    {
+     "id": "aram.giving",
+     "tamil": "ஈகை",
+     "name": "Giving and kindness",
+     "gloss": "Giving, hospitality, service to the community, compassion and the kindly eye; and the refusal that withholds.",
+     "concepts": [
+      "eegai",
+      "virundhu",
+      "oppuravu",
+      "velanmai",
+      "karavu",
+      "arul",
+      "ali",
+      "kannottam",
+      "anbu"
+     ],
+     "also": [
+      "iravu",
+      "parisil"
+     ]
+    },
+    {
+     "id": "aram.speech",
+     "tamil": "சொல்",
+     "name": "Speech and truth",
+     "gloss": "The spoken word: truthfulness, pleasant and harsh speech, backbiting, rebuke and keeping a confidence.",
+     "concepts": [
+      "sol",
+      "vaaimai",
+      "inchol",
+      "kadunjol",
+      "purangooral",
+      "idithal",
+      "marai"
+     ],
+     "also": [
+      "solvanmai"
+     ]
+    },
+    {
+     "id": "aram.harm",
+     "tamil": "இன்னா செய்யாமை",
+     "name": "Not harming",
+     "gloss": "Not killing, not eating flesh, not stealing, not deceiving: the rules against harm and its return on the doer.",
+     "concepts": [
+      "kollaamai",
+      "pulaal",
+      "innaa",
+      "kolai",
+      "kalavu",
+      "vanjam",
+      "koodaozhukkam"
+     ],
+     "also": [
+      "vinai"
+     ]
+    },
+    {
+     "id": "aram.household",
+     "tamil": "இல்லறம்",
+     "name": "The household",
+     "gloss": "Household life: the wife and her steadfastness, children, kin and the chaste wife's power.",
+     "concepts": [
+      "ilvaazhkkai",
+      "vaazhkkaithunai",
+      "karpu",
+      "makkal",
+      "sutram",
+      "pathini",
+      "penvazhi"
+     ],
+     "also": [
+      "virundhu",
+      "kaimmai"
+     ]
+    },
+    {
+     "id": "aram.friendship",
+     "tamil": "நட்பு",
+     "name": "Friendship and enmity",
+     "gloss": "Choosing, testing and keeping friends; old bonds and their claims; quarrel and hidden enmity.",
+     "concepts": [
+      "natpu",
+      "pazhaimai",
+      "kizhamai",
+      "thunai",
+      "inam",
+      "aaraaydhal",
+      "igal",
+      "utpagai",
+      "nanri"
+     ],
+     "also": [
+      "pagai"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "porul",
+   "tamil": "பொருள்",
+   "name": "Wealth, polity and the world",
+   "gloss": "The second aim: the king and his state, war, wealth and work, patronage and the city.",
+   "gloss_ta": "பொருள்: அரசு, போர், செல்வம், உழைப்பு, கொடை, நகர்",
+   "essence": "Wealth is praised for what it lets one give and blamed when hoarded; the ethics books tie the king to the just sceptre as the world is tied to rain, and the puram poems measure a king by his gifts to bards and his valour in the field.",
+   "subthemes": [
+    {
+     "id": "porul.kingship",
+     "tamil": "அரசு",
+     "name": "Kingship and rule",
+     "gloss": "The king and his sceptre, just or bent; punishment, dread, tribute and the wheel of sovereignty.",
+     "concepts": [
+      "arasu",
+      "vendhan",
+      "mannar",
+      "sengol",
+      "kodungol",
+      "kol",
+      "oruththal",
+      "veruvu",
+      "thirai",
+      "aazhi"
+     ],
+     "also": [
+      "sirai"
+     ]
+    },
+    {
+     "id": "porul.statecraft",
+     "tamil": "அமைச்சு",
+     "name": "Counsel and statecraft",
+     "gloss": "Ministers, counsel, spies and envoys, the assembly, strength weighed, place and time for acting.",
+     "concepts": [
+      "amaichu",
+      "soozhchi",
+      "otru",
+      "thoothu",
+      "avai",
+      "solvanmai",
+      "vali",
+      "kaalam",
+      "idam",
+      "therithal"
+     ],
+     "also": [
+      "thitpam"
+     ]
+    },
+    {
+     "id": "porul.war",
+     "tamil": "போர்",
+     "name": "War and valour",
+     "gloss": "Armies and forts, valour and fearlessness, vows before battle, cattle raids, camps and the feasts of the field.",
+     "concepts": [
+      "padai",
+      "aran",
+      "maram",
+      "anjaamai",
+      "pagai",
+      "vanjinam",
+      "niraikol",
+      "magatpaal",
+      "perunjoru",
+      "paasarai",
+      "kalavelvi",
+      "moothil"
+     ],
+     "also": [
+      "nadukal",
+      "kalavazhi"
+     ]
+    },
+    {
+     "id": "porul.wealth",
+     "tamil": "செல்வம்",
+     "name": "Wealth and its loss",
+     "gloss": "Wealth, poverty and ruin; asking and being refused; bondage as the end of want.",
+     "concepts": [
+      "selvam",
+      "inmai",
+      "iravu",
+      "kedu",
+      "adimai"
+     ],
+     "also": [
+      "karavu",
+      "ivaral"
+     ]
+    },
+    {
+     "id": "porul.work",
+     "tamil": "முயற்சி",
+     "name": "Effort and work",
+     "gloss": "Effort, sustained labour and drive, set against sloth and heedlessness; farming as the base of all work.",
+     "concepts": [
+      "muyarchi",
+      "aalvinai",
+      "madi",
+      "pochchaappu"
+     ],
+     "also": [
+      "ookkam",
+      "uzhavu"
+     ]
+    },
+    {
+     "id": "porul.patronage",
+     "tamil": "பரிசில்",
+     "name": "Bards and patrons",
+     "gloss": "The bard's gift and the asking for it, the guide poem and the bard's small drum at the patron's gate.",
+     "concepts": [
+      "parisil",
+      "aatruppadai",
+      "kinai"
+     ],
+     "also": [
+      "kalavazhi",
+      "kaiyarunilai"
+     ]
+    },
+    {
+     "id": "porul.realm",
+     "tamil": "நாடு",
+     "name": "Land, city and market",
+     "gloss": "The realm as a living whole, the royal city and its market streets.",
+     "concepts": [
+      "naadu",
+      "nagar",
+      "angaadi"
+     ],
+     "also": [
+      "neri"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "inbam",
+   "tamil": "இன்பம்",
+   "name": "Love",
+   "gloss": "The third aim: secret love and marriage, union, the sulk, separation and longing.",
+   "gloss_ta": "இன்பம்: களவு, கற்பு, ஊடல், பிரிவு",
+   "essence": "Love is read through the body and the land: the friend speaks for the lovers, gossip and the mother's watch press toward marriage, slipping bangles and pallor testify in separation before the woman speaks, and the sulk is prized only in measure.",
+   "subthemes": [
+    {
+     "id": "inbam.desire",
+     "tamil": "காமம்",
+     "name": "Desire and beauty",
+     "gloss": "Desire and joy, beauty that wounds, the eyes as love's agents, infatuation and the heart spoken to.",
+     "concepts": [
+      "kaamam",
+      "inbam",
+      "azhagu",
+      "nalam",
+      "kan",
+      "anangu",
+      "mayal",
+      "nenju",
+      "uyir"
+     ],
+     "also": [
+      "anbu"
+     ]
+    },
+    {
+     "id": "inbam.kalavu",
+     "tamil": "களவு",
+     "name": "Secret love",
+     "gloss": "Love before marriage: meetings by day and night, union, reading signs, keeping it hidden, and the town's gossip.",
+     "concepts": [
+      "kalaviyal",
+      "punarchi",
+      "kuri",
+      "kurippu",
+      "nirai",
+      "alar",
+      "orutalai"
+     ],
+     "also": [
+      "marai",
+      "naanam"
+     ]
+    },
+    {
+     "id": "inbam.marriage",
+     "tamil": "வரைவு",
+     "name": "Toward marriage",
+     "gloss": "Pressing for marriage, the girl shut in, disclosure to the family, elopement, the palmyra horse and the wedding.",
+     "concepts": [
+      "varaivu",
+      "irserippu",
+      "arathodunirral",
+      "udanpokku",
+      "madal",
+      "vathuvai"
+     ],
+     "also": [
+      "karpu"
+     ]
+    },
+    {
+     "id": "inbam.separation",
+     "tamil": "பிரிவு",
+     "name": "Separation and longing",
+     "gloss": "Parting and its marks on the body: pallor, wasting, remembering, dreams and the sickness of love.",
+     "concepts": [
+      "pirivu",
+      "ninaivu",
+      "kaamanoy",
+      "pasalai",
+      "melivu",
+      "kanavu"
+     ],
+     "also": [
+      "maalai",
+      "paruvam"
+     ]
+    },
+    {
+     "id": "inbam.oodal",
+     "tamil": "ஊடல்",
+     "name": "The sulk and the other woman",
+     "gloss": "The lovers' quarrel, the courtesan and the man's straying, broken oaths.",
+     "concepts": [
+      "oodal",
+      "parathai",
+      "sool"
+     ],
+     "also": [
+      "penvazhi"
+     ]
+    },
+    {
+     "id": "inbam.signs",
+     "tamil": "நிமித்தம்",
+     "name": "Omens and divining love",
+     "gloss": "Omens, overheard words, the sand circle, and the diviners called to read a girl's illness.",
+     "concepts": [
+      "nimittam",
+      "virichi",
+      "koodal",
+      "velan",
+      "veri",
+      "agavanmagal"
+     ],
+     "also": []
+    },
+    {
+     "id": "inbam.festive",
+     "tamil": "விழவு",
+     "name": "Love at play",
+     "gloss": "The herders' bull-catch and round dance, water-play in the flood.",
+     "concepts": [
+      "erukol",
+      "kuravai",
+      "punalaadal"
+     ],
+     "also": [
+      "vizhavu"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "veedu",
+   "tamil": "வீடு",
+   "name": "Release",
+   "gloss": "The fourth aim: renouncing, the bonds that hold the soul, the round of births and the states of release.",
+   "gloss_ta": "வீடு: துறவு, பந்தம், பிறவி, முத்தி",
+   "essence": "Birth is the evil and craving its seed: the Naladiyar, Tirumanthiram and Siddhars counsel giving up and knowing, the Saiva texts grade release up to union with Siva, and the Jain and Buddhist epics give it to the three jewels or the perfections.",
+   "subthemes": [
+    {
+     "id": "veedu.renunciation",
+     "tamil": "துறவு",
+     "name": "Renunciation and austerity",
+     "gloss": "Giving up, austerity, attachment and its cutting, silence, and the ascetic's garb true or false.",
+     "concepts": [
+      "thuravu",
+      "thavam",
+      "pattru",
+      "mounam",
+      "vesham"
+     ],
+     "also": [
+      "koodaozhukkam",
+      "avaa"
+     ]
+    },
+    {
+     "id": "veedu.bonds",
+     "tamil": "பாசம்",
+     "name": "The bonds of the soul",
+     "gloss": "Impurity, the bound soul and its bonds, maya and the adjuncts that cling.",
+     "concepts": [
+      "malam",
+      "pasu",
+      "paasam",
+      "maayai",
+      "upaadhi"
+     ],
+     "also": [
+      "saarbu"
+     ]
+    },
+    {
+     "id": "veedu.births",
+     "tamil": "பிறவி",
+     "name": "Birth, rebirth and the next world",
+     "gloss": "The round of births, the four courses, the lowest life, hell, the gods and the world to come.",
+     "concepts": [
+      "piravi",
+      "marumai",
+      "naragam",
+      "thevar",
+      "kathi",
+      "nigodam"
+     ],
+     "also": [
+      "vinai"
+     ]
+    },
+    {
+     "id": "veedu.states",
+     "tamil": "முத்தி",
+     "name": "The states of release",
+     "gloss": "Release itself and its grades: union, nearness, stillness, bliss and fullness.",
+     "concepts": [
+      "veedu",
+      "padhamukthi",
+      "saayujjiyam",
+      "upasaantham",
+      "aanandham",
+      "pooranam"
+     ],
+     "also": [
+      "samaadhi"
+     ]
+    },
+    {
+     "id": "veedu.paths",
+     "tamil": "சன்மார்க்கம்",
+     "name": "Knowledge and the paths",
+     "gloss": "Liberating knowledge and the four Saiva paths, Vedanta and Siddhanta, the great saying.",
+     "concepts": [
+      "gnaanam",
+      "sariyai",
+      "kiriyai",
+      "sanmaarkkam",
+      "vedaantham",
+      "siththaantham",
+      "aarandham",
+      "thonthaththasi"
+     ],
+     "also": [
+      "meyyunarvu"
+     ]
+    },
+    {
+     "id": "veedu.void",
+     "tamil": "பாழ்",
+     "name": "Void and the absolute",
+     "gloss": "The void, the subtle, the beginningless and Brahman: names for what is left when all else goes.",
+     "concepts": [
+      "paazh",
+      "soonyam",
+      "sootcham",
+      "piramam",
+      "anaadhi"
+     ],
+     "also": []
+    },
+    {
+     "id": "veedu.shramana",
+     "tamil": "அறவாழி",
+     "name": "Jain and Buddhist ways",
+     "gloss": "The three jewels, the ford-makers, the perfections of the bodhisattva.",
+     "concepts": [
+      "arathanathirayam",
+      "theerththagarar",
+      "paaramithai"
+     ],
+     "also": [
+      "puththan",
+      "saathakam"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "udal",
+   "tamil": "உடல்",
+   "name": "The body and medicine",
+   "gloss": "The body as frame and as impurity, disease and remedy, food and hunger, the arts of long life.",
+   "gloss_ta": "உடல்: யாக்கை, நோய், மருந்து, உணவு, காயகற்பம்",
+   "essence": "The body is a frame that will not last, a leaking pot in the Naladiyar and a womb-born thing the Siddhars use to shame pride of caste; yet the Tirumanthiram and Siddhars also make it the field of practice, kept alive by breath, kalpa and nectar.",
+   "subthemes": [
+    {
+     "id": "udal.frame",
+     "tamil": "யாக்கை",
+     "name": "The body's frame",
+     "gloss": "The perishable body, its forming in the womb and the impurity it is born from.",
+     "concepts": [
+      "yaakkai",
+      "karu",
+      "thoomai"
+     ],
+     "also": [
+      "andapindam"
+     ]
+    },
+    {
+     "id": "udal.disease",
+     "tamil": "நோய்",
+     "name": "Disease and remedy",
+     "gloss": "Sickness and the medicine that answers it.",
+     "concepts": [
+      "noy",
+      "marundhu"
+     ],
+     "also": [
+      "kaamanoy"
+     ]
+    },
+    {
+     "id": "udal.food",
+     "tamil": "உண்டி",
+     "name": "Food and hunger",
+     "gloss": "Hunger, eating and the measure of food.",
+     "concepts": [
+      "pasi",
+      "undi"
+     ],
+     "also": [
+      "pulaal",
+      "kal"
+     ]
+    },
+    {
+     "id": "udal.longevity",
+     "tamil": "காயகற்பம்",
+     "name": "Long life and alchemy",
+     "gloss": "The span of life, the rejuvenating kalpa, alchemy and the nectar said to preserve the body.",
+     "concepts": [
+      "aayul",
+      "karpam",
+      "vaadham",
+      "amudham"
+     ],
+     "also": [
+      "mooppu"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ullam",
+   "tamil": "உள்ளம்",
+   "name": "Mind, perception and consciousness",
+   "gloss": "The mind and its steadiness, delusion, the senses, and the states of consciousness.",
+   "gloss_ta": "உள்ளம்: மனம், புலன், மயக்கம், அவத்தை",
+   "essence": "The mind decides what an act is worth: outward observance without a clean mind is show; Tirumular maps waking, dream and sleep onto the tattvas, and the debate epics argue whether awareness is a lasting soul, a stream of moments or the elements combined.",
+   "subthemes": [
+    {
+     "id": "ullam.mind",
+     "tamil": "மனம்",
+     "name": "The mind and its steadiness",
+     "gloss": "The inner state of mind, equanimity, settled trust and fear as a moral faculty.",
+     "concepts": [
+      "manam",
+      "samanilai",
+      "thelivu",
+      "acham"
+     ],
+     "also": [
+      "nenju"
+     ]
+    },
+    {
+     "id": "ullam.resolve",
+     "tamil": "ஊக்கம்",
+     "name": "Drive and firmness",
+     "gloss": "Energy of mind and firmness in execution.",
+     "concepts": [
+      "ookkam",
+      "thitpam"
+     ],
+     "also": [
+      "muyarchi"
+     ]
+    },
+    {
+     "id": "ullam.delusion",
+     "tamil": "மயக்கம்",
+     "name": "Ego and delusion",
+     "gloss": "Pride and the ego's self-importance, folly and petty understanding.",
+     "concepts": [
+      "agandhai",
+      "pedhaimai",
+      "pullarivu"
+     ],
+     "also": [
+      "mayal",
+      "maayai"
+     ]
+    },
+    {
+     "id": "ullam.perception",
+     "tamil": "புலன்",
+     "name": "Senses and perception",
+     "gloss": "The sense faculties and the perception of what is truly so.",
+     "concepts": [
+      "pori",
+      "meyyunarvu"
+     ],
+     "also": [
+      "kurippu",
+      "kan"
+     ]
+    },
+    {
+     "id": "ullam.states",
+     "tamil": "அவத்தை",
+     "name": "States of consciousness",
+     "gloss": "Waking, dream, sleep and beyond; the three gunas matched to them.",
+     "concepts": [
+      "avaththai",
+      "mukkunam"
+     ],
+     "also": [
+      "kanavu",
+      "samaadhi"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "irai",
+   "tamil": "இறை",
+   "name": "The divine and devotion",
+   "gloss": "The Lord and his grace, devotion and service, gods and spirits, shrines and emblems, sects and their harmony.",
+   "gloss_ta": "இறை: இறைவன், அருள், பத்தி, தெய்வங்கள், தலம்",
+   "essence": "The Kural names the Lord only by epithet, the Paripadal and Thiruppugazh praise Thirumal and Murugan, and the Tirumanthiram teaches Siva pervading all; across them grace comes to those who take refuge at his feet, while the Siddhars mock sect and outward rite.",
+   "subthemes": [
+    {
+     "id": "irai.lord",
+     "tamil": "இறைவன்",
+     "name": "The Lord",
+     "gloss": "God named and unnamed: Siva, his power, his five acts, his dance, his light and his pervading all things.",
+     "concepts": [
+      "iraivan",
+      "sivam",
+      "pathi",
+      "saththi",
+      "aindhozhil",
+      "thirukkoothu",
+      "oli",
+      "viyaabagam"
+     ],
+     "also": [
+      "piramam"
+     ]
+    },
+    {
+     "id": "irai.grace",
+     "tamil": "திருவருள்",
+     "name": "Grace and refuge",
+     "gloss": "The Lord's grace, his holy feet and the act of taking refuge in him.",
+     "concepts": [
+      "thiruvarul",
+      "thiruvadi",
+      "adaikkalam"
+     ],
+     "also": [
+      "arul"
+     ]
+    },
+    {
+     "id": "irai.devotion",
+     "tamil": "பத்தி",
+     "name": "Devotion and service",
+     "gloss": "Devotion, service, the community of devotees, worship, reciting the name, and reviling the holy.",
+     "concepts": [
+      "paththi",
+      "thondu",
+      "adiyaar",
+      "vazhipaadu",
+      "thirunaamam",
+      "nindhai"
+     ],
+     "also": [
+      "mayal"
+     ]
+    },
+    {
+     "id": "irai.deities",
+     "tamil": "தெய்வம்",
+     "name": "Gods, goddesses and spirits",
+     "gloss": "Murugan's bride, the war goddess, guardian spirits and the Buddha worshipped at his seat.",
+     "concepts": [
+      "valli",
+      "kotravai",
+      "pootham",
+      "puththan"
+     ],
+     "also": [
+      "anangu",
+      "kootru",
+      "thevar",
+      "velan"
+     ]
+    },
+    {
+     "id": "irai.shrines",
+     "tamil": "தலம்",
+     "name": "Shrines and emblems",
+     "gloss": "Sacred sites, the lingam, holy ash, holy waters and the monastery.",
+     "concepts": [
+      "thalam",
+      "ilingam",
+      "thiruneeru",
+      "theerththam",
+      "madam"
+     ],
+     "also": [
+      "vizhavu"
+     ]
+    },
+    {
+     "id": "irai.sects",
+     "tamil": "சமயம்",
+     "name": "Sects and their harmony",
+     "gloss": "Religious systems, Saivism, and the Siddhar stance of concord among faiths.",
+     "concepts": [
+      "samayam",
+      "saivam",
+      "samarasam"
+     ],
+     "also": [
+      "siththaantham"
+     ]
+    },
+    {
+     "id": "irai.cosmology",
+     "tamil": "தத்துவம்",
+     "name": "Saiva cosmology",
+     "gloss": "The tattvas and paths, nada and bindu, the cosmic egg, sun, space and the eight directions.",
+     "concepts": [
+      "thaththuvam",
+      "aththuvaa",
+      "naadham",
+      "vindhu",
+      "andam",
+      "aadhiththan",
+      "aakaasam",
+      "thisai"
+     ],
+     "also": [
+      "chakkaravaalam"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yogam",
+   "tamil": "யோகம்",
+   "name": "Practice and yoga",
+   "gloss": "Breath, the channels and centres of the yogic body, the limbs of yoga, mantra and the guru's secret teaching.",
+   "gloss_ta": "யோகம்: வாசி, நாடி, குண்டலினி, மந்திரம், குரு",
+   "essence": "In the Tirumanthiram and the Siddhar songs the breath is the practice: ridden like a horse, held in the channels and raised through the centres to the crown where sun and moon become one, written in cipher and given only by a guru.",
+   "subthemes": [
+    {
+     "id": "yogam.breath",
+     "tamil": "வாசி",
+     "name": "Breath",
+     "gloss": "The breath ridden like a horse, prana and its control, the channels, the central channel and the inner gate.",
+     "concepts": [
+      "vaasi",
+      "praanan",
+      "naadi",
+      "suzhumunai",
+      "kalai",
+      "vaasal"
+     ],
+     "also": [
+      "aayul"
+     ]
+    },
+    {
+     "id": "yogam.centres",
+     "tamil": "ஆதாரம்",
+     "name": "Centres and the coiled power",
+     "gloss": "Kundalini, the six supports, the maiden in the body, the crown of the egg, and the body as cosmos.",
+     "concepts": [
+      "kundalini",
+      "aadhaaram",
+      "vaalai",
+      "andavuchi",
+      "andapindam"
+     ],
+     "also": [
+      "vindhu",
+      "amudham"
+     ]
+    },
+    {
+     "id": "yogam.limbs",
+     "tamil": "அட்டாங்கம்",
+     "name": "The limbs of yoga",
+     "gloss": "Yoga, posture, meditation, absorption, gestures and the powers it brings.",
+     "concepts": [
+      "yogam",
+      "aasanam",
+      "thiyaanam",
+      "samaadhi",
+      "muththirai",
+      "siththi"
+     ],
+     "also": []
+    },
+    {
+     "id": "yogam.mantra",
+     "tamil": "மந்திரம்",
+     "name": "Mantra and sound",
+     "gloss": "The mantra, the five letters, Om, the drawn diagram and the spell-lore of the Vidyadharas.",
+     "concepts": [
+      "mandhiram",
+      "panchaakkaram",
+      "piranavam",
+      "chakkaram",
+      "vinjai"
+     ],
+     "also": [
+      "naadham"
+     ]
+    },
+    {
+     "id": "yogam.teacher",
+     "tamil": "குரு",
+     "name": "The guru and the secret word",
+     "gloss": "The guru and the disciple, and the Siddhars' cipher that hides the practice.",
+     "concepts": [
+      "guru",
+      "seedan",
+      "paripaashai"
+     ],
+     "also": [
+      "sootcham",
+      "madam"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "iyarkai",
+   "tamil": "இயற்கை",
+   "name": "Nature and landscape",
+   "gloss": "Rain and water, the seasons and hours, the wild road and the work of the land.",
+   "gloss_ta": "இயற்கை: மழை, பருவம், நெறி, திணையும் கருவும்",
+   "essence": "Rain is the condition of life and the image of just rule; in the akam poems the seasons and the hour of evening keep time for love, the promised rains stand as proof of the absent man's return, and the wild road carries both danger and knowledge.",
+   "subthemes": [
+    {
+     "id": "iyarkai.rain",
+     "tamil": "மழை",
+     "name": "Rain",
+     "gloss": "Rain as the condition of life and of virtue.",
+     "concepts": [
+      "mazhai"
+     ],
+     "also": [
+      "sengol"
+     ]
+    },
+    {
+     "id": "iyarkai.seasons",
+     "tamil": "பருவம்",
+     "name": "Seasons and hours",
+     "gloss": "The cold season, young spring, the promised season of return and evening.",
+     "concepts": [
+      "koothir",
+      "ilavenil",
+      "paruvam",
+      "maalai"
+     ],
+     "also": []
+    },
+    {
+     "id": "iyarkai.road",
+     "tamil": "நெறி",
+     "name": "The wild road",
+     "gloss": "The road through wild country and the knowledge that lets a traveller pass.",
+     "concepts": [
+      "neri"
+     ],
+     "also": [
+      "udanpokku"
+     ]
+    },
+    {
+     "id": "iyarkai.land",
+     "tamil": "உழவு",
+     "name": "Land and its work",
+     "gloss": "Ploughing and the base of society.",
+     "concepts": [
+      "uzhavu"
+     ],
+     "also": [
+      "muyarchi"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "samugam",
+   "tamil": "சமூகம்",
+   "name": "Society, caste and ritual",
+   "gloss": "Birth and lineage, pollution and purity, sacrifice and offering, vows and curses, women's lot and captivity.",
+   "gloss_ta": "சமூகம்: பிறப்பு, குடி, தீட்டு, வேள்வி, நோன்பு",
+   "essence": "The books pull both ways on birth: the Kural makes conduct flow from good family and also makes family a name earned by conduct, the Siddhars turn the womb's impurity against caste, and the Jain epics turn on refusing blood sacrifice.",
+   "subthemes": [
+    {
+     "id": "samugam.birth",
+     "tamil": "பிறப்பு",
+     "name": "Birth, lineage and caste",
+     "gloss": "Birth as social origin, lineage, the Brahmin, old houses of fighters, and ritual pollution.",
+     "concepts": [
+      "pirappu",
+      "kudi",
+      "andhanar",
+      "theettu"
+     ],
+     "also": [
+      "thoomai",
+      "moothil"
+     ]
+    },
+    {
+     "id": "samugam.sacrifice",
+     "tamil": "வேள்வி",
+     "name": "Sacrifice and offering",
+     "gloss": "The Vedic sacrifice and the fire oblation, blood offerings to fierce deities, human sacrifice and rites for the dead.",
+     "concepts": [
+      "velvi",
+      "aaguthi",
+      "bali",
+      "narabali",
+      "siraaththam",
+      "piraayachchiththam"
+     ],
+     "also": [
+      "kalavelvi"
+     ]
+    },
+    {
+     "id": "samugam.vows",
+     "tamil": "நோன்பு",
+     "name": "Vows, oaths and curses",
+     "gloss": "Religious vows, fasting unto death, curses that bind and blessings that wish well.",
+     "concepts": [
+      "nonbu",
+      "unnaanonbu",
+      "saabam",
+      "vaazhthu"
+     ],
+     "also": [
+      "sool",
+      "vanjinam"
+     ]
+    },
+    {
+     "id": "samugam.women",
+     "tamil": "பெண்",
+     "name": "Women's lot",
+     "gloss": "Widowhood and its observances, and women who sell intimacy.",
+     "concepts": [
+      "kaimmai",
+      "varaivinmagalir"
+     ],
+     "also": [
+      "irserippu",
+      "pathini",
+      "karpu"
+     ]
+    },
+    {
+     "id": "samugam.public",
+     "tamil": "விழவு",
+     "name": "Festivals and public life",
+     "gloss": "The festival of a god or a town.",
+     "concepts": [
+      "vizhavu"
+     ],
+     "also": [
+      "angaadi",
+      "koothu"
+     ]
+    },
+    {
+     "id": "samugam.captivity",
+     "tamil": "சிறை",
+     "name": "Bondage and prison",
+     "gloss": "The king's prison and captivity.",
+     "concepts": [
+      "sirai"
+     ],
+     "also": [
+      "adimai"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aivu",
+   "tamil": "அறிவாய்வு",
+   "name": "Knowledge and debate",
+   "gloss": "Learning and its lack, the means of valid knowledge, debate between schools, and the schools' accounts of the world.",
+   "gloss_ta": "அறிவாய்வு: கல்வி, அளவை, வாதம், சமயக் கொள்கைகள்",
+   "essence": "Learning is the wealth that does not decay, yet conduct can cancel it and fate can limit it; the Manimekalai and Neelakesi stage formal debate in which Buddhist, Jain, Ajivika, Sankhya and materialist views are tried by the means of valid knowledge.",
+   "subthemes": [
+    {
+     "id": "aivu.learning",
+     "tamil": "கல்வி",
+     "name": "Learning",
+     "gloss": "Learning by study and by listening, understanding, and the state of the unlearned.",
+     "concepts": [
+      "kalvi",
+      "kelvi",
+      "arivu",
+      "kallaamai"
+     ],
+     "also": [
+      "pedhaimai",
+      "pullarivu"
+     ]
+    },
+    {
+     "id": "aivu.pramana",
+     "tamil": "அளவை",
+     "name": "Means of knowing",
+     "gloss": "Valid means of knowledge, false semblances in inference, and formal debate before the king.",
+     "concepts": [
+      "alavai",
+      "aabaasam",
+      "vaadhu"
+     ],
+     "also": [
+      "ilakkanai"
+     ]
+    },
+    {
+     "id": "aivu.buddhist",
+     "tamil": "பௌத்தம்",
+     "name": "Buddhist accounts",
+     "gloss": "Dependent arising, the aggregates, the moment, the continuum, traces, causes that ripen and the world-system.",
+     "concepts": [
+      "saarbu",
+      "kandham",
+      "kanam",
+      "santhaanam",
+      "vaasanai",
+      "ethu",
+      "chakkaravaalam"
+     ],
+     "also": []
+    },
+    {
+     "id": "aivu.jain",
+     "tamil": "சமணம்",
+     "name": "Jain accounts",
+     "gloss": "Extended existents, standpoints, and the clairvoyance of the Jain ascetic.",
+     "concepts": [
+      "aththikaayam",
+      "nayam",
+      "avathi"
+     ],
+     "also": [
+      "kathi",
+      "nigodam",
+      "pori"
+     ]
+    },
+    {
+     "id": "aivu.schools",
+     "tamil": "சமயவாதம்",
+     "name": "Other schools",
+     "gloss": "Ajivika fixity, Sankhya nature, materialism, atoms, qualities and transformation.",
+     "concepts": [
+      "aaseevagam",
+      "niyatham",
+      "pakuthi",
+      "boothavaadham",
+      "anu",
+      "gunam",
+      "parinaamam"
+     ],
+     "also": []
+    },
+    {
+     "id": "aivu.scripture",
+     "tamil": "மறை",
+     "name": "Scripture and tradition",
+     "gloss": "The Veda, the Agamas, the old accounts and the proverb as proof.",
+     "concepts": [
+      "vedham",
+      "aagamam",
+      "puraanam",
+      "pazhamozhi"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "id": "pulamai",
+   "tamil": "புலமை",
+   "name": "Poetics, grammar and the arts",
+   "gloss": "The Tamil language and the poet's word, implication, the genres of puram poetry, music, dance and the told story.",
+   "gloss_ta": "புலமை: தமிழ், இலக்கணம், துறை, இசை, கூத்து",
+   "essence": "Tamil stands beside Sanskrit as a tongue of revelation in the Tirumanthiram, the Paripadal weighs Madurai on the balance of learning, the puram poems turn battle and grief into named kinds of song, and the epics treat music and dance-drama as learned arts.",
+   "subthemes": [
+    {
+     "id": "pulamai.language",
+     "tamil": "தமிழ்",
+     "name": "Language and meaning",
+     "gloss": "Tamil as the poet's medium and a tongue of revelation, and implication as a way words mean.",
+     "concepts": [
+      "thamizh",
+      "ilakkanai"
+     ],
+     "also": [
+      "paripaashai"
+     ]
+    },
+    {
+     "id": "pulamai.genres",
+     "tamil": "துறை",
+     "name": "Genres and occasions",
+     "gloss": "The battlefield as threshing floor and the lament of helpless grief, as kinds of poem.",
+     "concepts": [
+      "kalavazhi",
+      "kaiyarunilai"
+     ],
+     "also": [
+      "aatruppadai",
+      "madal"
+     ]
+    },
+    {
+     "id": "pulamai.arts",
+     "tamil": "இசை",
+     "name": "Music and dance",
+     "gloss": "Music and the lute, dance-drama as a learned art.",
+     "concepts": [
+      "isai",
+      "koothu"
+     ],
+     "also": [
+      "kuravai",
+      "kinai"
+     ]
+    },
+    {
+     "id": "pulamai.story",
+     "tamil": "கதை",
+     "name": "The told story",
+     "gloss": "The Buddha's birth tales and the old accounts.",
+     "concepts": [
+      "saathakam"
+     ],
+     "also": [
+      "puraanam"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kaalam",
+   "tamil": "காலம்",
+   "name": "Time, death and impermanence",
+   "gloss": "Impermanence and age, fate and the deed's return, death and its rites, suffering, and cosmic time.",
+   "gloss_ta": "காலம்: நிலையாமை, ஊழ், வினை, சாக்காடு, ஊழி",
+   "essence": "Youth, wealth and the body pass like lightning and Death roams looking for his own, so give and do good now; former deeds return to the doer, though the Kural lets unflagging effort see fate's back, and the puram poems answer death with hero-stones and renown.",
+   "subthemes": [
+    {
+     "id": "kaalam.impermanence",
+     "tamil": "நிலையாமை",
+     "name": "Impermanence",
+     "gloss": "What passes: youth, the body's strength, wealth and life itself.",
+     "concepts": [
+      "nilaiyaamai",
+      "ilamai",
+      "mooppu"
+     ],
+     "also": [
+      "yaakkai",
+      "kanam"
+     ]
+    },
+    {
+     "id": "kaalam.fate",
+     "tamil": "ஊழ்",
+     "name": "Fate and the deed",
+     "gloss": "Fate, the deed and its fruit, causes that ripen and curses that come to fruit.",
+     "concepts": [
+      "oozh",
+      "vinai"
+     ],
+     "also": [
+      "ethu",
+      "saabam",
+      "niyatham"
+     ]
+    },
+    {
+     "id": "kaalam.death",
+     "tamil": "சாக்காடு",
+     "name": "Death and its rites",
+     "gloss": "Death personified and faced, the cremation ground, fasting to death facing north, the hero-stone.",
+     "concepts": [
+      "kootru",
+      "saakkaadu",
+      "sudalai",
+      "vadakkiruththal",
+      "nadukal"
+     ],
+     "also": [
+      "kaiyarunilai",
+      "kaimmai"
+     ]
+    },
+    {
+     "id": "kaalam.suffering",
+     "tamil": "இடும்பை",
+     "name": "Suffering and loss",
+     "gloss": "Affliction and hardship as the lot of the living.",
+     "concepts": [
+      "idumbai",
+      "idukkan"
+     ],
+     "also": [
+      "kedu",
+      "innaa"
+     ]
+    },
+    {
+     "id": "kaalam.cosmic",
+     "tamil": "ஊழி",
+     "name": "Cosmic time",
+     "gloss": "The ages of the world's making and unmaking.",
+     "concepts": [
+      "oozhi"
+     ],
+     "also": [
+      "anaadhi"
+     ]
+    }
+   ]
+  }
+ ],
+ "placement": {
+  "aram": {
+   "primary": "aram.order",
+   "secondary": [],
+   "keywords": [
+    "dharma",
+    "virtue",
+    "righteousness"
+   ]
+  },
+  "oozh": {
+   "primary": "kaalam.fate",
+   "secondary": [],
+   "keywords": [
+    "fate",
+    "destiny",
+    "karma",
+    "niyati"
+   ]
+  },
+  "vinai": {
+   "primary": "kaalam.fate",
+   "secondary": [
+    "aram.harm",
+    "veedu.births"
+   ],
+   "keywords": [
+    "karma",
+    "action",
+    "deeds"
+   ]
+  },
+  "muyarchi": {
+   "primary": "porul.work",
+   "secondary": [
+    "ullam.resolve",
+    "iyarkai.land"
+   ]
+  },
+  "kalvi": {
+   "primary": "aivu.learning",
+   "secondary": [],
+   "keywords": [
+    "education",
+    "study"
+   ]
+  },
+  "arivu": {
+   "primary": "aivu.learning",
+   "secondary": [],
+   "keywords": [
+    "knowledge",
+    "intelligence",
+    "wisdom"
+   ]
+  },
+  "selvam": {
+   "primary": "porul.wealth",
+   "secondary": [],
+   "keywords": [
+    "wealth",
+    "riches",
+    "artha"
+   ]
+  },
+  "perumai": {
+   "primary": "aram.character",
+   "secondary": []
+  },
+  "sirumai": {
+   "primary": "aram.character",
+   "secondary": []
+  },
+  "panivu": {
+   "primary": "aram.restraint",
+   "secondary": []
+  },
+  "pirappu": {
+   "primary": "samugam.birth",
+   "secondary": []
+  },
+  "piravi": {
+   "primary": "veedu.births",
+   "secondary": [],
+   "keywords": [
+    "samsara",
+    "rebirth",
+    "transmigration"
+   ]
+  },
+  "kudi": {
+   "primary": "samugam.birth",
+   "secondary": [
+    "aram.character"
+   ]
+  },
+  "manam": {
+   "primary": "ullam.mind",
+   "secondary": [],
+   "keywords": [
+    "mind",
+    "manas"
+   ]
+  },
+  "kurippu": {
+   "primary": "inbam.kalavu",
+   "secondary": [
+    "ullam.perception"
+   ]
+  },
+  "kaamam": {
+   "primary": "inbam.desire",
+   "secondary": [],
+   "keywords": [
+    "kama",
+    "lust"
+   ]
+  },
+  "samanilai": {
+   "primary": "ullam.mind",
+   "secondary": []
+  },
+  "sutram": {
+   "primary": "aram.household",
+   "secondary": []
+  },
+  "iraivan": {
+   "primary": "irai.lord",
+   "secondary": [],
+   "keywords": [
+    "god",
+    "lord",
+    "deity"
+   ]
+  },
+  "idumbai": {
+   "primary": "kaalam.suffering",
+   "secondary": []
+  },
+  "pugazh": {
+   "primary": "aram.character",
+   "secondary": []
+  },
+  "adakkam": {
+   "primary": "aram.restraint",
+   "secondary": []
+  },
+  "ozhukkam": {
+   "primary": "aram.order",
+   "secondary": []
+  },
+  "mazhai": {
+   "primary": "iyarkai.rain",
+   "secondary": [],
+   "keywords": [
+    "rain",
+    "monsoon"
+   ]
+  },
+  "pasi": {
+   "primary": "udal.food",
+   "secondary": []
+  },
+  "eegai": {
+   "primary": "aram.giving",
+   "secondary": [],
+   "keywords": [
+    "charity",
+    "generosity",
+    "dana"
+   ]
+  },
+  "thavam": {
+   "primary": "veedu.renunciation",
+   "secondary": [],
+   "keywords": [
+    "tapas",
+    "penance"
+   ]
+  },
+  "thuravu": {
+   "primary": "veedu.renunciation",
+   "secondary": [],
+   "keywords": [
+    "sannyasa",
+    "asceticism"
+   ]
+  },
+  "vekuli": {
+   "primary": "aram.restraint",
+   "secondary": []
+  },
+  "arul": {
+   "primary": "aram.giving",
+   "secondary": [
+    "irai.grace"
+   ],
+   "keywords": [
+    "karuna",
+    "mercy"
+   ]
+  },
+  "avaa": {
+   "primary": "aram.restraint",
+   "secondary": [
+    "veedu.renunciation"
+   ]
+  },
+  "azhukkaaru": {
+   "primary": "aram.restraint",
+   "secondary": []
+  },
+  "inbam": {
+   "primary": "inbam.desire",
+   "secondary": []
+  },
+  "pazhi": {
+   "primary": "aram.character",
+   "secondary": []
+  },
+  "ilvaazhkkai": {
+   "primary": "aram.household",
+   "secondary": [],
+   "keywords": [
+    "grihastha",
+    "householder",
+    "family"
+   ]
+  },
+  "virundhu": {
+   "primary": "aram.giving",
+   "secondary": [
+    "aram.household"
+   ]
+  },
+  "anbu": {
+   "primary": "aram.giving",
+   "secondary": [
+    "inbam.desire"
+   ]
+  },
+  "porai": {
+   "primary": "aram.restraint",
+   "secondary": [],
+   "keywords": [
+    "patience",
+    "kshama"
+   ]
+  },
+  "vaazhkkaithunai": {
+   "primary": "aram.household",
+   "secondary": []
+  },
+  "karpu": {
+   "primary": "aram.household",
+   "secondary": [
+    "inbam.marriage",
+    "samugam.women"
+   ]
+  },
+  "makkal": {
+   "primary": "aram.household",
+   "secondary": []
+  },
+  "inchol": {
+   "primary": "aram.speech",
+   "secondary": []
+  },
+  "vaaimai": {
+   "primary": "aram.speech",
+   "secondary": [],
+   "keywords": [
+    "satya",
+    "truth"
+   ]
+  },
+  "nanri": {
+   "primary": "aram.friendship",
+   "secondary": []
+  },
+  "natpu": {
+   "primary": "aram.friendship",
+   "secondary": [],
+   "keywords": [
+    "friend",
+    "friendship"
+   ]
+  },
+  "naduvu": {
+   "primary": "aram.order",
+   "secondary": []
+  },
+  "piranil": {
+   "primary": "aram.restraint",
+   "secondary": []
+  },
+  "vehkaamai": {
+   "primary": "aram.restraint",
+   "secondary": []
+  },
+  "purangooral": {
+   "primary": "aram.speech",
+   "secondary": []
+  },
+  "sol": {
+   "primary": "aram.speech",
+   "secondary": []
+  },
+  "payan": {
+   "primary": "aram.order",
+   "secondary": []
+  },
+  "nayan": {
+   "primary": "aram.order",
+   "secondary": []
+  },
+  "acham": {
+   "primary": "ullam.mind",
+   "secondary": []
+  },
+  "oppuravu": {
+   "primary": "aram.giving",
+   "secondary": []
+  },
+  "pulaal": {
+   "primary": "aram.harm",
+   "secondary": [
+    "udal.food"
+   ],
+   "keywords": [
+    "vegetarian",
+    "meat"
+   ]
+  },
+  "kollaamai": {
+   "primary": "aram.harm",
+   "secondary": [],
+   "keywords": [
+    "ahimsa",
+    "non-violence"
+   ]
+  },
+  "koodaozhukkam": {
+   "primary": "aram.harm",
+   "secondary": [
+    "veedu.renunciation"
+   ]
+  },
+  "kalavu": {
+   "primary": "aram.harm",
+   "secondary": []
+  },
+  "alavu": {
+   "primary": "aram.order",
+   "secondary": []
+  },
+  "innaa": {
+   "primary": "aram.harm",
+   "secondary": [
+    "kaalam.suffering"
+   ]
+  },
+  "nilaiyaamai": {
+   "primary": "kaalam.impermanence",
+   "secondary": [],
+   "keywords": [
+    "anitya",
+    "transience"
+   ]
+  },
+  "pattru": {
+   "primary": "veedu.renunciation",
+   "secondary": [
+    "aram.restraint"
+   ]
+  },
+  "meyyunarvu": {
+   "primary": "ullam.perception",
+   "secondary": [
+    "veedu.paths"
+   ],
+   "keywords": [
+    "truth",
+    "realisation"
+   ]
+  },
+  "arasu": {
+   "primary": "porul.kingship",
+   "secondary": [],
+   "keywords": [
+    "king",
+    "state",
+    "polity"
+   ]
+  },
+  "maanam": {
+   "primary": "aram.character",
+   "secondary": []
+  },
+  "sengol": {
+   "primary": "porul.kingship",
+   "secondary": [
+    "iyarkai.rain"
+   ],
+   "keywords": [
+    "justice",
+    "just rule",
+    "sceptre"
+   ]
+  },
+  "panpu": {
+   "primary": "aram.character",
+   "secondary": []
+  },
+  "kallaamai": {
+   "primary": "aivu.learning",
+   "secondary": []
+  },
+  "kelvi": {
+   "primary": "aivu.learning",
+   "secondary": []
+  },
+  "thunai": {
+   "primary": "aram.friendship",
+   "secondary": []
+  },
+  "kutram": {
+   "primary": "aram.character",
+   "secondary": []
+  },
+  "ivaral": {
+   "primary": "aram.restraint",
+   "secondary": [
+    "porul.wealth"
+   ]
+  },
+  "vali": {
+   "primary": "porul.statecraft",
+   "secondary": []
+  },
+  "therithal": {
+   "primary": "porul.statecraft",
+   "secondary": []
+  },
+  "inam": {
+   "primary": "aram.friendship",
+   "secondary": []
+  },
+  "kaalam": {
+   "primary": "porul.statecraft",
+   "secondary": []
+  },
+  "idam": {
+   "primary": "porul.statecraft",
+   "secondary": []
+  },
+  "thelivu": {
+   "primary": "ullam.mind",
+   "secondary": []
+  },
+  "naanam": {
+   "primary": "aram.character",
+   "secondary": [
+    "inbam.kalavu"
+   ]
+  },
+  "pochchaappu": {
+   "primary": "porul.work",
+   "secondary": []
+  },
+  "kolai": {
+   "primary": "aram.harm",
+   "secondary": []
+  },
+  "kodungol": {
+   "primary": "porul.kingship",
+   "secondary": []
+  },
+  "ali": {
+   "primary": "aram.giving",
+   "secondary": []
+  },
+  "veruvu": {
+   "primary": "porul.kingship",
+   "secondary": []
+  },
+  "kol": {
+   "primary": "porul.kingship",
+   "secondary": []
+  },
+  "oruththal": {
+   "primary": "porul.kingship",
+   "secondary": []
+  },
+  "kadunjol": {
+   "primary": "aram.speech",
+   "secondary": []
+  },
+  "kannottam": {
+   "primary": "aram.giving",
+   "secondary": []
+  },
+  "aran": {
+   "primary": "porul.war",
+   "secondary": []
+  },
+  "otru": {
+   "primary": "porul.statecraft",
+   "secondary": []
+  },
+  "ookkam": {
+   "primary": "ullam.resolve",
+   "secondary": [
+    "porul.work"
+   ]
+  },
+  "velanmai": {
+   "primary": "aram.giving",
+   "secondary": []
+  },
+  "madi": {
+   "primary": "porul.work",
+   "secondary": []
+  },
+  "adimai": {
+   "primary": "porul.wealth",
+   "secondary": [
+    "samugam.captivity"
+   ]
+  },
+  "aalvinai": {
+   "primary": "porul.work",
+   "secondary": []
+  },
+  "idukkan": {
+   "primary": "kaalam.suffering",
+   "secondary": []
+  },
+  "amaichu": {
+   "primary": "porul.statecraft",
+   "secondary": []
+  },
+  "solvanmai": {
+   "primary": "porul.statecraft",
+   "secondary": [
+    "aram.speech"
+   ]
+  },
+  "pagai": {
+   "primary": "porul.war",
+   "secondary": [
+    "aram.friendship"
+   ]
+  },
+  "avai": {
+   "primary": "porul.statecraft",
+   "secondary": []
+  },
+  "thooimai": {
+   "primary": "aram.order",
+   "secondary": []
+  },
+  "saandror": {
+   "primary": "aram.character",
+   "secondary": []
+  },
+  "thitpam": {
+   "primary": "ullam.resolve",
+   "secondary": [
+    "porul.statecraft"
+   ]
+  },
+  "soozhchi": {
+   "primary": "porul.statecraft",
+   "secondary": []
+  },
+  "thoothu": {
+   "primary": "porul.statecraft",
+   "secondary": []
+  },
+  "mannar": {
+   "primary": "porul.kingship",
+   "secondary": []
+  },
+  "anjaamai": {
+   "primary": "porul.war",
+   "secondary": []
+  },
+  "naadu": {
+   "primary": "porul.realm",
+   "secondary": []
+  },
+  "vendhan": {
+   "primary": "porul.kingship",
+   "secondary": []
+  },
+  "padai": {
+   "primary": "porul.war",
+   "secondary": []
+  },
+  "maram": {
+   "primary": "porul.war",
+   "secondary": [],
+   "keywords": [
+    "valour",
+    "heroism",
+    "courage"
+   ]
+  },
+  "saakkaadu": {
+   "primary": "kaalam.death",
+   "secondary": [],
+   "keywords": [
+    "dying",
+    "death"
+   ]
+  },
+  "pedhaimai": {
+   "primary": "ullam.delusion",
+   "secondary": [
+    "aivu.learning"
+   ]
+  },
+  "idithal": {
+   "primary": "aram.speech",
+   "secondary": []
+  },
+  "kedu": {
+   "primary": "porul.wealth",
+   "secondary": [
+    "kaalam.suffering"
+   ]
+  },
+  "aaraaydhal": {
+   "primary": "aram.friendship",
+   "secondary": []
+  },
+  "pazhaimai": {
+   "primary": "aram.friendship",
+   "secondary": []
+  },
+  "kizhamai": {
+   "primary": "aram.friendship",
+   "secondary": []
+  },
+  "vanjam": {
+   "primary": "aram.harm",
+   "secondary": []
+  },
+  "pullarivu": {
+   "primary": "ullam.delusion",
+   "secondary": [
+    "aivu.learning"
+   ]
+  },
+  "igal": {
+   "primary": "aram.friendship",
+   "secondary": []
+  },
+  "utpagai": {
+   "primary": "aram.friendship",
+   "secondary": []
+  },
+  "penvazhi": {
+   "primary": "aram.household",
+   "secondary": [
+    "inbam.oodal"
+   ]
+  },
+  "aanmai": {
+   "primary": "aram.character",
+   "secondary": []
+  },
+  "varaivinmagalir": {
+   "primary": "samugam.women",
+   "secondary": []
+  },
+  "kal": {
+   "primary": "aram.restraint",
+   "secondary": [
+    "udal.food"
+   ]
+  },
+  "soodhu": {
+   "primary": "aram.restraint",
+   "secondary": []
+  },
+  "noy": {
+   "primary": "udal.disease",
+   "secondary": [],
+   "keywords": [
+    "illness",
+    "sickness",
+    "medicine"
+   ]
+  },
+  "marundhu": {
+   "primary": "udal.disease",
+   "secondary": [],
+   "keywords": [
+    "medicine",
+    "cure",
+    "herbal"
+   ]
+  },
+  "undi": {
+   "primary": "udal.food",
+   "secondary": []
+  },
+  "saandraanmai": {
+   "primary": "aram.character",
+   "secondary": []
+  },
+  "uzhavu": {
+   "primary": "iyarkai.land",
+   "secondary": [
+    "porul.work"
+   ],
+   "keywords": [
+    "agriculture",
+    "farming",
+    "plough"
+   ]
+  },
+  "iravu": {
+   "primary": "porul.wealth",
+   "secondary": [
+    "aram.giving"
+   ]
+  },
+  "inmai": {
+   "primary": "porul.wealth",
+   "secondary": []
+  },
+  "karavu": {
+   "primary": "aram.giving",
+   "secondary": [
+    "porul.wealth"
+   ]
+  },
+  "kayamai": {
+   "primary": "aram.character",
+   "secondary": []
+  },
+  "anangu": {
+   "primary": "inbam.desire",
+   "secondary": [
+    "irai.deities"
+   ]
+  },
+  "kootru": {
+   "primary": "kaalam.death",
+   "secondary": [
+    "irai.deities"
+   ],
+   "keywords": [
+    "yama",
+    "death"
+   ]
+  },
+  "kan": {
+   "primary": "inbam.desire",
+   "secondary": [
+    "ullam.perception"
+   ]
+  },
+  "nalam": {
+   "primary": "inbam.desire",
+   "secondary": []
+  },
+  "kaamanoy": {
+   "primary": "inbam.separation",
+   "secondary": [
+    "udal.disease"
+   ]
+  },
+  "kalaviyal": {
+   "primary": "inbam.kalavu",
+   "secondary": [],
+   "keywords": [
+    "kalavu",
+    "secret love",
+    "premarital"
+   ]
+  },
+  "punarchi": {
+   "primary": "inbam.kalavu",
+   "secondary": []
+  },
+  "uyir": {
+   "primary": "inbam.desire",
+   "secondary": []
+  },
+  "oodal": {
+   "primary": "inbam.oodal",
+   "secondary": [],
+   "keywords": [
+    "sulking",
+    "lovers' quarrel"
+   ]
+  },
+  "nenju": {
+   "primary": "inbam.desire",
+   "secondary": [
+    "ullam.mind"
+   ],
+   "keywords": [
+    "heart"
+   ]
+  },
+  "pirivu": {
+   "primary": "inbam.separation",
+   "secondary": [],
+   "keywords": [
+    "separation",
+    "viraha"
+   ]
+  },
+  "ninaivu": {
+   "primary": "inbam.separation",
+   "secondary": []
+  },
+  "alar": {
+   "primary": "inbam.kalavu",
+   "secondary": []
+  },
+  "madal": {
+   "primary": "inbam.marriage",
+   "secondary": [
+    "pulamai.genres"
+   ]
+  },
+  "maalai": {
+   "primary": "iyarkai.seasons",
+   "secondary": [
+    "inbam.separation"
+   ]
+  },
+  "nirai": {
+   "primary": "inbam.kalavu",
+   "secondary": []
+  },
+  "melivu": {
+   "primary": "inbam.separation",
+   "secondary": []
+  },
+  "pasalai": {
+   "primary": "inbam.separation",
+   "secondary": []
+  },
+  "orutalai": {
+   "primary": "inbam.kalavu",
+   "secondary": []
+  },
+  "kanavu": {
+   "primary": "inbam.separation",
+   "secondary": [
+    "ullam.states"
+   ]
+  },
+  "parathai": {
+   "primary": "inbam.oodal",
+   "secondary": []
+  },
+  "ilamai": {
+   "primary": "kaalam.impermanence",
+   "secondary": []
+  },
+  "yaakkai": {
+   "primary": "udal.frame",
+   "secondary": [
+    "kaalam.impermanence"
+   ],
+   "keywords": [
+    "body",
+    "flesh"
+   ]
+  },
+  "veedu": {
+   "primary": "veedu.states",
+   "secondary": [],
+   "keywords": [
+    "moksha",
+    "mukti",
+    "liberation",
+    "salvation"
+   ]
+  },
+  "azhagu": {
+   "primary": "inbam.desire",
+   "secondary": []
+  },
+  "marumai": {
+   "primary": "veedu.births",
+   "secondary": []
+  },
+  "udanpokku": {
+   "primary": "inbam.marriage",
+   "secondary": [
+    "iyarkai.road"
+   ]
+  },
+  "guru": {
+   "primary": "yogam.teacher",
+   "secondary": [],
+   "keywords": [
+    "teacher",
+    "master"
+   ]
+  },
+  "naragam": {
+   "primary": "veedu.births",
+   "secondary": []
+  },
+  "vazhipaadu": {
+   "primary": "irai.devotion",
+   "secondary": []
+  },
+  "sivam": {
+   "primary": "irai.lord",
+   "secondary": [],
+   "keywords": [
+    "shiva",
+    "siva"
+   ]
+  },
+  "gnaanam": {
+   "primary": "veedu.paths",
+   "secondary": [],
+   "keywords": [
+    "jnana",
+    "wisdom"
+   ]
+  },
+  "malam": {
+   "primary": "veedu.bonds",
+   "secondary": [],
+   "keywords": [
+    "mala",
+    "impurity",
+    "anava"
+   ]
+  },
+  "aaguthi": {
+   "primary": "samugam.sacrifice",
+   "secondary": []
+  },
+  "andhanar": {
+   "primary": "samugam.birth",
+   "secondary": []
+  },
+  "maayai": {
+   "primary": "veedu.bonds",
+   "secondary": [
+    "ullam.delusion"
+   ],
+   "keywords": [
+    "maya",
+    "illusion"
+   ]
+  },
+  "naadham": {
+   "primary": "irai.cosmology",
+   "secondary": [
+    "yogam.mantra"
+   ]
+  },
+  "piranavam": {
+   "primary": "yogam.mantra",
+   "secondary": [],
+   "keywords": [
+    "om",
+    "aum",
+    "pranava"
+   ]
+  },
+  "samaadhi": {
+   "primary": "yogam.limbs",
+   "secondary": [
+    "veedu.states",
+    "ullam.states"
+   ],
+   "keywords": [
+    "samadhi",
+    "absorption"
+   ]
+  },
+  "siththi": {
+   "primary": "yogam.limbs",
+   "secondary": []
+  },
+  "vedaantham": {
+   "primary": "veedu.paths",
+   "secondary": []
+  },
+  "thiruvarul": {
+   "primary": "irai.grace",
+   "secondary": [],
+   "keywords": [
+    "grace",
+    "anugraha"
+   ]
+  },
+  "yogam": {
+   "primary": "yogam.limbs",
+   "secondary": [],
+   "keywords": [
+    "yoga"
+   ]
+  },
+  "vindhu": {
+   "primary": "irai.cosmology",
+   "secondary": [
+    "yogam.centres"
+   ]
+  },
+  "kundalini": {
+   "primary": "yogam.centres",
+   "secondary": [],
+   "keywords": [
+    "shakti",
+    "serpent power"
+   ]
+  },
+  "thaththuvam": {
+   "primary": "irai.cosmology",
+   "secondary": []
+  },
+  "pasu": {
+   "primary": "veedu.bonds",
+   "secondary": []
+  },
+  "paasam": {
+   "primary": "veedu.bonds",
+   "secondary": []
+  },
+  "pathi": {
+   "primary": "irai.lord",
+   "secondary": []
+  },
+  "saththi": {
+   "primary": "irai.lord",
+   "secondary": []
+  },
+  "aindhozhil": {
+   "primary": "irai.lord",
+   "secondary": []
+  },
+  "vedham": {
+   "primary": "aivu.scripture",
+   "secondary": [],
+   "keywords": [
+    "veda",
+    "vedic"
+   ]
+  },
+  "aagamam": {
+   "primary": "aivu.scripture",
+   "secondary": []
+  },
+  "thamizh": {
+   "primary": "pulamai.language",
+   "secondary": [],
+   "keywords": [
+    "tamil",
+    "language"
+   ]
+  },
+  "mandhiram": {
+   "primary": "yogam.mantra",
+   "secondary": [],
+   "keywords": [
+    "mantra"
+   ]
+  },
+  "aanandham": {
+   "primary": "veedu.states",
+   "secondary": []
+  },
+  "samayam": {
+   "primary": "irai.sects",
+   "secondary": []
+  },
+  "naadi": {
+   "primary": "yogam.breath",
+   "secondary": [],
+   "keywords": [
+    "nadi",
+    "ida",
+    "pingala"
+   ]
+  },
+  "aasanam": {
+   "primary": "yogam.limbs",
+   "secondary": []
+  },
+  "praanan": {
+   "primary": "yogam.breath",
+   "secondary": [],
+   "keywords": [
+    "pranayama",
+    "breath control"
+   ]
+  },
+  "kalai": {
+   "primary": "yogam.breath",
+   "secondary": []
+  },
+  "karu": {
+   "primary": "udal.frame",
+   "secondary": []
+  },
+  "thiyaanam": {
+   "primary": "yogam.limbs",
+   "secondary": [],
+   "keywords": [
+    "dhyana",
+    "meditation"
+   ]
+  },
+  "theerththam": {
+   "primary": "irai.shrines",
+   "secondary": []
+  },
+  "nindhai": {
+   "primary": "irai.devotion",
+   "secondary": []
+  },
+  "adiyaar": {
+   "primary": "irai.devotion",
+   "secondary": []
+  },
+  "amudham": {
+   "primary": "udal.longevity",
+   "secondary": [
+    "yogam.centres"
+   ]
+  },
+  "thirukkoothu": {
+   "primary": "irai.lord",
+   "secondary": []
+  },
+  "panchaakkaram": {
+   "primary": "yogam.mantra",
+   "secondary": []
+  },
+  "muththirai": {
+   "primary": "yogam.limbs",
+   "secondary": []
+  },
+  "chakkaram": {
+   "primary": "yogam.mantra",
+   "secondary": []
+  },
+  "thiruvadi": {
+   "primary": "irai.grace",
+   "secondary": []
+  },
+  "saivam": {
+   "primary": "irai.sects",
+   "secondary": []
+  },
+  "siththaantham": {
+   "primary": "veedu.paths",
+   "secondary": [
+    "irai.sects"
+   ]
+  },
+  "sariyai": {
+   "primary": "veedu.paths",
+   "secondary": []
+  },
+  "kiriyai": {
+   "primary": "veedu.paths",
+   "secondary": []
+  },
+  "sanmaarkkam": {
+   "primary": "veedu.paths",
+   "secondary": []
+  },
+  "padhamukthi": {
+   "primary": "veedu.states",
+   "secondary": []
+  },
+  "saayujjiyam": {
+   "primary": "veedu.states",
+   "secondary": []
+  },
+  "mounam": {
+   "primary": "veedu.renunciation",
+   "secondary": []
+  },
+  "vesham": {
+   "primary": "veedu.renunciation",
+   "secondary": []
+  },
+  "thiruneeru": {
+   "primary": "irai.shrines",
+   "secondary": []
+  },
+  "seedan": {
+   "primary": "yogam.teacher",
+   "secondary": []
+  },
+  "ilingam": {
+   "primary": "irai.shrines",
+   "secondary": []
+  },
+  "aadhaaram": {
+   "primary": "yogam.centres",
+   "secondary": [],
+   "keywords": [
+    "chakra",
+    "muladhara"
+   ]
+  },
+  "aadhiththan": {
+   "primary": "irai.cosmology",
+   "secondary": []
+  },
+  "avaththai": {
+   "primary": "ullam.states",
+   "secondary": [],
+   "keywords": [
+    "avastha",
+    "waking",
+    "dream",
+    "turiya",
+    "consciousness"
+   ]
+  },
+  "mukkunam": {
+   "primary": "ullam.states",
+   "secondary": [],
+   "keywords": [
+    "gunas",
+    "sattva",
+    "rajas",
+    "tamas"
+   ]
+  },
+  "andam": {
+   "primary": "irai.cosmology",
+   "secondary": []
+  },
+  "aththuvaa": {
+   "primary": "irai.cosmology",
+   "secondary": []
+  },
+  "aarandham": {
+   "primary": "veedu.paths",
+   "secondary": []
+  },
+  "thonthaththasi": {
+   "primary": "veedu.paths",
+   "secondary": []
+  },
+  "paazh": {
+   "primary": "veedu.void",
+   "secondary": []
+  },
+  "upaadhi": {
+   "primary": "veedu.bonds",
+   "secondary": []
+  },
+  "upasaantham": {
+   "primary": "veedu.states",
+   "secondary": []
+  },
+  "thisai": {
+   "primary": "irai.cosmology",
+   "secondary": []
+  },
+  "ilakkanai": {
+   "primary": "pulamai.language",
+   "secondary": [
+    "aivu.pramana"
+   ]
+  },
+  "paththi": {
+   "primary": "irai.devotion",
+   "secondary": [],
+   "keywords": [
+    "bhakti",
+    "devotion"
+   ]
+  },
+  "madam": {
+   "primary": "irai.shrines",
+   "secondary": [
+    "yogam.teacher"
+   ]
+  },
+  "oli": {
+   "primary": "irai.lord",
+   "secondary": []
+  },
+  "aakaasam": {
+   "primary": "irai.cosmology",
+   "secondary": []
+  },
+  "viyaabagam": {
+   "primary": "irai.lord",
+   "secondary": []
+  },
+  "mayal": {
+   "primary": "inbam.desire",
+   "secondary": [
+    "ullam.delusion",
+    "irai.devotion"
+   ]
+  },
+  "thondu": {
+   "primary": "irai.devotion",
+   "secondary": []
+  },
+  "agandhai": {
+   "primary": "ullam.delusion",
+   "secondary": [
+    "aram.restraint"
+   ],
+   "keywords": [
+    "serukku"
+   ]
+  },
+  "thalam": {
+   "primary": "irai.shrines",
+   "secondary": []
+  },
+  "sool": {
+   "primary": "inbam.oodal",
+   "secondary": [
+    "samugam.vows"
+   ]
+  },
+  "aayul": {
+   "primary": "udal.longevity",
+   "secondary": [
+    "yogam.breath"
+   ]
+  },
+  "thirunaamam": {
+   "primary": "irai.devotion",
+   "secondary": []
+  },
+  "valli": {
+   "primary": "irai.deities",
+   "secondary": []
+  },
+  "vaasal": {
+   "primary": "yogam.breath",
+   "secondary": []
+  },
+  "anaadhi": {
+   "primary": "veedu.void",
+   "secondary": [
+    "kaalam.cosmic"
+   ]
+  },
+  "thoomai": {
+   "primary": "udal.frame",
+   "secondary": [
+    "samugam.birth"
+   ]
+  },
+  "vaasi": {
+   "primary": "yogam.breath",
+   "secondary": [],
+   "keywords": [
+    "vasi yoga",
+    "breathing"
+   ]
+  },
+  "suzhumunai": {
+   "primary": "yogam.breath",
+   "secondary": [],
+   "keywords": [
+    "sushumna"
+   ]
+  },
+  "sootcham": {
+   "primary": "veedu.void",
+   "secondary": [
+    "yogam.teacher"
+   ]
+  },
+  "vaalai": {
+   "primary": "yogam.centres",
+   "secondary": []
+  },
+  "theettu": {
+   "primary": "samugam.birth",
+   "secondary": []
+  },
+  "vaadham": {
+   "primary": "udal.longevity",
+   "secondary": [],
+   "keywords": [
+    "alchemy",
+    "rasavada"
+   ]
+  },
+  "piramam": {
+   "primary": "veedu.void",
+   "secondary": [
+    "irai.lord"
+   ]
+  },
+  "andavuchi": {
+   "primary": "yogam.centres",
+   "secondary": []
+  },
+  "karpam": {
+   "primary": "udal.longevity",
+   "secondary": [],
+   "keywords": [
+    "kaya kalpa",
+    "rejuvenation"
+   ]
+  },
+  "paripaashai": {
+   "primary": "yogam.teacher",
+   "secondary": [
+    "pulamai.language"
+   ]
+  },
+  "andapindam": {
+   "primary": "yogam.centres",
+   "secondary": [
+    "udal.frame"
+   ]
+  },
+  "pooranam": {
+   "primary": "veedu.states",
+   "secondary": []
+  },
+  "adaikkalam": {
+   "primary": "irai.grace",
+   "secondary": []
+  },
+  "soonyam": {
+   "primary": "veedu.void",
+   "secondary": []
+  },
+  "samarasam": {
+   "primary": "irai.sects",
+   "secondary": []
+  },
+  "kuri": {
+   "primary": "inbam.kalavu",
+   "secondary": []
+  },
+  "nadukal": {
+   "primary": "kaalam.death",
+   "secondary": [
+    "porul.war"
+   ],
+   "keywords": [
+    "hero stone",
+    "memorial"
+   ]
+  },
+  "parisil": {
+   "primary": "porul.patronage",
+   "secondary": [
+    "aram.giving"
+   ]
+  },
+  "varaivu": {
+   "primary": "inbam.marriage",
+   "secondary": []
+  },
+  "velan": {
+   "primary": "inbam.signs",
+   "secondary": [
+    "irai.deities"
+   ]
+  },
+  "veri": {
+   "primary": "inbam.signs",
+   "secondary": []
+  },
+  "aatruppadai": {
+   "primary": "porul.patronage",
+   "secondary": [
+    "pulamai.genres"
+   ],
+   "keywords": [
+    "guide poem"
+   ]
+  },
+  "kaimmai": {
+   "primary": "samugam.women",
+   "secondary": [
+    "aram.household",
+    "kaalam.death"
+   ]
+  },
+  "kaiyarunilai": {
+   "primary": "pulamai.genres",
+   "secondary": [
+    "porul.patronage",
+    "kaalam.death"
+   ]
+  },
+  "kalavazhi": {
+   "primary": "pulamai.genres",
+   "secondary": [
+    "porul.war",
+    "porul.patronage"
+   ]
+  },
+  "kinai": {
+   "primary": "porul.patronage",
+   "secondary": [
+    "pulamai.arts"
+   ]
+  },
+  "magatpaal": {
+   "primary": "porul.war",
+   "secondary": []
+  },
+  "moothil": {
+   "primary": "porul.war",
+   "secondary": [
+    "samugam.birth"
+   ]
+  },
+  "niraikol": {
+   "primary": "porul.war",
+   "secondary": []
+  },
+  "vadakkiruththal": {
+   "primary": "kaalam.death",
+   "secondary": []
+  },
+  "vanjinam": {
+   "primary": "porul.war",
+   "secondary": [
+    "samugam.vows"
+   ]
+  },
+  "paruvam": {
+   "primary": "iyarkai.seasons",
+   "secondary": [
+    "inbam.separation"
+   ]
+  },
+  "aasaaram": {
+   "primary": "aram.order",
+   "secondary": []
+  },
+  "alavai": {
+   "primary": "aivu.pramana",
+   "secondary": [],
+   "keywords": [
+    "pramana",
+    "epistemology"
+   ]
+  },
+  "anu": {
+   "primary": "aivu.schools",
+   "secondary": [],
+   "keywords": [
+    "atom",
+    "paramanu"
+   ]
+  },
+  "vaazhthu": {
+   "primary": "samugam.vows",
+   "secondary": []
+  },
+  "nimittam": {
+   "primary": "inbam.signs",
+   "secondary": [],
+   "keywords": [
+    "nimiththam",
+    "pul"
+   ]
+  },
+  "nonbu": {
+   "primary": "samugam.vows",
+   "secondary": [],
+   "keywords": [
+    "vatham"
+   ]
+  },
+  "vathuvai": {
+   "primary": "inbam.marriage",
+   "secondary": []
+  },
+  "isai": {
+   "primary": "pulamai.arts",
+   "secondary": [],
+   "keywords": [
+    "music",
+    "raga"
+   ]
+  },
+  "koothu": {
+   "primary": "pulamai.arts",
+   "secondary": [
+    "samugam.public"
+   ],
+   "keywords": [
+    "dance",
+    "drama",
+    "theatre",
+    "aadal"
+   ]
+  },
+  "pathini": {
+   "primary": "aram.household",
+   "secondary": [
+    "samugam.women"
+   ],
+   "keywords": [
+    "paththini"
+   ]
+  },
+  "vizhavu": {
+   "primary": "samugam.public",
+   "secondary": [
+    "inbam.festive",
+    "irai.shrines"
+   ]
+  },
+  "punalaadal": {
+   "primary": "inbam.festive",
+   "secondary": [],
+   "keywords": [
+    "punal_aadal",
+    "punalaattu"
+   ]
+  },
+  "velvi": {
+   "primary": "samugam.sacrifice",
+   "secondary": [],
+   "keywords": [
+    "yajna",
+    "sacrifice"
+   ]
+  },
+  "thevar": {
+   "primary": "veedu.births",
+   "secondary": [
+    "irai.deities"
+   ]
+  },
+  "koodal": {
+   "primary": "inbam.signs",
+   "secondary": []
+  },
+  "arathodunirral": {
+   "primary": "inbam.marriage",
+   "secondary": []
+  },
+  "sirai": {
+   "primary": "samugam.captivity",
+   "secondary": [
+    "porul.kingship"
+   ]
+  },
+  "vinjai": {
+   "primary": "yogam.mantra",
+   "secondary": []
+  },
+  "mooppu": {
+   "primary": "kaalam.impermanence",
+   "secondary": [
+    "udal.longevity"
+   ]
+  },
+  "erukol": {
+   "primary": "inbam.festive",
+   "secondary": []
+  },
+  "kuravai": {
+   "primary": "inbam.festive",
+   "secondary": [
+    "pulamai.arts"
+   ]
+  },
+  "agavanmagal": {
+   "primary": "inbam.signs",
+   "secondary": []
+  },
+  "chakkaravaalam": {
+   "primary": "aivu.buddhist",
+   "secondary": [
+    "irai.cosmology"
+   ]
+  },
+  "ethu": {
+   "primary": "aivu.buddhist",
+   "secondary": [
+    "kaalam.fate"
+   ]
+  },
+  "bali": {
+   "primary": "samugam.sacrifice",
+   "secondary": []
+  },
+  "puththan": {
+   "primary": "irai.deities",
+   "secondary": [
+    "veedu.shramana"
+   ],
+   "keywords": [
+    "buddha"
+   ]
+  },
+  "unnaanonbu": {
+   "primary": "samugam.vows",
+   "secondary": []
+  },
+  "saabam": {
+   "primary": "samugam.vows",
+   "secondary": [
+    "kaalam.fate"
+   ]
+  },
+  "saarbu": {
+   "primary": "aivu.buddhist",
+   "secondary": [
+    "veedu.bonds"
+   ],
+   "keywords": [
+    "pratityasamutpada",
+    "dependent origination"
+   ]
+  },
+  "aabaasam": {
+   "primary": "aivu.pramana",
+   "secondary": [],
+   "keywords": [
+    "poli"
+   ]
+  },
+  "kandham": {
+   "primary": "aivu.buddhist",
+   "secondary": [],
+   "keywords": [
+    "skandha",
+    "aggregates"
+   ]
+  },
+  "irserippu": {
+   "primary": "inbam.marriage",
+   "secondary": [
+    "samugam.women"
+   ]
+  },
+  "virichi": {
+   "primary": "inbam.signs",
+   "secondary": []
+  },
+  "sudalai": {
+   "primary": "kaalam.death",
+   "secondary": []
+  },
+  "kathi": {
+   "primary": "veedu.births",
+   "secondary": [
+    "aivu.jain"
+   ]
+  },
+  "pori": {
+   "primary": "ullam.perception",
+   "secondary": [
+    "aivu.jain"
+   ],
+   "keywords": [
+    "senses",
+    "indriya"
+   ]
+  },
+  "piraayachchiththam": {
+   "primary": "samugam.sacrifice",
+   "secondary": []
+  },
+  "vaadhu": {
+   "primary": "aivu.pramana",
+   "secondary": [],
+   "keywords": [
+    "samayavaadham"
+   ]
+  },
+  "saathakam": {
+   "primary": "pulamai.story",
+   "secondary": [
+    "veedu.shramana"
+   ]
+  },
+  "aththikaayam": {
+   "primary": "aivu.jain",
+   "secondary": []
+  },
+  "paaramithai": {
+   "primary": "veedu.shramana",
+   "secondary": []
+  },
+  "gunam": {
+   "primary": "aivu.schools",
+   "secondary": [],
+   "keywords": [
+    "kunam"
+   ]
+  },
+  "parinaamam": {
+   "primary": "aivu.schools",
+   "secondary": []
+  },
+  "santhaanam": {
+   "primary": "aivu.buddhist",
+   "secondary": []
+  },
+  "vaasanai": {
+   "primary": "aivu.buddhist",
+   "secondary": []
+  },
+  "kanam": {
+   "primary": "aivu.buddhist",
+   "secondary": [
+    "kaalam.impermanence"
+   ],
+   "keywords": [
+    "kshana",
+    "moment"
+   ]
+  },
+  "aaseevagam": {
+   "primary": "aivu.schools",
+   "secondary": [],
+   "keywords": [
+    "ajivika"
+   ]
+  },
+  "niyatham": {
+   "primary": "aivu.schools",
+   "secondary": [
+    "kaalam.fate"
+   ]
+  },
+  "pakuthi": {
+   "primary": "aivu.schools",
+   "secondary": [],
+   "keywords": [
+    "prakriti",
+    "sankhya",
+    "pagudhi"
+   ]
+  },
+  "nayam": {
+   "primary": "aivu.jain",
+   "secondary": []
+  },
+  "boothavaadham": {
+   "primary": "aivu.schools",
+   "secondary": [],
+   "keywords": [
+    "lokayata",
+    "charvaka",
+    "materialism"
+   ]
+  },
+  "oozhi": {
+   "primary": "kaalam.cosmic",
+   "secondary": []
+  },
+  "perunjoru": {
+   "primary": "porul.war",
+   "secondary": []
+  },
+  "thirai": {
+   "primary": "porul.kingship",
+   "secondary": []
+  },
+  "paasarai": {
+   "primary": "porul.war",
+   "secondary": []
+  },
+  "kalavelvi": {
+   "primary": "porul.war",
+   "secondary": [
+    "samugam.sacrifice"
+   ]
+  },
+  "angaadi": {
+   "primary": "porul.realm",
+   "secondary": [
+    "samugam.public"
+   ]
+  },
+  "nagar": {
+   "primary": "porul.realm",
+   "secondary": []
+  },
+  "koothir": {
+   "primary": "iyarkai.seasons",
+   "secondary": [],
+   "keywords": [
+    "winter",
+    "cold season"
+   ]
+  },
+  "neri": {
+   "primary": "iyarkai.road",
+   "secondary": [
+    "porul.realm"
+   ]
+  },
+  "pazhamozhi": {
+   "primary": "aivu.scripture",
+   "secondary": []
+  },
+  "marai": {
+   "primary": "aram.speech",
+   "secondary": [
+    "inbam.kalavu"
+   ]
+  },
+  "ilavenil": {
+   "primary": "iyarkai.seasons",
+   "secondary": [],
+   "keywords": [
+    "spring"
+   ]
+  },
+  "kotravai": {
+   "primary": "irai.deities",
+   "secondary": []
+  },
+  "pootham": {
+   "primary": "irai.deities",
+   "secondary": []
+  },
+  "puraanam": {
+   "primary": "aivu.scripture",
+   "secondary": [
+    "pulamai.story"
+   ]
+  },
+  "aazhi": {
+   "primary": "porul.kingship",
+   "secondary": []
+  },
+  "nigodam": {
+   "primary": "veedu.births",
+   "secondary": [
+    "aivu.jain"
+   ]
+  },
+  "arathanathirayam": {
+   "primary": "veedu.shramana",
+   "secondary": [],
+   "keywords": [
+    "ratnatraya",
+    "three jewels"
+   ]
+  },
+  "theerththagarar": {
+   "primary": "veedu.shramana",
+   "secondary": [],
+   "keywords": [
+    "tirthankara",
+    "jina"
+   ]
+  },
+  "narabali": {
+   "primary": "samugam.sacrifice",
+   "secondary": []
+  },
+  "siraaththam": {
+   "primary": "samugam.sacrifice",
+   "secondary": []
+  },
+  "avathi": {
+   "primary": "aivu.jain",
+   "secondary": []
+  }
+ }
+}

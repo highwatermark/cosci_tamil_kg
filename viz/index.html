@@ -204,6 +204,68 @@ table.matrix td button.diag { border-style: dashed; }
 table.matrix td.none { color: var(--muted); text-align: center; }
 .lk .ends { font-family: var(--f-tamil); font-size: 13px; color: var(--ink); }
 @media (max-width: 720px) { table.matrix td button { width: 46px; height: 40px; } table.matrix thead th { height: 96px; } }
+
+/* Concept browser: the category tree in the left panel, a category in the middle, a concept on the right */
+#ctree-block[hidden], #cview[hidden], #ctabs[hidden], #hint[hidden] { display: none; }
+#csearch { width: 100%; font: inherit; font-size: 14px; padding: 6px 8px; border: 1px solid var(--rule); border-radius: 6px; background: var(--paper); color: var(--ink); }
+.tree { display: flex; flex-direction: column; gap: 1px; font-size: 13px; margin-top: 8px; }
+.trow { display: flex; align-items: center; border-radius: 5px; }
+.trow:hover { background: var(--halo); }
+.trow.on { background: var(--halo); box-shadow: inset 3px 0 0 var(--accent); }
+.trow .caret { flex: none; width: 22px; border: 0; background: none; color: var(--muted); cursor: pointer; font-size: 11px; padding: 5px 0; }
+.trow .tname { flex: 1; min-width: 0; text-align: left; border: 0; background: none; color: var(--ink); font: inherit; padding: 4px 2px; cursor: pointer; line-height: 1.3; }
+.trow.lvl0 .tname { font-weight: 600; }
+.trow.lvl1 { padding-left: 14px; }
+.tree .ta { font-family: var(--f-tamil); font-weight: 400; }
+.trow .n, .tleaf .n { flex: none; color: var(--muted); font-size: 11.5px; font-variant-numeric: tabular-nums; padding: 0 6px; }
+.tleaf { display: flex; gap: 6px; width: 100%; padding: 3px 0 3px 52px; border: 0; background: none; text-align: left; font: inherit; font-size: 12.5px; color: var(--ink); cursor: pointer; border-radius: 5px; line-height: 1.3; }
+.tleaf:hover, .tleaf.on { background: var(--halo); }
+.tleaf .n { margin-left: auto; }
+.tleaf .ta { color: var(--muted); }
+.tree mark { background: color-mix(in srgb, var(--warn) 32%, transparent); color: inherit; border-radius: 2px; }
+#ctabs { position: absolute; top: 10px; right: 12px; z-index: 3; width: 168px; background: var(--panel); }
+#cview { position: absolute; inset: 0; overflow: auto; padding: 14px 18px 40px; display: flex; flex-direction: column; gap: 14px; }
+#cview h2 { font: 600 22px/1.25 var(--f-ui); margin: 0; text-wrap: balance; }
+#cview h2 .ta { font-weight: 600; margin-right: 6px; }
+.crumbs { font-size: 12.5px; color: var(--muted); display: flex; flex-wrap: wrap; align-items: center; gap: 4px; padding-right: 180px; min-height: 22px; }
+.crumbs button, .linkish { font: inherit; border: 0; background: none; padding: 0; color: var(--accent); cursor: pointer; }
+.crumbs button:hover, .linkish:hover { text-decoration: underline; }
+.cgloss { margin: 2px 0 0; color: var(--muted); }
+.essence { border-left: 3px solid var(--accent); padding: 8px 12px; background: var(--halo); border-radius: 0 6px 6px 0; max-width: 78ch; }
+.essence p { margin: 0; font-size: 15px; line-height: 1.55; }
+.bars { display: grid; grid-template-columns: max-content minmax(60px, 1fr) max-content; gap: 3px 10px; align-items: center; font-size: 12.5px; max-width: 560px; }
+.bars .bl { color: var(--muted); }
+.bars .bt { height: 10px; border-radius: 2px; background: color-mix(in srgb, var(--rule) 55%, transparent); overflow: hidden; }
+.bars .bt span { display: block; height: 100%; background: var(--accent); border-radius: 2px; min-width: 1px; }
+.bars .bn { font-variant-numeric: tabular-nums; text-align: right; }
+.csub { border-top: 1px solid var(--rule); padding-top: 10px; display: flex; flex-direction: column; gap: 6px; }
+.csub h3 { margin: 0; font: 600 15px/1.3 var(--f-ui); display: flex; flex-wrap: wrap; gap: 2px 10px; align-items: baseline; }
+.csub h3 button { font: inherit; border: 0; background: none; padding: 0; color: var(--ink); cursor: pointer; text-align: left; }
+.csub h3 button:hover { color: var(--accent); text-decoration: underline; }
+.csub h3 .ta { font-family: var(--f-tamil); font-weight: 600; }
+.csub h3 small { font-weight: 400; color: var(--muted); font-size: 12px; }
+.csub p { margin: 0; color: var(--muted); font-size: 13px; }
+.cchips { display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; }
+.cchip { line-height: 1.3; }
+.cchip .tm { font-size: .85em; }
+.cchip .cn { color: var(--muted); font-size: 10.5px; margin-left: 5px; font-variant-numeric: tabular-nums; }
+.cchip.sec { border-style: dashed; color: var(--muted); }
+.chip.on { border-color: var(--accent); background: var(--halo); }
+.chip.back { align-self: flex-start; }
+.also { font-size: 12.5px; color: var(--muted); margin-top: 4px; }
+.lk small { color: var(--muted); font-size: 12px; }
+.vhead { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.vhead .seg { width: 210px; }
+.more { font: inherit; font-size: 12.5px; color: var(--accent); background: none; border: 1px dashed var(--rule); border-radius: 6px; padding: 4px; cursor: pointer; }
+@media (max-width: 720px) {
+  main.cmode #stage { height: auto; min-height: 0; overflow: visible; }
+  main.cmode.cmap #stage { height: 70vh; }
+  main.cmode #cview { position: static; padding: 12px; }
+  #ctabs { position: static; width: auto; margin: 10px 10px 0; }
+  main.cmode.cmap #ctabs { position: absolute; }
+  .crumbs { padding-right: 0; }
+  .tree { max-height: 55vh; overflow-y: auto; }
+}
 </style>
 </head>
 <body>
@@ -211,7 +273,7 @@ table.matrix td.none { color: var(--muted); text-align: center; }
   <h1>தமிழ் இலக்கியம்: சங்கம் முதல் சித்தர் வரை <span>Tamil literary knowledge graph, 40 books in nine groups</span></h1>
   <div class="stats" id="stats"></div>
 </header>
-<main>
+<main id="main">
   <aside aria-label="Controls">
     <div>
       <p class="label">View</p>
@@ -221,6 +283,12 @@ table.matrix td.none { color: var(--muted); text-align: center; }
         <button id="v-concepts" aria-pressed="false">Concepts</button>
         <button id="v-bridges" aria-pressed="false">Bridges</button>
       </div>
+    </div>
+    <div id="ctree-block" hidden>
+      <label class="label" for="csearch">Concepts by theme</label>
+      <input id="csearch" type="search" placeholder="breath, வாசி, karma, aram…" autocomplete="off">
+      <p class="legend-note" id="csearch-note" style="margin-top:6px">Searches gloss, Tamil, transliteration and category. Enter opens the first match.</p>
+      <div class="tree" id="ctree" role="tree" aria-label="Concept categories"></div>
     </div>
     <div id="grid-controls">
       <p class="legend-note" style="margin-bottom:10px">Every verse has a reading and concepts. A lit square is a verse that matches the choice below.</p>
@@ -238,7 +306,7 @@ table.matrix td.none { color: var(--muted); text-align: center; }
       </div>
       <p class="legend-note" style="margin-top:8px">To light up a concept, search for it or click a concept on a verse.</p>
     </div>
-    <div>
+    <div id="search-block">
       <label class="label" for="search">Find a verse or concept</label>
       <input id="search" placeholder="e.g. 327, n 42, a 12, nt 12, si 3:40, cc 198, அறம்" autocomplete="off">
       <p class="legend-note" id="search-note" style="margin-top:6px"></p>
@@ -262,16 +330,21 @@ table.matrix td.none { color: var(--muted); text-align: center; }
         <div class="types" id="types"></div>
       </div>
     </div>
-    <div>
+    <div id="books-block">
       <p class="label">Books, by group</p>
       <div class="books" id="books"></div>
     </div>
-    <div>
+    <div id="threads-block">
       <p class="label">Threads</p>
       <div class="threads" id="threads"></div>
     </div>
   </aside>
   <section id="stage" aria-label="Graph">
+    <div class="seg" id="ctabs" role="group" aria-label="Concepts view" hidden>
+      <button id="cm-browse" aria-pressed="true">Browse</button>
+      <button id="cm-map" aria-pressed="false">Map</button>
+    </div>
+    <div id="cview" hidden></div>
     <svg id="svg" role="img" aria-label="Graph of verses and links across forty Tamil books"></svg>
     <div id="grid" hidden></div>
     <div id="hint"></div>
@@ -442,7 +515,7 @@ for (const g of Object.keys(GRADE_SETS)) document.getElementById("g-" + g).addEv
 for (const s of Object.keys(SCOPES)) document.getElementById("s-" + s).addEventListener("click", () => { state.scope = s; state.thread = null; render(); });
 document.getElementById("v-verses").addEventListener("click", () => { state.view = "verses"; render(); });
 document.getElementById("v-grid").addEventListener("click", () => { state.view = "grid"; state.thread = null; render(); });
-document.getElementById("v-concepts").addEventListener("click", () => { state.view = "concepts"; state.thread = null; render(); });
+document.getElementById("v-concepts").addEventListener("click", () => { state.view = "concepts"; state.thread = null; render(); state.csel ? conceptDetail(state.csel) : showConceptIntro(); });
 document.getElementById("v-bridges").addEventListener("click", () => { state.view = "bridges"; state.thread = null; render(); if (!state.pair) showBridgesIntro(); });
 const soundLinked = new Set(), crossLinked = new Set(), bridged = new Set();
 for (const l of KG.links) if (l.grade === "sound") {
@@ -677,6 +750,24 @@ function render() {
   document.getElementById("link-more").style.display = state.view === "verses" ? "" : "none";
   document.getElementById("grid-controls").style.display = state.view === "grid" ? "" : "none";
   document.querySelectorAll("[data-thread]").forEach(b => b.classList.toggle("on", +b.dataset.thread === state.thread));
+  const cv = state.view === "concepts", browse = cv && state.cmode === "browse";
+  document.getElementById("ctree-block").hidden = !cv;
+  for (const id of ["search-block", "books-block", "threads-block"]) document.getElementById(id).hidden = cv;
+  document.getElementById("main").classList.toggle("cmode", cv);
+  document.getElementById("main").classList.toggle("cmap", cv && !browse);
+  document.getElementById("ctabs").hidden = !cv;
+  document.getElementById("cview").hidden = !browse;
+  document.getElementById("hint").hidden = browse;
+  document.getElementById("cm-browse").setAttribute("aria-pressed", browse);
+  document.getElementById("cm-map").setAttribute("aria-pressed", cv && !browse);
+  if (!cv && state.lastView === "concepts" && /^#(concept|cat)-/.test(location.hash)) history.replaceState(null, "", location.pathname + location.search);
+  state.lastView = state.view;
+  if (cv) renderTree();
+  if (browse) {
+    if (sim) sim.stop();
+    document.getElementById("grid").hidden = true; document.getElementById("svg").style.display = "none";
+    renderCView(); return;
+  }
   const isGrid = state.view === "grid" || state.view === "bridges";
   document.getElementById("grid").hidden = !isGrid;
   document.getElementById("svg").style.display = isGrid ? "none" : "";
@@ -877,7 +968,6 @@ function frameOf(v) {
 
 function selectVerse(id, focus) {
   if (!verses[id]) return;
-  if (state.view === "concepts") { state.view = "verses"; render(); }
   if (!state.books.has(bookOf(id))) { state.books.add(bookOf(id)); document.getElementById("b-" + bookOf(id)).checked = true; syncGroupBoxes(); render(); }
   state.selected = { kind: "verse", id };
   if (state.view === "grid") {
@@ -889,7 +979,8 @@ function selectVerse(id, focus) {
   const links = KG.links.filter(l => l.a === id || l.b === id)
     .sort((x, y) => (bookOf(y.a === id ? y.b : y.a) !== v.book) - (bookOf(x.a === id ? x.b : x.a) !== v.book));
   const flags = [v.x && pill("contested", "commentators differ"), v.u && pill("uncertain", "reading uncertain"), v.f && pill("textflag", "source text to check"), v.mm && pill("weak", "marked by Sonnet")].filter(Boolean).join("");
-  detail.innerHTML = `
+  const back = state.view === "concepts" && state.csel ? `<button class="chip back" data-back="1">← back to ${esc(state.csel)} <span class="tm">${esc(KG.concepts[state.csel].tamil)}</span></button>` : "";
+  detail.innerHTML = `${back}
     <div><h2>${esc(fullName(id))}</h2><div class="sub"><span style="font-family:var(--f-tamil)">${esc(BOOK_TAMIL[v.book])}</span> · ${esc(groupName(GROUP_OF(v.book)))} · chapter ${ch.num}, <span style="font-family:var(--f-tamil)">${esc(ch.title)}</span> · <span${OWN_PART[v.book] ? ' style="font-family:var(--f-tamil)"' : ""}>${esc(partName(ch))}</span></div></div>
     <p class="tamil">${v.t.map(esc).join("<br>")}</p>
     ${flags ? `<div class="pills">${flags}</div>` : ""}
@@ -903,32 +994,27 @@ function selectVerse(id, focus) {
     <div class="block"><div class="k">Links (${links.length}), other book first</div><div class="list">${links.length ? links.map(l => linkCard(l, id)).join("") : '<p class="empty">No links from this verse.</p>'}</div></div>
     <div class="block"><div class="k">Chapter theme</div><p style="color:var(--muted)">${esc(ch.theme)}</p></div>`;
   detail.scrollTop = 0;
+  if (state.view === "concepts") revealDetail();
   if (focus && state.view === "verses") centreOn(id);
 }
 
 function selectConcept(c, focus) {
+  if (!KG.concepts[c]) return;
   if (state.view === "grid") { state.highlight = "concept:" + c; render(); }
-  else {
-    if (state.view !== "concepts") { state.view = "concepts"; render(); }
-    state.selected = { kind: "concept", id: c }; highlight();
+  else if (state.view !== "concepts") { state.view = "concepts"; state.thread = null; render(); }
+  if (state.csel !== c) state.cmore = new Set();
+  state.csel = c;
+  if (state.view === "concepts") {
+    const pl = TAX.placement[c];
+    const here = NODE[state.cnode] && conceptsOf(NODE[state.cnode]).includes(c);
+    if (pl && !here) { state.cnode = pl.primary; state.open.add(PARENT[pl.primary].id); state.open.add(pl.primary); }
+    setHash("concept-" + c);
+    renderTree();
+    if (state.cmode === "browse") renderCView();
+    else { state.selected = { kind: "concept", id: c }; highlight(); if (focus) centreOn(c); }
   }
-  const info = KG.concepts[c], list = shownVerses().filter(id => verses[id].c.includes(c));
-  const byBook = {}; list.forEach(id => { byBook[bookOf(id)] = (byBook[bookOf(id)] || 0) + 1; });
-  const shared = {};
-  list.forEach(id => verses[id].c.forEach(o => { if (o !== c) shared[o] = (shared[o] || 0) + 1; }));
-  const near = Object.entries(shared).filter(([, w]) => w >= 3).sort((a, b) => b[1] - a[1]).slice(0, 10);
-  const group = book => list.filter(id => bookOf(id) === book);
-  const CAP = 60;
-  detail.innerHTML = `
-    <div><h2>${esc(c)} <span style="font-family:var(--f-tamil);font-weight:400">${esc(info.tamil)}</span></h2><div class="sub">${esc(info.gloss)}</div></div>
-    <div class="pills">${BOOK_ORDER.map(b => byBook[b] ? pill("", `${BOOK_NAMES[b]} ${byBook[b]}`) : "").join("")}</div>
-    ${near.length ? `<div class="block"><div class="k">Most often alongside</div><div class="pills">${near.map(([o, w]) => conceptChip(o).replace("</button>", ` <span class="tm">${w}</span></button>`)).join("")}</div></div>` : ""}
-    ${BOOK_ORDER.filter(b => group(b).length).map(b => `<div class="block"><div class="k">${esc(BOOK_NAMES[b])} (${group(b).length}${group(b).length > CAP ? `, first ${CAP} shown` : ""})</div><div class="list">${group(b).slice(0, CAP).map(id => {
-      const v = verses[id];
-      return `<button class="lk" data-verse="${id}"><span class="top">${esc(fullName(id))}<span style="font-weight:400;color:var(--muted)">${esc(KG.chapters[v.ch].title)}</span>${v.x ? pill("contested", "contested") : ""}</span><p>${esc(v.r)}</p></button>`;
-    }).join("")}</div></div>`).join("")}`;
-  detail.scrollTop = 0;
-  if (focus && state.view === "concepts") centreOn(c);
+  conceptDetail(c);
+  if (state.view === "concepts") revealDetail();
 }
 
 function showThread(t) {
@@ -957,7 +1043,7 @@ function showEmpty() {
     <h2>How to read this</h2>
     <p>${BOOK_ORDER.length} Tamil books are here, read in ${GROUP_ORDER.length} groups (docs/corpus-groups.md): ${GROUP_ORDER.map(g => `<b>${esc(groupName(g))}</b> (${BOOK_ORDER.filter(b => GROUP_OF(b) === g).map(b => esc(BOOK_NAMES[b])).join(", ")})`).join("; ")}.</p>
     <p>Every verse or reading unit has a reading and up to four shared concepts, and the fields of its group: the Tholkappiyam frame (thinai, speaker, karu, hidden comparisons) for akam, puram and devotional verses; domain, counted things, proverb and historical norms for the ethics works; speaker, agents, event and doctrinal claims (school and stance) for the epics. Each book has its own colour and shape; the Kural and Naladiyar are coloured by part.</p>
-    <p><b>All verses</b> shows every verse in rows of ten per chapter. <b>Links</b> draws the links, sound ones only unless you add weak ones. <b>Concepts</b> gathers verses from every book. <b>Bridges</b> is a group-by-group matrix of sound links between groups. Search a verse by its book's prefix: <b>nt 12</b>, <b>si 3:40</b>, <b>cc 198</b>, <b>a 12</b>, <b>pp 120</b>, or a bare number for the Kural.</p>
+    <p><b>All verses</b> shows every verse in rows of ten per chapter. <b>Links</b> draws the links, sound ones only unless you add weak ones. <b>Concepts</b> sorts the shared concepts into categories (the four aims and nine cross-cutting families), with an essence line for each; its <b>Map</b> tab keeps the concept network. Link to a concept with <b>#concept-vaasi</b>. <b>Bridges</b> is a group-by-group matrix of sound links between groups. Search a verse by its book's prefix: <b>nt 12</b>, <b>si 3:40</b>, <b>cc 198</b>, <b>a 12</b>, <b>pp 120</b>, or a bare number for the Kural.</p>
     <p><b>Trust:</b> every link was graded blind by a separate agent; where graders differed the stricter grade is kept. ${sp(L)}% of graded links are sound; ${sp(bridges)}% of the ${fmt(bridges.length)} bridges between groups. By group: ${GROUP_ORDER.map(g => `${esc(GROUP_SHORT[g])} ${sp(gl(g))}%`).join(", ")}. The Jain epics marked in wave 6 are weakest: ${sp(jain)}% of their ${fmt(jain.length)} links are sound, and Sonnet-marked chapters ${wm.sonnet ? Math.round(wm.sonnet.strictest_sound_pct) : "?"}% against ${wm.opus ? Math.round(wm.opus.strictest_sound_pct) : "?"}% for Opus-marked ones. Only the Kural and Naladiyar have commentary here (${COMMENTATOR_NAMES.kural}; ${COMMENTATOR_NAMES.naladiyar}); every other reading is the marking agent's own. No Tamil scholar has reviewed any of this.</p>
   </div>`;
 }
@@ -967,6 +1053,10 @@ document.getElementById("grid").addEventListener("click", e => {
   const p = e.target.closest("[data-pair]"); if (p) showBridge(...p.dataset.pair.split("|"));
 });
 detail.addEventListener("click", e => {
+  const n = e.target.closest("[data-node]"); if (n) return selectNode(n.dataset.node);
+  if (e.target.closest("[data-back]")) return conceptDetail(state.csel);
+  const t = e.target.closest("[data-csound]"); if (t) { state.csound = t.dataset.csound === "1"; return conceptDetail(state.csel, true); }
+  const m = e.target.closest("[data-more]"); if (m) { state.cmore.add(m.dataset.more); return conceptDetail(state.csel, true); }
   const v = e.target.closest("[data-verse]"), c = e.target.closest("[data-concept]");
   if (c) selectConcept(c.dataset.concept, true); else if (v) selectVerse(v.dataset.verse, true);
 });
@@ -979,12 +1069,177 @@ function centreOn(id) {
   setTimeout(go, sim && sim.alpha() > 0.3 ? 900 : 0);
 }
 
+// ---- Concept browser ----
+// Categories and subthemes come from kg/themes/concept_categories.json (KG.taxonomy); KG.cstats has, per
+// concept, verses by group (g), sound links touching it (s), co-occurring concepts (co) and sound bridges (br).
+const TAX = KG.taxonomy || { categories: [], placement: {}, groups: {} }, CST = KG.cstats || {};
+const CATS = TAX.categories, NODE = {}, PARENT = {};
+for (const cat of CATS) { NODE[cat.id] = cat; for (const sub of cat.subthemes) { NODE[sub.id] = sub; PARENT[sub.id] = cat; } }
+const CONCEPT_VERSES = {};
+for (const [id, v] of Object.entries(verses)) for (const c of v.c) (CONCEPT_VERSES[c] = CONCEPT_VERSES[c] || []).push(id);
+const LINK_BY_PAIR = {};
+for (const l of KG.links) LINK_BY_PAIR[l.a + "|" + l.b] = l;
+const conceptsOf = node => node.subthemes ? node.subthemes.flatMap(x => x.concepts) : node.concepts;
+const nodeVerses = id => Object.values(TAX.groups[id] || {}).reduce((t, n) => t + n, 0);
+const cn = c => CST[c]?.n || 0;
+Object.assign(state, { cmode: "browse", cnode: CATS[0]?.id, csel: null, csound: false, cmore: new Set(), open: new Set(CATS[0] ? [CATS[0].id] : []), cq: "" });
+const setHash = h => { if (location.hash !== "#" + h) history.replaceState(null, "", "#" + h); };
+const revealDetail = () => { if (matchMedia("(max-width: 720px)").matches) detail.scrollIntoView({ block: "start" }); };
+
+// Search: plain substring, and a loose form that folds doubled letters (vaasi ~ vasi) and drops punctuation.
+const norm = x => String(x ?? "").toLowerCase().normalize("NFC");
+const loose = x => norm(x).replace(/([a-z])\1+/g, "$1").replace(/[^a-z0-9஀-௿]+/g, "");
+function matcher(q) {
+  q = norm(q).trim(); if (q.length < 2) return null;
+  const lq = loose(q);
+  const m = (...fields) => fields.some(f => norm(f).includes(q) || (lq.length >= 2 && loose(f).includes(lq)));
+  m.q = q; return m;
+}
+const conceptHit = (m, c) => m(c, KG.concepts[c].tamil, KG.concepts[c].gloss, ...(TAX.placement[c]?.keywords || []));
+const mark = (text, m) => {
+  const t = esc(text); if (!m) return t;
+  const i = norm(text).indexOf(m.q); if (i < 0) return t;
+  return esc(text.slice(0, i)) + "<mark>" + esc(text.slice(i, i + m.q.length)) + "</mark>" + esc(text.slice(i + m.q.length));
+};
+
+function renderTree() {
+  const m = matcher(state.cq), el = document.getElementById("ctree");
+  const found = new Set(); let html = "";
+  for (const cat of CATS) {
+    const catHit = m && m(cat.id, cat.name, cat.tamil);
+    const subs = cat.subthemes.map(sub => {
+      const subHit = m && m(sub.name, sub.tamil, sub.id.split(".")[1]);
+      const cs = !m || subHit ? sub.concepts : sub.concepts.filter(c => conceptHit(m, c));
+      if (m) cs.forEach(c => found.add(c));
+      return { sub, subHit, cs };
+    }).filter(x => !m || catHit || x.subHit || x.cs.length);
+    if (m && !subs.length) continue;
+    const open = m ? true : state.open.has(cat.id), total = conceptsOf(cat).length;
+    const nShown = subs.reduce((t, x) => t + x.cs.length, 0);
+    html += `<div class="trow lvl0${state.cnode === cat.id ? " on" : ""}" role="treeitem" aria-expanded="${open}">
+      <button class="caret" data-toggle="${cat.id}" aria-label="${open ? "Collapse" : "Expand"} ${esc(cat.name)}">${open ? "▼" : "▶"}</button>
+      <button class="tname" data-node="${cat.id}"><span class="ta">${mark(cat.tamil, m)}</span> ${mark(cat.name, m)}</button>
+      <span class="n" title="concepts">${m && !catHit ? `${nShown}/` : ""}${total}</span></div>`;
+    if (!open) continue;
+    for (const { sub, subHit, cs } of subs) {
+      const sopen = m ? cs.length > 0 && !(catHit && !subHit && cs === sub.concepts) : state.open.has(sub.id);
+      html += `<div class="trow lvl1${state.cnode === sub.id ? " on" : ""}" role="treeitem" aria-expanded="${sopen}">
+        <button class="caret" data-toggle="${sub.id}" aria-label="${sopen ? "Collapse" : "Expand"} ${esc(sub.name)}">${sopen ? "▼" : "▶"}</button>
+        <button class="tname" data-node="${sub.id}">${mark(sub.name, m)} <span class="ta">${mark(sub.tamil, m)}</span></button>
+        <span class="n">${m && !subHit && cs.length !== sub.concepts.length ? `${cs.length}/` : ""}${sub.concepts.length}</span></div>`;
+      if (sopen) html += cs.map(c => `<button class="tleaf${state.csel === c ? " on" : ""}" data-concept="${esc(c)}" title="${esc(KG.concepts[c].gloss)}">${mark(c, m)} <span class="ta">${mark(KG.concepts[c].tamil, m)}</span><span class="n">${fmt(cn(c))}</span></button>`).join("");
+    }
+  }
+  el.innerHTML = html || '<p class="empty">No concept or theme matches.</p>';
+  // Enter opens the best match: an exact id or Tamil word, then a prefix or search word, then the commonest
+  const rank = c => { const id = norm(c), ta = norm(KG.concepts[c].tamil), kw = (TAX.placement[c]?.keywords || []).map(norm);
+    return id === m.q || ta === m.q ? 0 : id.startsWith(m.q) || ta.startsWith(m.q) || kw.some(k => k.includes(m.q)) ? 1 : 2; };
+  state.cfirst = m ? [...found].sort((a, b) => rank(a) - rank(b) || cn(b) - cn(a))[0] || null : null;
+  document.getElementById("csearch-note").textContent = m
+    ? `${found.size} concept${found.size === 1 ? "" : "s"} match${found.size === 1 ? "es" : ""}${found.size ? ". Enter opens the first." : "."}`
+    : `${CATS.length} categories, ${Object.keys(TAX.placement).length} concepts. Searches gloss, Tamil, transliteration and category.`;
+}
+
+function renderCView() {
+  const el = document.getElementById("cview"), node = NODE[state.cnode] || CATS[0];
+  if (!node) { el.innerHTML = '<p class="empty">The concept taxonomy is missing: run scripts/export_viz.py.</p>'; return; }
+  const isCat = !PARENT[node.id], cat = PARENT[node.id] || node;
+  const g = TAX.groups[node.id] || {}, gmax = Math.max(1, ...Object.values(g));
+  const bars = GROUP_ORDER.map(gr => `<span class="bl" title="${esc(groupName(gr))}">${esc(GROUP_SHORT[gr])}</span><span class="bt"><span style="width:${(100 * (g[gr] || 0) / gmax).toFixed(1)}%"></span></span><span class="bn">${fmt(g[gr] || 0)}</span>`).join("");
+  const cmax = Math.max(1, ...conceptsOf(node).map(cn));
+  const chip = (c, sec) => `<button class="chip cchip${sec ? " sec" : ""}${state.csel === c ? " on" : ""}" data-concept="${esc(c)}" style="font-size:${(12 + 9 * Math.sqrt(cn(c) / cmax)).toFixed(1)}px" title="${esc(KG.concepts[c].gloss)}${sec ? ` (placed under ${esc(NODE[TAX.placement[c].primary].name)})` : ""}">${esc(c)}<span class="tm">${esc(KG.concepts[c].tamil)}</span><span class="cn">${fmt(cn(c))}</span></button>`;
+  const chipsOf = sub => `<div class="cchips">${[...sub.concepts].sort((a, b) => cn(b) - cn(a)).map(c => chip(c)).join("")}${(sub.also || []).map(c => chip(c, true)).join("")}</div>`;
+  el.innerHTML = `
+    <nav class="crumbs" aria-label="Category path"><button data-node="${cat.id}">${esc(cat.name)}</button>${isCat ? "" : ` › <span>${esc(node.name)}</span>`}</nav>
+    <div><h2><span class="ta">${esc(node.tamil)}</span>${esc(node.name)}</h2><p class="cgloss">${esc(node.gloss)}</p>${isCat && cat.gloss_ta ? `<p class="cgloss ta" style="font-size:14px">${esc(cat.gloss_ta)}</p>` : ""}</div>
+    <div class="essence"><div class="k label">Essence${isCat ? "" : ` of ${esc(cat.name.toLowerCase())}`}</div><p>${esc(cat.essence)}</p></div>
+    <div class="block"><div class="k">Verses expressing ${isCat ? "this category" : "this subtheme"}, by group (${fmt(nodeVerses(node.id))} verses)</div><div class="bars" role="img" aria-label="Verses by group">${bars}</div></div>
+    ${isCat ? node.subthemes.map(sub => `<section class="csub"><h3><button data-node="${sub.id}"><span class="ta">${esc(sub.tamil)}</span> · ${esc(sub.name)}</button><small>${sub.concepts.length} concept${sub.concepts.length === 1 ? "" : "s"} · ${fmt(nodeVerses(sub.id))} verses</small></h3><p>${esc(sub.gloss)}</p>${chipsOf(sub)}</section>`).join("")
+      : `<section class="csub"><p>Chips are sized by the verses expressing each concept; dashed ones are placed under another subtheme and also belong here.</p>${chipsOf(node)}</section>`}`;
+}
+
+function selectNode(id) {
+  if (!NODE[id]) return;
+  state.cnode = id; state.open.add(id); if (PARENT[id]) state.open.add(PARENT[id].id);
+  if (state.view !== "concepts" || state.cmode !== "browse") { state.view = "concepts"; state.cmode = "browse"; state.thread = null; render(); if (!state.csel) showConceptIntro(); }
+  else { renderTree(); renderCView(); }
+  setHash("cat-" + id);
+  document.getElementById("cview").scrollTop = 0;
+  if (matchMedia("(max-width: 720px)").matches) document.getElementById("stage").scrollIntoView({ block: "start" });
+}
+
+function showConceptIntro() {
+  detail.innerHTML = `<div class="empty"><h2>Concepts by theme</h2>
+    <p>The ${Object.keys(TAX.placement).length} shared concepts are sorted into ${CATS.length} categories: the four classical aims, அறம், பொருள், இன்பம் and வீடு, and nine families that cut across them. Each concept sits under one subtheme and may be listed, dashed, under others.</p>
+    <p>Pick a category or subtheme on the left, or search: the essence line says what the books say together, in this graph's own readings. Click a concept to see its verses, the concepts it travels with, and the sound links that bridge two groups through it. <b>Map</b> shows the older concept network.</p>
+    <p>The categories and essence lines are this project's interpretation and have not been reviewed by a Tamil scholar.</p></div>`;
+}
+
+function conceptDetail(c, keepScroll) {
+  if (!c || !KG.concepts[c]) return showConceptIntro();
+  const info = KG.concepts[c], st = CST[c] || { n: 0, g: {}, s: 0, co: [], br: [] }, pl = TAX.placement[c] || {};
+  const sub = NODE[pl.primary], cat = PARENT[pl.primary];
+  const all = CONCEPT_VERSES[c] || [], ids = state.csound ? all.filter(id => soundLinked.has(id)) : all;
+  const byBook = {}; ids.forEach(id => (byBook[bookOf(id)] = byBook[bookOf(id)] || []).push(id));
+  const CAP = 12, top = detail.scrollTop;
+  const bridges = (st.br || []).map(([a, b, both]) => {
+    const l = LINK_BY_PAIR[a + "|" + b]; if (!l || !verses[a] || !verses[b]) return "";
+    return `<button class="lk" data-verse="${a}"><span class="top"><span class="swatch" style="background:var(--t-${l.type})"></span>${esc(fullName(a))} ↔ ${esc(fullName(b))}${pill("sound", "sound")}${both ? pill("across", "both verses express it") : ""}</span>
+      <small>${esc(GROUP_SHORT[groupOf(a)])} and ${esc(GROUP_SHORT[groupOf(b)])} · ${esc(TYPE_NAMES[l.type] || l.type)}</small><p>${esc(l.note)}</p></button>`;
+  }).join("");
+  const verseCard = id => { const v = verses[id];
+    return `<button class="lk" data-verse="${id}"><span class="top">${esc(fullName(id))}<span style="font-weight:400;color:var(--muted)">${esc(KG.chapters[v.ch]?.title || "")}</span>${soundLinked.has(id) ? pill("sound", "sound link") : ""}${v.x ? pill("contested", "contested") : ""}</span><p>${esc(v.r)}</p></button>`; };
+  detail.innerHTML = `
+    <div><h2>${esc(c)} <span style="font-family:var(--f-tamil);font-weight:400">${esc(info.tamil)}</span></h2><div class="sub">${esc(info.gloss)}</div>
+      ${cat ? `<nav class="crumbs" style="padding-right:0;margin-top:6px" aria-label="Category path"><button data-node="${cat.id}"><span class="ta">${esc(cat.tamil)}</span> ${esc(cat.name)}</button> › <button data-node="${sub.id}">${esc(sub.name)}</button></nav>` : ""}
+      ${(pl.secondary || []).length ? `<div class="also">Also under ${pl.secondary.map(x => `<button class="linkish" data-node="${x}">${esc(NODE[x].name)}</button>`).join(", ")}</div>` : ""}</div>
+    <div class="pills">${pill("", `${fmt(st.n)} verses`)}${pill("sound", `${fmt(st.s)} sound links`)}${pill("", `${Object.keys(st.g).length} of ${GROUP_ORDER.length} groups`)}</div>
+    <div class="pills">${GROUP_ORDER.filter(gr => st.g[gr]).map(gr => pill("", `${GROUP_SHORT[gr]} ${fmt(st.g[gr])}`)).join("")}</div>
+    ${st.co.length ? `<div class="block"><div class="k">Most often alongside</div><div class="pills">${st.co.map(([o, w]) => conceptChip(o).replace("</button>", ` <span class="tm">${w}</span></button>`)).join("")}</div></div>` : ""}
+    <div class="block"><div class="k">Strongest bridges</div>${bridges ? `<p class="legend-note" style="margin-bottom:6px">Sound links between two groups whose verses express ${esc(c)}, both ends first.</p><div class="list">${bridges}</div>` : '<p class="empty">No sound link joins two groups through this concept.</p>'}</div>
+    <div class="block"><div class="vhead"><div class="k" style="margin:0">Verses (${fmt(ids.length)}${state.csound ? ` of ${fmt(all.length)}` : ""}), by book</div>
+      <div class="seg" role="group" aria-label="Which verses"><button data-csound="0" aria-pressed="${!state.csound}">All</button><button data-csound="1" aria-pressed="${state.csound}">Sound-linked only</button></div></div></div>
+    ${BOOK_ORDER.filter(b => byBook[b]).map(b => { const list = byBook[b], more = state.cmore.has(b);
+      return `<div class="block"><div class="k">${esc(BOOK_NAMES[b])} <span class="ta" style="text-transform:none">${esc(BOOK_TAMIL[b])}</span> (${list.length})</div><div class="list">${(more ? list : list.slice(0, CAP)).map(verseCard).join("")}${!more && list.length > CAP ? `<button class="more" data-more="${b}">Show all ${list.length}</button>` : ""}</div></div>`; }).join("") || '<p class="empty">No verses.</p>'}`;
+  detail.scrollTop = keepScroll ? top : 0;
+}
+
+document.getElementById("ctree").addEventListener("click", e => {
+  const t = e.target.closest("[data-toggle]");
+  if (t) { const id = t.dataset.toggle; state.open.has(id) && !state.cq ? state.open.delete(id) : state.open.add(id); return renderTree(); }
+  const n = e.target.closest("[data-node]"); if (n) return selectNode(n.dataset.node);
+  const c = e.target.closest("[data-concept]"); if (c) selectConcept(c.dataset.concept, true);
+});
+const csearch = document.getElementById("csearch");
+csearch.addEventListener("input", () => { state.cq = csearch.value; renderTree(); });
+csearch.addEventListener("keydown", e => { if (e.key === "Enter" && state.cfirst) selectConcept(state.cfirst, true); if (e.key === "Escape") { csearch.value = state.cq = ""; renderTree(); } });
+document.getElementById("cview").addEventListener("click", e => {
+  const n = e.target.closest("[data-node]"); if (n) return selectNode(n.dataset.node);
+  const c = e.target.closest("[data-concept]"); if (c) selectConcept(c.dataset.concept, true);
+});
+document.getElementById("cm-browse").addEventListener("click", () => { state.cmode = "browse"; render(); });
+document.getElementById("cm-map").addEventListener("click", () => { state.cmode = "map"; render(); if (state.csel) { state.selected = { kind: "concept", id: state.csel }; highlight(); } });
+
+// Deep links: #concept-<id>, #cat-<category or subtheme id>, #verse-<id>
+function route() {
+  const h = decodeURIComponent(location.hash.slice(1)); let m;
+  if ((m = h.match(/^concept-(.+)$/)) && KG.concepts[m[1]]) {
+    if (state.view !== "concepts") { state.view = "concepts"; state.thread = null; render(); }
+    selectConcept(m[1], true); return true;
+  }
+  if ((m = h.match(/^cat-(.+)$/)) && NODE[m[1]]) { selectNode(m[1]); if (!state.csel) showConceptIntro(); return true; }
+  if ((m = h.match(/^verse-(.+)$/)) && verses[m[1]]) { selectVerse(m[1], true); return true; }
+  if (h === "concepts") { state.view = "concepts"; render(); showConceptIntro(); return true; }
+  return false;
+}
+addEventListener("hashchange", route);
+
 let resizeTimer;
 addEventListener("resize", () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(render, 200); });
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
 new MutationObserver(render).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 render();
-showEmpty();
+if (!route()) showEmpty();
 window.KG_READY = true;
 }
 </script>

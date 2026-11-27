@@ -2,6 +2,7 @@
 """Export every book's graph for the explorer (viz/index.html), one data file per corpus group.
 
   viz/data_core.js      window.KG: concepts, threads, the book and group registry, the bridge summary,
+                        the concept taxonomy (kg/themes/concept_categories.json) and per-concept stats,
                         and window.KG_FILES, the group files the page loads after it
   viz/data_<group>.js   that group's chapters, verses and links (the links proposed from its books),
                         pushed onto window.KG_PARTS; a group larger than LIMIT is split by book into
@@ -285,6 +286,71 @@ def group_book_verses(group, part, bm, marker):
     return links
 
 
+def concept_taxonomy(parts, concepts):
+    """The concept taxonomy (kg/themes/concept_categories.json) and, per concept, what the Concepts view shows:
+    verses by group, sound links touching it, the concepts it most often shares a verse with, and up to eight
+    sound links between groups whose two verses (or failing that, one) express it. Every concept must be placed."""
+    tax = json.loads((ROOT / "kg" / "themes" / "concept_categories.json").read_text(encoding="utf-8"))
+    placed = tax["placement"]
+    unplaced = sorted(set(concepts) - set(placed))
+    if unplaced:
+        raise SystemExit(f"concept_categories.json leaves {len(unplaced)} concepts unplaced: {', '.join(unplaced)}")
+    group_of_verse, vcon = {}, {}
+    for group, part in parts.items():
+        for vid, v in part["verses"].items():
+            group_of_verse[vid] = group
+            vcon[vid] = v["c"]
+    by_group, pair = defaultdict(Counter), Counter()
+    for vid, cs in vcon.items():
+        for c in cs:
+            by_group[c][group_of_verse[vid]] += 1
+        for i, a in enumerate(cs):
+            for b in cs[i + 1:]:
+                pair[(a, b) if a < b else (b, a)] += 1
+    total = {c: sum(g.values()) for c, g in by_group.items()}
+    near = defaultdict(list)
+    for (a, b), n in pair.items():
+        if n >= 2:
+            near[a].append((b, n))
+            near[b].append((a, n))
+    sound, bridges = Counter(), defaultdict(list)
+    for part in parts.values():
+        for l in part["links"]:
+            if l["grade"] != "sound":
+                continue
+            ca, cb = set(vcon.get(l["a"], ())), set(vcon.get(l["b"], ()))
+            for c in ca | cb:
+                sound[c] += 1
+            if group_of_verse.get(l["a"]) != group_of_verse.get(l["b"]):
+                for c in ca | cb:
+                    bridges[c].append((0 if (c in ca and c in cb) else 1, l["a"], l["b"]))
+    stats = {}
+    for c in concepts:
+        # co-occurring concepts ranked by shared verses, damped by the other concept's size so the
+        # most frequent concepts (kaamam, azhagu) do not head every list
+        co = sorted(near[c], key=lambda t: (-t[1] / (total.get(t[0], 1) ** 0.5), t[0]))[:10]
+        br, seen = [], Counter()
+        for both, a, b in sorted(bridges[c]):
+            key = tuple(sorted((group_of_verse[a], group_of_verse[b])))
+            if seen[key] < 2 and len(br) < 8:  # at most two per pair of groups, both-ends first
+                seen[key] += 1
+                br.append([a, b, 1 - both])
+        stats[c] = {"n": total.get(c, 0), "g": dict(by_group[c]), "s": sound[c],
+                    "co": [[o, n] for o, n in sorted(co, key=lambda t: -t[1])], "br": br}
+    # distinct verses by group for every category and subtheme (primary placements only)
+    ids = {}
+    for cat in tax["categories"]:
+        for sub in cat["subthemes"]:
+            for c in sub["concepts"]:
+                ids.setdefault(c, []).extend([cat["id"], sub["id"]])
+    cat_groups = defaultdict(Counter)
+    for vid, cs in vcon.items():
+        for k in {k for c in cs for k in ids.get(c, ())}:
+            cat_groups[k][group_of_verse[vid]] += 1
+    return {"categories": tax["categories"], "placement": placed,
+            "groups": {k: dict(v) for k, v in cat_groups.items()}}, stats
+
+
 def main():
     bm = load_module("book_marks", "book_marks.py")
     index = json.loads((GROUPS / "index.json").read_text(encoding="utf-8"))
@@ -327,6 +393,7 @@ def main():
     threads.sort(key=lambda t: len(t["books"]) == 1)  # threads across books first; sort is stable
     concepts.update({c["id"]: {"tamil": c["tamil"], "gloss": c["gloss"]}
                      for c in json.loads((ROOT / "kg" / "themes" / "concepts.json").read_text(encoding="utf-8"))})
+    taxonomy, cstats = concept_taxonomy(parts, concepts)
     shape_pool = iter(shapes())
     old_shape = {"kural": "circle", "naladiyar": "diamond", "tirumanthiram": "triangle", "thiruppugazh": "star",
                  "siddhar": "wye", "akananuru": "cross", "purananuru": "hexagon", "pattupattu": "down"}
@@ -379,7 +446,8 @@ def main():
             sizes[name] = path.stat().st_size
     core = {"concepts": concepts, "threads": threads, "books": books, "groups": groups,
             "bridges": {"pairs": bridges["pairs"], "within": bridges["within"]},
-            "summary": {k: audit["summary"][k] for k in ("by_grade", "sound_pct", "by_marker_model_wave6", "by_grader_model")}}
+            "summary": {k: audit["summary"][k] for k in ("by_grade", "sound_pct", "by_marker_model_wave6", "by_grader_model")},
+            "taxonomy": taxonomy, "cstats": cstats}
     path = VIZ / "data_core.js"
     path.write_text("window.KG = " + json.dumps(core, ensure_ascii=False, separators=(",", ":")) + ";\nwindow.KG_FILES = "
                     + json.dumps(files) + ";\n", encoding="utf-8")
