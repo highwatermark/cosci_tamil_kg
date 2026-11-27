@@ -1,0 +1,1802 @@
+{
+ "epic": {
+  "brief": "epic",
+  "part_a": {
+   "g1": {
+    "total": {
+     "sound": 463,
+     "n": 1042,
+     "teaches_false": 289,
+     "gains_n": 485,
+     "gains_false": 213,
+     "weak": 507,
+     "forced": 72
+    },
+    "by book": {
+     "silappathikaram": {
+      "sound": 163,
+      "n": 361,
+      "teaches_false": 94,
+      "weak": 177,
+      "forced": 21
+     },
+     "neelakesi": {
+      "sound": 130,
+      "n": 371,
+      "teaches_false": 124,
+      "weak": 204,
+      "forced": 37
+     },
+     "manimekalai": {
+      "sound": 170,
+      "n": 310,
+      "teaches_false": 71,
+      "weak": 126,
+      "forced": 14
+     }
+    },
+    "by target book": {
+     "manimekalai": {
+      "sound": 118,
+      "n": 222,
+      "teaches_false": 54,
+      "weak": 100,
+      "forced": 4
+     },
+     "kural": {
+      "weak": 131,
+      "n": 245,
+      "teaches_false": 84,
+      "sound": 78,
+      "forced": 36
+     },
+     "tirumanthiram": {
+      "sound": 20,
+      "n": 56,
+      "teaches_false": 17,
+      "weak": 30,
+      "forced": 6
+     },
+     "neelakesi": {
+      "weak": 61,
+      "n": 121,
+      "teaches_false": 26,
+      "sound": 58,
+      "forced": 2
+     },
+     "purananuru": {
+      "sound": 25,
+      "n": 45,
+      "teaches_false": 9,
+      "weak": 18,
+      "forced": 2
+     },
+     "silappathikaram": {
+      "sound": 107,
+      "n": 198,
+      "teaches_false": 45,
+      "weak": 85,
+      "forced": 6
+     },
+     "siddhar": {
+      "sound": 4,
+      "n": 23,
+      "teaches_false": 14,
+      "forced": 5,
+      "weak": 14
+     },
+     "akananuru": {
+      "weak": 5,
+      "n": 7,
+      "teaches_false": 3,
+      "forced": 1,
+      "sound": 1
+     },
+     "patitruppattu": {
+      "weak": 4,
+      "n": 16,
+      "teaches_false": 1,
+      "sound": 12
+     },
+     "kundalakesi": {
+      "weak": 9,
+      "n": 14,
+      "teaches_false": 5,
+      "sound": 4,
+      "forced": 1
+     },
+     "naladiyar": {
+      "weak": 22,
+      "n": 53,
+      "teaches_false": 16,
+      "forced": 6,
+      "sound": 25
+     },
+     "thinaimalai_nootraimpathu": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 1
+     },
+     "kuruntokai": {
+      "sound": 2,
+      "n": 2,
+      "teaches_false": 0
+     },
+     "natrinai": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "thiruppugazh": {
+      "weak": 4,
+      "n": 5,
+      "teaches_false": 3,
+      "forced": 1
+     },
+     "pattupattu": {
+      "weak": 10,
+      "n": 14,
+      "teaches_false": 8,
+      "forced": 2,
+      "sound": 2
+     },
+     "paripadal": {
+      "weak": 4,
+      "n": 4,
+      "teaches_false": 1
+     },
+     "kalittokai": {
+      "sound": 2,
+      "n": 3,
+      "teaches_false": 0,
+      "weak": 1
+     },
+     "valayapathi": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "thirikadugam": {
+      "weak": 1,
+      "n": 2,
+      "teaches_false": 0,
+      "sound": 1
+     },
+     "ainkurunuru": {
+      "weak": 3,
+      "n": 4,
+      "teaches_false": 1,
+      "sound": 1
+     },
+     "ainthinai_aimpathu": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "pazhamozhi_nanooru": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "udayana_kumara_kaviyam": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "sirupanchamoolam": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 1
+     },
+     "ainthinai_ezhupathu": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 0
+     }
+    },
+    "within/cross group": {
+     "within epics_great": {
+      "sound": 185,
+      "n": 330,
+      "teaches_false": 76,
+      "weak": 137,
+      "forced": 8
+     },
+     "cross epics_great->ethics": {
+      "weak": 101,
+      "n": 207,
+      "teaches_false": 56,
+      "sound": 88,
+      "forced": 18
+     },
+     "cross epics_minor->devotional": {
+      "sound": 11,
+      "n": 46,
+      "teaches_false": 22,
+      "weak": 27,
+      "forced": 8
+     },
+     "within epics_minor": {
+      "weak": 61,
+      "n": 121,
+      "teaches_false": 26,
+      "sound": 58,
+      "forced": 2
+     },
+     "cross epics_minor->ethics": {
+      "weak": 54,
+      "n": 95,
+      "teaches_false": 45,
+      "forced": 24,
+      "sound": 17
+     },
+     "cross epics_great->ettuthogai_puram": {
+      "sound": 37,
+      "n": 57,
+      "teaches_false": 7,
+      "weak": 18,
+      "forced": 2
+     },
+     "cross epics_great->devotional": {
+      "sound": 13,
+      "n": 38,
+      "teaches_false": 12,
+      "weak": 21,
+      "forced": 4
+     },
+     "cross epics_great->ettuthogai_akam": {
+      "weak": 9,
+      "n": 17,
+      "teaches_false": 4,
+      "forced": 1,
+      "sound": 7
+     },
+     "cross epics_minor->epics_great": {
+      "sound": 44,
+      "n": 105,
+      "teaches_false": 28,
+      "weak": 58,
+      "forced": 3
+     },
+     "cross epics_great->kilkanakku_akam": {
+      "weak": 3,
+      "n": 3,
+      "teaches_false": 1
+     },
+     "cross epics_great->pattupattu": {
+      "weak": 10,
+      "n": 14,
+      "teaches_false": 8,
+      "forced": 2,
+      "sound": 2
+     },
+     "cross epics_great->ettuthogai_devotional": {
+      "weak": 4,
+      "n": 4,
+      "teaches_false": 1
+     },
+     "cross epics_minor->ettuthogai_puram": {
+      "weak": 4,
+      "n": 4,
+      "teaches_false": 3
+     },
+     "cross epics_great->epics_minor": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     }
+    },
+    "by type": {
+     "develops": {
+      "sound": 223,
+      "n": 436,
+      "teaches_false": 111,
+      "weak": 197,
+      "forced": 16
+     },
+     "qualifies": {
+      "weak": 185,
+      "n": 314,
+      "teaches_false": 97,
+      "sound": 99,
+      "forced": 30
+     },
+     "tension": {
+      "sound": 87,
+      "n": 199,
+      "teaches_false": 62,
+      "weak": 91,
+      "forced": 21
+     },
+     "same_image": {
+      "weak": 30,
+      "n": 82,
+      "teaches_false": 17,
+      "sound": 47,
+      "forced": 5
+     },
+     "agrees": {
+      "sound": 7,
+      "n": 11,
+      "teaches_false": 2,
+      "weak": 4
+     }
+    },
+    "within vs cross (all)": {
+     "within": {
+      "sound": 243,
+      "n": 451,
+      "teaches_false": 102,
+      "weak": 198,
+      "forced": 10
+     },
+     "cross": {
+      "weak": 309,
+      "n": 591,
+      "teaches_false": 187,
+      "sound": 220,
+      "forced": 62
+     }
+    }
+   },
+   "g2": {
+    "total": {
+     "weak": 77,
+     "n": 154,
+     "teaches_false": 54,
+     "gains_n": 74,
+     "gains_false": 37,
+     "sound": 65,
+     "forced": 12
+    },
+    "by book": {
+     "neelakesi": {
+      "weak": 42,
+      "n": 74,
+      "teaches_false": 25,
+      "sound": 26,
+      "forced": 6
+     },
+     "manimekalai": {
+      "weak": 9,
+      "n": 30,
+      "teaches_false": 10,
+      "sound": 19,
+      "forced": 2
+     },
+     "silappathikaram": {
+      "weak": 26,
+      "n": 50,
+      "teaches_false": 19,
+      "sound": 20,
+      "forced": 4
+     }
+    },
+    "by target book": {
+     "kundalakesi": {
+      "weak": 3,
+      "n": 4,
+      "teaches_false": 2,
+      "sound": 1
+     },
+     "kural": {
+      "weak": 21,
+      "n": 36,
+      "teaches_false": 20,
+      "sound": 9,
+      "forced": 6
+     },
+     "neelakesi": {
+      "weak": 10,
+      "n": 20,
+      "teaches_false": 7,
+      "sound": 10
+     },
+     "silappathikaram": {
+      "weak": 11,
+      "n": 27,
+      "teaches_false": 8,
+      "sound": 16
+     },
+     "manimekalai": {
+      "weak": 13,
+      "n": 29,
+      "teaches_false": 5,
+      "forced": 2,
+      "sound": 14
+     },
+     "tirumanthiram": {
+      "forced": 2,
+      "n": 10,
+      "teaches_false": 3,
+      "sound": 6,
+      "weak": 2
+     },
+     "purananuru": {
+      "weak": 3,
+      "n": 5,
+      "teaches_false": 2,
+      "sound": 1,
+      "forced": 1
+     },
+     "naladiyar": {
+      "weak": 4,
+      "n": 11,
+      "teaches_false": 2,
+      "sound": 6,
+      "forced": 1
+     },
+     "natrinai": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "pattupattu": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 1
+     },
+     "ainkurunuru": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "siddhar": {
+      "weak": 5,
+      "n": 5,
+      "teaches_false": 2
+     },
+     "patitruppattu": {
+      "weak": 2,
+      "n": 3,
+      "teaches_false": 1,
+      "sound": 1
+     },
+     "akananuru": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 1
+     }
+    },
+    "within/cross group": {
+     "cross epics_minor->epics_great": {
+      "weak": 12,
+      "n": 20,
+      "teaches_false": 4,
+      "forced": 1,
+      "sound": 7
+     },
+     "cross epics_minor->ethics": {
+      "weak": 14,
+      "n": 23,
+      "teaches_false": 11,
+      "sound": 5,
+      "forced": 4
+     },
+     "within epics_minor": {
+      "weak": 10,
+      "n": 20,
+      "teaches_false": 7,
+      "sound": 10
+     },
+     "within epics_great": {
+      "weak": 15,
+      "n": 40,
+      "teaches_false": 11,
+      "sound": 24,
+      "forced": 1
+     },
+     "cross epics_minor->devotional": {
+      "forced": 1,
+      "n": 10,
+      "teaches_false": 2,
+      "sound": 4,
+      "weak": 5
+     },
+     "cross epics_great->ettuthogai_puram": {
+      "weak": 4,
+      "n": 7,
+      "teaches_false": 2,
+      "sound": 2,
+      "forced": 1
+     },
+     "cross epics_great->ethics": {
+      "weak": 11,
+      "n": 24,
+      "teaches_false": 11,
+      "forced": 3,
+      "sound": 10
+     },
+     "cross epics_great->devotional": {
+      "forced": 1,
+      "n": 5,
+      "teaches_false": 3,
+      "sound": 2,
+      "weak": 2
+     },
+     "cross epics_great->ettuthogai_akam": {
+      "sound": 1,
+      "n": 3,
+      "teaches_false": 1,
+      "weak": 2
+     },
+     "cross epics_great->pattupattu": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 1
+     },
+     "cross epics_minor->ettuthogai_puram": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 1
+     }
+    },
+    "by type": {
+     "tension": {
+      "weak": 22,
+      "n": 33,
+      "teaches_false": 10,
+      "sound": 11
+     },
+     "qualifies": {
+      "weak": 23,
+      "n": 48,
+      "teaches_false": 21,
+      "forced": 11,
+      "sound": 14
+     },
+     "develops": {
+      "weak": 27,
+      "n": 58,
+      "teaches_false": 19,
+      "sound": 30,
+      "forced": 1
+     },
+     "agrees": {
+      "sound": 2,
+      "n": 3,
+      "teaches_false": 0,
+      "weak": 1
+     },
+     "same_image": {
+      "sound": 8,
+      "n": 12,
+      "teaches_false": 4,
+      "weak": 4
+     }
+    },
+    "within vs cross (all)": {
+     "cross": {
+      "weak": 52,
+      "n": 94,
+      "teaches_false": 36,
+      "forced": 11,
+      "sound": 31
+     },
+     "within": {
+      "weak": 25,
+      "n": 60,
+      "teaches_false": 18,
+      "sound": 34,
+      "forced": 1
+     }
+    }
+   },
+   "pooled": {
+    "total": {
+     "sound": 528,
+     "n": 1196,
+     "teaches_false": 343,
+     "gains_n": 559,
+     "gains_false": 250,
+     "weak": 584,
+     "forced": 84
+    },
+    "by book": {
+     "silappathikaram": {
+      "sound": 183,
+      "n": 411,
+      "teaches_false": 113,
+      "weak": 203,
+      "forced": 25
+     },
+     "neelakesi": {
+      "sound": 156,
+      "n": 445,
+      "teaches_false": 149,
+      "weak": 246,
+      "forced": 43
+     },
+     "manimekalai": {
+      "sound": 189,
+      "n": 340,
+      "teaches_false": 81,
+      "weak": 135,
+      "forced": 16
+     }
+    },
+    "by target book": {
+     "manimekalai": {
+      "sound": 132,
+      "n": 251,
+      "teaches_false": 59,
+      "weak": 113,
+      "forced": 6
+     },
+     "kural": {
+      "weak": 152,
+      "n": 281,
+      "teaches_false": 104,
+      "sound": 87,
+      "forced": 42
+     },
+     "tirumanthiram": {
+      "sound": 26,
+      "n": 66,
+      "teaches_false": 20,
+      "weak": 32,
+      "forced": 8
+     },
+     "neelakesi": {
+      "weak": 71,
+      "n": 141,
+      "teaches_false": 33,
+      "sound": 68,
+      "forced": 2
+     },
+     "purananuru": {
+      "sound": 26,
+      "n": 50,
+      "teaches_false": 11,
+      "weak": 21,
+      "forced": 3
+     },
+     "silappathikaram": {
+      "sound": 123,
+      "n": 225,
+      "teaches_false": 53,
+      "weak": 96,
+      "forced": 6
+     },
+     "siddhar": {
+      "sound": 4,
+      "n": 28,
+      "teaches_false": 16,
+      "forced": 5,
+      "weak": 19
+     },
+     "akananuru": {
+      "weak": 6,
+      "n": 8,
+      "teaches_false": 4,
+      "forced": 1,
+      "sound": 1
+     },
+     "patitruppattu": {
+      "weak": 6,
+      "n": 19,
+      "teaches_false": 2,
+      "sound": 13
+     },
+     "kundalakesi": {
+      "weak": 12,
+      "n": 18,
+      "teaches_false": 7,
+      "sound": 5,
+      "forced": 1
+     },
+     "naladiyar": {
+      "weak": 26,
+      "n": 64,
+      "teaches_false": 18,
+      "forced": 7,
+      "sound": 31
+     },
+     "thinaimalai_nootraimpathu": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 1
+     },
+     "kuruntokai": {
+      "sound": 2,
+      "n": 2,
+      "teaches_false": 0
+     },
+     "natrinai": {
+      "sound": 2,
+      "n": 2,
+      "teaches_false": 0
+     },
+     "thiruppugazh": {
+      "weak": 4,
+      "n": 5,
+      "teaches_false": 3,
+      "forced": 1
+     },
+     "pattupattu": {
+      "weak": 11,
+      "n": 15,
+      "teaches_false": 9,
+      "forced": 2,
+      "sound": 2
+     },
+     "paripadal": {
+      "weak": 4,
+      "n": 4,
+      "teaches_false": 1
+     },
+     "kalittokai": {
+      "sound": 2,
+      "n": 3,
+      "teaches_false": 0,
+      "weak": 1
+     },
+     "valayapathi": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "thirikadugam": {
+      "weak": 1,
+      "n": 2,
+      "teaches_false": 0,
+      "sound": 1
+     },
+     "ainkurunuru": {
+      "weak": 4,
+      "n": 5,
+      "teaches_false": 1,
+      "sound": 1
+     },
+     "ainthinai_aimpathu": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "pazhamozhi_nanooru": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "udayana_kumara_kaviyam": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "sirupanchamoolam": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 1
+     },
+     "ainthinai_ezhupathu": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 0
+     }
+    },
+    "within/cross group": {
+     "within epics_great": {
+      "sound": 209,
+      "n": 370,
+      "teaches_false": 87,
+      "weak": 152,
+      "forced": 9
+     },
+     "cross epics_great->ethics": {
+      "weak": 112,
+      "n": 231,
+      "teaches_false": 67,
+      "sound": 98,
+      "forced": 21
+     },
+     "cross epics_minor->devotional": {
+      "sound": 15,
+      "n": 56,
+      "teaches_false": 24,
+      "weak": 32,
+      "forced": 9
+     },
+     "within epics_minor": {
+      "weak": 71,
+      "n": 141,
+      "teaches_false": 33,
+      "sound": 68,
+      "forced": 2
+     },
+     "cross epics_minor->ethics": {
+      "weak": 68,
+      "n": 118,
+      "teaches_false": 56,
+      "forced": 28,
+      "sound": 22
+     },
+     "cross epics_great->ettuthogai_puram": {
+      "sound": 39,
+      "n": 64,
+      "teaches_false": 9,
+      "weak": 22,
+      "forced": 3
+     },
+     "cross epics_great->devotional": {
+      "sound": 15,
+      "n": 43,
+      "teaches_false": 15,
+      "weak": 23,
+      "forced": 5
+     },
+     "cross epics_great->ettuthogai_akam": {
+      "weak": 11,
+      "n": 20,
+      "teaches_false": 5,
+      "forced": 1,
+      "sound": 8
+     },
+     "cross epics_minor->epics_great": {
+      "sound": 51,
+      "n": 125,
+      "teaches_false": 32,
+      "weak": 70,
+      "forced": 4
+     },
+     "cross epics_great->kilkanakku_akam": {
+      "weak": 3,
+      "n": 3,
+      "teaches_false": 1
+     },
+     "cross epics_great->pattupattu": {
+      "weak": 11,
+      "n": 15,
+      "teaches_false": 9,
+      "forced": 2,
+      "sound": 2
+     },
+     "cross epics_great->ettuthogai_devotional": {
+      "weak": 4,
+      "n": 4,
+      "teaches_false": 1
+     },
+     "cross epics_minor->ettuthogai_puram": {
+      "weak": 5,
+      "n": 5,
+      "teaches_false": 4
+     },
+     "cross epics_great->epics_minor": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     }
+    },
+    "by type": {
+     "develops": {
+      "sound": 253,
+      "n": 494,
+      "teaches_false": 130,
+      "weak": 224,
+      "forced": 17
+     },
+     "qualifies": {
+      "weak": 208,
+      "n": 362,
+      "teaches_false": 118,
+      "sound": 113,
+      "forced": 41
+     },
+     "tension": {
+      "sound": 98,
+      "n": 232,
+      "teaches_false": 72,
+      "weak": 113,
+      "forced": 21
+     },
+     "same_image": {
+      "weak": 34,
+      "n": 94,
+      "teaches_false": 21,
+      "sound": 55,
+      "forced": 5
+     },
+     "agrees": {
+      "sound": 9,
+      "n": 14,
+      "teaches_false": 2,
+      "weak": 5
+     }
+    },
+    "within vs cross (all)": {
+     "within": {
+      "sound": 277,
+      "n": 511,
+      "teaches_false": 120,
+      "weak": 223,
+      "forced": 11
+     },
+     "cross": {
+      "weak": 361,
+      "n": 685,
+      "teaches_false": 223,
+      "sound": 251,
+      "forced": 73
+     }
+    }
+   }
+  },
+  "calibration": {
+   "g1": {
+    "n": 108,
+    "exact": 60,
+    "sound_agree": 75
+   },
+   "g2": {
+    "n": 16,
+    "exact": 8,
+    "sound_agree": 11
+   }
+  },
+  "between_graders": {
+   "g1|g2": {
+    "n": 154,
+    "exact": 129,
+    "kappa_grade": 0.7134350576851507,
+    "kappa_sound": 0.78525361687293,
+    "kappa_teaches": 0.7302231237322516
+   }
+  },
+  "part_b_narrative": {
+   "per_source": {
+    "proposer": {
+     "claims": 1364,
+     "school": {
+      "jain": 506,
+      "general": 325,
+      "lokayata": 18,
+      "buddhist": 378,
+      "vaishnava": 11,
+      "ajivika": 38,
+      "vedic": 81,
+      "saiva": 7
+     },
+     "stance": {
+      "asserted": 902,
+      "refuted": 306,
+      "reported": 156
+     },
+     "echoes": 1,
+     "rejected": null
+    },
+    "g1": {
+     "claims": 1138,
+     "school": {
+      "jain": 341,
+      "lokayata": 27,
+      "vedic": 90,
+      "buddhist": 417,
+      "general": 212,
+      "vaishnava": 7,
+      "ajivika": 38,
+      "saiva": 6
+     },
+     "stance": {
+      "asserted": 683,
+      "refuted": 369,
+      "reported": 86
+     },
+     "echoes": 3,
+     "rejected": 981
+    },
+    "g2": {
+     "claims": 166,
+     "school": {
+      "saiva": 2,
+      "general": 40,
+      "jain": 48,
+      "buddhist": 49,
+      "vedic": 12,
+      "lokayata": 4,
+      "ajivika": 8,
+      "vaishnava": 3
+     },
+     "stance": {
+      "refuted": 46,
+      "asserted": 105,
+      "reported": 15
+     },
+     "echoes": 2,
+     "rejected": 131
+    }
+   },
+   "pairs": {
+    "proposer|g1": {
+     "n": 1573,
+     "kappa_has_claim": 0.6870302760353681,
+     "claims_matched": 925,
+     "claims_x": 1364,
+     "claims_y": 1138,
+     "jaccard_claims": 0.586556753329106,
+     "kappa_school": 0.838342979795653,
+     "kappa_stance": 0.7602395370142783,
+     "agree_school": 815,
+     "agree_stance": 809,
+     "echoes_matched": 1,
+     "jaccard_echoes": 0.3333333333333333,
+     "kappa_echo_kind": 1.0
+    },
+    "proposer|g2": {
+     "n": 233,
+     "kappa_has_claim": 0.6510829467840314,
+     "claims_matched": 146,
+     "claims_x": 220,
+     "claims_y": 166,
+     "jaccard_claims": 0.6083333333333333,
+     "kappa_school": 0.908852540891497,
+     "kappa_stance": 0.7415688466554873,
+     "agree_school": 136,
+     "agree_stance": 127,
+     "echoes_matched": 1,
+     "jaccard_echoes": 0.5,
+     "kappa_echo_kind": 1.0
+    },
+    "g1|g2": {
+     "n": 233,
+     "kappa_has_claim": 0.8371408600963837,
+     "claims_matched": 133,
+     "claims_x": 166,
+     "claims_y": 166,
+     "jaccard_claims": 0.6683417085427136,
+     "kappa_school": 0.9209392183088126,
+     "kappa_stance": 0.816024686103426,
+     "agree_school": 125,
+     "agree_stance": 120,
+     "echoes_matched": 2,
+     "jaccard_echoes": 1.0,
+     "kappa_echo_kind": 1.0
+    }
+   }
+  },
+  "problems": []
+ },
+ "ethics": {
+  "brief": "ethics",
+  "part_a": {
+   "g1": {
+    "total": {
+     "list_adds_n": 414,
+     "list_adds_false": 33,
+     "weak": 192,
+     "n": 540,
+     "teaches_false": 75,
+     "sound": 331,
+     "forced": 17
+    },
+    "by book": {
+     "pazhamozhi_nanooru": {
+      "weak": 169,
+      "n": 477,
+      "teaches_false": 61,
+      "sound": 295,
+      "forced": 13
+     },
+     "acharakkovai": {
+      "sound": 36,
+      "n": 63,
+      "teaches_false": 14,
+      "weak": 23,
+      "forced": 4
+     }
+    },
+    "by target book": {
+     "kural": {
+      "weak": 90,
+      "n": 284,
+      "teaches_false": 30,
+      "sound": 189,
+      "forced": 5
+     },
+     "thirikadugam": {
+      "sound": 6,
+      "n": 10,
+      "teaches_false": 2,
+      "weak": 4
+     },
+     "pazhamozhi_nanooru": {
+      "sound": 34,
+      "n": 61,
+      "teaches_false": 9,
+      "weak": 25,
+      "forced": 2
+     },
+     "naladiyar": {
+      "sound": 69,
+      "n": 124,
+      "teaches_false": 23,
+      "weak": 49,
+      "forced": 6
+     },
+     "sirupanchamoolam": {
+      "weak": 3,
+      "n": 5,
+      "teaches_false": 1,
+      "sound": 2
+     },
+     "elathi": {
+      "weak": 3,
+      "n": 5,
+      "teaches_false": 1,
+      "sound": 2
+     },
+     "iniyavai_narpathu": {
+      "weak": 1,
+      "n": 3,
+      "teaches_false": 0,
+      "sound": 2
+     },
+     "acharakkovai": {
+      "sound": 8,
+      "n": 15,
+      "teaches_false": 1,
+      "weak": 7
+     },
+     "purananuru": {
+      "weak": 4,
+      "n": 10,
+      "teaches_false": 2,
+      "sound": 6
+     },
+     "nanmanikkadigai": {
+      "sound": 9,
+      "n": 11,
+      "teaches_false": 1,
+      "weak": 2
+     },
+     "siddhar": {
+      "forced": 1,
+      "n": 3,
+      "teaches_false": 2,
+      "weak": 2
+     },
+     "innaa_narpathu": {
+      "weak": 2,
+      "n": 3,
+      "teaches_false": 0,
+      "sound": 1
+     },
+     "akananuru": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "patitruppattu": {
+      "forced": 1,
+      "n": 1,
+      "teaches_false": 1
+     },
+     "tirumanthiram": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "pattupattu": {
+      "forced": 1,
+      "n": 1,
+      "teaches_false": 1
+     },
+     "muthumozhikkanchi": {
+      "forced": 1,
+      "n": 1,
+      "teaches_false": 1
+     },
+     "silappathikaram": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     }
+    },
+    "within/cross group": {
+     "within ethics": {
+      "weak": 186,
+      "n": 522,
+      "teaches_false": 69,
+      "sound": 322,
+      "forced": 14
+     },
+     "cross ethics->ettuthogai_puram": {
+      "weak": 4,
+      "n": 11,
+      "teaches_false": 3,
+      "sound": 6,
+      "forced": 1
+     },
+     "cross ethics->devotional": {
+      "forced": 1,
+      "n": 4,
+      "teaches_false": 2,
+      "weak": 2,
+      "sound": 1
+     },
+     "cross ethics->ettuthogai_akam": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "cross ethics->pattupattu": {
+      "forced": 1,
+      "n": 1,
+      "teaches_false": 1
+     },
+     "cross ethics->epics_great": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     }
+    },
+    "by type": {
+     "tension": {
+      "weak": 21,
+      "n": 42,
+      "teaches_false": 9,
+      "sound": 17,
+      "forced": 4
+     },
+     "qualifies": {
+      "weak": 53,
+      "n": 101,
+      "teaches_false": 17,
+      "sound": 44,
+      "forced": 4
+     },
+     "agrees": {
+      "sound": 26,
+      "n": 48,
+      "teaches_false": 9,
+      "weak": 21,
+      "forced": 1
+     },
+     "same_image": {
+      "sound": 14,
+      "n": 24,
+      "teaches_false": 6,
+      "weak": 7,
+      "forced": 3
+     },
+     "develops": {
+      "sound": 230,
+      "n": 325,
+      "teaches_false": 34,
+      "weak": 90,
+      "forced": 5
+     }
+    },
+    "within vs cross (all)": {
+     "within": {
+      "weak": 186,
+      "n": 522,
+      "teaches_false": 69,
+      "sound": 322,
+      "forced": 14
+     },
+     "cross": {
+      "weak": 6,
+      "n": 18,
+      "teaches_false": 6,
+      "sound": 9,
+      "forced": 3
+     }
+    }
+   },
+   "g2": {
+    "total": {
+     "list_adds_n": 57,
+     "list_adds_false": 3,
+     "forced": 2,
+     "n": 77,
+     "teaches_false": 7,
+     "sound": 52,
+     "weak": 22,
+     "wrong": 1
+    },
+    "by book": {
+     "pazhamozhi_nanooru": {
+      "forced": 1,
+      "n": 69,
+      "teaches_false": 5,
+      "sound": 48,
+      "weak": 19,
+      "wrong": 1
+     },
+     "acharakkovai": {
+      "weak": 3,
+      "n": 8,
+      "teaches_false": 2,
+      "forced": 1,
+      "sound": 4
+     }
+    },
+    "by target book": {
+     "naladiyar": {
+      "forced": 1,
+      "n": 18,
+      "teaches_false": 2,
+      "sound": 13,
+      "weak": 4
+     },
+     "kural": {
+      "sound": 24,
+      "n": 37,
+      "teaches_false": 3,
+      "weak": 12,
+      "wrong": 1
+     },
+     "pazhamozhi_nanooru": {
+      "weak": 2,
+      "n": 8,
+      "teaches_false": 0,
+      "sound": 6
+     },
+     "acharakkovai": {
+      "weak": 1,
+      "n": 3,
+      "teaches_false": 2,
+      "forced": 1,
+      "sound": 1
+     },
+     "innaa_narpathu": {
+      "weak": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "akananuru": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "nanmanikkadigai": {
+      "sound": 2,
+      "n": 2,
+      "teaches_false": 0
+     },
+     "thirikadugam": {
+      "sound": 2,
+      "n": 2,
+      "teaches_false": 0
+     },
+     "purananuru": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "sirupanchamoolam": {
+      "sound": 2,
+      "n": 2,
+      "teaches_false": 0
+     },
+     "elathi": {
+      "weak": 2,
+      "n": 2,
+      "teaches_false": 0
+     }
+    },
+    "within/cross group": {
+     "within ethics": {
+      "forced": 2,
+      "n": 75,
+      "teaches_false": 7,
+      "sound": 50,
+      "weak": 22,
+      "wrong": 1
+     },
+     "cross ethics->ettuthogai_akam": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "cross ethics->ettuthogai_puram": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     }
+    },
+    "by type": {
+     "same_image": {
+      "forced": 1,
+      "n": 5,
+      "teaches_false": 1,
+      "sound": 4
+     },
+     "develops": {
+      "weak": 14,
+      "n": 50,
+      "teaches_false": 5,
+      "sound": 34,
+      "forced": 1,
+      "wrong": 1
+     },
+     "qualifies": {
+      "sound": 8,
+      "n": 11,
+      "teaches_false": 1,
+      "weak": 3
+     },
+     "tension": {
+      "weak": 1,
+      "n": 3,
+      "teaches_false": 0,
+      "sound": 2
+     },
+     "agrees": {
+      "weak": 4,
+      "n": 8,
+      "teaches_false": 0,
+      "sound": 4
+     }
+    },
+    "within vs cross (all)": {
+     "within": {
+      "forced": 2,
+      "n": 75,
+      "teaches_false": 7,
+      "sound": 50,
+      "weak": 22,
+      "wrong": 1
+     },
+     "cross": {
+      "sound": 2,
+      "n": 2,
+      "teaches_false": 0
+     }
+    }
+   },
+   "pooled": {
+    "total": {
+     "list_adds_n": 471,
+     "list_adds_false": 36,
+     "weak": 214,
+     "n": 617,
+     "teaches_false": 82,
+     "sound": 383,
+     "forced": 19,
+     "wrong": 1
+    },
+    "by book": {
+     "pazhamozhi_nanooru": {
+      "weak": 188,
+      "n": 546,
+      "teaches_false": 66,
+      "sound": 343,
+      "forced": 14,
+      "wrong": 1
+     },
+     "acharakkovai": {
+      "sound": 40,
+      "n": 71,
+      "teaches_false": 16,
+      "weak": 26,
+      "forced": 5
+     }
+    },
+    "by target book": {
+     "kural": {
+      "weak": 102,
+      "n": 321,
+      "teaches_false": 33,
+      "sound": 213,
+      "forced": 5,
+      "wrong": 1
+     },
+     "thirikadugam": {
+      "sound": 8,
+      "n": 12,
+      "teaches_false": 2,
+      "weak": 4
+     },
+     "pazhamozhi_nanooru": {
+      "sound": 40,
+      "n": 69,
+      "teaches_false": 9,
+      "weak": 27,
+      "forced": 2
+     },
+     "naladiyar": {
+      "sound": 82,
+      "n": 142,
+      "teaches_false": 25,
+      "weak": 53,
+      "forced": 7
+     },
+     "sirupanchamoolam": {
+      "weak": 3,
+      "n": 7,
+      "teaches_false": 1,
+      "sound": 4
+     },
+     "elathi": {
+      "weak": 5,
+      "n": 7,
+      "teaches_false": 1,
+      "sound": 2
+     },
+     "iniyavai_narpathu": {
+      "weak": 1,
+      "n": 3,
+      "teaches_false": 0,
+      "sound": 2
+     },
+     "acharakkovai": {
+      "sound": 9,
+      "n": 18,
+      "teaches_false": 3,
+      "weak": 8,
+      "forced": 1
+     },
+     "purananuru": {
+      "weak": 4,
+      "n": 11,
+      "teaches_false": 2,
+      "sound": 7
+     },
+     "nanmanikkadigai": {
+      "sound": 11,
+      "n": 13,
+      "teaches_false": 1,
+      "weak": 2
+     },
+     "siddhar": {
+      "forced": 1,
+      "n": 3,
+      "teaches_false": 2,
+      "weak": 2
+     },
+     "innaa_narpathu": {
+      "weak": 3,
+      "n": 4,
+      "teaches_false": 0,
+      "sound": 1
+     },
+     "akananuru": {
+      "sound": 2,
+      "n": 2,
+      "teaches_false": 0
+     },
+     "patitruppattu": {
+      "forced": 1,
+      "n": 1,
+      "teaches_false": 1
+     },
+     "tirumanthiram": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     },
+     "pattupattu": {
+      "forced": 1,
+      "n": 1,
+      "teaches_false": 1
+     },
+     "muthumozhikkanchi": {
+      "forced": 1,
+      "n": 1,
+      "teaches_false": 1
+     },
+     "silappathikaram": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     }
+    },
+    "within/cross group": {
+     "within ethics": {
+      "weak": 208,
+      "n": 597,
+      "teaches_false": 76,
+      "sound": 372,
+      "forced": 16,
+      "wrong": 1
+     },
+     "cross ethics->ettuthogai_puram": {
+      "weak": 4,
+      "n": 12,
+      "teaches_false": 3,
+      "sound": 7,
+      "forced": 1
+     },
+     "cross ethics->devotional": {
+      "forced": 1,
+      "n": 4,
+      "teaches_false": 2,
+      "weak": 2,
+      "sound": 1
+     },
+     "cross ethics->ettuthogai_akam": {
+      "sound": 2,
+      "n": 2,
+      "teaches_false": 0
+     },
+     "cross ethics->pattupattu": {
+      "forced": 1,
+      "n": 1,
+      "teaches_false": 1
+     },
+     "cross ethics->epics_great": {
+      "sound": 1,
+      "n": 1,
+      "teaches_false": 0
+     }
+    },
+    "by type": {
+     "tension": {
+      "weak": 22,
+      "n": 45,
+      "teaches_false": 9,
+      "sound": 19,
+      "forced": 4
+     },
+     "qualifies": {
+      "weak": 56,
+      "n": 112,
+      "teaches_false": 18,
+      "sound": 52,
+      "forced": 4
+     },
+     "agrees": {
+      "sound": 30,
+      "n": 56,
+      "teaches_false": 9,
+      "weak": 25,
+      "forced": 1
+     },
+     "same_image": {
+      "sound": 18,
+      "n": 29,
+      "teaches_false": 7,
+      "weak": 7,
+      "forced": 4
+     },
+     "develops": {
+      "sound": 264,
+      "n": 375,
+      "teaches_false": 39,
+      "weak": 104,
+      "forced": 6,
+      "wrong": 1
+     }
+    },
+    "within vs cross (all)": {
+     "within": {
+      "weak": 208,
+      "n": 597,
+      "teaches_false": 76,
+      "sound": 372,
+      "forced": 16,
+      "wrong": 1
+     },
+     "cross": {
+      "weak": 6,
+      "n": 20,
+      "teaches_false": 6,
+      "sound": 11,
+      "forced": 3
+     }
+    }
+   }
+  },
+  "calibration": {
+   "g1": {
+    "n": 56,
+    "exact": 36,
+    "sound_agree": 39
+   },
+   "g2": {
+    "n": 8,
+    "exact": 5,
+    "sound_agree": 5
+   }
+  },
+  "between_graders": {
+   "g1|g2": {
+    "n": 77,
+    "exact": 59,
+    "kappa_grade": 0.5076376554174069,
+    "kappa_sound": 0.5450516986706057,
+    "kappa_teaches": 0.27868852459016386
+   }
+  },
+  "part_b_ethics": {
+   "per_source": {
+    "proposer": {
+     "domain": {
+      "householder": 50,
+      "king": 96,
+      "all": 293,
+      "ritual-conduct": 32,
+      "ascetic": 4
+     },
+     "norm": 58,
+     "norm_kinds": {
+      "purity": 19,
+      "ritual": 23,
+      "gender": 9,
+      "caste": 20,
+      "diet": 6
+     },
+     "item_count_off": []
+    },
+    "g1": {
+     "domain": {
+      "ritual-conduct": 51,
+      "householder": 57,
+      "all": 272,
+      "king": 86,
+      "ascetic": 9
+     },
+     "norm": 58,
+     "norm_kinds": {
+      "purity": 13,
+      "ritual": 25,
+      "gender": 10,
+      "caste": 18,
+      "diet": 5
+     },
+     "item_count_off": []
+    },
+    "g2": {
+     "domain": {
+      "all": 38,
+      "ascetic": 2,
+      "householder": 11,
+      "king": 10,
+      "ritual-conduct": 7
+     },
+     "norm": 9,
+     "norm_kinds": {
+      "gender": 3,
+      "ritual": 4,
+      "diet": 1,
+      "purity": 1,
+      "caste": 2
+     },
+     "item_count_off": []
+    }
+   },
+   "pairs": {
+    "proposer|g1": {
+     "n": 475,
+     "kappa_domain": 0.725320115654688,
+     "agree_domain": 398,
+     "kappa_norm": 0.9018026957744152,
+     "jaccard_norm_kinds": 0.6818181818181818,
+     "jaccard_items": 0.47802197802197804,
+     "item_count_agree": "18/38",
+     "kappa_count_word": 0.9666549666549669,
+     "kappa_story_kind": 0.7603795004865395,
+     "jaccard_proverb_lines": 0.9965217391304347,
+     "who_agree": 377
+    },
+    "proposer|g2": {
+     "n": 68,
+     "kappa_domain": 0.6371398078975453,
+     "agree_domain": 53,
+     "kappa_norm": 0.9328063241106722,
+     "jaccard_norm_kinds": 0.6153846153846154,
+     "jaccard_items": 0.6857142857142857,
+     "item_count_agree": "6/7",
+     "kappa_count_word": 1.0,
+     "kappa_story_kind": 1.0,
+     "jaccard_proverb_lines": 1.0,
+     "who_agree": 54
+    },
+    "g1|g2": {
+     "n": 68,
+     "kappa_domain": 0.9298004129387473,
+     "agree_domain": 65,
+     "kappa_norm": 0.9328063241106722,
+     "jaccard_norm_kinds": 0.8181818181818182,
+     "jaccard_items": 0.8666666666666667,
+     "item_count_agree": "6/6",
+     "kappa_count_word": 1.0,
+     "kappa_story_kind": 1.0,
+     "jaccard_proverb_lines": 1.0,
+     "who_agree": 55
+    }
+   }
+  },
+  "problems": []
+ }
+}
