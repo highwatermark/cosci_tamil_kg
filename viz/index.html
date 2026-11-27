@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Eight Tamil Classics</title>
+<title>Tamil Corpus Atlas</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -181,21 +181,45 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
   aside, #detail { overflow: visible; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+.seg.four { grid-template-columns: repeat(4, 1fr); }
+.seg.four button { font-size: 12.5px; padding-inline: 2px; }
+.ghead { flex-basis: 100%; margin: 6px 0 -6px; font: 600 12px/1.3 var(--f-ui); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--rule); padding-bottom: 3px; }
+.books .gl { margin-top: 6px; font-weight: 600; font-size: 12px; letter-spacing: .03em; color: var(--muted); }
+.books .gl:first-child { margin-top: 0; }
+.books .bk { padding-left: 14px; }
+.books .bk .ta { color: var(--muted); font-size: 12px; }
+#loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 14px; }
+.matrix-wrap { flex-basis: 100%; display: flex; flex-direction: column; gap: 10px; }
+.matrix-wrap p { margin: 0; font-size: 13px; color: var(--muted); max-width: 70ch; }
+table.matrix { border-collapse: separate; border-spacing: 3px; font-size: 12px; font-variant-numeric: tabular-nums; }
+table.matrix th { font-weight: 600; color: var(--muted); padding: 2px 4px; text-align: left; white-space: nowrap; }
+table.matrix thead th { writing-mode: vertical-rl; transform: rotate(180deg); text-align: left; vertical-align: bottom; height: 128px; }
+table.matrix td { padding: 0; }
+table.matrix td button { width: 64px; height: 46px; border: 1px solid var(--rule); border-radius: 5px; background: var(--paper); color: var(--ink); font: inherit; cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px; }
+table.matrix td button:hover { outline: 2px solid var(--accent); }
+table.matrix td button.on { outline: 2px solid var(--ink); }
+table.matrix td button b { font-size: 14px; }
+table.matrix td button small { font-size: 10.5px; color: var(--muted); }
+table.matrix td button.diag { border-style: dashed; }
+table.matrix td.none { color: var(--muted); text-align: center; }
+.lk .ends { font-family: var(--f-tamil); font-size: 13px; color: var(--ink); }
+@media (max-width: 720px) { table.matrix td button { width: 46px; height: 40px; } table.matrix thead th { height: 96px; } }
 </style>
 </head>
 <body>
 <header>
-  <h1>திருக்குறள் · நாலடியார் · திருமந்திரம் · திருப்புகழ் · சித்தர் · அகநானூறு · புறநானூறு · பத்துப்பாட்டு <span>Tamil literary knowledge graph</span></h1>
+  <h1>தமிழ் இலக்கியம்: சங்கம் முதல் சித்தர் வரை <span>Tamil literary knowledge graph, 40 books in nine groups</span></h1>
   <div class="stats" id="stats"></div>
 </header>
 <main>
   <aside aria-label="Controls">
     <div>
       <p class="label">View</p>
-      <div class="seg three" role="group" aria-label="View">
-        <button id="v-grid" aria-pressed="false">All verses</button>
-        <button id="v-verses" aria-pressed="true">Links</button>
+      <div class="seg four" role="group" aria-label="View">
+        <button id="v-grid" aria-pressed="true">All verses</button>
+        <button id="v-verses" aria-pressed="false">Links</button>
         <button id="v-concepts" aria-pressed="false">Concepts</button>
+        <button id="v-bridges" aria-pressed="false">Bridges</button>
       </div>
     </div>
     <div id="grid-controls">
@@ -204,17 +228,20 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
       <div class="hl" role="group" aria-label="Highlight">
         <button id="h-concept" aria-pressed="false" hidden></button>
         <button id="h-crosslinked" aria-pressed="true">have a sound link to another book</button>
+        <button id="h-bridged" aria-pressed="false">have a sound link to another group</button>
         <button id="h-linked" aria-pressed="false">have any sound link</button>
         <button id="h-contested" aria-pressed="false">commentators dispute</button>
         <button id="h-textflag" aria-pressed="false">have text to check</button>
         <button id="h-uncertain" aria-pressed="false">have an uncertain reading</button>
         <button id="h-nuance" aria-pressed="false">have a nuance</button>
+        <button id="h-sonnet" aria-pressed="false">were marked by Sonnet</button>
       </div>
       <p class="legend-note" style="margin-top:8px">To light up a concept, search for it or click a concept on a verse.</p>
     </div>
     <div>
       <label class="label" for="search">Find a verse or concept</label>
-      <input id="search" placeholder="e.g. 327, n 42, t 2017, p 6, a 12, pn 192, pp 120, அறம்" autocomplete="off">
+      <input id="search" placeholder="e.g. 327, n 42, a 12, nt 12, si 3:40, cc 198, அறம்" autocomplete="off">
+      <p class="legend-note" id="search-note" style="margin-top:6px"></p>
     </div>
     <div id="link-controls">
       <p class="label">Links by audit grade</p>
@@ -223,17 +250,20 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
         <button id="g-weak" aria-pressed="false">+ Weak</button>
         <button id="g-all" aria-pressed="false">All</button>
       </div>
-      <p class="label" style="margin-top:12px">Links that join</p>
-      <div class="seg three" role="group" aria-label="Link scope">
-        <button id="s-texts" aria-pressed="true">Two books</button>
-        <button id="s-sections" aria-pressed="false">Two parts</button>
-        <button id="s-any" aria-pressed="false">Any</button>
+      <p class="legend-note" style="margin-top:6px">Sound links only by default. Most links of the Jain epics marked in wave 6 are weak: add them with <b>+ Weak</b>.</p>
+      <div id="link-more">
+        <p class="label" style="margin-top:12px">Links that join</p>
+        <div class="seg three" role="group" aria-label="Link scope">
+          <button id="s-texts" aria-pressed="true">Two books</button>
+          <button id="s-groups" aria-pressed="false">Two groups</button>
+          <button id="s-any" aria-pressed="false">Any</button>
+        </div>
+        <p class="label" style="margin-top:12px">Link types</p>
+        <div class="types" id="types"></div>
       </div>
-      <p class="label" style="margin-top:12px">Link types</p>
-      <div class="types" id="types"></div>
     </div>
     <div>
-      <p class="label">Books</p>
+      <p class="label">Books, by group</p>
       <div class="books" id="books"></div>
     </div>
     <div>
@@ -242,53 +272,94 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
     </div>
   </aside>
   <section id="stage" aria-label="Graph">
-    <svg id="svg" role="img" aria-label="Graph of verses and links across the Kural, Naladiyar, Tirumanthiram, Thiruppugazh, Siddhar songs and the Sangam books"></svg>
+    <svg id="svg" role="img" aria-label="Graph of verses and links across forty Tamil books"></svg>
     <div id="grid" hidden></div>
     <div id="hint"></div>
     <div id="tip"></div>
+    <div id="loading">Loading the books…</div>
   </section>
   <section id="detail" aria-live="polite"></section>
 </main>
-<script src="data.js"></script>
-<script src="data_sangam.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="data_core.js"></script>
 <script>
+// The data come in one file per corpus group (scripts/export_viz.py keeps each under 16 MB).
+// data_core.js names them in window.KG_FILES; they are all loaded, in order, before the page starts.
+(function load() {
+  const files = window.KG_FILES || [], missing = [];
+  let i = 0;
+  const next = () => {
+    if (i >= files.length) return init(missing);
+    const s = document.createElement("script");
+    s.src = files[i++];
+    s.onload = next;
+    s.onerror = () => { missing.push(s.getAttribute("src")); next(); };
+    document.body.appendChild(s);
+  };
+  if (!window.KG) { document.getElementById("loading").textContent = "data_core.js is missing: run scripts/export_viz.py."; return; }
+  next();
+})();
+
+function init(missing) {
+document.getElementById("loading").remove();
 const KG = window.KG;
-// The Sangam books come in a separate file (data.js is near the page size limit); merge them in.
-if (window.KG_SANGAM) {
-  Object.assign(KG.chapters, window.KG_SANGAM.chapters);
-  Object.assign(KG.verses, window.KG_SANGAM.verses);
-  KG.links.push(...window.KG_SANGAM.links);
+KG.chapters = {}; KG.verses = {}; KG.links = [];
+for (const p of window.KG_PARTS || []) {
+  Object.assign(KG.chapters, p.chapters); Object.assign(KG.verses, p.verses);
+  for (const l of p.links) KG.links.push(l);
 }
-// The Kural and Naladiyar share three parts; the Tirumanthiram (nine tantras) gets one colour of its own.
-// Colour encodes the part; shape encodes the book.
+const BOOKS = KG.books;
+const GROUP_ORDER = ["ettuthogai_akam", "kilkanakku_akam", "ettuthogai_puram", "pattupattu", "ettuthogai_devotional",
+  "ethics", "devotional", "epics_great", "epics_minor"].filter(g => Object.values(BOOKS).some(m => m.group === g));
+const GROUP_SHORT = { ettuthogai_akam: "Ettuthogai akam", kilkanakku_akam: "Kilkanakku akam", ettuthogai_puram: "Ettuthogai puram",
+  pattupattu: "Pattupattu", ettuthogai_devotional: "Paripadal", ethics: "Ethics", devotional: "Devotional, mystic",
+  epics_great: "Great epics", epics_minor: "Minor epics" };
+const groupName = g => KG.groups[g]?.name || g;
+// Books in group order, then in the registry's order within a group.
+const BOOK_ORDER = Object.keys(BOOKS).sort((a, b) => GROUP_ORDER.indexOf(BOOKS[a].group) - GROUP_ORDER.indexOf(BOOKS[b].group));
+const BOOK_NAMES = Object.fromEntries(BOOK_ORDER.map(b => [b, BOOKS[b].name]));
+const BOOK_TAMIL = Object.fromEntries(BOOK_ORDER.map(b => [b, BOOKS[b].tamil]));
+const PREFIX = Object.fromEntries(BOOK_ORDER.map(b => [b, BOOKS[b].prefix]));
+const BY_PREFIX = Object.fromEntries(BOOK_ORDER.map(b => [BOOKS[b].prefix, b]));
+const GROUP_OF = b => BOOKS[b].group;
+// The Kural and Naladiyar share three parts; colour shows the part. Every other book has a colour of its own.
 const PARTS = { "அறத்துப்பால்": ["aram", "Aram (virtue)"], "பொருட்பால்": ["porul", "Porul (wealth, statecraft)"], "காமத்துப்பால்": ["inbam", "Inbam (love)"] };
-// Books with their own structure get one colour each (key, legend name).
 const OWN_PART = { tirumanthiram: ["tm", "Tirumanthiram (nine tantras)"], thiruppugazh: ["tp", "Thiruppugazh (songs by shrine)"], siddhar: ["sd", "Siddhar songs (by poet)"],
   akananuru: ["ak", "Akananuru (three sections)"], purananuru: ["pn", "Purananuru"], pattupattu: ["pp", "Pattupattu (reading units)"] };
-const BOOK_NAMES = { kural: "Kural", naladiyar: "Naladiyar", tirumanthiram: "Tirumanthiram", thiruppugazh: "Thiruppugazh", siddhar: "Siddhar",
-  akananuru: "Akananuru", purananuru: "Purananuru", pattupattu: "Pattupattu" };
-const BOOK_TAMIL = { kural: "திருக்குறள்", naladiyar: "நாலடியார்", tirumanthiram: "திருமந்திரம்", thiruppugazh: "திருப்புகழ்", siddhar: "சித்தர் பாடல்கள்",
-  akananuru: "அகநானூறு", purananuru: "புறநானூறு", pattupattu: "பத்துப்பாட்டு" };
-const SANGAM = new Set(["akananuru", "purananuru", "pattupattu"]);
-// Without data_sangam.js the explorer runs on the first five books.
-for (const b of SANGAM) if (!Object.values(KG.verses).some(v => v.book === b)) delete BOOK_NAMES[b];
+for (const b of BOOK_ORDER) if (BOOKS[b].hue !== null && !OWN_PART[b]) OWN_PART[b] = ["b-" + PREFIX[b], BOOKS[b].name];
 const COMMENTATOR_NAMES = { kural: "Parimelazhagar, Manakkudavar and Kalaignar", naladiyar: "Mudaliar and Shanmuganar" };
-const PREFIX = { kural: "k", naladiyar: "n", tirumanthiram: "t", thiruppugazh: "p", siddhar: "s", akananuru: "a", purananuru: "pn", pattupattu: "pp" };
-// Two shapes d3 lacks: a hexagon (Purananuru) and a triangle pointing down (Pattupattu).
+// Shapes. The first eight books keep theirs; each new book has a star or polygon of its own.
 const polygon = (n, turn) => ({ draw(ctx, size) {
   const r = Math.sqrt(size / (n * Math.sin(2 * Math.PI / n) / 2));
   for (let i = 0; i < n; i++) { const a = turn + 2 * Math.PI * i / n; i ? ctx.lineTo(r * Math.cos(a), r * Math.sin(a)) : ctx.moveTo(r * Math.cos(a), r * Math.sin(a)); }
   ctx.closePath();
 } });
-const SYMBOLS = { kural: d3 => d3.symbolCircle, naladiyar: d3 => d3.symbolDiamond, tirumanthiram: d3 => d3.symbolTriangle, thiruppugazh: d3 => d3.symbolStar, siddhar: d3 => d3.symbolWye,
-  akananuru: d3 => d3.symbolCross, purananuru: () => polygon(6, 0), pattupattu: () => polygon(3, Math.PI / 2), both: d3 => d3.symbolSquare };
+const shapePoints = s => {
+  const pts = [];
+  if (s.kind === "star") for (let i = 0; i < 2 * s.n; i++) { const a = -Math.PI / 2 + Math.PI * i / s.n, r = i % 2 ? s.inner : 1; pts.push([r * Math.cos(a), r * Math.sin(a)]); }
+  else for (let i = 0; i < s.n; i++) { const a = -Math.PI / 2 + 2 * Math.PI * (i + s.turn) / s.n; pts.push([Math.cos(a), Math.sin(a)]); }
+  return pts;
+};
+const shapeArea = pts => Math.abs(pts.reduce((s, [x, y], i) => { const [u, v] = pts[(i + 1) % pts.length]; return s + x * v - u * y; }, 0)) / 2;
+const customSymbol = s => { const pts = shapePoints(s), unit = shapeArea(pts); return { draw(ctx, size) {
+  const k = Math.sqrt(size / unit); pts.forEach(([x, y], i) => i ? ctx.lineTo(k * x, k * y) : ctx.moveTo(k * x, k * y)); ctx.closePath(); } }; };
+const OLD_SYMBOLS = { circle: d3 => d3.symbolCircle, diamond: d3 => d3.symbolDiamond, triangle: d3 => d3.symbolTriangle, star: d3 => d3.symbolStar,
+  wye: d3 => d3.symbolWye, cross: d3 => d3.symbolCross, hexagon: () => polygon(6, 0), down: () => polygon(3, Math.PI / 2) };
+const SYMBOLS = { both: d3 => d3.symbolSquare };
+for (const b of BOOK_ORDER) { const s = BOOKS[b].shape; SYMBOLS[b] = typeof s === "string" ? OLD_SYMBOLS[s] : (sym => () => sym)(customSymbol(s)); }
 const SHAPE_SCALE = { naladiyar: 1.15, tirumanthiram: 1.3, thiruppugazh: 1.25, siddhar: 1.3, akananuru: 1.2, purananuru: 1.05, pattupattu: 1.4 };
 const CELL_CLASS = { naladiyar: " nal", tirumanthiram: " tm", thiruppugazh: " tp", siddhar: " sd", akananuru: " ak", purananuru: " pn", pattupattu: " pp" };
-// Graph bands, top to bottom: the other books link mostly to the Kural, so it sits in the middle;
-// the Akananuru links mostly to the Purananuru, the Purananuru to the ethics books, and the
-// Thirumurugatruppadai to the Thiruppugazh.
-const BAND_ORDER = ["akananuru", "purananuru", "naladiyar", "kural", "tirumanthiram", "siddhar", "thiruppugazh", "pattupattu"].filter(b => BOOK_NAMES[b]);
+// The new books' colours (light and dark) and grid-cell shapes, as CSS made from the registry.
+(() => {
+  const nb = BOOK_ORDER.filter(b => BOOKS[b].hue !== null);
+  const light = nb.map(b => `--b-${PREFIX[b]}: hsl(${BOOKS[b].hue} 50% 38%);`).join(" ");
+  const dark = nb.map(b => `--b-${PREFIX[b]}: hsl(${BOOKS[b].hue} 58% 67%);`).join(" ");
+  const cells = nb.map(b => { CELL_CLASS[b] = " sh-" + PREFIX[b];
+    return `.cell.sh-${PREFIX[b]} { clip-path: polygon(${shapePoints(BOOKS[b].shape).map(([x, y]) => `${(50 + 50 * x).toFixed(1)}% ${(50 + 50 * y).toFixed(1)}%`).join(", ")}); border-radius: 0; }`; }).join("\n");
+  const st = document.createElement("style");
+  st.textContent = `:root { ${light} }\n@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { ${dark} } }\n:root[data-theme="dark"] { ${dark} }\n${cells}`;
+  document.head.appendChild(st);
+})();
 const TYPES = ["tension", "agrees", "develops", "qualifies", "same_image", "parallel_domain"];
 const TYPE_NAMES = { tension: "Tension", agrees: "Agrees", develops: "Develops", qualifies: "Qualifies", same_image: "Same image", parallel_domain: "Parallel domain" };
 const GRADE_SETS = { sound: ["sound"], weak: ["sound", "weak"], all: ["sound", "weak", "forced", "wrong"] };
@@ -297,19 +368,19 @@ const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "
 const fmt = n => n.toLocaleString("en");
 
 const verses = KG.verses;
-const partOf = id => OWN_PART[verses[id].book]?.[0] ?? PARTS[KG.chapters[verses[id].ch].section][0];
-const partName = ch => OWN_PART[ch.book] ? ch.section : PARTS[ch.section][1];
-// Verse ids per chapter, in order (Tirumanthiram chapters vary in length).
+const partOf = id => OWN_PART[verses[id].book]?.[0] ?? PARTS[KG.chapters[verses[id].ch].section]?.[0] ?? "muted";
+const partName = ch => OWN_PART[ch.book] ? ch.section : PARTS[ch.section]?.[1] ?? ch.section;
 const CHAPTER_VERSES = {};
 for (const [id, v] of Object.entries(verses)) (CHAPTER_VERSES[v.ch] = CHAPTER_VERSES[v.ch] || []).push(id);
 for (const ids of Object.values(CHAPTER_VERSES)) ids.sort((a, b) => verses[a].num - verses[b].num);
 const bookOf = id => verses[id].book;
+const groupOf = id => GROUP_OF(verses[id].book);
 const label = id => verses[id].lb || ({ kural: "", naladiyar: "N", tirumanthiram: "T", thiruppugazh: "P", siddhar: "S", akananuru: "A", purananuru: "Pn" })[bookOf(id)] + verses[id].num;
 const fullName = id => verses[id].who ? `${verses[id].who} (Siddhar ${verses[id].num})` : verses[id].nm || `${BOOK_NAMES[bookOf(id)]} ${verses[id].num}`;
-const state = { view: "grid", grade: "sound", scope: "texts", types: new Set(TYPES), books: new Set(Object.keys(BOOK_NAMES)), thread: null, selected: null };
+const state = { view: "grid", grade: "sound", scope: "texts", types: new Set(TYPES), books: new Set(BOOK_ORDER), thread: null, selected: null, pair: null };
 const SCOPES = {
   texts: l => bookOf(l.a) !== bookOf(l.b),
-  sections: l => partOf(l.a) !== partOf(l.b),
+  groups: l => groupOf(l.a) !== groupOf(l.b),
   any: () => true
 };
 const inBooks = id => state.books.has(bookOf(id));
@@ -317,27 +388,20 @@ const shownVerses = () => Object.keys(verses).filter(inBooks);
 
 // ---- Header stats ----
 (() => {
-  const L = KG.links, sound = L.filter(l => l.grade === "sound").length;
-  const cross = L.filter(l => l.grade === "sound" && bookOf(l.a) !== bookOf(l.b)).length;
-  const count = b => Object.values(verses).filter(v => v.book === b).length;
-  const contested = Object.values(verses).filter(v => v.x).length;
-  const positions = Object.values(verses).reduce((s, v) => s + v.pos.length, 0);
+  const L = KG.links, graded = L.filter(l => l.grade !== "not_audited");
+  const sound = L.filter(l => l.grade === "sound").length;
+  const bridges = L.filter(l => groupOf(l.a) !== groupOf(l.b)), bSound = bridges.filter(l => l.grade === "sound").length;
+  const perGroup = GROUP_ORDER.map(g => [g, Object.values(verses).filter(v => GROUP_OF(v.book) === g).length]);
   const flagged = Object.values(verses).filter(v => v.f).length;
   document.getElementById("stats").innerHTML = [
-    `<span class="stat"><b>${fmt(count("kural"))}</b> Kural verses</span>`,
-    `<span class="stat"><b>${fmt(count("naladiyar"))}</b> Naladiyar quatrains</span>`,
-    `<span class="stat"><b>${fmt(count("tirumanthiram"))}</b> Tirumanthiram verses</span>`,
-    `<span class="stat"><b>${fmt(count("thiruppugazh"))}</b> Thiruppugazh songs</span>`,
-    `<span class="stat"><b>${fmt(count("siddhar"))}</b> Siddhar verses</span>`,
-    ...(BOOK_NAMES.akananuru ? [`<span class="stat"><b>${fmt(count("akananuru"))}</b> Akananuru poems</span>`] : []),
-    ...(BOOK_NAMES.purananuru ? [`<span class="stat"><b>${fmt(count("purananuru"))}</b> Purananuru poems</span>`] : []),
-    ...(BOOK_NAMES.pattupattu ? [`<span class="stat"><b>${fmt(count("pattupattu"))}</b> Pattupattu units</span>`] : []),
+    `<span class="stat"><b>${BOOK_ORDER.length}</b> books, <b>${fmt(Object.keys(verses).length)}</b> verses and units</span>`,
+    ...perGroup.map(([g, n]) => `<span class="stat" title="${esc(groupName(g))}"><b>${fmt(n)}</b> ${esc(GROUP_SHORT[g])}</span>`),
     `<span class="stat"><b>${Object.keys(KG.concepts).length}</b> shared concepts</span>`,
-    `<span class="stat"><b>${positions}</b> commentator positions</span>`,
-    `<span class="stat"><b>${contested}</b> contested</span>`,
-    `<span class="stat"><b>${fmt(L.length)}</b> links, <b>${fmt(sound)}</b> sound, <b>${cross}</b> across books</span>`,
+    `<span class="stat"><b>${fmt(L.length)}</b> links, <b>${fmt(sound)}</b> sound (${Math.round(100 * sound / graded.length)}%)</span>`,
+    `<span class="stat"><b>${fmt(bSound)}</b> of ${fmt(bridges.length)} bridges between groups sound</span>`,
     `<span class="stat"><b>${KG.threads.length}</b> threads</span>`,
-    `<span class="stat warn"><b>${flagged}</b> verses' text to check</span>`,
+    `<span class="stat warn"><b>${fmt(flagged)}</b> verses' text to check</span>`,
+    ...(missing.length ? [`<span class="stat warn">Not loaded: ${esc(missing.join(", "))}</span>`] : []),
     `<span class="stat warn">Not yet reviewed by a Tamil scholar</span>`
   ].join("");
 })();
@@ -345,40 +409,57 @@ const shownVerses = () => Object.keys(verses).filter(inBooks);
 // ---- Controls ----
 document.getElementById("types").innerHTML = TYPES.map(t =>
   `<label><input type="checkbox" id="t-${t}" checked><span class="swatch" style="background:var(--t-${t})"></span>${TYPE_NAMES[t]}<span class="n" id="n-${t}"></span></label>`).join("");
+const icon = b => `<svg width="13" height="13" viewBox="-6.5 -6.5 13 13" aria-hidden="true"><path d="${d3.symbol(SYMBOLS[b](d3), 64)()}" fill="${OWN_PART[b] ? `var(--${OWN_PART[b][0]})` : "var(--muted)"}"/></svg>`;
 document.getElementById("books").innerHTML =
-  Object.entries(BOOK_NAMES).map(([b, name]) =>
-    `<label><input type="checkbox" id="b-${b}" checked><svg width="12" height="12" viewBox="-6 -6 12 12" aria-hidden="true"><path d="${d3.symbol(SYMBOLS[b](d3), 70)()}" fill="var(--muted)"/></svg>${name} <span style="font-family:var(--f-tamil);color:var(--muted)">${BOOK_TAMIL[b]}</span></label>`).join("") +
-  `<p class="label" style="margin-top:8px">Colour: part</p>` +
-  [...Object.values(PARTS), ...Object.entries(OWN_PART).filter(([b]) => BOOK_NAMES[b]).map(([, p]) => p)].map(([k, name]) => `<div><span class="dot" style="background:var(--${k})"></span>${name}</div>`).join("");
+  GROUP_ORDER.map(g => `<label class="gl"><input type="checkbox" id="gb-${g}" checked>${esc(groupName(g))}</label>` +
+    BOOK_ORDER.filter(b => GROUP_OF(b) === g).map(b =>
+      `<label class="bk"><input type="checkbox" id="b-${b}" checked>${icon(b)}${esc(BOOK_NAMES[b])} <span class="ta">${esc(BOOK_TAMIL[b])}</span> <span class="ta">${PREFIX[b]}</span></label>`).join("")).join("") +
+  `<p class="label" style="margin-top:8px">Colour</p>` +
+  Object.values(PARTS).map(([k, name]) => `<div><span class="dot" style="background:var(--${k})"></span>${name} (Kural, Naladiyar)</div>`).join("") +
+  `<p class="legend-note">Every other book has its own colour and shape, shown beside its name; the short code after it is its search prefix.</p>`;
 document.getElementById("threads").innerHTML = KG.threads.map((t, i) =>
   `<button class="row" data-thread="${i}">${esc(t.title)}<small>${t.links.length} links · ${t.grade.replace("_", " ")} · ${t.books.join(", ")}</small></button>`).join("");
 
 TYPES.forEach(t => document.getElementById("t-" + t).addEventListener("change", e => {
   e.target.checked ? state.types.add(t) : state.types.delete(t); state.thread = null; render();
 }));
-Object.keys(BOOK_NAMES).forEach(b => document.getElementById("b-" + b).addEventListener("change", e => {
+const syncGroupBoxes = () => GROUP_ORDER.forEach(g => {
+  const bs = BOOK_ORDER.filter(b => GROUP_OF(b) === g), on = bs.filter(b => state.books.has(b)).length;
+  const box = document.getElementById("gb-" + g); box.checked = on === bs.length; box.indeterminate = on > 0 && on < bs.length;
+});
+BOOK_ORDER.forEach(b => document.getElementById("b-" + b).addEventListener("change", e => {
   e.target.checked ? state.books.add(b) : state.books.delete(b);
   if (!state.books.size) { state.books.add(b); e.target.checked = true; }
-  state.thread = null; render();
+  syncGroupBoxes(); state.thread = null; render();
 }));
-for (const g of Object.keys(GRADE_SETS)) document.getElementById("g-" + g).addEventListener("click", () => { state.grade = g; state.thread = null; render(); });
+GROUP_ORDER.forEach(g => document.getElementById("gb-" + g).addEventListener("change", e => {
+  const bs = BOOK_ORDER.filter(b => GROUP_OF(b) === g);
+  bs.forEach(b => { e.target.checked ? state.books.add(b) : state.books.delete(b); document.getElementById("b-" + b).checked = e.target.checked; });
+  if (!state.books.size) { bs.forEach(b => { state.books.add(b); document.getElementById("b-" + b).checked = true; }); }
+  syncGroupBoxes(); state.thread = null; render();
+}));
+for (const g of Object.keys(GRADE_SETS)) document.getElementById("g-" + g).addEventListener("click", () => { state.grade = g; state.thread = null; render(); if (state.view === "bridges" && state.pair) showBridge(...state.pair); });
 for (const s of Object.keys(SCOPES)) document.getElementById("s-" + s).addEventListener("click", () => { state.scope = s; state.thread = null; render(); });
 document.getElementById("v-verses").addEventListener("click", () => { state.view = "verses"; render(); });
 document.getElementById("v-grid").addEventListener("click", () => { state.view = "grid"; state.thread = null; render(); });
 document.getElementById("v-concepts").addEventListener("click", () => { state.view = "concepts"; state.thread = null; render(); });
-const soundLinked = new Set(KG.links.filter(l => l.grade === "sound").flatMap(l => [l.a, l.b]));
-const crossLinked = new Set(KG.links.filter(l => l.grade === "sound" && bookOf(l.a) !== bookOf(l.b)).flatMap(l => [l.a, l.b]));
+document.getElementById("v-bridges").addEventListener("click", () => { state.view = "bridges"; state.thread = null; render(); if (!state.pair) showBridgesIntro(); });
+const soundLinked = new Set(), crossLinked = new Set(), bridged = new Set();
+for (const l of KG.links) if (l.grade === "sound") {
+  soundLinked.add(l.a); soundLinked.add(l.b);
+  if (bookOf(l.a) !== bookOf(l.b)) { crossLinked.add(l.a); crossLinked.add(l.b); }
+  if (groupOf(l.a) !== groupOf(l.b)) { bridged.add(l.a); bridged.add(l.b); }
+}
 const HIGHLIGHTS = {
-  crosslinked: id => crossLinked.has(id), linked: id => soundLinked.has(id), contested: id => verses[id].x,
-  textflag: id => verses[id].f, uncertain: id => verses[id].u, nuance: id => verses[id].n
+  crosslinked: id => crossLinked.has(id), bridged: id => bridged.has(id), linked: id => soundLinked.has(id), contested: id => verses[id].x,
+  textflag: id => verses[id].f, uncertain: id => verses[id].u, nuance: id => verses[id].n, sonnet: id => verses[id].mm
 };
 for (const h of Object.keys(HIGHLIGHTS)) {
   const b = document.getElementById("h-" + h);
-  b.insertAdjacentHTML("beforeend", `<span class="n">${Object.keys(verses).filter(HIGHLIGHTS[h]).length}</span>`);
+  b.insertAdjacentHTML("beforeend", `<span class="n">${fmt(Object.keys(verses).filter(HIGHLIGHTS[h]).length)}</span>`);
   b.addEventListener("click", () => { state.highlight = h; render(); });
 }
 state.highlight = "crosslinked";
-// A concept highlight is stored as "concept:<id>" and lights the verses that express it.
 const hlFn = () => state.highlight.startsWith("concept:")
   ? (c => id => verses[id].c.includes(c))(state.highlight.slice(8)) : HIGHLIGHTS[state.highlight];
 document.getElementById("threads").addEventListener("click", e => {
@@ -388,20 +469,36 @@ document.getElementById("threads").addEventListener("click", e => {
   render();
   state.thread === null ? showEmpty() : showThread(KG.threads[i]);
 });
+
+// ---- Search ----
+// The kept forms: a bare number is a Kural couplet; "a 12" Akananuru, "pn 192" Purananuru, "pp 120" the
+// Pattupattu unit holding line 120 of the first idyll ("pp 1:120" names the idyll), "s", "p", "t", "n".
+// Every book answers to its prefix: "nt 12" is Natrinai 12; in a book of units, "si 3" is the first unit
+// of record 3 and "si 3:40" the unit that holds its line 40.
+function findVerse(book, rest) {
+  const p = PREFIX[book];
+  if (verses[`${p}:${rest}`]) return `${p}:${rest}`;
+  const m = rest.match(/^([^:]+)(?::(\d+)(?:-(\d+))?)?$/);
+  if (!m) return null;
+  const rec = m[1], line = m[2] ? +m[2] : null;
+  const units = Object.keys(verses).filter(id => id.startsWith(`${p}:${rec}:`)).map(id => {
+    const r = id.slice(p.length + rec.length + 2).match(/^(\d+)-(\d+)$/); return r ? [id, +r[1], +r[2]] : null; }).filter(Boolean).sort((x, y) => x[1] - y[1]);
+  if (!units.length) return verses[`${p}:${rec}`] ? `${p}:${rec}` : null;
+  if (line === null) return units[0][0];
+  return (units.find(([, a, z]) => a <= line && line <= z) || [])[0] || null;
+}
 document.getElementById("search").addEventListener("keydown", e => {
   if (e.key !== "Enter") return;
+  const note = document.getElementById("search-note"); note.textContent = "";
   const q = e.target.value.trim().toLowerCase(); if (!q) return;
   const nal = q.match(/^(n|nal|naladiyar|நாலடியார்)\s*:?\s*(\d+)$/), kur = q.match(/^(k|kural|குறள்)?\s*:?\s*(\d+)$/);
-  // Sangam: "a 12" Akananuru, "pn 192" Purananuru ("p" stays the Thiruppugazh), "pp 120" the
-  // Pattupattu unit holding line 120 (of the first idyll; "pp 1:120" names the idyll).
   const akq = q.match(/^(a|ak|akam|akananuru|அகம்|அகநானூறு)\s*:?\s*(\d+)$/);
   if (akq && verses["a:" + akq[2]]) return selectVerse("a:" + akq[2], true);
   const pnq = q.match(/^(pn|pu|puram|purananuru|புறம்|புறநானூறு)\s*:?\s*(\d+)$/);
   if (pnq && verses["pn:" + pnq[2]]) return selectVerse("pn:" + pnq[2], true);
   const ppq = q.match(/^(pp|pattupattu|பத்துப்பாட்டு)\s*:?\s*(?:(\d+)\s*:\s*)?(\d+)(?:\s*-\s*\d+)?$/);
   if (ppq) {
-    const idyll = +(ppq[2] || 1), line = +ppq[3];
-    const unit = Object.keys(verses).find(id => { const m = id.match(/^pp:(\d+):(\d+)-(\d+)$/); return m && +m[1] === idyll && +m[2] <= line && line <= +m[3]; });
+    const unit = findVerse("pattupattu", `${+(ppq[2] || 1)}:${+ppq[3]}`);
     if (unit) return selectVerse(unit, true);
   }
   const sdq = q.match(/^(s|sd|siddhar|சித்தர்)\s*:?\s*(\d+)$/);
@@ -412,14 +509,21 @@ document.getElementById("search").addEventListener("keydown", e => {
   if (tmq && verses["t:" + tmq[2]]) return selectVerse("t:" + tmq[2], true);
   if (nal && verses["n:" + nal[2]]) return selectVerse("n:" + nal[2], true);
   if (kur && verses["k:" + kur[2]]) return selectVerse("k:" + kur[2], true);
+  // a number after the prefix, or a named key (an invocation, "payiram") after a space or colon
+  const gq = q.match(/^([a-z]+)\s*:?\s*(\d[\d:\s-]*)$/) || q.match(/^([a-z]+)[\s:]+([a-z_]+(?::[\d-]+)?)$/);
+  if (gq && BY_PREFIX[gq[1]]) {
+    const id = findVerse(BY_PREFIX[gq[1]], gq[2].replace(/\s+/g, ""));
+    if (id) return selectVerse(id, true);
+    if (/^\d/.test(gq[2])) { note.textContent = `No ${BOOK_NAMES[BY_PREFIX[gq[1]]]} verse ${gq[2]}.`; return; }
+  }
   const hit = Object.entries(KG.concepts).find(([id, c]) => id === q || c.tamil === q)
     || Object.entries(KG.concepts).find(([id, c]) => id.includes(q) || c.gloss.toLowerCase().includes(q) || c.tamil.includes(q));
-  if (hit) selectConcept(hit[0], true);
+  if (hit) selectConcept(hit[0], true); else note.textContent = "No verse or concept matches.";
 });
 
 // ---- Graph ----
 const svg = d3.select("#svg"), root = svg.append("g"), gLinks = root.append("g"), gNodes = root.append("g");
-const zoom = d3.zoom().scaleExtent([0.2, 6]).on("zoom", e => root.attr("transform", e.transform));
+const zoom = d3.zoom().scaleExtent([0.1, 6]).on("zoom", e => root.attr("transform", e.transform));
 svg.call(zoom);
 const tip = document.getElementById("tip");
 let sim, nodeSel, linkSel, current = { nodes: [], links: [] };
@@ -432,6 +536,14 @@ function visibleLinks() {
   const grades = GRADE_SETS[state.grade];
   const scope = state.books.size < 2 && state.scope === "texts" ? SCOPES.any : SCOPES[state.scope];
   return KG.links.filter(l => grades.includes(l.grade) && state.types.has(l.type) && inBooks(l.a) && inBooks(l.b) && scope(l));
+}
+
+// Bands, top to bottom: one per group when more than one group is shown, else one per book.
+function bandsOf() {
+  const groups = GROUP_ORDER.filter(g => BOOK_ORDER.some(b => GROUP_OF(b) === g && state.books.has(b)));
+  if (groups.length > 1) return { key: d => GROUP_OF(d.book === "both" ? "kural" : d.book), bands: groups, words: groups.map(g => GROUP_SHORT[g]) };
+  const books = BOOK_ORDER.filter(b => state.books.has(b));
+  return { key: d => d.book, bands: books, words: books.map(b => BOOK_NAMES[b]) };
 }
 
 function verseGraph() {
@@ -455,11 +567,11 @@ function conceptGraph() {
     }
   }
   const nodes = Object.keys(KG.concepts).filter(c => count[c]).map(c => ({
-    id: c, kind: "concept", deg: count[c], r: 4 + Math.sqrt(count[c]) * 2.2,
+    id: c, kind: "concept", deg: count[c], r: 4 + Math.sqrt(count[c]) * 1.6,
     part: Object.entries(part[c]).sort((a, b) => b[1] - a[1])[0][0],
     book: books[c].size > 1 ? "both" : [...books[c]][0]
   }));
-  const links = Object.entries(pair).filter(([, w]) => w >= 3).map(([k, w]) => {
+  const links = Object.entries(pair).filter(([, w]) => w >= 5).map(([k, w]) => {
     const [a, b] = k.split("|"); return { source: a, target: b, w };
   });
   return { nodes, links };
@@ -468,42 +580,109 @@ function conceptGraph() {
 function renderGrid() {
   const grid = document.getElementById("grid"), on = hlFn();
   const sel = state.selected?.kind === "verse" ? state.selected.id : null;
-  // Sections: the three shared parts for the Kural and Naladiyar, the tantras (in order) for the Tirumanthiram.
   const sectionsOf = book => OWN_PART[book]
     ? [...new Set(Object.values(KG.chapters).filter(c => c.book === book).sort((a, b) => a.num - b.num).map(c => c.section))].map(s => [s, [OWN_PART[book][0], s]])
     : Object.entries(PARTS);
   const cell = (id, book) => `<button class="cell${on(id) ? " on" : ""}${id === sel ? " sel" : ""}${CELL_CLASS[book] || ""}" data-cell="${id}" aria-label="${esc(fullName(id))}"></button>`;
-  grid.innerHTML = BAND_ORDER.filter(b => state.books.has(b)).sort((a, b) => Object.keys(BOOK_NAMES).indexOf(a) - Object.keys(BOOK_NAMES).indexOf(b)).map(book => sectionsOf(book).map(([section, [key, name]]) => {
-    const chs = Object.entries(KG.chapters).filter(([, c]) => c.book === book && c.section === section)
-      .sort((a, b) => a[1].num - b[1].num);
-    if (!chs.length) return "";
-    const ids = cid => CHAPTER_VERSES[cid] || [];
-    const rows = chs.map(([cid, c]) => {
-      const all = ids(cid), chunks = [];
-      for (let i = 0; i < all.length; i += 10) chunks.push(all.slice(i, i + 10));
-      return `<div class="chapblock" title="${c.num}. ${esc(c.title)}">${chunks.map((chunk, i) =>
-        `<div class="chap"><span>${i ? "" : c.num}</span>${chunk.map(id => cell(id, book)).join("")}</div>`).join("")}</div>`;
-    }).join("");
-    const total = chs.reduce((s, [cid]) => s + ids(cid).length, 0), hits = chs.reduce((s, [cid]) => s + ids(cid).filter(on).length, 0);
-    return `<section class="book" style="--bk:var(--${key})"><h3><span class="dot" style="background:var(--${key})"></span>${BOOK_NAMES[book]} · <span${OWN_PART[book] ? ' style="font-family:var(--f-tamil);text-transform:none"' : ""}>${esc(name)}</span><small>${chs.length} chapters · ${hits} of ${total}</small></h3><div class="chaps">${rows}</div></section>`;
-  }).join("")).join("");
+  const chaptersByBook = {};
+  for (const [cid, c] of Object.entries(KG.chapters)) (chaptersByBook[c.book] = chaptersByBook[c.book] || []).push([cid, c]);
+  let lastGroup = null, html = "";
+  for (const book of BOOK_ORDER.filter(b => state.books.has(b))) {
+    if (GROUP_OF(book) !== lastGroup) { lastGroup = GROUP_OF(book); html += `<h2 class="ghead">${esc(groupName(lastGroup))}</h2>`; }
+    for (const [section, [key, name]] of sectionsOf(book)) {
+      const chs = (chaptersByBook[book] || []).filter(([, c]) => c.section === section).sort((a, b) => a[1].num - b[1].num);
+      if (!chs.length) continue;
+      const ids = cid => CHAPTER_VERSES[cid] || [];
+      const rows = chs.map(([cid, c]) => {
+        const all = ids(cid), chunks = [];
+        for (let i = 0; i < all.length; i += 10) chunks.push(all.slice(i, i + 10));
+        return `<div class="chapblock" title="${c.num}. ${esc(c.title)}">${chunks.map((chunk, i) =>
+          `<div class="chap"><span>${i ? "" : c.num}</span>${chunk.map(id => cell(id, book)).join("")}</div>`).join("")}</div>`;
+      }).join("");
+      const total = chs.reduce((s, [cid]) => s + ids(cid).length, 0), hits = chs.reduce((s, [cid]) => s + ids(cid).filter(on).length, 0);
+      html += `<section class="book" style="--bk:var(--${key})"><h3><span class="dot" style="background:var(--${key})"></span>${esc(BOOK_NAMES[book])} · <span${OWN_PART[book] ? ' style="font-family:var(--f-tamil);text-transform:none"' : ""}>${esc(name)}</span><small>${chs.length} chapters · ${hits} of ${total}</small></h3><div class="chaps">${rows}</div></section>`;
+    }
+  }
+  grid.innerHTML = html;
+}
+
+// ---- Bridges: sound links between each pair of groups (the diagonal is the within-group baseline) ----
+function pairCounts() {
+  const M = {};
+  for (const l of KG.links) {
+    if (!inBooks(l.a) || !inBooks(l.b)) continue;
+    const k = [groupOf(l.a), groupOf(l.b)].sort().join("|");
+    const c = M[k] = M[k] || { graded: 0, sound: 0, weak: 0, all: 0 };
+    c.all++; if (l.grade !== "not_audited") c.graded++;
+    if (l.grade === "sound") c.sound++; if (l.grade === "weak") c.weak++;
+  }
+  return M;
+}
+function renderBridges() {
+  const grid = document.getElementById("grid"), M = pairCounts();
+  const groups = GROUP_ORDER.filter(g => BOOK_ORDER.some(b => GROUP_OF(b) === g && state.books.has(b)));
+  const max = Math.max(1, ...Object.entries(M).filter(([k]) => k.split("|")[0] !== k.split("|")[1]).map(([, c]) => c.sound));
+  const sel = state.pair ? [...state.pair].sort().join("|") : null;
+  const cellOf = (a, b) => {
+    const k = [a, b].sort().join("|"), c = M[k];
+    if (!c) return `<td class="none">·</td>`;
+    const pct = c.graded ? Math.round(100 * c.sound / c.graded) : 0, diag = a === b;
+    const bg = diag ? "var(--paper)" : `color-mix(in srgb, var(--accent) ${Math.round(8 + 62 * Math.sqrt(c.sound / max))}%, var(--panel))`;
+    const strong = !diag && Math.sqrt(c.sound / max) > 0.55;
+    return `<td><button class="${diag ? "diag" : ""}${k === sel ? " on" : ""}" data-pair="${a}|${b}" style="background:${bg};${strong ? "color:var(--panel)" : ""}" title="${esc(groupName(a))} and ${esc(groupName(b))}: ${c.sound} sound of ${c.graded} graded (${pct}%)${diag ? ", within one group" : ""}">
+      <b>${fmt(c.sound)}</b><small style="${strong ? "color:var(--panel)" : ""}">${pct}% of ${fmt(c.graded)}</small></button></td>`;
+  };
+  const bridges = KG.links.filter(l => inBooks(l.a) && inBooks(l.b) && groupOf(l.a) !== groupOf(l.b));
+  const bGraded = bridges.filter(l => l.grade !== "not_audited").length, bSound = bridges.filter(l => l.grade === "sound").length;
+  const within = KG.links.filter(l => inBooks(l.a) && inBooks(l.b) && groupOf(l.a) === groupOf(l.b));
+  const wGraded = within.filter(l => l.grade !== "not_audited").length, wSound = within.filter(l => l.grade === "sound").length;
+  grid.innerHTML = `<div class="matrix-wrap">
+    <p>Each cell counts the <b>sound</b> links between two groups, both directions, with the share of graded links that are sound. Darker cells have more sound bridges. The dashed diagonal is the baseline: links within one group. Click a cell to list its links; the grade buttons on the left choose which.</p>
+    <p>Between groups ${fmt(bSound)} of ${fmt(bGraded)} graded links are sound (${Math.round(100 * bSound / Math.max(1, bGraded))}%); within groups ${fmt(wSound)} of ${fmt(wGraded)} (${Math.round(100 * wSound / Math.max(1, wGraded))}%).</p>
+    <table class="matrix"><thead><tr><th></th>${groups.map(g => `<th scope="col">${esc(GROUP_SHORT[g])}</th>`).join("")}</tr></thead>
+    <tbody>${groups.map(a => `<tr><th scope="row">${esc(GROUP_SHORT[a])}</th>${groups.map(b => cellOf(a, b)).join("")}</tr>`).join("")}</tbody></table></div>`;
+  document.getElementById("hint").textContent = `${groups.length} groups. Click a cell to list the links between two groups.`;
+}
+function showBridgesIntro() {
+  detail.innerHTML = `<div class="empty"><h2>How the groups connect</h2>
+    <p>A bridge is a link whose two verses are in different corpus groups (docs/corpus-groups.md). Every link was graded blind; a bridge counts for something only if its group pair's sound share beats the groups' own within-group baseline on the diagonal.</p>
+    <p>The Kural, Naladiyar, Tirumanthiram, Thiruppugazh and Siddhar links were graded in earlier passes with their own briefs, so the ethics and devotional cells mix two grading regimes.</p></div>`;
+}
+function showBridge(a, b) {
+  state.pair = [a, b];
+  document.querySelectorAll("[data-pair]").forEach(x => x.classList.toggle("on", [...x.dataset.pair.split("|")].sort().join("|") === [a, b].sort().join("|")));
+  const grades = GRADE_SETS[state.grade];
+  const ls = KG.links.filter(l => inBooks(l.a) && inBooks(l.b) && grades.includes(l.grade)
+    && ((groupOf(l.a) === a && groupOf(l.b) === b) || (groupOf(l.a) === b && groupOf(l.b) === a)))
+    .sort((x, y) => grades.indexOf(x.grade) - grades.indexOf(y.grade) || bookOf(x.a).localeCompare(bookOf(y.a)));
+  const byBooks = {};
+  ls.forEach(l => { const k = [BOOK_NAMES[bookOf(l.a)], BOOK_NAMES[bookOf(l.b)]].sort().join(" and "); byBooks[k] = (byBooks[k] || 0) + 1; });
+  const shown = ls.slice(0, 300);
+  detail.innerHTML = `<div><h2>${esc(groupName(a))}${a === b ? " (within the group)" : ` and ${esc(groupName(b))}`}</h2>
+      <div class="sub">${fmt(ls.length)} ${state.grade === "sound" ? "sound" : state.grade === "weak" ? "sound and weak" : ""} links${ls.length > shown.length ? `, the first ${shown.length} shown` : ""}</div></div>
+    <div class="pills">${Object.entries(byBooks).sort((x, y) => y[1] - x[1]).slice(0, 12).map(([k, n]) => pill("", `${k} ${n}`)).join("")}</div>
+    <div class="list">${shown.map(l => `<button class="lk" data-verse="${l.a}"><span class="top"><span class="swatch" style="background:var(--t-${l.type})"></span>${esc(fullName(l.a))} → ${esc(fullName(l.b))}${pill(l.grade, l.grade)}${l.mm ? pill("weak", "marked by Sonnet") : ""}</span>
+      <p>${esc(l.note)}</p>${l.te ? `<p><i>Teaches:</i> ${esc(l.te)}</p>` : ""}</button>`).join("") || '<p class="empty">No links of these grades.</p>'}</div>`;
+  detail.scrollTop = 0;
 }
 
 const shape = d => d3.symbol(SYMBOLS[d.book](d3), Math.PI * d.r * d.r * (SHAPE_SCALE[d.book] || 1))();
 
 function render() {
-  for (const v of ["grid", "verses", "concepts"]) document.getElementById("v-" + v).setAttribute("aria-pressed", state.view === v);
+  for (const v of ["grid", "verses", "concepts", "bridges"]) document.getElementById("v-" + v).setAttribute("aria-pressed", state.view === v);
   for (const g of Object.keys(GRADE_SETS)) document.getElementById("g-" + g).setAttribute("aria-pressed", state.grade === g);
   for (const s of Object.keys(SCOPES)) document.getElementById("s-" + s).setAttribute("aria-pressed", state.scope === s);
   for (const h of Object.keys(HIGHLIGHTS)) document.getElementById("h-" + h).setAttribute("aria-pressed", state.highlight === h);
-  document.getElementById("link-controls").style.display = state.view === "verses" ? "" : "none";
+  document.getElementById("link-controls").style.display = state.view === "verses" || state.view === "bridges" ? "" : "none";
+  document.getElementById("link-more").style.display = state.view === "verses" ? "" : "none";
   document.getElementById("grid-controls").style.display = state.view === "grid" ? "" : "none";
   document.querySelectorAll("[data-thread]").forEach(b => b.classList.toggle("on", +b.dataset.thread === state.thread));
-  const isGrid = state.view === "grid";
+  const isGrid = state.view === "grid" || state.view === "bridges";
   document.getElementById("grid").hidden = !isGrid;
   document.getElementById("svg").style.display = isGrid ? "none" : "";
   if (isGrid) {
     if (sim) sim.stop();
+    if (state.view === "bridges") return renderBridges();
     const shown = shownVerses(), n = shown.filter(hlFn()).length;
     const cb = document.getElementById("h-concept"), cid = state.highlight.startsWith("concept:") ? state.highlight.slice(8) : null;
     cb.hidden = !cid; cb.setAttribute("aria-pressed", !!cid);
@@ -512,28 +691,28 @@ function render() {
     renderGrid(); return;
   }
   const grades = GRADE_SETS[state.grade];
-  TYPES.forEach(t => document.getElementById("n-" + t).textContent = KG.links.filter(l => l.type === t && grades.includes(l.grade) && inBooks(l.a) && inBooks(l.b)).length);
+  const tc = {}; for (const l of KG.links) if (grades.includes(l.grade) && inBooks(l.a) && inBooks(l.b)) tc[l.type] = (tc[l.type] || 0) + 1;
+  TYPES.forEach(t => document.getElementById("n-" + t).textContent = fmt(tc[t] || 0));
 
   current = state.view === "verses" ? verseGraph() : conceptGraph();
   const { width, height } = document.getElementById("stage").getBoundingClientRect();
-  const partX = { aram: width * 0.22, porul: width * 0.5, inbam: width * 0.78, tm: width * 0.5, tp: width * 0.5, sd: width * 0.5, ak: width * 0.5, pn: width * 0.5, pp: width * 0.5 };
-  const two = state.books.size > 1 && state.view === "verses";
-  const bands = BAND_ORDER.filter(b => state.books.has(b)), bookY = { both: height / 2 };
-  bands.forEach((b, i) => bookY[b] = two ? height * (i + 0.5) / bands.length : height / 2);
-  const bandWords = { kural: "Kural (circles)", naladiyar: "Naladiyar (diamonds)", tirumanthiram: "Tirumanthiram (triangles)", thiruppugazh: "Thiruppugazh (stars)", siddhar: "Siddhars (three-pointed)", akananuru: "Akananuru (crosses)", purananuru: "Purananuru (hexagons)", pattupattu: "Pattupattu (down triangles)" };
-  const scopeWord = { texts: " between books", sections: " between parts", any: "" }[state.scope];
+  const partX = { aram: width * 0.22, porul: width * 0.5, inbam: width * 0.78 };
+  const B = bandsOf(), two = B.bands.length > 1 && state.view === "verses", bandY = {};
+  B.bands.forEach((b, i) => bandY[b] = two ? height * (i + 0.5) / B.bands.length : height / 2);
+  const yOf = d => bandY[B.key(d)] ?? height / 2;
+  const scopeWord = { texts: " between books", groups: " between groups", any: "" }[state.scope];
   document.getElementById("hint").textContent = state.thread !== null
     ? `Thread: ${current.nodes.length} verses, ${current.links.length} links. Click the thread again to leave it.`
-    : state.view === "verses" ? `${current.nodes.length} verses, ${current.links.length} links${scopeWord}. ${two ? "Top to bottom: " + bands.map(b => bandWords[b]).join(", ") + ". Kural and Naladiyar parts" : "Parts"} run left to right. Scroll to zoom, click a verse.`
-    : `${current.nodes.length} concepts, sized by verses expressing them; squares appear in both books. Lines join concepts that share 3 or more verses.`;
+    : state.view === "verses" ? `${fmt(current.nodes.length)} verses, ${fmt(current.links.length)} links${scopeWord}. ${two ? "Top to bottom: " + B.words.join(", ") + ". " : ""}Shape and colour show the book. Scroll to zoom, click a verse.`
+    : `${current.nodes.length} concepts, sized by verses expressing them; squares appear in more than one book. Lines join concepts that share 5 or more verses.`;
 
   if (sim) sim.stop();
-  const dense = current.links.length > 1200 ? 0.45 : current.links.length > 500 ? 0.7 : 1;
+  const dense = current.links.length > 3000 ? 0.32 : current.links.length > 1200 ? 0.45 : current.links.length > 500 ? 0.7 : 1;
   linkSel = gLinks.selectAll("line").data(current.links, d => state.view === "verses" ? d.a + "|" + d.b : d.source + "|" + d.target)
     .join("line")
     .attr("stroke", d => state.view === "verses" ? css("--t-" + d.type) : css("--muted"))
-    .attr("stroke-width", d => state.view === "verses" ? (d.grade === "sound" ? 1.8 : 1.1) * dense : Math.min(0.5 + d.w / 4, 5))
-    .attr("stroke-opacity", d => state.view === "verses" ? (d.grade === "sound" ? 0.85 : 0.55) * dense : 0.28)
+    .attr("stroke-width", d => state.view === "verses" ? (d.grade === "sound" ? 1.8 : 1.1) * dense : Math.min(0.5 + d.w / 6, 5))
+    .attr("stroke-opacity", d => state.view === "verses" ? (d.grade === "sound" ? 0.85 : 0.55) * dense : 0.22)
     .attr("stroke-dasharray", d => state.view !== "verses" || d.grade === "sound" ? null : d.grade === "weak" ? "5 3" : "2 3");
 
   nodeSel = gNodes.selectAll("g.node").data(current.nodes, d => d.kind + d.id).join(enter => {
@@ -542,9 +721,10 @@ function render() {
     return g;
   });
   nodeSel.classed("concept", d => d.kind === "concept");
-  nodeSel.select("path").attr("d", shape).attr("fill", d => css("--" + d.part));
+  const fills = {};
+  nodeSel.select("path").attr("d", shape).attr("fill", d => fills[d.part] ??= css("--" + d.part) || css("--muted"));
   nodeSel.select("text").attr("x", d => d.r + 3)
-    .text(d => d.kind === "concept" ? (d.deg >= 30 ? d.id : "") : (d.deg >= 4 || state.thread !== null ? label(d.id) : ""));
+    .text(d => d.kind === "concept" ? (d.deg >= 60 ? d.id : "") : (d.deg >= 5 || state.thread !== null ? label(d.id) : ""));
   nodeSel.on("click", (e, d) => d.kind === "verse" ? selectVerse(d.id) : selectConcept(d.id))
     .on("keydown", (e, d) => { if (e.key === "Enter") d.kind === "verse" ? selectVerse(d.id) : selectConcept(d.id); })
     .on("mouseenter", (e, d) => showTip(e, d)).on("mousemove", moveTip).on("mouseleave", () => tip.style.display = "none")
@@ -554,28 +734,29 @@ function render() {
 
   sim = d3.forceSimulation(current.nodes)
     .force("link", d3.forceLink(current.links).id(d => d.id).distance(state.view === "verses" ? (two ? 60 : 34) : 60).strength(state.view === "verses" ? (two ? 0.08 : 0.4) : 0.08))
-    .force("charge", d3.forceManyBody().strength(state.view === "verses" ? -40 : -110))
-    .force("x", d3.forceX(d => partX[d.part]).strength(state.view === "verses" ? 0.14 : 0.03))
-    .force("y", d3.forceY(d => bookY[d.book] ?? height / 2).strength(two ? 0.5 : 0.06))
+    .force("charge", d3.forceManyBody().strength(state.view === "verses" ? -40 : -110).theta(current.nodes.length > 2000 ? 1.2 : 0.9))
+    .force("x", d3.forceX(d => partX[d.part] ?? width * 0.5).strength(state.view === "verses" ? 0.14 : 0.03))
+    .force("y", d3.forceY(yOf).strength(two ? 0.5 : 0.06))
     .force("collide", d3.forceCollide(d => d.r + 1.5))
     .on("tick", ticked)
     .on("end", () => { if (autoFit) fitView(); });
   autoFit = true;
   svg.call(zoom.transform, d3.zoomIdentity);
   sim.stop();
-  for (let i = 0; i < (current.nodes.length > 600 ? 140 : 300); i++) sim.tick();
+  const n = current.nodes.length;
+  for (let i = 0; i < (n > 3000 ? 70 : n > 600 ? 140 : 300); i++) sim.tick();
   ticked(); fitView(true);
   highlight();
 }
 
-// Fit every node into the stage, until the user zooms or a verse is centred.
 let autoFit = true;
 svg.on("wheel.fit mousedown.fit touchstart.fit", () => { autoFit = false; });
 function fitView(instant) {
   if (!current.nodes.length) return;
   const { width, height } = document.getElementById("stage").getBoundingClientRect();
-  const xs = current.nodes.map(d => d.x), ys = current.nodes.map(d => d.y);
-  const x0 = Math.min(...xs) - 20, x1 = Math.max(...xs) + 40, y0 = Math.min(...ys) - 20, y1 = Math.max(...ys) + 20;
+  let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity;
+  for (const d of current.nodes) { x0 = Math.min(x0, d.x); x1 = Math.max(x1, d.x); y0 = Math.min(y0, d.y); y1 = Math.max(y1, d.y); }
+  x0 -= 20; x1 += 40; y0 -= 20; y1 += 20;
   const k = Math.min(2, 0.95 * Math.min(width / (x1 - x0), height / (y1 - y0)));
   (instant ? svg : svg.transition().duration(400)).call(zoom.transform,
     d3.zoomIdentity.translate(width / 2, height / 2).scale(k).translate(-(x0 + x1) / 2, -(y0 + y1) / 2));
@@ -587,6 +768,7 @@ function ticked() {
 }
 
 function highlight() {
+  if (!nodeSel) return;
   const s = state.selected;
   if (!s || s.kind !== (state.view === "verses" ? "verse" : "concept") || !current.nodes.some(n => n.id === s.id)) {
     nodeSel.classed("dim", false).classed("sel", false); linkSel.classed("dim", false); return;
@@ -601,7 +783,7 @@ function highlight() {
 function showTip(e, d) {
   if (d.kind === "verse") {
     const v = verses[d.id];
-    tip.innerHTML = `<b>${fullName(d.id)}</b> · ${esc(KG.chapters[v.ch].title)}<br><span class="tam">${esc(v.t.join(" "))}</span><br>${esc(v.r)}`;
+    tip.innerHTML = `<b>${esc(fullName(d.id))}</b> · ${esc(KG.chapters[v.ch].title)}<br><span class="tam">${esc(v.t.slice(0, 6).join(" "))}${v.t.length > 6 ? " …" : ""}</span><br>${esc(v.r)}`;
   } else {
     const c = KG.concepts[d.id];
     tip.innerHTML = `<b>${esc(d.id)}</b> <span class="tam">${esc(c.tamil)}</span><br>${esc(c.gloss)} · ${d.deg} verses`;
@@ -621,29 +803,29 @@ const conceptChip = c => `<button class="chip" data-concept="${esc(c)}">${esc(c)
 
 function linkCard(l, from) {
   const other = l.a === from ? l.b : l.a, v = verses[other];
-  const across = bookOf(other) !== bookOf(from);
+  const across = bookOf(other) !== bookOf(from), bridge = groupOf(other) !== groupOf(from);
   return `<button class="lk" data-verse="${other}">
-    <span class="top"><span class="swatch" style="background:var(--t-${l.type})"></span>${TYPE_NAMES[l.type]} → ${fullName(other)}
-      <span style="font-weight:400;color:var(--muted)">${esc(KG.chapters[v.ch].title)}</span>${pill(l.grade, l.grade)}${across ? pill("across", "other book") : ""}${l.better ? pill("", "grader suggests " + l.better.replace("_", " ")) : ""}</span>
-    <p>${esc(l.note)}</p>${l.te ? `<p><i>Teaches:</i> ${esc(l.te)}</p>` : ""}</button>`;
+    <span class="top"><span class="swatch" style="background:var(--t-${l.type})"></span>${TYPE_NAMES[l.type]} → ${esc(fullName(other))}
+      <span style="font-weight:400;color:var(--muted)">${esc(KG.chapters[v.ch].title)}</span>${pill(l.grade, l.grade)}${bridge ? pill("across", "other group") : across ? pill("across", "other book") : ""}${l.better ? pill("", "grader suggests " + l.better.replace("_", " ")) : ""}${l.gr ? pill("", `graded ${l.gr} times`) : ""}</span>
+    <p>${esc(l.note)}</p>${l.te ? `<p><i>Teaches:</i> ${esc(l.te)}</p>` : ""}${l.la ? `<p><i>What the list adds:</i> ${esc(l.la)}</p>` : ""}${l.gn ? `<p><i>Each side gains:</i> ${esc(l.gn[0])}; ${esc(l.gn[1])}</p>` : ""}</button>`;
 }
 
-// The Tholkappiyam frame of a Sangam verse: thinai (ours beside the colophon's), speaker, karu.
+// The Tholkappiyam frame of an akam, puram or devotional verse: thinai (ours beside the colophon's), speaker, karu.
 const PERSON = { thalaivan: "the hero", thalaivi: "the heroine", thozhi: "the friend", sevili: "the foster mother", nartaay: "the mother",
   paarppaan: "the brahmin", paangan: "the hero's companion", paanan: "the bard", koothan: "the dancer", virali: "the danseuse",
   parathai: "the courtesan", arivar: "the wise", kandor: "onlookers", ilaiyar: "the young men", virunthinar: "guests", ur: "the town",
   nenju: "his or her own heart", pira: "another" };
 const ROLE_NAMES = { scene: "scene", ullurai: "ullurai vehicle", iraicchi: "iraicchi carrier", simile: "simile", ornament: "worn", gift_food: "gift or food", absent: "absent" };
 const STATUS_NAMES = { confirmed: "confirmed by a blind re-tag", not_confirmed: "not found by the blind re-tag", not_retagged: "not re-tagged", grader_only: "found only by a blind grader" };
+const row = (k, val) => val ? `<dt>${k}</dt><dd>${val}</dd>` : "";
 function sangamFrame(v) {
   const person = p => PERSON[p] || p || "";
-  const row = (k, val) => val ? `<dt>${k}</dt><dd>${val}</dd>` : "";
   const thinai = `${esc(v.th || "none")}${v.cth ? ` · colophon <span class="ta">${esc(v.cth)}</span>` : ""}${v.thd ? " " + pill("uncertain", "differs from the colophon") : ""}${v.mx ? " " + pill("", "mixed landscape") : ""}`;
-  const speaker = v.sp.map(([s, a, o, stage, words]) => `${esc(person(s))} to ${esc(person(a))}${o ? `, ${esc(person(o))} overhearing` : ""}${stage ? ` (${esc(stage)})` : ""}${words ? `: <span class="ta">${esc(words)}</span>` : ""}`).join("<br>");
-  const karu = v.k.map(([form, stem, line, kind, role, sense]) =>
+  const speaker = (v.sp || []).map(([s, a, o, stage, words]) => `${esc(person(s))} to ${esc(person(a))}${o ? `, ${esc(person(o))} overhearing` : ""}${stage ? ` (${esc(stage)})` : ""}${words ? `: <span class="ta">${esc(words)}</span>` : ""}`).join("<br>");
+  const karu = (v.k || []).map(([form, stem, line, kind, role, sense]) =>
     `<span class="${role === "ullurai" || role === "iraicchi" ? "dev" : ""}" title="${esc(stem)}, line ${line}"><b>${esc(form)}</b><small>${esc(kind)} · ${esc(ROLE_NAMES[role] || role)}${sense ? " · " + esc(sense) : ""}</small></span>`).join("");
-  const ents = v.en.map(([type, name, line]) => `<span title="line ${line}"><b>${esc(name)}</b><small>${esc(type)}</small></span>`).join("");
-  const devices = v.dv.map(([field, forms, status, agree, gloss]) =>
+  const ents = (v.en || []).map(([type, name, line]) => `<span title="line ${line}"><b>${esc(name)}</b><small>${esc(type)}</small></span>`).join("");
+  const devices = (v.dv || []).map(([field, forms, status, agree, gloss]) =>
     `<div>${field === "ullurai" ? "Ullurai" : "Iraicchi"}${forms ? ` <span class="ta">${esc(forms)}</span>` : ""} ${pill(status, STATUS_NAMES[status] || status)}${agree ? ` <small style="color:var(--muted)">graders agree ${esc(agree)}</small>` : ""}${gloss ? `<br><span style="color:var(--muted)">${esc(gloss)}</span>` : ""}</div>`).join("");
   return `<div class="block"><div class="k">Tholkappiyam frame (interpretation, beside the colophon)</div><dl class="frame">
       ${row("Poet", v.poet ? `<span class="ta">${esc(v.poet)}</span>` : "")}
@@ -653,33 +835,67 @@ function sangamFrame(v) {
       ${row("Uri", esc(v.uri))}
       ${row("Speaker", speaker)}
       ${row("Thurai", v.ctu ? `<span class="ta">${esc(v.ctu)}</span>` : "")}
-      ${row("Feeling", v.mp.map(([f, c]) => `${esc(f)} <span class="ta">(${esc(c)})</span>`).join(", "))}
+      ${row("Puram thurai", (v.pt || []).map(esc).join(", "))}
+      ${row("Feeling", (v.mp || []).map(([f, c]) => `${esc(f)} <span class="ta">(${esc(c)})</span>`).join(", "))}
     </dl></div>
     ${devices ? `<div class="block"><div class="k">Hidden comparison and implied sense (experimental)</div><div class="list">${devices}</div></div>` : ""}
     ${karu ? `<div class="block"><div class="k">Karu: native things (${v.k.length})</div><div class="karu">${karu}</div></div>` : ""}
     ${ents ? `<div class="block"><div class="k">Named people and places</div><div class="karu">${ents}</div></div>` : ""}`;
 }
+// The ethics field set: domain, the counted things, the proverb (Pazhamozhi) and any historical norm.
+function ethicsFrame(v) {
+  const items = (v.it || []).map(([thing, claim, line], i) => `<span title="line ${line}"><b>${i + 1}. ${esc(thing)}</b><small>${esc(claim)}</small></span>`).join("");
+  const pz = v.pz ? `<div class="block"><div class="k">The proverb</div><p class="ta">${esc(v.pz[0])}</p><p style="color:var(--muted)">${esc(v.pz[1])}</p>
+    <dl class="frame">${row("Applied to", esc(v.pz[2]))}${row("Story", `${esc(v.pz[3])}${v.pz[4] ? ` · <span class="ta">${esc(v.pz[4])}</span>` : ""}${v.pz[5] ? `: ${esc(v.pz[5])}` : ""}`)}</dl></div>` : "";
+  return `<div class="block"><div class="k">Ethics frame (interpretation)</div><dl class="frame">
+      ${row("Poet", v.poet ? `<span class="ta">${esc(v.poet)}</span>` : "")}
+      ${row("Domain", esc(v.dm))}
+      ${row("Count word", v.cw ? `<span class="ta">${esc(v.cw)}</span>` : "")}
+      ${row("Historical norm", v.nr ? `${esc(v.nr[0].join(", "))}: <span style="color:var(--muted)">${esc(v.nr[1])}</span>` : "")}
+    </dl></div>
+    ${items ? `<div class="block"><div class="k">Things counted (${v.it.length})</div><div class="karu">${items}</div></div>` : ""}${pz}`;
+}
+// The narrative field set: who speaks and acts, the event, doctrinal claims (school, stance) and echoes of the Kural or Naladiyar.
+function narrativeFrame(v) {
+  const claims = (v.cl || []).map(([claim, school, stance, line, by]) => `<div>${pill(stance === "refuted" ? "forced" : stance === "reported" ? "weak" : "sound", stance)} ${pill("", school)} ${esc(claim)} <small style="color:var(--muted)">line ${esc(line)}${by && by !== "narrator" ? `, voiced by ${esc(by)}` : ""}</small></div>`).join("");
+  const echoes = (v.ec || []).filter(([b]) => verses[b]).map(([b, kind]) => `<button class="chip" data-verse="${b}">${esc(fullName(b))}<span class="tm">${esc(kind)}</span></button>`).join("");
+  return `<div class="block"><div class="k">Narrative frame (interpretation)</div><dl class="frame">
+      ${row("Speaker", v.spk ? `<span class="ta">${esc(v.spk[0])}</span>${v.spk[1] ? ` to <span class="ta">${esc(v.spk[1])}</span>` : ""}` : "the narrator")}
+      ${row("Who acts", (v.ag || []).length ? `<span class="ta">${(v.ag || []).map(esc).join(", ")}</span>` : "")}
+      ${row("Event", esc(v.ev))}
+    </dl></div>
+    ${claims ? `<div class="block"><div class="k">Claims: school and stance (${v.cl.length})</div><div class="list">${claims}</div></div>` : ""}
+    ${echoes ? `<div class="block"><div class="k">Echoes</div><div class="pills">${echoes}</div></div>` : ""}`;
+}
+function frameOf(v) {
+  const fs = BOOKS[v.book].fs;
+  if (fs === "akam" || fs === "puram" || fs === "devotional") return sangamFrame(v);
+  if (fs === "ethics") return ethicsFrame(v);
+  if (fs === "narrative") return narrativeFrame(v);
+  return "";
+}
 
 function selectVerse(id, focus) {
+  if (!verses[id]) return;
   if (state.view === "concepts") { state.view = "verses"; render(); }
-  if (!state.books.has(bookOf(id))) { state.books.add(bookOf(id)); document.getElementById("b-" + bookOf(id)).checked = true; render(); }
+  if (!state.books.has(bookOf(id))) { state.books.add(bookOf(id)); document.getElementById("b-" + bookOf(id)).checked = true; syncGroupBoxes(); render(); }
   state.selected = { kind: "verse", id };
   if (state.view === "grid") {
     document.querySelectorAll(".cell.sel").forEach(c => c.classList.remove("sel"));
-    const cell = document.querySelector(`[data-cell="${id}"]`);
+    const cell = document.querySelector(`[data-cell="${CSS.escape(id)}"]`);
     cell?.classList.add("sel"); if (focus) cell?.scrollIntoView({ block: "nearest" });
-  } else highlight();
+  } else if (state.view === "verses") highlight();
   const v = verses[id], ch = KG.chapters[v.ch];
   const links = KG.links.filter(l => l.a === id || l.b === id)
     .sort((x, y) => (bookOf(y.a === id ? y.b : y.a) !== v.book) - (bookOf(x.a === id ? x.b : x.a) !== v.book));
-  const flags = [v.x && pill("contested", "commentators differ"), v.u && pill("uncertain", "reading uncertain"), v.f && pill("textflag", "source text to check")].filter(Boolean).join("");
+  const flags = [v.x && pill("contested", "commentators differ"), v.u && pill("uncertain", "reading uncertain"), v.f && pill("textflag", "source text to check"), v.mm && pill("weak", "marked by Sonnet")].filter(Boolean).join("");
   detail.innerHTML = `
-    <div><h2>${fullName(id)}</h2><div class="sub"><span style="font-family:var(--f-tamil)">${BOOK_TAMIL[v.book]}</span> · chapter ${ch.num}, <span style="font-family:var(--f-tamil)">${esc(ch.title)}</span> · <span${OWN_PART[v.book] ? ' style="font-family:var(--f-tamil)"' : ""}>${esc(partName(ch))}</span></div></div>
+    <div><h2>${esc(fullName(id))}</h2><div class="sub"><span style="font-family:var(--f-tamil)">${esc(BOOK_TAMIL[v.book])}</span> · ${esc(groupName(GROUP_OF(v.book)))} · chapter ${ch.num}, <span style="font-family:var(--f-tamil)">${esc(ch.title)}</span> · <span${OWN_PART[v.book] ? ' style="font-family:var(--f-tamil)"' : ""}>${esc(partName(ch))}</span></div></div>
     <p class="tamil">${v.t.map(esc).join("<br>")}</p>
     ${flags ? `<div class="pills">${flags}</div>` : ""}
     <div class="block"><div class="k">Reading</div><p>${esc(v.r)}</p></div>
     ${v.n ? `<div class="block"><div class="k">Nuance (interpretation)</div><p>${esc(v.n)}</p></div>` : ""}
-    ${SANGAM.has(v.book) ? sangamFrame(v) : ""}
+    ${frameOf(v)}
     ${v.p ? `<div class="block"><div class="k">Pope's translation</div><p style="color:var(--muted)">${esc(v.p)}</p></div>` : ""}
     <div class="block"><div class="k">Concepts</div><div class="pills">${v.c.map(conceptChip).join("")}</div></div>
     ${v.pos.length ? `<div class="block"><div class="k">What the commentators say</div><div class="list">${v.pos.map(([by, p, q]) =>
@@ -702,13 +918,14 @@ function selectConcept(c, focus) {
   list.forEach(id => verses[id].c.forEach(o => { if (o !== c) shared[o] = (shared[o] || 0) + 1; }));
   const near = Object.entries(shared).filter(([, w]) => w >= 3).sort((a, b) => b[1] - a[1]).slice(0, 10);
   const group = book => list.filter(id => bookOf(id) === book);
+  const CAP = 60;
   detail.innerHTML = `
     <div><h2>${esc(c)} <span style="font-family:var(--f-tamil);font-weight:400">${esc(info.tamil)}</span></h2><div class="sub">${esc(info.gloss)}</div></div>
-    <div class="pills">${Object.keys(BOOK_NAMES).map(b => byBook[b] ? pill("", `${BOOK_NAMES[b]} ${byBook[b]}`) : "").join("")}</div>
+    <div class="pills">${BOOK_ORDER.map(b => byBook[b] ? pill("", `${BOOK_NAMES[b]} ${byBook[b]}`) : "").join("")}</div>
     ${near.length ? `<div class="block"><div class="k">Most often alongside</div><div class="pills">${near.map(([o, w]) => conceptChip(o).replace("</button>", ` <span class="tm">${w}</span></button>`)).join("")}</div></div>` : ""}
-    ${Object.keys(BOOK_NAMES).filter(b => group(b).length).map(b => `<div class="block"><div class="k">${BOOK_NAMES[b]} (${group(b).length})</div><div class="list">${group(b).map(id => {
+    ${BOOK_ORDER.filter(b => group(b).length).map(b => `<div class="block"><div class="k">${esc(BOOK_NAMES[b])} (${group(b).length}${group(b).length > CAP ? `, first ${CAP} shown` : ""})</div><div class="list">${group(b).slice(0, CAP).map(id => {
       const v = verses[id];
-      return `<button class="lk" data-verse="${id}"><span class="top">${fullName(id)}<span style="font-weight:400;color:var(--muted)">${esc(KG.chapters[v.ch].title)}</span>${v.x ? pill("contested", "contested") : ""}</span><p>${esc(v.r)}</p></button>`;
+      return `<button class="lk" data-verse="${id}"><span class="top">${esc(fullName(id))}<span style="font-weight:400;color:var(--muted)">${esc(KG.chapters[v.ch].title)}</span>${v.x ? pill("contested", "contested") : ""}</span><p>${esc(v.r)}</p></button>`;
     }).join("")}</div></div>`).join("")}`;
   detail.scrollTop = 0;
   if (focus && state.view === "concepts") centreOn(c);
@@ -723,6 +940,7 @@ function showThread(t) {
     ${t.issue ? `<div class="block"><div class="k">Auditor's note</div><p style="color:var(--muted)">${esc(t.issue)}</p></div>` : ""}
     <div class="block"><div class="k">Links (${t.links.length})</div><div class="list">${t.links.map(([a, b]) => {
       const l = KG.links.find(x => x.a === a && x.b === b);
+      if (!l || !verses[a] || !verses[b]) return "";
       return `<button class="lk" data-verse="${a}"><span class="top"><span class="swatch" style="background:var(--t-${l.type})"></span>${label(a)} ↔ ${label(b)}${pill(l.grade, l.grade)}</span>
         <p class="tamil" style="font-size:13.5px;color:var(--ink)">${esc(verses[a].t.join(" "))}<br>${esc(verses[b].t.join(" "))}</p><p>${esc(l.note)}</p></button>`;
     }).join("")}</div></div>`;
@@ -730,26 +948,23 @@ function showThread(t) {
 }
 
 function showEmpty() {
-  const L = KG.links, cross = L.filter(l => bookOf(l.a) !== bookOf(l.b)), crossSound = cross.filter(l => l.grade === "sound").length;
-  const tm = L.filter(l => bookOf(l.a) === "tirumanthiram"), tmSound = tm.filter(l => l.grade === "sound").length;
-  const tp = L.filter(l => bookOf(l.a) === "thiruppugazh"), tpSound = tp.filter(l => l.grade === "sound").length;
-  const sd = L.filter(l => bookOf(l.a) === "siddhar"), sdSound = sd.filter(l => l.grade === "sound").length;
-  const sg = L.filter(l => SANGAM.has(bookOf(l.a))), sgSound = sg.filter(l => l.grade === "sound").length;
-  const sgVerses = Object.values(verses).filter(v => SANGAM.has(v.book));
-  const sgThd = sgVerses.filter(v => v.thd).length, sgConf = sgVerses.filter(v => v.dv.some(d => d[2] === "confirmed")).length;
-  const bandList = BAND_ORDER.map(b => ({ akananuru: "Akananuru", purananuru: "Purananuru", siddhar: "Siddhars" })[b] || BOOK_NAMES[b]).join(", ");
+  const S = KG.summary, L = KG.links;
+  const gl = g => L.filter(l => groupOf(l.a) === g), sp = ls => { const g = ls.filter(l => l.grade !== "not_audited"); return g.length ? Math.round(100 * ls.filter(l => l.grade === "sound").length / g.length) : 0; };
+  const bridges = L.filter(l => groupOf(l.a) !== groupOf(l.b));
+  const jain = L.filter(l => ["civaka_cintamani", "soolamani", "naga_kumara_kaviyam", "udayana_kumara_kaviyam", "yasodhara_kaviyam"].includes(bookOf(l.a)));
+  const wm = S.by_marker_model_wave6 || {};
   detail.innerHTML = `<div class="empty">
     <h2>How to read this</h2>
-    <p>${sgVerses.length ? "Eight" : "Five"} books are here. The <b>Thirukkural</b> and the <b>Naladiyar</b>, a Jain collection of 400 quatrains long paired with it, are both in three parts (virtue, wealth, love), and colour shows the part. The <b>Tirumanthiram</b> of Tirumular, a Saiva work on ethics, yoga and grace in nine tantras, and the <b>Thiruppugazh</b> of Arunagirinathar, 1,325 songs to Murugan grouped by shrine, and the <b>Siddhar songs</b>, 2,700 verses by 26 poets of breath, body and the void, written in cipher, have a colour each. Shape shows the book: circles for the Kural, diamonds for the Naladiyar, triangles for the Tirumanthiram, stars for the Thiruppugazh, three-pointed marks for the Siddhars.</p>
-    ${sgVerses.length ? `<p>The oldest three are Sangam books: the <b>Akananuru</b> (400 love poems, crosses), the <b>Purananuru</b> (poems of kings, gifts, war and death, hexagons) and, of the <b>Pattupattu</b>, the Thirumurugatruppadai cut into reading units (triangles pointing down). Each Sangam verse also shows the frame of the Tholkappiyam: the landscape (thinai) we infer beside the one its colophon gives, who speaks to whom, its native things (karu), and the experimental hidden comparisons (ullurai) and implied senses (iraicchi). Search <b>a 12</b>, <b>pn 192</b> or <b>pp 120</b> (the unit holding line 120).</p>` : ""}
-    <p><b>All verses</b> shows every verse, in rows of ten per chapter. It opens lighting the verses with a sound link to another book. Click any square to read the verse, what its commentators say (${COMMENTATOR_NAMES.kural} for the Kural; ${COMMENTATOR_NAMES.naladiyar} for the Naladiyar; none for the Tirumanthiram, the Thiruppugazh, the Siddhars or the Sangam books), and its links, other books first.</p>
-    <p><b>Links</b> opens on the ${crossSound} sound links between books, in bands from top to bottom: ${bandList}. <b>Concepts</b> are shared, so one concept gathers verses from every book.</p>
-    <p><b>Trust:</b> every link was graded blind by a separate agent. ${crossSound} of ${cross.length} links between books are sound. The Tirumanthiram has no commentary here, so its readings are the marking agent's own, ${fmt(Object.values(verses).filter(v => v.book === "tirumanthiram" && v.u).length)} of its verses are flagged uncertain, and its graders ran lenient against calibration links: treat its ${tmSound} sound links of ${tm.length} as an upper bound. The Thiruppugazh also has no commentary here; its graders were warned of that leniency and came closer to the known grades (${tpSound} of ${tp.length} sound). The Siddhars write in cipher and also have no commentary; ${fmt(Object.values(verses).filter(v => v.book === "siddhar" && v.u).length)} of their verses are flagged uncertain, and ${sdSound} of their ${sd.length} links are sound.${sg.length ? ` The Sangam links were graded in two blind rounds, a third of them by two graders; where graders differed the stricter grade is kept, and ${sgSound} of ${sg.length} are sound. Our thinai differs from the colophon's in ${sgThd} poems and units, and ${sgConf} have a hidden comparison or implied sense that a blind re-tagger also found.` : ""} No Tamil scholar has reviewed any of this.</p>
+    <p>${BOOK_ORDER.length} Tamil books are here, read in ${GROUP_ORDER.length} groups (docs/corpus-groups.md): ${GROUP_ORDER.map(g => `<b>${esc(groupName(g))}</b> (${BOOK_ORDER.filter(b => GROUP_OF(b) === g).map(b => esc(BOOK_NAMES[b])).join(", ")})`).join("; ")}.</p>
+    <p>Every verse or reading unit has a reading and up to four shared concepts, and the fields of its group: the Tholkappiyam frame (thinai, speaker, karu, hidden comparisons) for akam, puram and devotional verses; domain, counted things, proverb and historical norms for the ethics works; speaker, agents, event and doctrinal claims (school and stance) for the epics. Each book has its own colour and shape; the Kural and Naladiyar are coloured by part.</p>
+    <p><b>All verses</b> shows every verse in rows of ten per chapter. <b>Links</b> draws the links, sound ones only unless you add weak ones. <b>Concepts</b> gathers verses from every book. <b>Bridges</b> is a group-by-group matrix of sound links between groups. Search a verse by its book's prefix: <b>nt 12</b>, <b>si 3:40</b>, <b>cc 198</b>, <b>a 12</b>, <b>pp 120</b>, or a bare number for the Kural.</p>
+    <p><b>Trust:</b> every link was graded blind by a separate agent; where graders differed the stricter grade is kept. ${sp(L)}% of graded links are sound; ${sp(bridges)}% of the ${fmt(bridges.length)} bridges between groups. By group: ${GROUP_ORDER.map(g => `${esc(GROUP_SHORT[g])} ${sp(gl(g))}%`).join(", ")}. The Jain epics marked in wave 6 are weakest: ${sp(jain)}% of their ${fmt(jain.length)} links are sound, and Sonnet-marked chapters ${wm.sonnet ? Math.round(wm.sonnet.strictest_sound_pct) : "?"}% against ${wm.opus ? Math.round(wm.opus.strictest_sound_pct) : "?"}% for Opus-marked ones. Only the Kural and Naladiyar have commentary here (${COMMENTATOR_NAMES.kural}; ${COMMENTATOR_NAMES.naladiyar}); every other reading is the marking agent's own. No Tamil scholar has reviewed any of this.</p>
   </div>`;
 }
 
 document.getElementById("grid").addEventListener("click", e => {
-  const c = e.target.closest("[data-cell]"); if (c) selectVerse(c.dataset.cell);
+  const c = e.target.closest("[data-cell]"); if (c) return selectVerse(c.dataset.cell);
+  const p = e.target.closest("[data-pair]"); if (p) showBridge(...p.dataset.pair.split("|"));
 });
 detail.addEventListener("click", e => {
   const v = e.target.closest("[data-verse]"), c = e.target.closest("[data-concept]");
@@ -770,6 +985,8 @@ matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
 new MutationObserver(render).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 render();
 showEmpty();
+window.KG_READY = true;
+}
 </script>
 </body>
 </html>

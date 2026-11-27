@@ -1,0 +1,429 @@
+{
+ "ettuthogai_akam": {
+  "name": "Ettuthogai, akam",
+  "books": [
+   "ainkurunuru",
+   "akananuru",
+   "kalittokai",
+   "kuruntokai",
+   "natrinai"
+  ],
+  "built_here": [
+   "ainkurunuru",
+   "akananuru",
+   "kalittokai",
+   "kuruntokai",
+   "natrinai"
+  ],
+  "kept_graphs": {},
+  "field_sets": [
+   "akam"
+  ],
+  "nodes": "kg/groups/ettuthogai_akam/nodes.jsonl",
+  "edges": "kg/groups/ettuthogai_akam/edges.jsonl",
+  "audit": "kg/groups/ettuthogai_akam/link_audit.json",
+  "node_counts": {
+   "Chapter": 119,
+   "Verse": 1851,
+   "Entity": 287,
+   "Karu": 1114
+  },
+  "edge_counts": {
+   "IN_CHAPTER": 1851,
+   "EXPRESSES": 5810,
+   "NAMES": 8129,
+   "IRAICCHI": 194,
+   "ULLURAI": 157,
+   "LINK": 1220
+  },
+  "verses_by_book": {
+   "ainkurunuru": 498,
+   "akananuru": 401,
+   "kalittokai": 150,
+   "kuruntokai": 402,
+   "natrinai": 400
+  },
+  "links": 1220,
+  "links_by_grade": {
+   "weak": 642,
+   "forced": 50,
+   "sound": 520,
+   "wrong": 8
+  }
+ },
+ "ettuthogai_puram": {
+  "name": "Ettuthogai, puram",
+  "books": [
+   "patitruppattu",
+   "purananuru"
+  ],
+  "built_here": [
+   "patitruppattu",
+   "purananuru"
+  ],
+  "kept_graphs": {},
+  "field_sets": [
+   "puram"
+  ],
+  "nodes": "kg/groups/ettuthogai_puram/nodes.jsonl",
+  "edges": "kg/groups/ettuthogai_puram/edges.jsonl",
+  "audit": "kg/groups/ettuthogai_puram/link_audit.json",
+  "node_counts": {
+   "Chapter": 29,
+   "Verse": 490,
+   "Entity": 269,
+   "Karu": 682
+  },
+  "edge_counts": {
+   "IN_CHAPTER": 490,
+   "EXPRESSES": 1705,
+   "NAMES": 2901,
+   "LINK": 452
+  },
+  "verses_by_book": {
+   "patitruppattu": 92,
+   "purananuru": 398
+  },
+  "links": 452,
+  "links_by_grade": {
+   "weak": 224,
+   "sound": 195,
+   "forced": 29,
+   "wrong": 4
+  }
+ },
+ "ettuthogai_devotional": {
+  "name": "Ettuthogai, devotional",
+  "books": [
+   "paripadal"
+  ],
+  "built_here": [
+   "paripadal"
+  ],
+  "kept_graphs": {},
+  "field_sets": [
+   "devotional"
+  ],
+  "nodes": "kg/groups/ettuthogai_devotional/nodes.jsonl",
+  "edges": "kg/groups/ettuthogai_devotional/edges.jsonl",
+  "audit": "kg/groups/ettuthogai_devotional/link_audit.json",
+  "node_counts": {
+   "Chapter": 20,
+   "Verse": 146,
+   "Entity": 53,
+   "Karu": 339
+  },
+  "edge_counts": {
+   "IN_CHAPTER": 146,
+   "EXPRESSES": 470,
+   "NAMES": 972,
+   "LINK": 144
+  },
+  "verses_by_book": {
+   "paripadal": 146
+  },
+  "links": 144,
+  "links_by_grade": {
+   "sound": 45,
+   "weak": 74,
+   "forced": 17,
+   "not_audited": 8
+  }
+ },
+ "pattupattu": {
+  "name": "Pattupattu",
+  "books": [
+   "pattupattu"
+  ],
+  "built_here": [
+   "pattupattu"
+  ],
+  "kept_graphs": {},
+  "field_sets": [
+   "puram"
+  ],
+  "nodes": "kg/groups/pattupattu/nodes.jsonl",
+  "edges": "kg/groups/pattupattu/edges.jsonl",
+  "audit": "kg/groups/pattupattu/link_audit.json",
+  "node_counts": {
+   "Chapter": 13,
+   "Verse": 207,
+   "Entity": 76,
+   "Karu": 700
+  },
+  "edge_counts": {
+   "IN_CHAPTER": 207,
+   "EXPRESSES": 649,
+   "NAMES": 1850,
+   "IRAICCHI": 1,
+   "LINK": 122
+  },
+  "verses_by_book": {
+   "pattupattu": 207
+  },
+  "links": 122,
+  "links_by_grade": {
+   "not_audited": 12,
+   "sound": 57,
+   "weak": 47,
+   "forced": 6
+  }
+ },
+ "ethics": {
+  "name": "Pathinenkilkanakku, ethics",
+  "books": [
+   "acharakkovai",
+   "elathi",
+   "iniyavai_narpathu",
+   "innaa_narpathu",
+   "kural",
+   "muthumozhikkanchi",
+   "naladiyar",
+   "nanmanikkadigai",
+   "pazhamozhi_nanooru",
+   "sirupanchamoolam",
+   "thirikadugam"
+  ],
+  "built_here": [
+   "acharakkovai",
+   "elathi",
+   "iniyavai_narpathu",
+   "innaa_narpathu",
+   "muthumozhikkanchi",
+   "nanmanikkadigai",
+   "pazhamozhi_nanooru",
+   "sirupanchamoolam",
+   "thirikadugam"
+  ],
+  "kept_graphs": {
+   "kural": "kg/kural/",
+   "naladiyar": "kg/naladiyar/"
+  },
+  "field_sets": [
+   "ethics"
+  ],
+  "nodes": "kg/groups/ethics/nodes.jsonl",
+  "edges": "kg/groups/ethics/edges.jsonl",
+  "audit": "kg/groups/ethics/link_audit.json",
+  "node_counts": {
+   "Chapter": 74,
+   "Verse": 1070,
+   "Item": 2140,
+   "Norm": 5
+  },
+  "edge_counts": {
+   "IN_CHAPTER": 1070,
+   "EXPRESSES": 3526,
+   "LISTS": 2268,
+   "NORM": 204,
+   "LINK": 1281
+  },
+  "verses_by_book": {
+   "acharakkovai": 100,
+   "elathi": 82,
+   "iniyavai_narpathu": 41,
+   "innaa_narpathu": 41,
+   "muthumozhikkanchi": 100,
+   "nanmanikkadigai": 106,
+   "pazhamozhi_nanooru": 401,
+   "sirupanchamoolam": 98,
+   "thirikadugam": 101
+  },
+  "links": 1281,
+  "links_by_grade": {
+   "weak": 595,
+   "sound": 632,
+   "forced": 51,
+   "wrong": 3
+  }
+ },
+ "kilkanakku_akam": {
+  "name": "Pathinenkilkanakku, akam",
+  "books": [
+   "ainthinai_aimpathu",
+   "ainthinai_ezhupathu",
+   "kainnilai",
+   "kalavazhi_narpathu",
+   "kar_narpathu",
+   "thinaimalai_nootraimpathu",
+   "thinaimozhi_aimpathu"
+  ],
+  "built_here": [
+   "ainthinai_aimpathu",
+   "ainthinai_ezhupathu",
+   "kainnilai",
+   "kalavazhi_narpathu",
+   "kar_narpathu",
+   "thinaimalai_nootraimpathu",
+   "thinaimozhi_aimpathu"
+  ],
+  "kept_graphs": {},
+  "field_sets": [
+   "akam",
+   "puram"
+  ],
+  "nodes": "kg/groups/kilkanakku_akam/nodes.jsonl",
+  "edges": "kg/groups/kilkanakku_akam/edges.jsonl",
+  "audit": "kg/groups/kilkanakku_akam/link_audit.json",
+  "node_counts": {
+   "Chapter": 33,
+   "Verse": 463,
+   "Entity": 19,
+   "Karu": 397
+  },
+  "edge_counts": {
+   "IN_CHAPTER": 463,
+   "EXPRESSES": 1351,
+   "NAMES": 1002,
+   "IRAICCHI": 26,
+   "ULLURAI": 10,
+   "LINK": 327
+  },
+  "verses_by_book": {
+   "ainthinai_aimpathu": 51,
+   "ainthinai_ezhupathu": 67,
+   "kainnilai": 60,
+   "kalavazhi_narpathu": 41,
+   "kar_narpathu": 40,
+   "thinaimalai_nootraimpathu": 154,
+   "thinaimozhi_aimpathu": 50
+  },
+  "links": 327,
+  "links_by_grade": {
+   "sound": 109,
+   "weak": 191,
+   "forced": 26,
+   "wrong": 1
+  }
+ },
+ "epics_great": {
+  "name": "Epics, great",
+  "books": [
+   "civaka_cintamani",
+   "kundalakesi",
+   "manimekalai",
+   "silappathikaram",
+   "valayapathi"
+  ],
+  "built_here": [
+   "civaka_cintamani",
+   "kundalakesi",
+   "manimekalai",
+   "silappathikaram",
+   "valayapathi"
+  ],
+  "kept_graphs": {},
+  "field_sets": [
+   "narrative"
+  ],
+  "nodes": "kg/groups/epics_great/nodes.jsonl",
+  "edges": "kg/groups/epics_great/edges.jsonl",
+  "audit": "kg/groups/epics_great/link_audit.json",
+  "node_counts": {
+   "Chapter": 209,
+   "Verse": 3959,
+   "Person": 815,
+   "School": 8
+  },
+  "edge_counts": {
+   "IN_CHAPTER": 3959,
+   "EXPRESSES": 10555,
+   "CLAIMS": 1289,
+   "ACTS": 4266,
+   "SPEAKS": 1613,
+   "ECHOES": 2,
+   "LINK": 1897
+  },
+  "verses_by_book": {
+   "civaka_cintamani": 3145,
+   "kundalakesi": 19,
+   "manimekalai": 288,
+   "silappathikaram": 435,
+   "valayapathi": 72
+  },
+  "links": 1897,
+  "links_by_grade": {
+   "weak": 1156,
+   "sound": 546,
+   "wrong": 9,
+   "forced": 186
+  }
+ },
+ "epics_minor": {
+  "name": "Epics, minor",
+  "books": [
+   "naga_kumara_kaviyam",
+   "neelakesi",
+   "soolamani",
+   "udayana_kumara_kaviyam",
+   "yasodhara_kaviyam"
+  ],
+  "built_here": [
+   "naga_kumara_kaviyam",
+   "neelakesi",
+   "soolamani",
+   "udayana_kumara_kaviyam",
+   "yasodhara_kaviyam"
+  ],
+  "kept_graphs": {},
+  "field_sets": [
+   "narrative"
+  ],
+  "nodes": "kg/groups/epics_minor/nodes.jsonl",
+  "edges": "kg/groups/epics_minor/edges.jsonl",
+  "audit": "kg/groups/epics_minor/link_audit.json",
+  "node_counts": {
+   "Chapter": 177,
+   "Verse": 3881,
+   "Person": 642,
+   "School": 7
+  },
+  "edge_counts": {
+   "IN_CHAPTER": 3881,
+   "EXPRESSES": 9803,
+   "CLAIMS": 1645,
+   "ACTS": 3447,
+   "SPEAKS": 1951,
+   "LINK": 1493
+  },
+  "verses_by_book": {
+   "naga_kumara_kaviyam": 171,
+   "neelakesi": 885,
+   "soolamani": 2128,
+   "udayana_kumara_kaviyam": 367,
+   "yasodhara_kaviyam": 330
+  },
+  "links": 1493,
+  "links_by_grade": {
+   "weak": 1004,
+   "forced": 244,
+   "sound": 233,
+   "wrong": 12
+  }
+ },
+ "devotional": {
+  "name": "Devotional and mystic",
+  "books": [
+   "siddhar",
+   "thiruppugazh",
+   "tirumanthiram"
+  ],
+  "built_here": [],
+  "kept_graphs": {
+   "siddhar": "kg/siddhar/",
+   "thiruppugazh": "kg/thiruppugazh/",
+   "tirumanthiram": "kg/tirumanthiram/"
+  },
+  "field_sets": []
+ },
+ "grammar": {
+  "name": "Grammar",
+  "books": [
+   "tholkappiyam"
+  ],
+  "built_here": [],
+  "kept_graphs": {},
+  "field_sets": [],
+  "note": "The Tholkappiyam is the frame for marking: its nurpas are cited, not linked."
+ }
+}

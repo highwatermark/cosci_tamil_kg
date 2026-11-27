@@ -1,0 +1,1090 @@
+{
+ "note": "Sound% of graded links by group pair, the marked books' links and the five kept graphs' links together. Within-group pairs (a|a) are the baseline a bridge has to beat. Unordered pairs count links in both directions; directed pairs are proposer group|target group.",
+ "groups": [
+  "ettuthogai_akam",
+  "ettuthogai_puram",
+  "ettuthogai_devotional",
+  "pattupattu",
+  "ethics",
+  "kilkanakku_akam",
+  "epics_great",
+  "epics_minor",
+  "devotional",
+  "grammar"
+ ],
+ "pairs": {
+  "devotional|devotional": {
+   "links": 3581,
+   "graded": 3581,
+   "sound": 2033,
+   "weak": 1353,
+   "forced": 184,
+   "wrong": 11,
+   "not_audited": 0,
+   "sound_pct": 56.8
+  },
+  "devotional|epics_great": {
+   "links": 149,
+   "graded": 149,
+   "sound": 22,
+   "weak": 95,
+   "forced": 31,
+   "wrong": 1,
+   "not_audited": 0,
+   "sound_pct": 14.8
+  },
+  "devotional|epics_minor": {
+   "links": 166,
+   "graded": 166,
+   "sound": 11,
+   "weak": 95,
+   "forced": 57,
+   "wrong": 3,
+   "not_audited": 0,
+   "sound_pct": 6.6
+  },
+  "devotional|ethics": {
+   "links": 1568,
+   "graded": 1568,
+   "sound": 927,
+   "weak": 560,
+   "forced": 78,
+   "wrong": 3,
+   "not_audited": 0,
+   "sound_pct": 59.1
+  },
+  "devotional|ettuthogai_akam": {
+   "links": 5,
+   "graded": 5,
+   "sound": 2,
+   "weak": 3,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 40.0
+  },
+  "devotional|ettuthogai_devotional": {
+   "links": 15,
+   "graded": 15,
+   "sound": 5,
+   "weak": 9,
+   "forced": 1,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 33.3
+  },
+  "devotional|ettuthogai_puram": {
+   "links": 2,
+   "graded": 2,
+   "sound": 0,
+   "weak": 2,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "devotional|pattupattu": {
+   "links": 13,
+   "graded": 1,
+   "sound": 1,
+   "weak": 0,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 12,
+   "sound_pct": 100.0
+  },
+  "epics_great|epics_great": {
+   "links": 871,
+   "graded": 871,
+   "sound": 310,
+   "weak": 489,
+   "forced": 67,
+   "wrong": 5,
+   "not_audited": 0,
+   "sound_pct": 35.6
+  },
+  "epics_great|epics_minor": {
+   "links": 164,
+   "graded": 164,
+   "sound": 53,
+   "weak": 98,
+   "forced": 13,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 32.3
+  },
+  "epics_great|ethics": {
+   "links": 699,
+   "graded": 699,
+   "sound": 156,
+   "weak": 467,
+   "forced": 74,
+   "wrong": 2,
+   "not_audited": 0,
+   "sound_pct": 22.3
+  },
+  "epics_great|ettuthogai_akam": {
+   "links": 34,
+   "graded": 34,
+   "sound": 8,
+   "weak": 22,
+   "forced": 3,
+   "wrong": 1,
+   "not_audited": 0,
+   "sound_pct": 23.5
+  },
+  "epics_great|ettuthogai_devotional": {
+   "links": 6,
+   "graded": 6,
+   "sound": 0,
+   "weak": 5,
+   "forced": 1,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "epics_great|ettuthogai_puram": {
+   "links": 100,
+   "graded": 100,
+   "sound": 44,
+   "weak": 50,
+   "forced": 6,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 44.0
+  },
+  "epics_great|kilkanakku_akam": {
+   "links": 5,
+   "graded": 5,
+   "sound": 0,
+   "weak": 5,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "epics_great|pattupattu": {
+   "links": 23,
+   "graded": 23,
+   "sound": 2,
+   "weak": 18,
+   "forced": 3,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 8.7
+  },
+  "epics_minor|epics_minor": {
+   "links": 583,
+   "graded": 583,
+   "sound": 127,
+   "weak": 389,
+   "forced": 62,
+   "wrong": 5,
+   "not_audited": 0,
+   "sound_pct": 21.8
+  },
+  "epics_minor|ethics": {
+   "links": 565,
+   "graded": 565,
+   "sound": 47,
+   "weak": 408,
+   "forced": 107,
+   "wrong": 3,
+   "not_audited": 0,
+   "sound_pct": 8.3
+  },
+  "epics_minor|ettuthogai_akam": {
+   "links": 10,
+   "graded": 10,
+   "sound": 0,
+   "weak": 8,
+   "forced": 2,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "epics_minor|ettuthogai_puram": {
+   "links": 13,
+   "graded": 13,
+   "sound": 0,
+   "weak": 9,
+   "forced": 4,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "epics_minor|pattupattu": {
+   "links": 3,
+   "graded": 3,
+   "sound": 0,
+   "weak": 2,
+   "forced": 0,
+   "wrong": 1,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "ethics|ethics": {
+   "links": 4112,
+   "graded": 4112,
+   "sound": 2981,
+   "weak": 1015,
+   "forced": 107,
+   "wrong": 9,
+   "not_audited": 0,
+   "sound_pct": 72.5
+  },
+  "ethics|ettuthogai_akam": {
+   "links": 503,
+   "graded": 503,
+   "sound": 229,
+   "weak": 250,
+   "forced": 22,
+   "wrong": 2,
+   "not_audited": 0,
+   "sound_pct": 45.5
+  },
+  "ethics|ettuthogai_devotional": {
+   "links": 48,
+   "graded": 45,
+   "sound": 10,
+   "weak": 25,
+   "forced": 10,
+   "wrong": 0,
+   "not_audited": 3,
+   "sound_pct": 22.2
+  },
+  "ethics|ettuthogai_puram": {
+   "links": 238,
+   "graded": 238,
+   "sound": 109,
+   "weak": 111,
+   "forced": 17,
+   "wrong": 1,
+   "not_audited": 0,
+   "sound_pct": 45.8
+  },
+  "ethics|kilkanakku_akam": {
+   "links": 84,
+   "graded": 84,
+   "sound": 24,
+   "weak": 54,
+   "forced": 6,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 28.6
+  },
+  "ethics|pattupattu": {
+   "links": 38,
+   "graded": 38,
+   "sound": 21,
+   "weak": 14,
+   "forced": 3,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 55.3
+  },
+  "ettuthogai_akam|ettuthogai_akam": {
+   "links": 571,
+   "graded": 571,
+   "sound": 232,
+   "weak": 313,
+   "forced": 21,
+   "wrong": 5,
+   "not_audited": 0,
+   "sound_pct": 40.6
+  },
+  "ettuthogai_akam|ettuthogai_devotional": {
+   "links": 29,
+   "graded": 29,
+   "sound": 8,
+   "weak": 16,
+   "forced": 5,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 27.6
+  },
+  "ettuthogai_akam|ettuthogai_puram": {
+   "links": 180,
+   "graded": 180,
+   "sound": 69,
+   "weak": 88,
+   "forced": 19,
+   "wrong": 4,
+   "not_audited": 0,
+   "sound_pct": 38.3
+  },
+  "ettuthogai_akam|kilkanakku_akam": {
+   "links": 194,
+   "graded": 194,
+   "sound": 63,
+   "weak": 115,
+   "forced": 15,
+   "wrong": 1,
+   "not_audited": 0,
+   "sound_pct": 32.5
+  },
+  "ettuthogai_akam|pattupattu": {
+   "links": 24,
+   "graded": 24,
+   "sound": 12,
+   "weak": 11,
+   "forced": 1,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 50.0
+  },
+  "ettuthogai_devotional|ettuthogai_devotional": {
+   "links": 29,
+   "graded": 24,
+   "sound": 14,
+   "weak": 10,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 5,
+   "sound_pct": 58.3
+  },
+  "ettuthogai_devotional|ettuthogai_puram": {
+   "links": 11,
+   "graded": 11,
+   "sound": 4,
+   "weak": 6,
+   "forced": 1,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 36.4
+  },
+  "ettuthogai_devotional|kilkanakku_akam": {
+   "links": 1,
+   "graded": 1,
+   "sound": 1,
+   "weak": 0,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 100.0
+  },
+  "ettuthogai_devotional|pattupattu": {
+   "links": 15,
+   "graded": 15,
+   "sound": 4,
+   "weak": 11,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 26.7
+  },
+  "ettuthogai_puram|ettuthogai_puram": {
+   "links": 175,
+   "graded": 175,
+   "sound": 80,
+   "weak": 93,
+   "forced": 2,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 45.7
+  },
+  "ettuthogai_puram|kilkanakku_akam": {
+   "links": 10,
+   "graded": 10,
+   "sound": 2,
+   "weak": 6,
+   "forced": 2,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 20.0
+  },
+  "ettuthogai_puram|pattupattu": {
+   "links": 35,
+   "graded": 35,
+   "sound": 17,
+   "weak": 16,
+   "forced": 2,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 48.6
+  },
+  "kilkanakku_akam|kilkanakku_akam": {
+   "links": 56,
+   "graded": 56,
+   "sound": 20,
+   "weak": 33,
+   "forced": 3,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 35.7
+  },
+  "kilkanakku_akam|pattupattu": {
+   "links": 5,
+   "graded": 5,
+   "sound": 5,
+   "weak": 0,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 100.0
+  },
+  "pattupattu|pattupattu": {
+   "links": 14,
+   "graded": 14,
+   "sound": 6,
+   "weak": 7,
+   "forced": 1,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 42.9
+  }
+ },
+ "directed": {
+  "devotional|devotional": {
+   "links": 3581,
+   "graded": 3581,
+   "sound": 2033,
+   "weak": 1353,
+   "forced": 184,
+   "wrong": 11,
+   "not_audited": 0,
+   "sound_pct": 56.8
+  },
+  "devotional|ethics": {
+   "links": 1557,
+   "graded": 1557,
+   "sound": 924,
+   "weak": 554,
+   "forced": 76,
+   "wrong": 3,
+   "not_audited": 0,
+   "sound_pct": 59.3
+  },
+  "epics_great|devotional": {
+   "links": 149,
+   "graded": 149,
+   "sound": 22,
+   "weak": 95,
+   "forced": 31,
+   "wrong": 1,
+   "not_audited": 0,
+   "sound_pct": 14.8
+  },
+  "epics_great|epics_great": {
+   "links": 871,
+   "graded": 871,
+   "sound": 310,
+   "weak": 489,
+   "forced": 67,
+   "wrong": 5,
+   "not_audited": 0,
+   "sound_pct": 35.6
+  },
+  "epics_great|epics_minor": {
+   "links": 11,
+   "graded": 11,
+   "sound": 5,
+   "weak": 5,
+   "forced": 1,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 45.5
+  },
+  "epics_great|ethics": {
+   "links": 698,
+   "graded": 698,
+   "sound": 155,
+   "weak": 467,
+   "forced": 74,
+   "wrong": 2,
+   "not_audited": 0,
+   "sound_pct": 22.2
+  },
+  "epics_great|ettuthogai_akam": {
+   "links": 34,
+   "graded": 34,
+   "sound": 8,
+   "weak": 22,
+   "forced": 3,
+   "wrong": 1,
+   "not_audited": 0,
+   "sound_pct": 23.5
+  },
+  "epics_great|ettuthogai_devotional": {
+   "links": 6,
+   "graded": 6,
+   "sound": 0,
+   "weak": 5,
+   "forced": 1,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "epics_great|ettuthogai_puram": {
+   "links": 100,
+   "graded": 100,
+   "sound": 44,
+   "weak": 50,
+   "forced": 6,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 44.0
+  },
+  "epics_great|kilkanakku_akam": {
+   "links": 5,
+   "graded": 5,
+   "sound": 0,
+   "weak": 5,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "epics_great|pattupattu": {
+   "links": 23,
+   "graded": 23,
+   "sound": 2,
+   "weak": 18,
+   "forced": 3,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 8.7
+  },
+  "epics_minor|devotional": {
+   "links": 166,
+   "graded": 166,
+   "sound": 11,
+   "weak": 95,
+   "forced": 57,
+   "wrong": 3,
+   "not_audited": 0,
+   "sound_pct": 6.6
+  },
+  "epics_minor|epics_great": {
+   "links": 153,
+   "graded": 153,
+   "sound": 48,
+   "weak": 93,
+   "forced": 12,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 31.4
+  },
+  "epics_minor|epics_minor": {
+   "links": 583,
+   "graded": 583,
+   "sound": 127,
+   "weak": 389,
+   "forced": 62,
+   "wrong": 5,
+   "not_audited": 0,
+   "sound_pct": 21.8
+  },
+  "epics_minor|ethics": {
+   "links": 565,
+   "graded": 565,
+   "sound": 47,
+   "weak": 408,
+   "forced": 107,
+   "wrong": 3,
+   "not_audited": 0,
+   "sound_pct": 8.3
+  },
+  "epics_minor|ettuthogai_akam": {
+   "links": 10,
+   "graded": 10,
+   "sound": 0,
+   "weak": 8,
+   "forced": 2,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "epics_minor|ettuthogai_puram": {
+   "links": 13,
+   "graded": 13,
+   "sound": 0,
+   "weak": 9,
+   "forced": 4,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "epics_minor|pattupattu": {
+   "links": 3,
+   "graded": 3,
+   "sound": 0,
+   "weak": 2,
+   "forced": 0,
+   "wrong": 1,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "ethics|devotional": {
+   "links": 11,
+   "graded": 11,
+   "sound": 3,
+   "weak": 6,
+   "forced": 2,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 27.3
+  },
+  "ethics|epics_great": {
+   "links": 1,
+   "graded": 1,
+   "sound": 1,
+   "weak": 0,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 100.0
+  },
+  "ethics|ethics": {
+   "links": 4112,
+   "graded": 4112,
+   "sound": 2981,
+   "weak": 1015,
+   "forced": 107,
+   "wrong": 9,
+   "not_audited": 0,
+   "sound_pct": 72.5
+  },
+  "ethics|ettuthogai_akam": {
+   "links": 1,
+   "graded": 1,
+   "sound": 1,
+   "weak": 0,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 100.0
+  },
+  "ethics|ettuthogai_puram": {
+   "links": 28,
+   "graded": 28,
+   "sound": 11,
+   "weak": 15,
+   "forced": 2,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 39.3
+  },
+  "ethics|pattupattu": {
+   "links": 1,
+   "graded": 1,
+   "sound": 0,
+   "weak": 0,
+   "forced": 1,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "ettuthogai_akam|devotional": {
+   "links": 5,
+   "graded": 5,
+   "sound": 2,
+   "weak": 3,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 40.0
+  },
+  "ettuthogai_akam|ethics": {
+   "links": 502,
+   "graded": 502,
+   "sound": 228,
+   "weak": 250,
+   "forced": 22,
+   "wrong": 2,
+   "not_audited": 0,
+   "sound_pct": 45.4
+  },
+  "ettuthogai_akam|ettuthogai_akam": {
+   "links": 571,
+   "graded": 571,
+   "sound": 232,
+   "weak": 313,
+   "forced": 21,
+   "wrong": 5,
+   "not_audited": 0,
+   "sound_pct": 40.6
+  },
+  "ettuthogai_akam|ettuthogai_devotional": {
+   "links": 1,
+   "graded": 1,
+   "sound": 0,
+   "weak": 1,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "ettuthogai_akam|ettuthogai_puram": {
+   "links": 116,
+   "graded": 116,
+   "sound": 52,
+   "weak": 56,
+   "forced": 7,
+   "wrong": 1,
+   "not_audited": 0,
+   "sound_pct": 44.8
+  },
+  "ettuthogai_akam|kilkanakku_akam": {
+   "links": 20,
+   "graded": 20,
+   "sound": 3,
+   "weak": 17,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 15.0
+  },
+  "ettuthogai_akam|pattupattu": {
+   "links": 5,
+   "graded": 5,
+   "sound": 3,
+   "weak": 2,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 60.0
+  },
+  "ettuthogai_devotional|devotional": {
+   "links": 15,
+   "graded": 15,
+   "sound": 5,
+   "weak": 9,
+   "forced": 1,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 33.3
+  },
+  "ettuthogai_devotional|ethics": {
+   "links": 48,
+   "graded": 45,
+   "sound": 10,
+   "weak": 25,
+   "forced": 10,
+   "wrong": 0,
+   "not_audited": 3,
+   "sound_pct": 22.2
+  },
+  "ettuthogai_devotional|ettuthogai_akam": {
+   "links": 28,
+   "graded": 28,
+   "sound": 8,
+   "weak": 15,
+   "forced": 5,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 28.6
+  },
+  "ettuthogai_devotional|ettuthogai_devotional": {
+   "links": 29,
+   "graded": 24,
+   "sound": 14,
+   "weak": 10,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 5,
+   "sound_pct": 58.3
+  },
+  "ettuthogai_devotional|ettuthogai_puram": {
+   "links": 11,
+   "graded": 11,
+   "sound": 4,
+   "weak": 6,
+   "forced": 1,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 36.4
+  },
+  "ettuthogai_devotional|kilkanakku_akam": {
+   "links": 1,
+   "graded": 1,
+   "sound": 1,
+   "weak": 0,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 100.0
+  },
+  "ettuthogai_devotional|pattupattu": {
+   "links": 12,
+   "graded": 12,
+   "sound": 3,
+   "weak": 9,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 25.0
+  },
+  "ettuthogai_puram|devotional": {
+   "links": 2,
+   "graded": 2,
+   "sound": 0,
+   "weak": 2,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "ettuthogai_puram|ethics": {
+   "links": 210,
+   "graded": 210,
+   "sound": 98,
+   "weak": 96,
+   "forced": 15,
+   "wrong": 1,
+   "not_audited": 0,
+   "sound_pct": 46.7
+  },
+  "ettuthogai_puram|ettuthogai_akam": {
+   "links": 64,
+   "graded": 64,
+   "sound": 17,
+   "weak": 32,
+   "forced": 12,
+   "wrong": 3,
+   "not_audited": 0,
+   "sound_pct": 26.6
+  },
+  "ettuthogai_puram|ettuthogai_puram": {
+   "links": 175,
+   "graded": 175,
+   "sound": 80,
+   "weak": 93,
+   "forced": 2,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 45.7
+  },
+  "ettuthogai_puram|pattupattu": {
+   "links": 1,
+   "graded": 1,
+   "sound": 0,
+   "weak": 1,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 0.0
+  },
+  "kilkanakku_akam|ethics": {
+   "links": 84,
+   "graded": 84,
+   "sound": 24,
+   "weak": 54,
+   "forced": 6,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 28.6
+  },
+  "kilkanakku_akam|ettuthogai_akam": {
+   "links": 174,
+   "graded": 174,
+   "sound": 60,
+   "weak": 98,
+   "forced": 15,
+   "wrong": 1,
+   "not_audited": 0,
+   "sound_pct": 34.5
+  },
+  "kilkanakku_akam|ettuthogai_puram": {
+   "links": 10,
+   "graded": 10,
+   "sound": 2,
+   "weak": 6,
+   "forced": 2,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 20.0
+  },
+  "kilkanakku_akam|kilkanakku_akam": {
+   "links": 56,
+   "graded": 56,
+   "sound": 20,
+   "weak": 33,
+   "forced": 3,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 35.7
+  },
+  "kilkanakku_akam|pattupattu": {
+   "links": 3,
+   "graded": 3,
+   "sound": 3,
+   "weak": 0,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 100.0
+  },
+  "pattupattu|devotional": {
+   "links": 13,
+   "graded": 1,
+   "sound": 1,
+   "weak": 0,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 12,
+   "sound_pct": 100.0
+  },
+  "pattupattu|ethics": {
+   "links": 37,
+   "graded": 37,
+   "sound": 21,
+   "weak": 14,
+   "forced": 2,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 56.8
+  },
+  "pattupattu|ettuthogai_akam": {
+   "links": 19,
+   "graded": 19,
+   "sound": 9,
+   "weak": 9,
+   "forced": 1,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 47.4
+  },
+  "pattupattu|ettuthogai_devotional": {
+   "links": 3,
+   "graded": 3,
+   "sound": 1,
+   "weak": 2,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 33.3
+  },
+  "pattupattu|ettuthogai_puram": {
+   "links": 34,
+   "graded": 34,
+   "sound": 17,
+   "weak": 15,
+   "forced": 2,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 50.0
+  },
+  "pattupattu|kilkanakku_akam": {
+   "links": 2,
+   "graded": 2,
+   "sound": 2,
+   "weak": 0,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 100.0
+  },
+  "pattupattu|pattupattu": {
+   "links": 14,
+   "graded": 14,
+   "sound": 6,
+   "weak": 7,
+   "forced": 1,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 42.9
+  }
+ },
+ "within": {
+  "ettuthogai_akam": {
+   "links": 571,
+   "graded": 571,
+   "sound": 232,
+   "weak": 313,
+   "forced": 21,
+   "wrong": 5,
+   "not_audited": 0,
+   "sound_pct": 40.6
+  },
+  "ettuthogai_puram": {
+   "links": 175,
+   "graded": 175,
+   "sound": 80,
+   "weak": 93,
+   "forced": 2,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 45.7
+  },
+  "ettuthogai_devotional": {
+   "links": 29,
+   "graded": 24,
+   "sound": 14,
+   "weak": 10,
+   "forced": 0,
+   "wrong": 0,
+   "not_audited": 5,
+   "sound_pct": 58.3
+  },
+  "pattupattu": {
+   "links": 14,
+   "graded": 14,
+   "sound": 6,
+   "weak": 7,
+   "forced": 1,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 42.9
+  },
+  "ethics": {
+   "links": 4112,
+   "graded": 4112,
+   "sound": 2981,
+   "weak": 1015,
+   "forced": 107,
+   "wrong": 9,
+   "not_audited": 0,
+   "sound_pct": 72.5
+  },
+  "kilkanakku_akam": {
+   "links": 56,
+   "graded": 56,
+   "sound": 20,
+   "weak": 33,
+   "forced": 3,
+   "wrong": 0,
+   "not_audited": 0,
+   "sound_pct": 35.7
+  },
+  "epics_great": {
+   "links": 871,
+   "graded": 871,
+   "sound": 310,
+   "weak": 489,
+   "forced": 67,
+   "wrong": 5,
+   "not_audited": 0,
+   "sound_pct": 35.6
+  },
+  "epics_minor": {
+   "links": 583,
+   "graded": 583,
+   "sound": 127,
+   "weak": 389,
+   "forced": 62,
+   "wrong": 5,
+   "not_audited": 0,
+   "sound_pct": 21.8
+  },
+  "devotional": {
+   "links": 3581,
+   "graded": 3581,
+   "sound": 2033,
+   "weak": 1353,
+   "forced": 184,
+   "wrong": 11,
+   "not_audited": 0,
+   "sound_pct": 56.8
+  }
+ },
+ "bridges": {
+  "links": 4955,
+  "sound": 1856,
+  "sound_pct": 37.6
+ },
+ "within_all": {
+  "links": 9992,
+  "sound_pct": 58.1
+ }
+}

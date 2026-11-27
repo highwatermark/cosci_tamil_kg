@@ -1,0 +1,5094 @@
+{
+ "summary": {
+  "group": "pattupattu",
+  "books": [
+   "pattupattu"
+  ],
+  "links": 110,
+  "by_grade": {
+   "sound": 57,
+   "weak": 47,
+   "forced": 6
+  },
+  "sound_pct": 51.8,
+  "sound_or_weak_pct": 94.5,
+  "teaches_failed": 34,
+  "agreement": {
+   "links_graded_more_than_once": 16,
+   "grade_pairs": 31,
+   "exact": 18,
+   "exact_pct": 58.1,
+   "kappa_sound": 0.39,
+   "disagreements": 8
+  },
+  "calibration": {
+   "links": 176,
+   "exact": 137,
+   "stricter": 18,
+   "more_lenient": 21,
+   "exact_pct": 77.8
+  },
+  "by_book": {
+   "pattupattu": {
+    "links": 110,
+    "by_grade": {
+     "sound": 57,
+     "weak": 47,
+     "forced": 6
+    },
+    "sound_pct": 51.8,
+    "sound_or_weak_pct": 94.5,
+    "teaches_failed": 34,
+    "agreement": {
+     "links_graded_more_than_once": 16,
+     "grade_pairs": 31,
+     "exact": 18,
+     "exact_pct": 58.1,
+     "kappa_sound": 0.39,
+     "disagreements": 8
+    },
+    "calibration": {
+     "links": 176,
+     "exact": 137,
+     "stricter": 18,
+     "more_lenient": 21,
+     "exact_pct": 77.8
+    },
+    "group": "pattupattu",
+    "marker_models": {
+     "opus": 110
+    },
+    "grader_models": {
+     "opus": 128,
+     "sonnet": 5
+    }
+   }
+  },
+  "by_target_group": {
+   "devotional": {
+    "links": 1,
+    "by_grade": {
+     "sound": 1
+    },
+    "sound_pct": 100.0,
+    "sound_or_weak_pct": 100.0,
+    "teaches_failed": 0,
+    "agreement": {
+     "links_graded_more_than_once": 0,
+     "grade_pairs": 0,
+     "exact": 0,
+     "exact_pct": null,
+     "kappa_sound": null,
+     "disagreements": 0
+    },
+    "calibration": {
+     "links": 4,
+     "exact": 4,
+     "stricter": 0,
+     "more_lenient": 0,
+     "exact_pct": 100.0
+    }
+   },
+   "ethics": {
+    "links": 37,
+    "by_grade": {
+     "sound": 21,
+     "weak": 14,
+     "forced": 2
+    },
+    "sound_pct": 56.8,
+    "sound_or_weak_pct": 94.6,
+    "teaches_failed": 7,
+    "agreement": {
+     "links_graded_more_than_once": 8,
+     "grade_pairs": 17,
+     "exact": 13,
+     "exact_pct": 76.5,
+     "kappa_sound": 0.553,
+     "disagreements": 2
+    },
+    "calibration": {
+     "links": 116,
+     "exact": 87,
+     "stricter": 10,
+     "more_lenient": 19,
+     "exact_pct": 75.0
+    }
+   },
+   "ettuthogai_akam": {
+    "links": 19,
+    "by_grade": {
+     "sound": 9,
+     "weak": 9,
+     "forced": 1
+    },
+    "sound_pct": 47.4,
+    "sound_or_weak_pct": 94.7,
+    "teaches_failed": 8,
+    "agreement": {
+     "links_graded_more_than_once": 1,
+     "grade_pairs": 1,
+     "exact": 0,
+     "exact_pct": 0.0,
+     "kappa_sound": 1.0,
+     "disagreements": 1
+    },
+    "calibration": {
+     "links": 64,
+     "exact": 48,
+     "stricter": 9,
+     "more_lenient": 7,
+     "exact_pct": 75.0
+    }
+   },
+   "ettuthogai_devotional": {
+    "links": 3,
+    "by_grade": {
+     "sound": 1,
+     "weak": 2
+    },
+    "sound_pct": 33.3,
+    "sound_or_weak_pct": 100.0,
+    "teaches_failed": 0,
+    "agreement": {
+     "links_graded_more_than_once": 0,
+     "grade_pairs": 0,
+     "exact": 0,
+     "exact_pct": null,
+     "kappa_sound": null,
+     "disagreements": 0
+    },
+    "calibration": {
+     "links": 12,
+     "exact": 8,
+     "stricter": 0,
+     "more_lenient": 4,
+     "exact_pct": 66.7
+    }
+   },
+   "ettuthogai_puram": {
+    "links": 34,
+    "by_grade": {
+     "sound": 17,
+     "weak": 15,
+     "forced": 2
+    },
+    "sound_pct": 50.0,
+    "sound_or_weak_pct": 94.1,
+    "teaches_failed": 14,
+    "agreement": {
+     "links_graded_more_than_once": 5,
+     "grade_pairs": 9,
+     "exact": 3,
+     "exact_pct": 33.3,
+     "kappa_sound": 0.053,
+     "disagreements": 4
+    },
+    "calibration": {
+     "links": 112,
+     "exact": 87,
+     "stricter": 13,
+     "more_lenient": 12,
+     "exact_pct": 77.7
+    }
+   },
+   "kilkanakku_akam": {
+    "links": 2,
+    "by_grade": {
+     "sound": 2
+    },
+    "sound_pct": 100.0,
+    "sound_or_weak_pct": 100.0,
+    "teaches_failed": 0,
+    "agreement": {
+     "links_graded_more_than_once": 0,
+     "grade_pairs": 0,
+     "exact": 0,
+     "exact_pct": null,
+     "kappa_sound": null,
+     "disagreements": 0
+    },
+    "calibration": {
+     "links": 8,
+     "exact": 6,
+     "stricter": 1,
+     "more_lenient": 1,
+     "exact_pct": 75.0
+    }
+   },
+   "pattupattu": {
+    "links": 14,
+    "by_grade": {
+     "sound": 6,
+     "weak": 7,
+     "forced": 1
+    },
+    "sound_pct": 42.9,
+    "sound_or_weak_pct": 92.9,
+    "teaches_failed": 5,
+    "agreement": {
+     "links_graded_more_than_once": 2,
+     "grade_pairs": 4,
+     "exact": 2,
+     "exact_pct": 50.0,
+     "kappa_sound": 0.0,
+     "disagreements": 1
+    },
+    "calibration": {
+     "links": 60,
+     "exact": 43,
+     "stricter": 6,
+     "more_lenient": 11,
+     "exact_pct": 71.7
+    }
+   }
+  }
+ },
+ "links": [
+  {
+   "a": "pattupattu:2:119-129",
+   "b": "purananuru:140",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Both turn on the giver's measure: Puram 140 says Ay gave the elephant because he knew வரிசை and weighed himself (தான் பிற வரிசை அறிதலின் தன்னும் தூக்கி), the idyll has தன்னறி யளவையின் / என்னறி யளவையின். The note and teaches call Puram 140 giving 'that knows no measure' and make the idyll 'answer the charge', but Puram 140 explicitly credits him with measure; its மடவன் and தேற்றா ஈகை are praise in blame, so there is no charge for the idyll to answer.",
+   "text_issue": null,
+   "chapter": 2,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Both turn on the giver's measure: Puram 140 says Ay gave the elephant because he knew வரிசை and weighed himself (தான் பிற வரிசை அறிதலின் தன்னும் தூக்கி), the idyll has தன்னறி யளவையின் / என்னறி யளவையின். The note and teaches call Puram 140 giving 'that knows no measure' and make the idyll 'answer the charge', but Puram 140 explicitly credits him with measure; its மடவன் and தேற்றா ஈகை are praise in blame, so there is no charge for the idyll to answer."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:2:130-148",
+   "b": "purananuru:66",
+   "type": "tension",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The same event and the same patron: Porunar praises Karikalan for the two kings falling at Venni (இருபெரு வேந்தரும் ஒருகளத்து அவிய வெண்ணித் தாக்கிய), while Purananuru 66 tells him to his face that the one who sat facing north from shame at a back wound is better (நின்னினும் நல்லன் அன்றே ... புறப்புண் நாணி வடக்கிருந்தோனே). This is a real tension in how the victory is valued.",
+   "text_issue": null,
+   "chapter": 2,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The same event and the same patron: Porunar praises Karikalan for the two kings falling at Venni (இருபெரு வேந்தரும் ஒருகளத்து அவிய வெண்ணித் தாக்கிய), while Purananuru 66 tells him to his face that the one who sat facing north from shame at a back wound is better (நின்னினும் நல்லன் அன்றே ... புறப்புண் நாணி வடக்கிருந்தோனே). This is a real tension in how the victory is valued."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:2:149-162",
+   "b": "purananuru:385",
+   "type": "same_image",
+   "grade": "weak",
+   "graders": 3,
+   "disagree": true,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Both have rags removed and clothing given: pattupattu 153-155 (சிதாஅர் நீக்கி ... பட்டுடை நல்கி), Pur 385 (சிதாஅர் களைந்து வெளியது உடீஇ). That this shows a recognised rite of reception is an inference neither text states.",
+   "text_issue": null,
+   "chapter": 2,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave6",
+     "grader": "g1",
+     "model": "sonnet",
+     "role": "calibration",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The image is distinctive and the wording close: துன்னற் சிதாஅர் நீக்கித் ... பட்டுடை நல்கி against நிலந்தினச் சிதைந்த சிதாஅர் களைந்து வெளியது உடீஇ. In both the gift comes unasked (கையது கேளா அளவை; பிறன் கடை ... கேட்டு அருளி). Its appearance as a forecast in the guide poem fairly supports the claim that it was a known act of reception.",
+    "The image is the same act in near-identical words: துன்னற் சிதாஅர் நீக்கித் ... பட்டுடை நல்கி against சிதைந்த சிதாஅர் களைந்து வெளியது உடீஇ. The guide's forecast before the bard asks (கையது கேளா அளவை) set beside Aruvanthai's unasked gift supports the inference that re-dressing the bard was a set first act of reception.",
+    "Both have rags removed and clothing given: pattupattu 153-155 (சிதாஅர் நீக்கி ... பட்டுடை நல்கி), Pur 385 (சிதாஅர் களைந்து வெளியது உடீஇ). That this shows a recognised rite of reception is an inference neither text states."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:2:163-177",
+   "b": "naladiyar:2",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The verbal echo is real: நில்லா உலகத்து நிலைமை தூக்கி in the idyll and நில்லாது செல்வம் in the quatrain, with பெற்றவை பிறர்பிறர்க்கு ஆர்த்தி matching பல்லாரோடு உண்க. But the claim that impermanence moves the king to keep the guest rests on giving பல புலந்து and நிலைமை தூக்கி to the king, which the marker himself calls uncertain syntax, so the 'both ends of the gift' point needs a generous reading.",
+   "text_issue": null,
+   "chapter": 2,
+   "book": "pattupattu",
+   "target_book": "naladiyar",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The verbal echo is real: நில்லா உலகத்து நிலைமை தூக்கி in the idyll and நில்லாது செல்வம் in the quatrain, with பெற்றவை பிறர்பிறர்க்கு ஆர்த்தி matching பல்லாரோடு உண்க. But the claim that impermanence moves the king to keep the guest rests on giving பல புலந்து and நிலைமை தூக்கி to the king, which the marker himself calls uncertain syntax, so the 'both ends of the gift' point needs a generous reading."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:2:218-231",
+   "b": "purananuru:7",
+   "type": "qualifies",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Purananuru 7 says the good things are gone (நல்ல இல்ல ஆகுபவால்) from others' rich lands of flood and fish; Porunararruppadai 218-231 shows Karikalan's own realm of mingled lands under ஒரு குடை. Same patron, and the pair names a specific two-sidedness of the praise.",
+   "text_issue": null,
+   "chapter": 2,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Purananuru 7 says the good things are gone (நல்ல இல்ல ஆகுபவால்) from others' rich lands of flood and fish; Porunararruppadai 218-231 shows Karikalan's own realm of mingled lands under ஒரு குடை. Same patron, and the pair names a specific two-sidedness of the praise."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:2:232-248",
+   "b": "kural:545",
+   "type": "tension",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The idyll grants a பெருவறன் ஆகிய பண்பில் காலை, clouds that forget the sea (கடற்கோள் மறப்பவும்), and gives the harvest to காவிரி புரக்கும் நாடு; Kural 545 joins பெயலும் விளையுளும் to the just sceptre. On the reading that drought can fall even in this king's land, the two do conflict, and moving the harvest's source from rain to river is a real and specific observation.",
+   "text_issue": null,
+   "chapter": 2,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The idyll grants a பெருவறன் ஆகிய பண்பில் காலை, clouds that forget the sea (கடற்கோள் மறப்பவும்), and gives the harvest to காவிரி புரக்கும் நாடு; Kural 545 joins பெயலும் விளையுளும் to the just sceptre. On the reading that drought can fall even in this king's land, the two do conflict, and moving the harvest's source from rain to river is a real and specific observation."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:2:232-248",
+   "b": "purananuru:117",
+   "type": "qualifies",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Puram 117 lists drought omens (மைம் மீன் புகையினும், தூமம் தோன்றினும்) and denies their effect under a straight sceptre (கோஒல் செம்மையின் ... பெயல் பிழைப்பு அறியா); Porunararruppadai grants the drought (பெருவறனாகிய பண்பில் காலையும்) and sets the Kaveri against it. Two strategies against a bad season are clearly distinguished.",
+   "text_issue": null,
+   "chapter": 2,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Puram 117 lists drought omens (மைம் மீன் புகையினும், தூமம் தோன்றினும்) and denies their effect under a straight sceptre (கோஒல் செம்மையின் ... பெயல் பிழைப்பு அறியா); Porunararruppadai grants the drought (பெருவறனாகிய பண்பில் காலையும்) and sets the Kaveri against it. Two strategies against a bad season are clearly distinguished."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:2:60-72",
+   "b": "kural:216",
+   "type": "same_image",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "பழுமரம் உள்ளிய பறவையின் (Porunar 64) answers பயன்மரம் உள்ளூர்ப் பழுத்தற்று (Kural 216) from the other side. The open gate, நசையுநர்த் தடையா நன்பெரு வாயில், spells out the access the couplet's உள்ளூர் implies.",
+   "text_issue": null,
+   "chapter": 2,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "பழுமரம் உள்ளிய பறவையின் (Porunar 64) answers பயன்மரம் உள்ளூர்ப் பழுத்தற்று (Kural 216) from the other side. The open gate, நசையுநர்த் தடையா நன்பெரு வாயில், spells out the access the couplet's உள்ளூர் implies."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:2:60-72",
+   "b": "purananuru:209",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": "same_image",
+   "teaches_holds": true,
+   "reason": "The shared image is real and specific: பழுமரம் உள்ளிய பறவையின் யானும் against பழனுடைப் பெருமரம் தீர்ந்தெனக் ... பெறாது பெயரும் புள்ளினம். But nothing in the guide poem limits or answers Puram 209; the claim that its first-person testimony is offered to meet that doubt is the proposer's construction, so the type and part of teaches overreach.",
+   "text_issue": null,
+   "chapter": 2,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "same_image",
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The shared image is real and specific: பழுமரம் உள்ளிய பறவையின் யானும் against பழனுடைப் பெருமரம் தீர்ந்தெனக் ... பெறாது பெயரும் புள்ளினம். But nothing in the guide poem limits or answers Puram 209; the claim that its first-person testimony is offered to meet that doubt is the proposer's construction, so the type and part of teaches overreach."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:3:130-145",
+   "b": "purananuru:164",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The mushroom in the dead hearth matches (புழற்கா ளாம்பி; ஆம்பி பூப்ப) with milkless teats in both. Sirupanatruppadai's யாம் அவண் நின்றும் வருதும் makes the misery past testimony, where Purananuru 164's நிற்படர்ந் திசினே is a present petition; the claim about how the guide form works is specific and true.",
+   "text_issue": "Sirupanatruppadai line 142 repaired.",
+   "chapter": 3,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The mushroom in the dead hearth matches (புழற்கா ளாம்பி; ஆம்பி பூப்ப) with milkless teats in both. Sirupanatruppadai's யாம் அவண் நின்றும் வருதும் makes the misery past testimony, where Purananuru 164's நிற்படர்ந் திசினே is a present petition; the claim about how the guide form works is specific and true."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:3:203-220",
+   "b": "kural:386",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "The idyll's open gate (அடையா வாயில்) is for பொருநர், புலவர், அந்தணர், while the praisers are அறிந்தோர், வயவர், அரிவையர், பரிசிலர; they are not the same classes, so 'rewarded by the very classes it admits' is untrue. Kural 386 also praises the land (மீக்கூறும் மன்னன் நிலம்), not the king.",
+   "text_issue": null,
+   "chapter": 3,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The idyll's open gate (அடையா வாயில்) is for பொருநர், புலவர், அந்தணர், while the praisers are அறிந்தோர், வயவர், அரிவையர், பரிசிலர; they are not the same classes, so 'rewarded by the very classes it admits' is untrue. Kural 386 also praises the land (மீக்கூறும் மன்னன் நிலம்), not the king."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:3:221-234",
+   "b": "kural:546",
+   "type": "qualifies",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The idyll pairs கோல் and வேல் as gifts to different people (ஏரோர்க்கு நிழன்ற கோலினை / தேரோர்க்கு அழன்ற வேலினை), and Kural 546 sets the same pair in rank (வேலன்று வென்றி தருவது ... கோல்). The teaches names a specific turn from balance to hierarchy.",
+   "text_issue": null,
+   "chapter": 3,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The idyll pairs கோல் and வேல் as gifts to different people (ஏரோர்க்கு நிழன்ற கோலினை / தேரோர்க்கு அழன்ற வேலினை), and Kural 546 sets the same pair in rank (வேலன்று வென்றி தருவது ... கோல்). The teaches names a specific turn from balance to hierarchy."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:3:32-40",
+   "b": "pattupattu:1:277-295",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Line 40 முதுவா யிரவல and Thirumurugatruppadai 284 முதுவாய் இரவலன் are the same uncommon address, used of the bard and of the devotee announced to the god. The devotional guide's borrowing of the bard's petition at the patron's gate (attendants announce, gift given) is visible in lines 281-295.",
+   "text_issue": null,
+   "chapter": 3,
+   "book": "pattupattu",
+   "target_book": "pattupattu",
+   "group_a": "pattupattu",
+   "group_b": "pattupattu",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Line 40 முதுவா யிரவல and Thirumurugatruppadai 284 முதுவாய் இரவலன் are the same uncommon address, used of the bard and of the devotee announced to the god. The devotional guide's borrowing of the bard's petition at the patron's gate (attendants announce, gift given) is visible in lines 281-295."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "pattupattu:3:41-50",
+   "b": "akananuru:91",
+   "type": "same_image",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Both set the buffalo in jackfruit shade in Kuttuvan's western land (பலவி னீழல் ... குடபுலங் காவலர்; தாமரை முனையின் முடமுதிர் பலவின் கொழுநிழல் வதியும் குடநாடு), and both outweigh it: Vanji is வறிதே beside the patron, Kudanadu would not keep the man from her. The idyll's buffalo grazed lilies (கழுநீர்), not the lotus, a small slip in the note.",
+   "text_issue": null,
+   "chapter": 3,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Both set the buffalo in jackfruit shade in Kuttuvan's western land (பலவி னீழல் ... குடபுலங் காவலர்; தாமரை முனையின் முடமுதிர் பலவின் கொழுநிழல் வதியும் குடநாடு), and both outweigh it: Vanji is வறிதே beside the patron, Kudanadu would not keep the man from her. The idyll's buffalo grazed lilies (கழுநீர்), not the lotus, a small slip in the note."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:3:84-113",
+   "b": "purananuru:141",
+   "type": "qualifies",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Pura 141 offers the peacock's cloak as proof of motive (படாஅம் மஞ்ஞைக்கு ஈத்த ... மறுமை நோக்கின்றோ அன்றே பிறர் வறுமை நோக்கின்று), and Sirupan 84-86 lists it only as Pekan's emblem among the seven (கான மஞ்ஞைக்குக் கலிங்க நல்கிய ... பேகனும்). The difference is specific and true.",
+   "text_issue": null,
+   "chapter": 3,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Pura 141 offers the peacock's cloak as proof of motive (படாஅம் மஞ்ஞைக்கு ஈத்த ... மறுமை நோக்கின்றோ அன்றே பிறர் வறுமை நோக்கின்று), and Sirupan 84-86 lists it only as Pekan's emblem among the seven (கான மஞ்ஞைக்குக் கலிங்க நல்கிய ... பேகனும்). The difference is specific and true."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:3:84-113",
+   "b": "purananuru:158",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The seven givers and the stock epithets are shared: Pekan's அருந்திறல் அணங்கின் / அருந்திறல் கடவுள் காக்கும் with பெருங்கல் நாடன், and the closing என ஆங்கு எழுவர். Puram 158 says எழுவர் மாய்ந்த பின்றை and summons Kumanan, while the idyll ends on எழுவர் பூண்ட ஈகைச் செந்நுகம், the yoke its patron takes up. The two uses of the canon differ as teaches says.",
+   "text_issue": null,
+   "chapter": 3,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The seven givers and the stock epithets are shared: Pekan's அருந்திறல் அணங்கின் / அருந்திறல் கடவுள் காக்கும் with பெருங்கல் நாடன், and the closing என ஆங்கு எழுவர். Puram 158 says எழுவர் மாய்ந்த பின்றை and summons Kumanan, while the idyll ends on எழுவர் பூண்ட ஈகைச் செந்நுகம், the yoke its patron takes up. The two uses of the canon differ as teaches says."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:3:84-113",
+   "b": "purananuru:91",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Puram 91 makes the hiding of the virtue the gift (குறியாது ஆதல் நின்னகத்து அடக்கி ... சாதல் நீங்க). The idyll's catalogue names the virtue openly in its epithet (அமிழ்துவிளை தீங்கனி ஔவைக்கு ஈந்த அதிகன்). This is a named puram fact carried into a later list, and the shift from secret to public meaning is in the Tamil.",
+   "text_issue": null,
+   "chapter": 3,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Puram 91 makes the hiding of the virtue the gift (குறியாது ஆதல் நின்னகத்து அடக்கி ... சாதல் நீங்க). The idyll's catalogue names the virtue openly in its epithet (அமிழ்துவிளை தீங்கனி ஔவைக்கு ஈந்த அதிகன்). This is a named puram fact carried into a later list, and the shift from secret to public meaning is in the Tamil."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:1-22",
+   "b": "kural:216",
+   "type": "same_image",
+   "grade": "weak",
+   "graders": 3,
+   "disagree": true,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "The idyll's simile has birds seeking fruiting trees (பழுமரம் தேரும் பறவை போல) for the bard seeking a patron; Kural 216 has a fruit tree in the town (உள்ளூர்ப் பழுத்தற்று). The shared figure is real, but within 1-22 the tree is not yet the patron, and the 'guide poem exists because' clause is an overreach.",
+   "text_issue": null,
+   "chapter": 4,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave6",
+     "grader": "g1",
+     "model": "sonnet",
+     "role": "calibration",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The idyll's bards are birds seeking fruiting trees on a rainless hill (பழுமரந் தேரும் பறவை போல); the Kural's wealth is the fruit tree in the town (பயன்மரம் உள்ளூர்ப் பழுத்தற்றால்). The two sides of one image, and the distance the guide poem bridges, are real.",
+    "பழுமரந் தேரும் பறவை போல (the bards) and பயன்மரம் உள்ளூர்ப் பழுத்தற்று (the patron's wealth) share the fruit-tree figure from two sides. The note that the idyll's tree is far off (தாங்குநர்ப் பெறாது) while the Kural's stands உள்ளூர் is accurate and specific.",
+    "The idyll's simile has birds seeking fruiting trees (பழுமரம் தேரும் பறவை போல) for the bard seeking a patron; Kural 216 has a fruit tree in the town (உள்ளூர்ப் பழுத்தற்று). The shared figure is real, but within 1-22 the tree is not yet the patron, and the 'guide poem exists because' clause is an overreach."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:1-22",
+   "b": "purananuru:138",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Both hail a ragged bard with a small lute (புல்லென் யாக்கைப் புலவுவாய்ப் பாண / சிதாஅர் உடுக்கை முதாஅரிப் பாண). But lines 1-22 of the idyll describe the lute and the bard and lay out no road 'land by land', so the note and teaches sentence describe text outside the cited span. The pairing as given is genre-level.",
+   "text_issue": null,
+   "chapter": 4,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Both hail a ragged bard with a small lute (புல்லென் யாக்கைப் புலவுவாய்ப் பாண / சிதாஅர் உடுக்கை முதாஅரிப் பாண). But lines 1-22 of the idyll describe the lute and the bard and lay out no road 'land by land', so the note and teaches sentence describe text outside the cited span. The pairing as given is genre-level."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:134-146",
+   "b": "kural:922",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The idyll tells of toddy bought with raided cattle and home brew drunk all day (நறவுநொடை தொலைச்சி இல்லடு கள்ளின் றோப்பி பருகி) without judgment, and Kural 922 bans drink (உண்ணற்க கள்ளை). A change of values between periods is a fair lesson, but casting the warrior settlement as the Kural's 'those who do not wish to be counted' is a stretch.",
+   "text_issue": null,
+   "chapter": 4,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The idyll tells of toddy bought with raided cattle and home brew drunk all day (நறவுநொடை தொலைச்சி இல்லடு கள்ளின் றோப்பி பருகி) without judgment, and Kural 922 bans drink (உண்ணற்க கள்ளை). A change of values between periods is a fair lesson, but casting the warrior settlement as the Kural's 'those who do not wish to be counted' is a stretch."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:147-168",
+   "b": "kalittokai:110",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Perumpanatruppadai's herd girl sells அளை for food but நெய்விலைக் கட்டிப் பசும்பொன் கொள்ளாள், taking cattle; Kalittokai 110's girl rebukes the man who thinks அளைக்கு எளியாள் வெண்ணெய்க்கும் அன்னள். The idyll's price difference is what gives the retort its edge; வெண்ணெய் vs நெய் is close enough.",
+   "text_issue": null,
+   "chapter": 4,
+   "book": "pattupattu",
+   "target_book": "kalittokai",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Perumpanatruppadai's herd girl sells அளை for food but நெய்விலைக் கட்டிப் பசும்பொன் கொள்ளாள், taking cattle; Kalittokai 110's girl rebukes the man who thinks அளைக்கு எளியாள் வெண்ணெய்க்கும் அன்னள். The idyll's price difference is what gives the retort its edge; வெண்ணெய் vs நெய் is close enough."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:184-196",
+   "b": "kural:1033",
+   "type": "qualifies",
+   "grade": "forced",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "The idyll shows hospitable dry-land farmers with ploughs (கலப்பை சார்த்தி) feeding the bard varagu and avarai. The Kural praises those who live by the plough (உழுதுண்டு வாழ்வாரே வாழ்வார்), which is consistent with that scene. Reading the Kural as a moral claim against the patronage order is not in either text.",
+   "text_issue": null,
+   "chapter": 4,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "forced",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The idyll shows hospitable dry-land farmers with ploughs (கலப்பை சார்த்தி) feeding the bard varagu and avarai. The Kural praises those who live by the plough (உழுதுண்டு வாழ்வாரே வாழ்வார்), which is consistent with that scene. Reading the Kural as a moral claim against the patronage order is not in either text."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:23-45",
+   "b": "akananuru:340",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Thiraiyan really is named in both: the idyll's திரைதரு மரபின் உரவோன் உம்பல் ... பல்வேற் றிரையன், and Akananuru 340's பொலம்பூண் திரையன் பல்பூங் கானற் பவத்திரி. But the idyll's line is a genealogy playing on the name, not a statement that he rules a coast, and the two Thiraiyans are assumed to be one. The teaches sentence's claim about a shared identity goes beyond the lines given.",
+   "text_issue": null,
+   "chapter": 4,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Thiraiyan really is named in both: the idyll's திரைதரு மரபின் உரவோன் உம்பல் ... பல்வேற் றிரையன், and Akananuru 340's பொலம்பூண் திரையன் பல்பூங் கானற் பவத்திரி. But the idyll's line is a genealogy playing on the name, not a statement that he rules a coast, and the two Thiraiyans are assumed to be one. The teaches sentence's claim about a shared identity goes beyond the lines given."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:23-45",
+   "b": "kural:545",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Kural 545 gives the just sceptre's land rain and harvest (பெயலும் விளையுளும் தொக்கு). The idyll gives the just sceptre's land (அறம்புரி செங்கோல்) freedom from robbers, thunder, snakes and beasts (உருமும் உரறாது அரவும் தப்பா காட்டுமாவும் உறுகண் செய்யா). The extension from crops to the traveller's road is specific and accurate.",
+   "text_issue": null,
+   "chapter": 4,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Kural 545 gives the just sceptre's land rain and harvest (பெயலும் விளையுளும் தொக்கு). The idyll gives the just sceptre's land (அறம்புரி செங்கோல்) freedom from robbers, thunder, snakes and beasts (உருமும் உரறாது அரவும் தப்பா காட்டுமாவும் உறுகண் செய்யா). The extension from crops to the traveller's road is specific and accurate."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:23-45",
+   "b": "purananuru:141",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The rewarded bard meeting a hungry one is in both (நின்னினும் புல்லியேம் மன்னே in Puram 141; பழம்பசி கூர்ந்தவெம் மிரும்பே ரொக்கலொடு ... வருதும் in the idyll), and Puram 141's thurai is itself பாணாற்றுப்படை. What they share is the genre's frame; that the long poem 'grew' from the short one is assumed rather than shown.",
+   "text_issue": null,
+   "chapter": 4,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The rewarded bard meeting a hungry one is in both (நின்னினும் புல்லியேம் மன்னே in Puram 141; பழம்பசி கூர்ந்தவெம் மிரும்பே ரொக்கலொடு ... வருதும் in the idyll), and Puram 141's thurai is itself பாணாற்றுப்படை. What they share is the genre's frame; that the long poem 'grew' from the short one is assumed rather than shown."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:242-256",
+   "b": "kural:734",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Freedom from hunger in Kural 734 (உறுபசியும் ... சேராது) and the idyll's town (தொல்பசி அறியா) is a shared topic. The absence-against-presence contrast would fit any praise of a rich land beside this couplet, and the point about தொல்பசி belongs to the idyll alone.",
+   "text_issue": null,
+   "chapter": 4,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Freedom from hunger in Kural 734 (உறுபசியும் ... சேராது) and the idyll's town (தொல்பசி அறியா) is a shared topic. The absence-against-presence contrast would fit any praise of a rich land beside this couplet, and the point about தொல்பசி belongs to the idyll alone."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:257-262",
+   "b": "kural:1078",
+   "type": "same_image",
+   "grade": "forced",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "In the idyll the cane is also crushed by the roaring press (எந்திரம் சிலைக்கும், line 260); it is simply the sugar-mill of a rich land, not a figure for any giver. So the contrast teaches draws with Kural 1078 கரும்புபோல் கொல்லப் பயன்படும் கீழ், the base who give only when crushed, fails, and what is left is the shared word கரும்பு.",
+   "text_issue": null,
+   "chapter": 4,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "forced",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "In the idyll the cane is also crushed by the roaring press (எந்திரம் சிலைக்கும், line 260); it is simply the sugar-mill of a rich land, not a figure for any giver. So the contrast teaches draws with Kural 1078 கரும்புபோல் கொல்லப் பயன்படும் கீழ், the base who give only when crushed, fails, and what is left is the shared word கரும்பு."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:46-65",
+   "b": "akananuru:159",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "The formula is shared: கொள்ளை சாற்றி and கொடுநுக ... ஒழுகை in both. But the given Perumpanatruppadai lines do not say the road is 'made safe for travellers by day under the patron'. They show the carts guarded by strong armed men (முழுவலி மாக்கள் ... மருங்கிற் காப்ப). And in Ak 159 the friend sets the danger aside (அவலம் கொள்ளன்மா), so 'the woman fears' is not the poem's point.",
+   "text_issue": null,
+   "chapter": 4,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The formula is shared: கொள்ளை சாற்றி and கொடுநுக ... ஒழுகை in both. But the given Perumpanatruppadai lines do not say the road is 'made safe for travellers by day under the patron'. They show the carts guarded by strong armed men (முழுவலி மாக்கள் ... மருங்கிற் காப்ப). And in Ak 159 the friend sets the danger aside (அவலம் கொள்ளன்மா), so 'the woman fears' is not the poem's point."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:271-282",
+   "b": "kural:922",
+   "type": "tension",
+   "grade": "sound",
+   "graders": 2,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The idyll promises toddy to the point of staggering (நறும்பிழி தண்மீன் சூட்டொடு தளர்தலும் பெறுகுவிர்) as part of the road's gift; the couplet bars drink (உண்ணற்க கள்ளை) and ties it to lost esteem. A real conflict of valuation across periods.",
+   "text_issue": null,
+   "chapter": 5,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The idyll promises toddy to the point of staggering (நறும்பிழி தண்மீன் சூட்டொடு தளர்தலும் பெறுகுவிர்) as part of the road's gift; the couplet bars drink (உண்ணற்க கள்ளை) and ties it to lost esteem. A real conflict of valuation across periods.",
+    "தளர்தலும் பெறுகுவிர் (282) promises drink to the point of staggering as part of the road's hospitality, while உண்ணற்க கள்ளை ... சான்றோரான் எண்ணப் படவேண்டா தார் forbids it outright. The claims about drink are incompatible on a plain reading; 'poorest folk' slightly overstates the net-fishers (வலைஞர் குடி)."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:297-310",
+   "b": "purananuru:122",
+   "type": "same_image",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "The simile is shared (வடவயின் விளங்குஞ் சிறுமீன் புரையுங் கற்பின்; வடமீன் புரையுங் கற்பின்) but it is the stock figure of chastity. The contrast between a wife who is kept and a wife who cooks is real, but it does not come from the simile, so 'the simile marked the giving household from either side' claims more for the image than either poem gives it.",
+   "text_issue": null,
+   "chapter": 5,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The simile is shared (வடவயின் விளங்குஞ் சிறுமீன் புரையுங் கற்பின்; வடமீன் புரையுங் கற்பின்) but it is the stock figure of chastity. The contrast between a wife who is kept and a wife who cooks is real, but it does not come from the simile, so 'the simile marked the giving household from either side' claims more for the image than either poem gives it."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:311-335",
+   "b": "naladiyar:395",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 2,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The kingfisher mistakes a woman's ornament or feature for prey in both: the earring (பொலங்குழை இரைதேர் மணிச்சிரல் இரைசெத்து எறிந்தென) and the eyes taken for carp (கண்கயல் என்னும் கருத்தினால்), the latter held back by the bow-brow (எறிகல்லா ... வில்வாக்கு அறிந்து). The set conceit used two ways holds.",
+   "text_issue": null,
+   "chapter": 5,
+   "book": "pattupattu",
+   "target_book": "naladiyar",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The kingfisher mistakes a woman's ornament or feature for prey in both: the earring (பொலங்குழை இரைதேர் மணிச்சிரல் இரைசெத்து எறிந்தென) and the eyes taken for carp (கண்கயல் என்னும் கருத்தினால்), the latter held back by the bow-brow (எறிகல்லா ... வில்வாக்கு அறிந்து). The set conceit used two ways holds.",
+    "The kingfisher's mistake is shared and distinctive: பொலங்குழை இரைதேர் மணிச்சிரல் இரைசெத்து எறிந்தென (idyll) and கண்கயல் என்னும் கருத்தினால் ... சிறுசிரல் ... எறிகல்லா (Naladiyar). The idyll's bird acts on the error, the quatrain's stops at the brow, as the teaches says."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:336-345",
+   "b": "kural:256",
+   "type": "tension",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The boar was kept many days in a pit, fed rice flour and kept from its sow (பன்மயிர்ப் பிணவொடு பாயம் போகாது நென்மா வல்சி தீற்றிப் பன்னாள் குழிநிறுத்து ஓம்பிய), to be served with toddy. That is an animal raised to be eaten, exactly what Kural 256's argument from demand (தினற்பொருட்டால் கொல்லாது உலகெனின்) condemns, and the idyll offers it as reward. 'Sold' is implied by the toddy-sellers' houses, not stated.",
+   "text_issue": "Line 345 is a repaired reading (-ஒடு).",
+   "chapter": 5,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The boar was kept many days in a pit, fed rice flour and kept from its sow (பன்மயிர்ப் பிணவொடு பாயம் போகாது நென்மா வல்சி தீற்றிப் பன்னாள் குழிநிறுத்து ஓம்பிய), to be served with toddy. That is an animal raised to be eaten, exactly what Kural 256's argument from demand (தினற்பொருட்டால் கொல்லாது உலகெனின்) condemns, and the idyll offers it as reward. 'Sold' is implied by the toddy-sellers' houses, not stated."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:363-392",
+   "b": "paripadal:13:22-36",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": "same_image",
+   "teaches_holds": true,
+   "reason": "The serpent-bed god is shared: பாம்பணைப் பள்ளி அமர்ந்தோன் in the idyll against ஆயிரம் விரித்த கவை நா அருந் தலைக் காண்பின் சேக்கை ... அறிதுயிலோன். The contrast of cosmic hymn with a roadside shrine where bards briefly praise (கடவுள் வாழ்த்திச் சிறிது ... இயக்கினிர் கழிமின்) is true. Neither limits the other, so qualifies is the wrong type. This span does not itself name Kanchi.",
+   "text_issue": null,
+   "chapter": 5,
+   "book": "pattupattu",
+   "target_book": "paripadal",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_devotional",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "same_image",
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The serpent-bed god is shared: பாம்பணைப் பள்ளி அமர்ந்தோன் in the idyll against ஆயிரம் விரித்த கவை நா அருந் தலைக் காண்பின் சேக்கை ... அறிதுயிலோன். The contrast of cosmic hymn with a roadside shrine where bards briefly praise (கடவுள் வாழ்த்திச் சிறிது ... இயக்கினிர் கழிமின்) is true. Neither limits the other, so qualifies is the wrong type. This span does not itself name Kanchi."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:393-411",
+   "b": "paripadal:thirattu:8",
+   "type": "same_image",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The figure is distinctive and nearly verbatim: நெடியோன் கொப்பூழ் நான்முக ஒருவற் பயந்த பல்லிதழ்த் தாமரைப் பொகுட்டின் for Kanchi and மாயோன் கொப்பூழ் மலர்ந்த தாமரை ... அரும் பொகுட்கு அனைத்தே அண்ணல் கோயில் for Madurai. That it serves two capitals shows a convention of city praise. The idyll makes the tall-mansioned town (நெடுநகர்) the pericarp, while the fragment maps streets and palace part by part, a difference the teaches sentence smooths over without falsifying.",
+   "text_issue": null,
+   "chapter": 5,
+   "book": "pattupattu",
+   "target_book": "paripadal",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_devotional",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The figure is distinctive and nearly verbatim: நெடியோன் கொப்பூழ் நான்முக ஒருவற் பயந்த பல்லிதழ்த் தாமரைப் பொகுட்டின் for Kanchi and மாயோன் கொப்பூழ் மலர்ந்த தாமரை ... அரும் பொகுட்கு அனைத்தே அண்ணல் கோயில் for Madurai. That it serves two capitals shows a convention of city praise. The idyll makes the tall-mansioned town (நெடுநகர்) the pericarp, while the fragment maps streets and palace part by part, a difference the teaches sentence smooths over without falsifying."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:412-435",
+   "b": "purananuru:2",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Both use the Bharata war (ஈரைம்பதின்மரும் பொருது களத்து ஒழிய; ஈரைம் பதின்மரும் பொருதுகளத் தவிய ... ஐவர் போல): one for the patron's food (பெருஞ்சோற்று மிகுபதம் வரையாது கொடுத்தோய்), one for his victory roar. The contrast of giving and conquest is real, but 'feeder of both sides' is not in Purananuru 2, which does not say to whom.",
+   "text_issue": null,
+   "chapter": 5,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Both use the Bharata war (ஈரைம்பதின்மரும் பொருது களத்து ஒழிய; ஈரைம் பதின்மரும் பொருதுகளத் தவிய ... ஐவர் போல): one for the patron's food (பெருஞ்சோற்று மிகுபதம் வரையாது கொடுத்தோய்), one for his victory roar. The contrast of giving and conquest is real, but 'feeder of both sides' is not in Purananuru 2, which does not say to whom."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:436-447",
+   "b": "kural:548",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 4,
+   "disagree": false,
+   "better_type": "develops",
+   "teaches_holds": true,
+   "reason": "The match is close: முறைவேண்டுநர்க்கும் குறைவேண்டுநர்க்கும் ... இடைத்தெரிந்து உணரும் இருள்தீர் காட்சி is the positive form of the Kural's எண்பதத்தான் ஓரா முறைசெய்யா. But the idyll does not limit the Kural; it extends the duty to include giving, so the link is develops, not qualifies.",
+   "text_issue": null,
+   "chapter": 5,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "develops",
+     "teaches_holds": true
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "develops",
+     "teaches_holds": true
+    },
+    {
+     "run": "wave5/ethics",
+     "grader": "g1",
+     "model": "opus",
+     "role": "calibration",
+     "grade": "weak",
+     "better_type": "develops",
+     "teaches_holds": true
+    },
+    {
+     "run": "wave6",
+     "grader": "g1",
+     "model": "sonnet",
+     "role": "calibration",
+     "grade": "weak",
+     "better_type": "agrees",
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The match is close: முறைவேண்டுநர்க்கும் குறைவேண்டுநர்க்கும் ... இடைத்தெரிந்து உணரும் இருள்தீர் காட்சி is the positive form of the Kural's எண்பதத்தான் ஓரா முறைசெய்யா. But the idyll does not limit the Kural; it extends the duty to include giving, so the link is develops, not qualifies.",
+    "The idyll's king answers those who seek justice and those who seek need (முறைவேண்டுநர்க்கும் குறைவேண்டுநர்க்கும்) with discerning sight (இடைத்தெரிந்து உணரும் இருள்தீர் காட்சி), the positive instance of Kural 548's access and examined justice (எண்பதத்தான் ஓரா முறைசெய்யா). The teaches holds, but the idyll exemplifies rather than limits the Kural, so qualifies is the wrong type.",
+    "The idyll's முறைவேண்டுநர்க்கும் குறைவேண்டுநர்க்கும் ... அருளி with இடைத்தெரிந்து உணரும் காட்சி does meet Kural 548's எண்பதம் and முறைசெய்தல். But the idyll adds no limit or condition to the couplet; it shows a king fulfilling it, so qualifies is the wrong type.",
+    "443-446 show a king who gives to both முறைவேண்டுநர் and குறைவேண்டுநர் with discerning sight (இடைத்தெரிந்து உணரும்), which suits Kural 548's easy access and judgment. But it only illustrates the rule and limits it nowhere."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:436-447",
+   "b": "purananuru:185",
+   "type": "qualifies",
+   "grade": "forced",
+   "graders": 3,
+   "disagree": true,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Joining Ilanthiraiyan to Ilanthiraiyan relies on the colophon names alone; nothing in the Tamil of either fixes that the patron and the poet are the same. 'What praise did for a king who wrote about failure' is speculation.",
+   "text_issue": null,
+   "chapter": 5,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    },
+    {
+     "run": "wave6",
+     "grader": "g1",
+     "model": "sonnet",
+     "role": "calibration",
+     "grade": "forced",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Purananuru 185's cart of protection (காவற் சாகாடு) running well only with a skilled driver is a general maxim, and Perumpanarruppadai 443-446 praises justice and gifts (முறைவேண்டுநர்க்கும் குறைவேண்டுநர்க்கும்) with no cart, mire or enmity. The identity of the king rests on both colophons, and 'answers the king's worry' assigns an intention the poem does not show.",
+    "Purananuru 185's cart of protection (காவற் சாகாடு) and the idyll's just giving court (முறைவேண்டுநர்க்கும் குறைவேண்டுநர்க்கும்) share only the good-king topic; the link to one king rests on colophons (poet of 185, patron of the idyll). That the bard's portrait 'answers the king's worry' is not in either text.",
+    "Joining Ilanthiraiyan to Ilanthiraiyan relies on the colophon names alone; nothing in the Tamil of either fixes that the patron and the poet are the same. 'What praise did for a king who wrote about failure' is speculation."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:448-461",
+   "b": "pattupattu:1:38-66",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Both do use the Sur killing and the thunangai: Perumpanatruppadai's கடுஞ்சூர்க் கொன்ற பைம்பூட் சேஎய் பயந்த ... துணங்கையஞ் செல்வி, and the பேய்மகள் who dances துணங்கை in Thirumurugatruppadai. But in Perumpanatruppadai the bard's praise is likened to spirits snapping fingers before the goddess, Murugan's mother, not to praise of Murugan. And the demoness's battlefield dance is not 'the form of Murugan's praise', so teaches misdescribes what was lent.",
+   "text_issue": null,
+   "chapter": 5,
+   "book": "pattupattu",
+   "target_book": "pattupattu",
+   "group_a": "pattupattu",
+   "group_b": "pattupattu",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Both do use the Sur killing and the thunangai: Perumpanatruppadai's கடுஞ்சூர்க் கொன்ற பைம்பூட் சேஎய் பயந்த ... துணங்கையஞ் செல்வி, and the பேய்மகள் who dances துணங்கை in Thirumurugatruppadai. But in Perumpanatruppadai the bard's praise is likened to spirits snapping fingers before the goddess, Murugan's mother, not to praise of Murugan. And the demoness's battlefield dance is not 'the form of Murugan's praise', so teaches misdescribes what was lent."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "pattupattu:4:448-461",
+   "b": "thiruppugazh:15",
+   "type": "tension",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The guide scripts the praise (மள்ளர் மள்ள ... செல்வர் செல்வ ... தண்டா ஈகைநின் பெரும்பெயர் ஏத்தி வந்தேன்); Thiruppugazh 15 repents praising men as கொடைக்குக் கொண்டல் while begging (இரந்து உளத்திற் புண்படும்). Incompatible valuations of patron praise across periods, a defensible tension.",
+   "text_issue": null,
+   "chapter": 5,
+   "book": "pattupattu",
+   "target_book": "thiruppugazh",
+   "group_a": "pattupattu",
+   "group_b": "devotional",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The guide scripts the praise (மள்ளர் மள்ள ... செல்வர் செல்வ ... தண்டா ஈகைநின் பெரும்பெயர் ஏத்தி வந்தேன்); Thiruppugazh 15 repents praising men as கொடைக்குக் கொண்டல் while begging (இரந்து உளத்திற் புண்படும்). Incompatible valuations of patron praise across periods, a defensible tension."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:462-479",
+   "b": "kural:333",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 2,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The idyll gives the couplet's logic in its own words: the king weighs the unlasting world ('நில்லா உலகத்து நிலைமை தூக்கி') so that his own state may shine without end ('வீவின்று விளங்க'), and he gives before the bard has finished ('நின்னிலை தெரியா அளவை'), which matches 'அற்குப ஆங்கே செயல்'. The pair shows the maxim as a patron's practice. The added claim that this came before the Kural is unprovable but secondary.",
+   "text_issue": "line 467 first letter restored (யந்நிலை) from an older e-text",
+   "chapter": 5,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The idyll gives the couplet's logic in its own words: the king weighs the unlasting world ('நில்லா உலகத்து நிலைமை தூக்கி') so that his own state may shine without end ('வீவின்று விளங்க'), and he gives before the bard has finished ('நின்னிலை தெரியா அளவை'), which matches 'அற்குப ஆங்கே செயல்'. The pair shows the maxim as a patron's practice. The added claim that this came before the Kural is unprovable but secondary.",
+    "The idyll gives the patron's gift an explicit reason: 'நில்லா வுலகத்து நிலைமை தூக்கி யந்நிலை யணுகல் வேண்டி' (466-467). It is given at once, 'நின்னிலை தெரியா வளவை' (464). This is the Kural's 'அற்கா இயல்பிற்றுச் செல்வம் ... அற்குப ஆங்கே செயல்' enacted as a king's habit. The idyll weighs the world rather than wealth, and 'before it became a rule' assumes a priority, but the pairing of motive and immediacy is specific."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:462-479",
+   "b": "purananuru:390",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": "same_image",
+   "teaches_holds": false,
+   "reason": "The gift sequence is closely shared: பாசி அன்ன சிதர்வை நீக்கி / முதுநீர்ப் பாசி அன்ன உடைகளைந்து, then new cloth and meat rice. But the teaches rests on the colophon patrons, and Ilanthiraiyan is no more one of the அண்ணல் யானை வேந்தர் than Athiyaman, so 'the boast was rhetoric and not a rule of rank' does not follow.",
+   "text_issue": "Purananuru 390 line 26 lost.",
+   "chapter": 5,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "same_image",
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The gift sequence is closely shared: பாசி அன்ன சிதர்வை நீக்கி / முதுநீர்ப் பாசி அன்ன உடைகளைந்து, then new cloth and meat rice. But the teaches rests on the colophon patrons, and Ilanthiraiyan is no more one of the அண்ணல் யானை வேந்தர் than Athiyaman, so 'the boast was rhetoric and not a rule of rank' does not follow."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:4:480-500",
+   "b": "purananuru:361",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 2,
+   "disagree": true,
+   "better_type": "same_image",
+   "teaches_holds": false,
+   "reason": "The gift pair is real: Purananuru 361.11-12 'புரி மாலையர் பாடினிக்குப் பொலந் தாமரைப் பூம் பாணரொடு' against the idyll's lotus round which no bee hums (481) and 'பொன்னின் தொடையமை மாலை விறலியர் மலைய' (485-486). But the motive the teaches sentence ties them to, knowledge that the world does not last, appears only in Purananuru 361.20-21. The printed span has no such reason, and the cited line 466 lies outside it. 'அன்றே விடுக்கும்' (493) is haste in giving, not a response to impermanence.",
+   "text_issue": null,
+   "chapter": 5,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "same_image",
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The two gifts match closely: Puram 361 has 'புரி மாலையர் பாடினிக்குப் பொலந் தாமரைப் பூம் பாணரொடு', and the idyll has the golden lotus for the bard and the gold garland for the viraliyar (481-486). Both tie giving to the same formula, 'நில்லா உலகத்து' (Puram 361.20; Perumpan. 466), which is outside this span but in the same passage. 'அன்றே விடுக்கும்' (493) does support the idea that the gift is hurried.",
+    "The gift pair is real: Purananuru 361.11-12 'புரி மாலையர் பாடினிக்குப் பொலந் தாமரைப் பூம் பாணரொடு' against the idyll's lotus round which no bee hums (481) and 'பொன்னின் தொடையமை மாலை விறலியர் மலைய' (485-486). But the motive the teaches sentence ties them to, knowledge that the world does not last, appears only in Purananuru 361.20-21. The printed span has no such reason, and the cited line 466 lies outside it. 'அன்றே விடுக்கும்' (493) is haste in giving, not a response to impermanence."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:5:1-23",
+   "b": "akananuru:9",
+   "type": "qualifies",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Akam 9 imagines her at the corner of the house praying at each lizard chirp (பல்லி படுதொறும் பரவி, கன்றுபுகு மாலை). Mullaippattu gives the omen-seeking to the old women (பெருமுது பெண்டிர் விரிச்சி நிற்ப) and has the wife refuse it (காட்டவும் காட்டவும் காணாள்). The qualification is in the Tamil.",
+   "text_issue": null,
+   "chapter": 6,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Akam 9 imagines her at the corner of the house praying at each lizard chirp (பல்லி படுதொறும் பரவி, கன்றுபுகு மாலை). Mullaippattu gives the omen-seeking to the old women (பெருமுது பெண்டிர் விரிச்சி நிற்ப) and has the wife refuse it (காட்டவும் காட்டவும் காணாள்). The qualification is in the Tamil."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:5:1-23",
+   "b": "kar_narpathu:12",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "வலனேர்பு (line 4) is the same verb and side as Kar Narpathu's ஏரும் வலம், where the friend calls it ஐயந்தீர் காட்சி. Mullaippattu line 91 (விசயம் வெல்கொடி யுயரி வலனேர்பு) does close with the army rising on the right, so the frame of sign and fulfilment is in the Tamil.",
+   "text_issue": null,
+   "chapter": 6,
+   "book": "pattupattu",
+   "target_book": "kar_narpathu",
+   "group_a": "pattupattu",
+   "group_b": "kilkanakku_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "வலனேர்பு (line 4) is the same verb and side as Kar Narpathu's ஏரும் வலம், where the friend calls it ஐயந்தீர் காட்சி. Mullaippattu line 91 (விசயம் வெல்கொடி யுயரி வலனேர்பு) does close with the army rising on the right, so the frame of sign and fulfilment is in the Tamil."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:5:1-23",
+   "b": "pattupattu:7:152-166",
+   "type": "same_image",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "இன்னே வருகுவர் occurs in both, followed by the weeping refusal: காட்டவுங் காட்டவுங் காணாள் கலுழ்சிறந்து and உகத்தவை மொழியவும் ஒல்லாள் மிகக்கலுழ்ந்து. The note's first clause is loose, since in Mullaippattu the words are the herd-girl's to the calf, not said to the wife, but teaches states that difference correctly, omen against the nurses' comfort.",
+   "text_issue": null,
+   "chapter": 6,
+   "book": "pattupattu",
+   "target_book": "pattupattu",
+   "group_a": "pattupattu",
+   "group_b": "pattupattu",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "இன்னே வருகுவர் occurs in both, followed by the weeping refusal: காட்டவுங் காட்டவுங் காணாள் கலுழ்சிறந்து and உகத்தவை மொழியவும் ஒல்லாள் மிகக்கலுழ்ந்து. The note's first clause is loose, since in Mullaippattu the words are the herd-girl's to the calf, not said to the wife, but teaches states that difference correctly, omen against the nurses' comfort."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "pattupattu:5:45-66",
+   "b": "purananuru:22",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 2,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Mullaippattu does set women, Yavanas and Mlecchas round the king's chamber, and Puram 22 does have the unarmed sleep under his umbrella ('வாள் மருங்கு இலோர் காப்பு உறங்க'). But 'நீ துஞ்சாய் மாறே' is praise of tireless campaigning, not of literal sleeplessness, so the reverse-side reading needs a generous construal. Puram 22's unguarded camp ('வாய் காவாது பரந்து பட்ட') would have made the contrast sharper, and the note does not use it.",
+   "text_issue": null,
+   "chapter": 6,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Mullaippattu does set women, Yavanas and Mlecchas round the king's chamber, and Puram 22 does have the unarmed sleep under his umbrella ('வாள் மருங்கு இலோர் காப்பு உறங்க'). But 'நீ துஞ்சாய் மாறே' is praise of tireless campaigning, not of literal sleeplessness, so the reverse-side reading needs a generous construal. Puram 22's unguarded camp ('வாய் காவாது பரந்து பட்ட') would have made the contrast sharper, and the note does not use it.",
+    "Purananuru 22 does make the king's wakefulness the guard of others' sleep: 'வாள் மருங்கு இலோர் காப்பு உறங்க' (13) and 'நீ துஞ்சாய் மாறே' (38). But the idyll span shows the guarded chamber at midnight ('நடுநாள்', 50; 'பள்ளி', 64), with hour-keepers hailing the king. It does not say he sleeps, so 'his own sleep needs guarding' is supplied. The sharper contrast, Purananuru 22's camp 'வாய் காவாது', is not the one drawn."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:5:67-79",
+   "b": "akananuru:214",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "கண்படை பெறாஅ and கண்படை இலனே is a genuine verbal echo, and Akananuru 214 does split the sleepless வேந்தன் from the speaker who says அமரும் நம்வயினதுவே. But the claim that Mullaippattu makes the husband the king rests on lines outside the printed span, which the marker flags as uncertain.",
+   "text_issue": null,
+   "chapter": 6,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "கண்படை பெறாஅ and கண்படை இலனே is a genuine verbal echo, and Akananuru 214 does split the sleepless வேந்தன் from the speaker who says அமரும் நம்வயினதுவே. But the claim that Mullaippattu makes the husband the king rests on lines outside the printed span, which the marker flags as uncertain."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:5:67-79",
+   "b": "kural:780",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "சோறுவாய்த்து ஒழிந்தோர் உள்ளியும் puts the patron in the camp thinking of men who repaid his rice with their deaths, and that is the relation புரந்தார் in Kural 780 assumes. The idyll shows him thinking (உள்ளி) rather than weeping, so teaches' 'grief' is slightly generous but grounded.",
+   "text_issue": null,
+   "chapter": 6,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "சோறுவாய்த்து ஒழிந்தோர் உள்ளியும் puts the patron in the camp thinking of men who repaid his rice with their deaths, and that is the relation புரந்தார் in Kural 780 assumes. The idyll shows him thinking (உள்ளி) rather than weeping, so teaches' 'grief' is slightly generous but grounded."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:5:67-79",
+   "b": "pattupattu:7:167-188",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Both kings lie awake in camp over the wounded: கண்படை பெறாஅது ... உள்ளியும் ... சிந்தித்தும் in Mullaippattu, and விழுப்புண் காணிய புறம்போந்து ... பள்ளி கொள்ளான் in Nedunalvadai. The contrast between inward thought with a hand on the bed and an outward round is in the lines. The final point about இன்துயில் rests on line 80, outside the printed span and of uncertain sense.",
+   "text_issue": null,
+   "chapter": 6,
+   "book": "pattupattu",
+   "target_book": "pattupattu",
+   "group_a": "pattupattu",
+   "group_b": "pattupattu",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Both kings lie awake in camp over the wounded: கண்படை பெறாஅது ... உள்ளியும் ... சிந்தித்தும் in Mullaippattu, and விழுப்புண் காணிய புறம்போந்து ... பள்ளி கொள்ளான் in Nedunalvadai. The contrast between inward thought with a hand on the bed and an outward round is in the lines. The final point about இன்துயில் rests on line 80, outside the printed span and of uncertain sense."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "pattupattu:5:80-103",
+   "b": "kar_narpathu:8",
+   "type": "same_image",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The figure is distinctive and shared: காயா அஞ்சன மலர in Mullaippattu 93 and கண்ணியல் அஞ்சனம் தோய்ந்தபோல் காயாவும் in Kar Narpathu 8. In the venba the friend points to it as sign of return; in the idyll it lines the road the returning chariot runs, a true and specific difference.",
+   "text_issue": null,
+   "chapter": 6,
+   "book": "pattupattu",
+   "target_book": "kar_narpathu",
+   "group_a": "pattupattu",
+   "group_b": "kilkanakku_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The figure is distinctive and shared: காயா அஞ்சன மலர in Mullaippattu 93 and கண்ணியல் அஞ்சனம் தோய்ந்தபோல் காயாவும் in Kar Narpathu 8. In the venba the friend points to it as sign of return; in the idyll it lines the road the returning chariot runs, a true and specific difference."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:5:80-103",
+   "b": "pattupattu:7:172-176",
+   "type": "same_image",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The half-line is verbatim apart from the lamp: பாவை விளக்கிற் பரூஉச்சுட ரழல in the wife's room in Mullaippattu 85, and பாண்டில் விளக்கிற் பரூஉச்சுட ரழல on the king's round to see the wounded (விழுப்புண் காணிய புறம்போந்து) in Nedunalvadai. A formula of the night vigil set on opposite sides of a separation is a meaningful shared image.",
+   "text_issue": null,
+   "chapter": 6,
+   "book": "pattupattu",
+   "target_book": "pattupattu",
+   "group_a": "pattupattu",
+   "group_b": "pattupattu",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The half-line is verbatim apart from the lamp: பாவை விளக்கிற் பரூஉச்சுட ரழல in the wife's room in Mullaippattu 85, and பாண்டில் விளக்கிற் பரூஉச்சுட ரழல on the king's round to see the wounded (விழுப்புண் காணிய புறம்போந்து) in Nedunalvadai. A formula of the night vigil set on opposite sides of a separation is a meaningful shared image."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "pattupattu:6:1-23",
+   "b": "kural:545",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The idyll's மழைதொழில் உதவ ... ஆயிரம் வித்தியது விளைய in a world ruled by the ancestors (உலகம் ஆண்ட உயர்ந்தோர் மருக) is the Kural's பெயலும் விளையுளும் under right rule. It adds a cosmic order and inheritance. The appeal to counsel later in the poem lies outside the span.",
+   "text_issue": null,
+   "chapter": 7,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The idyll's மழைதொழில் உதவ ... ஆயிரம் வித்தியது விளைய in a world ruled by the ancestors (உலகம் ஆண்ட உயர்ந்தோர் மருக) is the Kural's பெயலும் விளையுளும் under right rule. It adds a cosmic order and inheritance. The appeal to counsel later in the poem lies outside the span."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:106-130",
+   "b": "akananuru:209",
+   "type": "same_image",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Maduraikkanchi names the victory at Alankanam as the patron's deed (ஆலங் கானத் தஞ்சுவர விறுத்து அரசு பட), and Akananuru 209 uses the same battle's roar (ஆலங் கானத்து ஆர்ப்பினும் பெரிது) as the measure of village gossip. A puram event serving as an akam measure is exactly the kind of named link the note describes.",
+   "text_issue": null,
+   "chapter": 7,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Maduraikkanchi names the victory at Alankanam as the patron's deed (ஆலங் கானத் தஞ்சுவர விறுத்து அரசு பட), and Akananuru 209 uses the same battle's roar (ஆலங் கானத்து ஆர்ப்பினும் பெரிது) as the measure of village gossip. A puram event serving as an akam measure is exactly the kind of named link the note describes."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:152-176",
+   "b": "purananuru:23",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Same king and a real shared catalogue of ruin: கடி காவின் நிலை தொலைச்சி and நெடுநகர் வீழ்ந்த in the idyll against கடிமரம் துளங்கிய காவும் and burnt நல்லில் in Purananuru 23. But the teaches claim that both measure conquest by 'animal couples' fails for Purananuru 23, whose doe has lost her stag to a tiger (அறுமருப்பு எழிற்கலை புலிப்பால் பட்டென); and Kalladanar's poem is itself a catalogue, not a 'single' image.",
+   "text_issue": null,
+   "chapter": 7,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Same king and a real shared catalogue of ruin: கடி காவின் நிலை தொலைச்சி and நெடுநகர் வீழ்ந்த in the idyll against கடிமரம் துளங்கிய காவும் and burnt நல்லில் in Purananuru 23. But the teaches claim that both measure conquest by 'animal couples' fails for Purananuru 23, whose doe has lost her stag to a tiger (அறுமருப்பு எழிற்கலை புலிப்பால் பட்டென); and Kalladanar's poem is itself a catalogue, not a 'single' image."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:177-198",
+   "b": "purananuru:182",
+   "type": "qualifies",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The test of refusing even nectar is shared (Pura 182 இந்திரர் அமிழ்தம் இயைவ தாயினும் ... தமியர் உண்டலும் இலரே; Madurai 197-198 உயர்நிலை உலகம் அமிழ்தொடு பெறினும் பொய்சேண் நீங்கிய வாய்நட் பினையே). The idyll applies to a king's truthfulness the measure Pura 182 gives the anonymous worthy; specific and accurate.",
+   "text_issue": null,
+   "chapter": 7,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The test of refusing even nectar is shared (Pura 182 இந்திரர் அமிழ்தம் இயைவ தாயினும் ... தமியர் உண்டலும் இலரே; Madurai 197-198 உயர்நிலை உலகம் அமிழ்தொடு பெறினும் பொய்சேண் நீங்கிய வாய்நட் பினையே). The idyll applies to a king's truthfulness the measure Pura 182 gives the anonymous worthy; specific and accurate."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:199-209",
+   "b": "kural:657",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "பழிநமக் கெழுக என்னாய் with Vanan's விழுநிதி is the Kural's பழிமலைந்து எய்திய ஆக்கம் refused, and ஈதல் உள்ளமொடு இசைவேட்குவை adds the giving the couplet omits.",
+   "text_issue": null,
+   "chapter": 7,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "பழிநமக் கெழுக என்னாய் with Vanan's விழுநிதி is the Kural's பழிமலைந்து எய்திய ஆக்கம் refused, and ஈதல் உள்ளமொடு இசைவேட்குவை adds the giving the couplet omits."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:210-237",
+   "b": "purananuru:24",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 2,
+   "disagree": true,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "The same poet uses மலர்தலை உலகம் in both, and the idyll's kings who ruled உரைசெல and are more than திரையிடு மணல் are gone. But Purananuru 24 never says fame exempts from death; its famous ones are நின்று விளிந்தோர், who also died. The idyll does not show fame is 'common'; the teaches misstates the short poem.",
+   "text_issue": null,
+   "chapter": 7,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The same poet uses மலர்தலை உலகம் in both, and the idyll's kings who ruled உரைசெல and are more than திரையிடு மணல் are gone. But Purananuru 24 never says fame exempts from death; its famous ones are நின்று விளிந்தோர், who also died. The idyll does not show fame is 'common'; the teaches misstates the short poem.",
+    "The shared phrase is exact, மலர்தலை உலகம், and the claims really pull against each other. Purananuru 24 closes with those who did not pass with the many but stayed in fame (பலர்செலச் செல்லாது நின்று விளிந்தோரே), while Maduraikkanchi 235-237 counts kings who ruled with fame spreading (உரைசெல) as more than the sand (திரையிடு மணலினும் பலரே) and gone (கழிந்தோரே). The same-poet claim rests on the colophons (Mangudi Kizhar, with Mangudi Maruthanar as a variant)."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:24-42",
+   "b": "purananuru:26",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The same battlefield-sacrifice figure is in both: தொடித்தோள் துடுப்பின் துழந்த வல்சி in Puram 26 and தொடித் தோட்கை துடுப் பாக ஆடுற்ற ஊன் சோறு in the idyll, for the same Pandya. Puram 26 sets it beside the Vedic வேள்வி முற்றிய, and the idyll names பிற் பெயராப் படையோர்க்கு, so each adds what the other lacks. That the poet is the same rests on the colophon.",
+   "text_issue": null,
+   "chapter": 7,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The same battlefield-sacrifice figure is in both: தொடித்தோள் துடுப்பின் துழந்த வல்சி in Puram 26 and தொடித் தோட்கை துடுப் பாக ஆடுற்ற ஊன் சோறு in the idyll, for the same Pandya. Puram 26 sets it beside the Vedic வேள்வி முற்றிய, and the idyll names பிற் பெயராப் படையோர்க்கு, so each adds what the other lacks. That the poet is the same rests on the colophon."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:261-270",
+   "b": "paripadal:17:22-39",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Both describe the Parankunram crowd: Maduraikkanchi counts it as one sound of the marutham land (தண்பரங் குன்றிற் கலிகொள் சும்மை), and Paripadal 17 makes it the hill's beauty (அனைய, பரங்குன்றின் அணி). The difference is true, but it is mostly the difference between a city catalogue and a hymn. 'Became, in the devotional songs' implies a historical change that the pair cannot show.",
+   "text_issue": "lines 264 and 269 repaired",
+   "chapter": 7,
+   "book": "pattupattu",
+   "target_book": "paripadal",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_devotional",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Both describe the Parankunram crowd: Maduraikkanchi counts it as one sound of the marutham land (தண்பரங் குன்றிற் கலிகொள் சும்மை), and Paripadal 17 makes it the hill's beauty (அனைய, பரங்குன்றின் அணி). The difference is true, but it is mostly the difference between a city catalogue and a hymn. 'Became, in the devotional songs' implies a historical change that the pair cannot show."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:410-430",
+   "b": "kural:17",
+   "type": "qualifies",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Maduraikkanchi's sea is not lessened by the clouds' taking nor swollen by the rivers' inflow (மழைகொளக் குறையாது புனல்புக மிகாது), and the market is compared to it (கொளக்கொளக் குறையாது தரத்தர மிகாது). Kural 17 says the sea would fail if the cloud did not give back (தான்நல்காதாகி விடின்), which adds the condition that sustains the fullness.",
+   "text_issue": null,
+   "chapter": 8,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Maduraikkanchi's sea is not lessened by the clouds' taking nor swollen by the rivers' inflow (மழைகொளக் குறையாது புனல்புக மிகாது), and the market is compared to it (கொளக்கொளக் குறையாது தரத்தர மிகாது). Kural 17 says the sea would fail if the cloud did not give back (தான்நல்காதாகி விடின்), which adds the condition that sustains the fullness."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:468-488",
+   "b": "kural:30",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 2,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Both define அந்தணர, but the idyll already joins right conduct and love ('அறநெறி பிழையா அன்புடை நெஞ்சின் பெரியோர்'), so the Kural's 'அறவோர் ... செந்தண்மை' is no clean move away from Veda and rite. The teaches sentence's 'deliberate redefinition of a status the court poem took for granted' claims an intent and an order the texts do not show.",
+   "text_issue": null,
+   "chapter": 8,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Both define அந்தணர, but the idyll already joins right conduct and love ('அறநெறி பிழையா அன்புடை நெஞ்சின் பெரியோர்'), so the Kural's 'அறவோர் ... செந்தண்மை' is no clean move away from Veda and rite. The teaches sentence's 'deliberate redefinition of a status the court poem took for granted' claims an intent and an order the texts do not show.",
+    "The shared word is real: the idyll's 'அந்தணர் பள்ளி' (474), and the Kural's 'அந்தணர் என்போர் அறவோர்'. But the idyll already puts 'அறநெறி பிழையா அன்புடை நெஞ்சின் பெரியோர்' (472) into its account, in the middle of the list and not last. So the claim that the couplet moves the definition 'to the one trait the idyll mentions last' misdescribes the idyll, and 'deliberate redefinition' of this poem is unsupported."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:489-506",
+   "b": "kural:118",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The balance image is shared and used for the same thing, judging without leaning: Kural 118 சமன்செய்து சீர்தூக்குங் கோல்போல் ... ஒருபால் கோடாமை, and Maduraikkanchi's court ஞெமன்கோ லன்ன செம்மைத்தாகி. The idyll states the condition as setting aside அச்சமும் அவலமும் ஆர்வமும், செற்றமும் உவகையும. That gives the couplet's 'first making level' a named content.",
+   "text_issue": null,
+   "chapter": 8,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The balance image is shared and used for the same thing, judging without leaning: Kural 118 சமன்செய்து சீர்தூக்குங் கோல்போல் ... ஒருபால் கோடாமை, and Maduraikkanchi's court ஞெமன்கோ லன்ன செம்மைத்தாகி. The idyll states the condition as setting aside அச்சமும் அவலமும் ஆர்வமும், செற்றமும் உவகையும. That gives the couplet's 'first making level' a named content."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:489-506",
+   "b": "purananuru:6",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The balance word is shared: ஞெமன்கோல் அன்ன செம்மைத்து of the அறங்கூறு அவையம் against தெரிகோல் ஞமன்ன் போல ஒரு திறம் பற்றல் இலியரோ wished on the king. The idyll moves the impartiality to a court and names what it must put away (அச்சமும் அவலமும் ஆர்வமும் ... செற்றமும் உவகையும்), which Puram 6 does not, so the teaches sentence is true and specific.",
+   "text_issue": "purananuru:6 line 9 ஞமன்ன் has a doubled final consonant, probably a misprint for ஞமன்.",
+   "chapter": 8,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The balance word is shared: ஞெமன்கோல் அன்ன செம்மைத்து of the அறங்கூறு அவையம் against தெரிகோல் ஞமன்ன் போல ஒரு திறம் பற்றல் இலியரோ wished on the king. The idyll moves the impartiality to a court and names what it must put away (அச்சமும் அவலமும் ஆர்வமும் ... செற்றமும் உவகையும்), which Puram 6 does not, so the teaches sentence is true and specific."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:562-589",
+   "b": "kural:913",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 3,
+   "disagree": true,
+   "better_type": "tension",
+   "teaches_holds": true,
+   "reason": "The idyll does name the deceit and the draining of wealth (மாயப் பொய்பல கூட்டிக் கவவுக்கரந்து, வளந்தப வாங்கி) inside its praise of the city, and Kural 913 condemns the same பொய்ம்மை முயக்கம். So it is one practice with opposite verdicts, which is closer to tension than to qualification. The claim that the moralist's chapter 'answers' the court poet asserts a direction of influence that neither text shows.",
+   "text_issue": null,
+   "chapter": 8,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave5/epic",
+     "grader": "g1",
+     "model": "opus",
+     "role": "calibration",
+     "grade": "weak",
+     "better_type": "tension",
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The terms match: மாயப் பொய்பல கூட்டிக் கவவுக்கரந்து and வளந்தப வாங்கி in the idyll against பொருட்பெண்டிர் பொய்ம்மை முயக்கம் in the Kural. The idyll sets this among the sights of the city, with unflattering images of the men (வறும்பூத் துறக்கும் ... வண்டினம், பழந்தேர் ... பறவை), while the Kural recoils from it. The pairing shows the moral verdict narrowing what praise poetry described, as the teaches says.",
+    "The idyll itself names the deceit and the draining (மாயப் பொய்பல கூட்டிக் கவவுக்கரந்து, வளந்தப வாங்கி) inside its picture of the night city, and Kural 913 condemns the same false embrace (பொய்ம்மை முயக்கம்) as clasping a stranger's corpse. The pair shows one practice admitted in praise and condemned in ethics, which is specific.",
+    "The idyll does name the deceit and the draining of wealth (மாயப் பொய்பல கூட்டிக் கவவுக்கரந்து, வளந்தப வாங்கி) inside its praise of the city, and Kural 913 condemns the same பொய்ம்மை முயக்கம். So it is one practice with opposite verdicts, which is closer to tension than to qualification. The claim that the moralist's chapter 'answers' the court poet asserts a direction of influence that neither text shows."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:604-619",
+   "b": "pattupattu:1:218-226",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Both name the velan's veri (Murugu 222 வேலன் தைஇய வெறியயர் களனும்; Madurai 611 அருங்கடி வேலன் முருகொடு வளைஇ). But in Madurai the pregnant women worship with the priestess (கடுஞ்சூன் மகளிர் பேணிக் ... சாலினி மடுப்ப), and the velan is set 'on one side' (ஒருசார்); the claim that the veri served pregnancy rests on joining two separate scenes, and Murugu 220 already puts the rites in every town.",
+   "text_issue": null,
+   "chapter": 8,
+   "book": "pattupattu",
+   "target_book": "pattupattu",
+   "group_a": "pattupattu",
+   "group_b": "pattupattu",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Both name the velan's veri (Murugu 222 வேலன் தைஇய வெறியயர் களனும்; Madurai 611 அருங்கடி வேலன் முருகொடு வளைஇ). But in Madurai the pregnant women worship with the priestess (கடுஞ்சூன் மகளிர் பேணிக் ... சாலினி மடுப்ப), and the velan is set 'on one side' (ஒருசார்); the claim that the veri served pregnancy rests on joining two separate scenes, and Murugu 220 already puts the rites in every town."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "pattupattu:6:687-699",
+   "b": "purananuru:23",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Same king, same raiders (கூளியர் in both) and same fire (ஊர்சுடு விளக்கு / வெவ்வெரி நைப்ப). The idyll's spoils flowing into Madurai like the Ganges to the sea are the other end of Purananuru 23's ஆளில் அத்தம், which is a specific and true pairing.",
+   "text_issue": null,
+   "chapter": 8,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Same king, same raiders (கூளியர் in both) and same fire (ஊர்சுடு விளக்கு / வெவ்வெரி நைப்ப). The idyll's spoils flowing into Madurai like the Ganges to the sea are the other end of Purananuru 23's ஆளில் அத்தம், which is a specific and true pairing."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:725-746",
+   "b": "kural:528",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "நீர்யார் என்னாது முறைகருதுபு சூட்டி does set honour by an order of deeds, and it is a fair gloss on வரிசையா நோக்கின். But Kural 528 sits among verses on kin (the many who 'live looking to it' are kin and dependants), so using a war-honours scene to settle வரிசை as merit is suggestive, not shown.",
+   "text_issue": null,
+   "chapter": 8,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "நீர்யார் என்னாது முறைகருதுபு சூட்டி does set honour by an order of deeds, and it is a fair gloss on வரிசையா நோக்கின். But Kural 528 sits among verses on kin (the many who 'live looking to it' are kin and dependants), so using a war-honours scene to settle வரிசை as merit is suggestive, not shown."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:747-763",
+   "b": "purananuru:15",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Maduraikkanchi measures the feast by a நெடியோன் who ate with தொல் ஆணை நல் ஆசிரியர் trained in the வேள்வித் துறை of பல் சாலை முது குடுமி, and Purananuru 15 praises that king's sacrifices (யூபம் நட்ட வியன்களம் பலகொல்). A puram name becoming a line of teachers and a standard is shown by the Tamil.",
+   "text_issue": null,
+   "chapter": 8,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Maduraikkanchi measures the feast by a நெடியோன் who ate with தொல் ஆணை நல் ஆசிரியர் trained in the வேள்வித் துறை of பல் சாலை முது குடுமி, and Purananuru 15 praises that king's sacrifices (யூபம் நட்ட வியன்களம் பலகொல்). A puram name becoming a line of teachers and a standard is shown by the Tamil."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:747-763",
+   "b": "purananuru:72",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Puram 72 stakes இரப்போர்க்கு ஈயா இன்மை and புலவர் பாடாது வரைக with Maangudi Maruthan named as chief poet. Maduraikkanchi, by that poet about the same king, shows வரையா வாயில் and பாணர் வருக ... யாணர்ப் புலவரொடு, so the vow and its keeping are set side by side.",
+   "text_issue": null,
+   "chapter": 8,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Puram 72 stakes இரப்போர்க்கு ஈயா இன்மை and புலவர் பாடாது வரைக with Maangudi Maruthan named as chief poet. Maduraikkanchi, by that poet about the same king, shows வரையா வாயில் and பாணர் வருக ... யாணர்ப் புலவரொடு, so the vow and its keeping are set side by side."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:764-782",
+   "b": "naladiyar:6",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The idyll closes with மகிழ்ந்தினிது உறைமதி ... வரைந்துநீ பெற்ற நல்லூழியையே and Naladiyar 6 with வழங்குமின், both from a bounded span (இழைத்தநாள் எல்லை). The span 764-782 shows praise and wine, not the king's giving, so 'after showing the king's giving' is loose. Reading வரைந்து as the bound of life is the marker's.",
+   "text_issue": null,
+   "chapter": 8,
+   "book": "pattupattu",
+   "target_book": "naladiyar",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The idyll closes with மகிழ்ந்தினிது உறைமதி ... வரைந்துநீ பெற்ற நல்லூழியையே and Naladiyar 6 with வழங்குமின், both from a bounded span (இழைத்தநாள் எல்லை). The span 764-782 shows praise and wine, not the king's giving, so 'after showing the king's giving' is loose. Reading வரைந்து as the bound of life is the marker's."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:764-782",
+   "b": "purananuru:6",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "The sun and moon pair is real (முந்நீர் நாப்பண் ஞாயிறு போலவும் பன்மீன் நடுவண் திங்கள் போலவும் for shining among kin, against Puram 6 மதியம் போலவும் ... ஞாயிறு போலவும் மன்னிய for lasting). But the claim that the idyll withholds lastingness rests on reading வரைந்துநீ பெற்ற நல்லூழி as a bounded span, and 781 still says மகிழ்ந்தினி துறைமதி. The sun-moon formula is common praise, not the dynasty's.",
+   "text_issue": null,
+   "chapter": 8,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The sun and moon pair is real (முந்நீர் நாப்பண் ஞாயிறு போலவும் பன்மீன் நடுவண் திங்கள் போலவும் for shining among kin, against Puram 6 மதியம் போலவும் ... ஞாயிறு போலவும் மன்னிய for lasting). But the claim that the idyll withholds lastingness rests on reading வரைந்துநீ பெற்ற நல்லூழி as a bounded span, and 781 still says மகிழ்ந்தினி துறைமதி. The sun-moon formula is common praise, not the dynasty's."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:6:764-782",
+   "b": "purananuru:72",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "The connection is real only through the colophon (same king, Maangudi Maruthanar as poet of the idyll and as named in மாங்குடி மருதன் தலைவன் ஆக). The 'X தலைவன் ஆக' formula is ordinary phrasing, and the idyll does not answer the vow; teaches builds an answer-in-kind on that formula and on the colophon.",
+   "text_issue": null,
+   "chapter": 8,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The connection is real only through the colophon (same king, Maangudi Maruthanar as poet of the idyll and as named in மாங்குடி மருதன் தலைவன் ஆக). The 'X தலைவன் ஆக' formula is ordinary phrasing, and the idyll does not answer the vow; teaches builds an answer-in-kind on that formula and on the colophon."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:7:1-20",
+   "b": "akananuru:264",
+   "type": "same_image",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The verbal frame is close: Ak 264 musundai (வாலிய மலர), வரிவெண் கோடல், கோவலர் with நீர்திகழ் கண்ணியர், ending கூதிர்நின் றன்றால் பொழுதே; Nedunalvadai has முசுண்டை, கோடல் ... கண்ணி நீரலைக் கலாவ, கோவலர, and the core text closes the passage கூதிர்நின் றன்றாற் போதே (line 72). Pairing the wife's question about the camp with the idyll's camp ending is specific. Small slip: the idyll's cowherds move to other ground, not home.",
+   "text_issue": null,
+   "chapter": 9,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The verbal frame is close: Ak 264 musundai (வாலிய மலர), வரிவெண் கோடல், கோவலர் with நீர்திகழ் கண்ணியர், ending கூதிர்நின் றன்றால் பொழுதே; Nedunalvadai has முசுண்டை, கோடல் ... கண்ணி நீரலைக் கலாவ, கோவலர, and the core text closes the passage கூதிர்நின் றன்றாற் போதே (line 72). Pairing the wife's question about the camp with the idyll's camp ending is specific. Small slip: the idyll's cowherds move to other ground, not home."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:7:101-114",
+   "b": "pattupattu:5:59-66",
+   "type": "same_image",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Yavanas appear in both: as makers of the lamp-figures (யவனர் இயற்றிய வினைமாண் பாவை) and as tent guards (வன்கண் யவனர்). But Nedunalvadai says only that the figures were Yavana work, not that Yavanas entered the queen's rooms, and the two idylls do not concern one king, so 'the king trusted these foreigners with the light of his queen's rooms and with his own person' is not in the Tamil.",
+   "text_issue": null,
+   "chapter": 9,
+   "book": "pattupattu",
+   "target_book": "pattupattu",
+   "group_a": "pattupattu",
+   "group_b": "pattupattu",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Yavanas appear in both: as makers of the lamp-figures (யவனர் இயற்றிய வினைமாண் பாவை) and as tent guards (வன்கண் யவனர்). But Nedunalvadai says only that the figures were Yavana work, not that Yavanas entered the queen's rooms, and the two idylls do not concern one king, so 'the king trusted these foreigners with the light of his queen's rooms and with his own person' is not in the Tamil."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "pattupattu:7:136-156",
+   "b": "pattupattu:5:1-23",
+   "type": "qualifies",
+   "grade": "sound",
+   "graders": 2,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The same words இன்னே வருகுவர் stand in Mullaippattu 16 (the herd-girl to the calf, read as omen by the old women) and Nedunalvadai 155 (the foster mothers' comfort), and in both the woman will not be comforted (காணாள் கலுழ்சிறந்து; ஒல்லாள் மிகக்கலுழ்ந்து). The teaches sentence is accurate that one poem goes on to the return and the other does not, so the pair shows the same words as omen and as mere speech.",
+   "text_issue": null,
+   "chapter": 9,
+   "book": "pattupattu",
+   "target_book": "pattupattu",
+   "group_a": "pattupattu",
+   "group_b": "pattupattu",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The same words இன்னே வருகுவர் stand in Mullaippattu 16 (the herd-girl to the calf, read as omen by the old women) and Nedunalvadai 155 (the foster mothers' comfort), and in both the woman will not be comforted (காணாள் கலுழ்சிறந்து; ஒல்லாள் மிகக்கலுழ்ந்து). The teaches sentence is accurate that one poem goes on to the return and the other does not, so the pair shows the same words as omen and as mere speech.",
+    "இன்னே வருகுவர் occurs in both: as the nurses' comforting talk in Nedunalvadai 155 (உகத்தவை மொழியவும் ஒல்லாள் மிகக்கலுழ்ந்து) and as the herd girl's words to the calf taken for a விரிச்சி omen in Mullaippattu 16 (காட்டவும் காட்டவும் காணாள் கலுழ்சிறந்து). That one idyll's promise is an omen the poem fulfils and the other's is speech it never fulfils is a true and specific contrast; the omen's authority qualifies the plain comfort."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "pattupattu:7:157-166",
+   "b": "akananuru:136",
+   "type": "same_image",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "The astral image is shared (செல்வனொடு நிலைஇய உரோகிணி / திங்கட் சகடம் மண்டிய துகள்தீர் கூட்டத்து). But the queen's own wedding is nowhere in Nedunalvadai, so reading her sigh as a wedding memory needs a generous inference from one other poem.",
+   "text_issue": "pattupattu:7 lines 157-158 are obscure",
+   "chapter": 9,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The astral image is shared (செல்வனொடு நிலைஇய உரோகிணி / திங்கட் சகடம் மண்டிய துகள்தீர் கூட்டத்து). But the queen's own wedding is nowhere in Nedunalvadai, so reading her sigh as a wedding memory needs a generous inference from one other poem."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:7:167-188",
+   "b": "akananuru:214",
+   "type": "qualifies",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The camp image is truly shared: rain, a camp, a king who does not sleep (கண்படை இலனே; நள்ளென் யாமத்தும் பள்ளி கொள்ளான்). In Nedunalvadai it follows the prayer இன்னே முடிகதில் அம்ம, and in Akananuru 214 it comes beside அமரும் நம்வயினதுவே and the imagined lonely evening. The different framing is specific.",
+   "text_issue": null,
+   "chapter": 9,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The camp image is truly shared: rain, a camp, a king who does not sleep (கண்படை இலனே; நள்ளென் யாமத்தும் பள்ளி கொள்ளான்). In Nedunalvadai it follows the prayer இன்னே முடிகதில் அம்ம, and in Akananuru 214 it comes beside அமரும் நம்வயினதுவே and the imagined lonely evening. The different framing is specific."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:7:167-188",
+   "b": "kural:776",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "விழுப்புண் is shared: ஒளிறுவாள் விழுப்புண் காணிய புறம்போந்து, against விழுப்புண் படாதநாள். The public/private contrast is fair. But the claim that the honour was 'conferred in person by his king's seeing it' is not in the idyll, which only shows the king looking with kindness (முகனமர்ந்து) at the wounded.",
+   "text_issue": null,
+   "chapter": 9,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "விழுப்புண் is shared: ஒளிறுவாள் விழுப்புண் காணிய புறம்போந்து, against விழுப்புண் படாதநாள். The public/private contrast is fair. But the claim that the honour was 'conferred in person by his king's seeing it' is not in the idyll, which only shows the king looking with kindness (முகனமர்ந்து) at the wounded."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:7:167-188",
+   "b": "pattupattu:5:59-79",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 3,
+   "disagree": true,
+   "better_type": "agrees",
+   "teaches_holds": true,
+   "reason": "Nedunalvadai 186-187 has the king sleepless at midnight walking (பள்ளி கொள்ளான் சிலரொடு திரிதரும்) to see wounds; Mullaippattu 67-76 has him sleepless (கண்படை பெறாது) thinking of wounded elephants and fallen men. The shared care is real, but one does not extend the other, so 'develops' is the wrong type.",
+   "text_issue": null,
+   "chapter": 9,
+   "book": "pattupattu",
+   "target_book": "pattupattu",
+   "group_a": "pattupattu",
+   "group_b": "pattupattu",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave6",
+     "grader": "g1",
+     "model": "sonnet",
+     "role": "calibration",
+     "grade": "weak",
+     "better_type": "agrees",
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The parallel is close. Mullaippattu's king lies awake (கண்படை பெறாஅது) thinking of the wounded elephants and of those who fell repaying their food (சோறுவாய்த்து ஒழிந்தோர் உள்ளியும்). Nedunalvadai's king, not taking to bed at midnight (நள்ளென் யாமத்தும் பள்ளி கொள்ளான்), goes out to see the wounds (விழுப்புண் காணிய புறம்போந்து). The pair shows one care in two forms, thought in one poem and action in the other.",
+    "A specific shared motif of the two camp idylls: Mullaippattu's king lies sleepless thinking of the elephant whose trunk was cut, of men who died repaying their food (சோறுவாய்த்து ஒழிந்தோர் உள்ளியும்) and the wounded horses (செவிசாய்த்து உண்ணாது உயங்கும் மா சிந்தித்தும்), while Nedunalvadai's king goes out at midnight to see the wounds (விழுப்புண் காணிய புறம்போந்து ... நள்ளென் யாமத்தும் பள்ளி கொள்ளான்). Thought versus deed is accurate.",
+    "Nedunalvadai 186-187 has the king sleepless at midnight walking (பள்ளி கொள்ளான் சிலரொடு திரிதரும்) to see wounds; Mullaippattu 67-76 has him sleepless (கண்படை பெறாது) thinking of wounded elephants and fallen men. The shared care is real, but one does not extend the other, so 'develops' is the wrong type."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "pattupattu:8:1-22",
+   "b": "akananuru:98",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Akananuru 98 stops at dread: 'இம்மறை அலர்ஆ காமையோ அரிதே'. The idyll starts from rites already spent, 'அறியுநர் வினாயும் ... வேறுபல் லுருவிற் கடவுட் பேணி ... எய்யா மையலை நீயும் வருந்துதி', and goes on to disclosure, 'நாமறிவுறாலிற் பழியு முண்டோ'. So the misread sickness is shown as the turning point, as the teaches says.",
+   "text_issue": null,
+   "chapter": 10,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Akananuru 98 stops at dread: 'இம்மறை அலர்ஆ காமையோ அரிதே'. The idyll starts from rites already spent, 'அறியுநர் வினாயும் ... வேறுபல் லுருவிற் கடவுட் பேணி ... எய்யா மையலை நீயும் வருந்துதி', and goes on to disclosure, 'நாமறிவுறாலிற் பழியு முண்டோ'. So the misread sickness is shown as the turning point, as the teaches says."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:8:1-22",
+   "b": "kural:964",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Kurinjippattu 13-18 argues that broken jewels can be rejoined (கலங்கெடின் புணரும்) but lost worth cannot be washed clean even by sages (மாசறக் கழீஇ ... ஐயர்க்கும் அந்நிலை எளிய என்னார்), which applies Kural 964's fall from station that cannot be undone. Teaches correctly says the maxim drives the disclosure (அறத்தொடு நிற்றல்).",
+   "text_issue": null,
+   "chapter": 10,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Kurinjippattu 13-18 argues that broken jewels can be rejoined (கலங்கெடின் புணரும்) but lost worth cannot be washed clean even by sages (மாசறக் கழீஇ ... ஐயர்க்கும் அந்நிலை எளிய என்னார்), which applies Kural 964's fall from station that cannot be undone. Teaches correctly says the maxim drives the disclosure (அறத்தொடு நிற்றல்)."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:8:128-145",
+   "b": "akananuru:48",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "The hunter's question about the beast is shared (கெடுதியு முடையேன்; யாதோ, மற்று அம் மாதிறம் படர்). But Akananuru 48 already has the girls' silence (மெய்மறைபு ஒடுங்கி நாணி நின்றனெம்) and his reply to it (நும் வாய்ப் பொய்யும் உளவோ), so the idyll does not supply what the short poem lacks.",
+   "text_issue": "Kurinjippattu line 142 has a variant (என்றனன).",
+   "chapter": 10,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The hunter's question about the beast is shared (கெடுதியு முடையேன்; யாதோ, மற்று அம் மாதிறம் படர்). But Akananuru 48 already has the girls' silence (மெய்மறைபு ஒடுங்கி நாணி நின்றனெம்) and his reply to it (நும் வாய்ப் பொய்யும் உளவோ), so the idyll does not supply what the short poem lacks."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:8:166-186",
+   "b": "pattupattu:1:218-226",
+   "type": "same_image",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Kurinjippattu 175-177 (நெடுவேள் அணங்குறு மகளிர் ஆடுகளம் கடுப்பத் திணிநிலைக் கடம்பின்) and the guide poem's வெறியயர் களனும் ... புதுப்பூங் கடம்பும் share the kadamba and veri ground. But the teaches' point (the mother's suspected seizure returning as simile) is internal to Kurinjippattu; the guide poem's list adds nothing to it.",
+   "text_issue": null,
+   "chapter": 10,
+   "book": "pattupattu",
+   "target_book": "pattupattu",
+   "group_a": "pattupattu",
+   "group_b": "pattupattu",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Kurinjippattu 175-177 (நெடுவேள் அணங்குறு மகளிர் ஆடுகளம் கடுப்பத் திணிநிலைக் கடம்பின்) and the guide poem's வெறியயர் களனும் ... புதுப்பூங் கடம்பும் share the kadamba and veri ground. But the teaches' point (the mother's suspected seizure returning as simile) is internal to Kurinjippattu; the guide poem's list adds nothing to it."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "pattupattu:8:187-199",
+   "b": "akananuru:2",
+   "type": "same_image",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The formula is the same, by the same poet: பாறை நெடுஞ்சுனை ... விளைந்த தேறல் in both, drunk unknowingly (அறியாது உண்ட / நீர்செத்து அயின்ற). Akananuru 2 draws the moral itself (குறியா இன்பம் ... குறித்த இன்பம் நினக்கு எவன் அரிய), while in the idyll the drunk peacock only marks the plenty of the man's land. The point that the image's force depends on its place in the speech is shown by the pair.",
+   "text_issue": null,
+   "chapter": 10,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The formula is the same, by the same poet: பாறை நெடுஞ்சுனை ... விளைந்த தேறல் in both, drunk unknowingly (அறியாது உண்ட / நீர்செத்து அயின்ற). Akananuru 2 draws the moral itself (குறியா இன்பம் ... குறித்த இன்பம் நினக்கு எவன் அரிய), while in the idyll the drunk peacock only marks the plenty of the man's land. The point that the image's force depends on its place in the speech is shown by the pair."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:8:200-214",
+   "b": "kural:81",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The man's oath in Kurinjippattu promises a house where the couple eat what is left after guests (விருந்துண் டெஞ்சிய மிச்சில் ... நின்னோ டுண்டலும் புரைவது), the purpose Kural 81 gives household life (விருந்தோம்பி வேளாண்மை செய்தற் பொருட்டு). The guest ethic as the content of a love oath is specific.",
+   "text_issue": null,
+   "chapter": 10,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The man's oath in Kurinjippattu promises a house where the couple eat what is left after guests (விருந்துண் டெஞ்சிய மிச்சில் ... நின்னோ டுண்டலும் புரைவது), the purpose Kural 81 gives household life (விருந்தோம்பி வேளாண்மை செய்தற் பொருட்டு). The guest ethic as the content of a love oath is specific."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:8:23-34",
+   "b": "purananuru:45",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Kurinjippattu's simile இகன்மீக் கடவும் இருபெரு வேந்தர் வினையிடை நின்ற சான்றோர் போல names exactly the position Kovur Kizhar takes in Purananuru 45 (ஒருவீர் தோற்பினும் தோற்ப நும் குடியே). The puram poem shows from inside why the go-between's இருபேர் அச்சம் has no safe side.",
+   "text_issue": null,
+   "chapter": 10,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Kurinjippattu's simile இகன்மீக் கடவும் இருபெரு வேந்தர் வினையிடை நின்ற சான்றோர் போல names exactly the position Kovur Kizhar takes in Purananuru 45 (ஒருவீர் தோற்பினும் தோற்ப நும் குடியே). The puram poem shows from inside why the go-between's இருபேர் அச்சம் has no safe side."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:8:234-246",
+   "b": "akananuru:122",
+   "type": "qualifies",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The idyll's list echoes Akananuru 122 closely: காவலர் கடுகினும் / காவலர் கடுகுவர், கதநாய் குரைப்பினும / ஞாளி, நீ துயில் எழினும் / அன்னை துஞ்சாள், நிலவு வெளிப்படினும் / மண்டிலம் நின்று விரியும். The difference teaches names is in the Tamil: the girl complains to her friend (பல்முட்டின்றால் நம் களவே), while the idyll tells the mother he goes back without anger (பெயரினும் முனியலுறாஅன்).",
+   "text_issue": null,
+   "chapter": 10,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The idyll's list echoes Akananuru 122 closely: காவலர் கடுகினும் / காவலர் கடுகுவர், கதநாய் குரைப்பினும / ஞாளி, நீ துயில் எழினும் / அன்னை துஞ்சாள், நிலவு வெளிப்படினும் / மண்டிலம் நின்று விரியும். The difference teaches names is in the Tamil: the girl complains to her friend (பல்முட்டின்றால் நம் களவே), while the idyll tells the mother he goes back without anger (பெயரினும் முனியலுறாஅன்)."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:8:247-261",
+   "b": "akananuru:112",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": "develops",
+   "teaches_holds": true,
+   "reason": "Both deploy the night path's beasts (Akananuru 112: bear, tiger; Kurinjippattu 252-259: tiger, bear, elephant, crocodiles, spirits) to press for marriage, one to the man (வரையின் எவனோ) and one, per the thurai அறத்தொடு நிற்றல், toward the mother. The teaches sentence is specific and true, but neither verse limits the other, so 'qualifies' does not fit.",
+   "text_issue": null,
+   "chapter": 10,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "develops",
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Both deploy the night path's beasts (Akananuru 112: bear, tiger; Kurinjippattu 252-259: tiger, bear, elephant, crocodiles, spirits) to press for marriage, one to the man (வரையின் எவனோ) and one, per the thurai அறத்தொடு நிற்றல், toward the mother. The teaches sentence is specific and true, but neither verse limits the other, so 'qualifies' does not fit."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:9:1-28",
+   "b": "kural:13",
+   "type": "tension",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Kural 13 has hunger torment the whole world when விண் பொய்ப்பின். Pattinappalai has வான்பொய்ப்பினும் தான்பொய்யா கடற்காவிரி. On the literal reading the delta is the exception that the Kural's rule does not allow, and the note names that reading. மலைத்தலைய (line 6) does give the river a source in the hills, though 'begins as rain' adds to it a little.",
+   "text_issue": null,
+   "chapter": 11,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Kural 13 has hunger torment the whole world when விண் பொய்ப்பின். Pattinappalai has வான்பொய்ப்பினும் தான்பொய்யா கடற்காவிரி. On the literal reading the delta is the exception that the Kural's rule does not allow, and the note names that reading. மலைத்தலைய (line 6) does give the river a source in the hills, though 'begins as rain' adds to it a little."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:9:118-141",
+   "b": "kural:756",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 2,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The rare term உல்கு ties them: Kural 756 lists உல்கு பொருள் among the king's wealth, and Pattinappalai shows the men who guard the king's revenue levying உல்கு daily without shortfall (உல்குசெயக் குறைபடாது) and stamping goods with the tiger (புலிபொறித்து). A bare category beside a working institution is a specific gain.",
+   "text_issue": null,
+   "chapter": 11,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The rare term உல்கு ties them: Kural 756 lists உல்கு பொருள் among the king's wealth, and Pattinappalai shows the men who guard the king's revenue levying உல்கு daily without shortfall (உல்குசெயக் குறைபடாது) and stamping goods with the tiger (புலிபொறித்து). A bare category beside a working institution is a specific gain.",
+    "The idyll's உல்குசெயக் குறைபடாது, with officers who guard the king's revenue (நல்லிறைவன் பொருள்காக்கும் தொல்லிசைத் தொழில்மாக்கள்) and the tiger seal (புலிபொறித்துப் புறம்போக்கி), is a concrete instance of Kural 756's உல்கு பொருள. The rule and its working institution is a specific pairing; 'earlier poets' is a fair chronological gloss."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:9:142-158",
+   "b": "pattupattu:1:218-226",
+   "type": "develops",
+   "grade": "forced",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Thirumurugatruppadai's list already includes town festivals, crossroads and common grounds (ஊரூர் கொண்ட விழவு, சதுக்கமும் சந்தியும், மன்றமும்), not only the hills, and nothing dates one idyll before the other. The claimed movement of the rite from hills to city is unsupported.",
+   "text_issue": null,
+   "chapter": 11,
+   "book": "pattupattu",
+   "target_book": "pattupattu",
+   "group_a": "pattupattu",
+   "group_b": "pattupattu",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "forced",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Thirumurugatruppadai's list already includes town festivals, crossroads and common grounds (ஊரூர் கொண்ட விழவு, சதுக்கமும் சந்தியும், மன்றமும்), not only the hills, and nothing dates one idyll before the other. The claimed movement of the rite from hills to city is unsupported."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "pattupattu:9:194-217",
+   "b": "kural:120",
+   "type": "agrees",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "தமவும் பிறவும் ஒப்ப நாடி (Pattinappalai 209) is close to the Kural's பிறவும் தமபோல், and line 210 (கொள்வதூஉம் மிகைகொளாது கொடுப்பதூஉம் குறைகொடாது) adds the test at the scale. The agreement is specific; 'first ... before' assumes the idyll's priority, and the port is not named in this span, but the core holds.",
+   "text_issue": null,
+   "chapter": 11,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "தமவும் பிறவும் ஒப்ப நாடி (Pattinappalai 209) is close to the Kural's பிறவும் தமபோல், and line 210 (கொள்வதூஉம் மிகைகொளாது கொடுப்பதூஉம் குறைகொடாது) adds the test at the scale. The agreement is specific; 'first ... before' assumes the idyll's priority, and the port is not named in this span, but the core holds."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:9:194-217",
+   "b": "kural:256",
+   "type": "qualifies",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Lines 197 to 199 praise கொலைகடிந்தும் with beasts crowding the meat-sellers' huts (விலைஞர்குரம்பை மாவீண்டவும்), while the same idyll fries flesh at line 177 (ஊன்பொரிக்கும் ஒலிமுன்றில்) and eats prawn and tortoise at lines 63 and 64, as the note says (checked in kg/core). Set against Kural 256's argument that buying causes killing (விலைப்பொருட்டால் ஊன்றருவா ரில்), the pair shows the couplet holding the eater answerable where the idyll did not. Assigning the ban to the ploughmen alone follows the marker's uncertain parsing, but the teaching does not depend on it.",
+   "text_issue": null,
+   "chapter": 11,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Lines 197 to 199 praise கொலைகடிந்தும் with beasts crowding the meat-sellers' huts (விலைஞர்குரம்பை மாவீண்டவும்), while the same idyll fries flesh at line 177 (ஊன்பொரிக்கும் ஒலிமுன்றில்) and eats prawn and tortoise at lines 63 and 64, as the note says (checked in kg/core). Set against Kural 256's argument that buying causes killing (விலைப்பொருட்டால் ஊன்றருவா ரில்), the pair shows the couplet holding the eater answerable where the idyll did not. Assigning the ban to the ploughmen alone follows the marker's uncertain parsing, but the teaching does not depend on it."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:9:218-228",
+   "b": "akananuru:123",
+   "type": "tension",
+   "grade": "forced",
+   "graders": 2,
+   "disagree": true,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Akananuru 123 does not condemn staying. The heart is rebuked for swinging between the two (ஒன்றிற் கொள்ளாய், like the tide that comes இறவொடு and goes கோதையொடு), and the man speaks இடைச்சுரத்து, already on the road. Pattinappalai's வாரேன் ... நெஞ்சே is a decision in a different situation. So the claimed incompatibility and the 'very reproach' of the teaches stretch 123's reproach of indecision into a reproach of staying.",
+   "text_issue": null,
+   "chapter": 11,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "forced",
+     "better_type": null,
+     "teaches_holds": false
+    },
+    {
+     "run": "wave4",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "qualifies",
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Akananuru 123 does not condemn staying. The heart is rebuked for swinging between the two (ஒன்றிற் கொள்ளாய், like the tide that comes இறவொடு and goes கோதையொடு), and the man speaks இடைச்சுரத்து, already on the road. Pattinappalai's வாரேன் ... நெஞ்சே is a decision in a different situation. So the claimed incompatibility and the 'very reproach' of the teaches stretch 123's reproach of indecision into a reproach of staying.",
+    "Both are the man speaking to his heart about wealth and love (வாரேன் வாழிய நெஞ்சே; அழிதகவு உடைமதி வாழிய நெஞ்சே), a real connection. But Akananuru 123 does not treat staying as cowardice: it rebukes the heart for swinging between going and staying like the tide (ஒன்றிற் கொள்ளாய்), and its man is already on the road (இடைச்சுரத்து), so there is no incompatible claim, and the Pattinappalai's refusal does not answer that reproach."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:9:218-228",
+   "b": "akananuru:213",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "பட்டினம் பெறினும் ... வாரேன் and உலகம் அமிழ்தொடு பெறினும் ... நீடலோ இலரே share a common 'even if given' hyperbole, not a distinctive formula. Calling it a 'convention of comfort' from one friend's use, and citing line 104 of the idyll which the packet does not print, overclaims.",
+   "text_issue": "Pattinappalai lines 219 and 221 repaired.",
+   "chapter": 11,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "பட்டினம் பெறினும் ... வாரேன் and உலகம் அமிழ்தொடு பெறினும் ... நீடலோ இலரே share a common 'even if given' hyperbole, not a distinctive formula. Calling it a 'convention of comfort' from one friend's use, and citing line 104 of the idyll which the packet does not print, overclaims."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:9:229-251",
+   "b": "pattupattu:1:218-226",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The shared phrase is real (Pattinappalai 249 கந்துடைப் பொதியில் ... பலர்தொழ; Thirumurugatruppadai 226 பொதியிலும் கந்துடை நிலையினும), and the pair confirms the post-hall as a place of worship. But 'measured against the Murugan poem' is the reader's juxtaposition, and the claim reduces to a shared institution.",
+   "text_issue": null,
+   "chapter": 11,
+   "book": "pattupattu",
+   "target_book": "pattupattu",
+   "group_a": "pattupattu",
+   "group_b": "pattupattu",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The shared phrase is real (Pattinappalai 249 கந்துடைப் பொதியில் ... பலர்தொழ; Thirumurugatruppadai 226 பொதியிலும் கந்துடை நிலையினும), and the pair confirms the post-hall as a place of worship. But 'measured against the Murugan poem' is the reader's juxtaposition, and the claim reduces to a shared institution."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "pattupattu:9:229-251",
+   "b": "purananuru:7",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "Same king and same subject, the burning and wasting of enemy fields, and Puram 7's நல்ல இல்ல ஆகுபவால் is a real edge. But the teaches says the idyll lists the ravage 'without reserve'; Pattinappalai 239-251 dwells on the cost, fields and pools merging dry (செறுவும் வாவிய மயங்கி நீரற்று) and the worshipped hall turned to an elephants' stable, so the contrast of frames that the teaches draws does not hold.",
+   "text_issue": null,
+   "chapter": 11,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "Same king and same subject, the burning and wasting of enemy fields, and Puram 7's நல்ல இல்ல ஆகுபவால் is a real edge. But the teaches says the idyll lists the ravage 'without reserve'; Pattinappalai 239-251 dwells on the cost, fields and pools merging dry (செறுவும் வாவிய மயங்கி நீரற்று) and the worshipped hall turned to an elephants' stable, so the contrast of frames that the teaches draws does not hold."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:9:271-291",
+   "b": "purananuru:66",
+   "type": "qualifies",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Purananuru 66 ranks the defeated king, ashamed of his back wound (புறப்புண் நாணி, வடக் கிருந்தோனே), above Karikal (நின்னினும் நல்லன்). The Pattinappalai's catalogue gives the ethic of not turning back only to his side (ஒருவேமெனப் புறக்கொடாது). Same patron, same ethic, opposite placement: the pair shows what the praise leaves out.",
+   "text_issue": "Line 290 is a repaired reading (ஒருவேனெப் to ஒருவேமெனப்), and whose men lines 289 to 291 describe is not certain.",
+   "chapter": 11,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Purananuru 66 ranks the defeated king, ashamed of his back wound (புறப்புண் நாணி, வடக் கிருந்தோனே), above Karikal (நின்னினும் நல்லன்). The Pattinappalai's catalogue gives the ethic of not turning back only to his side (ஒருவேமெனப் புறக்கொடாது). Same patron, same ethic, opposite placement: the pair shows what the praise leaves out."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:9:292-301",
+   "b": "kural:546",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": "same_image",
+   "teaches_holds": true,
+   "reason": "The வேல்/கோல் pair is genuinely shared: Kural 546 வேலன்று வென்றி தருவது ... கோல், and the idyll's வேலினும் வெய்ய கானம் ... கோலினுந் தண்ணிய ... தோளே. The contrast in ranking is true, but 'an older fixed figure that the Kural argued with' is a historical claim two verses cannot carry.",
+   "text_issue": null,
+   "chapter": 11,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "same_image",
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The வேல்/கோல் pair is genuinely shared: Kural 546 வேலன்று வென்றி தருவது ... கோல், and the idyll's வேலினும் வெய்ய கானம் ... கோலினுந் தண்ணிய ... தோளே. The contrast in ranking is true, but 'an older fixed figure that the Kural argued with' is a historical claim two verses cannot carry."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:10:158-169",
+   "b": "kural:90",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Malaipadukadam opens the welcome with the patron's name (விறல்வேள் வயிரியம் எனினே), and the hosts are welcoming in manner (கேளாது கெழீஇ, இனிய கூறி). That is a real contrast with the Kural's householder duty. But Kural 90 is about the host's changed face, which the idyll does not touch, so the hinge is thin.",
+   "text_issue": null,
+   "chapter": 12,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Malaipadukadam opens the welcome with the patron's name (விறல்வேள் வயிரியம் எனினே), and the hosts are welcoming in manner (கேளாது கெழீஇ, இனிய கூறி). That is a real contrast with the Kural's householder duty. But Kural 90 is about the host's changed face, which the idyll does not touch, so the hinge is thin."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:10:21-37",
+   "b": "pattupattu:2:1-14",
+   "type": "same_image",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Both idylls lay the lute's leather cover like a line of fine hair on a woman's belly with the same verb: Porunaratruppadai lines 6-7 இளஞ்சூற் செய்யோள் அவ்வயிற்று ஐதுமயிர் ஒழுகிய தோற்றம் போல, and Malaipadukadam lines 30-32 வதுவை நாறும் ... மடந்தை ... அடங்குமயிர் ஒழுகிய அவ்வாய் கடுப்ப. Teaches is accurate that it is a bards' set figure varied in the woman's stage of life.",
+   "text_issue": null,
+   "chapter": 12,
+   "book": "pattupattu",
+   "target_book": "pattupattu",
+   "group_a": "pattupattu",
+   "group_b": "pattupattu",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Both idylls lay the lute's leather cover like a line of fine hair on a woman's belly with the same verb: Porunaratruppadai lines 6-7 இளஞ்சூற் செய்யோள் அவ்வயிற்று ஐதுமயிர் ஒழுகிய தோற்றம் போல, and Malaipadukadam lines 30-32 வதுவை நாறும் ... மடந்தை ... அடங்குமயிர் ஒழுகிய அவ்வாய் கடுப்ப. Teaches is accurate that it is a bards' set figure varied in the woman's stage of life."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "pattupattu:10:287-307",
+   "b": "purananuru:281",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Malaipadukadam 302-304 has hill wives sing over tiger wounds on their husbands' chests as காப்பு, and Purananuru 281 calls for காஞ்சி பாடி ... காக்கம் over a warrior's wound. A specific rite appears in both a war and a hunting setting, which supports the teaches sentence.",
+   "text_issue": null,
+   "chapter": 12,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Malaipadukadam 302-304 has hill wives sing over tiger wounds on their husbands' chests as காப்பு, and Purananuru 281 calls for காஞ்சி பாடி ... காக்கம் over a warrior's wound. A specific rite appears in both a war and a hunting setting, which supports the teaches sentence."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:10:67-94",
+   "b": "akananuru:349",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": "agrees",
+   "teaches_holds": false,
+   "reason": "The echo is real. The idyll has பலர்புறங் கண்டவர் அருங்கலந் தரீஇப் புலவோர்க்குச் சுரக்கும் (71-72) and Akananuru 349 has அருங்குறும்பு எறிந்த பெருங்கல வெறுக்கை சூழாது சுரக்கும் நன்னன். Only சுரக்கும் and கலம் repeat, so the 'fixed two-line formula' claim is not shown. The note's முனைபாழ் (line 59) lies outside the printed span. The teaches sentence also never says what the akam poet does with the name, which is to set Nannan's giving against the husband who left.",
+   "text_issue": null,
+   "chapter": 12,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "agrees",
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The echo is real. The idyll has பலர்புறங் கண்டவர் அருங்கலந் தரீஇப் புலவோர்க்குச் சுரக்கும் (71-72) and Akananuru 349 has அருங்குறும்பு எறிந்த பெருங்கல வெறுக்கை சூழாது சுரக்கும் நன்னன். Only சுரக்கும் and கலம் repeat, so the 'fixed two-line formula' claim is not shown. The note's முனைபாழ் (line 59) lies outside the printed span. The teaches sentence also never says what the akam poet does with the name, which is to set Nannan's giving against the husband who left."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:10:308-322",
+   "b": "akananuru:349",
+   "type": "same_image",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "The phrase அருங்குறும்பு எறிந்த is shared and Nannan is the patron of the idyll and named in Akam 349, so the connection is real. But in Akam 349 it is Nannan himself who breaks the forts (உரன்மலி உள்ளமொடு முனைபா ழாக அருங்குறும்பு எறிந்த பெருங்கல வெறுக்கை), and in the idyll the 'fort' sits in a honey-gathering scene and may be the hive; the chain of people's raids feeding the patron's gifts is not in either poem.",
+   "text_issue": null,
+   "chapter": 13,
+   "book": "pattupattu",
+   "target_book": "akananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_akam",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The phrase அருங்குறும்பு எறிந்த is shared and Nannan is the patron of the idyll and named in Akam 349, so the connection is real. But in Akam 349 it is Nannan himself who breaks the forts (உரன்மலி உள்ளமொடு முனைபா ழாக அருங்குறும்பு எறிந்த பெருங்கல வெறுக்கை), and in the idyll the 'fort' sits in a honey-gathering scene and may be the hive; the chain of people's raids feeding the patron's gifts is not in either poem."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:10:373-389",
+   "b": "pattupattu:10:547-566",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The shared word is பெயர்: names planted on hero-stones (செல்லா நல்லிசைப் பெயரொடு நட்ட) and men who died taking their names with them (தம்பெயர் தம்மொடு கொண்டனர் மாய்ந்தோர்). The giving/not-giving contrast turns on one reading of இலமென மலர்ந்த கையர் (552), which the Tamil does not fix.",
+   "text_issue": null,
+   "chapter": 13,
+   "book": "pattupattu",
+   "target_book": "pattupattu",
+   "group_a": "pattupattu",
+   "group_b": "pattupattu",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The shared word is பெயர்: names planted on hero-stones (செல்லா நல்லிசைப் பெயரொடு நட்ட) and men who died taking their names with them (தம்பெயர் தம்மொடு கொண்டனர் மாய்ந்தோர்). The giving/not-giving contrast turns on one reading of இலமென மலர்ந்த கையர் (552), which the Tamil does not fix."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "pattupattu:10:478-491",
+   "b": "purananuru:151",
+   "type": "qualifies",
+   "grade": "forced",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "The open gate (அருங்கடி வாயில் அயிராது புகுமின்) against the shut door (பாடுநர்க்கு அடைத்த கதவின்) is a neat contrast, but it rests on making Malaipadukadam's Nannan son of Nannan the same house as Purananuru 151's பொலந்தேர் நன்னன், which neither poem states. Teaches itself admits the 'if'.",
+   "text_issue": null,
+   "chapter": 13,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "forced",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The open gate (அருங்கடி வாயில் அயிராது புகுமின்) against the shut door (பாடுநர்க்கு அடைத்த கதவின்) is a neat contrast, but it rests on making Malaipadukadam's Nannan son of Nannan the same house as Purananuru 151's பொலந்தேர் நன்னன், which neither poem states. Teaches itself admits the 'if'."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:10:492-513",
+   "b": "kural:90",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Kural 90 makes the host's look decide the guest (முகந்திரிந்து நோக்கக் குழையும் விருந்து). The idyll gives the reverse from a whole town: கண்டோர் எல்லாம் அமர்ந்து இனிது நோக்கி, விருந்து இறை அவரவர் எதிர்கொள, before any gift. The extension from one household's face to the town's look as a mark of the patron's realm is specific and true to the lines.",
+   "text_issue": null,
+   "chapter": 13,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Kural 90 makes the host's look decide the guest (முகந்திரிந்து நோக்கக் குழையும் விருந்து). The idyll gives the reverse from a whole town: கண்டோர் எல்லாம் அமர்ந்து இனிது நோக்கி, விருந்து இறை அவரவர் எதிர்கொள, before any gift. The extension from one household's face to the town's look as a mark of the patron's realm is specific and true to the lines."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:10:532-546",
+   "b": "kural:223",
+   "type": "agrees",
+   "grade": "weak",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Malaipadukadam's சென்றது நொடியவும் விடாஅன் and its praise of the line (குன்றா நல்லிசைச் சென்றோர் உம்பல்) fit one reading of Kural 223. But the couplet's உரையாமை more naturally refers to the giver not saying இலன், and the link turns on a secondary sense that the Tamil does not fix; the teaches honestly says so.",
+   "text_issue": null,
+   "chapter": 13,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Malaipadukadam's சென்றது நொடியவும் விடாஅன் and its praise of the line (குன்றா நல்லிசைச் சென்றோர் உம்பல்) fit one reading of Kural 223. But the couplet's உரையாமை more naturally refers to the giver not saying இலன், and the link turns on a secondary sense that the Tamil does not fix; the teaches honestly says so."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:10:547-566",
+   "b": "kural:233",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Malaipadukadam sets the nameless dead (தம்பெயர் தம்மொடு கொண்டனர் மாய்ந்தோர்) as more than the sands of the Seyaru, and draws 'புகழொடுங் கழிக நம் வரைந்த நாள்': the Kural's only survivor measured against a vast forgetting. The uncertain line 552 does not affect the point.",
+   "text_issue": null,
+   "chapter": 13,
+   "book": "pattupattu",
+   "target_book": "kural",
+   "group_a": "pattupattu",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Malaipadukadam sets the nameless dead (தம்பெயர் தம்மொடு கொண்டனர் மாய்ந்தோர்) as more than the sands of the Seyaru, and draws 'புகழொடுங் கழிக நம் வரைந்த நாள்': the Kural's only survivor measured against a vast forgetting. The uncertain line 552 does not affect the point."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "pattupattu:10:547-566",
+   "b": "purananuru:165",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 1,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Both turn on the rich who die with their names (தம்பெயர் தம்மொடு கொண்டனர் மாய்ந்தோர் ... மணலினும் பலரே / செல்வர் ... ஈஇயாமையின் ... தொடர்பு அறியலரே) against those who leave fame. In the idyll the conclusion is the patron's own resolve (புகழொடுங் கழிகநம் வரைந்த நாளென), which supports the teaches sentence on the marked reading of line 552.",
+   "text_issue": "Malaipadukadam 552 இலமென மலர்ந்த கையர் admits two readings",
+   "chapter": 13,
+   "book": "pattupattu",
+   "target_book": "purananuru",
+   "group_a": "pattupattu",
+   "group_b": "ettuthogai_puram",
+   "marker_model": "opus",
+   "proposed_in": "wave4",
+   "grades": [
+    {
+     "run": "wave4",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Both turn on the rich who die with their names (தம்பெயர் தம்மொடு கொண்டனர் மாய்ந்தோர் ... மணலினும் பலரே / செல்வர் ... ஈஇயாமையின் ... தொடர்பு அறியலரே) against those who leave fame. In the idyll the conclusion is the patron's own resolve (புகழொடுங் கழிகநம் வரைந்த நாளென), which supports the teaches sentence on the marked reading of line 552."
+   ],
+   "within_group": false
+  }
+ ],
+ "retags": [
+  {
+   "id": "pattupattu:5:1-23",
+   "chapter": 6,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": true,
+      "carrier": [
+       "சிறுதாம்பு தொடுத்த பசலைக் கன்று",
+       12
+      ]
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "grader_only",
+   "iraicchi_graders_agree": "0/1"
+  },
+  {
+   "id": "pattupattu:5:80-103",
+   "chapter": 6,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": true,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": [
+     "பிரலையொடு",
+     99
+    ]
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": true,
+      "carrier": [
+       "இரலையொடு மட மான்",
+       99
+      ]
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "confirmed",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:6:545-561",
+   "chapter": 8,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:6:562-589",
+   "chapter": 8,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    },
+    "wave4.g2": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "2/2",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "2/2"
+  },
+  {
+   "id": "pattupattu:6:700-724",
+   "chapter": 8,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:7:1-20",
+   "chapter": 9,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    },
+    "wave4.g2": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "2/2",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "2/2"
+  },
+  {
+   "id": "pattupattu:7:115-135",
+   "chapter": 9,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:7:136-156",
+   "chapter": 9,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:7:157-166",
+   "chapter": 9,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:7:167-188",
+   "chapter": 9,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:7:21-35",
+   "chapter": 9,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:7:36-48",
+   "chapter": 9,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:7:49-72",
+   "chapter": 9,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:8:1-22",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:8:107-127",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:8:128-145",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false,
+      "rejected_candidate": [
+       "ஆகாண் விடையின்",
+       136
+      ],
+      "failed": 2
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:8:146-165",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:8:166-186",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false,
+      "rejected_candidate": [
+       "வாழை",
+       179
+      ],
+      "failed": 2
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:8:187-199",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false,
+      "rejected_candidate": [
+       "தோகை",
+       191
+      ],
+      "failed": 3
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:8:200-214",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:8:215-233",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false,
+      "rejected_candidate": [
+       "மாலை",
+       230
+      ],
+      "failed": 3
+     },
+     "iraicchi": {
+      "present": false,
+      "rejected_candidate": [
+       "அன்றில்",
+       219
+      ],
+      "failed": 4
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:8:23-34",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false,
+      "rejected_candidate": [
+       "சான்றோர்",
+       28
+      ],
+      "failed": 2
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:8:234-246",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false,
+      "rejected_candidate": [
+       "துணைபுண ரேறு",
+       235
+      ],
+      "failed": 2
+     },
+     "iraicchi": {
+      "present": false
+     }
+    },
+    "wave4.g2": {
+     "ullurai": {
+      "present": false,
+      "rejected_candidate": [
+       "துணைபுணர் ஏற்றின்",
+       235
+      ],
+      "failed": 2
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "2/2",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "2/2"
+  },
+  {
+   "id": "pattupattu:8:247-261",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false,
+      "rejected_candidate": [
+       "வலைப்படு மஞ்ஞையின்",
+       250
+      ],
+      "failed": 2
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:8:35-53",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:8:54-61",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:8:62-82",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    },
+    "wave4.g2": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "2/2",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "2/2"
+  },
+  {
+   "id": "pattupattu:8:83-98",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:8:99-106",
+   "chapter": 10,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:9:218-228",
+   "chapter": 11,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false,
+      "rejected_candidate": [
+       "கொடுவரிக் குருளை",
+       221
+      ],
+      "failed": 2
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  },
+  {
+   "id": "pattupattu:9:292-301",
+   "chapter": 11,
+   "round": "wave4",
+   "marker": {
+    "ullurai": false,
+    "iraicchi": false,
+    "ullurai_vehicle": null,
+    "iraicchi_carrier": null
+   },
+   "graders": {
+    "wave4.g1": {
+     "ullurai": {
+      "present": false,
+      "rejected_candidate": [
+       "கானம்",
+       300
+      ],
+      "failed": 2
+     },
+     "iraicchi": {
+      "present": false
+     }
+    }
+   },
+   "ullurai_status": "absent",
+   "ullurai_graders_agree": "1/1",
+   "iraicchi_status": "absent",
+   "iraicchi_graders_agree": "1/1"
+  }
+ ]
+}
