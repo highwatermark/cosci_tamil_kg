@@ -137,6 +137,14 @@ STYLE = ('Museum-quality sculptural rendering. Objects rendered in their true ma
          'warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat '
          'green on all four sides.')
 NEW = {  # id -> subject line (the full prompt is subject + STYLE)
+    'V4-lotus-pod': ('Birth alike for all: a single bronze lotus seed pod held upright on its curved stem, every seed in its '
+                     'face identical and set in the same small round chamber, touched with restrained gold leaf.'),
+    'V4-banyan': ('One kin: a small banyan tree cast in bronze, one broad crown held up by many aerial roots that have become '
+                  'trunks of their own, all from one tree, on a low granite base.'),
+    'V4-two-bowls': ('The same food for you and me: two identical clay bowls of rice set side by side on one green-black '
+                     'banana leaf, the same portion in each.'),
+    'V4-designed-pod': ('The same lotus seed pod shape remade in clear glass and bronze, each seed in its face a different '
+                        'engineered capsule glowing a different soft colour, held upright on a slender bronze stem.'),
     'V4-parasol': 'A royal parasol of a Tamil king: a tall domed parasol of white silk stretched over fine ivory ribs, '
                   'a narrow gold-leaf rim and a small lotus-bud finial, on a long carved bronze staff with ring mouldings, '
                   'standing upright and open, seen from slightly below.',
@@ -278,7 +286,7 @@ CHAPTERS = [
          ('civaka_cintamani:2058', None, 'the god in its shrine, whose mouth seemed to speak (தெய்வந் தான்வாய் விட்டுரைத்திட்டது)', 'V4-shrine', None)],
      'links': [(1, 0), (2, 0)],
      'forward': 'The stones learned to speak. In 2526 we ask the epic’s question: who stands behind the voice?',
-     'then': '18-T', 'future': 'V4-speaker', 'transform': 'the planted stone becomes the speaker; the many hands rise before it (V4-hands)'},
+     'then': '18-T', 'future': 'V4-speaker', 'transform': 'the planted stone becomes the speaker'},
     {'id': 'yogam', 'accent': '#1f5b57', 'subtitle': 'the breath that kicks Death away',
      'verses': [
          ('tirumanthiram:571', None, 'the breath drawn in and let out through both nostrils (இருகாலும் பூரிக்குங் காற்று)', 'V4-breath', None),
@@ -298,16 +306,18 @@ CHAPTERS = [
      'forward': ('The tank a king was told to dig became a merit for any man of means, then a renunciant’s gift of food. '
                  'In 2526, with rain less certain, we ask who will bind the water now.'),
      'then': '04-F2', 'future': 'V4-rain-basin', 'transform': 'the earth-bunded ēri becomes a terraced basin of stone and glass'},
-    {'id': 'samugam', 'accent': '#6b2c63', 'subtitle': 'the widow’s leaf and the sun',
+    {'id': 'samugam', 'accent': '#6b2c63', 'subtitle': 'birth alike for all, and one kin',
      'verses': [
-         ('purananuru:246', [6, 7, 8, 9], 'the leaf-wrapped rice ball and the bed of pebbles (அடை, பிண்டம், பரற்பெய் பள்ளி)', '07-E',
-          'அடை is a leaf; 07-E is an empty banana leaf'),
-         ('manimekalai:2:42-57', [42, 43, 44, 45], 'the smith’s bellows (ஊது உலைக் குருகு)', 'V4-bellows', None),
-         ('silappathikaram:18:34-53', [50, 51, 52, 53], 'the blazing sun Kannaki questions (காய்கதிர்ச் செல்வன்)', '31-F1', None)],
-     'links': [(1, 0), (2, 0)],
-     'forward': ('A widow was told what to eat, where to sleep and when to burn, and Kannaki turned and asked the sun. '
-                 'In 2526 we ask who still writes the rules for another person’s life.'),
-     'then': '07-E', 'future': '07-F', 'transform': 'the leaf in its row becomes the rack where rules now run'},
+         ('kural:972', None, 'birth alike for all living beings (பிறப்பொக்கும் எல்லா உயிர்க்கும்)', 'V4-lotus-pod',
+          'the couplet names no thing; a lotus pod of identical seeds stands for one birth shared by all'),
+         ('tirumanthiram:2104', [1, 2], 'one kin and one God (ஒன்றே குலமும் ஒருவனே தேவனும்)', 'V4-banyan',
+          'one kin as one tree: a banyan whose many trunks are one tree'),
+         ('siddhar:1288', None, 'food, sleep and pleasure alike for you and me (ஊண்உறக்க போகமும் உமக்கெனக்கும் ஒக்குமே)', 'V4-two-bowls', None)],
+     'links': [(0, 1), (2, 0)],
+     'forward': ('Birth was said to be alike for all, kin one and God one, food and sleep the same for you and me. '
+                 'In 2526 births can be designed; we ask whether birth is still alike for all.'),
+     'then': 'V4-lotus-pod', 'future': 'V4-designed-pod',
+     'transform': 'the lotus pod of identical seeds becomes a glass pod of designed seeds, each glowing a different colour'},
     {'id': 'aivu', 'accent': '#1d4f7a', 'subtitle': 'the bird that drinks the milk and leaves the water',
      'verses': [
          ('thiruppugazh:70', [5, 6, 7, 8], 'endless crores of books (நூல் அனந்த கோடி)', '01-T', None),

@@ -1241,7 +1241,7 @@
      "asset_is": "speaker (the voice without a body)",
      "object_of": "V4-speaker"
     },
-    "transformation": "the planted stone becomes the speaker; the many hands rise before it (V4-hands)"
+    "transformation": "the planted stone becomes the speaker"
    }
   },
   {
@@ -1607,185 +1607,168 @@
    "tamil": "சமூகம்",
    "name": "Society, caste and ritual",
    "accent": "#6b2c63",
-   "subtitle": "the widow’s leaf and the sun",
+   "subtitle": "birth alike for all, and one kin",
    "verses": [
     {
-     "id": "purananuru:246",
-     "book": "purananuru",
-     "group": "ettuthogai_puram",
-     "label_ta": "புறநானூறு 246",
-     "label": "Purananuru 246",
+     "id": "kural:972",
+     "book": "kural",
+     "group": "ethics",
+     "label_ta": "திருக்குறள் 972",
+     "label": "Tirukkural 972",
      "lines": [
       {
-       "n": 6,
-       "ta": "அடைஇடைக் கிடந்த கைபிழி பிண்டம்"
+       "n": 1,
+       "ta": "பிறப்பொக்கும் எல்லா உயிர்க்கும் சிறப்பொவ்வா"
       },
       {
-       "n": 7,
-       "ta": "வெள்என் சாந்தொடு புளிப்பெய்து அட்ட"
-      },
-      {
-       "n": 8,
-       "ta": "வேளை வெந்தை, வல்சி ஆகப்,"
-      },
-      {
-       "n": 9,
-       "ta": "பரற்பெய் பள்ளிப் பாயின்று வதியும்"
+       "n": 2,
+       "ta": "செய்தொழில் வேற்றுமை யான்"
       }
      ],
      "lines_shown_of": [
       1,
-      15
+      2
      ],
-     "reading": "Perunkoppendu, queen of Bhoothapandiyan, rebukes the many elders who will not say 'go' but hold her back with 'stay': she is not one of the wretched widows who, untouched by fragrant ghee, eat leaf-wrapped hand-squeezed rice cooked with white sesame paste and tamarind and boiled velai greens, and sleep on gravel with no mat; let the great pyre of dark logs be hard for them, but for her, since her broad-shouldered husband is dead, a lotus pond full of open flowers and the fire are one.",
+     "reading": "Birth is alike for all living beings, and distinction is unequal because of the difference in the work they do.",
      "uncertain": false,
      "concepts": [
-      "karpu",
-      "kaimmai",
-      "saakkaadu",
-      "vaazhkkaithunai"
+      "perumai",
+      "pirappu",
+      "vinai"
      ],
-     "object": "the leaf-wrapped rice ball and the bed of pebbles (அடை, பிண்டம், பரற்பெய் பள்ளி)",
-     "asset": "07-E",
-     "asset_file": "site/nilai/assets/web/07-E.webp",
-     "asset_is": "empty banana leaf",
-     "image_note": "அடை is a leaf; 07-E is an empty banana leaf"
-    },
-    {
-     "id": "manimekalai:2:42-57",
-     "book": "manimekalai",
-     "group": "epics_great",
-     "label_ta": "மணிமேகலை 2 · ஊரலர் உரைத்த காதை 42–57",
-     "label": "Manimekalai 2, lines 42–57",
-     "lines": [
-      {
-       "n": 42,
-       "ta": "காதலர் இறப்பின் கனை எரி பொத்தி"
-      },
-      {
-       "n": 43,
-       "ta": "ஊது உலைக் குருகின் உயிர்த்து அகத்து அடங்காது"
-      },
-      {
-       "n": 44,
-       "ta": "இன் உயிர் ஈவர் ஈயார் ஆயின்"
-      },
-      {
-       "n": 45,
-       "ta": "நல் நீர்ப் பொய்கையின் நளி எரி புகுவர்"
-      }
-     ],
-     "lines_shown_of": [
-      42,
-      57
-     ],
-     "reading": "Madhavi says that pathini women of the wide world, when their husbands die, give up their lives with sighs like a smith's bellows, or else enter the blazing fire as if a cool pool, or else wear down the body in vows to live again with the beloved, but that Kannaki was of none of these kinds: unable to bear her husband's suffering she twisted off her breast and set the king's city aflame, and Manimekalai, the daughter of that great pathini, will be brought to tapas and never to the evil trade of unreformed conduct.",
-     "uncertain": false,
-     "concepts": [
-      "pathini",
-      "karpu",
-      "thavam",
-      "nonbu"
-     ],
-     "object": "the smith’s bellows (ஊது உலைக் குருகு)",
+     "object": "birth alike for all living beings (பிறப்பொக்கும் எல்லா உயிர்க்கும்)",
      "asset": null,
-     "new_image": "V4-bellows",
-     "prompt": "A village smith's bellows: a leather bag between two carved wooden boards with bronze handles, and a short clay nozzle, half breathed out, as at a forge. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+     "new_image": "V4-lotus-pod",
+     "prompt": "Birth alike for all: a single bronze lotus seed pod held upright on its curved stem, every seed in its face identical and set in the same small round chamber, touched with restrained gold leaf. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "image_note": "the couplet names no thing; a lotus pod of identical seeds stands for one birth shared by all"
     },
     {
-     "id": "silappathikaram:18:34-53",
-     "book": "silappathikaram",
-     "group": "epics_great",
-     "label_ta": "சிலப்பதிகாரம் 18 · துன்ப மாலை 34–53",
-     "label": "Silappathikaram 18, lines 34–53",
+     "id": "tirumanthiram:2104",
+     "book": "tirumanthiram",
+     "group": "devotional",
+     "label_ta": "திருமந்திரம் 2104",
+     "label": "Tirumanthiram 2104",
      "lines": [
       {
-       "n": 50,
-       "ta": "பாய்திரை வேலிப் படுபொருள் நீயறிதி"
+       "n": 1,
+       "ta": "ஒன்றே குலமும் ஒருவனே தேவனும்"
       },
       {
-       "n": 51,
-       "ta": "காய்கதிர்ச் செல்வனே கள்வனோ என்கணவன்"
-      },
-      {
-       "n": 52,
-       "ta": "கள்வனோ அல்லன் கருங்கயற்கண் மாதராய்"
-      },
-      {
-       "n": 53,
-       "ta": "ஒள்ளெரி உண்ணுமிவ் வூரென்ற தொருகுரல்."
+       "n": 2,
+       "ta": "நன்றே நினைமின் நமனில்லை நாணாமே"
       }
      ],
      "lines_shown_of": [
-      34,
-      53
+      1,
+      4
      ],
-     "reading": "Kannaki asks whether, now that the king has erred and his sceptre has strayed from right, she must waste away in grief like the women who lose their husbands to the pyre and keep the hard observances of widowhood, losing even her good name in this life; then she bids the kuravai girls listen and asks the sun, who knows all in the sea-girt world, whether her husband is a thief, and a voice answers that he is not, and that fire will eat this city.",
+     "reading": "Kin is one and God is one; think only good; then there is no death for you and no shame; there is no refuge to go to outside your own mind; stand there, think of him firmly and be saved.",
      "uncertain": true,
      "concepts": [
-      "kodungol",
-      "kaimmai",
-      "pugazh",
-      "aram"
+      "iraivan",
+      "pirappu",
+      "kootru"
      ],
-     "object": "the blazing sun Kannaki questions (காய்கதிர்ச் செல்வன்)",
-     "asset": "31-F1",
-     "asset_file": "site/nilai/assets/web/31-F1.webp",
-     "asset_is": "small sculpted sun, a sphere of polished gold"
+     "object": "one kin and one God (ஒன்றே குலமும் ஒருவனே தேவனும்)",
+     "asset": null,
+     "new_image": "V4-banyan",
+     "prompt": "One kin: a small banyan tree cast in bronze, one broad crown held up by many aerial roots that have become trunks of their own, all from one tree, on a low granite base. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "image_note": "one kin as one tree: a banyan whose many trunks are one tree"
+    },
+    {
+     "id": "siddhar:1288",
+     "book": "siddhar",
+     "group": "devotional",
+     "label_ta": "சிவவாக்கியம் 324 · சிவவாக்கியர்",
+     "label": "Siddhar songs 324, சிவவாக்கியம் (siddhar:1288)",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "ஆணியான ஐம்புலன்கள் அவையும்மொக்குகள் ஒக்குமோ?"
+      },
+      {
+       "n": 2,
+       "ta": "யோனியில் பிறந்திருந்த துன்பமிக்கு மொக்குமோ?"
+      },
+      {
+       "n": 3,
+       "ta": "வீணர்காள் பிதற்றுவீர் மெய்மையே உணர்திரேல்"
+      },
+      {
+       "n": 4,
+       "ta": "ஊண்உறக்க போகமும் உமக்கெனக்கும் ஒக்குமே"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "Are the five senses, the nails that hold us, alike for all or not? Is the heavy suffering of being born from a womb alike or not? Idle men, you prattle; if you realise the truth, food, sleep and pleasure are alike for you and for me.",
+     "uncertain": false,
+     "concepts": [
+      "pirappu",
+      "adakkam",
+      "yaakkai",
+      "meyyunarvu"
+     ],
+     "object": "food, sleep and pleasure alike for you and me (ஊண்உறக்க போகமும் உமக்கெனக்கும் ஒக்குமே)",
+     "asset": null,
+     "new_image": "V4-two-bowls",
+     "prompt": "The same food for you and me: two identical clay bowls of rice set side by side on one green-black banana leaf, the same portion in each. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
     }
    ],
    "links": [
     {
-     "from": "manimekalai:2:42-57",
-     "to": "purananuru:246",
-     "type": "develops",
+     "from": "kural:972",
+     "to": "tirumanthiram:2104",
+     "type": "agrees",
      "grade": "sound",
-     "text": "The queen's single act of defiance, in which the pyre is a cool pond and the austere widowhood she refuses is worse than fire, becomes in the epic a ranked typology of the chaste wife where entering the fire is only the second kind and the vowed austerity she despised is admitted as the third, and all three are then set beneath Kannaki.",
-     "text_field": "teaches",
-     "teaches_holds": true,
+     "text": "Both deny that birth ranks people: the Kural says birth is alike for all and distinction comes from deeds; Tirumular says kin is one and God is one. The Kural keeps a distinction by deeds that Tirumular does not mention.",
+     "text_field": "note",
+     "teaches_holds": null,
      "true_direction": {
-      "s": "manimekalai:2:42-57",
-      "o": "purananuru:246",
-      "symmetric": false,
-      "reads": "manimekalai:2:42-57 develops purananuru:246"
+      "s": "tirumanthiram:2104",
+      "o": "kural:972",
+      "symmetric": true,
+      "reads": "tirumanthiram:2104 and kural:972 (agrees; recorded s to o)"
      },
      "source_file": "kg/groups/bridges.jsonl",
-     "marked_by": "manimekalai_marks"
+     "marked_by": "tirumanthiram_marks"
     },
     {
-     "from": "silappathikaram:18:34-53",
-     "to": "purananuru:246",
-     "type": "qualifies",
+     "from": "siddhar:1288",
+     "to": "kural:972",
+     "type": "agrees",
      "grade": "sound",
-     "text": "Both widows refuse the observances of kaimmai, but the Sangam queen turns to the pyre while Kannaki turns to the sun and the king, so the epic moves the wife's refusal of widowhood from death beside the husband to a demand for justice.",
-     "text_field": "teaches",
-     "teaches_holds": true,
+     "text": "The Kural says birth is alike for all living beings and only deeds distinguish; Sivavakkiyar grounds the same equality in the shared senses, the shared pain of birth and the shared food, sleep and pleasure.",
+     "text_field": "note",
+     "teaches_holds": null,
      "true_direction": {
-      "s": "silappathikaram:18:34-53",
-      "o": "purananuru:246",
-      "symmetric": false,
-      "reads": "silappathikaram:18:34-53 qualifies purananuru:246"
+      "s": "siddhar:1288",
+      "o": "kural:972",
+      "symmetric": true,
+      "reads": "siddhar:1288 and kural:972 (agrees; recorded s to o)"
      },
      "source_file": "kg/groups/bridges.jsonl",
-     "marked_by": "silappathikaram_marks"
+     "marked_by": "siddhar_marks"
     }
    ],
    "forward": {
-    "text": "A widow was told what to eat, where to sleep and when to burn, and Kannaki turned and asked the sun. In 2526 we ask who still writes the rules for another person’s life.",
+    "text": "Birth was said to be alike for all, kin one and God one, food and sleep the same for you and me. In 2526 births can be designed; we ask whether birth is still alike for all.",
     "label": "கற்பனை · imagined",
     "then": {
-     "asset": "07-E",
-     "asset_file": "site/nilai/assets/web/07-E.webp",
-     "asset_is": "empty banana leaf",
-     "object_of": "07-E"
+     "asset": null,
+     "new_image": "V4-lotus-pod",
+     "prompt": "Birth alike for all: a single bronze lotus seed pod held upright on its curved stem, every seed in its face identical and set in the same small round chamber, touched with restrained gold leaf. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "object_of": "V4-lotus-pod"
     },
     "future": {
-     "asset": "07-F",
-     "asset_file": "site/nilai/assets/web/07-F.webp",
-     "asset_is": "open server-rack frame laid long and low like a dining row",
-     "object_of": "07-F"
+     "asset": null,
+     "new_image": "V4-designed-pod",
+     "prompt": "The same lotus seed pod shape remade in clear glass and bronze, each seed in its face a different engineered capsule glowing a different soft colour, held upright on a slender bronze stem. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "object_of": "V4-designed-pod"
     },
-    "transformation": "the leaf in its row becomes the rack where rules now run"
+    "transformation": "the lotus pod of identical seeds becomes a glass pod of designed seeds, each glowing a different colour"
    }
   },
   {

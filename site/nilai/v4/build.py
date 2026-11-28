@@ -453,7 +453,7 @@ for ci, ch in enumerate(CH):
     pts = [vdot[x] for x in vids]
     xs, ys = [q[0] for q in pts], [q[1] for q in pts]
     chapters_js.append({
-        'id': ch['id'], 'ta': ch['tamil'], 'name': ch['name'], 'sub': ch['subtitle'],
+        'id': ch['id'], 'ta': ch['tamil'], 'name': SC.get(ch['id'], {}).get('name', ch['name']), 'sub': ch['subtitle'],
         'acc': ch['accent'], 'start': B[p + 'T']['start'],
         'dots': {x: vdot[x] for x in vids},
         'labs': {v['id']: short_cap(v) for v in ch['verses']},
@@ -593,7 +593,7 @@ cards = [
     ('<article class="card" data-beat="G2"><p class="kick">%s</p><p class="big">Thirteen walks, one question each.</p>'
      '<p class="rd">%s</p><ol class="path two">%s</ol></article>'
      % (E(OP['G2']['kick']), E(OP['G2']['body']),
-        ''.join('<li><span lang="ta">%s</span> %s</li>' % (E(c['tamil']), E(c['name'].split(',')[0].lower())) for c in CH))),
+        ''.join('<li><span lang="ta">%s</span> %s</li>' % (E(c['tamil']), E(SC.get(c['id'], {}).get('name', c['name']).split(',')[0].split(' ·')[0].lower())) for c in CH))),
 ]
 for ci, ch in enumerate(CH):
     p = 'c%d' % ci
@@ -604,7 +604,7 @@ for ci, ch in enumerate(CH):
     cards.append(('<article class="card ctitle" data-beat="%sT" style="--acc:%s">%s<p class="kick">walk %d of 13</p>'
                   '<p class="cta" lang="ta">%s</p><p class="big">%s · <i>%s</i></p><p class="rd clamp">%s</p>'
                   '<button class="more" type="button">read all</button></article>') % (
-        p, acc, frm, ci + 1, E(ch['tamil']), E(ch['name']), E(ch['subtitle']), E(st['walk'])))
+        p, acc, frm, ci + 1, E(ch['tamil']), E(st.get('name', ch['name'])), E(ch['subtitle']), E(st['walk'])))
     sty = 'class="card" style="--acc:%s"' % acc
     cards.append(verse_card(p + 'V1', ch, vs[0], 1).replace('class="card"', sty, 1))
     cards.append(link_card(p + 'L1', ch, ch['links'][0], 1, st['links'][0]).replace('class="card"', sty, 1))
