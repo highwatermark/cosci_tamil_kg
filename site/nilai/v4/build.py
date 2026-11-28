@@ -63,6 +63,30 @@ def aid(d):
     return d.get('asset') or d.get('new_image')
 
 
+# the page's own framing (opening, walks, transitions, 2526 beats), kept apart from the curated corpus
+STORY = json.load(open(HERE / 'story.json', encoding='utf-8'))
+SC = STORY['chapters']
+for ch in CH:
+    if ch['id'] not in SC:
+        fail('story.json has no chapter %s' % ch['id'])
+        continue
+    st = SC[ch['id']]
+    for k in ('walk', 'links', 'meaning', 'question'):
+        if not st.get(k):
+            fail('story.json %s: no %s' % (ch['id'], k))
+    if len(st.get('links', [])) != 2:
+        fail('story.json %s: needs two link sentences' % ch['id'])
+    if ch is not CH[0] and not st.get('from'):
+        fail('story.json %s: no transition from the previous chapter' % ch['id'])
+    # where verses share one object, each verse shows the object in the role its own verse gives it
+    for v in ch['verses']:
+        if v['id'] in STORY['assets']:
+            v['asset'], v['new_image'] = None, STORY['assets'][v['id']]
+    for v in ch['verses']:
+        if v['group'] not in STORY['trad']:
+            fail('story.json: no tradition label for group %s' % v['group'])
+
+
 for ch in CH:
     if len(ch['verses']) != 3 or len(ch['links']) != 2:
         fail('%s: needs 3 verses and 2 links' % ch['id'])
@@ -165,6 +189,32 @@ for g in GROUP_ORDER:
     labels.append({'t': GROUP_LABEL[g], 'x': round(500 + rr * math.cos(a), 1), 'y': round(500 + rr * math.sin(a), 1),
                    'a': round(a, 4), 'r': round(rr, 1),
                    'anchor': 'start' if math.cos(a) > 0.25 else ('end' if math.cos(a) < -0.25 else 'middle')})
+# every book named, small, just inside its cluster (toward the centre), for the first look at the graph
+BOOK_NAME = {
+    'ainkurunuru': 'Ainkurunuru', 'akananuru': 'Akananuru', 'kalittokai': 'Kalittokai', 'kuruntokai': 'Kuruntokai',
+    'natrinai': 'Natrinai', 'patitruppattu': 'Patirruppattu', 'purananuru': 'Purananuru', 'paripadal': 'Paripadal',
+    'pattupattu': 'Pattuppattu', 'acharakkovai': 'Acharakkovai', 'elathi': 'Elathi', 'iniyavai_narpathu': 'Iniyavai Narpathu',
+    'innaa_narpathu': 'Innaa Narpathu', 'kural': 'Tirukkural', 'muthumozhikkanchi': 'Muthumozhikkanchi',
+    'naladiyar': 'Naladiyar', 'nanmanikkadigai': 'Nanmanikkadigai', 'pazhamozhi_nanooru': 'Pazhamozhi Nanooru',
+    'sirupanchamoolam': 'Sirupanchamoolam', 'thirikadugam': 'Thirikadugam', 'ainthinai_aimpathu': 'Ainthinai Aimpathu',
+    'ainthinai_ezhupathu': 'Ainthinai Ezhupathu', 'kainnilai': 'Kainnilai', 'kalavazhi_narpathu': 'Kalavazhi Narpathu',
+    'kar_narpathu': 'Kar Narpathu', 'thinaimalai_nootraimpathu': 'Thinaimalai Nootraimpathu',
+    'thinaimozhi_aimpathu': 'Thinaimozhi Aimpathu', 'civaka_cintamani': 'Civaka Cintamani', 'kundalakesi': 'Kundalakesi',
+    'manimekalai': 'Manimekalai', 'silappathikaram': 'Silappathikaram', 'valayapathi': 'Valayapathi',
+    'naga_kumara_kaviyam': 'Naga Kumara Kaviyam', 'neelakesi': 'Neelakesi', 'soolamani': 'Soolamani',
+    'udayana_kumara_kaviyam': 'Udayana Kumara Kaviyam', 'yasodhara_kaviyam': 'Yasodhara Kaviyam',
+    'siddhar': 'Siddhar songs', 'thiruppugazh': 'Thiruppugazh', 'tirumanthiram': 'Tirumanthiram',
+    'tholkappiyam': 'Tholkappiyam'}
+book_labels = []
+for i, b in enumerate(book_list):
+    if b['b'] not in BOOK_NAME:
+        fail('no display name for book %s' % b['b'])
+        continue
+    rr = scale * ((R + (14 if i % 2 else -14)) - b['rb'] * 0.92 - 7)
+    ca = math.cos(b['a'])
+    book_labels.append({'t': BOOK_NAME[b['b']], 'x': round(500 + rr * ca, 1), 'y': round(500 + rr * math.sin(b['a']), 1),
+                        'g': GROUP_ORDER.index(b['g']), 'n': b['n'],
+                        'anchor': 'end' if ca > 0.3 else ('start' if ca < -0.3 else 'middle')})
 pairs = {}
 for x in SOUND:
     k = tuple(sorted((x['book_a'], x['book_b'])))
@@ -245,6 +295,17 @@ for c in CLIPS.values():
     if not (NILAI / c['src']).exists():
         fail('clip %s missing' % c['src'])
 
+# the window onto 2526 behind each imagined beat: a full scene still (no cut-out), assets/src/S-<chapter>.jpg
+SCENE = {}
+for ch in CH:
+    src, dst = ASSETS / 'src' / ('S-%s.jpg' % ch['id']), IMG / ('S-%s.webp' % ch['id'])
+    if src.exists():
+        if not dst.exists() or dst.stat().st_mtime < src.stat().st_mtime:
+            run(['cwebp', '-quiet', '-q', '80', '-m', '6', '-resize', '960', '0', str(src), '-o', str(dst)])
+        SCENE[ch['id']] = 'img/S-%s.webp' % ch['id']
+    else:
+        WARN.append('no 2526 scene for %s yet' % ch['id'])
+
 # ---------------------------------------------------------------------------------------------------------
 # 5. Timeline. Units: 1 unit = one viewport of scroll. Every beat holds its settled state for >= 30%.
 # ---------------------------------------------------------------------------------------------------------
@@ -252,31 +313,37 @@ beats = []
 t = 0.0
 
 
-def beat(bid, kind, ln, st, ci=None):
+def beat(bid, kind, ln, st, ci=None, card=None):
+    """`card`: when the beat's card appears, as a fraction of the beat (default: when the stage settles)."""
     global t
     if st > 0.70:
         fail('beat %s holds less than 30%%' % bid)
     b = {'id': bid, 'kind': kind, 'start': round(t, 4), 'len': ln, 'settle': st}
     if ci is not None:
         b['ch'] = ci
+    if card is not None:
+        b['card'] = card
     beats.append(b)
     t += ln
     return b
 
 
+# the opening sets the stage before the graph: one thing, then one link, then the whole graph
+beat('P0', 'intro', 1.5, 0.30, card=0)
+beat('P1', 'intro', 1.7, 0.62, card=0.10)
 beat('G0', 'graph', 1.5, 0.56)
 beat('G1', 'graph', 1.3, 0.52)
 beat('G2', 'graph', 1.3, 0.46)
 for ci, ch in enumerate(CH):
     p = 'c%d' % ci
-    beat(p + 'T', 'title', 1.4, 0.56, ci)
+    beat(p + 'T', 'title', 1.6, 0.56, ci, card=0)
     beat(p + 'V1', 'verse', 1.3, 0.36, ci)
     beat(p + 'L1', 'link', 1.7, 0.66, ci)
     beat(p + 'V2', 'verse', 1.3, 0.32, ci)
     beat(p + 'L2', 'link', 1.7, 0.68, ci)
     beat(p + 'V3', 'verse', 1.3, 0.32, ci)
-    beat(p + 'F', 'imagined', 2.0, 0.66, ci)
-beat('Z', 'graph', 1.8, 0.56)
+    beat(p + 'F', 'imagined', 2.4, 0.66, ci, card=0.30)
+beat('Z', 'graph', 1.8, 0.56, card=0)
 TOTAL = round(t, 4)
 B = {b['id']: b for b in beats}
 
@@ -298,6 +365,22 @@ def put(iid, *kf):
     tracks.setdefault(iid, []).extend([list(k) for k in kf])
 
 
+def short_cap(v):
+    """A caption under an object: the verse's label without its parenthetical id."""
+    return v['label'].split(' (')[0].split(', சிவ')[0].split(', lines')[0]
+
+
+# the opening: the king's balance alone, then the court's balance beside it and one thread between them
+IA, IB = 'c0_introA', 'c0_introB'
+inst[IA] = {'asset': STORY['assets']['purananuru:6'], 'cap': 'Purananuru 6'}
+inst[IB] = {'asset': STORY['assets']['pattupattu:6:489-506'], 'cap': 'Maduraikkanchi'}
+put(IA, (at('P0', .04), C_, 1, 0), (at('P0', .30), C_, 1, 1), (at('P1', 0), C_, 1, 1), (at('P1', .22), LT, S, 1),
+    (at('G0', 0), LT, S, 1), (at('G0', .12), LT, S, 0))
+put(IB, (at('P1', .10), RT, S, 0), (at('P1', .32), RT, S, 1), (at('G0', 0), RT, S, 1), (at('G0', .12), RT, S, 0))
+threads.append({'id': 'P1', 'a': IA, 'b': IB, 'sym': 0, 's': IB, 'd0': at('P1', .34), 'd1': at('P1', .62),
+                'f0': at('G0', 0), 'f1': at('G0', .08)})
+
+
 for ci, ch in enumerate(CH):
     p = 'c%d' % ci
     nxt = ('c%dT' % (ci + 1)) if ci + 1 < len(CH) else 'Z'
@@ -305,7 +388,7 @@ for ci, ch in enumerate(CH):
     I = {}
     for k, v in enumerate(ch['verses']):
         I[v['id']] = '%s_v%d' % (p, k + 1)
-        inst[I[v['id']]] = {'asset': aid(v), 'cap': v['id']}
+        inst[I[v['id']]] = {'asset': aid(v), 'cap': short_cap(v)}
     v1, v2, v3 = (I[x] for x in vids)
     L1, L2 = ch['links']
 
@@ -345,7 +428,7 @@ for ci, ch in enumerate(CH):
                     's': I[L2['true_direction']['s']] if not L2['true_direction']['symmetric'] else None,
                     'd0': d0, 'd1': d1, 'f0': at(p + 'V3', 0), 'f1': at(p + 'V3', .14)})
     for k, L in ((1, L1), (2, L2)):
-        teach[p + 'L%d' % k] = {'head': '%s · %s' % ('teaches' if L['text_field'] == 'teaches' else 'the link’s note', L['type']),
+        teach[p + 'L%d' % k] = {'head': 'the graph’s note · %s' % L['type'].replace('_', ' '),
                                 'text': L['text']}
     # the imagined beat: the "then" object rises (or verse 3 stays, when it is the same object) and turns into its future
     F = ch['forward']
@@ -355,11 +438,11 @@ for ci, ch in enumerate(CH):
         put(v3, (at(p + 'F', .30), C_, 1, 1))
     else:
         then = p + '_then'
-        inst[then] = {'asset': ta, 'cap': 'கற்பனை · imagined', 'imag': 1}
+        inst[then] = {'asset': ta, 'cap': 'the poems’ object', 'imag': 1}
         put(v3, (at(p + 'F', 0), C_, 1, 1), (at(p + 'F', .14), C_, 1, 0))
         put(then, (at(p + 'F', .12), C_, 1, 0), (at(p + 'F', .28), C_, 1, 1))
     fut = p + '_future'
-    inst[fut] = {'asset': fa, 'cap': 'கற்பனை · imagined', 'imag': 1}
+    inst[fut] = {'asset': fa, 'cap': 'கற்பனை · imagined · 2526', 'imag': 1}
     put(then, (at(nxt, 0), C_, 1, 1), (at(nxt, .02), C_, 1, 0))
     put(fut, (at(p + 'F', .30), C_, 1, 1), (at(nxt, 0), C_, 1, 1), (at(nxt, .14), C_, 1, 0))
     m = {'then': then, 'fut': fut, 'a': at(p + 'F', .32), 'b': at(p + 'F', .62)}
@@ -373,10 +456,16 @@ for ci, ch in enumerate(CH):
         'id': ch['id'], 'ta': ch['tamil'], 'name': ch['name'], 'sub': ch['subtitle'],
         'acc': ch['accent'], 'start': B[p + 'T']['start'],
         'dots': {x: vdot[x] for x in vids},
+        'labs': {v['id']: short_cap(v) for v in ch['verses']},
         'route': [[L1['from'], L1['to']], [L2['from'], L2['to']]],
         'box': [min(xs), min(ys), max(xs), max(ys)],
         'g': {'in': [at(p + 'T', 0), at(p + 'T', .12)], 'zoom': [at(p + 'T', .12), at(p + 'T', .46)],
               'route': [at(p + 'T', .36), at(p + 'T', .56)], 'out': [at(p + 'V1', 0), at(p + 'V1', .16)]},
+        # the 2526 stage: the year runs forward and the room cools, a window opens on the imagined world behind
+        # the object as it changes, and all of it closes as the next chapter's title comes up
+        'fut': {'yr': [at(p + 'F', .02), at(p + 'F', .26)], 'win': [at(p + 'F', .30), at(p + 'F', .56)],
+                'out': [at(nxt, 0), at(nxt, .10)]},
+        'scene': SCENE.get(ch['id'], ''),
     })
 
 # keyframes must run forward in time
@@ -386,7 +475,7 @@ for iid, k in tracks.items():
         if b[0] < a[0]:
             fail('track %s runs backwards' % iid)
 
-graph_tl = {'dots': [at('G0', .04), at('G0', .52)], 'edges': [at('G1', 0), at('G1', .50)],
+graph_tl = {'intro_in': [at('G0', .04), at('G0', .16)], 'dots': [at('G0', .04), at('G0', .52)], 'edges': [at('G1', 0), at('G1', .50)],
             'flash': [at('G2', .06), at('G2', .40)], 'intro_out': B['c0T']['start'],
             'close': [at('Z', 0), at('Z', .16)], 'close_route': [at('Z', .18), at('Z', .52)]}
 
@@ -412,7 +501,15 @@ def darken(hx, f):
     return '#' + ''.join('%02x' % int(int(hx[i:i + 2], 16) * f) for i in (1, 3, 5))
 
 
+# the 2526 room: the same gallery, cooler; captions and the year must still read on it
+FUT = {'wall': '#dbe3e7', 'floor': '#c3ced4'}
 CONTRAST = {}
+for fg in ('ink', 'ink2', 'accent'):
+    for bg in ('wall', 'floor'):
+        c = contrast(PAL[fg], FUT[bg])
+        CONTRAST['%s/2526 %s' % (fg, bg)] = round(c, 2)
+        if c < 4.5:
+            fail('contrast %s on the 2526 %s is %.2f' % (fg, bg, c))
 for fg in ('ink', 'ink2', 'accent'):
     for bg in ('wall', 'floor', 'col'):
         c = contrast(PAL[fg], PAL[bg])
@@ -453,65 +550,76 @@ def tamil_block(v):
 
 
 def verse_card(bid, ch, v, n):
-    flag = ' <span class="flag">the graph marks this reading uncertain</span>' if v.get('uncertain') else ''
-    return ('<article class="card" data-beat="%s"><p class="kick"><span lang="ta">%s</span> · verse %d of 3</p>'
+    flag = ' <span class="flag">the graph’s reading of this verse is marked uncertain</span>' if v.get('uncertain') else ''
+    return ('<article class="card" data-beat="%s"><p class="kick"><span lang="ta">%s</span> · verse %d of 3 · '
+            '<span class="trad">%s</span></p>'
             '<p class="src"><span lang="ta">%s</span> · %s</p>%s<p class="lab">the graph’s reading</p>'
             '<p class="rd clamp">%s</p><button class="more" type="button">read all</button>'
-            '<p class="cite">%s%s</p></article>') % (bid, E(ch['tamil']), n, E(v['label_ta']), E(v['label']),
-                                                    tamil_block(v), E(v['reading']), E(v['id']), flag)
+            '<p class="cite">%s%s</p></article>') % (bid, E(ch['tamil']), n, E(STORY['trad'][v['group']]),
+                                                    E(v['label_ta']), E(v['label']), tamil_block(v), E(v['reading']),
+                                                    E(v['id']), flag)
 
 
-def link_card(bid, ch, L, n):
+VERB = {'develops': 'develops', 'qualifies': 'qualifies', 'agrees': 'agrees with', 'same_image': 'shares an image with',
+        'tension': 'pulls against', 'teaches': 'teaches'}
+
+
+def link_card(bid, ch, L, n, sentence):
     td = L['true_direction']
-    arrow = '↔' if td['symmetric'] else '→'
-    a, b = (L['from'], L['to']) if td['symmetric'] else (td['s'], td['o'])
+    lab = {v['id']: short_cap(v) for v in ch['verses']}
+    if td['symmetric']:
+        who = '<b>%s</b> %s <b>%s</b>' % (E(lab[L['from']]), E(VERB.get(L['type'], L['type'])), E(lab[L['to']]))
+        how = 'This link runs both ways, so its thread draws from both verses at once.'
+    else:
+        who = '<b>%s</b> %s <b>%s</b>' % (E(lab[td['s']]), E(VERB.get(L['type'], L['type'])), E(lab[td['o']]))
+        how = 'The thread draws from the verse that does the work, toward the one it works on.'
     return ('<article class="card" data-beat="%s"><p class="kick"><span lang="ta">%s</span> · link %d of 2 · '
-            '<b>%s</b> · graded sound</p><p class="ids">%s <span class="arr">%s</span> %s</p>'
-            '<p class="rd sm">The thread on the stage writes the link’s %s, word by word, as it is drawn%s.</p>'
-            '<p class="cite">kg/groups/bridges.jsonl · %s</p></article>') % (
-        bid, E(ch['tamil']), n, E(L['type']), E(a), arrow, E(b),
-        'teaching' if L['text_field'] == 'teaches' else 'note',
-        ' from both ends, since this link runs both ways' if td['symmetric'] else ' from the verse that does the work',
-        E(td['reads']))
+            '<b>%s</b></p><p class="big lk">%s</p><p class="ids">%s</p><p class="rd sm">%s The full note writes '
+            'itself along the thread.</p><p class="cite">graded sound in the graph</p></article>') % (
+        bid, E(ch['tamil']), n, E(L['type'].replace('_', ' ')), E(sentence), who, how)
 
 
+OP = STORY['opening']
 cards = [
-    ('<article class="card" data-beat="G0"><p class="kick">a walk through the graph</p>'
-     '<p class="big">%d books. %s verses.</p><p class="rd">Each cluster is one book, its dots a sample of its verses, '
-     'set in the nine groups the graph keeps.</p><p class="cite">kg/groups/index.json</p></article>') % (N_BOOKS, '{:,}'.format(N_VERSES)),
-    ('<article class="card" data-beat="G1"><p class="kick">a walk through the graph</p>'
-     '<p class="big">%s sound bridges.</p><p class="rd">Each thread is a link between books in different groups that '
-     'the blind grading kept as sound; brighter threads carry more links.</p><p class="cite">kg/groups/bridges.jsonl</p></article>') % '{:,}'.format(N_SOUND),
-    ('<article class="card" data-beat="G2"><p class="kick">a walk through the graph</p>'
-     '<p class="big">Thirteen walks.</p><p class="rd">One for each thing the poems keep returning to. Each walk is three '
-     'verses joined by two sound links, and ends in one beat we imagine forward, labelled so.</p>'
-     '<p class="tamlist" lang="ta">%s</p><p class="cite">site/nilai/v4/chapters.json · checked against kg/</p></article>')
-    % ' · '.join(E(c['tamil']) for c in CH),
+    ('<article class="card" data-beat="P0"><p class="kick" lang="ta">%s</p><p class="big">%s</p><p class="rd">%s</p></article>'
+     % (E(OP['P0']['kick']), E(OP['P0']['big']), E(OP['P0']['body']))),
+    ('<article class="card" data-beat="P1"><p class="kick">%s</p><p class="big">%s</p><p class="rd">%s</p>'
+     '<p class="cite">Purananuru 6 and Maduraikkanchi, the first walk’s first link</p></article>'
+     % (E(OP['P1']['kick']), E(OP['P1']['big']), E(OP['P1']['body']))),
+    ('<article class="card" data-beat="G0"><p class="kick">%s</p><p class="big">%d books. %s verses.</p><p class="rd">%s</p></article>'
+     % (E(OP['G0']['kick']), N_BOOKS, '{:,}'.format(N_VERSES), E(OP['G0']['body']))),
+    ('<article class="card" data-beat="G1"><p class="kick">%s</p><p class="big">%s links that held.</p><p class="rd">%s</p></article>'
+     % (E(OP['G1']['kick']), '{:,}'.format(N_SOUND), E(OP['G1']['body']))),
+    ('<article class="card" data-beat="G2"><p class="kick">%s</p><p class="big">Thirteen walks, one question each.</p>'
+     '<p class="rd">%s</p><ol class="path two">%s</ol></article>'
+     % (E(OP['G2']['kick']), E(OP['G2']['body']),
+        ''.join('<li><span lang="ta">%s</span> %s</li>' % (E(c['tamil']), E(c['name'].split(',')[0].lower())) for c in CH))),
 ]
 for ci, ch in enumerate(CH):
     p = 'c%d' % ci
     acc = chapters_js[ci]['acc']
     vs = ch['verses']
-    cards.append(('<article class="card ctitle" data-beat="%sT" style="--acc:%s"><p class="kick">chapter %d of 13</p>'
-                  '<p class="cta" lang="ta">%s</p><p class="big">%s</p><p class="rd"><i>%s</i></p>'
-                  '<ol class="path">%s</ol><p class="cite">three verses · two sound links</p></article>') % (
-        p, acc, ci + 1, E(ch['tamil']), E(ch['name']), E(ch['subtitle']),
-        ''.join('<li><span lang="ta">%s</span></li>' % E(v['label_ta']) for v in vs)))
-    cards.append(verse_card(p + 'V1', ch, vs[0], 1).replace('class="card"', 'class="card" style="--acc:%s"' % acc, 1))
-    cards.append(link_card(p + 'L1', ch, ch['links'][0], 1).replace('class="card"', 'class="card" style="--acc:%s"' % acc, 1))
-    cards.append(verse_card(p + 'V2', ch, vs[1], 2).replace('class="card"', 'class="card" style="--acc:%s"' % acc, 1))
-    cards.append(link_card(p + 'L2', ch, ch['links'][1], 2).replace('class="card"', 'class="card" style="--acc:%s"' % acc, 1))
-    cards.append(verse_card(p + 'V3', ch, vs[2], 3).replace('class="card"', 'class="card" style="--acc:%s"' % acc, 1))
-    F = ch['forward']
-    cards.append(('<article class="card" data-beat="%sF" style="--acc:%s"><p class="kick imag"><span lang="ta">கற்பனை</span> · imagined</p>'
-                  '<p class="big fw">%s</p><p class="rd sm"><i>%s</i></p>'
-                  '<p class="cite">not from the corpus · carried forward from this chapter’s two links</p></article>') % (
-        p, acc, E(F['text']), E(F['transformation'][:1].upper() + F['transformation'][1:] + '.')))
-cards.append(('<article class="card" data-beat="Z"><p class="kick">the walks</p>'
-              '<p class="big">Thirteen walks, 39 verses, 26 sound links.</p><p class="rd">%d books from all %d groups, '
-              'lit as paths through %s sound bridges. Every Tamil line and reading on these pages is the graph’s own; '
-              'only the thirteen imagined beats are ours.</p><p class="cite">kg/groups/bridges.jsonl · site/nilai/v4/chapters.json</p></article>')
-             % (N_CH_BOOKS, N_CH_GROUPS, '{:,}'.format(N_SOUND)))
+    st = SC[ch['id']]
+    frm = ('<p class="from">%s</p>' % E(st['from'])) if st.get('from') else ''
+    cards.append(('<article class="card ctitle" data-beat="%sT" style="--acc:%s">%s<p class="kick">walk %d of 13</p>'
+                  '<p class="cta" lang="ta">%s</p><p class="big">%s · <i>%s</i></p><p class="rd clamp">%s</p>'
+                  '<button class="more" type="button">read all</button></article>') % (
+        p, acc, frm, ci + 1, E(ch['tamil']), E(ch['name']), E(ch['subtitle']), E(st['walk'])))
+    sty = 'class="card" style="--acc:%s"' % acc
+    cards.append(verse_card(p + 'V1', ch, vs[0], 1).replace('class="card"', sty, 1))
+    cards.append(link_card(p + 'L1', ch, ch['links'][0], 1, st['links'][0]).replace('class="card"', sty, 1))
+    cards.append(verse_card(p + 'V2', ch, vs[1], 2).replace('class="card"', sty, 1))
+    cards.append(link_card(p + 'L2', ch, ch['links'][1], 2, st['links'][1]).replace('class="card"', sty, 1))
+    cards.append(verse_card(p + 'V3', ch, vs[2], 3).replace('class="card"', sty, 1))
+    cards.append(('<article class="card" data-beat="%sF" style="--acc:%s"><p class="kick imag"><span lang="ta">கற்பனை</span> · '
+                  'imagined · 2526</p><p class="big fw">%s</p><p class="rd">%s</p>'
+                  '<p class="cite">not from the corpus · the poems’ question, asked again</p></article>') % (
+        p, acc, E(st['question']), E(st['meaning'])))
+cards.append(('<article class="card" data-beat="Z"><p class="kick">the walks</p><p class="big">%s</p><p class="rd">%s</p>'
+              '<p class="rd sm">39 verses from %d books in all %d groups, joined by 26 sound links, out of %s in the graph.</p>'
+              '<p class="acts"><button type="button" data-act="menu">Choose a walk</button> '
+              '<button type="button" data-act="top">Start again</button></p></article>')
+             % (E(STORY['close']['big']), E(STORY['close']['body']), N_CH_BOOKS, N_CH_GROUPS, '{:,}'.format(N_SOUND)))
 if len(cards) != len(beats):
     fail('%d cards for %d beats' % (len(cards), len(beats)))
 
@@ -526,7 +634,8 @@ for m in WARN:
 DATA = {
     'beats': beats, 'total': TOTAL, 'tracks': tracks, 'inst': inst, 'threads': threads, 'morphs': morphs,
     'graph': graph_tl, 'chapters': chapters_js, 'sprites': sprite_info, 'teach': teach,
-    'dots': dots, 'edges': edges, 'labels': labels, 'slots': {'C': C_, 'L': LT, 'R': RT, 'S': S},
+    'pal': {'wall': PAL['wall'], 'floor': PAL['floor'], 'fwall': FUT['wall'], 'ffloor': FUT['floor']},
+    'dots': dots, 'edges': edges, 'labels': labels, 'books': book_labels, 'slots': {'C': C_, 'L': LT, 'R': RT, 'S': S},
 }
 
 CSS = (HERE / 'v4.css').read_text(encoding='utf-8')
@@ -561,6 +670,8 @@ page = '''<!doctype html>
   <section id="stage" aria-label="Stage">
     <div id="wall"></div>
     <div id="floor"></div>
+    <img id="scene" alt="" aria-hidden="true">
+    <div id="year" aria-hidden="true"><span class="yl">imagined</span><span class="yn">2026</span></div>
     <svg id="graph" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The graph: the books as clusters of dots, sound bridges as threads"></svg>
     <div id="shadows"></div>
     <div id="objs"></div>

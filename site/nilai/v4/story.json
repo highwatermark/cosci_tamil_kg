@@ -1,0 +1,144 @@
+{
+ "_note": "The page's own framing, kept apart from chapters.json (the curated corpus). Every sentence here is ours: the opening, the walk summaries (plain restatements of the graph's readings and links), the transitions between chapters, and the imagined 2526 beats. Nothing here quotes modern commentary.",
+ "opening": {
+  "P0": {"kick": "நிலை · Nilai",
+         "big": "The old Tamil poets put their hardest questions into things: a balance, a parasol, a raft, a lamp.",
+         "body": "Nilai (நிலை) is where a thing stands. This page walks thirteen of those things through the poems, then imagines each one five hundred years on, in 2526, and asks whether the poem’s question still holds. Scroll, or press Watch."},
+  "P1": {"kick": "how to read a walk",
+         "big": "Two poems, one balance.",
+         "body": "A Sangam poet wishes a king the steadiness of a balance. A later poem makes a whole court the balance. The gold thread between them is a link: a note on what one verse does to another. It can develop it, qualify it, share its image, agree with it, or pull against it."},
+  "G0": {"kick": "the graph",
+         "body": "Classical Tamil literature. Its oldest poems come in two halves: akam, the inner world of love and the household, and puram, the outer world of kings, war, giving and death. After them come the ethics books, the epics, and the devotional songs of the saints and Siddhars. Each cluster is one book."},
+  "G1": {"kick": "the graph",
+         "body": "Every link proposed between verses in different groups was graded blind, and only those judged sound, meaning well-founded, were kept. Brighter threads carry more of them."},
+  "G2": {"kick": "the graph",
+         "body": "Each walk follows one thing through three verses and two links, often crossing from puram to akam, or from the old poems to the ethics books and the devotional songs. Then we do the one thing the graph does not: we imagine the thing in 2526 and ask the poem’s question again. Those beats are marked கற்பனை, imagined; everything else is the corpus."}
+ },
+ "close": {"big": "Thirteen things, thirteen questions.",
+           "body": "The poems asked them of kings, courts, lovers and bodies. The imagined beats ask them of us. Everything else on these pages is the corpus."},
+ "trad": {
+  "ettuthogai_puram": "puram · the outer world",
+  "pattupattu": "puram · a Sangam long poem",
+  "ettuthogai_akam": "akam · the inner world",
+  "kilkanakku_akam": "akam · a later love book",
+  "ettuthogai_devotional": "a Sangam hymn to the gods",
+  "ethics": "ethics · the moral books",
+  "epics_great": "epic",
+  "epics_minor": "epic",
+  "devotional": "devotional · saints and Siddhars"
+ },
+ "assets": {
+  "pattupattu:6:489-506": "V4-balance-court",
+  "purananuru:6": "V4-balance-king",
+  "kalittokai:99": "V4-parasol-outside",
+  "kural:269": "V4-noose",
+  "siddhar:1119": "V4-buffalo",
+  "naladiyar:11": "V4-cane",
+  "manimekalai:11:76-98": "V4-dropped-learning"
+ },
+ "chapters": {
+  "aram": {
+   "walk": "A puram poet wishes a king that he lean to no side, like the beam of a balance. A Sangam long poem moves the balance from the king’s person to his court. The Kural then asks the balance to level itself before it weighs: judgment begins by clearing oneself.",
+   "links": ["The later poem turns one king’s fairness into the work of a court, and names the five passions the court must set aside.",
+             "The court’s five set-aside passions spell out what the Kural means by a balance that first makes itself level."],
+   "meaning": "The hand-held balance becomes a sealed laboratory balance. In 2526 people are weighed by instruments and systems, not by a king or a court.",
+   "question": "Who levels the machines before they weigh us?"
+  },
+  "porul": {
+   "from": "The balance tested power by how fairly it judges. The parasol tests it by whom it shelters.",
+   "walk": "A puram poet tells a king his tall parasol is not for his own shade but to shelter those who suffer. An akam poem turns that rule on a husband: did she fall outside your shade? The Kural ties the rain to just rule, and the akam poem answers that the rain can come while one wife is still wronged.",
+   "links": ["An akam poet borrows a puram rule for kings and holds a husband to it.",
+             "The Kural says rain fails when justice bends; the akam poem shows the rain can come while one person is still wronged."],
+   "meaning": "The king’s parasol becomes a canopy of glass leaves over a whole city. In 2526 protection is a system raised over millions, not one ruler’s shade.",
+   "question": "Whom does its shade miss?"
+  },
+  "inbam": {
+   "from": "The parasol asked who is left outside its shade. Love asks it of one person left alone.",
+   "walk": "An akam poem makes a hill a theatre: wind in the bamboo is the flute, the waterfall the drum, the bees the lute, the peacock the dancer, and the woman alone cannot bear the music. A Sangam hymn keeps the same orchestra and gives it to the hill’s god. A later love book moves it to the forest in the rains, still tormenting the woman who waits.",
+   "links": ["The same hill orchestra serves a love poem in one book and the worship of the hill’s god in the other.",
+             "The orchestra moves from the hill to the forest and from secret love to waiting for a husband; it still torments her."],
+   "meaning": "The yazh keeps its shape but its strings become threads of light. In 2526 any music can be made to order, anywhere.",
+   "question": "What still reaches a heart left alone?"
+  },
+  "veedu": {
+   "from": "From the music that torments the lover to the sea that drowns the soul: the poems turn from love to release.",
+   "walk": "The Kural says those who reach the Lord’s feet can swim the great sea of births. A Jain epic says what drags the others under: their own deeds, which whirl them like thread on a shuttle. A Jain hymn says the sea is made of the swimmer’s own deeds, and the Lord’s part is to build the raft.",
+   "links": ["The epic supplies what the Kural leaves out: the swimmer’s own deeds beat him down.",
+             "The hymn adds that the Lord builds the raft but does not carry the swimmer."],
+   "meaning": "The lashed raft becomes a gold solar sail. In 2526 we build craft for a sea of stars.",
+   "question": "Do we still swim, or only ride?"
+  },
+  "udal": {
+   "from": "The raft carried the soul across. The next poems look at the vessel itself: the body.",
+   "walk": "A Siddhar song says use the body while the boat lasts. The Naladiyar agrees: take the body’s fruit, for it passes like mist on a hill. A Thiruppugazh song calls the body a contraption of strings shut with Brahma’s lock, and names what its fruit should be: to belong to the god.",
+   "links": ["Two poets agree: use the body while it lasts, before it breaks like a boat or lifts like mist.",
+             "The song names what the Naladiyar’s fruit of the body should be: devotion."],
+   "meaning": "The lock on its strings becomes a hand with gold tendons. In 2526 medicine can rebuild the body’s strings.",
+   "question": "If the boat can be mended without end, what is the voyage for?"
+  },
+  "ullam": {
+   "from": "The body was a boat and a lock. Now the poets look inside it, at the mind.",
+   "walk": "A Siddhar song makes the body a clay pot tossed on the water, spilling, until it fills with Siva and sits still. The Naladiyar’s pot seeps filth from nine openings. Tirumular turns the same flesh into a temple, with the five thieving senses as its lamps.",
+   "links": ["The same clay pot is disgust in one poem and, rightly filled, delight in the other.",
+             "Where the Naladiyar sees a seeping pot, Tirumular sees a shrine with the senses as its lamps."],
+   "meaning": "The bronze lamp becomes a glass bulb lit from somewhere else. In 2526 the mind can be lit, calmed and steered from outside.",
+   "question": "Does it still learn to light itself?"
+  },
+  "irai": {
+   "from": "Tirumular found the temple inside the body. The next poems ask about the temple outside, and its stone.",
+   "walk": "A Siddhar mocks those who call a planted stone a god: will the stone speak while the Lord is within? In the Manimekalai a deity explains that stone does not speak; the wise lodge a guardian power in it. In the Civaka Cintamani a hidden friend speaks, and a woman believes her god has spoken.",
+   "links": ["Both agree the stone is mute; they part over whether a power can be lodged in it.",
+             "The epic shows a hidden man supplying the stone’s voice: belief can be steered by whoever stands behind the image."],
+   "meaning": "The planted stone becomes a speaker. In 2526 the voices people trust come out of machines.",
+   "question": "Who stands behind the voice?"
+  },
+  "yogam": {
+   "from": "The Siddhar said the Lord is within, not in the stone. Within, the yogis found the breath.",
+   "walk": "Tirumular says the measure of the held breath is the means to kick Death. The Kural says austerity makes it possible to leap past Death. A Siddhar says that when the restless breath, the one who runs out and runs back, settles within, Death who came hunting stands bewildered and leaves.",
+   "links": ["Both make a discipline the thing that overcomes Death: the Kural’s austerity, Tirumular’s held breath.",
+             "Both make a discipline, not a god’s favour, turn Death away; for the Siddhar it is seeing within."],
+   "meaning": "The seated yogi becomes a breathing machine at rest. In 2526 machines can breathe for us.",
+   "question": "What does the held breath still teach?"
+  },
+  "iyarkai": {
+   "from": "From the breath inside the body to the water outside it: the poems turn to the land.",
+   "walk": "A puram poet tells a Pandya king that for heaven, rule or fame he should bind water where the land dips. An ethics book opens that duty to any man of means: dig a tank, set its bank, share a well. The Manimekalai moves it again, from water to food: hunger makes a man drop even the raft of learning, and a bowl that never empties answers the drought.",
+   "links": ["A king’s duty becomes a merit any man of means can earn.",
+             "The remedy for a failing sky moves from tanks a ruler digs to an alms bowl that never empties."],
+   "meaning": "The earth-banked tank becomes a terraced basin of stone and glass. In 2526 the rain is less certain.",
+   "question": "Who will bind the water now, and for whom?"
+  },
+  "samugam": {
+   "from": "Sharing the water was a question of duty. The next poems ask who decides how a person may live.",
+   "walk": "In a puram poem a widowed queen refuses the widow’s rules, the leaf-wrapped rice and the bed of pebbles, and chooses the pyre. The Manimekalai ranks the ways a widow may die or live, and sets them all beneath Kannaki. In the Silappathikaram Kannaki refuses widowhood itself and turns to the sun to demand justice from the king.",
+   "links": ["The queen’s single act of defiance becomes, in the epic, a ranked list of approved widowhoods.",
+             "Both widows refuse the rules, but Kannaki turns from the pyre to a demand for justice."],
+   "meaning": "The leaf in its row becomes a rack where rules now run. In 2526 the rules for a life are written into systems.",
+   "question": "Who writes the rules for another person’s life?"
+  },
+  "aivu": {
+   "from": "Kannaki questioned the rules. The next poems ask how to know what is worth learning at all.",
+   "walk": "A Thiruppugazh song asks for true knowledge before the body grows old chasing endless books. The Naladiyar says learning has no shore and our days are few, so take only what is fitting, as the bird drinks the milk and leaves the water. Tirumular names the one thing to take: one letter of the Lord, a vessel that reaches the farther shore.",
+   "links": ["Both set a short life against endless books; the song names its choice as the books of knowledge.",
+             "Both answer endless learning with a choice; Tirumular names it as one letter."],
+   "meaning": "The bundle of endless leaves becomes one leaf lit from within. In 2526 all learning is on tap.",
+   "question": "Who teaches the choosing?"
+  },
+  "pulamai": {
+   "from": "From choosing what to read to whether anyone reads at all: the poems turn to the written name.",
+   "walk": "A puram poet grieves a patron whose hero stone now receives toddy poured from a small cup. Another puram poem sees the name freshly cut in the stone, crowned with feathers, while the bards still come looking for him. An akam poem passes the same kind of stone generations later, its letters worn and read by no one.",
+   "links": ["Both poems turn on the stone’s reversal: the giver now receives, and the receivers find no giver.",
+             "The carved name was meant to outlast death; the akam poem finds it worn and unread."],
+   "meaning": "The worn hero stone becomes a blank glass monolith. In 2526 everything is recorded.",
+   "question": "Who will stop to read it?"
+  },
+  "kaalam": {
+   "from": "The worn stone showed what time does to a name. The last walk asks what it does to a life.",
+   "walk": "An old puram poet leans on his ringed staff and remembers youth as the best of life. The Naladiyar warns the young that the staff is coming, so renounce early. Tirumular says skimmed sea water turns grey hair back and keeps Death away, a claim this page reads as history, not medicine.",
+   "links": ["The same old man on a staff is a warning in one book and proof that youth was best in the other.",
+             "One says grey hair is certain; the other says it can be turned back, if read literally."],
+   "meaning": "The ringed staff becomes a light bronze brace. In 2526 old age can be held off for decades.",
+   "question": "Who gets the long years, and what are they for?"
+  }
+ }
+}

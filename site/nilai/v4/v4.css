@@ -106,3 +106,24 @@ button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
   #teach .tt{font-size:13px;line-height:1.45}
   #menu{top:56px;left:16px}
 }
+
+/* opening, walks, links, 2526 */
+#graph .bl{font-family:var(--sans);fill:var(--ink2)}
+.from{font:italic 400 15px/1.45 var(--serif);color:var(--ink2);margin:0 0 14px!important;padding-left:12px;border-left:2px solid var(--acc,var(--accent))}
+.trad{font-weight:400;letter-spacing:.04em;text-transform:none;color:var(--ink2)}
+.big.lk{font-size:21px}
+.path.two{columns:2;column-gap:18px;list-style:none;padding:0;font-size:14px;line-height:1.6}
+.path.two li{break-inside:avoid}
+.acts{margin-top:16px!important;display:flex;gap:10px;flex-wrap:wrap}
+#scene{position:absolute;left:0;top:0;object-fit:cover;border-radius:50%;visibility:hidden;pointer-events:none;
+  transform-origin:50% 100%;-webkit-mask-image:radial-gradient(closest-side,#000 70%,transparent 100%);mask-image:radial-gradient(closest-side,#000 70%,transparent 100%)}
+#year{position:absolute;right:5%;top:4%;text-align:right;visibility:hidden;pointer-events:none}
+#year .yl{display:block;font:600 12px/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
+#year .yn{display:block;font:600 52px/1 var(--serif);color:var(--acc,var(--accent));font-variant-numeric:tabular-nums}
+@media (max-width:700px),(max-aspect-ratio:9/10){
+  .from{font-size:12.5px;margin-bottom:5px!important;padding-left:8px}
+  .big.lk{font-size:15.5px}
+  .path.two{display:none}
+  #year .yn{font-size:34px}
+  #year .yl{font-size:10px}
+}

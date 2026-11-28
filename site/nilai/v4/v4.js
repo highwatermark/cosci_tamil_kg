@@ -32,7 +32,8 @@ var hydrated={};
 function hydrate(ci){
   for(var k=ci-1;k<=ci+1;k++){ if(k<0||k>=D.chapters.length||hydrated[k]) continue; hydrated[k]=1;
     IDS.forEach(function(id){ if(chOf(id)===k&&EL[id]._src&&!EL[id].src) EL[id].src=EL[id]._src; });
-    D.morphs.forEach(function(m){ if(m.clip&&chOf(m.then)===k) clipInit(m); }); }
+    D.morphs.forEach(function(m){ if(m.clip&&chOf(m.then)===k) clipInit(m); });
+    if(D.chapters[k].scene){ var im=new Image(); im.src=D.chapters[k].scene; } }
 }
 function track(id,T){
   var k=D.tracks[id]; if(!k) return null;
@@ -82,13 +83,15 @@ var NG=9, groupEls=[];
 for(var gi=0;gi<NG;gi++) groupEls.push(svg('g',{},GD));
 D.dots.forEach(function(d){ svg('circle',{cx:d[0],cy:d[1],r:'2.6',fill:'var(--ink2)'},groupEls[d[2]]); });
 var labEls=D.labels.map(function(l){ var t=svg('text',{'class':'gl','text-anchor':l.anchor,'dominant-baseline':'middle'},GL); t.textContent=l.t; return t; });
+/* every book named, small, beside its cluster: the first look at the graph should say what is in it */
+var bookEls=D.books.map(function(b){ var t=svg('text',{'class':'bl','text-anchor':b.anchor,'dominant-baseline':'middle',x:b.x,y:b.y},GL); t.textContent=b.t; return t; });
 function qpath(a,b){ var mx=(a[0]+b[0])/2, my=(a[1]+b[1])/2, cx=lerp(mx,500,.45), cy=lerp(my,500,.45); return 'M'+a[0]+' '+a[1]+' Q'+cx.toFixed(1)+' '+cy.toFixed(1)+' '+b[0]+' '+b[1]; }
 var CHG=D.chapters.map(function(c){
   var g=svg('g',{},GR), o={g:g,routes:[],dots:{},labs:{}};
   c.route.forEach(function(r){ o.routes.push(svg('path',{d:qpath(c.dots[r[0]],c.dots[r[1]]),fill:'none',stroke:'var(--thread)','stroke-linecap':'round',pathLength:'1','stroke-dasharray':'1 1'},g)); });
   Object.keys(c.dots).forEach(function(id){
     o.dots[id]=svg('circle',{cx:c.dots[id][0],cy:c.dots[id][1],fill:'var(--thread)',stroke:'var(--ink)'},g);
-    var t=svg('text',{'class':'rl'},GS); t.textContent=id; o.labs[id]=t;
+    var t=svg('text',{'class':'rl'},GS); t.textContent=(c.labs&&c.labs[id])||id; o.labs[id]=t;
   });
   return o;
 });
@@ -269,12 +272,15 @@ function render(T,force){
       else te.el.style.display='none'; }
   });
   renderGraph(T,W,H,bt);
+  renderFuture(T,W,H);
   // cards: a card shows once its beat has settled and stays until the next beat's card arrives,
   // so the column crossfades from text to text instead of standing empty while the stage moves
   cards.forEach(function(c){
     var b=c._b; if(!b) return;
-    var s0=b.start+b.settle*b.len, nb=D.beats[b._i+1];
-    var e0=nb?nb.start+nb.settle*nb.len-.08:b.start+b.len;
+    var s0=b.start+(b.card!=null?b.card:b.settle)*b.len, nb=D.beats[b._i+1];
+    if(b.card===0&&b.start>0) s0-=.06;   // a card due at its beat's start crossfades with the one leaving
+    // the imagined card leaves with its own chapter; every other card stays until the next card arrives
+    var e0=!nb?1e9:b.kind==='imagined'?b.start+b.len-.08:nb.start+(nb.card!=null?nb.card:nb.settle)*nb.len-.08;
     var o=(b.start===0?1:seg(T,s0,s0+.08))*(1-seg(T,e0,e0+.08));
     vis(c,o);
   });
@@ -285,6 +291,7 @@ function renderGraph(T,W,H,bt){
   if(T<C[0].g.out[1]) go=1-seg(T,out0[0],out0[1]);
   for(var i=1;i<C.length;i++){ var g=C[i].g; if(T>=g.in[0]&&T<=g.out[1]){ go=seg(T,g.in[0],g.in[1])*(1-seg(T,g.out[0],g.out[1])); } }
   if(T>=G.close[0]) go=seg(T,G.close[0],G.close[1]);
+  if(T<C[0].start) go*=seg(T,G.intro_in[0],G.intro_in[1]);
   vis(gsvg,go);
   $('floor').style.opacity=(1-seg(go,0,.4)).toFixed(3);
   if(go<=0) return;
@@ -308,7 +315,10 @@ function renderGraph(T,W,H,bt){
   labEls.forEach(function(t,i){ var l=D.labels[i], gi=i, a=dIn[0]+gi*span/12, rr=l.r+fs*.9*Math.abs(Math.sin(l.a))+fs*.3;
     t.setAttribute('x',(500+rr*Math.cos(l.a)).toFixed(1)); t.setAttribute('y',(500+rr*Math.sin(l.a)).toFixed(1)); t.setAttribute('font-size',fs.toFixed(2));
     t.style.opacity=((1-z)*seg(T,a,a+span/4)).toFixed(3); });
-  hideOverlaps(labEls);
+  var bo=(T<C[0].start||T>=G.close[0])?1:.8;
+  bookEls.forEach(function(t,i){ var b=D.books[i], a=dIn[0]+b.g*span/12; t.setAttribute('font-size',(fs*.8).toFixed(2));
+    t.style.opacity=(bo*seg(T,a+span/8,a+span/3)).toFixed(3); });
+  hideOverlaps(labEls,bookEls);
   // routes: all thirteen in the G2 flash and the close; one chapter's in its title beat
   var flash=seg(T,G.flash[0],G.flash[1])*(T<C[0].start?1:0), close=seg(T,G.close_route[0],G.close_route[1])*(T>=G.close[0]?1:0);
   CHG.forEach(function(o,k){
@@ -322,10 +332,29 @@ function renderGraph(T,W,H,bt){
       t.style.opacity=labOn>.5?seg(labOn,.5,1):0; });
   });
 }
+/* ---------- the 2526 stage: the year runs forward, the room cools, a window opens on the imagined world ---------- */
+var yearEl=$('year'), yearN=yearEl.querySelector('.yn'), sceneEl=$('scene'), wallEl=$('wall'), floorEl=$('floor');
+function hx(c){ return [parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16)]; }
+function mix(a,b,t){ var A=hx(a),B=hx(b); return 'rgb('+[0,1,2].map(function(i){return Math.round(lerp(A[i],B[i],t));}).join(',')+')'; }
+function renderFuture(T,W,H){
+  var f=0, yr=0, wn=0, ck=-1;
+  D.chapters.forEach(function(c,k){ var u=c.fut; if(T>=u.yr[0]&&T<=u.out[1]){ ck=k; var o=1-seg(T,u.out[0],u.out[1]);
+    f=ease(seg(T,u.yr[0],u.yr[1]))*o; yr=seg(T,u.yr[0],u.yr[1]); wn=(c.scene?seg(T,u.win[0],u.win[1]):0)*o; } });
+  wallEl.style.background=f>0?mix(D.pal.wall,D.pal.fwall,f):'';
+  floorEl.style.background=f>0?mix(D.pal.floor,D.pal.ffloor,f):'';
+  vis(yearEl,f); if(f>0) yearN.textContent=String(Math.round(2026+500*ease(yr)));
+  if(wn>0){ var c=D.chapters[ck]; if(sceneEl.getAttribute('src')!==c.scene) sceneEl.setAttribute('src',c.scene);
+    var d=Math.min(W*(phone?.94:.80), L.fy*.92), cx=W*D.slots.C;
+    sceneEl.style.width=sceneEl.style.height=d.toFixed(1)+'px';
+    sceneEl.style.transform='translate('+(cx-d/2).toFixed(1)+'px,'+(L.fy-d*.97).toFixed(1)+'px) scale('+(0.94+0.06*ease(wn)).toFixed(4)+')';
+    vis(sceneEl,ease(wn)*.96); }
+  else vis(sceneEl,0);
+}
 var ovKey='';
-function hideOverlaps(els){
-  var k=L.W+'x'+L.H+':'+els[0].getAttribute('font-size'); if(k===ovKey) return; ovKey=k;
+function hideOverlaps(els,more){
+  var k=L.W+'x'+L.H+':'+els[0].getAttribute('font-size')+':'+gsvg.getAttribute('viewBox'); if(k===ovKey) return; ovKey=k;
   var boxes=[], s=stage.getBoundingClientRect();
+  els=els.concat(more||[]);
   els.forEach(function(t){ t.style.display=''; });
   els.forEach(function(t){
     var r=t.getBoundingClientRect(), hit=false;
@@ -356,6 +385,8 @@ cards.forEach(function(c){ var b=c.querySelector('.more'); if(!b) return; b.addE
   var k=c.cloneNode(true); k.removeAttribute('style'); k.className='sheetcard'; var rd=k.querySelector('.rd'); if(rd){ rd.className='rd'; rd.style.cssText=''; } var mm=k.querySelector('.more'); if(mm) mm.remove(); [].forEach.call(k.querySelectorAll('.lab,.cite'),function(e){ e.style.display=''; });
   sheetIn.innerHTML=''; sheetIn.appendChild(k); sheet.hidden=false; $('sheetX').focus(); stop(); }); });
 $('sheetX').addEventListener('click',function(){ sheet.hidden=true; });
+cardsEl.addEventListener('click',function(e){ var b=e.target.closest('button[data-act]'); if(!b) return;
+  if(b.getAttribute('data-act')==='menu') setMenu(true); else { stop(); goto(0); } });
 function settleT(b){ return b.start+Math.min(.98,b.settle+.12)*b.len; }
 addEventListener('keydown',function(e){
   if(e.key==='Escape'){ if(!sheet.hidden){ sheet.hidden=true; return; } if(!menu.hidden){ setMenu(false); mb.focus(); return; } }
