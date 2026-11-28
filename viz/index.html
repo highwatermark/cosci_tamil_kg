@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Tamil Corpus Atlas</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+<script>try { const t = localStorage.getItem("atlas-theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600&family=Noto+Serif+Tamil:wght@400;600&display=swap">
@@ -103,10 +103,28 @@ button:focus-visible, input:focus-visible, .row:focus-visible { outline: 2px sol
 .frame dd { margin: 0; }
 .ta { font-family: var(--f-tamil); }
 .karu { display: flex; flex-wrap: wrap; gap: 4px; }
-.karu span { font-size: 12.5px; padding: 1px 7px; border: 1px solid var(--rule); border-radius: 5px; background: var(--paper); }
-.karu span b { font-family: var(--f-tamil); font-weight: 400; }
-.karu span small { color: var(--muted); margin-left: 4px; }
-.karu span.dev { border-color: var(--accent); }
+.karu > span, .karu > button { font: inherit; font-size: 12.5px; padding: 1px 7px; border: 1px solid var(--rule); border-radius: 5px; background: var(--paper); color: var(--ink); text-align: left; }
+.karu > button { cursor: pointer; }
+.karu > button:hover { border-color: var(--accent); }
+.karu b { font-family: var(--f-tamil); font-weight: 400; }
+.karu small { color: var(--muted); margin-left: 4px; }
+.karu .dev { border-color: var(--accent); }
+.pv { font: inherit; border: 0; background: none; padding: 0; color: var(--accent); cursor: pointer; text-align: left; }
+.pv:hover { text-decoration: underline; }
+.pill.not_audited { color: var(--muted); }
+.pill.sci { color: var(--accent); }
+.sci { border-left: 2px solid var(--accent); padding-left: 10px; display: flex; flex-direction: column; gap: 3px; font-size: 13.5px; }
+.sci a { color: var(--accent); }
+.hdr-links { margin-left: auto; display: flex; gap: 6px; align-items: center; font-size: 13px; flex-wrap: wrap; }
+.hdr-links a { color: var(--accent); text-decoration: none; border: 1px solid var(--rule); border-radius: 999px; padding: 1px 10px; background: var(--panel); }
+.hdr-links a:hover { border-color: var(--accent); }
+#theme { font: inherit; font-size: 13px; border: 1px solid var(--rule); border-radius: 999px; padding: 1px 10px; background: var(--panel); color: var(--ink); cursor: pointer; }
+#theme:hover { border-color: var(--accent); }
+.snip { font-size: 12.5px; color: var(--muted); }
+.snip mark, .lk mark { background: color-mix(in srgb, var(--warn) 32%, transparent); color: inherit; border-radius: 2px; }
+.rgroup { display: flex; flex-wrap: wrap; gap: 5px; }
+#loading .bar { width: 220px; height: 4px; background: var(--rule); border-radius: 2px; margin-top: 8px; overflow: hidden; }
+#loading .bar span { display: block; height: 100%; background: var(--accent); width: 0; transition: width .2s; }
 .cell.tp { clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); border-radius: 0; }
 .chapblock { display: flex; flex-direction: column; gap: 2px; }
 .pill.across { color: var(--accent); }
@@ -272,6 +290,11 @@ table.matrix td.none { color: var(--muted); text-align: center; }
 <header>
   <h1>தமிழ் இலக்கியம்: சங்கம் முதல் சித்தர் வரை <span>Tamil literary knowledge graph, 40 books in nine groups</span></h1>
   <div class="stats" id="stats"></div>
+  <nav class="hdr-links" aria-label="Elsewhere in the project">
+    <a href="../site/nilai/v4/index.html">Nilai</a>
+    <a href="../research-atlas/dist/index.html">Research Atlas</a>
+    <button id="theme" type="button" aria-label="Switch colour theme">Dark</button>
+  </nav>
 </header>
 <main id="main">
   <aside aria-label="Controls">
@@ -303,12 +326,13 @@ table.matrix td.none { color: var(--muted); text-align: center; }
         <button id="h-uncertain" aria-pressed="false">have an uncertain reading</button>
         <button id="h-nuance" aria-pressed="false">have a nuance</button>
         <button id="h-sonnet" aria-pressed="false">were marked by Sonnet</button>
+        <button id="h-science" aria-pressed="false" title="Siddhar verses a blind grader paired with a specific scientific finding, beating negative controls. A correspondence, never a confirmation; many contradict the verse.">have a science correspondence</button>
       </div>
       <p class="legend-note" style="margin-top:8px">To light up a concept, search for it or click a concept on a verse.</p>
     </div>
     <div id="search-block">
-      <label class="label" for="search">Find a verse or concept</label>
-      <input id="search" placeholder="e.g. 327, n 42, a 12, nt 12, si 3:40, cc 198, அறம்" autocomplete="off">
+      <label class="label" for="search">Find a verse, concept, poet or word</label>
+      <input id="search" type="search" placeholder="327, nt 12, Kalittokai 12, breath, கபிலர், jain…" autocomplete="off">
       <p class="legend-note" id="search-note" style="margin-top:6px"></p>
     </div>
     <div id="link-controls">
@@ -349,7 +373,7 @@ table.matrix td.none { color: var(--muted); text-align: center; }
     <div id="grid" hidden></div>
     <div id="hint"></div>
     <div id="tip"></div>
-    <div id="loading">Loading the books…</div>
+    <div id="loading" role="status"><div><span id="loading-text">Loading the books…</span><div class="bar"><span id="loading-bar"></span></div></div></div>
   </section>
   <section id="detail" aria-live="polite"></section>
 </main>
@@ -357,20 +381,33 @@ table.matrix td.none { color: var(--muted); text-align: center; }
 <script src="data_core.js"></script>
 <script>
 // The data come in one file per corpus group (scripts/export_viz.py keeps each under 16 MB).
-// data_core.js names them in window.KG_FILES; they are all loaded, in order, before the page starts.
+// data_core.js names them in window.KG_FILES; they download in parallel (async = false keeps them
+// running in order) and the page starts once every one has loaded or failed.
 (function load() {
   const files = window.KG_FILES || [], missing = [];
-  let i = 0;
-  const next = () => {
-    if (i >= files.length) return init(missing);
-    const s = document.createElement("script");
-    s.src = files[i++];
-    s.onload = next;
-    s.onerror = () => { missing.push(s.getAttribute("src")); next(); };
-    document.body.appendChild(s);
+  const text = document.getElementById("loading-text"), bar = document.getElementById("loading-bar");
+  const fail = msg => { document.getElementById("loading").innerHTML = `<p style="max-width:44ch;padding:16px;text-align:center">${msg}</p>`; };
+  if (typeof d3 === "undefined") return fail("The drawing library (D3, from cdnjs.cloudflare.com) did not load, so the atlas cannot start. Are you offline? Reconnect and reload the page.");
+  if (!window.KG) return fail("data_core.js is missing: run <code>python3 -I scripts/export_viz.py</code>.");
+  let done = 0;
+  const step = () => {
+    done++;
+    text.textContent = `Loading the books… ${done} of ${files.length} files`;
+    bar.style.width = (100 * done / Math.max(1, files.length)).toFixed(0) + "%";
+    if (done === files.length) {
+      try { init(missing); }
+      catch (err) { console.error(err); fail("The atlas failed to start: " + String(err.message || err).replace(/[&<>]/g, "")); }
+    }
   };
-  if (!window.KG) { document.getElementById("loading").textContent = "data_core.js is missing: run scripts/export_viz.py."; return; }
-  next();
+  text.textContent = `Loading the books… 0 of ${files.length} files`;
+  if (!files.length) { done = -1; return step(); }
+  for (const f of files) {
+    const s = document.createElement("script");
+    s.src = f; s.async = false;
+    s.onload = step;
+    s.onerror = () => { missing.push(f); step(); };
+    document.body.appendChild(s);
+  }
 })();
 
 function init(missing) {
@@ -435,7 +472,11 @@ const CELL_CLASS = { naladiyar: " nal", tirumanthiram: " tm", thiruppugazh: " tp
 })();
 const TYPES = ["tension", "agrees", "develops", "qualifies", "same_image", "parallel_domain"];
 const TYPE_NAMES = { tension: "Tension", agrees: "Agrees", develops: "Develops", qualifies: "Qualifies", same_image: "Same image", parallel_domain: "Parallel domain" };
-const GRADE_SETS = { sound: ["sound"], weak: ["sound", "weak"], all: ["sound", "weak", "forced", "wrong"] };
+// "All" includes links not yet graded (not_audited); every percentage divides by graded links only.
+const GRADE_SETS = { sound: ["sound"], weak: ["sound", "weak"], all: ["sound", "weak", "forced", "wrong", "not_audited"] };
+const GRADE_WORD = { sound: "sound", weak: "weak", forced: "forced", wrong: "wrong", not_audited: "not yet graded" };
+const gradePill = g => pill(g, GRADE_WORD[g] || g);
+const isGraded = l => l.grade !== "not_audited";
 const css = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 const fmt = n => n.toLocaleString("en");
@@ -464,14 +505,15 @@ const shownVerses = () => Object.keys(verses).filter(inBooks);
   const L = KG.links, graded = L.filter(l => l.grade !== "not_audited");
   const sound = L.filter(l => l.grade === "sound").length;
   const bridges = L.filter(l => groupOf(l.a) !== groupOf(l.b)), bSound = bridges.filter(l => l.grade === "sound").length;
+  const bGraded = bridges.filter(isGraded).length, bOpen = bridges.length - bGraded, open = L.length - graded.length;
   const perGroup = GROUP_ORDER.map(g => [g, Object.values(verses).filter(v => GROUP_OF(v.book) === g).length]);
   const flagged = Object.values(verses).filter(v => v.f).length;
   document.getElementById("stats").innerHTML = [
     `<span class="stat"><b>${BOOK_ORDER.length}</b> books, <b>${fmt(Object.keys(verses).length)}</b> verses and units</span>`,
     ...perGroup.map(([g, n]) => `<span class="stat" title="${esc(groupName(g))}"><b>${fmt(n)}</b> ${esc(GROUP_SHORT[g])}</span>`),
     `<span class="stat"><b>${Object.keys(KG.concepts).length}</b> shared concepts</span>`,
-    `<span class="stat"><b>${fmt(L.length)}</b> links, <b>${fmt(sound)}</b> sound (${Math.round(100 * sound / graded.length)}%)</span>`,
-    `<span class="stat"><b>${fmt(bSound)}</b> of ${fmt(bridges.length)} bridges between groups sound</span>`,
+    `<span class="stat" title="${open ? `${fmt(open)} links not yet graded; the share is of graded links` : "every link graded"}"><b>${fmt(L.length)}</b> links, <b>${fmt(sound)}</b> sound (${Math.round(100 * sound / Math.max(1, graded.length))}% of graded)</span>`,
+    `<span class="stat" title="${fmt(bridges.length)} bridges in all${bOpen ? `, ${fmt(bOpen)} not yet graded` : ""}"><b>${fmt(bSound)}</b> of ${fmt(bGraded)} graded bridges between groups sound</span>`,
     `<span class="stat"><b>${KG.threads.length}</b> threads</span>`,
     `<span class="stat warn"><b>${fmt(flagged)}</b> verses' text to check</span>`,
     ...(missing.length ? [`<span class="stat warn">Not loaded: ${esc(missing.join(", "))}</span>`] : []),
@@ -525,16 +567,24 @@ for (const l of KG.links) if (l.grade === "sound") {
 }
 const HIGHLIGHTS = {
   crosslinked: id => crossLinked.has(id), bridged: id => bridged.has(id), linked: id => soundLinked.has(id), contested: id => verses[id].x,
-  textflag: id => verses[id].f, uncertain: id => verses[id].u, nuance: id => verses[id].n, sonnet: id => verses[id].mm
+  textflag: id => verses[id].f, uncertain: id => verses[id].u, nuance: id => verses[id].n, sonnet: id => verses[id].mm,
+  science: id => !!(KG.sci || {})[id]
 };
 for (const h of Object.keys(HIGHLIGHTS)) {
   const b = document.getElementById("h-" + h);
-  b.insertAdjacentHTML("beforeend", `<span class="n">${fmt(Object.keys(verses).filter(HIGHLIGHTS[h]).length)}</span>`);
+  b.insertAdjacentHTML("beforeend", `<span class="n" id="hn-${h}"></span>`);
   b.addEventListener("click", () => { state.highlight = h; render(); });
 }
+if (!Object.keys(KG.sci || {}).length) document.getElementById("h-science").hidden = true;
+// The lens counts follow the book and group boxes; recounted only when the shown books change.
+let lensKey = "";
+function lensCounts(shown) {
+  const key = [...state.books].join(","); if (key === lensKey) return; lensKey = key;
+  for (const h of Object.keys(HIGHLIGHTS)) document.getElementById("hn-" + h).textContent = fmt(shown.filter(HIGHLIGHTS[h]).length);
+}
 state.highlight = "crosslinked";
-const hlFn = () => state.highlight.startsWith("concept:")
-  ? (c => id => verses[id].c.includes(c))(state.highlight.slice(8)) : HIGHLIGHTS[state.highlight];
+const hlFn = () => state.highlight === "set" ? (S => id => S.has(id))(state.hlSet || new Set())
+  : state.highlight.startsWith("concept:") ? (c => id => verses[id].c.includes(c))(state.highlight.slice(8)) : HIGHLIGHTS[state.highlight];
 document.getElementById("threads").addEventListener("click", e => {
   const b = e.target.closest("[data-thread]"); if (!b) return;
   const i = +b.dataset.thread;
@@ -544,55 +594,195 @@ document.getElementById("threads").addEventListener("click", e => {
 });
 
 // ---- Search ----
-// The kept forms: a bare number is a Kural couplet; "a 12" Akananuru, "pn 192" Purananuru, "pp 120" the
-// Pattupattu unit holding line 120 of the first idyll ("pp 1:120" names the idyll), "s", "p", "t", "n".
-// Every book answers to its prefix: "nt 12" is Natrinai 12; in a book of units, "si 3" is the first unit
-// of record 3 and "si 3:40" the unit that holds its line 40.
+// A reference opens a verse. The kept forms: a bare number is a Kural couplet; "pp 120" the Pattupattu unit
+// holding line 120 of the first idyll ("pp 1:120" names the idyll). Every book answers to its prefix and to
+// its English or Tamil name: "nt 12", "Natrinai 12", "நற்றிணை 12"; in a book of units "si 3" is the first unit
+// of record 3 and "si 3:40" the unit that holds its line 40; a full id ("pr:thirattu:1:1-17", "nm:0b") works too.
+// Anything else searches: concepts, themes, poets, patrons, people, schools, karu, named places, and the
+// readings, nuances and Tamil text of every verse.
+const norm = x => String(x ?? "").toLowerCase().normalize("NFC");
+const loose = x => norm(x).replace(/([a-z])\1+/g, "$1").replace(/[^a-z0-9஀-௿]+/g, "");
+const isTamil = s => /[஀-௿]/.test(s);
+const BOOK_IDX = Object.fromEntries(BOOK_ORDER.map((b, i) => [b, i]));
+let NAME_BOOK = null;
+function resolveBook(name) {
+  if (!NAME_BOOK) {
+    NAME_BOOK = {};
+    for (const b of BOOK_ORDER) for (const n of [b, BOOKS[b].name, BOOKS[b].tamil]) NAME_BOOK[loose(n)] = b;
+    const alias = { kural: ["k", "kural", "thirukkural", "tirukkural", "குறள்"], naladiyar: ["nal"], akananuru: ["ak", "akam", "அகம்"],
+      purananuru: ["pu", "puram", "புறம்"], siddhar: ["sd", "siddhars", "சித்தர்"], thiruppugazh: ["tp", "tiruppugazh"], tirumanthiram: ["tm", "thirumanthiram", "thirumandiram"] };
+    for (const [b, ns] of Object.entries(alias)) if (BOOKS[b]) for (const n of ns) NAME_BOOK[loose(n)] = b;
+  }
+  name = name.trim();
+  return name ? BY_PREFIX[name] || NAME_BOOK[loose(name)] || null : null;
+}
 function findVerse(book, rest) {
   const p = PREFIX[book];
   if (verses[`${p}:${rest}`]) return `${p}:${rest}`;
-  const m = rest.match(/^([^:]+)(?::(\d+)(?:-(\d+))?)?$/);
-  if (!m) return null;
-  const rec = m[1], line = m[2] ? +m[2] : null;
-  const units = Object.keys(verses).filter(id => id.startsWith(`${p}:${rec}:`)).map(id => {
+  const unitsOf = rec => Object.keys(verses).filter(id => id.startsWith(`${p}:${rec}:`)).map(id => {
     const r = id.slice(p.length + rec.length + 2).match(/^(\d+)-(\d+)$/); return r ? [id, +r[1], +r[2]] : null; }).filter(Boolean).sort((x, y) => x[1] - y[1]);
-  if (!units.length) return verses[`${p}:${rec}`] ? `${p}:${rec}` : null;
-  if (line === null) return units[0][0];
-  return (units.find(([, a, z]) => a <= line && line <= z) || [])[0] || null;
+  const whole = unitsOf(rest); if (whole.length) return whole[0][0];
+  const m = rest.match(/^(.+):(\d+)(?:-\d+)?$/); if (!m) return null;
+  const line = +m[2];
+  return (unitsOf(m[1]).find(([, a, z]) => a <= line && line <= z) || [])[0] || null;
 }
-document.getElementById("search").addEventListener("keydown", e => {
-  if (e.key !== "Enter") return;
-  const note = document.getElementById("search-note"); note.textContent = "";
-  const q = e.target.value.trim().toLowerCase(); if (!q) return;
-  const nal = q.match(/^(n|nal|naladiyar|நாலடியார்)\s*:?\s*(\d+)$/), kur = q.match(/^(k|kural|குறள்)?\s*:?\s*(\d+)$/);
-  const akq = q.match(/^(a|ak|akam|akananuru|அகம்|அகநானூறு)\s*:?\s*(\d+)$/);
-  if (akq && verses["a:" + akq[2]]) return selectVerse("a:" + akq[2], true);
-  const pnq = q.match(/^(pn|pu|puram|purananuru|புறம்|புறநானூறு)\s*:?\s*(\d+)$/);
-  if (pnq && verses["pn:" + pnq[2]]) return selectVerse("pn:" + pnq[2], true);
-  const ppq = q.match(/^(pp|pattupattu|பத்துப்பாட்டு)\s*:?\s*(?:(\d+)\s*:\s*)?(\d+)(?:\s*-\s*\d+)?$/);
-  if (ppq) {
-    const unit = findVerse("pattupattu", `${+(ppq[2] || 1)}:${+ppq[3]}`);
-    if (unit) return selectVerse(unit, true);
+// A verse id, {book, rest} for a book with no such verse, or null when the text names no book.
+function resolveRef(raw) {
+  const q = raw.trim(), ql = q.toLowerCase();
+  if (verses[q]) return q; if (verses[ql]) return ql;
+  if (/^\d+$/.test(ql)) return verses["k:" + ql] ? "k:" + ql : { book: "kural", rest: ql };
+  for (let i = 1; i < ql.length; i++) {
+    if (ql[i] !== " " && ql[i] !== ":") continue;
+    const book = resolveBook(ql.slice(0, i)); if (!book) continue;
+    const rest = ql.slice(i + 1).replace(/\s+/g, "").replace(/^:+/, ""); if (!rest) continue;
+    const id = findVerse(book, book === "pattupattu" && /^\d+(-\d+)?$/.test(rest) ? "1:" + rest : rest);
+    if (id) return id;
+    if (/^\d/.test(rest)) return { book, rest };
   }
-  const sdq = q.match(/^(s|sd|siddhar|சித்தர்)\s*:?\s*(\d+)$/);
-  if (sdq && verses["s:" + sdq[2]]) return selectVerse("s:" + sdq[2], true);
-  const tpq = q.match(/^(p|tp|thiruppugazh|திருப்புகழ்)\s*:?\s*(\d+)$/);
-  if (tpq && verses["p:" + tpq[2]]) return selectVerse("p:" + tpq[2], true);
-  const tmq = q.match(/^(t|tm|tirumanthiram|திருமந்திரம்)\s*:?\s*(\d+)$/);
-  if (tmq && verses["t:" + tmq[2]]) return selectVerse("t:" + tmq[2], true);
-  if (nal && verses["n:" + nal[2]]) return selectVerse("n:" + nal[2], true);
-  if (kur && verses["k:" + kur[2]]) return selectVerse("k:" + kur[2], true);
-  // a number after the prefix, or a named key (an invocation, "payiram") after a space or colon
-  const gq = q.match(/^([a-z]+)\s*:?\s*(\d[\d:\s-]*)$/) || q.match(/^([a-z]+)[\s:]+([a-z_]+(?::[\d-]+)?)$/);
-  if (gq && BY_PREFIX[gq[1]]) {
-    const id = findVerse(BY_PREFIX[gq[1]], gq[2].replace(/\s+/g, ""));
-    if (id) return selectVerse(id, true);
-    if (/^\d/.test(gq[2])) { note.textContent = `No ${BOOK_NAMES[BY_PREFIX[gq[1]]]} verse ${gq[2]}.`; return; }
+  return null;
+}
+
+// Verses in reading order, built on the first search.
+let ORDER = null;
+const order = () => ORDER ??= Object.keys(verses).sort((a, b) => BOOK_IDX[bookOf(a)] - BOOK_IDX[bookOf(b)]
+  || KG.chapters[verses[a].ch].num - KG.chapters[verses[b].ch].num || verses[a].num - verses[b].num);
+// Pivots: every verse sharing a poet, patron, epic person (speaker, addressee or agent), doctrinal school,
+// karu stem, named person or place, or thinai. Extra words (karu senses, entity kinds) help the search find them.
+const PIV_KINDS = { poet: ["Poet", "Poets"], patron: ["Patron", "Patrons"], person: ["Person in an epic", "People in the epics"],
+  school: ["School of a doctrinal claim", "Schools of doctrinal claims"], karu: ["Karu, a native thing", "Karu"],
+  entity: ["Named person or place", "Named people and places"], thinai: ["Thinai", "Thinai"] };
+let PIV = null;
+function pivots() {
+  if (PIV) return PIV;
+  PIV = Object.fromEntries(Object.keys(PIV_KINDS).map(k => [k, new Map()]));
+  const add = (k, key, id, extra) => {
+    if (!key || typeof key !== "string") return;
+    let e = PIV[k].get(key); if (!e) PIV[k].set(key, e = { ids: [], extra: new Set() });
+    if (e.ids[e.ids.length - 1] !== id) e.ids.push(id);
+    if (extra) e.extra.add(extra);
+  };
+  for (const id of order()) {
+    const v = verses[id];
+    add("poet", v.poet || v.who, id); add("patron", v.pat, id);
+    if (v.spk) { add("person", v.spk[0], id); add("person", v.spk[1], id); }
+    (v.ag || []).forEach(a => add("person", a, id));
+    (v.cl || []).forEach(c => add("school", c[1], id));
+    (v.k || []).forEach(k => add("karu", k[1], id, k[5]));
+    (v.en || []).forEach(e => add("entity", e[1], id, e[0]));
+    add("thinai", v.th, id);
   }
-  const hit = Object.entries(KG.concepts).find(([id, c]) => id === q || c.tamil === q)
-    || Object.entries(KG.concepts).find(([id, c]) => id.includes(q) || c.gloss.toLowerCase().includes(q) || c.tamil.includes(q));
-  if (hit) selectConcept(hit[0], true); else note.textContent = "No verse or concept matches.";
-});
+  return PIV;
+}
+const pv = (kind, key) => `<button class="pv${isTamil(key) ? " ta" : ""}" data-pivot="${kind}|${esc(key)}" title="every verse with this ${esc(PIV_KINDS[kind][0].toLowerCase())}">${esc(key)}</button>`;
+
+// Full text: every word must occur; a Latin word must start a word ("war" finds "warrior", not "toward"),
+// a Tamil word may occur anywhere (sandhi joins words). "Quotes" keep a phrase together.
+let HAY = null;
+const FIELDS = v => [v.r, v.n, v.p, v.t.join(" "), v.ev, (v.cl || []).map(c => c[0]).join(" ")];
+const hay = () => HAY ??= order().map(id => [id, norm(FIELDS(verses[id]).filter(Boolean).join("   "))]);
+const reEsc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+function textMatcher(q) {
+  const terms = (q.match(/"[^"]+"|\S+/g) || []).map(t => norm(t.replace(/"/g, "").trim())).filter(t => t.length > 0);
+  const res = terms.map(t => /^[a-z0-9]/.test(t) ? new RegExp("(^|[^a-z0-9])" + reEsc(t)) : null);
+  const find = h => terms.every((t, i) => res[i] ? res[i].test(h) : h.includes(t));
+  return { terms, find, res };
+}
+function snippet(id, tm) {
+  const t = tm.terms[0], re = tm.res[0];
+  for (const f of FIELDS(verses[id])) {
+    if (!f) continue;
+    const n = norm(f); let i = -1;
+    if (re) { const m = re.exec(n); if (m) i = m.index + m[1].length; } else i = n.indexOf(t);
+    if (i < 0) continue;
+    const a = Math.max(0, i - 60), z = Math.min(f.length, i + t.length + 90);
+    return `${a ? "…" : ""}${esc(f.slice(a, i))}<mark>${esc(f.slice(i, i + t.length))}</mark>${esc(f.slice(i + t.length, z))}${z < f.length ? "…" : ""}`;
+  }
+  return esc(verses[id].r);
+}
+const searchNote = document.getElementById("search-note");
+function runSearch(raw, textOnly) {
+  searchNote.textContent = "";
+  const q = raw.trim(); if (!q) return;
+  if (!textOnly) {
+    const ref = resolveRef(q);
+    if (typeof ref === "string") return selectVerse(ref, true);
+    if (ref) { searchNote.textContent = `No ${BOOK_NAMES[ref.book]} verse ${ref.rest}.`; return; }
+    const ql = norm(q), hit = Object.keys(KG.concepts).find(id => id === ql || norm(KG.concepts[id].tamil) === ql);
+    if (hit) {
+      selectConcept(hit, true);
+      searchNote.innerHTML = `Opened the concept ${esc(hit)}. <button class="linkish" data-textq="1">Search every verse for “${esc(q)}” instead</button>`;
+      return;
+    }
+  }
+  showResults(q);
+}
+document.getElementById("search").addEventListener("keydown", e => { if (e.key === "Enter") runSearch(e.target.value); });
+searchNote.addEventListener("click", e => { if (e.target.closest("[data-textq]")) runSearch(document.getElementById("search").value, true); });
+
+function verseRow(id, body) {
+  const v = verses[id];
+  return `<button class="lk" data-verse="${id}"><span class="top">${esc(fullName(id))}<span style="font-weight:400;color:var(--muted)">${esc(KG.chapters[v.ch]?.title || "")}</span>${soundLinked.has(id) ? pill("sound", "sound link") : ""}${(KG.sci || {})[id] ? pill("sci", "science") : ""}</span><p>${body}</p></button>`;
+}
+function showResults(q, keep) {
+  const tm = textMatcher(q); if (!tm.terms.length) return;
+  if (state.rq !== q) state.rshow = 50;
+  state.rq = q;
+  const hits = hay().filter(([, h]) => tm.find(h)).map(([id]) => id);
+  state.rhits = hits;
+  const nq = norm(q), lq = loose(q), piv = [];
+  for (const [k, M] of Object.entries(pivots())) for (const [key, e] of M) {
+    const nk = norm(key);
+    const rank = nk === nq ? 0 : nk.includes(nq) || (lq.length >= 3 && loose(key).includes(lq)) ? 1
+      : nq.length >= 3 && [...e.extra].some(x => norm(x).includes(nq)) ? 2 : -1;
+    if (rank >= 0) piv.push([rank, k, key, e.ids.length]);
+  }
+  piv.sort((x, y) => x[0] - y[0] || y[3] - x[3]);
+  const m = matcher(q);
+  const concepts = m ? Object.keys(KG.concepts).filter(c => conceptHit(m, c)).sort((a, b) => cn(b) - cn(a)) : [];
+  const nodes = m ? Object.values(NODE).filter(n => m(n.id.split(".").pop(), n.name, n.tamil)) : [];
+  const byKind = {}; for (const p of piv) (byKind[p[1]] = byKind[p[1]] || []).push(p);
+  const top = detail.scrollTop;
+  const shown = hits.slice(0, state.rshow);
+  detail.innerHTML = `<div><h2>“${esc(q)}”</h2><div class="sub">${fmt(hits.length)} verse${hits.length === 1 ? "" : "s"} whose reading, nuance, translation, claims or Tamil text hold ${tm.terms.length > 1 ? "every word" : "it"}${piv.length ? `; ${fmt(piv.length)} poet${piv.length === 1 ? "" : "s"}, people, places or things` : ""}${concepts.length ? `; ${concepts.length} concept${concepts.length === 1 ? "" : "s"}` : ""}</div></div>
+    ${nodes.length ? `<div class="block"><div class="k">Themes</div><div class="rgroup">${nodes.slice(0, 10).map(n => `<button class="chip" data-node="${esc(n.id)}"><span class="tm" style="margin:0 4px 0 0">${esc(n.tamil)}</span>${esc(n.name)}</button>`).join("")}</div></div>` : ""}
+    ${concepts.length ? `<div class="block"><div class="k">Concepts (${concepts.length})</div><div class="rgroup">${concepts.slice(0, 18).map(conceptChip).join("")}</div></div>` : ""}
+    ${Object.keys(PIV_KINDS).filter(k => byKind[k]).map(k => `<div class="block"><div class="k">${PIV_KINDS[k][1]} (${byKind[k].length})</div><div class="rgroup">${byKind[k].slice(0, 16).map(([, , key, n]) =>
+      `<button class="chip" data-pivot="${k}|${esc(key)}"><span class="${isTamil(key) ? "ta" : ""}">${esc(key)}</span><span class="tm">${fmt(n)}</span></button>`).join("")}${byKind[k].length > 16 ? `<span class="legend-note">and ${byKind[k].length - 16} more: narrow the search</span>` : ""}</div></div>`).join("")}
+    <div class="block"><div class="vhead"><div class="k" style="margin:0">Verses (${fmt(hits.length)})</div>${hits.length ? `<button class="chip" data-hlset="1">Light them up in All verses</button>` : ""}</div></div>
+    <div class="list">${shown.map(id => verseRow(id, snippet(id, tm))).join("") || '<p class="empty">No verse holds every word. Try fewer words, or a Tamil stem.</p>'}${hits.length > shown.length ? `<button class="more" data-rmore="1">Show ${Math.min(50, hits.length - shown.length)} more of ${fmt(hits.length - shown.length)}</button>` : ""}</div>`;
+  detail.scrollTop = keep ? top : 0;
+  if (!keep) { setHash("q-" + encodeURIComponent(q)); revealDetail(); }
+  searchNote.textContent = `${fmt(hits.length)} verses, ${fmt(piv.length + concepts.length + nodes.length)} other matches: listed ${matchMedia("(max-width: 720px)").matches ? "below" : "on the right"}.`;
+}
+function pivotContext(kind, key, id) {
+  const v = verses[id];
+  if (kind === "school") return (v.cl || []).filter(c => c[1] === key).map(c => `${pill(c[2] === "refuted" ? "forced" : c[2] === "reported" ? "weak" : "sound", c[2])} ${esc(c[0])}`).join("<br>");
+  if (kind === "karu") return (v.k || []).filter(k => k[1] === key).map(k => `<span class="ta">${esc(k[0])}</span> · ${esc(ROLE_NAMES[k[4]] || k[4])}${k[5] ? " · " + esc(k[5]) : ""}`).join("; ") + `<br>${esc(v.r)}`;
+  if (kind === "entity") return `${esc((v.en || []).filter(e => e[1] === key).map(e => e[0])[0] || "")} · ${esc(v.r)}`;
+  if (kind === "person" && v.ev) return esc(v.ev);
+  return esc(v.r);
+}
+function showPivot(kind, key, keep) {
+  const e = pivots()[kind]?.get(key); if (!e) return false;
+  if (!state.piv || state.piv[0] !== kind || state.piv[1] !== key) state.pmore = new Set();
+  state.piv = [kind, key];
+  const byBook = {}; e.ids.forEach(id => (byBook[bookOf(id)] = byBook[bookOf(id)] || []).push(id));
+  const books = BOOK_ORDER.filter(b => byBook[b]), CAP = 12, top = detail.scrollTop;
+  detail.innerHTML = `<div><h2><span class="${isTamil(key) ? "ta" : ""}">${esc(key)}</span></h2><div class="sub">${PIV_KINDS[kind][0]} · ${fmt(e.ids.length)} verse${e.ids.length === 1 ? "" : "s"} in ${books.length} book${books.length === 1 ? "" : "s"}${e.extra.size ? ` · ${esc([...e.extra].slice(0, 6).join(", "))}` : ""}</div></div>
+    <div class="pills">${books.map(b => pill("", `${BOOK_NAMES[b]} ${byBook[b].length}`)).join("")}</div>
+    ${kind === "person" ? `<p class="legend-note">People are matched by their Tamil name as marked, so two people of one name in different epics share a list.</p>` : ""}
+    <div><button class="chip" data-hlpiv="1">Light them up in All verses</button></div>
+    ${books.map(b => { const list = byBook[b], more = state.pmore.has(b);
+      return `<div class="block"><div class="k">${esc(BOOK_NAMES[b])} <span class="ta" style="text-transform:none">${esc(BOOK_TAMIL[b])}</span> (${list.length})</div><div class="list">${(more ? list : list.slice(0, CAP)).map(id => verseRow(id, pivotContext(kind, key, id))).join("")}${!more && list.length > CAP ? `<button class="more" data-pmore="${b}">Show all ${list.length}</button>` : ""}</div></div>`; }).join("")}`;
+  detail.scrollTop = keep ? top : 0;
+  if (!keep) { setHash("pivot-" + kind + "-" + encodeURIComponent(key)); revealDetail(); }
+  return true;
+}
+function lightUp(ids, labelText) {
+  state.hlSet = new Set(ids); state.hlLabel = labelText; state.highlight = "set";
+  state.view = "grid"; state.thread = null; render();
+  document.querySelector(".cell.on")?.scrollIntoView({ block: "nearest" });
+}
 
 // ---- Graph ----
 const svg = d3.select("#svg"), root = svg.append("g"), gLinks = root.append("g"), gNodes = root.append("g");
@@ -606,9 +796,13 @@ function visibleLinks() {
     const pairs = new Set(KG.threads[state.thread].links.map(([a, b]) => a + "|" + b));
     return KG.links.filter(l => pairs.has(l.a + "|" + l.b));
   }
+  return KG.links.filter(l => linkPasses(l) && state.types.has(l.type));
+}
+// grade, books and scope: everything but the type boxes (so the type counts can show what each box would add)
+function linkPasses(l) {
   const grades = GRADE_SETS[state.grade];
   const scope = state.books.size < 2 && state.scope === "texts" ? SCOPES.any : SCOPES[state.scope];
-  return KG.links.filter(l => grades.includes(l.grade) && state.types.has(l.type) && inBooks(l.a) && inBooks(l.b) && scope(l));
+  return grades.includes(l.grade) && inBooks(l.a) && inBooks(l.b) && scope(l);
 }
 
 // Bands, top to bottom: one per group when more than one group is shown, else one per book.
@@ -711,7 +905,7 @@ function renderBridges() {
   const wGraded = within.filter(l => l.grade !== "not_audited").length, wSound = within.filter(l => l.grade === "sound").length;
   grid.innerHTML = `<div class="matrix-wrap">
     <p>Each cell counts the <b>sound</b> links between two groups, both directions, with the share of graded links that are sound. Darker cells have more sound bridges. The dashed diagonal is the baseline: links within one group. Click a cell to list its links; the grade buttons on the left choose which.</p>
-    <p>Between groups ${fmt(bSound)} of ${fmt(bGraded)} graded links are sound (${Math.round(100 * bSound / Math.max(1, bGraded))}%); within groups ${fmt(wSound)} of ${fmt(wGraded)} (${Math.round(100 * wSound / Math.max(1, wGraded))}%).</p>
+    <p>Between groups ${fmt(bSound)} of ${fmt(bGraded)} graded links are sound (${Math.round(100 * bSound / Math.max(1, bGraded))}%); within groups ${fmt(wSound)} of ${fmt(wGraded)} (${Math.round(100 * wSound / Math.max(1, wGraded))}%).${bridges.length + within.length > bGraded + wGraded ? ` ${fmt(bridges.length - bGraded)} bridges and ${fmt(within.length - wGraded)} links within groups are not yet graded; <b>All</b> lists them.` : ""}</p>
     <table class="matrix"><thead><tr><th></th>${groups.map(g => `<th scope="col">${esc(GROUP_SHORT[g])}</th>`).join("")}</tr></thead>
     <tbody>${groups.map(a => `<tr><th scope="row">${esc(GROUP_SHORT[a])}</th>${groups.map(b => cellOf(a, b)).join("")}</tr>`).join("")}</tbody></table></div>`;
   document.getElementById("hint").textContent = `${groups.length} groups. Click a cell to list the links between two groups.`;
@@ -732,9 +926,9 @@ function showBridge(a, b) {
   ls.forEach(l => { const k = [BOOK_NAMES[bookOf(l.a)], BOOK_NAMES[bookOf(l.b)]].sort().join(" and "); byBooks[k] = (byBooks[k] || 0) + 1; });
   const shown = ls.slice(0, 300);
   detail.innerHTML = `<div><h2>${esc(groupName(a))}${a === b ? " (within the group)" : ` and ${esc(groupName(b))}`}</h2>
-      <div class="sub">${fmt(ls.length)} ${state.grade === "sound" ? "sound" : state.grade === "weak" ? "sound and weak" : ""} links${ls.length > shown.length ? `, the first ${shown.length} shown` : ""}</div></div>
+      <div class="sub">${fmt(ls.length)} ${state.grade === "sound" ? "sound links" : state.grade === "weak" ? "sound and weak links" : "links of every grade"}${ls.length > shown.length ? `, the first ${shown.length} shown` : ""}</div></div>
     <div class="pills">${Object.entries(byBooks).sort((x, y) => y[1] - x[1]).slice(0, 12).map(([k, n]) => pill("", `${k} ${n}`)).join("")}</div>
-    <div class="list">${shown.map(l => `<button class="lk" data-verse="${l.a}"><span class="top"><span class="swatch" style="background:var(--t-${l.type})"></span>${esc(fullName(l.a))} → ${esc(fullName(l.b))}${pill(l.grade, l.grade)}${l.mm ? pill("weak", "marked by Sonnet") : ""}</span>
+    <div class="list">${shown.map(l => `<button class="lk" data-verse="${l.a}"><span class="top"><span class="swatch" style="background:var(--t-${l.type})"></span>${esc(fullName(l.a))} → ${esc(fullName(l.b))}${gradePill(l.grade)}${l.mm ? pill("weak", "marked by Sonnet") : ""}</span>
       <p>${esc(l.note)}</p>${l.te ? `<p><i>Teaches:</i> ${esc(l.te)}</p>` : ""}</button>`).join("") || '<p class="empty">No links of these grades.</p>'}</div>`;
   detail.scrollTop = 0;
 }
@@ -775,14 +969,15 @@ function render() {
     if (sim) sim.stop();
     if (state.view === "bridges") return renderBridges();
     const shown = shownVerses(), n = shown.filter(hlFn()).length;
-    const cb = document.getElementById("h-concept"), cid = state.highlight.startsWith("concept:") ? state.highlight.slice(8) : null;
-    cb.hidden = !cid; cb.setAttribute("aria-pressed", !!cid);
+    lensCounts(shown);
+    const cb = document.getElementById("h-concept"), cid = state.highlight.startsWith("concept:") ? state.highlight.slice(8) : null, isSet = state.highlight === "set";
+    cb.hidden = !cid && !isSet; cb.setAttribute("aria-pressed", !!cid || isSet);
     if (cid) cb.innerHTML = `express ${esc(cid)} <span style="font-family:var(--f-tamil)">${esc(KG.concepts[cid].tamil)}</span><span class="n">${n}</span>`;
-    document.getElementById("hint").textContent = `Every verse, one row of ten per chapter. ${fmt(n)} of ${fmt(shown.length)} lit${cid ? ` for ${cid}` : ""}. Click a square to read the verse.`;
+    else if (isSet) cb.innerHTML = `match ${esc(state.hlLabel || "the search")}<span class="n">${fmt(n)}</span>`;
+    document.getElementById("hint").textContent = `Every verse, one row of ten per chapter. ${fmt(n)} of ${fmt(shown.length)} lit${cid ? ` for ${cid}` : isSet ? ` for ${state.hlLabel}` : ""}. Click a square to read the verse.`;
     renderGrid(); return;
   }
-  const grades = GRADE_SETS[state.grade];
-  const tc = {}; for (const l of KG.links) if (grades.includes(l.grade) && inBooks(l.a) && inBooks(l.b)) tc[l.type] = (tc[l.type] || 0) + 1;
+  const tc = {}; for (const l of KG.links) if (linkPasses(l)) tc[l.type] = (tc[l.type] || 0) + 1;
   TYPES.forEach(t => document.getElementById("n-" + t).textContent = fmt(tc[t] || 0));
 
   current = state.view === "verses" ? verseGraph() : conceptGraph();
@@ -814,8 +1009,7 @@ function render() {
   nodeSel.classed("concept", d => d.kind === "concept");
   const fills = {};
   nodeSel.select("path").attr("d", shape).attr("fill", d => fills[d.part] ??= css("--" + d.part) || css("--muted"));
-  nodeSel.select("text").attr("x", d => d.r + 3)
-    .text(d => d.kind === "concept" ? (d.deg >= 60 ? d.id : "") : (d.deg >= 5 || state.thread !== null ? label(d.id) : ""));
+  nodeSel.select("text").attr("x", d => d.r + 3).text(baseLabel);
   nodeSel.on("click", (e, d) => d.kind === "verse" ? selectVerse(d.id) : selectConcept(d.id))
     .on("keydown", (e, d) => { if (e.key === "Enter") d.kind === "verse" ? selectVerse(d.id) : selectConcept(d.id); })
     .on("mouseenter", (e, d) => showTip(e, d)).on("mousemove", moveTip).on("mouseleave", () => tip.style.display = "none")
@@ -858,9 +1052,12 @@ function ticked() {
   nodeSel.attr("transform", d => `translate(${d.x},${d.y})`);
 }
 
+// A node's resting label: big concepts and well-linked verses (every verse in a thread).
+const baseLabel = d => d.kind === "concept" ? (d.deg >= 60 ? d.id : "") : (d.deg >= 5 || state.thread !== null ? label(d.id) : "");
 function highlight() {
   if (!nodeSel) return;
   const s = state.selected;
+  nodeSel.select("text").text(baseLabel);  // clear the neighbour labels of the last selection
   if (!s || s.kind !== (state.view === "verses" ? "verse" : "concept") || !current.nodes.some(n => n.id === s.id)) {
     nodeSel.classed("dim", false).classed("sel", false); linkSel.classed("dim", false); return;
   }
@@ -897,7 +1094,7 @@ function linkCard(l, from) {
   const across = bookOf(other) !== bookOf(from), bridge = groupOf(other) !== groupOf(from);
   return `<button class="lk" data-verse="${other}">
     <span class="top"><span class="swatch" style="background:var(--t-${l.type})"></span>${TYPE_NAMES[l.type]} → ${esc(fullName(other))}
-      <span style="font-weight:400;color:var(--muted)">${esc(KG.chapters[v.ch].title)}</span>${pill(l.grade, l.grade)}${bridge ? pill("across", "other group") : across ? pill("across", "other book") : ""}${l.better ? pill("", "grader suggests " + l.better.replace("_", " ")) : ""}${l.gr ? pill("", `graded ${l.gr} times`) : ""}</span>
+      <span style="font-weight:400;color:var(--muted)">${esc(KG.chapters[v.ch].title)}</span>${gradePill(l.grade)}${bridge ? pill("across", "other group") : across ? pill("across", "other book") : ""}${l.better ? pill("", "grader suggests " + l.better.replace("_", " ")) : ""}${l.gr ? pill("", `graded ${l.gr} times`) : ""}</span>
     <p>${esc(l.note)}</p>${l.te ? `<p><i>Teaches:</i> ${esc(l.te)}</p>` : ""}${l.la ? `<p><i>What the list adds:</i> ${esc(l.la)}</p>` : ""}${l.gn ? `<p><i>Each side gains:</i> ${esc(l.gn[0])}; ${esc(l.gn[1])}</p>` : ""}</button>`;
 }
 
@@ -914,15 +1111,15 @@ function sangamFrame(v) {
   const thinai = `${esc(v.th || "none")}${v.cth ? ` · colophon <span class="ta">${esc(v.cth)}</span>` : ""}${v.thd ? " " + pill("uncertain", "differs from the colophon") : ""}${v.mx ? " " + pill("", "mixed landscape") : ""}`;
   const speaker = (v.sp || []).map(([s, a, o, stage, words]) => `${esc(person(s))} to ${esc(person(a))}${o ? `, ${esc(person(o))} overhearing` : ""}${stage ? ` (${esc(stage)})` : ""}${words ? `: <span class="ta">${esc(words)}</span>` : ""}`).join("<br>");
   const karu = (v.k || []).map(([form, stem, line, kind, role, sense]) =>
-    `<span class="${role === "ullurai" || role === "iraicchi" ? "dev" : ""}" title="${esc(stem)}, line ${line}"><b>${esc(form)}</b><small>${esc(kind)} · ${esc(ROLE_NAMES[role] || role)}${sense ? " · " + esc(sense) : ""}</small></span>`).join("");
-  const ents = (v.en || []).map(([type, name, line]) => `<span title="line ${line}"><b>${esc(name)}</b><small>${esc(type)}</small></span>`).join("");
+    `<button class="${role === "ullurai" || role === "iraicchi" ? "dev" : ""}" data-pivot="karu|${esc(stem)}" title="${esc(stem)}, line ${line}: every verse naming it"><b>${esc(form)}</b><small>${esc(kind)} · ${esc(ROLE_NAMES[role] || role)}${sense ? " · " + esc(sense) : ""}</small></button>`).join("");
+  const ents = (v.en || []).map(([type, name, line]) => `<button data-pivot="entity|${esc(name)}" title="line ${line}: every verse naming it"><b>${esc(name)}</b><small>${esc(type)}</small></button>`).join("");
   const devices = (v.dv || []).map(([field, forms, status, agree, gloss]) =>
     `<div>${field === "ullurai" ? "Ullurai" : "Iraicchi"}${forms ? ` <span class="ta">${esc(forms)}</span>` : ""} ${pill(status, STATUS_NAMES[status] || status)}${agree ? ` <small style="color:var(--muted)">graders agree ${esc(agree)}</small>` : ""}${gloss ? `<br><span style="color:var(--muted)">${esc(gloss)}</span>` : ""}</div>`).join("");
   return `<div class="block"><div class="k">Tholkappiyam frame (interpretation, beside the colophon)</div><dl class="frame">
-      ${row("Poet", v.poet ? `<span class="ta">${esc(v.poet)}</span>` : "")}
-      ${row("Patron", v.pat ? `<span class="ta">${esc(v.pat)}</span>` : "")}
+      ${row("Poet", v.poet ? pv("poet", v.poet) : "")}
+      ${row("Patron", v.pat ? pv("patron", v.pat) : "")}
       ${row("Frame", esc(v.ap))}
-      ${row("Thinai", thinai)}
+      ${row("Thinai", v.th ? thinai.replace(esc(v.th), pv("thinai", v.th, false)) : thinai)}
       ${row("Uri", esc(v.uri))}
       ${row("Speaker", speaker)}
       ${row("Thurai", v.ctu ? `<span class="ta">${esc(v.ctu)}</span>` : "")}
@@ -939,7 +1136,7 @@ function ethicsFrame(v) {
   const pz = v.pz ? `<div class="block"><div class="k">The proverb</div><p class="ta">${esc(v.pz[0])}</p><p style="color:var(--muted)">${esc(v.pz[1])}</p>
     <dl class="frame">${row("Applied to", esc(v.pz[2]))}${row("Story", `${esc(v.pz[3])}${v.pz[4] ? ` · <span class="ta">${esc(v.pz[4])}</span>` : ""}${v.pz[5] ? `: ${esc(v.pz[5])}` : ""}`)}</dl></div>` : "";
   return `<div class="block"><div class="k">Ethics frame (interpretation)</div><dl class="frame">
-      ${row("Poet", v.poet ? `<span class="ta">${esc(v.poet)}</span>` : "")}
+      ${row("Poet", v.poet ? pv("poet", v.poet) : "")}
       ${row("Domain", esc(v.dm))}
       ${row("Count word", v.cw ? `<span class="ta">${esc(v.cw)}</span>` : "")}
       ${row("Historical norm", v.nr ? `${esc(v.nr[0].join(", "))}: <span style="color:var(--muted)">${esc(v.nr[1])}</span>` : "")}
@@ -948,11 +1145,11 @@ function ethicsFrame(v) {
 }
 // The narrative field set: who speaks and acts, the event, doctrinal claims (school, stance) and echoes of the Kural or Naladiyar.
 function narrativeFrame(v) {
-  const claims = (v.cl || []).map(([claim, school, stance, line, by]) => `<div>${pill(stance === "refuted" ? "forced" : stance === "reported" ? "weak" : "sound", stance)} ${pill("", school)} ${esc(claim)} <small style="color:var(--muted)">line ${esc(line)}${by && by !== "narrator" ? `, voiced by ${esc(by)}` : ""}</small></div>`).join("");
+  const claims = (v.cl || []).map(([claim, school, stance, line, by]) => `<div>${pill(stance === "refuted" ? "forced" : stance === "reported" ? "weak" : "sound", stance)} <button class="chip" data-pivot="school|${esc(school)}" title="every claim of this school">${esc(school)}</button> ${esc(claim)} <small style="color:var(--muted)">line ${esc(line)}${by && by !== "narrator" ? `, voiced by ${esc(by)}` : ""}</small></div>`).join("");
   const echoes = (v.ec || []).filter(([b]) => verses[b]).map(([b, kind]) => `<button class="chip" data-verse="${b}">${esc(fullName(b))}<span class="tm">${esc(kind)}</span></button>`).join("");
   return `<div class="block"><div class="k">Narrative frame (interpretation)</div><dl class="frame">
-      ${row("Speaker", v.spk ? `<span class="ta">${esc(v.spk[0])}</span>${v.spk[1] ? ` to <span class="ta">${esc(v.spk[1])}</span>` : ""}` : "the narrator")}
-      ${row("Who acts", (v.ag || []).length ? `<span class="ta">${(v.ag || []).map(esc).join(", ")}</span>` : "")}
+      ${row("Speaker", v.spk ? `${pv("person", v.spk[0])}${v.spk[1] ? ` to ${pv("person", v.spk[1])}` : ""}` : "the narrator")}
+      ${row("Who acts", (v.ag || []).length ? (v.ag || []).map(a => pv("person", a)).join(", ") : "")}
       ${row("Event", esc(v.ev))}
     </dl></div>
     ${claims ? `<div class="block"><div class="k">Claims: school and stance (${v.cl.length})</div><div class="list">${claims}</div></div>` : ""}
@@ -978,7 +1175,12 @@ function selectVerse(id, focus) {
   const v = verses[id], ch = KG.chapters[v.ch];
   const links = KG.links.filter(l => l.a === id || l.b === id)
     .sort((x, y) => (bookOf(y.a === id ? y.b : y.a) !== v.book) - (bookOf(x.a === id ? x.b : x.a) !== v.book));
-  const flags = [v.x && pill("contested", "commentators differ"), v.u && pill("uncertain", "reading uncertain"), v.f && pill("textflag", "source text to check"), v.mm && pill("weak", "marked by Sonnet")].filter(Boolean).join("");
+  const sci = (KG.sci || {})[id] || [];
+  const flags = [v.x && pill("contested", "commentators differ"), v.u && pill("uncertain", "reading uncertain"), v.f && pill("textflag", "source text to check"), v.mm && pill("weak", "marked by Sonnet"), sci.length && pill("sci", "science correspondence")].filter(Boolean).join("");
+  const DIR = { supports: ["sound", "finding supports the verse's claim"], contradicts: ["forced", "finding contradicts the verse's claim"], neither: ["weak", "bears on it, neither way"] };
+  const sciBlock = sci.length ? `<div class="block"><div class="k">Science correspondence (blind-graded; not a confirmation)</div><div class="list">${sci.map(([claim, dir, grade, strength, domain, src, cipher]) =>
+    `<div class="sci"><span>${esc(claim)}</span><span>${pill(DIR[dir]?.[0] || "", DIR[dir]?.[1] || dir)} ${pill("", `finding ${strength}`)} ${pill("", domain)} <small style="color:var(--muted)">mean grade ${grade} of 3${cipher ? ", leans on a gloss the Tamil does not fix" : ""}</small></span>${/^https:\/\//.test(src) ? `<a href="${esc(src)}" target="_blank" rel="noopener">source</a>` : ""}</div>`).join("")}</div>
+    <p class="legend-note" style="margin-top:6px">A grader, blind to which pairs were real, judged that this verse makes a specific claim the finding bears on, more clearly than random pairings did. It does not mean the poet anticipated the science, or that any practice is safe; medical and alchemical verses are historical claims, never remedies (kg/science/README.md).</p></div>` : "";
   const back = state.view === "concepts" && state.csel ? `<button class="chip back" data-back="1">← back to ${esc(state.csel)} <span class="tm">${esc(KG.concepts[state.csel].tamil)}</span></button>` : "";
   detail.innerHTML = `${back}
     <div><h2>${esc(fullName(id))}</h2><div class="sub"><span style="font-family:var(--f-tamil)">${esc(BOOK_TAMIL[v.book])}</span> · ${esc(groupName(GROUP_OF(v.book)))} · chapter ${ch.num}, <span style="font-family:var(--f-tamil)">${esc(ch.title)}</span> · <span${OWN_PART[v.book] ? ' style="font-family:var(--f-tamil)"' : ""}>${esc(partName(ch))}</span></div></div>
@@ -986,21 +1188,24 @@ function selectVerse(id, focus) {
     ${flags ? `<div class="pills">${flags}</div>` : ""}
     <div class="block"><div class="k">Reading</div><p>${esc(v.r)}</p></div>
     ${v.n ? `<div class="block"><div class="k">Nuance (interpretation)</div><p>${esc(v.n)}</p></div>` : ""}
+    ${v.who ? `<div class="block"><div class="k">Poet</div><p>${pv("poet", v.who)}</p></div>` : ""}
     ${frameOf(v)}
+    ${sciBlock}
     ${v.p ? `<div class="block"><div class="k">Pope's translation</div><p style="color:var(--muted)">${esc(v.p)}</p></div>` : ""}
     <div class="block"><div class="k">Concepts</div><div class="pills">${v.c.map(conceptChip).join("")}</div></div>
     ${v.pos.length ? `<div class="block"><div class="k">What the commentators say</div><div class="list">${v.pos.map(([by, p, q]) =>
-      `<div class="pos"><b style="text-transform:capitalize">${esc(by)}</b><span>${esc(p)}</span><q>${esc(q)}</q></div>`).join("")}</div></div>` : ""}
+      `<div class="pos"><b style="text-transform:capitalize">${esc(by)}</b><span>${esc(p)}</span>${q ? `<q>${esc(q)}</q>` : ""}</div>`).join("")}</div></div>` : ""}
     <div class="block"><div class="k">Links (${links.length}), other book first</div><div class="list">${links.length ? links.map(l => linkCard(l, id)).join("") : '<p class="empty">No links from this verse.</p>'}</div></div>
     <div class="block"><div class="k">Chapter theme</div><p style="color:var(--muted)">${esc(ch.theme)}</p></div>`;
   detail.scrollTop = 0;
+  setHash("verse-" + id);
   if (state.view === "concepts") revealDetail();
   if (focus && state.view === "verses") centreOn(id);
 }
 
 function selectConcept(c, focus) {
   if (!KG.concepts[c]) return;
-  if (state.view === "grid") { state.highlight = "concept:" + c; render(); }
+  if (state.view === "grid") { state.highlight = "concept:" + c; render(); setHash("concept-" + c); }
   else if (state.view !== "concepts") { state.view = "concepts"; state.thread = null; render(); }
   if (state.csel !== c) state.cmore = new Set();
   state.csel = c;
@@ -1027,7 +1232,7 @@ function showThread(t) {
     <div class="block"><div class="k">Links (${t.links.length})</div><div class="list">${t.links.map(([a, b]) => {
       const l = KG.links.find(x => x.a === a && x.b === b);
       if (!l || !verses[a] || !verses[b]) return "";
-      return `<button class="lk" data-verse="${a}"><span class="top"><span class="swatch" style="background:var(--t-${l.type})"></span>${label(a)} ↔ ${label(b)}${pill(l.grade, l.grade)}</span>
+      return `<button class="lk" data-verse="${a}"><span class="top"><span class="swatch" style="background:var(--t-${l.type})"></span>${label(a)} ↔ ${label(b)}${gradePill(l.grade)}</span>
         <p class="tamil" style="font-size:13.5px;color:var(--ink)">${esc(verses[a].t.join(" "))}<br>${esc(verses[b].t.join(" "))}</p><p>${esc(l.note)}</p></button>`;
     }).join("")}</div></div>`;
   detail.scrollTop = 0;
@@ -1043,8 +1248,8 @@ function showEmpty() {
     <h2>How to read this</h2>
     <p>${BOOK_ORDER.length} Tamil books are here, read in ${GROUP_ORDER.length} groups (docs/corpus-groups.md): ${GROUP_ORDER.map(g => `<b>${esc(groupName(g))}</b> (${BOOK_ORDER.filter(b => GROUP_OF(b) === g).map(b => esc(BOOK_NAMES[b])).join(", ")})`).join("; ")}.</p>
     <p>Every verse or reading unit has a reading and up to four shared concepts, and the fields of its group: the Tholkappiyam frame (thinai, speaker, karu, hidden comparisons) for akam, puram and devotional verses; domain, counted things, proverb and historical norms for the ethics works; speaker, agents, event and doctrinal claims (school and stance) for the epics. Each book has its own colour and shape; the Kural and Naladiyar are coloured by part.</p>
-    <p><b>All verses</b> shows every verse in rows of ten per chapter. <b>Links</b> draws the links, sound ones only unless you add weak ones. <b>Concepts</b> sorts the shared concepts into categories (the four aims and nine cross-cutting families), with an essence line for each; its <b>Map</b> tab keeps the concept network. Link to a concept with <b>#concept-vaasi</b>. <b>Bridges</b> is a group-by-group matrix of sound links between groups. Search a verse by its book's prefix: <b>nt 12</b>, <b>si 3:40</b>, <b>cc 198</b>, <b>a 12</b>, <b>pp 120</b>, or a bare number for the Kural.</p>
-    <p><b>Trust:</b> every link was graded blind by a separate agent; where graders differed the stricter grade is kept. ${sp(L)}% of graded links are sound; ${sp(bridges)}% of the ${fmt(bridges.length)} bridges between groups. By group: ${GROUP_ORDER.map(g => `${esc(GROUP_SHORT[g])} ${sp(gl(g))}%`).join(", ")}. The Jain epics marked in wave 6 are weakest: ${sp(jain)}% of their ${fmt(jain.length)} links are sound, and Sonnet-marked chapters ${wm.sonnet ? Math.round(wm.sonnet.strictest_sound_pct) : "?"}% against ${wm.opus ? Math.round(wm.opus.strictest_sound_pct) : "?"}% for Opus-marked ones. Only the Kural and Naladiyar have commentary here (${COMMENTATOR_NAMES.kural}; ${COMMENTATOR_NAMES.naladiyar}); every other reading is the marking agent's own. No Tamil scholar has reviewed any of this.</p>
+    <p><b>All verses</b> shows every verse in rows of ten per chapter. <b>Links</b> draws the links, sound ones only unless you add weak ones. <b>Concepts</b> sorts the shared concepts into categories (the four aims and nine cross-cutting families), with an essence line for each; its <b>Map</b> tab keeps the concept network. Link to a concept with <b>#concept-vaasi</b>. <b>Bridges</b> is a group-by-group matrix of sound links between groups. Search a verse by its book's prefix: <b>nt 12</b>, <b>si 3:40</b>, <b>cc 198</b>, <b>a 12</b>, <b>pp 120</b>, by its book's name (<b>Kalittokai 12</b>), or a bare number for the Kural. Any other words search every verse's reading, nuance and Tamil text, and list the poets, patrons, people, schools, karu and places they name; click one to see all its verses. Link to a verse with <b>#verse-nt:12</b>.</p>
+    <p><b>Trust:</b> every link was graded blind by a separate agent; where graders differed the stricter grade is kept. ${sp(L)}% of graded links are sound; ${sp(bridges)}% of the ${fmt(bridges.filter(isGraded).length)} graded bridges between groups. By group: ${GROUP_ORDER.map(g => `${esc(GROUP_SHORT[g])} ${sp(gl(g))}%`).join(", ")}. The Jain epics marked in wave 6 are weakest: ${sp(jain)}% of their ${fmt(jain.filter(isGraded).length)} graded links are sound, and Sonnet-marked chapters ${wm.sonnet ? Math.round(wm.sonnet.strictest_sound_pct) : "?"}% against ${wm.opus ? Math.round(wm.opus.strictest_sound_pct) : "?"}% for Opus-marked ones. Only the Kural and Naladiyar have commentary here (${COMMENTATOR_NAMES.kural}; ${COMMENTATOR_NAMES.naladiyar}); every other reading is the marking agent's own. No Tamil scholar has reviewed any of this.</p>
   </div>`;
 }
 
@@ -1053,6 +1258,12 @@ document.getElementById("grid").addEventListener("click", e => {
   const p = e.target.closest("[data-pair]"); if (p) showBridge(...p.dataset.pair.split("|"));
 });
 detail.addEventListener("click", e => {
+  const pvt = e.target.closest("[data-pivot]");
+  if (pvt) { const [k, ...key] = pvt.dataset.pivot.split("|"); return showPivot(k, key.join("|")); }
+  if (e.target.closest("[data-hlset]")) return lightUp(state.rhits || [], `“${state.rq}”`);
+  if (e.target.closest("[data-hlpiv]")) return lightUp(pivots()[state.piv[0]].get(state.piv[1]).ids, state.piv[1]);
+  if (e.target.closest("[data-rmore]")) { state.rshow += 50; return showResults(state.rq, true); }
+  const pm = e.target.closest("[data-pmore]"); if (pm) { state.pmore.add(pm.dataset.pmore); return showPivot(state.piv[0], state.piv[1], true); }
   const n = e.target.closest("[data-node]"); if (n) return selectNode(n.dataset.node);
   if (e.target.closest("[data-back]")) return conceptDetail(state.csel);
   const t = e.target.closest("[data-csound]"); if (t) { state.csound = t.dataset.csound === "1"; return conceptDetail(state.csel, true); }
@@ -1087,8 +1298,6 @@ const setHash = h => { if (location.hash !== "#" + h) history.replaceState(null,
 const revealDetail = () => { if (matchMedia("(max-width: 720px)").matches) detail.scrollIntoView({ block: "start" }); };
 
 // Search: plain substring, and a loose form that folds doubled letters (vaasi ~ vasi) and drops punctuation.
-const norm = x => String(x ?? "").toLowerCase().normalize("NFC");
-const loose = x => norm(x).replace(/([a-z])\1+/g, "$1").replace(/[^a-z0-9஀-௿]+/g, "");
 function matcher(q) {
   q = norm(q).trim(); if (q.length < 2) return null;
   const lq = loose(q);
@@ -1109,7 +1318,7 @@ function renderTree() {
     const catHit = m && m(cat.id, cat.name, cat.tamil);
     const subs = cat.subthemes.map(sub => {
       const subHit = m && m(sub.name, sub.tamil, sub.id.split(".")[1]);
-      const cs = !m || subHit ? sub.concepts : sub.concepts.filter(c => conceptHit(m, c));
+      const cs = !m || catHit || subHit ? sub.concepts : sub.concepts.filter(c => conceptHit(m, c));
       if (m) cs.forEach(c => found.add(c));
       return { sub, subHit, cs };
     }).filter(x => !m || catHit || x.subHit || x.cs.length);
@@ -1135,6 +1344,9 @@ function renderTree() {
   const rank = c => { const id = norm(c), ta = norm(KG.concepts[c].tamil), kw = (TAX.placement[c]?.keywords || []).map(norm);
     return id === m.q || ta === m.q ? 0 : id.startsWith(m.q) || ta.startsWith(m.q) || kw.some(k => k.includes(m.q)) ? 1 : 2; };
   state.cfirst = m ? [...found].sort((a, b) => rank(a) - rank(b) || cn(b) - cn(a))[0] || null : null;
+  // a category or subtheme named exactly (porul, "Love") opens itself on Enter, unless a concept has that very name
+  state.cfirstNode = m && !(state.cfirst && rank(state.cfirst) === 0)
+    ? Object.values(NODE).find(n => [n.id, n.id.split(".").pop(), n.name, n.tamil].some(x => norm(x) === m.q))?.id || null : null;
   document.getElementById("csearch-note").textContent = m
     ? `${found.size} concept${found.size === 1 ? "" : "s"} match${found.size === 1 ? "es" : ""}${found.size ? ". Enter opens the first." : "."}`
     : `${CATS.length} categories, ${Object.keys(TAX.placement).length} concepts. Searches gloss, Tamil, transliteration and category.`;
@@ -1212,7 +1424,7 @@ document.getElementById("ctree").addEventListener("click", e => {
 });
 const csearch = document.getElementById("csearch");
 csearch.addEventListener("input", () => { state.cq = csearch.value; renderTree(); });
-csearch.addEventListener("keydown", e => { if (e.key === "Enter" && state.cfirst) selectConcept(state.cfirst, true); if (e.key === "Escape") { csearch.value = state.cq = ""; renderTree(); } });
+csearch.addEventListener("keydown", e => { if (e.key === "Enter" && state.cfirstNode) selectNode(state.cfirstNode); else if (e.key === "Enter" && state.cfirst) selectConcept(state.cfirst, true); if (e.key === "Escape") { csearch.value = state.cq = ""; renderTree(); } });
 document.getElementById("cview").addEventListener("click", e => {
   const n = e.target.closest("[data-node]"); if (n) return selectNode(n.dataset.node);
   const c = e.target.closest("[data-concept]"); if (c) selectConcept(c.dataset.concept, true);
@@ -1220,7 +1432,7 @@ document.getElementById("cview").addEventListener("click", e => {
 document.getElementById("cm-browse").addEventListener("click", () => { state.cmode = "browse"; render(); });
 document.getElementById("cm-map").addEventListener("click", () => { state.cmode = "map"; render(); if (state.csel) { state.selected = { kind: "concept", id: state.csel }; highlight(); } });
 
-// Deep links: #concept-<id>, #cat-<category or subtheme id>, #verse-<id>
+// Deep links: #concept-<id>, #cat-<category or subtheme id>, #verse-<id>, #pivot-<kind>-<key>, #q-<search>
 function route() {
   const h = decodeURIComponent(location.hash.slice(1)); let m;
   if ((m = h.match(/^concept-(.+)$/)) && KG.concepts[m[1]]) {
@@ -1229,15 +1441,39 @@ function route() {
   }
   if ((m = h.match(/^cat-(.+)$/)) && NODE[m[1]]) { selectNode(m[1]); if (!state.csel) showConceptIntro(); return true; }
   if ((m = h.match(/^verse-(.+)$/)) && verses[m[1]]) { selectVerse(m[1], true); return true; }
+  if ((m = h.match(/^pivot-([a-z]+)-(.+)$/)) && showPivot(m[1], m[2])) return true;
+  if ((m = h.match(/^q-(.+)$/))) { document.getElementById("search").value = m[1]; showResults(m[1]); return true; }
   if (h === "concepts") { state.view = "concepts"; render(); showConceptIntro(); return true; }
   return false;
 }
 addEventListener("hashchange", route);
 
-let resizeTimer;
-addEventListener("resize", () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(render, 200); });
-matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
-new MutationObserver(render).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+// Resizing needs no new layout: the grid, matrix and concept pages reflow by CSS, and the graph keeps its
+// positions and is only refitted to the new stage (unless the reader has zoomed or panned it).
+let resizeTimer, lastSize = "";
+addEventListener("resize", () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(() => {
+  const r = document.getElementById("stage").getBoundingClientRect(), key = Math.round(r.width) + "x" + Math.round(r.height);
+  if (key === lastSize) return; lastSize = key;
+  if (document.getElementById("svg").style.display !== "none" && autoFit) fitView(true);
+}, 150); });
+// A theme change only recolours the graph's strokes and fills; everything else is CSS variables.
+function recolor() {
+  if (!nodeSel) return;
+  const c = {}, col = name => c[name] ??= css(name);
+  nodeSel.select("path").attr("fill", d => col("--" + d.part) || col("--muted"));
+  linkSel.attr("stroke", d => d.type ? col("--t-" + d.type) : col("--muted"));
+}
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { recolor(); syncTheme(); });
+new MutationObserver(() => { recolor(); syncTheme(); }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+const themeBtn = document.getElementById("theme");
+const isDark = () => document.documentElement.dataset.theme ? document.documentElement.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+function syncTheme() { const d = isDark(); themeBtn.textContent = d ? "Light" : "Dark"; themeBtn.setAttribute("aria-label", `Switch to the ${d ? "light" : "dark"} theme`); }
+themeBtn.addEventListener("click", () => {
+  const next = isDark() ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  try { localStorage.setItem("atlas-theme", next); } catch (e) {}
+});
+syncTheme();
 render();
 if (!route()) showEmpty();
 window.KG_READY = true;

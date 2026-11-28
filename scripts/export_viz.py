@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Export every book's graph for the explorer (viz/index.html), one data file per corpus group.
 
-  viz/data_core.js      window.KG: concepts, threads, the book and group registry, the bridge summary,
-                        the concept taxonomy (kg/themes/concept_categories.json) and per-concept stats,
+  viz/data_core.js      window.KG: concepts, threads, the book and group registry, the audit summary,
+                        the Siddhar science correspondences (kg/science/strong_links.jsonl), the concept taxonomy (kg/themes/concept_categories.json) and per-concept stats,
                         and window.KG_FILES, the group files the page loads after it
   viz/data_<group>.js   that group's chapters, verses and links (the links proposed from its books),
                         pushed onto window.KG_PARTS; a group larger than LIMIT is split by book into
@@ -194,7 +194,7 @@ def verse_name(n):
     return f"{name} {rest}", f"{pre}{rest}"
 
 
-def group_book_verses(group, part, bm, marker):
+def group_book_verses(group, part, bm, marker, field_sets):
     nodes = read_jsonl(GROUPS / group / "nodes.jsonl")
     edges = read_jsonl(GROUPS / group / "edges.jsonl")
     persons = {n["id"]: n for n in nodes if n["type"] == "Person"}
@@ -220,6 +220,7 @@ def group_book_verses(group, part, bm, marker):
             if n.get("poet"):
                 v["poet"] = n["poet"]
             fs = n["field_set"]
+            field_sets[b][fs] += 1
             if fs in ("akam", "puram", "devotional"):
                 col = n.get("colophon") or {}
                 v |= {"pat": n.get("patron") or "", "ap": n.get("akam_puram") or "", "th": n.get("thinai") or "",
@@ -351,15 +352,30 @@ def concept_taxonomy(parts, concepts):
             "groups": {k: dict(v) for k, v in cat_groups.items()}}, stats
 
 
+def science_links():
+    """{verse id: [[finding claim, direction, mean grade, finding strength, domain, first source, cipher-dependent]]}
+    for the Siddhar verse x finding pairs that passed the blind-graded threshold (kg/science/strong_links.jsonl).
+    These are correspondences a grader judged specific, beating negative controls; never confirmations."""
+    sci = ROOT / "kg" / "science"
+    if not (sci / "strong_links.jsonl").exists():
+        return {}
+    findings = {f["id"]: f for f in read_jsonl(sci / "findings.jsonl")}
+    out = defaultdict(list)
+    for s in read_jsonl(sci / "strong_links.jsonl"):
+        f = findings.get(s["finding"], {})
+        out[short(s["verse"])].append([f.get("claim", s["finding"]), s["direction"], s["mean_grade"], s["finding_strength"],
+                                       s["finding_domain"], (f.get("sources") or [""])[0], int(bool(s.get("cipher_dependent")))])
+    return dict(out)
+
+
 def main():
     bm = load_module("book_marks", "book_marks.py")
     index = json.loads((GROUPS / "index.json").read_text(encoding="utf-8"))
-    bridges = json.loads((GROUPS / "bridges_summary.json").read_text(encoding="utf-8"))
     audit = json.loads((GROUPS / "all_link_audit.json").read_text(encoding="utf-8"))
     group_of = {b: g for g, e in index.items() for b in e["books"]}
     group_of["tholkappiyam"] = "grammar"
     concepts, threads, parts, raw_links = {}, [], {}, []
-    marker = Counter()
+    marker, field_sets = Counter(), defaultdict(Counter)
     for group, entry in index.items():
         if group == "grammar":
             continue
@@ -368,7 +384,7 @@ def main():
             if book in KEPT:
                 threads += kept_book(book, ROOT / "kg" / book, part)
         if entry.get("built_here"):
-            raw_links += [(group, e) for e in group_book_verses(group, part, bm, marker)]
+            raw_links += [(group, e) for e in group_book_verses(group, part, bm, marker, field_sets)]
         concepts.update(part.pop("concepts"))
         parts[group] = part
     every = {vid for p in parts.values() for vid in p["verses"]}
@@ -404,7 +420,9 @@ def main():
             continue
         books[b] = {"prefix": prefix, "name": name, "tamil": tamil, "group": group_of[b], "unit": unit,
                     "hue": hue, "shape": old_shape.get(b) or next(shape_pool), "verses": counts[b],
-                    "fs": "kept" if b in KEPT else ("akam" if b in bm.SANGAM else bm.NEW[b][0]),
+                    # the field set the verses were marked with (akam, puram, devotional, ethics, narrative):
+                    # the Purananuru and Pattupattu are puram, though book_marks.py lists them under SANGAM
+                    "fs": "kept" if b in KEPT else field_sets[b].most_common(1)[0][0],
                     "sonnet_verses": marker[b]}
     gsum = audit["by_group"]
     groups = {g: {"name": e["name"], "books": [b for b in e["books"] if b in books],
@@ -445,7 +463,7 @@ def main():
             files.append(name)
             sizes[name] = path.stat().st_size
     core = {"concepts": concepts, "threads": threads, "books": books, "groups": groups,
-            "bridges": {"pairs": bridges["pairs"], "within": bridges["within"]},
+            "sci": science_links(),
             "summary": {k: audit["summary"][k] for k in ("by_grade", "sound_pct", "by_marker_model_wave6", "by_grader_model")},
             "taxonomy": taxonomy, "cstats": cstats}
     path = VIZ / "data_core.js"
