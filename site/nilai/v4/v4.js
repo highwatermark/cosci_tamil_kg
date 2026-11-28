@@ -7,6 +7,11 @@ var D=JSON.parse(document.getElementById('data').textContent);
 var Q=location.search;
 var RM=(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)||/[?&]motion=reduce\b/.test(Q);
 var $=function(id){return document.getElementById(id);};
+/* language: English or Tamil for everything the page says in its own voice; the verses are always Tamil,
+   the graph's readings and link notes stay in the graph's English */
+var LANG=(function(){ var m=Q.match(/[?&]lang=(ta|en)\b/); if(m) return m[1]; try{ return localStorage.getItem('nilai-lang')==='ta'?'ta':'en'; }catch(e){ return 'en'; } })();
+document.documentElement.setAttribute('data-lang',LANG);
+function tx(en,ta){ return LANG==='ta'&&ta?ta:en; }
 var stage=$('stage'), objs=$('objs'), shadows=$('shadows'), caps=$('caps'), thr=$('threads'), teach=$('teach'), gsvg=$('graph'), spacer=$('spacer'), seam=$('seam');
 var cards=[].slice.call(document.querySelectorAll('.card'));
 var NS='http://www.w3.org/2000/svg';
@@ -26,7 +31,7 @@ IDS.forEach(function(id){
   else { el=new Image(); el.alt=''; el.className='obj'; el.decoding='async'; el.draggable=false; el._src=s.src; }
   el._asset=it.asset; objs.appendChild(el); EL[id]=el;
   var sh=document.createElement('div'); sh.className='sh'; shadows.appendChild(sh); SH[id]=sh;
-  var c=document.createElement('div'); c.className='cap'+(it.imag?' imag':''); c.textContent=it.cap; caps.appendChild(c); CP[id]=c;
+  var c=document.createElement('div'); c.className='cap'+(it.imag?' imag':''); c.textContent=tx(it.cap,it.capTa); caps.appendChild(c); CP[id]=c;
 });
 var hydrated={};
 function hydrate(ci){
@@ -82,16 +87,16 @@ var edgeEls=D.edges.map(function(e,i){
 var NG=9, groupEls=[];
 for(var gi=0;gi<NG;gi++) groupEls.push(svg('g',{},GD));
 D.dots.forEach(function(d){ svg('circle',{cx:d[0],cy:d[1],r:'2.6',fill:'var(--ink2)'},groupEls[d[2]]); });
-var labEls=D.labels.map(function(l){ var t=svg('text',{'class':'gl','text-anchor':l.anchor,'dominant-baseline':'middle'},GL); t.textContent=l.t; return t; });
+var labEls=D.labels.map(function(l){ var t=svg('text',{'class':'gl','text-anchor':l.anchor,'dominant-baseline':'middle'},GL); t.textContent=tx(l.t,l.tt); return t; });
 /* every book named, small, beside its cluster: the first look at the graph should say what is in it */
-var bookEls=D.books.map(function(b){ var t=svg('text',{'class':'bl','text-anchor':b.anchor,'dominant-baseline':'middle',x:b.x,y:b.y},GL); t.textContent=b.t; return t; });
+var bookEls=D.books.map(function(b){ var t=svg('text',{'class':'bl','text-anchor':b.anchor,'dominant-baseline':'middle',x:b.x,y:b.y},GL); t.textContent=tx(b.t,b.tt); return t; });
 function qpath(a,b){ var mx=(a[0]+b[0])/2, my=(a[1]+b[1])/2, cx=lerp(mx,500,.45), cy=lerp(my,500,.45); return 'M'+a[0]+' '+a[1]+' Q'+cx.toFixed(1)+' '+cy.toFixed(1)+' '+b[0]+' '+b[1]; }
 var CHG=D.chapters.map(function(c){
   var g=svg('g',{},GR), o={g:g,routes:[],dots:{},labs:{}};
   c.route.forEach(function(r){ o.routes.push(svg('path',{d:qpath(c.dots[r[0]],c.dots[r[1]]),fill:'none',stroke:'var(--thread)','stroke-linecap':'round',pathLength:'1','stroke-dasharray':'1 1'},g)); });
   Object.keys(c.dots).forEach(function(id){
     o.dots[id]=svg('circle',{cx:c.dots[id][0],cy:c.dots[id][1],fill:'var(--thread)',stroke:'var(--ink)'},g);
-    var t=svg('text',{'class':'rl'},GS); t.textContent=(c.labs&&c.labs[id])||id; o.labs[id]=t;
+    var t=svg('text',{'class':'rl'},GS); t.textContent=tx((c.labs&&c.labs[id])||id,c.labsTa&&c.labsTa[id]); o.labs[id]=t;
   });
   return o;
 });
@@ -170,9 +175,11 @@ function unit(){ return innerHeight; }
 function clampCards(){
   var avail=cardsEl.clientHeight;
   cards.forEach(function(c){
-    var rd=c.querySelector('.rd.clamp'), mb=c.querySelector('.more'), ct=c.querySelector('.cite'); if(!rd) return;
+    c.classList.remove('tiny'); [].forEach.call(c.querySelectorAll('[data-hid]'),function(e){ e.style.display=''; e.removeAttribute('data-hid'); });
+    var rd=c.querySelector('.rd.clamp'), mb=c.querySelector('.more'), ct=c.querySelector('.cite');
+    if(!rd){ fitRest(c,avail); return; }
     rd.style.webkitLineClamp=''; rd.style.display=''; rd.classList.remove('on'); if(mb) mb.style.display='none'; if(ct) ct.style.display='';
-    [].forEach.call(c.querySelectorAll('.lab'),function(l){ l.style.display=''; });
+    [].forEach.call(c.querySelectorAll('.lab'),function(l){ l.style.display=''; [].forEach.call(l.children,function(k){ k.style.display=''; }); });
     var over=c.scrollHeight-avail;
     if(over>1){ var lh=parseFloat(getComputedStyle(rd).lineHeight)||20, lines=Math.max(2,Math.floor((rd.offsetHeight-over-(mb?28:0))/lh));
       rd.classList.add('on'); rd.style.webkitLineClamp=String(lines); if(mb) mb.style.display='inline-block';
@@ -181,8 +188,22 @@ function clampCards(){
       while(c.scrollHeight>avail+1&&lines>1){ lines--; rd.style.webkitLineClamp=String(lines); }
       // a verse too long for the band keeps only "read all", which opens the whole card
       var lb=rd.previousElementSibling&&rd.previousElementSibling.classList.contains('lab')?rd.previousElementSibling:null;
-      if(c.scrollHeight>avail+1){ rd.style.display='none'; if(lb) lb.style.display='none'; } }
+      // before the reading goes, the lesser lines go: the count, the hand-off from the last walk
+      ['.rd.sm','.from','.ids'].forEach(function(sel){ if(c.scrollHeight<=avail+1) return;
+        [].forEach.call(c.querySelectorAll(sel),function(e){ e.style.display='none'; e.setAttribute('data-hid','1'); });
+        lines=4; rd.style.webkitLineClamp=String(lines); while(c.scrollHeight>avail+1&&lines>1){ lines--; rd.style.webkitLineClamp=String(lines); } });
+      // the uncertain flag outlives the reading: the label keeps only its flag
+      if(c.scrollHeight>avail+1){ rd.style.display='none';
+        if(lb){ var un=lb.querySelector('.unc'); if(un) [].forEach.call(lb.children,function(k){ if(k!==un) k.style.display='none'; }); else lb.style.display='none'; } } }
+    fitRest(c,avail);
   });
+}
+/* any card still too tall for its band (a phone, or the longer Tamil) loses its least needed lines, then sets smaller */
+function fitRest(c,avail){
+  var drop=['.rd.sm','.ids','.cite','.from','.meta'];
+  for(var i=0;i<drop.length&&c.scrollHeight>avail+1;i++){
+    [].forEach.call(c.querySelectorAll(drop[i]),function(e){ if(e.style.display!=='none'){ e.style.display='none'; e.setAttribute('data-hid','1'); } }); }
+  if(c.scrollHeight>avail+1) c.classList.add('tiny');
 }
 
 /* ---------- render ---------- */
@@ -446,7 +467,7 @@ cards.forEach(function(c){ c._b=byId[c.getAttribute('data-beat')]; });
 var h1=$('h1'), chn=$('chn'), H1=h1.innerHTML;
 function header(bt){
   var c=bt.ch!=null?D.chapters[bt.ch]:null;
-  if(c){ h1.innerHTML='<span lang="ta"></span> · '; h1.firstChild.textContent=c.ta; h1.appendChild(document.createTextNode(c.sub)); chn.textContent=(bt.ch+1)+' / '+D.chapters.length; document.documentElement.style.setProperty('--acc',c.acc); }
+  if(c){ h1.innerHTML='<span lang="ta"></span> · '; h1.firstChild.textContent=c.ta; h1.appendChild(document.createTextNode(tx(c.sub,c.subTa))); chn.textContent=(bt.ch+1)+' / '+D.chapters.length; document.documentElement.style.setProperty('--acc',c.acc); }
   else { h1.innerHTML=H1; chn.textContent=''; document.documentElement.style.removeProperty('--acc'); }
 }
 
@@ -458,7 +479,7 @@ menu.addEventListener('click',function(e){ var b=e.target.closest('button[data-c
   setMenu(false); stop(); goto(c.g.route[1]+.05); });
 var sheet=$('sheet'), sheetIn=$('sheetIn');
 cards.forEach(function(c){ var b=c.querySelector('.more'); if(!b) return; b.addEventListener('click',function(){
-  var k=c.cloneNode(true); k.removeAttribute('style'); k.className='sheetcard'; var rd=k.querySelector('.rd'); if(rd){ rd.className='rd'; rd.style.cssText=''; } var mm=k.querySelector('.more'); if(mm) mm.remove(); [].forEach.call(k.querySelectorAll('.lab,.cite'),function(e){ e.style.display=''; });
+  var k=c.cloneNode(true); k.removeAttribute('style'); k.className='sheetcard'; var rd=k.querySelector('.rd'); if(rd){ rd.className='rd'; rd.style.cssText=''; } var mm=k.querySelector('.more'); if(mm) mm.remove(); [].forEach.call(k.querySelectorAll('.lab,.cite,.lab *,[data-hid]'),function(e){ e.style.display=''; });
   sheetIn.innerHTML=''; sheetIn.appendChild(k); sheet.hidden=false; $('sheetX').focus(); stop(); }); });
 $('sheetX').addEventListener('click',function(){ sheet.hidden=true; });
 cardsEl.addEventListener('click',function(e){ var b=e.target.closest('button[data-act]'); if(!b) return;
@@ -510,13 +531,40 @@ function step(ts){
   requestAnimationFrame(step);
 }
 var pwb=$('proWatch');
-function showWatch(){ [wb,pwb].forEach(function(b){ b.setAttribute('aria-pressed',String(watching)); b.textContent=watching?'Pause':'Watch'; }); }
+function showWatch(){ [wb,pwb].forEach(function(b){ b.setAttribute('aria-pressed',String(watching)); b.textContent=watching?tx(D.ui.pause[0],D.ui.pause[1]):tx(D.ui.watch[0],D.ui.watch[1]); }); }
 function stop(){ watching=false; showWatch(); }
 wb.addEventListener('click',function(){
   watching=!watching; showWatch();
   if(watching){ if(curT()>=D.total-.01) scrollTo(0,0); lastTs=0; requestAnimationFrame(step); }
 });
 ['wheel','touchstart'].forEach(function(ev){ addEventListener(ev,function(){ if(watching) stop(); },{passive:true}); });
+
+/* ---------- the language toggle ---------- */
+var langBs=[].slice.call(document.querySelectorAll('.langB'));
+function setLang(l){
+  LANG=l; document.documentElement.setAttribute('data-lang',l);
+  try{ localStorage.setItem('nilai-lang',l); }catch(e){}
+  langBs.forEach(function(b){ b.textContent=tx(D.ui.lang[0],D.ui.lang[1]); b.setAttribute('lang',l==='ta'?'en':'ta'); b.setAttribute('aria-label',l==='ta'?'Read in English':'தமிழில் படிக்க'); });
+  IDS.forEach(function(id){ var it=D.inst[id]; CP[id].textContent=tx(it.cap,it.capTa); });
+  labEls.forEach(function(t,i){ t.textContent=tx(D.labels[i].t,D.labels[i].tt); });
+  bookEls.forEach(function(t,i){ t.textContent=tx(D.books[i].t,D.books[i].tt); });
+  ovKey=null;
+  D.chapters.forEach(function(c,i){ var o=CHG[i]; if(o) Object.keys(o.labs).forEach(function(id){ o.labs[id].textContent=tx(c.labs[id]||id,c.labsTa&&c.labsTa[id]); }); });
+  curCh=-2; showWatch(); layout();
+}
+langBs.forEach(function(b){ b.addEventListener('click',function(){ setLang(LANG==='ta'?'en':'ta'); }); });
+setLang(LANG);
+/* ---------- the way on: local copies of the atlas when the page is served beside them, the published ones otherwise ---------- */
+(function(){
+  var A=$('atlasA'), Rr=$('researchA');
+  function probe(url,ok){ if(location.protocol==='file:'){ ok(); return; }
+    try{ fetch(url,{method:'HEAD'}).then(function(r){ if(r.ok) ok(); }).catch(function(){}); }catch(e){} }
+  if(A) probe(A.getAttribute('data-local'),function(){
+    var base=A.getAttribute('data-local'); A.href=base;
+    [].forEach.call(document.querySelectorAll('.cite .vid'),function(v){ var a=document.createElement('a'); a.className='vid'; a.href=base+'#verse-'+v.getAttribute('data-v'); a.target='_blank'; a.rel='noopener'; a.textContent=v.textContent+' ↗'; a.title=tx('Open this verse in the Tamil Corpus Atlas','இப்பாடலைத் தமிழ்த் தொகுப்பு அட்லஸில் திற'); v.parentNode.replaceChild(a,v); });
+  });
+  if(Rr) probe(Rr.getAttribute('data-local'),function(){ Rr.hidden=false; });
+})();
 
 window.__v4={D:D, unit:unit, layout:layout, render:render, T:curT, goto:goto};
 if(document.fonts&&document.fonts.ready) document.fonts.ready.then(layout);

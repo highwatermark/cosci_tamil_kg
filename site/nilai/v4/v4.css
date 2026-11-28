@@ -229,3 +229,27 @@ button.pact{background:transparent;color:#f4ecdf}
   .ledger.hz{margin-top:8px;padding-top:8px}
   #pro .pend{top:22vh}
 }
+/* language: one span per language, the reader's choice shown */
+html[data-lang="ta"] .xe{display:none}
+html:not([data-lang="ta"]) .xt{display:none}
+.xt{letter-spacing:0;text-transform:none}
+.kick .xt,.lab .xt,.brand .xt{font-size:1.05em}
+.langB{font-family:var(--tamil)}
+html[data-lang="ta"] .langB{font-family:var(--sans)}
+a.vid{color:inherit;text-decoration:underline;text-decoration-color:rgba(77,70,61,.4);text-underline-offset:2px}
+/* Tamil sets larger than Latin at one size: the full-screen pages take it a step smaller */
+html[data-lang="ta"] #pro .pt .pbody .xt,html[data-lang="ta"] #pro .pt .pbig .xt{font-size:.9em}
+html[data-lang="ta"] .panels.six .pread .xt,html[data-lang="ta"] .panels.six .pnow .xt{font-size:.86em;line-height:1.42}
+html[data-lang="ta"] #pro [data-b="E0"] .pbody .xt{font-size:.84em}
+.card.tiny .big{font-size:clamp(18px,4.6vw,22px)!important;line-height:1.25!important}
+.card.tiny .rd,.card.tiny .from{font-size:13.5px!important;line-height:1.45!important}
+.card.tiny .ta{font-size:13.5px!important}
+@media (max-width:700px),(max-aspect-ratio:9/10){
+  html[data-lang="ta"] .panels.six .pnow .xt{font-size:.92em}
+  html[data-lang="ta"] .panels.six{row-gap:6px}
+  html[data-lang="ta"] #pro [data-b="E0"] .pbig .xt{font-size:.82em}
+}
+@media (max-width:700px),(max-aspect-ratio:9/10){
+  html[data-lang="ta"] #pro .pt4{top:4vh}
+  html[data-lang="ta"] .panels.six .pnow .xt{line-height:1.32}
+}

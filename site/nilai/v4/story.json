@@ -340,9 +340,12 @@
   },
   "E2": {
    "big": "The poems are still asking.",
-   "body": "Every verse on this walk comes from a graph of forty books and 20,606 verses, joined by 1,856 links between its groups of books, each graded sound. Walk the rest of it yourself.",
+   "body": "Every verse on this walk comes from a graph of forty books and {verses} verses, joined by {sound} links between its groups of books, each graded sound. Walk the rest of it yourself.",
    "atlas": "https://claude.ai/artifact/8ypxS56cp7tjru16nV3d3K",
-   "atlas_label": "Open the Tamil Corpus Atlas"
+   "atlas_label": "Open the Tamil Corpus Atlas",
+   "atlas_local": "../../../viz/index.html",
+   "research_local": "../../../research-atlas/dist/index.html",
+   "research_label": "Research Atlas: the Siddhars and science"
   }
  }
 }
