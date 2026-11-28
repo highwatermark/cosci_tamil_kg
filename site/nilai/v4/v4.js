@@ -120,7 +120,9 @@ function draw(c){
   if(cv.width!==n){ cv.width=n; cv.height=n; }
   var g=c.g||(c.g=cv.getContext('2d',{willReadFrequently:true}));
   g.drawImage(v,sx,sy,s,s,0,0,n,n);
-  var im=g.getImageData(0,0,n,n), d=im.data, L=d.length, i, r, gg, b, mm, ex, a;
+  /* a page opened from disk taints the canvas: give the morph back to the seam wipe */
+  var im; try{ im=g.getImageData(0,0,n,n); }catch(e){ c.dead=true; c.ok=false; cv.style.visibility='hidden'; return; }
+  var d=im.data, L=d.length, i, r, gg, b, mm, ex, a;
   /* alpha from the green excess over max(r,b), a soft ramp, then despill (green clamped to max(r,b)) */
   for(i=0;i<L;i+=4){ r=d[i]; gg=d[i+1]; b=d[i+2]; mm=r>b?r:b; ex=gg-mm;
     if(ex>18){ a=ex>=78?0:1-(ex-18)/60; a=a*a*(3-2*a); d[i+3]=a*255; d[i+1]=mm; }
@@ -189,7 +191,7 @@ function beatAt(T){ for(var i=0;i<D.beats.length;i++){ var b=D.beats[i]; if(T<b.
 var MO={}; D.morphs.forEach(function(m){ MO[m.then]=MO[m.then]||[]; MO[m.then].push(m); MO[m.fut]=[m]; });
 var lastKey='', curCh=-2;
 function render(T,force){
-  if(RM){ var bb=beatAt(T); T=bb.start+bb.len-1e-4; }
+  if(RM){ T=rmT(beatAt(T)); }
   var key=T.toFixed(4); if(key===lastKey&&!force) return; lastKey=key;
   var W=L.W, H=L.H, bt=beatAt(T);
   var ci=bt.ch!=null?bt.ch:(bt.id==='Z'?D.chapters.length-1:0);
@@ -274,6 +276,7 @@ function render(T,force){
   renderGraph(T,W,H,bt);
   renderFuture(T,W,H);
   renderPro(T);
+  renderRail(T,bt);
   // cards: a card shows once its beat has settled and stays until the next beat's card arrives,
   // so the column crossfades from text to text instead of standing empty while the stage moves
   cards.forEach(function(c){
@@ -286,6 +289,11 @@ function render(T,force){
     vis(c,o);
   });
 }
+/* ---------- where we are: a thin rail with a tick per walk, and a step count ---------- */
+var railF=$('railF'), stepN=$('stepN'), railEl=$('rail');
+D.chapters.forEach(function(c,i){ var b=null; D.beats.some(function(x){ if(x.ch===i){ b=x; return true; } }); if(!b) return;
+  var t=document.createElement('b'); t.style.left=(b.start/D.total*100).toFixed(3)+'%'; railEl.appendChild(t); });
+function renderRail(T,bt){ railF.style.transform='scaleX('+(T/D.total).toFixed(4)+')'; var s=(bt._i+1)+' / '+D.beats.length; if(stepN.textContent!==s) stepN.textContent=s; }
 function renderGraph(T,W,H,bt){
   var G=D.graph, go=0, z=0, cz=null, C=D.chapters;
   var out0=C[0].g.out;
@@ -352,9 +360,9 @@ function renderPro(T){
   var tl=PRO.tl, end=tl.O6[1], n5=end-tl.O6[0], e0=tl.E0[0], epi=T>=e0-.6, inEp=0, out;
   if(!epi){ out=seg(T,tl.O6[0]+n5*.35,end);
     colEl.style.transform=out<1?'translateX('+((1-out)*-70).toFixed(1)+'px)':''; colEl.style.opacity=out<1?out.toFixed(3):'';
-    if(T>=end){ proEl.style.visibility='hidden'; return; } }
+    if(T>=end){ proEl.style.display='none'; return; } }
   else { inEp=seg(T,e0-.6,e0+.2); out=1-inEp; colEl.style.transform=''; colEl.style.opacity=(1-inEp).toFixed(3); }
-  proEl.style.visibility='visible'; proEl.style.opacity=(1-out).toFixed(3);
+  proEl.style.display=''; proEl.style.opacity=(1-out).toFixed(3);
   proEl.classList.toggle('live',epi&&T>=tl.E2[0]);
   var W=proEl.clientWidth, H=proEl.clientHeight, ph=phone, n3=tl.O3[1]-tl.O3[0];
   // the paintings: pushing in through the prologue, easing back out through the epilogue
@@ -456,6 +464,18 @@ $('sheetX').addEventListener('click',function(){ sheet.hidden=true; });
 cardsEl.addEventListener('click',function(e){ var b=e.target.closest('button[data-act]'); if(!b) return;
   if(b.getAttribute('data-act')==='menu') setMenu(true); else { stop(); goto(0); } });
 function settleT(b){ return b.start+Math.min(.98,b.settle+.12)*b.len; }
+/* reduced motion shows each beat at one still moment: late enough that its card and stage have arrived,
+   early enough that nothing has begun to leave (full-screen text and imagined cards fade before the beat ends) */
+function rmT(b){ if(b.id==='O6') return b.start+.3*b.len;   // the prologue hands over to the page from 35% of this beat
+  var f=Math.max(b.settle,b.card!=null?b.card:0)+.14; return b.start+Math.min(.78,Math.max(.5,f))*b.len; }
+function stepBeat(dir){
+  stop();
+  var T=curT(), i=D.beats.indexOf(beatAt(T)), b=D.beats[i];
+  if(dir>0){ if(T<settleT(b)-.02) goto(settleT(b)); else if(i<D.beats.length-1) goto(settleT(D.beats[i+1])); }
+  else { if(i>0) goto(settleT(D.beats[i-1])); else goto(0); }
+}
+$('prevB').addEventListener('click',function(){ stepBeat(-1); });
+$('nextB').addEventListener('click',function(){ stepBeat(1); });
 addEventListener('keydown',function(e){
   if(e.key==='Escape'){ if(!sheet.hidden){ sheet.hidden=true; return; } if(!menu.hidden){ setMenu(false); mb.focus(); return; } }
   if(e.altKey||e.ctrlKey||e.metaKey||!sheet.hidden||!menu.hidden) return;
@@ -464,10 +484,7 @@ addEventListener('keydown',function(e){
   if(k==='ArrowDown'||k==='ArrowRight'||k==='PageDown'||(k===' '&&!e.shiftKey)) dir=1;
   else if(k==='ArrowUp'||k==='ArrowLeft'||k==='PageUp'||(k===' '&&e.shiftKey)) dir=-1;
   if(!dir) return;
-  e.preventDefault(); stop();
-  var T=curT(), i=D.beats.indexOf(beatAt(T)), b=D.beats[i];
-  if(dir>0){ if(T<settleT(b)-.02) goto(settleT(b)); else if(i<D.beats.length-1) goto(settleT(D.beats[i+1])); }
-  else { if(i>0) goto(settleT(D.beats[i-1])); else goto(0); }
+  e.preventDefault(); stepBeat(dir);
 });
 
 /* ---------- scroll + watch ---------- */
@@ -492,9 +509,11 @@ function step(ts){
   }
   requestAnimationFrame(step);
 }
-function stop(){ watching=false; wb.setAttribute('aria-pressed','false'); wb.textContent='Watch'; }
+var pwb=$('proWatch');
+function showWatch(){ [wb,pwb].forEach(function(b){ b.setAttribute('aria-pressed',String(watching)); b.textContent=watching?'Pause':'Watch'; }); }
+function stop(){ watching=false; showWatch(); }
 wb.addEventListener('click',function(){
-  watching=!watching; wb.setAttribute('aria-pressed',String(watching)); wb.textContent=watching?'Pause':'Watch';
+  watching=!watching; showWatch();
   if(watching){ if(curT()>=D.total-.01) scrollTo(0,0); lastTs=0; requestAnimationFrame(step); }
 });
 ['wheel','touchstart'].forEach(function(ev){ addEventListener(ev,function(){ if(watching) stop(); },{passive:true}); });

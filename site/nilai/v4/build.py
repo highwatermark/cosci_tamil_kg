@@ -18,6 +18,7 @@ import html
 import json
 import math
 import os
+import re
 import subprocess
 import sys
 import zlib
@@ -131,6 +132,9 @@ if (N_BOOKS, N_VERSES, N_SOUND) != (40, 20606, 1856):
     fail('counts changed: %d books, %d verses, %d sound bridges (page text says 40 / 20,606 / 1,856)' % (N_BOOKS, N_VERSES, N_SOUND))
 N_CH_BOOKS = len({v['book'] for ch in CH for v in ch['verses']})
 N_CH_GROUPS = len({v['group'] for ch in CH for v in ch['verses']})
+_VG = {v['id']: v['group'] for ch in CH for v in ch['verses']}
+N_CH_LINKS = sum(len(ch['links']) for ch in CH)
+N_CH_CROSS = sum(1 for ch in CH for L in ch['links'] if _VG[L['from']] != _VG[L['to']])
 
 # ---------------------------------------------------------------------------------------------------------
 # 3. Constellation layout: the books as clusters of dots, grouped as the graph groups them.
@@ -583,10 +587,11 @@ def verse_card(bid, ch, v, n):
     flag = ' <span class="flag">the graph’s reading of this verse is marked uncertain</span>' if v.get('uncertain') else ''
     return ('<article class="card" data-beat="%s"><p class="kick"><span lang="ta">%s</span> · verse %d of 3 · '
             '<span class="trad">%s</span></p>'
-            '<p class="src"><span lang="ta">%s</span> · %s</p>%s<p class="lab">the graph’s reading</p>'
+            '<p class="src"><span lang="ta">%s</span> · %s</p>%s<p class="lab">the graph’s reading%s</p>'
             '<p class="rd clamp">%s</p><button class="more" type="button">read all</button>'
             '<p class="cite">%s%s</p></article>') % (bid, E(ch['tamil']), n, E(STORY['trad'][v['group']]),
-                                                    E(v['label_ta']), E(v['label']), tamil_block(v), E(v['reading']),
+                                                    E(v['label_ta']), E(v['label']), tamil_block(v),
+                                                    ' <span class="unc">· marked uncertain</span>' if v.get('uncertain') else '', E(v['reading']),
                                                     E(v['id']), flag)
 
 
@@ -648,8 +653,9 @@ for ci, ch in enumerate(CH):
                   '<p class="cite">not from the corpus · the poems’ question, asked again</p></article>') % (
         p, acc, E(st['question']), E(st['meaning'])))
 cards.append(('<article class="card" data-beat="Z"><p class="kick">the walks</p><p class="big">%s</p><p class="rd">%s</p>'
-              '<p class="rd sm">39 verses from %d books in all %d groups, joined by 26 sound links, out of %s in the graph.</p></article>')
-             % (E(STORY['close']['big']), E(STORY['close']['body']), N_CH_BOOKS, N_CH_GROUPS, '{:,}'.format(N_SOUND)))
+              '<p class="rd sm">39 verses from %d books in all %d groups, joined by %d links graded sound. %d of them run between groups of books, where the graph holds %s such links%s.</p></article>')
+             % (E(STORY['close']['big']), E(STORY['close']['body']), N_CH_BOOKS, N_CH_GROUPS, N_CH_LINKS, N_CH_CROSS, '{:,}'.format(N_SOUND),
+                ('; %s inside one group' % ('one runs' if N_CH_LINKS - N_CH_CROSS == 1 else '%d run' % (N_CH_LINKS - N_CH_CROSS))) if N_CH_LINKS > N_CH_CROSS else ''))
 cards += ['<article class="card pro" data-beat="%s" aria-hidden="true"></article>' % k for k in ('E0', 'E1', 'E2')]
 if len(cards) != len(beats):
     fail('%d cards for %d beats' % (len(cards), len(beats)))
@@ -671,8 +677,11 @@ DATA = {
 }
 
 CSS = (HERE / 'v4.css').read_text(encoding='utf-8')
-for k, v in PAL.items():
+# longest key first: '$ink' is a prefix of '$ink2'
+for k, v in sorted(PAL.items(), key=lambda kv: -len(kv[0])):
     CSS = CSS.replace('$' + k, v)
+if re.search(r'#[0-9a-fA-F]{7}\b(?![0-9a-fA-F])', CSS) or '$' in CSS:
+    fail('palette substitution left a broken colour token in the CSS')
 JS = (HERE / 'v4.js').read_text(encoding='utf-8')
 menu = ''.join('<li><button type="button" data-ch="%d"><span lang="ta">%s</span> <span class="mn">%s</span></button></li>'
                % (i, E(c['tamil']), E(c['subtitle'])) for i, c in enumerate(CH))
@@ -729,7 +738,7 @@ page = '''<!doctype html>
   <div id="proObjs" aria-hidden="true"></div>
   %(protext)s
   %(epitext)s
-  <button id="proWatch" type="button">Watch</button>
+  <div id="proBtns"><button type="button" data-act="menu">Chapters</button><button id="proWatch" type="button" aria-pressed="false">Watch</button></div>
 </div>
 <div id="app">
   <section id="col" aria-live="polite">
@@ -756,6 +765,8 @@ page = '''<!doctype html>
 </div>
 <nav id="menu" hidden><ol>%(menu)s</ol></nav>
 <div id="sheet" hidden role="dialog" aria-modal="true" aria-label="Full reading"><div id="sheetIn"></div><button id="sheetX" type="button">Close</button></div>
+<div id="rail" aria-hidden="true"><i id="railF"></i></div>
+<div id="stepB"><button id="prevB" type="button" aria-label="Previous step">←</button><span id="stepN" aria-live="off"></span><button id="nextB" type="button" aria-label="Next step">→</button></div>
 <div id="spacer"></div>
 <script id="data" type="application/json">%(data)s</script>
 <script>%(js)s</script>
