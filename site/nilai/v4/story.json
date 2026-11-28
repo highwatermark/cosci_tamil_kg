@@ -2,9 +2,9 @@
  "_note": "The page's own framing, kept apart from chapters.json (the curated corpus). Every sentence here is ours: the opening, the walk summaries (plain restatements of the graph's readings and links), the transitions between chapters, and the imagined 2526 beats. Nothing here quotes modern commentary.",
  "opening": {
   "P0": {
-   "kick": "நிலை · Nilai",
-   "big": "The old Tamil poets put their hardest questions into things: a balance, a parasol, a raft, a lamp.",
-   "body": "Nilai (நிலை) is where a thing stands. This page walks thirteen of those things through the poems, then imagines each one five hundred years on, in 2526, and asks whether the poem’s question still holds. Scroll, or press Watch."
+   "kick": "the first walk",
+   "big": "A balance.",
+   "body": "Each walk sets its verses on this stage as objects. The text on the left gives each verse in Tamil with the graph’s English reading. Scroll on, or press Watch to let it play."
   },
   "P1": {
    "kick": "how to read a walk",
@@ -178,6 +178,105 @@
    ],
    "meaning": "The ringed staff becomes a light bronze brace. In 2526 old age can be held off for decades.",
    "question": "Who gets the long years, and what are they for?"
+  }
+ },
+ "prologue": {
+  "O0": {
+   "kick": "நிலை · Nilai",
+   "big": "நிலை",
+   "sub": "Two thousand years of Tamil poetry, and five hundred more.",
+   "cue": "Scroll, or press Watch"
+  },
+  "O1": {
+   "big": "Tamil is one of the oldest languages still spoken.",
+   "body": "Its poets were cutting letters into stone and writing on palm leaf more than two thousand years ago. Some eighty million people speak it today.",
+   "stations": [
+    [
+     "stone",
+     "over 2,000 years ago"
+    ],
+    [
+     "palm leaf",
+     "for most of those centuries"
+    ],
+    [
+     "print",
+     "the first Tamil book, 1578"
+    ],
+    [
+     "screen",
+     "today"
+    ],
+    [
+     "2526",
+     "?"
+    ]
+   ]
+  },
+  "O2": {
+   "big": "Its poets put their hardest questions into things.",
+   "body": "A balance for justice. A parasol for protection. A raft across the sea of deeds. A lamp for the mind."
+  },
+  "O3": {
+   "big": "Now we are building minds.",
+   "body": "Machines that weigh us, shelter us, speak to us and remember for us. The old poems already asked the questions we need: who levels the balance, whom the shade misses, who stands behind the voice. This page carries thirteen of them to 2526 and asks them again."
+  },
+  "O4": {
+   "big": "They looked further than they could see.",
+   "panels": [
+    {
+     "ta": "சென்றளந்து அறிந்தார் போல",
+     "src": "Purananuru 30",
+     "read": "A poet teases people who talk of the sun’s road and the empty sky as if they had gone and measured it.",
+     "now": "We went, and measured.",
+     "img": "26-F"
+    },
+    {
+     "ta": "ஓர் அணுத் தெய்வக் கண்ணோர் உணர்குவர்",
+     "src": "Manimekalai 27",
+     "read": "An atomist in the hall of the schools: a single atom is perceived only by divine eyes.",
+     "now": "We built the eye, and began to compute with the very small.",
+     "img": "27-F1"
+    },
+    {
+     "ta": "வேதன்செய்த சிருஷ்டிகள்போல் வேறுசெய்குவோம்",
+     "src": "Siddhar songs, Pambatti",
+     "read": "A Siddhar boasts: we will make creations other than the ones the Creator made.",
+     "now": "We can rewrite life now. The question is who says yes first.",
+     "img": "V4-helix"
+    }
+   ],
+   "foot": "Correspondence, never confirmation: the poets are credited with the question, not with our science."
+  },
+  "O5": {
+   "big": "And they asked what a mind is.",
+   "panels": [
+    {
+     "ta": "உற்றிடும் பூதத்து உணர்வு தோன்றிடும்",
+     "src": "Manimekalai 27",
+     "read": "A materialist: when the elements come together, awareness appears, as liquor froths from flowers and jaggery.",
+     "now": "We are building machines that test it. None has settled it.",
+     "img": "V4-mindpot"
+    },
+    {
+     "ta": "ஆறு அறிவதுவே அவற்றொடு மனனே",
+     "src": "Tholkappiyam, Marapiyal 27",
+     "read": "The grammar grades life by its senses, from touch alone up to six: the five, and the mind.",
+     "now": "Is there a seventh? The rung is still empty, and the ladder still starts at touch.",
+     "img": "V4-ladder"
+    },
+    {
+     "ta": "எப்பொருள் யார்யார்வாய்க் கேட்பினும்",
+     "src": "Tirukkural 423",
+     "read": "Whatever is heard, from whoever’s mouth, understanding is seeing the true substance of that very thing.",
+     "now": "Now the fluent voice may be a machine’s. The rule holds.",
+     "img": "V4-myna"
+    }
+   ],
+   "foot": "The Tamil is the corpus; the line beneath each is the graph’s reading; the italic line is ours."
+  },
+  "O6": {
+   "big": "Begin with one thing."
   }
  }
 }

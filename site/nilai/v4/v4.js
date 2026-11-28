@@ -273,6 +273,7 @@ function render(T,force){
   });
   renderGraph(T,W,H,bt);
   renderFuture(T,W,H);
+  renderPro(T);
   // cards: a card shows once its beat has settled and stays until the next beat's card arrives,
   // so the column crossfades from text to text instead of standing empty while the stage moves
   cards.forEach(function(c){
@@ -332,6 +333,63 @@ function renderGraph(T,W,H,bt){
       t.style.opacity=labOn>.5?seg(labOn,.5,1):0; });
   });
 }
+/* ---------- prologue: full screen, its own layout, before the page settles into column and stage ---------- */
+var PRO=D.pro, proEl=$('pro'), heroA=$('heroA'), heroB=$('heroB'), scrim=$('scrim'), proYear=$('proYear'), proLine=$('proLine'), proObjs=$('proObjs'), proSt=$('proSt');
+if(PRO.hero.past) heroA.src=PRO.hero.past; if(PRO.hero.future) heroB.src=PRO.hero.future;
+var PT={}; [].forEach.call(proEl.querySelectorAll('.pt'),function(e){ PT[e.getAttribute('data-b')]=e; });
+[].forEach.call(proEl.querySelectorAll('img[data-src]'),function(i){ i.src=i.getAttribute('data-src'); });
+var PO=PRO.objs.map(function(o){ var w=document.createElement('div'); w.className='po'; var a=new Image(), b=new Image();
+  a.src=o.a; b.src=o.b; a.alt=b.alt=''; w.appendChild(a); w.appendChild(b); proObjs.appendChild(w); return {w:w,a:a,b:b,o:o}; });
+var stEls=[].slice.call(proSt.children);
+var lineP=svg('path',{fill:'none',stroke:'#e9cf8f','stroke-width':'2',pathLength:'1','stroke-dasharray':'1 1'},proLine);
+var lineF=svg('path',{fill:'none',stroke:'#e9cf8f','stroke-width':'2','stroke-dasharray':'6 8'},proLine);
+$('proWatch').addEventListener('click',function(){ $('watch').click(); });
+function inB(T,k){ var t=PRO.tl[k], n=t[1]-t[0]; return seg(T,t[0]+n*.04,t[0]+n*.22)*(1-seg(T,t[1]-n*.16,t[1]-n*.02)); }
+function renderPro(T){
+  var tl=PRO.tl, end=tl.O6[1], n5=end-tl.O6[0];
+  var out=seg(T,tl.O6[0]+n5*.35,end);
+  colEl.style.transform=out<1?'translateX('+((1-out)*-70).toFixed(1)+'px)':'';
+  colEl.style.opacity=out<1?out.toFixed(3):'';
+  if(T>=end){ proEl.style.visibility='hidden'; return; }
+  proEl.style.visibility='visible'; proEl.style.opacity=(1-out).toFixed(3);
+  var W=proEl.clientWidth, H=proEl.clientHeight, ph=phone;
+  // the paintings push in slowly; the 2526 painting comes up while the year runs
+  var push='scale('+(1.02+.10*seg(T,0,tl.O6[0])).toFixed(4)+')'; heroA.style.transform=heroB.style.transform=push;
+  var n3=tl.O3[1]-tl.O3[0]; heroB.style.opacity=seg(T,tl.O3[0]+n3*.3,tl.O3[0]+n3*.7).toFixed(3);
+  var sc=lerp(.18,.66,seg(T,tl.O0[1]-.5,tl.O1[0]+.3)); if(T>tl.O4[0]-.3) sc=lerp(.66,.86,seg(T,tl.O4[0]-.3,tl.O4[0]+.2));
+  scrim.style.opacity=sc.toFixed(3);
+  // the panels need an even ground, not the painting's bright corner
+  $('scrim2').style.opacity=(seg(T,tl.O4[0],tl.O4[0]+.35)*(1-seg(T,tl.O6[0],tl.O6[0]+.4))*.62).toFixed(3);
+  // the words
+  Object.keys(PT).forEach(function(k){ var o=k==='O0'?1-seg(T,tl.O0[1]-.5,tl.O0[1]-.1):inB(T,k);
+    vis(PT[k],o); PT[k].style.transform='translateY('+((1-o)*16).toFixed(1)+'px)'; });
+  // the line of two thousand years, and the dashed five hundred more
+  var t1=tl.O1, l=seg(T,t1[0]+.25,t1[0]+1.35), lo=inB(T,'O1');
+  var y=H*(ph?.86:.80), x0=W*.10, x1=W*.90, xn=lerp(x0,x1,.78);
+  lineP.setAttribute('d','M'+x0.toFixed(1)+' '+y.toFixed(1)+' L'+xn.toFixed(1)+' '+y.toFixed(1));
+  lineP.setAttribute('stroke-dashoffset',(1-seg(l,0,.8)).toFixed(4));
+  lineF.setAttribute('d','M'+xn.toFixed(1)+' '+y.toFixed(1)+' L'+x1.toFixed(1)+' '+y.toFixed(1)); lineF.style.opacity=seg(l,.8,1).toFixed(3);
+  proLine.style.opacity=lo.toFixed(3);
+  stEls.forEach(function(e,i){ var px=lerp(x0,x1,[0,.26,.52,.78,1][i]); e.style.left=px.toFixed(1)+'px'; e.style.top=(y+12).toFixed(1)+'px';
+    vis(e,seg(l,i*.19,i*.19+.12)*lo); });
+  // the thirteen things: they come in, they turn into 2526, they leave for the walks
+  var t2=tl.O2, n2=t2[1]-t2[0], leave=seg(T,tl.O4[0],tl.O4[0]+.45), rows=ph?3:2, per=Math.ceil(PO.length/rows);
+  var ytop=H*(ph?.47:.44), ybot=H*(ph?.85:.93), hh=Math.min((ybot-ytop)/rows*.86, W/(per+1.2)/1.05);
+  PO.forEach(function(p,i){
+    var r=Math.floor(i/per), k=i-r*per, cnt=Math.min(per,PO.length-r*per);
+    var e=seg(T,t2[0]+n2*.18+i*.06,t2[0]+n2*.18+i*.06+.35)*(1-leave);
+    if(e<=.001){ p.w.style.visibility='hidden'; return; }
+    var u=ease(seg(T,tl.O3[0]+n3*.28+i*.07,tl.O3[0]+n3*.28+i*.07+.3));
+    var ar=Math.max(p.o.ar,p.o.br), w=hh*ar, cx=W*(k+1)/(cnt+1)+(r%2?W/(cnt+1)*.25:0), by=ytop+(r+1)*(ybot-ytop)/rows;
+    var bob=Math.sin(T*2.6+i*1.7)*4*e;
+    p.w.style.visibility='visible'; p.w.style.width=w.toFixed(1)+'px'; p.w.style.height=hh.toFixed(1)+'px';
+    p.w.style.transform='translate('+(cx-w/2).toFixed(1)+'px,'+(by-hh+(1-ease(e))*40+bob).toFixed(1)+'px)';
+    p.w.style.opacity=ease(e).toFixed(3); p.a.style.opacity=(1-u).toFixed(3); p.b.style.opacity=u.toFixed(3);
+  });
+  // the year runs while the things turn
+  var yr=seg(T,tl.O3[0]+n3*.25,tl.O3[0]+n3*.85); vis(proYear,inB(T,'O3')); proYear.textContent=String(Math.round(2026+500*ease(yr)));
+}
+
 /* ---------- the 2526 stage: the year runs forward, the room cools, a window opens on the imagined world ---------- */
 var yearEl=$('year'), yearN=yearEl.querySelector('.yn'), sceneEl=$('scene'), wallEl=$('wall'), floorEl=$('floor');
 function hx(c){ return [parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16)]; }

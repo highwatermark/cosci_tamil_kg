@@ -245,7 +245,7 @@ for ch in CH:
 WEIGHT = {'V4-staff': 1.15, 'V4-bamboo-flute': 1.05, 'V4-exo-brace': 1.08, '02-T': 1.08, '02-N': 0.96,
           'V4-wave': 0.94}
 # chroma-key thresholds per asset where the generated screen is duller than #00FF00 (cutout_green lo hi)
-KEY = {'V4-bamboo-flute': ['15', '50']}
+KEY = {'V4-bamboo-flute': ['15', '50'], 'V4-helix': ['15', '50']}
 
 
 def run(args):
@@ -258,6 +258,9 @@ for ch in CH:
         a = aid(d)
         if a and a not in used:
             used.append(a)
+for a in [p['img'] for k in ('O4', 'O5') for p in STORY['prologue'][k]['panels']]:
+    if a not in used:
+        used.append(a)
 IMG.mkdir(exist_ok=True)
 sprite_info, MISSING = {}, []
 for a in used:
@@ -306,6 +309,18 @@ for ch in CH:
     else:
         WARN.append('no 2526 scene for %s yet' % ch['id'])
 
+# the prologue's two full-bleed paintings: the hill at dawn, and the same hill in 2526 (assets/src/H-*.jpg)
+HERO = {}
+for k in ('past', 'future'):
+    src, dst = ASSETS / 'src' / ('H-%s.jpg' % k), IMG / ('H-%s.webp' % k)
+    if src.exists():
+        if not dst.exists() or dst.stat().st_mtime < src.stat().st_mtime:
+            run(['cwebp', '-quiet', '-q', '78', '-m', '6', '-resize', '1920', '0', str(src), '-o', str(dst)])
+        HERO[k] = 'img/H-%s.webp' % k
+    else:
+        (WARN if ALLOW_MISSING else FAIL).append('prologue painting H-%s missing' % k)
+        HERO[k] = ''
+
 # ---------------------------------------------------------------------------------------------------------
 # 5. Timeline. Units: 1 unit = one viewport of scroll. Every beat holds its settled state for >= 30%.
 # ---------------------------------------------------------------------------------------------------------
@@ -328,7 +343,15 @@ def beat(bid, kind, ln, st, ci=None, card=None):
     return b
 
 
-# the opening sets the stage before the graph: one thing, then one link, then the whole graph
+# the prologue: full screen, its own layout, before the page settles into column and stage
+beat('O0', 'pro', 1.8, 0.30, card=0)
+beat('O1', 'pro', 2.0, 0.60)
+beat('O2', 'pro', 2.2, 0.60)
+beat('O3', 'pro', 2.4, 0.60)
+beat('O4', 'pro', 2.6, 0.60)
+beat('O5', 'pro', 2.6, 0.60)
+beat('O6', 'pro', 1.2, 0.60)
+# then the opening proper: one thing, then one link, then the whole graph
 beat('P0', 'intro', 1.5, 0.30, card=0)
 beat('P1', 'intro', 1.7, 0.62, card=0.10)
 beat('G0', 'graph', 1.5, 0.56)
@@ -475,6 +498,11 @@ for iid, k in tracks.items():
         if b[0] < a[0]:
             fail('track %s runs backwards' % iid)
 
+PRO = {'hero': HERO, 'objs': [], 'tl': {k: [B[k]['start'], B[k]['start'] + B[k]['len']] for k in ('O0', 'O1', 'O2', 'O3', 'O4', 'O5', 'O6')}}
+for ch in CH:
+    ta, fa = aid(ch['forward']['then']), aid(ch['forward']['future'])
+    PRO['objs'].append({'a': sprite_info[ta]['src'], 'b': sprite_info[fa]['src'], 'ar': round(sprite_info[ta]['w'] / sprite_info[ta]['h'], 3),
+                        'br': round(sprite_info[fa]['w'] / sprite_info[fa]['h'], 3), 'ta': ch['tamil']})
 graph_tl = {'intro_in': [at('G0', .04), at('G0', .16)], 'dots': [at('G0', .04), at('G0', .52)], 'edges': [at('G1', 0), at('G1', .50)],
             'flash': [at('G2', .06), at('G2', .40)], 'intro_out': B['c0T']['start'],
             'close': [at('Z', 0), at('Z', .16)], 'close_route': [at('Z', .18), at('Z', .52)]}
@@ -580,7 +608,9 @@ def link_card(bid, ch, L, n, sentence):
 
 
 OP = STORY['opening']
-cards = [
+PR = STORY['prologue']
+cards = ['<article class="card pro" data-beat="O%d" aria-hidden="true"></article>' % k for k in range(7)]
+cards += [
     ('<article class="card" data-beat="P0"><p class="kick" lang="ta">%s</p><p class="big">%s</p><p class="rd">%s</p></article>'
      % (E(OP['P0']['kick']), E(OP['P0']['big']), E(OP['P0']['body']))),
     ('<article class="card" data-beat="P1"><p class="kick">%s</p><p class="big">%s</p><p class="rd">%s</p>'
@@ -634,6 +664,7 @@ for m in WARN:
 DATA = {
     'beats': beats, 'total': TOTAL, 'tracks': tracks, 'inst': inst, 'threads': threads, 'morphs': morphs,
     'graph': graph_tl, 'chapters': chapters_js, 'sprites': sprite_info, 'teach': teach,
+    'pro': PRO,
     'pal': {'wall': PAL['wall'], 'floor': PAL['floor'], 'fwall': FUT['wall'], 'ffloor': FUT['floor']},
     'dots': dots, 'edges': edges, 'labels': labels, 'books': book_labels, 'slots': {'C': C_, 'L': LT, 'R': RT, 'S': S},
 }
@@ -645,6 +676,22 @@ JS = (HERE / 'v4.js').read_text(encoding='utf-8')
 menu = ''.join('<li><button type="button" data-ch="%d"><span lang="ta">%s</span> <span class="mn">%s</span></button></li>'
                % (i, E(c['tamil']), E(c['subtitle'])) for i, c in enumerate(CH))
 
+PROTEXT = ''.join([
+    '<div class="pt pt0" data-b="O0"><p class="pk" lang="ta">%s</p><h2 class="ptitle" lang="ta">%s</h2><p class="psub">%s</p>'
+    '<p class="pcue">%s</p></div>' % (E(PR['O0']['kick']), E(PR['O0']['big']), E(PR['O0']['sub']), E(PR['O0']['cue'])),
+    '<div class="pt" data-b="O1"><p class="pbig">%s</p><p class="pbody">%s</p></div>' % (E(PR['O1']['big']), E(PR['O1']['body'])),
+    '<div class="pt" data-b="O2"><p class="pbig">%s</p><p class="pbody">%s</p></div>' % (E(PR['O2']['big']), E(PR['O2']['body'])),
+    '<div class="pt" data-b="O3"><p class="pbig">%s</p><p class="pbody">%s</p></div>' % (E(PR['O3']['big']), E(PR['O3']['body'])),
+    ''.join('<div class="pt pt4" data-b="%s"><p class="pbig">%s</p><div class="panels">%s</div><p class="pfoot">%s</p></div>' % (
+        k, E(PR[k]['big']),
+        ''.join('<div class="pan"><img alt="" data-src="%s"><p class="pta" lang="ta">%s</p><p class="psrc">%s</p>'
+                '<p class="pread">%s</p><p class="pnow">%s</p></div>' % (sprite_info[q['img']]['src'], E(q['ta']), E(q['src']),
+                                                                       E(q['read']), E(q['now'])) for q in PR[k]['panels']),
+        E(PR[k]['foot'])) for k in ('O4', 'O5')),
+    '<div class="pt pt5" data-b="O6"><p class="pbig">%s</p></div>' % E(PR['O6']['big']),
+    '<div id="proSt" aria-hidden="true">%s</div>' % ''.join('<div class="st"><b>%s</b><span>%s</span></div>' % (E(a), E(b))
+                                                          for a, b in PR['O1']['stations']),
+])
 page = '''<!doctype html>
 <html lang="en">
 <head>
@@ -658,6 +705,17 @@ page = '''<!doctype html>
 <style>%(css)s</style>
 </head>
 <body>
+<div id="pro" aria-label="Prologue">
+  <img id="heroA" alt="A granite hill at dawn with a rock shelter, a marble poet writing on a palm leaf beneath it">
+  <img id="heroB" alt="The same hill in 2526, a city of pale towers and glass canopies in the valley">
+  <div id="scrim"></div>
+  <div id="scrim2"></div>
+  <div id="proYear" aria-hidden="true">2026</div>
+  <svg id="proLine" aria-hidden="true"></svg>
+  <div id="proObjs" aria-hidden="true"></div>
+  %(protext)s
+  <button id="proWatch" type="button">Watch</button>
+</div>
 <div id="app">
   <section id="col" aria-live="polite">
     <header id="hd">
@@ -688,7 +746,7 @@ page = '''<!doctype html>
 <script>%(js)s</script>
 </body>
 </html>
-''' % {'css': CSS, 'cards': '\n'.join(cards), 'menu': menu,
+''' % {'css': CSS, 'cards': '\n'.join(cards), 'menu': menu, 'protext': PROTEXT,
        'data': json.dumps(DATA, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/'), 'js': JS}
 
 out = HERE / 'index.html'
