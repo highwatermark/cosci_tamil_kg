@@ -317,7 +317,7 @@ One separate image per stage. `SVG` means the stage is a motion graphic or text 
 |---|---|---|---|
 | 01 | 01-T (closed), 01-P | 01-N | 01-F |
 | 02 | 02-T, 02-H | 02-N | *02-N* empty, readout SVG |
-| 03 | 03-T, 03-T2, 03-G | 03-N, receipt SVG | 03-F |
+| 03 | 03-T, 03-T2, 03-G | 03-N, receipt SVG | *03-N* again, a crack of light seam SVG across the glass (the opened-terminal still is dropped: it no longer matches the monolith) |
 | 04 | 04-T | 04-N, 04-C | 04-F1, then 04-F2 (04-F3 alternate) |
 | 05 | 05-T, 05-T2 | SVG bubbles | 05-F |
 | 06 | 06-T + FL | *01-N* face up | *06-T* + *FL* |

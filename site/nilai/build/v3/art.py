@@ -406,6 +406,7 @@ POSES = {
 }
 
 
+VECTOR = []     # (kind, pose) drawn as vectors in the scene being built
 SPRITE = None   # set by build.py: stage.sprite(kind, pose, anim, s, flip, extra) -> svg or None
 
 
@@ -413,10 +414,11 @@ def keeper(pose='stand', expr='calm', s=1.0, flip=False, hold='', who='keeper', 
     """The keeper: a marble sprite where the pose exists (build.py sets SPRITE), else the vector figure."""
     if who != 'keeper' or Sc.plain:
         return _keeper(pose, expr, s, flip, hold, who, look, anim, stylus)
-    if SPRITE and not hold:
-        r = SPRITE('K', pose, anim, s, flip)
+    if SPRITE:
+        r = SPRITE('K', pose, anim, s, flip, hold=hold)
         if r:
             return r
+    VECTOR.append(('K', pose))
     return g(_keeper(pose, expr, s, flip, hold, who, look, anim, stylus), data_chr='1')
 
 
@@ -611,6 +613,7 @@ def myna(pose='stand', s=1.0, flip=False, say=None, anim=None, extra=''):
         r = SPRITE('M', pose, anim, s, flip, (say or '') + extra)
         if r:
             return r
+    VECTOR.append(('M', pose))
     return g(_myna(pose, s, flip, say, anim, extra), data_chr='1')
 
 

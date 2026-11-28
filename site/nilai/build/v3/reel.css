@@ -190,7 +190,8 @@ html.rm .sc3 *{animation:none!important;transition:none!important}
 @keyframes sway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(-2.4deg)}}
 .sc3 .swp rect{mix-blend-mode:screen}
 .sc3.vplay .stage,.sc3.vplay .svgobj{visibility:hidden}
-.sc3 .vclip{overflow:visible;pointer-events:none}
+.sc3 .vclip{overflow:visible;pointer-events:none;visibility:hidden}
+.sc3.vplay .vclip{visibility:visible}
 .sc3 .vclip video,.sc3 .vclip canvas{display:block;width:100%;height:100%;object-fit:cover}
 
 /* the source chip and its panel (a bottom sheet on phones) */

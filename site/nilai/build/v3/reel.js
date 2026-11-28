@@ -255,24 +255,34 @@ function seek(c){
 }
 function draw(c){
   if(c.keyed||!c.cv) return;
+  if(!c.el.classList.contains('vplay')&&c.drawn) { c.stale=true; return; }   /* key only while the clip is on screen */
   var v=c.v, vw=v.videoWidth, vh=v.videoHeight; if(!vw) return;
-  var s=Math.min(vw,vh), sx=(vw-s)/2, sy=(vh-s)/2, n=Math.min(s,720), cv=c.cv;
+  var s=Math.min(vw,vh), sx=(vw-s)/2, sy=(vh-s)/2, n=Math.min(s,640), cv=c.cv;
   if(cv.width!==n){ cv.width=n; cv.height=n; }
-  var g=cv.getContext('2d',{willReadFrequently:true});
+  var g=c.g||(c.g=cv.getContext('2d',{willReadFrequently:true}));
   g.drawImage(v,sx,sy,s,s,0,0,n,n);
-  var im=g.getImageData(0,0,n,n), d=im.data;
-  for(var i=0;i<d.length;i+=4){ var r=d[i],gg=d[i+1],b=d[i+2],m=r>b?r:b, ex=gg-m;
-    if(ex>40){ var a=ex>=110?0:1-(ex-40)/70; d[i+3]=a*255; d[i+1]=m+(gg-m)*0; } else if(ex>0){ d[i+1]=m; } }
-  g.putImageData(im,0,0);
+  var im=g.getImageData(0,0,n,n), d=im.data, L=d.length, i, r, gg, b, m, ex, a;
+  /* chroma key on green: alpha from the green excess over max(r,b), a soft ramp, then despill every pixel
+     (green clamped to max(r,b)) so no green fringe survives on the anti-aliased edges */
+  for(i=0;i<L;i+=4){ r=d[i]; gg=d[i+1]; b=d[i+2]; m=r>b?r:b; ex=gg-m;
+    if(ex>18){ a=ex>=78?0:1-(ex-18)/60; a=a*a*(3-2*a); d[i+3]=a*255; d[i+1]=m; }
+    else if(ex>0){ d[i+1]=m; } }
+  /* choke: an alpha edge pixel takes the lower alpha of its left/right/up/down neighbours (removes a 1px halo) */
+  var A=c.A&&c.A.length===L/4?c.A:(c.A=new Uint8Array(L/4)), j, w=n;
+  for(j=0,i=3;i<L;i+=4,j++) A[j]=d[i];
+  for(j=w;j<A.length-w;j++){ if(A[j]===0||A[j]===255&&A[j-1]===255&&A[j+1]===255&&A[j-w]===255&&A[j+w]===255) continue;
+    var mn=A[j]; if(A[j-1]<mn) mn=A[j-1]; if(A[j+1]<mn) mn=A[j+1]; if(A[j-w]<mn) mn=A[j-w]; if(A[j+w]<mn) mn=A[j+w]; d[j*4+3]=mn; }
+  g.putImageData(im,0,0); var first=!c.drawn; c.drawn=true; c.stale=false; if(first) req();
 }
+window.nilaiClips=VC;   /* debugging: the clip states */
 function clips(i,p){
   for(var k=0;k<VC.length;k++){
     var c=VC[k]; if(!c) continue;
     if(Math.abs(k-i)<=1) clipInit(c);
     if(k!==i||c.dead){ if(c.el.classList.contains('vplay')) c.el.classList.remove('vplay'); continue; }
     var inw=p>=c.t0&&p<=c.t1;
-    c.el.classList.toggle('vplay',inw&&c.ok);
-    if(inw&&c.ok){ c.want=(p-c.t0)/(c.t1-c.t0)*(c.v.duration||0); seek(c); }
+    c.el.classList.toggle('vplay',inw&&c.ok&&(c.keyed||c.drawn));
+    if(inw&&c.ok){ c.want=(p-c.t0)/(c.t1-c.t0)*(c.v.duration||0); if(c.stale) draw(c); seek(c); }
   }
 }
 

@@ -390,8 +390,6 @@ def arch_svg(n, sh, st):
                 x = VP[0] + side * 640 * s
                 rows.append(pillar(x, base, 118 * s, h, sid, st))
         # beams that carry the roof, receding to the vanishing point
-        beam = ''.join('M%s %s L %s %s ' % (AR.n(VP[0] + side * 640), AR.n(Y0 - 1500), AR.n(VP[0] + side * 640 * .2), AR.n(VP[1] + (Y0 - VP[1]) * .2 - 1500 * .2)) for side in (-1, 1))
-        out.append(_p(beam, stroke=st['Wj'], stroke_width='6'))
         out.append(''.join(rows))
     elif kind == 'tank':
         out.append(spot(st, sid, 500, 470, 420, 440, floor=False))
@@ -425,27 +423,38 @@ def arch_svg(n, sh, st):
             a1 = math.pi * (i + 1) / 17
             p = [(cx - math.cos(a0) * R, cy - math.sin(a0) * R), (cx - math.cos(a0) * (R + 62), cy - math.sin(a0) * (R + 62)),
                  (cx - math.cos(a1) * (R + 62), cy - math.sin(a1) * (R + 62)), (cx - math.cos(a1) * R, cy - math.sin(a1) * R)]
-            vs.append(_poly(p, 'url(#%spf)' % sid if i % 2 else st['Wm'], stroke=st['Wj'], stroke_width='2'))
+            vs.append(_poly(p, st['Wl'] if i % 2 else 'url(#%spf)' % sid, stroke=st['Wdd'], stroke_width='3'))
         out.append(''.join(vs))
         for side in (-1, 1):
             x = cx + side * (R + 31)
             for j in range(6):
                 y = cy + j * 60
-                out.append(_r(x - 31, y, 62, 60, st['Wm'] if j % 2 else 'url(#%spf)' % sid, stroke=st['Wj'], stroke_width='2'))
+                out.append(_r(x - 31, y, 62, 60, 'url(#%spf)' % sid if j % 2 else st['Wl'], stroke=st['Wdd'], stroke_width='3'))
+        # moonlight on the intrados and the outer edge, so the arch reads against the wall
+        lit = mix(st['Wl'], '#FFFFFF', .45)
+        out.append('<g data-nochk="1" fill="none" stroke-linecap="round">%s%s</g>' % (
+            _p('M%d 760 L %d %d A %d %d 0 0 1 %d %d L %d 760' % (cx - R + 2, cx - R + 2, cy, R - 2, R - 2, cx + R - 2, cy, cx + R - 2), stroke=lit, stroke_width='3', opacity='.8'),
+            _p('M%d 760 L %d %d A %d %d 0 0 1 %d %d L %d 760' % (cx - R - 64, cx - R - 64, cy, R + 64, R + 64, cx + R + 64, cy, cx + R + 64), stroke=st['Wdd'], stroke_width='5', opacity='.9')))
         out.append(AR.tag('ellipse', cx=cx, cy=786, rx=300, ry=50, fill='url(#%sfp)' % sid))
         out.append(floor_layer(st, sid, (500, 420)))
     return '<svg class="arch" viewBox="0 0 1000 1000" aria-hidden="true" focusable="false">%s</svg>' % ''.join(out)
 
 
 # ---------------------------------------------------------------- characters: marble keeper, bronze myna
+# every vector pose of the keeper and the myna maps to the nearest marble or bronze pose; K0 / M0 views are the fallbacks
 KEEPER_POSE = {
-    'write': ['K3'], 'stand': ['K0.side'], 'walk1': ['K1', 'K0.side'], 'walk2': ['K1', 'K0.side'],
-    'point': ['K2'], 'pointup': ['K2'], 'reach': ['K2'], 'startle': ['K4'], 'delight': ['K5'], 'sit': ['K6'], 'cross': ['K6'],
-    'lie': ['K7'], 'paddle': ['K9'], 'carry': ['K10'],
+    'write': ['K3'], 'kneel': ['K3'], 'stand': ['K0.side'], 'walk1': ['K1', 'K0.side'], 'walk2': ['K1', 'K0.side'],
+    'point': ['K2'], 'pointup': ['K2'], 'reach': ['K2'], 'serve': ['K2'], 'startle': ['K4'], 'delight': ['K5'],
+    'sit': ['K6'], 'cross': ['K6'], 'lie': ['K6'], 'paddle': ['K6'],
+    'listen': ['K0.tq'], 'hold': ['K0.tq'], 'lean': ['K0.side'], 'carry': ['K0.front'],
 }
-MYNA_POSE = {'stand': ['M6'], 'up': ['M0.side'], 'peck': ['M3'], 'sip': ['M3'], 'sing': ['M5'], 'startle': ['M4'], 'tuck': ['M7'], 'fly': ['M8', 'M0.fly'], 'walk': ['M1', 'M0.side']}
-# height of the figure in art units at s = 1 (the SVG keeper is about 380 tall, the myna about 118)
-SPRITE_H = {'K3': 300, 'K6': 240, 'K7': 130, 'K9': 280, 'K5': 392, 'M6': 104, 'M0.side': 120, 'M0.fly': 132}
+MYNA_POSE = {'stand': ['M6'], 'up': ['M0.side'], 'peck': ['M3'], 'sip': ['M3'], 'sing': ['M5'], 'startle': ['M4'], 'tuck': ['M6'],
+             'fly': ['M0.fly'], 'walk': ['M1'], 'point': ['M2']}
+# keeper: height of the figure (art units at s = 1; the SVG keeper is about 380 tall). myna: length (the SVG myna is about 124 long)
+SPRITE_H = {'K3': 300, 'K6': 250, 'K5': 392, 'K4': 372}
+SPRITE_W = {'M0.front': 70, 'M3': 132, 'M4': 120}
+# where a held object goes: the hand, in the sprite file's pixels
+HAND = {'K2': (512, 100), 'K0.tq': (37, 347), 'K0.side': (120, 360), 'K0.front': (122, 330), 'K6': (250, 470), 'K4': (470, 165), 'K3': (330, 330)}
 # the braid of the side view, as a polygon in the crop's pixels (separable only on this exact sheet)
 BRAID = dict(size=815761, pivot=(36, 64),
              poly=[(28, 56), (52, 64), (47, 112), (41, 162), (38, 250), (36, 330), (34, 372), (38, 446), (0, 448), (1, 372), (5, 330), (8, 250), (12, 160), (17, 100)])
@@ -535,20 +544,22 @@ def img(iid, x, y, w, h, cls='', extra=''):
         a['rel'], AR.n(x), AR.n(y), AR.n(w), AR.n(h), ' class="%s"' % cls if cls else '', extra)
 
 
-def sprite(kind, pose, anim=None, s=1.0, flip=False, extra=''):
-    """SVG for a character sprite, or None to keep the vector drawing."""
+def _sprite_id(kind, pose):
     table = KEEPER_POSE if kind == 'K' else MYNA_POSE
-    if anim and kind == 'K':
-        poses = {p for _, p in anim if isinstance(p, str)}
-        if not poses <= {'stand', 'walk1', 'walk2'}:
-            return None
-        pose = 'stand'
-    cands = [c for c in table.get(pose, []) if c in AV]
-    if not cands:
-        return None
-    iid = cands[0]
+    for c in table.get(pose if isinstance(pose, str) else 'stand', []):
+        if c in AV:
+            return c
+    return None
+
+
+def _one(kind, iid, hold=''):
+    """One sprite, feet at (0, 0), centred, at s = 1."""
     a = AV[iid]
-    H = SPRITE_H.get(iid, 380 if kind == 'K' else 118)
+    if kind == 'K':
+        H = SPRITE_H.get(iid, 380)
+    else:
+        x0, y0, x1, y1 = a['bbox']
+        H = SPRITE_W.get(iid, 124) * (y1 - y0) / max(1, x1 - x0)
     x, y, w, h, k = _place(a, H)
     sh = Ctx.sh
     halo = ''
@@ -559,8 +570,7 @@ def sprite(kind, pose, anim=None, s=1.0, flip=False, extra=''):
     if braid:
         px, py = BRAID['pivot']
         poly = ' '.join('%s,%s' % (AR.n(x + bx * k), AR.n(y + by * k)) for bx, by in BRAID['poly'])
-        bp = (x + px * k, y + py * k)
-        cid = 'kb%s' % Ctx.sid
+        cid = 'kb%s%d' % (Ctx.sid, len(Ctx.halo) + _rimn[0])
         clip = ('<clipPath id="%sa"><path clip-rule="evenodd" d="M-600 -900 H600 V200 H-600 Z M%s Z"/></clipPath><clipPath id="%sb"><polygon points="%s"/></clipPath>'
                 % (cid, poly.replace(' ', ' L ').replace(',', ' '), cid, poly))
         inner = (clip + '<g clip-path="url(#%sa)">%s</g>' % (cid, graded(iid, x, y, w, h))
@@ -569,8 +579,44 @@ def sprite(kind, pose, anim=None, s=1.0, flip=False, extra=''):
     else:
         inner = graded(iid, x, y, w, h)
     inner += rim(iid, x, y, w, h, Ctx.sid)
-    inner = '<g class="spr %s"%s>%s</g>' % ('bob' if kind == 'M' else 'breathe', halo, inner) + extra
+    out = '<g class="spr %s"%s>%s</g>' % ('bob' if kind == 'M' else 'breathe', halo, inner)
+    if hold:
+        hx_, hy_ = HAND.get(iid, (a['w'] * .6, a['h'] * .45))
+        out += AR.g(hold, transform='translate(%s %s)' % (AR.n(x + hx_ * k), AR.n(y + hy_ * k)))
+    return out
+
+
+def sprite(kind, pose, anim=None, s=1.0, flip=False, extra='', hold=''):
+    """SVG for a character sprite, or None to keep the vector drawing.
+    A keeper animated through several poses swaps between the matching sprites at the pose times."""
     tr = 'scale(%s %s)' % (AR.n(-s if flip else s), AR.n(s)) if (s != 1 or flip) else None
+    if anim and kind == 'K':
+        segs = []
+        for t, p in anim:
+            iid = _sprite_id('K', p)
+            if not iid:
+                return None
+            if not segs or segs[-1][1] != iid:
+                segs.append((t, iid))
+        if len(segs) == 1:
+            pose = None
+            inner = _one('K', segs[0][1], hold)
+        else:
+            parts = []
+            for j, (t0, iid) in enumerate(segs):
+                t1 = segs[j + 1][0] if j + 1 < len(segs) else None
+                fr = [(0, dict(o=1 if j == 0 else 0))]
+                if j > 0:
+                    fr += [(max(t0 - .004, .001), dict(o=0)), (t0, dict(o=1))]
+                if t1 is not None:
+                    fr += [(max(t1 - .004, t0 + .001), dict(o=1)), (t1, dict(o=0))]
+                parts.append(AR.g(_one('K', iid, hold), k=AR.kf(*fr)))
+            inner = ''.join(parts)
+        return AR.g(inner + extra, transform=tr, data_chr='1')
+    iid = _sprite_id(kind, pose)
+    if not iid:
+        return None
+    inner = _one(kind, iid, hold) + extra
     if kind == 'M' and anim:
         return AR.g(AR.g(inner, k=anim, c=(0, -40)), transform=tr, data_chr='1')
     return AR.g(inner, transform=tr, data_chr='1')
@@ -578,7 +624,11 @@ def sprite(kind, pose, anim=None, s=1.0, flip=False, extra=''):
 
 # ---------------------------------------------------------------- stage images per scene
 M1A, M1B, M2A, M2B = T['m1a'], T['m1b'], T['m2a'], T['m2b']
-WIN = {'T': [(None, None, M1A, M1B)], 'N': [(M1A, M1B, M2A, M2B)], 'F': [(M2A, M2B, None, None)]}
+# image cross-dissolves: about 9% of the scene each, centred on the SVG morphs, so every stage settles and holds
+D1 = (round((M1A + M1B) / 2 - .045, 3), round((M1A + M1B) / 2 + .045, 3))
+D2 = (round((M2A + M2B) / 2 - .045, 3), round((M2A + M2B) / 2 + .045, 3))
+WIN = {'T': [(None, None) + D1], 'N': [D1 + D2], 'F': [D2 + (None, None)]}
+STAG = .38   # the outgoing image is gone by 62% of the dissolve, the incoming one starts at 38%: a short overlap under the sweep
 
 # per-scene settings. box = (centre x, bottom y, max width, max height) in art units; bottom None = on the plinth.
 SCENE = {
@@ -586,7 +636,10 @@ SCENE = {
             video=('V4', M1A, M2B)),
     2: dict(box={'T': (500, 700, 620, 540), 'N': (500, None, 520, 440)}, plinth={'N'}, wire={'T': 1}, video=('V5', M1A, M1B)),
     4: dict(box={'T': (500, 760, 400, 440), 'F': (500, 770, 980, 520)}, pick={'F': '04-F2'}, plinth=set()),
-    7: dict(box={'T': (520, 900, 860, 600)}, flat={'T': .56}, plinth=set(), style='slide'),
+    3: dict(seam=[(382, 104), (356, 176), (370, 226), (322, 298), (338, 346), (292, 420), (304, 466), (250, 524)],
+            seam2=[(338, 346), (372, 392), (366, 440)]),
+    # 07-T.floor: 07-T keystoned onto the floor by warp.swift (true perspective, not a vertical squash)
+    7: dict(box={'T': (540, 945, 900, 320)}, pick={'T': '07-T.floor'}, plinth=set(), style='slide'),
     26: dict(box={'T': (500, None, 600, 470), 'N': (500, None, 760, 360), 'F': (500, 640, 820, 620)}, plinth={'T', 'N'}, style='slide', video=('V2', M1A, M2B)),
     31: dict(box={'T': (500, 776, 360, 640), 'N': (500, 560, 220, 380), 'F': (500, 330, 300, 300)}, plinth=set(),
              win={'T': [(None, None, .2, .22), (.32, .34, .5, .56)], 'N': [(.1, .13, .2, .22)], 'F': [(.2, .24, .3, .33)]},
@@ -614,6 +667,20 @@ def _vis(p, w):
 
 def _cov(p, wins):
     return max([_vis(p, w) for w in wins] or [0])
+
+
+def _merge(wins):
+    """Join windows that hand over to each other (one's exit overlaps the next one's entrance) into one span, so the
+    SVG objects and the plinth stay hidden through an image-to-image dissolve."""
+    ws = sorted(wins, key=lambda w: -1 if w[0] is None else w[0])
+    out = []
+    for w in ws:
+        if out and out[-1][2] is not None and w[0] is not None and w[0] <= out[-1][3] + 1e-6:
+            p = out[-1]
+            out[-1] = (p[0], p[1], w[2], w[3])
+        else:
+            out.append(tuple(w))
+    return out
 
 
 def _times(wins):
@@ -650,15 +717,17 @@ def slot_keys(wins, style, c):
         if a0 is None:
             fr += [(0, dict(o=0, y=26, s=1, x=0)), (.03, dict(o=0, y=26, s=1, x=0)), (.1, 'o', dict(o=1, y=0, s=1, x=0))]
         else:
+            a0 = a0 + (a1 - a0) * STAG
             if style == 'slide':
                 fr += [(a0, dict(o=0, x=-300, s=.86, y=0)), (a1, 'o', dict(o=1, x=0, s=1, y=0))]
             else:
-                fr += [(a0, dict(o=0, s=1.06, x=0, y=0)), (a1, 'o', dict(o=1, s=1, x=0, y=0))]
+                fr += [(a0, dict(o=0, s=1.04, x=0, y=0)), (a1, 'o', dict(o=1, s=1, x=0, y=0))]
         if b0 is not None:
+            b1 = b1 - (b1 - b0) * STAG
             if style == 'slide':
                 fr += [(b0, dict(o=1, x=0, s=1, y=0)), (b1, 'n', dict(o=0, x=320, s=.86, y=0))]
             else:
-                fr += [(b0, dict(o=1, s=1, x=0, y=0)), (b1, 'i', dict(o=0, s=.95, x=0, y=0))]
+                fr += [(b0, dict(o=1, s=1, x=0, y=0)), (b1, 'i', dict(o=0, s=.97, x=0, y=0))]
     fr.sort(key=lambda x: x[0])
     # the engine needs distinct times
     out, last = [], -1
@@ -772,6 +841,8 @@ def scene_images(n, sh, st, M):
         if wire:
             image = AR.tag('path', d='M%s -900 V%s' % (AR.n(cx), AR.n(y + AV[iid]['bbox'][1] * k + 4)), stroke='var(--ink)', stroke_width='2.5', fill='none') + image
         body = image + '<g mask="url(#%s)" data-nochk="1" class="swp">%s</g>' % (mid, sweep)
+        if cfg.get('seam') and stage == 'N' and picks.get('F') == iid:
+            body += seam(cfg, x, y, w, iid)
         if n == 31 and stage == 'T' and 'FL' in AV:
             body += flames31(x, y, w, h, k, iid)
         grp = AR.g(body, transform=tr) if tr else body
@@ -787,11 +858,11 @@ def scene_images(n, sh, st, M):
             '<stop offset=".5" stop-color="#fff" stop-opacity=".62"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>%s</defs>' % (sid, ''.join(out_mask)))
     pl = ''
     if plinth_wins:
-        pl = AR.g('<g data-stone="1">%s</g>' % plinth(500, plinth_top, max(200, plinth_w), st, 'a' + sid), k=AR.kf(*_okeys(plinth_wins, enter=True)))
+        pl = AR.g('<g data-stone="1">%s</g>' % plinth(500, plinth_top, max(200, plinth_w), st, 'a' + sid), k=AR.kf(*_okeys(_merge(plinth_wins), enter=True)))
     svg = defs + pl + ''.join(out_img)
     if cfg.get('exit'):
         svg = AR.g(svg, k=AR.kf(*cfg['exit']), c=(500, 420))
-    cov = AR.kf(*_okeys(wins_all, f=lambda v: 1 - v))
+    cov = AR.kf(*_okeys(_merge(wins_all), f=lambda v: 1 - v))
     clip = None
     if cfg.get('video'):
         vid, t0, t1 = cfg['video']
@@ -807,6 +878,20 @@ def scene_images(n, sh, st, M):
     return '<g class="stage">%s</g>' % svg, cov, clip
 
 
+def seam(cfg, x, y, w, iid):
+    """FUTURE on the same monolith: a seam of light cracks down the glass (stroke-drawn over the second dissolve)."""
+    k = w / AV[iid]['w']
+    def d(pts):
+        return 'M' + ' L '.join('%s %s' % (AR.n(x + px * k), AR.n(y + py * k)) for px, py in pts)
+    a0, a1 = D2[0], D2[1] + .05
+    m = (a0 + a1) / 2
+    out = [_p(d(cfg['seam']), stroke='#FFF6DC', stroke_width='9', opacity='.28', stroke_linecap='round', stroke_linejoin='round', data_dr='%s,%s' % (a0, a1)),
+           _p(d(cfg['seam']), stroke='#FFFFFF', stroke_width='2.6', stroke_linecap='round', stroke_linejoin='round', data_dr='%s,%s' % (a0, a1))]
+    if cfg.get('seam2'):
+        out.append(_p(d(cfg['seam2']), stroke='#FFFFFF', stroke_width='1.8', stroke_linecap='round', data_dr='%s,%s' % (round(m, 3), a1 + .02)))
+    return '<g data-nochk="1" class="seam">%s</g>' % ''.join(out)
+
+
 def phone_keys(k, c, bw, bh):
     """Phones: the object fills the width (scaled up around its centre, capped so it stays in frame)."""
     f = min(1.14, 760 / max(bw, 1), 640 / max(bh, 1))
@@ -818,7 +903,7 @@ def phone_keys(k, c, bw, bh):
 
 
 # the five spouts of 31-T, as fractions of the image (measured on the current file)
-SPOUTS = [(.484, .394), (.30, .331), (.70, .336)]   # front, left, right wick tips
+SPOUTS = [(.495, .404), (.30, .331), (.70, .336)]   # front, left, right wick tips (the front one on the bowl's front lip)
 
 
 def flames31(x, y, w, h, k, iid):
@@ -826,7 +911,7 @@ def flames31(x, y, w, h, k, iid):
     out = []
     times = [0, .36, .4]
     for (fx, fy), t0 in zip(SPOUTS, times):
-        H = 46
+        H = 58 if t0 == 0 else 46
         fx0, fy0, fx1, fy1 = a['bbox']
         kk = H / max(1, fy1 - fy0)
         X = x + fx * w - (fx0 + fx1) / 2 * kk

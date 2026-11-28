@@ -65,8 +65,8 @@ def s25(s):
     world = g([sky, board, line_g, draw, g(dots)], k=kf((0, dict(s=3.4)), (.04, dict(s=3.4)), (.28, 'i', dict(s=1)), (t['m2a'], dict(s=1)), (t['m2b'], 'i', dict(s=.62)), (1, dict(s=.56))), c=place((1, 1)))
     # the myna joins the stars with its beak, the way a kolam is drawn, going round one star without touching it
     route = path('M260 140 L 420 90 C 470 70 520 110 500 150 C 480 190 430 170 440 130 L 700 180 L 820 120', fill='none', stroke=I, stroke_width=4, stroke_dasharray='2 10', stroke_linecap='round', data_dr='.8,.95')
-    mk = g(myna('peck', .8), k=kf((0, dict(o=0, x=260, y=150)), (.78, dict(o=0)), (.8, dict(o=1)), (.95, 'l', dict(x=820, y=130))))
-    keep = g(g(keeper('lie', 'up', s=.7), transform='rotate(-90)'), k=kf((0, dict(o=0, x=860, y=740)), (.1, dict(o=0)), (.15, dict(o=1))))
+    mk = g(myna('fly', .8), k=kf((0, dict(o=0, x=260, y=150)), (.78, dict(o=0)), (.8, dict(o=1)), (.95, 'l', dict(x=820, y=130))))
+    keep = g(keeper('lie', 'up', s=.7), k=kf((0, dict(o=0, x=840, y=760)), (.1, dict(o=0)), (.15, dict(o=1))))
     out = [world, route, mk, keep]
     return dict(art=''.join(out), tr='zoom', fx=500, fy=380, pu='0:.1:%d:%d' % place((1, 1)))
 
@@ -98,7 +98,7 @@ def s26(s):
     paper = g([rect(-40, -20, 80, 40, 3, fill=W, stroke=I, stroke_width=3), path('M-30 -8 l 50 0 M -30 2 l 40 0 M -30 12 l 56 0', stroke=I, stroke_width=2)],
               k=kf((0, dict(x=560, y=520, r=-8, o=1)), (t['m1a'], dict(x=560, y=520)), (t['m1b'], dict(x=860, y=380, r=0)), (t['m2a'], dict(x=860, y=380)), (t['m2b'], dict(x=900, y=80, r=6)), (1, dict(x=900, y=80))))
     hull_g = g(hull, k=kf((0, dict(o=1)), (t['m2a'], dict(o=1)), (t['m2a'] + .06, dict(o=0, y=200))))
-    keep = g(keeper('reach', 'focus', s=.55), k=kf((0, dict(x=230, y=590, o=1)), (t['m1a'], dict(x=230, y=590)), (t['m1b'], dict(x=80, y=556)), (t['m2a'], dict(x=80, y=556)), (t['m2b'], dict(x=40, y=700)), (1, dict(x=40, y=700))))
+    keep = g(keeper('reach', 'focus', s=.55), k=kf((0, dict(x=230, y=610, o=1)), (t['m1a'], dict(x=230, y=610)), (t['m1b'], dict(x=190, y=610)), (t['m2a'], dict(x=190, y=610)), (t['m2b'], dict(x=70, y=800)), (1, dict(x=70, y=800))))
     mk = g(myna('up', .7), k=kf((0, dict(x=490, y=150)), (t['m1a'], dict(x=490, y=150)), (t['m1b'], dict(x=430, y=326)), (t['m2a'], dict(x=430, y=326)), (t['m2b'], dict(x=-260, y=40)), (1, dict(x=-260, y=40))))
     sun = g(text(500, 960, 'pushed by sunlight', 22, fill=I, anchor='middle', fam='mono', bg='floor'), k=fade(t['m2b']))
     out = [sea, rig, hull_g, stitches, mast, bridge, g(boxes), paper, keep, mk, sun]

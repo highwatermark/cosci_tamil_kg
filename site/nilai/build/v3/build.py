@@ -342,6 +342,7 @@ PANEL = ('<aside class="srcp" id="srcPanel" role="dialog" aria-modal="false" ari
          '<div class="srcin"><div class="srch"><b id="srcT">source</b><button type="button" class="srcx" id="srcX" aria-label="Close the sources">×</button></div>'
          '<div class="srcb" id="srcB"></div></div></aside>')
 HALO = {}
+VEC = {}
 SHAPE_RE = re.compile(r'<(path|rect|circle|ellipse|polygon|polyline|line|use|image)\b')
 
 
@@ -362,22 +363,34 @@ def chunks(svg):
     return out
 
 
-def wrap_objects(art, cov, n):
-    """Where a stage plays as an image, the SVG objects give way: every top-level element except the characters
-    and pure text is wrapped in a group whose opacity is 1 - (image coverage)."""
+OPEN_G = re.compile(r'^<g\b((?:[^>"]|"[^"]*")*)>')
+
+
+def wrap_objects(art, cov, n, top=True):
+    """Where a stage plays as an image, the SVG objects give way: every element except the characters and pure text
+    is wrapped in a group whose opacity is 1 - (image coverage). A group that carries a character together with props
+    (a boat, a dish, a board it rides) is opened up, so only the character itself stays."""
     out, run = [], []
-    keep_idx = STG.SCENE.get(n, {}).get('keep', ())
+    keep_idx = STG.SCENE.get(n, {}).get('keep', ()) if top else ()
     def flush():
         if run:
             out.append('<g class="svgobj" data-k="%s">%s</g>' % (cov, ''.join(run)))
             run.clear()
     for i, c in enumerate(chunks(art)):
-        keep = 'data-chr' in c or not SHAPE_RE.search(c) or i in keep_idx
-        if keep:
+        if not SHAPE_RE.search(c) or i in keep_idx:
             flush()
             out.append(c)
-        else:
-            run.append(c)
+            continue
+        if 'data-chr' in c:
+            m = OPEN_G.match(c)
+            if m and 'data-chr' not in m.group(1) and c.endswith('</g>'):
+                flush()
+                out.append(m.group(0) + wrap_objects(c[m.end():-4], cov, n, top=False) + '</g>')
+            else:
+                flush()
+                out.append(c)
+            continue
+        run.append(c)
     flush()
     return ''.join(out)
 
@@ -414,16 +427,30 @@ def build():
         st = STG.stone(sh, n)
         stage_svg, cov, clip = STG.scene_images(n, sh, st, SMAP[n])
         fn = getattr(SCN, 's' + sid)
+        AR.VECTOR.clear()
         R = fn(s)
+        if AR.VECTOR:
+            VEC[n] = sorted(set('%s:%s' % v for v in AR.VECTOR))
         art_in = R['art']
         if cov:
             art_in = stage_svg + wrap_objects(art_in, cov, n)
             images_in[n] = sorted(set(re.findall(r'data-id="([^"]+)"', stage_svg)))
         sdefs = ''
         if STG.Ctx.halo:
-            sdefs = ('<defs><filter id="fh%s" x="-25%%" y="-25%%" width="150%%" height="150%%"><feMorphology in="SourceAlpha" operator="dilate" radius="2.2" result="d"/>'
-                     '<feGaussianBlur in="d" stdDeviation="3.2" result="b"/><feFlood style="flood-color:var(--ink)" flood-opacity=".7"/><feComposite in2="b" operator="in" result="h"/>'
-                     '<feMerge><feMergeNode in="h"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>' % sid)
+            # gallery lighting, not an outline: on a dark wall a warm spotlight bloom behind the piece; on a light wall
+            # a soft cast shadow down and to the right (the key light is upper left)
+            if lum(sh['wall']) < .3:
+                sdefs = ('<defs><filter id="fh%s" x="-40%%" y="-30%%" width="180%%" height="160%%" color-interpolation-filters="sRGB">'
+                         '<feGaussianBlur in="SourceAlpha" stdDeviation="16" result="b"/><feFlood flood-color="%s" flood-opacity=".62"/>'
+                         '<feComposite in2="b" operator="in" result="h"/><feGaussianBlur in="SourceAlpha" stdDeviation="4" result="b2"/>'
+                         '<feFlood flood-color="%s" flood-opacity=".38"/><feComposite in2="b2" operator="in" result="h2"/>'
+                         '<feMerge><feMergeNode in="h"/><feMergeNode in="h2"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>'
+                         % (sid, mix(st['Wl'], '#FFF1D2', .7), mix(st['Wl'], '#FFFFFF', .6)))
+            else:
+                sdefs = ('<defs><filter id="fh%s" x="-30%%" y="-25%%" width="170%%" height="160%%" color-interpolation-filters="sRGB">'
+                         '<feGaussianBlur in="SourceAlpha" stdDeviation="9" result="b"/><feOffset in="b" dx="10" dy="12" result="o"/>'
+                         '<feFlood flood-color="%s" flood-opacity=".42"/><feComposite in2="o" operator="in" result="h"/>'
+                         '<feMerge><feMergeNode in="h"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>' % (sid, mix(sh['ink'], '#000000', .3)))
             HALO[n] = sorted(STG.Ctx.halo)
         vclip = ''
         if clip:
@@ -497,6 +524,7 @@ def build():
         print('  ' + note)
     print('stage images: ' + '; '.join('%02d %s' % (k, ' '.join(v)) for k, v in sorted(images_in.items())))
     print('halo (image below 3:1 on its wall or floor): ' + '; '.join('%02d %s' % (k, ' '.join(v)) for k, v in sorted(HALO.items())))
+    print('vector keeper/myna still drawn: ' + ('; '.join('%02d %s' % (k, ' '.join(v)) for k, v in sorted(VEC.items())) or 'none'))
     print('assets referenced (%d, publish beside index.html): %s' % (len(used), ' '.join(used)))
     print('largest scenes: ' + ', '.join('%s %.0fKB' % (re.search(r'id="(s\d+)"', t).group(1), k) for k, t in sizes))
 
