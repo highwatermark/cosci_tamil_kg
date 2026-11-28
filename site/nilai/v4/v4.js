@@ -126,7 +126,10 @@ function draw(c){
   for(j=0,i=3;i<L;i+=4,j++) A[j]=d[i];
   for(j=w;j<A.length-w;j++){ if(A[j]===0||A[j]===255&&A[j-1]===255&&A[j+1]===255&&A[j-w]===255&&A[j+w]===255) continue;
     var mn=A[j]; if(A[j-1]<mn) mn=A[j-1]; if(A[j+1]<mn) mn=A[j+1]; if(A[j-w]<mn) mn=A[j-w]; if(A[j+w]<mn) mn=A[j+w]; d[j*4+3]=mn; }
-  g.putImageData(im,0,0); c.drawn=true;
+  g.putImageData(im,0,0);
+  /* the encoded frames carry a dark edge row the key cannot see as green: drop a thin border */
+  var e=Math.ceil(n*.006)+1; g.clearRect(0,0,n,e); g.clearRect(0,n-e,n,e); g.clearRect(0,0,e,n); g.clearRect(n-e,0,e,n);
+  c.drawn=true;
 }
 
 /* ---------- layout ---------- */
@@ -162,11 +165,18 @@ function unit(){ return innerHeight; }
 function clampCards(){
   var avail=cardsEl.clientHeight;
   cards.forEach(function(c){
-    var rd=c.querySelector('.rd.clamp'), mb=c.querySelector('.more'); if(!rd) return;
-    rd.style.webkitLineClamp=''; rd.classList.remove('on'); if(mb) mb.style.display='none';
+    var rd=c.querySelector('.rd.clamp'), mb=c.querySelector('.more'), ct=c.querySelector('.cite'); if(!rd) return;
+    rd.style.webkitLineClamp=''; rd.style.display=''; rd.classList.remove('on'); if(mb) mb.style.display='none'; if(ct) ct.style.display='';
+    [].forEach.call(c.querySelectorAll('.lab'),function(l){ l.style.display=''; });
     var over=c.scrollHeight-avail;
     if(over>1){ var lh=parseFloat(getComputedStyle(rd).lineHeight)||20, lines=Math.max(2,Math.floor((rd.offsetHeight-over-(mb?28:0))/lh));
-      rd.classList.add('on'); rd.style.webkitLineClamp=String(lines); if(mb) mb.style.display='inline-block'; }
+      rd.classList.add('on'); rd.style.webkitLineClamp=String(lines); if(mb) mb.style.display='inline-block';
+      // the id line repeats the source line above the verse: the first thing to go when the reading still does not fit
+      if(ct&&c.scrollHeight>avail+1) ct.style.display='none';
+      while(c.scrollHeight>avail+1&&lines>1){ lines--; rd.style.webkitLineClamp=String(lines); }
+      // a verse too long for the band keeps only "read all", which opens the whole card
+      var lb=rd.previousElementSibling&&rd.previousElementSibling.classList.contains('lab')?rd.previousElementSibling:null;
+      if(c.scrollHeight>avail+1){ rd.style.display='none'; if(lb) lb.style.display='none'; } }
   });
 }
 
@@ -259,10 +269,12 @@ function render(T,force){
       else te.el.style.display='none'; }
   });
   renderGraph(T,W,H,bt);
-  // cards: a card shows once its beat has settled, and leaves as the next beat begins
+  // cards: a card shows once its beat has settled and stays until the next beat's card arrives,
+  // so the column crossfades from text to text instead of standing empty while the stage moves
   cards.forEach(function(c){
     var b=c._b; if(!b) return;
-    var s0=b.start+b.settle*b.len, e0=b.start+b.len;
+    var s0=b.start+b.settle*b.len, nb=D.beats[b._i+1];
+    var e0=nb?nb.start+nb.settle*nb.len-.08:b.start+b.len;
     var o=(b.start===0?1:seg(T,s0,s0+.08))*(1-seg(T,e0,e0+.08));
     vis(c,o);
   });
@@ -322,7 +334,7 @@ function hideOverlaps(els){
     if(hit) t.style.display='none'; else boxes.push(r);
   });
 }
-var byId={}; D.beats.forEach(function(b){byId[b.id]=b;});
+var byId={}; D.beats.forEach(function(b,i){byId[b.id]=b; b._i=i;});
 cards.forEach(function(c){ c._b=byId[c.getAttribute('data-beat')]; });
 
 /* ---------- header: the chapter in view ---------- */
@@ -341,7 +353,7 @@ menu.addEventListener('click',function(e){ var b=e.target.closest('button[data-c
   setMenu(false); stop(); goto(c.g.route[1]+.05); });
 var sheet=$('sheet'), sheetIn=$('sheetIn');
 cards.forEach(function(c){ var b=c.querySelector('.more'); if(!b) return; b.addEventListener('click',function(){
-  var k=c.cloneNode(true); k.removeAttribute('style'); k.className='sheetcard'; var rd=k.querySelector('.rd'); if(rd){ rd.className='rd'; rd.style.cssText=''; } var mm=k.querySelector('.more'); if(mm) mm.remove();
+  var k=c.cloneNode(true); k.removeAttribute('style'); k.className='sheetcard'; var rd=k.querySelector('.rd'); if(rd){ rd.className='rd'; rd.style.cssText=''; } var mm=k.querySelector('.more'); if(mm) mm.remove(); [].forEach.call(k.querySelectorAll('.lab,.cite'),function(e){ e.style.display=''; });
   sheetIn.innerHTML=''; sheetIn.appendChild(k); sheet.hidden=false; $('sheetX').focus(); stop(); }); });
 $('sheetX').addEventListener('click',function(){ sheet.hidden=true; });
 function settleT(b){ return b.start+Math.min(.98,b.settle+.12)*b.len; }

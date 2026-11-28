@@ -193,7 +193,9 @@ for ch in CH:
 # ---------------------------------------------------------------------------------------------------------
 # visual-weight correction per asset (1 = the default size for its outline); thin objects need a little more
 WEIGHT = {'V4-staff': 1.15, 'V4-bamboo-flute': 1.05, 'V4-exo-brace': 1.08, '02-T': 1.08, '02-N': 0.96,
-          'V4-breath': 0.92, 'V4-wave': 0.94}
+          'V4-wave': 0.94}
+# chroma-key thresholds per asset where the generated screen is duller than #00FF00 (cutout_green lo hi)
+KEY = {'V4-bamboo-flute': ['15', '50']}
 
 
 def run(args):
@@ -211,7 +213,7 @@ sprite_info, MISSING = {}, []
 for a in used:
     src, png, web = ASSETS / 'src' / (a + '.jpg'), ASSETS / (a + '.png'), ASSETS / 'web' / (a + '.webp')
     if src.exists() and (not png.exists() or png.stat().st_mtime < src.stat().st_mtime):
-        run([str(V3 / 'cutout_green'), str(src), str(png)])
+        run([str(V3 / 'cutout_green'), str(src), str(png)] + KEY.get(a, []))
     if png.exists() and (not web.exists() or web.stat().st_mtime < png.stat().st_mtime):
         run(['cwebp', '-quiet', '-q', '84', '-alpha_q', '90', '-m', '6', '-resize', '640', '0', str(png), '-o', str(web)])
     if not png.exists():
@@ -235,9 +237,9 @@ if MISSING:
 
 # scroll-scrubbed Veo clips where a forward morph has one (frames-to-video between the same two stills)
 CLIPS = {   # chapter id -> clip file, the clip seconds to scrub, and how the square keyed frame sits on the stage
-    'aram': {'src': 'assets/video/V5.mp4', 'c0': 0.0, 'c1': 7.9, 'size': 1.30, 'drop': 0.10},
-    'ullam': {'src': 'assets/video/V1.mp4', 'c0': 0.0, 'c1': 4.6, 'size': 1.30, 'drop': 0.10},
-    'aivu': {'src': 'assets/video/V4.mp4', 'c0': 0.0, 'c1': 7.9, 'size': 1.30, 'drop': 0.10},
+    'aram': {'src': 'assets/video/V5.mp4', 'c0': 0.0, 'c1': 7.9, 'size': 1.0, 'drop': 0.10},
+    'ullam': {'src': 'assets/video/V1.mp4', 'c0': 0.0, 'c1': 4.6, 'size': 1.0, 'drop': 0.10},
+    'aivu': {'src': 'assets/video/V4.mp4', 'c0': 0.0, 'c1': 7.9, 'size': 1.0, 'drop': 0.10},
 }
 for c in CLIPS.values():
     if not (NILAI / c['src']).exists():

@@ -19,6 +19,7 @@ button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 #cards{position:relative;flex:1 1 auto;min-height:0;margin-top:8px}
 .card{position:absolute;left:0;right:0;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;opacity:0;visibility:hidden;overflow:hidden}
 .card p{margin:0}
+.card>*{flex-shrink:0}
 .kick{font:600 12px/1.4 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--acc,var(--accent));margin-bottom:12px!important}
 .kick b{font-weight:700}
 .src{font:400 14px/1.5 var(--serif);color:var(--ink2);margin-bottom:10px!important}
@@ -79,15 +80,16 @@ button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (max-width:700px),(max-aspect-ratio:9/10){
   #app{grid-template-columns:100%;grid-template-rows:var(--band) 1fr}
   #col{border-right:0;border-bottom:1px solid var(--line);padding:10px 16px 8px}
-  #hd{padding-right:150px;min-height:40px}
-  #hd .brand{font-size:11px}
-  #hd h1{font-size:14px;margin-top:2px}
+  /* a constant header: the buttons share the brand row, the title takes the full width and always two lines */
+  #hd{padding-right:0;min-height:0}
+  #hd .brand{font-size:11px;padding-right:150px;min-height:28px;display:flex;align-items:center}
+  #hd h1{font-size:14px;line-height:1.36;margin-top:0;height:2.72em;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}
   #btns{gap:6px}
   button{padding:6px 10px}
   #cards{margin-top:4px}
   .kick{margin-bottom:5px!important;font-size:11px}
   .src{font-size:12px;margin-bottom:3px!important}
-  .ta{font-size:13.5px;line-height:1.4}
+  .ta{font-size:12.5px;line-height:1.36}
   .lab{margin-top:5px!important;margin-bottom:1px!important;font-size:11px}
   .meta{margin-top:1px!important}
   .rd{font-size:13.5px;line-height:1.42}
@@ -100,7 +102,7 @@ button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
   .ids{font-size:12px;margin-bottom:4px!important}
   .cite{margin-top:4px!important;font-size:11px}
   .more{margin-top:4px}
-  .card{justify-content:flex-start;padding-top:4px}
+  .card{justify-content:flex-start;padding-top:2px}
   #teach .tt{font-size:13px;line-height:1.45}
   #menu{top:56px;left:16px}
 }
