@@ -1,0 +1,2344 @@
+{
+ "about": "Nilai v4, a walk through the graph: 13 chapters, one per concept category. Each walks three corpus verses joined by two graded sound links and ends in one beat labelled imagined. Tamil lines, readings, flags and link texts are copied verbatim from kg/ by chapters_curate.py; validate_chapters.py checks them.",
+ "chapters": [
+  {
+   "id": "aram",
+   "tamil": "அறம்",
+   "name": "Virtue and conduct",
+   "accent": "#7a2e1d",
+   "subtitle": "the balance that levels itself",
+   "verses": [
+    {
+     "id": "purananuru:6",
+     "book": "purananuru",
+     "group": "ettuthogai_puram",
+     "label_ta": "புறநானூறு 6",
+     "label": "Purananuru 6",
+     "lines": [
+      {
+       "n": 8,
+       "ta": "உருவும் புகழும் ஆகி, விரிசீர்த்"
+      },
+      {
+       "n": 9,
+       "ta": "தெரிகோல் ஞமன்ன் போல, ஒரு திறம்"
+      },
+      {
+       "n": 10,
+       "ta": "பற்றல் இலியரோ! நின் திறம் சிறக்க!"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      29
+     ],
+     "reading": "Karikizhar wishes the Pandya Mudukudumi, whose form and fame reach from beyond the Himalaya to below Kumari, from sea to sea and from the waters below to the world above, that he may lean to no side like the beam of a balance, that his umbrella bow only in circling the three-eyed god's shrine, his head only before the raised hands of the Vedic sages, his garland wilt only in the smoke of burned enemy lands and his anger yield only to his women's sulking faces, and that he abide on earth like the cool moon and the burning sun.",
+     "uncertain": false,
+     "concepts": [
+      "naduvu",
+      "panivu",
+      "eegai",
+      "sengol"
+     ],
+     "object": "the beam of a balance (தெரிகோல் ஞமன்)",
+     "asset": "02-T",
+     "asset_file": "site/nilai/assets/web/02-T.webp",
+     "asset_is": "hand-held tharasu, a brass two-pan balance"
+    },
+    {
+     "id": "pattupattu:6:489-506",
+     "book": "pattupattu",
+     "group": "pattupattu",
+     "label_ta": "மதுரைக்காஞ்சி 489–506",
+     "label": "Maduraikkanchi (Pattuppattu 6), lines 489–506",
+     "lines": [
+      {
+       "n": 489,
+       "ta": "அச்சமும் அவலமும் ஆர்வமு நீக்கிச்"
+      },
+      {
+       "n": 490,
+       "ta": "செற்றமும் உவகையுஞ் செய்யாது காத்து"
+      },
+      {
+       "n": 491,
+       "ta": "ஞெமன்கோ லன்ன செம்மைத் தாகிச்"
+      },
+      {
+       "n": 492,
+       "ta": "சிறந்த கொள்கை அறங்கூ றவையமும்"
+      }
+     ],
+     "lines_shown_of": [
+      489,
+      506
+     ],
+     "reading": "Then the court that speaks right, which puts away fear, grief and desire, and keeps from both hatred and delight, being straight like the beam of a balance; the kaviti officers with sandal on their chests, who like the great ones who move in the sky examine good and evil and restrain them, keep love and right, shun blame and are full of fame; and the merchants who never stray from right, in many-roomed houses like a cluster of hills where kites perch and fly, rich with goods and food, selling things of hill, land and water and gems, pearls and gold from excellent countries.",
+     "uncertain": false,
+     "concepts": [
+      "avai",
+      "naduvu",
+      "aram",
+      "selvam"
+     ],
+     "object": "the beam of a balance (ஞெமன்கோல்), the court likened to it",
+     "asset": "02-T",
+     "asset_file": "site/nilai/assets/web/02-T.webp",
+     "asset_is": "hand-held tharasu, a brass two-pan balance"
+    },
+    {
+     "id": "kural:118",
+     "book": "kural",
+     "group": "ethics",
+     "label_ta": "திருக்குறள் 118",
+     "label": "Tirukkural 118",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "சமன்செய்து சீர்தூக்குங் கோல்போல் அமைந்தொருபால்"
+      },
+      {
+       "n": 2,
+       "ta": "கோடாமை சான்றோர்க் கணி"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      2
+     ],
+     "reading": "To be settled and lean to no side, like the balance that first makes itself level and then weighs, is the ornament of the worthy.",
+     "uncertain": false,
+     "concepts": [
+      "naduvu",
+      "samanilai"
+     ],
+     "object": "the balance that first levels itself, then weighs (சமன்செய்து சீர்தூக்குங் கோல்)",
+     "asset": "02-T",
+     "asset_file": "site/nilai/assets/web/02-T.webp",
+     "asset_is": "hand-held tharasu, a brass two-pan balance"
+    }
+   ],
+   "links": [
+    {
+     "from": "pattupattu:6:489-506",
+     "to": "purananuru:6",
+     "type": "develops",
+     "grade": "sound",
+     "text": "The impartiality that the earlier poem asks of the king in person has, in Nedunjeliyan's Madurai, become the work of an institution, and the idyll spells out the five passions the court must set aside, which the wish to the king left unnamed.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "pattupattu:6:489-506",
+      "o": "purananuru:6",
+      "symmetric": false,
+      "reads": "pattupattu:6:489-506 develops purananuru:6"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "pattupattu_marks"
+    },
+    {
+     "from": "pattupattu:6:489-506",
+     "to": "kural:118",
+     "type": "develops",
+     "grade": "sound",
+     "text": "The idyll's list says what the Kural's 'first making itself level' consists of, the clearing of five named passions before judgment, so the couplet's compressed image can be unpacked from a description of a working court.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "pattupattu:6:489-506",
+      "o": "kural:118",
+      "symmetric": false,
+      "reads": "pattupattu:6:489-506 develops kural:118"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "pattupattu_marks"
+    }
+   ],
+   "forward": {
+    "text": "The balance passed from a king’s person to a court, and the Kural asked it to level itself before it weighs. In 2526 machines do the weighing; we ask who levels them first.",
+    "label": "கற்பனை · imagined",
+    "then": {
+     "asset": "02-T",
+     "asset_file": "site/nilai/assets/web/02-T.webp",
+     "asset_is": "hand-held tharasu, a brass two-pan balance",
+     "object_of": "02-T"
+    },
+    "future": {
+     "asset": "02-N",
+     "asset_file": "site/nilai/assets/web/02-N.webp",
+     "asset_is": "laboratory analytical balance",
+     "object_of": "02-N"
+    },
+    "transformation": "the brass tharasu becomes the sealed laboratory balance"
+   }
+  },
+  {
+   "id": "porul",
+   "tamil": "பொருள்",
+   "name": "Wealth, polity and the world",
+   "accent": "#6a4e00",
+   "subtitle": "the parasol, and who falls outside its shade",
+   "verses": [
+    {
+     "id": "purananuru:35",
+     "book": "purananuru",
+     "group": "ettuthogai_puram",
+     "label_ta": "புறநானூறு 35",
+     "label": "Purananuru 35",
+     "lines": [
+      {
+       "n": 19,
+       "ta": "கண்பொர விளங்கும்நின் விண்பொரு வியன்குடை"
+      },
+      {
+       "n": 20,
+       "ta": "வெயில்மறைக் கொண்டன்றோ? அன்றே; வருந்திய"
+      },
+      {
+       "n": 21,
+       "ta": "குடிமறைப் பதுவே; கூர்வேல் வளவ!"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      34
+     ],
+     "reading": "The poet tells Killivalavan that among the three Tamil kings kingship is his and the Kaveri-fed land is his, then counsels him: in the land of the just sceptre where the humble can reach the king when they seek justice, rain comes when it is sought; his tall umbrella is not for shade but to shelter suffering subjects; his victories are the fruit of the plough's furrow; the world blames kings when rains fail or harvests drop, so he should ignore the talk of malcontents, bear the burden of those who rear the plough-oxen and protect his people, and even the unsubmitting will bow at his feet.",
+     "uncertain": false,
+     "concepts": [
+      "sengol",
+      "uzhavu",
+      "mazhai",
+      "arasu"
+     ],
+     "object": "the king’s tall parasol (வியன்குடை)",
+     "asset": null,
+     "new_image": "V4-parasol",
+     "prompt": "A royal parasol of a Tamil king: a tall domed parasol of white silk stretched over fine ivory ribs, a narrow gold-leaf rim and a small lotus-bud finial, on a long carved bronze staff with ring mouldings, standing upright and open, seen from slightly below. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    },
+    {
+     "id": "kalittokai:99",
+     "book": "kalittokai",
+     "group": "ettuthogai_akam",
+     "label_ta": "கலித்தொகை 99",
+     "label": "Kalittokai 99",
+     "lines": [
+      {
+       "n": 8,
+       "ta": "அறன் நிழல் எனக் கொண்டாய், ஆய் குடை; அக் குடை"
+      },
+      {
+       "n": 9,
+       "ta": "புற நிழல் கீழ்ப் பட்டாளோ, இவள்? இவள் காண்டிகா-"
+      },
+      {
+       "n": 10,
+       "ta": "பிறை நுதல் பசப்பு ஊரப் பெரு விதுப்பு உற்றாளை!"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      21
+     ],
+     "reading": "The friend tells the hero, addressed as a king whose rightness keeps the rains coming as a mother watches her infant: you hold your parasol as the shade of virtue; did she fall outside its shade, she whose brow is pale with longing? your sceptre proclaims truth; did she fall outside its working, she who is weary of living from love's sickness? your drum proclaims protection; is she beyond it, whose bamboo-smooth shoulders are losing their beauty? Like an eye that sees far things but not its own scar, has it kept you from seeing that leaving my friend was cruel?",
+     "uncertain": false,
+     "concepts": [
+      "sengol",
+      "arasu",
+      "pasalai",
+      "ali"
+     ],
+     "object": "the king’s parasol held as the shade of virtue (ஆய் குடை)",
+     "asset": null,
+     "new_image": "V4-parasol",
+     "prompt": "A royal parasol of a Tamil king: a tall domed parasol of white silk stretched over fine ivory ribs, a narrow gold-leaf rim and a small lotus-bud finial, on a long carved bronze staff with ring mouldings, standing upright and open, seen from slightly below. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    },
+    {
+     "id": "kural:559",
+     "book": "kural",
+     "group": "ethics",
+     "label_ta": "திருக்குறள் 559",
+     "label": "Tirukkural 559",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "முறைகோடி மன்னவன் செய்யின் உறைகோடி"
+      },
+      {
+       "n": 2,
+       "ta": "ஒல்லாது வானம் பெயல்"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      2
+     ],
+     "reading": "If the ruler bends justice in what he does, the sky, bending the rain, won't pour.",
+     "uncertain": false,
+     "concepts": [
+      "kodungol",
+      "arasu"
+     ],
+     "object": "the rain the sky withholds (வானம் பெயல்)",
+     "asset": null,
+     "new_image": "V4-raincloud",
+     "prompt": "A single rain cloud carved in softly polished white marble, rounded and heavy, with straight thin threads of polished bronze falling from its underside as rain, the threads ending in a clean line. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    }
+   ],
+   "links": [
+    {
+     "from": "purananuru:35",
+     "to": "kalittokai:99",
+     "type": "develops",
+     "grade": "sound",
+     "text": "The friend in the Kalittokai uses the same counsel a puram poet gave a king, that the parasol exists to shade those who suffer, and turns it on the household, showing that the akam poets could hold a husband to the standard of kingship and find him failing his nearest subject.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "kalittokai:99",
+      "o": "purananuru:35",
+      "symmetric": false,
+      "reads": "kalittokai:99 develops purananuru:35"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "kalittokai_marks"
+    },
+    {
+     "from": "kalittokai:99",
+     "to": "kural:559",
+     "type": "qualifies",
+     "grade": "sound",
+     "text": "The Kural ties rain to the king's public justice only, while the Kalittokai grants the rain and still finds injustice at home, so the friend shows that the doctrine's measure of a ruler can be met in full while a wife is wronged.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "kalittokai:99",
+      "o": "kural:559",
+      "symmetric": false,
+      "reads": "kalittokai:99 qualifies kural:559"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "kalittokai_marks"
+    }
+   ],
+   "forward": {
+    "text": "The parasol was raised to shade those who suffer, and a friend asked who had fallen outside it. In 2526 we ask it of every system raised over people: whom does its shade miss?",
+    "label": "கற்பனை · imagined",
+    "then": {
+     "asset": null,
+     "new_image": "V4-parasol",
+     "prompt": "A royal parasol of a Tamil king: a tall domed parasol of white silk stretched over fine ivory ribs, a narrow gold-leaf rim and a small lotus-bud finial, on a long carved bronze staff with ring mouldings, standing upright and open, seen from slightly below. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "object_of": "V4-parasol"
+    },
+    "future": {
+     "asset": null,
+     "new_image": "V4-canopy",
+     "prompt": "A slender future shade canopy: one tall polished bronze mast carrying a wide, shallow dome of thin translucent panels like overlapping leaves of pale glass edged in gold, open, casting a soft round shadow. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "object_of": "V4-canopy"
+    },
+    "transformation": "the royal parasol becomes a wide canopy of glass leaves"
+   }
+  },
+  {
+   "id": "inbam",
+   "tamil": "இன்பம்",
+   "name": "Love",
+   "accent": "#8a1f4e",
+   "subtitle": "the hill that played every instrument",
+   "verses": [
+    {
+     "id": "akananuru:82",
+     "book": "akananuru",
+     "group": "ettuthogai_akam",
+     "label_ta": "அகநானூறு 82",
+     "label": "Akananuru 82",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "ஆடுஅமைக் குயின்ற அவிர்துளை மருங்கின்"
+      },
+      {
+       "n": 2,
+       "ta": "கோடை அவ்வளி குழலிசை ஆக,"
+      },
+      {
+       "n": 3,
+       "ta": "பாடுஇன் அருவிப் பனிநீர் இன்இசைத்"
+      },
+      {
+       "n": 4,
+       "ta": "தோடுஅமை முழவின் துதைகுரல் ஆகக்"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      18
+     ],
+     "reading": "The woman tells her friend that the hill man's country is a stage where wind in bored bamboo is the flute, the waterfall the drum, the stag's call the horn and the bees the lute, the monkeys an amazed audience and the peacock a dancer; many saw him standing at the gap of the millet field with his bow, asking after the elephant he had hunted, so why should she alone lie through the dark night with streaming eyes and slackened arms?",
+     "uncertain": false,
+     "concepts": [
+      "kalaviyal",
+      "kaamanoy",
+      "iravu"
+     ],
+     "object": "wind in bored bamboo as the flute (ஆடுஅமைக் குயின்ற அவிர்துளை)",
+     "asset": null,
+     "new_image": "V4-bamboo-flute",
+     "prompt": "Three tall stalks of bamboo cast in warm bronze, rising from one clump, with a row of round holes bored along the middle stalk where the wind plays it like a flute; a faint carved swirl of marble wind curling past the holes. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    },
+    {
+     "id": "paripadal:21:30-38",
+     "book": "paripadal",
+     "group": "ettuthogai_devotional",
+     "label_ta": "பரிபாடல் 21 · செவ்வேள் 30–38",
+     "label": "Paripadal 21, lines 30–38",
+     "lines": [
+      {
+       "n": 30,
+       "ta": "மிசை படு சாந்தாற்றி போல, எழிலி"
+      },
+      {
+       "n": 31,
+       "ta": "இசை படு பக்கம், இரு பாலும் கோலி,"
+      },
+      {
+       "n": 32,
+       "ta": "விடு பொறி மஞ்ஞை பெயர்பு உடன் ஆட;"
+      },
+      {
+       "n": 35,
+       "ta": "யாணர் வண்டினம் யாழ் இசை பிறக்க;"
+      }
+     ],
+     "lines_shown_of": [
+      30,
+      38
+     ],
+     "reading": "On the hill of the god with the resounding drum, everything sounds at once: the spotted peacock, spreading its tail on both sides like a fan raised overhead at the thunder of the cloud, dances; the humming thumbi blows into the opened flowers as a flute is blown through the holes the fingers close; the new-come swarms of bees bring forth the music of the lute; and the waterfall brims with the sound of the beating drum.",
+     "uncertain": false,
+     "concepts": [
+      "thalam",
+      "azhagu",
+      "iraivan"
+     ],
+     "object": "the dancing peacock with its tail spread like a fan (மஞ்ஞை, சாந்தாற்றி)",
+     "asset": null,
+     "new_image": "V4-peacock",
+     "prompt": "A peacock sculpted in Chola panchaloha bronze with gold-leaf eyes on its feathers, standing and dancing, its tail raised and spread in a full half-circle behind it like a hand fan held overhead. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    },
+    {
+     "id": "thinaimalai_nootraimpathu:111",
+     "book": "thinaimalai_nootraimpathu",
+     "group": "kilkanakku_akam",
+     "label_ta": "திணைமாலை நூற்றைம்பது 111",
+     "label": "Thinaimalai Nootraimpathu 111",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "கானம் கடியரங்காக் கைம்மறிப்பக் கோடலார்"
+      },
+      {
+       "n": 2,
+       "ta": "வானம் விளிப்பவண்(டு) யாழாக - வேனல்"
+      },
+      {
+       "n": 3,
+       "ta": "வளரா மயிலாட வாட்கண்ணாய்! சொல்லாய்"
+      },
+      {
+       "n": 4,
+       "ta": "உளராகி உய்யும் வகை"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "The heroine tells her friend that the forest has become a festival stage, the glory lilies beckoning like hands, the full sky calling, the bees playing the lute and the peacock that starved through the summer dancing, and asks her to say how one is to stay alive through it.",
+     "uncertain": false,
+     "concepts": [
+      "paruvam",
+      "pirivu",
+      "uyir"
+     ],
+     "object": "the bees as the yazh (வண்டு யாழாக)",
+     "asset": "21-T",
+     "asset_file": "site/nilai/assets/web/21-T.webp",
+     "asset_is": "yazh, the ancient Tamil arched harp"
+    }
+   ],
+   "links": [
+    {
+     "from": "paripadal:21:30-38",
+     "to": "akananuru:82",
+     "type": "same_image",
+     "grade": "sound",
+     "text": "In the Akananuru the hill's orchestra is a love poem's setting, praising the hill man's country and ending in the woman's lonely night, while the Paripadal keeps the same instruments, drops the monkey audience and the lovers, and gives the scene to the god with the drum, so the pair shows a figure from akam landscape reused as worship of the hill's own god.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "paripadal:21:30-38",
+      "o": "akananuru:82",
+      "symmetric": true,
+      "reads": "paripadal:21:30-38 and akananuru:82 (same_image; recorded s to o)"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "paripadal_marks"
+    },
+    {
+     "from": "akananuru:82",
+     "to": "thinaimalai_nootraimpathu:111",
+     "type": "same_image",
+     "grade": "sound",
+     "text": "Moved from the kurinji hill to the mullai forest, the nature-theatre keeps its function of tormenting the lone woman but changes its occasion, from the lover seen by many in secret love to the season of a husband's promised return.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "thinaimalai_nootraimpathu:111",
+      "o": "akananuru:82",
+      "symmetric": true,
+      "reads": "thinaimalai_nootraimpathu:111 and akananuru:82 (same_image; recorded s to o)"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "thinaimalai_nootraimpathu_marks"
+    }
+   ],
+   "forward": {
+    "text": "The hill played every instrument, and the woman alone could not bear the music. In 2526 any sound can be made to order; we ask what still reaches a heart left alone.",
+    "label": "கற்பனை · imagined",
+    "then": {
+     "asset": "21-T",
+     "asset_file": "site/nilai/assets/web/21-T.webp",
+     "asset_is": "yazh, the ancient Tamil arched harp",
+     "object_of": "21-T"
+    },
+    "future": {
+     "asset": null,
+     "new_image": "V4-lightyazh",
+     "prompt": "A future yazh, the arched Tamil harp: the same long boat-shaped sound box and curved neck, made of white marble and brass, its strings replaced by fine taut threads of warm light. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "object_of": "V4-lightyazh"
+    },
+    "transformation": "the yazh keeps its shape; its strings become threads of light"
+   }
+  },
+  {
+   "id": "veedu",
+   "tamil": "வீடு",
+   "name": "Release",
+   "accent": "#2f4a6b",
+   "subtitle": "the raft across the sea of deeds",
+   "verses": [
+    {
+     "id": "kural:10",
+     "book": "kural",
+     "group": "ethics",
+     "label_ta": "திருக்குறள் 10",
+     "label": "Tirukkural 10",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "பிறவிப் பெருங்கடல் நீந்துவர் நீந்தார்"
+      },
+      {
+       "n": 2,
+       "ta": "இறைவன் அடிசேரா தார்"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      2
+     ],
+     "reading": "Those who reach the Lord's feet swim the great sea of births, and those who do not reach them cannot.",
+     "uncertain": false,
+     "concepts": [
+      "piravi",
+      "iraivan"
+     ],
+     "object": "the great sea of births (பிறவிப் பெருங்கடல்)",
+     "asset": null,
+     "new_image": "V4-wave",
+     "prompt": "One great sea wave sculpted in polished white marble with fine veining, curling over at its crest, its foam carved as small gilded beads; a freestanding wave, no water around it. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    },
+    {
+     "id": "civaka_cintamani:3019",
+     "book": "civaka_cintamani",
+     "group": "epics_great",
+     "label_ta": "சீவக சிந்தாமணி 3019",
+     "label": "Civaka Cintamani 3019",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "வைய மூன்று முடனேத்த வளருந் திங்கள் வாளெயிற்"
+      },
+      {
+       "n": 2,
+       "ta": "றைய வரிமான் மணியணைமே லமாந்தோய் நின்னை யமராதார்"
+      },
+      {
+       "n": 3,
+       "ta": "வெய்ய வெந்நோய் வினையுதைப்ப வீழ்ந்து துன்பக் கடலழுந்தி"
+      },
+      {
+       "n": 4,
+       "ta": "நெய்யு நுண்ணூ னாழிகையி னிரம்பா நின்று சுழல்வரே."
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "The singer says that those who do not reach the lord on his gem seat, praised by all three worlds, are kicked by their fierce deeds, fall into the sea of sorrow and whirl like thread in a weaver's spool.",
+     "uncertain": false,
+     "concepts": [
+      "vinai",
+      "piravi",
+      "iraivan"
+     ],
+     "object": "thread whirling in a weaver’s shuttle (நுண்ணூல் நாழிகை)",
+     "asset": null,
+     "new_image": "V4-shuttle",
+     "prompt": "A weaver's boat-shaped wooden shuttle with brass caps, holding a small bobbin wound with very fine cotton thread; the thread runs out of it in a loose spiral as if the bobbin is whirling. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    },
+    {
+     "id": "neelakesi:155",
+     "book": "neelakesi",
+     "group": "epics_minor",
+     "label_ta": "நீலகேசி 155",
+     "label": "Neelakesi 155",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "சாத னோய்சரை பிறவிதாஞ்செய் திவினைக் கடலுண்"
+      },
+      {
+       "n": 2,
+       "ta": "மாது யருழந் துறுநோய்மறுகு மன்னுயிர்க் கெல்லாந்"
+      },
+      {
+       "n": 3,
+       "ta": "தீதி னன்னெறி பயந்துதிரைசெய் நீள்கரை யொருவிப்"
+      },
+      {
+       "n": 4,
+       "ta": "போத ரும்புணை படைத்தாய்புலவர்தம் புலவர்க்கும் புலவா."
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "She sings that for all the souls who suffer in the sea of evil deeds they themselves did, through death, disease, aging and birth, the Jina gave a good path free of harm and made the raft that is hard to find, poet of poets.",
+     "uncertain": false,
+     "concepts": [
+      "vinai",
+      "piravi",
+      "idumbai",
+      "veedu"
+     ],
+     "object": "the raft that is hard to find (போதரும் புணை)",
+     "asset": null,
+     "new_image": "V4-raft",
+     "prompt": "A small raft (puṇai) of five straight logs lashed side by side with crossed coir rope, the wood dark and water-polished, seen at a three-quarter angle from above, empty, afloat on nothing. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    }
+   ],
+   "links": [
+    {
+     "from": "civaka_cintamani:3019",
+     "to": "kural:10",
+     "type": "develops",
+     "grade": "sound",
+     "text": "The Kural states the crossing and the failure to cross but gives no cause or picture for the failure, and the verse supplies deeds that beat the swimmer down and a turning that never ends.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "civaka_cintamani:3019",
+      "o": "kural:10",
+      "symmetric": false,
+      "reads": "civaka_cintamani:3019 develops kural:10"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "civaka_cintamani_marks"
+    },
+    {
+     "from": "neelakesi:155",
+     "to": "kural:10",
+     "type": "qualifies",
+     "grade": "sound",
+     "text": "The Jain hymn fills in what the couplet leaves open: the sea is made of the swimmer's own deeds, and the Lord's part is to build the raft, not to hold the swimmer.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "neelakesi:155",
+      "o": "kural:10",
+      "symmetric": false,
+      "reads": "neelakesi:155 qualifies kural:10"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "neelakesi_marks"
+    }
+   ],
+   "forward": {
+    "text": "The sea was made of the swimmer’s own deeds, and the Lord’s part was to build the raft. In 2526 we build the craft for a darker sea; we ask whether we still swim, or only ride.",
+    "label": "கற்பனை · imagined",
+    "then": {
+     "asset": null,
+     "new_image": "V4-raft",
+     "prompt": "A small raft (puṇai) of five straight logs lashed side by side with crossed coir rope, the wood dark and water-polished, seen at a three-quarter angle from above, empty, afloat on nothing. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "object_of": "V4-raft"
+    },
+    "future": {
+     "asset": "26-F",
+     "asset_file": "site/nilai/assets/web/26-F.webp",
+     "asset_is": "solar sail spacecraft of beaten gold foil",
+     "object_of": "26-F"
+    },
+    "transformation": "the lashed raft becomes the gold solar sail"
+   }
+  },
+  {
+   "id": "udal",
+   "tamil": "உடல்",
+   "name": "The body and medicine",
+   "accent": "#7a3b10",
+   "subtitle": "the boat, the mist and the lock",
+   "verses": [
+    {
+     "id": "siddhar:987",
+     "book": "siddhar",
+     "group": "devotional",
+     "label_ta": "சிவவாக்கியம் 23 · சிவவாக்கியர்",
+     "label": "Siddhar songs 23, சிவவாக்கியம் (siddhar:987)",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "ஓடம்உள்ள போதெல்லாம் நீர் ஓடியே உலாவலாம்;"
+      },
+      {
+       "n": 2,
+       "ta": "ஓடம்உள்ள போதெலாம் உறுதிபண்ணிக் கொள்ளலாம்;"
+      },
+      {
+       "n": 3,
+       "ta": "ஓடமும்உடைந்த போதில் ஒப்பிலாத வெளியிலே"
+      },
+      {
+       "n": 4,
+       "ta": "ஆடும்இல்லை கோலும்இல்லை யாரும்இல்லை ஆனதே!"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "While the boat lasts you can run about on the water; while the boat lasts you can make yourself firm; when the boat has broken, in the matchless open there is no play, no pole and no one at all.",
+     "uncertain": false,
+     "concepts": [
+      "yaakkai",
+      "nilaiyaamai",
+      "paazh",
+      "muyarchi"
+     ],
+     "object": "the boat (ஓடம்) and its pole (கோல்)",
+     "asset": "24-T",
+     "asset_file": "site/nilai/assets/web/24-T.webp",
+     "asset_is": "parisal, a round river coracle with a paddle",
+     "image_note": "the verse names a boat (ஓடம்) poled across water; 24-T is a round river coracle, the nearest boat we have"
+    },
+    {
+     "id": "naladiyar:28",
+     "book": "naladiyar",
+     "group": "ethics",
+     "label_ta": "நாலடியார் 28",
+     "label": "Naladiyar 28",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "யாக்கையை யாப்புடைத்தாப் பெற்றவர் தாம்பெற்ற"
+      },
+      {
+       "n": 2,
+       "ta": "யாக்கையா லாய பயன்கொள்க - யாக்கை"
+      },
+      {
+       "n": 3,
+       "ta": "மலையாடு மஞ்சுபோல் தோன்றிமற் றாங்கே"
+      },
+      {
+       "n": 4,
+       "ta": "நிலையாது நீத்து விடும்."
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "Those who have a sturdy body should take the fruit that body can yield, for it appears like mist on a hill and departs there without staying.",
+     "uncertain": false,
+     "concepts": [
+      "yaakkai",
+      "payan",
+      "nilaiyaamai"
+     ],
+     "object": "mist moving on a hill (மலையாடு மஞ்சு)",
+     "asset": null,
+     "new_image": "V4-misthill",
+     "prompt": "A small hill sculpted in grey granite, its upper slope wrapped in a thin drifting veil of mist carved in translucent white marble that is already thinning and breaking away at one edge. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    },
+    {
+     "id": "thiruppugazh:548",
+     "book": "thiruppugazh",
+     "group": "devotional",
+     "label_ta": "திருப்புகழ் 548",
+     "label": "Thiruppugazh 548",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "அந்தோமன மேநம தாக்கையை"
+      },
+      {
+       "n": 2,
+       "ta": "நம்பாதெயி தாகித சூத்திர"
+      },
+      {
+       "n": 3,
+       "ta": "மம்போருக னாடிய பூட்டிது ...... இனிமேல்நாம்"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      24
+     ],
+     "reading": "The poet speaks to his own mind: alas, do not trust this body, a contraption of strings, a lock Brahma made; from now on, without fear, let us belong to the vel-bearer who turned the mountain to cotton; this is our refuge, here is the peacock-rider's deed of possession, 'we come to rule you', and the holy ash he has bound on us; do not forget the cry 'Son, Kumara'. The praise names the drums and Vedas of the battle where Murugan played ball with the vel among the slain on his peacock, the child of grace of 'my father Sadasiva' who wears the moon, the serpent, the Ganga and the skeleton, and the lord who married the doe-eyed one and looks into the minds of those who say 'Sirappalli'.",
+     "uncertain": true,
+     "concepts": [
+      "yaakkai",
+      "manam",
+      "thondu",
+      "thiruneeru"
+     ],
+     "object": "a string-worked contraption and a lock (சூத்திரம், பூட்டு)",
+     "asset": null,
+     "new_image": "V4-lock",
+     "prompt": "An old Tamil padlock in dark bronze, shaped like a small temple lamp, hanging from a frame of fine taut strings like a puppet's control bar, as if the body were a string-worked contraption shut with a lock. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    }
+   ],
+   "links": [
+    {
+     "from": "siddhar:987",
+     "to": "naladiyar:28",
+     "type": "agrees",
+     "grade": "sound",
+     "text": "Both say use the body while it lasts: the Naladiyar tells those with a sturdy body to take the fruit it can yield before it departs like mist; Sivavakkiyar says make yourself firm while the boat lasts, for when it breaks there is no one left in the open.",
+     "text_field": "note",
+     "teaches_holds": null,
+     "true_direction": {
+      "s": "siddhar:987",
+      "o": "naladiyar:28",
+      "symmetric": true,
+      "reads": "siddhar:987 and naladiyar:28 (agrees; recorded s to o)"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "siddhar_marks"
+    },
+    {
+     "from": "thiruppugazh:548",
+     "to": "naladiyar:28",
+     "type": "develops",
+     "grade": "sound",
+     "text": "The Naladiyar says the body appears like mist on a hill and goes, so its owners should take the fruit it can yield while they have it (யாக்கையால் ஆய பயன்கொள்க). The song tells the mind not to trust the body, a string-worked contraption Brahma locked (நம் ஆக்கையை நம்பாதே), and names the use to make of it now: to belong to the vel-bearer under his deed of possession (இனிமேல் நாம் ... வேலவனார்க்கு இயல் அங்கு ஆகுவம்). The song fills in what the Naladiyar's 'fruit' should be.",
+     "text_field": "note",
+     "teaches_holds": null,
+     "true_direction": {
+      "s": "thiruppugazh:548",
+      "o": "naladiyar:28",
+      "symmetric": false,
+      "reads": "thiruppugazh:548 develops naladiyar:28"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "thiruppugazh_marks"
+    }
+   ],
+   "forward": {
+    "text": "The body was a boat to use while it lasted, a mist on a hill, a string-worked thing shut with a lock. In 2526 medicine can mend the boat and rework the strings; we ask what the voyage is for.",
+    "label": "கற்பனை · imagined",
+    "then": {
+     "asset": null,
+     "new_image": "V4-lock",
+     "prompt": "An old Tamil padlock in dark bronze, shaped like a small temple lamp, hanging from a frame of fine taut strings like a puppet's control bar, as if the body were a string-worked contraption shut with a lock. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "object_of": "V4-lock"
+    },
+    "future": {
+     "asset": null,
+     "new_image": "V4-bionic-hand",
+     "prompt": "A future hand: a slim prosthetic hand of white marble and polished bronze, open, its joints showing fine gold cables like tendons where the strings of the old contraption have been rewoven. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "object_of": "V4-bionic-hand"
+    },
+    "transformation": "the lock on its strings becomes a hand whose strings are gold tendons"
+   }
+  },
+  {
+   "id": "ullam",
+   "tamil": "உள்ளம்",
+   "name": "Mind, perception and consciousness",
+   "accent": "#4b3b78",
+   "subtitle": "from the tossed pot to the lit temple",
+   "verses": [
+    {
+     "id": "siddhar:1166",
+     "book": "siddhar",
+     "group": "devotional",
+     "label_ta": "சிவவாக்கியம் 202 · சிவவாக்கியர்",
+     "label": "Siddhar songs 202, சிவவாக்கியம் (siddhar:1166)",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "பொய்க்குடத்தில் ஐந்தொதுங்கிப் போகம்வீசு மாறுபோல்"
+      },
+      {
+       "n": 2,
+       "ta": "இச்சடமும் இந்திரியமும் நீருமேல் அலைந்ததே"
+      },
+      {
+       "n": 3,
+       "ta": "அக்குடம் சலத்தைமொண்டு அமர்ந்திருந்த வாறுபோல்"
+      },
+      {
+       "n": 4,
+       "ta": "இச்சடம் சிவத்தைமொண்டு உகந்தமர்ந்து இருப்பதே"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "As a clay pot with the five hidden in it bobs on the water and spills its contents, so this body and its senses are tossed upon the waters; and as that pot, filling with water, sits settled, so this body, scooping up Siva, sits delighted and still.",
+     "uncertain": false,
+     "concepts": [
+      "yaakkai",
+      "sivam",
+      "thaththuvam",
+      "manam"
+     ],
+     "object": "a clay pot bobbing on the water (பொய்க்குடம்)",
+     "asset": null,
+     "new_image": "V4-floating-pot",
+     "prompt": "A round unglazed terracotta pot, laterite red, bobbing tilted on a flat disc of rippled clear glass that stands for water, a little water spilling from its mouth. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    },
+    {
+     "id": "naladiyar:47",
+     "book": "naladiyar",
+     "group": "ethics",
+     "label_ta": "நாலடியார் 47",
+     "label": "Naladiyar 47",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "ஊறி உவர்த்தக்க ஒன்பது வாய்ப்புலனும்"
+      },
+      {
+       "n": 2,
+       "ta": "கோதிக் குழம்பலைக்கும் கும்பத்தைப் - பேதை"
+      },
+      {
+       "n": 3,
+       "ta": "பெருந்தோளி பெய்வளாய் என்னுமீப் போர்த்த"
+      },
+      {
+       "n": 4,
+       "ta": "கருந்தோலால் கண்விளக்கப் பட்டு."
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "The fool calls out 'broad-shouldered one, bangle-wearer' to a pot that seeps filth from nine openings and churns with slime, because its covering of dark skin dazzles his eyes.",
+     "uncertain": false,
+     "concepts": [
+      "yaakkai",
+      "kaamam",
+      "pedhaimai"
+     ],
+     "object": "a pot seeping from nine openings (கும்பம்)",
+     "asset": "04-F1",
+     "asset_file": "site/nilai/assets/web/04-F1.webp",
+     "asset_is": "empty terracotta pot with one long crack"
+    },
+    {
+     "id": "tirumanthiram:1823",
+     "book": "tirumanthiram",
+     "group": "devotional",
+     "label_ta": "திருமந்திரம் 1823",
+     "label": "Tirumanthiram 1823",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "உள்ளம் பெருங்கோயில் ஊனுடம்பு ஆலயம்"
+      },
+      {
+       "n": 2,
+       "ta": "வள்ளற் பிரானார்க்கு வாய்கோ புரவாசல்"
+      },
+      {
+       "n": 3,
+       "ta": "தெள்ளத் தெளிந்தார்க்குச் சீவன் சிவலிங்கம்"
+      },
+      {
+       "n": 4,
+       "ta": "கள்ளப் புலன்ஐந்தும் காளா மணிவிளக்கே."
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "For the generous Lord the heart is the great temple, the body of flesh the shrine and the mouth the tower gate; for those clear through and through, the soul is the Sivalinga, and the five thieving senses are the bright lamps.",
+     "uncertain": false,
+     "concepts": [
+      "yaakkai",
+      "vazhipaadu",
+      "sivam",
+      "manam"
+     ],
+     "object": "the temple, its tower gate, and the bright lamps (கோயில், கோபுரவாசல், மணிவிளக்கு)",
+     "asset": "31-T",
+     "asset_file": "site/nilai/assets/web/31-T.webp",
+     "asset_is": "kuthuvilakku, the bronze standing oil lamp"
+    }
+   ],
+   "links": [
+    {
+     "from": "siddhar:1166",
+     "to": "naladiyar:47",
+     "type": "same_image",
+     "grade": "sound",
+     "text": "Both make the body a clay pot. The Naladiyar's pot seeps filth from nine openings and only a fool calls it a woman; Sivavakkiyar's false pot (பொய்க்குடம்) tosses on the water when it holds only the five, and sits content when it has scooped up Siva. The same vessel is a cause for disgust in one and, filled rightly, a seat of delight in the other.",
+     "text_field": "note",
+     "teaches_holds": null,
+     "true_direction": {
+      "s": "siddhar:1166",
+      "o": "naladiyar:47",
+      "symmetric": true,
+      "reads": "siddhar:1166 and naladiyar:47 (same_image; recorded s to o)"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "siddhar_marks"
+    },
+    {
+     "from": "tirumanthiram:1823",
+     "to": "naladiyar:47",
+     "type": "tension",
+     "grade": "sound",
+     "text": "The Naladiyar calls the body a pot seeping filth from nine openings, dressed in skin that fools the eye; Tirumular makes the same flesh body (ஊனுடம்பு) the Lord's shrine and the mouth its gate. The conflict holds if the Naladiyar is read as judging the body's worth itself, not only rebuking lust.",
+     "text_field": "note",
+     "teaches_holds": null,
+     "true_direction": {
+      "s": "tirumanthiram:1823",
+      "o": "naladiyar:47",
+      "symmetric": true,
+      "reads": "tirumanthiram:1823 and naladiyar:47 (tension; recorded s to o)"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "tirumanthiram_marks"
+    }
+   ],
+   "forward": {
+    "text": "One body was a pot tossed on water, a pot that seeps, and a temple whose five thieving senses become lamps. In 2526 we can light the mind from outside; we ask whether it still learns to light itself.",
+    "label": "கற்பனை · imagined",
+    "then": {
+     "asset": "31-T",
+     "asset_file": "site/nilai/assets/web/31-T.webp",
+     "asset_is": "kuthuvilakku, the bronze standing oil lamp",
+     "object_of": "31-T"
+    },
+    "future": {
+     "asset": "31-N",
+     "asset_file": "site/nilai/assets/web/31-N.webp",
+     "asset_is": "early glass light bulb, unlit",
+     "object_of": "31-N"
+    },
+    "transformation": "the bronze lamp becomes the glass bulb lit from elsewhere"
+   }
+  },
+  {
+   "id": "irai",
+   "tamil": "இறை",
+   "name": "The divine and devotion",
+   "accent": "#6c4605",
+   "subtitle": "the stone that speaks",
+   "verses": [
+    {
+     "id": "siddhar:1458",
+     "book": "siddhar",
+     "group": "devotional",
+     "label_ta": "சிவவாக்கியம் 494 · சிவவாக்கியர்",
+     "label": "Siddhar songs 494, சிவவாக்கியம் (siddhar:1458)",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "நட்டகல்லைத் தெய்வம் என்று நாலுபுட்பம் சாத்தியே"
+      },
+      {
+       "n": 2,
+       "ta": "சுற்றிவந்து முணமுணேன்று சொல்லுமந்திரம் ஏதடா"
+      },
+      {
+       "n": 3,
+       "ta": "நட்டகல்லும் பேசுமோ நாதன்உள் இருக்கையில்!"
+      },
+      {
+       "n": 4,
+       "ta": "சுட்டசட்டி சட்டுவம் கறிச்சுவை அறியுமோ?"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "Calling a planted stone a god, laying four flowers on it, circling it and muttering, what mantra is this? Will the planted stone speak while the Lord is within? Does the fired pot or the ladle know the taste of the curry?",
+     "uncertain": false,
+     "concepts": [
+      "vazhipaadu",
+      "nindhai",
+      "ilingam",
+      "mandhiram"
+     ],
+     "object": "the planted stone (நட்டகல்)",
+     "asset": "18-T",
+     "asset_file": "site/nilai/assets/web/18-T.webp",
+     "asset_is": "dark granite standing stone with a marigold garland"
+    },
+    {
+     "id": "manimekalai:21:112-129",
+     "book": "manimekalai",
+     "group": "epics_great",
+     "label_ta": "மணிமேகலை 21 · கந்திற்பாவை வருவது உரைத்த காதை 112–129",
+     "label": "Manimekalai 21, lines 112–129",
+     "lines": [
+      {
+       "n": 115,
+       "ta": "வழு அறு மரனும் மண்ணும் கல்லும்"
+      },
+      {
+       "n": 116,
+       "ta": "எழுதிய பாவையும் பேசா என்பது"
+      },
+      {
+       "n": 127,
+       "ta": "ஆங்கு அத் தெய்வதம் அவ் இடம் நீங்கா"
+      },
+      {
+       "n": 128,
+       "ta": "ஊன் கண்ணினார்கட்கு உற்றதை உரைக்கும்"
+      }
+     ],
+     "lines_shown_of": [
+      112,
+      129
+     ],
+     "reading": "The deity tells her not to falter before the materialist but to affirm that evil deeds reach their doer and the dead are reborn; then it explains its own speech: wood, earth, stone and painted images do not speak, but the wise, planning the protection of a guarded city, have craftsmen shape the deities they intend in clay, stone, wood and wall at its streets, temples, old trees, ghats and halls, and those deities never leave their places and tell men of fleshly eyes what will befall.",
+     "uncertain": false,
+     "concepts": [
+      "anangu",
+      "vazhipaadu",
+      "vinai",
+      "piravi"
+     ],
+     "object": "stone and the painted figure, which do not speak, and the deity that never leaves its place (கல்லும் எழுதிய பாவையும், தெய்வதம்)",
+     "asset": "V4-pillar",
+     "asset_file": "site/nilai/assets/web/V4-pillar.webp",
+     "asset_is": "stone pillar with a guardian goddess in relief",
+     "image_note": "the prototype shows 115–116 and 125–128 on wide screens; at most four lines are listed here, the four it shows on a phone"
+    },
+    {
+     "id": "civaka_cintamani:2058",
+     "book": "civaka_cintamani",
+     "group": "epics_great",
+     "label_ta": "சீவக சிந்தாமணி 2058",
+     "label": "Civaka Cintamani 2058",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "மட்டவிழ் கோதை பெற்றாய் மனமகிழ் காத லானை"
+      },
+      {
+       "n": 2,
+       "ta": "யிட்டிடை நோவ நில்லா தெழுகென வேந்த றோழன்"
+      },
+      {
+       "n": 3,
+       "ta": "பட்டிமை யுரைத்த தோராள் பரவிய தெய்வந் தான்வாய்"
+      },
+      {
+       "n": 4,
+       "ta": "விட்டுரைத் திட்ட தென்றே வேற்கணாள் பரவி மீண்டாள்."
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "'You have won the beloved who gladdens your heart; rise, do not stand so that your slender waist aches': the king's friend spoke this trick, and the spear-eyed one, not knowing it, took it that the god she worshipped had spoken with its own mouth, and praised it and went home.",
+     "uncertain": true,
+     "concepts": [
+      "vanjam",
+      "vazhipaadu"
+     ],
+     "object": "the god in its shrine, whose mouth seemed to speak (தெய்வந் தான்வாய் விட்டுரைத்திட்டது)",
+     "asset": "V4-shrine",
+     "asset_file": "site/nilai/assets/web/V4-shrine.webp",
+     "asset_is": "small stone shrine"
+    }
+   ],
+   "links": [
+    {
+     "from": "manimekalai:21:112-129",
+     "to": "siddhar:1458",
+     "type": "tension",
+     "grade": "sound",
+     "text": "Both start from the same premise, that the stone itself is mute; they part over whether a power can be lodged in it, the epic answering yes for guardian deities of a city and the Siddhar answering that the Lord is found only within.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "manimekalai:21:112-129",
+      "o": "siddhar:1458",
+      "symmetric": true,
+      "reads": "manimekalai:21:112-129 and siddhar:1458 (tension; recorded s to o)"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "manimekalai_marks"
+    },
+    {
+     "from": "civaka_cintamani:2058",
+     "to": "siddhar:1458",
+     "type": "develops",
+     "grade": "sound",
+     "text": "The Siddhar's scorn assumes the stone is silent; the epic shows a voice supplied to it by a hidden man, so the credulity he mocks can be steered by whoever stands behind the image.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "civaka_cintamani:2058",
+      "o": "siddhar:1458",
+      "symmetric": false,
+      "reads": "civaka_cintamani:2058 develops siddhar:1458"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "civaka_cintamani_marks"
+    }
+   ],
+   "forward": {
+    "text": "The stones learned to speak. In 2526 we ask the epic’s question: who stands behind the voice?",
+    "label": "கற்பனை · imagined",
+    "then": {
+     "asset": "18-T",
+     "asset_file": "site/nilai/assets/web/18-T.webp",
+     "asset_is": "dark granite standing stone with a marigold garland",
+     "object_of": "18-T"
+    },
+    "future": {
+     "asset": "V4-speaker",
+     "asset_file": "site/nilai/assets/web/V4-speaker.webp",
+     "asset_is": "speaker (the voice without a body)",
+     "object_of": "V4-speaker"
+    },
+    "transformation": "the planted stone becomes the speaker; the many hands rise before it (V4-hands)"
+   }
+  },
+  {
+   "id": "yogam",
+   "tamil": "யோகம்",
+   "name": "Practice and yoga",
+   "accent": "#1f5b57",
+   "subtitle": "the breath that kicks Death away",
+   "verses": [
+    {
+     "id": "tirumanthiram:571",
+     "book": "tirumanthiram",
+     "group": "devotional",
+     "label_ta": "திருமந்திரம் 571",
+     "label": "Tirumanthiram 571",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "ஏற்றி இறக்கி இருகாலும் பூரிக்குங்"
+      },
+      {
+       "n": 2,
+       "ta": "காற்றைப் பிடிக்குங் கணக்கறி வாரில்லை"
+      },
+      {
+       "n": 3,
+       "ta": "காற்றைப் பிடிக்குங் கணக்கறி வாளர்க்குக்"
+      },
+      {
+       "n": 4,
+       "ta": "கூற்றை யுதைக்குங் குறியது வாமே"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "No one knows the measure of holding the breath that one draws in and lets out through both nostrils; for those who know it, it is the means to kick Death.",
+     "uncertain": false,
+     "concepts": [
+      "praanan",
+      "kootru",
+      "yogam"
+     ],
+     "object": "the breath drawn in and let out through both nostrils (இருகாலும் பூரிக்குங் காற்று)",
+     "asset": null,
+     "new_image": "V4-breath",
+     "prompt": "The breath: a classical marble head in profile facing right, lips closed, with two thin ribbons of polished brass air drawn in at both nostrils and curling back out in a slow loop before the face. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    },
+    {
+     "id": "kural:269",
+     "book": "kural",
+     "group": "ethics",
+     "label_ta": "திருக்குறள் 269",
+     "label": "Tirukkural 269",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "கூற்றம் குதித்தலும் கைகூடும் நோற்றலின்"
+      },
+      {
+       "n": 2,
+       "ta": "ஆற்றல் தலைப்பட் டவர்க்குல்"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      2
+     ],
+     "reading": "Even leaping past death becomes possible for those who have attained the power of austerity.",
+     "uncertain": false,
+     "concepts": [
+      "thavam"
+     ],
+     "object": null,
+     "asset": null,
+     "new_image": "V4-breath",
+     "prompt": "The breath: a classical marble head in profile facing right, lips closed, with two thin ribbons of polished brass air drawn in at both nostrils and curling back out in a slow loop before the face. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "image_note": "COMPROMISE: the couplet names no concrete object, only Death (கூற்றம்) and the leap past it; the breath image carries over from verse 1"
+    },
+    {
+     "id": "siddhar:1119",
+     "book": "siddhar",
+     "group": "devotional",
+     "label_ta": "சிவவாக்கியம் 155 · சிவவாக்கியர்",
+     "label": "Siddhar songs 155, சிவவாக்கியம் (siddhar:1119)",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "நாடிநாடி நம்முளே நயந்துகாண வல்லீரேல்"
+      },
+      {
+       "n": 2,
+       "ta": "ஓடிஓடி மீளுவான் உம்முளே அடங்கிடும்"
+      },
+      {
+       "n": 3,
+       "ta": "தேடிவந்த காலனும் திகைத்திருந்து போய்விடும்"
+      },
+      {
+       "n": 4,
+       "ta": "கோடிகோடி காலமும் குறைவிலாது இருப்பிரே!"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "If you can seek and seek and gaze with love within yourselves, the one who runs out and runs back will settle within you; even Death who came hunting will stand bewildered and go, and you will remain without lack for crores of ages.",
+     "uncertain": false,
+     "concepts": [
+      "meyyunarvu",
+      "saakkaadu",
+      "praanan",
+      "manam"
+     ],
+     "object": "the one who runs out and runs back, the breath (ஓடிஓடி மீளுவான்)",
+     "asset": null,
+     "new_image": "V4-breath",
+     "prompt": "The breath: a classical marble head in profile facing right, lips closed, with two thin ribbons of polished brass air drawn in at both nostrils and curling back out in a slow loop before the face. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    }
+   ],
+   "links": [
+    {
+     "from": "tirumanthiram:571",
+     "to": "kural:269",
+     "type": "agrees",
+     "grade": "sound",
+     "text": "Both say a discipline can overcome Death (கூற்று): the Kural credits the power of tapas with leaping past Death, Tirumular the measure of the held breath with kicking him.",
+     "text_field": "note",
+     "teaches_holds": null,
+     "true_direction": {
+      "s": "tirumanthiram:571",
+      "o": "kural:269",
+      "symmetric": true,
+      "reads": "tirumanthiram:571 and kural:269 (agrees; recorded s to o)"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "tirumanthiram_marks"
+    },
+    {
+     "from": "siddhar:1119",
+     "to": "kural:269",
+     "type": "agrees",
+     "grade": "sound",
+     "text": "Kural 269 says leaping past Death becomes possible for those with the power of austerity (கூற்றம் குதித்தலும் கைகூடும்). 1119 says Death who came hunting is bewildered and goes for those who can see within themselves (தேடிவந்த காலனும் திகைத்திருந்து போய்விடும்). Both make a discipline, not a god's favour, the thing that turns Death away; the Kural's is tapas, Sivavakkiyar's inward seeing.",
+     "text_field": "note",
+     "teaches_holds": null,
+     "true_direction": {
+      "s": "siddhar:1119",
+      "o": "kural:269",
+      "symmetric": true,
+      "reads": "siddhar:1119 and kural:269 (agrees; recorded s to o)"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "siddhar_marks"
+    }
+   ],
+   "forward": {
+    "text": "The measured breath was said to kick Death away, and the runner within to settle. In 2526 machines can breathe for us; we ask what the held breath still teaches.",
+    "label": "கற்பனை · imagined",
+    "then": {
+     "asset": null,
+     "new_image": "V4-breath",
+     "prompt": "The breath: a classical marble head in profile facing right, lips closed, with two thin ribbons of polished brass air drawn in at both nostrils and curling back out in a slow loop before the face. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "object_of": "V4-breath"
+    },
+    "future": {
+     "asset": null,
+     "new_image": "V4-breathing-machine",
+     "prompt": "A future breathing machine as a refined object: a small pleated bellows of pale glass and bronze between two marble plates, with a single slim tube rising from it, at rest. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "object_of": "V4-breathing-machine"
+    },
+    "transformation": "the brass ribbon of breath becomes a glass bellows at rest"
+   }
+  },
+  {
+   "id": "iyarkai",
+   "tamil": "இயற்கை",
+   "name": "Nature and landscape",
+   "accent": "#2f5d1f",
+   "subtitle": "the tank, the well and the gift of food",
+   "verses": [
+    {
+     "id": "purananuru:18",
+     "book": "purananuru",
+     "group": "ettuthogai_puram",
+     "label_ta": "புறநானூறு 18",
+     "label": "Purananuru 18",
+     "lines": [
+      {
+       "n": 18,
+       "ta": "நீர்இன்று அமையா யாக்கைக்கு எல்லாம்"
+      },
+      {
+       "n": 19,
+       "ta": "உண்டி கொடுத்தோர் உயிர்கொடுத் தோரே;"
+      },
+      {
+       "n": 28,
+       "ta": "நிலன்நெளி மருங்கின் நீர்நிலை பெருகத்"
+      },
+      {
+       "n": 29,
+       "ta": "தட்டோர் அம்ம, இவண்தட் டோரே;"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      30
+     ],
+     "reading": "Kudapulaviyanar blesses the Pandya Nedunchezhiyan, lord of an old city with a moat full of fish and a wall the sky fears, and tells him that whether he wants wealth in the next world, sole rule over the kings of this one, or lasting fame, he should hear what is fitting: bodies cannot live without water, food makes the body, food is land joined with water, so those who join land and water give body and life; land that sows and waits on the sky does not help its ruler however wide, so he should quickly build up tanks where the land dips, for those who bind water here have bound those goals, and those who do not have not.",
+     "uncertain": false,
+     "concepts": [
+      "undi",
+      "uzhavu",
+      "mazhai",
+      "uyir"
+     ],
+     "object": "the water body bound where the land dips (நிலன்நெளி மருங்கின் நீர்நிலை)",
+     "asset": "04-F2",
+     "asset_file": "site/nilai/assets/web/04-F2.webp",
+     "asset_is": "ēri tank with an earth bund and palmyra palms"
+    },
+    {
+     "id": "sirupanchamoolam:65",
+     "book": "sirupanchamoolam",
+     "group": "ethics",
+     "label_ta": "சிறுபஞ்சமூலம் 65",
+     "label": "Sirupanchamoolam 65",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "குளங்கொட்டுக் கோடு பதித்துவழி சீத்து"
+      },
+      {
+       "n": 2,
+       "ta": "உளந்தொட்(டு) உழுவயல் ஆக்கி - வளந்தொட்டுப்"
+      },
+      {
+       "n": 3,
+       "ta": "பாகு படுங்கிணற்றோ(டு) என்றிவ்ஐம் பாற்படுப்பான்"
+      },
+      {
+       "n": 4,
+       "ta": "ஏகும் சுவர்க்கத்(து) இனிது"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "The verse says that one who carries out five works (digging a tank, setting its bank, clearing a road, breaking ground into a ploughed field, and digging a well whose water is shared) goes sweetly to heaven.",
+     "uncertain": false,
+     "concepts": [
+      "oppuravu",
+      "uzhavu",
+      "marumai"
+     ],
+     "object": "the tank and its bank, and the shared well (குளம், கோடு, கிணறு)",
+     "asset": "04-F3",
+     "asset_file": "site/nilai/assets/web/04-F3.webp",
+     "asset_is": "granite temple tank with steps on four sides"
+    },
+    {
+     "id": "manimekalai:11:76-98",
+     "book": "manimekalai",
+     "group": "epics_great",
+     "label_ta": "மணிமேகலை 11 · பாத்திரம் பெற்ற காதை 76–98",
+     "label": "Manimekalai 11, lines 76–98",
+     "lines": [
+      {
+       "n": 76,
+       "ta": "'குடிப் பிறப்பு அழிக்கும் விழுப்பம் கொல்லும்"
+      },
+      {
+       "n": 77,
+       "ta": "பிடித்த கல்விப் பெரும் புணை விடூஉம்"
+      },
+      {
+       "n": 95,
+       "ta": "மண் திணி ஞாலத்து வாழ்வோர்க்கு எல்லாம்"
+      },
+      {
+       "n": 96,
+       "ta": "உண்டி கொடுத்தோர் உயிர் கொடுத்தோரே"
+      }
+     ],
+     "lines_shown_of": [
+      76,
+      98
+     ],
+     "reading": "Deepathilakai says her tongue cannot rise to praise those who cure the sinner hunger, which destroys high birth, kills dignity, drops the raft of learning, strips modesty and beauty and leaves a man standing at others' gates with his wife; she recalls a drought in which a Brahmin of the Veda, wandering, was about to eat dog's flesh until the god appeared and gave rain; those who give to the able sell dharma, the world's true way belongs to those who end the hunger of the helpless, those who give food give life, and Manimekalai, having taken up that gift of life, has seen flawless dharma.",
+     "uncertain": true,
+     "concepts": [
+      "pasi",
+      "eegai",
+      "undi",
+      "mazhai"
+     ],
+     "object": "the great raft of learning that hunger makes one drop (கல்விப் பெரும் புணை)",
+     "asset": null,
+     "new_image": "V4-raft",
+     "prompt": "A small raft (puṇai) of five straight logs lashed side by side with crossed coir rope, the wood dark and water-polished, seen at a three-quarter angle from above, empty, afloat on nothing. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    }
+   ],
+   "links": [
+    {
+     "from": "sirupanchamoolam:65",
+     "to": "purananuru:18",
+     "type": "develops",
+     "grade": "sound",
+     "text": "The duty the Sangam poet urged on one king becomes in the ethics work a merit open to any man of means, and the promised reward narrows from rule and fame to heaven.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "sirupanchamoolam:65",
+      "o": "purananuru:18",
+      "symmetric": false,
+      "reads": "sirupanchamoolam:65 develops purananuru:18"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "sirupanchamoolam_marks"
+    },
+    {
+     "from": "manimekalai:11:76-98",
+     "to": "purananuru:18",
+     "type": "develops",
+     "grade": "sound",
+     "text": "The maxim moves from a king's public works to a renunciant's alms-bowl, and the remedy for a failing sky moves from tanks a ruler digs to a god's gift and a bowl that never empties.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "manimekalai:11:76-98",
+      "o": "purananuru:18",
+      "symmetric": false,
+      "reads": "manimekalai:11:76-98 develops purananuru:18"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "manimekalai_marks"
+    }
+   ],
+   "forward": {
+    "text": "The tank a king was told to dig became a merit for any man of means, then a renunciant’s gift of food. In 2526, with rain less certain, we ask who will bind the water now.",
+    "label": "கற்பனை · imagined",
+    "then": {
+     "asset": "04-F2",
+     "asset_file": "site/nilai/assets/web/04-F2.webp",
+     "asset_is": "ēri tank with an earth bund and palmyra palms",
+     "object_of": "04-F2"
+    },
+    "future": {
+     "asset": null,
+     "new_image": "V4-rain-basin",
+     "prompt": "A future water tank: a terraced basin of pale granite and clear glass that catches rain, still dark water inside, a planted earth bund along one side and a small bronze sluice. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "object_of": "V4-rain-basin"
+    },
+    "transformation": "the earth-bunded ēri becomes a terraced basin of stone and glass"
+   }
+  },
+  {
+   "id": "samugam",
+   "tamil": "சமூகம்",
+   "name": "Society, caste and ritual",
+   "accent": "#6b2c63",
+   "subtitle": "the widow’s leaf and the sun",
+   "verses": [
+    {
+     "id": "purananuru:246",
+     "book": "purananuru",
+     "group": "ettuthogai_puram",
+     "label_ta": "புறநானூறு 246",
+     "label": "Purananuru 246",
+     "lines": [
+      {
+       "n": 6,
+       "ta": "அடைஇடைக் கிடந்த கைபிழி பிண்டம்"
+      },
+      {
+       "n": 7,
+       "ta": "வெள்என் சாந்தொடு புளிப்பெய்து அட்ட"
+      },
+      {
+       "n": 8,
+       "ta": "வேளை வெந்தை, வல்சி ஆகப்,"
+      },
+      {
+       "n": 9,
+       "ta": "பரற்பெய் பள்ளிப் பாயின்று வதியும்"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      15
+     ],
+     "reading": "Perunkoppendu, queen of Bhoothapandiyan, rebukes the many elders who will not say 'go' but hold her back with 'stay': she is not one of the wretched widows who, untouched by fragrant ghee, eat leaf-wrapped hand-squeezed rice cooked with white sesame paste and tamarind and boiled velai greens, and sleep on gravel with no mat; let the great pyre of dark logs be hard for them, but for her, since her broad-shouldered husband is dead, a lotus pond full of open flowers and the fire are one.",
+     "uncertain": false,
+     "concepts": [
+      "karpu",
+      "kaimmai",
+      "saakkaadu",
+      "vaazhkkaithunai"
+     ],
+     "object": "the leaf-wrapped rice ball and the bed of pebbles (அடை, பிண்டம், பரற்பெய் பள்ளி)",
+     "asset": "07-E",
+     "asset_file": "site/nilai/assets/web/07-E.webp",
+     "asset_is": "empty banana leaf",
+     "image_note": "அடை is a leaf; 07-E is an empty banana leaf"
+    },
+    {
+     "id": "manimekalai:2:42-57",
+     "book": "manimekalai",
+     "group": "epics_great",
+     "label_ta": "மணிமேகலை 2 · ஊரலர் உரைத்த காதை 42–57",
+     "label": "Manimekalai 2, lines 42–57",
+     "lines": [
+      {
+       "n": 42,
+       "ta": "காதலர் இறப்பின் கனை எரி பொத்தி"
+      },
+      {
+       "n": 43,
+       "ta": "ஊது உலைக் குருகின் உயிர்த்து அகத்து அடங்காது"
+      },
+      {
+       "n": 44,
+       "ta": "இன் உயிர் ஈவர் ஈயார் ஆயின்"
+      },
+      {
+       "n": 45,
+       "ta": "நல் நீர்ப் பொய்கையின் நளி எரி புகுவர்"
+      }
+     ],
+     "lines_shown_of": [
+      42,
+      57
+     ],
+     "reading": "Madhavi says that pathini women of the wide world, when their husbands die, give up their lives with sighs like a smith's bellows, or else enter the blazing fire as if a cool pool, or else wear down the body in vows to live again with the beloved, but that Kannaki was of none of these kinds: unable to bear her husband's suffering she twisted off her breast and set the king's city aflame, and Manimekalai, the daughter of that great pathini, will be brought to tapas and never to the evil trade of unreformed conduct.",
+     "uncertain": false,
+     "concepts": [
+      "pathini",
+      "karpu",
+      "thavam",
+      "nonbu"
+     ],
+     "object": "the smith’s bellows (ஊது உலைக் குருகு)",
+     "asset": null,
+     "new_image": "V4-bellows",
+     "prompt": "A village smith's bellows: a leather bag between two carved wooden boards with bronze handles, and a short clay nozzle, half breathed out, as at a forge. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    },
+    {
+     "id": "silappathikaram:18:34-53",
+     "book": "silappathikaram",
+     "group": "epics_great",
+     "label_ta": "சிலப்பதிகாரம் 18 · துன்ப மாலை 34–53",
+     "label": "Silappathikaram 18, lines 34–53",
+     "lines": [
+      {
+       "n": 50,
+       "ta": "பாய்திரை வேலிப் படுபொருள் நீயறிதி"
+      },
+      {
+       "n": 51,
+       "ta": "காய்கதிர்ச் செல்வனே கள்வனோ என்கணவன்"
+      },
+      {
+       "n": 52,
+       "ta": "கள்வனோ அல்லன் கருங்கயற்கண் மாதராய்"
+      },
+      {
+       "n": 53,
+       "ta": "ஒள்ளெரி உண்ணுமிவ் வூரென்ற தொருகுரல்."
+      }
+     ],
+     "lines_shown_of": [
+      34,
+      53
+     ],
+     "reading": "Kannaki asks whether, now that the king has erred and his sceptre has strayed from right, she must waste away in grief like the women who lose their husbands to the pyre and keep the hard observances of widowhood, losing even her good name in this life; then she bids the kuravai girls listen and asks the sun, who knows all in the sea-girt world, whether her husband is a thief, and a voice answers that he is not, and that fire will eat this city.",
+     "uncertain": true,
+     "concepts": [
+      "kodungol",
+      "kaimmai",
+      "pugazh",
+      "aram"
+     ],
+     "object": "the blazing sun Kannaki questions (காய்கதிர்ச் செல்வன்)",
+     "asset": "31-F1",
+     "asset_file": "site/nilai/assets/web/31-F1.webp",
+     "asset_is": "small sculpted sun, a sphere of polished gold"
+    }
+   ],
+   "links": [
+    {
+     "from": "manimekalai:2:42-57",
+     "to": "purananuru:246",
+     "type": "develops",
+     "grade": "sound",
+     "text": "The queen's single act of defiance, in which the pyre is a cool pond and the austere widowhood she refuses is worse than fire, becomes in the epic a ranked typology of the chaste wife where entering the fire is only the second kind and the vowed austerity she despised is admitted as the third, and all three are then set beneath Kannaki.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "manimekalai:2:42-57",
+      "o": "purananuru:246",
+      "symmetric": false,
+      "reads": "manimekalai:2:42-57 develops purananuru:246"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "manimekalai_marks"
+    },
+    {
+     "from": "silappathikaram:18:34-53",
+     "to": "purananuru:246",
+     "type": "qualifies",
+     "grade": "sound",
+     "text": "Both widows refuse the observances of kaimmai, but the Sangam queen turns to the pyre while Kannaki turns to the sun and the king, so the epic moves the wife's refusal of widowhood from death beside the husband to a demand for justice.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "silappathikaram:18:34-53",
+      "o": "purananuru:246",
+      "symmetric": false,
+      "reads": "silappathikaram:18:34-53 qualifies purananuru:246"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "silappathikaram_marks"
+    }
+   ],
+   "forward": {
+    "text": "A widow was told what to eat, where to sleep and when to burn, and Kannaki turned and asked the sun. In 2526 we ask who still writes the rules for another person’s life.",
+    "label": "கற்பனை · imagined",
+    "then": {
+     "asset": "07-E",
+     "asset_file": "site/nilai/assets/web/07-E.webp",
+     "asset_is": "empty banana leaf",
+     "object_of": "07-E"
+    },
+    "future": {
+     "asset": "07-F",
+     "asset_file": "site/nilai/assets/web/07-F.webp",
+     "asset_is": "open server-rack frame laid long and low like a dining row",
+     "object_of": "07-F"
+    },
+    "transformation": "the leaf in its row becomes the rack where rules now run"
+   }
+  },
+  {
+   "id": "aivu",
+   "tamil": "அறிவாய்வு",
+   "name": "Knowledge and debate",
+   "accent": "#1d4f7a",
+   "subtitle": "the bird that drinks the milk and leaves the water",
+   "verses": [
+    {
+     "id": "thiruppugazh:70",
+     "book": "thiruppugazh",
+     "group": "devotional",
+     "label_ta": "திருப்புகழ் 70",
+     "label": "Thiruppugazh 70",
+     "lines": [
+      {
+       "n": 5,
+       "ta": "நூல நந்த கோடி தேடி மால்மி குந்து பாரு ளோரை"
+      },
+      {
+       "n": 6,
+       "ta": "நூறு செஞ்சொல் கூறி மாறி ...... விளைதீமை"
+      },
+      {
+       "n": 7,
+       "ta": "நோய்க லந்த வாழ்வு றாமல் நீக லந்து ளாகு ஞான"
+      },
+      {
+       "n": 8,
+       "ta": "நூல டங்க வோத வாழ்வு ...... தருவாயே"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      16
+     ],
+     "reading": "The poet speaks of the body of four and five gates, a bush of sinew and bone with arms and legs, in which sound joins at the first gate and its plays go on unnoticed, and asks that before it grows old in seeking endless books and speaking clever words to men he be given a life of reciting fully the books of knowledge in which Murugan is mingled. The praise names the primal one who cried 'refuge' when Death came casting his noose for the boy's life, the silent dark-throated one who looked at Kama and his five arrows and said 'burn', to whom Murugan spoke the Veda, and Vishnu with the discus who ended the elephant's fear, at Senthil where the Vedas seek the feet.",
+     "uncertain": true,
+     "concepts": [
+      "yaakkai",
+      "gnaanam",
+      "kalvi",
+      "guru"
+     ],
+     "object": "endless crores of books (நூல் அனந்த கோடி)",
+     "asset": "01-T",
+     "asset_file": "site/nilai/assets/web/01-T.webp",
+     "asset_is": "palm-leaf manuscript bundle, closed"
+    },
+    {
+     "id": "naladiyar:135",
+     "book": "naladiyar",
+     "group": "ethics",
+     "label_ta": "நாலடியார் 135",
+     "label": "Naladiyar 135",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "கல்வி கரையில கற்பவர் நாள்சில"
+      },
+      {
+       "n": 2,
+       "ta": "மெல்ல நினைக்கின் பிணிபல - தெள்ளிதன்"
+      },
+      {
+       "n": 3,
+       "ta": "ஆராய்ந் தமைவுடைய கற்பவே நீரொழியப்"
+      },
+      {
+       "n": 4,
+       "ta": "பாலுண் குருகின் தெரிந்து."
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "Learning has no shore, learners have few days, and, thought over calmly, many illnesses; so the wise learn with clear discernment what is fitting, like the bird that drinks the milk and leaves the water.",
+     "uncertain": false,
+     "concepts": [
+      "kalvi",
+      "therithal",
+      "nilaiyaamai"
+     ],
+     "object": "the bird that drinks the milk and leaves the water (நீரொழியப் பாலுண் குருகு)",
+     "asset": "10-H",
+     "asset_file": "site/nilai/assets/web/10-H.webp",
+     "asset_is": "pond heron in profile",
+     "image_note": "குருகு is a heron or crane; 10-H is a pond heron (no milk bowl in the image)"
+    },
+    {
+     "id": "tirumanthiram:2720",
+     "book": "tirumanthiram",
+     "group": "devotional",
+     "label_ta": "திருமந்திரம் 2720",
+     "label": "Tirumanthiram 2720",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "அங்கமும் ஆகம வேதமது ஓதினும்"
+      },
+      {
+       "n": 2,
+       "ta": "எங்கள் பிரான்எழுத்து ஒன்றில் இருப்பது"
+      },
+      {
+       "n": 3,
+       "ta": "சங்கைகெட்டு அவ்எழுத்து ஒன்றையும் சாதித்தால்"
+      },
+      {
+       "n": 4,
+       "ta": "அங்கரை சேர்ந்த அருங்கலம் ஆமே."
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "Though one recites the Vedas with their limbs and the Agamas, what is ours lies in one letter of our Lord; master that one letter with doubt destroyed and one becomes a precious vessel that has reached the farther shore.",
+     "uncertain": false,
+     "concepts": [
+      "panchaakkaram",
+      "vedham",
+      "aagamam",
+      "piravi"
+     ],
+     "object": "the precious vessel that reaches the farther shore (அங்கரை சேர்ந்த அருங்கலம்)",
+     "asset": "26-T",
+     "asset_file": "site/nilai/assets/web/26-T.webp",
+     "asset_is": "sewn-plank trading ship (nāvāy)"
+    }
+   ],
+   "links": [
+    {
+     "from": "thiruppugazh:70",
+     "to": "naladiyar:135",
+     "type": "agrees",
+     "grade": "sound",
+     "text": "The Naladiyar says learning has no shore and the learner's days are few, so one should choose what is fit, like the bird drinking the milk from the water. 70 asks that before the body ages in seeking endless crores of books (நூல் அனந்த கோடி தேடி) he be given the books of knowledge in which the Lord is mingled (நீ கலந்துள ஞான நூல்). Both set limited life against unlimited books; 70 names the choice as the jnana books.",
+     "text_field": "note",
+     "teaches_holds": null,
+     "true_direction": {
+      "s": "thiruppugazh:70",
+      "o": "naladiyar:135",
+      "symmetric": true,
+      "reads": "thiruppugazh:70 and naladiyar:135 (agrees; recorded s to o)"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "thiruppugazh_marks"
+    },
+    {
+     "from": "tirumanthiram:2720",
+     "to": "naladiyar:135",
+     "type": "agrees",
+     "grade": "sound",
+     "text": "Both answer endless learning with a choice: the Naladiyar says learning has no shore and life is short, so take only what is fitting, as the swan takes milk from water; Tirumular names the one thing to take, the Lord's letter, and makes it the vessel that does reach the shore.",
+     "text_field": "note",
+     "teaches_holds": null,
+     "true_direction": {
+      "s": "tirumanthiram:2720",
+      "o": "naladiyar:135",
+      "symmetric": true,
+      "reads": "tirumanthiram:2720 and naladiyar:135 (agrees; recorded s to o)"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "tirumanthiram_marks"
+    }
+   ],
+   "forward": {
+    "text": "Learning has no shore and our days are few, so the wise drank the milk and left the water. In 2526 all learning is on tap; we ask who teaches the choosing.",
+    "label": "கற்பனை · imagined",
+    "then": {
+     "asset": "01-T",
+     "asset_file": "site/nilai/assets/web/01-T.webp",
+     "asset_is": "palm-leaf manuscript bundle, closed",
+     "object_of": "01-T"
+    },
+    "future": {
+     "asset": "01-F",
+     "asset_file": "site/nilai/assets/web/01-F.webp",
+     "asset_is": "one long palm leaf, gold-edged and lit from within",
+     "object_of": "01-F"
+    },
+    "transformation": "the bundle of endless leaves becomes the one leaf lit from within"
+   }
+  },
+  {
+   "id": "pulamai",
+   "tamil": "புலமை",
+   "name": "Poetics, grammar and the arts",
+   "accent": "#5e4a12",
+   "subtitle": "the name cut in stone",
+   "verses": [
+    {
+     "id": "purananuru:232",
+     "book": "purananuru",
+     "group": "ettuthogai_puram",
+     "label_ta": "புறநானூறு 232",
+     "label": "Purananuru 232",
+     "lines": [
+      {
+       "n": 3,
+       "ta": "நடுகல் பீலி சூட்டி, நார்அரி"
+      },
+      {
+       "n": 4,
+       "ta": "சிறுகலத்து உகுப்பவும் கொள்வன் கொல்லொ-"
+      },
+      {
+       "n": 5,
+       "ta": "கோடு உயர் பிறங்குமலை கெழீஇய"
+      },
+      {
+       "n": 6,
+       "ta": "நாடு உடன் கொடுப்புவும் கொள்ளா தோனே?"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      6
+     ],
+     "reading": "Let there be no more mornings and evenings, and no more days of my life: will he who would not accept even a country of high-peaked mountains given to him now accept the toddy, strained through fibre, poured from a small cup on his hero-stone crowned with a peacock feather?",
+     "uncertain": false,
+     "concepts": [
+      "nadukal",
+      "kaiyarunilai",
+      "eegai"
+     ],
+     "object": "the hero stone crowned with a peacock feather, toddy poured from a small cup (நடுகல், பீலி, சிறுகலம்)",
+     "asset": null,
+     "new_image": "V4-cup",
+     "prompt": "A small shallow clay cup tilted and pouring a thin stream of pale palm toddy, a twist of strained fibre resting on its rim, and one long peacock feather lying beside it. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    },
+    {
+     "id": "purananuru:264",
+     "book": "purananuru",
+     "group": "ettuthogai_puram",
+     "label_ta": "புறநானூறு 264",
+     "label": "Purananuru 264",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "பரலுடை மருங்கிற் பதுக்கை சேர்த்தி,"
+      },
+      {
+       "n": 2,
+       "ta": "மரல்வகுந்து தொடுத்த செம்பூங் கண்ணியொடு,"
+      },
+      {
+       "n": 3,
+       "ta": "அணிமயிற் பீலி சூட்டிப், பெயர்பொறித்து"
+      },
+      {
+       "n": 4,
+       "ta": "இனிநட் டனரே! கல்லும் ; கன்றொடு"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      7
+     ],
+     "reading": "On the gravelly ground they have heaped the cairn, crowned it with a red flower garland bound with split maral fibre and with peacock feathers, carved his name and set up the stone; will the bards' troupe still come today, not knowing that the noble man who drove off the enemy and brought back the cows with their calves is gone?",
+     "uncertain": false,
+     "concepts": [
+      "nadukal",
+      "kaiyarunilai",
+      "parisil",
+      "maram"
+     ],
+     "object": "the stone set up with his name carved on it (பெயர்பொறித்து நட்டனரே கல்)",
+     "asset": null,
+     "new_image": "V4-herostone",
+     "prompt": "A Tamil hero stone (naṭukal): an upright slab of dark granite set in a low cairn of rough pebbles, the warrior's name freshly cut across it in a single band of incised marks, crowned with a red flower garland bound with split fibre and a fan of peacock feathers. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    },
+    {
+     "id": "akananuru:297",
+     "book": "akananuru",
+     "group": "ettuthogai_akam",
+     "label_ta": "அகநானூறு 297",
+     "label": "Akananuru 297",
+     "lines": [
+      {
+       "n": 7,
+       "ta": "மருங்குல் நுணுகிய பேஎம் முதிர் நடுகல்"
+      },
+      {
+       "n": 8,
+       "ta": "பெயர்பயம் படரத் தோன்றுகுயில் எழுத்து"
+      },
+      {
+       "n": 9,
+       "ta": "இயைபுடன் நோக்கல் செல்லாது, அசைவுடன்"
+      },
+      {
+       "n": 10,
+       "ta": "ஆறுசெல் வம்பலர் விட்டனர் கழியும்"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      19
+     ],
+     "reading": "Going for wealth, the man asks his heart what will become of her grief, which overflows at midnight and the dull evening, and of the shy glad look of the girl who said she would come with him through the fearful forest where travellers pass by an old hero-stone without stopping to read its worn inscription, a wildcat's kitten follows its mother like stars round the moon, and the warriors' raiding drum makes the vulture shift its wings.",
+     "uncertain": true,
+     "concepts": [
+      "pirivu",
+      "nenju",
+      "ninaivu",
+      "udanpokku"
+     ],
+     "object": "the old hero stone with its worn inscription (பேஎம் முதிர் நடுகல், குயில் எழுத்து)",
+     "asset": null,
+     "new_image": "V4-herostone-worn",
+     "prompt": "The same kind of hero stone generations later: an upright slab of dark granite worn smooth and leaning, lichen in its cracks, the band of incised letters across it eroded to faint shallow marks no one could read, no garland. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    }
+   ],
+   "links": [
+    {
+     "from": "purananuru:264",
+     "to": "purananuru:232",
+     "type": "develops",
+     "grade": "sound",
+     "text": "Both poems turn on the reversal the stone makes in the gift relation: in 232 the giver becomes a receiver of offerings, and in 264 the receivers arrive to find no giver, so together they show that a patron's death was grieved as the end of a circuit of giving.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "purananuru:264",
+      "o": "purananuru:232",
+      "symmetric": false,
+      "reads": "purananuru:264 develops purananuru:232"
+     },
+     "source_file": "kg/groups/all_link_audit.json (text: kg/groups/ettuthogai_puram/edges.jsonl)",
+     "marked_by": "purananuru_marks"
+    },
+    {
+     "from": "akananuru:297",
+     "to": "purananuru:264",
+     "type": "qualifies",
+     "grade": "sound",
+     "text": "The puram poem records the moment a name is carved to outlast death, and the akam poem shows the same kind of stone generations on with no one reading it, so the pair qualifies the promise of the engraved name.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "akananuru:297",
+      "o": "purananuru:264",
+      "symmetric": false,
+      "reads": "akananuru:297 qualifies purananuru:264"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "akananuru_marks"
+    }
+   ],
+   "forward": {
+    "text": "Names were cut in stone so the bards would know, and a later road walked past the worn letters unread. In 2526 everything is written down; we ask who will stop to read it.",
+    "label": "கற்பனை · imagined",
+    "then": {
+     "asset": null,
+     "new_image": "V4-herostone-worn",
+     "prompt": "The same kind of hero stone generations later: an upright slab of dark granite worn smooth and leaning, lichen in its cracks, the band of incised letters across it eroded to faint shallow marks no one could read, no garland. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "object_of": "V4-herostone-worn"
+    },
+    "future": {
+     "asset": "03-N",
+     "asset_file": "site/nilai/assets/web/03-N.webp",
+     "asset_is": "black-glass monolith in a brass bezel, blank face",
+     "object_of": "03-N"
+    },
+    "transformation": "the worn hero stone becomes the blank glass monolith"
+   }
+  },
+  {
+   "id": "kaalam",
+   "tamil": "காலம்",
+   "name": "Time, death and impermanence",
+   "accent": "#45484d",
+   "subtitle": "the staff that comes to every youth",
+   "verses": [
+    {
+     "id": "purananuru:243",
+     "book": "purananuru",
+     "group": "ettuthogai_puram",
+     "label_ta": "புறநானூறு 243",
+     "label": "Purananuru 243",
+     "lines": [
+      {
+       "n": 11,
+       "ta": "அளிதோ தானே! யாண்டுண்டு கொல்லோ-"
+      },
+      {
+       "n": 12,
+       "ta": "“தொடித்தலை விழுத்தண்டு ஊன்றி, நடுக்குற்று,"
+      },
+      {
+       "n": 13,
+       "ta": "இருமிடை மிடைந்த சிலசொல்"
+      },
+      {
+       "n": 14,
+       "ta": "பெருமூ தாளரோம்” ஆகிய எமக்கே?"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      14
+     ],
+     "reading": "An old man remembers the untaught youth in which he offered flowers to a doll of packed sand, joined hands with the girls bathing in the cool pond, swayed and embraced with a guileless crowd, climbed the low marutham branch at the ford and leapt into the deep water with a splash while those on the bank gasped, and dived to bring up sand; he pities it, and asks where it is now for him, propped trembling on a ringed staff, a very old man of few words broken by coughing.",
+     "uncertain": false,
+     "concepts": [
+      "ilamai",
+      "nilaiyaamai",
+      "yaakkai"
+     ],
+     "object": "the ringed staff leaned on (தொடித்தலை விழுத்தண்டு)",
+     "asset": null,
+     "new_image": "V4-staff",
+     "prompt": "A long old walking staff of dark polished wood with a bronze ring (toṭi) fitted at its head and a worn iron ferrule at its foot, standing upright as if leaned on by a trembling hand that is not shown. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    },
+    {
+     "id": "naladiyar:11",
+     "book": "naladiyar",
+     "group": "ethics",
+     "label_ta": "நாலடியார் 11",
+     "label": "Naladiyar 11",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "நரைவரும் என்றெண்ணி நல்லறி வாளர்"
+      },
+      {
+       "n": 2,
+       "ta": "குழவி யிடத்தே துறந்தார் - புரைதீரா"
+      },
+      {
+       "n": 3,
+       "ta": "மன்னா இளமை மகிழ்ந்தாரே கோல்ஊன்றி"
+      },
+      {
+       "n": 4,
+       "ta": "இன்னாங் கெழுந்திருப் பார்."
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "Knowing that grey hair will come, the wise renounced in childhood itself, while those who delighted in faulty, fleeting youth will later rise painfully leaning on a staff.",
+     "uncertain": false,
+     "concepts": [
+      "ilamai",
+      "thuravu",
+      "nilaiyaamai"
+     ],
+     "object": "the staff one rises on (கோல்)",
+     "asset": null,
+     "new_image": "V4-staff",
+     "prompt": "A long old walking staff of dark polished wood with a bronze ring (toṭi) fitted at its head and a worn iron ferrule at its foot, standing upright as if leaned on by a trembling hand that is not shown. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    },
+    {
+     "id": "tirumanthiram:848",
+     "book": "tirumanthiram",
+     "group": "devotional",
+     "label_ta": "திருமந்திரம் 848",
+     "label": "Tirumanthiram 848",
+     "lines": [
+      {
+       "n": 1,
+       "ta": "கரையரு கேநின்ற கானல் உவரி"
+      },
+      {
+       "n": 2,
+       "ta": "வரைவரை என்பர் மதியிலா மாந்தர்"
+      },
+      {
+       "n": 3,
+       "ta": "நுரைதிரை நீக்கி நுகரவல் லார்க்கு"
+      },
+      {
+       "n": 4,
+       "ta": "நரைதிரை மாறு நமனுமங் கில்லையே"
+      }
+     ],
+     "lines_shown_of": [
+      1,
+      4
+     ],
+     "reading": "Witless people say the salt water of the shore, near the bank, is to be avoided; for those who can drink it with the froth and scum removed, grey hair and wrinkles change, and Yama is not there either.",
+     "uncertain": true,
+     "concepts": [
+      "marundhu",
+      "kootru",
+      "pedhaimai",
+      "yaakkai"
+     ],
+     "object": "the salt water of the shore, skimmed of its froth (கானல் உவரி, நுரை)",
+     "asset": null,
+     "new_image": "V4-seawater",
+     "prompt": "A shallow bronze bowl holding sea water rendered as clear rippled glass, a skin of white froth carved in marble being skimmed from its surface onto the rim. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides."
+    }
+   ],
+   "links": [
+    {
+     "from": "purananuru:243",
+     "to": "naladiyar:11",
+     "type": "tension",
+     "grade": "sound",
+     "text": "The same image of the old man on a staff serves the Jain moralist as a warning against enjoying youth and the Sangam poet as proof that youth was the best of life, so the later book is arguing against a value the older poetry held.",
+     "text_field": "teaches",
+     "teaches_holds": true,
+     "true_direction": {
+      "s": "purananuru:243",
+      "o": "naladiyar:11",
+      "symmetric": true,
+      "reads": "purananuru:243 and naladiyar:11 (tension; recorded s to o)"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "purananuru_marks"
+    },
+    {
+     "from": "tirumanthiram:848",
+     "to": "naladiyar:11",
+     "type": "tension",
+     "grade": "sound",
+     "text": "The Naladiyar treats grey hair as certain to come, so the wise renounce in childhood; Tirumular says that for those who drink this water grey hair and wrinkles change and Yama is absent. The conflict holds if 848 is read literally of the body, not as a figure for spiritual youth.",
+     "text_field": "note",
+     "teaches_holds": null,
+     "true_direction": {
+      "s": "tirumanthiram:848",
+      "o": "naladiyar:11",
+      "symmetric": true,
+      "reads": "tirumanthiram:848 and naladiyar:11 (tension; recorded s to o)"
+     },
+     "source_file": "kg/groups/bridges.jsonl",
+     "marked_by": "tirumanthiram_marks"
+    }
+   ],
+   "forward": {
+    "text": "The staff came to every youth, and one verse said a skimmed sea water could turn the grey back. In 2526 we can hold the staff off for decades; we ask who gets the long years, and what they are for.",
+    "label": "கற்பனை · imagined",
+    "then": {
+     "asset": null,
+     "new_image": "V4-staff",
+     "prompt": "A long old walking staff of dark polished wood with a bronze ring (toṭi) fitted at its head and a worn iron ferrule at its foot, standing upright as if leaned on by a trembling hand that is not shown. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "object_of": "V4-staff"
+    },
+    "future": {
+     "asset": null,
+     "new_image": "V4-exo-brace",
+     "prompt": "A future walking aid: a slim exoskeleton brace for one leg in polished bronze and white marble, its knee joint a fine gilded hinge, standing upright on its own. Museum-quality sculptural rendering. Objects rendered in their true materials (bronze, brass, copper, stone, palm leaf, glass) with sculptural depth and fine detail; any figure is carved luminous white Carrara marble accented with Chola panchaloha bronze and restrained gold leaf. Soft directional gallery light from the upper left, deep gentle shadows, physically accurate reflections, a single soft contact shadow. Elegant, timeless, refined modern minimalism. Single subject, centred, whole and uncropped, filling about 80% of the frame, on a flat solid pure chroma green #00FF00 background. No scenery, no plinth unless asked, no text, no letters, no watermark. Neutral, untinted white gallery light: the marble stays pure white and the metals keep their true warm colour, with no green cast or green reflections from the background. Square 1:1 image with clear flat green on all four sides.",
+     "object_of": "V4-exo-brace"
+    },
+    "transformation": "the ringed staff becomes a light bronze brace"
+   }
+  }
+ ]
+}
