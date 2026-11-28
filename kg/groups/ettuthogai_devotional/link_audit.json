@@ -4,62 +4,62 @@
   "books": [
    "paripadal"
   ],
-  "links": 136,
+  "links": 144,
   "by_grade": {
-   "sound": 45,
-   "weak": 74,
+   "sound": 47,
+   "weak": 80,
    "forced": 17
   },
-  "sound_pct": 33.1,
-  "sound_or_weak_pct": 87.5,
-  "teaches_failed": 65,
+  "sound_pct": 32.6,
+  "sound_or_weak_pct": 88.2,
+  "teaches_failed": 68,
   "agreement": {
-   "links_graded_more_than_once": 27,
-   "grade_pairs": 81,
-   "exact": 68,
-   "exact_pct": 84.0,
+   "links_graded_more_than_once": 35,
+   "grade_pairs": 89,
+   "exact": 75,
+   "exact_pct": 84.3,
    "kappa_sound": 0.727,
-   "disagreements": 6
+   "disagreements": 7
   },
   "calibration": {
-   "links": 192,
-   "exact": 151,
-   "stricter": 19,
+   "links": 196,
+   "exact": 154,
+   "stricter": 20,
    "more_lenient": 22,
    "exact_pct": 78.6
   },
   "by_book": {
    "paripadal": {
-    "links": 136,
+    "links": 144,
     "by_grade": {
-     "sound": 45,
-     "weak": 74,
+     "sound": 47,
+     "weak": 80,
      "forced": 17
     },
-    "sound_pct": 33.1,
-    "sound_or_weak_pct": 87.5,
-    "teaches_failed": 65,
+    "sound_pct": 32.6,
+    "sound_or_weak_pct": 88.2,
+    "teaches_failed": 68,
     "agreement": {
-     "links_graded_more_than_once": 27,
-     "grade_pairs": 81,
-     "exact": 68,
-     "exact_pct": 84.0,
+     "links_graded_more_than_once": 35,
+     "grade_pairs": 89,
+     "exact": 75,
+     "exact_pct": 84.3,
      "kappa_sound": 0.727,
-     "disagreements": 6
+     "disagreements": 7
     },
     "calibration": {
-     "links": 192,
-     "exact": 151,
-     "stricter": 19,
+     "links": 196,
+     "exact": 154,
+     "stricter": 20,
      "more_lenient": 22,
      "exact_pct": 78.6
     },
     "group": "ettuthogai_devotional",
     "marker_models": {
-     "opus": 136
+     "opus": 144
     },
     "grader_models": {
-     "opus": 178,
+     "opus": 194,
      "sonnet": 6
     }
    }
@@ -92,29 +92,29 @@
     }
    },
    "ethics": {
-    "links": 45,
+    "links": 48,
     "by_grade": {
-     "sound": 10,
-     "weak": 25,
+     "sound": 11,
+     "weak": 27,
      "forced": 10
     },
-    "sound_pct": 22.2,
-    "sound_or_weak_pct": 77.8,
-    "teaches_failed": 26,
+    "sound_pct": 22.9,
+    "sound_or_weak_pct": 79.2,
+    "teaches_failed": 28,
     "agreement": {
-     "links_graded_more_than_once": 5,
-     "grade_pairs": 12,
-     "exact": 12,
+     "links_graded_more_than_once": 8,
+     "grade_pairs": 15,
+     "exact": 15,
      "exact_pct": 100.0,
      "kappa_sound": 1.0,
      "disagreements": 0
     },
     "calibration": {
-     "links": 134,
-     "exact": 104,
-     "stricter": 11,
+     "links": 138,
+     "exact": 107,
+     "stricter": 12,
      "more_lenient": 19,
-     "exact_pct": 77.6
+     "exact_pct": 77.5
     }
    },
    "ettuthogai_akam": {
@@ -144,26 +144,26 @@
     }
    },
    "ettuthogai_devotional": {
-    "links": 24,
+    "links": 29,
     "by_grade": {
-     "sound": 14,
-     "weak": 10
+     "sound": 15,
+     "weak": 14
     },
-    "sound_pct": 58.3,
+    "sound_pct": 51.7,
     "sound_or_weak_pct": 100.0,
-    "teaches_failed": 5,
+    "teaches_failed": 6,
     "agreement": {
-     "links_graded_more_than_once": 3,
-     "grade_pairs": 3,
-     "exact": 3,
-     "exact_pct": 100.0,
-     "kappa_sound": 1.0,
-     "disagreements": 0
+     "links_graded_more_than_once": 8,
+     "grade_pairs": 8,
+     "exact": 7,
+     "exact_pct": 87.5,
+     "kappa_sound": 0.714,
+     "disagreements": 1
     },
     "calibration": {
-     "links": 88,
-     "exact": 66,
-     "stricter": 11,
+     "links": 92,
+     "exact": 69,
+     "stricter": 12,
      "more_lenient": 11,
      "exact_pct": 75.0
     }
@@ -3669,6 +3669,358 @@
    ],
    "reasons": [
     "இரு பிறப்பு ... அந்தணர் அறன் அமர்ந்தோயே (Par 14.27-28) against இருபிறப்பாளர் ... பெரிதுஉவந்து ஏரகத்து உறைதலும் உரியன் (TMP 182-189). In both the god is said to delight in the brahmins' worship. The idyll's detail does fill out the Paripadal's terse count."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "paripadal:15:1-18",
+   "b": "paripadal:13:1-13",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 2,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "Both join துறக்கம் with உரிமை: song 13's chest holds the worshippers' heaven by right (தொழுவோர்க்கு உரிது அமர் துறக்கமும் உரிமை நன்கு உடைத்து), song 15's hill makes the hard-won heaven easy by right (அரிதின் பெறு துறக்கம் மாலிருங்குன்றம் எளிதின் பெறல் உரிமை). The move of the same right from the god's body to a hill one can reach is accurate; only 'near Madurai' comes from outside the text.",
+   "text_issue": null,
+   "chapter": 13,
+   "book": "paripadal",
+   "target_book": "paripadal",
+   "group_a": "ettuthogai_devotional",
+   "group_b": "ettuthogai_devotional",
+   "marker_model": "opus",
+   "proposed_in": "wave7",
+   "grades": [
+    {
+     "run": "wave7",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave7",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Both join துறக்கம் with உரிமை: song 13's chest holds the worshippers' heaven by right (தொழுவோர்க்கு உரிது அமர் துறக்கமும் உரிமை நன்கு உடைத்து), song 15's hill makes the hard-won heaven easy by right (அரிதின் பெறு துறக்கம் மாலிருங்குன்றம் எளிதின் பெறல் உரிமை). The move of the same right from the god's body to a hill one can reach is accurate; only 'near Madurai' comes from outside the text.",
+    "Both lean on the same two words, துறக்கம் and உரிமை. Song 13 says the god's திரு வரை அகலம் தொழுவோர்க்கு உரிது அமர் துறக்கமும் உரிமை நன்கு உடைத்து; song 15 says அரிதின் பெறு துறக்கம் மாலிருங்குன்றம் எளிதின் பெறல் உரிமை. The move from a chest already called a வரை to a real hill makes the pair instructive. Only the 'first ... then' order is assumed."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "paripadal:15:1-18",
+   "b": "paripadal:thirattu:12",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 2,
+   "disagree": true,
+   "better_type": "tension",
+   "teaches_holds": true,
+   "reason": "The contrast is sharp and real. Thirattu 12 says of Koodal and Parankunram வாழ்வாரே வாழ்வார் ... போவார் ஆர் புத்தேள் உலகு. Song 15 keeps துறக்கம் as the goal and praises மாலிருங்குன்றம் for எளிதின் பெறல். On whether heaven is worth wanting the claims are incompatible, so this is a tension rather than a qualification. Calling the thirattu's unnamed poet a 'Madurai poet' goes beyond the colophon.",
+   "text_issue": null,
+   "chapter": 13,
+   "book": "paripadal",
+   "target_book": "paripadal",
+   "group_a": "ettuthogai_devotional",
+   "group_b": "ettuthogai_devotional",
+   "marker_model": "opus",
+   "proposed_in": "wave7",
+   "grades": [
+    {
+     "run": "wave7",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave7",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "tension",
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The thirattu fragment says those living in Koodal and Parankunram alone truly live and asks who would go to the gods' world (மற்றையார் போவார் ஆர், புத்தேள் உலகு?), while song 15 keeps heaven as the goal and makes the hill the easy road to it (அரிதின் பெறு துறக்கம் ... எளிதின் பெறல் உரிமை). Substitute versus gate is a precise and true difference between two praises of Madurai-region hills.",
+    "The contrast is sharp and real. Thirattu 12 says of Koodal and Parankunram வாழ்வாரே வாழ்வார் ... போவார் ஆர் புத்தேள் உலகு. Song 15 keeps துறக்கம் as the goal and praises மாலிருங்குன்றம் for எளிதின் பெறல். On whether heaven is worth wanting the claims are incompatible, so this is a tension rather than a qualification. Calling the thirattu's unnamed poet a 'Madurai poet' goes beyond the colophon."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "paripadal:15:38-53",
+   "b": "kural:4",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 2,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": false,
+   "reason": "The verbal pairing is good: the Kural's யாண்டும் இடும்பை இல for those who reach the feet (அடி சேர்ந்தார்க்கு) against the hymn's god who appears எவ்வயின் உலகத்தும் and removes suffering (துன்பம் களைவோன்). But the core is the shared topic that the god ends suffering, and 'inward arrival' reads more into அடி சேர்தல் than the Kural states; the hymn also keeps the devotee moving (செல்மின்), so the contrast of who moves is partial.",
+   "text_issue": "line 39 is not in the outside reading",
+   "chapter": 13,
+   "book": "paripadal",
+   "target_book": "kural",
+   "group_a": "ettuthogai_devotional",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave7",
+   "grades": [
+    {
+     "run": "wave7",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave7",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The verbal pairing is good: the Kural's யாண்டும் இடும்பை இல for those who reach the feet (அடி சேர்ந்தார்க்கு) against the hymn's god who appears எவ்வயின் உலகத்தும் and removes suffering (துன்பம் களைவோன்). But the core is the shared topic that the god ends suffering, and 'inward arrival' reads more into அடி சேர்தல் than the Kural states; the hymn also keeps the devotee moving (செல்மின்), so the contrast of who moves is partial.",
+    "Both say the god ends suffering anywhere: யாண்டும் இடும்பை இல in the Kural, and எவ்வயின் உலகத்தும் தோன்றி ... துன்பம் களைவோன் in the hymn. That shared claim is the whole link. 'Inward arrival' is imposed on the Kural's அடி சேர்ந்தார், which may as well be reaching the feet, just as the hymn's pilgrims go to the hill. Neither verse limits the other."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "paripadal:15:54-66",
+   "b": "paripadal:13:22-36",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 2,
+   "disagree": false,
+   "better_type": "tension",
+   "teaches_holds": true,
+   "reason": "The contrast is real and specific: song 13 makes the plough-bearer one of three forms of a single god (வளை வாய் நாஞ்சிலோனும் ... மூஉரு ஆகிய தலைபிரி ஒருவனை), while song 15 bows to two (பெரும் பெயர் இருவரை). But the note's key phrase வேறு வேறு உருவின் ஒரு தொழில் இருவர் and the word-and-meaning simile are from 15.12-13, outside the linked span 54-66; and two incompatible theologies of the pair is a tension rather than a qualification.",
+   "text_issue": "13.24-25 lineation is off; 15.64 was repaired",
+   "chapter": 13,
+   "book": "paripadal",
+   "target_book": "paripadal",
+   "group_a": "ettuthogai_devotional",
+   "group_b": "ettuthogai_devotional",
+   "marker_model": "opus",
+   "proposed_in": "wave7",
+   "grades": [
+    {
+     "run": "wave7",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "tension",
+     "teaches_holds": true
+    },
+    {
+     "run": "wave7",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The contrast is real and specific: song 13 makes the plough-bearer one of three forms of a single god (வளை வாய் நாஞ்சிலோனும் ... மூஉரு ஆகிய தலைபிரி ஒருவனை), while song 15 bows to two (பெரும் பெயர் இருவரை). But the note's key phrase வேறு வேறு உருவின் ஒரு தொழில் இருவர் and the word-and-meaning simile are from 15.12-13, outside the linked span 54-66; and two incompatible theologies of the pair is a tension rather than a qualification.",
+    "The contrast is real. Song 13 makes the நாஞ்சிலோன் one of three forms of மூஉரு ஆகிய தலைபிரி ஒருவன், and song 15 bows to பெரும் பெயர் இருவரை. However, the note's deciding phrase வேறு வேறு உருவின் ஒரு தொழில் இருவர், and the word-and-meaning simile in the teaches line, come from 15.12-13, outside the linked span 54-66. The two views are also not strictly opposed, since தலைபிரி ஒருவன் already allows division."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "paripadal:15:54-66",
+   "b": "paripadal:1:1-13",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 2,
+   "disagree": false,
+   "better_type": "same_image",
+   "teaches_holds": false,
+   "reason": "The shared emblems are real: ஒரு குழை, வளை நாஞ்சில் and the bird banner (புள் அணி பொலங் கொடி / சேவல் அம் கொடியோய்) occur in both. But the teaches sentence inverts the evidence: song 1 runs both sets of marks into one singular address (ஒரு குழை ஒருவனை ... கண்ணை, மேனியை ... கொடியோய்), while song 15 ends by bowing to two (பெரும் பெயர் இருவரைப் பரவுதும்), so 15 is not the one that fuses them into 'one double deity', and 'hardening' implies a chronology the texts do not show.",
+   "text_issue": "15.64 repaired from an outside reading; in 1.4 the sense of வேழம் is insecure",
+   "chapter": 13,
+   "book": "paripadal",
+   "target_book": "paripadal",
+   "group_a": "ettuthogai_devotional",
+   "group_b": "ettuthogai_devotional",
+   "marker_model": "opus",
+   "proposed_in": "wave7",
+   "grades": [
+    {
+     "run": "wave7",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "same_image",
+     "teaches_holds": false
+    },
+    {
+     "run": "wave7",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "same_image",
+     "teaches_holds": false
+    }
+   ],
+   "reasons": [
+    "The shared emblems are real: ஒரு குழை, வளை நாஞ்சில் and the bird banner (புள் அணி பொலங் கொடி / சேவல் அம் கொடியோய்) occur in both. But the teaches sentence inverts the evidence: song 1 runs both sets of marks into one singular address (ஒரு குழை ஒருவனை ... கண்ணை, மேனியை ... கொடியோய்), while song 15 ends by bowing to two (பெரும் பெயர் இருவரைப் பரவுதும்), so 15 is not the one that fuses them into 'one double deity', and 'hardening' implies a chronology the texts do not show.",
+    "The emblems really are shared: ஒரு குழை, வளை நாஞ்சில் and the bird banner (சேவல் அம் கொடி / புள் அணி பொலங் கொடி) appear in both. But song 1 does not cleanly 'keep the brothers apart': it runs from ஒரு குழை ஒருவனை straight on to a single addressee (கண்ணை, மேனியை, கொடியோய்). Song 15's -அவை plurals end in பெரும் பெயர் இருவரை. Nothing in either text dates one before the other, so 'hardening into a shared catalogue' is not shown. This is a shared-emblem pairing, not a development."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "paripadal:16:1-19",
+   "b": "kural:215",
+   "type": "qualifies",
+   "grade": "weak",
+   "graders": 2,
+   "disagree": false,
+   "better_type": "same_image",
+   "teaches_holds": false,
+   "reason": "The Kural likens the wise man's wealth to a full tank (ஊருணி நீர்நிறைந் தற்றே ... பேரறிவாளன் திரு); Paripadal 16 likens the banks, worn away as they lose pepper, sandal and curd foam, to a generous lord's giving (கை வண் தோன்றல் ஈகை போன்ம் ... மீதுமீது அழியும்). The reversal of the water-and-giving figure is a real observation, but the teaches sentence garbles it (in the Paripadal the bank, not the water, is the giver), and a village tank and a flood eroding banks share little beyond water and generosity.",
+   "text_issue": "the restored ொ in 16.2-3 is not confirmed by the outside reading",
+   "chapter": 13,
+   "book": "paripadal",
+   "target_book": "kural",
+   "group_a": "ettuthogai_devotional",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave7",
+   "grades": [
+    {
+     "run": "wave7",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "same_image",
+     "teaches_holds": false
+    },
+    {
+     "run": "wave7",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The Kural likens the wise man's wealth to a full tank (ஊருணி நீர்நிறைந் தற்றே ... பேரறிவாளன் திரு); Paripadal 16 likens the banks, worn away as they lose pepper, sandal and curd foam, to a generous lord's giving (கை வண் தோன்றல் ஈகை போன்ம் ... மீதுமீது அழியும்). The reversal of the water-and-giving figure is a real observation, but the teaches sentence garbles it (in the Paripadal the bank, not the water, is the giver), and a village tank and a flood eroding banks share little beyond water and generosity.",
+    "The two figures are inverses. The Kural likens a wise man's wealth to water (ஊருணி நீர்நிறைந் தற்றே), and the Paripadal likens the banks that மீதுமீது அழியும் to கை வண் தோன்றல் ஈகை. The inversion is accurately described. But a village tank and a flooding river are different images, and the Kural says nothing the Paripadal limits, so 'qualifies' does not fit. What the pair has is a water-and-giving topic with a neat reversal."
+   ],
+   "within_group": false
+  },
+  {
+   "a": "paripadal:16:32-38",
+   "b": "paripadal:12:75-85",
+   "type": "develops",
+   "grade": "weak",
+   "graders": 2,
+   "disagree": false,
+   "better_type": "same_image",
+   "teaches_holds": true,
+   "reason": "Both make the Vaiyai an image of heaven: in 12 the clear settled water shows heaven's beauty (தேறித் தெளிந்து ... துறக்கத்து எழிலைத் தன் நீர் நிழல் காட்டும்), in 16 the strewn flowers from hair and chests (மடவார் ... தண் போது, மைந்தர் ... மலர் இதழ்) make it like the sky of the star-flowered Ganga (மீன் ஆரம் பூத்த வியன் கங்கை). The stillness-versus-flower-litter contrast in teaches is accurate, but neither poem extends the other; it is a shared figure used two ways.",
+   "text_issue": "16.33: a heading line was dropped, so check by eye",
+   "chapter": 13,
+   "book": "paripadal",
+   "target_book": "paripadal",
+   "group_a": "ettuthogai_devotional",
+   "group_b": "ettuthogai_devotional",
+   "marker_model": "opus",
+   "proposed_in": "wave7",
+   "grades": [
+    {
+     "run": "wave7",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "same_image",
+     "teaches_holds": true
+    },
+    {
+     "run": "wave7",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "weak",
+     "better_type": "same_image",
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "Both make the Vaiyai an image of heaven: in 12 the clear settled water shows heaven's beauty (தேறித் தெளிந்து ... துறக்கத்து எழிலைத் தன் நீர் நிழல் காட்டும்), in 16 the strewn flowers from hair and chests (மடவார் ... தண் போது, மைந்தர் ... மலர் இதழ்) make it like the sky of the star-flowered Ganga (மீன் ஆரம் பூத்த வியன் கங்கை). The stillness-versus-flower-litter contrast in teaches is accurate, but neither poem extends the other; it is a shared figure used two ways.",
+    "The two share an image: the Vaiyai as the world above. In 12 the settled water shows heaven by reflection (தேறித் தெளிந்து ... துறக்கத்து எழிலைத் தன் நீர் நிழல் காட்டும்); in 16 the flower-strewn flood is like the sky where மீன் ஆரம் பூத்த வியன் கங்கை has passed. Neither extends the other: 12 has துறக்கம் mirrored, 16 has வானம் matched by simile. The stillness-versus-litter contrast is accurate. The poets' names (நல்வழுதியார், நல்வழிசியார்) are close enough that 'another poet' is uncertain."
+   ],
+   "within_group": true
+  },
+  {
+   "a": "paripadal:16:48-55",
+   "b": "kural:18",
+   "type": "develops",
+   "grade": "sound",
+   "graders": 2,
+   "disagree": false,
+   "better_type": null,
+   "teaches_holds": true,
+   "reason": "The hymn's prayer echoes the couplet's terms: மறாஅற்க, வானம் ... வறாஅற்க, வைகை against வானம் வறக்குமேல், and it names the rites that would cease (சாந்தும், கோதையும், பூத்த புகையும், அவியும் புலராமை) where the Kural says சிறப்பொடு பூசனை செல்லாது. The rule stated as a warning and the same dependence voiced as a prayer at the festival is specific and true.",
+   "text_issue": "16.50: a heading line was dropped, so check by eye",
+   "chapter": 13,
+   "book": "paripadal",
+   "target_book": "kural",
+   "group_a": "ettuthogai_devotional",
+   "group_b": "ethics",
+   "marker_model": "opus",
+   "proposed_in": "wave7",
+   "grades": [
+    {
+     "run": "wave7",
+     "grader": "g1",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave7",
+     "grader": "g2",
+     "model": "opus",
+     "role": "proposal",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    }
+   ],
+   "reasons": [
+    "The hymn's prayer echoes the couplet's terms: மறாஅற்க, வானம் ... வறாஅற்க, வைகை against வானம் வறக்குமேல், and it names the rites that would cease (சாந்தும், கோதையும், பூத்த புகையும், அவியும் புலராமை) where the Kural says சிறப்பொடு பூசனை செல்லாது. The rule stated as a warning and the same dependence voiced as a prayer at the festival is specific and true.",
+    "The tie is verbal and logical. The Kural says சிறப்பொடு பூசனை செல்லாது வானம் வறக்குமேல். The hymn prays that the offerings (புகையும் அவியும் புலராமை) be kept by asking மறாஅற்க வானம் and வறாஅற்க வைகை. The general rule that worship depends on rain becomes a festival prayer, a real application."
    ],
    "within_group": false
   },

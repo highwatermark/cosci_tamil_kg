@@ -20,10 +20,10 @@
   "teaches_failed": 921,
   "agreement": {
    "links_graded_more_than_once": 219,
-   "grade_pairs": 357,
-   "exact": 252,
-   "exact_pct": 70.6,
-   "kappa_sound": 0.549,
+   "grade_pairs": 364,
+   "exact": 259,
+   "exact_pct": 71.2,
+   "kappa_sound": 0.559,
    "disagreements": 74
   },
   "calibration": {
@@ -151,10 +151,10 @@
     "teaches_failed": 104,
     "agreement": {
      "links_graded_more_than_once": 63,
-     "grade_pairs": 104,
-     "exact": 80,
-     "exact_pct": 76.9,
-     "kappa_sound": 0.65,
+     "grade_pairs": 111,
+     "exact": 87,
+     "exact_pct": 78.4,
+     "kappa_sound": 0.676,
      "disagreements": 18
     },
     "calibration": {
@@ -169,7 +169,7 @@
      "opus": 374
     },
     "grader_models": {
-     "opus": 446,
+     "opus": 448,
      "sonnet": 7
     }
    },
@@ -249,10 +249,10 @@
     "teaches_failed": 423,
     "agreement": {
      "links_graded_more_than_once": 100,
-     "grade_pairs": 153,
-     "exact": 113,
-     "exact_pct": 73.9,
-     "kappa_sound": 0.683,
+     "grade_pairs": 160,
+     "exact": 120,
+     "exact_pct": 75.0,
+     "kappa_sound": 0.694,
      "disagreements": 32
     },
     "calibration": {
@@ -61146,7 +61146,7 @@
    "b": "silappathikaram:16:148-163",
    "type": "qualifies",
    "grade": "sound",
-   "graders": 3,
+   "graders": 5,
    "disagree": false,
    "better_type": null,
    "teaches_holds": true,
@@ -61186,12 +61186,32 @@
      "grade": "sound",
      "better_type": null,
      "teaches_holds": true
+    },
+    {
+     "run": "wave7",
+     "grader": "g1",
+     "model": "opus",
+     "role": "calibration",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave7",
+     "grader": "g2",
+     "model": "opus",
+     "role": "calibration",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
     }
    ],
    "reasons": [
     "தேரா மன்னா against வினைவிளை கால மாதலின் ... தேரான் ஆகி gives the same failure as guilt in Kannaki's voice and as karma's hour in the narrator's. Her own ஊழ்வினை துரப்ப (69) supports the claim that the epic holds both causes.",
     "வினைவிளை காலம் ஆதலின் ... தேரான் ஆகி (16.148-149) in the narrator's voice, and தேரா மன்னா (60) beside ஊழ்வினை துரப்ப (69) in Kannaki's. The same failure is given both causes, and teaches states this exactly.",
-    "The narrator's வினைவிளை காலம் ... தேரான் ஆகி and Kannaki's தேரா மன்னா with ஊழ்வினை துரப்ப do put the same failure to inquire under karma and under guilt. The pair shows both causes held together; the note is accurate on both ends."
+    "The narrator's வினைவிளை காலம் ... தேரான் ஆகி and Kannaki's தேரா மன்னா with ஊழ்வினை துரப்ப do put the same failure to inquire under karma and under guilt. The pair shows both causes held together; the note is accurate on both ends.",
+    "The narrator gives the king's failure a karmic cause (வினைவிளை காலம் ஆதலின் ... தேரான் ஆகி, 148-149), and Kannaki names the same failure as his fault (தேரா மன்னா, 60) while herself saying Kovalan came because ஊழ்வினை துரப்ப (69). The verbal echo தேரான்/தேரா and her double attribution make the teaches sentence specific and accurate.",
+    "The echo is exact. The narrator's வினைவிளை கால மாதலின் ... வேம்பன் தேரான் ஆகி becomes Kannaki's charge தேரா மன்னா, and she herself also says ஊழ்வினை துரப்ப (69). The pair shows one failure framed by karma in one voice and as guilt in another, with both causes kept, which neither passage shows alone."
    ],
    "within_group": true
   },

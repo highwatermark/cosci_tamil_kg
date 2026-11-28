@@ -14,8 +14,8 @@
   ],
   "links": 1281,
   "by_grade": {
-   "sound": 632,
-   "weak": 595,
+   "sound": 631,
+   "weak": 596,
    "forced": 51,
    "wrong": 3
   },
@@ -24,11 +24,11 @@
   "teaches_failed": 305,
   "agreement": {
    "links_graded_more_than_once": 246,
-   "grade_pairs": 567,
-   "exact": 373,
-   "exact_pct": 65.8,
-   "kappa_sound": 0.402,
-   "disagreements": 104
+   "grade_pairs": 574,
+   "exact": 376,
+   "exact_pct": 65.5,
+   "kappa_sound": 0.396,
+   "disagreements": 105
   },
   "calibration": {
    "links": 160,
@@ -211,20 +211,20 @@
    "nanmanikkadigai": {
     "links": 146,
     "by_grade": {
-     "sound": 71,
-     "weak": 70,
+     "sound": 70,
+     "weak": 71,
      "forced": 5
     },
-    "sound_pct": 48.6,
+    "sound_pct": 47.9,
     "sound_or_weak_pct": 96.6,
     "teaches_failed": 33,
     "agreement": {
      "links_graded_more_than_once": 28,
-     "grade_pairs": 64,
-     "exact": 36,
-     "exact_pct": 56.2,
-     "kappa_sound": 0.168,
-     "disagreements": 15
+     "grade_pairs": 71,
+     "exact": 39,
+     "exact_pct": 54.9,
+     "kappa_sound": 0.132,
+     "disagreements": 16
     },
     "calibration": {
      "links": 84,
@@ -238,7 +238,7 @@
      "opus": 146
     },
     "grader_models": {
-     "opus": 185,
+     "opus": 187,
      "sonnet": 4
     }
    },
@@ -400,21 +400,21 @@
    "ethics": {
     "links": 1239,
     "by_grade": {
-     "sound": 616,
-     "weak": 574,
+     "sound": 615,
+     "weak": 575,
      "forced": 46,
      "wrong": 3
     },
-    "sound_pct": 49.7,
+    "sound_pct": 49.6,
     "sound_or_weak_pct": 96.0,
     "teaches_failed": 291,
     "agreement": {
      "links_graded_more_than_once": 235,
-     "grade_pairs": 547,
-     "exact": 362,
-     "exact_pct": 66.2,
-     "kappa_sound": 0.412,
-     "disagreements": 98
+     "grade_pairs": 554,
+     "exact": 365,
+     "exact_pct": 65.9,
+     "kappa_sound": 0.406,
+     "disagreements": 99
     },
     "calibration": {
      "links": 160,
@@ -18510,12 +18510,12 @@
    "a": "nanmanikkadigai:70",
    "b": "kural:83",
    "type": "develops",
-   "grade": "sound",
-   "graders": 3,
-   "disagree": false,
+   "grade": "weak",
+   "graders": 5,
+   "disagree": true,
    "better_type": null,
    "teaches_holds": true,
-   "reason": "83 promises only that the host's life does not fall (பாழ்படுதல் இன்று). தான்கொடுக்குஞ் சோற்றான் வீறெய்தும் குடி makes giving food the source of the family's glory, a true step beyond the couplet. In the list the bull's glory comes from its இனநிரை and the town's good from பல்லார் உறையின், which fits list_adds.",
+   "reason": "Kural 83 says the host's life is not ruined (பருவந்து பாழ்படுதல் இன்று); the Nanmanikkadigai says a family gains distinction by the food it gives (தான்கொடுக்குஞ் சோற்றான் வீறெய்தும் குடி). The step from 'safe' to 'ennobling' is accurate but small, on the didactic books' stock topic of feeding; the Kural is about guests (வருவிருந்து), the other about food given in general. (The marked reading also inverts line 3: the herd gains glory by its bull, ஏற்றான் வீறெய்தும் இனநிரை, though this does not affect the link.)",
    "text_issue": null,
    "chapter": 4,
    "book": "nanmanikkadigai",
@@ -18551,12 +18551,32 @@
      "grade": "sound",
      "better_type": null,
      "teaches_holds": true
+    },
+    {
+     "run": "wave7",
+     "grader": "g1",
+     "model": "opus",
+     "role": "calibration",
+     "grade": "weak",
+     "better_type": null,
+     "teaches_holds": true
+    },
+    {
+     "run": "wave7",
+     "grader": "g2",
+     "model": "opus",
+     "role": "calibration",
+     "grade": "sound",
+     "better_type": null,
+     "teaches_holds": true
     }
    ],
    "reasons": [
     "83 promises only that the host's life does not fall (பாழ்படுதல் இன்று). தான்கொடுக்குஞ் சோற்றான் வீறெய்தும் குடி makes giving food the source of the family's glory, a true step beyond the couplet. In the list the bull's glory comes from its இனநிரை and the town's good from பல்லார் உறையின், which fits list_adds.",
     "தான்கொடுக்குஞ் சோற்றான் வீறெய்தும் குடி claims more than the Kural's பருவந்து பாழ்படுதல் இன்று, that feeding gives a house distinction, not only safety, so develops fits. List_adds is fair: the bull's glory from its herd (இனநிரை) and the town's from its many residents parallel the family's glory from those it feeds.",
-    "Kural 83 makes the negative claim பாழ்படுதல் இன்று, and the verse makes the positive one, சோற்றான் வீறெய்தும் குடி. The step from 'not ruined' to 'gains distinction' is specific and is the verse's own word வீறு."
+    "Kural 83 makes the negative claim பாழ்படுதல் இன்று, and the verse makes the positive one, சோற்றான் வீறெய்தும் குடி. The step from 'not ruined' to 'gains distinction' is specific and is the verse's own word வீறு.",
+    "Kural 83 says the host's life is not ruined (பருவந்து பாழ்படுதல் இன்று); the Nanmanikkadigai says a family gains distinction by the food it gives (தான்கொடுக்குஞ் சோற்றான் வீறெய்தும் குடி). The step from 'safe' to 'ennobling' is accurate but small, on the didactic books' stock topic of feeding; the Kural is about guests (வருவிருந்து), the other about food given in general. (The marked reading also inverts line 3: the herd gains glory by its bull, ஏற்றான் வீறெய்தும் இனநிரை, though this does not affect the link.)",
+    "The Kural's claim is negative: one who வருவிருந்து வைகலும் ஓம்புவான் will not fall to ruin (பருவந்து பாழ்படுதல் இன்று). The quatrain makes it positive: a family gains வீறு by the food it gives (தான் கொடுக்குஞ் சோற்றான் வீறெய்தும் குடி). The step from 'not ruined' to 'distinguished' is specific and stated in the Tamil of each."
    ],
    "within_group": true,
    "list_adds_holds": true

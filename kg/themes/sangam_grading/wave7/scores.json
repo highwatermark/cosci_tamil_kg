@@ -1,0 +1,377 @@
+{
+ "brief": "sangam",
+ "part_a": {
+  "g1": {
+   "total": {
+    "weak": 14,
+    "n": 20,
+    "teaches_false": 7,
+    "forced": 1,
+    "sound": 5
+   },
+   "by book": {
+    "paripadal": {
+     "weak": 5,
+     "n": 8,
+     "teaches_false": 2,
+     "sound": 3
+    },
+    "pattupattu": {
+     "weak": 9,
+     "n": 12,
+     "teaches_false": 5,
+     "forced": 1,
+     "sound": 2
+    }
+   },
+   "by target book": {
+    "paripadal": {
+     "weak": 3,
+     "n": 5,
+     "teaches_false": 1,
+     "sound": 2
+    },
+    "tirumanthiram": {
+     "weak": 2,
+     "n": 3,
+     "teaches_false": 2,
+     "sound": 1
+    },
+    "thiruppugazh": {
+     "forced": 1,
+     "n": 6,
+     "teaches_false": 2,
+     "weak": 4,
+     "sound": 1
+    },
+    "siddhar": {
+     "weak": 3,
+     "n": 3,
+     "teaches_false": 1
+    },
+    "kural": {
+     "weak": 2,
+     "n": 3,
+     "teaches_false": 1,
+     "sound": 1
+    }
+   },
+   "within/cross group": {
+    "within ettuthogai_devotional": {
+     "weak": 3,
+     "n": 5,
+     "teaches_false": 1,
+     "sound": 2
+    },
+    "cross pattupattu->devotional": {
+     "weak": 9,
+     "n": 12,
+     "teaches_false": 5,
+     "forced": 1,
+     "sound": 2
+    },
+    "cross ettuthogai_devotional->ethics": {
+     "weak": 2,
+     "n": 3,
+     "teaches_false": 1,
+     "sound": 1
+    }
+   },
+   "by type": {
+    "develops": {
+     "weak": 7,
+     "n": 11,
+     "teaches_false": 3,
+     "forced": 1,
+     "sound": 3
+    },
+    "qualifies": {
+     "weak": 4,
+     "n": 5,
+     "teaches_false": 2,
+     "sound": 1
+    },
+    "tension": {
+     "weak": 3,
+     "n": 3,
+     "teaches_false": 2
+    },
+    "agrees": {
+     "sound": 1,
+     "n": 1,
+     "teaches_false": 0
+    }
+   },
+   "within vs cross (all)": {
+    "within": {
+     "weak": 3,
+     "n": 5,
+     "teaches_false": 1,
+     "sound": 2
+    },
+    "cross": {
+     "weak": 11,
+     "n": 15,
+     "teaches_false": 6,
+     "forced": 1,
+     "sound": 3
+    }
+   }
+  },
+  "g2": {
+   "total": {
+    "weak": 15,
+    "n": 20,
+    "teaches_false": 9,
+    "forced": 1,
+    "sound": 4
+   },
+   "by book": {
+    "paripadal": {
+     "weak": 6,
+     "n": 8,
+     "teaches_false": 2,
+     "sound": 2
+    },
+    "pattupattu": {
+     "weak": 9,
+     "n": 12,
+     "teaches_false": 7,
+     "forced": 1,
+     "sound": 2
+    }
+   },
+   "by target book": {
+    "paripadal": {
+     "weak": 4,
+     "n": 5,
+     "teaches_false": 1,
+     "sound": 1
+    },
+    "tirumanthiram": {
+     "weak": 2,
+     "n": 3,
+     "teaches_false": 2,
+     "sound": 1
+    },
+    "thiruppugazh": {
+     "forced": 1,
+     "n": 6,
+     "teaches_false": 5,
+     "weak": 4,
+     "sound": 1
+    },
+    "siddhar": {
+     "weak": 3,
+     "n": 3,
+     "teaches_false": 0
+    },
+    "kural": {
+     "weak": 2,
+     "n": 3,
+     "teaches_false": 1,
+     "sound": 1
+    }
+   },
+   "within/cross group": {
+    "within ettuthogai_devotional": {
+     "weak": 4,
+     "n": 5,
+     "teaches_false": 1,
+     "sound": 1
+    },
+    "cross pattupattu->devotional": {
+     "weak": 9,
+     "n": 12,
+     "teaches_false": 7,
+     "forced": 1,
+     "sound": 2
+    },
+    "cross ettuthogai_devotional->ethics": {
+     "weak": 2,
+     "n": 3,
+     "teaches_false": 1,
+     "sound": 1
+    }
+   },
+   "by type": {
+    "develops": {
+     "weak": 7,
+     "n": 11,
+     "teaches_false": 6,
+     "forced": 1,
+     "sound": 3
+    },
+    "qualifies": {
+     "weak": 5,
+     "n": 5,
+     "teaches_false": 2
+    },
+    "tension": {
+     "weak": 3,
+     "n": 3,
+     "teaches_false": 1
+    },
+    "agrees": {
+     "sound": 1,
+     "n": 1,
+     "teaches_false": 0
+    }
+   },
+   "within vs cross (all)": {
+    "within": {
+     "weak": 4,
+     "n": 5,
+     "teaches_false": 1,
+     "sound": 1
+    },
+    "cross": {
+     "weak": 11,
+     "n": 15,
+     "teaches_false": 8,
+     "forced": 1,
+     "sound": 3
+    }
+   }
+  },
+  "pooled": {
+   "total": {
+    "weak": 29,
+    "n": 40,
+    "teaches_false": 16,
+    "forced": 2,
+    "sound": 9
+   },
+   "by book": {
+    "paripadal": {
+     "weak": 11,
+     "n": 16,
+     "teaches_false": 4,
+     "sound": 5
+    },
+    "pattupattu": {
+     "weak": 18,
+     "n": 24,
+     "teaches_false": 12,
+     "forced": 2,
+     "sound": 4
+    }
+   },
+   "by target book": {
+    "paripadal": {
+     "weak": 7,
+     "n": 10,
+     "teaches_false": 2,
+     "sound": 3
+    },
+    "tirumanthiram": {
+     "weak": 4,
+     "n": 6,
+     "teaches_false": 4,
+     "sound": 2
+    },
+    "thiruppugazh": {
+     "forced": 2,
+     "n": 12,
+     "teaches_false": 7,
+     "weak": 8,
+     "sound": 2
+    },
+    "siddhar": {
+     "weak": 6,
+     "n": 6,
+     "teaches_false": 1
+    },
+    "kural": {
+     "weak": 4,
+     "n": 6,
+     "teaches_false": 2,
+     "sound": 2
+    }
+   },
+   "within/cross group": {
+    "within ettuthogai_devotional": {
+     "weak": 7,
+     "n": 10,
+     "teaches_false": 2,
+     "sound": 3
+    },
+    "cross pattupattu->devotional": {
+     "weak": 18,
+     "n": 24,
+     "teaches_false": 12,
+     "forced": 2,
+     "sound": 4
+    },
+    "cross ettuthogai_devotional->ethics": {
+     "weak": 4,
+     "n": 6,
+     "teaches_false": 2,
+     "sound": 2
+    }
+   },
+   "by type": {
+    "develops": {
+     "weak": 14,
+     "n": 22,
+     "teaches_false": 9,
+     "forced": 2,
+     "sound": 6
+    },
+    "qualifies": {
+     "weak": 9,
+     "n": 10,
+     "teaches_false": 4,
+     "sound": 1
+    },
+    "tension": {
+     "weak": 6,
+     "n": 6,
+     "teaches_false": 3
+    },
+    "agrees": {
+     "sound": 2,
+     "n": 2,
+     "teaches_false": 0
+    }
+   },
+   "within vs cross (all)": {
+    "within": {
+     "weak": 7,
+     "n": 10,
+     "teaches_false": 2,
+     "sound": 3
+    },
+    "cross": {
+     "weak": 22,
+     "n": 30,
+     "teaches_false": 14,
+     "forced": 2,
+     "sound": 6
+    }
+   }
+  }
+ },
+ "calibration": {
+  "g1": {
+   "n": 2,
+   "exact": 1,
+   "sound_agree": 1
+  },
+  "g2": {
+   "n": 2,
+   "exact": 2,
+   "sound_agree": 2
+  }
+ },
+ "between_graders": {
+  "g1|g2": {
+   "n": 20,
+   "exact": 19,
+   "kappa_grade": 0.8816568047337277,
+   "kappa_sound": 0.857142857142857,
+   "kappa_teaches": 0.38144329896907203
+  }
+ },
+ "problems": []
+}
