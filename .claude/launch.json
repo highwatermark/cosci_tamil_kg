@@ -45,6 +45,21 @@
         "site/nilai"
       ],
       "port": 8819
+    },
+    {
+      "name": "nilai-v4",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-I",
+        "-m",
+        "http.server",
+        "8820",
+        "--bind",
+        "127.0.0.1",
+        "-d",
+        "site/nilai/v4"
+      ],
+      "port": 8820
     }
   ]
 }
