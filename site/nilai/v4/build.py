@@ -258,7 +258,7 @@ for ch in CH:
         a = aid(d)
         if a and a not in used:
             used.append(a)
-for a in [p['img'] for k in ('O4', 'O5') for p in STORY['prologue'][k]['panels']]:
+for a in [p['img'] for p in STORY['epilogue']['E0']['panels']]:
     if a not in used:
         used.append(a)
 IMG.mkdir(exist_ok=True)
@@ -348,8 +348,6 @@ beat('O0', 'pro', 1.8, 0.30, card=0)
 beat('O1', 'pro', 2.0, 0.60)
 beat('O2', 'pro', 2.2, 0.60)
 beat('O3', 'pro', 2.4, 0.60)
-beat('O4', 'pro', 2.6, 0.60)
-beat('O5', 'pro', 2.6, 0.60)
 beat('O6', 'pro', 1.2, 0.60)
 # then the opening proper: one thing, then one link, then the whole graph
 beat('P0', 'intro', 1.5, 0.30, card=0)
@@ -367,6 +365,10 @@ for ci, ch in enumerate(CH):
     beat(p + 'V3', 'verse', 1.3, 0.32, ci)
     beat(p + 'F', 'imagined', 2.4, 0.66, ci, card=0.30)
 beat('Z', 'graph', 1.8, 0.56, card=0)
+# the epilogue: full screen again, the far horizon in one page, what we take with us, and the way on to the atlas
+beat('E0', 'epi', 3.0, 0.60)
+beat('E1', 'epi', 3.2, 0.60)
+beat('E2', 'epi', 2.2, 0.50)
 TOTAL = round(t, 4)
 B = {b['id']: b for b in beats}
 
@@ -498,7 +500,7 @@ for iid, k in tracks.items():
         if b[0] < a[0]:
             fail('track %s runs backwards' % iid)
 
-PRO = {'hero': HERO, 'objs': [], 'tl': {k: [B[k]['start'], B[k]['start'] + B[k]['len']] for k in ('O0', 'O1', 'O2', 'O3', 'O4', 'O5', 'O6')}}
+PRO = {'hero': HERO, 'objs': [], 'tl': {k: [B[k]['start'], B[k]['start'] + B[k]['len']] for k in ('O0', 'O1', 'O2', 'O3', 'O6', 'E0', 'E1', 'E2')}}
 for ch in CH:
     ta, fa = aid(ch['forward']['then']), aid(ch['forward']['future'])
     PRO['objs'].append({'a': sprite_info[ta]['src'], 'b': sprite_info[fa]['src'], 'ar': round(sprite_info[ta]['w'] / sprite_info[ta]['h'], 3),
@@ -609,7 +611,7 @@ def link_card(bid, ch, L, n, sentence):
 
 OP = STORY['opening']
 PR = STORY['prologue']
-cards = ['<article class="card pro" data-beat="O%d" aria-hidden="true"></article>' % k for k in range(7)]
+cards = ['<article class="card pro" data-beat="%s" aria-hidden="true"></article>' % k for k in ('O0', 'O1', 'O2', 'O3', 'O6')]
 cards += [
     ('<article class="card" data-beat="P0"><p class="kick" lang="ta">%s</p><p class="big">%s</p><p class="rd">%s</p></article>'
      % (E(OP['P0']['kick']), E(OP['P0']['big']), E(OP['P0']['body']))),
@@ -646,10 +648,9 @@ for ci, ch in enumerate(CH):
                   '<p class="cite">not from the corpus · the poems’ question, asked again</p></article>') % (
         p, acc, E(st['question']), E(st['meaning'])))
 cards.append(('<article class="card" data-beat="Z"><p class="kick">the walks</p><p class="big">%s</p><p class="rd">%s</p>'
-              '<p class="rd sm">39 verses from %d books in all %d groups, joined by 26 sound links, out of %s in the graph.</p>'
-              '<p class="acts"><button type="button" data-act="menu">Choose a walk</button> '
-              '<button type="button" data-act="top">Start again</button></p></article>')
+              '<p class="rd sm">39 verses from %d books in all %d groups, joined by 26 sound links, out of %s in the graph.</p></article>')
              % (E(STORY['close']['big']), E(STORY['close']['body']), N_CH_BOOKS, N_CH_GROUPS, '{:,}'.format(N_SOUND)))
+cards += ['<article class="card pro" data-beat="%s" aria-hidden="true"></article>' % k for k in ('E0', 'E1', 'E2')]
 if len(cards) != len(beats):
     fail('%d cards for %d beats' % (len(cards), len(beats)))
 
@@ -682,15 +683,28 @@ PROTEXT = ''.join([
     '<div class="pt" data-b="O1"><p class="pbig">%s</p><p class="pbody">%s</p></div>' % (E(PR['O1']['big']), E(PR['O1']['body'])),
     '<div class="pt" data-b="O2"><p class="pbig">%s</p><p class="pbody">%s</p></div>' % (E(PR['O2']['big']), E(PR['O2']['body'])),
     '<div class="pt" data-b="O3"><p class="pbig">%s</p><p class="pbody">%s</p></div>' % (E(PR['O3']['big']), E(PR['O3']['body'])),
-    ''.join('<div class="pt pt4" data-b="%s"><p class="pbig">%s</p><div class="panels">%s</div><p class="pfoot">%s</p></div>' % (
-        k, E(PR[k]['big']),
-        ''.join('<div class="pan"><img alt="" data-src="%s"><p class="pta" lang="ta">%s</p><p class="psrc">%s</p>'
-                '<p class="pread">%s</p><p class="pnow">%s</p></div>' % (sprite_info[q['img']]['src'], E(q['ta']), E(q['src']),
-                                                                       E(q['read']), E(q['now'])) for q in PR[k]['panels']),
-        E(PR[k]['foot'])) for k in ('O4', 'O5')),
     '<div class="pt pt5" data-b="O6"><p class="pbig">%s</p></div>' % E(PR['O6']['big']),
     '<div id="proSt" aria-hidden="true">%s</div>' % ''.join('<div class="st"><b>%s</b><span>%s</span></div>' % (E(a), E(b))
                                                           for a, b in PR['O1']['stations']),
+])
+EP = STORY['epilogue']
+PANEL = ('<div class="pan"><img alt="" data-src="%s"><p class="pta" lang="ta">%s</p><p class="psrc">%s</p>'
+         '<p class="pread">%s</p><p class="pnow">%s</p></div>')
+EPITEXT = ''.join([
+    '<div class="pt pt4 ep" data-b="E0"><p class="pk" lang="ta">%s</p><p class="pbig">%s</p><p class="pbody">%s</p>'
+    '<div class="panels six">%s</div><p class="pfoot">%s</p></div>' % (
+        E(EP['E0']['kick']), E(EP['E0']['big']), E(EP['E0']['sub']),
+        ''.join(PANEL % (sprite_info[q['img']]['src'], E(q['ta']), E(q['src']), E(q['read']), E(q['now'])) for q in EP['E0']['panels']),
+        E(EP['E0']['foot'])),
+    '<div class="pt pt4 ep" data-b="E1"><p class="pbig">%s</p><ol class="ledger">%s</ol><ul class="ledger hz">%s</ul></div>' % (
+        E(EP['E1']['big']),
+        ''.join('<li><span lang="ta">%s</span> %s</li>' % (E(a), E(b)) for a, b in EP['E1']['lines']),
+        ''.join('<li>%s</li>' % E(x) for x in EP['E1']['horizon'])),
+    '<div class="pt ep pend" data-b="E2"><p class="pk" lang="ta">நிலை · Nilai</p><p class="pbig">%s</p><p class="pbody">%s</p>'
+    '<p class="pacts"><a class="pact" href="%s" target="_blank" rel="noopener">%s →</a> '
+    '<button class="pact" type="button" data-act="menu">Choose a walk</button> '
+    '<button class="pact" type="button" data-act="top">Start again</button></p></div>' % (
+        E(EP['E2']['big']), E(EP['E2']['body']), E(EP['E2']['atlas']), E(EP['E2']['atlas_label'])),
 ])
 page = '''<!doctype html>
 <html lang="en">
@@ -714,6 +728,7 @@ page = '''<!doctype html>
   <svg id="proLine" aria-hidden="true"></svg>
   <div id="proObjs" aria-hidden="true"></div>
   %(protext)s
+  %(epitext)s
   <button id="proWatch" type="button">Watch</button>
 </div>
 <div id="app">
@@ -746,7 +761,7 @@ page = '''<!doctype html>
 <script>%(js)s</script>
 </body>
 </html>
-''' % {'css': CSS, 'cards': '\n'.join(cards), 'menu': menu, 'protext': PROTEXT,
+''' % {'css': CSS, 'cards': '\n'.join(cards), 'menu': menu, 'protext': PROTEXT, 'epitext': EPITEXT,
        'data': json.dumps(DATA, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/'), 'js': JS}
 
 out = HERE / 'index.html'

@@ -344,27 +344,37 @@ var stEls=[].slice.call(proSt.children);
 var lineP=svg('path',{fill:'none',stroke:'#e9cf8f','stroke-width':'2',pathLength:'1','stroke-dasharray':'1 1'},proLine);
 var lineF=svg('path',{fill:'none',stroke:'#e9cf8f','stroke-width':'2','stroke-dasharray':'6 8'},proLine);
 $('proWatch').addEventListener('click',function(){ $('watch').click(); });
+proEl.addEventListener('click',function(e){ var b=e.target.closest('button[data-act]'); if(!b) return;
+  if(b.getAttribute('data-act')==='menu') setMenu(true); else { stop(); goto(0); } });
 function inB(T,k){ var t=PRO.tl[k], n=t[1]-t[0]; return seg(T,t[0]+n*.04,t[0]+n*.22)*(1-seg(T,t[1]-n*.16,t[1]-n*.02)); }
+var LED=PT.E1?[].slice.call(PT.E1.querySelectorAll('li')):[];
 function renderPro(T){
-  var tl=PRO.tl, end=tl.O6[1], n5=end-tl.O6[0];
-  var out=seg(T,tl.O6[0]+n5*.35,end);
-  colEl.style.transform=out<1?'translateX('+((1-out)*-70).toFixed(1)+'px)':'';
-  colEl.style.opacity=out<1?out.toFixed(3):'';
-  if(T>=end){ proEl.style.visibility='hidden'; return; }
+  var tl=PRO.tl, end=tl.O6[1], n5=end-tl.O6[0], e0=tl.E0[0], epi=T>=e0-.6, inEp=0, out;
+  if(!epi){ out=seg(T,tl.O6[0]+n5*.35,end);
+    colEl.style.transform=out<1?'translateX('+((1-out)*-70).toFixed(1)+'px)':''; colEl.style.opacity=out<1?out.toFixed(3):'';
+    if(T>=end){ proEl.style.visibility='hidden'; return; } }
+  else { inEp=seg(T,e0-.6,e0+.2); out=1-inEp; colEl.style.transform=''; colEl.style.opacity=(1-inEp).toFixed(3); }
   proEl.style.visibility='visible'; proEl.style.opacity=(1-out).toFixed(3);
-  var W=proEl.clientWidth, H=proEl.clientHeight, ph=phone;
-  // the paintings push in slowly; the 2526 painting comes up while the year runs
-  var push='scale('+(1.02+.10*seg(T,0,tl.O6[0])).toFixed(4)+')'; heroA.style.transform=heroB.style.transform=push;
-  var n3=tl.O3[1]-tl.O3[0]; heroB.style.opacity=seg(T,tl.O3[0]+n3*.3,tl.O3[0]+n3*.7).toFixed(3);
-  var sc=lerp(.18,.66,seg(T,tl.O0[1]-.5,tl.O1[0]+.3)); if(T>tl.O4[0]-.3) sc=lerp(.66,.86,seg(T,tl.O4[0]-.3,tl.O4[0]+.2));
-  scrim.style.opacity=sc.toFixed(3);
-  // the panels need an even ground, not the painting's bright corner
-  $('scrim2').style.opacity=(seg(T,tl.O4[0],tl.O4[0]+.35)*(1-seg(T,tl.O6[0],tl.O6[0]+.4))*.62).toFixed(3);
+  proEl.classList.toggle('live',epi&&T>=tl.E2[0]);
+  var W=proEl.clientWidth, H=proEl.clientHeight, ph=phone, n3=tl.O3[1]-tl.O3[0];
+  // the paintings: pushing in through the prologue, easing back out through the epilogue
+  var push=epi?1.12-.08*seg(T,e0,tl.E2[1]):1.02+.10*seg(T,0,tl.O6[0]);
+  heroA.style.transform=heroB.style.transform='scale('+push.toFixed(4)+')';
+  heroB.style.opacity=(epi?1:seg(T,tl.O3[0]+n3*.3,tl.O3[0]+n3*.7)).toFixed(3);
+  scrim.style.opacity=(epi?.88:lerp(.18,.66,seg(T,tl.O0[1]-.5,tl.O1[0]+.3))).toFixed(3);
+  // the panels and the ledger need an even ground, not the painting's bright corner
+  $('scrim2').style.opacity=(epi?.64*seg(T,e0-.2,e0+.3):0).toFixed(3);
   // the words
-  Object.keys(PT).forEach(function(k){ var o=k==='O0'?1-seg(T,tl.O0[1]-.5,tl.O0[1]-.1):inB(T,k);
+  Object.keys(PT).forEach(function(k){ var o;
+    if(k==='O0') o=1-seg(T,tl.O0[1]-.5,tl.O0[1]-.1);
+    else if(k==='E2'){ var t=tl.E2, n=t[1]-t[0]; o=seg(T,t[0]+n*.04,t[0]+n*.22); }
+    else o=inB(T,k);
     vis(PT[k],o); PT[k].style.transform='translateY('+((1-o)*16).toFixed(1)+'px)'; });
+  // the ledger writes itself, one line at a time
+  var n1=tl.E1[1]-tl.E1[0];
+  LED.forEach(function(li,i){ var a=tl.E1[0]+n1*.14+i*n1*.038; li.style.opacity=seg(T,a,a+.18).toFixed(3); });
   // the line of two thousand years, and the dashed five hundred more
-  var t1=tl.O1, l=seg(T,t1[0]+.25,t1[0]+1.35), lo=inB(T,'O1');
+  var t1=tl.O1, l=seg(T,t1[0]+.25,t1[0]+1.35), lo=epi?0:inB(T,'O1');
   var y=H*(ph?.86:.80), x0=W*.10, x1=W*.90, xn=lerp(x0,x1,.78);
   lineP.setAttribute('d','M'+x0.toFixed(1)+' '+y.toFixed(1)+' L'+xn.toFixed(1)+' '+y.toFixed(1));
   lineP.setAttribute('stroke-dashoffset',(1-seg(l,0,.8)).toFixed(4));
@@ -373,7 +383,7 @@ function renderPro(T){
   stEls.forEach(function(e,i){ var px=lerp(x0,x1,[0,.26,.52,.78,1][i]); e.style.left=px.toFixed(1)+'px'; e.style.top=(y+12).toFixed(1)+'px';
     vis(e,seg(l,i*.19,i*.19+.12)*lo); });
   // the thirteen things: they come in, they turn into 2526, they leave for the walks
-  var t2=tl.O2, n2=t2[1]-t2[0], leave=seg(T,tl.O4[0],tl.O4[0]+.45), rows=ph?3:2, per=Math.ceil(PO.length/rows);
+  var t2=tl.O2, n2=t2[1]-t2[0], leave=epi?1:seg(T,tl.O6[0],tl.O6[0]+.35), rows=ph?3:2, per=Math.ceil(PO.length/rows);
   var ytop=H*(ph?.47:.44), ybot=H*(ph?.85:.93), hh=Math.min((ybot-ytop)/rows*.86, W/(per+1.2)/1.05);
   PO.forEach(function(p,i){
     var r=Math.floor(i/per), k=i-r*per, cnt=Math.min(per,PO.length-r*per);
@@ -387,7 +397,7 @@ function renderPro(T){
     p.w.style.opacity=ease(e).toFixed(3); p.a.style.opacity=(1-u).toFixed(3); p.b.style.opacity=u.toFixed(3);
   });
   // the year runs while the things turn
-  var yr=seg(T,tl.O3[0]+n3*.25,tl.O3[0]+n3*.85); vis(proYear,inB(T,'O3')); proYear.textContent=String(Math.round(2026+500*ease(yr)));
+  var yr=seg(T,tl.O3[0]+n3*.25,tl.O3[0]+n3*.85); vis(proYear,epi?0:inB(T,'O3')); proYear.textContent=String(Math.round(2026+500*ease(yr)));
 }
 
 /* ---------- the 2526 stage: the year runs forward, the room cools, a window opens on the imagined world ---------- */

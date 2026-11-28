@@ -179,3 +179,43 @@ button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
   #proSt span{display:none}
 }
 #scrim2{position:absolute;inset:0;background:#120f0b;opacity:0}
+/* epilogue */
+#pro.live .pact{pointer-events:auto}
+.panels.six{grid-template-columns:repeat(3,1fr);row-gap:20px;margin-top:14px}
+.panels.six .pan{display:grid;grid-template-columns:clamp(64px,7vw,104px) 1fr;column-gap:14px;align-items:start}
+.panels.six .pan img{grid-row:1/span 4;height:clamp(80px,13vh,130px);width:100%;margin:0;object-position:center bottom}
+.panels.six .pta{font-size:clamp(14px,1.1vw,16px)}
+.panels.six .pread{font-size:clamp(13px,.95vw,14.5px)}
+.panels.six .pnow{font-size:clamp(14px,1vw,15.5px)}
+.ep .pbody{margin-bottom:6px}
+.ledger{list-style:none;margin:16px 0 0;padding:0;columns:2;column-gap:44px;max-width:1040px}
+.ledger li{display:grid;grid-template-columns:7.2em 1fr;column-gap:10px;font:400 clamp(16px,1.35vw,20px)/1.45 var(--serif);color:#f4ecdf;margin:0 0 10px;break-inside:avoid;opacity:0}
+.ledger li span{font:600 .82em/1.75 var(--tamil);color:#e9cf8f}
+.ledger.hz li{display:block}
+.ledger.hz{columns:1;margin-top:18px;border-top:1px solid rgba(233,207,143,.35);padding-top:14px}
+.ledger.hz li{font-style:italic;color:#fff}
+#pro .pend{top:30vh}
+.pacts{margin-top:26px!important;display:flex;flex-wrap:wrap;gap:12px}
+.pact{font:600 13px/1 var(--sans);color:#16130f;background:#e9cf8f;border:1px solid #e9cf8f;border-radius:999px;padding:11px 18px;text-decoration:none;cursor:pointer}
+button.pact{background:transparent;color:#f4ecdf}
+.pact:focus-visible{outline:2px solid #fff;outline-offset:2px}
+@media (max-width:700px),(max-aspect-ratio:9/10){
+  .panels.six{grid-template-columns:1fr;row-gap:8px}
+  .panels.six .pan img{height:56px;width:48px}
+  .panels.six .pan{grid-template-columns:48px 1fr}
+  .panels.six .pread{display:none}
+  #pro [data-b="E0"] .pbody,#pro [data-b="E0"] .pfoot{display:none}
+  #pro [data-b="E0"] .pk{font-size:11px}
+  .panels.six{row-gap:10px}
+  .panels.six .pan img{height:50px;width:44px}
+  .panels.six .pan{grid-template-columns:44px 1fr;column-gap:10px}
+  .panels.six .pta{font-size:13px;line-height:1.35;margin-bottom:1px}
+  .panels.six .psrc{font-size:10px;margin-bottom:2px}
+  .panels.six .pnow{font-size:12.5px;line-height:1.35}
+  .ep .pbody{font-size:13.5px}
+  .ledger{columns:1;margin-top:8px}
+  .ledger li{font-size:13.5px;margin-bottom:4px}
+  .ledger li{grid-template-columns:6.4em 1fr}
+  .ledger.hz{margin-top:8px;padding-top:8px}
+  #pro .pend{top:22vh}
+}
